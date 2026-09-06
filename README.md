@@ -32,7 +32,7 @@ topics/   → 主题页：按教育场景聚合卡片，并做跨书综合
 - [x] 本地书源全部登记：11 个唯一来源（覆盖本地 12 份文件，见 [书源盘点](docs/book-inventory.md)）
 - [x] 网页原型：[打开 `web/index.html`](web/index.html)
 - [ ] 更多主题（家校合作、劳动教育、美育、集体教育……）
-- [ ] 中文扫描 PDF 全文 OCR 完成
+- [ ] 中文扫描 PDF 全文 OCR 完成（《教育箴言》后台进行中，其余已排队）
 - [ ] GitHub Pages 部署
 - [ ] JSON/CSV 导出
 - [ ] skills.sh 发布

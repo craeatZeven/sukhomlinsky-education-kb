@@ -28,11 +28,11 @@
 
 ## 已知待办
 
-- [x] 《苏霍姆林斯基教育箴言》318 页 OCR 完成
-- [x] 已建立 OCR 排队器 `local_working_copy/ocr_sequencer.py`（后台 `pwsh-13`）
-- [ ] 《给教师的建议》574 页 OCR（EasyOCR 排队器进行中）
-- [ ] 五卷本第 1–5 卷 OCR（排队中，共约 4607 页）
-- [ ] MinerU 模型下载完成并验证（若可用将替换/加速后续 OCR）
+- [x] 《苏霍姆林斯基教育箴言》318 页 OCR 完成（EasyOCR）
+- [x] MinerU 3.4.5 安装并验证通过（pipeline + OCR 中文）
+- [x] MinerU 模型缓存已迁至 D 盘（避免 C 盘占满）
+- [ ] 《给教师的建议》574 页 OCR（MinerU 后台任务 `pwsh-15` 进行中）
+- [ ] 五卷本第 1–5 卷 OCR（MinerU 排队中，共约 4607 页）
 - [ ] 核对“选集（第一卷）”与“选集（五卷本）第1卷”是否同版
 - [ ] 下载 Each One Must Shine 全文文本
 - [ ] 建立各中文书“目录/章节/页码”索引

@@ -9,7 +9,7 @@ year: 2009
 url: "https://archive.org/details/EachOneMustShine-EducationalLegacyOfV.A.Sukhomlinsky"
 access_date: "2026-09-06"
 rights_status: in-copyright-short-quotes-only
-status: registered
+status: complete
 ---
 
 # Source: Each One Must Shine
@@ -26,5 +26,5 @@ Alan Cockerill 关于苏霍姆林斯基教育遗产的研究著作，内含大�
 ## 处理状态
 
 - [x] 登记书源
-- [ ] 待下载/抽文本（当前环境直连 Archive.org 超时）
+- [x] 全文文本已下载（经本地代理，`local_working_copy/ocr/each-one-must-shine.txt`）
 - [ ] 待提取书中指向原著的引用索引

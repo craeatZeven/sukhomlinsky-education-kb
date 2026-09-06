@@ -282,59 +282,12 @@
   </div>
 </footer>
 
+<script src="data.js"></script>
 <script>
-/* ===== 数据 ===== */
-const SOURCES = [
-  {slug:"on-education", title:"On Education", lang:"EN", meta:"Progress Publishers 1977 · 英文全文已抽", url:"https://archive.org/details/vasili-sukhomlinsky-on-education-progress-1977"},
-  {slug:"to-children-i-give-my-heart", title:"To Children I Give My Heart", lang:"EN", meta:"Progress Publishers · 英文全文可用", url:"https://archive.org/details/ToChildrenIGiveMyHeart-English-VasilySukhomlinsky"},
-  {slug:"ba-xin-xian-gei-hai-zi-zh", title:"把心献给孩子（中文）", lang:"ZH", meta:"中文 EPUB · 已抽文本", url:"../sources/ba-xin-xian-gei-hai-zi-zh.md"},
-  {slug:"gei-jiao-shi-de-jian-yi-zh", title:"给教师的建议（杜殿坤 编译）", lang:"ZH", meta:"中文扫描 PDF · OCR 进行中", url:"../sources/gei-jiao-shi-de-jian-yi-zh.md"},
-  {slug:"jiao-yu-zhen-yan-zh", title:"苏霍姆林斯基教育箴言（朱永新 编）", lang:"ZH", meta:"中文扫描 PDF · OCR 后台进行中", url:"../sources/jiao-yu-zhen-yan-zh.md"},
-  {slug:"xuan-ji-zh-vol1", title:"选集（五卷本）第 1 卷", lang:"ZH", meta:"中文扫描 PDF · 含重复文件待核", url:"../sources/xuan-ji-zh-vol1.md"},
-  {slug:"xuan-ji-zh-vol2", title:"选集（五卷本）第 2 卷", lang:"ZH", meta:"中文扫描 PDF", url:"../sources/xuan-ji-zh-vol2.md"},
-  {slug:"xuan-ji-zh-vol3", title:"选集（五卷本）第 3 卷", lang:"ZH", meta:"中文扫描 PDF", url:"../sources/xuan-ji-zh-vol3.md"},
-  {slug:"xuan-ji-zh-vol4", title:"选集（五卷本）第 4 卷", lang:"ZH", meta:"中文扫描 PDF", url:"../sources/xuan-ji-zh-vol4.md"},
-  {slug:"xuan-ji-zh-vol5", title:"选集（五卷本）第 5 卷", lang:"ZH", meta:"中文扫描 PDF", url:"../sources/xuan-ji-zh-vol5.md"},
-  {slug:"each-one-must-shine", title:"Each One Must Shine（Alan Cockerill）", lang:"EN", meta:"2009 研究/引文集 · Archive.org 全文", url:"https://archive.org/details/EachOneMustShine-EducationalLegacyOfV.A.Sukhomlinsky"}
-];
-
-const TOPICS = [
-  {
-    slug:"learning-difficulties", title:"学习困难学生", aliases:"后进生 · 学业落后 · slow learners",
-    summary:"苏霍姆林斯基如何理解与帮助学习困难学生：不归因于孩子“笨”，而从健康、教育路径、思维训练与长期个别化工作入手。",
-    core:["学业落后不等于孩子不可救药，也不应被归因于“笨”（sk-0003）。","后进生应在普通学校被接纳，而不是隔离或贴标签（sk-0001）。","教育失灵常因路径错了：只纠错、不发展积极潜能（sk-0003）。","大量学业失败背后有健康与家庭协同问题（sk-0005）。"],
-    methods:["先做健康与生活排查，家校医协同（sk-0005）","先恢复“可教性”，不吼叫、不说教、给额外帮助（sk-0002）","从积极潜能入手，不以“纠错”为主线（sk-0003）","保护尊严，不羞辱、不公开比较（sk-0001）","用谜题/多步任务训练“在头脑中记住 2–4 步”（sk-0007, sk-0008）","系统投入并记录长期进步，接受不同节奏（sk-0004, sk-0006）"],
-    cross:"On Education 提供理论/原则/方法，To Children I Give My Heart 提供课堂实践与个例。两本书共同指向：不把落后归因于天性，而从教育过程、健康、思维训练与长期个别化工作中寻找出路。"
-  }
-];
-
-const CARDS = [
-  {id:"sk-0001", type:"quote", title:"后进生是花园里最娇嫩的花", source:"on-education", topics:["learning-difficulties"],
-   excerpt:"These children are not ugly, merely the frailest and most delicate of all the flowers in mankind's infinitely various garden.",
-   cn:"反对隔离设校；孩子的薄弱不是他们自己的过错，需要普通学校内的接纳与帮助。", ref:"On Education (1977), Foreword, p.22"},
-  {id:"sk-0002", type:"method", title:"先让孩子变得“可教”，而不是吼叫与说教", source:"on-education", topics:["learning-difficulties"],
-   excerpt:"Before a child can be educated he has to be rendered educable.",
-   cn:"先判断孩子是否处于能听进教师话语的状态；对弱生不吼叫，而是给额外帮助。", ref:"On Education (1977), p.34"},
-  {id:"sk-0003", type:"principle", title:"教育失灵不是孩子不可救药，而是路径错了", source:"on-education", topics:["learning-difficulties"],
-   excerpt:"The reason for a teacher's helplessness ... does not lie in the fact that the pupil is beyond improvement, but that the actual education process is not proceeding along the right path.",
-   cn:"只盯着“纠错/防错”是失败根源；应从第一天起发现并发展孩子的积极潜能。", ref:"On Education (1977), p.72"},
-  {id:"sk-0004", type:"case", title:"两年把低识字率减半的第一次“战役”", source:"on-education", topics:["learning-difficulties"],
-   excerpt:"Two years' intensive work enabled Sukhomlinsky to cut down the numbers with a low literacy rating by half.",
-   cn:"后进问题可被系统、持续、专门的工作显著改善，不是靠奇迹。", ref:"On Education (1977), Foreword, p.25"},
-  {id:"sk-0005", type:"principle", title:"85% 学业失败的首要原因是健康", source:"on-education", topics:["learning-difficulties"],
-   excerpt:"in 85 per cent of cases where children are doing badly at school, the main reason for backwardness is poor health.",
-   cn:"排查学业落后时先看健康、作息、饮食；需要母亲、父亲、医生、教师协同。", ref:"On Education (1977), p.114"},
-  {id:"sk-0006", type:"case", title:"瓦尔娅、彼得里克与谜题：慢学习者的六个月", source:"to-children-i-give-my-heart", topics:["learning-difficulties"],
-   excerpt:"In six months, Valya and Slava could solve such problems, but Petrik and Nina still had no luck.",
-   cn:"同一方法对不同慢学习者效果不同；进步是渐进的，需要记录与继续研究。", ref:"To Children I Give My Heart, pp.82-83"},
-  {id:"sk-0007", type:"quote", title:"思维必须被教会，否则孩子只会死记硬背", source:"to-children-i-give-my-heart", topics:["learning-difficulties"],
-   excerpt:"The ability to think must be taught, or otherwise the children will strain their memories and cram, dulling their thoughts even more.",
-   cn:"慢学习不能靠加码背诵；思维本身是需要教学的能力。", ref:"To Children I Give My Heart, p.83"},
-  {id:"sk-0008", type:"practice", title:"用民间谜题单独训练“思维步数”", source:"to-children-i-give-my-heart", topics:["learning-difficulties"],
-   excerpt:"I gave them simple folk riddles designed to deepen comprehension of natural numbers ... The children had to remember from two to four 'moves' to solve each of them.",
-   cn:"把思维过程拆成可记忆的“步数”，单独小组、长期推进。", ref:"To Children I Give My Heart, pp.82-83"}
-];
-
+/* ===== 数据来自 web/data.js（由 scripts/build_site.py 自动生成）===== */
+const SOURCES = (window.KB_DATA && window.KB_DATA.sources) || [];
+const TOPICS = (window.KB_DATA && window.KB_DATA.topics) || [];
+const CARDS = (window.KB_DATA && window.KB_DATA.cards) || [];
 const TYPE_LABELS = {quote:"quote 语录", case:"case 案例", principle:"principle 原则", method:"method 方法", practice:"practice 实践"};
 
 /* ===== 渲染 ===== */
@@ -349,7 +302,7 @@ function renderSources(){
       <div class="lang">${s.lang}</div>
       <h3>${s.title}</h3>
       <div class="meta">${s.meta}</div>
-      <a class="md-link" target="_blank" rel="noopener" href="${s.url}">查看来源记录 ↗</a>
+      <a class="md-link" target="_blank" rel="noopener" href="${s.url || '../sources/' + s.slug + '.md'}">查看来源记录 ↗</a>
     </div>`).join("");
 }
 function renderTopics(){

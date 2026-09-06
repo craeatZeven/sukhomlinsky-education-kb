@@ -6,8 +6,8 @@
 
 | Slug | 标题 | 卡片数 |
 |---|---|---|
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 14 |
-| [family-school](topics/family-school.md) | 家校合作 | 7 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 15 |
+| [family-school](topics/family-school.md) | 家校合作 | 8 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 5 |
 | [health-first](topics/health-first.md) | 健康第一 | 5 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 5 |
@@ -15,6 +15,7 @@
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 7 |
 | [love-education](topics/love-education.md) | 爱的教育 | 5 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 5 |
+| [child-study](topics/child-study.md) | 儿童研究 | 5 |
 
 ## 来源 Sources
 
@@ -84,3 +85,8 @@
 | [sk-0046](cards/sk-0046-no-signature-in-grade-book.md) | quote | assessment-grading / family-school | ba-xin-xian-gei-hai-zi-zh | 不要求家长在记分册签名，信任比监督更重要 |
 | [sk-0047](cards/sk-0047-unfair-grades-breed-dishonesty.md) | principle | assessment-grading | ba-xin-xian-gei-hai-zi-zh | 不公平的低分是孩子撒谎与欺骗的温床 |
 | [sk-0048](cards/sk-0048-avoid-comparisons-in-assessment.md) | method | assessment-grading / learning-difficulties | on-education | 评价时避免“谁好谁差”的公开比较 |
+| [sk-0049](cards/sk-0049-know-children-know-families.md) | quote | child-study | ba-xin-xian-gei-hai-zi-zh | 要了解孩子，就要清楚了解他的家庭 |
+| [sk-0050](cards/sk-0050-home-visits-before-school.md) | practice | child-study / family-school | ba-xin-xian-gei-hai-zi-zh | 开学前几周，先熟悉每一个家庭 |
+| [sk-0051](cards/sk-0051-backward-child-closed-book.md) | quote | child-study / learning-difficulties | on-education | 对很多教师来说，后进生是一本紧闭的书 |
+| [sk-0052](cards/sk-0052-fairness-requires-intimate-knowledge.md) | principle | child-study | on-education | 真正的公平来自对每个儿童内心世界的深入了解 |
+| [sk-0053](cards/sk-0053-early-environment-affects-curiosity.md) | principle | child-study | ba-xin-xian-gei-hai-zi-zh | 学龄前缺乏照看与信息，会熄灭好奇心 |

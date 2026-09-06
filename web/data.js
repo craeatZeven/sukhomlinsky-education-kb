@@ -122,6 +122,27 @@ window.KB_DATA = {
       "cross": "- 中文《把心献给孩子》集中呈现苏霍姆林斯基的评分伦理：只评积极成果、不用分数告状、不靠签名监督、用信任代替防范（sk-0044~sk-0047）。"
     },
     {
+      "slug": "child-study",
+      "title": "儿童研究",
+      "aliases": "研究儿童 · 了解儿童 · 儿童观察",
+      "summary": "苏霍姆林斯基把“研究儿童”视为教育的前提：了解家庭、追溯早期环境、进入儿童内心世界，才能在公平与个别化基础上展开真正教育。",
+      "core": [
+        "要了解孩子，就要清楚了解他的家庭（参见 sk-0049）。",
+        "帕夫雷什在开学前就逐户熟悉每个家庭，识别谁缺少幸福与尊重（参见 sk-0050）。",
+        "很多后进生是一本“紧闭的书”，不进入其内心世界就无法谈敏感与教育（参见 sk-0051）。",
+        "真正的公平来自对每个儿童内心世界的深入了解，而不是抽象规则（参见 sk-0052）。",
+        "学龄前缺少照看与信息会熄灭好奇心；教育干预需要追溯早期经验（参见 sk-0053）。"
+      ],
+      "methods": [
+        "**建立“家庭背景”视角**：了解学生的家庭结构、亲子关系与养育方式（参见 sk-0049）。",
+        "**入学前做家访/家庭访谈**：提前识别缺少温暖、尊重或稳定照看的孩子（参见 sk-0050）。",
+        "**把后进生当“需要读懂的书”**：先研究其思维特点与内心世界，再谈教学与帮助（参见 sk-0051）。",
+        "**用个案理解支撑公平**：处理公平争议时，先问自己是否真正了解每个孩子的处境（参见 sk-0052）。",
+        "**追溯早期经验**：对冷漠/无兴趣学生，了解其学龄前照看与信息环境，设计补偿性干预（参见 sk-0053）。"
+      ],
+      "cross": "- 中文《把心献给孩子》提供“了解家庭、逐户家访、追溯早期环境”的实践路径（sk-0049、sk-0050、sk-0053）。"
+    },
+    {
       "slug": "collective-education",
       "title": "集体教育",
       "aliases": "班集体 · 集体建设 · 平行影响",
@@ -845,6 +866,68 @@ window.KB_DATA = {
       "excerpt": "We spared the feelings of adolescent pupils by avoiding comparisons, telling pupils that some were doing well and others badly. Assessing the intellectual performance of pupils with varying abilities demands considerable tact.",
       "cn": "苏霍姆林斯基指出，对能力不同的学生进行学业评价需要高度 tact（分寸感）。他们避免公开说“谁好谁差”，因为比较会伤害学生的自尊与学习动力。",
       "ref": "On Education (Progress Publishers, 1977), EPUB page 77"
+    },
+    {
+      "id": "sk-0049",
+      "type": "quote",
+      "title": "要了解孩子，就要清楚了解他的家庭",
+      "source": "ba-xin-xian-gei-hai-zi-zh",
+      "topics": [
+        "child-study"
+      ],
+      "excerpt": "为了能够很好地了解孩子们，就需要清楚地了解他们的家庭：父亲、母亲、兄弟、姐妹和祖父母等。",
+      "cn": "苏霍姆林斯基把“了解家庭”作为“了解儿童”的前提。孩子不是孤立个体，他来自具体的家庭关系网络；教师若只盯着课堂表现，就难以理解孩子行为背后的原因。",
+      "ref": "把心献给孩子（中文），《我的学生家长》"
+    },
+    {
+      "id": "sk-0050",
+      "type": "practice",
+      "title": "开学前几周，先熟悉每一个家庭",
+      "source": "ba-xin-xian-gei-hai-zi-zh",
+      "topics": [
+        "child-study",
+        "family-school"
+      ],
+      "excerpt": "在“快乐学校”开学前的几周，我熟悉了每个家庭的状况。令我感到担忧的是，在有些家庭中家长和孩子之间、父母彼此之间相处得并不融洽，也缺乏相互尊重，致使孩子无法过上幸福的生活。",
+      "cn": "帕夫雷什的做法是在开学前逐户家访，系统了解每个家庭。这不只是礼貌性走访，而是为了发现哪些孩子缺少幸福与尊重，以便提前准备教育支持。",
+      "ref": "把心献给孩子（中文），《我的学生家长》"
+    },
+    {
+      "id": "sk-0051",
+      "type": "quote",
+      "title": "对很多教师来说，后进生是一本紧闭的书",
+      "source": "on-education",
+      "topics": [
+        "child-study",
+        "learning-difficulties"
+      ],
+      "excerpt": "For many, very many teachers the backward child is a tightly closed book. If a teacher cannot see into a child's heart, and understand his own particular thought patterns and way of looking at the world around him, any talk of sensitivity is futile.",
+      "cn": "后进生之所以“难教”，首先因为教师没有真正读到他这本“紧闭的书”。不理解孩子独特的思维方式和世界观，任何所谓敏感与技巧都无从谈起。",
+      "ref": "On Education (Progress Publishers, 1977), EPUB page 63"
+    },
+    {
+      "id": "sk-0052",
+      "type": "principle",
+      "title": "真正的公平来自对每个儿童内心世界的深入了解",
+      "source": "on-education",
+      "topics": [
+        "child-study"
+      ],
+      "excerpt": "Fairness is the basis for a child's trust in his educator. However, there is no such thing as abstract fairness outside individuals, outside personal interests, passions and urges. In order to be fair a teacher must have an intimate knowledge of each child's inner world.",
+      "cn": "苏霍姆林斯基认为没有脱离具体个人的“抽象公平”。教师若不了解每个孩子的兴趣、情感与内心世界，就无法真正做到公平；教育就是不断加深对每个孩子的认识。",
+      "ref": "On Education (Progress Publishers, 1977), EPUB page 66"
+    },
+    {
+      "id": "sk-0053",
+      "type": "principle",
+      "title": "学龄前缺乏照看与信息，会熄灭好奇心",
+      "source": "ba-xin-xian-gei-hai-zi-zh",
+      "topics": [
+        "child-study"
+      ],
+      "excerpt": "我开始留意考察每个孩子从出生到上学期间的家庭环境，结果我发现了一些有意思的规律。如果孩子在学龄前无人照看，或大人未给孩子提供正常成长环境所必需的大量信息，那么孩子的大脑就会常常处在消极的状态：好奇心和求知欲消失，态度也愈加冷漠。",
+      "cn": "苏霍姆林斯基通过长期观察发现：学龄前缺少照看和丰富信息，会使大脑长期处于消极状态，表现为好奇心和求知欲消失、态度冷漠。儿童研究要追溯“入学前发生了什么”。",
+      "ref": "把心献给孩子（中文），《三百页〈大自然的书〉》"
     }
   ]
 };

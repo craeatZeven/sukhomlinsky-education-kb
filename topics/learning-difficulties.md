@@ -21,6 +21,7 @@ card_ids:
   - sk-0023
   - sk-0032
   - sk-0048
+  - sk-0051
 source_ids:
   - on-education
   - to-children-i-give-my-heart
@@ -74,6 +75,7 @@ updated: "2026-09-06"
 | sk-0023 | method | 睡前长时间做作业，孩子会开始落后 |
 | sk-0032 | method | 孩子对一切冷漠时，为他匹配一位热忱的教师/同伴 |
 | sk-0048 | method | 评价时避免“谁好谁差”的公开比较 |
+| sk-0051 | quote | 对很多教师来说，后进生是一本紧闭的书 |
 
 ## 跨书综合
 

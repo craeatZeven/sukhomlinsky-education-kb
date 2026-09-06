@@ -15,6 +15,7 @@ card_ids:
   - sk-0006
   - sk-0007
   - sk-0008
+  - sk-0012
 source_ids:
   - on-education
   - to-children-i-give-my-heart
@@ -62,6 +63,7 @@ updated: "2026-09-06"
 | sk-0006 | case | 瓦尔娅、彼得里克与谜题：慢学习者的六个月 |
 | sk-0007 | quote | 思维必须被教会，否则孩子只会死记硬背 |
 | sk-0008 | practice | 用民间谜题单独训练“思维步数” |
+| sk-0012 | principle | 85% 学业落后与健康有关，需要家校医合力（中文版） |
 
 ## 跨书综合
 

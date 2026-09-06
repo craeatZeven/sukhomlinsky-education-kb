@@ -6,7 +6,8 @@
 
 | Slug | 标题 | 卡片数 |
 |---|---|---|
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 8 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 9 |
+| [family-school](topics/family-school.md) | 家校合作 | 5 |
 
 ## 来源 Sources
 
@@ -36,3 +37,8 @@
 | [sk-0006](cards/sk-0006-slow-learners-riddle-cases.md) | case | learning-difficulties | to-children-i-give-my-heart | 瓦尔娅、彼得里克与谜题：慢学习者的六个月 |
 | [sk-0007](cards/sk-0007-thinking-must-be-taught.md) | quote | learning-difficulties | to-children-i-give-my-heart | 思维必须被教会，否则孩子只会死记硬背 |
 | [sk-0008](cards/sk-0008-folk-riddles-train-moves.md) | practice | learning-difficulties | to-children-i-give-my-heart | 用民间谜题单独训练“思维步数” |
+| [sk-0009](cards/sk-0009-child-is-mirror-of-parents-morality.md) | quote | family-school | ba-xin-xian-gei-hai-zi-zh | 孩子是父母道德生活的一面镜子 |
+| [sk-0010](cards/sk-0010-teacher-and-parents-work-together.md) | principle | family-school | ba-xin-xian-gei-hai-zi-zh | 教师只有与父母一同努力，才能带给孩子巨大幸福 |
+| [sk-0011](cards/sk-0011-parent-school-before-school-age.md) | practice | family-school | ba-xin-xian-gei-hai-zi-zh | 家长培训班：在孩子入学前就培训家长 |
+| [sk-0012](cards/sk-0012-health-needs-home-school-doctor.md) | principle | family-school / learning-difficulties | ba-xin-xian-gei-hai-zi-zh | 85% 学业落后与健康有关，需要家校医合力 |
+| [sk-0013](cards/sk-0013-school-cannot-replace-family.md) | quote | family-school | on-education | 学校不能完全取代家庭，教师要对缺失温暖的孩子格外留心 |

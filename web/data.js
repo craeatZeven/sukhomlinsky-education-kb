@@ -81,6 +81,25 @@ window.KB_DATA = {
   ],
   "topics": [
     {
+      "slug": "family-school",
+      "title": "家校合作",
+      "aliases": "家长学校 · 家校共育 · 家庭教育",
+      "summary": "苏霍姆林斯基把家庭视为教育系统中不可替代的一环：父母是孩子的第一任老师，学校必须与家庭同向同行，必要时承担补偿性关怀。",
+      "core": [
+        "孩子是父母道德生活的一面镜子；父母日常的善良与对他人的关心，会“毫不费力”地成为孩子的道德底色（参见 sk-0009）。",
+        "学校与家长的任务一致：让每个孩子感到幸福；教师只有与父母一同努力才能做到（参见 sk-0010）。",
+        "学校不能完全取代家庭，尤其不能替代母亲/亲情；但若孩子在家缺少温暖，教师必须格外留心并补偿（参见 sk-0013）。",
+        "学业落后与健康问题往往需要家庭、学校、医生三方合力（参见 sk-0012）。"
+      ],
+      "methods": [
+        "**入学前就开始“家长学校”**：面向 2–6 岁儿童家长，系统教授身体、心理、智力、道德、审美发展与“如何教孩子思考”（参见 sk-0011）。",
+        "**把家校关系从“孩子出问题再找家长”提前为“共同培养人”**：先对齐幸福与成人的目标，再谈具体方法（参见 sk-0010）。",
+        "**个案协同**：学业落后时把家长、医生、教师放在同一张桌子上排查健康因素（参见 sk-0012）。",
+        "**对家庭功能缺失的孩子主动补偿**：学校不能替代家庭，但教师应对缺少温暖的孩子更细心、更关注（参见 sk-0013）。"
+      ],
+      "cross": "- 中文《把心献给孩子》提供了家庭镜像、家长学校、家校医协同等直接材料（sk-0009~sk-0012）。"
+    },
+    {
       "slug": "learning-difficulties",
       "title": "学习困难学生",
       "aliases": "后进生 · 学业落后 · slow learners",
@@ -197,6 +216,67 @@ window.KB_DATA = {
       "excerpt": "I started to work separately with my slow learners. I gave them simple folk riddles designed to deepen comprehension of natural numbers and to determine the interdependence of numbers... The children had to remember from two to four \"moves\" to solve each of them.",
       "cn": "实践要点：",
       "ref": "To Children I Give My Heart, Part “The Years of Childhood”, pp. 82–83"
+    },
+    {
+      "id": "sk-0009",
+      "type": "quote",
+      "title": "孩子是父母道德生活的一面镜子",
+      "source": "ba-xin-xian-gei-hai-zi-zh",
+      "topics": [
+        "family-school"
+      ],
+      "excerpt": "孩子是父母道德生活的一面镜子。我曾思考过每个家庭的利和弊。好父母最有价值且毫不费力就能灌输给子女的道德品质是父母内心的善良和善待他人的能力。",
+      "cn": "孩子不是靠听父母“讲道理”长大的，而是通过观察父母如何对待他人、如何生活形成最初的道德面貌。父母内心真正的善良会“毫不费力”地传递给孩子；反之，利己主义与盲目溺爱也会成为祸根。",
+      "ref": "把心献给孩子（中文），《我的学生家长》"
+    },
+    {
+      "id": "sk-0010",
+      "type": "principle",
+      "title": "教师只有与父母一同努力，才能带给孩子巨大幸福",
+      "source": "ba-xin-xian-gei-hai-zi-zh",
+      "topics": [
+        "family-school"
+      ],
+      "excerpt": "孩子是家庭的一面镜子。正如水滴里能映出太阳一样，父母的道德节操也会反映在孩子们的身上。因此，学校和家长们的任务是要让每一个孩子都感到幸福……教师只有与父母一同努力，才能带给孩子们巨大的幸福。",
+      "cn": "学校与家庭不是“交接孩子的两端”，而是共同承担同一任务：让每个孩子感到幸福。幸福不是单靠学校或单靠家庭能完成的，教师必须与父母形成合力。",
+      "ref": "把心献给孩子（中文），《我的学生家长》"
+    },
+    {
+      "id": "sk-0011",
+      "type": "practice",
+      "title": "家长培训班：在孩子入学前就培训家长",
+      "source": "ba-xin-xian-gei-hai-zi-zh",
+      "topics": [
+        "family-school"
+      ],
+      "excerpt": "为了关注学龄前儿童的状况，我们成立了家长培训班，请2～6岁大儿童的家长来学习……我们力求让家长学到一定的知识和技能。家长培训学校的课程特别关注这样一个问题，就是如何教孩子思考、通过什么途径提高孩子的智力……我们还与家长们一起制订了一个关于学龄前儿童走进大自然的计划……我们还非常注重，让每一个有学龄前儿童的家庭能够营造出浓厚的读书氛围。",
+      "cn": "帕夫雷什中学的“家长学校/家长培训班”在孩子入学前就已开始，面向 2–6 岁儿童的家长。内容覆盖身体、心理、智力、道德、审美发展，特别教家长如何应对孩子的提问、如何带孩子走进自然、如何营造家庭读书氛围。",
+      "ref": "把心献给孩子（中文），《生活习题集里的一千道题》"
+    },
+    {
+      "id": "sk-0012",
+      "type": "principle",
+      "title": "85% 学业落后与健康有关，需要家校医合力",
+      "source": "ba-xin-xian-gei-hai-zi-zh",
+      "topics": [
+        "family-school",
+        "learning-difficulties"
+      ],
+      "excerpt": "经验告诉我们，大约85%成绩不及格的学生之所以学业落后，主要是因为身体状况不佳，身体有某种不适或疾病。而这些身体异常往往完全不被察觉，因此只有在父母、医生和老师的共同努力下，才能治愈这些疾病。",
+      "cn": "这是“85% 学业失败与健康有关”论断的中文版本，与 On Education 中的英文表述相互印证。它说明：当孩子成绩落后时，学校不能只从教学找原因，需要父母、医生、教师三方协同排查健康。",
+      "ref": "把心献给孩子（中文），《大自然是健康之源》"
+    },
+    {
+      "id": "sk-0013",
+      "type": "quote",
+      "title": "学校不能完全取代家庭，教师要对缺失温暖的孩子格外留心",
+      "source": "on-education",
+      "topics": [
+        "family-school"
+      ],
+      "excerpt": "School cannot fully take the place of the family, in particular a child's mother, but if a child is deprived of kind concern, warmth and care at home, we teachers must be particularly attentive to his needs.",
+      "cn": "苏霍姆林斯基承认学校无法完全替代家庭，尤其是母亲的角色；正因如此，当孩子在家中缺少温暖与关怀时，教师更要格外关注他的需要。",
+      "ref": "On Education (Progress Publishers, 1977), EPUB page 67（The Need to Understand the Workings of the Child's Heart）"
     }
   ]
 };

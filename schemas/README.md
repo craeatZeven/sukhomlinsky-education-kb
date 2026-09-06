@@ -18,6 +18,7 @@
 slug: on-education
 title: "On Education"
 author: "Vasili Sukhomlinsky"
+lang: en
 translator: "Katharine Judelson"
 publisher: "Progress Publishers"
 year: 1977
@@ -33,7 +34,8 @@ status: registered
 | slug | ✅ | 小写连字符 |
 | title | ✅ | 书名 |
 | author | ✅ | 作者 |
-| translator | 可选 | 译者 |
+| lang | 可选 | `en` / `zh` / `ru` / `uk` |
+| translator | 可选 | 译者/编译者 |
 | publisher | 可选 | 出版社 |
 | year | 可选 | 出版年 |
 | url | 可选 | 在线来源 |

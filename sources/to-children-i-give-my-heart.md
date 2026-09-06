@@ -2,6 +2,7 @@
 slug: to-children-i-give-my-heart
 title: "To Children I Give My Heart"
 author: "Vasily Sukhomlinsky"
+lang: en
 translator: "Holly Smith"
 publisher: "Progress Publishers"
 year: 

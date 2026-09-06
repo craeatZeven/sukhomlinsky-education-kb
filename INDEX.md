@@ -14,6 +14,14 @@
 |---|---|---|---|
 | [on-education](sources/on-education.md) | On Education (1977, Progress Publishers) | 英文 | registered |
 | [to-children-i-give-my-heart](sources/to-children-i-give-my-heart.md) | To Children I Give My Heart | 英文 | registered |
+| [ba-xin-xian-gei-hai-zi-zh](sources/ba-xin-xian-gei-hai-zi-zh.md) | 把心献给孩子（中文） | 中文 EPUB 已抽文本 | registered |
+| [gei-jiao-shi-de-jian-yi-zh](sources/gei-jiao-shi-de-jian-yi-zh.md) | 给教师的建议（杜殿坤 编译） | 中文扫描 PDF | registered |
+| [jiao-yu-zhen-yan-zh](sources/jiao-yu-zhen-yan-zh.md) | 苏霍姆林斯基教育箴言（朱永新 编） | 中文扫描 PDF | registered |
+| [xuan-ji-zh-vol1](sources/xuan-ji-zh-vol1.md) | 苏霍姆林斯基选集（五卷本）第1卷 | 中文扫描 PDF | registered |
+| [xuan-ji-zh-vol2](sources/xuan-ji-zh-vol2.md) | 苏霍姆林斯基选集（五卷本）第2卷 | 中文扫描 PDF | registered |
+| [xuan-ji-zh-vol3](sources/xuan-ji-zh-vol3.md) | 苏霍姆林斯基选集（五卷本）第3卷 | 中文扫描 PDF | registered |
+| [xuan-ji-zh-vol4](sources/xuan-ji-zh-vol4.md) | 苏霍姆林斯基选集（五卷本）第4卷 | 中文扫描 PDF | registered |
+| [xuan-ji-zh-vol5](sources/xuan-ji-zh-vol5.md) | 苏霍姆林斯基选集（五卷本）第5卷 | 中文扫描 PDF | registered |
 
 ## 卡片 Cards
 

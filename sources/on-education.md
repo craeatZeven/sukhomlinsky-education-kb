@@ -2,6 +2,7 @@
 slug: on-education
 title: "On Education"
 author: "Vasili Sukhomlinsky"
+lang: en
 translator: "Katharine Judelson"
 publisher: "Progress Publishers"
 year: 1977

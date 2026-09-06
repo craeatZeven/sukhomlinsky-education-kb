@@ -12,6 +12,8 @@ card_ids:
   - sk-0036
   - sk-0037
   - sk-0038
+  - sk-0041
+  - sk-0042
 source_ids:
   - on-education
   - ba-xin-xian-gei-hai-zi-zh
@@ -58,6 +60,8 @@ updated: "2026-09-06"
 | sk-0036 | quote | 小学教师对孩子必须像母亲一样亲近 |
 | sk-0037 | principle | 教师不仅是导师，也是朋友和同伴 |
 | sk-0038 | principle | 真正的教师即使批评，也不扑灭孩子“还有目标要追”的念头 |
+| sk-0041 | quote | 教育者的爱：厚爱 + 明智的严厉 + 父母般的严格要求 |
+| sk-0042 | method | 察觉孩子不对劲时，不要当众立刻追问 |
 
 ## 跨书综合
 

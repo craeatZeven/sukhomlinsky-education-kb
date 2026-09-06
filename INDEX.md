@@ -12,7 +12,8 @@
 | [health-first](topics/health-first.md) | 健康第一 | 5 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 5 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 5 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 5 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 7 |
+| [love-education](topics/love-education.md) | 爱的教育 | 5 |
 
 ## 来源 Sources
 
@@ -72,3 +73,8 @@
 | [sk-0036](cards/sk-0036-teacher-must-be-close-like-mother.md) | quote | teacher-growth | ba-xin-xian-gei-hai-zi-zh | 小学教师对孩子必须像母亲一样亲近 |
 | [sk-0037](cards/sk-0037-teacher-friend-not-only-lecturer.md) | principle | teacher-growth | ba-xin-xian-gei-hai-zi-zh | 教师不仅是导师，也是朋友和同伴 |
 | [sk-0038](cards/sk-0038-reproof-must-not-stifle-goal.md) | principle | teacher-growth | on-education | 真正的教师即使批评，也不扑灭孩子“还有目标要追”的念头 |
+| [sk-0039](cards/sk-0039-give-your-heart-to-children.md) | quote | love-education | ba-xin-xian-gei-hai-zi-zh | 要成为真正的儿童教育者，就必须把自己的心奉献给他们 |
+| [sk-0040](cards/sk-0040-love-bestows-happiness-not-indulgence.md) | principle | love-education | on-education | 爱不是溺爱，而是让孩子获得幸福与自信 |
+| [sk-0041](cards/sk-0041-humanity-love-and-wise-strictness.md) | quote | love-education / teacher-growth | ba-xin-xian-gei-hai-zi-zh | 教育者的爱：厚爱 + 明智的严厉 + 父母般的严格要求 |
+| [sk-0042](cards/sk-0042-notice-child-distress-ask-later-privately.md) | method | love-education / teacher-growth | on-education | 察觉孩子不对劲时，不要当众立刻追问 |
+| [sk-0043](cards/sk-0043-child-deprived-of-love-needs-teacher-more.md) | quote | love-education | ba-xin-xian-gei-hai-zi-zh | 家中缺少疼爱的孩子，教师更要倍加关心 |

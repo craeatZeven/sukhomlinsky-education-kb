@@ -196,6 +196,27 @@ window.KB_DATA = {
       "cross": "- **On Education** 提供了理论立场与方法原则：不隔离、不羞辱、先可教、找积极面、查健康、做长期投入（sk-0001~sk-0005）。"
     },
     {
+      "slug": "love-education",
+      "title": "爱的教育",
+      "aliases": "教育爱 · 把心献给孩子",
+      "summary": "苏霍姆林斯基把“爱孩子”视为教育的起点，但不是情感泛滥或溺爱，而是厚爱与明智严厉结合、让孩子获得真实幸福与自信、对缺少疼爱的孩子加倍关心的实践。",
+      "core": [
+        "真正的儿童教育者必须把自己的心交给孩子（参见 sk-0039）。",
+        "教育爱不是溺爱，而是让孩子通过努力获得幸福、自信与成功体验（参见 sk-0040）。",
+        "教育爱是厚爱与明智严厉、父母般严格要求的结合（参见 sk-0041）。",
+        "爱要体现在细节中：察觉孩子不对劲时不公开追问，先传递“我看见了”，再私下交谈（参见 sk-0042）。",
+        "对家庭中缺少疼爱的孩子，教师更要倍加关心（参见 sk-0043）。"
+      ],
+      "methods": [
+        "**以“真实幸福”检验爱**：不包办、不代劳，让孩子在努力与成功中体验自信（参见 sk-0040）。",
+        "**温暖与要求并行**：爱包含理解和尊重，也包含明智严厉与合理期待（参见 sk-0041）。",
+        "**练习“看见但不打扰”的关怀**：从眼神/状态发现异常，不当众追问，创造私下安全沟通时机（参见 sk-0042）。",
+        "**对缺爱的孩子主动补偿**：不替代家庭，但格外稳定地给予关心与关注（参见 sk-0043）。",
+        "**把“献出心”作为职业起点**：教师自我反思是否真正愿意进入孩子的世界（参见 sk-0039）。"
+      ],
+      "cross": "- 中文《把心献给孩子》从书名到内容都体现“献出心”的主题，并提供“厚爱+严格要求”“补偿缺爱孩子”等表述（sk-0039、sk-0041、sk-0043）。"
+    },
+    {
       "slug": "teacher-growth",
       "title": "教师成长",
       "aliases": "教师素养 · 教师专业发展 · 教育修养",
@@ -679,6 +700,68 @@ window.KB_DATA = {
       "excerpt": "The born teacher even when reproaching a child or expressing dissatisfaction, or giving vent to his anger ... always remembers that he must not stifle the child's idea that there is a goal still to be sought after, a goal that must be attained at all costs.",
       "cn": "教师可以批评、可以不满甚至可以有情绪，但有一条底线：不能扼杀孩子心中“我还有值得追求的目标”的信念。批评若让孩子认定自己无可救药，教育就失败了。",
       "ref": "On Education (Progress Publishers, 1977), EPUB page 72"
+    },
+    {
+      "id": "sk-0039",
+      "type": "quote",
+      "title": "要成为真正的儿童教育者，就必须把自己的心奉献给他们",
+      "source": "ba-xin-xian-gei-hai-zi-zh",
+      "topics": [
+        "love-education"
+      ],
+      "excerpt": "我领悟到：要成为真正的儿童教育者，就必须把自己的心奉献给他们。",
+      "cn": "苏霍姆林斯基在序言中回忆教育家科尔恰克为孩子们牺牲的故事，由此领悟：真正的儿童教育不是职业表演，而是把自己的心交给孩子。",
+      "ref": "把心献给孩子（中文），序言"
+    },
+    {
+      "id": "sk-0040",
+      "type": "principle",
+      "title": "爱不是溺爱，而是让孩子获得幸福与自信",
+      "source": "on-education",
+      "topics": [
+        "love-education"
+      ],
+      "excerpt": "It is possible to love a child to distraction, yet if a child is not getting on well at school love shown him by an adult is not going to make him happy. Love involves bestowing happiness and what happiness can be compared with self-confidence, with joy derived from success in studies?",
+      "cn": "苏霍姆林斯基区分“忘乎所以的爱”与真正的教育之爱：爱不是一味宠溺，而是要帮助孩子获得真实幸福，尤其是通过成功与自信带来的快乐。只有让孩子在自己努力中感到快乐，爱才真正发生作用。",
+      "ref": "On Education (Progress Publishers, 1977), EPUB page 24"
+    },
+    {
+      "id": "sk-0041",
+      "type": "quote",
+      "title": "教育者的爱：厚爱 + 明智的严厉 + 父母般的严格要求",
+      "source": "ba-xin-xian-gei-hai-zi-zh",
+      "topics": [
+        "love-education",
+        "teacher-growth"
+      ],
+      "excerpt": "人性是教育者最珍贵的品质之一，它是对孩子的厚爱，是结合了明智的严厉态度和父母的严格要求的爱。",
+      "cn": "教育者的“人性/爱”不是无原则的温和，而是厚爱与明智严厉、父母般严格要求的结合。真正的教育爱包含要求和界限。",
+      "ref": "把心献给孩子（中文），《学校校长》"
+    },
+    {
+      "id": "sk-0042",
+      "type": "method",
+      "title": "察觉孩子不对劲时，不要当众立刻追问",
+      "source": "on-education",
+      "topics": [
+        "love-education",
+        "teacher-growth"
+      ],
+      "excerpt": "A teacher responsive to emotion will notice at once if something is not right with a child. This we can see first and foremost from a child's eyes. After realising there is something the matter with the child the sensitive teacher will not start asking questions at once. Meanwhile he will light on some means for making the child realise or feel that he, the teacher, is aware of the pupil's concern. Later questions can be asked when the other pupils are not present.",
+      "cn": "敏感的教师能从孩子眼神发现异样，但不立刻当众追问，而是先用某种方式让孩子知道“老师注意到你了”，等独处时再询问。这保护了孩子的尊严与脆弱。",
+      "ref": "On Education (Progress Publishers, 1977), EPUB page 64"
+    },
+    {
+      "id": "sk-0043",
+      "type": "quote",
+      "title": "家中缺少疼爱的孩子，教师更要倍加关心",
+      "source": "ba-xin-xian-gei-hai-zi-zh",
+      "topics": [
+        "love-education"
+      ],
+      "excerpt": "每个人在童年时都需要得到关心和疼爱。如果孩子在冷漠无情的环境中成长，他就会变成一个对善良和美好满不在乎的人。学校无法完全取代家庭，尤其是母亲。但如果孩子在家庭里缺少疼爱、关怀和照顾，那么作为老师的我们就应该对他倍加关心。",
+      "cn": "爱不是“锦上添花”，而是童年的基本需要。学校无法替代家庭，但对在家庭中缺少疼爱的孩子，教师负有补偿性关心的责任；否则孩子可能在冷漠中长大，对善良与美好满不在乎。",
+      "ref": "把心献给孩子（中文），《我们的集体是一个友爱的大家庭》"
     }
   ]
 };

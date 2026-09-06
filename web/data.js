@@ -100,6 +100,25 @@ window.KB_DATA = {
       "cross": "- 中文《把心献给孩子》提供了家庭镜像、家长学校、家校医协同等直接材料（sk-0009~sk-0012）。"
     },
     {
+      "slug": "health-first",
+      "title": "健康第一",
+      "aliases": "健康 · 户外活动 · 作息",
+      "summary": "苏霍姆林斯基把健康放在教育首位：没有健康就没有正常的精神生活、智力发展与自信；健康需要学校与家庭共同落实户外、作息、饮食与锻炼。",
+      "core": [
+        "健康管理需要学校与家庭形成共同约定：户外、早睡、开窗、饮食、锻炼（参见 sk-0020、sk-0021）。",
+        "长期户外与规律作息能带来可观察的健康改善（参见 sk-0022）。",
+        "睡眠与作业安排直接影响学业：睡前长时间写作业、挤占户外时间，会让孩子开始落后（参见 sk-0023）。"
+      ],
+      "methods": [
+        "**把健康放在时间表第一位**：先保障睡眠、户外、早餐，再谈学习时长（参见 sk-0019、sk-0020）。",
+        "**与家庭签订可执行的健康约定**：固定就寝、开窗通风、每天户外、设置院子/阳台阅读休息角（参见 sk-0020）。",
+        "**增加富含新鲜空气的户外活动**：田野、公园、绿植环境，卧室窗外可种绿植（参见 sk-0021）。",
+        "**避免“用学习时间挤占健康”**：不让孩子睡前长时间写作业，把学习任务前移，保留游戏和户外（参见 sk-0023）。",
+        "**循序渐进增强体质**：长期规律锻炼、适应自然温度、不过度保护（参见 sk-0022）。"
+      ],
+      "cross": "- 中文《把心献给孩子》“健康，健康，还是健康”给出了健康优先原则、家庭约定和班级实践结果（sk-0019、sk-0020、sk-0022）。"
+    },
+    {
       "slug": "labor-education",
       "title": "劳动教育",
       "aliases": "劳动育人 · 创造性劳动",
@@ -357,6 +376,68 @@ window.KB_DATA = {
       "excerpt": "It is very difficult to compel pupils to exert themselves mentally, but to compel them to engage in physical work is significantly easier. A combination of manual and brain work is an all-important means of fostering love of work in the laziest and most neglected of pupils, whom parents have never made work.",
       "cn": "对家长从未让其劳动、又懒散被忽视的孩子，直接逼他“用功读书”很难；苏霍姆林斯基的方法是先让他承担一定体力劳动，再逐步让他在劳动中看到“理解与驾驭自然/事物”的智力意义，从而真正克服懒惰。",
       "ref": "On Education (Progress Publishers, 1977), p. 200（EPUB page 201）"
+    },
+    {
+      "id": "sk-0019",
+      "type": "quote",
+      "title": "关注健康是教育者最重要的工作",
+      "source": "ba-xin-xian-gei-hai-zi-zh",
+      "topics": [
+        "health-first"
+      ],
+      "excerpt": "我不怕一次又一次地重复：关注健康是教育者最重要的工作。孩子们的精神生活、世界观、智力发展、知识巩固和自信取决于他们是否乐观、是否有朝气。",
+      "cn": "苏霍姆林斯基把健康放在教育工作的首位：不是“先学习、再锻炼”，而是孩子的精神生活、智力发展和自信都建立在健康与朝气之上。",
+      "ref": "把心献给孩子（中文），《健康，健康，还是健康》"
+    },
+    {
+      "id": "sk-0020",
+      "type": "practice",
+      "title": "与家庭约定作息：户外、早睡、开窗睡、院子安睡角",
+      "source": "ba-xin-xian-gei-hai-zi-zh",
+      "topics": [
+        "health-first",
+        "family-school"
+      ],
+      "excerpt": "家长们承诺会让孩子们多到户外去呼吸新鲜空气，早睡早起，开着通风窗睡觉。我和家长们商量好，在整个夏天、春末和秋初的那几个月里，要让孩子们在院子里睡觉。家长们在可以避雨的廊檐下和干草垛上设置了专门的“安睡角”……有小学生的家庭家家都要在花园里、在家门口的自留地上盖一个亭子，孩子从早春到晚秋就可以在这里看书、画画和休息。",
+      "cn": "健康管理不是学校单方面规定，而是学校与家庭共同约定：多户外、早睡早起、开窗睡觉、夏季在院子安睡。学校甚至推动每个有学生的家庭建“读书亭/安睡角”，让儿童在新鲜空气中阅读和休息。",
+      "ref": "把心献给孩子（中文），《健康，健康，还是健康》"
+    },
+    {
+      "id": "sk-0021",
+      "type": "method",
+      "title": "新鲜空气与户外作息是健康的“灵丹妙药”",
+      "source": "on-education",
+      "topics": [
+        "health-first"
+      ],
+      "excerpt": "The elixir of good health is air saturated with the phytoncides from cereals—wheat, rye, barley, buckwheat and other meadow grasses. I often used to take my pupils out into the fields and the meadows for them to breathe in the good air filled with the scent of cereals. I used to urge parents to plant hazel-nut trees under the windows of their children's bedroom; these trees fill the air with phytoncides... I also made sure that every family put up a summer shower in its garden.",
+      "cn": "苏霍姆林斯基把“富含植物杀菌素的新鲜空气”称为健康灵药：常带孩子到田野草场呼吸，建议家长在儿童卧室窗外种核桃树，在院子里装夏季淋浴。健康措施往往落在家庭环境和户外作息上。",
+      "ref": "On Education (Progress Publishers, 1977), EPUB page 114"
+    },
+    {
+      "id": "sk-0022",
+      "type": "case",
+      "title": "光脚、户外与不怕淋雨：三四年级不再有人生病",
+      "source": "ba-xin-xian-gei-hai-zi-zh",
+      "topics": [
+        "health-first"
+      ],
+      "excerpt": "自打在“快乐学校”从事儿童教育的最初几周开始，我就非常重视体育游戏……孩子们整个夏天都光着脚走路，也不怕淋雨。我把这些看作是特别重要的体育锻炼方法。在一、二年级时有过三例感冒，到了三、四年级时已没有任何人生过病。",
+      "cn": "帕夫雷什的一组实践结果：持续户外游戏、夏天光脚、不怕淋雨、冷水擦洗等锻炼后，班级感冒从一、二年级的 3 例降到三、四年级的 0 例。苏霍姆林斯基强调这不是“不怕冷”的逞强，而是长期适应与基本作息制度的结果。",
+      "ref": "把心献给孩子（中文），《健康，健康，还是健康》"
+    },
+    {
+      "id": "sk-0023",
+      "type": "method",
+      "title": "睡前长时间做作业，孩子会开始落后",
+      "source": "on-education",
+      "topics": [
+        "health-first",
+        "learning-difficulties"
+      ],
+      "excerpt": "...if a child sits at his homework for several hours before bedtime, he will start to lag behind. Passivity while a child is nominally engaged in mental work at his lessons is more often than not the result of the fact that a child spends the hours he should be out of doors—in the garden or playing snow balls—poring over books.",
+      "cn": "如果孩子把本应户外活动的时间用来熬夜写作业，反而会开始落后；课堂上的“假性用功/被动”往往正是户外时间被挤占的结果。苏霍姆林斯基据此强调作业与作息安排，而不是简单增加学习时长。",
+      "ref": "On Education (Progress Publishers, 1977), EPUB page 118"
     }
   ]
 };

@@ -6,9 +6,10 @@
 
 | Slug | 标题 | 卡片数 |
 |---|---|---|
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 11 |
-| [family-school](topics/family-school.md) | 家校合作 | 5 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 12 |
+| [family-school](topics/family-school.md) | 家校合作 | 6 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 5 |
+| [health-first](topics/health-first.md) | 健康第一 | 5 |
 
 ## 来源 Sources
 
@@ -48,3 +49,8 @@
 | [sk-0016](cards/sk-0016-bread-festival-labor-joy.md) | practice | labor-education | ba-xin-xian-gei-hai-zi-zh | 从种麦到粮食盛典：让劳动成为可庆祝的成果 |
 | [sk-0017](cards/sk-0017-rose-gardener-not-cruel.md) | quote | labor-education | ba-xin-xian-gei-hai-zi-zh | 为他人创造美而劳动的孩子，不会成为冷酷的人 |
 | [sk-0018](cards/sk-0018-manual-brain-work-for-lazy-neglected.md) | method | labor-education / learning-difficulties | on-education | 用“体力 + 脑力”结合改造最懒散、最被忽视的孩子 |
+| [sk-0019](cards/sk-0019-health-is-educators-most-important-work.md) | quote | health-first | ba-xin-xian-gei-hai-zi-zh | 关注健康是教育者最重要的工作 |
+| [sk-0020](cards/sk-0020-family-health-agreement-outdoor-sleep.md) | practice | health-first / family-school | ba-xin-xian-gei-hai-zi-zh | 与家庭约定作息：户外、早睡、开窗睡、院子安睡角 |
+| [sk-0021](cards/sk-0021-healthy-air-and-outdoor-routine.md) | method | health-first | on-education | 新鲜空气与户外作息是健康的“灵丹妙药” |
+| [sk-0022](cards/sk-0022-barefoot-outdoor-colds-disappear.md) | case | health-first | ba-xin-xian-gei-hai-zi-zh | 光脚、户外与不怕淋雨：三四年级不再有人生病 |
+| [sk-0023](cards/sk-0023-homework-before-bedtime-causes-lag.md) | method | health-first / learning-difficulties | on-education | 睡前长时间做作业，孩子会开始落后 |

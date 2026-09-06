@@ -27,8 +27,8 @@ topics/   → 主题页：按教育场景聚合卡片，并做跨书综合
 
 - [x] 仓库骨架与规范
 - [x] MVP 主题：[学习困难学生（后进生）](topics/learning-difficulties.md)
-- [x] 可溯源卡片 18 张（学习困难 11 / 家校合作 5 / 劳动教育 5，其中 sk-0012/0015/0018 多主题）
-- [x] 主题：[学习困难学生](topics/learning-difficulties.md) · [家校合作](topics/family-school.md) · [劳动教育](topics/labor-education.md)
+- [x] 可溯源卡片 23 张（学习困难 12 / 家校合作 6 / 劳动教育 5 / 健康第一 5，其中多张卡跨主题）
+- [x] 主题：[学习困难学生](topics/learning-difficulties.md) · [家校合作](topics/family-school.md) · [劳动教育](topics/labor-education.md) · [健康第一](topics/health-first.md)
 - [x] 本地书源全部登记：11 个唯一来源（覆盖本地 12 份文件，见 [书源盘点](docs/book-inventory.md)）
 - [x] 网页原型：[打开 `web/index.html`](web/index.html)
 - [ ] 更多主题（家校合作、劳动教育、美育、集体教育……）

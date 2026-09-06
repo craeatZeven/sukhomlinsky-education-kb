@@ -9,6 +9,11 @@
 - 👤 人类读者：从 [`INDEX.md`](INDEX.md) 进入主题页 → 阅读思想与案例卡片。
 - 🤖 AI / Agent：由根级 [`SKILL.md`](SKILL.md) 路由 → 按主题读取 `topics/` 与 `cards/`。
 
+**在线访问**：
+
+- GitHub 仓库：https://github.com/craeatZeven/sukhomlinsky-education-kb
+- GitHub Pages：https://craeatzeven.github.io/sukhomlinsky-education-kb/
+
 ---
 
 ## 为什么做这个项目

@@ -2,7 +2,7 @@
 
 ## 本地预览
 
-直接双击打开 `index.html` 即可，单文件、无依赖。
+直接双击打开 `index.html` 即可。页面会读取同目录的 `data.js`（本地文件，无网络依赖）。
 
 ## 当前能力
 
@@ -13,8 +13,12 @@
 
 ## 与仓库数据的关系
 
-- 当前 `index.html` 内嵌了一份数据快照（sources/topics/cards）。
-- 数据更新后需要重新生成该快照；后续可加一个 `scripts/build_site.py` 从 Markdown 自动生成。
+- `data.js` 是数据快照，由 `../scripts/build_site.py` 从 Markdown 自动生成。
+- 内容更新后执行：
+  ```bash
+  python ../scripts/build_site.py
+  ```
+  即可刷新网页数据。
 - 源文件：`../sources/`、`../topics/`、`../cards/`、`../INDEX.md`。
 
 ## 部署建议

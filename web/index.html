@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>苏霍姆林斯基教育知识库 · Sukhomlinsky Education KB</title>
+<style>
+  :root {
+    --paper: #f6f1e7;
+    --card: #fffdf8;
+    --ink: #1c1917;
+    --ink-soft: #6b625a;
+    --accent: #b4552d;
+    --accent-soft: #f3ddd2;
+    --line: rgba(28, 25, 23, .12);
+    --serif: "Noto Serif SC", "Songti SC", "SimSun", Georgia, serif;
+    --sans: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    font-family: var(--sans);
+    background: var(--paper);
+    color: var(--ink);
+    line-height: 1.75;
+  }
+  h1, h2, h3, .serif { font-family: var(--serif); }
+  .wrap { max-width: 1180px; margin: 0 auto; padding: 0 22px; }
+
+  /* Masthead */
+  .masthead {
+    padding: 72px 0 46px;
+    text-align: center;
+    border-bottom: 1px solid var(--line);
+  }
+  .masthead .kicker {
+    letter-spacing: .3em;
+    color: var(--accent);
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .masthead-title {
+    font-size: clamp(32px, 6vw, 62px);
+    line-height: 1.15;
+    margin: 12px 0 8px;
+    letter-spacing: .02em;
+  }
+  .masthead .sub {
+    font-size: 17px;
+    color: var(--ink-soft);
+    max-width: 720px;
+    margin: 10px auto 0;
+  }
+  .searchbox {
+    max-width: 720px;
+    margin: 34px auto 0;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .searchbox input {
+    flex: 1;
+    min-width: 220px;
+    border: 1px solid var(--line);
+    background: var(--card);
+    border-radius: 999px;
+    padding: 12px 20px;
+    font-size: 15px;
+    outline: none;
+    color: var(--ink);
+    box-shadow: 0 4px 14px rgba(0,0,0,.04);
+  }
+  .searchbox input:focus { border-color: var(--accent); }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-top: 14px; }
+  .chip {
+    border: 1px solid var(--line);
+    background: var(--card);
+    color: var(--ink-soft);
+    border-radius: 999px;
+    padding: 6px 14px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all .15s;
+  }
+  .chip.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .chip:hover { border-color: var(--accent); color: var(--accent); }
+  .chip.active:hover { color: #fff; }
+
+  /* Sections */
+  .section { padding: 48px 0 12px; scroll-margin-top: 90px; }
+  .section-title {
+    position: relative;
+    padding-left: 16px;
+    font-size: 27px;
+    margin: 0 0 22px;
+  }
+  .section-title::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 4px;
+    height: 24px;
+    background: var(--accent);
+    border-radius: 4px;
+  }
+  .section-sub { color: var(--ink-soft); margin: -12px 0 24px; }
+
+  /* Source cards */
+  .source-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 14px;
+  }
+  .source-card {
+    border-radius: 14px;
+    background: var(--card);
+    border: 1px solid var(--line);
+    box-shadow: 0 8px 24px rgba(0,0,0,.06);
+    padding: 18px 20px;
+    transition: transform .2s ease, box-shadow .2s ease;
+  }
+  .source-card:hover { transform: translateY(-3px); box-shadow: 0 16px 36px rgba(0,0,0,.12); }
+  .source-card .lang { font-size: 12px; color: var(--accent); font-weight: 700; }
+  .source-card h3 { margin: 6px 0 8px; font-size: 18px; }
+  .source-card .meta { color: var(--ink-soft); font-size: 13px; }
+
+  /* Topic block */
+  .topic-block {
+    border-radius: 14px;
+    background: var(--card);
+    border: 1px solid var(--line);
+    box-shadow: 0 8px 24px rgba(0,0,0,.06);
+    padding: 26px 28px;
+    margin-bottom: 26px;
+  }
+  .topic-block .topic-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 12px; justify-content: space-between; }
+  .topic-block h2 { margin: 0; font-size: 28px; }
+  .topic-block .aliases { color: var(--ink-soft); font-size: 14px; }
+  .topic-summary { margin-top: 10px; color: #3d3732; font-size: 16px; }
+  .topic-body { margin-top: 16px; }
+  .topic-body h3 { font-size: 18px; margin: 20px 0 8px; color: var(--accent); }
+  .topic-body ul { margin: 0 0 0 2px; padding-left: 22px; }
+  .topic-body li { margin-bottom: 6px; }
+
+  /* Card grid */
+  .card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); gap: 16px; margin-top: 18px; }
+  .card {
+    border-radius: 14px;
+    background: var(--card);
+    border: 1px solid var(--line);
+    box-shadow: 0 8px 24px rgba(0,0,0,.06);
+    padding: 18px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: transform .2s ease, box-shadow .2s ease;
+  }
+  .card:hover { transform: translateY(-3px); box-shadow: 0 16px 36px rgba(0,0,0,.12); }
+  .card .badge {
+    align-self: flex-start;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 3px 10px;
+    border-radius: 999px;
+    background: var(--accent-soft);
+    color: var(--accent);
+  }
+  .card h3 { margin: 0; font-size: 18px; line-height: 1.4; }
+  .card .excerpt {
+    font-family: var(--serif);
+    font-style: italic;
+    color: #544c46;
+    border-left: 3px solid var(--accent-soft);
+    padding-left: 12px;
+    margin: 0;
+  }
+  .card .cn { font-size: 14px; color: #3d3732; margin: 0; }
+  .card .ref { margin-top: auto; font-size: 12px; color: var(--ink-soft); }
+  .card .ref a { color: var(--accent); text-decoration: none; }
+  .card.hidden { display: none; }
+  .empty { color: var(--ink-soft); text-align: center; padding: 40px 0; display: none; }
+
+  /* Stats */
+  .stat-row { display: flex; flex-wrap: wrap; gap: 16px; justify-content: center; margin: 24px 0 4px; }
+  .stat { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 12px 26px; text-align: center; box-shadow: 0 4px 14px rgba(0,0,0,.04); }
+  .stat b { font-size: 28px; font-family: var(--serif); color: var(--accent); display: block; }
+  .stat span { font-size: 13px; color: var(--ink-soft); }
+
+  /* Footer */
+  footer { margin-top: 48px; border-top: 1px solid var(--line); padding: 30px 0 50px; color: var(--ink-soft); font-size: 13px; text-align: center; }
+  footer a { color: var(--accent); text-decoration: none; }
+
+  .md-link { display: inline-block; margin-top: 8px; font-size: 13px; color: var(--accent); text-decoration: none; border-bottom: 1px dashed var(--accent); }
+
+  /* ===== magazine polish injected ===== */
+  .news-topbar {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 9999;
+    display: flex; align-items: center; gap: 16px; padding: 10px 22px;
+    background: rgba(246,241,231,.92); backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(28,25,23,.12); transform: translateY(-100%);
+    transition: transform .3s ease; font-family: var(--serif);
+  }
+  .news-topbar.show { transform: translateY(0); }
+  .news-topbar .tb-logo { font-weight: 900; letter-spacing: .12em; font-size: 16px; white-space: nowrap; }
+  .news-topbar .tb-links { display: flex; flex-wrap: wrap; gap: 6px; }
+  .news-topbar .tb-link { border: 1px solid transparent; padding: 5px 10px; border-radius: 999px; font-size: 13px; cursor: pointer; color: var(--ink-soft); background: transparent; font-family: var(--sans); transition: all .15s; }
+  .news-topbar .tb-link:hover { border-color: var(--accent); color: var(--accent); }
+  .back-top { position: fixed; right: 22px; bottom: 22px; z-index: 9999; width: 44px; height: 44px; border-radius: 50%; border: 1px solid var(--accent); background: var(--paper); color: var(--accent); font-size: 18px; cursor: pointer; display: grid; place-items: center; box-shadow: 0 8px 20px rgba(0,0,0,.12); opacity: 0; pointer-events: none; transition: opacity .25s ease, transform .25s ease; }
+  .back-top.show { opacity: 1; pointer-events: auto; }
+  .back-top:hover { transform: translateY(-3px); }
+  .reading-progress { position: fixed; top: 0; left: 0; height: 3px; width: 0%; background: var(--accent); z-index: 10000; transition: width .1s linear; }
+  @media (max-width: 640px) {
+    .news-topbar { padding: 8px 12px; gap: 8px; }
+    .news-topbar .tb-links { display: none; }
+    .back-top { right: 14px; bottom: 14px; }
+  }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="wrap">
+    <div class="kicker">Sukhomlinsky Education KB</div>
+    <h1 class="masthead-title">苏霍姆林斯基教育知识库</h1>
+    <p class="sub">从原著中整理教育思想与真实案例，按主题检索、逐条溯源。人和 AI 都可以使用同一份 Markdown 底座。</p>
+    <div class="searchbox">
+      <input id="search" type="search" placeholder="搜索：后进生、家校合作、劳动、健康……" />
+      <button class="chip" id="clearBtn" type="button">重置</button>
+    </div>
+    <div class="chips" id="typeChips"></div>
+    <div class="stat-row" id="stats"></div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <!-- 来源 -->
+  <section class="section" id="sources">
+    <h2 class="section-title">书源一览</h2>
+    <p class="section-sub">已登记 11 个唯一书源，覆盖本地 12 份文件；英文两本已抽全文，中文 EPUB 已抽文本，中文扫描版正在 OCR。</p>
+    <div class="source-grid" id="sourceGrid"></div>
+  </section>
+
+  <!-- 主题深读 -->
+  <section class="section" id="topics">
+    <h2 class="section-title">主题深读</h2>
+    <p class="section-sub">当前先完成“学习困难学生”主题；后续按同一结构扩展。</p>
+    <div id="topicArea"></div>
+  </section>
+
+  <!-- 卡片检索 -->
+  <section class="section" id="cards">
+    <h2 class="section-title">卡片检索</h2>
+    <p class="section-sub">quote / case / principle / method / practice，全部带 source + ref。</p>
+    <div class="card-grid" id="cardGrid"></div>
+    <div class="empty" id="empty">没有匹配的卡片，换个关键词试试。</div>
+  </section>
+
+  <!-- Roadmap -->
+  <section class="section" id="roadmap">
+    <h2 class="section-title">路线图</h2>
+    <div class="topic-block">
+      <ul>
+        <li><b>v0.1</b>：仓库骨架 + “学习困难学生”主题 + 8 张卡片 ✅</li>
+        <li><b>v0.2</b>：补全中文书源、OCR、更多主题（家校合作/劳动/美育/集体/教师成长/健康）</li>
+        <li><b>v0.3</b>：GitHub Pages 部署、JSON/CSV 导出、自动校验</li>
+        <li><b>v0.4</b>：发布为可安装 Agent Skill（skills.sh）、多语言</li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>原创编排遵循仓库 <a href="../LICENSE">MIT License</a>；原文摘录归权利人所有，见 <a href="../NOTICE.md">NOTICE</a>。</p>
+    <p>本页是单文件原型：<a href="https://github.com/">GitHub 仓库待发布</a> · 数据源 <a href="../INDEX.md">INDEX.md</a></p>
+  </div>
+</footer>
+
+<script>
+/* ===== 数据 ===== */
+const SOURCES = [
+  {slug:"on-education", title:"On Education", lang:"EN", meta:"Progress Publishers 1977 · 英文全文已抽", url:"https://archive.org/details/vasili-sukhomlinsky-on-education-progress-1977"},
+  {slug:"to-children-i-give-my-heart", title:"To Children I Give My Heart", lang:"EN", meta:"Progress Publishers · 英文全文可用", url:"https://archive.org/details/ToChildrenIGiveMyHeart-English-VasilySukhomlinsky"},
+  {slug:"ba-xin-xian-gei-hai-zi-zh", title:"把心献给孩子（中文）", lang:"ZH", meta:"中文 EPUB · 已抽文本", url:"../sources/ba-xin-xian-gei-hai-zi-zh.md"},
+  {slug:"gei-jiao-shi-de-jian-yi-zh", title:"给教师的建议（杜殿坤 编译）", lang:"ZH", meta:"中文扫描 PDF · OCR 进行中", url:"../sources/gei-jiao-shi-de-jian-yi-zh.md"},
+  {slug:"jiao-yu-zhen-yan-zh", title:"苏霍姆林斯基教育箴言（朱永新 编）", lang:"ZH", meta:"中文扫描 PDF · OCR 后台进行中", url:"../sources/jiao-yu-zhen-yan-zh.md"},
+  {slug:"xuan-ji-zh-vol1", title:"选集（五卷本）第 1 卷", lang:"ZH", meta:"中文扫描 PDF · 含重复文件待核", url:"../sources/xuan-ji-zh-vol1.md"},
+  {slug:"xuan-ji-zh-vol2", title:"选集（五卷本）第 2 卷", lang:"ZH", meta:"中文扫描 PDF", url:"../sources/xuan-ji-zh-vol2.md"},
+  {slug:"xuan-ji-zh-vol3", title:"选集（五卷本）第 3 卷", lang:"ZH", meta:"中文扫描 PDF", url:"../sources/xuan-ji-zh-vol3.md"},
+  {slug:"xuan-ji-zh-vol4", title:"选集（五卷本）第 4 卷", lang:"ZH", meta:"中文扫描 PDF", url:"../sources/xuan-ji-zh-vol4.md"},
+  {slug:"xuan-ji-zh-vol5", title:"选集（五卷本）第 5 卷", lang:"ZH", meta:"中文扫描 PDF", url:"../sources/xuan-ji-zh-vol5.md"},
+  {slug:"each-one-must-shine", title:"Each One Must Shine（Alan Cockerill）", lang:"EN", meta:"2009 研究/引文集 · Archive.org 全文", url:"https://archive.org/details/EachOneMustShine-EducationalLegacyOfV.A.Sukhomlinsky"}
+];
+
+const TOPICS = [
+  {
+    slug:"learning-difficulties", title:"学习困难学生", aliases:"后进生 · 学业落后 · slow learners",
+    summary:"苏霍姆林斯基如何理解与帮助学习困难学生：不归因于孩子“笨”，而从健康、教育路径、思维训练与长期个别化工作入手。",
+    core:["学业落后不等于孩子不可救药，也不应被归因于“笨”（sk-0003）。","后进生应在普通学校被接纳，而不是隔离或贴标签（sk-0001）。","教育失灵常因路径错了：只纠错、不发展积极潜能（sk-0003）。","大量学业失败背后有健康与家庭协同问题（sk-0005）。"],
+    methods:["先做健康与生活排查，家校医协同（sk-0005）","先恢复“可教性”，不吼叫、不说教、给额外帮助（sk-0002）","从积极潜能入手，不以“纠错”为主线（sk-0003）","保护尊严，不羞辱、不公开比较（sk-0001）","用谜题/多步任务训练“在头脑中记住 2–4 步”（sk-0007, sk-0008）","系统投入并记录长期进步，接受不同节奏（sk-0004, sk-0006）"],
+    cross:"On Education 提供理论/原则/方法，To Children I Give My Heart 提供课堂实践与个例。两本书共同指向：不把落后归因于天性，而从教育过程、健康、思维训练与长期个别化工作中寻找出路。"
+  }
+];
+
+const CARDS = [
+  {id:"sk-0001", type:"quote", title:"后进生是花园里最娇嫩的花", source:"on-education", topics:["learning-difficulties"],
+   excerpt:"These children are not ugly, merely the frailest and most delicate of all the flowers in mankind's infinitely various garden.",
+   cn:"反对隔离设校；孩子的薄弱不是他们自己的过错，需要普通学校内的接纳与帮助。", ref:"On Education (1977), Foreword, p.22"},
+  {id:"sk-0002", type:"method", title:"先让孩子变得“可教”，而不是吼叫与说教", source:"on-education", topics:["learning-difficulties"],
+   excerpt:"Before a child can be educated he has to be rendered educable.",
+   cn:"先判断孩子是否处于能听进教师话语的状态；对弱生不吼叫，而是给额外帮助。", ref:"On Education (1977), p.34"},
+  {id:"sk-0003", type:"principle", title:"教育失灵不是孩子不可救药，而是路径错了", source:"on-education", topics:["learning-difficulties"],
+   excerpt:"The reason for a teacher's helplessness ... does not lie in the fact that the pupil is beyond improvement, but that the actual education process is not proceeding along the right path.",
+   cn:"只盯着“纠错/防错”是失败根源；应从第一天起发现并发展孩子的积极潜能。", ref:"On Education (1977), p.72"},
+  {id:"sk-0004", type:"case", title:"两年把低识字率减半的第一次“战役”", source:"on-education", topics:["learning-difficulties"],
+   excerpt:"Two years' intensive work enabled Sukhomlinsky to cut down the numbers with a low literacy rating by half.",
+   cn:"后进问题可被系统、持续、专门的工作显著改善，不是靠奇迹。", ref:"On Education (1977), Foreword, p.25"},
+  {id:"sk-0005", type:"principle", title:"85% 学业失败的首要原因是健康", source:"on-education", topics:["learning-difficulties"],
+   excerpt:"in 85 per cent of cases where children are doing badly at school, the main reason for backwardness is poor health.",
+   cn:"排查学业落后时先看健康、作息、饮食；需要母亲、父亲、医生、教师协同。", ref:"On Education (1977), p.114"},
+  {id:"sk-0006", type:"case", title:"瓦尔娅、彼得里克与谜题：慢学习者的六个月", source:"to-children-i-give-my-heart", topics:["learning-difficulties"],
+   excerpt:"In six months, Valya and Slava could solve such problems, but Petrik and Nina still had no luck.",
+   cn:"同一方法对不同慢学习者效果不同；进步是渐进的，需要记录与继续研究。", ref:"To Children I Give My Heart, pp.82-83"},
+  {id:"sk-0007", type:"quote", title:"思维必须被教会，否则孩子只会死记硬背", source:"to-children-i-give-my-heart", topics:["learning-difficulties"],
+   excerpt:"The ability to think must be taught, or otherwise the children will strain their memories and cram, dulling their thoughts even more.",
+   cn:"慢学习不能靠加码背诵；思维本身是需要教学的能力。", ref:"To Children I Give My Heart, p.83"},
+  {id:"sk-0008", type:"practice", title:"用民间谜题单独训练“思维步数”", source:"to-children-i-give-my-heart", topics:["learning-difficulties"],
+   excerpt:"I gave them simple folk riddles designed to deepen comprehension of natural numbers ... The children had to remember from two to four 'moves' to solve each of them.",
+   cn:"把思维过程拆成可记忆的“步数”，单独小组、长期推进。", ref:"To Children I Give My Heart, pp.82-83"}
+];
+
+const TYPE_LABELS = {quote:"quote 语录", case:"case 案例", principle:"principle 原则", method:"method 方法", practice:"practice 实践"};
+
+/* ===== 渲染 ===== */
+function sourceUrl(slug){
+  const s = SOURCES.find(x=>x.slug===slug);
+  return s && s.url ? s.url : "../sources/" + slug + ".md";
+}
+function renderSources(){
+  const box = document.getElementById("sourceGrid");
+  box.innerHTML = SOURCES.map(s=>`
+    <div class="source-card">
+      <div class="lang">${s.lang}</div>
+      <h3>${s.title}</h3>
+      <div class="meta">${s.meta}</div>
+      <a class="md-link" target="_blank" rel="noopener" href="${s.url}">查看来源记录 ↗</a>
+    </div>`).join("");
+}
+function renderTopics(){
+  const area = document.getElementById("topicArea");
+  area.innerHTML = TOPICS.map(t=>{
+    const cards = CARDS.filter(c=>c.topics.includes(t.slug));
+    return `
+    <article class="topic-block">
+      <div class="topic-head">
+        <h2>${t.title}</h2>
+        <span class="aliases">${t.aliases}</span>
+      </div>
+      <p class="topic-summary">${t.summary}</p>
+      <div class="topic-body">
+        <h3>核心判断</h3><ul>${t.core.map(x=>`<li>${x}</li>`).join("")}</ul>
+        <h3>可操作方法</h3><ul>${t.methods.map(x=>`<li>${x}</li>`).join("")}</ul>
+        <h3>跨书综合</h3><p>${t.cross}</p>
+        <h3>相关卡片（${cards.length}）</h3>
+        <div class="card-grid">${cards.map(c=>cardHTML(c)).join("")}</div>
+      </div>
+    </article>`;
+  }).join("");
+}
+function cardHTML(c){
+  const src = SOURCES.find(s=>s.slug===c.source);
+  return `
+  <article class="card" data-search="${(c.title+" "+(c.cn||"")+" "+c.id+" "+c.source+" "+c.type).toLowerCase()}">
+    <span class="badge">${TYPE_LABELS[c.type]||c.type}</span>
+    <h3>${c.title}</h3>
+    ${c.excerpt?`<p class="excerpt">“${c.excerpt}”</p>`:""}
+    ${c.cn?`<p class="cn">${c.cn}</p>`:""}
+    <div class="ref">${c.id} · ${src?src.title:c.source}<br>${c.ref}</div>
+  </article>`;
+}
+function renderCards(list){
+  const grid = document.getElementById("cardGrid");
+  grid.innerHTML = list.map(cardHTML).join("");
+  document.getElementById("empty").style.display = list.length ? "none" : "block";
+}
+function renderStats(){
+  document.getElementById("stats").innerHTML = `
+    <div class="stat"><b>${SOURCES.length}</b><span>书源</span></div>
+    <div class="stat"><b>${TOPICS.length}</b><span>主题</span></div>
+    <div class="stat"><b>${CARDS.length}</b><span>卡片</span></div>`;
+}
+
+/* ===== 检索 ===== */
+let activeType = "all";
+function buildTypeChips(){
+  const box = document.getElementById("typeChips");
+  const types = ["all", ...new Set(CARDS.map(c=>c.type))];
+  box.innerHTML = types.map(t=>`<button class="chip ${t===activeType?"active":""}" data-type="${t}">${t==="all"?"全部类型":TYPE_LABELS[t]||t}</button>`).join("");
+}
+function applyFilter(){
+  const q = (document.getElementById("search").value || "").trim().toLowerCase();
+  const filtered = CARDS.filter(c=>{
+    if(activeType!=="all" && c.type!==activeType) return false;
+    if(!q) return true;
+    return (c.title+" "+(c.cn||"")+" "+c.id+" "+c.source+" "+c.type).toLowerCase().includes(q);
+  });
+  renderCards(filtered);
+}
+
+document.addEventListener("DOMContentLoaded", ()=>{
+  renderSources(); renderTopics(); renderStats(); buildTypeChips(); renderCards(CARDS);
+  document.getElementById("typeChips").addEventListener("click", e=>{
+    const btn = e.target.closest(".chip"); if(!btn || !btn.dataset.type) return;
+    activeType = btn.dataset.type;
+    buildTypeChips(); applyFilter();
+  });
+  document.getElementById("search").addEventListener("input", applyFilter);
+  document.getElementById("clearBtn").addEventListener("click", ()=>{
+    document.getElementById("search").value=""; activeType="all"; buildTypeChips(); renderCards(CARDS);
+  });
+
+  /* magazine polish */
+  const bar=document.createElement('div'); bar.className='news-topbar';
+  bar.innerHTML='<span class="tb-logo">苏霍姆林斯基教育知识库</span><div class="tb-links"></div>';
+  document.body.appendChild(bar);
+  const labels=['书源一览','主题深读','卡片检索','路线图'];
+  const linksWrap=bar.querySelector('.tb-links');
+  const getSection=(label)=>Array.prototype.find.call(document.querySelectorAll('.section-title'), el=>el.textContent.indexOf(label)>=0);
+  labels.forEach(label=>{const b=document.createElement('button'); b.className='tb-link'; b.textContent=label; b.addEventListener('click',()=>{const el=getSection(label); if(el) el.scrollIntoView({behavior:'smooth', block:'start'});}); linksWrap.appendChild(b);});
+  const topBtn=document.createElement('button'); topBtn.className='back-top'; topBtn.innerHTML='↑'; topBtn.setAttribute('aria-label','返回顶部'); topBtn.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'})); document.body.appendChild(topBtn);
+  const progress=document.createElement('div'); progress.className='reading-progress'; document.body.appendChild(progress);
+  function onScroll(){const y=window.scrollY||document.documentElement.scrollTop; if(y>300) bar.classList.add('show'); else bar.classList.remove('show'); if(y>400) topBtn.classList.add('show'); else topBtn.classList.remove('show'); const h=document.documentElement.scrollHeight-window.innerHeight; progress.style.width=(h>0?(y/h*100):0)+'%';}
+  window.addEventListener('scroll', onScroll, {passive:true}); onScroll();
+});
+</script>
+</body>
+</html>

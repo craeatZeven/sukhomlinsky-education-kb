@@ -22,6 +22,7 @@
 | [xuan-ji-zh-vol3](sources/xuan-ji-zh-vol3.md) | 苏霍姆林斯基选集（五卷本）第3卷 | 中文扫描 PDF | registered |
 | [xuan-ji-zh-vol4](sources/xuan-ji-zh-vol4.md) | 苏霍姆林斯基选集（五卷本）第4卷 | 中文扫描 PDF | registered |
 | [xuan-ji-zh-vol5](sources/xuan-ji-zh-vol5.md) | 苏霍姆林斯基选集（五卷本）第5卷 | 中文扫描 PDF | registered |
+| [each-one-must-shine](sources/each-one-must-shine.md) | Each One Must Shine（Alan Cockerill 研究/引文集） | 英文 Archive.org 全文 | registered |
 
 ## 卡片 Cards
 

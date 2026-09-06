@@ -28,8 +28,11 @@ topics/   → 主题页：按教育场景聚合卡片，并做跨书综合
 - [x] 仓库骨架与规范
 - [x] MVP 主题：[学习困难学生（后进生）](topics/learning-difficulties.md)
 - [x] 首批可溯源卡片 8 张
+- [x] 本地书源全部登记：11 个唯一来源（覆盖本地 12 份文件）
+- [x] 网页原型：[打开 `web/index.html`](web/index.html)
 - [ ] 更多主题（家校合作、劳动教育、美育、集体教育……）
-- [ ] GitHub Pages 检索站
+- [ ] 中文扫描 PDF 全文 OCR 完成
+- [ ] GitHub Pages 部署
 - [ ] JSON/CSV 导出
 - [ ] skills.sh 发布
 
@@ -51,6 +54,7 @@ topics/   → 主题页：按教育场景聚合卡片，并做跨书综合
 | [`sources/`](sources/) | 原书/译本书目元数据 |
 | [`schemas/`](schemas/) | frontmatter 字段规范 |
 | [`templates/`](templates/) | 新建 source/card/topic 的模板 |
+| [`web/`](web/) | 杂志风知识检索站（单文件 HTML 原型） |
 | [`docs/`](docs/) | 生产流程、质量门、版权政策、路线图 |
 
 ## 质量纪律

@@ -100,6 +100,24 @@ window.KB_DATA = {
       "cross": "- 中文《把心献给孩子》提供了家庭镜像、家长学校、家校医协同等直接材料（sk-0009~sk-0012）。"
     },
     {
+      "slug": "labor-education",
+      "title": "劳动教育",
+      "aliases": "劳动育人 · 创造性劳动",
+      "summary": "苏霍姆林斯基认为劳动不是惩罚或额外负担，而是培养品格、智力和“真正的人”的必经之路：劳动要系统完整、真实可感，并让他人因自己的劳动而快乐。",
+      "core": [
+        "劳动像食物一样必不可少，必须规律、系统，并让孩子完整经历从目标到成果的过程（参见 sk-0014）。",
+        "劳动的意义不在于“忙起来”，而在于孩子通过劳动为他人创造价值并感到快乐；这样的孩子不会变成冷酷自私的人（参见 sk-0016、sk-0017）。",
+        "劳动可以成为转化“最难教/最懒散”孩子的入口：牵着孩子一起劳动，或先体力后脑力逐步引导（参见 sk-0015、sk-0018）。"
+      ],
+      "methods": [
+        "**选择完整的真实任务**：不要只给零散杂务，选一件需要持续数周/数月、有明确成果的任务，让孩子走完目标→努力→成果→庆祝（参见 sk-0014、sk-0016）。",
+        "**让劳动有“为他人的快乐”**：例如为母亲种果树、为集体种花、把收成送给父母——赋予劳动道德与情感意义（参见 sk-0016、sk-0017）。",
+        "**对难教的孩子，从共同劳动开始**：不先讲道理，而是“牵着手一起到葡萄园干活”，在共同目标中建立关系（参见 sk-0015）。",
+        "**用体力劳动作为脑力兴趣的入口**：对最懒散、被忽视的学生，先让他完成可胜任的体力工作，再引导他看到其中的知识与创造（参见 sk-0018）。"
+      ],
+      "cross": "- On Education 提供劳动教育的原则与方法：系统完整、集体共同劳动、体力与脑力结合（sk-0014、sk-0015、sk-0018）。"
+    },
+    {
       "slug": "learning-difficulties",
       "title": "学习困难学生",
       "aliases": "后进生 · 学业落后 · slow learners",
@@ -277,6 +295,68 @@ window.KB_DATA = {
       "excerpt": "School cannot fully take the place of the family, in particular a child's mother, but if a child is deprived of kind concern, warmth and care at home, we teachers must be particularly attentive to his needs.",
       "cn": "苏霍姆林斯基承认学校无法完全替代家庭，尤其是母亲的角色；正因如此，当孩子在家中缺少温暖与关怀时，教师更要格外关注他的需要。",
       "ref": "On Education (Progress Publishers, 1977), EPUB page 67（The Need to Understand the Workings of the Child's Heart）"
+    },
+    {
+      "id": "sk-0014",
+      "type": "principle",
+      "title": "劳动像食物一样必不可少，要系统且完整地完成",
+      "source": "on-education",
+      "topics": [
+        "labor-education"
+      ],
+      "excerpt": "Work is as essential to the individual as food, it must be regular and systematic... The body of staff at the Pavlysh school goes out of its way to ensure that the children there not only engage in work projects during their years at school but sees to it that they complete the various work projects they begin and go through all stages of the work process—from appreciation of the ultimate objective ... to profound satisfaction gleaned from its results.",
+      "cn": "劳动不是临时“帮忙”或“救火”，而是像食物一样必须规律、系统。帕夫雷什中学刻意让孩子把已开始的工作做完，走完“明确目标 → 坚持完成 → 收获满足”的全过程，避免只做零散、随机的杂务。",
+      "ref": "On Education (Progress Publishers, 1977), p. 199（EPUB page 200）"
+    },
+    {
+      "id": "sk-0015",
+      "type": "case",
+      "title": "牵着最难教的孩子，一起去学校葡萄园劳动",
+      "source": "on-education",
+      "topics": [
+        "labor-education",
+        "learning-difficulties"
+      ],
+      "excerpt": "I take the most difficult and \"incorrigible\" of children by the hand, lead them to the school vineyard and say: \"Let's start working here together, with the whole collective.\" As we work away together, however \"hopeless\" a case he might have seemed, a willingness to work emerges... The day will come when the difficult and \"incorrigible\" pupil passes on the fruits of his labour to other people and experiences joy in doing so. From that moment on he is a \"man worth his salt\".",
+      "cn": "面对最“难教/无可救药”的孩子，苏霍姆林斯基不是先讲道理，而是带他进入集体劳动：一起在葡萄园工作。当孩子把劳动成果送给别人并因此感到快乐时，他就开始成为“真正的人”。",
+      "ref": "On Education (Progress Publishers, 1977), p. 201（EPUB page 202）"
+    },
+    {
+      "id": "sk-0016",
+      "type": "practice",
+      "title": "从种麦到粮食盛典：让劳动成为可庆祝的成果",
+      "source": "ba-xin-xian-gei-hai-zi-zh",
+      "topics": [
+        "labor-education"
+      ],
+      "excerpt": "这一天留在了孩子们的记忆中。在盛典中没有关于劳动和人格的豪言壮语。重要的是盛典让孩子们激动。这是对快乐感觉的体验：我们种出粮食，我们给父母带来快乐。而一个人因自己的劳动而感到快乐，这是道德修养和高尚品格的最重要源泉。",
+      "cn": "帕夫雷什的孩子不是“象征性”劳动：他们真实松土、选种、播种、收割、脱粒、磨面、烤面包，最后举办“粮食盛典”邀请父母品尝。劳动教育的关键不是口号，而是让孩子从完整劳动中体验“我能创造、我能带给他人快乐”。",
+      "ref": "把心献给孩子（中文），《劳动是崇高的》"
+    },
+    {
+      "id": "sk-0017",
+      "type": "quote",
+      "title": "为他人创造美而劳动的孩子，不会成为冷酷的人",
+      "source": "ba-xin-xian-gei-hai-zi-zh",
+      "topics": [
+        "labor-education"
+      ],
+      "excerpt": "生活告诉我，为了欣赏玫瑰的美丽、为了让其他人感受到欣赏美丽和创造美丽的幸福而栽种玫瑰花的孩子一定不会是残忍的、凶狠的、无耻的和冷酷的。",
+      "cn": "劳动与美育在这里汇合：孩子不是为了“完成作业”而种花，而是为了让母亲、让他人欣赏到美。这种“为他人创造美”的劳动具有道德塑造力，使孩子难以变得残忍冷酷。",
+      "ref": "把心献给孩子（中文），《劳动是崇高的》"
+    },
+    {
+      "id": "sk-0018",
+      "type": "method",
+      "title": "用“体力 + 脑力”结合改造最懒散、最被忽视的孩子",
+      "source": "on-education",
+      "topics": [
+        "labor-education",
+        "learning-difficulties"
+      ],
+      "excerpt": "It is very difficult to compel pupils to exert themselves mentally, but to compel them to engage in physical work is significantly easier. A combination of manual and brain work is an all-important means of fostering love of work in the laziest and most neglected of pupils, whom parents have never made work.",
+      "cn": "对家长从未让其劳动、又懒散被忽视的孩子，直接逼他“用功读书”很难；苏霍姆林斯基的方法是先让他承担一定体力劳动，再逐步让他在劳动中看到“理解与驾驭自然/事物”的智力意义，从而真正克服懒惰。",
+      "ref": "On Education (Progress Publishers, 1977), p. 200（EPUB page 201）"
     }
   ]
 };

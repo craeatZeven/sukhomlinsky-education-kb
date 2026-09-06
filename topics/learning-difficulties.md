@@ -16,6 +16,8 @@ card_ids:
   - sk-0007
   - sk-0008
   - sk-0012
+  - sk-0015
+  - sk-0018
 source_ids:
   - on-education
   - to-children-i-give-my-heart
@@ -64,6 +66,8 @@ updated: "2026-09-06"
 | sk-0007 | quote | 思维必须被教会，否则孩子只会死记硬背 |
 | sk-0008 | practice | 用民间谜题单独训练“思维步数” |
 | sk-0012 | principle | 85% 学业落后与健康有关，需要家校医合力（中文版） |
+| sk-0015 | case | 牵着最难教的孩子，一起去学校葡萄园劳动 |
+| sk-0018 | method | 用“体力 + 脑力”结合改造最懒散、最被忽视的孩子 |
 
 ## 跨书综合
 

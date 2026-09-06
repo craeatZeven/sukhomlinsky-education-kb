@@ -4,8 +4,8 @@ title: "苏霍姆林斯基教育箴言"
 author: "苏霍姆林斯基"
 lang: zh
 translator: "朱永新 编"
-publisher: "（待核对，疑为教育科学出版社）"
-year: 
+publisher: "教育科学出版社"
+year: 2016
 url: ""
 access_date: "2026-09-06"
 rights_status: in-copyright-short-quotes-only
@@ -28,5 +28,6 @@ status: complete
 
 - [x] 首页 OCR 核验书名/编者（朱永新 编）
 - [x] 整本 OCR（318 页，EasyOCR 完成）
+- [x] 版权页信息已核对（教育科学出版社，2016）
 - [ ] 待建立主题/页码索引
 - [ ] 待人工抽卡/校验

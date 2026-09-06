@@ -6,7 +6,7 @@
 
 | Slug | 标题 | 卡片数 |
 |---|---|---|
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 15 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 16 |
 | [family-school](topics/family-school.md) | 家校合作 | 8 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 5 |
 | [health-first](topics/health-first.md) | 健康第一 | 5 |
@@ -17,6 +17,7 @@
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 5 |
 | [child-study](topics/child-study.md) | 儿童研究 | 5 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 5 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 5 |
 
 ## 来源 Sources
 
@@ -96,3 +97,8 @@
 | [sk-0056](cards/sk-0056-class-library-and-rereading-favorites.md) | practice | reading-and-books | ba-xin-xian-gei-hai-zi-zh | 建班级藏书库，让孩子反复读喜爱的书 |
 | [sk-0057](cards/sk-0057-self-education-starts-from-reading.md) | quote | reading-and-books | ba-xin-xian-gei-hai-zi-zh | 自我教育与精神生活，从读书开始 |
 | [sk-0058](cards/sk-0058-thinking-room-300-books.md) | quote | reading-and-books | on-education | “思考室”只放三百本值得反复读的世界杰作 |
+| [sk-0059](cards/sk-0059-lessons-in-thinking-in-nature.md) | quote | thinking-and-nature | ba-xin-xian-gei-hai-zi-zh | 每周两次走进大自然，是去学习思考，不是游玩 |
+| [sk-0060](cards/sk-0060-do-not-make-child-warehouse-of-knowledge.md) | principle | thinking-and-nature / learning-difficulties | ba-xin-xian-gei-hai-zi-zh | 别把孩子变成知识的仓库，要教他思考 |
+| [sk-0061](cards/sk-0061-nature-has-no-magic-without-thinking.md) | principle | thinking-and-nature | ba-xin-xian-gei-hai-zi-zh | 大自然没有自动教育魔力，必须让人思考因果 |
+| [sk-0062](cards/sk-0062-book-of-nature-300-observations.md) | practice | thinking-and-nature | ba-xin-xian-gei-hai-zi-zh | 《大自然的书》：四年 300 次观察的思维课程 |
+| [sk-0063](cards/sk-0063-nature-educates-through-cause-effect-english.md) | quote | thinking-and-nature | to-children-i-give-my-heart | 大自然是教育资源，唯当人理解因果关系时 |

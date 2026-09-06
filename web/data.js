@@ -194,6 +194,27 @@ window.KB_DATA = {
         "**系统投入并记录长期进步**：像苏霍姆林斯基两年把低识字率减半那样，把问题当具体战役来打；同时接受不同孩子的进步节奏不同（参见 sk-0004、sk-0006）。"
       ],
       "cross": "- **On Education** 提供了理论立场与方法原则：不隔离、不羞辱、先可教、找积极面、查健康、做长期投入（sk-0001~sk-0005）。"
+    },
+    {
+      "slug": "teacher-growth",
+      "title": "教师成长",
+      "aliases": "教师素养 · 教师专业发展 · 教育修养",
+      "summary": "苏霍姆林斯基认为教师成长的核心不是技巧堆砌，而是对孩子的信念与爱、被保护的自由时间、与儿童共同生活的经历，以及在批评中仍守护孩子希望的能力。",
+      "core": [
+        "没有对孩子的信念就没有教育；缺少信念就是缺少爱（参见 sk-0034）。",
+        "教师的自由时间是其创造力的根，学校管理不应以形式化事务耗尽教师（参见 sk-0035）。",
+        "对低龄儿童，教师应像母亲一样亲近；师生信任是教育的基本规则（参见 sk-0036）。",
+        "教师不只是课堂上的导师，还应是孩子生活中的朋友与同伴（参见 sk-0037）。",
+        "即使批评孩子，也不能扑灭他“还有目标要追”的信念（参见 sk-0038）。"
+      ],
+      "methods": [
+        "**把“信念/爱”纳入教师评价与培养**：不只考核成绩和课堂，还关注教师是否相信每个孩子能变好（参见 sk-0034）。",
+        "**保护教师自由时间**：减少书面报表与形式化值班，用抽样批改/共同教研替代机械劳动（参见 sk-0035）。",
+        "**安排师生共同生活**：远足、劳动、课外活动，让教师成为学生的朋友和同伴（参见 sk-0037）。",
+        "**训练“守护希望式批评”**：批评后仍让孩子看到方向与目标，不羞辱、不判死刑（参见 sk-0038）。",
+        "**重视低年级教师的“亲近力”**：把建立信任关系作为低龄教师的核心能力（参见 sk-0036）。"
+      ],
+      "cross": "- On Education 从学校管理与教师信念角度谈教师成长：自由时间、信念、批评边界（sk-0034、sk-0035、sk-0038）。"
     }
   ],
   "cards": [
@@ -598,6 +619,66 @@ window.KB_DATA = {
       "excerpt": "我一直希望儿童集体这个小社会单元的生活能够以个人提升为宗旨。同时，孩子们的创造力、素质、才能和天赋的发展也服从于这一宗旨。",
       "cn": "集体不是目的，个人提升才是目的。苏霍姆林斯基希望集体生活始终指向每个孩子的自尊、自爱与才能发展，而不是反过来让孩子服从集体的抽象要求。",
       "ref": "把心献给孩子（中文），《我们的集体是一个友爱的大家庭》"
+    },
+    {
+      "id": "sk-0034",
+      "type": "quote",
+      "title": "没有对孩子的信念，就没有教育；没有信念就是没有爱",
+      "source": "on-education",
+      "topics": [
+        "teacher-growth"
+      ],
+      "excerpt": "To teach without faith in children was in his view impossible. A lack of faith meant a lack of love. When asked what the most important thing in his life was Sukhomlinsky would always reply without a moment's hesitation, \"My love for children\".",
+      "cn": "苏霍姆林斯基把“对孩子的信念”视为教师不可让渡的底线：相信孩子有力量、有能力、有“变好”的愿望。没有信念的教育在他看来不可能成立，缺少信念就是缺少爱。",
+      "ref": "On Education (Progress Publishers, 1977), EPUB page 21"
+    },
+    {
+      "id": "sk-0035",
+      "type": "principle",
+      "title": "教师的自由时间，是滋养创造力的根",
+      "source": "on-education",
+      "topics": [
+        "teacher-growth"
+      ],
+      "excerpt": "Sukhomlinsky holds that a teacher's free time is the root which feeds the branches of his creativity. He does not demand any written reports, or any fixed duty rota. He encourages the teachers to check a representative cross section of the children's exercise books rather than spend hours poring over them.",
+      "cn": "帕夫雷什的管理刻意保护教师时间：不要求书面报告、不设固定值班表、不要求逐本批改所有作业。苏霍姆林斯基认为教师创造力的根是自由时间，而不是被行政事务填满。",
+      "ref": "On Education (Progress Publishers, 1977), EPUB page 20"
+    },
+    {
+      "id": "sk-0036",
+      "type": "quote",
+      "title": "小学教师对孩子必须像母亲一样亲近",
+      "source": "ba-xin-xian-gei-hai-zi-zh",
+      "topics": [
+        "teacher-growth"
+      ],
+      "excerpt": "在帕夫雷什中学工作的最初几年，我一再坚信小学教师在孩子的生活中发挥着巨大的作用。他对孩子来说必须是像母亲一样亲近的人。学生对老师的信任，师生之间的相互信赖，孩子在老师眼中看到的人性思想——这些都是基本的，也是最复杂、最明智的教育规则。",
+      "cn": "对低龄儿童而言，教师不是“知识传递者”的抽象角色，而应是像母亲一样可亲近的人。教育从师生信任与相互信赖开始；教师眼中的人性温度是最基本也最复杂的教育规则。",
+      "ref": "把心献给孩子（中文），《学校校长》"
+    },
+    {
+      "id": "sk-0037",
+      "type": "principle",
+      "title": "教师不仅是导师，也是朋友和同伴",
+      "source": "ba-xin-xian-gei-hai-zi-zh",
+      "topics": [
+        "teacher-growth"
+      ],
+      "excerpt": "培养教育者情感的重要来源是在一个友好的集体里与孩子们建立多方面的情感关系。在这个集体里教师不仅是导师，也是朋友、同伴。如果教师与学生们的见面只是在课堂上，而孩子们只有在课堂上才能感受到教师的影响，那么情感关系也会变得难以理解。",
+      "cn": "教师的情感修养需要在与儿童的多样共同生活中养成：一起劳动、游戏、远足、读书。如果师生只在课堂见面，教育影响就难以进入孩子的情感世界。",
+      "ref": "把心献给孩子（中文），《学校校长》"
+    },
+    {
+      "id": "sk-0038",
+      "type": "principle",
+      "title": "真正的教师即使批评，也不扑灭孩子“还有目标要追”的念头",
+      "source": "on-education",
+      "topics": [
+        "teacher-growth"
+      ],
+      "excerpt": "The born teacher even when reproaching a child or expressing dissatisfaction, or giving vent to his anger ... always remembers that he must not stifle the child's idea that there is a goal still to be sought after, a goal that must be attained at all costs.",
+      "cn": "教师可以批评、可以不满甚至可以有情绪，但有一条底线：不能扼杀孩子心中“我还有值得追求的目标”的信念。批评若让孩子认定自己无可救药，教育就失败了。",
+      "ref": "On Education (Progress Publishers, 1977), EPUB page 72"
     }
   ]
 };

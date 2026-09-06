@@ -12,6 +12,7 @@
 | [health-first](topics/health-first.md) | 健康第一 | 5 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 5 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 5 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 5 |
 
 ## 来源 Sources
 
@@ -66,3 +67,8 @@
 | [sk-0031](cards/sk-0031-collective-traditions-care-birthday-visit.md) | practice | collective-education | ba-xin-xian-gei-hai-zi-zh | 集体传统：为没有过过生日的孩子庆祝生日 |
 | [sk-0032](cards/sk-0032-match-indifferent-child-with-teacher.md) | method | collective-education / learning-difficulties | on-education | 孩子对一切冷漠时，为他匹配一位热忱的教师/同伴 |
 | [sk-0033](cards/sk-0033-collective-life-centered-on-individual-uplift.md) | principle | collective-education | ba-xin-xian-gei-hai-zi-zh | 集体生活应以个人提升为宗旨 |
+| [sk-0034](cards/sk-0034-faith-in-children-is-love.md) | quote | teacher-growth | on-education | 没有对孩子的信念，就没有教育；没有信念就是没有爱 |
+| [sk-0035](cards/sk-0035-teacher-free-time-feeds-creativity.md) | principle | teacher-growth | on-education | 教师的自由时间，是滋养创造力的根 |
+| [sk-0036](cards/sk-0036-teacher-must-be-close-like-mother.md) | quote | teacher-growth | ba-xin-xian-gei-hai-zi-zh | 小学教师对孩子必须像母亲一样亲近 |
+| [sk-0037](cards/sk-0037-teacher-friend-not-only-lecturer.md) | principle | teacher-growth | ba-xin-xian-gei-hai-zi-zh | 教师不仅是导师，也是朋友和同伴 |
+| [sk-0038](cards/sk-0038-reproof-must-not-stifle-goal.md) | principle | teacher-growth | on-education | 真正的教师即使批评，也不扑灭孩子“还有目标要追”的念头 |

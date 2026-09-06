@@ -13,6 +13,7 @@ card_ids:
   - sk-0012
   - sk-0013
   - sk-0020
+  - sk-0046
 source_ids:
   - ba-xin-xian-gei-hai-zi-zh
   - on-education
@@ -58,6 +59,7 @@ updated: "2026-09-06"
 | sk-0012 | principle | 85% 学业落后与健康有关，需要家校医合力 |
 | sk-0013 | quote | 学校不能完全取代家庭，教师要对缺失温暖的孩子格外留心 |
 | sk-0020 | practice | 与家庭约定作息：户外、早睡、开窗睡、院子安睡角 |
+| sk-0046 | quote | 不要求家长在记分册签名，信任比监督更重要 |
 
 ## 跨书综合
 

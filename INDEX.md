@@ -6,14 +6,15 @@
 
 | Slug | 标题 | 卡片数 |
 |---|---|---|
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 13 |
-| [family-school](topics/family-school.md) | 家校合作 | 6 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 14 |
+| [family-school](topics/family-school.md) | 家校合作 | 7 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 5 |
 | [health-first](topics/health-first.md) | 健康第一 | 5 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 5 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 5 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 7 |
 | [love-education](topics/love-education.md) | 爱的教育 | 5 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 5 |
 
 ## 来源 Sources
 
@@ -78,3 +79,8 @@
 | [sk-0041](cards/sk-0041-humanity-love-and-wise-strictness.md) | quote | love-education / teacher-growth | ba-xin-xian-gei-hai-zi-zh | 教育者的爱：厚爱 + 明智的严厉 + 父母般的严格要求 |
 | [sk-0042](cards/sk-0042-notice-child-distress-ask-later-privately.md) | method | love-education / teacher-growth | on-education | 察觉孩子不对劲时，不要当众立刻追问 |
 | [sk-0043](cards/sk-0043-child-deprived-of-love-needs-teacher-more.md) | quote | love-education | ba-xin-xian-gei-hai-zi-zh | 家中缺少疼爱的孩子，教师更要倍加关心 |
+| [sk-0044](cards/sk-0044-grade-positive-results-not-punish.md) | principle | assessment-grading | ba-xin-xian-gei-hai-zi-zh | 评分应只反映积极脑力劳动成果，而不是惩罚工具 |
+| [sk-0045](cards/sk-0045-never-use-bad-grade-to-trigger-parental-punishment.md) | principle | assessment-grading | ba-xin-xian-gei-hai-zi-zh | 绝不能拿不及格去“让家长惩罚孩子” |
+| [sk-0046](cards/sk-0046-no-signature-in-grade-book.md) | quote | assessment-grading / family-school | ba-xin-xian-gei-hai-zi-zh | 不要求家长在记分册签名，信任比监督更重要 |
+| [sk-0047](cards/sk-0047-unfair-grades-breed-dishonesty.md) | principle | assessment-grading | ba-xin-xian-gei-hai-zi-zh | 不公平的低分是孩子撒谎与欺骗的温床 |
+| [sk-0048](cards/sk-0048-avoid-comparisons-in-assessment.md) | method | assessment-grading / learning-difficulties | on-education | 评价时避免“谁好谁差”的公开比较 |

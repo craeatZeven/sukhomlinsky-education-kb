@@ -30,7 +30,7 @@ topics/   → 主题页：按教育场景聚合卡片，并做跨书综合
 - [x] 可溯源卡片 63 张（学习困难 16 / 家校合作 8 / 劳动教育 5 / 健康第一 5 / 美育与自然 5 / 集体教育 5 / 教师成长 7 / 爱的教育 5 / 评价与分数 5 / 儿童研究 5 / 阅读与书籍 5 / 思维课与大自然 5，其中多张卡跨主题）
 - [x] 主题：[学习困难学生](topics/learning-difficulties.md) · [家校合作](topics/family-school.md) · [劳动教育](topics/labor-education.md) · [健康第一](topics/health-first.md) · [美育与自然](topics/aesthetic-nature-education.md) · [集体教育](topics/collective-education.md) · [教师成长](topics/teacher-growth.md) · [爱的教育](topics/love-education.md) · [评价与分数](topics/assessment-grading.md) · [儿童研究](topics/child-study.md) · [阅读与书籍](topics/reading-and-books.md) · [思维课与大自然](topics/thinking-and-nature.md)
 - [x] 本地书源全部登记：11 个唯一来源（覆盖本地 12 份文件，见 [书源盘点](docs/book-inventory.md)）
-- [x] 网页原型：[打开 `web/index.html`](web/index.html)
+- [x] 网页原型：[打开 `web/index.html`](web/index.html) · [GitHub Pages 部署说明](docs/deployment.md)
 - [ ] 更多主题（家校合作、劳动教育、美育、集体教育……）
 - [ ] 中文扫描 PDF 全文 OCR 完成（《教育箴言》✅EasyOCR完成；其余已切换 MinerU 3.4.5 pipeline 后台排队中）
 - [ ] GitHub Pages 部署

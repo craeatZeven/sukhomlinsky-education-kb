@@ -6,11 +6,12 @@
 
 | Slug | 标题 | 卡片数 |
 |---|---|---|
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 12 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 13 |
 | [family-school](topics/family-school.md) | 家校合作 | 6 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 5 |
 | [health-first](topics/health-first.md) | 健康第一 | 5 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 5 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 5 |
 
 ## 来源 Sources
 
@@ -60,3 +61,8 @@
 | [sk-0026](cards/sk-0026-draw-what-you-find-beautiful-outdoors.md) | practice | aesthetic-nature-education | ba-xin-xian-gei-hai-zi-zh | 到户外去：画你眼中觉得美的东西 |
 | [sk-0027](cards/sk-0027-dont-translate-childrens-imagination.md) | quote | aesthetic-nature-education | ba-xin-xian-gei-hai-zi-zh | 不要把孩子想象中的奇妙语言改成大人的语言 |
 | [sk-0028](cards/sk-0028-aesthetic-feeling-must-become-action.md) | principle | aesthetic-nature-education | ba-xin-xian-gei-hai-zi-zh | 欣赏美只是善良情感的萌芽，必须化为积极行动 |
+| [sk-0029](cards/sk-0029-collective-develops-individuality.md) | quote | collective-education | on-education | 集体教育不压制个性，反而让每个孩子发展全部才能 |
+| [sk-0030](cards/sk-0030-collective-education-force-when-uplifts.md) | quote | collective-education | ba-xin-xian-gei-hai-zi-zh | 集体只有当它能提升个人时，才成为教育力量 |
+| [sk-0031](cards/sk-0031-collective-traditions-care-birthday-visit.md) | practice | collective-education | ba-xin-xian-gei-hai-zi-zh | 集体传统：为没有过过生日的孩子庆祝生日 |
+| [sk-0032](cards/sk-0032-match-indifferent-child-with-teacher.md) | method | collective-education / learning-difficulties | on-education | 孩子对一切冷漠时，为他匹配一位热忱的教师/同伴 |
+| [sk-0033](cards/sk-0033-collective-life-centered-on-individual-uplift.md) | principle | collective-education | ba-xin-xian-gei-hai-zi-zh | 集体生活应以个人提升为宗旨 |

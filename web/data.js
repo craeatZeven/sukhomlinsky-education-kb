@@ -101,6 +101,25 @@ window.KB_DATA = {
       "cross": "- On Education 提供美育的原理：美提升心灵敏感性、美的唤醒需要耐心、教育不能只重实用（sk-0024、sk-0025）。"
     },
     {
+      "slug": "collective-education",
+      "title": "集体教育",
+      "aliases": "班集体 · 集体建设 · 平行影响",
+      "summary": "苏霍姆林斯基认为真正的集体不是压制个性的工具，而是支持每个孩子提升自尊、发展才能的土壤；集体通过真诚关怀与共同劳动发挥教育力量。",
+      "core": [
+        "真正的集体教育不压制个性，反而让每个孩子发展全部才能（参见 sk-0029）。",
+        "集体只有当它有助于个人提升、让每个人树立自尊与自爱时，才成为教育力量（参见 sk-0030、sk-0033）。",
+        "集体关怀要落实为具体传统：给没庆祝过生日的孩子过生日、探望生病伙伴等（参见 sk-0031）。",
+        "对冷漠/难教的孩子，集体可作为“匹配一个热忱教师或同伴”的个别化手段（参见 sk-0032）。"
+      ],
+      "methods": [
+        "**以“个体提升”检验集体设计**：评比、活动、班规都应让每个孩子更自尊、更愿做好人（参见 sk-0030、sk-0033）。",
+        "**建立关怀型集体传统**：集体生日、探望生病同学、记住每个成员的喜好（参见 sk-0031）。",
+        "**用共同劳动/共同目标联结**：集体不只是开会和规则，而是一起做真实的事（参见 sk-0032，并与“劳动教育”交叉）。",
+        "**把个别化放进集体**：为冷漠的孩子在集体中寻找合适的大朋友/同伴，用关系带动转变（参见 sk-0032）。"
+      ],
+      "cross": "- On Education 从理论上回应“集体 vs 个性”之争：二者不矛盾，集体是个性发展的条件（sk-0029），并提供“在集体中为困难孩子匹配大朋友”的方法（sk-0032）。"
+    },
+    {
       "slug": "family-school",
       "title": "家校合作",
       "aliases": "家长学校 · 家校共育 · 家庭教育",
@@ -518,6 +537,67 @@ window.KB_DATA = {
       "excerpt": "令我惊讶的是，孩子们对美的神往与对美的冷漠复杂地交织在一起。在与这些学生见面之前，我确实认识到欣赏美只是善良情感的萌芽。这种情感必须得到发展，并化为积极的行动力。",
       "cn": "苏霍姆林斯基观察到同一个孩子可能既被美吸引又对生物冷漠。仅“会欣赏”还不够；教育必须把审美情感发展为保护美、创造美的积极行动。",
       "ref": "把心献给孩子（中文），《爱护生物和美好事物》"
+    },
+    {
+      "id": "sk-0029",
+      "type": "quote",
+      "title": "集体教育不压制个性，反而让每个孩子发展全部才能",
+      "source": "on-education",
+      "topics": [
+        "collective-education"
+      ],
+      "excerpt": "Today it is impossible to educate young people outside the collective, and collective education does not in any way undermine individuality: on the contrary, precisely this type of education allows a child to develop all his abilities.",
+      "cn": "针对“集体会磨平个性”的批评，苏霍姆林斯基明确反驳：脱离集体无法完成现代教育；真正的集体教育不仅不压制个性，反而是个人发展全部能力的条件。",
+      "ref": "On Education (Progress Publishers, 1977), EPUB page 34"
+    },
+    {
+      "id": "sk-0030",
+      "type": "quote",
+      "title": "集体只有当它能提升个人时，才成为教育力量",
+      "source": "ba-xin-xian-gei-hai-zi-zh",
+      "topics": [
+        "collective-education"
+      ],
+      "excerpt": "只有当儿童集体能有助于个人提升，能让每个人都树立起自尊心并懂得自重的时候，它才能化作一股教育力量。",
+      "cn": "集体不是“管住个人”的工具，它的教育力量来自能否帮助每个成员提升、树立自尊与自重。若集体只带来从众、羞辱或压抑，就失去了教育意义。",
+      "ref": "把心献给孩子（中文），《我们的集体是一个友爱的大家庭》"
+    },
+    {
+      "id": "sk-0031",
+      "type": "practice",
+      "title": "集体传统：为没有过过生日的孩子庆祝生日",
+      "source": "ba-xin-xian-gei-hai-zi-zh",
+      "topics": [
+        "collective-education"
+      ],
+      "excerpt": "维佳、瓦莉娅和科利亚这三个孩子在9月份过生日。我们集体为他们过了这次生日。我们在学校食堂烤了馅饼，给小寿星们送了画儿和书。当得知科利亚家里从孩子到父母从来都没有庆祝过生日的时候，我大吃了一惊。这是这个男孩子有生以来庆祝的第一个节日。小伙伴们的关心让他激动不已。",
+      "cn": "帕夫雷什的集体不是抽象组织，而是用具体传统传递关怀：给每个孩子过生日，为家庭从未庆祝过生日的孩子补上第一次节日；孩子没来上学，小伙伴晚上会去看望。这些传统让“关心他人”成为可体验的生活。",
+      "ref": "把心献给孩子（中文），《我们的集体是一个友爱的大家庭》"
+    },
+    {
+      "id": "sk-0032",
+      "type": "method",
+      "title": "孩子对一切冷漠时，为他匹配一位热忱的教师/同伴",
+      "source": "on-education",
+      "topics": [
+        "collective-education",
+        "learning-difficulties"
+      ],
+      "excerpt": "If we notice that a child is indifferent to everything, that nothing interests him, we begin to discuss who among the teachers or older pupils should be brought together with that difficult child. That is where an individual approach to a child starts... We find a way into the hearts of those children first and foremost because we are their friends in shared work.",
+      "cn": "当孩子对一切无感时，苏霍姆林斯基的做法不是给他贴“冷漠”标签，而是在教师或高年级学生中寻找一个能与他建立共同劳动/共同兴趣的人。个别化教育从“为这个孩子选一个合适的大朋友”开始。",
+      "ref": "On Education (Progress Publishers, 1977), EPUB page 202"
+    },
+    {
+      "id": "sk-0033",
+      "type": "principle",
+      "title": "集体生活应以个人提升为宗旨",
+      "source": "ba-xin-xian-gei-hai-zi-zh",
+      "topics": [
+        "collective-education"
+      ],
+      "excerpt": "我一直希望儿童集体这个小社会单元的生活能够以个人提升为宗旨。同时，孩子们的创造力、素质、才能和天赋的发展也服从于这一宗旨。",
+      "cn": "集体不是目的，个人提升才是目的。苏霍姆林斯基希望集体生活始终指向每个孩子的自尊、自爱与才能发展，而不是反过来让孩子服从集体的抽象要求。",
+      "ref": "把心献给孩子（中文），《我们的集体是一个友爱的大家庭》"
     }
   ]
 };

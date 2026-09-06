@@ -10,6 +10,7 @@
 | [family-school](topics/family-school.md) | 家校合作 | 6 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 5 |
 | [health-first](topics/health-first.md) | 健康第一 | 5 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 5 |
 
 ## 来源 Sources
 
@@ -54,3 +55,8 @@
 | [sk-0021](cards/sk-0021-healthy-air-and-outdoor-routine.md) | method | health-first | on-education | 新鲜空气与户外作息是健康的“灵丹妙药” |
 | [sk-0022](cards/sk-0022-barefoot-outdoor-colds-disappear.md) | case | health-first | ba-xin-xian-gei-hai-zi-zh | 光脚、户外与不怕淋雨：三四年级不再有人生病 |
 | [sk-0023](cards/sk-0023-homework-before-bedtime-causes-lag.md) | method | health-first / learning-difficulties | on-education | 睡前长时间做作业，孩子会开始落后 |
+| [sk-0024](cards/sk-0024-beauty-ennobles-mind.md) | quote | aesthetic-nature-education | on-education | 自然、书籍与人中的美，能使心灵变得高尚 |
+| [sk-0025](cards/sk-0025-beauty-needs-patience-years.md) | principle | aesthetic-nature-education | on-education | 美的唤醒需要耐心：不是指给孩子看，而是等待他真正被触动 |
+| [sk-0026](cards/sk-0026-draw-what-you-find-beautiful-outdoors.md) | practice | aesthetic-nature-education | ba-xin-xian-gei-hai-zi-zh | 到户外去：画你眼中觉得美的东西 |
+| [sk-0027](cards/sk-0027-dont-translate-childrens-imagination.md) | quote | aesthetic-nature-education | ba-xin-xian-gei-hai-zi-zh | 不要把孩子想象中的奇妙语言改成大人的语言 |
+| [sk-0028](cards/sk-0028-aesthetic-feeling-must-become-action.md) | principle | aesthetic-nature-education | ba-xin-xian-gei-hai-zi-zh | 欣赏美只是善良情感的萌芽，必须化为积极行动 |

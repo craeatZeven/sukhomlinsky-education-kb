@@ -81,6 +81,26 @@ window.KB_DATA = {
   ],
   "topics": [
     {
+      "slug": "aesthetic-nature-education",
+      "title": "美育与自然",
+      "aliases": "美育 · 自然教育 · 审美教育",
+      "summary": "苏霍姆林斯基认为自然与艺术中的美能提升儿童心灵的敏感性，是道德教育的重要入口；美育需要耐心等待个体觉醒，并最终转化为保护美、创造美的行动。",
+      "core": [
+        "自然、书籍与人中的美能使儿童心灵变得高尚，增强对道德影响的敏感性（参见 sk-0024）。",
+        "美的觉醒不能被“讲解”催熟，教师需要长期提供接触美的机会并耐心等待（参见 sk-0025）。",
+        "儿童对世界的审美有自己独特的“童话语言”，教育应保护它，而不是用成人标准去翻译/纠正（参见 sk-0027）。",
+        "欣赏美只是善良情感的萌芽，必须发展为保护美、创造美的行动（参见 sk-0028）。"
+      ],
+      "methods": [
+        "**让儿童在真实自然中选择美**：带孩子到草地/田野，让他自己决定“画什么/看什么”，而不是给定统一对象（参见 sk-0026）。",
+        "**把美育纳入课程结构**：用“非实用”的文学、音乐、绘画、自然观察平衡过度实用的教育（参见 sk-0024）。",
+        "**降低即时反馈期待**：不要求孩子“当堂感动”，持续提供美的经验，等待个体内在觉醒（参见 sk-0025）。",
+        "**保护儿童的想象语言**：技法（比例/透视等）可以教，但不要用成人标准破坏孩子的童话式表达（参见 sk-0027）。",
+        "**让审美转化为行动**：把“欣赏美”延伸为种花、护树、为他人创造美等具体行为（参见 sk-0028）。"
+      ],
+      "cross": "- On Education 提供美育的原理：美提升心灵敏感性、美的唤醒需要耐心、教育不能只重实用（sk-0024、sk-0025）。"
+    },
+    {
       "slug": "family-school",
       "title": "家校合作",
       "aliases": "家长学校 · 家校共育 · 家庭教育",
@@ -438,6 +458,66 @@ window.KB_DATA = {
       "excerpt": "...if a child sits at his homework for several hours before bedtime, he will start to lag behind. Passivity while a child is nominally engaged in mental work at his lessons is more often than not the result of the fact that a child spends the hours he should be out of doors—in the garden or playing snow balls—poring over books.",
       "cn": "如果孩子把本应户外活动的时间用来熬夜写作业，反而会开始落后；课堂上的“假性用功/被动”往往正是户外时间被挤占的结果。苏霍姆林斯基据此强调作业与作息安排，而不是简单增加学习时长。",
       "ref": "On Education (Progress Publishers, 1977), EPUB page 118"
+    },
+    {
+      "id": "sk-0024",
+      "type": "quote",
+      "title": "自然、书籍与人中的美，能使心灵变得高尚",
+      "source": "on-education",
+      "topics": [
+        "aesthetic-nature-education"
+      ],
+      "excerpt": "Our sense of the beautiful in Nature, in books and in people ennobles our minds: it helps a child to become sensitive to what is being said to him and to moral influences. The practical bias in education ... must be complemented by \"impractical arts\" otherwise that education will become too dry.",
+      "cn": "苏霍姆林斯基把美育列为最重要的教育原则之一：自然、书籍和他人身上的美能提升儿童心灵的敏感性，使其更容易接受道德影响。偏重实用的教育必须用“看似无用”的艺术与美来平衡。",
+      "ref": "On Education (Progress Publishers, 1977), EPUB page 36"
+    },
+    {
+      "id": "sk-0025",
+      "type": "principle",
+      "title": "美的唤醒需要耐心：不是指给孩子看，而是等待他真正被触动",
+      "source": "on-education",
+      "topics": [
+        "aesthetic-nature-education"
+      ],
+      "excerpt": "It is a simple undertaking to lead children out into a meadow and comment to them: \"Look how beautiful it is here!\" The children may nod in agreement but this in no way implies that they have really been struck by the beauty of the spring meadow. Sukhomlinsky recounted how it sometimes takes years before all of a sudden the all-important day and minute are at hand when ... a child's heart is suddenly aroused and filled with happiness when confronted with the beautiful. The teacher has to muster up vast reserves of patience and faith as he waits for that moment.",
+      "cn": "带儿童看风景很容易，但“真正被美触动”不能靠讲解或命令。教师能做的是持续创造接触美的机会，并耐心等待那个可能数年之后才到来的时刻。",
+      "ref": "On Education (Progress Publishers, 1977), EPUB page 36"
+    },
+    {
+      "id": "sk-0026",
+      "type": "practice",
+      "title": "到户外去：画你眼中觉得美的东西",
+      "source": "ba-xin-xian-gei-hai-zi-zh",
+      "topics": [
+        "aesthetic-nature-education"
+      ],
+      "excerpt": "第二天，我们来到校园的一块草地上坐了下来。我给孩子们提议：“看看你们的四周。你们看到什么美，你们最喜欢什么，就画什么。”……孩子画的画和画画的过程是儿童精神生活的一部分。孩子们不只是把周围世界里的某个东西搬到纸上，而是作为美的创造者生活在这个世界上，融入这个世界里，并欣赏着这种美。",
+      "cn": "帕夫雷什的绘画课不是“老师定主题、学生照画”，而是带孩子到草地上，让他们选择自己眼中觉得美的事物来画。画画因此成为儿童精神生活与自我表现的一部分，而不是单纯技巧训练。",
+      "ref": "把心献给孩子（中文），《每个孩子都是画家》"
+    },
+    {
+      "id": "sk-0027",
+      "type": "quote",
+      "title": "不要把孩子想象中的奇妙语言改成大人的语言",
+      "source": "ba-xin-xian-gei-hai-zi-zh",
+      "topics": [
+        "aesthetic-nature-education"
+      ],
+      "excerpt": "对孩子来讲，这并没有偏离现实，反而是鲜明、真实的，是真真实实的想象力和敏捷的思维，是巨人与火焰力量的童话共性。不要把孩子想象出的奇妙语言改成我们大人的语言。让孩子们在彼此间用自己的语言去交流……请教给孩子们比例、透视和对称的规律。这些都很好，但同时也请让孩子去自由地想象，不要破坏孩子观察世界的那种童话语言。",
+      "cn": "苏霍姆林斯基并不反对教儿童绘画技法（比例、透视、对称），但他强调不要用成人写实标准去“纠正”孩子的想象表达。孩子有自己的世界观和艺术语言，需要被尊重。",
+      "ref": "把心献给孩子（中文），《每个孩子都是画家》"
+    },
+    {
+      "id": "sk-0028",
+      "type": "principle",
+      "title": "欣赏美只是善良情感的萌芽，必须化为积极行动",
+      "source": "ba-xin-xian-gei-hai-zi-zh",
+      "topics": [
+        "aesthetic-nature-education"
+      ],
+      "excerpt": "令我惊讶的是，孩子们对美的神往与对美的冷漠复杂地交织在一起。在与这些学生见面之前，我确实认识到欣赏美只是善良情感的萌芽。这种情感必须得到发展，并化为积极的行动力。",
+      "cn": "苏霍姆林斯基观察到同一个孩子可能既被美吸引又对生物冷漠。仅“会欣赏”还不够；教育必须把审美情感发展为保护美、创造美的积极行动。",
+      "ref": "把心献给孩子（中文），《爱护生物和美好事物》"
     }
   ]
 };

@@ -9,7 +9,7 @@ year:
 url: ""
 access_date: "2026-09-06"
 rights_status: in-copyright-short-quotes-only
-status: registered
+status: complete
 ---
 
 # Source: 苏霍姆林斯基教育箴言（中文）
@@ -27,5 +27,6 @@ status: registered
 ## 处理状态
 
 - [x] 首页 OCR 核验书名/编者（朱永新 编）
-- [ ] 待整本或按需 OCR
+- [x] 整本 OCR（318 页，EasyOCR 完成）
 - [ ] 待建立主题/页码索引
+- [ ] 待人工抽卡/校验

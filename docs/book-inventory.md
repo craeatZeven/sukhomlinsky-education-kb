@@ -12,7 +12,7 @@
 | To Children I Give My Heart.pdf | `to-children-i-give-my-heart` | EN | ✅ 有文字层（备用） |
 | 把心献给孩子(...).epub | `ba-xin-xian-gei-hai-zi-zh` | ZH | ✅ 已抽纯文本 |
 | 苏霍姆林斯基-给教师的建议.pdf | `gei-jiao-shi-de-jian-yi-zh` | ZH | ⚠️ 扫描版，待 OCR |
-| 苏霍姆林斯基教育箴言.pdf | `jiao-yu-zhen-yan-zh` | ZH | 🔄 OCR 进行中 |
+| 苏霍姆林斯基教育箴言.pdf | `jiao-yu-zhen-yan-zh` | ZH | ✅ OCR 完成（318 页） |
 | 苏霍姆林斯基选集（五卷本）第1卷.pdf | `xuan-ji-zh-vol1` | ZH | ⚠️ 扫描版，待 OCR |
 | 苏霍姆林斯基选集（第一卷）.pdf | `xuan-ji-zh-vol1` | ZH | ⚠️ 疑似与上一条重复 |
 | 苏霍姆林斯基选集(五卷本)第2卷.pdf | `xuan-ji-zh-vol2` | ZH | ⚠️ 扫描版，待 OCR |
@@ -28,11 +28,11 @@
 
 ## 已知待办
 
-- [x] 《苏霍姆林斯基教育箴言》318 页 OCR 启动（后台 `pwsh-6`，约 83%）
+- [x] 《苏霍姆林斯基教育箴言》318 页 OCR 完成
 - [x] 已建立 OCR 排队器 `local_working_copy/ocr_sequencer.py`（后台 `pwsh-13`）
-- [ ] 《苏霍姆林斯基教育箴言》OCR 完成（排队器检测到 318 页后自动开始下一本）
-- [ ] 《给教师的建议》574 页 OCR（排队中）
+- [ ] 《给教师的建议》574 页 OCR（EasyOCR 排队器进行中）
 - [ ] 五卷本第 1–5 卷 OCR（排队中，共约 4607 页）
+- [ ] MinerU 模型下载完成并验证（若可用将替换/加速后续 OCR）
 - [ ] 核对“选集（第一卷）”与“选集（五卷本）第1卷”是否同版
 - [ ] 下载 Each One Must Shine 全文文本
 - [ ] 建立各中文书“目录/章节/页码”索引

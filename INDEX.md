@@ -16,6 +16,7 @@
 | [love-education](topics/love-education.md) | 爱的教育 | 5 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 5 |
 | [child-study](topics/child-study.md) | 儿童研究 | 5 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 5 |
 
 ## 来源 Sources
 
@@ -90,3 +91,8 @@
 | [sk-0051](cards/sk-0051-backward-child-closed-book.md) | quote | child-study / learning-difficulties | on-education | 对很多教师来说，后进生是一本紧闭的书 |
 | [sk-0052](cards/sk-0052-fairness-requires-intimate-knowledge.md) | principle | child-study | on-education | 真正的公平来自对每个儿童内心世界的深入了解 |
 | [sk-0053](cards/sk-0053-early-environment-affects-curiosity.md) | principle | child-study | ba-xin-xian-gei-hai-zi-zh | 学龄前缺乏照看与信息，会熄灭好奇心 |
+| [sk-0054](cards/sk-0054-reading-means-sensitive-to-words.md) | quote | reading-and-books | ba-xin-xian-gei-hai-zi-zh | 会阅读，是对词句含义与美感保持敏感 |
+| [sk-0055](cards/sk-0055-read-aloud-before-first-reading.md) | method | reading-and-books | ba-xin-xian-gei-hai-zi-zh | 孩子第一次读之前，先听老师和父母朗读 |
+| [sk-0056](cards/sk-0056-class-library-and-rereading-favorites.md) | practice | reading-and-books | ba-xin-xian-gei-hai-zi-zh | 建班级藏书库，让孩子反复读喜爱的书 |
+| [sk-0057](cards/sk-0057-self-education-starts-from-reading.md) | quote | reading-and-books | ba-xin-xian-gei-hai-zi-zh | 自我教育与精神生活，从读书开始 |
+| [sk-0058](cards/sk-0058-thinking-room-300-books.md) | quote | reading-and-books | on-education | “思考室”只放三百本值得反复读的世界杰作 |

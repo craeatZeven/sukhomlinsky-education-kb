@@ -7,6 +7,7 @@
 > 本地教育作品俄文标准标题索引 CSV（gitignored）：`local_working_copy/pedagogical-works-index.csv`（670 行原始行）
 > 本地五卷本第5卷68篇 ↔ 俄文标题映射（gitignored）：`local_working_copy/vol5-68-ru-mapping.csv`（68/68 全部有匹配：高60/中7/低1）
 > 本地 562 篇文章覆盖矩阵（gitignored）：`local_working_copy/articles-562-coverage.csv`（77 条已对应到第5卷68篇，485 条待补原文）
+> 本地 485 篇未覆盖文章可获得性分级（gitignored）：`local_working_copy/articles-485-availability.csv`（35 条为已知书摘，450 条为期刊/报纸文章）
 
 ## 解析结果（2026-09-07）
 

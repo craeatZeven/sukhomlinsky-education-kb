@@ -97,7 +97,7 @@ function cardSearchText(c){
 }
 function sourceTitle(slug){ const s=SOURCES.find(x=>x.slug===slug); return s?s.title:slug; }
 function cardHTML(c){
-  const topicBadges = (c.topics||[]).map(s=>`<span class="badge" style="margin-right:6px">${topicTitle(s)}</span>`).join("");
+  const topicBadges = (c.topics||[]).map(s=>`<a class="badge" style="margin-right:6px;text-decoration:none" href="explore.html?topic=${s}">${topicTitle(s)}</a>`).join("");
   const extraTags = (c.tags||[]).map(t=>`<span class="meta" style="border:1px solid var(--line);border-radius:999px;padding:1px 8px;margin-left:6px">${EXTRA_TAG_LABELS[t]||t}</span>`).join("");
   const exps = (c.excerpts && c.excerpts.length) ? c.excerpts : (c.excerpt ? [c.excerpt] : []);
   let excerptHtml = "";
@@ -146,23 +146,35 @@ function renderStats(){
     <div class="stat"><b>${currentFiltered.length}</b><span>当前结果${tagText}</span></div>
     <div class="stat"><b>${CARDS.length}</b><span>全部卡片</span></div>`;
 }
+function syncUrl(){
+  const p = new URLSearchParams();
+  if(activeTopic!=="all") p.set("topic", activeTopic);
+  if(activeTags.size) p.set("tags", [...activeTags].join(","));
+  const q = p.toString();
+  history.replaceState(null, "", location.pathname + (q ? "?" + q : ""));
+}
 document.addEventListener("DOMContentLoaded", ()=>{
-  buildTopicChips(); buildTagChips(); applyFilter(); renderStats();
+  const qs = new URLSearchParams(location.search);
+  const t = qs.get("topic");
+  if(t && TOPICS.some(x=>x.slug===t)) activeTopic = t;
+  const tagsParam = qs.get("tags");
+  if(tagsParam){ tagsParam.split(",").forEach(id=>{ if(id.startsWith("type:")||id.startsWith("tag:")) activeTags.add(id); }); }
+  buildTopicChips(); buildTagChips(); applyFilter(); renderStats(); syncUrl();
   $("topicChips").addEventListener("click", e=>{
     const btn=e.target.closest(".chip"); if(!btn||!btn.dataset.topic) return;
-    activeTopic=btn.dataset.topic; buildTopicChips(); applyFilter(); renderStats();
+    activeTopic=btn.dataset.topic; buildTopicChips(); applyFilter(); renderStats(); syncUrl();
   });
   $("tagChips").addEventListener("click", e=>{
     const btn=e.target.closest(".chip"); if(!btn||!btn.dataset.tag) return;
     const id = btn.dataset.tag;
     if(activeTags.has(id)) activeTags.delete(id); else activeTags.add(id);
-    buildTagChips(); applyFilter(); renderStats();
+    buildTagChips(); applyFilter(); renderStats(); syncUrl();
   });
   $("search").addEventListener("input", ()=>{ applyFilter(); renderStats(); });
   $("loadMore").addEventListener("click", ()=>{ visibleCount+=60; paintCards(); });
   $("clearBtn").addEventListener("click", ()=>{
     $("search").value=""; activeTopic="all"; activeTags.clear();
-    buildTopicChips(); buildTagChips(); applyFilter(); renderStats();
+    buildTopicChips(); buildTagChips(); applyFilter(); renderStats(); syncUrl();
   });
 });
 </script>

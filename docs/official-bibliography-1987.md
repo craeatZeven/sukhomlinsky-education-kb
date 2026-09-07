@@ -8,6 +8,8 @@
 > 本地五卷本第5卷68篇 ↔ 俄文标题映射（gitignored）：`local_working_copy/vol5-68-ru-mapping.csv`（68/68 全部有匹配：高60/中7/低1）
 > 本地 562 篇文章覆盖矩阵（gitignored）：`local_working_copy/articles-562-coverage.csv`（77 条已对应到第5卷68篇，485 条待补原文）
 > 本地 485 篇未覆盖文章可获得性分级（gitignored）：`local_working_copy/articles-485-availability.csv`（35 条为已知书摘，450 条为期刊/报纸文章）
+> 本地儿童故事俄文标准标题索引（gitignored）：`local_working_copy/artistic-works-index.csv`（223 行）
+> 本地 113 篇故事 ↔ 俄文标题对齐（gitignored）：`local_working_copy/tales-113-coverage.csv`（112/113 已对齐）
 
 ## 解析结果（2026-09-07）
 

@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 50 |
-| [family-school](topics/family-school.md) | 家校合作 | 52 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 77 |
-| [health-first](topics/health-first.md) | 健康第一 | 30 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 42 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 51 |
+| [family-school](topics/family-school.md) | 家校合作 | 53 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 79 |
+| [health-first](topics/health-first.md) | 健康第一 | 31 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 43 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 76 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 116 |
-| [love-education](topics/love-education.md) | 爱的教育 | 75 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 118 |
+| [love-education](topics/love-education.md) | 爱的教育 | 77 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 22 |
-| [child-study](topics/child-study.md) | 儿童研究 | 134 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 37 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 38 |
+| [child-study](topics/child-study.md) | 儿童研究 | 136 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 38 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 39 |
 
 ## 来源 Sources
 
@@ -461,3 +461,11 @@
 | [sk-0422](cards/sk-0422-to-children-deep-pass-06.md) | quote | reading-and-books / child-study | to-children-i-give-my-heart | 只有当词语触动心灵隐秘处，阅读才丰富儿童生活 |
 | [sk-0423](cards/sk-0423-to-children-deep-pass-07.md) | quote | teacher-growth / child-study | to-children-i-give-my-heart | 学习应逐步开始：既是艰巨劳动，也是愉快劳动 |
 | [sk-0424](cards/sk-0424-to-children-deep-pass-08.md) | quote | aesthetic-nature-education / labor-education | to-children-i-give-my-heart | 为创造美而劳动，会使孩子变得更好更美 |
+| [sk-0425](cards/sk-0425-each-one-must-shine-deep-pass-01.md) | quote | child-study / teacher-growth | each-one-must-shine | 每个人都必须发光：没有人应当成为风中尘埃 |
+| [sk-0426](cards/sk-0426-each-one-must-shine-deep-pass-02.md) | quote | health-first | each-one-must-shine | 儿童是活的生命，大脑是最娇嫩的器官 |
+| [sk-0427](cards/sk-0427-each-one-must-shine-deep-pass-03.md) | quote | family-school / love-education | each-one-must-shine | 通过父母之爱创造人 |
+| [sk-0428](cards/sk-0428-each-one-must-shine-deep-pass-04.md) | quote | love-education / teacher-growth | each-one-must-shine | 每个人身上都有待展开的天赋：以创造他人之乐来吸引 |
+| [sk-0429](cards/sk-0429-each-one-must-shine-deep-pass-05.md) | quote | reading-and-books / learning-difficulties | each-one-must-shine | 当学习变成纯书本之事：字母在眼前跳舞 |
+| [sk-0430](cards/sk-0430-each-one-must-shine-deep-pass-06.md) | quote | labor-education | each-one-must-shine | 多样劳动是磁铁：吸引孩子找到天职 |
+| [sk-0431](cards/sk-0431-each-one-must-shine-deep-pass-07.md) | quote | aesthetic-nature-education / labor-education | each-one-must-shine | 美只有在人为创造美而劳动时才能使人高尚 |
+| [sk-0432](cards/sk-0432-each-one-must-shine-deep-pass-08.md) | quote | thinking-and-nature / child-study | each-one-must-shine | 儿童用形象思考：先有画面，再理解规律 |

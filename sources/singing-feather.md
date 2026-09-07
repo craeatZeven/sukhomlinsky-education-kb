@@ -21,7 +21,7 @@ status: complete
 ## 定位方式
 
 - 本地全文：`D:\Git\sukhomlinsky-education-kb\local_working_copy\singing-feather.txt`（gitignored）
-- 故事目录（13篇）：
+- 故事目录（12篇）：
   1. I Want to Have My Say
   2. I’m Not Afraid of Thunder or Lightning
   3. Why Petrik Wept

@@ -37,6 +37,13 @@ window.KB_DATA = {
       "url": "https://archive.org/details/vasili-sukhomlinsky-on-education-progress-1977"
     },
     {
+      "slug": "singing-feather",
+      "title": "The Singing Feather (会唱歌的羽毛)",
+      "lang": "EN",
+      "meta": "Raduga Publishers · status:complete",
+      "url": "https://archive.org/details/TheSingingFeather"
+    },
+    {
       "slug": "to-children-i-give-my-heart",
       "title": "To Children I Give My Heart",
       "lang": "EN",
@@ -6477,6 +6484,248 @@ window.KB_DATA = {
       ],
       "cn": "苏霍姆林斯基在最后一封信中回答“教育青年最严重的缺点是什么”：深信就是忘记今天的小孩子将是明天的成年人（OCR“今大”待校）。很多父母和教师总把孩子当永远的孩子看待，直到孩子突然到了结婚年龄才大吃一惊。他引用契诃夫的话强调：孩子是神圣和纯洁的，不能把他们当成自己情绪的玩具。",
       "ref": "《给儿子的信》第 22 封信 / OCR 原PDF页段: p0900-0993 (0-based)",
+      "tags": [
+        "跨主题"
+      ]
+    },
+    {
+      "id": "sk-0336",
+      "type": "case",
+      "title": "我想说自己的话",
+      "source": "singing-feather",
+      "topics": [
+        "thinking-and-nature",
+        "aesthetic-nature-education"
+      ],
+      "excerpt": "Schoolmistress Katerina had taken her young class into the fields. It was a still morning in early autumn. Faraway in the sky was a flock of migrating birds. The sky is gentle,’ said Valya softly, with a sad smile. The sky played games, shimmered and breathed like a living being, and the children gazed into its wistful clear blue autumnal eyes.",
+      "excerpts": [
+        "Schoolmistress Katerina had taken her young class into the fields. It was a still morning in early autumn. Faraway in the sky was a flock of migrating birds.",
+        "The sky is gentle,’ said Valya softly, with a sad smile.",
+        "The sky played games, shimmered and breathed like a living being, and the children gazed into its wistful clear blue autumnal eyes."
+      ],
+      "cn": "卡捷琳娜老师带孩子们到田野里观察秋天的天空和候鸟，让孩子们用自己的话说出天空的样子。孩子们一开始只会重复\"湛蓝\"\"淡蓝\"\"晴朗\"等现成词语；蓝眼睛的小姑娘瓦利娅轻声说出\"天空是温柔的\"，一下子打开了大家的感受，孩子们接连说出\"忧伤\"\"不安\"\"凄凉\"，天空在她们眼中活了起来。故事说明：真正的观察和表达不是背词，而是让孩子从自己的内心感受出发，说出属于自己的那句话。",
+      "ref": "The Singing Feather (Raduga Publishers, James Riordan trans.), I Want to Have My Say, local txt lines approx 125–176",
+      "tags": [
+        "跨主题"
+      ]
+    },
+    {
+      "id": "sk-0337",
+      "type": "case",
+      "title": "我不怕打雷和闪电",
+      "source": "singing-feather",
+      "topics": [
+        "love-education"
+      ],
+      "excerpt": "He was too ashamed now to be frightened. How can you be afraid when you have a girl with you and you have to look after her? ‘Don’t be frightened, Valya,’ said Vitya. ‘I’m not afraid of thunder or lightning.' He patted her blond plait and was not a bit afraid any more.",
+      "excerpts": [
+        "He was too ashamed now to be frightened. How can you be afraid when you have a girl with you and you have to look after her?",
+        "‘Don’t be frightened, Valya,’ said Vitya. ‘I’m not afraid of thunder or lightning.'",
+        "He patted her blond plait and was not a bit afraid any more."
+      ],
+      "cn": "六月的一天，五年级学生在森林里活动，傍晚雷雨交加，小维佳吓得躲到大橡树下发抖。女同学瓦利娅来到他身边，说\"幸好我不是一个人，现在不那么害怕了\"。维佳突然觉得，身边有个女孩需要自己照顾，这时候害怕太丢人了。于是他安慰瓦利娅：\"别怕，我不怕打雷和闪电\"，还拍了拍她的辫子，结果他真的不害怕了。故事说明：当一个人需要照顾、保护别人时，责任感能压过恐惧，勇气常常是为他人而生的。",
+      "ref": "The Singing Feather (Raduga Publishers, James Riordan trans.), I’m Not Afraid of Thunder or Lightning, local txt lines approx 204–247",
+      "tags": []
+    },
+    {
+      "id": "sk-0338",
+      "type": "case",
+      "title": "佩特里克为什么哭了",
+      "source": "singing-feather",
+      "topics": [
+        "family-school",
+        "love-education"
+      ],
+      "excerpt": "Mother, it wasn’t me who broke the vase, it wasn't me who took the pieces into the garden and buried them with my little spade. I can understand a butterfly smashing a vase,’ she said. ‘But how did it carry the pieces into the garden and bury them with a spade?’ Petrik looked at his mother and began to cry.",
+      "excerpts": [
+        "Mother, it wasn’t me who broke the vase, it wasn't me who took the pieces into the garden and buried them with my little spade.",
+        "I can understand a butterfly smashing a vase,’ she said. ‘But how did it carry the pieces into the garden and bury them with a spade?’",
+        "Petrik looked at his mother and began to cry."
+      ],
+      "cn": "妈妈去面包店，小佩特里克想抓蝴蝶，把花瓶碰倒打碎了。他害怕妈妈责怪，把碎片埋到花园里，却对妈妈说谎：不是自己打碎的，是蝴蝶打碎的。妈妈没有发火，反而微笑着说：\"蝴蝶打碎花瓶我可以理解，可它怎么把碎片弄到花园里、用小铲子埋起来的呢？\"佩特里克望着妈妈，哭了。故事说明：孩子撒谎往往出于害怕惩罚；母亲用温和的追问让孩子自己面对真相，比责骂更有教育力量。",
+      "ref": "The Singing Feather (Raduga Publishers, James Riordan trans.), Why Petrik Wept, local txt lines approx 255–301",
+      "tags": [
+        "跨主题"
+      ]
+    },
+    {
+      "id": "sk-0339",
+      "type": "case",
+      "title": "什么最好？",
+      "source": "singing-feather",
+      "topics": [
+        "thinking-and-nature",
+        "family-school"
+      ],
+      "excerpt": "‘Just you tell me what’s best, the sun or sky,’ Mother said. ‘And if you can answer that, I’ll tell you what’s best out of fairy tales and songs.’ After that the little girl no longer asked what’s best. She had another question: what’s best about fairy tales? What's best about songs?",
+      "excerpts": [
+        "‘Just you tell me what’s best, the sun or sky,’ Mother said. ‘And if you can answer that, I’ll tell you what’s best out of fairy tales and songs.’",
+        "After that the little girl no longer asked what’s best. She had another question: what’s best about fairy tales? What's best about songs?"
+      ],
+      "cn": "小女孩总爱问\"什么最好\"——苹果还是梨？玫瑰还是剑兰？皮球还是洋娃娃？妈妈耐心回答，心里却犯难。一天女孩问\"童话和歌哪个最好\"，妈妈反过来问\"太阳和天空哪个最好\"。女孩想了很久想不出来：它们那么美，又分不开。从此她不再问\"哪个最好\"，而是问\"童话好在哪里？歌好在哪里？\"妈妈高兴地给她讲。故事说明：把\"比高低\"的问题转成\"看各自的好\"，孩子的思维就从比较转向欣赏与理解。",
+      "ref": "The Singing Feather (Raduga Publishers, James Riordan trans.), What’s Best?, local txt lines approx 314–341",
+      "tags": [
+        "跨主题"
+      ]
+    },
+    {
+      "id": "sk-0340",
+      "type": "case",
+      "title": "狼头还是花？",
+      "source": "singing-feather",
+      "topics": [
+        "assessment-grading",
+        "child-study"
+      ],
+      "excerpt": "Look, Mikola, what a lovely cloud that is. It is just like a white rose. The cloud is like a wolf. Can’t you see its head on one side? The boys stared up at the cloud, and what each one saw was in keeping with what he felt.",
+      "excerpts": [
+        "Look, Mikola, what a lovely cloud that is. It is just like a white rose.",
+        "The cloud is like a wolf. Can’t you see its head on one side?",
+        "The boys stared up at the cloud, and what each one saw was in keeping with what he felt."
+      ],
+      "cn": "谢尔盖卡和米科拉放学回家。谢尔盖卡今天答对三道题、得了满分，兴高采烈；米科拉被叫到前面两次都没答好，本子上记了差分数，老师还说要告诉他的妈妈。同样的白云，谢尔盖卡看见一朵白玫瑰，米科拉却看见张着大嘴的狼。故事说明：孩子的情绪状态会染上他眼中的世界；分数带来的喜与忧，直接写在孩子看世界的眼睛里。",
+      "ref": "The Singing Feather (Raduga Publishers, James Riordan trans.), Wolf’s Head or Flower?, local txt lines approx 354–390",
+      "tags": [
+        "跨主题"
+      ]
+    },
+    {
+      "id": "sk-0341",
+      "type": "case",
+      "title": "蓝鸟为什么哭",
+      "source": "singing-feather",
+      "topics": [
+        "aesthetic-nature-education",
+        "love-education"
+      ],
+      "excerpt": "As the children were swinging back and forth, a little bluebird flew above their heads, singing gaily. ‘The bluebird too is happy to see us on the swing.’ ‘No,’ she said. ‘The bluebird isn’t happy, it is crying.’",
+      "excerpts": [
+        "As the children were swinging back and forth, a little bluebird flew above their heads, singing gaily.",
+        "‘The bluebird too is happy to see us on the swing.’",
+        "‘No,’ she said. ‘The bluebird isn’t happy, it is crying.’"
+      ],
+      "cn": "米沙和奥莉娅在杨树上搭秋千，荡来荡去。一只蓝鸟在他们头顶飞，米沙说蓝鸟也高兴。奥莉娅却看见树干小洞里有个鸟窝，窝里有鸟宝宝，于是说：蓝鸟不是在唱歌，是在哭。米沙跳下秋千，看到鸟窝才明白——秋千晃动惊扰了鸟窝，鸟妈妈在为孩子们着急。故事说明：孩子的同情心常常先于大人或同伴一步；细心的观察能听见弱小的声音。",
+      "ref": "The Singing Feather (Raduga Publishers, James Riordan trans.), Why the Bluebird Cries, local txt lines approx 411–462",
+      "tags": [
+        "跨主题"
+      ]
+    },
+    {
+      "id": "sk-0342",
+      "type": "case",
+      "title": "永远的白杨树",
+      "source": "singing-feather",
+      "topics": [
+        "aesthetic-nature-education",
+        "labor-education"
+      ],
+      "excerpt": "By the roadside stands an ancient poplar. It’s always been standing by the roadside. It goes on growing and pleasing everyone. It must have been a good man who planted it. I seem to recall when I was a lad playing beneath it, and your mother plaited garlands with her girl-friends by it; and now you too are playing in its shade.",
+      "excerpts": [
+        "By the roadside stands an ancient poplar.",
+        "It’s always been standing by the roadside. It goes on growing and pleasing everyone. It must have been a good man who planted it.",
+        "I seem to recall when I was a lad playing beneath it, and your mother plaited garlands with her girl-friends by it; and now you too are playing in its shade."
+      ],
+      "cn": "路边有一棵老白杨，谁也不知道它多大、谁种的。妈妈说它一直站在路边，爷爷说它一直长在那里、让每个人都高兴，\"种它的一定是个好人\"。爷爷记得自己小时候在树下玩，妈妈和女伴在树下编花环，如今\"我\"也在树荫下玩耍。故事说明：前人种树、后人乘凉；一个好人做的一件好事，会长成几代人的共同记忆与荫蔽。",
+      "ref": "The Singing Feather (Raduga Publishers, James Riordan trans.), The Eternal Poplar, local txt lines approx 471–497",
+      "tags": [
+        "跨主题"
+      ]
+    },
+    {
+      "id": "sk-0343",
+      "type": "case",
+      "title": "坚持不懈的小蚂蚁",
+      "source": "singing-feather",
+      "topics": [
+        "labor-education",
+        "learning-difficulties"
+      ],
+      "excerpt": "You’ve picked up the seed a thousand times,’ the dragon-fly said. ‘You must be tired by now. You’re not going to manage it anyhow. Why don’t you give up and let it be?’ ‘You only give up when you fail,’ That is how persistent is the ant.",
+      "excerpts": [
+        "You’ve picked up the seed a thousand times,’ the dragon-fly said. ‘You must be tired by now. You’re not going to manage it anyhow. Why don’t you give up and let it be?’",
+        "‘You only give up when you fail,’",
+        "That is how persistent is the ant."
+      ],
+      "cn": "小黑蚂蚁背着一粒罂粟籽回家，路上看见更大更香的南瓜籽，就放下小种子去搬大种子。南瓜籽一次次从背上滑下来，蜻蜓在旁边笑话它：\"你都搬了一千次了，反正也搬不动，放弃吧。\"蚂蚁回答：\"只有失败了才放弃。\"它再试一次，把种子稳稳背回了家。故事说明：真正的放弃只发生在失败之后；一次次的滑落不是失败，只是还没成功。",
+      "ref": "The Singing Feather (Raduga Publishers, James Riordan trans.), The Persistent Ant, local txt lines approx 506–541",
+      "tags": [
+        "跨主题"
+      ]
+    },
+    {
+      "id": "sk-0344",
+      "type": "case",
+      "title": "我的妈妈最美丽",
+      "source": "singing-feather",
+      "topics": [
+        "love-education"
+      ],
+      "excerpt": "Owls only fly at night. They are frightened of the bright sunshine. ‘Don't leave the hollow in the daytime. The sun will blind you and you won’t find your way home.' Being a disobedient little owl, her son crawled out of the nest, screwed up his eyes and flew across the meadow.",
+      "excerpts": [
+        "Owls only fly at night. They are frightened of the bright sunshine.",
+        "‘Don't leave the hollow in the daytime. The sun will blind you and you won’t find your way home.'",
+        "Being a disobedient little owl, her son crawled out of the nest, screwed up his eyes and flew across the meadow."
+      ],
+      "cn": "猫头鹰妈妈叮嘱孩子白天别离开树洞，太阳会晃瞎眼睛、找不到回家的路。小猫头鹰不听话，爬出窝、眯着眼飞过草地，睁眼直视太阳，立刻被晃瞎了，坐在草地上轻轻哭。一只鹭走过来问：\"你是谁家的孩子？\"——本地 OCR 文本到此中断（后半缺页）。按原书大意，猫头鹰宝宝回答\"我的妈妈最美丽\"。故事说明：在孩子眼中，妈妈的美不因外貌而改变；同时也提醒孩子，妈妈的经验和叮嘱里藏着保护。",
+      "ref": "The Singing Feather (Raduga Publishers, James Riordan trans.), My Mother Is the Most Beautiful of All, local txt lines approx 567–590",
+      "tags": []
+    },
+    {
+      "id": "sk-0345",
+      "type": "case",
+      "title": "火和小麻雀",
+      "source": "singing-feather",
+      "topics": [
+        "child-study",
+        "thinking-and-nature"
+      ],
+      "excerpt": "‘It is the Sun,’ Mother sparrow said. ‘And what’s the Sun?’ the baby sparrow persisted. ‘I wish to know what fire is,’ trilled the baby sparrow, flying up and up and up, onwards to the sun high in the sky.",
+      "excerpts": [
+        "‘It is the Sun,’ Mother sparrow said.",
+        "‘And what’s the Sun?’ the baby sparrow persisted.",
+        "‘I wish to know what fire is,’ trilled the baby sparrow, flying up and up and up, onwards to the sun high in the sky."
+      ],
+      "cn": "老麻雀终于让小麻雀出窝。小麻雀对什么都好奇，问个不停。看到天上大火球，它问那是什么，妈妈说那是太阳。小麻雀追问\"太阳是什么\"，妈妈不耐烦地说\"那是火\"。小麻雀说\"我想知道火是什么\"，就一个劲儿朝太阳飞去，直到翅膀上的小羽毛被烤焦才急忙飞回来，还说：\"至少我现在知道火是什么了。\"故事说明：幼儿的求知欲带着不管不顾的行动性，成人随口一句解释就可能被孩子当真去\"试\"；保护好奇心，也要在危险处给孩子讲明白。",
+      "ref": "The Singing Feather (Raduga Publishers, James Riordan trans.), Fire and the Baby Sparrow, local txt lines approx 609–643",
+      "tags": [
+        "跨主题"
+      ]
+    },
+    {
+      "id": "sk-0346",
+      "type": "case",
+      "title": "懒骨头和太阳",
+      "source": "singing-feather",
+      "topics": [
+        "labor-education"
+      ],
+      "excerpt": "On a hot summer's day Lazybones went for a walk in the woods. He lay down in a shady glade and fell asleep upon the soft grass. The Sun’s happy laughter rang round the glade. ‘How silly to think that the Sun will move where Lazybones wishes,’ she cried. ‘Right,’ said Lazybones, ‘then just to spite you I shall go on lying here!’",
+      "excerpts": [
+        "On a hot summer's day Lazybones went for a walk in the woods. He lay down in a shady glade and fell asleep upon the soft grass.",
+        "The Sun’s happy laughter rang round the glade. ‘How silly to think that the Sun will move where Lazybones wishes,’ she cried.",
+        "‘Right,’ said Lazybones, ‘then just to spite you I shall go on lying here!’"
+      ],
+      "cn": "懒骨头在夏天走进树林，躺在草地上睡着了。太阳升高，晒得他头脚发烫。他本可以起身挪到阴凉处，却嫌麻烦，反而命令太阳\"让开一点\"。太阳笑着说：\"想让太阳按懒骨头的意愿挪动，多傻呀。\"懒骨头恼羞成怒：\"我偏不起来，就躺在这儿跟你怄气！\"故事说明：懒惰的人不改变自己，却要求世界改变；跟客观规律怄气，吃亏的只是自己。",
+      "ref": "The Singing Feather (Raduga Publishers, James Riordan trans.), Lazybones and the Sun, local txt lines approx 677–712",
+      "tags": []
+    },
+    {
+      "id": "sk-0347",
+      "type": "case",
+      "title": "会唱歌的羽毛",
+      "source": "singing-feather",
+      "topics": [
+        "child-study",
+        "aesthetic-nature-education"
+      ],
+      "excerpt": "What an amazing bird is the snipe. It sings... And do you know what it sings with? Its wing. ‘I cannot live without my song,’ it said. And several times when he recalled the snipe, he reflected to himself that every person has his own singing feather. How sad it would be to lose it.",
+      "excerpts": [
+        "What an amazing bird is the snipe. It sings... And do you know what it sings with? Its wing.",
+        "‘I cannot live without my song,’ it said.",
+        "And several times when he recalled the snipe, he reflected to himself that every person has his own singing feather. How sad it would be to lose it."
+      ],
+      "cn": "鹬鸟用翅膀里一根会唱歌的羽毛歌唱，声音像小提琴最高的弦。一天它丢了唱歌的羽毛，小男孩谢尔盖捡到，羽毛在男孩手里唱起歌来。鹬鸟飞来请求归还：\"没有歌我活不下去。\"谢尔盖把羽毛还给了它。长大后的谢尔盖常常想起这件事，悟出：每个人都有自己会唱歌的羽毛，丢失了会是多么悲哀。故事说明：每个人都有自己的天赋与心声，教育要帮孩子找到并守住那根\"会唱歌的羽毛\"。",
+      "ref": "The Singing Feather (Raduga Publishers, James Riordan trans.), The Singing Feather, local txt lines approx 1430–1465",
       "tags": [
         "跨主题"
       ]

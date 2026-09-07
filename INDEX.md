@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 45 |
-| [family-school](topics/family-school.md) | 家校合作 | 43 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 60 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 46 |
+| [family-school](topics/family-school.md) | 家校合作 | 45 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 63 |
 | [health-first](topics/health-first.md) | 健康第一 | 22 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 28 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 32 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 63 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 102 |
-| [love-education](topics/love-education.md) | 爱的教育 | 53 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 20 |
-| [child-study](topics/child-study.md) | 儿童研究 | 106 |
+| [love-education](topics/love-education.md) | 爱的教育 | 57 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 21 |
+| [child-study](topics/child-study.md) | 儿童研究 | 109 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 28 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 26 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 29 |
 
 ## 来源 Sources
 
@@ -372,3 +372,15 @@
 | [sk-0333](cards/sk-0333-vol3-full-pass-10.md) | quote | teacher-growth | xuan-ji-zh-vol3 | 五年寒窗培养工程师，学会做人需要一辈子 |
 | [sk-0334](cards/sk-0334-vol3-full-pass-11.md) | quote | family-school / love-education | xuan-ji-zh-vol3 | 爱情之火需要添加多方面的精神生活 |
 | [sk-0335](cards/sk-0335-vol3-full-pass-12.md) | quote | child-study / family-school | xuan-ji-zh-vol3 | 在小孩子身上看到明天的成年人 |
+| [sk-0336](cards/sk-0336-singing-feather-01.md) | case | thinking-and-nature / aesthetic-nature-education | singing-feather | 我想说自己的话 |
+| [sk-0337](cards/sk-0337-singing-feather-02.md) | case | love-education | singing-feather | 我不怕打雷和闪电 |
+| [sk-0338](cards/sk-0338-singing-feather-03.md) | case | family-school / love-education | singing-feather | 佩特里克为什么哭了 |
+| [sk-0339](cards/sk-0339-singing-feather-04.md) | case | thinking-and-nature / family-school | singing-feather | 什么最好？ |
+| [sk-0340](cards/sk-0340-singing-feather-05.md) | case | assessment-grading / child-study | singing-feather | 狼头还是花？ |
+| [sk-0341](cards/sk-0341-singing-feather-06.md) | case | aesthetic-nature-education / love-education | singing-feather | 蓝鸟为什么哭 |
+| [sk-0342](cards/sk-0342-singing-feather-07.md) | case | aesthetic-nature-education / labor-education | singing-feather | 永远的白杨树 |
+| [sk-0343](cards/sk-0343-singing-feather-08.md) | case | labor-education / learning-difficulties | singing-feather | 坚持不懈的小蚂蚁 |
+| [sk-0344](cards/sk-0344-singing-feather-09.md) | case | love-education | singing-feather | 我的妈妈最美丽 |
+| [sk-0345](cards/sk-0345-singing-feather-10.md) | case | child-study / thinking-and-nature | singing-feather | 火和小麻雀 |
+| [sk-0346](cards/sk-0346-singing-feather-11.md) | case | labor-education | singing-feather | 懒骨头和太阳 |
+| [sk-0347](cards/sk-0347-singing-feather-12.md) | case | child-study / aesthetic-nature-education | singing-feather | 会唱歌的羽毛 |

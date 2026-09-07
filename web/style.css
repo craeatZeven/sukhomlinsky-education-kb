@@ -64,8 +64,10 @@ a { color: var(--accent); }
 .topnav .nav-link { color: var(--soft); text-decoration: none; font-size: 14px; padding: 6px 12px; border-radius: 999px; transition: all .15s; }
 .topnav .nav-link:hover, .topnav .nav-link.active { color: var(--accent); background: var(--accent-soft); }
 @media (max-width: 680px) {
-  .topnav .nav-links { gap: 2px; }
-  .topnav .nav-link { font-size: 12px; padding: 5px 8px; }
+  .topnav .inner { gap: 8px; }
+  .topnav .nav-links { gap: 2px; flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
+  .topnav .nav-links::-webkit-scrollbar { display: none; }
+  .topnav .nav-link { font-size: 12px; padding: 5px 8px; white-space: nowrap; }
 }
 
 /* Hero / landing */

@@ -25,13 +25,8 @@
   <div class="wrap">
     <div class="kicker">Sukhomlinsky Education KB</div>
     <h1>活教育学：<br>从原著里长出来的教育智慧</h1>
-    <p class="sub">11 个书源 · 12 个主题 · 195 张可溯源卡片 · 12 个真实案例。每一条思想都回到苏霍姆林斯基的原著与出处。</p>
-    <div class="stats" id="stats">
-      <div class="stat"><b>11</b><span>书源</span></div>
-      <div class="stat"><b>12</b><span>主题</span></div>
-      <div class="stat"><b>195</b><span>卡片</span></div>
-      <div class="stat"><b>12</b><span>案例 Review</span></div>
-    </div>
+    <p class="sub">从原著里长出来的教育智慧：每一条想法、每一个案例都带出处，可被人类阅读，也可被 Agent 检索。</p>
+    <div class="stats" id="stats"></div>
   </div>
 </header>
 
@@ -79,9 +74,9 @@
 
   <section>
     <h2 class="section-title">一句话认识苏霍姆林斯基</h2>
-    <div class="source-card">
-      <p class="excerpt">教育的核心，就其本质来说，就在于让儿童始终体验到自己的尊严感：我是一个勤奋的脑力劳动者，是祖国的好公民，是父母的好儿女，是一个有着高尚的志趣、激情和不断取得进步的完美的人。</p>
-      <p class="ref">sk-0070 · 给教师的建议 · 详见 <a href="explore.html">卡片检索</a></p>
+    <div class="source-card" id="randomQuote">
+      <p class="excerpt">教育的核心，就其本质来说，就在于让儿童始终体验到自己的尊严感。</p>
+      <p class="ref"><a href="explore.html">随机卡片 · 点此浏览更多</a></p>
     </div>
   </section>
 </main>
@@ -93,6 +88,26 @@
   </div>
 </footer>
 
+<script src="data.js?v=20260907"></script>
 <script src="theme.js?v=20260907"></script>
+<script>
+document.addEventListener("DOMContentLoaded", ()=>{
+  const SOURCES=(window.KB_DATA&&window.KB_DATA.sources)||[];
+  const TOPICS=(window.KB_DATA&&window.KB_DATA.topics)||[];
+  const CARDS=(window.KB_DATA&&window.KB_DATA.cards)||[];
+  document.getElementById("stats").innerHTML = `
+    <div class="stat"><b>${SOURCES.length}</b><span>书源</span></div>
+    <div class="stat"><b>${TOPICS.length}</b><span>主题</span></div>
+    <div class="stat"><b>${CARDS.length}</b><span>卡片</span></div>
+    <div class="stat"><b>12</b><span>案例 Review</span></div>`;
+  if(CARDS.length){
+    const c=CARDS[Math.floor(Math.random()*CARDS.length)];
+    const ex=(c.excerpts&&c.excerpts[0])||c.excerpt||"";
+    document.getElementById("randomQuote").innerHTML = `
+      <p class="excerpt">${ex}</p>
+      <p class="ref">${c.id} · ${c.title} · <a href="card.html?id=${c.id}#${c.id}">查看卡片</a></p>`;
+  }
+});
+</script>
 </body>
 </html>

@@ -5,16 +5,16 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 46 |
-| [family-school](topics/family-school.md) | 家校合作 | 45 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 63 |
+| [family-school](topics/family-school.md) | 家校合作 | 49 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 69 |
 | [health-first](topics/health-first.md) | 健康第一 | 22 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 32 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 63 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 102 |
-| [love-education](topics/love-education.md) | 爱的教育 | 57 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 65 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 103 |
+| [love-education](topics/love-education.md) | 爱的教育 | 59 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 21 |
-| [child-study](topics/child-study.md) | 儿童研究 | 109 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 28 |
+| [child-study](topics/child-study.md) | 儿童研究 | 111 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 29 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 29 |
 
 ## 来源 Sources
@@ -384,3 +384,14 @@
 | [sk-0345](cards/sk-0345-singing-feather-10.md) | case | child-study / thinking-and-nature | singing-feather | 火和小麻雀 |
 | [sk-0346](cards/sk-0346-singing-feather-11.md) | case | labor-education | singing-feather | 懒骨头和太阳 |
 | [sk-0347](cards/sk-0347-singing-feather-12.md) | case | child-study / aesthetic-nature-education | singing-feather | 会唱歌的羽毛 |
+| [sk-0348](cards/sk-0348-letters-to-son-01.md) | quote | family-school | xuan-ji-zh-vol3 | 致年轻的朋友：你飞出了父母的巢 |
+| [sk-0349](cards/sk-0349-letters-to-son-02.md) | quote | love-education / collective-education | xuan-ji-zh-vol3 | 做一个公民：别对邪恶无动于衷 |
+| [sk-0350](cards/sk-0350-letters-to-son-03.md) | quote | labor-education / family-school | xuan-ji-zh-vol3 | 致年轻的朋友：面包是神圣的 |
+| [sk-0351](cards/sk-0351-letters-to-son-04.md) | principle | labor-education | xuan-ji-zh-vol3 | 最困难的事应成为最喜爱的事 |
+| [sk-0352](cards/sk-0352-letters-to-son-05.md) | quote | labor-education / collective-education | xuan-ji-zh-vol3 | 生活的根：粮食、劳动、人民 |
+| [sk-0353](cards/sk-0353-letters-to-son-06.md) | quote | teacher-growth / love-education | xuan-ji-zh-vol3 | 学会做人需要一辈子 |
+| [sk-0354](cards/sk-0354-letters-to-son-07.md) | method | labor-education | xuan-ji-zh-vol3 | 让手成为创造者：从最粗的活练起 |
+| [sk-0355](cards/sk-0355-letters-to-son-08.md) | quote | labor-education | xuan-ji-zh-vol3 | 人间的幸福在劳动中 |
+| [sk-0356](cards/sk-0356-letters-to-son-09.md) | principle | child-study / reading-and-books | xuan-ji-zh-vol3 | 自我教育从自我认识开始 |
+| [sk-0357](cards/sk-0357-letters-to-son-10.md) | quote | family-school / child-study | xuan-ji-zh-vol3 | 在小孩子身上看到明天的成年人 |
+| [sk-0358](cards/sk-0358-letters-to-son-11.md) | quote | labor-education / family-school | xuan-ji-zh-vol3 | 你在大地上的足迹：童年的汗水 |

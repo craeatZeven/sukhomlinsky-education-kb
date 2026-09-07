@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 36 |
-| [family-school](topics/family-school.md) | 家校合作 | 34 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 39 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 39 |
+| [family-school](topics/family-school.md) | 家校合作 | 38 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 54 |
 | [health-first](topics/health-first.md) | 健康第一 | 21 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 25 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 45 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 72 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 50 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 86 |
 | [love-education](topics/love-education.md) | 爱的教育 | 44 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 18 |
-| [child-study](topics/child-study.md) | 儿童研究 | 78 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 25 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 23 |
+| [child-study](topics/child-study.md) | 儿童研究 | 84 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 26 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 24 |
 
 ## 来源 Sources
 
@@ -298,3 +298,29 @@
 | [sk-0259](cards/sk-0259-vol5-full-batch4-22.md) | quote | family-school / love-education | xuan-ji-zh-vol5 | 在爱与忠诚的领域里，做忠实丈夫和父亲比超产更难 |
 | [sk-0260](cards/sk-0260-vol5-full-batch4-23.md) | quote | child-study / reading-and-books | xuan-ji-zh-vol5 | 只有愿意学习并以此为欢乐，学习才会成为骄傲 |
 | [sk-0261](cards/sk-0261-vol5-full-batch4-24.md) | principle | thinking-and-nature / labor-education | xuan-ji-zh-vol5 | 课堂之外要有思考的园地：见识、观察、做，三者齐备 |
+| [sk-0262](cards/sk-0262-vol5-full-batch1-01.md) | principle | learning-difficulties / teacher-growth | xuan-ji-zh-vol5 | 创造成功的“预感”，是培养学习愿望的最重要任务 |
+| [sk-0263](cards/sk-0263-vol5-full-batch1-02.md) | quote | teacher-growth / learning-difficulties | xuan-ji-zh-vol5 | 教师课堂上的精神语调，直接影响学习愿望 |
+| [sk-0264](cards/sk-0264-vol5-full-batch1-03.md) | principle | labor-education / collective-education | xuan-ji-zh-vol5 | 爱国主义不是漂亮言词，而是见之于行动的公益劳动 |
+| [sk-0265](cards/sk-0265-vol5-full-batch1-04.md) | quote | labor-education / family-school | xuan-ji-zh-vol5 | 童年没体验过为集体无偿劳动的欢乐，灵魂会沾上小市民习气 |
+| [sk-0266](cards/sk-0266-vol5-full-batch1-05.md) | quote | collective-education / teacher-growth | xuan-ji-zh-vol5 | 道德美不只看怎样评价现实，而首先看积极的活动 |
+| [sk-0267](cards/sk-0267-vol5-full-batch1-06.md) | principle | labor-education / collective-education | xuan-ji-zh-vol5 | 劳动的教育价值不在气力大小，而在坚定的目的性 |
+| [sk-0268](cards/sk-0268-vol5-full-batch1-07.md) | principle | labor-education / collective-education | xuan-ji-zh-vol5 | 无神论教育不能只靠谈话，要用积极活动见诸行动 |
+| [sk-0269](cards/sk-0269-vol5-full-batch1-08.md) | quote | labor-education / child-study | xuan-ji-zh-vol5 | 在创造性劳动中获得欢乐的人，会成为反对宗教欺骗的积极战士 |
+| [sk-0270](cards/sk-0270-vol5-full-batch1-09.md) | quote | labor-education / teacher-growth | xuan-ji-zh-vol5 | 教育与生活脱节的本质：动手没有丰富智力，智慧没有用于创造 |
+| [sk-0271](cards/sk-0271-vol5-full-batch1-10.md) | principle | learning-difficulties / teacher-growth | xuan-ji-zh-vol5 | 死记的知识越积越多越难学；分析得来的知识越学越轻松 |
+| [sk-0272](cards/sk-0272-vol5-full-batch1-11.md) | quote | child-study / teacher-growth | xuan-ji-zh-vol5 | 所有孩子都有才，关键是找到并开发其独有能力 |
+| [sk-0273](cards/sk-0273-vol5-full-batch1-12.md) | quote | child-study / teacher-growth | xuan-ji-zh-vol5 | 教师要做灵巧的珠宝匠，开发每个学生独特的人格之美 |
+| [sk-0274](cards/sk-0274-vol5-full-batch1-13.md) | principle | labor-education / thinking-and-nature | xuan-ji-zh-vol5 | 劳动吸引孩子，是因为通向诱人目的的新世界，而不是重复动作 |
+| [sk-0275](cards/sk-0275-vol5-full-batch1-14.md) | method | labor-education / teacher-growth | xuan-ji-zh-vol5 | 别把日常劳动当作终点，而要不断翻开“大自然之书”的新页 |
+| [sk-0276](cards/sk-0276-vol5-full-batch1-15.md) | quote | teacher-growth / labor-education | xuan-ji-zh-vol5 | 教师对自己工作的热爱，像火一样点燃学生的热情 |
+| [sk-0277](cards/sk-0277-vol5-full-batch1-16.md) | quote | teacher-growth | xuan-ji-zh-vol5 | 教师一旦停止知识增长，就不再是学生的知识灯塔 |
+| [sk-0278](cards/sk-0278-vol5-full-batch1-17.md) | quote | child-study / teacher-growth | xuan-ji-zh-vol5 | 让学校里不存在一个没有个性的学生 |
+| [sk-0279](cards/sk-0279-vol5-full-batch1-18.md) | quote | collective-education / teacher-growth | xuan-ji-zh-vol5 | 一个人只有也在教育别人时，才能更好地受教育 |
+| [sk-0280](cards/sk-0280-vol5-full-batch1-19.md) | quote | labor-education / family-school | xuan-ji-zh-vol5 | 年轻人应当生活得艰苦些——这是最崇高的人道意义 |
+| [sk-0281](cards/sk-0281-vol5-full-batch1-20.md) | principle | labor-education / family-school | xuan-ji-zh-vol5 | 在孩子面前揭示生活欢乐的劳动本源，是德育的最重要任务 |
+| [sk-0282](cards/sk-0282-vol5-full-batch1-21.md) | quote | labor-education / child-study | xuan-ji-zh-vol5 | 一个人全面发展的基础，孕育于自己所喜爱的劳动之中 |
+| [sk-0283](cards/sk-0283-vol5-full-batch1-22.md) | quote | labor-education | xuan-ji-zh-vol5 | 热爱的工作是人的根：根扎得越深，自尊感越强 |
+| [sk-0284](cards/sk-0284-vol5-full-batch1-23.md) | quote | teacher-growth | xuan-ji-zh-vol5 | 语言是教育科学变成教师教学艺术的桥梁 |
+| [sk-0285](cards/sk-0285-vol5-full-batch1-24.md) | quote | teacher-growth / reading-and-books | xuan-ji-zh-vol5 | 语言如刻刀：能塑造美丽心灵，也能摧毁它 |
+| [sk-0286](cards/sk-0286-vol5-full-batch1-25.md) | quote | labor-education / child-study | xuan-ji-zh-vol5 | 找到自己的志向，就是找到自己的幸福与做人尊严 |
+| [sk-0287](cards/sk-0287-vol5-full-batch1-26.md) | quote | labor-education / family-school | xuan-ji-zh-vol5 | 幸福靠自己亲手创造，劳动和创造的乐趣不会从天而降 |

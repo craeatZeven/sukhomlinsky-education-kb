@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>主题 · 苏霍姆林斯基教育知识库</title>
+<link rel="stylesheet" href="style.css?v=20260907" />
+</head>
+<body data-theme="green">
+<nav class="topnav">
+  <div class="inner">
+    <a class="brand" href="index.html">苏霍姆林斯基教育知识库</a>
+    <div class="nav-links">
+      <a class="nav-link" href="index.html">首页</a>
+      <a class="nav-link active" href="explore.html">主题浏览</a>
+      <a class="nav-link" href="clusters.html">思想地图</a>
+      <a class="nav-link" href="problem.html">问题检索</a>
+      <a class="nav-link" href="cases.html">案例 Review</a>
+      <a class="nav-link" href="sources.html">书源</a>
+    </div>
+  </div>
+</nav>
+
+<header class="page-head">
+  <div class="wrap">
+    <div class="eyebrow">Topic</div>
+    <h1 id="topicTitle">主题</h1>
+    <p id="topicSummary"></p>
+  </div>
+</header>
+
+<main class="wrap">
+  <section>
+    <div id="topicBody"></div>
+    <h2 class="section-title">本主题卡片</h2>
+    <div class="grid" id="cardList"></div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><a href="index.html">← 返回首页</a> · 数据源 <a href="../INDEX.md">INDEX.md</a></p>
+  </div>
+</footer>
+
+<script src="data.js?v=20260907"></script>
+<script src="theme.js?v=20260907"></script>
+<script>
+const SOURCES = (window.KB_DATA && window.KB_DATA.sources) || [];
+const TOPICS = (window.KB_DATA && window.KB_DATA.topics) || [];
+const CARDS = (window.KB_DATA && window.KB_DATA.cards) || [];
+const TYPE_LABELS = {quote:"quote 语录", case:"case 案例", principle:"principle 原则", method:"method 方法", practice:"practice 实践"};
+function topicTitle(slug){ const t=TOPICS.find(x=>x.slug===slug); return t?t.title:slug; }
+function render(){
+  const slug = new URLSearchParams(location.search).get("slug");
+  const topic = TOPICS.find(t=>t.slug===slug);
+  if(!topic){
+    document.getElementById("topicTitle").textContent = "未找到主题";
+    document.getElementById("topicSummary").textContent = "请从主题浏览进入。";
+    return;
+  }
+  document.getElementById("topicTitle").textContent = topic.title;
+  document.getElementById("topicSummary").textContent = topic.summary || "";
+  document.title = topic.title + " · 苏霍姆林斯基教育知识库";
+  document.getElementById("topicBody").innerHTML = `
+    <p><b>别名：</b>${topic.aliases || "无"}</p>
+    <h3>核心判断</h3><ul>${(topic.core||[]).map(x=>`<li>${x}</li>`).join("")}</ul>
+    <h3>可操作方法</h3><ul>${(topic.methods||[]).map(x=>`<li>${x}</li>`).join("")}</ul>
+    <h3>跨书综合</h3><p>${topic.cross || ""}</p>`;
+  const list = CARDS.filter(c=>(c.topics||[]).includes(slug));
+  document.getElementById("cardList").innerHTML = list.map(c=>`
+    <a class="source-card" style="text-decoration:none;color:inherit" href="card.html?id=${c.id}#${c.id}">
+      <div class="card-top">
+        <span class="badge">${TYPE_LABELS[c.type]||c.type}</span>
+        <span class="ref">${c.id}</span>
+      </div>
+      <h3 style="margin:10px 0 4px;font-size:17px">${c.title}</h3>
+      <p class="cn" style="font-size:13px;color:var(--soft)">${(c.cn||"").slice(0,80)}${(c.cn||"").length>80?"…":""}</p>
+    </a>`).join("") || `<p class="section-sub">暂无卡片</p>`;
+}
+document.addEventListener("DOMContentLoaded", render);
+</script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>卡片详情 · 苏霍姆林斯基教育知识库</title>
+<link rel="stylesheet" href="style.css?v=20260907" />
+</head>
+<body data-theme="green">
+<nav class="topnav">
+  <div class="inner">
+    <a class="brand" href="index.html">苏霍姆林斯基教育知识库</a>
+    <div class="nav-links">
+      <a class="nav-link" href="index.html">首页</a>
+      <a class="nav-link" href="explore.html">主题浏览</a>
+      <a class="nav-link" href="clusters.html">思想地图</a>
+      <a class="nav-link" href="cases.html">案例 Review</a>
+      <a class="nav-link" href="sources.html">书源</a>
+    </div>
+  </div>
+</nav>
+
+<header class="page-head">
+  <div class="wrap">
+    <div class="eyebrow">Card Detail</div>
+    <h1 id="cardTitle">卡片详情</h1>
+    <p id="cardMeta"></p>
+  </div>
+</header>
+
+<main class="wrap">
+  <p style="margin:0 0 16px"><a href="explore.html">← 返回主题浏览</a></p>
+  <section>
+    <article class="card" id="cardMain"></article>
+  </section>
+
+  <section>
+    <h2 class="section-title">相关卡片</h2>
+    <div class="grid" id="related"></div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><a href="index.html">← 返回首页</a> · 数据源 <a href="../INDEX.md">INDEX.md</a></p>
+  </div>
+</footer>
+
+<script src="data.js?v=20260907"></script>
+<script src="theme.js?v=20260907"></script>
+<script>
+const SOURCES = (window.KB_DATA && window.KB_DATA.sources) || [];
+const TOPICS = (window.KB_DATA && window.KB_DATA.topics) || [];
+const CARDS = (window.KB_DATA && window.KB_DATA.cards) || [];
+const TYPE_LABELS = {quote:"quote 语录", case:"case 案例", principle:"principle 原则", method:"method 方法", practice:"practice 实践"};
+const EXTRA_TAG_LABELS = {"OCR待校":"OCR 待校", "待纸本核":"待纸本核", "跨主题":"跨主题"};
+function topicTitle(slug){ const t=TOPICS.find(x=>x.slug===slug); return t?t.title:slug; }
+function sourceTitle(slug){ const s=SOURCES.find(x=>x.slug===slug); return s?s.title:slug; }
+function getParam(){ return new URLSearchParams(location.search).get("id") || location.hash.replace("#",""); }
+function cardLink(c){ return `card.html?id=${c.id}#${c.id}`; }
+function renderCard(c){
+  if(!c){ document.getElementById("cardMain").innerHTML = `<p class="empty" style="display:block">未找到该卡片，请检查链接或去主题浏览。</p>`; return; }
+  document.title = c.id + " · " + c.title + " · 苏霍姆林斯基教育知识库";
+  document.getElementById("cardTitle").textContent = c.title;
+  const topicBadges = (c.topics||[]).map(s=>`<span class="badge" style="margin-right:6px">${topicTitle(s)}</span>`).join("");
+  const exps = (c.excerpts && c.excerpts.length) ? c.excerpts : (c.excerpt ? [c.excerpt] : []);
+  const excerptsHtml = exps.map((q,i)=>`<div class="excerpt" style="margin-top:10px">${q}</div>`).join("");
+  const tags = [...(c.tags||[]).map(t=>EXTRA_TAG_LABELS[t]||t)];
+  const citation = `${c.title} // 苏霍姆林斯基教育知识库 ${c.id} · ${sourceTitle(c.source)} · ${c.ref}`;
+  document.getElementById("cardMeta").textContent = c.id + " · " + sourceTitle(c.source);
+  document.getElementById("cardMain").innerHTML = `
+    <div class="card-top">
+      <div>${topicBadges}</div>
+      <span class="badge" style="background:transparent;border:1px solid var(--line);color:var(--soft)">${TYPE_LABELS[c.type]||c.type}</span>
+    </div>
+    <h2 style="margin:12px 0 8px;font-size:24px">${c.title}</h2>
+    ${excerptsHtml}
+    ${c.cn?`<div class="cn" style="margin-top:12px"><b>中文转述：</b>${c.cn}</div>`:""}
+    <div class="ref" style="margin-top:14px;line-height:1.7"><b>出处：</b>${sourceTitle(c.source)}<br>${c.ref}</div>
+    ${tags.length?`<div style="margin-top:10px">${tags.map(t=>`<span class="meta" style="border:1px solid var(--line);border-radius:999px;padding:1px 8px;margin-right:6px">${t}</span>`).join("")}</div>`:""}
+    <div style="margin-top:16px;display:flex;gap:10px;flex-wrap:wrap">
+      <button class="chip" id="copyBtn" type="button">复制引用</button>
+      <a class="chip" style="text-decoration:none" href="../INDEX.md" target="_blank" rel="noopener">在 INDEX 中查看 ↗</a>
+    </div>`;
+  document.getElementById("copyBtn").addEventListener("click", ()=>{
+    navigator.clipboard && navigator.clipboard.writeText(citation).then(()=>{document.getElementById("copyBtn").textContent="已复制";});
+  });
+  renderRelated(c);
+}
+function renderRelated(c){
+  const rel = CARDS.filter(x=>x.id!==c.id && (x.topics||[]).some(t=>(c.topics||[]).includes(t))).slice(0,6);
+  document.getElementById("related").innerHTML = rel.map(x=>`
+    <a class="source-card" style="text-decoration:none;color:inherit" href="${cardLink(x)}">
+      <span class="badge">${TYPE_LABELS[x.type]||x.type}</span>
+      <h3 style="margin:10px 0 4px;font-size:17px">${x.title}</h3>
+      <p class="ref">${x.id} · ${(x.topics||[]).map(topicTitle).join(" / ")}</p>
+    </a>`).join("") || `<p class="section-sub">暂无相关卡片</p>`;
+}
+document.addEventListener("DOMContentLoaded", ()=>{
+  const id = getParam();
+  if(id){ renderCard(CARDS.find(c=>c.id===id)); }
+  else { renderCard(null); }
+});
+</script>
+</body>
+</html>

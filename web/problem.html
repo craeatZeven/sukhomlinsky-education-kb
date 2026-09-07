@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>问题检索 · 苏霍姆林斯基教育知识库</title>
+<link rel="stylesheet" href="style.css?v=20260907" />
+</head>
+<body data-theme="green">
+<nav class="topnav">
+  <div class="inner">
+    <a class="brand" href="index.html">苏霍姆林斯基教育知识库</a>
+    <div class="nav-links">
+      <a class="nav-link" href="index.html">首页</a>
+      <a class="nav-link" href="explore.html">主题浏览</a>
+      <a class="nav-link" href="clusters.html">思想地图</a>
+      <a class="nav-link active" href="problem.html">问题检索</a>
+      <a class="nav-link" href="cases.html">案例 Review</a>
+      <a class="nav-link" href="sources.html">书源</a>
+    </div>
+  </div>
+</nav>
+
+<header class="page-head">
+  <div class="wrap">
+    <div class="eyebrow">Problem Finder</div>
+    <h1>问题检索</h1>
+    <p>输入一个教育问题（如“说谎”“后进生”“坐不住”），找到苏霍姆林斯基的想法、案例与卡片。</p>
+    <div class="searchbox">
+      <input id="q" type="search" placeholder="例如：孩子说谎怎么办？" />
+      <button class="chip" id="clearBtn" type="button">清空</button>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section>
+    <h2 class="section-title">匹配结果</h2>
+    <div class="grid" id="problemGrid"></div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><a href="index.html">← 返回首页</a> · 完整案例见 <a href="cases.html">案例 Review</a></p>
+  </div>
+</footer>
+
+<script src="theme.js?v=20260907"></script>
+<script>
+const PROBLEMS = [
+  {id:"lying", title:"孩子说谎之后怎么办", keys:"说谎 撒谎 欺骗 改分数 藏试卷", desc:"先听谎言在保护什么；用弥补后果替代惩罚逼供。", ids:["sk-0081","sk-0143","sk-0152","sk-0047","sk-0042","sk-0084"]},
+  {id:"backward", title:"后进生越补越差", keys:"后进生 差生 学习困难 落后 不及格 补课", desc:"停止惩罚性补课，找回真实活动中的成功体验。", ids:["sk-0001","sk-0002","sk-0068","sk-0076","sk-0110"]},
+  {id:"restless", title:"低年级孩子坐不住", keys:"坐不住 多动 纪律差 走神 好动", desc:"先查健康与作息，再谈纪律；把好动变成贡献。", ids:["sk-0185","sk-0165","sk-0131","sk-0184","sk-0021"]},
+  {id:"grade-pressure", title:"家长用分数和打骂逼孩子", keys:"分数 成绩 打骂 惩罚 考不好 排名", desc:"分数不当惩罚工具；把“再试一次”还给儿童。", ids:["sk-0045","sk-0075","sk-0157","sk-0180","sk-0065"]},
+  {id:"praise-hypocrisy", title:"公开表扬养出表演型好孩子", keys:"表扬 好人好事 表演 伪君子 虚荣", desc:"减少高曝光表扬，让善行回到内心确认。", ids:["sk-0074","sk-0088","sk-0170","sk-0129"]},
+  {id:"overload", title:"作业负担过重、越学越累", keys:"负担 作业 熬夜 减负 疲劳 死记", desc:"负担来自死记而非页数；先做负担审计与作息重建。", ids:["sk-0083","sk-0131","sk-0160","sk-0184","sk-0188"]},
+  {id:"adolescent", title:"少年逆反、拒绝沟通", keys:"逆反 青春期 顶撞 锁门 拒绝沟通", desc:"没有信任便没有教育；先留通道，再谈指导。", ids:["sk-0080","sk-0115","sk-0153","sk-0165"]},
+  {id:"no-reading-home", title:"家里没有书、没有共同精神生活", keys:"阅读 藏书 书架 短视频 作文 精神生活", desc:"家庭小书架、朗读与父母的榜样优先于说教。", ids:["sk-0176","sk-0127","sk-0055","sk-0072","sk-0175"]},
+  {id:"teacher-burnout", title:"教师忙到没时间备课", keys:"教师 备课 倦怠 开会 表格 时间", desc:"把自由时间还给教师；长期读书才是真正备课。", ids:["sk-0035","sk-0064","sk-0100","sk-0161","sk-0122"]},
+  {id:"clique", title:"班级小团体排挤、欺负与冷漠", keys:"排挤 欺负 霸凌 孤立 冷漠 小团体", desc:"别开批判会；用共同任务与“看见孤独者”重建集体。", ids:["sk-0030","sk-0139","sk-0140","sk-0177","sk-0164"]},
+  {id:"left-behind", title:"单亲、隔代或父母常年不在家", keys:"单亲 隔代 留守 父母不在 冷漠", desc:"建立稳定成人连接，用日常传统补偿家庭温暖。", ids:["sk-0013","sk-0043","sk-0036","sk-0031","sk-0032"]},
+  {id:"labor-useless", title:"家长把劳动当“耽误学习”", keys:"劳动 值日 手工 耽误学习 家务", desc:"用完整而有情感出口的劳动证明“手巧→脑活”。", ids:["sk-0014","sk-0066","sk-0132","sk-0151","sk-0085"]},
+  {id:"early-love", title:"青春期早恋被粗暴打压", keys:"早恋 爱情 恋爱 青春期", desc:"爱情首先意味着责任；先尊重情感，再做精神引导。", ids:["sk-0120","sk-0107","sk-0156","sk-0115"]},
+  {id:"low-esteem", title:"孩子没有自信、害怕失败", keys:"自信 自尊 失败 害怕 胆怯", desc:"教育的核心是尊严感；给他“再试一次”和成功体验。", ids:["sk-0070","sk-0182","sk-0065","sk-0110"]},
+  {id:"no-mind", title:"孩子不爱动脑、只刷短视频", keys:"短视频 不动脑 无聊 思考 游戏", desc:"思维需要被教会；用问题、观察与真实任务激活脑力。", ids:["sk-0007","sk-0190","sk-0191","sk-0174"]},
+  {id:"health", title:"孩子食欲差、易疲劳、体质弱", keys:"健康 睡眠 户外 食欲 疲劳 生病", desc:"健康是学习地基；先调作息与户外，再谈学业。", ids:["sk-0069","sk-0184","sk-0187","sk-0020","sk-0021"]}
+];
+function renderProblems(list){
+  document.getElementById("problemGrid").innerHTML = list.map(p=>`
+    <article class="case-card" id="${p.id}">
+      <span class="badge">问题</span>
+      <h3 style="margin:10px 0 6px">${p.title}</h3>
+      <p class="meta">${p.desc}</p>
+      <p class="ref" style="margin-top:10px">
+        ${p.ids.map(id=>`<a href="card.html?id=${id}#${id}" style="margin-right:6px">${id}</a>`).join("")}
+      </p>
+    </article>`).join("") || `<p class="empty" style="display:block">没有匹配的问题。试试“说谎”“后进生”“坐不住”等关键词。</p>`;
+}
+function apply(){
+  const q = (document.getElementById("q").value||"").trim().toLowerCase();
+  const list = q ? PROBLEMS.filter(p=>p.title.includes(q) || p.keys.includes(q)) : PROBLEMS;
+  renderProblems(list);
+  if(q){
+    const m = PROBLEMS.find(p=>p.keys.includes(q) || p.title.includes(q));
+    if(m) location.hash = m.id;
+  }
+}
+document.addEventListener("DOMContentLoaded", ()=>{
+  const init = new URLSearchParams(location.search).get("q");
+  if(init) document.getElementById("q").value = init;
+  apply();
+  document.getElementById("q").addEventListener("input", apply);
+  document.getElementById("clearBtn").addEventListener("click", ()=>{ document.getElementById("q").value=""; apply(); });
+});
+</script>
+</body>
+</html>

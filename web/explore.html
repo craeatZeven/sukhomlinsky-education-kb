@@ -13,6 +13,7 @@
     <div class="nav-links">
       <a class="nav-link" href="index.html">首页</a>
       <a class="nav-link active" href="explore.html">主题浏览</a>
+      <a class="nav-link" href="problem.html">问题检索</a>
       <a class="nav-link" href="clusters.html">思想地图</a>
       <a class="nav-link" href="cases.html">案例 Review</a>
       <a class="nav-link" href="sources.html">书源</a>
@@ -112,7 +113,7 @@ function cardHTML(c){
       <div>${topicBadges}</div>
       <span class="badge" style="background:transparent;border:1px solid var(--line);color:var(--soft)">${TYPE_LABELS[c.type]||c.type}</span>
     </div>
-    <h3>${c.title}</h3>
+    <h3><a href="card.html?id=${c.id}#${c.id}" style="color:inherit">${c.title}</a></h3>
     ${excerptHtml}
     ${c.cn?`<p class="cn">${c.cn}</p>`:""}
     <div class="ref" style="margin-top:10px">${c.id} · ${sourceTitle(c.source)}<br>${c.ref}</div>

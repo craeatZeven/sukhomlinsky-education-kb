@@ -2,12 +2,12 @@
 (function () {
   var THEMES = [
     { id: "paper", label: "纸本", dot: "#b4552d" },
-    { id: "green", label: "书斋", dot: "#2f6b4f" },
+    { id: "green", label: "森林", dot: "#2f6b4f" },
     { id: "dark", label: "夜读", dot: "#1c1917" }
   ];
   function currentTheme() {
     var saved = localStorage.getItem("sukh-theme");
-    return saved && THEMES.some(function (t) { return t.id === saved; }) ? saved : "paper";
+    return saved && THEMES.some(function (t) { return t.id === saved; }) ? saved : "green";
   }
   function applyTheme(id) {
     document.body.setAttribute("data-theme", id);

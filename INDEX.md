@@ -5,17 +5,17 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 36 |
-| [family-school](topics/family-school.md) | 家校合作 | 29 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 30 |
+| [family-school](topics/family-school.md) | 家校合作 | 34 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 39 |
 | [health-first](topics/health-first.md) | 健康第一 | 21 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 23 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 39 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 65 |
-| [love-education](topics/love-education.md) | 爱的教育 | 37 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 25 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 45 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 72 |
+| [love-education](topics/love-education.md) | 爱的教育 | 44 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 18 |
-| [child-study](topics/child-study.md) | 儿童研究 | 69 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 24 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 21 |
+| [child-study](topics/child-study.md) | 儿童研究 | 78 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 25 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 23 |
 
 ## 来源 Sources
 
@@ -274,3 +274,27 @@
 | [sk-0235](cards/sk-0235-vol5-full-batch3-16.md) | quote | family-school / labor-education | xuan-ji-zh-vol5 | 父辈功劳不是儿女资本：儿女越要有自己的发光点 |
 | [sk-0236](cards/sk-0236-vol5-full-batch3-17.md) | quote | family-school / love-education | xuan-ji-zh-vol5 | 父亲道德堕落是孩子的痛苦：要保护好儿童对人的爱与信心 |
 | [sk-0237](cards/sk-0237-vol5-full-batch3-18.md) | quote | reading-and-books / teacher-growth | xuan-ji-zh-vol5 | 最有诱惑力的享受是读书：让好书成为童年最大的快乐 |
+| [sk-0238](cards/sk-0238-vol5-full-batch4-01.md) | principle | child-study / teacher-growth | xuan-ji-zh-vol5 | 儿童不是白纸：信念培养是一场针对已有思想影响的斗争 |
+| [sk-0239](cards/sk-0239-vol5-full-batch4-02.md) | principle | labor-education / collective-education | xuan-ji-zh-vol5 | 只有亲手劳动让世界变好，道理才转化为信念 |
+| [sk-0240](cards/sk-0240-vol5-full-batch4-03.md) | quote | teacher-growth / labor-education | xuan-ji-zh-vol5 | 学生应当获取知识，而不是消费现成的知识 |
+| [sk-0241](cards/sk-0241-vol5-full-batch4-04.md) | principle | collective-education / teacher-growth | xuan-ji-zh-vol5 | 信念不能机械传授，只能在集体智力生活的空气中磨炼 |
+| [sk-0242](cards/sk-0242-vol5-full-batch4-05.md) | quote | collective-education / child-study | xuan-ji-zh-vol5 | 把学生锻炼成勇敢的战士：用爱武装心，也用恨擦亮眼 |
+| [sk-0243](cards/sk-0243-vol5-full-batch4-06.md) | quote | child-study / collective-education | xuan-ji-zh-vol5 | 思想的勇敢：敢于把世界上发生的事当成自己的事 |
+| [sk-0244](cards/sk-0244-vol5-full-batch4-07.md) | principle | labor-education / collective-education | xuan-ji-zh-vol5 | 公益劳动要进入儿童的精神生活，成为心爱的劳动 |
+| [sk-0245](cards/sk-0245-vol5-full-batch4-08.md) | quote | labor-education / collective-education | xuan-ji-zh-vol5 | 让儿童亲手看到世界因自己的劳动改变，预防坐享其成 |
+| [sk-0246](cards/sk-0246-vol5-full-batch4-09.md) | quote | aesthetic-nature-education / thinking-and-nature | xuan-ji-zh-vol5 | 在童年树立终生信念：人类是大自然的孩子 |
+| [sk-0247](cards/sk-0247-vol5-full-batch4-10.md) | quote | labor-education / aesthetic-nature-education | xuan-ji-zh-vol5 | 大自然和劳动密不可分：不避任何劳动，才能做自然的知恩之子 |
+| [sk-0248](cards/sk-0248-vol5-full-batch4-11.md) | quote | child-study / love-education | xuan-ji-zh-vol5 | 羞耻心是卑污和丑恶的抗毒素 |
+| [sk-0249](cards/sk-0249-vol5-full-batch4-12.md) | method | child-study / love-education | xuan-ji-zh-vol5 | 用体验自由界限的方法教儿童学会控制愿望（罗曼的一天） |
+| [sk-0250](cards/sk-0250-vol5-full-batch4-13.md) | quote | labor-education / family-school | xuan-ji-zh-vol5 | 劳动教育是‘应该劳动’、‘劳动艰苦’和‘劳动美好’的统一 |
+| [sk-0251](cards/sk-0251-vol5-full-batch4-14.md) | quote | labor-education / teacher-growth | xuan-ji-zh-vol5 | 当思维成为劳动、学校成为劳动王国，学生就会崇尚任何劳动 |
+| [sk-0252](cards/sk-0252-vol5-full-batch4-15.md) | quote | family-school / love-education | xuan-ji-zh-vol5 | 爱是一种艰苦劳动：在子女身上延续自己 |
+| [sk-0253](cards/sk-0253-vol5-full-batch4-16.md) | quote | family-school / labor-education | xuan-ji-zh-vol5 | 儿童通过劳动认识世界，并在劳动中形成道德标准 |
+| [sk-0254](cards/sk-0254-vol5-full-batch4-17.md) | quote | teacher-growth / love-education | xuan-ji-zh-vol5 | 教学首先是人与人之间的关系 |
+| [sk-0255](cards/sk-0255-vol5-full-batch4-18.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol5 | 教师道德不容许一个学生感到自己孤独 |
+| [sk-0256](cards/sk-0256-vol5-full-batch4-19.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol5 | 教育的艺术：教师每次接触都是对心灵劳动的推动 |
+| [sk-0257](cards/sk-0257-vol5-full-batch4-20.md) | quote | love-education / child-study | xuan-ji-zh-vol5 | 心灵劳动是与亲人的忧患与共：不要怕向年轻心灵揭示痛苦 |
+| [sk-0258](cards/sk-0258-vol5-full-batch4-21.md) | quote | family-school / love-education | xuan-ji-zh-vol5 | 人的道德自我不可分割：不能过双重生活 |
+| [sk-0259](cards/sk-0259-vol5-full-batch4-22.md) | quote | family-school / love-education | xuan-ji-zh-vol5 | 在爱与忠诚的领域里，做忠实丈夫和父亲比超产更难 |
+| [sk-0260](cards/sk-0260-vol5-full-batch4-23.md) | quote | child-study / reading-and-books | xuan-ji-zh-vol5 | 只有愿意学习并以此为欢乐，学习才会成为骄傲 |
+| [sk-0261](cards/sk-0261-vol5-full-batch4-24.md) | principle | thinking-and-nature / labor-education | xuan-ji-zh-vol5 | 课堂之外要有思考的园地：见识、观察、做，三者齐备 |

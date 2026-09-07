@@ -158,6 +158,13 @@ def parse_cards() -> list[dict]:
         cn = first_para(cn_section)
         topics_raw = (fm.get('topics') or '').strip()
         topics = [x.strip() for x in topics_raw.split(',') if x.strip()]
+        tags: list[str] = []
+        if '[OCR待校]' in text or '[extraction待校]' in text:
+            tags.append('OCR待校')
+        if any(k in text for k in ('待纸本核', '纸本复核', '待纸本', '待原书')):
+            tags.append('待纸本核')
+        if len(topics) > 1:
+            tags.append('跨主题')
         cards.append({
             'id': fm['id'],
             'type': fm.get('type', ''),
@@ -167,6 +174,7 @@ def parse_cards() -> list[dict]:
             'excerpt': excerpt,
             'cn': cn,
             'ref': fm.get('ref', ''),
+            'tags': tags,
         })
     return cards
 

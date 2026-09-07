@@ -331,7 +331,8 @@ window.KB_DATA = {
       ],
       "excerpt": "Such children should be taught in ordinary schools; it would be quite out of the question to set up for them any special educational establishments, that would be contrary to elementary humanity. These children are not ugly, merely the frailest and most delicate of all the flowers in mankind's infinitely various garden. It is not their fault that they came into our schools thin, weak and defenceless.",
       "cn": "苏霍姆林斯基反对把学习困难儿童从普通学校中“隔离”出去，认为专门设校反而违背基本人道。他说这些孩子并不丑陋，只是人类花园里最娇嫩脆弱的花；他们的薄弱不是自己的过错。",
-      "ref": "On Education (Progress Publishers, 1977), Foreword by S. Soloveichik, p. 22（EPUB page 23）"
+      "ref": "On Education (Progress Publishers, 1977), Foreword by S. Soloveichik, p. 22（EPUB page 23）",
+      "tags": []
     },
     {
       "id": "sk-0002",
@@ -343,7 +344,8 @@ window.KB_DATA = {
       ],
       "excerpt": "Children never respond to angry words... Before a child can be educated he has to be rendered educable. Before the teacher addresses himself directly to a child, it is essential that the child should be in a state in which he is capable of taking in the teacher's words... Just as he should refrain from shouting at weak pupils and give them additional help instead, so he should stop himself shouting at pupils who do not pay attention.",
       "cn": "面对“说不动”的孩子，教师常以为问题是孩子不听话；苏霍姆林斯基认为真正要做的是先恢复孩子的“可教育性”——让儿童处于能听进教师话语的状态。对弱生不吼叫，而是给额外帮助；对道德引导也同样，不用惩罚和向家长告状开路。",
-      "ref": "On Education (Progress Publishers, 1977), p. 34（EPUB page 35）"
+      "ref": "On Education (Progress Publishers, 1977), p. 34（EPUB page 35）",
+      "tags": []
     },
     {
       "id": "sk-0003",
@@ -355,7 +357,8 @@ window.KB_DATA = {
       ],
       "excerpt": "The reason for a teacher's helplessness when faced by a difficult pupil... does not lie in the fact that the pupil is beyond improvement, but that the actual education process is not proceeding along the right path: the educator is endeavouring only to root out defects or better still to forestall their appearance... From the day he arrives at school it is vital to perceive and tirelessly to consolidate and develop a child's positive potential.",
       "cn": "教师面对“难教的孩子”感到无能为力，通常不是因为孩子真的不可救药，而是教育路径错了——只想着“纠错”或“防错”。苏霍姆林斯基主张从孩子入学第一天起就发现并持续巩固、发展他的积极潜能，而不是整天盯着缺陷。",
-      "ref": "On Education (Progress Publishers, 1977), p. 72（EPUB page 73）"
+      "ref": "On Education (Progress Publishers, 1977), p. 72（EPUB page 73）",
+      "tags": []
     },
     {
       "id": "sk-0004",
@@ -367,7 +370,8 @@ window.KB_DATA = {
       ],
       "excerpt": "When Sukhomlinsky began his teaching career, his first concern was his pupil's literacy. Many children used to have to repeat years because of their weak written work... Two years' intensive work enabled Sukhomlinsky to cut down the numbers with a low literacy rating by half. That was the first major achievement in the school's history—the first battle and the first victory.",
       "cn": "苏霍姆林斯基从教初期面对的“老大难”是大量学生因书写/读写弱而留级。他没有把问题归为孩子笨，而是投入两年密集工作，把低识字率学生数量降低一半。他把这称为学校历史上“第一次战斗与第一次胜利”。",
-      "ref": "On Education (Progress Publishers, 1977), Foreword by S. Soloveichik, p. 25（EPUB page 26）"
+      "ref": "On Education (Progress Publishers, 1977), Foreword by S. Soloveichik, p. 25（EPUB page 26）",
+      "tags": []
     },
     {
       "id": "sk-0005",
@@ -379,7 +383,8 @@ window.KB_DATA = {
       ],
       "excerpt": "Experience has shown us that in 85 per cent of cases where children are doing badly at school, the main reason for backwardness is poor health, some indisposition or illness, more often than not of a quite imperceptible variety but something that can only be put to right, provided there is concerted effort on the part of mother, father, doctor and teacher.",
       "cn": "苏霍姆林斯基根据长期观察提出：约 85% 的学业落后首要原因不是智力，而是健康——往往是家长和教师不易察觉的轻微不适或疾病。要解决它，需要母亲、父亲、医生和教师协同努力。",
-      "ref": "On Education (Progress Publishers, 1977), p. 114（EPUB page 115）"
+      "ref": "On Education (Progress Publishers, 1977), p. 114（EPUB page 115）",
+      "tags": []
     },
     {
       "id": "sk-0006",
@@ -391,7 +396,8 @@ window.KB_DATA = {
       ],
       "excerpt": "I started to work separately with my slow learners... These riddles were an irreplaceable means of training the mind. The children had to remember from two to four \"moves\" to solve each of them. In six months, Valya and Slava could solve such problems, but Petrik and Nina still had no luck... I studied the thinking of children, especially such slow learners as Valya, Petrik, and Nina, not for some kind of theoretical goals, but to facilitate their intellectual labor—to teach them to study.",
       "cn": "苏霍姆林斯基在“快乐学校”阶段观察到 Valya、Nina、Petrik、Slava 等孩子在解谜题时“思维链中断”。他开始与慢学习者单独工作，用民间谜题训练他们“在心中记住 2–4 步”。六个月后 Valya 和 Slava 能解出这类题，Petrik 和 Nina 仍困难——他并不因此放弃，而是继续研究他们的思维特点，目的是教会他们“学习”。",
-      "ref": "To Children I Give My Heart, Part “The Years of Childhood”, pp. 82–83"
+      "ref": "To Children I Give My Heart, Part “The Years of Childhood”, pp. 82–83",
+      "tags": []
     },
     {
       "id": "sk-0007",
@@ -403,7 +409,8 @@ window.KB_DATA = {
       ],
       "excerpt": "The ability to think must be taught, or otherwise the children will strain their memories and cram, dulling their thoughts even more.",
       "cn": "慢学习者的问题常常被误判为“记不住”；苏霍姆林斯基认为真正的解法是教他们“想”——如果只逼记忆和背诵，孩子的思维会更钝。思维本身是需要教学的能力。",
-      "ref": "To Children I Give My Heart, Part “The Years of Childhood”, p. 83"
+      "ref": "To Children I Give My Heart, Part “The Years of Childhood”, p. 83",
+      "tags": []
     },
     {
       "id": "sk-0008",
@@ -415,7 +422,8 @@ window.KB_DATA = {
       ],
       "excerpt": "I started to work separately with my slow learners. I gave them simple folk riddles designed to deepen comprehension of natural numbers and to determine the interdependence of numbers... The children had to remember from two to four \"moves\" to solve each of them.",
       "cn": "实践要点：",
-      "ref": "To Children I Give My Heart, Part “The Years of Childhood”, pp. 82–83"
+      "ref": "To Children I Give My Heart, Part “The Years of Childhood”, pp. 82–83",
+      "tags": []
     },
     {
       "id": "sk-0009",
@@ -427,7 +435,8 @@ window.KB_DATA = {
       ],
       "excerpt": "孩子是父母道德生活的一面镜子。我曾思考过每个家庭的利和弊。好父母最有价值且毫不费力就能灌输给子女的道德品质是父母内心的善良和善待他人的能力。",
       "cn": "孩子不是靠听父母“讲道理”长大的，而是通过观察父母如何对待他人、如何生活形成最初的道德面貌。父母内心真正的善良会“毫不费力”地传递给孩子；反之，利己主义与盲目溺爱也会成为祸根。",
-      "ref": "把心献给孩子（中文），《我的学生家长》"
+      "ref": "把心献给孩子（中文），《我的学生家长》",
+      "tags": []
     },
     {
       "id": "sk-0010",
@@ -439,7 +448,8 @@ window.KB_DATA = {
       ],
       "excerpt": "孩子是家庭的一面镜子。正如水滴里能映出太阳一样，父母的道德节操也会反映在孩子们的身上。因此，学校和家长们的任务是要让每一个孩子都感到幸福……教师只有与父母一同努力，才能带给孩子们巨大的幸福。",
       "cn": "学校与家庭不是“交接孩子的两端”，而是共同承担同一任务：让每个孩子感到幸福。幸福不是单靠学校或单靠家庭能完成的，教师必须与父母形成合力。",
-      "ref": "把心献给孩子（中文），《我的学生家长》"
+      "ref": "把心献给孩子（中文），《我的学生家长》",
+      "tags": []
     },
     {
       "id": "sk-0011",
@@ -451,7 +461,8 @@ window.KB_DATA = {
       ],
       "excerpt": "为了关注学龄前儿童的状况，我们成立了家长培训班，请2～6岁大儿童的家长来学习……我们力求让家长学到一定的知识和技能。家长培训学校的课程特别关注这样一个问题，就是如何教孩子思考、通过什么途径提高孩子的智力……我们还与家长们一起制订了一个关于学龄前儿童走进大自然的计划……我们还非常注重，让每一个有学龄前儿童的家庭能够营造出浓厚的读书氛围。",
       "cn": "帕夫雷什中学的“家长学校/家长培训班”在孩子入学前就已开始，面向 2–6 岁儿童的家长。内容覆盖身体、心理、智力、道德、审美发展，特别教家长如何应对孩子的提问、如何带孩子走进自然、如何营造家庭读书氛围。",
-      "ref": "把心献给孩子（中文），《生活习题集里的一千道题》"
+      "ref": "把心献给孩子（中文），《生活习题集里的一千道题》",
+      "tags": []
     },
     {
       "id": "sk-0012",
@@ -464,7 +475,10 @@ window.KB_DATA = {
       ],
       "excerpt": "经验告诉我们，大约85%成绩不及格的学生之所以学业落后，主要是因为身体状况不佳，身体有某种不适或疾病。而这些身体异常往往完全不被察觉，因此只有在父母、医生和老师的共同努力下，才能治愈这些疾病。",
       "cn": "这是“85% 学业失败与健康有关”论断的中文版本，与 On Education 中的英文表述相互印证。它说明：当孩子成绩落后时，学校不能只从教学找原因，需要父母、医生、教师三方协同排查健康。",
-      "ref": "把心献给孩子（中文），《大自然是健康之源》"
+      "ref": "把心献给孩子（中文），《大自然是健康之源》",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0013",
@@ -476,7 +490,8 @@ window.KB_DATA = {
       ],
       "excerpt": "School cannot fully take the place of the family, in particular a child's mother, but if a child is deprived of kind concern, warmth and care at home, we teachers must be particularly attentive to his needs.",
       "cn": "苏霍姆林斯基承认学校无法完全替代家庭，尤其是母亲的角色；正因如此，当孩子在家中缺少温暖与关怀时，教师更要格外关注他的需要。",
-      "ref": "On Education (Progress Publishers, 1977), EPUB page 67（The Need to Understand the Workings of the Child's Heart）"
+      "ref": "On Education (Progress Publishers, 1977), EPUB page 67（The Need to Understand the Workings of the Child's Heart）",
+      "tags": []
     },
     {
       "id": "sk-0014",
@@ -488,7 +503,8 @@ window.KB_DATA = {
       ],
       "excerpt": "Work is as essential to the individual as food, it must be regular and systematic... The body of staff at the Pavlysh school goes out of its way to ensure that the children there not only engage in work projects during their years at school but sees to it that they complete the various work projects they begin and go through all stages of the work process—from appreciation of the ultimate objective ... to profound satisfaction gleaned from its results.",
       "cn": "劳动不是临时“帮忙”或“救火”，而是像食物一样必须规律、系统。帕夫雷什中学刻意让孩子把已开始的工作做完，走完“明确目标 → 坚持完成 → 收获满足”的全过程，避免只做零散、随机的杂务。",
-      "ref": "On Education (Progress Publishers, 1977), p. 199（EPUB page 200）"
+      "ref": "On Education (Progress Publishers, 1977), p. 199（EPUB page 200）",
+      "tags": []
     },
     {
       "id": "sk-0015",
@@ -501,7 +517,10 @@ window.KB_DATA = {
       ],
       "excerpt": "I take the most difficult and \"incorrigible\" of children by the hand, lead them to the school vineyard and say: \"Let's start working here together, with the whole collective.\" As we work away together, however \"hopeless\" a case he might have seemed, a willingness to work emerges... The day will come when the difficult and \"incorrigible\" pupil passes on the fruits of his labour to other people and experiences joy in doing so. From that moment on he is a \"man worth his salt\".",
       "cn": "面对最“难教/无可救药”的孩子，苏霍姆林斯基不是先讲道理，而是带他进入集体劳动：一起在葡萄园工作。当孩子把劳动成果送给别人并因此感到快乐时，他就开始成为“真正的人”。",
-      "ref": "On Education (Progress Publishers, 1977), p. 201（EPUB page 202）"
+      "ref": "On Education (Progress Publishers, 1977), p. 201（EPUB page 202）",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0016",
@@ -513,7 +532,8 @@ window.KB_DATA = {
       ],
       "excerpt": "这一天留在了孩子们的记忆中。在盛典中没有关于劳动和人格的豪言壮语。重要的是盛典让孩子们激动。这是对快乐感觉的体验：我们种出粮食，我们给父母带来快乐。而一个人因自己的劳动而感到快乐，这是道德修养和高尚品格的最重要源泉。",
       "cn": "帕夫雷什的孩子不是“象征性”劳动：他们真实松土、选种、播种、收割、脱粒、磨面、烤面包，最后举办“粮食盛典”邀请父母品尝。劳动教育的关键不是口号，而是让孩子从完整劳动中体验“我能创造、我能带给他人快乐”。",
-      "ref": "把心献给孩子（中文），《劳动是崇高的》"
+      "ref": "把心献给孩子（中文），《劳动是崇高的》",
+      "tags": []
     },
     {
       "id": "sk-0017",
@@ -525,7 +545,8 @@ window.KB_DATA = {
       ],
       "excerpt": "生活告诉我，为了欣赏玫瑰的美丽、为了让其他人感受到欣赏美丽和创造美丽的幸福而栽种玫瑰花的孩子一定不会是残忍的、凶狠的、无耻的和冷酷的。",
       "cn": "劳动与美育在这里汇合：孩子不是为了“完成作业”而种花，而是为了让母亲、让他人欣赏到美。这种“为他人创造美”的劳动具有道德塑造力，使孩子难以变得残忍冷酷。",
-      "ref": "把心献给孩子（中文），《劳动是崇高的》"
+      "ref": "把心献给孩子（中文），《劳动是崇高的》",
+      "tags": []
     },
     {
       "id": "sk-0018",
@@ -538,7 +559,10 @@ window.KB_DATA = {
       ],
       "excerpt": "It is very difficult to compel pupils to exert themselves mentally, but to compel them to engage in physical work is significantly easier. A combination of manual and brain work is an all-important means of fostering love of work in the laziest and most neglected of pupils, whom parents have never made work.",
       "cn": "对家长从未让其劳动、又懒散被忽视的孩子，直接逼他“用功读书”很难；苏霍姆林斯基的方法是先让他承担一定体力劳动，再逐步让他在劳动中看到“理解与驾驭自然/事物”的智力意义，从而真正克服懒惰。",
-      "ref": "On Education (Progress Publishers, 1977), p. 200（EPUB page 201）"
+      "ref": "On Education (Progress Publishers, 1977), p. 200（EPUB page 201）",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0019",
@@ -550,7 +574,8 @@ window.KB_DATA = {
       ],
       "excerpt": "我不怕一次又一次地重复：关注健康是教育者最重要的工作。孩子们的精神生活、世界观、智力发展、知识巩固和自信取决于他们是否乐观、是否有朝气。",
       "cn": "苏霍姆林斯基把健康放在教育工作的首位：不是“先学习、再锻炼”，而是孩子的精神生活、智力发展和自信都建立在健康与朝气之上。",
-      "ref": "把心献给孩子（中文），《健康，健康，还是健康》"
+      "ref": "把心献给孩子（中文），《健康，健康，还是健康》",
+      "tags": []
     },
     {
       "id": "sk-0020",
@@ -563,7 +588,10 @@ window.KB_DATA = {
       ],
       "excerpt": "家长们承诺会让孩子们多到户外去呼吸新鲜空气，早睡早起，开着通风窗睡觉。我和家长们商量好，在整个夏天、春末和秋初的那几个月里，要让孩子们在院子里睡觉。家长们在可以避雨的廊檐下和干草垛上设置了专门的“安睡角”……有小学生的家庭家家都要在花园里、在家门口的自留地上盖一个亭子，孩子从早春到晚秋就可以在这里看书、画画和休息。",
       "cn": "健康管理不是学校单方面规定，而是学校与家庭共同约定：多户外、早睡早起、开窗睡觉、夏季在院子安睡。学校甚至推动每个有学生的家庭建“读书亭/安睡角”，让儿童在新鲜空气中阅读和休息。",
-      "ref": "把心献给孩子（中文），《健康，健康，还是健康》"
+      "ref": "把心献给孩子（中文），《健康，健康，还是健康》",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0021",
@@ -575,7 +603,8 @@ window.KB_DATA = {
       ],
       "excerpt": "The elixir of good health is air saturated with the phytoncides from cereals—wheat, rye, barley, buckwheat and other meadow grasses. I often used to take my pupils out into the fields and the meadows for them to breathe in the good air filled with the scent of cereals. I used to urge parents to plant hazel-nut trees under the windows of their children's bedroom; these trees fill the air with phytoncides... I also made sure that every family put up a summer shower in its garden.",
       "cn": "苏霍姆林斯基把“富含植物杀菌素的新鲜空气”称为健康灵药：常带孩子到田野草场呼吸，建议家长在儿童卧室窗外种核桃树，在院子里装夏季淋浴。健康措施往往落在家庭环境和户外作息上。",
-      "ref": "On Education (Progress Publishers, 1977), EPUB page 114"
+      "ref": "On Education (Progress Publishers, 1977), EPUB page 114",
+      "tags": []
     },
     {
       "id": "sk-0022",
@@ -587,7 +616,8 @@ window.KB_DATA = {
       ],
       "excerpt": "自打在“快乐学校”从事儿童教育的最初几周开始，我就非常重视体育游戏……孩子们整个夏天都光着脚走路，也不怕淋雨。我把这些看作是特别重要的体育锻炼方法。在一、二年级时有过三例感冒，到了三、四年级时已没有任何人生过病。",
       "cn": "帕夫雷什的一组实践结果：持续户外游戏、夏天光脚、不怕淋雨、冷水擦洗等锻炼后，班级感冒从一、二年级的 3 例降到三、四年级的 0 例。苏霍姆林斯基强调这不是“不怕冷”的逞强，而是长期适应与基本作息制度的结果。",
-      "ref": "把心献给孩子（中文），《健康，健康，还是健康》"
+      "ref": "把心献给孩子（中文），《健康，健康，还是健康》",
+      "tags": []
     },
     {
       "id": "sk-0023",
@@ -600,7 +630,10 @@ window.KB_DATA = {
       ],
       "excerpt": "...if a child sits at his homework for several hours before bedtime, he will start to lag behind. Passivity while a child is nominally engaged in mental work at his lessons is more often than not the result of the fact that a child spends the hours he should be out of doors—in the garden or playing snow balls—poring over books.",
       "cn": "如果孩子把本应户外活动的时间用来熬夜写作业，反而会开始落后；课堂上的“假性用功/被动”往往正是户外时间被挤占的结果。苏霍姆林斯基据此强调作业与作息安排，而不是简单增加学习时长。",
-      "ref": "On Education (Progress Publishers, 1977), EPUB page 118"
+      "ref": "On Education (Progress Publishers, 1977), EPUB page 118",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0024",
@@ -612,7 +645,8 @@ window.KB_DATA = {
       ],
       "excerpt": "Our sense of the beautiful in Nature, in books and in people ennobles our minds: it helps a child to become sensitive to what is being said to him and to moral influences. The practical bias in education ... must be complemented by \"impractical arts\" otherwise that education will become too dry.",
       "cn": "苏霍姆林斯基把美育列为最重要的教育原则之一：自然、书籍和他人身上的美能提升儿童心灵的敏感性，使其更容易接受道德影响。偏重实用的教育必须用“看似无用”的艺术与美来平衡。",
-      "ref": "On Education (Progress Publishers, 1977), EPUB page 36"
+      "ref": "On Education (Progress Publishers, 1977), EPUB page 36",
+      "tags": []
     },
     {
       "id": "sk-0025",
@@ -624,7 +658,8 @@ window.KB_DATA = {
       ],
       "excerpt": "It is a simple undertaking to lead children out into a meadow and comment to them: \"Look how beautiful it is here!\" The children may nod in agreement but this in no way implies that they have really been struck by the beauty of the spring meadow. Sukhomlinsky recounted how it sometimes takes years before all of a sudden the all-important day and minute are at hand when ... a child's heart is suddenly aroused and filled with happiness when confronted with the beautiful. The teacher has to muster up vast reserves of patience and faith as he waits for that moment.",
       "cn": "带儿童看风景很容易，但“真正被美触动”不能靠讲解或命令。教师能做的是持续创造接触美的机会，并耐心等待那个可能数年之后才到来的时刻。",
-      "ref": "On Education (Progress Publishers, 1977), EPUB page 36"
+      "ref": "On Education (Progress Publishers, 1977), EPUB page 36",
+      "tags": []
     },
     {
       "id": "sk-0026",
@@ -636,7 +671,8 @@ window.KB_DATA = {
       ],
       "excerpt": "第二天，我们来到校园的一块草地上坐了下来。我给孩子们提议：“看看你们的四周。你们看到什么美，你们最喜欢什么，就画什么。”……孩子画的画和画画的过程是儿童精神生活的一部分。孩子们不只是把周围世界里的某个东西搬到纸上，而是作为美的创造者生活在这个世界上，融入这个世界里，并欣赏着这种美。",
       "cn": "帕夫雷什的绘画课不是“老师定主题、学生照画”，而是带孩子到草地上，让他们选择自己眼中觉得美的事物来画。画画因此成为儿童精神生活与自我表现的一部分，而不是单纯技巧训练。",
-      "ref": "把心献给孩子（中文），《每个孩子都是画家》"
+      "ref": "把心献给孩子（中文），《每个孩子都是画家》",
+      "tags": []
     },
     {
       "id": "sk-0027",
@@ -648,7 +684,8 @@ window.KB_DATA = {
       ],
       "excerpt": "对孩子来讲，这并没有偏离现实，反而是鲜明、真实的，是真真实实的想象力和敏捷的思维，是巨人与火焰力量的童话共性。不要把孩子想象出的奇妙语言改成我们大人的语言。让孩子们在彼此间用自己的语言去交流……请教给孩子们比例、透视和对称的规律。这些都很好，但同时也请让孩子去自由地想象，不要破坏孩子观察世界的那种童话语言。",
       "cn": "苏霍姆林斯基并不反对教儿童绘画技法（比例、透视、对称），但他强调不要用成人写实标准去“纠正”孩子的想象表达。孩子有自己的世界观和艺术语言，需要被尊重。",
-      "ref": "把心献给孩子（中文），《每个孩子都是画家》"
+      "ref": "把心献给孩子（中文），《每个孩子都是画家》",
+      "tags": []
     },
     {
       "id": "sk-0028",
@@ -660,7 +697,8 @@ window.KB_DATA = {
       ],
       "excerpt": "令我惊讶的是，孩子们对美的神往与对美的冷漠复杂地交织在一起。在与这些学生见面之前，我确实认识到欣赏美只是善良情感的萌芽。这种情感必须得到发展，并化为积极的行动力。",
       "cn": "苏霍姆林斯基观察到同一个孩子可能既被美吸引又对生物冷漠。仅“会欣赏”还不够；教育必须把审美情感发展为保护美、创造美的积极行动。",
-      "ref": "把心献给孩子（中文），《爱护生物和美好事物》"
+      "ref": "把心献给孩子（中文），《爱护生物和美好事物》",
+      "tags": []
     },
     {
       "id": "sk-0029",
@@ -672,7 +710,8 @@ window.KB_DATA = {
       ],
       "excerpt": "Today it is impossible to educate young people outside the collective, and collective education does not in any way undermine individuality: on the contrary, precisely this type of education allows a child to develop all his abilities.",
       "cn": "针对“集体会磨平个性”的批评，苏霍姆林斯基明确反驳：脱离集体无法完成现代教育；真正的集体教育不仅不压制个性，反而是个人发展全部能力的条件。",
-      "ref": "On Education (Progress Publishers, 1977), EPUB page 34"
+      "ref": "On Education (Progress Publishers, 1977), EPUB page 34",
+      "tags": []
     },
     {
       "id": "sk-0030",
@@ -684,7 +723,8 @@ window.KB_DATA = {
       ],
       "excerpt": "只有当儿童集体能有助于个人提升，能让每个人都树立起自尊心并懂得自重的时候，它才能化作一股教育力量。",
       "cn": "集体不是“管住个人”的工具，它的教育力量来自能否帮助每个成员提升、树立自尊与自重。若集体只带来从众、羞辱或压抑，就失去了教育意义。",
-      "ref": "把心献给孩子（中文），《我们的集体是一个友爱的大家庭》"
+      "ref": "把心献给孩子（中文），《我们的集体是一个友爱的大家庭》",
+      "tags": []
     },
     {
       "id": "sk-0031",
@@ -696,7 +736,8 @@ window.KB_DATA = {
       ],
       "excerpt": "维佳、瓦莉娅和科利亚这三个孩子在9月份过生日。我们集体为他们过了这次生日。我们在学校食堂烤了馅饼，给小寿星们送了画儿和书。当得知科利亚家里从孩子到父母从来都没有庆祝过生日的时候，我大吃了一惊。这是这个男孩子有生以来庆祝的第一个节日。小伙伴们的关心让他激动不已。",
       "cn": "帕夫雷什的集体不是抽象组织，而是用具体传统传递关怀：给每个孩子过生日，为家庭从未庆祝过生日的孩子补上第一次节日；孩子没来上学，小伙伴晚上会去看望。这些传统让“关心他人”成为可体验的生活。",
-      "ref": "把心献给孩子（中文），《我们的集体是一个友爱的大家庭》"
+      "ref": "把心献给孩子（中文），《我们的集体是一个友爱的大家庭》",
+      "tags": []
     },
     {
       "id": "sk-0032",
@@ -709,7 +750,10 @@ window.KB_DATA = {
       ],
       "excerpt": "If we notice that a child is indifferent to everything, that nothing interests him, we begin to discuss who among the teachers or older pupils should be brought together with that difficult child. That is where an individual approach to a child starts... We find a way into the hearts of those children first and foremost because we are their friends in shared work.",
       "cn": "当孩子对一切无感时，苏霍姆林斯基的做法不是给他贴“冷漠”标签，而是在教师或高年级学生中寻找一个能与他建立共同劳动/共同兴趣的人。个别化教育从“为这个孩子选一个合适的大朋友”开始。",
-      "ref": "On Education (Progress Publishers, 1977), EPUB page 202"
+      "ref": "On Education (Progress Publishers, 1977), EPUB page 202",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0033",
@@ -721,7 +765,8 @@ window.KB_DATA = {
       ],
       "excerpt": "我一直希望儿童集体这个小社会单元的生活能够以个人提升为宗旨。同时，孩子们的创造力、素质、才能和天赋的发展也服从于这一宗旨。",
       "cn": "集体不是目的，个人提升才是目的。苏霍姆林斯基希望集体生活始终指向每个孩子的自尊、自爱与才能发展，而不是反过来让孩子服从集体的抽象要求。",
-      "ref": "把心献给孩子（中文），《我们的集体是一个友爱的大家庭》"
+      "ref": "把心献给孩子（中文），《我们的集体是一个友爱的大家庭》",
+      "tags": []
     },
     {
       "id": "sk-0034",
@@ -733,7 +778,8 @@ window.KB_DATA = {
       ],
       "excerpt": "To teach without faith in children was in his view impossible. A lack of faith meant a lack of love. When asked what the most important thing in his life was Sukhomlinsky would always reply without a moment's hesitation, \"My love for children\".",
       "cn": "苏霍姆林斯基把“对孩子的信念”视为教师不可让渡的底线：相信孩子有力量、有能力、有“变好”的愿望。没有信念的教育在他看来不可能成立，缺少信念就是缺少爱。",
-      "ref": "On Education (Progress Publishers, 1977), EPUB page 21"
+      "ref": "On Education (Progress Publishers, 1977), EPUB page 21",
+      "tags": []
     },
     {
       "id": "sk-0035",
@@ -745,7 +791,8 @@ window.KB_DATA = {
       ],
       "excerpt": "Sukhomlinsky holds that a teacher's free time is the root which feeds the branches of his creativity. He does not demand any written reports, or any fixed duty rota. He encourages the teachers to check a representative cross section of the children's exercise books rather than spend hours poring over them.",
       "cn": "帕夫雷什的管理刻意保护教师时间：不要求书面报告、不设固定值班表、不要求逐本批改所有作业。苏霍姆林斯基认为教师创造力的根是自由时间，而不是被行政事务填满。",
-      "ref": "On Education (Progress Publishers, 1977), EPUB page 20"
+      "ref": "On Education (Progress Publishers, 1977), EPUB page 20",
+      "tags": []
     },
     {
       "id": "sk-0036",
@@ -757,7 +804,8 @@ window.KB_DATA = {
       ],
       "excerpt": "在帕夫雷什中学工作的最初几年，我一再坚信小学教师在孩子的生活中发挥着巨大的作用。他对孩子来说必须是像母亲一样亲近的人。学生对老师的信任，师生之间的相互信赖，孩子在老师眼中看到的人性思想——这些都是基本的，也是最复杂、最明智的教育规则。",
       "cn": "对低龄儿童而言，教师不是“知识传递者”的抽象角色，而应是像母亲一样可亲近的人。教育从师生信任与相互信赖开始；教师眼中的人性温度是最基本也最复杂的教育规则。",
-      "ref": "把心献给孩子（中文），《学校校长》"
+      "ref": "把心献给孩子（中文），《学校校长》",
+      "tags": []
     },
     {
       "id": "sk-0037",
@@ -769,7 +817,8 @@ window.KB_DATA = {
       ],
       "excerpt": "培养教育者情感的重要来源是在一个友好的集体里与孩子们建立多方面的情感关系。在这个集体里教师不仅是导师，也是朋友、同伴。如果教师与学生们的见面只是在课堂上，而孩子们只有在课堂上才能感受到教师的影响，那么情感关系也会变得难以理解。",
       "cn": "教师的情感修养需要在与儿童的多样共同生活中养成：一起劳动、游戏、远足、读书。如果师生只在课堂见面，教育影响就难以进入孩子的情感世界。",
-      "ref": "把心献给孩子（中文），《学校校长》"
+      "ref": "把心献给孩子（中文），《学校校长》",
+      "tags": []
     },
     {
       "id": "sk-0038",
@@ -781,7 +830,8 @@ window.KB_DATA = {
       ],
       "excerpt": "The born teacher even when reproaching a child or expressing dissatisfaction, or giving vent to his anger ... always remembers that he must not stifle the child's idea that there is a goal still to be sought after, a goal that must be attained at all costs.",
       "cn": "教师可以批评、可以不满甚至可以有情绪，但有一条底线：不能扼杀孩子心中“我还有值得追求的目标”的信念。批评若让孩子认定自己无可救药，教育就失败了。",
-      "ref": "On Education (Progress Publishers, 1977), EPUB page 72"
+      "ref": "On Education (Progress Publishers, 1977), EPUB page 72",
+      "tags": []
     },
     {
       "id": "sk-0039",
@@ -793,7 +843,8 @@ window.KB_DATA = {
       ],
       "excerpt": "我领悟到：要成为真正的儿童教育者，就必须把自己的心奉献给他们。",
       "cn": "苏霍姆林斯基在序言中回忆教育家科尔恰克为孩子们牺牲的故事，由此领悟：真正的儿童教育不是职业表演，而是把自己的心交给孩子。",
-      "ref": "把心献给孩子（中文），序言"
+      "ref": "把心献给孩子（中文），序言",
+      "tags": []
     },
     {
       "id": "sk-0040",
@@ -805,7 +856,8 @@ window.KB_DATA = {
       ],
       "excerpt": "It is possible to love a child to distraction, yet if a child is not getting on well at school love shown him by an adult is not going to make him happy. Love involves bestowing happiness and what happiness can be compared with self-confidence, with joy derived from success in studies?",
       "cn": "苏霍姆林斯基区分“忘乎所以的爱”与真正的教育之爱：爱不是一味宠溺，而是要帮助孩子获得真实幸福，尤其是通过成功与自信带来的快乐。只有让孩子在自己努力中感到快乐，爱才真正发生作用。",
-      "ref": "On Education (Progress Publishers, 1977), EPUB page 24"
+      "ref": "On Education (Progress Publishers, 1977), EPUB page 24",
+      "tags": []
     },
     {
       "id": "sk-0041",
@@ -818,7 +870,10 @@ window.KB_DATA = {
       ],
       "excerpt": "人性是教育者最珍贵的品质之一，它是对孩子的厚爱，是结合了明智的严厉态度和父母的严格要求的爱。",
       "cn": "教育者的“人性/爱”不是无原则的温和，而是厚爱与明智严厉、父母般严格要求的结合。真正的教育爱包含要求和界限。",
-      "ref": "把心献给孩子（中文），《学校校长》"
+      "ref": "把心献给孩子（中文），《学校校长》",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0042",
@@ -831,7 +886,10 @@ window.KB_DATA = {
       ],
       "excerpt": "A teacher responsive to emotion will notice at once if something is not right with a child. This we can see first and foremost from a child's eyes. After realising there is something the matter with the child the sensitive teacher will not start asking questions at once. Meanwhile he will light on some means for making the child realise or feel that he, the teacher, is aware of the pupil's concern. Later questions can be asked when the other pupils are not present.",
       "cn": "敏感的教师能从孩子眼神发现异样，但不立刻当众追问，而是先用某种方式让孩子知道“老师注意到你了”，等独处时再询问。这保护了孩子的尊严与脆弱。",
-      "ref": "On Education (Progress Publishers, 1977), EPUB page 64"
+      "ref": "On Education (Progress Publishers, 1977), EPUB page 64",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0043",
@@ -843,7 +901,8 @@ window.KB_DATA = {
       ],
       "excerpt": "每个人在童年时都需要得到关心和疼爱。如果孩子在冷漠无情的环境中成长，他就会变成一个对善良和美好满不在乎的人。学校无法完全取代家庭，尤其是母亲。但如果孩子在家庭里缺少疼爱、关怀和照顾，那么作为老师的我们就应该对他倍加关心。",
       "cn": "爱不是“锦上添花”，而是童年的基本需要。学校无法替代家庭，但对在家庭中缺少疼爱的孩子，教师负有补偿性关心的责任；否则孩子可能在冷漠中长大，对善良与美好满不在乎。",
-      "ref": "把心献给孩子（中文），《我们的集体是一个友爱的大家庭》"
+      "ref": "把心献给孩子（中文），《我们的集体是一个友爱的大家庭》",
+      "tags": []
     },
     {
       "id": "sk-0044",
@@ -855,7 +914,8 @@ window.KB_DATA = {
       ],
       "excerpt": "只给脑力劳动的积极成果评分的制度已逐步在低、中、高各年级教师的工作中得以应用……在四年时间里，我有六次在学季末没给孩子成绩。家长们清楚，如果孩子的记分册里没有成绩，说明并非一切顺利。……我说服家长们，要他们决不能要求孩子取得最高分，不能把不及格视为懒惰、粗心和不认真的标志。",
       "cn": "苏霍姆林斯基主张“只给积极成果评分”：没有成果就先不给分，而不是用低分惩罚孩子。家长也被告知不能要求孩子必须得最高分，不能把不及格等同于懒惰或不认真。",
-      "ref": "把心献给孩子（中文），《让孩子感受到脑力劳动的快乐和取得优异成绩的喜悦》"
+      "ref": "把心献给孩子（中文），《让孩子感受到脑力劳动的快乐和取得优异成绩的喜悦》",
+      "tags": []
     },
     {
       "id": "sk-0045",
@@ -867,7 +927,8 @@ window.KB_DATA = {
       ],
       "excerpt": "对孩子而言，老师表现出的最大的不公平是给了自己不及格的成绩，还设法要通过这样的成绩让家长惩罚自己。一旦孩子发现老师一定要把得2分的事情告诉给家长，他就会大怒，与老师和学校对立起来。脑力劳动也会成为孩子讨厌做的事情。野蛮的态度还会转嫁到其他人身上，首先是家长。",
       "cn": "如果教师给低分是为了借家长之手惩罚孩子，孩子会把学校、教师、家长和脑力劳动一起推向对立面。分数一旦变成“告状工具”，就会摧毁信任。",
-      "ref": "把心献给孩子（中文），《让孩子感受到脑力劳动的快乐和取得优异成绩的喜悦》"
+      "ref": "把心献给孩子（中文），《让孩子感受到脑力劳动的快乐和取得优异成绩的喜悦》",
+      "tags": []
     },
     {
       "id": "sk-0046",
@@ -880,7 +941,10 @@ window.KB_DATA = {
       ],
       "excerpt": "老师不要求在记分册里签名。签名是旧学校的遗留问题，也是这类学校里师生之间互不信任和相互猜忌的氛围残渣。如果班上缺乏相互间的信任，如果孩子设法想骗老师，如果分数成为大人对孩子的鞭策，那么正确的教育基础就会被毁坏。",
       "cn": "苏霍姆林斯基反对用“家长签名”监督孩子；他认为这背后是师生不信任、分数变成鞭策。真正的教育基础是信任，而不是互相防范。",
-      "ref": "把心献给孩子（中文），《让孩子感受到脑力劳动的快乐和取得优异成绩的喜悦》"
+      "ref": "把心献给孩子（中文），《让孩子感受到脑力劳动的快乐和取得优异成绩的喜悦》",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0047",
@@ -892,7 +956,8 @@ window.KB_DATA = {
       ],
       "excerpt": "学校存在的一个最大的弊端就是孩子不诚实，欺骗老师和父母。这是不公平打2分成绩所引发的。为了向父母隐瞒自己在学校取得的坏成绩，向老师隐瞒自己的懈怠，孩子有什么诡计施展不出来呢。您对学生的不信任感越强，孩子越能在骗人这件事上花样百出，懒惰和懈怠的土壤就会愈加肥沃。懒惰是不信任的产物。",
       "cn": "孩子撒谎、隐瞒成绩，常常不是天生品行问题，而是“不公平低分+不信任”逼出来的。苏霍姆林斯基甚至说“懒惰是不信任的产物”。",
-      "ref": "把心献给孩子（中文），《让孩子感受到脑力劳动的快乐和取得优异成绩的喜悦》"
+      "ref": "把心献给孩子（中文），《让孩子感受到脑力劳动的快乐和取得优异成绩的喜悦》",
+      "tags": []
     },
     {
       "id": "sk-0048",
@@ -905,7 +970,10 @@ window.KB_DATA = {
       ],
       "excerpt": "We spared the feelings of adolescent pupils by avoiding comparisons, telling pupils that some were doing well and others badly. Assessing the intellectual performance of pupils with varying abilities demands considerable tact.",
       "cn": "苏霍姆林斯基指出，对能力不同的学生进行学业评价需要高度 tact（分寸感）。他们避免公开说“谁好谁差”，因为比较会伤害学生的自尊与学习动力。",
-      "ref": "On Education (Progress Publishers, 1977), EPUB page 77"
+      "ref": "On Education (Progress Publishers, 1977), EPUB page 77",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0049",
@@ -917,7 +985,8 @@ window.KB_DATA = {
       ],
       "excerpt": "为了能够很好地了解孩子们，就需要清楚地了解他们的家庭：父亲、母亲、兄弟、姐妹和祖父母等。",
       "cn": "苏霍姆林斯基把“了解家庭”作为“了解儿童”的前提。孩子不是孤立个体，他来自具体的家庭关系网络；教师若只盯着课堂表现，就难以理解孩子行为背后的原因。",
-      "ref": "把心献给孩子（中文），《我的学生家长》"
+      "ref": "把心献给孩子（中文），《我的学生家长》",
+      "tags": []
     },
     {
       "id": "sk-0050",
@@ -930,7 +999,10 @@ window.KB_DATA = {
       ],
       "excerpt": "在“快乐学校”开学前的几周，我熟悉了每个家庭的状况。令我感到担忧的是，在有些家庭中家长和孩子之间、父母彼此之间相处得并不融洽，也缺乏相互尊重，致使孩子无法过上幸福的生活。",
       "cn": "帕夫雷什的做法是在开学前逐户家访，系统了解每个家庭。这不只是礼貌性走访，而是为了发现哪些孩子缺少幸福与尊重，以便提前准备教育支持。",
-      "ref": "把心献给孩子（中文），《我的学生家长》"
+      "ref": "把心献给孩子（中文），《我的学生家长》",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0051",
@@ -943,7 +1015,10 @@ window.KB_DATA = {
       ],
       "excerpt": "For many, very many teachers the backward child is a tightly closed book. If a teacher cannot see into a child's heart, and understand his own particular thought patterns and way of looking at the world around him, any talk of sensitivity is futile.",
       "cn": "后进生之所以“难教”，首先因为教师没有真正读到他这本“紧闭的书”。不理解孩子独特的思维方式和世界观，任何所谓敏感与技巧都无从谈起。",
-      "ref": "On Education (Progress Publishers, 1977), EPUB page 63"
+      "ref": "On Education (Progress Publishers, 1977), EPUB page 63",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0052",
@@ -955,7 +1030,8 @@ window.KB_DATA = {
       ],
       "excerpt": "Fairness is the basis for a child's trust in his educator. However, there is no such thing as abstract fairness outside individuals, outside personal interests, passions and urges. In order to be fair a teacher must have an intimate knowledge of each child's inner world.",
       "cn": "苏霍姆林斯基认为没有脱离具体个人的“抽象公平”。教师若不了解每个孩子的兴趣、情感与内心世界，就无法真正做到公平；教育就是不断加深对每个孩子的认识。",
-      "ref": "On Education (Progress Publishers, 1977), EPUB page 66"
+      "ref": "On Education (Progress Publishers, 1977), EPUB page 66",
+      "tags": []
     },
     {
       "id": "sk-0053",
@@ -967,7 +1043,8 @@ window.KB_DATA = {
       ],
       "excerpt": "我开始留意考察每个孩子从出生到上学期间的家庭环境，结果我发现了一些有意思的规律。如果孩子在学龄前无人照看，或大人未给孩子提供正常成长环境所必需的大量信息，那么孩子的大脑就会常常处在消极的状态：好奇心和求知欲消失，态度也愈加冷漠。",
       "cn": "苏霍姆林斯基通过长期观察发现：学龄前缺少照看和丰富信息，会使大脑长期处于消极状态，表现为好奇心和求知欲消失、态度冷漠。儿童研究要追溯“入学前发生了什么”。",
-      "ref": "把心献给孩子（中文），《三百页〈大自然的书〉》"
+      "ref": "把心献给孩子（中文），《三百页〈大自然的书〉》",
+      "tags": []
     },
     {
       "id": "sk-0054",
@@ -979,7 +1056,8 @@ window.KB_DATA = {
       ],
       "excerpt": "会阅读是指对词句的含义、美感及其细微差别很敏感。只有当学生所读的词句在他的脑海中跃然纸上、栩栩如生，并呈现出周围世界变幻无穷的色彩和旋律时，才算得上是在“阅读”。",
       "cn": "苏霍姆林斯基区分“识字/流利朗读”和真正的“会阅读”。真正的阅读是词句在孩子脑中唤起形象、色彩、旋律与情感，而不只是解码文字。",
-      "ref": "把心献给孩子（中文），《书在儿童精神生活中的作用》"
+      "ref": "把心献给孩子（中文），《书在儿童精神生活中的作用》",
+      "tags": []
     },
     {
       "id": "sk-0055",
@@ -991,7 +1069,8 @@ window.KB_DATA = {
       ],
       "excerpt": "在第一次阅读之前，孩子应当听一听老师和父母是如何朗读的，感受一下艺术形象的美。不要让到大自然去“旅行”和阅读书籍脱节。如果孩子在阅读书籍之后体会不到其中词句的美，他也就看不出周围世界的美好。",
       "cn": "阅读启蒙不是直接丢书给孩子，而是先让成人大声朗读，让孩子通过听觉感受语言与艺术形象之美；阅读还应与大自然的观察和生活体验连接。",
-      "ref": "把心献给孩子（中文），《书在儿童精神生活中的作用》"
+      "ref": "把心献给孩子（中文），《书在儿童精神生活中的作用》",
+      "tags": []
     },
     {
       "id": "sk-0056",
@@ -1003,7 +1082,8 @@ window.KB_DATA = {
       ],
       "excerpt": "在一年级的时候，我们就已经建立了一座儿童藏书库……藏书库第一部分里的每一本书，我们都读了不下10遍，但对它们的钟爱并没有因为反复阅读而稍减。",
       "cn": "帕夫雷什在一年级就建班级藏书库，精选故事、诗歌、神话等；孩子对喜爱作品会反复阅读 10 遍以上仍不觉厌倦。反复不是机械重复，而是不断从作品中获得新的精神体验。",
-      "ref": "把心献给孩子（中文），《书在儿童精神生活中的作用》"
+      "ref": "把心献给孩子（中文），《书在儿童精神生活中的作用》",
+      "tags": []
     },
     {
       "id": "sk-0057",
@@ -1015,7 +1095,8 @@ window.KB_DATA = {
       ],
       "excerpt": "自我教育和个人的精神生活是从读书开始的。一直在小心翼翼地牵着学生的手、领着他前进的老师终于发现可以放开他的手对他说：“自己走吧，去学习如何生活。”……要培养一个人做到精神独立，就必须把他领进书的世界。",
       "cn": "阅读不只是学科能力，更是自我教育的基础。当孩子把书变成精神需求，教师才可能“放手”，让他走向精神独立。",
-      "ref": "把心献给孩子（中文），《书在儿童精神生活中的作用》"
+      "ref": "把心献给孩子（中文），《书在儿童精神生活中的作用》",
+      "tags": []
     },
     {
       "id": "sk-0058",
@@ -1027,7 +1108,8 @@ window.KB_DATA = {
       ],
       "excerpt": "Sukhomlinsky made his pupils a library of a very different kind which he called the \"Thinking Room\". It only contains three hundred books—three hundred of the finest works of world literature, to be read and reread!",
       "cn": "帕夫雷什的“思考室”不是大而全的图书馆，而是只放 300 本精选世界文学杰作，目标不是“读过很多”，而是“反复读、读得深”。",
-      "ref": "On Education (Progress Publishers, 1977), EPUB page 39"
+      "ref": "On Education (Progress Publishers, 1977), EPUB page 39",
+      "tags": []
     },
     {
       "id": "sk-0059",
@@ -1039,7 +1121,8 @@ window.KB_DATA = {
       ],
       "excerpt": "我们每周两次走进大自然，去学习思考。这并不是单纯的观察，而是去学习思考。从本质上来讲，这是一堂思维课，并非有趣的游玩，而恰恰就是上课。然而，上课也可以非常有吸引力和有趣，这能使孩子们的精神世界变得更加丰富多彩。",
       "cn": "帕夫雷什的“大自然课”不是放松式散步，而是有明确教学目的的思维课：孩子通过观察自然现象学习比较、因果与抽象思考。",
-      "ref": "把心献给孩子（中文），《三百页〈大自然的书〉》"
+      "ref": "把心献给孩子（中文），《三百页〈大自然的书〉》",
+      "tags": []
     },
     {
       "id": "sk-0060",
@@ -1052,7 +1135,10 @@ window.KB_DATA = {
       ],
       "excerpt": "为了不让孩子变成知识的仓库，不让他们变成真理、规则和公式的储藏室，就必须教他如何思考……用记忆代替思考，用背诵代替对现象本质的清晰认识和观察，这是一大弊病，会使孩子变得迟钝，到头来还会打消他的学习兴趣。",
       "cn": "苏霍姆林斯基反对“填装知识”式教育：用记忆代替思考、用背诵代替理解，会让孩子变迟钝并丧失学习兴趣。教育的关键是教会孩子思考。",
-      "ref": "把心献给孩子（中文），《三百页〈大自然的书〉》"
+      "ref": "把心献给孩子（中文），《三百页〈大自然的书〉》",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0061",
@@ -1064,7 +1150,8 @@ window.KB_DATA = {
       ],
       "excerpt": "不可以夸大大自然在智力教育中的作用。如果老师认为，孩子身处大自然中就是对智力发展起到的一种强有力的刺激，那就大错特错了。大自然并没有任何能够直接影响理智、情感和意志的魔力。只有当一个人去认识大自然的时候，去深入思考因果关系的时候，大自然才会成为强大的教育资源。",
       "cn": "苏霍姆林斯基提醒：把孩子放进大自然并不会自动发展智力。只有当孩子认识自然、思考现象之间的因果关系时，大自然才成为教育资源。",
-      "ref": "把心献给孩子（中文），《三百页〈大自然的书〉》"
+      "ref": "把心献给孩子（中文），《三百页〈大自然的书〉》",
+      "tags": []
     },
     {
       "id": "sk-0062",
@@ -1076,7 +1163,8 @@ window.KB_DATA = {
       ],
       "excerpt": "我悉数考虑了什么才应该成为自己学生们的思想源泉，确定了孩子们在4年里每天都要观察什么，周围世界里的什么现象会成为他们的思想源泉。于是便形成了这部300页的《大自然的书》。这是300次观察，是深深印刻在孩子们脑海中的300幅色彩鲜明的画卷。我们每周两次走进大自然，去学习思考。",
       "cn": "帕夫雷什把自然观察课程化：系统规划四年 300 次观察，每周两次“思维课”。观察对象不是随机风景，而是围绕因果、比较与思维发展的设计。",
-      "ref": "把心献给孩子（中文），《三百页〈大自然的书〉》"
+      "ref": "把心献给孩子（中文），《三百页〈大自然的书〉》",
+      "tags": []
     },
     {
       "id": "sk-0063",
@@ -1088,7 +1176,8 @@ window.KB_DATA = {
       ],
       "excerpt": "Nature is a powerful source of education only when the person gets to know her, is imbued with thoughts of the cause and effect relationship.",
       "cn": "这是“大自然没有自动魔力”的英文对应表述：只有当人认识自然、理解因果关系时，自然才成为强大的教育资源。",
-      "ref": "To Children I Give My Heart, Part “The Years of Childhood”, p. 71"
+      "ref": "To Children I Give My Heart, Part “The Years of Childhood”, p. 71",
+      "tags": []
     },
     {
       "id": "sk-0064",
@@ -1101,7 +1190,10 @@ window.KB_DATA = {
       ],
       "excerpt": "“对这节课，我准备了一辈子。而且，总的来说，对每一节课，我都是用终生的时间来备课的。不过，对这个课题的直接准备，或者说现场准备，只用了大约十五分钟。”",
       "cn": "一位有三十年教龄的历史教师上公开课，课后被问“花了多少时间备这节课”，他回答：直接准备只用了约十五分钟，但每一节课都是用终生时间来备的。苏霍姆林斯基由此指出，教师不抱怨没时间的奥秘在于持续读书——不是为应付明天那节课而读，而是出于内心对知识的渴求；教科书里的知识在教师的知识海洋里只是“沧海之一粟”。知识背景越宽广，教师在课堂上就越能分出注意力观察学生，而不是只盯住教材。",
-      "ref": "《给教师的建议》（杜殿坤编译，教育科学出版社），(二)教师的时间从哪里来？一昼夜只有二十四小时；OCR 原PDF页段: p0000-0099 (0-based)"
+      "ref": "《给教师的建议》（杜殿坤编译，教育科学出版社），(二)教师的时间从哪里来？一昼夜只有二十四小时；OCR 原PDF页段: p0000-0099 (0-based)",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0065",
@@ -1114,7 +1206,10 @@ window.KB_DATA = {
       ],
       "excerpt": "评分宁可少一些，但是每一个评分都要有分量、有意义。",
       "cn": "苏霍姆林斯基认为，评分不应是从教学过程中孤立出来的“验收”动作，而应是建立在师生互信基础上的精细工具。他主张少打分，但每次评分都要包含学生在一段时期内的多种劳动：课堂回答、补充他人回答、书面作业、课外阅读、实际作业等。他从不凭学生一节课的表现就打分；如果学生还没有掌握，就暂时不打分，先帮助他学会，尤其不要急于给不及格分数。",
-      "ref": "《给教师的建议》（杜殿坤编译，教育科学出版社），(一三)评分应当是有分量的；OCR 原PDF页段: p0000-0099 (0-based)"
+      "ref": "《给教师的建议》（杜殿坤编译，教育科学出版社），(一三)评分应当是有分量的；OCR 原PDF页段: p0000-0099 (0-based)",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0066",
@@ -1127,7 +1222,10 @@ window.KB_DATA = {
       ],
       "excerpt": "在学校工作的几十年经验使我相信，劳动在智育中起着极其重要的作用。儿童的智慧在他的手指尖上。",
       "cn": "苏霍姆林斯基从观察中得出：双手灵巧、热爱复杂创造性劳动的孩子，往往形成聪敏好钻研的智慧。这里说的不是随便什么劳动，而是含有思想、技能、技艺和步骤间依存关系的劳动。他特别指出，学习困难儿童往往“离开事实就不能思考”，而劳动能让事物之间的关系以直观形态呈现，是帮助他们学会因果联系、发展思维的有效途径。",
-      "ref": "《给教师的建议》（杜殿坤编译，教育科学出版社），(二八)用劳动的爱好来教育学生；OCR 原PDF页段: p0000-0099 (0-based)"
+      "ref": "《给教师的建议》（杜殿坤编译，教育科学出版社），(二八)用劳动的爱好来教育学生；OCR 原PDF页段: p0000-0099 (0-based)",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0067",
@@ -1141,7 +1239,10 @@ window.KB_DATA = {
       ],
       "excerpt": "我努力使儿童的思维过程在生动的、形象的表象的基础上来进行，让他们在观察周围世界的时候确定各种现象的原因和后果，比较各种事物的质和特征。",
       "cn": "苏霍姆林斯基所说的“思维课”，不是带学生到户外随便散步，而是有目的地“上课”：他给学生编制了《自然界的书》300页，相当于300次观察，小学四年里每周到自然界去两次，让学生亲眼比较生物与非生物、植物与砂土、不同环境下的生命现象，鼓励他们提出“为什么”“是不是”“从哪里来”的问题，再由具体事实一步步走向“生物”“非生物”“原因”“结果”等抽象概念。他强调自然不能自动发展智力，只有教师引导儿童用思想去钻研因果联系时，自然界才能成为教育的源泉。",
-      "ref": "《给教师的建议》（杜殿坤编译，教育科学出版社），(五八)“思维课”——到自然界去“旅行”；OCR 原PDF页段: p0200-0299 (0-based)"
+      "ref": "《给教师的建议》（杜殿坤编译，教育科学出版社），(五八)“思维课”——到自然界去“旅行”；OCR 原PDF页段: p0200-0299 (0-based)",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0068",
@@ -1155,7 +1256,10 @@ window.KB_DATA = {
       ],
       "excerpt": "教师们把巴甫里克发展中的这一变化称为“思维的觉醒”。这一点最明显地表现在，知识的最初的源泉(客观、现实、实践、生活）受到了观察、检验和研究。",
       "cn": "巴甫里克入学后被女教师认定为“思维迟钝”，长期被要求坐在教科书前补课，越来越胆小沉默。但苏霍姆林斯基观察到，这个孩子在田野和树林里能讲出许多事物间的细微联系。升入五年级后，植物课教师让学生动手采集、观察、比较、试验，巴甫里克展现出惊人的园艺才能：他能精确嫁接、独立设计苹果树枝扦插试验，甚至发现顶部枝条成活率更高。此后他不再害怕学习，开始带着问题听课，成绩逐步赶上，最终成为农艺师。教师称这一变化为“思维的觉醒”。",
-      "ref": "《给教师的建议》（杜殿坤编译，教育科学出版社），(七八)一个“差生”的“思维的觉醒”；OCR 原PDF页段: p0300-0399 (0-based)"
+      "ref": "《给教师的建议》（杜殿坤编译，教育科学出版社），(七八)一个“差生”的“思维的觉醒”；OCR 原PDF页段: p0300-0399 (0-based)",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0069",
@@ -1168,7 +1272,10 @@ window.KB_DATA = {
       ],
       "excerpt": "我想不厌其烦地再三重复：关心儿童的健康，是教育者的最重要的工作。儿童的精神生活、世界观、智力发展、知识的巩固性、对自己力量的信心，都取决于他的生命的活力和精力的充沛程度。如果把我在小学四年期间对儿童的全部关心和操劳都计算一下，那末起码有一半的操心是花在他们的健康上面的。",
       "cn": "苏霍姆林斯基把健康放在教育工作的首位，认为儿童的精神、智力、信心都以身体活力为基础。他在小学阶段实际把一半精力用于健康：与家长约定孩子多在户外活动、早睡早起、开窗睡觉，夏天在室外睡觉；坚持早操、洗淋浴、赤脚走路、滑雪和户外劳动；关注早餐营养，反对用零食刺激食欲；并指出厌烦情绪本身也会损害消化。他把健康理解为学校、家庭、作息和情感共同作用的结果。",
-      "ref": "《给教师的建议》（杜殿坤编译，教育科学出版社），(八二)关心儿童的健康，是教育者的最重要的工作；OCR 原PDF页段: p0400-0499 (0-based)"
+      "ref": "《给教师的建议》（杜殿坤编译，教育科学出版社），(八二)关心儿童的健康，是教育者的最重要的工作；OCR 原PDF页段: p0400-0499 (0-based)",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0070",
@@ -1181,7 +1288,10 @@ window.KB_DATA = {
       ],
       "excerpt": "这个秘诀就是：只有教师关心学生的人的尊严感，才能使学生通过学习而受到教育。教育的核心，就其本质来说，就在于让儿童始终体验到自己的尊严感：我是一个勤奋的脑力劳动者，是祖国的好公民，是父母的好儿女，是一个有着高尚的志趣、激情和不断取得进步的完美的人。",
       "cn": "苏霍姆林斯基说，教育有一个“简单又复杂”的秘诀：教师必须先关心学生作为人的尊严感，教育才可能发生。儿童不是被动装知识的容器，师生关系每时每刻都是心灵的接触。他在实践中从不给小学生打不及格分，而是让学生重试、到课前一起思考；当学生靠自己的努力解开难题时，他让学生自己把分数写进记分册，以培养自豪感和尊严。爱护儿童对你的信任，就是关心他完满的精神生活。",
-      "ref": "《给教师的建议》（杜殿坤编译，教育科学出版社），(七五)教师，要爱护儿童对你的信任；OCR 原PDF页段: p0300-0399 (0-based)"
+      "ref": "《给教师的建议》（杜殿坤编译，教育科学出版社），(七五)教师，要爱护儿童对你的信任；OCR 原PDF页段: p0300-0399 (0-based)",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0071",
@@ -1194,7 +1304,10 @@ window.KB_DATA = {
       ],
       "excerpt": "家长们在自己的孩子入学的两年以前就报名参加家长学校，在那里听课，直到他们的孩子从中学毕业为止。家长学校的心理学和教育学课程共计250学时。",
       "cn": "苏霍姆林斯基认为，只有学校和家庭“志同道合”，教育才能完整。为此他在帕夫雷什中学开办家长学校：家长在孩子入学前两年就报名，一直学到孩子中学毕业；课程按孩子年龄分五组（学前、一二年级、三四年级、五至七年级、七至十年级），每月活动两次，由校长、教导主任和有经验教师主讲，内容突出年龄心理学、个性心理学及体育、智育、德育、美育理论。他特别提醒：不要在大课上把某个儿童的家庭隐私“抖底翻出来”，敏感问题只宜个别谈话。",
-      "ref": "《给教师的建议》（杜殿坤编译，教育科学出版社），(八四)我们的“家长学校”；OCR 原PDF页段: p0400-0499 (0-based)"
+      "ref": "《给教师的建议》（杜殿坤编译，教育科学出版社），(八四)我们的“家长学校”；OCR 原PDF页段: p0400-0499 (0-based)",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0072",
@@ -1206,7 +1319,8 @@ window.KB_DATA = {
       ],
       "excerpt": "我努力做到使每一个少年都有一本心爱的书，使他反复阅读、反复思考这本书。这样做并不是为了他必须把读过的东西记住并且用来回答教师的问题，而是为了使他为自己的命运而感到激动。我坚定地相信，少年的自我教育是从读一本好书开始的，并且表现为他能用最高的尺度——那些英勇的、忠于崇高思想的人们的生活来衡量自己。",
       "cn": "苏霍姆林斯基把阅览室命名为“思考之室”，强调真正的阅读不是为应付识记，而是吸引理智与心灵、促使少年认识自己和自己的未来。他特别看重名人传记：少年用英雄人物的生活作为尺度衡量自己，就是自我教育的开端。他并不急于追问学生“你读后有什么感想”，而是让书先在心里发酵；如果一个少年还没有一本反复读、反复想的心爱之书，教育者就还没有找到通往他心灵的小路。",
-      "ref": "《给教师的建议》（杜殿坤编译，教育科学出版社），(八三)“思考之室”——我们的阅览室；OCR 原PDF页段: p0400-0499 (0-based)"
+      "ref": "《给教师的建议》（杜殿坤编译，教育科学出版社），(八三)“思考之室”——我们的阅览室；OCR 原PDF页段: p0400-0499 (0-based)",
+      "tags": []
     },
     {
       "id": "sk-0073",
@@ -1219,7 +1333,10 @@ window.KB_DATA = {
       ],
       "excerpt": "每一个孩子就其天性来说都是诗人，但是，要让他心里的诗的琴弦响起来，要打开他的创作的泉源，就必须教给他观察和发觉各种事物和现象之间的众多的关系。",
       "cn": "苏霍姆林斯基带六岁学前儿童每周到果园、树林、河岸“读大自然这本书”，让学生把词语和鲜明画面、情感色彩联系起来。他认为儿童本来就会用自己的语言创造故事，但需要成人教他观察事物之间的众多联系；例如面对一棵开花的树，当儿童发现阳光、花瓣、蜜蜂、树枝、蝴蝶之间的几十种联系后，他就能编出成千上万个独特的故事。学生自编的《花瓣儿和花朵》等故事，就是这种“诗的琴弦”被拨响的证据。",
-      "ref": "《给教师的建议》（杜殿坤编译，教育科学出版社），(五六)让孩子们心里的诗的琴弦响起来；OCR 原PDF页段: p0100-0199 (0-based)"
+      "ref": "《给教师的建议》（杜殿坤编译，教育科学出版社），(五六)让孩子们心里的诗的琴弦响起来；OCR 原PDF页段: p0100-0199 (0-based)",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0074",
@@ -1232,7 +1349,10 @@ window.KB_DATA = {
       ],
       "excerpt": "转述概括：沃洛佳是“铁木儿小队”队长，学校与区报反复表扬他做好事，发荣誉证书；但奶奶说他不懂怜悯，把脏外套扔给病奶奶洗，父亲病重时他照常听广播，父亲去世两天后还在课堂逗乐。同校两名女生后来把“捡到的钱”交公以求表扬，真相是她们拿自己的钱“买表扬”。作者由此指出：当孩子期望善行的每一步都得到表扬时，反而可能长成斤斤计较、爱戴高帽子的伪君子。",
       "cn": "苏霍姆林斯基用沃洛佳和两个“交钱买表扬”的女孩说明：如果学校把“好人好事”变成墙报、广播、证书式的公开表扬，孩子容易把“被表扬”当成做好事的目的。他说，对成长中的人来说，为他人做好事的最高奖赏应当是良心的召唤和内心的欢悦，而不是外部的荣誉。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社，2001），论文《要善于表扬好人好事》，OCR原文页码段 `<!-- OCR 原PDF页段: p0400-0499 (0-based) -->`"
+      "ref": "《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社，2001），论文《要善于表扬好人好事》，OCR原文页码段 `<!-- OCR 原PDF页段: p0400-0499 (0-based) -->`",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0075",
@@ -1246,7 +1366,10 @@ window.KB_DATA = {
       ],
       "excerpt": "转述概括：面对总是得“两分”的小学生，苏霍姆林斯基写道：儿童的心病在于“今天差、明天还差”，逐渐形成“自己就是不如别人”的定势。他主张不要急于给低年级学生打分，尤其不要打两分——“两分对学生来说就是鞭子和棍棒”；他所在学校一年级规定：作业在学生本人认为满意之前，教师不打分，而是说“你再试做一下，你肯定行”。",
       "cn": "这是把儿童心理研究与评分方法结合的做法。低年级儿童的自我认识尚不稳定，持续的低分不是鞭策，而是让他相信自己天生是差生，甚至让孩子深夜偷偷起来涂改分数、想“找一个没有学校的地方生活”。因此评分应服务于“做优等生的愿望”，让学生先体验“我能行”，再用自尊心驱动他达到要求。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社，2001），论文《要慎待儿童》，OCR原文页码段 `<!-- OCR 原PDF页段: p0600-0699 (0-based) -->`"
+      "ref": "《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社，2001），论文《要慎待儿童》，OCR原文页码段 `<!-- OCR 原PDF页段: p0600-0699 (0-based) -->`",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0076",
@@ -1259,7 +1382,10 @@ window.KB_DATA = {
       ],
       "excerpt": "转述概括：文中记载，该校接收的107名“智力很落后”的学生后来全部成为有知识的人：55名十年制毕业，25名读完七或八年级后考入技术学校并完成中等专业教育，17名在中等职业技术学校或夜校毕业，8名获专修班专业文凭，其中13人后来接受高等教育；仅2人因重病休学后仍复学读完八年级。",
       "cn": "苏霍姆林斯基把后进生的工作看作长期、多通道的“治疗”：为“不会在记忆的同时思考”的学生编专门习题集，让他们在清晰形象和情景中解题；带他们上思维课、观察自然因果；坚持常年阅读、听故事和自编故事；用手工制作促进发展。他最强调成功体验——学生花两三个课时终于独立解出题后，会央求“再给一道更难的题”，这种激情胜过任何药物。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社，2001），论文《班里的后进生》，OCR原文页码段 `<!-- OCR 原PDF页段: p0800-0899 (0-based) -->`"
+      "ref": "《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社，2001），论文《班里的后进生》，OCR原文页码段 `<!-- OCR 原PDF页段: p0800-0899 (0-based) -->`",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0077",
@@ -1272,7 +1398,10 @@ window.KB_DATA = {
       ],
       "excerpt": "惟有独立阅读才能真正挽救智力落后学生，防止他们落伍，培养他们用脑的主动性。",
       "cn": "这是苏霍姆林斯基针对“学习低能”学生的判断。学生的独立阅读能力越弱，越需要教师像医生为虚弱病人安排饮食一样，长期苦思该给他读什么；如果教师培养不出他认真思索书中内容的能力，任何逼他死记硬背的企图都不会有预期效果。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社，2001），论文《教会学生学习》，OCR原文页码段 `<!-- OCR 原PDF页段: p0600-0699 (0-based) -->`"
+      "ref": "《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社，2001），论文《教会学生学习》，OCR原文页码段 `<!-- OCR 原PDF页段: p0600-0699 (0-based) -->`",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0078",
@@ -1285,7 +1414,10 @@ window.KB_DATA = {
       ],
       "excerpt": "转述概括：知识若只为“教师一提问就能倒出来”而存在，就会与学生精神生活和求知兴趣脱节。文中实例均在《课堂教学与知识》内：教室飞进一只不知名的鸟，学生静下来睁大惊讶的眼睛，教师借此让他们体会“不懂的东西”并产生问题；备“光合作用”课时找出真正症结是“无机物向有机物转化”，把材料讲得引人思考；教师安排哪些材料课末再讲、哪些留作悬念，让学生从已有知识中选出回答新问题所需的内容，并在“检查点”上检验和补足关键旧知。",
       "cn": "教学不是把新材料讲完，而是把新知识变成需要解决的谜。苏霍姆林斯基在这篇论文中强调：学生复述读过的内容并不等于思维积极，真正的知识是能启发思维、激发兴趣、并用来获取新知的“活工具”。教师备课时要找到教材中不易发现的“症结”（因果、时间、从属等关系），由此产生问题；讲解时善于“引而不发”，让学生动用自己的旧知识去解释未知。发现有学生没跟上或遗忘关键旧知，就回到“检查点”补一句启发，而不是从头重讲。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社，2001），论文《课堂教学与知识》，OCR原文页码段 `<!-- OCR 原PDF页段: p0500-0599 (0-based) -->`"
+      "ref": "《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社，2001），论文《课堂教学与知识》，OCR原文页码段 `<!-- OCR 原PDF页段: p0500-0599 (0-based) -->`",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0079",
@@ -1298,7 +1430,10 @@ window.KB_DATA = {
       ],
       "excerpt": "转述概括：不能因为自动化、机械化就取消手工性劳动教育。掌握复杂机器的能力建立在简单手工技能技巧之上：不会用手工刨子的学生上刨床时，不会协调自身力量与机器力量，加工出的木板不平整；拆装过机器模型的学生更容易理解真机并排除故障。手工劳动要真正育智，必须是以改变材料、制造新物为目的的劳动，其中起决定作用的是技能、技巧和计算能力，而不是单纯体力。",
       "cn": "苏霍姆林斯基在1960年就反驳“有了机器还要手工做什么”的观点：手工劳动并未消失，而是进入更高阶段；掌握多种手工技能的人更容易在不同工种间迁移。以育人为主的手工劳动应包含脑力因素——学生要思考结构、因果关系、工艺与目的，从而发展概括、分析、综合与批判性评价能力。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社，2001），论文《智慧与双手》，OCR原文页码段 `<!-- OCR 原PDF页段: p0100-0199 (0-based) -->`"
+      "ref": "《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社，2001），论文《智慧与双手》，OCR原文页码段 `<!-- OCR 原PDF页段: p0100-0199 (0-based) -->`",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0080",
@@ -1311,7 +1446,11 @@ window.KB_DATA = {
       ],
       "excerpt": "在我们的教育事业中，最怪诞、最可恶的就是不相信入。哪里不相信人，哪里不相信人身上善良的因素，哪里的任何教育方法就会毫无作用。（[OCR待校]：引文中“入”应为“人”）",
       "cn": "面对校长和班主任禁止16岁学生去旅游的来信事件，苏霍姆林斯基认为这种“禁令”把青年变成软弱无力的孩子，迫使他们心灵锁闭、不说真话。教育不是长辈的断然命令与晚辈的恭顺服从，而是双方共同的精神活动；教师最应珍视的，是学生仍愿意前来商量和恳求允许的那份信任。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社，2001），论文《没有信任便没有教育》，OCR原文页码段 `<!-- OCR 原PDF页段: p0500-0599 (0-based) -->`"
+      "ref": "《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社，2001），论文《没有信任便没有教育》，OCR原文页码段 `<!-- OCR 原PDF页段: p0500-0599 (0-based) -->`",
+      "tags": [
+        "OCR待校",
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0081",
@@ -1325,7 +1464,10 @@ window.KB_DATA = {
       ],
       "excerpt": "转述概括：阿列克谢家的母亲在家长会上说“我和丈夫没有时间教育孩子”，但家里有一条“死规矩”：只要孩子力所能及就要干活，不仅为自己还要为别人干，“要用一双无愧为人的眼睛关注别人”。女儿玛丽卡回忆：7岁时父亲让她栽3棵葡萄树苗，她图省事没把须根蘸腐殖土浆，晚上对父亲说了谎；父亲一言未发，只凝视着她，然后刨出树苗、蘸上浆重新种好，说：“骗得了别人，而骗不了自己……”她从此再未说谎。",
       "cn": "苏霍姆林斯基认为，家庭教育的秘诀不是父母花大量时间讲道理，而是营造互相关怀、坦诚相待、共同进取的氛围；具有强大教育力的精神财富，是人与人之间的互相关心与尊重。父亲用行动示范“做人要对自己诚实”，比打骂和长篇说教更能触动儿童心灵。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社，2001），论文《家庭的精神财富》，OCR原文页码段 `<!-- OCR 原PDF页段: p0600-0699 (0-based) -->`"
+      "ref": "《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社，2001），论文《家庭的精神财富》，OCR原文页码段 `<!-- OCR 原PDF页段: p0600-0699 (0-based) -->`",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0082",
@@ -1338,7 +1480,10 @@ window.KB_DATA = {
       ],
       "excerpt": "活生生的现象，活生生的创造和与大自然积极接触，是不能被任何技术手段所传递的信息取代的。",
       "cn": "苏霍姆林斯基承认电影、电视等可以把蜜蜂世界、果树开花过程“简化”地呈现在儿童眼前，这是好事也是坏事：技术缩短了儿童与世界的时间距离，却也使儿童远离真实自然。大自然是思维的摇篮，儿童在直接接触中不断发现问题、产生惊奇，这种活经验远非任何影像信息可比。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社，2001），论文《学校与大自然》，OCR原文页码段 `<!-- OCR 原PDF页段: p0800-0899 (0-based) -->`"
+      "ref": "《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社，2001），论文《学校与大自然》，OCR原文页码段 `<!-- OCR 原PDF页段: p0800-0899 (0-based) -->`",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0083",
@@ -1351,7 +1496,10 @@ window.KB_DATA = {
       ],
       "excerpt": "转述概括：学生负担过重的主要根源不在教学大纲、教科书和参考材料，而在教学过程本身：把本应理解的材料（用作概括的事实、教科书表述）拿来死记硬背，会加重记忆负担，甚至挤掉真正需要牢固记忆的内容。教师若深入揭示历史现象背后的规律，史实无须专门背记便能记住；只有像“热量测量单位”这类知识才需要有意背记。正确教学下，高年级学生全部家庭作业不超过一个半至两个小时。",
       "cn": "“减负”不是简单删教材，而是区分两类知识：一类靠理解因果和规律来掌握，一类靠专门记忆来保持。检查方式也要相应改变——不是复述教师讲过的话，而是分析事实、揭示关系。这样知识成为“温故知新的利器”，脑力劳动从僵死积累变成创造性劳动。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社，2001），论文《负担过重揭秘》，OCR原文页码段 `<!-- OCR 原PDF页段: p0300-0399 (0-based) -->`"
+      "ref": "《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社，2001），论文《负担过重揭秘》，OCR原文页码段 `<!-- OCR 原PDF页段: p0300-0399 (0-based) -->`",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0084",
@@ -1364,7 +1512,11 @@ window.KB_DATA = {
       ],
       "excerpt": "年龄大的学小比年龄小的学生对道德规范的了解要多，但在行动上，破坏公共道德的原则和规范的情况却更多可见，知识和信念不是等同的。（[OCR待校]）",
       "cn": "道德教育与知识教育不同：学生记住“应该如何对待劳动、公共财产、他人”并不等于形成了信念；知道更多规范的人，不一定在行动上更道德。教育者如果把“学生能复述规范”当作德育成功，就忽视了从知识到信念需要情感体验、行动练习和内心认同。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《年轻一代共产主义信念的形成》绪论，OCR 原PDF页段: p0000-0099 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《年轻一代共产主义信念的形成》绪论，OCR 原PDF页段: p0000-0099 (0-based)",
+      "tags": [
+        "OCR待校",
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0085",
@@ -1376,7 +1528,8 @@ window.KB_DATA = {
       ],
       "excerpt": "我们鼓励学生去完成的，不是有体力强度的任务，而是要动员精神力量的任务。",
       "cn": "苏霍姆林斯基以“栽 100 棵树”和“长期培植一棵果树”对比：后者的体力消耗少得多，却要持续照管、牵挂、等待，更能考验意志。劳动作为教育手段，重点不在孩子出多少汗、做了多少件，而在于他是否把自己的注意、情感、坚持都投入进去。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《年轻一代共产主义信念的形成》第1章“信念对形成人的精神面貌的作用”之“共产主义信念是个人意志力的源泉”，OCR 原PDF页段: p0000-0099 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《年轻一代共产主义信念的形成》第1章“信念对形成人的精神面貌的作用”之“共产主义信念是个人意志力的源泉”，OCR 原PDF页段: p0000-0099 (0-based)",
+      "tags": []
     },
     {
       "id": "sk-0086",
@@ -1389,7 +1542,10 @@ window.KB_DATA = {
       ],
       "excerpt": "",
       "cn": "这条原则把“长期性”本身当作教育变量：跨学期的集体任务让学生反复体验目标、中断、回归、克服困难，意志力正是在这种反复中形成的。短时任务容易带来一时兴奋，却难以把意识集中在长远目标上。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《年轻一代共产主义信念的形成》第1章“信念对形成人的精神面貌的作用”之“共产主义信念是个人意志力的源泉”，OCR 原PDF页段: p0000-0099 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《年轻一代共产主义信念的形成》第1章“信念对形成人的精神面貌的作用”之“共产主义信念是个人意志力的源泉”，OCR 原PDF页段: p0000-0099 (0-based)",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0087",
@@ -1402,7 +1558,10 @@ window.KB_DATA = {
       ],
       "excerpt": "",
       "cn": "成人常低估孩子的体能与精神力量，用“他还小”剥夺他们锻炼的机会。苏霍姆林斯基认为，让孩子完成一件“似乎做不到”的事，并对自己的精神力量感到惊奇，是克服懦弱、发展意志的起点；体力挑战必须触动精神层面，才成为真正的教育。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《怎样培养真正的人》“怎样培养孩子的精神力量”，OCR 原PDF页段: p0200-0299 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《怎样培养真正的人》“怎样培养孩子的精神力量”，OCR 原PDF页段: p0200-0299 (0-based)",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0088",
@@ -1415,7 +1574,11 @@ window.KB_DATA = {
       ],
       "excerpt": "一旦孩子做好事是为了显示自己，帮助同学先考虑的是炫耀自已和得到夸奖，这是很危险的。……（[OCR待校]：引文中“炫耀自已”疑为“炫耀自己”）  教育的理想就在于使孩子们去为他人奉献自己的精神力星，并把这种奉献作为一种隐秘的、不可侵犯的东西藏在心间。（[OCR待校]：引文中“精神力星”疑为“精神力量”）",
       "cn": "需要人、奉献人的情感是“最羞怯的情感之一”。苏霍姆林斯基提醒：当做好事变成墙报上的表扬、竞赛中的加分，孩子容易学会表演善良，伪君子反而从中获益。真正的教育理想，是让孩子把为他人奉献看作隐秘而珍贵的内心财富，而不是等待观众。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《怎样培养真正的人》“怎样培养需要人的情感”，OCR 原PDF页段: p0200-0299 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《怎样培养真正的人》“怎样培养需要人的情感”，OCR 原PDF页段: p0200-0299 (0-based)",
+      "tags": [
+        "OCR待校",
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0089",
@@ -1427,7 +1590,8 @@ window.KB_DATA = {
       ],
       "excerpt": "",
       "cn": "“十不准”表面是礼貌清单，实质是把尊重老人、体谅父母、节制欲望变成可反复练习的行为。苏霍姆林斯基特别指出，如果教育者的话与行为脱节，就会培养出两面三刀的人；不尊重别人的孩子，也不可能尊重真理。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《怎样培养真正的人》“怎样培养父辈和孩子们之间的和谐关系”，OCR 原PDF页段: p0200-0299 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《怎样培养真正的人》“怎样培养父辈和孩子们之间的和谐关系”，OCR 原PDF页段: p0200-0299 (0-based)",
+      "tags": []
     },
     {
       "id": "sk-0090",
@@ -1440,7 +1604,10 @@ window.KB_DATA = {
       ],
       "excerpt": "",
       "cn": "对“毫无个性、严重消极”的孩子，讲道理和一般表扬常常无效。教师需要像研究儿童一样了解他的生活半径与可能承担的真实责任，然后交给他一件“离他很近、关乎生命、非他不可”的小事。夜间护鱼激活了他的勇气和自尊，这种精神力量又迁移到日常同伴关系中。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《怎样培养真正的人》“怎样启迪孩子们具有高尚的行为举止”，OCR 原PDF页段: p0400-0499 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《怎样培养真正的人》“怎样启迪孩子们具有高尚的行为举止”，OCR 原PDF页段: p0400-0499 (0-based)",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0091",
@@ -1453,7 +1620,10 @@ window.KB_DATA = {
       ],
       "excerpt": "",
       "cn": "“图书的节日”把“个人阅读”变成“代际公共财富”：书既是父母送给孩子的礼物，又是孩子留给未来学生的纪念。永久性图书馆不同于普通借阅馆，它的存在让学生直观感到：书是人民精神与文化中值得永存的东西，学校因书而成为精神摇篮。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《怎样培养真正的人》“培养对待学校的态度要像对待人民精神生活的最重要的发源地那样”，OCR 原PDF页段: p0300-0399 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《怎样培养真正的人》“培养对待学校的态度要像对待人民精神生活的最重要的发源地那样”，OCR 原PDF页段: p0300-0399 (0-based)",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0092",
@@ -1466,7 +1636,10 @@ window.KB_DATA = {
       ],
       "excerpt": "",
       "cn": "这是家庭中美育与劳动一体化的方法：不是把自然美景当作偶尔的奖励或参观，而是用“去寻求美”这样有仪式感的召唤让孩子自愿早起；审美体验被嵌入日常劳动节奏，孩子为看日出、听鸟鸣付出努力，美因而成为他“挣来”的精神财富。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《怎样培养真正的人》“怎样把孩子行为中的‘应当’、‘困难’和‘好’连接起来”，OCR 原PDF页段: p0400-0499 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《怎样培养真正的人》“怎样把孩子行为中的‘应当’、‘困难’和‘好’连接起来”，OCR 原PDF页段: p0400-0499 (0-based)",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0093",
@@ -1479,7 +1652,10 @@ window.KB_DATA = {
       ],
       "excerpt": "如果学生在上了我的课之后，没有感受到他想要知道的比我对他讲的要多得多的话，如果这种愿望没有变成一种追求，没有变成激发用更多的时间去读书的动因的话，就是说，课堂上的教育目的没有达到。",
       "cn": "苏霍姆林斯基认为课堂最重要的教育目的是点燃求知火花。一节课是否成功，不能只看当堂“教会了什么”，还要看下课后学生是否带着更多问题去阅读、追问和探索。知识只有进入个人持续的智力生活，才不是僵死的教材内容。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《怎样培养真正的人》“怎样教孩子正确对待脑力劳动”，OCR 原PDF页段: p0300-0399 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《怎样培养真正的人》“怎样教孩子正确对待脑力劳动”，OCR 原PDF页段: p0300-0399 (0-based)",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0094",
@@ -1491,7 +1667,8 @@ window.KB_DATA = {
       ],
       "excerpt": "正常完满的脑力劳动，不是来自脑力劳动的速度和紧张程度，而是来自对它的细心思考和恰当组织，来自对身体、智力和审美等多方面的培养。",
       "cn": "苏霍姆林斯基批评把儿童头脑当作“可以无限输入的电子机构”的快速教学观。他认为孩子是活人，大脑是精细娇嫩的器官；脑力劳动的质量不取决于一节课塞进多少内容、推进得多快，而取决于是否细心组织、是否兼顾身体、智力和审美等多方面发展。帕夫雷什中学因此警惕“高速度”“高密度”的课堂，强调正常完满的脑力劳动来自合乎儿童健康节奏的安排。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《帕夫雷什中学》第3章“关注健康与体育”（学生的健康与精神生活），OCR 原PDF页段：p0200-0299 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《帕夫雷什中学》第3章“关注健康与体育”（学生的健康与精神生活），OCR 原PDF页段：p0200-0299 (0-based)",
+      "tags": []
     },
     {
       "id": "sk-0095",
@@ -1503,7 +1680,10 @@ window.KB_DATA = {
       ],
       "excerpt": "我们不急于过早地让孩子去参与有报酬的劳动，因为这可能养成自私、贪婪的恶习。一个学生在用自已的劳动挣得第次工资之前，应该大量经历为社会创造物质财富的无酬劳动的精神体验。（[OCR待校]：句中“自已”“第次”疑为“自己”“第一次”）",
       "cn": "苏霍姆林斯基并不反对劳动报酬本身，而是强调顺序：在儿童和少年期，先让他们大量从事不取报酬的公益劳动，体验“为社会创造财富”的荣誉感、义务感和尊严感；过早用金钱回报刺激劳动，容易让孩子把劳动只看成获取私利的手段，养成自私、贪婪。这是劳动教育原则中“劳动的崇高道德性及其明确的公益目的性”的具体体现。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《帕夫雷什中学》第6章“劳动教育”（劳动教育原则），OCR 原PDF页段：p0400-0499 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《帕夫雷什中学》第6章“劳动教育”（劳动教育原则），OCR 原PDF页段：p0400-0499 (0-based)",
+      "tags": [
+        "OCR待校"
+      ]
     },
     {
       "id": "sk-0096",
@@ -1516,7 +1696,10 @@ window.KB_DATA = {
       ],
       "excerpt": "对孩子来讲，他亲手在泥瓦盆里从幼苗培植起来的那棵花草，尽管并无惹人瞩目的姿色，也是无比珍贵的。一个从商店里买来的细瓷花瓶，在他亲手捏成的泥瓶面前也要黯然失色。",
       "cn": "这不是贬低艺术珍品，而是强调审美教育中“亲手参与创造”的价值。儿童对自己劳动过的对象会产生深切的情感联结：泥盆里那棵并不艳丽的花草，因为灌注了他的关注、等待和劳作，成为他精神世界的一部分；买来的精致花瓶虽然美，却没有经过他的创造，因而不能像他自己做出的泥瓶那样“珍贵”。美育不能只靠消费现成的美，还要让孩子通过劳动去创造和守护美。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《帕夫雷什中学》第7章“美育”（周围环境和劳动在美育中的作用），OCR 原PDF页段：p0500-0599 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《帕夫雷什中学》第7章“美育”（周围环境和劳动在美育中的作用），OCR 原PDF页段：p0500-0599 (0-based)",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0097",
@@ -1528,7 +1711,8 @@ window.KB_DATA = {
       ],
       "excerpt": "正是说服，而不是采取行政手段—压服和强迫。……我从没草拟过一道涉及教育过程的指令，这在校长工作中是毫无意义的。同样，我也从不把跟某个教师的任何一起最复杂的争论拿到校务会议上去讨论。",
       "cn": "苏霍姆林斯基领导教师的方式是“说服”而非“压服”：校长不靠发指令管理教育过程，也不把教师最复杂的错误或争论拿到大会上公开批判。他主张先个别地、亲切友好地谈话，把道理讲透，直到教师心悦诚服并用行动证明自己已转变，才算完成领导者的使命。这背后是对教师人格的尊重，也说明教育过程的改变只能靠信念认同，不能靠行政命令。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《帕夫雷什中学》第1章“全体教师团结一致是教育教学工作成功的保证”（深思如何领导好学校），OCR 原PDF页段：p0000-0099 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《帕夫雷什中学》第1章“全体教师团结一致是教育教学工作成功的保证”（深思如何领导好学校），OCR 原PDF页段：p0000-0099 (0-based)",
+      "tags": []
     },
     {
       "id": "sk-0098",
@@ -1540,7 +1724,8 @@ window.KB_DATA = {
       ],
       "excerpt": "教育和教学过程有三个源泉：科学、技巧和艺术，要领导好教育和教学过程，就是要精通教育和教学的科学、技巧和艺术。",
       "cn": "苏霍姆林斯基告诫青年校长：领导学校不是靠行政职务，而是靠精通教育科学、教学技巧和影响人的艺术；教育现象有深刻个别性，同一条真理在不同情境下可能正确、中性甚至荒谬。因此校长必须不断自我充实、自我更新，并把“教育教学”和“研究了解儿童”这些最本质的事放在第一位，才能成为“教师的教师”。这与“对学校的领导首先是教育思想的领导”一脉相承。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《和青年校长的谈话》第1次谈话“教师创造性劳动的几个基本问题”（关键在于领导全体教师进行创造性劳动），OCR 原PDF页段：p0600-0699 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《和青年校长的谈话》第1次谈话“教师创造性劳动的几个基本问题”（关键在于领导全体教师进行创造性劳动），OCR 原PDF页段：p0600-0699 (0-based)",
+      "tags": []
     },
     {
       "id": "sk-0099",
@@ -1553,7 +1738,10 @@ window.KB_DATA = {
       ],
       "excerpt": "罂粟花盛开的田野—这实现了孩子们梦寐以求的愿望，使他们第一次享受到了劳动者的欢乐。……我们的目标是，形象地说，使每个孩子都开垦出自己的罂粟田来。",
       "cn": "在《和青年校长的谈话》所述案例中，学校附近有一片失去生命的荒地。教师带孩子们同时看到肥沃麦田和荒芜黏土地，激发他们“不应该有这种事”的公民忧虑；班里30名学生每人负责改良约10平方米荒地，用桶、锹、筐等简单工具长期劳动，五六年之后把约300平方米（3%公顷）荒地变成罂粟花田和良田。苏霍姆林斯基把这个过程称为“罂粟田”象征：让孩子在童年和少年期亲手创造“应该有的事物”，把社会关怀变成个人关怀，在集体长期劳动中形成劳动信念和公民尊严，而不是只作为旁观者享受现成世界。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《和青年校长的谈话》第2次谈话“教育现象之间的相互依存性”（学习与劳动之间的相互联系和相互依存性），OCR 原PDF页段：p0600-0699 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《和青年校长的谈话》第2次谈话“教育现象之间的相互依存性”（学习与劳动之间的相互联系和相互依存性），OCR 原PDF页段：p0600-0699 (0-based)",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0100",
@@ -1565,7 +1753,8 @@ window.KB_DATA = {
       ],
       "excerpt": "教师没有自由支配的时间，这对于学校是真正的威胁。……我们全校教师有一项规定：教师在上课以外参加其他活动(包括教学法研究会、校务委员会的会议、课外辅导工作)的时间，每周不得超过两次。",
       "cn": "苏霍姆林斯基认为，教师自由支配的时间像空气对健康一样必不可少。为此他建议学校管理层把教师从文牍主义中解脱出来：需要统计报表时查班级日志，需要书面报告时用校长和教导主任的日常观察记录；学校工作计划由校长草拟，而不是用教师写的材料拼凑；教师在一学年里只写教育工作和授课进度两份计划；上课以外的会议、课外活动每周不超过两次，以便把时间用于读书自学和创造性备课。教师时间被文牍、会议耗尽，是“教师没有什么可教”的时刻提前到来的真正威胁。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《和青年校长的谈话》第3次谈话“学校集体的精神生活”（教师的业余时间及其一般素养的提高），OCR 原PDF页段：p0600-0699 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《和青年校长的谈话》第3次谈话“学校集体的精神生活”（教师的业余时间及其一般素养的提高），OCR 原PDF页段：p0600-0699 (0-based)",
+      "tags": []
     },
     {
       "id": "sk-0101",
@@ -1577,7 +1766,8 @@ window.KB_DATA = {
       ],
       "excerpt": "每一个学生都备有一个草稿本(各门学科合用一本)。在检查知识的时候，学生都把草稿本打开，听着教师的提问，然后各自拿起铅笔，在自己的草稿本里简短地写出答案的主要意思，经常可以写成图表、示意图、详图等形式，或作简明的列举等形式。",
       "cn": "许多课的严重缺点是检查家庭作业时只提问三四个学生并给分，其余学生无事可做或紧张等待。苏霍姆林斯基建议：每个学生备一个草稿本，教师提问时全班都动笔写出答案要点、图表或算式；例如一个学生上黑板求公分母，其余学生在草稿本里各自写例题并比较。这样检查知识不再是少数人的表演，而让所有学生持续进行独立的脑力劳动，也便于教师了解全班掌握情况。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《和青年校长的谈话》第7次谈话“关于听课和分析课的几点建议”（为什么以及如何检查学生的知识），OCR 原PDF页段：p0800-0899 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《和青年校长的谈话》第7次谈话“关于听课和分析课的几点建议”（为什么以及如何检查学生的知识），OCR 原PDF页段：p0800-0899 (0-based)",
+      "tags": []
     },
     {
       "id": "sk-0102",
@@ -1590,7 +1780,10 @@ window.KB_DATA = {
       ],
       "excerpt": "积极地探求“为什么”这个问题的答案，这也就是锻炼思维，消除大脑细胞不活跃和受束缚的状态。",
       "cn": "瓦连金是帕夫雷什中学一个感知特别缓慢的男孩：他能正常感知和认识世界，但领会问题、形成答案都需要比别人长得多的时间；按全班速度要求他，他就“什么也答不出来”，但若给他专心思考的机会，他能回答同龄儿童能回答的问题。学校心理学小组判定他并非智能缺陷，而是一方面给他另设个别作业，另一方面用“图片思考题”训练注意转移和思维，并改善他的家庭环境与作息，带他去大自然观察因果关系。头三年他做个别作业，到四年级便能和全班一起学习了。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《和青年校长的谈话》第2次谈话“教育现象之间的相互依存性”（教师的教育素养），OCR 原PDF页段：p0600-0699 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《和青年校长的谈话》第2次谈话“教育现象之间的相互依存性”（教师的教育素养），OCR 原PDF页段：p0600-0699 (0-based)",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0103",
@@ -1603,7 +1796,11 @@ window.KB_DATA = {
       ],
       "excerpt": "小学的主要任务就是教会儿童使用一个人终生都靠它来掌握知识的那种I具。（[OCR待校]：句中“I具”疑为“工具”）……首先是学生不会积极主动地观察，再就是不会阅读。",
       "cn": "苏霍姆林斯基分析五至七年级不及格人数远多于低年级的现象，发现许多学生不是不努力，而是不会使用“学习的工具”——观察、思考、表达、阅读和书写，尤其不会流畅地边读边想。低年级若只赶进度而没有把阅读、书写训练到接近“半自动化”，中年级教师又不断往学生“机床”上堆新材料，学生就会越来越吃力，最终跟不上。因此小学阶段的首要任务不是灌输更多知识，而是教会儿童使用终生靠它掌握知识的工具。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《和青年校长的谈话》第1次谈话“教师创造性劳动的几个基本问题”（集体的教育信念和教师的个人创造），OCR 原PDF页段：p0600-0699 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《和青年校长的谈话》第1次谈话“教师创造性劳动的几个基本问题”（集体的教育信念和教师的个人创造），OCR 原PDF页段：p0600-0699 (0-based)",
+      "tags": [
+        "OCR待校",
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0104",
@@ -1616,7 +1813,10 @@ window.KB_DATA = {
       ],
       "excerpt": "学校好比一个精致的乐器，它奏出一种人的和谐的旋律，使之影响每一个学生的心灵，—但要奏出这样的旋律，必须把乐器的音调准，而这种乐器是靠教师、教育者的人格来调音的。",
       "cn": "苏霍姆林斯基用“乐器调音”比喻教师人格在整个学校育人系统中的位置。学校可以设计出丰富的活动与制度，但真正决定这些制度能否影响学生心灵的，是教育者以怎样的人格、信念与精神面貌出现在学生面前。教师人格是“调音”的关键，否则再好的旋律也无法奏出。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第1卷》（教育科学出版社），《全面发展的人的培养问题》“教师的人格、教师集体与学生的全面发展”章（OCR 原PDF页段: p0200-0299, 0-based）"
+      "ref": "《苏霍姆林斯基选集（五卷本）第1卷》（教育科学出版社），《全面发展的人的培养问题》“教师的人格、教师集体与学生的全面发展”章（OCR 原PDF页段: p0200-0299, 0-based）",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0105",
@@ -1629,7 +1829,10 @@ window.KB_DATA = {
       ],
       "excerpt": "儿童是有生命的东西，他的大脑是最精密、最柔嫩的器官，我们应该小心翼翼地对待和爱护它。",
       "cn": "苏霍姆林斯基反对把儿童的大脑当作“可以无限制贮存信息的电子机器”，警惕那些只追求速度和紧张程度的“高效快速”教学法。脑力劳动的完满与否，首先取决于劳动组织得是否正确、周密与合理，而不是越快越好、塞得越多越好。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第1卷》（教育科学出版社），《全面发展的人的培养问题》“关心年轻一代的健康与体育”章（OCR 原PDF页段: p0200-0299, 0-based）"
+      "ref": "《苏霍姆林斯基选集（五卷本）第1卷》（教育科学出版社），《全面发展的人的培养问题》“关心年轻一代的健康与体育”章（OCR 原PDF页段: p0200-0299, 0-based）",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0106",
@@ -1642,7 +1845,10 @@ window.KB_DATA = {
       ],
       "excerpt": "每一个儿童身上都蕴藏着某些尚未萌芽的素质。这些素质就像火药：要点燃它，就需要火星。",
       "cn": "苏霍姆林斯基认为，每个孩子身上都有未萌芽的素质，教师的任务不是把知识灌进去，而是提供“火星”——一个令人入迷的劳动、一种技艺、一位年长或同龄人的热情。真正的教育是让某颗心灵里的火药被点燃，让天赋与才能有机会充分显现。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第1卷》（教育科学出版社），《全面发展的人的培养问题》“劳动教育和人的全面发展”章（OCR 原PDF页段: p0200-0299, 0-based）"
+      "ref": "《苏霍姆林斯基选集（五卷本）第1卷》（教育科学出版社），《全面发展的人的培养问题》“劳动教育和人的全面发展”章（OCR 原PDF页段: p0200-0299, 0-based）",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0107",
@@ -1655,7 +1861,10 @@ window.KB_DATA = {
       ],
       "excerpt": "它不是命中注定要随着时光的流逝而被蒸发掉的液体，而是由真正的人一点一滴积累起来的财富。",
       "cn": "苏霍姆林斯基反对“爱情消亡论”式的粗俗爱情观。他认为爱情的真正本质是紧张的精神生活、人类心灵最艰难的劳作，需要责任、忠诚与日复一日的创造来积累。学校应当让青少年为未来的婚姻与做父母做好准备，而不是把恋爱只当作短暂的激情。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第1卷》（教育科学出版社），《全面发展的人的培养问题》“爱情的道德修养和对结婚、做父母的准备”章（OCR 原PDF页段: p0200-0299, 0-based）"
+      "ref": "《苏霍姆林斯基选集（五卷本）第1卷》（教育科学出版社），《全面发展的人的培养问题》“爱情的道德修养和对结婚、做父母的准备”章（OCR 原PDF页段: p0200-0299, 0-based）",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0108",
@@ -1668,7 +1877,10 @@ window.KB_DATA = {
       ],
       "excerpt": "",
       "cn": "苏霍姆林斯基强调“认识”不等于“被告知”。低年级学生的思维具体、形象，但如果教学只让他们记住事物的名称和表面特征，精神生活就会贫乏。真正有效的教学要让观察、惊讶、发现和情感体验同时发生，使儿童在认识世界时成为一个主动的探索者。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第1卷》（教育科学出版社），《学生的精神世界》“（3）学龄初期儿童思维与感觉相互联系的一些特点”节（OCR 原PDF页段: p0300-0399, 0-based）"
+      "ref": "《苏霍姆林斯基选集（五卷本）第1卷》（教育科学出版社），《学生的精神世界》“（3）学龄初期儿童思维与感觉相互联系的一些特点”节（OCR 原PDF页段: p0300-0399, 0-based）",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0109",
@@ -1681,7 +1893,10 @@ window.KB_DATA = {
       ],
       "excerpt": "",
       "cn": "当学生在某个领域表现出兴趣时，不应只按统一大纲“齐步走”，而要给他超大纲的阅读、实验、制作和研究机会。一个人在自己擅长且热爱的领域获得成功体验后，会更愿意去克服其他领域的困难；这种“以特长养信心”的做法，不是放弃全面发展，而是全面发展的入口。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第1卷》（教育科学出版社），《学生的精神世界》“（6）发展个人爱好在少年精神生活中的意义”节（OCR 原PDF页段: p0400-0499, 0-based）"
+      "ref": "《苏霍姆林斯基选集（五卷本）第1卷》（教育科学出版社），《学生的精神世界》“（6）发展个人爱好在少年精神生活中的意义”节（OCR 原PDF页段: p0400-0499, 0-based）",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0110",
@@ -1694,7 +1909,10 @@ window.KB_DATA = {
       ],
       "excerpt": "",
       "cn": "苏霍姆林斯基反对用同一速度、同一方式要求所有学生。思维慢不等于不聪明或不肯学；他们需要的是更长的时间、更充分的感知材料、更细的步骤和独立摸索的机会。给他们足够的等待，他们反而会在以后形成更强的判断力和对结论的审慎。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第1卷》（教育科学出版社），《学生的精神世界》“（7）少年的情感”节（OCR 原PDF页段: p0400-0499, 0-based）"
+      "ref": "《苏霍姆林斯基选集（五卷本）第1卷》（教育科学出版社），《学生的精神世界》“（7）少年的情感”节（OCR 原PDF页段: p0400-0499, 0-based）",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0111",
@@ -1707,7 +1925,10 @@ window.KB_DATA = {
       ],
       "excerpt": "",
       "cn": "这不是一个简单的“帮助老人”故事，而是一个情感诊断工具：孩子能否跳出“我们做了好事”的自我满足，去体会接受者的真实处境和感受？苏霍姆林斯基提醒教师，要研究班级里每个孩子的情感状况；入学时情感未受培养的孩子，需要先被唤醒对他人痛苦与尊严的感受力，然后集体教育才可能生效。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第1卷》（教育科学出版社），《培养集体的方法》“集体对个人教育影响的形成——（1）社会化过程：‘给老奶奶的核桃’”节（OCR 原PDF页段: p0500-0599, 0-based）"
+      "ref": "《苏霍姆林斯基选集（五卷本）第1卷》（教育科学出版社），《培养集体的方法》“集体对个人教育影响的形成——（1）社会化过程：‘给老奶奶的核桃’”节（OCR 原PDF页段: p0500-0599, 0-based）",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0112",
@@ -1720,7 +1941,10 @@ window.KB_DATA = {
       ],
       "excerpt": "",
       "cn": "教师需要为学生提供安全、非对抗的表达通道，让学生连“对老师不满”也能说出口。彩色菊花是一种无声的情感信号系统：它既训练儿童觉察和命名集体情绪，也要求教师认真对待负面信号、反思自己的行为并向学生作出解释或修复。这不是纵容学生，而是把师生关系建立在诚实与相互尊重的基础上。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第1卷》（教育科学出版社），《培养集体的方法》“（3）情感洋溢的集体生活”节（OCR 原PDF页段: p0600-0699, 0-based）"
+      "ref": "《苏霍姆林斯基选集（五卷本）第1卷》（教育科学出版社），《培养集体的方法》“（3）情感洋溢的集体生活”节（OCR 原PDF页段: p0600-0699, 0-based）",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0113",
@@ -1733,7 +1957,10 @@ window.KB_DATA = {
       ],
       "excerpt": "亲爱的教师朋友，请不要剥夺儿童观察童话这面魔镜中反映出来的世界的幸福！",
       "cn": "苏霍姆林斯基记述了一次失败的教学：教师在树林里给一年级学生朗读“白云像长着翅膀的雏鸽”的童话，孩子们正陶醉其中，教师随即解释“云不是鸟，它没有翅膀，只是灰色的小水珠”，孩子们眼里的幻想火花熄灭了，回家后甚至有人向鸟窝扔土块。他由此提醒教育者：儿童有自己认识世界的方式，童话和幻想不是需要被立刻拆穿的“错误”，而是他们进入真理、建立心灵敏感性的通道。成人不应过早用冷冰冰的“科学正确”剥夺这种幸福。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第1卷》（教育科学出版社），《培养集体的方法》“（6）集体中的创作活动　童话在儿童集体生活中的作用”节（OCR 原PDF页段: p0600-0699, 0-based）"
+      "ref": "《苏霍姆林斯基选集（五卷本）第1卷》（教育科学出版社），《培养集体的方法》“（6）集体中的创作活动　童话在儿童集体生活中的作用”节（OCR 原PDF页段: p0600-0699, 0-based）",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0114",
@@ -1746,7 +1973,11 @@ window.KB_DATA = {
       ],
       "excerpt": "我妈妈坐在泥地上清洗甜菜一个月了，'维塔利激动地说，'她生病了，现在躺在医院里。为什么把最重的活给了妇女们？ …… 可您算什么教师？'维塔利用颤抖的卢音轻轻地说，难道一个人可以整整一个月坐在潮湿的泥地上吗?是您教导我们要为真理而斗争。（[OCR待校]）",
       "cn": "六年级的维塔利在一次时事报告会上，当众说出母亲在泥地上清洗甜菜一个月、生病住院的事实，并质问为什么把最重的活交给妇女。教师的第一反应是恼怒，斥责他“算什么少先队员”；维塔利则轻声反问“您算什么教师”——因为他正是从教师那里学会要为真理而斗争。苏霍姆林斯基记录这一冲突，意在说明少年期儿童开始用批判眼光衡量成年人，尤其不能容忍成人言行不一；教师若把少年说出痛苦真理当成“不守纪律”，就会错失教育时机，并深深伤害孩子。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第3卷》（教育科学出版社），《公民的诞生》“少年期孩子身上发生了什么变化”，OCR 原PDF页段 p0400-0499 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第3卷》（教育科学出版社），《公民的诞生》“少年期孩子身上发生了什么变化”，OCR 原PDF页段 p0400-0499 (0-based)",
+      "tags": [
+        "OCR待校",
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0115",
@@ -1759,7 +1990,10 @@ window.KB_DATA = {
       ],
       "excerpt": "保护少年精神世界的隐秘并使它不受侵犯，是教育的最重要任务之一。如果有什么旁人去干涉少年所想、所感受的一切，干涉少年不愿让别人看到的一切，那就会影响少年情感的敏感性，使他性情暴躁，并变得“冷漠无情”，而“冷漠无情”最终会导致情感上的麻木不仁。",
       "cn": "少年正在形成独立的内心世界；教师若强行窥探、公开或“深挖”他不愿示人的感受，并不会让孩子更听话，反而会损伤其情感敏感度，最终造成麻木与冷漠。苏霍姆林斯基把“不侵犯隐秘”列为少年教育的重要原则，并主张用个别谈话、替孩子保守秘密来赢得信任，而不是把内心“全部摊开”。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第3卷》（教育科学出版社），《公民的诞生》“当代人的精神世界与童年期、少年期的教育方法”，OCR 原PDF页段 p0400-0499 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第3卷》（教育科学出版社），《公民的诞生》“当代人的精神世界与童年期、少年期的教育方法”，OCR 原PDF页段 p0400-0499 (0-based)",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0116",
@@ -1772,7 +2006,11 @@ window.KB_DATA = {
       ],
       "excerpt": "我们用“您”称呼少年。我们认为这种做法具有很大的意义，它体现了-一种崇高的含义——使少年感觉到，所有的教师对他的这种能够达到智力、道德、思想和美感发展的最高峰的创造性的个性都非常尊重。（[OCR待校]）",
       "cn": "苏霍姆林斯基所在学校的教师对少年学生用敬称“您”。这不只是礼貌形式，而是让学生从语言中感到：教师看见的不只是“今天成绩如何的学生”，更是一个正在走向成熟的、有创造潜能的个性。他主张通过这种尊重让少年体会到：教师尊重他已经取得的，也尊重他依靠努力将要达到的更高发展。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第3卷》（教育科学出版社），《公民的诞生》“基本的道德素养”，OCR 原PDF页段 p0600-0699 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第3卷》（教育科学出版社），《公民的诞生》“基本的道德素养”，OCR 原PDF页段 p0600-0699 (0-based)",
+      "tags": [
+        "OCR待校",
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0117",
@@ -1785,7 +2023,11 @@ window.KB_DATA = {
       ],
       "excerpt": "我们发现春天绿色的细微色彩超过20种。而绿色草地上色调的变换更是7彩缤纷。（[OCR待校]） ……少年们感受到欢乐、喜悦、惊奇这样-些感情，细腻的知觉产生出细腻的感情并发展为需要去休验这些情感的人的高尚需求。（[OCR待校]）",
       "cn": "苏霍姆林斯基把情感与美育的基础放在“感觉素养和知觉素养”上：视觉、听觉长期受训练，人才能分辨出春天绿色的二十多种层次、秋天叶片上的多种色变。做法不是让孩子记住颜色名称，而是反复到田野、树林、池塘边去观察朝霞、四季与光影，让细腻的知觉带出细腻的感情，再由感情发展为精神需求。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第3卷》（教育科学出版社），《公民的诞生》“感觉素养和知觉素养”，OCR 原PDF页段 p0700-0799 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第3卷》（教育科学出版社），《公民的诞生》“感觉素养和知觉素养”，OCR 原PDF页段 p0700-0799 (0-based)",
+      "tags": [
+        "OCR待校",
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0118",
@@ -1798,7 +2040,11 @@ window.KB_DATA = {
       ],
       "excerpt": "也许这种说法在某种程度上是·种夸张。但是这种想法已经使我不安了30年：读完文艺作品之后就向学生提问是不妥当的，正像听完音乐作品之后就要人讲出这个作品的内容来一样。（[OCR待校]）",
       "cn": "苏霍姆林斯基认为，文学教育的目的不是让学生日后复述背诵，而是让作品在心灵中留下痕迹、促进自我认识。因此读完一篇文艺作品后立刻要求“讲出思想内容/写作特点”，正如听完音乐立刻要求说出“它讲了什么”一样，会破坏审美体验。他更愿意从学生日常如何对待父母、祖辈、异性同伴等真实关系，来判断文学是否真正影响了他的精神世界。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第3卷》（教育科学出版社），《公民的诞生》“世界观与信念”，OCR 原PDF页段 p0500-0599 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第3卷》（教育科学出版社），《公民的诞生》“世界观与信念”，OCR 原PDF页段 p0500-0599 (0-based)",
+      "tags": [
+        "OCR待校",
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0119",
@@ -1810,7 +2056,10 @@ window.KB_DATA = {
       ],
       "excerpt": "劳动的乐趣不同于一般的乐趣。它可以与人们攀登高山顶峰的感受相比拟。怪石嶙峋的崎岖山路，每迈出一步都必须付出极大的努力。…… ……当一个人爬上了山顶，他感到自己变得崇高了，确立了自尊心。他觉得自己刚强、勇敢，准备去克服新的困难。（[OCR待校]）",
       "cn": "苏霍姆林斯基用登山比喻真正的劳动教育：劳动乐趣不是轻松舒适，而是克服困难后“登上顶峰”的自我确认。少年在严冬给畜牧场运草，疲惫不堪却心情愉快兴奋；他写道：“这种自豪感只有通过劳动能体验到，它在学校生活的任何其他情况下都是感受不到的。”因此劳动应当成为锻炼意志的手段，让每个少年在少年期至少登上一次这样的顶峰。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第3卷》（教育科学出版社），《公民的诞生》“劳动和意志的培养”，OCR 原PDF页段 p0800-0899 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第3卷》（教育科学出版社），《公民的诞生》“劳动和意志的培养”，OCR 原PDF页段 p0800-0899 (0-based)",
+      "tags": [
+        "OCR待校"
+      ]
     },
     {
       "id": "sk-0120",
@@ -1823,7 +2072,11 @@ window.KB_DATA = {
       ],
       "excerpt": "要记住，爱情首先意味着对你所爱的人的命运、前途承担责任。想借爱情寻欢作乐的人，是贪淫好色之徒，是堕落者。爱，首先意味着奉献，把白已的精神力量献给所爱的人，为他(她)创造幸福。（[OCR待校]）",
       "cn": "苏霍姆林斯基在给大学儿子的信中谈“爱情的道德纯洁性”：真正的爱情不是情欲满足或消愁解闷，而是对所爱的人的命运、前途承担责任；爱首先是奉献自己的精神力量，为对方创造幸福。他反对把“感情自由”当作放纵的遮羞布，主张用理智、意志与道德责任感使人的感情高尚起来。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第3卷》（教育科学出版社），《给儿子的信》第14封信，OCR 原PDF页段 p0900-0993 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第3卷》（教育科学出版社），《给儿子的信》第14封信，OCR 原PDF页段 p0900-0993 (0-based)",
+      "tags": [
+        "OCR待校",
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0121",
@@ -1836,7 +2089,11 @@ window.KB_DATA = {
       ],
       "excerpt": "邻居说他是被娇生惯养的孩子。父母就这么--个独子，他活得无忧无虑，要什么有什么：睡到吃午饭才醒，在床旁边的桌了上早已放好母亲精心准备的鲜牛奶、白面包、酸奶油……别人教育孩子从小就养成劳动习惯，天刚亮就喊醒他们，让他们去地里下活。可是亚林娜却保护自己“宝贝儿”……不让他劳动，什么也不让他操心和牵挂。（[OCR待校]） …… “我们猜，我们想，但心情并不因此感到轻松。”70岁的尤希姆老大爷说，“他是怎么成为一个卑鄙的家伙的？是由下精神空虚。……他没有耕种过家乡的土地，没有给人们创造过任何财富，没有用汗水浇灌过农庄的田野，他的双手没有在艰苦而愉快的劳动中磨出过虽子，结果成了飞廉。”（[OCR待校]）",
       "cn": "苏霍姆林斯基讲述一个从小被母亲亚林娜百般娇惯、不让劳动、不让操心的独子，战争期间成为叛徒，后来被全村称为“没有名字的人”。村里老人归结其根源是“精神空虚”：他没有用汗水浇灌过家乡的土地，没有持续为人们创造财富，也没有真正体验到为他人创造价值的快乐；纵情享乐与利己欲望像一堵墙，把他与人民的甘苦隔开。作者借这个故事说明“不是生活本身，而是人在教育”——爱若只是包办享乐、不教劳动与责任，反而会毁掉人。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第3卷》（教育科学出版社），《给儿子的信》第19封信，OCR 原PDF页段 p0900-0993 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第3卷》（教育科学出版社），《给儿子的信》第19封信，OCR 原PDF页段 p0900-0993 (0-based)",
+      "tags": [
+        "OCR待校",
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0122",
@@ -1849,7 +2106,11 @@ window.KB_DATA = {
       ],
       "excerpt": "1. 第一位的和最基本的……就是善于在听课过程中节约并积累时间。……我建议你把笔记分成两项(栏)为好：第一项内记上简要的讲课内容，第：项内记上需要思考的问题；这里要记中心、主要问题。这是个骨架，这门课程的全部知识联结在这个骨架上。（[OCR待校]） 2. 如果你想有充裕的时间，那你就要天入读书。天天读，并且要仔细阅读若下(4\\~6)页在某种程度上同课程有联系的科学文献。专心阅读，深入思考。……你每天读的东西越多，你的时间后备就越充足。（[OCR待校]）",
       "cn": "苏霍姆林斯基给读大学的儿子提出一套“赢得时间”的脑力劳动方法：上课时就开始消化并整理知识，笔记分两栏——一栏记讲课要点，一栏记需要思考的中心问题；平时每天读 4~6 页与课程相关的科学文献，使课外阅读成为理解课内知识的“底子”和“接触点”。这样就能避免考前突击、开夜车式的“紧急动员”。他还强调早晨用于最复杂的创造性脑力劳动，并要为自己建立稳定的脑力劳动制度。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第3卷》（教育科学出版社），《给儿子的信》第21封信，OCR 原PDF页段 p0900-0993 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第3卷》（教育科学出版社），《给儿子的信》第21封信，OCR 原PDF页段 p0900-0993 (0-based)",
+      "tags": [
+        "OCR待校",
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0123",
@@ -1861,7 +2122,10 @@ window.KB_DATA = {
       ],
       "excerpt": "如果内在精神的丰富创造人的美，那么无所事事，更何况不道德的行为，则会将这种美毁掉。……人类关的标准—-这同时也是道德的标准。健康的身体、崇高的道德、高尚的关感一—这正是我们通常总说的那种和谐。（[OCR待校]） …… 你—白已精神美的创造者，你的美也将影响着你周围的一些人们。（[OCR待校]）",
       "cn": "苏霍姆林斯基在谈审美观时指出：人的外表美不是孤立的身体条件，而是内在精神、道德尊严与劳动的创造在面容和举止上的显现；无所事事与不道德会毁掉美，忘我劳动和创造则会使人容光焕发。因此可以说，人类美的标准同时也是道德的标准；健康的身体、崇高的道德、高尚的美感构成和谐。每个人是自己精神美的创造者，而这种美会影响周围人。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第3卷》（教育科学出版社），《给儿子的信》第18封信，OCR 原PDF页段 p0900-0993 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第3卷》（教育科学出版社），《给儿子的信》第18封信，OCR 原PDF页段 p0900-0993 (0-based)",
+      "tags": [
+        "OCR待校"
+      ]
     },
     {
       "id": "sk-0124",
@@ -1874,7 +2138,10 @@ window.KB_DATA = {
       ],
       "excerpt": "分数已成了学校衡量人的标准和尺度。学习得5分—便是好学生；得3分——凑凑合合；而如果有那么两三门课得2分，那就像俗话所说的那样，已属“毫无指望”。人在分数后面消失了，他的无限性和多维的精神世界也在分数中泯灭了。",
       "cn": "苏霍姆林斯基在《公民的起点》中批评学校用分数给儿童整体“定性”：5分即好学生，3分凑合，2分便“毫无指望”。当分数变成衡量人的唯一标尺，儿童丰富的精神世界、潜在的才能与个性都在分数后面消失。这种评价方式首先导致成绩下降和对学习的冷淡——许多儿童少年早晨上学“像是去受刑”，离开学校后回忆起来仍终生痛心。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社，2001），论文《公民的起点》，OCR原文页码段 `<!-- OCR 原PDF页段: p0500-0599 (0-based) -->`"
+      "ref": "《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社，2001），论文《公民的起点》，OCR原文页码段 `<!-- OCR 原PDF页段: p0500-0599 (0-based) -->`",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0125",
@@ -1887,7 +2154,10 @@ window.KB_DATA = {
       ],
       "excerpt": "转述概括：格里戈里操行差、态度挑衅，学校勒令其停学两周；但班里没有集体舆论，多数学生默默同情他，他感到“班级在我这边”，毫无悔意。教师随后放弃停学、盯防和告状，改为让没背会功课的学生在无人监督时自动留下补课，并让全班把这件事看作一次自我考验。留校渐渐不再是惩罚，而是战胜自我的意志考验。格里戈里返校后，发现同学们不再围观他的淘气，而是用信任和一致态度迫使他自律，最终他成了模范学生。",
       "cn": "苏霍姆林斯基用这次失败说明：当班级尚未形成真正的集体时，停学只是“阻力最小的途径”——处分只代表教师个人，没有集体的屈辱感和义愤，受罚者会把惩罚看作偶然的倒霉，甚至因同学的同情而获得“英雄”依托。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社，2001），论文《行为训练是自觉纪律教育的一种方法》，OCR原文页码段 `<!-- OCR 原PDF页段: p0000-0099 (0-based) -->`"
+      "ref": "《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社，2001），论文《行为训练是自觉纪律教育的一种方法》，OCR原文页码段 `<!-- OCR 原PDF页段: p0000-0099 (0-based) -->`",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0126",
@@ -1900,7 +2170,10 @@ window.KB_DATA = {
       ],
       "excerpt": "转述概括：苏霍姆林斯基认为，能激发出自我教育的教育才是真正的教育；身体锻炼在其中占重要地位。该校不做统一早操，而是让每个学生在家里黎明即起，淋浴或冷水擦身；住得离池塘近的可以游泳，9～10岁的男女少年开始学用雪擦身。教师不强迫、不检查，而是在集体中形成“自我强制”的风气：孩子们相互议论谁做到了、谁还没下决心，把克服懒惰和怯弱看作意志品质的竞赛。他还建议学生尝试早晨6～8点完成家庭作业，体验更省时、更高效的脑力劳动。",
       "cn": "健康习惯不能靠教师天天盯、家长时时催，而应转化为少年自己的自我教育。苏霍姆林斯基强调，如果教师简单强迫，学生很可能会欺骗老师，假装已经做到；关键是要让学生自己“强制自己”。当孩子第一次用冷水或雪团战胜自己的惰性，体验到克服弱点的欢悦，他才会开始用批判眼光看自己，形成自我认识和自律。集体在此不是监视者，而是用风气、评价和无声竞赛帮助每个人管住自己。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社，2001），论文《教育与自我教育》，OCR原文页码段 `<!-- OCR 原PDF页段: p0300-0399 (0-based) -->`"
+      "ref": "《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社，2001），论文《教育与自我教育》，OCR原文页码段 `<!-- OCR 原PDF页段: p0300-0399 (0-based) -->`",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0127",
@@ -1913,7 +2186,10 @@ window.KB_DATA = {
       ],
       "excerpt": "儿童对人的世界的认识，是从父母开始的。他首先认识的是，妈妈怎样跟自己说话，爸爸怎样对待妈妈。由此而生成了他关于善和恶的最初概念和理解。",
       "cn": "苏霍姆林斯基在《您家的氛围》中提出，孩子面前有“物的大千世界”，也有“人的世界”；他对人的世界的认识从父母开始。妈妈怎样同自己说话、爸爸怎样对待妈妈，构成了孩子关于善与恶的最初概念。家庭若只有物质的“安乐窝”，没有夫妻间互敬互爱、与人为善的精神氛围，就不能成为教育力量。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社，2001），论文《您家的氛围》，OCR原文页码段 `<!-- OCR 原PDF页段: p0600-0699 (0-based) -->`"
+      "ref": "《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社，2001），论文《您家的氛围》，OCR原文页码段 `<!-- OCR 原PDF页段: p0600-0699 (0-based) -->`",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0128",
@@ -1926,7 +2202,10 @@ window.KB_DATA = {
       ],
       "excerpt": "转述概括：一位国营农场工人问：我和妻子拼命干活，让孩子不缺吃不缺穿，他们为什么反而不珍惜劳动、对什么都冷眼相待？苏霍姆林斯基回答：许多父母一心想让孩子避开风雨、苦难和强烈感受，结果一些7岁孩子竟不知道生活中会有不幸。他指出，人的幸福不能像遗产一样赠予或接收；哪里试图把幸福连同姓氏一起传给孩子，哪里就会养出吮吸父母血汗的“二流子”。育人的全部实质在于让个人愿望与社会、他人利益相协调，从孩子意识生活的最初时日起就进行“愿望的修养”，而最强大的教育力量是劳动——让孩子在流汗、疲劳和克服困难中体验“这幸福是我为别人创造的”。",
       "cn": "苏霍姆林斯基在给年轻父亲的信中把“给孩子幸福”重新定义为“教孩子配得上幸福、会创造幸福”。父母把现成享受源源不断递到孩子手里，不是爱，而是剥夺了他认识世界与认识自己的机会。童年的幸福应该有，但“炉火的热度”要靠父母管理：孩子应当从小学会控制自己的愿望，用劳动把愿望变成对他人有益的行动。他举例：牧羊人彼得一家“跟孩子们一起劳动，这就是全部教育”，孩子在劳动中不仅认识周围世界，也认识自己，并成为父母教育的同盟者。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社，2001），论文《致年轻父亲的信》，OCR原文页码段 `<!-- OCR 原PDF页段: p0600-0699 (0-based) -->`"
+      "ref": "《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社，2001），论文《致年轻父亲的信》，OCR原文页码段 `<!-- OCR 原PDF页段: p0600-0699 (0-based) -->`",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0129",
@@ -1939,7 +2218,10 @@ window.KB_DATA = {
       ],
       "excerpt": "转述概括：少年费奥多尔因学习困难总被教师在学生手册上向家长“请采取严厉措施”，父母打他，于是他憎恨学校和家庭，故意破坏纪律，最终离家出走、违法犯罪。苏霍姆林斯基认为，儿童无人照管和违法乱纪的主要根源是家庭与学校教育文明水平低下。他提出“哪里为着大众和社会的劳动成为儿童和少年欢乐的源泉，哪里就完全没有惩罚”：当儿童从小通过劳动为别人创造、做好事并体验到欢乐，就没有破坏纪律和秩序的人，也就不会产生惩罚问题。他还强调，惩罚越频繁、越强硬，人本性中的自我教育力量衰减得越厉害；童年遭受惩罚的人，心灵会变得粗野、凶狠、残暴。",
       "cn": "这是把“无惩罚”落实到学校日常制度的思路，不是放任不管，而是用预防取代惩罚。苏霍姆林斯基学校的具体做法包括：办持续15年的家长大学（从年轻夫妇到不同年龄段学生家长）；从孩子7岁入学前夕起，让每个儿童在自家院里种一棵苹果树，把第一颗苹果献给母亲；让儿童和少年从早年起持续“为人们创造些什么”。当公益劳动和创造成为童年欢乐的主要源泉，纪律问题便从根源上减少。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社，2001），论文《没有惩罚的教育》，OCR原文页码段 `<!-- OCR 原PDF页段: p0500-0599 (0-based) -->`"
+      "ref": "《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社，2001），论文《没有惩罚的教育》，OCR原文页码段 `<!-- OCR 原PDF页段: p0500-0599 (0-based) -->`",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0130",
@@ -1952,7 +2234,11 @@ window.KB_DATA = {
       ],
       "excerpt": "\"When a person is holding a violin in his hands, he cannot do anything bad,\" goes an old Ukrainian saying attributed to the outstanding thinker Grigory Skovoroda (1722-1794). Evil and genuine beauty is incompatible. One of the most important tasks of the teacher is, figuratively speaking, to place a violin in the hands of every child so that they all can feel how music is born.",
       "cn": "苏霍姆林斯基引用乌克兰谚语说明美育的道德意义：一个手里“拿着小提琴”的孩子不可能作恶。教师的比喻性任务，不是把每个孩子都培养成音乐家，而是让每个孩子都有机会亲手接触美、感受“音乐如何诞生”，从而避免新一代只做美的消费者。",
-      "ref": "To Children I Give My Heart (Progress Publishers, Moscow; text shows no year), “Music and Morality” section（约，raw OCR 未独立成行；待纸本核），local txt lines 6005–6024"
+      "ref": "To Children I Give My Heart (Progress Publishers, Moscow; text shows no year), “Music and Morality” section（约，raw OCR 未独立成行；待纸本核），local txt lines 6005–6024",
+      "tags": [
+        "待纸本核",
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0131",
@@ -1965,7 +2251,10 @@ window.KB_DATA = {
       ],
       "excerpt": "And this is what is interesting: latent illnesses and indispositions are especially evident when the teacher tries to fill every minute of the lesson with intense intellectual labor. This \"attempt not to lose a minute\" simply taxes some children beyond their strength. I am sure that this \"rushed\" pace is harmful even to perfectly healthy children.",
       "cn": "苏霍姆林斯基观察到：潜伏疾病和身体不适在教师“把课堂每一分钟都填满高难度脑力劳动”时最容易暴露。这种“一分钟也不浪费”的做法让部分孩子超负荷，而且急迫的节奏对完全健康的孩子同样有害。他主张健康第一，课堂要留有呼吸感，而不是用持续紧张把儿童逼到目光呆滞。",
-      "ref": "To Children I Give My Heart (Progress Publishers, Moscow; text shows no year), Nature— the Source of Good Health, local txt lines 1445–1469"
+      "ref": "To Children I Give My Heart (Progress Publishers, Moscow; text shows no year), Nature— the Source of Good Health, local txt lines 1445–1469",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0132",
@@ -1979,7 +2268,10 @@ window.KB_DATA = {
       ],
       "excerpt": "Work in the Mothers' Orchard was inspired by a desire to bring joy to their elders, to their parents. ... The more effort the child spent in labor done in the name of its mother, the more humane its heart would become.",
       "cn": "入学后第一个春天，苏霍姆林斯基带孩子们种了三十一棵苹果树和三十一株葡萄藤，组成“母亲的果园”。他告诉孩子：三年后第一批苹果和葡萄要作为礼物送给妈妈，用劳动回报妈妈的操劳。没有妈妈可送的孩子为继母、奶奶或阿姨种。孩子们长期浇水、除虫，直到第一次结果、亲手把果实送到母亲手中——劳动在这里不是任务，而是情感与道德成长的阶梯。",
-      "ref": "To Children I Give My Heart (Progress Publishers, Moscow; text shows no year), Labor Imbued with Noble Feelings, “Mothers' Orchard” passage, local txt lines 7621–7663"
+      "ref": "To Children I Give My Heart (Progress Publishers, Moscow; text shows no year), Labor Imbued with Noble Feelings, “Mothers' Orchard” passage, local txt lines 7621–7663",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0133",
@@ -1992,7 +2284,10 @@ window.KB_DATA = {
       ],
       "excerpt": "It is better for the child to read only a little, but that every book impress it emotionally and intellectually, so that the person will return to it several times and discover ever new values there.",
       "cn": "苏霍姆林斯基把阅读选书上升到“一生资源”的高度：人一辈子大约只能读两千本书，因此童年和少年时期读什么必须深思熟虑。他主张宁可让孩子少读，也要让每一本都产生情感与思想冲击，使人愿意反复回到书中、每次发现新的价值。这正是他反对“阅读量竞赛”、重视反复精读与内心吸收的原因。",
-      "ref": "To Children I Give My Heart (Progress Publishers, Moscow; text shows no year), The Book in the Inner Life of the Child, local txt lines 6107–6114"
+      "ref": "To Children I Give My Heart (Progress Publishers, Moscow; text shows no year), The Book in the Inner Life of the Child, local txt lines 6107–6114",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0134",
@@ -2006,7 +2301,10 @@ window.KB_DATA = {
       ],
       "excerpt": "Empathy must be taught just as thoughtfully and carefully as children are taught to take their first independent steps.",
       "cn": "同学 Sasha 的奶奶住院后，苏霍姆林斯基没有简单号召“大家要关心他”，而是趁 Sasha 不在时教全班“换位”：回忆路上遇到的那位眼神悲伤的老人，想象如果自己唯一的亲人进了医院会怎样。他给出可操作的集体规则——看到同学悲伤不要惊讶围观，不要追问刺探，不要说教式安慰；要做的是悄悄帮助，而且绝不能把自己的善行拿来炫耀。事后孩子们自发给 Sasha 送苹果、鱼和关心，教师再没有当众提起。",
-      "ref": "To Children I Give My Heart (Progress Publishers, Moscow; text shows no year), One Must Not Live Even a Day Without Concern for Others, Sasha empathy lesson, local txt lines 7316–7347"
+      "ref": "To Children I Give My Heart (Progress Publishers, Moscow; text shows no year), One Must Not Live Even a Day Without Concern for Others, Sasha empathy lesson, local txt lines 7316–7347",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0135",
@@ -2020,7 +2318,11 @@ window.KB_DATA = {
       ],
       "excerpt": "The powerful stream of their energy demanded not just activity; the children wanted to test their fearlessness in the face of danger.",
       "cn": "三、四年级的男孩接连做出让教师心惊的危险举动：抓住拖拉机钢丝绳升到十五米高空、爬上钟楼圆顶、滚进木桶冲下坡、踩薄冰过河。苏霍姆林斯基认识到，单纯禁止和“只要不出事”不是出路；儿童能量过剩并渴望检验胆量，教育者要把这股能量“引入正确的河道”。他组织“勇敢无畏小队”，设计有安全保护的悬崖跳水、夜晚给“岛上遇险者”送补给等游戏；对最胆小的 Volodya 不嘲笑，先给较低的台阶，让他一步步战胜恐惧。",
-      "ref": "To Children I Give My Heart (Progress Publishers, Moscow; text shows no year), The Unit of the Brave and Tearless（raw OCR 标题作 “Tearless”，疑为 “Fearless”；待纸本核）, local txt lines 8657–8814"
+      "ref": "To Children I Give My Heart (Progress Publishers, Moscow; text shows no year), The Unit of the Brave and Tearless（raw OCR 标题作 “Tearless”，疑为 “Fearless”；待纸本核）, local txt lines 8657–8814",
+      "tags": [
+        "待纸本核",
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0136",
@@ -2033,7 +2335,10 @@ window.KB_DATA = {
       ],
       "excerpt": "Contact with children was always an inner need rather than an obligation for Olya. ... Those who possess this talent will become fine educators and will find great happiness in their work.",
       "cn": "苏霍姆林斯基观察十二岁的高年级少先队员 Olya（她主动申请负责带低年级的“十月儿童”入队）：与儿童相处对她而言不是“任务”而是内在需要。他称这种需要为“人道天赋”，并说拥有这种天赋的人会成为优秀教育者，在工作中获得巨大幸福。随后他还提醒教师：男孩身上那股想当领头人、静不下来的沸腾能量不要压制，淘气的孩子往往正是潜在的教育帮手。",
-      "ref": "To Children I Give My Heart (Progress Publishers, Moscow; text shows no year), You Are the Future Masters of Your Homeland, Young Leninists, Olya passage, local txt lines 8104–8127"
+      "ref": "To Children I Give My Heart (Progress Publishers, Moscow; text shows no year), You Are the Future Masters of Your Homeland, Young Leninists, Olya passage, local txt lines 8104–8127",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0137",
@@ -2046,7 +2351,11 @@ window.KB_DATA = {
       ],
       "excerpt": "I am convinced a thousand times over that without poetic, emotional-aesthetic outbursts, it is impossible fully to develop the intellectual capabilities of the child.",
       "cn": "在孩子们看到甜蔷薇上的露珠与蛛网、被词语的音韵之美点燃并即兴联诗之后，苏霍姆林斯基写下这句判断：没有诗意的、情感审美的迸发，儿童智力不可能得到充分发展。他认为儿童思维天生要求诗意创造；美与活生生的思维如同太阳与花朵一样内在相连。因此他建议最初的思维课不要对着黑板，而要到田野、公园和大自然里去。",
-      "ref": "To Children I Give My Heart (Progress Publishers, Moscow; text shows no year), The School of Joy（约；待纸本核）— sweetbrier/dewdrop poem episode before “Nature— the Source of Good Health”, local txt lines 1431–1443"
+      "ref": "To Children I Give My Heart (Progress Publishers, Moscow; text shows no year), The School of Joy（约；待纸本核）— sweetbrier/dewdrop poem episode before “Nature— the Source of Good Health”, local txt lines 1431–1443",
+      "tags": [
+        "待纸本核",
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0138",
@@ -2059,7 +2368,11 @@ window.KB_DATA = {
       ],
       "excerpt": "儿章身上没有任何东西是需要教帅严酷对待的。如果儿童心灵中出现了毛病，那首先要靠善良来驱走它。（[OCR待校]）",
       "cn": "苏霍姆林斯基反对把儿童当作“存心作恶的歹徒”来严酷对待。即使儿童心灵中出现了问题，首先也要用善良、亲切、热爱去驱除，而不是用严厉惩罚或怀疑去回应。他强调这不是放弃对抗邪恶，而是对儿童世界的现实看法：教育者的乐观主义与对人的信任，既是儿童成长的土壤，也是教师自己神经与心脏健康的源泉；不信任、幸灾乐祸和不友善，最先伤害的是教师自己。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《给教师的100条建议》“怎样在日常活动过程中防止神经衰弱”，OCR 原PDF页段: p0500-0599 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《给教师的100条建议》“怎样在日常活动过程中防止神经衰弱”，OCR 原PDF页段: p0500-0599 (0-based)",
+      "tags": [
+        "OCR待校",
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0139",
@@ -2073,7 +2386,10 @@ window.KB_DATA = {
       ],
       "excerpt": "",
       "cn": "这条原则纠正一种常见误区：把班集体建设等同于“建机构、定制度、立规矩”。苏霍姆林斯基给出的顺序是：先有共同的价值判断与情感体验（尤其通过有公益意义的集体劳动），再谈组织和服从。所谓“智力的共同性”也不是所有人兴趣相同，而是大家都渴求知识、尊重书籍与有教养的人；每个人以不同的爱好充实集体，集体的智力生活才真正丰富。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《给教师的100条建议》“集体是教育的工具，怎样建立集体，它靠什么来维持”，OCR 原PDF页段: p0700-0799 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《给教师的100条建议》“集体是教育的工具，怎样建立集体，它靠什么来维持”，OCR 原PDF页段: p0700-0799 (0-based)",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0140",
@@ -2087,7 +2403,10 @@ window.KB_DATA = {
       ],
       "excerpt": "",
       "cn": "这个案例展示“同情教育”不靠演讲，而靠让学生真实地遇见不幸、理解孤独，并用持续的劳动与陪伴作出回应。教师没有劝孩子“忘掉痛苦”，也没有用说教解释死亡与战争；孩子们因看见他人的巨大丧失而产生轻微的不安与愧疚，这种情感被看作良知的起点。让学生把别人当作镜子，在别人的痛苦中照见自己的幸福与责任，是教育智慧的高峰之一。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《给教师的100条建议》“要使受教育者同时又是教育者”至“要教育学生对孤独者不要漠不关心”，OCR 原PDF页段: p0700-0799 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《给教师的100条建议》“要使受教育者同时又是教育者”至“要教育学生对孤独者不要漠不关心”，OCR 原PDF页段: p0700-0799 (0-based)",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0141",
@@ -2099,7 +2418,10 @@ window.KB_DATA = {
       ],
       "excerpt": "能力、志向、才于的培养同题，没有教师的个性对学生个性的直接影响，是不可能解决的。能力只能由能力来培养，志向只能由志向来培养，才于也只能由才十来培养。（[OCR待校]）",
       "cn": "苏霍姆林斯基强调，教育的力量来自教育者活生生的个性，而不是制度、纲领或机构。教师不只是把知识从自己的头脑搬进学生头脑；学生认识世界时，也同时在认识教师这个人，知识是和学生如何对待教师的“知识明灯”融合在一起的。热爱自己学科的教师会唤起学生对知识、科学和书籍的热爱；只有个性才能影响个性，只有性格才能养成性格。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《给教师的100条建议》“作为教育者的教师应具备什么品质”，OCR 原PDF页段: p0700-0799 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《给教师的100条建议》“作为教育者的教师应具备什么品质”，OCR 原PDF页段: p0700-0799 (0-based)",
+      "tags": [
+        "OCR待校"
+      ]
     },
     {
       "id": "sk-0142",
@@ -2113,7 +2435,10 @@ window.KB_DATA = {
       ],
       "excerpt": "",
       "cn": "这不是用“被抓住”的恐惧来管住孩子，而是把“母亲的爱与期待”内化成独处时的良心见证人。关键前提是孩子与母亲有真实的情感联结，否则这句话会变成空洞威胁。苏霍姆林斯基还给出从“偷偷摘一朵花”到“对啼哭的小孩不闻不问”的细微起点：道德自我教育要从日常小事中培养敏锐心灵，而不是等到犯大错再处理。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《给教师的100条建议》“怎样激发学生在道德方面进行自我教育”，OCR 原PDF页段: p0800-0889 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《给教师的100条建议》“怎样激发学生在道德方面进行自我教育”，OCR 原PDF页段: p0800-0889 (0-based)",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0143",
@@ -2127,7 +2452,10 @@ window.KB_DATA = {
       ],
       "excerpt": "惩罚已使学生从良心的责备中解脱出来，而良心则是自我教育的主要推动力。",
       "cn": "苏霍姆林斯基提出“绝对正常的教育是与惩罚无缘的”。惩罚把孩子从内疚中“解救”出来：孩子想的是“我已经受过罚了”，而不是“我做错了什么”，于是不再思考自己的行为，良心开始沉睡。他讲了一个反例：三年级学生科斯佳用弹弓打麻雀并折磨它，教师罚他三次不去森林；科斯佳却把没长毛的小麻雀塞进教师桌子里报复。惩罚没有使他反省，反而让他心肠变硬、积累怨恨。正常的教育应让孩子对轻微的过失感到内疚并放在心上，靠良心的力量实现自我教育。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《给教师的100条建议》“怎样教学生自己教育自己”，OCR 原PDF页段: p0800-0889 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《给教师的100条建议》“怎样教学生自己教育自己”，OCR 原PDF页段: p0800-0889 (0-based)",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0144",
@@ -2139,7 +2467,10 @@ window.KB_DATA = {
       ],
       "excerpt": "If a child leaves his teacher's charge a faceless, grey individual, this means you as a teacher have failed to give him anything. Surely that is the saddest outcome for any teacher. For everything that goes by the name of education is a wondrous recreation of oneself in Man.",
       "cn": "苏霍姆林斯基认为，教育者最悲哀的失败，不是学生考试不好，而是孩子以“面目模糊、灰色无光”的个体离开教师。教育不是单向传递知识，而是教师把自己精神生命中真正有价值的东西，奇妙地“再造”在另一个人的成长里。",
-      "ref": "On Education (Progress Publishers, 1977), Part I “Education and the Educator,” “I Am a Firm Believer in the Great Power of Education,” OCR 约 p. 51（待纸本核）; https://archive.org/details/vasili-sukhomlinsky-on-education-progress-1977"
+      "ref": "On Education (Progress Publishers, 1977), Part I “Education and the Educator,” “I Am a Firm Believer in the Great Power of Education,” OCR 约 p. 51（待纸本核）; https://archive.org/details/vasili-sukhomlinsky-on-education-progress-1977",
+      "tags": [
+        "待纸本核"
+      ]
     },
     {
       "id": "sk-0145",
@@ -2152,7 +2483,11 @@ window.KB_DATA = {
       ],
       "excerpt": "There is a chord in the secret corner of every child’s heart, which strikes a note of its own and so as to make a child’s heart respond to my words, my heart has to be in tune with that note.",
       "cn": "每个孩子的内心都有自己独特的“音调”。教师的话要能进入孩子心里，前提不是掌握更多谈话技巧，而是先让自己的心与孩子那根弦调在同一频率上。儿童研究不是冷冰冰地“看透”孩子，而是用心灵去听、去共鸣。",
-      "ref": "On Education (Progress Publishers, 1977), Part I “Education and the Educator,” “The Need to Understand the Workings of the Child’s Heart,” OCR 约 p. 64（待纸本核）; https://archive.org/details/vasili-sukhomlinsky-on-education-progress-1977"
+      "ref": "On Education (Progress Publishers, 1977), Part I “Education and the Educator,” “The Need to Understand the Workings of the Child’s Heart,” OCR 约 p. 64（待纸本核）; https://archive.org/details/vasili-sukhomlinsky-on-education-progress-1977",
+      "tags": [
+        "待纸本核",
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0146",
@@ -2164,7 +2499,10 @@ window.KB_DATA = {
       ],
       "excerpt": "Care for a person’s health, particularly a child’s health, is not simply a series of sanitary norms and rules, or a list of do’s and don’ts for the daily time-table, work, rest and food. It involves first and foremost care of the harmonious fullness of all man’s physical and mental capacities, and the high point of that harmony is the joy of creativity.",
       "cn": "苏霍姆林斯基把“健康第一”提升到比作息表、营养和卫生规则更高的层面：健康是身体与精神能力的和谐完满，而这一和谐的最高点是创造的快乐。孩子被田野、星空和花香吸引并唱出自己的歌，在他看来就是身心和谐的顶峰。因此健康教育必须同时保护儿童的喜悦、美感和创造生活，而不是只做“不许生病”的管理。",
-      "ref": "On Education (Progress Publishers, 1977), Part I “Education and the Educator,” “Half Our Work Is Devoted to Health Care,” OCR 约 pp. 118–121，引文近 p. 120（待纸本核）; https://archive.org/details/vasili-sukhomlinsky-on-education-progress-1977"
+      "ref": "On Education (Progress Publishers, 1977), Part I “Education and the Educator,” “Half Our Work Is Devoted to Health Care,” OCR 约 pp. 118–121，引文近 p. 120（待纸本核）; https://archive.org/details/vasili-sukhomlinsky-on-education-progress-1977",
+      "tags": [
+        "待纸本核"
+      ]
     },
     {
       "id": "sk-0147",
@@ -2176,7 +2514,10 @@ window.KB_DATA = {
       ],
       "excerpt": "We teach children that man set himself apart from the animal world and became a being endowed with talent not only because he made the first implements of labour with his own hands, but also because he beheld the depth of the blue sky, the sparkling light of the stars, the rosy flush of the sky at dawn and dusk, a crimson sunset heralding a windy day, the boundless vistas of the steppes, a flock of cranes spread across the azure sky, the reflection of the sun in transparent morning dew, grey threads of rain on an overcast autumn day, the frail stem and blue-white bell of the snowdrop; he beheld these things and wondered, and began to create new beauty. We too must stop in our tracks to admire beauty and then beauty will blossom in our hearts.",
       "cn": "苏霍姆林斯基把“看美”和“造工具”并列为人之为人的起源：人不仅靠双手劳动，还因为看见星空、朝霞、露珠而惊叹，才开始创造新的美。教育者的任务不是把美当作知识讲解，而是自己也停下来，真正与儿童一起惊叹；美才会在孩子心里开花。",
-      "ref": "On Education (Progress Publishers, 1977), Part IV “Beauty,” “To the Humane by Way of the Beautiful,” OCR 约 p. 220（待纸本核）; https://archive.org/details/vasili-sukhomlinsky-on-education-progress-1977"
+      "ref": "On Education (Progress Publishers, 1977), Part IV “Beauty,” “To the Humane by Way of the Beautiful,” OCR 约 p. 220（待纸本核）; https://archive.org/details/vasili-sukhomlinsky-on-education-progress-1977",
+      "tags": [
+        "待纸本核"
+      ]
     },
     {
       "id": "sk-0148",
@@ -2189,7 +2530,11 @@ window.KB_DATA = {
       ],
       "excerpt": "It would be naive to expect that a child be spurred on by the beauty of his environment to sit down and write a composition straight off. Creative activity is not something that children engage in intuitively or instinctively: it has to be taught. A child will only put together an essay, after he has heard a teacher describe a natural scene, for instance.",
       "cn": "很多语文教师抱怨学生不会写作文，却从不亲自示范写作。苏霍姆林斯基指出，创造性写作不是儿童面对美景就能自动发生的本能，它必须被教。他的做法是：先让学生听到教师本人如何把眼前景色变成词语（他曾在水塘边即景写下一篇范文并读给学生听），学生先复现教师的写法，再逐步过渡到独立描写给自己留下印象的自然景物。教师自己不会写、从未说过一句鲜活的话，却要求学生“绝对独立”写作，结果只会落空。",
-      "ref": "On Education (Progress Publishers, 1977), Part IV “Beauty,” “School Means First and Foremost Books” (写作教学段落), OCR 约 pp. 256–258（待纸本核）; https://archive.org/details/vasili-sukhomlinsky-on-education-progress-1977"
+      "ref": "On Education (Progress Publishers, 1977), Part IV “Beauty,” “School Means First and Foremost Books” (写作教学段落), OCR 约 pp. 256–258（待纸本核）; https://archive.org/details/vasili-sukhomlinsky-on-education-progress-1977",
+      "tags": [
+        "待纸本核",
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0149",
@@ -2201,7 +2546,10 @@ window.KB_DATA = {
       ],
       "excerpt": "After listening to tunes children should be encouraged to listen to the quiet of the fields and in the interval between the tunes they should be urged to aspire after an understanding of the beauty of Nature.",
       "cn": "苏霍姆林斯基担心杂乱、过量、无组织的音乐印象会钝化儿童的情感感受力。他的做法是“少而深”：每月至多反复欣赏两首乐曲，让孩子每听一次都发现新的美；听完乐曲后特意安排时间去聆听田野、树叶、云雀等“大自然的音乐”，在寂静中消化音乐印象。音乐教育的目标不是培养音乐家，而是培育能感受美的人。",
-      "ref": "On Education (Progress Publishers, 1977), Part IV “Beauty,” “Music Keeps the Heart Straight,” OCR 约 pp. 241–245（待纸本核）; https://archive.org/details/vasili-sukhomlinsky-on-education-progress-1977"
+      "ref": "On Education (Progress Publishers, 1977), Part IV “Beauty,” “Music Keeps the Heart Straight,” OCR 约 pp. 241–245（待纸本核）; https://archive.org/details/vasili-sukhomlinsky-on-education-progress-1977",
+      "tags": [
+        "待纸本核"
+      ]
     },
     {
       "id": "sk-0150",
@@ -2214,7 +2562,11 @@ window.KB_DATA = {
       ],
       "excerpt": "Until a child has sensed the flavour of a word, has grasped its subtlest nuances, there is no use even starting to teach him to read and write, and if a teacher does so then he is condemning the child to immensely difficult toil (a child will come to grips with the task eventually, but what a price has to be paid in the process!).",
       "cn": "案例：苏霍姆林斯基带孩子进行“走向活语言源头”的旅行。一次，他们在池塘边柳树下看真正的草甸——蝴蝶飞舞、蜜蜂嗡嗡、奶牛小得像玩具。教师先把草甸描述成“浅绿色的河、深绿色岸”，然后自己在画册上画下草甸，并在画下方写下“meadow（草甸）”一词。孩子们被美吸引，也开始画，并在自己的画下抄写这个词。对他来说，“字母本身就是图画”，先感受词的音乐与画面，再去认字母，记忆便不靠强迫。这个“School of Joy”班级在入学预备八个月后，全部孩子认识了字母并能写字、阅读。",
-      "ref": "On Education (Progress Publishers, 1977), Part II “Study,” “Children Should Live in a World of Creativity” / “School of Joy” 读写实践, OCR 约 pp. 148–155（待纸本核）; https://archive.org/details/vasili-sukhomlinsky-on-education-progress-1977"
+      "ref": "On Education (Progress Publishers, 1977), Part II “Study,” “Children Should Live in a World of Creativity” / “School of Joy” 读写实践, OCR 约 pp. 148–155（待纸本核）; https://archive.org/details/vasili-sukhomlinsky-on-education-progress-1977",
+      "tags": [
+        "待纸本核",
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0151",
@@ -2226,7 +2578,10 @@ window.KB_DATA = {
       ],
       "excerpt": "Work in itself does not represent any interest for children; indeed it is impossible to imagine that children setting out for a game of volley-ball on seeing flowerbeds that have yet to be dug and spades lying nearby would forget about their volley-ball.",
       "cn": "苏霍姆林斯基提醒：把劳动说成“本来就有趣”是不真实的——孩子看到未挖的花坛和旁边的铁锹，不会因此放弃排球。劳动教育的关键不是挑选“有趣的活动”，而是让儿童在真实劳动中逐渐形成对劳动的兴趣：意识到自己能影响自然、能让植物增产、能让工具和材料变成想要的形状，并看到具体成果。兴趣来自对自身力量的真实体验，而不是娱乐化的包装。",
-      "ref": "On Education (Progress Publishers, 1977), Part III “Work,” “Joy from Work which Enhances Everyday Life,” OCR 约 pp. 197–199（待纸本核）; https://archive.org/details/vasili-sukhomlinsky-on-education-progress-1977"
+      "ref": "On Education (Progress Publishers, 1977), Part III “Work,” “Joy from Work which Enhances Everyday Life,” OCR 约 pp. 197–199（待纸本核）; https://archive.org/details/vasili-sukhomlinsky-on-education-progress-1977",
+      "tags": [
+        "待纸本核"
+      ]
     },
     {
       "id": "sk-0152",
@@ -2239,7 +2594,10 @@ window.KB_DATA = {
       ],
       "excerpt": "如果您能做到使童单独一个人的时候也会感到羞愧，为自己不道德的行为而自己对自己感到羞愧，如果儿童渴望成为一个比现在更好的人，如果什么比较好、什么比较坏这个概念不仅存在于他的意识中，而且成为他个人的信念，这就意味着您看到了自己教育工作的成果",
       "cn": "在讨论“纪律和自律”时，苏霍姆林斯基把对集体负责与对自己良心负责放在一起谈：一个人意识不到对自己的责任，就听不到良知的召唤。因此，判断教育和自我教育成果的标准，不是学生当着教师或集体的面是否守规矩，而是他独自一人时是否会为自己的不道德行为感到羞愧，是否真心渴望成为比现在更好的人。当“什么好、什么坏”从外部要求变成他个人的信念时，教育才算真正发生。这也是自律（自我纪律）的心理基础。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第3卷》（教育科学出版社），《公民的诞生》“纪律和自律——集体责任感与个人责任感”（含“让人学会用另外一些人的眼光来看自己”），OCR 原PDF页段 p0400-0499 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第3卷》（教育科学出版社），《公民的诞生》“纪律和自律——集体责任感与个人责任感”（含“让人学会用另外一些人的眼光来看自己”），OCR 原PDF页段 p0400-0499 (0-based)",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0153",
@@ -2252,7 +2610,11 @@ window.KB_DATA = {
       ],
       "excerpt": "一个人在少年时期比一生中任何共他时期更需要别人的帮助与建议。聪明而敏锐的教育家往往就能成为这种年龄少年的精神导师。那么为什么在实际生活中还会遇到这样一种少年期的矛盾：一方面非常强烈地需要别人的帮助和建议，但同时又似乎不愿意向长者请教?（[OCR待校]：“共他”疑为“其他”） ……如果教师走到少年身旁询问：“喂。你在想些什么，请谈谈吧？”这样做是会把学生给推开的。只有那种能与学生思想感情一致，共同关心礼会利益并与其休戚相关、苦乐与共的人才能成为少年的导师。（[OCR待校]：“礼会”疑为“社会”）",
       "cn": "苏霍姆林斯基指出，少年期有一个看似矛盾的心理：少年比一生中任何时候都更需要成年人的帮助和建议，却又特别不愿意显得自己需要帮助、不愿向长者低头请教。直接盘问“你在想什么”会把少年推开；能成为少年精神导师的人，不是靠身份或说教，而是靠与学生有共同关心的事、思想感情一致，能同喜同忧。只有当学生感到教师与他站在一起、能理解他的精神寄托时，他才会主动来求教和倾吐。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第3卷》（教育科学出版社），《公民的诞生》“少年期的矛盾”，OCR 原PDF页段 p0400-0499 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第3卷》（教育科学出版社），《公民的诞生》“少年期的矛盾”，OCR 原PDF页段 p0400-0499 (0-based)",
+      "tags": [
+        "OCR待校",
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0154",
@@ -2265,7 +2627,11 @@ window.KB_DATA = {
       ],
       "excerpt": "要使少年的劳动自豪感成为公民感的基础，使他感受到他在自己心爱的工作中是个最好的能工巧匠，这一点很重要。要寻找、发现并确定人的劳动天赋，使每个人都成为某项工作的真正能手……（[OCR待校]）",
       "cn": "苏霍姆林斯基在“公民的劳动本质”一节提出：劳动之所以能塑造公民，不是因为它消耗了体力，而是因为少年在劳动中确认自己“能为大家创造价值”，并产生“我是这一行的能工巧匠”的自尊感。他主张帮助每个少年找到一项心爱的工作，长期投入、真正掌握技巧，在集体中成为某个领域的能手；没有这种个别化的劳动自我肯定，集体就会变成无个性的群众，少年也不容易产生公民的自豪感。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第3卷》（教育科学出版社），《公民的诞生》“劳动对少年精神生活的作用·公民的劳动本质”，OCR 原PDF页段 p0800-0899 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第3卷》（教育科学出版社），《公民的诞生》“劳动对少年精神生活的作用·公民的劳动本质”，OCR 原PDF页段 p0800-0899 (0-based)",
+      "tags": [
+        "OCR待校",
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0155",
@@ -2278,7 +2644,10 @@ window.KB_DATA = {
       ],
       "excerpt": "音乐教育—这不是培养音乐家，而首先是培养人。",
       "cn": "在“快乐学校”中，苏霍姆林斯基主张音乐教育的根本目的不是让学生成为音乐家，而是通过音乐培养人：音乐能使人看到大自然的美、道德关系的美、劳动之美，也能帮助儿童认识自身的崇高与美好。他特别强调要让孩子把音乐作品的感知与大自然声音的感知交替进行，在童年打下感知旋律美的能力；错过童年，这种素养很难在成年后弥补。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第3卷》（教育科学出版社），《我把心给了孩子们》“快乐学校·我们欣赏大自然的音乐”，OCR 原PDF页段 p0100-0199 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第3卷》（教育科学出版社），《我把心给了孩子们》“快乐学校·我们欣赏大自然的音乐”，OCR 原PDF页段 p0100-0199 (0-based)",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0156",
@@ -2291,7 +2660,11 @@ window.KB_DATA = {
       ],
       "excerpt": "尽可能少进行一些有关爱情、性生活和两性关系的谈话，尽可能不要过分注意女孩子的性成熟情况，在集体成员之间的相互关系中尽量多些人道主义、诚恳相待、互相同情与关心这是进行正确的性教育的前提。（[OCR待校]：“关心这是”间疑缺标点）",
       "cn": "苏霍姆林斯基在分析少男性成熟时提出，把性教育简单化为向孩子解释生理变化、组织公开辩论，反而会使两性关系粗俗化。他主张：第一，不把注意力集中在女孩子身体发育上，成年人要用道德修养“不去注意”这些变化；第二，通过崇敬母亲、培养人的尊严与贞节感，使性本能变得高尚；第三，让男孩在女孩身上首先看到智慧、精神需要和人的尊严，建立智力与美感的交流。性成熟期的个别谈话应由同性别的成年人进行，目的不是激发好奇，而是减弱并升华好奇。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第3卷》（教育科学出版社），《公民的诞生》“少年的身体发育与心理素养·男孩与女孩—男人与女人”，OCR 原PDF页段 p0500-0599 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第3卷》（教育科学出版社），《公民的诞生》“少年的身体发育与心理素养·男孩与女孩—男人与女人”，OCR 原PDF页段 p0500-0599 (0-based)",
+      "tags": [
+        "OCR待校",
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0157",
@@ -2304,7 +2677,10 @@ window.KB_DATA = {
       ],
       "excerpt": "不能把他们当做自己情绪的玩具：忽而温存地亲吻，忽而狂暴地脚踢。专横的爱还不如不爱的好",
       "cn": "苏霍姆林斯基在给儿子的第22封信中，把“忘记今天的小孩子将是明天的成年人”列为教育青年一代最常见的毛病，并由此引出“善于爱孩子”的问题。他反对专横的爱：这种爱完全随父母情绪起伏——高兴时什么都宽恕，甚至容忍孩子打祖母；情绪不好时就虐待孩子。他引用契诃夫的话说，不能把孩子当作自己情绪的玩具，忽而温存亲吻，忽而狂暴脚踢；专横的爱还不如不爱。真正的爱需要把孩子看作正在成长为成年人的独立生命，保持稳定、尊重和一贯的要求。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第3卷》（教育科学出版社），《给儿子的信》第22封信，OCR 原PDF页段 p0900-0993 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第3卷》（教育科学出版社），《给儿子的信》第22封信，OCR 原PDF页段 p0900-0993 (0-based)",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0158",
@@ -2317,7 +2693,11 @@ window.KB_DATA = {
       ],
       "excerpt": "这里的任何东两（[OCR待校]：应为“东西”）都不应当是随便安排的。孩了（[OCR待校]：应为“孩子”）周围的环境应当对他有所诱导，有所启示。我们竭力使孩子所看到的每幅画，读到的每句话，都能启发他去联系自己，联系同学。",
       "cn": "苏霍姆林斯基把校舍内部的陈设视为一种“无声的教育者”：走廊、教室、活动室里孩子经常看到的东西，不是随便贴上去的装饰，而在塑造他的精神面貌。因此每幅画、每句话都应当与儿童年龄相适应，应当能诱导他思考、启发他对照自己和同学；图片、标语、学生作品不是给成人看的摆设，而是进入儿童精神生活的材料。他还在帕夫雷什中学用大量实例说明：低年级走廊的图片怎样教孩子认识劳动与自然，怎样用“这是为什么”“画上有什么错误”激发思维，怎样让学生自己的作品和周围世界发生联系。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《帕夫雷什中学》第2章“学校的物质基础及学生周围的环境”（校舍内部陈设的教育作用），OCR 原PDF页段：p0200-0299 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《帕夫雷什中学》第2章“学校的物质基础及学生周围的环境”（校舍内部陈设的教育作用），OCR 原PDF页段：p0200-0299 (0-based)",
+      "tags": [
+        "OCR待校",
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0159",
@@ -2329,7 +2709,8 @@ window.KB_DATA = {
       ],
       "excerpt": "多年的经验使我深信，尽管校长有各种各样的工作，但应当把听课和分析课摆在首要的地位。我给自己作出一条规定：一天内必须听两节课。否则，我就会认为这一天我在学校里什么事也没有做。",
       "cn": "苏霍姆林斯基对青年校长说：上课是学校教育和教学的主要形式，校长若不了解课堂里发生什么，其他一切会议和工作都会失去意义。他给自己立下的制度是每天听两节课；当天因校长会议等事耽误，第二天就补听到四五节；出差前则提前密集听课。听课不是只盯青年教师的毛病，也要常听有经验教师的课，把他们的个人创造变成全校共同财富；听课要贯穿学期始终，并对同一教师做系列课的系统分析。他认为学校工作表面化、简单化，往往正是因为校长一年只听很少的课，“像被蒙住眼睛的人”。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《和青年校长的谈话》第7次谈话“关于听课和分析课的几点建议”（听谁的课，何时去听，听多少课），OCR 原PDF页段：p0800-0899 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《和青年校长的谈话》第7次谈话“关于听课和分析课的几点建议”（听谁的课，何时去听，听多少课），OCR 原PDF页段：p0800-0899 (0-based)",
+      "tags": []
     },
     {
       "id": "sk-0160",
@@ -2341,7 +2722,8 @@ window.KB_DATA = {
       ],
       "excerpt": "只有当孩子每天能按自己的愿望随意使用不少于5\\~7个小时的空余时间，才有可能培养出聪明的、全面发展的人来。离开这一点去谈论全面发展，谈论培养素质、爱好和天赋才能，只不过是一些空话而已。",
       "cn": "帕夫雷什中学的作息制度核心是“把最难的脑力劳动放在早晨”：学生早睡早起，在家做早操和早餐后、上学前完成家庭作业；低年级早晨用20～25分钟，三至五年级用40～45分钟即可完成主要作业。上课之后不再安排紧张的课本学习，而是让儿童在户外和兴趣小组中过丰富的精神生活，下午和晚上不抱着课本“熬”。苏霍姆林斯基用多年观察说明：就寝前连续几小时做功课会使孩子变成落后生；课后继续紧张用脑会让大脑疲惫、智力迟钝、学习兴趣受挫。他要求儿童每天有不少于5～7小时可按自己愿望使用的空余时间，并指出没有这个“空余时间”，全面发展只是空话。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《帕夫雷什中学》第3章“关注健康与体育”（对学生的生活环境、劳动和作息制度的卫生保健要求），OCR 原PDF页段：p0200-0299 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《帕夫雷什中学》第3章“关注健康与体育”（对学生的生活环境、劳动和作息制度的卫生保健要求），OCR 原PDF页段：p0200-0299 (0-based)",
+      "tags": []
     },
     {
       "id": "sk-0161",
@@ -2354,7 +2736,11 @@ window.KB_DATA = {
       ],
       "excerpt": "如果你想使教育工作给教师带来欢乐，使每大（[OCR待校]：应为“每天”）的上课不致变成单调乏味的苦差，那就请你把每个教师引上进行研究的幸福之路吧。",
       "cn": "苏霍姆林斯基认为，教师工作就其性质来说不可能不带有研究因素：每个儿童都是一个独一无二的精神世界。他所说的“研究”不是严格的科学课题，而是让教师围绕自己工作中真正感到困惑的问题，观察、记录、分析事实，尝试解释因果关系，并把结论带回实践。苏霍姆林斯基所在的学校十多年来让每位教师持续研究一个问题，如“思维过程迟钝的儿童”“一年级学生的善恶概念的形成”“学龄初期儿童思维的个人特点”等。女教师维尔霍维妮娜从“入学儿童知识面窄、言语贫乏”的苦恼出发，比较儿童发展与父母文化、家庭藏书的关系，最终改变了自己的教育劳动观。研究使教师从日复一日的重复中看到新东西，也让教师集体因精神贡献而团结。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《和青年校长的谈话》第3次谈话“学校集体的精神生活”（教师集体的创造性工作中的研究因素），OCR 原PDF页段：p0600-0799 (0-based，跨 p0600-0699 与 p0700-0799 两个分档)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《和青年校长的谈话》第3次谈话“学校集体的精神生活”（教师集体的创造性工作中的研究因素），OCR 原PDF页段：p0600-0799 (0-based，跨 p0600-0699 与 p0700-0799 两个分档)",
+      "tags": [
+        "OCR待校",
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0162",
@@ -2366,7 +2752,10 @@ window.KB_DATA = {
       ],
       "excerpt": "教帅（[OCR待校]：应为“教师”）的语言修养对学生在课堂上的脑力劳动起着决定性作用。我们证实，高度的语言修养是合理利用教学时间的重要条件。教师木能（[OCR待校]：应为“不能”）用儿童可以接受的、鲜明的语言表达清楚事物的现象和概念，因而不得不多次重复讲解，这要浪费多少时间啊！",
       "cn": "苏霍姆林斯基从一次听课中发现：生物教师讲得混乱、缺乏逻辑，学生下课精疲力竭却几乎没听懂。校长起初没察觉，是因为自己熟悉教材，能用已有知识“填补”教师讲解中的漏洞。他把教师的讲述逐字记录，在校务会议上念给大家听，问：“一个对所讲内容毫无准备的人，能从这样的讲述中听懂什么？”答案是什么也听不懂。此后全校把教师语言修养作为长期课题研究了25年：从分析“天空”“田野”等基本表象和概念入手，寻找最鲜明、确切、简洁的语言外壳，帮助儿童完成从形象思维到抽象思维的过渡。语言不清不仅让学生疲劳，还会造成大量重复讲解、浪费教学时间。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《和青年校长的谈话》第2次谈话“教育现象之间的相互依存性”（教师的教育素养），OCR 原PDF页段：p0600-0699 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《和青年校长的谈话》第2次谈话“教育现象之间的相互依存性”（教师的教育素养），OCR 原PDF页段：p0600-0699 (0-based)",
+      "tags": [
+        "OCR待校"
+      ]
     },
     {
       "id": "sk-0163",
@@ -2378,7 +2767,10 @@ window.KB_DATA = {
       ],
       "excerpt": "毫无疑间（[OCR待校]：应为“毫无疑问”），我们的学生对童年、少年、早期青年时代都会留下最温暖、最亲切的回忆：学校生活中的某些活动现在就已经在代代相传，成为传统。",
       "cn": "帕夫雷什中学把开学、毕业等人生节点做成代代相传的集体仪式：一年级开学第一天举行“首次铃声”节，毕业班学生向新生赠书并祝贺他们加入学校大家庭，把自己十年前入学第一天亲手栽的树移交给新生照管，毕业生再与新生同栽一棵“学校友谊树”；毕业时举行“最后铃声”节，低年级学生给毕业生献花、赠书，由小同学摇铃，毕业生代表致谢师词。学校还举行母亲节、女孩节、歌节花节鸟节、向英雄致敬等传统活动，并把劳动也仪式化。苏霍姆林斯基认为，这些活动让孩子对学校产生温暖回忆，使高低年级、毕业生和教师之间形成“永世长存”的精神联系，是集体教育和荣誉感的重要载体。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《帕夫雷什中学》第1章“全体教师团结一致是教育教学工作成功的保证”（我们的传统），OCR 原PDF页段：p0100-0199 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《帕夫雷什中学》第1章“全体教师团结一致是教育教学工作成功的保证”（我们的传统），OCR 原PDF页段：p0100-0199 (0-based)",
+      "tags": [
+        "OCR待校"
+      ]
     },
     {
       "id": "sk-0164",
@@ -2391,7 +2783,10 @@ window.KB_DATA = {
       ],
       "excerpt": "过早地把一个儿童置于受集体指责的地位，这会使他变得麻木不仁。这是极大的创伤，这种创伤往往终身都难以愈合。",
       "cn": "苏霍姆林斯基在“彩色铅笔”事件中观察到：一个孩子拿了同学的彩色铅笔，教师没有发动集体“审问”和谴责，而是把铅笔说成是自己误带回家，第二天悄悄归还，保全了孩子的信任与自尊。他由此提出：儿童犯错多数并非出于恶意，而是轻率与幼稚；如果已经真诚后悔，再把错误交给集体评判，只会让儿童心灵受伤、变得麻木，甚至使集体学会用现成的批判话术互相伤害。集体教育的力量恰恰在于并非每走一步都要动用集体。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第1卷》（教育科学出版社），《培养集体的方法》第4章“(3)教师对学生个人和集体拥有的合理权力”节（OCR 原PDF页段: p0800-0875, 0-based）"
+      "ref": "《苏霍姆林斯基选集（五卷本）第1卷》（教育科学出版社），《培养集体的方法》第4章“(3)教师对学生个人和集体拥有的合理权力”节（OCR 原PDF页段: p0800-0875, 0-based）",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0165",
@@ -2405,7 +2800,11 @@ window.KB_DATA = {
       ],
       "excerpt": "请记住如果在你的班上有一个对什么都要发表自已（[OCR待校]：应为“自己”）的意见，对什么都有自己的看法的淘气学生，这是你的幸福：如果有一个学生像别人的影子似地缺乏自己的意志，其各种想法早已被你的强制教育手段所驱走，因而在各方面对你都是唯唯诺诺，俯首帖耳一—（[OCR待校]：疑为“——”破折号）这则是你的不幸。须知，一个缺乏自制力的淘气孩子、一个爱吵闹的孩子，必要时会表现出他的善良和热忱；而一个优柔寡断、惟命是从的孩子，常常是冷漠的，有时是残酷的，他时刻都在想着如何利用他人的不幸以换取本人的利益。",
       "cn": "苏霍姆林斯基警告教师：不要用强制、呵斥和惩罚把“不听话”的学生压成顺从的影子。儿童敢于表达意见、好动甚至捣乱，说明他的意志和个性还活着；真正危险的是那些被教育手段彻底驯服、唯唯诺诺的学生，他们可能变得冷漠甚至残酷。教师的合理权力不在于让学生害怕，而在于保护并引导儿童的自尊感、主动性和内在善良。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第1卷》（教育科学出版社），《培养集体的方法》第4章“(3)教师对学生个人和集体拥有的合理权力”节（OCR 原PDF页段: p0800-0875, 0-based）"
+      "ref": "《苏霍姆林斯基选集（五卷本）第1卷》（教育科学出版社），《培养集体的方法》第4章“(3)教师对学生个人和集体拥有的合理权力”节（OCR 原PDF页段: p0800-0875, 0-based）",
+      "tags": [
+        "OCR待校",
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0166",
@@ -2419,7 +2818,10 @@ window.KB_DATA = {
       ],
       "excerpt": "",
       "cn": "苏霍姆林斯基观察到，把“淘气男生”和女生配对，表面是让女生“管住”男生，实际常使女孩苦恼、孤僻，也让男孩把异性关系视为惩罚与监督。少年期男女交往是正常的精神需要，需要的是健康的集体氛围与有分寸的引导；教师的过度干涉、以性别互相牵制，反而会伤害正在形成的心灵。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第1卷》（教育科学出版社），《学生的精神世界》“少年时期”章“(9) 少年的友谊”节（OCR 原PDF页段: p0400-0499, 0-based）"
+      "ref": "《苏霍姆林斯基选集（五卷本）第1卷》（教育科学出版社），《学生的精神世界》“少年时期”章“(9) 少年的友谊”节（OCR 原PDF页段: p0400-0499, 0-based）",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0167",
@@ -2432,7 +2834,10 @@ window.KB_DATA = {
       ],
       "excerpt": "",
       "cn": "苏霍姆林斯基把作息制度当作脑力卫生的一部分：不是简单减少作业，而是把高难度脑力劳动放在精力最好的早晨，下午用户外体力劳动、个人爱好和阅读来恢复与丰富精神生活，睡前留出缓冲时间。自由时间不是浪费，而是智力生活、审美体验和劳动创造的必要土壤；缺少这种恢复与多样活动，所谓发展爱好和培养能力都会落空。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第1卷》（教育科学出版社），《全面发展的人的培养问题》“关心年轻一代的健康与体育”章（OCR 原PDF页段: p0200-0299, 0-based）"
+      "ref": "《苏霍姆林斯基选集（五卷本）第1卷》（教育科学出版社），《全面发展的人的培养问题》“关心年轻一代的健康与体育”章（OCR 原PDF页段: p0200-0299, 0-based）",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0168",
@@ -2445,7 +2850,11 @@ window.KB_DATA = {
       ],
       "excerpt": "如果不把最主要的刺激因素—（[OCR待校]：疑为“——”破折号）公民的义务感调动起来，任何煞费苦心的检查、测验和强制性的办法都不会带来预期结果。",
       "cn": "苏霍姆林斯基并不认为考试、检查、监督本身能解决厌学问题；真正持久的动力是把学习看成对他人、对社会承担的责任。案例中的“向劳动者报告成绩”不是羞辱，而是让学生进入一种真实的社会关系：有人为他们劳动，他们也应该以自己的学习劳动回报。由此产生的自尊感与义务感，比批评、强制和加强监督更有效。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第1卷》（教育科学出版社），《培养集体的方法》“集体的思想和公民精神基础”章“(2)个人同社会的接触是集体及其成员的思想和公民精神信念形成的基础”节（OCR 原PDF页段: p0500-0599, 0-based）"
+      "ref": "《苏霍姆林斯基选集（五卷本）第1卷》（教育科学出版社），《培养集体的方法》“集体的思想和公民精神基础”章“(2)个人同社会的接触是集体及其成员的思想和公民精神信念形成的基础”节（OCR 原PDF页段: p0500-0599, 0-based）",
+      "tags": [
+        "OCR待校",
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0169",
@@ -2458,7 +2867,11 @@ window.KB_DATA = {
       ],
       "excerpt": "所有学生都必须参加体力劳动（特别是那些包含着并不吸引人的、并不愉快的操作的体力劳动)——这是保证集体有一个健康的思想基础的极重要的条件。（[OCR待校]）",
       "cn": "苏霍姆林斯基提出“生产劳动的普及性”：无论学生对哪些活动有天赋和爱好，在校期间都必须参加生产劳动，尤其不能只做有趣、能展示特长的事，也要承担枯燥、不吸引人的体力操作。这不是过早职业化，而是让每个学生都理解劳动的整体，使集体不因“谁做什么”而分裂；普通、艰苦的劳动能形成对劳动者的尊重和共同的精神基础。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第1卷》（教育科学出版社），《全面发展的人的培养问题》“劳动教育和人的全面发展”章（OCR 原PDF页段: p0200-0299, 0-based）"
+      "ref": "《苏霍姆林斯基选集（五卷本）第1卷》（教育科学出版社），《全面发展的人的培养问题》“劳动教育和人的全面发展”章（OCR 原PDF页段: p0200-0299, 0-based）",
+      "tags": [
+        "OCR待校",
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0170",
@@ -2471,7 +2884,10 @@ window.KB_DATA = {
       ],
       "excerpt": "There should be a reciprocal relationship between word and deed. Stories of heroism or of selfless activity should be accompanied by practical opportunities for students to practise altruistic deeds. If feelings are stirred by tales of noble deeds and the student has no practical outlet for those feelings, the result is what Sukhomlinsky calls a “blank shot ”. The more of these “blank shots” students experience, the less ideas will stir them to action and the more insensitive they will become to the teacher’s influence.",
       "cn": "本卡主要使用 Cockerill 的分析性转述，说明苏霍姆林斯基的“空弹”概念：如果教师用英雄故事、自我牺牲的故事激起儿童的情感，却不给儿童任何真实的利他行动出口，这些激动就会像“空弹”一样白白放掉。儿童经历的空弹越多，思想越难推动行动，对教师言辞也会越来越麻木。关键不是少讲故事，而是让“言辞”与“实践”互为表里。",
-      "ref": "Each One Must Shine (Cockerill, 2009 electronic ed.), Chapter 2 The School at Pavlysh, Aims and Philosophy — “word and deed”, local OCR lines 1795–1802"
+      "ref": "Each One Must Shine (Cockerill, 2009 electronic ed.), Chapter 2 The School at Pavlysh, Aims and Philosophy — “word and deed”, local OCR lines 1795–1802",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0171",
@@ -2484,7 +2900,10 @@ window.KB_DATA = {
       ],
       "excerpt": "Studies are just one of the petals of that flower which we call education in the wider sense. In education there is nothing major or minor, just as there is no main petal among the many petals which create the beauty of a flower. In education everything is important — the lessons, the development of diverse interests outside lessons, and the relationships between students in the group.",
       "cn": "这是苏霍姆林斯基直接论述“全面和谐发展”的段落：学业只是整朵教育之花的一枚花瓣。教育中没有可以忽略的“小事”，也没有可以独占的“主瓣”；课堂、课外兴趣发展和学生之间的相互关系都同样重要。教师如果只把目光盯在成绩上，就等同于只培养花瓣而毁掉整朵花。",
-      "ref": "Each One Must Shine (Cockerill, 2009 electronic ed.), Chapter 2 The School at Pavlysh, Aims and Philosophy — “studies are one petal”, local OCR lines 1669–1674"
+      "ref": "Each One Must Shine (Cockerill, 2009 electronic ed.), Chapter 2 The School at Pavlysh, Aims and Philosophy — “studies are one petal”, local OCR lines 1669–1674",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0172",
@@ -2497,7 +2916,10 @@ window.KB_DATA = {
       ],
       "excerpt": "Some of the children began picking the flowers, and before long only half remained standing. At this point one of the girls questioned whether it was all right to pick them. Sukhomlinsky deliberately remained silent, wishing to make his point when the experience had ripened:  The children picked a few more flowers and the beauty of the spot disappeared, the clearing appeared orphaned. The surge of delight at beauty, which had blazed for an instant in the children’s hearts, went out. The little children didn’t know what to do with the flowers.  The time was now right to draw the children’s attention to the consequences of their actions... In order to pick one flower, he taught them, one should plant ten.",
       "cn": "这是 Cockerill 转述的帕夫雷什中学案例。苏霍姆林斯基带六岁儿童去看高年级种的菊花，孩子们兴奋地摘花；当有孩子开始犹疑时，他故意不立刻制止，而是等“美消失后的失落感”在儿童心中成熟，再引导他们认识后果，并一起把菊花移入温室。他的原则是：对美的情感反应之后必须跟上有创造、维护美的行动，而且最好来自儿童自己的意识而不是教师命令。",
-      "ref": "Each One Must Shine (Cockerill, 2009 electronic ed.), Chapter 5 Education of the Heart — chrysanthemum incident passage (no explicit OCR subheading), local OCR lines 6416–6450"
+      "ref": "Each One Must Shine (Cockerill, 2009 electronic ed.), Chapter 5 Education of the Heart — chrysanthemum incident passage (no explicit OCR subheading), local OCR lines 6416–6450",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0173",
@@ -2509,7 +2931,8 @@ window.KB_DATA = {
       ],
       "excerpt": "Music education is not the education of a musician, but first and foremost the education of a human being",
       "cn": "这是苏霍姆林斯基广被引用的音乐教育名言，在本书第四章经卡巴列夫斯基引用、第五章又由 Cockerill 转述：音乐教育的对象不是未来的演奏者，而是每一个人的心灵。苏霍姆林斯基认为音乐能打开人对自然、道德关系与劳动之美的眼睛，让人在自身中觉察崇高与优美；音乐因此是一种强大的自我教育手段。卡片按第四章原文引录到 `human being` 为止；第四章中引文后的句号是 Cockerill 句子标点，位于引号外。",
-      "ref": "Each One Must Shine (Cockerill, 2009 electronic ed.), Chapter 4 Intellectual, Vocational and Aesthetic Development, Aesthetic Education section — Kabalevsky on Sukhomlinsky’s music dictum, local OCR lines 5462–5464; cf. Chapter 5 lines 6178–6180"
+      "ref": "Each One Must Shine (Cockerill, 2009 electronic ed.), Chapter 4 Intellectual, Vocational and Aesthetic Development, Aesthetic Education section — Kabalevsky on Sukhomlinsky’s music dictum, local OCR lines 5462–5464; cf. Chapter 5 lines 6178–6180",
+      "tags": []
     },
     {
       "id": "sk-0174",
@@ -2522,7 +2945,10 @@ window.KB_DATA = {
       ],
       "excerpt": "I advised teachers: if a pupil does not understand something, if his thought beats helplessly like a bird in a cage, look carefully at your work. Has the consciousness of your child become a little dried up pond, cut off from the eternal and life giving source of thought — the world of objects, of natural phenomena? Connect this pond with the ocean of nature, of objects, of the surrounding world, and you will see how a spring of living thought will begin to flow.",
       "cn": "苏霍姆林斯基给教师的直接建议：学生不懂、思维像笼中鸟一样乱撞时，先别急着加大讲解或练习，而要检查儿童是否被切断了与“活生生的思想源泉”——物体世界与自然现象——的联系。他用了两个意象：干涸的意识池塘与生命之思的大海；重新接通二者，思想的泉水才会重新流动。",
-      "ref": "Each One Must Shine (Cockerill, 2009 electronic ed.), Chapter 4 Intellectual Education — nature as source of thought, local OCR lines 4637–4643"
+      "ref": "Each One Must Shine (Cockerill, 2009 electronic ed.), Chapter 4 Intellectual Education — nature as source of thought, local OCR lines 4637–4643",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0175",
@@ -2535,7 +2961,10 @@ window.KB_DATA = {
       ],
       "excerpt": "I strove to ensure that for a child a word was not merely the designation of an object or phenomenon, but carried within it an emotional colouring — its own fragrance, its own subtle shades. It was important . . . that the beauty of the word, and the beauty of that little part of the world which the word reflected, should awaken interest towards those drawings which convey the music of the sounds of human speech, towards letters. Until a child senses the fragrance of a word, until he sees its subtle shades, one should not begin instruction in literacy, and if a teacher does, he condemns the child to hard labour. (The child will in the end overcome the difficulty, but at what cost !)",
       "cn": "苏霍姆林斯基描述他带六岁儿童“走向词语源头”的做法：词不只是指称事物的标签，而应带着情感色彩、自己的芬芳与细微层次。他主张先让儿童通过自然和美感经验爱上词、感受到词的美，再开始识字；否则识字会成为苦役，孩子即使最终学会也付出了过高代价。",
-      "ref": "Each One Must Shine (Cockerill, 2009 electronic ed.), Chapter 4 Intellectual Education — school of joy / teaching literacy, local OCR lines 4409–4418"
+      "ref": "Each One Must Shine (Cockerill, 2009 electronic ed.), Chapter 4 Intellectual Education — school of joy / teaching literacy, local OCR lines 4409–4418",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0176",
@@ -2549,7 +2978,10 @@ window.KB_DATA = {
       ],
       "excerpt": "I studied the lives of those 460 families in which adolescents committing offences and crimes had been brought up, and saw the following picture. The more serious the crime, the greater its inhumanity, cruelty and mindlessness, the poorer the intellectual, aesthetic and moral interests and impulses in the family. Not a single one of the families of these adolescents who had committed a crime or offence had a family library, even a small one.  . . . None of [the adolescents] . . . could name a single work of symphonic, operatic or chamber music. Not one could name a single composer of classical or contemporary music.",
       "cn": "苏霍姆林斯基在研究 460 个少年违法/犯罪家庭后指出：罪行越严重、越不人道和冷酷，其家庭中的智识、审美与道德兴趣就越贫乏；这 460 个家庭中竟没有一个拥有哪怕很小的家庭藏书，也没有一个少年能说出任何一部交响乐、歌剧或室内乐作品或一位古典/当代作曲家。Cockerill 据此指出，苏霍姆林斯基相信智育与美育的贫乏和“人性”的丧失之间有明确关联。",
-      "ref": "Each One Must Shine (Cockerill, 2009 electronic ed.), Chapter 5 Education of the Heart — Sukhomlinsky’s study of 460 families passage (no explicit OCR subheading), local OCR lines 5871–5881"
+      "ref": "Each One Must Shine (Cockerill, 2009 electronic ed.), Chapter 5 Education of the Heart — Sukhomlinsky’s study of 460 families passage (no explicit OCR subheading), local OCR lines 5871–5881",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0177",
@@ -2563,7 +2995,10 @@ window.KB_DATA = {
       ],
       "excerpt": "There is a whole period in the spiritual life of school children — when they are being taught in grades one and two — when there is still no collective, it is just being created, and here the artistry of the teacher’s direct influence on each personality plays a decisive role. During this period, while creating the collective, the teacher must be concerned first and foremost with the education of heart-felt sensitivity towards the spiritual world of another person — from this quality there gradually grows a collective sensitivity to the individual, an intolerance of ‘washing someone else’s dirty linen in public’. My own experience has convinced me of the great importance of individual chats with pupils in the six to eight age group, with the purpose of educating a heart-felt sensitivity to the people around them.  How important this is — to teach small children to recognise, from the eyes, movements and speech of the people around them, grief and joy, disappointment and concern, anxiety and confusion. If we do not carry out this work a person may grow up to be an insensitive blockhead. Collect thirty such blockheads together and you will have a ‘collective’, but what sort? It will be a blind, soulless force, prepared to trample an individual into the ground.",
       "cn": "上方英文摘录为苏霍姆林斯基论述的英文转引/译文；以下是中文转述。苏霍姆林斯基认为，一二年级还没有真正意义上的“集体”，集体正在形成中；这时教师直接对每个儿童施加影响的艺术至关重要。做法是：与六至八岁儿童进行大量个别谈话，教会他们从他人的眼睛、动作和话语中辨认悲伤与喜悦、失望与忧虑。只有每个成员先具有这种“心灵敏感性”，日后由三十人组成的才不是盲目的、无灵魂的力量，而是能提升个人的真正集体。",
-      "ref": "Each One Must Shine (Cockerill, 2009 electronic ed.), Chapter 5 Education of the Heart — collective and individual sensitivity passage (no explicit OCR subheading), local OCR lines 6934–6952"
+      "ref": "Each One Must Shine (Cockerill, 2009 electronic ed.), Chapter 5 Education of the Heart — collective and individual sensitivity passage (no explicit OCR subheading), local OCR lines 6934–6952",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0178",
@@ -2576,7 +3011,10 @@ window.KB_DATA = {
       ],
       "excerpt": "One must not allow marks to be transformed into fetters binding the thoughts of the child. I always gave the very weakest students, those who seemed hopelessly slow-witted for the time being, the opportunity to think about what they didn't understand for the time being.  ...  We came to the conclusion that one must never rush to decide whether the child knows the answer or not.",
       "cn": "苏霍姆林斯基把评分比作可能“捆住思想”的锁链：孩子答不出，常常不是没有能力，而是没有来得及想、没有集中注意力。他尤其注意给最弱、看似“迟钝”的学生留出思考时间，不急着用分数或“坐下，你不会”来宣判。教师一旦匆忙用评分结束思考，孩子可能就在答案刚浮现时被误判为不会，从而对学习失去兴趣与自尊。",
-      "ref": "To Children I Give My Heart (Progress Publishers), section “Give the Child the Joy of Intellectual Labor, and Joy of Success in Studies”; local raw text lines 5421-5432; print page marker ~96"
+      "ref": "To Children I Give My Heart (Progress Publishers), section “Give the Child the Joy of Intellectual Labor, and Joy of Success in Studies”; local raw text lines 5421-5432; print page marker ~96",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0179",
@@ -2589,7 +3027,10 @@ window.KB_DATA = {
       ],
       "excerpt": "评价首先应当反映知识的实际水平，但与此同时，也一定要考虑学生的努力程度。例如，如果某个学生[OCR：原文作“学少”]学习很认真、努力，但暂时仅能得“3分”，教师就要在评分旁边写[OCR：原文作“还约上”]上：“学习很认真。”如果一个学生用不大的劳动代价就轻松地得到了“4”分，也应反映在作业的评语中。",
       "cn": "苏霍姆林斯基批评只看结果的评分：同样的“3分”或“4分”背后，不同孩子的努力程度可能完全不同。只按结果给分，会让需要鼓励的孩子更不相信自己，也会让轻易得高分的孩子形成错误的劳动观。他建议：评分首先要反映真实知识水平，同时必须把“努力程度”一并纳入评价——对认真但暂时只得3分的孩子，在分数旁写“学习很认真”；对轻松得4分却未尽力者，则写“学习潜力还发挥得不够，否则可取得更好的成绩”。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第2卷》，『教学目的和教育目的的统一』相关节；OCR 原PDF页段: p0100-0199 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第2卷》，『教学目的和教育目的的统一』相关节；OCR 原PDF页段: p0100-0199 (0-based)",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0180",
@@ -2602,7 +3043,10 @@ window.KB_DATA = {
       ],
       "excerpt": "我们力图让父母明白：学业成绩的评分，并不表示道德品质的评分。……把学科评分和道德面貌等同起来，就是不假思索地追求表面上不错的指标——数字。我们认为，不可把一切结为一个简单的结论：分数好，孩子就好；分数“不合要求”，就等于学生“没有达到水平”。",
       "cn": "苏霍姆林斯基在家长学校中反复提醒父母：孩子某门课得了好分，不等于他在道德上是好孩子；得了低分，也不等于“没达标、没出息”。把学科评分和道德面貌划等号，是“教育上无知的观点”，会看不见人是由许多特点、品质、能力和爱好构成的和谐统一体。这种误读一旦进入家庭，孩子会把“分数不好”直接体验为“我是个坏孩子”。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第2卷》，『为使儿童愿意好好学习该做些什么』；OCR 原PDF页段: p0700-0799 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第2卷》，『为使儿童愿意好好学习该做些什么』；OCR 原PDF页段: p0700-0799 (0-based)",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0181",
@@ -2614,7 +3058,8 @@ window.KB_DATA = {
       ],
       "excerpt": "把知识看成学生应当保存在头脑里的存货，一旦教师提出要求，学生就应当拿出来给他看。……学生在家里准备功课，一般地就是为了明天的评分。然而，只有运用知识的能力，才能证明一个人是否有知识。",
       "cn": "苏霍姆林斯基批评一种陈旧的知识观：把知识当作头脑里的“存货”，教师一提问就要取出来展示；记住了算有知识，没记住算没知识。这种观念把学习变成“一份儿一份儿地”应付提问，学生在家准备功课只是为了“明天的评分”。他指出，真正证明一个人有知识的，不是能背出来，而是能运用知识去思考、解决问题。",
-      "ref": "《给教师的建议》（杜殿坤编译，教育科学出版社），(五二) 为什么学生感到越学越难了呢？；OCR 原PDF页段: p0100-0199 (0-based)"
+      "ref": "《给教师的建议》（杜殿坤编译，教育科学出版社），(五二) 为什么学生感到越学越难了呢？；OCR 原PDF页段: p0100-0199 (0-based)",
+      "tags": []
     },
     {
       "id": "sk-0182",
@@ -2627,7 +3072,10 @@ window.KB_DATA = {
       ],
       "excerpt": "应当坚定地告诉自己，3分表明知识完全合格。……不是所有的儿童都具有同等的能力：一个儿童的学习能轻易地得到“5分”或“4分”，而另一个儿童能得到“3分”就是不小的成绩了。",
       "cn": "苏霍姆林斯基针对当时流行的“3分可耻”“3分不中用”风气指出：3分是知识完全合格的成绩，不应被视为差劲。儿童能力不同，对某个孩子轻而易举的“5分”“4分”，对另一个孩子也许要付出极大努力才能得到“3分”；这个“3分”对他而言就是不小的成功。家长若一律要求孩子达到自己达不到的高度，只会让孩子觉得“我是有罪的人”，并养成蒙混过关的风气。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第2卷》，『为使儿童愿意好好学习该做些什么』；OCR 原PDF页段: p0700-0799 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第2卷》，『为使儿童愿意好好学习该做些什么』；OCR 原PDF页段: p0700-0799 (0-based)",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0183",
@@ -2640,7 +3088,10 @@ window.KB_DATA = {
       ],
       "excerpt": "检查了作业本后，我发现米沙和佩特里克的作业完成得不好。如果我打个2分，那么全心全意想好好学习的孩子会把这个2分当做一种批评：“你们的同学都进了一步，而你们却停步不前。”……发作业本时，我对孩子们说：“米沙和佩特里克还没有争取到分数。孩子们，你们得好好干。独立地完成另外的练习。努力争取到分数。”……就在课内，他俩提出要求：“请给我们练习。”我给了练习。……我检查了作业——几乎同通常在这种情况下发生的完全一样，作业得到了好分数。",
       "cn": "二年级语法独立作业后，米沙和佩特里克没做好。苏霍姆林斯基没有给他们打2分，而是批改错误、把字写好作范例，再明确告诉他们“还没有争取到分数”，让他们另做练习来“挣分”。两个孩子没有经历“落后一步、死路一条”的羞辱感，反而主动要练习、挤时间完成，最后得到好分数。这个案例说明：不把作业本上的评分当作教师最后的“判决”，孩子面前就始终留有通向进步的路。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第3卷》，『让孩子体验脑力劳动的快乐和取得学习成绩的快乐』；OCR 原PDF页段: p0200-0299 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第3卷》，『让孩子体验脑力劳动的快乐和取得学习成绩的快乐』；OCR 原PDF页段: p0200-0299 (0-based)",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0184",
@@ -2652,7 +3103,10 @@ window.KB_DATA = {
       ],
       "excerpt": "食欲不振对健康是严重的威胁，是身体不适和生病的根源。其主要的原因是：连续几小时地坐在气习[OCR待校]的教室里，从事单调的脑力劳动，缺乏多种室外的活动，总之，处在一种“氧饥饿[OCR待校]的状态中，孩子们整天呼吸着含有大量二氧化碳的空气。",
       "cn": "苏霍姆林斯基在多年观察和专门调查中发现，相当比例的学龄初期儿童不吃早饭或早餐量不足；他并没有把食欲不振简单归为“挑食”“娇气”，而是指出其重要根源是长时间坐在通风不良的教室里从事单调脑力劳动、缺少户外活动所造成的“氧饥饿”。他还观察到，长期呼吸富含二氧化碳的室内空气可能影响内分泌腺，进而损害消化功能；若再以零食、甜食去“刺激食欲”，反而会加重消化问题。",
-      "ref": "《给教师的建议》（杜殿坤编译，教育科学出版社），(八二)“关心儿童的健康，是教育者的最重要的工作”（早餐与食欲/氧饥饿段），OCR 原PDF页段: p0400-0499 (0-based)"
+      "ref": "《给教师的建议》（杜殿坤编译，教育科学出版社），(八二)“关心儿童的健康，是教育者的最重要的工作”（早餐与食欲/氧饥饿段），OCR 原PDF页段: p0400-0499 (0-based)",
+      "tags": [
+        "OCR待校"
+      ]
     },
     {
       "id": "sk-0185",
@@ -2665,7 +3119,10 @@ window.KB_DATA = {
       ],
       "excerpt": "",
       "cn": "苏霍姆林斯基把柯利亚当作“学习落后可能是健康问题”的典型个案：孩子看似不痛不痒，但身体长期因久坐室内、缺乏运动而代谢失调，首先被击垮的是注意力与课堂脑力劳动能力。教师最容易犯的错误是把这种生理性疲惫误读为学习态度差。这一案例还说明，某些“后进”并不需要更多的补课或批评，而是需要先还给孩子足够的户外时间、开窗睡眠和规律作息。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《和青年校长的谈话》“要了解儿童”（柯利亚案例），OCR 原PDF页段: p0600-0699 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《和青年校长的谈话》“要了解儿童”（柯利亚案例），OCR 原PDF页段: p0600-0699 (0-based)",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0186",
@@ -2678,7 +3135,11 @@ window.KB_DATA = {
       ],
       "excerpt": "为了让你头脑中的思维活动活跃起来，为了把你的脑细胞充分动员起来，为了让你的神经线能够以光速来传递信息，应该怎么办呢？看来，首先需要的是比较健康的生活条件。要有好的饮食，多呼吸新鲜空气，多晒太阳，多参加一些在大自然环境中进行的积极活动。我关注他，努力让他吃好。夏天、秋天和春天，让他整日在户外活动。逐渐地这个孩子的脸色红润了，脸颊饱满了，这就意味着，他的脑细胞也开始变得更有生机了。但这还远远不够，还需要进行一些充分激发他大脑活力的智力活动。这种活动对于大脑，就像体育锻炼对于肌肉一样，是必须的[OCR待校]。",
       "cn": "苏霍姆林斯基面对“最无望”的沃洛佳时，先从生理层面找原因：这个孩子面色苍白、记忆差、思维贫乏，脑细胞像整个机体一样缺少生气。他的对策不是马上灌知识，而是先改善健康生活条件——吃好、呼吸新鲜空气、晒太阳、在大自然中积极活动，让身体先“活过来”。但他同时强调，健康生活只是前提而非终点：大脑还需要像肌肉锻炼一样接受充分激发活力的智力活动。身体改善与思维训练必须先后接续、互相配合。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社），《我们的职责是培养人》（沃洛佳案例段），OCR 原PDF页段: p0300-0399 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社），《我们的职责是培养人》（沃洛佳案例段），OCR 原PDF页段: p0300-0399 (0-based)",
+      "tags": [
+        "OCR待校",
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0187",
@@ -2691,7 +3152,10 @@ window.KB_DATA = {
       ],
       "excerpt": "",
       "cn": "这条方法把健康管理精细到“少年期”这一特殊年龄：不能把儿童作息原样套到少年身上。少年生长快、易疲劳、血压可能有暂时波动，需要比儿童更明确的睡眠“上限”和营养结构；同时因为自我意识增强，外部监督效果有限，必须让少年理解身体变化并参与制定自己的作息。营养上特别强调铁、磷、水果糖分与维生素 C，以及睡前避免高蛋白带来的消化和神经兴奋负担。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第3卷》（教育科学出版社），《公民的诞生》“少年的身体发育与心理素养”（含“体 育”“饮食制度、劳动制度和休息制度”相关段落），OCR 原PDF页段: p0500-0599 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第3卷》（教育科学出版社），《公民的诞生》“少年的身体发育与心理素养”（含“体 育”“饮食制度、劳动制度和休息制度”相关段落），OCR 原PDF页段: p0500-0599 (0-based)",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0188",
@@ -2704,7 +3168,10 @@ window.KB_DATA = {
       ],
       "excerpt": "在冬季从事室外劳动是健康的重要源泉。在轻度的寒冷季节(不到零下10度时)，八岁的孩子每周劳动二小时，九、十岁的孩子每周劳动三小时，十一岁的孩子每周劳动四小时。他们用芦苇叶包扎树干，用小担架抬雪以便保护植物过冬，等等。这种室外劳动是锻炼身体和预防感冒的最好手段。",
       "cn": "苏霍姆林斯基没有把冬季看作“只能躲在屋里”的季节，而是把适度寒冷的室外劳动纳入健康计划。他给出按年龄递增的劳动时长：8 岁每周 2 小时，9～10 岁每周 3 小时，11 岁每周 4 小时；劳动内容（包树干、抬雪护植物）同时服务学校和自然环境，不是为锻炼而锻炼。他把这种劳动称为“锻炼身体和预防感冒的最好手段”，强调渐进适应寒冷比过度保暖更有利于儿童抵抗力。",
-      "ref": "《给教师的建议》（杜殿坤编译，教育科学出版社），(八二)“关心儿童的健康，是教育者的最重要的工作”（冬季户外劳动/锻炼段），OCR 原PDF页段: p0400-0499 (0-based)"
+      "ref": "《给教师的建议》（杜殿坤编译，教育科学出版社），(八二)“关心儿童的健康，是教育者的最重要的工作”（冬季户外劳动/锻炼段），OCR 原PDF页段: p0400-0499 (0-based)",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0189",
@@ -2716,7 +3183,10 @@ window.KB_DATA = {
       ],
       "excerpt": "通过若于[OCR待校]年对许多孩子身体发育和智力发展的观察，我们得出结论认为，人在成年时的健康在很大程度上决定于在童年、少年和青年早期各时期的充分营养和作息制度的其他因素结合得如何。我们要着重指出：充分的、符合要求的营养要和劳动、休息（睡眠)、空气及经常而又恰当的身体锻炼相结合。",
       "cn": "苏霍姆林斯基把健康看作一条“时间线”：成年的体质并非到中年才决定，而是在童年、少年和青年早期的营养、睡眠、劳动、空气与锻炼中逐步打下基础。因此，学校和家庭为儿童安排的每一天——早餐有没有、几点睡、户外多久、是否劳动锻炼——都不只是当下的保健，而是几十年后的健康投资。营养不是孤立的“多吃”，必须与作息、户外空气和身体锻炼共同作用。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《帕夫雷什中学》第3章“关注健康与体育”之“对学生的生活环境、劳动和作息制度的卫生保健要求”（营养、作息与终身健康），OCR 原PDF页段: p0200-0299 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《帕夫雷什中学》第3章“关注健康与体育”之“对学生的生活环境、劳动和作息制度的卫生保健要求”（营养、作息与终身健康），OCR 原PDF页段: p0200-0299 (0-based)",
+      "tags": [
+        "OCR待校"
+      ]
     },
     {
       "id": "sk-0190",
@@ -2729,7 +3199,10 @@ window.KB_DATA = {
       ],
       "excerpt": "从观察中不仅可以汲取知识，而且知识在观察中可以活跃起来，知识借助观察而“进入周转”，象工具在劳动中得到运用一样。如果说复习是学习之母，那末观察就是思考和识记知识之母。一个有观察力的学生，绝不会是学业成绩落后或者文理不通的学生。",
       "cn": "苏霍姆林斯基把“观察”从解释课题的辅助手段提升为一种积极的智力活动和发展智力的途径。知识不只是“存”进头脑，还要在观察中周转、运用、活跃起来；复习帮助保持，观察则直接喂养思考与识记。因此观察力强的学生不容易成为学业落后或文理不通的学生。",
-      "ref": "《给教师的建议》（杜殿坤编译，教育科学出版社），(一七)“教给学生观察”；OCR 原PDF页段: p0000-0099 (0-based)"
+      "ref": "《给教师的建议》（杜殿坤编译，教育科学出版社），(一七)“教给学生观察”；OCR 原PDF页段: p0000-0099 (0-based)",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0191",
@@ -2741,7 +3214,8 @@ window.KB_DATA = {
       ],
       "excerpt": "However it would be wrong to consider that the world around a child teaches a child to think on his own. Without abstract thought, things remained hidden from children’s eyes as if by an impenetrable wall.",
       "cn": "这条原则比“大自然是教育资源”更进一步：自然中的具体形象只是原料；如果没有抽象思维，儿童面对大量事物仍会像隔着一堵墙，看不见现象之间的关系。原文紧接着说：只有当儿童能从具体事物中抽身、进行自己的抽象思考时，大自然才成为“脑力劳动的学校”。生动形象必不可少，但必须服务于发现周围世界的联系。",
-      "ref": "On Education (Progress Publishers, 1977), Part II “Study,” “Children Should Live in a World of Creativity”；本地 OCR 行 655（该段延续至 659）/ 印本页 162–163"
+      "ref": "On Education (Progress Publishers, 1977), Part II “Study,” “Children Should Live in a World of Creativity”；本地 OCR 行 655（该段延续至 659）/ 印本页 162–163",
+      "tags": []
     },
     {
       "id": "sk-0192",
@@ -2754,7 +3228,10 @@ window.KB_DATA = {
       ],
       "excerpt": "The child needs not only to listen to the teacher's words but also to be silent. It thinks in these instants, trying to understand what it has seen and heard. It is important that the teacher set a limit to how much talking goes on in class. One must not turn children into passive receivers of words. To comprehend an image, graphic or verbal, demands much time and nervous strength. Letting the child think is one of the most subtle qualities of the teacher. And in the midst of nature, the child must be given the possibility to listen, to look around, to feel...",
       "cn": "这是“思维课”容易被忽略的操作细节：带儿童到大自然中，不等于教师不断讲解。苏霍姆林斯基在土丘上听蚱蜢（grasshopper）鸣声一片时强调，儿童需要“不说话”的瞬间——正是在沉默中，他消化刚刚看见和听见的东西。理解一个形象需要时间和神经力量；教师最细腻的素养之一，是学会“让孩子想”，在自然中给孩子看、听、感受的机会。",
-      "ref": "To Children I Give My Heart (Progress Publishers, Moscow), chapter “The School of Joy” — burial mound / grasshopper scene；本地 txt 行 984–991"
+      "ref": "To Children I Give My Heart (Progress Publishers, Moscow), chapter “The School of Joy” — burial mound / grasshopper scene；本地 txt 行 984–991",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0193",
@@ -2767,7 +3244,10 @@ window.KB_DATA = {
       ],
       "excerpt": "我们教给儿童观察自然界，是为了教会他读书。而要把学生培养成为一个爱钻研、会思考的读者，并不是那么简单的。这跟仅仅教会学生流利地朗读并不是一码事儿。只有当儿童的智力生活是在书籍中度过的时候，他的学习愿望才能确立起来。",
       "cn": "苏霍姆林斯基把“大自然观察”与“读书”接成一条链：儿童先在活生生的自然界中学习观察、提问、发现联系，再把这种主动探究的态度迁移到书籍世界。会读书不等于会流利朗读；真正的读者是爱钻研、会思考的人，而这种读者的基础在观察自然中就已经打下。",
-      "ref": "《给教师的建议》（杜殿坤编译，教育科学出版社），(五四)“怎样使小学生愿意学习？”；OCR 原PDF页段: p0100-0199 (0-based)"
+      "ref": "《给教师的建议》（杜殿坤编译，教育科学出版社），(五四)“怎样使小学生愿意学习？”；OCR 原PDF页段: p0100-0199 (0-based)",
+      "tags": [
+        "跨主题"
+      ]
     },
     {
       "id": "sk-0194",
@@ -2779,7 +3259,8 @@ window.KB_DATA = {
       ],
       "excerpt": "每一堂思维课，就是对自然之谜的一次观察和惊讶，一次思索与发现真理，一次体验知识的欢乐和思想家的骄傲。",
       "cn": "这是苏霍姆林斯基给“思维课”下的一个情感—认识论定义：思维课不是把自然知识讲完，而是让儿童面对“自然之谜”经历一次完整的智力事件——观察现象、感到惊讶、思索并发现真理、体验到知识的欢乐和自己作为思想家的骄傲。同段说明，学校第一学年的思维教育共有六十个主题，其中仅观察樱桃幼芽就安排了十二次，因为一次真正的发现需要时间。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《怎样培养真正的人》“怎样使学生们具有知识的欢乐/思维课”段；OCR 原PDF页段: p0300-0399 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《怎样培养真正的人》“怎样使学生们具有知识的欢乐/思维课”段；OCR 原PDF页段: p0300-0399 (0-based)",
+      "tags": []
     },
     {
       "id": "sk-0195",
@@ -2792,7 +3273,10 @@ window.KB_DATA = {
       ],
       "excerpt": "阅读《大自然的书》时产生问题——这是活跃的思想飞向知识顶峰的开端。",
       "cn": "这句话紧接在瓦利娅故事之前。瓦利娅是一个“什么都记不住”的女孩，似乎一切都会从她头脑中消失。苏霍姆林斯基没有先逼她背，而是把发展“理智感”作为巩固记忆的手段：一连好几天带她到山野、森林、河边、花园和养蜂场，读《大自然的书》中“一切有生命的东西都得适应周围环境”这一页；让她看到炎热时合上花瓣的花、早春开花的植物怎样用纤细的茎冲破覆盖物、蜜蜂怎样建巢并用蜜填满蜂房、葡萄藤的根怎样深入土中吸水。这些发现使瓦利娅的眼睛明亮起来，她开始主动发问，例如蜜蜂怎样知道飞回蜂巢、早春开花的植物在树下还有积雪时会不会觉得冷。问题一旦产生，思想就活动起来，记忆也随之被激活。",
-      "ref": "《苏霍姆林斯基选集（五卷本）第3卷》（教育科学出版社），“300页《大自然的书》”瓦利娅段及其前结论句；OCR 原PDF页段: p0200-0299 (0-based)"
+      "ref": "《苏霍姆林斯基选集（五卷本）第3卷》（教育科学出版社），“300页《大自然的书》”瓦利娅段及其前结论句；OCR 原PDF页段: p0200-0299 (0-based)",
+      "tags": [
+        "跨主题"
+      ]
     }
   ]
 };

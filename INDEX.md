@@ -4,20 +4,18 @@
 
 ## 主题 Topics
 
-| Slug | 标题 | 卡片数 |
-|---|---|---|
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 22 |
-| [family-school](topics/family-school.md) | 家校合作 | 11 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 9 |
-| [health-first](topics/health-first.md) | 健康第一 | 7 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 8 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 6 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 11 |
-| [love-education](topics/love-education.md) | 爱的教育 | 8 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 7 |
-| [child-study](topics/child-study.md) | 儿童研究 | 14 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 8 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 8 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 25 |
+| [family-school](topics/family-school.md) | 家校合作 | 16 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 17 |
+| [health-first](topics/health-first.md) | 健康第一 | 10 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 13 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 14 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 25 |
+| [love-education](topics/love-education.md) | 爱的教育 | 11 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 9 |
+| [child-study](topics/child-study.md) | 儿童研究 | 25 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 14 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 10 |
 
 ## 来源 Sources
 
@@ -39,7 +37,7 @@
 
 | ID | 类型 | 主题 | 来源 | 一句话标题 |
 |---|---|---|---|---|
-| [sk-0001](cards/sk-0001-backward-children-are-frailest-flowers.md) | quote | learning-difficulties | on-education | 后进生不是丑陋者，而是花园里最娇嫩的花 |
+| [sk-0001](cards/sk-0001-backward-children-are-frailest-flowers.md) | quote | learning-difficulties | on-education | 后进生是花园里最娇嫩的花 |
 | [sk-0002](cards/sk-0002-dont-shout-give-extra-help.md) | method | learning-difficulties | on-education | 先让孩子变得“可教”，而不是吼叫与说教 |
 | [sk-0003](cards/sk-0003-focus-on-positive-potential.md) | principle | learning-difficulties | on-education | 教育失灵不是孩子不可救药，而是路径错了 |
 | [sk-0004](cards/sk-0004-literacy-half-in-two-years.md) | case | learning-difficulties | on-education | 两年把低识字率减半的第一次“战役” |
@@ -105,20 +103,60 @@
 | [sk-0064](cards/sk-0064-lifetime-preparation-for-each-lesson.md) | quote | teacher-growth / reading-and-books | gei-jiao-shi-de-jian-yi-zh | 每一节课都是用一生来备课的 |
 | [sk-0065](cards/sk-0065-grades-fewer-but-meaningful.md) | principle | assessment-grading / child-study | gei-jiao-shi-de-jian-yi-zh | 评分宁可少一些，但每次都要有分量 |
 | [sk-0066](cards/sk-0066-childrens-wisdom-in-fingertips.md) | quote | labor-education / learning-difficulties | gei-jiao-shi-de-jian-yi-zh | 儿童的智慧在他的手指尖上 |
-| [sk-0067](cards/sk-0067-thinking-lessons-in-nature.md) | method | thinking-and-nature / child-study / aesthetic-nature-education | gei-jiao-shi-de-jian-yi-zh | 到自然界去上“思维课”：在观察中形成概念 |
-| [sk-0068](cards/sk-0068-pavlik-thought-awakening.md) | case | learning-difficulties / child-study / labor-education | gei-jiao-shi-de-jian-yi-zh | 巴甫里克的“思维觉醒”：别用教科书捆住差生的智慧 |
+| [sk-0067](cards/sk-0067-thinking-lessons-in-nature.md) | method | thinking-and-nature / child-study / aesthetic-nature-education | gei-jiao-shi-de-jian-yi-zh | 到自然界去上 |
+| [sk-0068](cards/sk-0068-pavlik-thought-awakening.md) | case | learning-difficulties / child-study / labor-education | gei-jiao-shi-de-jian-yi-zh | 巴甫里克的 |
 | [sk-0069](cards/sk-0069-health-educators-most-important-work.md) | principle | health-first / family-school | gei-jiao-shi-de-jian-yi-zh | 关心儿童的健康是教育者最重要的工作 |
 | [sk-0070](cards/sk-0070-education-core-dignity.md) | quote | love-education / teacher-growth | gei-jiao-shi-de-jian-yi-zh | 教育的核心是让学生体验到自己的尊严感 |
 | [sk-0071](cards/sk-0071-parent-school.md) | method | family-school / child-study | gei-jiao-shi-de-jian-yi-zh | 家长学校：从孩子入学前两年开始持续培训家长 |
 | [sk-0072](cards/sk-0072-favorite-book-self-education.md) | principle | reading-and-books | gei-jiao-shi-de-jian-yi-zh | 让每个少年都有一本心爱的书，自我教育从好书开始 |
 | [sk-0073](cards/sk-0073-every-child-poet-strings.md) | quote | aesthetic-nature-education / thinking-and-nature | gei-jiao-shi-de-jian-yi-zh | 每个孩子天性都是诗人，要让诗的琴弦响起来 |
-| [sk-0074](cards/sk-0074-public-praise-mold-model-student.md) | case | love-education / collective-education | xuan-ji-zh-vol5 | 公开表扬喂大的“模范生”，反而少了心肝 |
+| [sk-0074](cards/sk-0074-public-praise-mold-model-student.md) | case | love-education / collective-education | xuan-ji-zh-vol5 | 公开表扬喂大的‘模范生’，反而少了心肝 |
 | [sk-0075](cards/sk-0075-no-bad-grades-for-young-children.md) | method | assessment-grading / child-study / learning-difficulties | xuan-ji-zh-vol5 | 不给低年级学生打两分：两分就是鞭子和棍棒 |
 | [sk-0076](cards/sk-0076-107-intellectually-backward-became-educated.md) | case | learning-difficulties / child-study | xuan-ji-zh-vol5 | 107名智力落后学生：后来全都成为有知识的人 |
 | [sk-0077](cards/sk-0077-independent-reading-rescues-backward-students.md) | quote | reading-and-books / learning-difficulties | xuan-ji-zh-vol5 | 独立阅读才能真正挽救智力落后学生 |
-| [sk-0078](cards/sk-0078-suspense-at-textbook-core.md) | method | teacher-growth / child-study | xuan-ji-zh-vol5 | 在教材的“症结”处制造悬念，让旧知识成为获取新知的工具 |
+| [sk-0078](cards/sk-0078-suspense-at-textbook-core.md) | method | teacher-growth / child-study | xuan-ji-zh-vol5 | 在教材的‘症结’处制造悬念，让旧知识成为获取新知的工具 |
 | [sk-0079](cards/sk-0079-handwork-foundation-before-high-tech.md) | principle | labor-education / child-study | xuan-ji-zh-vol5 | 高技术时代，仍要先掌握手工基本功 |
 | [sk-0080](cards/sk-0080-no-trust-no-education.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol5 | 最怪诞的是不相信人：没有信任便没有教育 |
 | [sk-0081](cards/sk-0081-father-silence-corrects-lie.md) | case | family-school / love-education / labor-education | xuan-ji-zh-vol5 | 父亲用沉默纠正谎言：家庭靠关系与榜样，不靠说教 |
 | [sk-0082](cards/sk-0082-living-nature-cannot-be-replaced.md) | quote | thinking-and-nature / aesthetic-nature-education | xuan-ji-zh-vol5 | 活生生的大自然，不能被技术影像取代 |
 | [sk-0083](cards/sk-0083-burden-root-memorization-not-pages.md) | principle | learning-difficulties / health-first | xuan-ji-zh-vol5 | 负担过重的根源不在页数，而在把该理解的东西变成死记 |
+| [sk-0084](cards/sk-0084-knowing-moral-norms-not-belief.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol2 | 知道道德规范，不等于形成道德信念 |
+| [sk-0085](cards/sk-0085-labor-education-mobilize-spiritual-strength.md) | quote | labor-education | xuan-ji-zh-vol2 | 劳动教育任务：不是体力强度，而是动员精神力量 |
+| [sk-0086](cards/sk-0086-long-term-labor-task-builds-will.md) | principle | labor-education / collective-education | xuan-ji-zh-vol2 | 持续数年的劳动任务，比频繁换活动更能炼意志 |
+| [sk-0087](cards/sk-0087-six-kilometer-hike-mothers-worry.md) | case | health-first / child-study | xuan-ji-zh-vol2 | 六千米远足：妈妈觉得太远，孩子却跑着去 |
+| [sk-0088](cards/sk-0088-good-deeds-need-not-be-seen.md) | quote | love-education / collective-education | xuan-ji-zh-vol2 | 真正为他人做好事，不必让人看见 |
+| [sk-0089](cards/sk-0089-ten-prohibitions-family-school.md) | practice | family-school | xuan-ji-zh-vol2 | 家校共同遵守的“十不准” |
+| [sk-0090](cards/sk-0090-winter-night-fish-watch-most-timid-child.md) | case | child-study / teacher-growth | xuan-ji-zh-vol2 | 冬夜护鱼：把责任交给最胆小的孩子 |
+| [sk-0091](cards/sk-0091-holiday-of-books-and-permanent-library.md) | practice | reading-and-books / collective-education | xuan-ji-zh-vol2 | 图书的节日与永久性学校图书馆 |
+| [sk-0092](cards/sk-0092-seek-beauty-with-five-year-old.md) | method | aesthetic-nature-education / family-school | xuan-ji-zh-vol2 | 带五岁孩子“去寻求美”：把美与早起劳动连在一起 |
+| [sk-0093](cards/sk-0093-good-lesson-more-questions-than-answers.md) | quote | teacher-growth / reading-and-books | xuan-ji-zh-vol2 | 一堂好课，应让学生想知道的比教师讲的更多 |
+| [sk-0094](cards/sk-0094-complete-mental-labor-organization-not-speed.md) | quote | health-first | xuan-ji-zh-vol4 | 完满的脑力劳动来自细心组织而非速度 |
+| [sk-0095](cards/sk-0095-unpaid-labor-before-first-wage.md) | principle | labor-education | xuan-ji-zh-vol4 | 第一次工资前，先充分体验为社会无酬劳动 |
+| [sk-0096](cards/sk-0096-hand-grown-flower-better-than-vase.md) | quote | aesthetic-nature-education / labor-education | xuan-ji-zh-vol4 | 亲手培育的花草胜过买来的细瓷花瓶 |
+| [sk-0097](cards/sk-0097-persuade-teachers-not-admin-pressure.md) | principle | teacher-growth | xuan-ji-zh-vol4 | 对教师用说服，不用行政压服 |
+| [sk-0098](cards/sk-0098-education-three-sources-science-craft-art.md) | quote | teacher-growth | xuan-ji-zh-vol4 | 教育有三个源泉：科学、技巧和艺术 |
+| [sk-0099](cards/sk-0099-poppy-field-every-child-own-plot.md) | case | collective-education / labor-education | xuan-ji-zh-vol4 | 罂粟田：让每个孩子开垦出自己的罂粟田 |
+| [sk-0100](cards/sk-0100-give-time-back-teachers-less-meetings-less-plans.md) | practice | teacher-growth | xuan-ji-zh-vol4 | 把时间还给教师：少开会、少写计划 |
+| [sk-0101](cards/sk-0101-check-knowledge-all-class-scratchpaper.md) | method | assessment-grading | xuan-ji-zh-vol4 | 检查知识时让全班用草稿本同步思考 |
+| [sk-0102](cards/sk-0102-valentin-slower-pace-child.md) | case | child-study / learning-difficulties | xuan-ji-zh-vol4 | 瓦连金：给感知缓慢的儿童另设节奏 |
+| [sk-0103](cards/sk-0103-primary-school-first-task-teach-learning.md) | principle | reading-and-books / learning-difficulties | xuan-ji-zh-vol4 | 小学的首要任务是教会儿童学习 |
+| [sk-0104](cards/sk-0104-school-fine-instrument-teacher-tuning.md) | quote | teacher-growth / collective-education | xuan-ji-zh-vol1 | 学校如精致乐器，教师人格负责调音 |
+| [sk-0105](cards/sk-0105-brain-delicate-organ-care.md) | quote | health-first / child-study | xuan-ji-zh-vol1 | 大脑是最精密柔嫩的器官，要小心爱护 |
+| [sk-0106](cards/sk-0106-aptitudes-gunpowder-need-spark.md) | quote | labor-education / teacher-growth | xuan-ji-zh-vol1 | 素质像火药，需要用灵感火星点燃 |
+| [sk-0107](cards/sk-0107-love-accumulated-wealth-not-evaporating-liquid.md) | quote | love-education / family-school | xuan-ji-zh-vol1 | 爱情不是易蒸发的液体，而是点滴积累的财富 |
+| [sk-0108](cards/sk-0108-knowing-surrounding-world-real-activity.md) | principle | thinking-and-nature / child-study | xuan-ji-zh-vol1 | 让认识周围世界成为儿童真正的活动 |
+| [sk-0109](cards/sk-0109-develop-hobbies-ten-times-curriculum.md) | method | child-study / teacher-growth | xuan-ji-zh-vol1 | 发展爱好：让特长领域比大纲多学十倍 |
+| [sk-0110](cards/sk-0110-thinking-pace-slow-students-time.md) | principle | learning-difficulties / child-study | xuan-ji-zh-vol1 | 思维有快慢，要给迟钝的学生留足思考时间 |
+| [sk-0111](cards/sk-0111-walnuts-for-grandma-story-probe-emotions.md) | case | collective-education / child-study | xuan-ji-zh-vol1 | 给老奶奶的核桃：用故事探测儿童情感成熟度 |
+| [sk-0112](cards/sk-0112-colored-chrysanthemums-visible-collective-emotion.md) | practice | collective-education / teacher-growth | xuan-ji-zh-vol1 | 讲台上的彩色菊花：让集体情绪可被看见 |
+| [sk-0113](cards/sk-0113-dont-deprive-children-fairy-tale-mirror.md) | quote | aesthetic-nature-education / reading-and-books | xuan-ji-zh-vol1 | 不要剥夺儿童观察童话这面魔镜的幸福 |
+| [sk-0114](cards/sk-0114-vitya-question-painful-truth.md) | case | teacher-growth / child-study | xuan-ji-zh-vol3 | 少年维塔利的质问：当孩子说出痛苦的真理 |
+| [sk-0115](cards/sk-0115-protect-adolescent-inner-secret.md) | principle | child-study / teacher-growth | xuan-ji-zh-vol3 | 保护少年内心世界的隐秘，是教育的最重要任务 |
+| [sk-0116](cards/sk-0116-address-adolescent-with-vy-respect.md) | method | teacher-growth / collective-education | xuan-ji-zh-vol3 | 用“您”称呼少年：以尊重的语言确认人格 |
+| [sk-0117](cards/sk-0117-color-perception-training-greens.md) | practice | aesthetic-nature-education / thinking-and-nature | xuan-ji-zh-vol3 | 感知色彩训练：在自然里辨认二十多种绿色 |
+| [sk-0118](cards/sk-0118-dont-dissect-literature-emotion-in-class.md) | principle | reading-and-books / assessment-grading | xuan-ji-zh-vol3 | 读完文学后不当堂追问：别把感动变成解剖 |
+| [sk-0119](cards/sk-0119-joy-of-labor-like-climbing-peak.md) | quote | labor-education | xuan-ji-zh-vol3 | 劳动的乐趣如同攀登顶峰，在艰难之后获得自豪 |
+| [sk-0120](cards/sk-0120-love-means-responsibility-for-beloved.md) | quote | love-education / family-school | xuan-ji-zh-vol3 | 爱情首先意味着对所爱的人的命运、前途承担责任 |
+| [sk-0121](cards/sk-0121-yalinas-son-spoiling-idleness-spiritual-emptiness.md) | case | family-school / labor-education | xuan-ji-zh-vol3 | 亚林娜的儿子：娇惯与不劳动如何造成精神空虚 |
+| [sk-0122](cards/sk-0122-university-study-method-daily-reading-two-column-notes.md) | method | reading-and-books / teacher-growth | xuan-ji-zh-vol3 | 大学学习时间法：天天读书与两栏笔记 |
+| [sk-0123](cards/sk-0123-human-beauty-standard-moral-standard.md) | quote | aesthetic-nature-education | xuan-ji-zh-vol3 | 人类美的标准同时也是道德的标准 |

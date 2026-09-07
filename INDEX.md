@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 34 |
-| [family-school](topics/family-school.md) | 家校合作 | 24 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 25 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 36 |
+| [family-school](topics/family-school.md) | 家校合作 | 29 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 30 |
 | [health-first](topics/health-first.md) | 健康第一 | 21 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 23 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 33 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 44 |
-| [love-education](topics/love-education.md) | 爱的教育 | 22 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 17 |
-| [child-study](topics/child-study.md) | 儿童研究 | 46 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 20 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 19 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 39 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 65 |
+| [love-education](topics/love-education.md) | 爱的教育 | 37 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 18 |
+| [child-study](topics/child-study.md) | 儿童研究 | 69 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 24 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 21 |
 
 ## 来源 Sources
 
@@ -232,3 +232,45 @@
 | [sk-0193](cards/sk-0193-teach-observation-nature-to-teach-reading.md) | quote | thinking-and-nature / reading-and-books | gei-jiao-shi-de-jian-yi-zh | 教儿童观察自然界，是为了教会他读书 |
 | [sk-0194](cards/sk-0194-every-thinking-lesson-discovery-surprise.md) | quote | thinking-and-nature | xuan-ji-zh-vol2 | 每一堂思维课，都是对自然之谜的一次观察、惊讶与发现 |
 | [sk-0195](cards/sk-0195-valya-questions-activate-memory.md) | case | thinking-and-nature / learning-difficulties | xuan-ji-zh-vol3 | 瓦利娅：让“记不住”的女孩先产生问题，记忆才被激活 |
+| [sk-0196](cards/sk-0196-vol5-full-batch2-01.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol5 | 教师首先是孩子学习生活的人 |
+| [sk-0197](cards/sk-0197-vol5-full-batch2-02.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol5 | 言行不一的教育者是对善的嘲弄 |
+| [sk-0198](cards/sk-0198-vol5-full-batch2-03.md) | quote | love-education / child-study | xuan-ji-zh-vol5 | 人至高无上的快乐是为他人而生活 |
+| [sk-0199](cards/sk-0199-vol5-full-batch2-04.md) | practice | love-education / labor-education | xuan-ji-zh-vol5 | 秋季玫瑰节：让儿童为亲人种花行善 |
+| [sk-0200](cards/sk-0200-vol5-full-batch2-05.md) | quote | labor-education / teacher-growth | xuan-ji-zh-vol5 | 让每个公民在童年体验劳动的欢乐 |
+| [sk-0201](cards/sk-0201-vol5-full-batch2-06.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol5 | 真正的人民教育不滥用华丽词藻 |
+| [sk-0202](cards/sk-0202-vol5-full-batch2-07.md) | quote | child-study / teacher-growth | xuan-ji-zh-vol5 | 真正教育让少年认识世界时也认识自己 |
+| [sk-0203](cards/sk-0203-vol5-full-batch2-08.md) | case | collective-education / child-study | xuan-ji-zh-vol5 | 浇完菜又捉弄老人的少先队员：没有内在动机的‘好事’ |
+| [sk-0204](cards/sk-0204-vol5-full-batch2-09.md) | quote | love-education / child-study | xuan-ji-zh-vol5 | 孩子的幸福是欢乐的今天 |
+| [sk-0205](cards/sk-0205-vol5-full-batch2-10.md) | case | child-study / teacher-growth | xuan-ji-zh-vol5 | 奥莉娅险些投靠宗教：教育要用敏锐的个人关怀留住心灵 |
+| [sk-0206](cards/sk-0206-vol5-full-batch2-11.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol5 | 教学首先是师生活生生的人际关系 |
+| [sk-0207](cards/sk-0207-vol5-full-batch2-12.md) | method | assessment-grading / teacher-growth | xuan-ji-zh-vol5 | 把评分当作少用的‘手术器械’ |
+| [sk-0208](cards/sk-0208-vol5-full-batch2-13.md) | quote | love-education / teacher-growth | xuan-ji-zh-vol5 | 不爱学生的教师，如同歌手没有嗓音 |
+| [sk-0209](cards/sk-0209-vol5-full-batch2-14.md) | quote | love-education / child-study | xuan-ji-zh-vol5 | 我爱的不是他现在的模样，而是他应当成为的模样 |
+| [sk-0210](cards/sk-0210-vol5-full-batch2-15.md) | quote | labor-education / collective-education | xuan-ji-zh-vol5 | 崇高植根于平凡：劳动和一块面包 |
+| [sk-0211](cards/sk-0211-vol5-full-batch2-16.md) | quote | collective-education / child-study | xuan-ji-zh-vol5 | 儿童喜欢玩具，却不喜欢别人把他们变为玩具 |
+| [sk-0212](cards/sk-0212-vol5-full-batch2-17.md) | quote | love-education / collective-education | xuan-ji-zh-vol5 | 爱国主义的形成始于对人的热爱 |
+| [sk-0213](cards/sk-0213-vol5-full-batch2-18.md) | practice | love-education / labor-education | xuan-ji-zh-vol5 | 给新团员一株‘母亲树’树苗 |
+| [sk-0214](cards/sk-0214-vol5-full-batch2-19.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol5 | 决定教师语言效果的真谛是诚挚 |
+| [sk-0215](cards/sk-0215-vol5-full-batch2-20.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol5 | 学生认识人的世界，是从教师开始的 |
+| [sk-0216](cards/sk-0216-vol5-full-batch2-21.md) | quote | reading-and-books / learning-difficulties | xuan-ji-zh-vol5 | 只读教科书，最终连教科书也读不好 |
+| [sk-0217](cards/sk-0217-vol5-full-batch2-22.md) | quote | child-study / learning-difficulties | xuan-ji-zh-vol5 | 只见树木不见森林：教学要见整体 |
+| [sk-0218](cards/sk-0218-vol5-full-batch2-23.md) | quote | child-study / thinking-and-nature | xuan-ji-zh-vol5 | 三大支柱：明晰的思维、生动的语言、创造活动 |
+| [sk-0219](cards/sk-0219-vol5-full-batch2-24.md) | quote | thinking-and-nature / child-study | xuan-ji-zh-vol5 | 每个儿童天性都是诗人，要教会他发现联系 |
+| [sk-0220](cards/sk-0220-vol5-full-batch3-01.md) | quote | love-education / teacher-growth | xuan-ji-zh-vol5 | 休怕成为慈爱的人：引发儿童邪恶的不是慈爱，而是粗暴、冷漠和严酷 |
+| [sk-0221](cards/sk-0221-vol5-full-batch3-02.md) | quote | child-study / teacher-growth | xuan-ji-zh-vol5 | 理解童年世界是上升，不是俯就：教师应体察儿童的世界 |
+| [sk-0222](cards/sk-0222-vol5-full-batch3-03.md) | quote | child-study / teacher-growth | xuan-ji-zh-vol5 | 把小学生看作明天的公民：童年的点滴会汇聚成人的精髓 |
+| [sk-0223](cards/sk-0223-vol5-full-batch3-04.md) | quote | family-school / child-study | xuan-ji-zh-vol5 | 学校没有教会最主要的东西：怎样生活 |
+| [sk-0224](cards/sk-0224-vol5-full-batch3-05.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol5 | 教师面对的不是抽象学生，而是活生生具体的人 |
+| [sk-0225](cards/sk-0225-vol5-full-batch3-06.md) | quote | love-education / child-study | xuan-ji-zh-vol5 | 思想生活从体察他人开始：对身边人的悲欢保持敏锐 |
+| [sk-0226](cards/sk-0226-vol5-full-batch3-07.md) | quote | love-education / teacher-growth | xuan-ji-zh-vol5 | 冷漠寡情是教育事业最凶恶的敌人：保护儿童对教师的信赖 |
+| [sk-0227](cards/sk-0227-vol5-full-batch3-08.md) | quote | family-school / love-education | xuan-ji-zh-vol5 | 真正父亲无可替代：育人比任何生产岗位更细致 |
+| [sk-0228](cards/sk-0228-vol5-full-batch3-09.md) | quote | family-school / love-education | xuan-ji-zh-vol5 | 夫妻之爱会化为你未来孩子的精神美 |
+| [sk-0229](cards/sk-0229-vol5-full-batch3-10.md) | quote | teacher-growth / reading-and-books | xuan-ji-zh-vol5 | 农村学校的特殊使命：做农村最重要的文化中心 |
+| [sk-0230](cards/sk-0230-vol5-full-batch3-11.md) | quote | love-education / child-study | xuan-ji-zh-vol5 | 真正的教育是为他人创造幸福 |
+| [sk-0231](cards/sk-0231-vol5-full-batch3-12.md) | quote | teacher-growth / love-education | xuan-ji-zh-vol5 | 语言可提高人也可贬低人：最可怕的是让人相信自己微不足道 |
+| [sk-0232](cards/sk-0232-vol5-full-batch3-13.md) | quote | collective-education / child-study | xuan-ji-zh-vol5 | 义务感的培养是教育的基础和核心 |
+| [sk-0233](cards/sk-0233-vol5-full-batch3-14.md) | quote | collective-education / teacher-growth | xuan-ji-zh-vol5 | 教师说‘你应当’太多，学生说‘我应当’太少 |
+| [sk-0234](cards/sk-0234-vol5-full-batch3-15.md) | quote | reading-and-books / teacher-growth | xuan-ji-zh-vol5 | 文学即人学：教师是弹奏青少年心灵音乐的大师 |
+| [sk-0235](cards/sk-0235-vol5-full-batch3-16.md) | quote | family-school / labor-education | xuan-ji-zh-vol5 | 父辈功劳不是儿女资本：儿女越要有自己的发光点 |
+| [sk-0236](cards/sk-0236-vol5-full-batch3-17.md) | quote | family-school / love-education | xuan-ji-zh-vol5 | 父亲道德堕落是孩子的痛苦：要保护好儿童对人的爱与信心 |
+| [sk-0237](cards/sk-0237-vol5-full-batch3-18.md) | quote | reading-and-books / teacher-growth | xuan-ji-zh-vol5 | 最有诱惑力的享受是读书：让好书成为童年最大的快乐 |

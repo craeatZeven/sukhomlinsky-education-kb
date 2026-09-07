@@ -29,9 +29,10 @@
 </header>
 
 <main class="wrap">
-  <p style="margin:0 0 16px"><a href="explore.html">← 返回主题浏览</a></p>
+  <p style="margin:0 0 16px"><a href="index.html">首页</a> / <a href="explore.html">主题浏览</a> / 卡片详情</p>
   <section>
     <article class="card" id="cardMain"></article>
+    <div style="display:flex;justify-content:space-between;gap:12px;margin-top:14px;flex-wrap:wrap" id="pager"></div>
   </section>
 
   <section>
@@ -86,6 +87,15 @@ function renderCard(c){
     navigator.clipboard && navigator.clipboard.writeText(citation).then(()=>{document.getElementById("copyBtn").textContent="已复制";});
   });
   renderRelated(c);
+  renderPager(c);
+}
+function renderPager(c){
+  const idx = CARDS.findIndex(x=>x.id===c.id);
+  const prev = idx>0 ? CARDS[idx-1] : null;
+  const next = idx>=0 && idx<CARDS.length-1 ? CARDS[idx+1] : null;
+  document.getElementById("pager").innerHTML = `
+    ${prev?`<a class="chip" style="text-decoration:none" href="${cardLink(prev)}">← ${prev.id}</a>`:`<span></span>`}
+    ${next?`<a class="chip" style="text-decoration:none" href="${cardLink(next)}">${next.id} →</a>`:`<span></span>`}`;
 }
 function renderRelated(c){
   const rel = CARDS.filter(x=>x.id!==c.id && (x.topics||[]).some(t=>(c.topics||[]).includes(t))).slice(0,6);

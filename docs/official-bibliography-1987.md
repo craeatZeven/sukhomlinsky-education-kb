@@ -4,6 +4,7 @@
 > 官方图书馆扫描 PDF：<https://dnpb.gov.ua/wp-content/uploads/2016/03/Syhomlinsky_1987.pdf>
 > 本地提取全文（gitignored）：`local_working_copy/official-bibliography-1987.txt`
 > 本地结构化条目 CSV（gitignored）：`local_working_copy/bibliography-1987-entries.csv`
+> 本地教育作品俄文标准标题索引 CSV（gitignored）：`local_working_copy/pedagogical-works-index.csv`（670 行原始行）
 
 ## 解析结果（2026-09-07）
 

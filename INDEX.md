@@ -6,18 +6,18 @@
 
 | Slug | 标题 | 卡片数 |
 |---|---|---|
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 16 |
-| [family-school](topics/family-school.md) | 家校合作 | 8 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 5 |
-| [health-first](topics/health-first.md) | 健康第一 | 5 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 5 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 18 |
+| [family-school](topics/family-school.md) | 家校合作 | 10 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 7 |
+| [health-first](topics/health-first.md) | 健康第一 | 6 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 7 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 5 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 7 |
-| [love-education](topics/love-education.md) | 爱的教育 | 5 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 5 |
-| [child-study](topics/child-study.md) | 儿童研究 | 5 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 5 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 5 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 9 |
+| [love-education](topics/love-education.md) | 爱的教育 | 6 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 6 |
+| [child-study](topics/child-study.md) | 儿童研究 | 9 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 7 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 7 |
 
 ## 来源 Sources
 
@@ -26,13 +26,13 @@
 | [on-education](sources/on-education.md) | On Education (1977, Progress Publishers) | 英文 | registered |
 | [to-children-i-give-my-heart](sources/to-children-i-give-my-heart.md) | To Children I Give My Heart | 英文 | registered |
 | [ba-xin-xian-gei-hai-zi-zh](sources/ba-xin-xian-gei-hai-zi-zh.md) | 把心献给孩子（中文） | 中文 EPUB 已抽文本 | registered |
-| [gei-jiao-shi-de-jian-yi-zh](sources/gei-jiao-shi-de-jian-yi-zh.md) | 给教师的建议（杜殿坤 编译） | 中文扫描 PDF | registered |
+| [gei-jiao-shi-de-jian-yi-zh](sources/gei-jiao-shi-de-jian-yi-zh.md) | 给教师的建议（杜殿坤 编译） | 中文 OCR 完成 | complete |
 | [jiao-yu-zhen-yan-zh](sources/jiao-yu-zhen-yan-zh.md) | 苏霍姆林斯基教育箴言（朱永新 编） | 中文 OCR 完成 | complete |
-| [xuan-ji-zh-vol1](sources/xuan-ji-zh-vol1.md) | 苏霍姆林斯基选集（五卷本）第1卷 | 中文扫描 PDF | registered |
-| [xuan-ji-zh-vol2](sources/xuan-ji-zh-vol2.md) | 苏霍姆林斯基选集（五卷本）第2卷 | 中文扫描 PDF | registered |
-| [xuan-ji-zh-vol3](sources/xuan-ji-zh-vol3.md) | 苏霍姆林斯基选集（五卷本）第3卷 | 中文扫描 PDF | registered |
-| [xuan-ji-zh-vol4](sources/xuan-ji-zh-vol4.md) | 苏霍姆林斯基选集（五卷本）第4卷 | 中文扫描 PDF | registered |
-| [xuan-ji-zh-vol5](sources/xuan-ji-zh-vol5.md) | 苏霍姆林斯基选集（五卷本）第5卷 | 中文扫描 PDF | registered |
+| [xuan-ji-zh-vol1](sources/xuan-ji-zh-vol1.md) | 苏霍姆林斯基选集（五卷本）第1卷 | 中文 OCR 完成 | complete |
+| [xuan-ji-zh-vol2](sources/xuan-ji-zh-vol2.md) | 苏霍姆林斯基选集（五卷本）第2卷 | 中文 OCR 完成 | complete |
+| [xuan-ji-zh-vol3](sources/xuan-ji-zh-vol3.md) | 苏霍姆林斯基选集（五卷本）第3卷 | 中文 OCR 完成 | complete |
+| [xuan-ji-zh-vol4](sources/xuan-ji-zh-vol4.md) | 苏霍姆林斯基选集（五卷本）第4卷 | 中文 OCR 完成 | complete |
+| [xuan-ji-zh-vol5](sources/xuan-ji-zh-vol5.md) | 苏霍姆林斯基选集（五卷本）第5卷 | 中文 OCR 完成 | complete |
 | [each-one-must-shine](sources/each-one-must-shine.md) | Each One Must Shine（Alan Cockerill 研究/引文集） | 英文 Archive.org 全文 | complete |
 
 ## 卡片 Cards
@@ -102,3 +102,13 @@
 | [sk-0061](cards/sk-0061-nature-has-no-magic-without-thinking.md) | principle | thinking-and-nature | ba-xin-xian-gei-hai-zi-zh | 大自然没有自动教育魔力，必须让人思考因果 |
 | [sk-0062](cards/sk-0062-book-of-nature-300-observations.md) | practice | thinking-and-nature | ba-xin-xian-gei-hai-zi-zh | 《大自然的书》：四年 300 次观察的思维课程 |
 | [sk-0063](cards/sk-0063-nature-educates-through-cause-effect-english.md) | quote | thinking-and-nature | to-children-i-give-my-heart | 大自然是教育资源，唯当人理解因果关系时 |
+| [sk-0064](cards/sk-0064-lifetime-preparation-for-each-lesson.md) | quote | teacher-growth / reading-and-books | gei-jiao-shi-de-jian-yi-zh | 每一节课都是用一生来备课的 |
+| [sk-0065](cards/sk-0065-grades-fewer-but-meaningful.md) | principle | assessment-grading / child-study | gei-jiao-shi-de-jian-yi-zh | 评分宁可少一些，但每次都要有分量 |
+| [sk-0066](cards/sk-0066-childrens-wisdom-in-fingertips.md) | quote | labor-education / learning-difficulties | gei-jiao-shi-de-jian-yi-zh | 儿童的智慧在他的手指尖上 |
+| [sk-0067](cards/sk-0067-thinking-lessons-in-nature.md) | method | thinking-and-nature / child-study / aesthetic-nature-education | gei-jiao-shi-de-jian-yi-zh | 到自然界去上“思维课”：在观察中形成概念 |
+| [sk-0068](cards/sk-0068-pavlik-thought-awakening.md) | case | learning-difficulties / child-study / labor-education | gei-jiao-shi-de-jian-yi-zh | 巴甫里克的“思维觉醒”：别用教科书捆住差生的智慧 |
+| [sk-0069](cards/sk-0069-health-educators-most-important-work.md) | principle | health-first / family-school | gei-jiao-shi-de-jian-yi-zh | 关心儿童的健康是教育者最重要的工作 |
+| [sk-0070](cards/sk-0070-education-core-dignity.md) | quote | love-education / teacher-growth | gei-jiao-shi-de-jian-yi-zh | 教育的核心是让学生体验到自己的尊严感 |
+| [sk-0071](cards/sk-0071-parent-school.md) | method | family-school / child-study | gei-jiao-shi-de-jian-yi-zh | 家长学校：从孩子入学前两年开始持续培训家长 |
+| [sk-0072](cards/sk-0072-favorite-book-self-education.md) | principle | reading-and-books | gei-jiao-shi-de-jian-yi-zh | 让每个少年都有一本心爱的书，自我教育从好书开始 |
+| [sk-0073](cards/sk-0073-every-child-poet-strings.md) | quote | aesthetic-nature-education / thinking-and-nature | gei-jiao-shi-de-jian-yi-zh | 每个孩子天性都是诗人，要让诗的琴弦响起来 |

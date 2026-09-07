@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>思想地图 · 苏霍姆林斯基教育知识库</title>
+<link rel="stylesheet" href="style.css?v=20260907" />
+</head>
+<body>
+<nav class="topnav">
+  <div class="inner">
+    <a class="brand" href="index.html">苏霍姆林斯基教育知识库</a>
+    <div class="nav-links">
+      <a class="nav-link" href="index.html">首页</a>
+      <a class="nav-link" href="explore.html">主题浏览</a>
+      <a class="nav-link active" href="clusters.html">思想地图</a>
+      <a class="nav-link" href="cases.html">案例 Review</a>
+      <a class="nav-link" href="sources.html">书源</a>
+    </div>
+  </div>
+</nav>
+
+<header class="page-head">
+  <div class="wrap">
+    <div class="eyebrow">Thought Clusters</div>
+    <h1>思想地图</h1>
+    <p>十组教育主张，把 195 张卡从“主题目录”进一步聚成“立场地图”。完整底稿见 <a href="../docs/thought-clusters.md">docs/thought-clusters.md ↗</a></p>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="grid" id="clusterGrid"></section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><a href="index.html">← 返回首页</a> · 数据源 <a href="../INDEX.md">INDEX.md</a></p>
+  </div>
+</footer>
+
+<script src="theme.js?v=20260907"></script>
+<script>
+const CLUSTERS = [
+  {n:"1", title:"儿童是活生生的人：先有尊严与信任，才有教育", desc:"儿童不是知识的容器，也不是被管理的对象；教育必须先承认他是人，保护他的尊严与信任。", ids:"sk-0001 · sk-0002 · sk-0051 · sk-0070 · sk-0080 · sk-0165 · sk-0180"},
+  {n:"2", title:"爱不是溺爱：尊重、信任与明智的严格", desc:"真正的教育爱包含尊重、信任、严格要求与长期责任。", ids:"sk-0034 · sk-0036 · sk-0039 · sk-0040 · sk-0041 · sk-0157 · sk-0136"},
+  {n:"3", title:"劳动是手脑并用的“第二课堂”", desc:"劳动塑造思维、意志与人格；儿童智慧常在他手指尖上。", ids:"sk-0014 · sk-0015 · sk-0066 · sk-0068 · sk-0085 · sk-0128 · sk-0132 · sk-0151"},
+  {n:"4", title:"大自然不是背景板：它是思维的学校", desc:"自然只有被有意识地观察、提问、寻找因果时才成为教育资源。", ids:"sk-0059 · sk-0060 · sk-0061 · sk-0062 · sk-0067 · sk-0174 · sk-0190 · sk-0191"},
+  {n:"5", title:"健康是学习的地基", desc:"睡眠、户外、饮食、情绪与疾病预防，先于成绩。", ids:"sk-0005 · sk-0012 · sk-0019 · sk-0020 · sk-0023 · sk-0069 · sk-0184 · sk-0187"},
+  {n:"6", title:"集体存在的意义是让每个人都站得更高", desc:"真正集体不以压制个性为目的，而以提升每个成员为宗旨。", ids:"sk-0029 · sk-0030 · sk-0031 · sk-0032 · sk-0033 · sk-0139 · sk-0140 · sk-0177"},
+  {n:"7", title:"教师成长：读书、研究、自由时间与人格影响", desc:"真正备课靠一生阅读与思考；学校要给教师留自由时间。", ids:"sk-0035 · sk-0064 · sk-0097 · sk-0100 · sk-0122 · sk-0136 · sk-0161"},
+  {n:"8", title:"评价是为了帮助孩子，而不是审判孩子", desc:"分数应反映努力与进步，给学生“再试一次”的机会。", ids:"sk-0044 · sk-0045 · sk-0047 · sk-0065 · sk-0075 · sk-0124 · sk-0178 · sk-0182"},
+  {n:"9", title:"家庭是精神生活的起点", desc:"孩子首先从父母的态度、关系与家庭精神生活中学习。", ids:"sk-0009 · sk-0049 · sk-0081 · sk-0127 · sk-0128 · sk-0176 · sk-0089"},
+  {n:"10", title:"真正的教育会走向自我教育", desc:"良心、好书与独处，是教育成功的试金石。", ids:"sk-0057 · sk-0072 · sk-0088 · sk-0142 · sk-0143 · sk-0152 · sk-0175"}
+];
+document.addEventListener("DOMContentLoaded", ()=>{
+  document.getElementById("clusterGrid").innerHTML = CLUSTERS.map(c=>`
+    <article class="case-card">
+      <span class="badge">思想簇 ${c.n}</span>
+      <h3 style="margin:10px 0 6px">${c.title}</h3>
+      <p class="meta">${c.desc}</p>
+      <p class="ref" style="margin-top:10px">${c.ids}</p>
+    </article>`).join("");
+});
+</script>
+</body>
+</html>

@@ -148,12 +148,21 @@ def parse_cards() -> list[dict]:
         if not fm.get('id'):
             continue
         excerpt_section = section(text, '原文/Excerpt')
-        quote_lines = []
+        excerpts: list[str] = []
+        current: list[str] = []
         for line in excerpt_section.splitlines():
-            line = line.strip()
-            if line.startswith('>'):
-                quote_lines.append(line.lstrip('>').strip())
-        excerpt = ' '.join(quote_lines)
+            if not line.startswith('>'):
+                continue
+            content = line.lstrip('>').strip()
+            if content == '':
+                if current:
+                    excerpts.append(' '.join(current))
+                    current = []
+            else:
+                current.append(content)
+        if current:
+            excerpts.append(' '.join(current))
+        excerpt = ' '.join(excerpts)
         cn_section = section(text, '中文转述/说明')
         cn = first_para(cn_section)
         topics_raw = (fm.get('topics') or '').strip()
@@ -172,6 +181,7 @@ def parse_cards() -> list[dict]:
             'source': fm.get('source', ''),
             'topics': topics,
             'excerpt': excerpt,
+            'excerpts': excerpts,
             'cn': cn,
             'ref': fm.get('ref', ''),
             'tags': tags,

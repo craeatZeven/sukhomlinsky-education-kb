@@ -13,6 +13,7 @@
     <div class="nav-links">
       <a class="nav-link" href="index.html">首页</a>
       <a class="nav-link active" href="explore.html">主题浏览</a>
+      <a class="nav-link" href="clusters.html">思想地图</a>
       <a class="nav-link" href="cases.html">案例 Review</a>
       <a class="nav-link" href="sources.html">书源</a>
     </div>
@@ -97,6 +98,14 @@ function sourceTitle(slug){ const s=SOURCES.find(x=>x.slug===slug); return s?s.t
 function cardHTML(c){
   const topicBadges = (c.topics||[]).map(s=>`<span class="badge" style="margin-right:6px">${topicTitle(s)}</span>`).join("");
   const extraTags = (c.tags||[]).map(t=>`<span class="meta" style="border:1px solid var(--line);border-radius:999px;padding:1px 8px;margin-left:6px">${EXTRA_TAG_LABELS[t]||t}</span>`).join("");
+  const exps = (c.excerpts && c.excerpts.length) ? c.excerpts : (c.excerpt ? [c.excerpt] : []);
+  let excerptHtml = "";
+  if(exps.length){
+    excerptHtml = `<p class="excerpt">“${exps[0]}”</p>`;
+    if(exps.length > 1){
+      excerptHtml += `<details class="more-excerpts"><summary>本卡另有 ${exps.length - 1} 段原文</summary>${exps.slice(1).map(q=>`<p class="excerpt">“${q}”</p>`).join("")}</details>`;
+    }
+  }
   return `
   <article class="card" id="card-${c.id}">
     <div class="card-top">
@@ -104,7 +113,7 @@ function cardHTML(c){
       <span class="badge" style="background:transparent;border:1px solid var(--line);color:var(--soft)">${TYPE_LABELS[c.type]||c.type}</span>
     </div>
     <h3>${c.title}</h3>
-    ${c.excerpt?`<p class="excerpt">“${c.excerpt}”</p>`:""}
+    ${excerptHtml}
     ${c.cn?`<p class="cn">${c.cn}</p>`:""}
     <div class="ref" style="margin-top:10px">${c.id} · ${sourceTitle(c.source)}<br>${c.ref}</div>
     ${extraTags?`<div style="margin-top:8px">${extraTags}</div>`:""}

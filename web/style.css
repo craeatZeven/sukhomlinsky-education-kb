@@ -117,6 +117,9 @@ a { color: var(--accent); }
 .excerpt::before { content: "“"; position: absolute; left: 3px; top: -7px; color: var(--accent); opacity: .35; font-size: 26px; font-style: normal; line-height: 1; }
 .cn { font-size: 14px; margin: 6px 0 0; }
 .card .ref { margin-top: auto; padding-top: 8px; }
+.more-excerpts { margin-top: 8px; }
+.more-excerpts summary { cursor: pointer; color: var(--accent); font-size: 13px; font-family: var(--sans); }
+.more-excerpts .excerpt { margin-top: 8px; }
 
 /* Search & chips */
 .searchbox { max-width: 760px; margin: 26px auto 0; display: flex; gap: 10px; flex-wrap: wrap; }

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>案例 Review · 苏霍姆林斯基教育知识库</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<nav class="topnav">
+  <div class="inner">
+    <a class="brand" href="index.html">苏霍姆林斯基教育知识库</a>
+    <div class="nav-links">
+      <a class="nav-link" href="index.html">首页</a>
+      <a class="nav-link" href="explore.html">卡片检索</a>
+      <a class="nav-link active" href="cases.html">案例 Review</a>
+      <a class="nav-link" href="sources.html">书源</a>
+    </div>
+  </div>
+</nav>
+
+<header class="page-head">
+  <div class="wrap">
+    <div class="eyebrow">Case Review</div>
+    <h1>案例 Review</h1>
+    <p>真实教育困境 → 知识库检索 → 苏霍姆林斯基的回应 → 可执行建议。完整长文见 <a href="../docs/case-reviews.md">docs/case-reviews.md ↗</a></p>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="grid" id="caseGrid"></section>
+  <p style="text-align:center; margin-top:26px"><a class="chip" style="text-decoration:none" href="explore.html">去卡片检索里验证这些卡片 →</a></p>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><a href="index.html">← 返回首页</a> · 数据源 <a href="../INDEX.md">INDEX.md</a></p>
+  </div>
+</footer>
+
+<script src="theme.js"></script>
+<script>
+const CASES = [
+  {n:"案例 1", title:"越补越差的“后进生”", desc:"先停止惩罚性补课，找回真实活动中的成功体验。", ids:"sk-0001 · sk-0002 · sk-0068 · sk-0076"},
+  {n:"案例 2", title:"家长用分数和打骂逼孩子", desc:"分数不当惩罚工具；把“再试一次”还给儿童。", ids:"sk-0045 · sk-0075 · sk-0157 · sk-0180"},
+  {n:"案例 3", title:"公开表扬养出表演型好孩子", desc:"减少高曝光表扬，让善行回到内心确认。", ids:"sk-0074 · sk-0088 · sk-0170"},
+  {n:"案例 4", title:"作业负担过重", desc:"负担来自死记而非页数；先做负担审计与作息重建。", ids:"sk-0083 · sk-0131 · sk-0160"},
+  {n:"案例 5", title:"少年逆反、拒绝沟通", desc:"没有信任便没有教育；先留通道，再谈指导。", ids:"sk-0080 · sk-0115 · sk-0153"},
+  {n:"案例 6", title:"家里没有共同精神生活", desc:"家庭小书架、朗读与父母的榜样优先于说教。", ids:"sk-0176 · sk-0127 · sk-0055 · sk-0072"},
+  {n:"案例 7", title:"低年级“坐不住”被当纪律差", desc:"先查健康与作息，再谈纪律；把好动变成贡献。", ids:"sk-0185 · sk-0165 · sk-0131 · sk-0184"},
+  {n:"案例 8", title:"教师忙到没时间备课", desc:"把自由时间还给教师；长期读书才是真正备课。", ids:"sk-0035 · sk-0064 · sk-0100 · sk-0161"},
+  {n:"案例 9", title:"班级小团体排挤与冷漠", desc:"别开批判会；用共同任务与“看见孤独者”重建集体。", ids:"sk-0030 · sk-0139 · sk-0140 · sk-0177"},
+  {n:"案例 10", title:"单亲/隔代/父母缺位", desc:"建立稳定成人连接，用日常传统补偿家庭温暖。", ids:"sk-0013 · sk-0043 · sk-0036 · sk-0031"},
+  {n:"案例 11", title:"家长把劳动当耽误学习", desc:"用完整而有情感出口的劳动证明“手巧→脑活”。", ids:"sk-0014 · sk-0066 · sk-0132 · sk-0151"},
+  {n:"案例 12", title:"孩子说谎之后怎么办", desc:"先听谎言在保护什么，用弥补后果替代惩罚逼供。", ids:"sk-0081 · sk-0143 · sk-0152 · sk-0047"}
+];
+document.addEventListener("DOMContentLoaded", ()=>{
+  document.getElementById("caseGrid").innerHTML = CASES.map(c=>`
+    <article class="case-card">
+      <span class="badge">${c.n}</span>
+      <h3 style="margin:10px 0 6px">${c.title}</h3>
+      <p class="meta">${c.desc}</p>
+      <p class="ref" style="margin-top:10px">${c.ids}</p>
+    </article>`).join("");
+});
+</script>
+</body>
+</html>

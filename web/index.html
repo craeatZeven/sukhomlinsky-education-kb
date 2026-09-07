@@ -3,548 +3,82 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>苏霍姆林斯基教育知识库 · Sukhomlinsky Education KB</title>
-<style>
-  :root {
-    --paper: #f6f1e7;
-    --card: #fffdf8;
-    --ink: #1c1917;
-    --ink-soft: #6b625a;
-    --accent: #b4552d;
-    --accent-soft: #f3ddd2;
-    --line: rgba(28, 25, 23, .12);
-    --serif: "Noto Serif SC", "Songti SC", "SimSun", Georgia, serif;
-    --sans: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
-  }
-  * { box-sizing: border-box; }
-  html { scroll-behavior: smooth; }
-  body {
-    margin: 0;
-    font-family: var(--sans);
-    color: var(--ink);
-    line-height: 1.75;
-    background:
-      radial-gradient(1200px 600px at 85% -120px, rgba(180,85,45,.07), transparent 60%),
-      radial-gradient(900px 500px at -10% 25%, rgba(46,74,96,.05), transparent 55%),
-      linear-gradient(180deg, rgba(255,255,255,.35), transparent 300px),
-      var(--paper);
-    background-attachment: fixed;
-  }
-  h1, h2, h3, .serif { font-family: var(--serif); }
-  .wrap { max-width: 1180px; margin: 0 auto; padding: 0 22px; }
-
-  /* Masthead */
-  .masthead {
-    position: relative;
-    overflow: hidden;
-    padding: 88px 0 52px;
-    text-align: center;
-    border-bottom: 1px solid var(--line);
-  }
-  .masthead::before {
-    content: "“";
-    position: absolute;
-    top: -40px;
-    left: 50%;
-    transform: translateX(-50%);
-    font-family: var(--serif);
-    font-size: 280px;
-    line-height: 1;
-    color: rgba(180,85,45,.07);
-    pointer-events: none;
-    user-select: none;
-  }
-  .masthead .kicker {
-    position: relative;
-    display: inline-flex;
-    align-items: center;
-    gap: 14px;
-    letter-spacing: .34em;
-    color: var(--accent);
-    font-size: 12px;
-    font-weight: 700;
-    text-transform: uppercase;
-  }
-  .masthead .kicker::before,
-  .masthead .kicker::after {
-    content: "";
-    width: 34px;
-    height: 1px;
-    background: var(--accent);
-    opacity: .45;
-  }
-  .masthead-title {
-    position: relative;
-    font-size: clamp(34px, 6.4vw, 66px);
-    line-height: 1.1;
-    margin: 14px 0 10px;
-    letter-spacing: .04em;
-    font-weight: 900;
-  }
-  .masthead-title::after {
-    content: "";
-    display: block;
-    width: 72px;
-    height: 3px;
-    margin: 18px auto 0;
-    border-radius: 3px;
-    background: linear-gradient(90deg, var(--accent), rgba(180,85,45,.15));
-  }
-  .masthead .sub {
-    font-size: 17px;
-    color: var(--ink-soft);
-    max-width: 720px;
-    margin: 10px auto 0;
-  }
-  .searchbox {
-    max-width: 720px;
-    margin: 34px auto 0;
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-  }
-  .searchbox input {
-    flex: 1;
-    min-width: 220px;
-    border: 1px solid var(--line);
-    background: var(--card);
-    border-radius: 999px;
-    padding: 12px 20px;
-    font-size: 15px;
-    outline: none;
-    color: var(--ink);
-    box-shadow: 0 4px 14px rgba(0,0,0,.04);
-  }
-  .searchbox input:focus { border-color: var(--accent); }
-  .chips { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-top: 14px; }
-  .chip {
-    border: 1px solid var(--line);
-    background: var(--card);
-    color: var(--ink-soft);
-    border-radius: 999px;
-    padding: 6px 14px;
-    font-size: 13px;
-    cursor: pointer;
-    transition: all .15s;
-  }
-  .chip.active { background: var(--accent); border-color: var(--accent); color: #fff; }
-  .chip:hover { border-color: var(--accent); color: var(--accent); }
-  .chip.active:hover { color: #fff; }
-
-  /* Sections */
-  .section { padding: 48px 0 12px; scroll-margin-top: 90px; }
-  @media (prefers-reduced-motion: no-preference) {
-    body.reveal .section { opacity: 0; transform: translateY(18px); transition: opacity .55s ease, transform .55s ease; }
-    body.reveal .section.revealed { opacity: 1; transform: none; }
-  }
-  .section-title {
-    position: relative;
-    padding-left: 16px;
-    font-size: 27px;
-    margin: 0 0 22px;
-  }
-  .section-title::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 4px;
-    height: 24px;
-    background: var(--accent);
-    border-radius: 4px;
-  }
-  .section-sub { color: var(--ink-soft); margin: -12px 0 24px; }
-
-  /* Source cards */
-  .source-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 14px;
-  }
-  .source-card {
-    border-radius: 14px;
-    background: var(--card);
-    border: 1px solid var(--line);
-    box-shadow: 0 8px 24px rgba(0,0,0,.06);
-    padding: 18px 20px;
-    transition: transform .2s ease, box-shadow .2s ease;
-  }
-  .source-card:hover { transform: translateY(-3px); box-shadow: 0 16px 36px rgba(0,0,0,.12); }
-  .source-card .lang { font-size: 12px; color: var(--accent); font-weight: 700; }
-  .source-card h3 { margin: 6px 0 8px; font-size: 18px; }
-  .source-card .meta { color: var(--ink-soft); font-size: 13px; }
-
-  /* Topic block */
-  .topic-block {
-    border-radius: 14px;
-    background: var(--card);
-    border: 1px solid var(--line);
-    box-shadow: 0 8px 24px rgba(0,0,0,.06);
-    padding: 26px 28px;
-    margin-bottom: 26px;
-  }
-  .topic-block .topic-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 12px; justify-content: space-between; }
-  .topic-block h2 { margin: 0; font-size: 28px; }
-  .topic-block .aliases { color: var(--ink-soft); font-size: 14px; }
-  .topic-summary { margin-top: 10px; color: #3d3732; font-size: 16px; }
-  .topic-body { margin-top: 16px; }
-  .topic-body h3 { font-size: 18px; margin: 20px 0 8px; color: var(--accent); }
-  .topic-body ul { margin: 0 0 0 2px; padding-left: 22px; }
-  .topic-body li { margin-bottom: 6px; }
-
-  /* Card grid */
-  .card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); gap: 16px; margin-top: 18px; }
-  .card {
-    border-radius: 14px;
-    background: var(--card);
-    border: 1px solid var(--line);
-    box-shadow: 0 8px 24px rgba(0,0,0,.06);
-    padding: 18px 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    transition: transform .2s ease, box-shadow .2s ease;
-  }
-  .card:hover { transform: translateY(-3px); box-shadow: 0 16px 36px rgba(0,0,0,.12); }
-  .card .badge {
-    align-self: flex-start;
-    font-size: 12px;
-    font-weight: 700;
-    padding: 3px 10px;
-    border-radius: 999px;
-    background: var(--accent-soft);
-    color: var(--accent);
-  }
-  .card-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
-  .topic-names { font-size: 11px; color: var(--ink-soft); letter-spacing: .02em; line-height: 1.5; text-align: right; }
-  .card h3 { margin: 0; font-size: 18px; line-height: 1.4; }
-  .card .excerpt {
-    position: relative;
-    font-family: var(--serif);
-    font-style: italic;
-    color: #544c46;
-    border-left: 3px solid var(--accent-soft);
-    padding: 4px 0 4px 16px;
-    margin: 0;
-  }
-  .card .excerpt::before {
-    content: "“";
-    position: absolute;
-    left: 4px;
-    top: -6px;
-    color: var(--accent);
-    opacity: .35;
-    font-size: 26px;
-    font-style: normal;
-    line-height: 1;
-  }
-  .card .cn { font-size: 14px; color: #3d3732; margin: 0; }
-  .card .ref { margin-top: auto; font-size: 12px; color: var(--ink-soft); }
-  .card .ref a { color: var(--accent); text-decoration: none; }
-  .card.hidden { display: none; }
-  .empty { color: var(--ink-soft); text-align: center; padding: 40px 0; display: none; }
-  .load-wrap { text-align: center; margin: 22px 0; }
-
-  /* Stats */
-  .stat-row { display: flex; flex-wrap: wrap; gap: 16px; justify-content: center; margin: 24px 0 4px; }
-  .stat { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 12px 26px; text-align: center; box-shadow: 0 4px 14px rgba(0,0,0,.04); }
-  .stat b { font-size: 28px; font-family: var(--serif); color: var(--accent); display: block; }
-  .stat span { font-size: 13px; color: var(--ink-soft); }
-
-  /* Footer */
-  footer { margin-top: 48px; border-top: 1px solid var(--line); padding: 30px 0 50px; color: var(--ink-soft); font-size: 13px; text-align: center; }
-  footer a { color: var(--accent); text-decoration: none; }
-
-  .md-link { display: inline-block; margin-top: 8px; font-size: 13px; color: var(--accent); text-decoration: none; border-bottom: 1px dashed var(--accent); }
-  .linkish { background: none; border: none; padding: 0; color: var(--accent); font: inherit; text-decoration: underline; text-decoration-style: dotted; cursor: pointer; text-align: left; }
-  .linkish:hover { color: var(--ink); }
-  .topic-card-list { list-style: none; padding: 0; margin: 4px 0 10px; display: flex; flex-wrap: wrap; gap: 8px 18px; }
-  .topic-card-list li::before { content: "→ "; color: var(--accent); }
-
-  /* ===== magazine polish injected ===== */
-  .news-topbar {
-    position: fixed; top: 0; left: 0; right: 0; z-index: 9999;
-    display: flex; align-items: center; gap: 16px; padding: 10px 22px;
-    background: rgba(246,241,231,.92); backdrop-filter: blur(12px);
-    border-bottom: 1px solid rgba(28,25,23,.12); transform: translateY(-100%);
-    transition: transform .3s ease; font-family: var(--serif);
-  }
-  .news-topbar.show { transform: translateY(0); }
-  .news-topbar .tb-logo { font-weight: 900; letter-spacing: .12em; font-size: 16px; white-space: nowrap; }
-  .news-topbar .tb-links { display: flex; flex-wrap: wrap; gap: 6px; }
-  .news-topbar .tb-link { border: 1px solid transparent; padding: 5px 10px; border-radius: 999px; font-size: 13px; cursor: pointer; color: var(--ink-soft); background: transparent; font-family: var(--sans); transition: all .15s; }
-  .news-topbar .tb-link:hover { border-color: var(--accent); color: var(--accent); }
-  .back-top { position: fixed; right: 22px; bottom: 22px; z-index: 9999; width: 44px; height: 44px; border-radius: 50%; border: 1px solid var(--accent); background: var(--paper); color: var(--accent); font-size: 18px; cursor: pointer; display: grid; place-items: center; box-shadow: 0 8px 20px rgba(0,0,0,.12); opacity: 0; pointer-events: none; transition: opacity .25s ease, transform .25s ease; }
-  .back-top.show { opacity: 1; pointer-events: auto; }
-  .back-top:hover { transform: translateY(-3px); }
-  .reading-progress { position: fixed; top: 0; left: 0; height: 3px; width: 0%; background: var(--accent); z-index: 10000; transition: width .1s linear; }
-  @media (max-width: 640px) {
-    .news-topbar { padding: 8px 12px; gap: 8px; }
-    .news-topbar .tb-links { display: none; }
-    .back-top { right: 14px; bottom: 14px; }
-  }
-</style>
+<title>苏霍姆林斯基教育知识库 · 首页</title>
+<link rel="stylesheet" href="style.css" />
 </head>
 <body>
+<nav class="topnav">
+  <div class="inner">
+    <a class="brand" href="index.html">苏霍姆林斯基教育知识库</a>
+    <div class="nav-links">
+      <a class="nav-link active" href="index.html">首页</a>
+      <a class="nav-link" href="explore.html">卡片检索</a>
+      <a class="nav-link" href="cases.html">案例 Review</a>
+      <a class="nav-link" href="sources.html">书源</a>
+    </div>
+  </div>
+</nav>
 
-<header class="masthead">
+<header class="hero">
   <div class="wrap">
     <div class="kicker">Sukhomlinsky Education KB</div>
-    <h1 class="masthead-title">苏霍姆林斯基教育知识库</h1>
-    <p class="sub">从原著中整理教育思想与真实案例：11 个书源、12 个主题、195 张可溯源卡片。人和 AI 都可以使用同一份 Markdown 底座。</p>
-    <div class="searchbox">
-      <input id="search" type="search" placeholder="搜索：后进生、家校合作、劳动、健康……" />
-      <button class="chip" id="clearBtn" type="button">重置</button>
+    <h1>活教育学：<br>从原著里长出来的教育智慧</h1>
+    <p class="sub">11 个书源 · 12 个主题 · 195 张可溯源卡片 · 12 个真实案例。每一条思想都回到苏霍姆林斯基的原著与出处。</p>
+    <div class="stats" id="stats">
+      <div class="stat"><b>11</b><span>书源</span></div>
+      <div class="stat"><b>12</b><span>主题</span></div>
+      <div class="stat"><b>195</b><span>卡片</span></div>
+      <div class="stat"><b>12</b><span>案例 Review</span></div>
     </div>
-    <div class="chips" id="typeChips"></div>
-    <div class="chips" id="topicChips" style="margin-top:6px"></div>
-    <div class="stat-row" id="stats"></div>
   </div>
 </header>
 
 <main class="wrap">
-
-  <!-- 来源 -->
-  <section class="section" id="sources">
-    <h2 class="section-title">书源一览</h2>
-    <p class="section-sub">已登记 11 个唯一书源：中文核心扫描书已整本 OCR，英文公开全文已入库，全部可在本地全文检索与回查。</p>
-    <div class="source-grid" id="sourceGrid"></div>
+  <h2 class="section-title">从这里开始</h2>
+  <p class="section-sub">四个入口，按你的目的选择。</p>
+  <section class="grid">
+    <a class="portal-card" href="explore.html">
+      <div class="icon">🔍</div>
+      <h3>卡片检索</h3>
+      <p>按关键词、类型（quote/case/principle/method/practice）和主题筛选全部卡片，每条带出处。</p>
+      <span class="go">去检索 →</span>
+    </a>
+    <a class="portal-card" href="cases.html">
+      <div class="icon">🧭</div>
+      <h3>案例 Review</h3>
+      <p>用真实教育困境反查知识库：后进生、说谎、坐不住、班级排挤、教师倦怠……给出可执行建议。</p>
+      <span class="go">看案例 →</span>
+    </a>
+    <a class="portal-card" href="sources.html">
+      <div class="icon">📚</div>
+      <h3>书源与作品地图</h3>
+      <p>查看已登记书源、OCR 状态、作品总清单与缺口，了解每张卡背后的书从哪里来。</p>
+      <span class="go">看书源 →</span>
+    </a>
+    <a class="portal-card" href="https://github.com/craeatZeven/sukhomlinsky-education-kb/blob/master/INDEX.md" target="_blank" rel="noopener">
+      <div class="icon">🧩</div>
+      <h3>Markdown 底座</h3>
+      <p>人和 AI 共用同一份数据：INDEX.md、cards/、sources/、SKILL.md，可直接被 Agent 加载。</p>
+      <span class="go">看仓库 →</span>
+    </a>
   </section>
 
-  <!-- 主题深读 -->
-  <section class="section" id="topics">
-    <h2 class="section-title">主题深读</h2>
-    <p class="section-sub">当前完成 12 个主题深读；每个主题先给核心判断、可操作方法、跨书综合，再放代表卡片，完整列表在下方“卡片检索”。</p>
-    <div id="topicArea"></div>
-  </section>
-
-  <!-- 卡片检索 -->
-  <section class="section" id="cards">
-    <h2 class="section-title">卡片检索</h2>
-    <p class="section-sub">支持关键词 + 类型 + 主题联合筛选；每条都带 source + ref，可回 Markdown 底稿核对。</p>
-    <div class="card-grid" id="cardGrid"></div>
-    <div class="empty" id="empty">没有匹配的卡片，换个关键词试试。</div>
-    <div class="load-wrap"><button id="loadMore" class="chip" type="button" style="display:none">加载更多卡片</button></div>
-  </section>
-
-  <!-- 案例 Review -->
-  <section class="section" id="cases">
-    <h2 class="section-title">案例 Review</h2>
-    <p class="section-sub">常见教育困境 → 知识库检索 → 可执行建议。完整版见 <a class="md-link" href="../docs/case-reviews.md">docs/case-reviews.md ↗</a></p>
-    <div class="source-grid" id="caseGrid"></div>
-  </section>
-
-  <!-- Roadmap -->
-  <section class="section" id="roadmap">
-    <h2 class="section-title">路线图</h2>
-    <div class="topic-block">
-      <ul>
-        <li><b>v0.1</b>：仓库骨架 + 首批主题卡片 ✅</li>
-        <li><b>v0.2</b>：11 书源登记、中文 6 本扫描书整本 OCR、12 主题体系 ✅</li>
-        <li><b>v0.3</b>：GitHub Pages 部署、自动校验、195 张可溯源卡片 ✅</li>
-        <li><b>v0.4</b>：网页杂志风精修、主题/类型联合筛选、案例场景导览（迭代中）</li>
-        <li><b>v0.5</b>：Agent Skill 发布、多语言、更多原著全文补充</li>
-      </ul>
+  <section>
+    <h2 class="section-title">一句话认识苏霍姆林斯基</h2>
+    <div class="source-card">
+      <p class="excerpt">教育的核心，就其本质来说，就在于让儿童始终体验到自己的尊严感：我是一个勤奋的脑力劳动者，是祖国的好公民，是父母的好儿女，是一个有着高尚的志趣、激情和不断取得进步的完美的人。</p>
+      <p class="ref">sk-0070 · 给教师的建议 · 详见 <a href="explore.html">卡片检索</a></p>
     </div>
   </section>
-
 </main>
 
 <footer>
   <div class="wrap">
-    <p>原创编排遵循仓库 <a href="../LICENSE">MIT License</a>；原文摘录归权利人所有，见 <a href="../NOTICE.md">NOTICE</a>。</p>
-    <p>本页是本地双文件原型（index.html + data.js）· 数据源 <a href="../INDEX.md">INDEX.md</a> · 数据由 <a href="../scripts/build_site.py">scripts/build_site.py</a> 自动生成</p>
+    <p>原创编排遵循 <a href="../LICENSE">MIT License</a>；原文摘录归权利人所有，见 <a href="../NOTICE.md">NOTICE</a>。</p>
+    <p>数据源 <a href="../INDEX.md">INDEX.md</a> · 自动生成 <a href="../scripts/build_site.py">build_site.py</a></p>
   </div>
 </footer>
 
-<script src="data.js"></script>
-<script>
-/* ===== 数据来自 web/data.js（由 scripts/build_site.py 自动生成）===== */
-const SOURCES = (window.KB_DATA && window.KB_DATA.sources) || [];
-const TOPICS = (window.KB_DATA && window.KB_DATA.topics) || [];
-const CARDS = (window.KB_DATA && window.KB_DATA.cards) || [];
-const TYPE_LABELS = {quote:"quote 语录", case:"case 案例", principle:"principle 原则", method:"method 方法", practice:"practice 实践"};
-
-/* ===== 渲染 ===== */
-function sourceUrl(slug){
-  const s = SOURCES.find(x=>x.slug===slug);
-  return s && s.url ? s.url : "../sources/" + slug + ".md";
-}
-function renderSources(){
-  const box = document.getElementById("sourceGrid");
-  box.innerHTML = SOURCES.map(s=>`
-    <div class="source-card">
-      <div class="lang">${s.lang}</div>
-      <h3>${s.title}</h3>
-      <div class="meta">${s.meta}</div>
-      <a class="md-link" target="_blank" rel="noopener" href="${s.url || '../sources/' + s.slug + '.md'}">查看来源记录 ↗</a>
-    </div>`).join("");
-}
-function renderTopics(){
-  const area = document.getElementById("topicArea");
-  area.innerHTML = TOPICS.map(t=>{
-    const cards = CARDS.filter(c=>c.topics.includes(t.slug));
-    const reps = cards.slice(0,4).map(c=>`<li><button class="linkish" onclick="goCard('${c.id}')">${c.title}</button></li>`).join("");
-    return `
-    <article class="topic-block">
-      <div class="topic-head">
-        <h2>${t.title}</h2>
-        <span class="aliases">${t.aliases}</span>
-      </div>
-      <p class="topic-summary">${t.summary}</p>
-      <div class="topic-body">
-        <h3>核心判断</h3><ul>${t.core.map(x=>`<li>${x}</li>`).join("")}</ul>
-        <h3>可操作方法</h3><ul>${t.methods.map(x=>`<li>${x}</li>`).join("")}</ul>
-        <h3>跨书综合</h3><p>${t.cross}</p>
-        <h3>代表卡片（${cards.length}）</h3>
-        ${reps?`<ul class="topic-card-list">${reps}</ul>`:`<p class="section-sub">暂无卡片</p>`}
-        <p><button class="chip" onclick="goTopic('${t.slug}')">查看本主题全部 ${cards.length} 张卡片 ↓</button></p>
-      </div>
-    </article>`;
-  }).join("");
-}
-function cardHTML(c){
-  const src = SOURCES.find(s=>s.slug===c.source);
-  const topicNames = (c.topics||[]).map(s=>{const t=TOPICS.find(x=>x.slug===s); return t?t.title:s;}).join(" · ");
-  return `
-  <article class="card" id="card-${c.id}" data-id="${c.id}">
-    <div class="card-top">
-      <span class="badge">${TYPE_LABELS[c.type]||c.type}</span>
-      <span class="topic-names">${topicNames}</span>
-    </div>
-    <h3>${c.title}</h3>
-    ${c.excerpt?`<p class="excerpt">“${c.excerpt}”</p>`:""}
-    ${c.cn?`<p class="cn">${c.cn}</p>`:""}
-    <div class="ref">${c.id} · ${src?src.title:c.source}<br>${c.ref}</div>
-  </article>`;
-}
-let currentFiltered = [];
-let visibleCount = 60;
-function renderCards(list){
-  currentFiltered = list;
-  visibleCount = 60;
-  paintCards();
-}
-function paintCards(){
-  const grid = document.getElementById("cardGrid");
-  const slice = currentFiltered.slice(0, visibleCount);
-  grid.innerHTML = slice.map(cardHTML).join("");
-  document.getElementById("empty").style.display = currentFiltered.length ? "none" : "block";
-  const btn = document.getElementById("loadMore");
-  btn.style.display = currentFiltered.length > visibleCount ? "inline-block" : "none";
-}
-function renderStats(){
-  document.getElementById("stats").innerHTML = `
-    <div class="stat"><b>${SOURCES.length}</b><span>书源</span></div>
-    <div class="stat"><b>${TOPICS.length}</b><span>主题</span></div>
-    <div class="stat"><b>${CARDS.length}</b><span>卡片</span></div>`;
-}
-const CASES = [
-  {title:"越补越差的“后进生”", desc:"先停止惩罚性补课，找回真实活动中的成功体验。", ids:"sk-0001 · sk-0002 · sk-0068 · sk-0076"},
-  {title:"家长用分数和打骂逼孩子", desc:"分数不当惩罚工具；把“再试一次”还给儿童。", ids:"sk-0045 · sk-0075 · sk-0157 · sk-0180"},
-  {title:"公开表扬养出表演型好孩子", desc:"减少高曝光表扬，让善行回到内心确认。", ids:"sk-0074 · sk-0088 · sk-0170"},
-  {title:"作业负担过重", desc:"负担来自死记而非页数；先做负担审计与作息重建。", ids:"sk-0083 · sk-0131 · sk-0160"},
-  {title:"少年逆反、拒绝沟通", desc:"没有信任便没有教育；先留通道，再谈指导。", ids:"sk-0080 · sk-0115 · sk-0153"},
-  {title:"家里没有共同精神生活", desc:"家庭小书架、朗读与父母的榜样优先于说教。", ids:"sk-0176 · sk-0127 · sk-0055 · sk-0072"},
-  {title:"低年级“坐不住”被当纪律差", desc:"先查健康与作息，再谈纪律；把好动变成贡献。", ids:"sk-0185 · sk-0165 · sk-0131 · sk-0184"},
-  {title:"教师忙到没时间备课", desc:"把自由时间还给教师；长期读书才是真正备课。", ids:"sk-0035 · sk-0064 · sk-0100 · sk-0161"},
-  {title:"班级小团体排挤与冷漠", desc:"别开批判会；用共同任务与“看见孤独者”重建集体。", ids:"sk-0030 · sk-0139 · sk-0140 · sk-0177"},
-  {title:"单亲/隔代/父母缺位", desc:"建立稳定成人连接，用日常传统补偿家庭温暖。", ids:"sk-0013 · sk-0043 · sk-0036 · sk-0031"},
-  {title:"家长把劳动当耽误学习", desc:"用完整而有情感出口的劳动证明“手巧→脑活”。", ids:"sk-0014 · sk-0066 · sk-0132 · sk-0151"},
-  {title:"孩子说谎之后怎么办", desc:"先听谎言在保护什么，用弥补后果替代惩罚逼供。", ids:"sk-0081 · sk-0143 · sk-0152 · sk-0047"}
-];
-function renderCases(){
-  const box = document.getElementById("caseGrid");
-  box.innerHTML = CASES.map(c=>`
-    <article class="source-card">
-      <div class="lang">案例 Review</div>
-      <h3>${c.title}</h3>
-      <div class="meta">${c.desc}</div>
-      <div class="ref" style="margin-top:8px;font-size:12px;color:var(--ink-soft)">${c.ids}</div>
-    </article>`).join("");
-}
-
-/* ===== 检索 ===== */
-let activeType = "all";
-let activeTopic = "all";
-function buildTypeChips(){
-  const box = document.getElementById("typeChips");
-  const types = ["all", ...new Set(CARDS.map(c=>c.type))];
-  box.innerHTML = types.map(t=>`<button class="chip ${t===activeType?"active":""}" data-type="${t}">${t==="all"?"全部类型":TYPE_LABELS[t]||t}</button>`).join("");
-}
-function buildTopicChips(){
-  const box = document.getElementById("topicChips");
-  const chips = [{slug:"all", title:"全部主题"}, ...TOPICS.map(t=>({slug:t.slug, title:t.title}))];
-  box.innerHTML = chips.map(t=>`<button class="chip ${t.slug===activeTopic?"active":""}" data-topic="${t.slug}">${t.title}</button>`).join("");
-}
-function cardSearchText(c){
-  const topicTitles = (c.topics||[]).map(s=>{const t=TOPICS.find(x=>x.slug===s); return t?t.title:"";}).join(" ");
-  return (c.title+" "+(c.cn||"")+" "+c.id+" "+c.source+" "+c.type+" "+topicTitles).toLowerCase();
-}
-function applyFilter(){
-  const q = (document.getElementById("search").value || "").trim().toLowerCase();
-  const filtered = CARDS.filter(c=>{
-    if(activeType!=="all" && c.type!==activeType) return false;
-    if(activeTopic!=="all" && !(c.topics||[]).includes(activeTopic)) return false;
-    if(!q) return true;
-    return cardSearchText(c).includes(q);
-  });
-  renderCards(filtered);
-}
-function goTopic(slug){
-  activeTopic = slug;
-  document.getElementById("search").value = "";
-  buildTopicChips(); buildTypeChips(); applyFilter();
-  document.getElementById("cards").scrollIntoView({behavior:"smooth", block:"start"});
-}
-function goCard(id){
-  activeTopic = "all"; activeType = "all";
-  document.getElementById("search").value = id;
-  buildTopicChips(); buildTypeChips(); applyFilter();
-  document.getElementById("cards").scrollIntoView({behavior:"smooth", block:"start"});
-}
-
-document.addEventListener("DOMContentLoaded", ()=>{
-  renderSources(); renderTopics(); renderStats(); renderCases(); buildTypeChips(); buildTopicChips(); renderCards(CARDS);
-  document.getElementById("typeChips").addEventListener("click", e=>{
-    const btn = e.target.closest(".chip"); if(!btn || !btn.dataset.type) return;
-    activeType = btn.dataset.type;
-    buildTypeChips(); applyFilter();
-  });
-  document.getElementById("topicChips").addEventListener("click", e=>{
-    const btn = e.target.closest(".chip"); if(!btn || !btn.dataset.topic) return;
-    activeTopic = btn.dataset.topic;
-    buildTopicChips(); applyFilter();
-  });
-  document.getElementById("search").addEventListener("input", applyFilter);
-  document.getElementById("loadMore").addEventListener("click", ()=>{ visibleCount += 60; paintCards(); });
-  document.getElementById("clearBtn").addEventListener("click", ()=>{
-    document.getElementById("search").value=""; activeType="all"; activeTopic="all"; buildTypeChips(); buildTopicChips(); applyFilter();
-  });
-
-  /* scroll reveal (respect reduced motion) */
-  if(!window.matchMedia('(prefers-reduced-motion: reduce)').matches){
-    document.body.classList.add('reveal');
-    const io = new IntersectionObserver(entries=>{
-      entries.forEach(en=>{ if(en.isIntersecting){ en.target.classList.add('revealed'); io.unobserve(en.target); } });
-    }, {threshold:.06, rootMargin:'0px 0px -40px 0px'});
-    document.querySelectorAll('.section').forEach(el=>io.observe(el));
-  }
-
-  /* magazine polish */
-  const bar=document.createElement('div'); bar.className='news-topbar';
-  bar.innerHTML='<span class="tb-logo">苏霍姆林斯基教育知识库</span><div class="tb-links"></div>';
-  document.body.appendChild(bar);
-  const labels=['书源一览','主题深读','卡片检索','案例 Review','路线图'];
-  const linksWrap=bar.querySelector('.tb-links');
-  const getSection=(label)=>Array.prototype.find.call(document.querySelectorAll('.section-title'), el=>el.textContent.indexOf(label)>=0);
-  labels.forEach(label=>{const b=document.createElement('button'); b.className='tb-link'; b.textContent=label; b.addEventListener('click',()=>{const el=getSection(label); if(el) el.scrollIntoView({behavior:'smooth', block:'start'});}); linksWrap.appendChild(b);});
-  const topBtn=document.createElement('button'); topBtn.className='back-top'; topBtn.innerHTML='↑'; topBtn.setAttribute('aria-label','返回顶部'); topBtn.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'})); document.body.appendChild(topBtn);
-  const progress=document.createElement('div'); progress.className='reading-progress'; document.body.appendChild(progress);
-  function onScroll(){const y=window.scrollY||document.documentElement.scrollTop; if(y>300) bar.classList.add('show'); else bar.classList.remove('show'); if(y>400) topBtn.classList.add('show'); else topBtn.classList.remove('show'); const h=document.documentElement.scrollHeight-window.innerHeight; progress.style.width=(h>0?(y/h*100):0)+'%';}
-  window.addEventListener('scroll', onScroll, {passive:true}); onScroll();
-});
-</script>
+<script src="theme.js"></script>
 </body>
 </html>

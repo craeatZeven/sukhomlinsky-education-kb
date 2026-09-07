@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>卡片检索 · 苏霍姆林斯基教育知识库</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<nav class="topnav">
+  <div class="inner">
+    <a class="brand" href="index.html">苏霍姆林斯基教育知识库</a>
+    <div class="nav-links">
+      <a class="nav-link" href="index.html">首页</a>
+      <a class="nav-link active" href="explore.html">卡片检索</a>
+      <a class="nav-link" href="cases.html">案例 Review</a>
+      <a class="nav-link" href="sources.html">书源</a>
+    </div>
+  </div>
+</nav>
+
+<header class="page-head">
+  <div class="wrap">
+    <div class="eyebrow">Card Explorer</div>
+    <h1>卡片检索</h1>
+    <p>关键词 + 类型 + 主题联合筛选。每条卡片都来自真实书源，可回查出处。</p>
+    <div class="searchbox">
+      <input id="search" type="search" placeholder="搜索：后进生、健康、读书、评价……" />
+      <button class="chip" id="clearBtn" type="button">重置</button>
+    </div>
+    <div class="chips" id="typeChips"></div>
+    <div class="chips" id="topicChips" style="margin-top:6px"></div>
+    <div class="stats" id="stats" style="margin-top:18px"></div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section>
+    <div class="grid" id="cardGrid"></div>
+    <div class="empty" id="empty">没有匹配的卡片，换个关键词或筛选条件试试。</div>
+    <div class="load-wrap"><button id="loadMore" class="chip" type="button" style="display:none">加载更多卡片</button></div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><a href="index.html">← 返回首页</a> · 数据源 <a href="../INDEX.md">INDEX.md</a></p>
+  </div>
+</footer>
+
+<script src="data.js"></script>
+<script src="theme.js"></script>
+<script>
+const SOURCES = (window.KB_DATA && window.KB_DATA.sources) || [];
+const TOPICS = (window.KB_DATA && window.KB_DATA.topics) || [];
+const CARDS = (window.KB_DATA && window.KB_DATA.cards) || [];
+const TYPE_LABELS = {quote:"quote 语录", case:"case 案例", principle:"principle 原则", method:"method 方法", practice:"practice 实践"};
+
+let activeType = "all", activeTopic = "all", currentFiltered = [], visibleCount = 60;
+const $ = id => document.getElementById(id);
+
+function buildTypeChips(){
+  const types = ["all", ...new Set(CARDS.map(c=>c.type))];
+  $("typeChips").innerHTML = types.map(t=>`<button class="chip ${t===activeType?"active":""}" data-type="${t}">${t==="all"?"全部类型":TYPE_LABELS[t]||t}</button>`).join("");
+}
+function buildTopicChips(){
+  const chips = [{slug:"all", title:"全部主题"}, ...TOPICS.map(t=>({slug:t.slug, title:t.title}))];
+  $("topicChips").innerHTML = chips.map(t=>`<button class="chip ${t.slug===activeTopic?"active":""}" data-topic="${t.slug}">${t.title}</button>`).join("");
+}
+function cardSearchText(c){
+  const topics = (c.topics||[]).map(s=>{const t=TOPICS.find(x=>x.slug===s); return t?t.title:"";}).join(" ");
+  return (c.title+" "+(c.cn||"")+" "+c.id+" "+c.source+" "+c.type+" "+topics).toLowerCase();
+}
+function sourceTitle(slug){ const s=SOURCES.find(x=>x.slug===slug); return s?s.title:slug; }
+function cardHTML(c){
+  const topicNames = (c.topics||[]).map(s=>{const t=TOPICS.find(x=>x.slug===s); return t?t.title:s;}).join(" · ");
+  return `
+  <article class="card" id="card-${c.id}">
+    <div class="card-top">
+      <span class="badge">${TYPE_LABELS[c.type]||c.type}</span>
+      <span class="topic-names">${topicNames}</span>
+    </div>
+    <h3>${c.title}</h3>
+    ${c.excerpt?`<p class="excerpt">“${c.excerpt}”</p>`:""}
+    ${c.cn?`<p class="cn">${c.cn}</p>`:""}
+    <div class="ref">${c.id} · ${sourceTitle(c.source)}<br>${c.ref}</div>
+  </article>`;
+}
+function paintCards(){
+  const slice = currentFiltered.slice(0, visibleCount);
+  $("cardGrid").innerHTML = slice.map(cardHTML).join("");
+  $("empty").style.display = currentFiltered.length ? "none" : "block";
+  $("loadMore").style.display = currentFiltered.length > visibleCount ? "inline-block" : "none";
+}
+function applyFilter(){
+  const q = ($("search").value||"").trim().toLowerCase();
+  currentFiltered = CARDS.filter(c=>{
+    if(activeType!=="all" && c.type!==activeType) return false;
+    if(activeTopic!=="all" && !(c.topics||[]).includes(activeTopic)) return false;
+    if(q && !cardSearchText(c).includes(q)) return false;
+    return true;
+  });
+  visibleCount = 60;
+  paintCards();
+}
+function renderStats(){
+  $("stats").innerHTML = `
+    <div class="stat"><b>${currentFiltered.length}</b><span>当前结果</span></div>
+    <div class="stat"><b>${CARDS.length}</b><span>全部卡片</span></div>`;
+}
+document.addEventListener("DOMContentLoaded", ()=>{
+  buildTypeChips(); buildTopicChips(); applyFilter(); renderStats();
+  $("typeChips").addEventListener("click", e=>{
+    const btn=e.target.closest(".chip"); if(!btn||!btn.dataset.type) return;
+    activeType=btn.dataset.type; buildTypeChips(); applyFilter(); renderStats();
+  });
+  $("topicChips").addEventListener("click", e=>{
+    const btn=e.target.closest(".chip"); if(!btn||!btn.dataset.topic) return;
+    activeTopic=btn.dataset.topic; buildTopicChips(); applyFilter(); renderStats();
+  });
+  $("search").addEventListener("input", ()=>{ applyFilter(); renderStats(); });
+  $("loadMore").addEventListener("click", ()=>{ visibleCount+=60; paintCards(); });
+  $("clearBtn").addEventListener("click", ()=>{
+    $("search").value=""; activeType="all"; activeTopic="all";
+    buildTypeChips(); buildTopicChips(); applyFilter(); renderStats();
+  });
+});
+</script>
+</body>
+</html>

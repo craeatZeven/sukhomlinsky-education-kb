@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>书源 · 苏霍姆林斯基教育知识库</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<nav class="topnav">
+  <div class="inner">
+    <a class="brand" href="index.html">苏霍姆林斯基教育知识库</a>
+    <div class="nav-links">
+      <a class="nav-link" href="index.html">首页</a>
+      <a class="nav-link" href="explore.html">卡片检索</a>
+      <a class="nav-link" href="cases.html">案例 Review</a>
+      <a class="nav-link active" href="sources.html">书源</a>
+    </div>
+  </div>
+</nav>
+
+<header class="page-head">
+  <div class="wrap">
+    <div class="eyebrow">Sources</div>
+    <h1>书源与作品地图</h1>
+    <p>每张卡片的出处都来自这些书源。完整作品清单与缺口见仓库文档。</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <section>
+    <h2 class="section-title">已登记书源</h2>
+    <div class="grid" id="sourceGrid"></div>
+  </section>
+
+  <section>
+    <h2 class="section-title">文档入口</h2>
+    <div class="grid">
+      <a class="portal-card" href="https://github.com/craeatZeven/sukhomlinsky-education-kb/blob/master/docs/works-inventory.md" target="_blank" rel="noopener">
+        <div class="icon">🗺️</div><h3>作品总清单</h3><p>俄/中/英书目、五卷本目录、第5卷68篇论文、合法获取目标。</p><span class="go">打开 →</span>
+      </a>
+      <a class="portal-card" href="https://github.com/craeatZeven/sukhomlinsky-education-kb/blob/master/docs/case-reviews.md" target="_blank" rel="noopener">
+        <div class="icon">🧭</div><h3>案例 Review 长文</h3><p>12 个教育场景的完整知识库回应与可执行建议。</p><span class="go">打开 →</span>
+      </a>
+      <a class="portal-card" href="https://github.com/craeatZeven/sukhomlinsky-education-kb/blob/master/docs/quality-notes.md" target="_blank" rel="noopener">
+        <div class="icon">🔎</div><h3>质量与重复观察</h3><p>OCR 待校、ref 待纸本核、语义重叠卡登记。</p><span class="go">打开 →</span>
+      </a>
+      <a class="portal-card" href="https://github.com/craeatZeven/sukhomlinsky-education-kb/blob/master/INDEX.md" target="_blank" rel="noopener">
+        <div class="icon">🧩</div><h3>唯一索引 INDEX.md</h3><p>主题、来源、卡片三合一，AI/开发者入口。</p><span class="go">打开 →</span>
+      </a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><a href="index.html">← 返回首页</a> · 本地全文与 OCR 文本保存在 gitignored 的 <code>local_working_copy/</code></p>
+  </div>
+</footer>
+
+<script src="data.js"></script>
+<script src="theme.js"></script>
+<script>
+const SOURCES = (window.KB_DATA && window.KB_DATA.sources) || [];
+document.addEventListener("DOMContentLoaded", ()=>{
+  document.getElementById("sourceGrid").innerHTML = SOURCES.map(s=>`
+    <article class="source-card">
+      <span class="badge">${s.lang}</span>
+      <h3 style="margin:10px 0 6px">${s.title}</h3>
+      <p class="meta">${s.meta}</p>
+      <p class="ref" style="margin-top:10px"><a target="_blank" rel="noopener" href="${s.url || '../sources/' + s.slug + '.md'}">查看来源记录 ↗</a></p>
+    </article>`).join("");
+});
+</script>
+</body>
+</html>

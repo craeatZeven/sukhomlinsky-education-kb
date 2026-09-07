@@ -159,6 +159,8 @@ document.addEventListener("DOMContentLoaded", ()=>{
   if(t && TOPICS.some(x=>x.slug===t)) activeTopic = t;
   const tagsParam = qs.get("tags");
   if(tagsParam){ tagsParam.split(",").forEach(id=>{ if(id.startsWith("type:")||id.startsWith("tag:")) activeTags.add(id); }); }
+  const qParam = qs.get("q");
+  if(qParam) $("search").value = qParam;
   buildTopicChips(); buildTagChips(); applyFilter(); renderStats(); syncUrl();
   $("topicChips").addEventListener("click", e=>{
     const btn=e.target.closest(".chip"); if(!btn||!btn.dataset.topic) return;

@@ -6,18 +6,18 @@
 
 | Slug | 标题 | 卡片数 |
 |---|---|---|
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 18 |
-| [family-school](topics/family-school.md) | 家校合作 | 10 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 7 |
-| [health-first](topics/health-first.md) | 健康第一 | 6 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 7 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 5 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 9 |
-| [love-education](topics/love-education.md) | 爱的教育 | 6 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 6 |
-| [child-study](topics/child-study.md) | 儿童研究 | 9 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 7 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 7 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 22 |
+| [family-school](topics/family-school.md) | 家校合作 | 11 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 9 |
+| [health-first](topics/health-first.md) | 健康第一 | 7 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 8 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 6 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 11 |
+| [love-education](topics/love-education.md) | 爱的教育 | 8 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 7 |
+| [child-study](topics/child-study.md) | 儿童研究 | 14 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 8 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 8 |
 
 ## 来源 Sources
 
@@ -112,3 +112,13 @@
 | [sk-0071](cards/sk-0071-parent-school.md) | method | family-school / child-study | gei-jiao-shi-de-jian-yi-zh | 家长学校：从孩子入学前两年开始持续培训家长 |
 | [sk-0072](cards/sk-0072-favorite-book-self-education.md) | principle | reading-and-books | gei-jiao-shi-de-jian-yi-zh | 让每个少年都有一本心爱的书，自我教育从好书开始 |
 | [sk-0073](cards/sk-0073-every-child-poet-strings.md) | quote | aesthetic-nature-education / thinking-and-nature | gei-jiao-shi-de-jian-yi-zh | 每个孩子天性都是诗人，要让诗的琴弦响起来 |
+| [sk-0074](cards/sk-0074-public-praise-mold-model-student.md) | case | love-education / collective-education | xuan-ji-zh-vol5 | 公开表扬喂大的“模范生”，反而少了心肝 |
+| [sk-0075](cards/sk-0075-no-bad-grades-for-young-children.md) | method | assessment-grading / child-study / learning-difficulties | xuan-ji-zh-vol5 | 不给低年级学生打两分：两分就是鞭子和棍棒 |
+| [sk-0076](cards/sk-0076-107-intellectually-backward-became-educated.md) | case | learning-difficulties / child-study | xuan-ji-zh-vol5 | 107名智力落后学生：后来全都成为有知识的人 |
+| [sk-0077](cards/sk-0077-independent-reading-rescues-backward-students.md) | quote | reading-and-books / learning-difficulties | xuan-ji-zh-vol5 | 独立阅读才能真正挽救智力落后学生 |
+| [sk-0078](cards/sk-0078-suspense-at-textbook-core.md) | method | teacher-growth / child-study | xuan-ji-zh-vol5 | 在教材的“症结”处制造悬念，让旧知识成为获取新知的工具 |
+| [sk-0079](cards/sk-0079-handwork-foundation-before-high-tech.md) | principle | labor-education / child-study | xuan-ji-zh-vol5 | 高技术时代，仍要先掌握手工基本功 |
+| [sk-0080](cards/sk-0080-no-trust-no-education.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol5 | 最怪诞的是不相信人：没有信任便没有教育 |
+| [sk-0081](cards/sk-0081-father-silence-corrects-lie.md) | case | family-school / love-education / labor-education | xuan-ji-zh-vol5 | 父亲用沉默纠正谎言：家庭靠关系与榜样，不靠说教 |
+| [sk-0082](cards/sk-0082-living-nature-cannot-be-replaced.md) | quote | thinking-and-nature / aesthetic-nature-education | xuan-ji-zh-vol5 | 活生生的大自然，不能被技术影像取代 |
+| [sk-0083](cards/sk-0083-burden-root-memorization-not-pages.md) | principle | learning-difficulties / health-first | xuan-ji-zh-vol5 | 负担过重的根源不在页数，而在把该理解的东西变成死记 |

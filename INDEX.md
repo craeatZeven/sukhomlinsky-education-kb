@@ -6,16 +6,16 @@
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 46 |
 | [family-school](topics/family-school.md) | 家校合作 | 49 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 69 |
-| [health-first](topics/health-first.md) | 健康第一 | 22 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 32 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 70 |
+| [health-first](topics/health-first.md) | 健康第一 | 23 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 33 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 67 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 106 |
-| [love-education](topics/love-education.md) | 爱的教育 | 65 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 108 |
+| [love-education](topics/love-education.md) | 爱的教育 | 66 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 21 |
-| [child-study](topics/child-study.md) | 儿童研究 | 115 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 29 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 30 |
+| [child-study](topics/child-study.md) | 儿童研究 | 116 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 30 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 31 |
 
 ## 来源 Sources
 
@@ -405,3 +405,11 @@
 | [sk-0366](cards/sk-0366-known-book-excerpts-08.md) | quote | teacher-growth / collective-education | xuan-ji-zh-vol4 | 我校集体的教育信念 |
 | [sk-0367](cards/sk-0367-known-book-excerpts-09.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol4 | 信任才能唤起自尊与自我教育 |
 | [sk-0368](cards/sk-0368-known-book-excerpts-10.md) | quote | teacher-growth | xuan-ji-zh-vol4 | 向年轻校长提听课建议 |
+| [sk-0369](cards/sk-0369-vol4-deep-pass2-01.md) | quote | teacher-growth | xuan-ji-zh-vol4 | 教师是学生智力生活的第一盏指路灯 |
+| [sk-0370](cards/sk-0370-vol4-deep-pass2-02.md) | quote | reading-and-books | xuan-ji-zh-vol4 | 没有课外阅读，课堂阅读就会变成死记硬背 |
+| [sk-0371](cards/sk-0371-vol4-deep-pass2-03.md) | quote | health-first | xuan-ji-zh-vol4 | 只有当运动成为每个人都喜爱的活动，才能成为教育手段 |
+| [sk-0372](cards/sk-0372-vol4-deep-pass2-04.md) | quote | love-education | xuan-ji-zh-vol4 | 善良情感，是良心的头道防线 |
+| [sk-0373](cards/sk-0373-vol4-deep-pass2-05.md) | quote | child-study / thinking-and-nature | xuan-ji-zh-vol4 | 教会儿童积极地看世界，在劳动中恪守信念 |
+| [sk-0374](cards/sk-0374-vol4-deep-pass2-06.md) | quote | labor-education | xuan-ji-zh-vol4 | 普通学校的宗旨不在于职业训练 |
+| [sk-0375](cards/sk-0375-vol4-deep-pass2-07.md) | quote | aesthetic-nature-education | xuan-ji-zh-vol4 | 美是人的道德财富的源泉 |
+| [sk-0376](cards/sk-0376-vol4-deep-pass2-08.md) | quote | teacher-growth | xuan-ji-zh-vol4 | 教师的人格是进行教育的基石 |

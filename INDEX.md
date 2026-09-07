@@ -9,13 +9,13 @@
 | [labor-education](topics/labor-education.md) | 劳动教育 | 69 |
 | [health-first](topics/health-first.md) | 健康第一 | 22 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 32 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 65 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 103 |
-| [love-education](topics/love-education.md) | 爱的教育 | 59 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 67 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 106 |
+| [love-education](topics/love-education.md) | 爱的教育 | 65 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 21 |
-| [child-study](topics/child-study.md) | 儿童研究 | 111 |
+| [child-study](topics/child-study.md) | 儿童研究 | 115 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 29 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 29 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 30 |
 
 ## 来源 Sources
 
@@ -395,3 +395,13 @@
 | [sk-0356](cards/sk-0356-letters-to-son-09.md) | principle | child-study / reading-and-books | xuan-ji-zh-vol3 | 自我教育从自我认识开始 |
 | [sk-0357](cards/sk-0357-letters-to-son-10.md) | quote | family-school / child-study | xuan-ji-zh-vol3 | 在小孩子身上看到明天的成年人 |
 | [sk-0358](cards/sk-0358-letters-to-son-11.md) | quote | labor-education / family-school | xuan-ji-zh-vol3 | 你在大地上的足迹：童年的汗水 |
+| [sk-0359](cards/sk-0359-known-book-excerpts-01.md) | quote | thinking-and-nature | xuan-ji-zh-vol3 | 300页《大自然的书》：300次观察，学习思索 |
+| [sk-0360](cards/sk-0360-known-book-excerpts-02.md) | quote | love-education / collective-education | xuan-ji-zh-vol3 | 你们是土地的主人 |
+| [sk-0361](cards/sk-0361-known-book-excerpts-03.md) | quote | love-education / child-study | xuan-ji-zh-vol2 | 生活由行为举止组成 |
+| [sk-0362](cards/sk-0362-known-book-excerpts-04.md) | quote | love-education | xuan-ji-zh-vol2 | 生而为人，要成为大写的人 |
+| [sk-0363](cards/sk-0363-known-book-excerpts-05.md) | quote | child-study / love-education | xuan-ji-zh-vol2 | 容忍弱点，对邪恶毫不妥协 |
+| [sk-0364](cards/sk-0364-known-book-excerpts-06.md) | quote | love-education | xuan-ji-zh-vol2 | 懂得爱，才会成为真正的人 |
+| [sk-0365](cards/sk-0365-known-book-excerpts-07.md) | quote | child-study / love-education | xuan-ji-zh-vol2 | 成为有教养的人，先要有欢乐 |
+| [sk-0366](cards/sk-0366-known-book-excerpts-08.md) | quote | teacher-growth / collective-education | xuan-ji-zh-vol4 | 我校集体的教育信念 |
+| [sk-0367](cards/sk-0367-known-book-excerpts-09.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol4 | 信任才能唤起自尊与自我教育 |
+| [sk-0368](cards/sk-0368-known-book-excerpts-10.md) | quote | teacher-growth | xuan-ji-zh-vol4 | 向年轻校长提听课建议 |

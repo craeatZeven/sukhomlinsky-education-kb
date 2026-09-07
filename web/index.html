@@ -169,6 +169,8 @@
     background: var(--accent-soft);
     color: var(--accent);
   }
+  .card-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
+  .topic-names { font-size: 11px; color: var(--ink-soft); letter-spacing: .02em; line-height: 1.5; text-align: right; }
   .card h3 { margin: 0; font-size: 18px; line-height: 1.4; }
   .card .excerpt {
     font-family: var(--serif);
@@ -183,6 +185,7 @@
   .card .ref a { color: var(--accent); text-decoration: none; }
   .card.hidden { display: none; }
   .empty { color: var(--ink-soft); text-align: center; padding: 40px 0; display: none; }
+  .load-wrap { text-align: center; margin: 22px 0; }
 
   /* Stats */
   .stat-row { display: flex; flex-wrap: wrap; gap: 16px; justify-content: center; margin: 24px 0 4px; }
@@ -195,6 +198,10 @@
   footer a { color: var(--accent); text-decoration: none; }
 
   .md-link { display: inline-block; margin-top: 8px; font-size: 13px; color: var(--accent); text-decoration: none; border-bottom: 1px dashed var(--accent); }
+  .linkish { background: none; border: none; padding: 0; color: var(--accent); font: inherit; text-decoration: underline; text-decoration-style: dotted; cursor: pointer; text-align: left; }
+  .linkish:hover { color: var(--ink); }
+  .topic-card-list { list-style: none; padding: 0; margin: 4px 0 10px; display: flex; flex-wrap: wrap; gap: 8px 18px; }
+  .topic-card-list li::before { content: "→ "; color: var(--accent); }
 
   /* ===== magazine polish injected ===== */
   .news-topbar {
@@ -226,12 +233,13 @@
   <div class="wrap">
     <div class="kicker">Sukhomlinsky Education KB</div>
     <h1 class="masthead-title">苏霍姆林斯基教育知识库</h1>
-    <p class="sub">从原著中整理教育思想与真实案例，按主题检索、逐条溯源。人和 AI 都可以使用同一份 Markdown 底座。</p>
+    <p class="sub">从原著中整理教育思想与真实案例：11 个书源、12 个主题、195 张可溯源卡片。人和 AI 都可以使用同一份 Markdown 底座。</p>
     <div class="searchbox">
       <input id="search" type="search" placeholder="搜索：后进生、家校合作、劳动、健康……" />
       <button class="chip" id="clearBtn" type="button">重置</button>
     </div>
     <div class="chips" id="typeChips"></div>
+    <div class="chips" id="topicChips" style="margin-top:6px"></div>
     <div class="stat-row" id="stats"></div>
   </div>
 </header>
@@ -241,23 +249,24 @@
   <!-- 来源 -->
   <section class="section" id="sources">
     <h2 class="section-title">书源一览</h2>
-    <p class="section-sub">已登记 11 个唯一书源，覆盖本地 12 份文件；英文两本已抽全文，中文 EPUB 已抽文本，中文扫描版正在 OCR。</p>
+    <p class="section-sub">已登记 11 个唯一书源：中文核心扫描书已整本 OCR，英文公开全文已入库，全部可在本地全文检索与回查。</p>
     <div class="source-grid" id="sourceGrid"></div>
   </section>
 
   <!-- 主题深读 -->
   <section class="section" id="topics">
     <h2 class="section-title">主题深读</h2>
-    <p class="section-sub">当前已完成“学习困难学生”“家校合作”“劳动教育”“健康第一”“美育与自然”“集体教育”“教师成长”“爱的教育”“评价与分数”“儿童研究”“阅读与书籍”“思维课与大自然”十二个主题；后续按同一结构扩展。</p>
+    <p class="section-sub">当前完成 12 个主题深读；每个主题先给核心判断、可操作方法、跨书综合，再放代表卡片，完整列表在下方“卡片检索”。</p>
     <div id="topicArea"></div>
   </section>
 
   <!-- 卡片检索 -->
   <section class="section" id="cards">
     <h2 class="section-title">卡片检索</h2>
-    <p class="section-sub">quote / case / principle / method / practice，全部带 source + ref。</p>
+    <p class="section-sub">支持关键词 + 类型 + 主题联合筛选；每条都带 source + ref，可回 Markdown 底稿核对。</p>
     <div class="card-grid" id="cardGrid"></div>
     <div class="empty" id="empty">没有匹配的卡片，换个关键词试试。</div>
+    <div class="load-wrap"><button id="loadMore" class="chip" type="button" style="display:none">加载更多卡片</button></div>
   </section>
 
   <!-- Roadmap -->
@@ -265,10 +274,11 @@
     <h2 class="section-title">路线图</h2>
     <div class="topic-block">
       <ul>
-        <li><b>v0.1</b>：仓库骨架 + “学习困难学生”主题 + 8 张卡片 ✅</li>
-        <li><b>v0.2</b>：补全中文书源、OCR、更多主题（家校合作/劳动/美育/集体/教师成长/健康）</li>
-        <li><b>v0.3</b>：GitHub Pages 部署、JSON/CSV 导出、自动校验</li>
-        <li><b>v0.4</b>：发布为可安装 Agent Skill（skills.sh）、多语言</li>
+        <li><b>v0.1</b>：仓库骨架 + 首批主题卡片 ✅</li>
+        <li><b>v0.2</b>：11 书源登记、中文 6 本扫描书整本 OCR、12 主题体系 ✅</li>
+        <li><b>v0.3</b>：GitHub Pages 部署、自动校验、195 张可溯源卡片 ✅</li>
+        <li><b>v0.4</b>：网页杂志风精修、主题/类型联合筛选、案例场景导览（迭代中）</li>
+        <li><b>v0.5</b>：Agent Skill 发布、多语言、更多原著全文补充</li>
       </ul>
     </div>
   </section>
@@ -309,6 +319,7 @@ function renderTopics(){
   const area = document.getElementById("topicArea");
   area.innerHTML = TOPICS.map(t=>{
     const cards = CARDS.filter(c=>c.topics.includes(t.slug));
+    const reps = cards.slice(0,4).map(c=>`<li><button class="linkish" onclick="goCard('${c.id}')">${c.title}</button></li>`).join("");
     return `
     <article class="topic-block">
       <div class="topic-head">
@@ -320,27 +331,42 @@ function renderTopics(){
         <h3>核心判断</h3><ul>${t.core.map(x=>`<li>${x}</li>`).join("")}</ul>
         <h3>可操作方法</h3><ul>${t.methods.map(x=>`<li>${x}</li>`).join("")}</ul>
         <h3>跨书综合</h3><p>${t.cross}</p>
-        <h3>相关卡片（${cards.length}）</h3>
-        <div class="card-grid">${cards.map(c=>cardHTML(c)).join("")}</div>
+        <h3>代表卡片（${cards.length}）</h3>
+        ${reps?`<ul class="topic-card-list">${reps}</ul>`:`<p class="section-sub">暂无卡片</p>`}
+        <p><button class="chip" onclick="goTopic('${t.slug}')">查看本主题全部 ${cards.length} 张卡片 ↓</button></p>
       </div>
     </article>`;
   }).join("");
 }
 function cardHTML(c){
   const src = SOURCES.find(s=>s.slug===c.source);
+  const topicNames = (c.topics||[]).map(s=>{const t=TOPICS.find(x=>x.slug===s); return t?t.title:s;}).join(" · ");
   return `
-  <article class="card" data-search="${(c.title+" "+(c.cn||"")+" "+c.id+" "+c.source+" "+c.type).toLowerCase()}">
-    <span class="badge">${TYPE_LABELS[c.type]||c.type}</span>
+  <article class="card" id="card-${c.id}" data-id="${c.id}">
+    <div class="card-top">
+      <span class="badge">${TYPE_LABELS[c.type]||c.type}</span>
+      <span class="topic-names">${topicNames}</span>
+    </div>
     <h3>${c.title}</h3>
     ${c.excerpt?`<p class="excerpt">“${c.excerpt}”</p>`:""}
     ${c.cn?`<p class="cn">${c.cn}</p>`:""}
     <div class="ref">${c.id} · ${src?src.title:c.source}<br>${c.ref}</div>
   </article>`;
 }
+let currentFiltered = [];
+let visibleCount = 60;
 function renderCards(list){
+  currentFiltered = list;
+  visibleCount = 60;
+  paintCards();
+}
+function paintCards(){
   const grid = document.getElementById("cardGrid");
-  grid.innerHTML = list.map(cardHTML).join("");
-  document.getElementById("empty").style.display = list.length ? "none" : "block";
+  const slice = currentFiltered.slice(0, visibleCount);
+  grid.innerHTML = slice.map(cardHTML).join("");
+  document.getElementById("empty").style.display = currentFiltered.length ? "none" : "block";
+  const btn = document.getElementById("loadMore");
+  btn.style.display = currentFiltered.length > visibleCount ? "inline-block" : "none";
 }
 function renderStats(){
   document.getElementById("stats").innerHTML = `
@@ -351,31 +377,60 @@ function renderStats(){
 
 /* ===== 检索 ===== */
 let activeType = "all";
+let activeTopic = "all";
 function buildTypeChips(){
   const box = document.getElementById("typeChips");
   const types = ["all", ...new Set(CARDS.map(c=>c.type))];
   box.innerHTML = types.map(t=>`<button class="chip ${t===activeType?"active":""}" data-type="${t}">${t==="all"?"全部类型":TYPE_LABELS[t]||t}</button>`).join("");
 }
+function buildTopicChips(){
+  const box = document.getElementById("topicChips");
+  const chips = [{slug:"all", title:"全部主题"}, ...TOPICS.map(t=>({slug:t.slug, title:t.title}))];
+  box.innerHTML = chips.map(t=>`<button class="chip ${t.slug===activeTopic?"active":""}" data-topic="${t.slug}">${t.title}</button>`).join("");
+}
+function cardSearchText(c){
+  const topicTitles = (c.topics||[]).map(s=>{const t=TOPICS.find(x=>x.slug===s); return t?t.title:"";}).join(" ");
+  return (c.title+" "+(c.cn||"")+" "+c.id+" "+c.source+" "+c.type+" "+topicTitles).toLowerCase();
+}
 function applyFilter(){
   const q = (document.getElementById("search").value || "").trim().toLowerCase();
   const filtered = CARDS.filter(c=>{
     if(activeType!=="all" && c.type!==activeType) return false;
+    if(activeTopic!=="all" && !(c.topics||[]).includes(activeTopic)) return false;
     if(!q) return true;
-    return (c.title+" "+(c.cn||"")+" "+c.id+" "+c.source+" "+c.type).toLowerCase().includes(q);
+    return cardSearchText(c).includes(q);
   });
   renderCards(filtered);
 }
+function goTopic(slug){
+  activeTopic = slug;
+  document.getElementById("search").value = "";
+  buildTopicChips(); buildTypeChips(); applyFilter();
+  document.getElementById("cards").scrollIntoView({behavior:"smooth", block:"start"});
+}
+function goCard(id){
+  activeTopic = "all"; activeType = "all";
+  document.getElementById("search").value = id;
+  buildTopicChips(); buildTypeChips(); applyFilter();
+  document.getElementById("cards").scrollIntoView({behavior:"smooth", block:"start"});
+}
 
 document.addEventListener("DOMContentLoaded", ()=>{
-  renderSources(); renderTopics(); renderStats(); buildTypeChips(); renderCards(CARDS);
+  renderSources(); renderTopics(); renderStats(); buildTypeChips(); buildTopicChips(); renderCards(CARDS);
   document.getElementById("typeChips").addEventListener("click", e=>{
     const btn = e.target.closest(".chip"); if(!btn || !btn.dataset.type) return;
     activeType = btn.dataset.type;
     buildTypeChips(); applyFilter();
   });
+  document.getElementById("topicChips").addEventListener("click", e=>{
+    const btn = e.target.closest(".chip"); if(!btn || !btn.dataset.topic) return;
+    activeTopic = btn.dataset.topic;
+    buildTopicChips(); applyFilter();
+  });
   document.getElementById("search").addEventListener("input", applyFilter);
+  document.getElementById("loadMore").addEventListener("click", ()=>{ visibleCount += 60; paintCards(); });
   document.getElementById("clearBtn").addEventListener("click", ()=>{
-    document.getElementById("search").value=""; activeType="all"; buildTypeChips(); renderCards(CARDS);
+    document.getElementById("search").value=""; activeType="all"; activeTopic="all"; buildTypeChips(); buildTopicChips(); applyFilter();
   });
 
   /* magazine polish */

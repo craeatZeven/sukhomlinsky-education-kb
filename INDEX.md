@@ -4,16 +4,16 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 39 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 42 |
 | [family-school](topics/family-school.md) | 家校合作 | 38 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 54 |
-| [health-first](topics/health-first.md) | 健康第一 | 21 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 25 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 50 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 86 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 55 |
+| [health-first](topics/health-first.md) | 健康第一 | 22 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 26 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 54 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 90 |
 | [love-education](topics/love-education.md) | 爱的教育 | 44 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 18 |
-| [child-study](topics/child-study.md) | 儿童研究 | 84 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 19 |
+| [child-study](topics/child-study.md) | 儿童研究 | 93 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 26 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 24 |
 
@@ -324,3 +324,15 @@
 | [sk-0285](cards/sk-0285-vol5-full-batch1-24.md) | quote | teacher-growth / reading-and-books | xuan-ji-zh-vol5 | 语言如刻刀：能塑造美丽心灵，也能摧毁它 |
 | [sk-0286](cards/sk-0286-vol5-full-batch1-25.md) | quote | labor-education / child-study | xuan-ji-zh-vol5 | 找到自己的志向，就是找到自己的幸福与做人尊严 |
 | [sk-0287](cards/sk-0287-vol5-full-batch1-26.md) | quote | labor-education / family-school | xuan-ji-zh-vol5 | 幸福靠自己亲手创造，劳动和创造的乐趣不会从天而降 |
+| [sk-0288](cards/sk-0288-vol4-full-pass-01.md) | quote | collective-education / child-study | xuan-ji-zh-vol4 | 信念不只是知道，而首先是把知识变为行动 |
+| [sk-0289](cards/sk-0289-vol4-full-pass-02.md) | principle | collective-education / child-study | xuan-ji-zh-vol4 | 全人类道德准则只有通过主动行动才成为个人良知 |
+| [sk-0290](cards/sk-0290-vol4-full-pass-03.md) | quote | child-study / collective-education | xuan-ji-zh-vol4 | 不要粉饰现实：不能让孩子在家里和会上讲两套话 |
+| [sk-0291](cards/sk-0291-vol4-full-pass-04.md) | principle | teacher-growth / child-study | xuan-ji-zh-vol4 | 教师不把知识积累当最终目的，才能实现智育 |
+| [sk-0292](cards/sk-0292-vol4-full-pass-05.md) | quote | health-first / labor-education | xuan-ji-zh-vol4 | 劳动的快乐首先来自劳动的美 |
+| [sk-0293](cards/sk-0293-vol4-full-pass-06.md) | principle | aesthetic-nature-education / child-study | xuan-ji-zh-vol4 | 只有进入人的生活的美，才会唤起美感 |
+| [sk-0294](cards/sk-0294-vol4-full-pass-07.md) | quote | learning-difficulties / child-study | xuan-ji-zh-vol4 | 死记硬背越多，记忆保持越不牢固 |
+| [sk-0295](cards/sk-0295-vol4-full-pass-08.md) | principle | learning-difficulties / child-study | xuan-ji-zh-vol4 | 加强难教儿童对自己力量的信心，耐心等待微小进步 |
+| [sk-0296](cards/sk-0296-vol4-full-pass-09.md) | quote | collective-education / child-study | xuan-ji-zh-vol4 | 不要只号召讲卫生，而要去打扫 |
+| [sk-0297](cards/sk-0297-vol4-full-pass-10.md) | principle | teacher-growth / learning-difficulties | xuan-ji-zh-vol4 | 新知识只有依附旧知识，才能牢固掌握 |
+| [sk-0298](cards/sk-0298-vol4-full-pass-11.md) | principle | assessment-grading / teacher-growth | xuan-ji-zh-vol4 | 评价课的主要标准：全体学生牢固掌握知识 |
+| [sk-0299](cards/sk-0299-vol4-full-pass-12.md) | principle | teacher-growth / child-study | xuan-ji-zh-vol4 | 善于预见，首先要善于回顾走过的道路 |

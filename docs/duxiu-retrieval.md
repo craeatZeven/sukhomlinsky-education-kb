@@ -16,6 +16,20 @@
 | 苏霍姆林斯基讲美德故事 | 1 种（2021，93页） | ✅ 读秀可见 | 可能含大量儿童故事原文 |
 | 苏霍姆林斯基论困难儿童教育 | 读秀首页可见（2020，20世纪苏联教育经典译丛） | ✅ 读秀可见 | 前次检索目录页出现过 |
 
+## 2026-09-08 实际抓取进展
+
+- 已打通读秀 EPUB 阅读器里的**超星/Chaoxing 滑块验证自动求解**（复用了含能材料库 CNKI 滑块求解思路：OpenCV 模板匹配 + Playwright 受信拖拽）。
+  脚本暂存：`local_working_copy/duxiu_captcha_solver.py`、`duxiu_crawl_book.py`。
+- EPUB 文字阅读器：
+  - 可正常抓到**前辅文全文**：封面/书名页/苏霍姆林斯基小传/作者简介/前言/目录/后记；
+  - 44 篇正文故事（catalogs 7–50）的 iframe 只有占位 `<script>`，`getEpubContentChunks?mode=&position=0` 返回 `Invalid chunk index`，拿不到正文；
+  - 尝试直接抓 `Text/chapter001.html`（OPF 清单里的真实正文文件）返回 HTTP 406，即使真实 iframe/新标签导航也 406。
+- 图像阅读器（`.../img/yitlink/...`）：
+  - 正文 93 页的 `.readerImg` 实际加载/新 Image 请求都返回“数据加载失败，请稍后重试”占位图；
+  - `文字提取`（`/n/textextract.shtml`）返回 `{"code":-12}`，只出现“加载中”不关闭；
+  - 结论：当前 BIT 机构会话似乎只有**前辅文全文权限**；44 篇故事正文需要另找授权通道（如个人读秀账号、文献传递、或已在选集/其他单行本中的同名故事）。
+- 已保存：`local_working_copy/meide-gushi-full-pages.jsonl`（只有前辅文+标题）、`epub-content.opf`、`epub-toc.ncx`、`duxiu_js/`（reader/验证码脚本分析）。
+
 ## 建议操作
 
 1. 高优先级：**《苏霍姆林斯基讲美德故事》（93页）** → 很可能覆盖官方书目 113 篇儿童故事的中译原文。

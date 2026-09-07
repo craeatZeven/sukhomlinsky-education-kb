@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 42 |
-| [family-school](topics/family-school.md) | 家校合作 | 38 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 55 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 43 |
+| [family-school](topics/family-school.md) | 家校合作 | 39 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 57 |
 | [health-first](topics/health-first.md) | 健康第一 | 22 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 26 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 54 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 90 |
-| [love-education](topics/love-education.md) | 爱的教育 | 44 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 28 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 62 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 99 |
+| [love-education](topics/love-education.md) | 爱的教育 | 52 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 19 |
-| [child-study](topics/child-study.md) | 儿童研究 | 93 |
+| [child-study](topics/child-study.md) | 儿童研究 | 102 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 26 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 24 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 25 |
 
 ## 来源 Sources
 
@@ -336,3 +336,27 @@
 | [sk-0297](cards/sk-0297-vol4-full-pass-10.md) | principle | teacher-growth / learning-difficulties | xuan-ji-zh-vol4 | 新知识只有依附旧知识，才能牢固掌握 |
 | [sk-0298](cards/sk-0298-vol4-full-pass-11.md) | principle | assessment-grading / teacher-growth | xuan-ji-zh-vol4 | 评价课的主要标准：全体学生牢固掌握知识 |
 | [sk-0299](cards/sk-0299-vol4-full-pass-12.md) | principle | teacher-growth / child-study | xuan-ji-zh-vol4 | 善于预见，首先要善于回顾走过的道路 |
+| [sk-0300](cards/sk-0300-vol2-full-pass-01.md) | quote | collective-education | xuan-ji-zh-vol2 | 共产主义信念把人确立为社会的决定力量 |
+| [sk-0301](cards/sk-0301-vol2-full-pass-02.md) | quote | collective-education / child-study | xuan-ji-zh-vol2 | 意志就是行为的道德，信念的坚定性就是意志力 |
+| [sk-0302](cards/sk-0302-vol2-full-pass-03.md) | quote | teacher-growth | xuan-ji-zh-vol2 | 知识向信念的转化取决于教书与育人的结合 |
+| [sk-0303](cards/sk-0303-vol2-full-pass-04.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol2 | 智力的发展应服从于道德的发展 |
+| [sk-0304](cards/sk-0304-vol2-full-pass-05.md) | quote | love-education | xuan-ji-zh-vol2 | 生而为人，就要成为大写的人 |
+| [sk-0305](cards/sk-0305-vol2-full-pass-06.md) | quote | love-education | xuan-ji-zh-vol2 | 教育技巧的精细处：培养学生需要人的情感 |
+| [sk-0306](cards/sk-0306-vol2-full-pass-07.md) | quote | family-school / love-education | xuan-ji-zh-vol2 | 人的最大欢乐就是人的诞生 |
+| [sk-0307](cards/sk-0307-vol2-full-pass-08.md) | quote | child-study | xuan-ji-zh-vol2 | 羞耻比最严厉的惩罚更有力 |
+| [sk-0308](cards/sk-0308-vol2-full-pass-09.md) | quote | teacher-growth / love-education | xuan-ji-zh-vol2 | 教学生用心灵了解人，善意就能创造奇迹 |
+| [sk-0309](cards/sk-0309-vol2-full-pass-10.md) | quote | learning-difficulties / teacher-growth | xuan-ji-zh-vol2 | 教材首次学习不扎实是落后根源之一 |
+| [sk-0310](cards/sk-0310-vol2-full-pass-11.md) | quote | labor-education / child-study | xuan-ji-zh-vol2 | 手脑之间有千丝万缕的联系 |
+| [sk-0311](cards/sk-0311-vol2-full-pass-12.md) | quote | child-study / teacher-growth | xuan-ji-zh-vol2 | 儿童是不会故意做坏事的 |
+| [sk-0312](cards/sk-0312-vol1-full-pass-01.md) | quote | labor-education / collective-education | xuan-ji-zh-vol1 | 真正的全面发展：贡献与消费之间的和谐 |
+| [sk-0313](cards/sk-0313-vol1-full-pass-02.md) | principle | thinking-and-nature | xuan-ji-zh-vol1 | 智育不能归结为积累知识 |
+| [sk-0314](cards/sk-0314-vol1-full-pass-03.md) | quote | love-education / teacher-growth | xuan-ji-zh-vol1 | 真理要像母亲一样亲，才能成为信念 |
+| [sk-0315](cards/sk-0315-vol1-full-pass-04.md) | principle | love-education / collective-education | xuan-ji-zh-vol1 | 从道德概念到道德信念，要从情感行为开始 |
+| [sk-0316](cards/sk-0316-vol1-full-pass-05.md) | quote | aesthetic-nature-education | xuan-ji-zh-vol1 | 美是道德纯洁、精神丰富、体魄健全的源泉 |
+| [sk-0317](cards/sk-0317-vol1-full-pass-06.md) | quote | child-study / love-education | xuan-ji-zh-vol1 | 判断学生要看他想成为什么样的人 |
+| [sk-0318](cards/sk-0318-vol1-full-pass-07.md) | principle | aesthetic-nature-education / child-study | xuan-ji-zh-vol1 | 学龄初期美感影响终生 |
+| [sk-0319](cards/sk-0319-vol1-full-pass-08.md) | principle | child-study / teacher-growth | xuan-ji-zh-vol1 | 不要讥笑少年隐秘的意志考验 |
+| [sk-0320](cards/sk-0320-vol1-full-pass-09.md) | quote | collective-education / child-study | xuan-ji-zh-vol1 | 每个学生心灵深处都藏着献身愿望 |
+| [sk-0321](cards/sk-0321-vol1-full-pass-10.md) | principle | collective-education / teacher-growth | xuan-ji-zh-vol1 | 儿童在学校不光是学习，而且在那里生活 |
+| [sk-0322](cards/sk-0322-vol1-full-pass-11.md) | quote | collective-education / love-education | xuan-ji-zh-vol1 | 自己发光时，也要让别人发光 |
+| [sk-0323](cards/sk-0323-vol1-full-pass-12.md) | method | collective-education / teacher-growth | xuan-ji-zh-vol1 | 孩子发笑时，教师绝不可生气 |

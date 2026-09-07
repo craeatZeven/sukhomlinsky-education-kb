@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 43 |
-| [family-school](topics/family-school.md) | 家校合作 | 39 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 57 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 45 |
+| [family-school](topics/family-school.md) | 家校合作 | 43 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 60 |
 | [health-first](topics/health-first.md) | 健康第一 | 22 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 28 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 62 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 99 |
-| [love-education](topics/love-education.md) | 爱的教育 | 52 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 19 |
-| [child-study](topics/child-study.md) | 儿童研究 | 102 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 26 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 25 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 63 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 102 |
+| [love-education](topics/love-education.md) | 爱的教育 | 53 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 20 |
+| [child-study](topics/child-study.md) | 儿童研究 | 106 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 28 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 26 |
 
 ## 来源 Sources
 
@@ -360,3 +360,15 @@
 | [sk-0321](cards/sk-0321-vol1-full-pass-10.md) | principle | collective-education / teacher-growth | xuan-ji-zh-vol1 | 儿童在学校不光是学习，而且在那里生活 |
 | [sk-0322](cards/sk-0322-vol1-full-pass-11.md) | quote | collective-education / love-education | xuan-ji-zh-vol1 | 自己发光时，也要让别人发光 |
 | [sk-0323](cards/sk-0323-vol1-full-pass-12.md) | method | collective-education / teacher-growth | xuan-ji-zh-vol1 | 孩子发笑时，教师绝不可生气 |
+| [sk-0324](cards/sk-0324-vol3-full-pass-01.md) | quote | assessment-grading / learning-difficulties | xuan-ji-zh-vol3 | 别用评分这根树条去抽打这条壮阔的大河 |
+| [sk-0325](cards/sk-0325-vol3-full-pass-02.md) | quote | collective-education / labor-education | xuan-ji-zh-vol3 | 对故乡土地的主人翁感是最重要的爱国主义感情 |
+| [sk-0326](cards/sk-0326-vol3-full-pass-03.md) | quote | family-school / child-study | xuan-ji-zh-vol3 | 体罚是教育方法极端不文明的标志 |
+| [sk-0327](cards/sk-0327-vol3-full-pass-04.md) | principle | family-school / child-study | xuan-ji-zh-vol3 | 儿童周围的复杂关系是不自觉的教育源泉 |
+| [sk-0328](cards/sk-0328-vol3-full-pass-05.md) | method | teacher-growth / thinking-and-nature | xuan-ji-zh-vol3 | 在学生面前进行思维 |
+| [sk-0329](cards/sk-0329-vol3-full-pass-06.md) | principle | reading-and-books / learning-difficulties | xuan-ji-zh-vol3 | 第二个大纲：非必修知识的大纲 |
+| [sk-0330](cards/sk-0330-vol3-full-pass-07.md) | quote | reading-and-books / child-study | xuan-ji-zh-vol3 | 同自己说话，对着自己良心说话 |
+| [sk-0331](cards/sk-0331-vol3-full-pass-08.md) | quote | labor-education | xuan-ji-zh-vol3 | 粮食、劳动、人民：三根支柱 |
+| [sk-0332](cards/sk-0332-vol3-full-pass-09.md) | quote | labor-education / teacher-growth | xuan-ji-zh-vol3 | 志向是天才的幼苗 |
+| [sk-0333](cards/sk-0333-vol3-full-pass-10.md) | quote | teacher-growth | xuan-ji-zh-vol3 | 五年寒窗培养工程师，学会做人需要一辈子 |
+| [sk-0334](cards/sk-0334-vol3-full-pass-11.md) | quote | family-school / love-education | xuan-ji-zh-vol3 | 爱情之火需要添加多方面的精神生活 |
+| [sk-0335](cards/sk-0335-vol3-full-pass-12.md) | quote | child-study / family-school | xuan-ji-zh-vol3 | 在小孩子身上看到明天的成年人 |

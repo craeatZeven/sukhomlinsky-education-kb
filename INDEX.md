@@ -4,17 +4,17 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 46 |
-| [family-school](topics/family-school.md) | 家校合作 | 50 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 73 |
-| [health-first](topics/health-first.md) | 健康第一 | 26 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 50 |
+| [family-school](topics/family-school.md) | 家校合作 | 51 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 74 |
+| [health-first](topics/health-first.md) | 健康第一 | 28 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 37 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 75 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 112 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 114 |
 | [love-education](topics/love-education.md) | 爱的教育 | 72 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 22 |
-| [child-study](topics/child-study.md) | 儿童研究 | 127 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 32 |
+| [child-study](topics/child-study.md) | 儿童研究 | 129 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 35 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 34 |
 
 ## 来源 Sources
@@ -437,3 +437,11 @@
 | [sk-0398](cards/sk-0398-vol1-deep-pass2-06.md) | quote | thinking-and-nature / child-study | xuan-ji-zh-vol1 | 少年开始关注看不见摸不着的过程 |
 | [sk-0399](cards/sk-0399-vol1-deep-pass2-07.md) | quote | labor-education / collective-education | xuan-ji-zh-vol1 | 劳动是无与伦比的欢乐 |
 | [sk-0400](cards/sk-0400-vol1-deep-pass2-08.md) | quote | love-education / collective-education | xuan-ji-zh-vol1 | 女子应当是高不可攀的 |
+| [sk-0401](cards/sk-0401-gei-jiao-shi-deep-pass-01.md) | quote | child-study / learning-difficulties | gei-jiao-shi-de-jian-yi-zh | 请记住：没有也不可能有抽象的学生 |
+| [sk-0402](cards/sk-0402-gei-jiao-shi-deep-pass-02.md) | quote | learning-difficulties / reading-and-books | gei-jiao-shi-de-jian-yi-zh | 谈谈对“后进生”的工作 |
+| [sk-0403](cards/sk-0403-gei-jiao-shi-deep-pass-03.md) | quote | learning-difficulties / teacher-growth | gei-jiao-shi-de-jian-yi-zh | 知识——既是目的，也是手段 |
+| [sk-0404](cards/sk-0404-gei-jiao-shi-deep-pass-04.md) | quote | child-study / health-first | gei-jiao-shi-de-jian-yi-zh | 要教会儿童利用自由支配的时间 |
+| [sk-0405](cards/sk-0405-gei-jiao-shi-deep-pass-05.md) | quote | health-first / learning-difficulties | gei-jiao-shi-de-jian-yi-zh | 逐步养成儿童从事紧张的创造性脑力劳动的习惯 |
+| [sk-0406](cards/sk-0406-gei-jiao-shi-deep-pass-06.md) | quote | teacher-growth / reading-and-books | gei-jiao-shi-de-jian-yi-zh | 谈谈教师的教育素养 |
+| [sk-0407](cards/sk-0407-gei-jiao-shi-deep-pass-07.md) | quote | labor-education | gei-jiao-shi-de-jian-yi-zh | 劳动教育和个性全面发展 |
+| [sk-0408](cards/sk-0408-gei-jiao-shi-deep-pass-08.md) | quote | family-school / reading-and-books | gei-jiao-shi-de-jian-yi-zh | 怎样使学校教育和家庭教育保持一致？ |

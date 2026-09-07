@@ -5,15 +5,15 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 51 |
-| [family-school](topics/family-school.md) | 家校合作 | 53 |
+| [family-school](topics/family-school.md) | 家校合作 | 54 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 79 |
 | [health-first](topics/health-first.md) | 健康第一 | 31 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 43 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 76 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 118 |
-| [love-education](topics/love-education.md) | 爱的教育 | 77 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 46 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 81 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 119 |
+| [love-education](topics/love-education.md) | 爱的教育 | 79 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 22 |
-| [child-study](topics/child-study.md) | 儿童研究 | 136 |
+| [child-study](topics/child-study.md) | 儿童研究 | 144 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 38 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 39 |
 
@@ -469,3 +469,12 @@
 | [sk-0430](cards/sk-0430-each-one-must-shine-deep-pass-06.md) | quote | labor-education | each-one-must-shine | 多样劳动是磁铁：吸引孩子找到天职 |
 | [sk-0431](cards/sk-0431-each-one-must-shine-deep-pass-07.md) | quote | aesthetic-nature-education / labor-education | each-one-must-shine | 美只有在人为创造美而劳动时才能使人高尚 |
 | [sk-0432](cards/sk-0432-each-one-must-shine-deep-pass-08.md) | quote | thinking-and-nature / child-study | each-one-must-shine | 儿童用形象思考：先有画面，再理解规律 |
+| [sk-0433](cards/sk-0433-beauty-is-for-people-not-for-picking.md) | case | aesthetic-nature-education / child-study | xuan-ji-zh-vol3 | 难道可以掐菊花吗：把“摘花”变成“为别人留美”的思考 |
+| [sk-0434](cards/sk-0434-even-flies-should-not-be-hurt.md) | case | child-study / collective-education / aesthetic-nature-education | xuan-ji-zh-vol1 | 连苍蝇也不要欺侮：善待生命要从最小生物开始 |
+| [sk-0435](cards/sk-0435-who-soiled-the-wall.md) | case | teacher-growth / child-study | xuan-ji-zh-vol2 | 是谁把墙弄脏了：教师不善于观察会冤枉孩子 |
+| [sk-0436](cards/sk-0436-noble-traveler-controls-desire.md) | case | child-study / collective-education | xuan-ji-zh-vol2 | 高尚的旅行者：先为别人着想，再满足自己的饥渴 |
+| [sk-0437](cards/sk-0437-grandmothers-kiss-is-treasure.md) | case | love-education / family-school | xuan-ji-zh-vol2 | 奶奶的吻：不轻易给予的奖赏比贵重礼物更珍贵 |
+| [sk-0438](cards/sk-0438-dads-illness-is-over.md) | case | collective-education / child-study / love-education | xuan-ji-zh-vol1 | 爸爸的病好了：教孩子为别人的喜悦而高兴 |
+| [sk-0439](cards/sk-0439-living-martyr.md) | case | child-study / collective-education | xuan-ji-zh-vol2 | 活着的烈士：用具体英雄故事培养对背叛的蔑视 |
+| [sk-0440](cards/sk-0440-proud-dandelion.md) | case | aesthetic-nature-education / child-study | xuan-ji-zh-vol2 | 骄傲的蒲公英：真正的美与谦虚分不开 |
+| [sk-0441](cards/sk-0441-please-forgive-grandpa.md) | case | child-study / collective-education | xuan-ji-zh-vol2 | 请原谅，老爷爷：让孩子的良心先于行动醒来 |

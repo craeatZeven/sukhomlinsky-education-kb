@@ -133,6 +133,10 @@
 
   /* Sections */
   .section { padding: 48px 0 12px; scroll-margin-top: 90px; }
+  @media (prefers-reduced-motion: no-preference) {
+    body.reveal .section { opacity: 0; transform: translateY(18px); transition: opacity .55s ease, transform .55s ease; }
+    body.reveal .section.revealed { opacity: 1; transform: none; }
+  }
   .section-title {
     position: relative;
     padding-left: 16px;
@@ -512,6 +516,15 @@ document.addEventListener("DOMContentLoaded", ()=>{
   document.getElementById("clearBtn").addEventListener("click", ()=>{
     document.getElementById("search").value=""; activeType="all"; activeTopic="all"; buildTypeChips(); buildTopicChips(); applyFilter();
   });
+
+  /* scroll reveal (respect reduced motion) */
+  if(!window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+    document.body.classList.add('reveal');
+    const io = new IntersectionObserver(entries=>{
+      entries.forEach(en=>{ if(en.isIntersecting){ en.target.classList.add('revealed'); io.unobserve(en.target); } });
+    }, {threshold:.06, rootMargin:'0px 0px -40px 0px'});
+    document.querySelectorAll('.section').forEach(el=>io.observe(el));
+  }
 
   /* magazine polish */
   const bar=document.createElement('div'); bar.className='news-topbar';

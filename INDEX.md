@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 25 |
-| [family-school](topics/family-school.md) | 家校合作 | 16 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 17 |
-| [health-first](topics/health-first.md) | 健康第一 | 10 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 13 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 14 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 25 |
-| [love-education](topics/love-education.md) | 爱的教育 | 11 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 9 |
-| [child-study](topics/child-study.md) | 儿童研究 | 25 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 14 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 10 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 27 |
+| [family-school](topics/family-school.md) | 家校合作 | 22 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 24 |
+| [health-first](topics/health-first.md) | 健康第一 | 15 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 23 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 33 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 44 |
+| [love-education](topics/love-education.md) | 爱的教育 | 22 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 11 |
+| [child-study](topics/child-study.md) | 儿童研究 | 44 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 19 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 13 |
 
 ## 来源 Sources
 
@@ -160,3 +160,57 @@
 | [sk-0121](cards/sk-0121-yalinas-son-spoiling-idleness-spiritual-emptiness.md) | case | family-school / labor-education | xuan-ji-zh-vol3 | 亚林娜的儿子：娇惯与不劳动如何造成精神空虚 |
 | [sk-0122](cards/sk-0122-university-study-method-daily-reading-two-column-notes.md) | method | reading-and-books / teacher-growth | xuan-ji-zh-vol3 | 大学学习时间法：天天读书与两栏笔记 |
 | [sk-0123](cards/sk-0123-human-beauty-standard-moral-standard.md) | quote | aesthetic-nature-education | xuan-ji-zh-vol3 | 人类美的标准同时也是道德的标准 |
+| [sk-0124](cards/sk-0124-grade-becomes-measure-person-disappears.md) | quote | assessment-grading / child-study | xuan-ji-zh-vol5 | 分数成了衡量人的尺度：人在分数后面消失了 |
+| [sk-0125](cards/sk-0125-suspension-failure-punishment-collective-training.md) | case | collective-education / child-study | xuan-ji-zh-vol5 | 停学处分失败的教训：惩罚必须转化为全班认可的行为训练 |
+| [sk-0126](cards/sk-0126-physical-self-discipline-cold-water-snow-rub.md) | method | health-first / child-study | xuan-ji-zh-vol5 | 把身体锻炼放进自我教育：冷水浴、雪擦身靠‘自我强制’ |
+| [sk-0127](cards/sk-0127-child-knows-world-from-parents.md) | quote | family-school / child-study | xuan-ji-zh-vol5 | 儿童认识世界从父母开始：妈妈怎样说话、爸爸怎样待妈妈 |
+| [sk-0128](cards/sk-0128-happiness-not-heredity-wish-and-labor.md) | principle | family-school / labor-education | xuan-ji-zh-vol5 | 幸福不能当遗产传给孩子：童年要修‘愿望’，用劳动为幸福奠基 |
+| [sk-0129](cards/sk-0129-education-without-punishment-labor-joy.md) | principle | collective-education / labor-education | xuan-ji-zh-vol5 | 没有惩罚的教育：让为大众的劳动成为童年欢乐的源泉 |
+| [sk-0130](cards/sk-0130-violin-in-hands-beauty-vs-evil.md) | quote | aesthetic-nature-education / teacher-growth | to-children-i-give-my-heart | 给每个孩子手里放一把小提琴：真正的美与恶不能相容 |
+| [sk-0131](cards/sk-0131-dont-fill-every-minute-hurried-pace.md) | quote | health-first / child-study | to-children-i-give-my-heart | 不必填满课堂每一分钟：急迫的脑力节奏会拖垮孩子 |
+| [sk-0132](cards/sk-0132-mothers-orchard-three-years-first-fruit.md) | case | labor-education / family-school / love-education | to-children-i-give-my-heart | 母亲的果园：让孩子用三年劳动把第一颗果实送给妈妈 |
+| [sk-0133](cards/sk-0133-two-thousand-books-choose-carefully.md) | principle | reading-and-books / child-study | to-children-i-give-my-heart | 一生只能读约两千本书：童年选书要精，让好书值得反复读 |
+| [sk-0134](cards/sk-0134-teach-empathy-not-watch-not-ask-not-boast.md) | method | collective-education / love-education / teacher-growth | to-children-i-give-my-heart | 把共情当技能来教：不围观、不追问、不夸耀自己的善行 |
+| [sk-0135](cards/sk-0135-unit-of-brave-fearless-challenges.md) | case | collective-education / child-study / teacher-growth | to-children-i-give-my-heart | 勇敢无畏小队：不禁止冒险，而是把勇气引向有安全护栏的挑战 |
+| [sk-0136](cards/sk-0136-inner-need-humanity-talent-educator.md) | quote | teacher-growth / love-education | to-children-i-give-my-heart | 与孩子相处是内在需要而非义务：人道天赋造就教育者 |
+| [sk-0137](cards/sk-0137-poetic-aesthetic-burst-necessary-intellect.md) | quote | thinking-and-nature / aesthetic-nature-education | to-children-i-give-my-heart | 没有诗意与审美情感的迸发，就无法充分发展儿童的智力 |
+| [sk-0138](cards/sk-0138-nothing-in-child-needs-harsh-treatment.md) | quote | teacher-growth / love-education | xuan-ji-zh-vol2 | 儿童身上没有需要教师严酷对待的东西 |
+| [sk-0139](cards/sk-0139-four-cornerstones-of-collective.md) | principle | collective-education / teacher-growth / labor-education | xuan-ji-zh-vol2 | 集体的四块基石：共同思想、共同智力、共同情感、共同组织 |
+| [sk-0140](cards/sk-0140-grandma-maria-garden-see-lonely.md) | case | collective-education / love-education / child-study | xuan-ji-zh-vol2 | 玛丽亚老奶奶的花园：让学生学会看见孤独者 |
+| [sk-0141](cards/sk-0141-ability-raises-ability-aspiration-raises-aspiration.md) | quote | teacher-growth | xuan-ji-zh-vol2 | 能力只能由能力来培养，志向只能由志向培养 |
+| [sk-0142](cards/sk-0142-mother-is-watching-you-conscience.md) | method | teacher-growth / family-school / child-study | xuan-ji-zh-vol2 | 用‘母亲永远在看着你’培养独处时的良心 |
+| [sk-0143](cards/sk-0143-punishment-frees-from-conscience.md) | quote | teacher-growth / child-study / love-education | xuan-ji-zh-vol2 | 惩罚使孩子从良心的责备中解脱出来 |
+| [sk-0144](cards/sk-0144-education-wonderful-recreation-of-child.md) | quote | teacher-growth | on-education | 教育是教师在儿童身上的奇妙再创造 |
+| [sk-0145](cards/sk-0145-unique-chord-in-every-child-heart.md) | quote | child-study / teacher-growth | on-education | 每个孩子心里都有一根独特的心弦，教师的心要与之和鸣 |
+| [sk-0146](cards/sk-0146-health-care-climax-harmony-creativity.md) | principle | health-first | on-education | 健康关怀不止是卫生守则，其顶峰是身心和谐与创造之乐 |
+| [sk-0147](cards/sk-0147-man-becomes-human-by-pausing-beauty.md) | quote | aesthetic-nature-education | on-education | 人因驻足欣赏美而成为人 |
+| [sk-0148](cards/sk-0148-writing-taught-by-teacher-model-then-independent.md) | method | reading-and-books / aesthetic-nature-education | on-education | 写作（创作）不是天生就会：先听教师示范，再走向独立创作 |
+| [sk-0149](cards/sk-0149-music-education-few-but-excellent.md) | practice | aesthetic-nature-education | on-education | 音乐教育要少而精：每月至多两首乐曲，听完去听田野的寂静 |
+| [sk-0150](cards/sk-0150-word-meadow-teach-reading-writing.md) | case | reading-and-books / thinking-and-nature | on-education | 词语“草甸”的教学：在大自然中画画、写字，八个月学会读写 |
+| [sk-0151](cards/sk-0151-labor-interest-seeing-results.md) | principle | labor-education | on-education | 劳动本身不会吸引儿童：兴趣来自‘我能影响自然、看到成果’ |
+| [sk-0152](cards/sk-0152-alone-ashamed-want-better-education-touchstone.md) | quote | collective-education / child-study | xuan-ji-zh-vol3 | 独处时也会为自己羞愧、渴望比现在更好——教育成果的试金石 |
+| [sk-0153](cards/sk-0153-adolescent-needs-help-refuses-help-first-thought-agreement.md) | principle | child-study / teacher-growth | xuan-ji-zh-vol3 | 少年最需要帮助却拒绝求助：先建立思想一致，再做精神导师 |
+| [sk-0154](cards/sk-0154-every-adolescent-master-of-beloved-work.md) | principle | labor-education / collective-education | xuan-ji-zh-vol3 | 让每个少年成为自己心爱工作的能工巧匠：劳动自豪感催生公民 |
+| [sk-0155](cards/sk-0155-music-education-first-cultivate-person.md) | quote | aesthetic-nature-education / child-study | xuan-ji-zh-vol3 | 音乐教育不是培养音乐家，而首先是培养人 |
+| [sk-0156](cards/sk-0156-sex-education-dignity-mother-respect.md) | method | love-education / child-study | xuan-ji-zh-vol3 | 性教育少谈生理、多谈尊严：以崇敬母亲与精神交流使本能高尚 |
+| [sk-0157](cards/sk-0157-tyrannical-love-worse-than-no-love.md) | quote | family-school / love-education | xuan-ji-zh-vol3 | 专横的爱是可怕摧残：不能把孩子当成自己情绪的玩具 |
+| [sk-0158](cards/sk-0158-environment-is-educator-everything-arranged.md) | quote | collective-education / aesthetic-nature-education | xuan-ji-zh-vol4 | 让孩子每天看到的一切都经过安排：环境也是教育者 |
+| [sk-0159](cards/sk-0159-principal-attend-two-lessons-daily.md) | practice | teacher-growth | xuan-ji-zh-vol4 | 校长把听课摆在首位：每天听两节课 |
+| [sk-0160](cards/sk-0160-morning-study-afternoon-free-five-seven-hours.md) | method | health-first | xuan-ji-zh-vol4 | 清晨做功课、午后不紧张：把下午还给学生的精神生活 |
+| [sk-0161](cards/sk-0161-lead-teachers-research-happiness.md) | method | teacher-growth / collective-education | xuan-ji-zh-vol4 | 把教师引上研究之路：每位教师常年研究一个教育问题 |
+| [sk-0162](cards/sk-0162-teacher-language-culture-determines-lesson.md) | quote | teacher-growth | xuan-ji-zh-vol4 | 教师的语言修养，决定课堂上的脑力劳动 |
+| [sk-0163](cards/sk-0163-first-last-bell-tradition-link-generations.md) | practice | collective-education | xuan-ji-zh-vol4 | 首铃与末铃：用学校传统把高低年级和校友连成一体 |
+| [sk-0164](cards/sk-0164-do-not-submit-child-errors-to-collective.md) | quote | collective-education / teacher-growth | xuan-ji-zh-vol1 | 儿童的错误多数不必交给集体讨论：教师独自知道更好 |
+| [sk-0165](cards/sk-0165-naughty-student-is-happiness-servile-misfortune.md) | quote | teacher-growth / child-study / collective-education | xuan-ji-zh-vol1 | 班上有个淘气学生是你的幸福，唯唯诺诺才是你的不幸 |
+| [sk-0166](cards/sk-0166-do-not-seat-boy-next-to-girl-as-discipline.md) | method | love-education / collective-education / child-study | xuan-ji-zh-vol1 | 不要把淘气男孩安排坐女孩旁边当纪律手段 |
+| [sk-0167](cards/sk-0167-daily-routine-hardest-morning-outdoor-afternoon.md) | practice | health-first / learning-difficulties | xuan-ji-zh-vol1 | 作息制度：早晨做最难作业，下午户外自由，睡前不做紧张脑力劳动 |
+| [sk-0168](cards/sk-0168-lazy-student-reports-to-worker-duty-sense.md) | case | assessment-grading / collective-education | xuan-ji-zh-vol1 | 让懒学生向劳动者报告学习成绩：义务感胜过检查强制 |
+| [sk-0169](cards/sk-0169-all-students-physical-labor-even-unattractive.md) | quote | labor-education / collective-education | xuan-ji-zh-vol1 | 所有学生都必须参加体力劳动，包括不吸引人的劳动 |
+| [sk-0170](cards/sk-0170-moral-education-blank-shot-needs-deed-outlet.md) | principle | love-education / collective-education | each-one-must-shine | 道德教育的“空弹”：故事唤起的热情必须有行善的出口 |
+| [sk-0171](cards/sk-0171-studies-one-petal-of-education-flower.md) | quote | teacher-growth / collective-education | each-one-must-shine | 学习只是教育这朵花的一枚花瓣——教育无小事、无主次 |
+| [sk-0172](cards/sk-0172-chrysanthemum-incident-pick-one-plant-ten.md) | case | aesthetic-nature-education / love-education | each-one-must-shine | 菊花事件：等孩子自己感到美被毁掉，再教他“摘一朵要种十朵” |
+| [sk-0173](cards/sk-0173-music-education-first-human-not-musician.md) | quote | aesthetic-nature-education | each-one-must-shine | 音乐教育不是培养音乐家，首先是培养人 |
+| [sk-0174](cards/sk-0174-dry-consciousness-pool-nature.md) | quote | thinking-and-nature / learning-difficulties | each-one-must-shine | 孩子不懂时，把他干涸的“意识池塘”接回大自然 |
+| [sk-0175](cards/sk-0175-word-fragrance-before-literacy.md) | quote | reading-and-books / aesthetic-nature-education | each-one-must-shine | 在儿童闻到词语的芬芳之前，不要开始识字教学 |
+| [sk-0176](cards/sk-0176-460-families-no-family-library.md) | quote | family-school / reading-and-books / child-study | each-one-must-shine | 460 个犯罪少年家庭中没有一个有家庭藏书 |
+| [sk-0177](cards/sk-0177-one-on-one-talks-teach-sensitivity.md) | method | collective-education / child-study / teacher-growth | each-one-must-shine | 集体还没形成时，用一对一谈话教孩子读懂他人的哀乐 |

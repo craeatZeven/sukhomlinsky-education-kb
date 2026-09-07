@@ -5,17 +5,17 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 51 |
-| [family-school](topics/family-school.md) | 家校合作 | 54 |
+| [family-school](topics/family-school.md) | 家校合作 | 56 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 79 |
 | [health-first](topics/health-first.md) | 健康第一 | 31 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 46 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 81 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 49 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 82 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 119 |
-| [love-education](topics/love-education.md) | 爱的教育 | 79 |
+| [love-education](topics/love-education.md) | 爱的教育 | 80 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 22 |
-| [child-study](topics/child-study.md) | 儿童研究 | 144 |
+| [child-study](topics/child-study.md) | 儿童研究 | 148 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 38 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 39 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 40 |
 
 ## 来源 Sources
 
@@ -31,6 +31,7 @@
 | [xuan-ji-zh-vol3](sources/xuan-ji-zh-vol3.md) | 苏霍姆林斯基选集（五卷本）第3卷 | 中文 OCR 完成 | complete |
 | [xuan-ji-zh-vol4](sources/xuan-ji-zh-vol4.md) | 苏霍姆林斯基选集（五卷本）第4卷 | 中文 OCR 完成 | complete |
 | [xuan-ji-zh-vol5](sources/xuan-ji-zh-vol5.md) | 苏霍姆林斯基选集（五卷本）第5卷 | 中文 OCR 完成 | complete |
+| [zuo-ren-de-gu-shi-zh](sources/zuo-ren-de-gu-shi-zh.md) | 做人的故事（诸惠芳等译，人民教育 2015） | 中文 443页图像OCR完成 | registered |
 | [each-one-must-shine](sources/each-one-must-shine.md) | Each One Must Shine（Alan Cockerill 研究/引文集） | 英文 Archive.org 全文 | complete |
 
 ## 卡片 Cards
@@ -478,3 +479,9 @@
 | [sk-0439](cards/sk-0439-living-martyr.md) | case | child-study / collective-education | xuan-ji-zh-vol2 | 活着的烈士：用具体英雄故事培养对背叛的蔑视 |
 | [sk-0440](cards/sk-0440-proud-dandelion.md) | case | aesthetic-nature-education / child-study | xuan-ji-zh-vol2 | 骄傲的蒲公英：真正的美与谦虚分不开 |
 | [sk-0441](cards/sk-0441-please-forgive-grandpa.md) | case | child-study / collective-education | xuan-ji-zh-vol2 | 请原谅，老爷爷：让孩子的良心先于行动醒来 |
+| [sk-0442](cards/sk-0442-ashamed-before-nightingale.md) | case | aesthetic-nature-education / child-study | zuo-ren-de-gu-shi-zh | 在小夜莺面前多羞呀：当着夜莺的面，我觉得羞愧 |
+| [sk-0443](cards/sk-0443-let-nightingale-and-beetle-both-exist.md) | case | aesthetic-nature-education / child-study | zuo-ren-de-gu-shi-zh | 就让夜莺和甲虫都有吧：世界不是只属于“有用而美”的那一个 |
+| [sk-0444](cards/sk-0444-seventh-daughter.md) | case | love-education / family-school | zuo-ren-de-gu-shi-zh | 七个女儿对母亲的爱：第七个女儿为妈妈洗脚 |
+| [sk-0445](cards/sk-0445-broken-branch.md) | case | aesthetic-nature-education / child-study | zuo-ren-de-gu-shi-zh | 在受伤的树枝面前：折一根树枝，世界就少一点欢乐 |
+| [sk-0446](cards/sk-0446-yura-pioneer-legend.md) | case | collective-education / child-study | zuo-ren-de-gu-shi-zh | 少先队员尤拉的英雄故事：宁死也不向法西斯低头 |
+| [sk-0447](cards/sk-0447-what-is-better-chinese.md) | case | thinking-and-nature / family-school | zuo-ren-de-gu-shi-zh | 什么最好呀（中文原版）：从“什么更好”到“好在哪里” |

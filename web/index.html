@@ -269,6 +269,13 @@
     <div class="load-wrap"><button id="loadMore" class="chip" type="button" style="display:none">加载更多卡片</button></div>
   </section>
 
+  <!-- 案例 Review -->
+  <section class="section" id="cases">
+    <h2 class="section-title">案例 Review</h2>
+    <p class="section-sub">常见教育困境 → 知识库检索 → 可执行建议。完整版见 <a class="md-link" href="../docs/case-reviews.md">docs/case-reviews.md ↗</a></p>
+    <div class="source-grid" id="caseGrid"></div>
+  </section>
+
   <!-- Roadmap -->
   <section class="section" id="roadmap">
     <h2 class="section-title">路线图</h2>
@@ -374,6 +381,24 @@ function renderStats(){
     <div class="stat"><b>${TOPICS.length}</b><span>主题</span></div>
     <div class="stat"><b>${CARDS.length}</b><span>卡片</span></div>`;
 }
+const CASES = [
+  {title:"越补越差的“后进生”", desc:"先停止惩罚性补课，找回真实活动中的成功体验。", ids:"sk-0001 · sk-0002 · sk-0068 · sk-0076"},
+  {title:"家长用分数和打骂逼孩子", desc:"分数不当惩罚工具；把“再试一次”还给儿童。", ids:"sk-0045 · sk-0075 · sk-0157 · sk-0180"},
+  {title:"公开表扬养出表演型好孩子", desc:"减少高曝光表扬，让善行回到内心确认。", ids:"sk-0074 · sk-0088 · sk-0170"},
+  {title:"作业负担过重", desc:"负担来自死记而非页数；先做负担审计与作息重建。", ids:"sk-0083 · sk-0131 · sk-0160"},
+  {title:"少年逆反、拒绝沟通", desc:"没有信任便没有教育；先留通道，再谈指导。", ids:"sk-0080 · sk-0115 · sk-0153"},
+  {title:"家里没有共同精神生活", desc:"家庭小书架、朗读与父母的榜样优先于说教。", ids:"sk-0176 · sk-0127 · sk-0055 · sk-0072"}
+];
+function renderCases(){
+  const box = document.getElementById("caseGrid");
+  box.innerHTML = CASES.map(c=>`
+    <article class="source-card">
+      <div class="lang">案例 Review</div>
+      <h3>${c.title}</h3>
+      <div class="meta">${c.desc}</div>
+      <div class="ref" style="margin-top:8px;font-size:12px;color:var(--ink-soft)">${c.ids}</div>
+    </article>`).join("");
+}
 
 /* ===== 检索 ===== */
 let activeType = "all";
@@ -416,7 +441,7 @@ function goCard(id){
 }
 
 document.addEventListener("DOMContentLoaded", ()=>{
-  renderSources(); renderTopics(); renderStats(); buildTypeChips(); buildTopicChips(); renderCards(CARDS);
+  renderSources(); renderTopics(); renderStats(); renderCases(); buildTypeChips(); buildTopicChips(); renderCards(CARDS);
   document.getElementById("typeChips").addEventListener("click", e=>{
     const btn = e.target.closest(".chip"); if(!btn || !btn.dataset.type) return;
     activeType = btn.dataset.type;
@@ -437,7 +462,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
   const bar=document.createElement('div'); bar.className='news-topbar';
   bar.innerHTML='<span class="tb-logo">苏霍姆林斯基教育知识库</span><div class="tb-links"></div>';
   document.body.appendChild(bar);
-  const labels=['书源一览','主题深读','卡片检索','路线图'];
+  const labels=['书源一览','主题深读','卡片检索','案例 Review','路线图'];
   const linksWrap=bar.querySelector('.tb-links');
   const getSection=(label)=>Array.prototype.find.call(document.querySelectorAll('.section-title'), el=>el.textContent.indexOf(label)>=0);
   labels.forEach(label=>{const b=document.createElement('button'); b.className='tb-link'; b.textContent=label; b.addEventListener('click',()=>{const el=getSection(label); if(el) el.scrollIntoView({behavior:'smooth', block:'start'});}); linksWrap.appendChild(b);});

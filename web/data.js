@@ -2564,6 +2564,235 @@ window.KB_DATA = {
       "excerpt": "There is a whole period in the spiritual life of school children — when they are being taught in grades one and two — when there is still no collective, it is just being created, and here the artistry of the teacher’s direct influence on each personality plays a decisive role. During this period, while creating the collective, the teacher must be concerned first and foremost with the education of heart-felt sensitivity towards the spiritual world of another person — from this quality there gradually grows a collective sensitivity to the individual, an intolerance of ‘washing someone else’s dirty linen in public’. My own experience has convinced me of the great importance of individual chats with pupils in the six to eight age group, with the purpose of educating a heart-felt sensitivity to the people around them.  How important this is — to teach small children to recognise, from the eyes, movements and speech of the people around them, grief and joy, disappointment and concern, anxiety and confusion. If we do not carry out this work a person may grow up to be an insensitive blockhead. Collect thirty such blockheads together and you will have a ‘collective’, but what sort? It will be a blind, soulless force, prepared to trample an individual into the ground.",
       "cn": "上方英文摘录为苏霍姆林斯基论述的英文转引/译文；以下是中文转述。苏霍姆林斯基认为，一二年级还没有真正意义上的“集体”，集体正在形成中；这时教师直接对每个儿童施加影响的艺术至关重要。做法是：与六至八岁儿童进行大量个别谈话，教会他们从他人的眼睛、动作和话语中辨认悲伤与喜悦、失望与忧虑。只有每个成员先具有这种“心灵敏感性”，日后由三十人组成的才不是盲目的、无灵魂的力量，而是能提升个人的真正集体。",
       "ref": "Each One Must Shine (Cockerill, 2009 electronic ed.), Chapter 5 Education of the Heart — collective and individual sensitivity passage (no explicit OCR subheading), local OCR lines 6934–6952"
+    },
+    {
+      "id": "sk-0178",
+      "type": "quote",
+      "title": "别让分数变成束缚思维的枷锁：给最慢的孩子思考时间",
+      "source": "to-children-i-give-my-heart",
+      "topics": [
+        "assessment-grading",
+        "learning-difficulties"
+      ],
+      "excerpt": "One must not allow marks to be transformed into fetters binding the thoughts of the child. I always gave the very weakest students, those who seemed hopelessly slow-witted for the time being, the opportunity to think about what they didn't understand for the time being.  ...  We came to the conclusion that one must never rush to decide whether the child knows the answer or not.",
+      "cn": "苏霍姆林斯基把评分比作可能“捆住思想”的锁链：孩子答不出，常常不是没有能力，而是没有来得及想、没有集中注意力。他尤其注意给最弱、看似“迟钝”的学生留出思考时间，不急着用分数或“坐下，你不会”来宣判。教师一旦匆忙用评分结束思考，孩子可能就在答案刚浮现时被误判为不会，从而对学习失去兴趣与自尊。",
+      "ref": "To Children I Give My Heart (Progress Publishers), section “Give the Child the Joy of Intellectual Labor, and Joy of Success in Studies”; local raw text lines 5421-5432; print page marker ~96"
+    },
+    {
+      "id": "sk-0179",
+      "type": "method",
+      "title": "评分既要看知识水平也要看努力：在3分旁写‘学习很认真’",
+      "source": "xuan-ji-zh-vol2",
+      "topics": [
+        "assessment-grading",
+        "learning-difficulties"
+      ],
+      "excerpt": "评价首先应当反映知识的实际水平，但与此同时，也一定要考虑学生的努力程度。例如，如果某个学生[OCR：原文作“学少”]学习很认真、努力，但暂时仅能得“3分”，教师就要在评分旁边写[OCR：原文作“还约上”]上：“学习很认真。”如果一个学生用不大的劳动代价就轻松地得到了“4”分，也应反映在作业的评语中。",
+      "cn": "苏霍姆林斯基批评只看结果的评分：同样的“3分”或“4分”背后，不同孩子的努力程度可能完全不同。只按结果给分，会让需要鼓励的孩子更不相信自己，也会让轻易得高分的孩子形成错误的劳动观。他建议：评分首先要反映真实知识水平，同时必须把“努力程度”一并纳入评价——对认真但暂时只得3分的孩子，在分数旁写“学习很认真”；对轻松得4分却未尽力者，则写“学习潜力还发挥得不够，否则可取得更好的成绩”。",
+      "ref": "《苏霍姆林斯基选集（五卷本）第2卷》，『教学目的和教育目的的统一』相关节；OCR 原PDF页段: p0100-0199 (0-based)"
+    },
+    {
+      "id": "sk-0180",
+      "type": "principle",
+      "title": "学业成绩评分不是道德评分：分数好不等于孩子好",
+      "source": "xuan-ji-zh-vol2",
+      "topics": [
+        "assessment-grading",
+        "family-school"
+      ],
+      "excerpt": "我们力图让父母明白：学业成绩的评分，并不表示道德品质的评分。……把学科评分和道德面貌等同起来，就是不假思索地追求表面上不错的指标——数字。我们认为，不可把一切结为一个简单的结论：分数好，孩子就好；分数“不合要求”，就等于学生“没有达到水平”。",
+      "cn": "苏霍姆林斯基在家长学校中反复提醒父母：孩子某门课得了好分，不等于他在道德上是好孩子；得了低分，也不等于“没达标、没出息”。把学科评分和道德面貌划等号，是“教育上无知的观点”，会看不见人是由许多特点、品质、能力和爱好构成的和谐统一体。这种误读一旦进入家庭，孩子会把“分数不好”直接体验为“我是个坏孩子”。",
+      "ref": "《苏霍姆林斯基选集（五卷本）第2卷》，『为使儿童愿意好好学习该做些什么』；OCR 原PDF页段: p0700-0799 (0-based)"
+    },
+    {
+      "id": "sk-0181",
+      "type": "quote",
+      "title": "别把知识当存货：学生不该只为明天的评分而读书",
+      "source": "gei-jiao-shi-de-jian-yi-zh",
+      "topics": [
+        "assessment-grading"
+      ],
+      "excerpt": "把知识看成学生应当保存在头脑里的存货，一旦教师提出要求，学生就应当拿出来给他看。……学生在家里准备功课，一般地就是为了明天的评分。然而，只有运用知识的能力，才能证明一个人是否有知识。",
+      "cn": "苏霍姆林斯基批评一种陈旧的知识观：把知识当作头脑里的“存货”，教师一提问就要取出来展示；记住了算有知识，没记住算没知识。这种观念把学习变成“一份儿一份儿地”应付提问，学生在家准备功课只是为了“明天的评分”。他指出，真正证明一个人有知识的，不是能背出来，而是能运用知识去思考、解决问题。",
+      "ref": "《给教师的建议》（杜殿坤编译，教育科学出版社），(五二) 为什么学生感到越学越难了呢？；OCR 原PDF页段: p0100-0199 (0-based)"
+    },
+    {
+      "id": "sk-0182",
+      "type": "principle",
+      "title": "三分也是合格成绩：不同孩子取得3分可能已是了不起的成绩",
+      "source": "xuan-ji-zh-vol2",
+      "topics": [
+        "assessment-grading",
+        "family-school"
+      ],
+      "excerpt": "应当坚定地告诉自己，3分表明知识完全合格。……不是所有的儿童都具有同等的能力：一个儿童的学习能轻易地得到“5分”或“4分”，而另一个儿童能得到“3分”就是不小的成绩了。",
+      "cn": "苏霍姆林斯基针对当时流行的“3分可耻”“3分不中用”风气指出：3分是知识完全合格的成绩，不应被视为差劲。儿童能力不同，对某个孩子轻而易举的“5分”“4分”，对另一个孩子也许要付出极大努力才能得到“3分”；这个“3分”对他而言就是不小的成功。家长若一律要求孩子达到自己达不到的高度，只会让孩子觉得“我是有罪的人”，并养成蒙混过关的风气。",
+      "ref": "《苏霍姆林斯基选集（五卷本）第2卷》，『为使儿童愿意好好学习该做些什么』；OCR 原PDF页段: p0700-0799 (0-based)"
+    },
+    {
+      "id": "sk-0183",
+      "type": "case",
+      "title": "米沙和佩特里克：没‘挣到’分数就先重做，再给分",
+      "source": "xuan-ji-zh-vol3",
+      "topics": [
+        "assessment-grading",
+        "learning-difficulties"
+      ],
+      "excerpt": "检查了作业本后，我发现米沙和佩特里克的作业完成得不好。如果我打个2分，那么全心全意想好好学习的孩子会把这个2分当做一种批评：“你们的同学都进了一步，而你们却停步不前。”……发作业本时，我对孩子们说：“米沙和佩特里克还没有争取到分数。孩子们，你们得好好干。独立地完成另外的练习。努力争取到分数。”……就在课内，他俩提出要求：“请给我们练习。”我给了练习。……我检查了作业——几乎同通常在这种情况下发生的完全一样，作业得到了好分数。",
+      "cn": "二年级语法独立作业后，米沙和佩特里克没做好。苏霍姆林斯基没有给他们打2分，而是批改错误、把字写好作范例，再明确告诉他们“还没有争取到分数”，让他们另做练习来“挣分”。两个孩子没有经历“落后一步、死路一条”的羞辱感，反而主动要练习、挤时间完成，最后得到好分数。这个案例说明：不把作业本上的评分当作教师最后的“判决”，孩子面前就始终留有通向进步的路。",
+      "ref": "《苏霍姆林斯基选集（五卷本）第3卷》，『让孩子体验脑力劳动的快乐和取得学习成绩的快乐』；OCR 原PDF页段: p0200-0299 (0-based)"
+    },
+    {
+      "id": "sk-0184",
+      "type": "quote",
+      "title": "食欲不振的根源是‘氧饥饿’：久坐室内、缺乏户外活动",
+      "source": "gei-jiao-shi-de-jian-yi-zh",
+      "topics": [
+        "health-first"
+      ],
+      "excerpt": "食欲不振对健康是严重的威胁，是身体不适和生病的根源。其主要的原因是：连续几小时地坐在气习[OCR待校]的教室里，从事单调的脑力劳动，缺乏多种室外的活动，总之，处在一种“氧饥饿[OCR待校]的状态中，孩子们整天呼吸着含有大量二氧化碳的空气。",
+      "cn": "苏霍姆林斯基在多年观察和专门调查中发现，相当比例的学龄初期儿童不吃早饭或早餐量不足；他并没有把食欲不振简单归为“挑食”“娇气”，而是指出其重要根源是长时间坐在通风不良的教室里从事单调脑力劳动、缺少户外活动所造成的“氧饥饿”。他还观察到，长期呼吸富含二氧化碳的室内空气可能影响内分泌腺，进而损害消化功能；若再以零食、甜食去“刺激食欲”，反而会加重消化问题。",
+      "ref": "《给教师的建议》（杜殿坤编译，教育科学出版社），(八二)“关心儿童的健康，是教育者的最重要的工作”（早餐与食欲/氧饥饿段），OCR 原PDF页段: p0400-0499 (0-based)"
+    },
+    {
+      "id": "sk-0185",
+      "type": "case",
+      "title": "柯利亚：被误认为懒惰的走神，实为久坐室内的新陈代谢失调",
+      "source": "xuan-ji-zh-vol4",
+      "topics": [
+        "health-first",
+        "learning-difficulties"
+      ],
+      "excerpt": "",
+      "cn": "苏霍姆林斯基把柯利亚当作“学习落后可能是健康问题”的典型个案：孩子看似不痛不痒，但身体长期因久坐室内、缺乏运动而代谢失调，首先被击垮的是注意力与课堂脑力劳动能力。教师最容易犯的错误是把这种生理性疲惫误读为学习态度差。这一案例还说明，某些“后进”并不需要更多的补课或批评，而是需要先还给孩子足够的户外时间、开窗睡眠和规律作息。",
+      "ref": "《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《和青年校长的谈话》“要了解儿童”（柯利亚案例），OCR 原PDF页段: p0600-0699 (0-based)"
+    },
+    {
+      "id": "sk-0186",
+      "type": "quote",
+      "title": "让迟钝的脑细胞活起来：好饮食、新鲜空气与户外活动，再加智力活动",
+      "source": "xuan-ji-zh-vol5",
+      "topics": [
+        "health-first",
+        "learning-difficulties"
+      ],
+      "excerpt": "为了让你头脑中的思维活动活跃起来，为了把你的脑细胞充分动员起来，为了让你的神经线能够以光速来传递信息，应该怎么办呢？看来，首先需要的是比较健康的生活条件。要有好的饮食，多呼吸新鲜空气，多晒太阳，多参加一些在大自然环境中进行的积极活动。我关注他，努力让他吃好。夏天、秋天和春天，让他整日在户外活动。逐渐地这个孩子的脸色红润了，脸颊饱满了，这就意味着，他的脑细胞也开始变得更有生机了。但这还远远不够，还需要进行一些充分激发他大脑活力的智力活动。这种活动对于大脑，就像体育锻炼对于肌肉一样，是必须的[OCR待校]。",
+      "cn": "苏霍姆林斯基面对“最无望”的沃洛佳时，先从生理层面找原因：这个孩子面色苍白、记忆差、思维贫乏，脑细胞像整个机体一样缺少生气。他的对策不是马上灌知识，而是先改善健康生活条件——吃好、呼吸新鲜空气、晒太阳、在大自然中积极活动，让身体先“活过来”。但他同时强调，健康生活只是前提而非终点：大脑还需要像肌肉锻炼一样接受充分激发活力的智力活动。身体改善与思维训练必须先后接续、互相配合。",
+      "ref": "《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社），《我们的职责是培养人》（沃洛佳案例段），OCR 原PDF页段: p0300-0399 (0-based)"
+    },
+    {
+      "id": "sk-0187",
+      "type": "method",
+      "title": "少年期需要专门的睡眠与营养制度：早睡、铁磷、水果、睡前忌高蛋白",
+      "source": "xuan-ji-zh-vol3",
+      "topics": [
+        "health-first",
+        "child-study"
+      ],
+      "excerpt": "",
+      "cn": "这条方法把健康管理精细到“少年期”这一特殊年龄：不能把儿童作息原样套到少年身上。少年生长快、易疲劳、血压可能有暂时波动，需要比儿童更明确的睡眠“上限”和营养结构；同时因为自我意识增强，外部监督效果有限，必须让少年理解身体变化并参与制定自己的作息。营养上特别强调铁、磷、水果糖分与维生素 C，以及睡前避免高蛋白带来的消化和神经兴奋负担。",
+      "ref": "《苏霍姆林斯基选集（五卷本）第3卷》（教育科学出版社），《公民的诞生》“少年的身体发育与心理素养”（含“体 育”“饮食制度、劳动制度和休息制度”相关段落），OCR 原PDF页段: p0500-0599 (0-based)"
+    },
+    {
+      "id": "sk-0188",
+      "type": "practice",
+      "title": "冬季户外劳动按年龄定时长：轻度寒冷是锻炼和预防感冒的最好手段",
+      "source": "gei-jiao-shi-de-jian-yi-zh",
+      "topics": [
+        "health-first",
+        "labor-education"
+      ],
+      "excerpt": "在冬季从事室外劳动是健康的重要源泉。在轻度的寒冷季节(不到零下10度时)，八岁的孩子每周劳动二小时，九、十岁的孩子每周劳动三小时，十一岁的孩子每周劳动四小时。他们用芦苇叶包扎树干，用小担架抬雪以便保护植物过冬，等等。这种室外劳动是锻炼身体和预防感冒的最好手段。",
+      "cn": "苏霍姆林斯基没有把冬季看作“只能躲在屋里”的季节，而是把适度寒冷的室外劳动纳入健康计划。他给出按年龄递增的劳动时长：8 岁每周 2 小时，9～10 岁每周 3 小时，11 岁每周 4 小时；劳动内容（包树干、抬雪护植物）同时服务学校和自然环境，不是为锻炼而锻炼。他把这种劳动称为“锻炼身体和预防感冒的最好手段”，强调渐进适应寒冷比过度保暖更有利于儿童抵抗力。",
+      "ref": "《给教师的建议》（杜殿坤编译，教育科学出版社），(八二)“关心儿童的健康，是教育者的最重要的工作”（冬季户外劳动/锻炼段），OCR 原PDF页段: p0400-0499 (0-based)"
+    },
+    {
+      "id": "sk-0189",
+      "type": "principle",
+      "title": "成年时的健康，植根于童年的营养与作息制度",
+      "source": "xuan-ji-zh-vol4",
+      "topics": [
+        "health-first"
+      ],
+      "excerpt": "通过若于[OCR待校]年对许多孩子身体发育和智力发展的观察，我们得出结论认为，人在成年时的健康在很大程度上决定于在童年、少年和青年早期各时期的充分营养和作息制度的其他因素结合得如何。我们要着重指出：充分的、符合要求的营养要和劳动、休息（睡眠)、空气及经常而又恰当的身体锻炼相结合。",
+      "cn": "苏霍姆林斯基把健康看作一条“时间线”：成年的体质并非到中年才决定，而是在童年、少年和青年早期的营养、睡眠、劳动、空气与锻炼中逐步打下基础。因此，学校和家庭为儿童安排的每一天——早餐有没有、几点睡、户外多久、是否劳动锻炼——都不只是当下的保健，而是几十年后的健康投资。营养不是孤立的“多吃”，必须与作息、户外空气和身体锻炼共同作用。",
+      "ref": "《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《帕夫雷什中学》第3章“关注健康与体育”之“对学生的生活环境、劳动和作息制度的卫生保健要求”（营养、作息与终身健康），OCR 原PDF页段: p0200-0299 (0-based)"
+    },
+    {
+      "id": "sk-0190",
+      "type": "quote",
+      "title": "观察是思考和识记知识之母：有观察力的学生不会落后",
+      "source": "gei-jiao-shi-de-jian-yi-zh",
+      "topics": [
+        "thinking-and-nature",
+        "learning-difficulties"
+      ],
+      "excerpt": "从观察中不仅可以汲取知识，而且知识在观察中可以活跃起来，知识借助观察而“进入周转”，象工具在劳动中得到运用一样。如果说复习是学习之母，那末观察就是思考和识记知识之母。一个有观察力的学生，绝不会是学业成绩落后或者文理不通的学生。",
+      "cn": "苏霍姆林斯基把“观察”从解释课题的辅助手段提升为一种积极的智力活动和发展智力的途径。知识不只是“存”进头脑，还要在观察中周转、运用、活跃起来；复习帮助保持，观察则直接喂养思考与识记。因此观察力强的学生不容易成为学业落后或文理不通的学生。",
+      "ref": "《给教师的建议》（杜殿坤编译，教育科学出版社），(一七)“教给学生观察”；OCR 原PDF页段: p0000-0099 (0-based)"
+    },
+    {
+      "id": "sk-0191",
+      "type": "principle",
+      "title": "大自然不会自动教会思考：只有能作抽象思维，自然才成为思维的学校",
+      "source": "on-education",
+      "topics": [
+        "thinking-and-nature"
+      ],
+      "excerpt": "However it would be wrong to consider that the world around a child teaches a child to think on his own. Without abstract thought, things remained hidden from children’s eyes as if by an impenetrable wall.",
+      "cn": "这条原则比“大自然是教育资源”更进一步：自然中的具体形象只是原料；如果没有抽象思维，儿童面对大量事物仍会像隔着一堵墙，看不见现象之间的关系。原文紧接着说：只有当儿童能从具体事物中抽身、进行自己的抽象思考时，大自然才成为“脑力劳动的学校”。生动形象必不可少，但必须服务于发现周围世界的联系。",
+      "ref": "On Education (Progress Publishers, 1977), Part II “Study,” “Children Should Live in a World of Creativity”；本地 OCR 行 655（该段延续至 659）/ 印本页 162–163"
+    },
+    {
+      "id": "sk-0192",
+      "type": "method",
+      "title": "在自然中让孩子沉默、看、听、想：少讲话也是思维课",
+      "source": "to-children-i-give-my-heart",
+      "topics": [
+        "thinking-and-nature",
+        "child-study"
+      ],
+      "excerpt": "The child needs not only to listen to the teacher's words but also to be silent. It thinks in these instants, trying to understand what it has seen and heard. It is important that the teacher set a limit to how much talking goes on in class. One must not turn children into passive receivers of words. To comprehend an image, graphic or verbal, demands much time and nervous strength. Letting the child think is one of the most subtle qualities of the teacher. And in the midst of nature, the child must be given the possibility to listen, to look around, to feel...",
+      "cn": "这是“思维课”容易被忽略的操作细节：带儿童到大自然中，不等于教师不断讲解。苏霍姆林斯基在土丘上听蚱蜢（grasshopper）鸣声一片时强调，儿童需要“不说话”的瞬间——正是在沉默中，他消化刚刚看见和听见的东西。理解一个形象需要时间和神经力量；教师最细腻的素养之一，是学会“让孩子想”，在自然中给孩子看、听、感受的机会。",
+      "ref": "To Children I Give My Heart (Progress Publishers, Moscow), chapter “The School of Joy” — burial mound / grasshopper scene；本地 txt 行 984–991"
+    },
+    {
+      "id": "sk-0193",
+      "type": "quote",
+      "title": "教儿童观察自然界，是为了教会他读书",
+      "source": "gei-jiao-shi-de-jian-yi-zh",
+      "topics": [
+        "thinking-and-nature",
+        "reading-and-books"
+      ],
+      "excerpt": "我们教给儿童观察自然界，是为了教会他读书。而要把学生培养成为一个爱钻研、会思考的读者，并不是那么简单的。这跟仅仅教会学生流利地朗读并不是一码事儿。只有当儿童的智力生活是在书籍中度过的时候，他的学习愿望才能确立起来。",
+      "cn": "苏霍姆林斯基把“大自然观察”与“读书”接成一条链：儿童先在活生生的自然界中学习观察、提问、发现联系，再把这种主动探究的态度迁移到书籍世界。会读书不等于会流利朗读；真正的读者是爱钻研、会思考的人，而这种读者的基础在观察自然中就已经打下。",
+      "ref": "《给教师的建议》（杜殿坤编译，教育科学出版社），(五四)“怎样使小学生愿意学习？”；OCR 原PDF页段: p0100-0199 (0-based)"
+    },
+    {
+      "id": "sk-0194",
+      "type": "quote",
+      "title": "每一堂思维课，都是对自然之谜的一次观察、惊讶与发现",
+      "source": "xuan-ji-zh-vol2",
+      "topics": [
+        "thinking-and-nature"
+      ],
+      "excerpt": "每一堂思维课，就是对自然之谜的一次观察和惊讶，一次思索与发现真理，一次体验知识的欢乐和思想家的骄傲。",
+      "cn": "这是苏霍姆林斯基给“思维课”下的一个情感—认识论定义：思维课不是把自然知识讲完，而是让儿童面对“自然之谜”经历一次完整的智力事件——观察现象、感到惊讶、思索并发现真理、体验到知识的欢乐和自己作为思想家的骄傲。同段说明，学校第一学年的思维教育共有六十个主题，其中仅观察樱桃幼芽就安排了十二次，因为一次真正的发现需要时间。",
+      "ref": "《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《怎样培养真正的人》“怎样使学生们具有知识的欢乐/思维课”段；OCR 原PDF页段: p0300-0399 (0-based)"
+    },
+    {
+      "id": "sk-0195",
+      "type": "case",
+      "title": "瓦利娅：让“记不住”的女孩先产生问题，记忆才被激活",
+      "source": "xuan-ji-zh-vol3",
+      "topics": [
+        "thinking-and-nature",
+        "learning-difficulties"
+      ],
+      "excerpt": "阅读《大自然的书》时产生问题——这是活跃的思想飞向知识顶峰的开端。",
+      "cn": "这句话紧接在瓦利娅故事之前。瓦利娅是一个“什么都记不住”的女孩，似乎一切都会从她头脑中消失。苏霍姆林斯基没有先逼她背，而是把发展“理智感”作为巩固记忆的手段：一连好几天带她到山野、森林、河边、花园和养蜂场，读《大自然的书》中“一切有生命的东西都得适应周围环境”这一页；让她看到炎热时合上花瓣的花、早春开花的植物怎样用纤细的茎冲破覆盖物、蜜蜂怎样建巢并用蜜填满蜂房、葡萄藤的根怎样深入土中吸水。这些发现使瓦利娅的眼睛明亮起来，她开始主动发问，例如蜜蜂怎样知道飞回蜂巢、早春开花的植物在树下还有积雪时会不会觉得冷。问题一旦产生，思想就活动起来，记忆也随之被激活。",
+      "ref": "《苏霍姆林斯基选集（五卷本）第3卷》（教育科学出版社），“300页《大自然的书》”瓦利娅段及其前结论句；OCR 原PDF页段: p0200-0299 (0-based)"
     }
   ]
 };

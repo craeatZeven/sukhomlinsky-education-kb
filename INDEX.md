@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 27 |
-| [family-school](topics/family-school.md) | 家校合作 | 22 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 24 |
-| [health-first](topics/health-first.md) | 健康第一 | 15 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 34 |
+| [family-school](topics/family-school.md) | 家校合作 | 24 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 25 |
+| [health-first](topics/health-first.md) | 健康第一 | 21 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 23 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 33 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 44 |
 | [love-education](topics/love-education.md) | 爱的教育 | 22 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 11 |
-| [child-study](topics/child-study.md) | 儿童研究 | 44 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 19 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 13 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 17 |
+| [child-study](topics/child-study.md) | 儿童研究 | 46 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 20 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 19 |
 
 ## 来源 Sources
 
@@ -214,3 +214,21 @@
 | [sk-0175](cards/sk-0175-word-fragrance-before-literacy.md) | quote | reading-and-books / aesthetic-nature-education | each-one-must-shine | 在儿童闻到词语的芬芳之前，不要开始识字教学 |
 | [sk-0176](cards/sk-0176-460-families-no-family-library.md) | quote | family-school / reading-and-books / child-study | each-one-must-shine | 460 个犯罪少年家庭中没有一个有家庭藏书 |
 | [sk-0177](cards/sk-0177-one-on-one-talks-teach-sensitivity.md) | method | collective-education / child-study / teacher-growth | each-one-must-shine | 集体还没形成时，用一对一谈话教孩子读懂他人的哀乐 |
+| [sk-0178](cards/sk-0178-marks-not-fetters-slow-child-thinking-time.md) | quote | assessment-grading / learning-difficulties | to-children-i-give-my-heart | 别让分数变成束缚思维的枷锁：给最慢的孩子思考时间 |
+| [sk-0179](cards/sk-0179-grade-knowledge-and-effort-3-plus-diligent.md) | method | assessment-grading / learning-difficulties | xuan-ji-zh-vol2 | 评分既要看知识水平也要看努力：在3分旁写‘学习很认真’ |
+| [sk-0180](cards/sk-0180-academic-grade-not-moral-grade.md) | principle | assessment-grading / family-school | xuan-ji-zh-vol2 | 学业成绩评分不是道德评分：分数好不等于孩子好 |
+| [sk-0181](cards/sk-0181-knowledge-not-inventory-not-for-tomorrow-grade.md) | quote | assessment-grading | gei-jiao-shi-de-jian-yi-zh | 别把知识当存货：学生不该只为明天的评分而读书 |
+| [sk-0182](cards/sk-0182-three-is-valid-grade-different-children.md) | principle | assessment-grading / family-school | xuan-ji-zh-vol2 | 三分也是合格成绩：不同孩子取得3分可能已是了不起的成绩 |
+| [sk-0183](cards/sk-0183-misha-petrik-redo-before-grade.md) | case | assessment-grading / learning-difficulties | xuan-ji-zh-vol3 | 米沙和佩特里克：没‘挣到’分数就先重做，再给分 |
+| [sk-0184](cards/sk-0184-oxygen-hunger-loss-of-appetite-indoor.md) | quote | health-first | gei-jiao-shi-de-jian-yi-zh | 食欲不振的根源是‘氧饥饿’：久坐室内、缺乏户外活动 |
+| [sk-0185](cards/sk-0185-kolya-mistaken-lazy-metabolic-disorder.md) | case | health-first / learning-difficulties | xuan-ji-zh-vol4 | 柯利亚：被误认为懒惰的走神，实为久坐室内的新陈代谢失调 |
+| [sk-0186](cards/sk-0186-slow-brain-cells-need-healthy-living-conditions.md) | quote | health-first / learning-difficulties | xuan-ji-zh-vol5 | 让迟钝的脑细胞活起来：好饮食、新鲜空气与户外活动，再加智力活动 |
+| [sk-0187](cards/sk-0187-adolescent-sleep-nutrition-routine.md) | method | health-first / child-study | xuan-ji-zh-vol3 | 少年期需要专门的睡眠与营养制度：早睡、铁磷、水果、睡前忌高蛋白 |
+| [sk-0188](cards/sk-0188-winter-outdoor-labor-age-duration.md) | practice | health-first / labor-education | gei-jiao-shi-de-jian-yi-zh | 冬季户外劳动按年龄定时长：轻度寒冷是锻炼和预防感冒的最好手段 |
+| [sk-0189](cards/sk-0189-adult-health-roots-childhood-nutrition-routine.md) | principle | health-first | xuan-ji-zh-vol4 | 成年时的健康，植根于童年的营养与作息制度 |
+| [sk-0190](cards/sk-0190-observation-mother-of-thinking-and-memory.md) | quote | thinking-and-nature / learning-difficulties | gei-jiao-shi-de-jian-yi-zh | 观察是思考和识记知识之母：有观察力的学生不会落后 |
+| [sk-0191](cards/sk-0191-nature-does-not-auto-teach-abstract-thought.md) | principle | thinking-and-nature | on-education | 大自然不会自动教会思考：只有能作抽象思维，自然才成为思维的学校 |
+| [sk-0192](cards/sk-0192-silence-look-listen-think-in-nature.md) | method | thinking-and-nature / child-study | to-children-i-give-my-heart | 在自然中让孩子沉默、看、听、想：少讲话也是思维课 |
+| [sk-0193](cards/sk-0193-teach-observation-nature-to-teach-reading.md) | quote | thinking-and-nature / reading-and-books | gei-jiao-shi-de-jian-yi-zh | 教儿童观察自然界，是为了教会他读书 |
+| [sk-0194](cards/sk-0194-every-thinking-lesson-discovery-surprise.md) | quote | thinking-and-nature | xuan-ji-zh-vol2 | 每一堂思维课，都是对自然之谜的一次观察、惊讶与发现 |
+| [sk-0195](cards/sk-0195-valya-questions-activate-memory.md) | case | thinking-and-nature / learning-difficulties | xuan-ji-zh-vol3 | 瓦利娅：让“记不住”的女孩先产生问题，记忆才被激活 |

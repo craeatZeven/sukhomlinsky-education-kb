@@ -5,17 +5,17 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 46 |
-| [family-school](topics/family-school.md) | 家校合作 | 49 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 70 |
-| [health-first](topics/health-first.md) | 健康第一 | 23 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 33 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 67 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 108 |
-| [love-education](topics/love-education.md) | 爱的教育 | 66 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 21 |
-| [child-study](topics/child-study.md) | 儿童研究 | 116 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 30 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 31 |
+| [family-school](topics/family-school.md) | 家校合作 | 50 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 73 |
+| [health-first](topics/health-first.md) | 健康第一 | 26 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 37 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 75 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 112 |
+| [love-education](topics/love-education.md) | 爱的教育 | 72 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 22 |
+| [child-study](topics/child-study.md) | 儿童研究 | 127 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 32 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 34 |
 
 ## 来源 Sources
 
@@ -413,3 +413,27 @@
 | [sk-0374](cards/sk-0374-vol4-deep-pass2-06.md) | quote | labor-education | xuan-ji-zh-vol4 | 普通学校的宗旨不在于职业训练 |
 | [sk-0375](cards/sk-0375-vol4-deep-pass2-07.md) | quote | aesthetic-nature-education | xuan-ji-zh-vol4 | 美是人的道德财富的源泉 |
 | [sk-0376](cards/sk-0376-vol4-deep-pass2-08.md) | quote | teacher-growth | xuan-ji-zh-vol4 | 教师的人格是进行教育的基石 |
+| [sk-0377](cards/sk-0377-vol3-deep-pass2-01.md) | principle | child-study / thinking-and-nature | xuan-ji-zh-vol3 | 游戏是儿童智力发展的窗子 |
+| [sk-0378](cards/sk-0378-vol3-deep-pass2-02.md) | principle | health-first | xuan-ji-zh-vol3 | 阳光、空气、水加劳动休息是最佳健康之源 |
+| [sk-0379](cards/sk-0379-vol3-deep-pass2-03.md) | principle | reading-and-books / aesthetic-nature-education | xuan-ji-zh-vol3 | 教读写要让孩子置身美与游戏的世界 |
+| [sk-0380](cards/sk-0380-vol3-deep-pass2-04.md) | quote | health-first / teacher-growth | xuan-ji-zh-vol3 | 保护少年的中枢神经系统就是爱护心脏 |
+| [sk-0381](cards/sk-0381-vol3-deep-pass2-05.md) | principle | aesthetic-nature-education / child-study | xuan-ji-zh-vol3 | 公正拨开眼睛感受美，不公正如冰甲裹心 |
+| [sk-0382](cards/sk-0382-vol3-deep-pass2-06.md) | principle | labor-education / collective-education | xuan-ji-zh-vol3 | 公民感要牢记心里而非挂在口头上 |
+| [sk-0383](cards/sk-0383-vol3-deep-pass2-07.md) | quote | collective-education / child-study | xuan-ji-zh-vol3 | 分辨“可以、不行、应该”三件事 |
+| [sk-0384](cards/sk-0384-vol3-deep-pass2-08.md) | quote | love-education / child-study | xuan-ji-zh-vol3 | 友谊是培养人的感情的学校 |
+| [sk-0385](cards/sk-0385-vol2-deep-pass2-01.md) | quote | labor-education / collective-education | xuan-ji-zh-vol2 | 劳动的社会意义揭示越鲜明，劳动越成为需要 |
+| [sk-0386](cards/sk-0386-vol2-deep-pass2-02.md) | quote | collective-education / child-study | xuan-ji-zh-vol2 | 教育艺术：让孩子不再是被动受教育者 |
+| [sk-0387](cards/sk-0387-vol2-deep-pass2-03.md) | quote | family-school / love-education | xuan-ji-zh-vol2 | 教孩子学会爱父母，是父母最重要的哲理 |
+| [sk-0388](cards/sk-0388-vol2-deep-pass2-04.md) | quote | love-education / collective-education | xuan-ji-zh-vol2 | 善良的情感是骄傲和自私的解毒剂 |
+| [sk-0389](cards/sk-0389-vol2-deep-pass2-05.md) | quote | love-education | xuan-ji-zh-vol2 | 只有聪慧的人，才会是幸福的人 |
+| [sk-0390](cards/sk-0390-vol2-deep-pass2-06.md) | quote | teacher-growth / reading-and-books | xuan-ji-zh-vol2 | 学生应当成为语言的音乐家 |
+| [sk-0391](cards/sk-0391-vol2-deep-pass2-07.md) | quote | child-study / thinking-and-nature | xuan-ji-zh-vol2 | 两种思维类型：逻辑分析与艺术形象 |
+| [sk-0392](cards/sk-0392-vol2-deep-pass2-08.md) | quote | aesthetic-nature-education / child-study | xuan-ji-zh-vol2 | 美是照耀世界的明亮之光 |
+| [sk-0393](cards/sk-0393-vol1-deep-pass2-01.md) | quote | assessment-grading / child-study | xuan-ji-zh-vol1 | 分数不是衡量孩子的唯一标尺 |
+| [sk-0394](cards/sk-0394-vol1-deep-pass2-02.md) | quote | love-education / aesthetic-nature-education | xuan-ji-zh-vol1 | 爱国主义教育的第一步是难忘的童年 |
+| [sk-0395](cards/sk-0395-vol1-deep-pass2-03.md) | quote | collective-education / teacher-growth | xuan-ji-zh-vol1 | 教育技巧在于展示人的全部素质 |
+| [sk-0396](cards/sk-0396-vol1-deep-pass2-04.md) | quote | child-study / health-first | xuan-ji-zh-vol1 | 快乐是儿童精神发展的源泉 |
+| [sk-0397](cards/sk-0397-vol1-deep-pass2-05.md) | quote | child-study / teacher-growth | xuan-ji-zh-vol1 | 让少年不感到教育是强加的 |
+| [sk-0398](cards/sk-0398-vol1-deep-pass2-06.md) | quote | thinking-and-nature / child-study | xuan-ji-zh-vol1 | 少年开始关注看不见摸不着的过程 |
+| [sk-0399](cards/sk-0399-vol1-deep-pass2-07.md) | quote | labor-education / collective-education | xuan-ji-zh-vol1 | 劳动是无与伦比的欢乐 |
+| [sk-0400](cards/sk-0400-vol1-deep-pass2-08.md) | quote | love-education / collective-education | xuan-ji-zh-vol1 | 女子应当是高不可攀的 |

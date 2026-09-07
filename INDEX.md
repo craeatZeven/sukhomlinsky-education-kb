@@ -5,17 +5,17 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 50 |
-| [family-school](topics/family-school.md) | 家校合作 | 51 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 74 |
-| [health-first](topics/health-first.md) | 健康第一 | 28 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 37 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 75 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 114 |
-| [love-education](topics/love-education.md) | 爱的教育 | 72 |
+| [family-school](topics/family-school.md) | 家校合作 | 52 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 75 |
+| [health-first](topics/health-first.md) | 健康第一 | 29 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 39 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 76 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 115 |
+| [love-education](topics/love-education.md) | 爱的教育 | 74 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 22 |
-| [child-study](topics/child-study.md) | 儿童研究 | 129 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 35 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 34 |
+| [child-study](topics/child-study.md) | 儿童研究 | 130 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 36 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 36 |
 
 ## 来源 Sources
 
@@ -445,3 +445,11 @@
 | [sk-0406](cards/sk-0406-gei-jiao-shi-deep-pass-06.md) | quote | teacher-growth / reading-and-books | gei-jiao-shi-de-jian-yi-zh | 谈谈教师的教育素养 |
 | [sk-0407](cards/sk-0407-gei-jiao-shi-deep-pass-07.md) | quote | labor-education | gei-jiao-shi-de-jian-yi-zh | 劳动教育和个性全面发展 |
 | [sk-0408](cards/sk-0408-gei-jiao-shi-deep-pass-08.md) | quote | family-school / reading-and-books | gei-jiao-shi-de-jian-yi-zh | 怎样使学校教育和家庭教育保持一致？ |
+| [sk-0409](cards/sk-0409-on-education-deep-pass-01.md) | practice | health-first | on-education | 谷物芬多精：新鲜空气是健康的灵药 |
+| [sk-0410](cards/sk-0410-on-education-deep-pass-02.md) | principle | love-education / collective-education | on-education | 孩子做坏事，多半是因为没学过做好事 |
+| [sk-0411](cards/sk-0411-on-education-deep-pass-03.md) | quote | labor-education | on-education | 劳动教育成功的标志：孩子舍不得回家 |
+| [sk-0412](cards/sk-0412-on-education-deep-pass-04.md) | quote | reading-and-books / thinking-and-nature | on-education | 真正的学校是积极思维的王国 |
+| [sk-0413](cards/sk-0413-on-education-deep-pass-05.md) | quote | teacher-growth / family-school | on-education | 教鞭与拳头是教师职业的耻辱 |
+| [sk-0414](cards/sk-0414-on-education-deep-pass-06.md) | quote | aesthetic-nature-education | on-education | 体操挺直身体，音乐挺直心灵 |
+| [sk-0415](cards/sk-0415-on-education-deep-pass-07.md) | quote | thinking-and-nature / aesthetic-nature-education | on-education | 儿童理性的永恒源泉在大自然 |
+| [sk-0416](cards/sk-0416-on-education-deep-pass-08.md) | quote | child-study / love-education | on-education | 青春期是人的第二次诞生 |

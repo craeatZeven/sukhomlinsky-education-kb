@@ -7857,6 +7857,149 @@
         "OCR待校",
         "跨主题"
       ]
+    },
+    {
+      "id": "sk-0409",
+      "type": "practice",
+      "title": "谷物芬多精：新鲜空气是健康的灵药",
+      "source": "on-education",
+      "topics": [
+        "health-first"
+      ],
+      "excerpt": "The elixir of good health is air saturated with the phytoncides from cereals—wheat, rye, barley, buckwheat and other meadow grasses.",
+      "excerpts": [
+        "The elixir of good health is air saturated with the phytoncides from cereals—wheat, rye, barley, buckwheat and other meadow grasses."
+      ],
+      "cn": "苏霍姆林斯基把田间谷物（小麦、黑麦、大麦、荞麦等）散发的芬多精空气称为“健康的灵药”。他常带孩子去田野、草地呼吸充满谷物香气的空气，并建议家长在孩子卧室窗下种植榛树——榛树释放的芬多精能杀死多种致病菌和害虫。",
+      "ref": "On Education (1977, Progress Publishers), Part I 'Half Our Work Is Devoted to Health Care', p. 114 (local ocr line 463)",
+      "tags": []
+    },
+    {
+      "id": "sk-0410",
+      "type": "principle",
+      "title": "孩子做坏事，多半是因为没学过做好事",
+      "source": "on-education",
+      "topics": [
+        "love-education",
+        "collective-education"
+      ],
+      "excerpt": "A schoolchild does not always do bad things because he has been taught to, but more often than not because he has not been taught to do good things.",
+      "excerpts": [
+        "A schoolchild does not always do bad things because he has been taught to, but more often than not because he has not been taught to do good things."
+      ],
+      "cn": "苏霍姆林斯基提醒：学生做出不良行为，往往不是有人教他作恶，而是成人从未认真教过他如何行善。道德教育应当把功夫下在“教善”上，而不是等坏事出现后再去追责和纠正。",
+      "ref": "On Education (1977, Progress Publishers), Part VI 'Morals and Convictions / Devotion to an Ideal Is Impossible Unless Man Feels a Deep Need for His Fellows', p. 300 (local ocr line 1207)",
+      "tags": [
+        "跨主题"
+      ]
+    },
+    {
+      "id": "sk-0411",
+      "type": "quote",
+      "title": "劳动教育成功的标志：孩子舍不得回家",
+      "source": "on-education",
+      "topics": [
+        "labor-education"
+      ],
+      "excerpt": "The success of education through work is in my view achieved, when children have to be made to leave for home after work sessions.",
+      "excerpts": [
+        "The success of education through work is in my view achieved, when children have to be made to leave for home after work sessions."
+      ],
+      "cn": "苏霍姆林斯基给出一个朴素而鲜明的判断标准：当劳动活动结束时，孩子们不是一哄而散，而是需要教师催促才肯回家，劳动教育才算真正成功。这说明劳动本身已经产生了内在吸引力，而不再依赖外在要求。",
+      "ref": "On Education (1977, Progress Publishers), Part III 'Work / From Technical ABC's to Advanced Working Skills', p. 218 (local ocr line 879)",
+      "tags": []
+    },
+    {
+      "id": "sk-0412",
+      "type": "quote",
+      "title": "真正的学校是积极思维的王国",
+      "source": "on-education",
+      "topics": [
+        "reading-and-books",
+        "thinking-and-nature"
+      ],
+      "excerpt": "A true school is a kingdom of active thought. If a pupil in, for instance, Class 8 has been instructed to read at home some ten pages of a textbook he will only be engaging in active thought if he reads that same day 20, 30 or 40 pages of some interesting academic book or journal, not just for the sake of learning it off by heart but in response to his need to think, discover, learn, and finally to attain wonder.",
+      "excerpts": [
+        "A true school is a kingdom of active thought. If a pupil in, for instance, Class 8 has been instructed to read at home some ten pages of a textbook he will only be engaging in active thought if he reads that same day 20, 30 or 40 pages of some interesting academic book or journal, not just for the sake of learning it off by heart but in response to his need to think, discover, learn, and finally to attain wonder."
+      ],
+      "cn": "苏霍姆林斯基认为，真正的学校是积极思维的王国。八年级学生若只完成教科书十页的阅读，并不算真正在思维；只有当天还出于“想思考、想发现、想惊奇”的内在需要，主动去读二三十页有趣的书籍或期刊，思维才真正活跃起来。",
+      "ref": "On Education (1977, Progress Publishers), Part II 'Study / A True School Is a Kingdom of Active Thought', p. 166 (local ocr line 671)",
+      "tags": [
+        "跨主题"
+      ]
+    },
+    {
+      "id": "sk-0413",
+      "type": "quote",
+      "title": "教鞭与拳头是教师职业的耻辱",
+      "source": "on-education",
+      "topics": [
+        "teacher-growth",
+        "family-school"
+      ],
+      "excerpt": "Straps and fists are a disgrace and shame to the teaching profession, because in schools, those sacrosanct worlds where humanity, goodness and truth should reign supreme, there are frequent cases when children are afraid to darken their doors, because they know that the teachers will tell their fathers about their bad behaviour and poor progress in learning, and then their fathers will beat them.",
+      "excerpts": [
+        "Straps and fists are a disgrace and shame to the teaching profession, because in schools, those sacrosanct worlds where humanity, goodness and truth should reign supreme, there are frequent cases when children are afraid to darken their doors, because they know that the teachers will tell their fathers about their bad behaviour and poor progress in learning, and then their fathers will beat them."
+      ],
+      "cn": "苏霍姆林斯基强烈谴责一种隐性的体罚链条：教师把学生的不良表现写进记录、通知家长，等于“把棍子塞进学生的书包”，让孩子回家挨父亲打。学校本应是人性、善良与真理的圣地，孩子却因此害怕跨进校门。他打比方说：这无异于在精细手术进行时，让屠夫提着斧头闯进手术室。",
+      "ref": "On Education (1977, Progress Publishers), Part I 'Education and the Educator / One of the Most Difficult Tests for the Teacher', p. 86 (local ocr line 347)",
+      "tags": [
+        "跨主题"
+      ]
+    },
+    {
+      "id": "sk-0414",
+      "type": "quote",
+      "title": "体操挺直身体，音乐挺直心灵",
+      "source": "on-education",
+      "topics": [
+        "aesthetic-nature-education"
+      ],
+      "excerpt": "Just as gymnastics keeps a child’s body straight so music keeps a child’s heart straight.",
+      "excerpts": [
+        "Just as gymnastics keeps a child’s body straight so music keeps a child’s heart straight."
+      ],
+      "cn": "苏霍姆林斯基把音乐比作心灵的体操：体操使身体挺拔，音乐使心灵正直。学校生活中渗透音乐活动，能在很大程度上决定教育工作的质量，因为音乐让儿童的情感保持敏感，使心对善良、美好的呼唤保持回应。",
+      "ref": "On Education (1977, Progress Publishers), Part IV 'Beauty / Music Keeps the Heart Straight', p. 241 (local ocr line 971)",
+      "tags": []
+    },
+    {
+      "id": "sk-0415",
+      "type": "quote",
+      "title": "儿童理性的永恒源泉在大自然",
+      "source": "on-education",
+      "topics": [
+        "thinking-and-nature",
+        "aesthetic-nature-education"
+      ],
+      "excerpt": "The world that surrounds the child is first and foremost a natural world of inexhaustible beauty and diversity. The eternal source of the child’s reason should be sought in Nature.",
+      "excerpts": [
+        "The world that surrounds the child is first and foremost a natural world of inexhaustible beauty and diversity. The eternal source of the child’s reason should be sought in Nature."
+      ],
+      "cn": "苏霍姆林斯基指出，环绕儿童的世界首先是大自然——一个美与多样性取之不尽的自然世界。儿童的理性有其永恒源泉，这源泉应当到大自然中去寻找。同时他补充：随着儿童成长，与社会关系、劳动相连的环境因素应逐年增加分量；但人始终是大自然之子。",
+      "ref": "On Education (1977, Progress Publishers), Part II 'Study / Children Should Live in a World of Creativity', p. 165 (local ocr line 667)",
+      "tags": [
+        "跨主题"
+      ]
+    },
+    {
+      "id": "sk-0416",
+      "type": "quote",
+      "title": "青春期是人的第二次诞生",
+      "source": "on-education",
+      "topics": [
+        "child-study",
+        "love-education"
+      ],
+      "excerpt": "adolescence is like a second birth. The first time a living being is brought forth, and the second time a citizen, an active, thinking individual, who is aware not merely of the world around him but also of himself.",
+      "excerpts": [
+        "adolescence is like a second birth. The first time a living being is brought forth, and the second time a citizen, an active, thinking individual, who is aware not merely of the world around him but also of himself."
+      ],
+      "cn": "苏霍姆林斯基把青春期比作“第二次诞生”：第一次诞生的是生命，第二次诞生的是公民——一个不仅能认识周围世界、也能认识自己的积极思考者。少年嘴上说“别管我、我能行”，内心却渴望一位年长朋友的肩膀；教育者要读懂这种矛盾。",
+      "ref": "On Education (1977, Progress Publishers), Part VI 'Morals and Convictions / The World of Ideas Unfolds to Children after They Enter Their Teens', p. 319 (local ocr line 1287)",
+      "tags": [
+        "跨主题"
+      ]
     }
   ]
 }

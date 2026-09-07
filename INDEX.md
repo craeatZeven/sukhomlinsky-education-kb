@@ -6,16 +6,16 @@
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 50 |
 | [family-school](topics/family-school.md) | 家校合作 | 52 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 75 |
-| [health-first](topics/health-first.md) | 健康第一 | 29 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 39 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 77 |
+| [health-first](topics/health-first.md) | 健康第一 | 30 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 42 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 76 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 115 |
-| [love-education](topics/love-education.md) | 爱的教育 | 74 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 116 |
+| [love-education](topics/love-education.md) | 爱的教育 | 75 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 22 |
-| [child-study](topics/child-study.md) | 儿童研究 | 130 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 36 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 36 |
+| [child-study](topics/child-study.md) | 儿童研究 | 134 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 37 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 38 |
 
 ## 来源 Sources
 
@@ -453,3 +453,11 @@
 | [sk-0414](cards/sk-0414-on-education-deep-pass-06.md) | quote | aesthetic-nature-education | on-education | 体操挺直身体，音乐挺直心灵 |
 | [sk-0415](cards/sk-0415-on-education-deep-pass-07.md) | quote | thinking-and-nature / aesthetic-nature-education | on-education | 儿童理性的永恒源泉在大自然 |
 | [sk-0416](cards/sk-0416-on-education-deep-pass-08.md) | quote | child-study / love-education | on-education | 青春期是人的第二次诞生 |
+| [sk-0417](cards/sk-0417-to-children-deep-pass-01.md) | quote | aesthetic-nature-education / child-study | to-children-i-give-my-heart | 儿童创造力是自我表达与自我肯定的独特领域 |
+| [sk-0418](cards/sk-0418-to-children-deep-pass-02.md) | quote | aesthetic-nature-education / thinking-and-nature | to-children-i-give-my-heart | 在大自然的背景中教孩子听懂音乐 |
+| [sk-0419](cards/sk-0419-to-children-deep-pass-03.md) | quote | child-study / thinking-and-nature | to-children-i-give-my-heart | 幻想形象是思维幼芽最肥沃的土壤 |
+| [sk-0420](cards/sk-0420-to-children-deep-pass-04.md) | quote | labor-education / love-education | to-children-i-give-my-heart | 对劳动者的爱是人的道德之源 |
+| [sk-0421](cards/sk-0421-to-children-deep-pass-05.md) | quote | health-first | to-children-i-give-my-heart | 只靠夏天不能保住孩子的健康：冬天也是锻炼好时节 |
+| [sk-0422](cards/sk-0422-to-children-deep-pass-06.md) | quote | reading-and-books / child-study | to-children-i-give-my-heart | 只有当词语触动心灵隐秘处，阅读才丰富儿童生活 |
+| [sk-0423](cards/sk-0423-to-children-deep-pass-07.md) | quote | teacher-growth / child-study | to-children-i-give-my-heart | 学习应逐步开始：既是艰巨劳动，也是愉快劳动 |
+| [sk-0424](cards/sk-0424-to-children-deep-pass-08.md) | quote | aesthetic-nature-education / labor-education | to-children-i-give-my-heart | 为创造美而劳动，会使孩子变得更好更美 |

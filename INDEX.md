@@ -6,16 +6,16 @@
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 51 |
 | [family-school](topics/family-school.md) | 家校合作 | 59 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 84 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 86 |
 | [health-first](topics/health-first.md) | 健康第一 | 31 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 108 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 117 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 83 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 119 |
 | [love-education](topics/love-education.md) | 爱的教育 | 86 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 22 |
-| [child-study](topics/child-study.md) | 儿童研究 | 181 |
+| [child-study](topics/child-study.md) | 儿童研究 | 186 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 38 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 73 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 77 |
 
 ## 来源 Sources
 
@@ -555,3 +555,13 @@
 | [sk-0515](cards/sk-0515-dew-on-flower.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 花朵上的露珠：每一颗露珠里都点起小小的太阳 |
 | [sk-0516](cards/sk-0516-bee-enters-classroom.md) | case | child-study / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 蜜蜂飞进了教室：全班屏住呼吸等它飞出窗 |
 | [sk-0517](cards/sk-0517-field-and-meadow.md) | case | labor-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 田野和草地：我变绿是因为人们劳动播种 |
+| [sk-0518](cards/sk-0518-sunflower-follows-sun.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 太阳花：向日葵追着太阳转，梦见朝霞 |
+| [sk-0519](cards/sk-0519-found-nest-left-quietly.md) | case | aesthetic-nature-education / child-study | zuo-ren-de-gu-shi-zh | 我们是怎样在树林里找到鸟窝的：看见小鸟后轻轻走开 |
+| [sk-0520](cards/sk-0520-snowdrop-sees-sun.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 树林中的春天：蓝色的小花问‘太阳为什么变红了’ |
+| [sk-0521](cards/sk-0521-apiary-morning.md) | case | aesthetic-nature-education / labor-education | zuo-ren-de-gu-shi-zh | 养蜂场的早晨：蜜蜂找到最芬芳的花，把蜜带回蜂箱 |
+| [sk-0522](cards/sk-0522-twilight-haze.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 黄昏的朦胧：干草垛变成扬着淡紫色风帆的大船 |
+| [sk-0523](cards/sk-0523-spring-rain-ant-mother.md) | case | thinking-and-nature / love-education | zuo-ren-de-gu-shi-zh | 春雨：蚂蚁妈妈把甜甜的杨树汁带回家 |
+| [sk-0524](cards/sk-0524-oriole-nest.md) | case | aesthetic-nature-education / child-study | zuo-ren-de-gu-shi-zh | 黄鹂的巢：灌木丛被砍掉，黄鹂回来找不到家 |
+| [sk-0525](cards/sk-0525-willow-golden-braids.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 柳树，就像是扎着金黄色发辫的姑娘：小鸟飞走后，柳树等待春天 |
+| [sk-0526](cards/sk-0526-spring-forest-waking.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 春天的树林：只有橡树还在睡觉，等第一声雷鸣 |
+| [sk-0527](cards/sk-0527-maple-autumn-dream.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 秋天的槭树：红叶是树梦见的蒲公英、朝霞和黄鹂翅膀 |

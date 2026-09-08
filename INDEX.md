@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 62 |
-| [family-school](topics/family-school.md) | 家校合作 | 213 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 167 |
-| [health-first](topics/health-first.md) | 健康第一 | 35 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 63 |
+| [family-school](topics/family-school.md) | 家校合作 | 218 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 169 |
+| [health-first](topics/health-first.md) | 健康第一 | 36 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 212 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 176 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 185 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 131 |
-| [love-education](topics/love-education.md) | 爱的教育 | 337 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 30 |
-| [child-study](topics/child-study.md) | 儿童研究 | 255 |
+| [love-education](topics/love-education.md) | 爱的教育 | 352 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 32 |
+| [child-study](topics/child-study.md) | 儿童研究 | 259 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 51 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 105 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 106 |
 
 ## 来源 Sources
 
@@ -970,3 +970,23 @@
 | [sk-0930](cards/sk-0930-a-little-red-star.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 一颗小红星 |
 | [sk-0931](cards/sk-0931-the-big-cup.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 大杯子 |
 | [sk-0932](cards/sk-0932-how-the-boys-ate-up-the-honey.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 小男孩们是怎么吃光了蜂蜜的 |
+| [sk-0933](cards/sk-0933-how-nina-stopped-fearing-the-gander.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 尼娜是怎么不怕公鹅的 |
+| [sk-0934](cards/sk-0934-i-wont-walk-with-you-anymore.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 我不再和你一起走了 |
+| [sk-0935](cards/sk-0935-how-pavlik-copied-the-homework.md) | case | learning-difficulties / love-education | zuo-ren-de-gu-shi-zh | 帕夫利克是怎样抄习题的 |
+| [sk-0936](cards/sk-0936-honey-in-the-pocket.md) | case | love-education / collective-education | zuo-ren-de-gu-shi-zh | 口袋里的蜂蜜 |
+| [sk-0937](cards/sk-0937-how-andreyka-carried-nina-across-the-ditch.md) | case | love-education / family-school | zuo-ren-de-gu-shi-zh | 安德烈卡是怎样背尼娜过水沟的 |
+| [sk-0938](cards/sk-0938-sashas-boat.md) | case | labor-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 萨沙的船 |
+| [sk-0939](cards/sk-0939-the-wolfs-teeth.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 狼的牙齿 |
+| [sk-0940](cards/sk-0940-visiting-the-sick-girl.md) | case | love-education / child-study | zuo-ren-de-gu-shi-zh | 探访病人 |
+| [sk-0941](cards/sk-0941-how-kolya-became-brave.md) | case | love-education / collective-education | zuo-ren-de-gu-shi-zh | 科利亚怎样变得勇敢 |
+| [sk-0942](cards/sk-0942-the-rooster-and-the-sun.md) | case | collective-education / child-study | zuo-ren-de-gu-shi-zh | 公鸡与太阳 |
+| [sk-0943](cards/sk-0943-punishing-the-right-hand.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 惩罚右手 |
+| [sk-0944](cards/sk-0944-the-little-apple-tree.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 小苹果树 |
+| [sk-0945](cards/sk-0945-the-light-in-the-window.md) | case | love-education / child-study | zuo-ren-de-gu-shi-zh | 窗户中的灯光 |
+| [sk-0946](cards/sk-0946-why-the-disabled-man-swam.md) | case | love-education / health-first | zuo-ren-de-gu-shi-zh | 残疾人为什么游泳 |
+| [sk-0947](cards/sk-0947-skis-and-skates.md) | case | love-education / child-study | zuo-ren-de-gu-shi-zh | 滑雪板与冰鞋 |
+| [sk-0948](cards/sk-0948-from-willow-to-poplar.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 从柳树到白杨树 |
+| [sk-0949](cards/sk-0949-one-ruble-coin.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 一卢布硬币 |
+| [sk-0950](cards/sk-0950-the-winning-trophy.md) | case | collective-education / assessment-grading | zuo-ren-de-gu-shi-zh | 获胜的奖杯 |
+| [sk-0951](cards/sk-0951-why-dad-was-unhappy.md) | case | family-school / assessment-grading | zuo-ren-de-gu-shi-zh | 为什么爸爸不开心 |
+| [sk-0952](cards/sk-0952-yurko-in-the-sled.md) | case | labor-education / collective-education | zuo-ren-de-gu-shi-zh | 尤尔科坐在雪橇里 |

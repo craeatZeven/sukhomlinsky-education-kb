@@ -8,14 +8,14 @@
 | [family-school](topics/family-school.md) | 家校合作 | 59 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 82 |
 | [health-first](topics/health-first.md) | 健康第一 | 31 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 85 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 82 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 93 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 83 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 119 |
-| [love-education](topics/love-education.md) | 爱的教育 | 83 |
+| [love-education](topics/love-education.md) | 爱的教育 | 84 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 22 |
-| [child-study](topics/child-study.md) | 儿童研究 | 166 |
+| [child-study](topics/child-study.md) | 儿童研究 | 172 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 38 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 57 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 61 |
 
 ## 来源 Sources
 
@@ -525,3 +525,13 @@
 | [sk-0485](cards/sk-0485-willow-cut-down.md) | case | aesthetic-nature-education / child-study | zuo-ren-de-gu-shi-zh | 柳树被砍了：一片叶子问“我们为什么躺在地上” |
 | [sk-0486](cards/sk-0486-bee-finds-lily-of-valley.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 蜜蜂是怎样找到铃兰花的：每朵花都是银色小铃铛 |
 | [sk-0487](cards/sk-0487-mothers-hand-smell-in-dream.md) | case | love-education / family-school | zuo-ren-de-gu-shi-zh | 在梦中袭来妈妈手的香味：蚂蚁妈妈认出了孩子 |
+| [sk-0488](cards/sk-0488-fire-mane.md) | case | child-study / love-education | zuo-ren-de-gu-shi-zh | 火鬃：父亲雕的木马在孩子梦里活起来 |
+| [sk-0489](cards/sk-0489-she-is-beautiful-only-alive.md) | case | aesthetic-nature-education / child-study | zuo-ren-de-gu-shi-zh | 她只有活着时才美：钉在纸上的蝴蝶不再美 |
+| [sk-0490](cards/sk-0490-hot-flower.md) | case | aesthetic-nature-education / child-study | zuo-ren-de-gu-shi-zh | 热的花朵：春雪里唯一鲜红的玫瑰 |
+| [sk-0491](cards/sk-0491-this-is-sun.md) | case | thinking-and-nature / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 这就是太阳：老橡树干上的一道阳光 |
+| [sk-0492](cards/sk-0492-violet-and-bee.md) | case | aesthetic-nature-education / child-study | zuo-ren-de-gu-shi-zh | 紫罗兰和蜜蜂：我正在死去，就是说再也看不到天空和太阳 |
+| [sk-0493](cards/sk-0493-lily-and-butterfly.md) | case | aesthetic-nature-education / child-study | zuo-ren-de-gu-shi-zh | 百合花和小蝴蝶：等了一整天，可我要沉到水下去了 |
+| [sk-0494](cards/sk-0494-squirrel-saves-woodpecker.md) | case | child-study / collective-education | zuo-ren-de-gu-shi-zh | 小松鼠怎样救了啄木鸟：把自己的松果分给挨饿的朋友 |
+| [sk-0495](cards/sk-0495-apple-smells.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 苹果飘香：月亮升起后，苹果还带着太阳的气息 |
+| [sk-0496](cards/sk-0496-sunflower-in-thunderstorm.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 雷雨时的向日葵：乌云后仍燃着太阳的火焰 |
+| [sk-0497](cards/sk-0497-purple-grove-in-ravine.md) | case | thinking-and-nature / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 峡谷中的淡紫色的小树林：远看像小河，近看是丁香 |

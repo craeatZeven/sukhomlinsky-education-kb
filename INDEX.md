@@ -5,17 +5,17 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 52 |
-| [family-school](topics/family-school.md) | 家校合作 | 97 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 104 |
+| [family-school](topics/family-school.md) | 家校合作 | 102 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 105 |
 | [health-first](topics/health-first.md) | 健康第一 | 33 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 177 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 124 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 178 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 129 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 121 |
-| [love-education](topics/love-education.md) | 爱的教育 | 181 |
+| [love-education](topics/love-education.md) | 爱的教育 | 186 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 23 |
-| [child-study](topics/child-study.md) | 儿童研究 | 206 |
+| [child-study](topics/child-study.md) | 儿童研究 | 208 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 39 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 88 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 89 |
 
 ## 来源 Sources
 
@@ -710,3 +710,13 @@
 | [sk-0670](cards/sk-0670-unconquered-man.md) | case | thinking-and-nature / love-education | zuo-ren-de-gu-shi-zh | 不可征服的人：临死前他不要泉水，而要寻找水的秘密 |
 | [sk-0671](cards/sk-0671-petrik-and-pavlik.md) | case | family-school / child-study | zuo-ren-de-gu-shi-zh | 彼得里克和帕夫利克：孩子会记住大人在背后说的每一句话 |
 | [sk-0672](cards/sk-0672-big-vanya-and-little-vanya.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 大万尼亚和小万尼亚：感到要为另一个人的生命负责，人就不可战胜 |
+| [sk-0673](cards/sk-0673-oksana-is-no-longer-in-the-room.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 奥克萨娜已不在屋里了：把朋友当贼防，友谊已经被伤害了 |
+| [sk-0674](cards/sk-0674-dont-forget-the-spring.md) | case | collective-education / labor-education | zuo-ren-de-gu-shi-zh | 不要忘记泉源：共同的水源要靠每个人共同维护 |
+| [sk-0675](cards/sk-0675-cucumbers-around-the-well.md) | case | collective-education / family-school | zuo-ren-de-gu-shi-zh | 水井旁的黄瓜：把公共的甘泉圈成私产，孩子会为父亲羞愧 |
+| [sk-0676](cards/sk-0676-what-kind-of-man-was-grandpa-karp.md) | case | aesthetic-nature-education / child-study | zuo-ren-de-gu-shi-zh | 卡尔波爷爷究竟是什么样的人：宁可把树苗扔进山谷，也不肯放下自己的固执 |
+| [sk-0677](cards/sk-0677-water-in-the-flask.md) | case | thinking-and-nature / child-study | zuo-ren-de-gu-shi-zh | 水壶里的水：人靠希望前进，鹰无法理解这一点 |
+| [sk-0678](cards/sk-0678-cruelty.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 残酷：父亲的一句“救不了所有的”，成了孩子一生的冷血 |
+| [sk-0679](cards/sk-0679-filipp-ivanovich-is-no-longer-chairman.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 菲利普·伊凡诺维奇已经不当主席了：承诺不应随对方的职位消失 |
+| [sk-0680](cards/sk-0680-at-uncle-matveys.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 在马特维舅舅家：没有苹果就不用说谢谢吗？ |
+| [sk-0681](cards/sk-0681-the-greedy-boy.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 贪婪的男孩：占有不了的就毁掉，贪婪像心里的小蛆 |
+| [sk-0682](cards/sk-0682-how-mitya-ate.md) | case | collective-education / family-school | zuo-ren-de-gu-shi-zh | 米佳是怎样吃饭的：妈妈的“不必分给别人”让他独自吃完后羞愧 |

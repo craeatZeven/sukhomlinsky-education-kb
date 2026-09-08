@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 63 |
-| [family-school](topics/family-school.md) | 家校合作 | 218 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 169 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 64 |
+| [family-school](topics/family-school.md) | 家校合作 | 224 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 171 |
 | [health-first](topics/health-first.md) | 健康第一 | 36 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 212 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 185 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 131 |
-| [love-education](topics/love-education.md) | 爱的教育 | 352 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 32 |
-| [child-study](topics/child-study.md) | 儿童研究 | 259 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 218 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 195 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 133 |
+| [love-education](topics/love-education.md) | 爱的教育 | 371 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 33 |
+| [child-study](topics/child-study.md) | 儿童研究 | 270 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 51 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 106 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 107 |
 
 ## 来源 Sources
 
@@ -990,3 +990,32 @@
 | [sk-0950](cards/sk-0950-the-winning-trophy.md) | case | collective-education / assessment-grading | zuo-ren-de-gu-shi-zh | 获胜的奖杯 |
 | [sk-0951](cards/sk-0951-why-dad-was-unhappy.md) | case | family-school / assessment-grading | zuo-ren-de-gu-shi-zh | 为什么爸爸不开心 |
 | [sk-0952](cards/sk-0952-yurko-in-the-sled.md) | case | labor-education / collective-education | zuo-ren-de-gu-shi-zh | 尤尔科坐在雪橇里 |
+| [sk-0953](cards/sk-0953-the-stone.md) | case | thinking-and-nature / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 石头 |
+| [sk-0954](cards/sk-0954-the-smile.md) | case | love-education / child-study | zuo-ren-de-gu-shi-zh | 笑容 |
+| [sk-0955](cards/sk-0955-forgot-mothers-birthday.md) | case | love-education / family-school | zuo-ren-de-gu-shi-zh | 忘了 |
+| [sk-0956](cards/sk-0956-my-mother.md) | case | love-education / family-school | zuo-ren-de-gu-shi-zh | 我的妈妈 |
+| [sk-0957](cards/sk-0957-the-oriole.md) | case | aesthetic-nature-education / assessment-grading / child-study | zuo-ren-de-gu-shi-zh | 黄鹂 |
+| [sk-0958](cards/sk-0958-life.md) | case | love-education / child-study | zuo-ren-de-gu-shi-zh | 生命 |
+| [sk-0959](cards/sk-0959-two-mothers.md) | case | love-education / family-school | zuo-ren-de-gu-shi-zh | 两位母亲 |
+| [sk-0960](cards/sk-0960-the-sunbeam.md) | case | child-study / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 光点 |
+| [sk-0961](cards/sk-0961-dripping-water.md) | case | labor-education / learning-difficulties | zuo-ren-de-gu-shi-zh | 滴水 |
+| [sk-0962](cards/sk-0962-i-dont-want-to-break-my-promise.md) | case | love-education / child-study | zuo-ren-de-gu-shi-zh | 我不想不守诺言 |
+| [sk-0963](cards/sk-0963-summer-thunderstorm.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 夏天的雷雨 |
+| [sk-0964](cards/sk-0964-the-chair-with-a-broken-leg.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 折断腿的椅子 |
+| [sk-0965](cards/sk-0965-the-little-apple-tree-came-back-to-life.md) | case | aesthetic-nature-education / love-education | zuo-ren-de-gu-shi-zh | 小苹果树活了 |
+| [sk-0966](cards/sk-0966-one-sip-of-water-for-the-weakest.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 给最弱的人每人一口水 |
+| [sk-0967](cards/sk-0967-the-horse-ran-away.md) | case | teacher-growth / love-education | zuo-ren-de-gu-shi-zh | 马跑了 |
+| [sk-0968](cards/sk-0968-why-zima-smirked.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 季马冷笑什么 |
+| [sk-0969](cards/sk-0969-the-timid-child.md) | case | child-study / love-education | zuo-ren-de-gu-shi-zh | 胆小的孩子 |
+| [sk-0970](cards/sk-0970-mothers-melon.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 妈妈的甜瓜 |
+| [sk-0971](cards/sk-0971-one-white-feather.md) | case | collective-education / child-study | zuo-ren-de-gu-shi-zh | 一根白羽毛 |
+| [sk-0972](cards/sk-0972-a-piece-of-bread.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 一块面包 |
+| [sk-0973](cards/sk-0973-who-ate-the-pie.md) | case | collective-education / family-school | zuo-ren-de-gu-shi-zh | 谁吃了馅饼 |
+| [sk-0974](cards/sk-0974-the-deaf-girl.md) | case | collective-education / child-study | zuo-ren-de-gu-shi-zh | 耳聋的小姑娘 |
+| [sk-0975](cards/sk-0975-the-cutlet-was-like-a-stone.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 肉饼像石头一样 |
+| [sk-0976](cards/sk-0976-even-the-flowers-blushed.md) | case | love-education / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 甚至连花都羞红了脸 |
+| [sk-0977](cards/sk-0977-pavel-and-the-sun.md) | case | labor-education / collective-education | zuo-ren-de-gu-shi-zh | 帕维尔和太阳 |
+| [sk-0978](cards/sk-0978-how-natasha-bought-cunning.md) | case | love-education / child-study | zuo-ren-de-gu-shi-zh | 娜塔莎是怎样向狐狸买滑头点子的 |
+| [sk-0979](cards/sk-0979-slingshot-and-sparrow-nest.md) | case | love-education / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 弹弓与麻雀窝 |
+| [sk-0980](cards/sk-0980-timid-lyonya.md) | case | collective-education / child-study | zuo-ren-de-gu-shi-zh | 胆小的廖尼亚 |
+| [sk-0981](cards/sk-0981-force-yourself-to-feel.md) | case | teacher-growth / child-study | zuo-ren-de-gu-shi-zh | 最重要的是迫使自己去感受 |

@@ -33,6 +33,10 @@
   <section>
     <div id="topicBody"></div>
     <h2 class="section-title">本主题卡片</h2>
+    <div class="load-wrap" style="margin:0 0 14px">
+      <button id="exportTopicJson" class="chip" type="button">导出本专题 JSON</button>
+      <button id="exportTopicCsv" class="chip" type="button">导出本专题 CSV</button>
+    </div>
     <div class="grid" id="cardList"></div>
     <h2 class="section-title" style="margin-top:28px">相关专题</h2>
     <div class="grid" id="relatedTopics"></div>
@@ -88,6 +92,28 @@ function render(){
       <h3 style="margin:10px 0 4px;font-size:17px">${topicTitle(s)}</h3>
       <p class="ref">进入专题 →</p>
     </a>`).join("") || `<p class="section-sub">暂无相关专题</p>`;
+  const download = (filename, text, type) => {
+    const blob = new Blob([text], {type});
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url; a.download = filename; document.body.appendChild(a); a.click();
+    a.remove(); URL.revokeObjectURL(url);
+  };
+  const csvEscape = v => {
+    const s = String(v == null ? "" : v).replace(/"/g, '""');
+    return /[",\n]/.test(s) ? `"${s}"` : s;
+  };
+  document.getElementById("exportTopicJson").addEventListener("click", ()=>{
+    download(topic.slug + ".json", JSON.stringify(list, null, 2), "application/json");
+  });
+  document.getElementById("exportTopicCsv").addEventListener("click", ()=>{
+    const cols = ["id","type","title","source","topics","ref","url"];
+    const rows = [cols.join(",")].concat(list.map(c=>cols.map(k=>{
+      if(k==="topics") return csvEscape((c.topics||[]).join("|"));
+      return csvEscape(c[k]);
+    }).join(",")));
+    download(topic.slug + ".csv", "\ufeff"+rows.join("\n"), "text/csv;charset=utf-8");
+  });
 }
 document.addEventListener("DOMContentLoaded", render);
 </script>

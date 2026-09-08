@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 98 |
-| [family-school](topics/family-school.md) | 家校合作 | 265 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 200 |
-| [health-first](topics/health-first.md) | 健康第一 | 49 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 99 |
+| [family-school](topics/family-school.md) | 家校合作 | 269 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 201 |
+| [health-first](topics/health-first.md) | 健康第一 | 51 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 259 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 238 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 195 |
-| [love-education](topics/love-education.md) | 爱的教育 | 448 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 240 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 197 |
+| [love-education](topics/love-education.md) | 爱的教育 | 452 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 39 |
-| [child-study](topics/child-study.md) | 儿童研究 | 370 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 76 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 166 |
+| [child-study](topics/child-study.md) | 儿童研究 | 373 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 78 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 168 |
 
 ## 来源 Sources
 
@@ -1224,3 +1224,13 @@
 | [sk-1189](cards/sk-1189-commemorating-ones-ancestors-with-respect.md) | principle | love-education / family-school / collective-education | xuan-ji-zh-vol2 | 人应当尊敬地纪念自己的先辈 |
 | [sk-1190](cards/sk-1190-giving-students-the-joy-of-knowledge.md) | principle | learning-difficulties / reading-and-books / thinking-and-nature | xuan-ji-zh-vol2 | 怎样使学生们具有知识的欢乐 |
 | [sk-1191](cards/sk-1191-cultivating-a-conscious-pursuit-of-goodness.md) | principle | love-education / collective-education / labor-education | xuan-ji-zh-vol2 | 怎样培养孩子自觉地去追求善良 |
+| [sk-1192](cards/sk-1192-teach-children-to-use-free-time.md) | method | child-study / health-first / thinking-and-nature | xuan-ji-zh-vol2 | 教儿童利用自由活动时间 |
+| [sk-1193](cards/sk-1193-spiritual-preparation-for-love.md) | principle | love-education / family-school | xuan-ji-zh-vol2 | 青年对待爱情的精神准备应当包括些什么 |
+| [sk-1194](cards/sk-1194-understanding-new-material-is-a-stage.md) | method | learning-difficulties / thinking-and-nature | xuan-ji-zh-vol2 | 理解新教材是课堂教学的一个阶段 |
+| [sk-1195](cards/sk-1195-mixed-age-collective-not-built-from-nothing.md) | principle | collective-education / labor-education | xuan-ji-zh-vol2 | 不同年龄学生组成的集体不是凭空建立起来的 |
+| [sk-1196](cards/sk-1196-culture-of-human-desires.md) | principle | love-education / family-school | xuan-ji-zh-vol2 | 怎样使男女青年们具有人的欲望的素养 |
+| [sk-1197](cards/sk-1197-respect-for-women-girls-mothers.md) | method | love-education / collective-education | xuan-ji-zh-vol2 | 怎样培养对妇女、姑娘、母亲的尊重 |
+| [sk-1198](cards/sk-1198-what-plans-teachers-should-make.md) | method | teacher-growth / reading-and-books | xuan-ji-zh-vol2 | 教师应制订哪些计划 |
+| [sk-1199](cards/sk-1199-loyalty-and-loyalty-to-others.md) | principle | love-education / family-school | xuan-ji-zh-vol2 | 忠诚感和对别人的忠诚意味着什么 |
+| [sk-1200](cards/sk-1200-advice-to-new-teachers.md) | method | teacher-growth / reading-and-books / child-study | xuan-ji-zh-vol2 | 向初到学校工作的教师提一些建议 |
+| [sk-1201](cards/sk-1201-advice-to-first-grade-teachers.md) | method | child-study / family-school / health-first | xuan-ji-zh-vol2 | 向准备担任一年级工作的教师提一些建议 |

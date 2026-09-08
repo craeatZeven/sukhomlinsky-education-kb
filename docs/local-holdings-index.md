@@ -45,7 +45,7 @@
 - 儿童故事：44 篇美德故事已全量盘点——31 篇确认同源、11 篇高度可能、2 篇仅主题相关（见 `docs/story-coverage-meide-gushi.md`）
 - 五卷本：已按作品统计卡片来源分布（见 `docs/coverage-volumes.md`），并完成章节级覆盖审计（见 `docs/coverage-volumes-chapters.md`）：310 个审计单位中 13 covered / 154 partial / 143 gap
 - 562篇文章：仅第5卷68篇（77条目）已覆盖；其余暂缓
-- 113条官方故事书目：已盘点，并完成“条目↔卡片”对照草稿：93/113 高置信可挂现有卡（两轮共 40 条抽样复核，修正 3 条；见 `docs/coverage-official-tales.md`、`docs/coverage-official-tales-mapping.md` 及两份 verification 报告）
+- 113条官方故事书目：已盘点并完成全量核验：96/113 高置信可挂现有卡（10 A + 86 H；17 条 E_none；见 `docs/coverage-official-tales-mapping.md` 及三份 verification 报告）
 
 ## 五、下一步（整理向）
 

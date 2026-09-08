@@ -5,15 +5,15 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 52 |
-| [family-school](topics/family-school.md) | 家校合作 | 134 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 111 |
+| [family-school](topics/family-school.md) | 家校合作 | 143 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 112 |
 | [health-first](topics/health-first.md) | 健康第一 | 33 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 179 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 133 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 121 |
-| [love-education](topics/love-education.md) | 爱的教育 | 220 |
+| [love-education](topics/love-education.md) | 爱的教育 | 229 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 23 |
-| [child-study](topics/child-study.md) | 儿童研究 | 215 |
+| [child-study](topics/child-study.md) | 儿童研究 | 216 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 39 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 89 |
 
@@ -760,3 +760,13 @@
 | [sk-0720](cards/sk-0720-father-came-back.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 父亲回来了 |
 | [sk-0721](cards/sk-0721-mom-sent-me.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 妈妈让我来 |
 | [sk-0722](cards/sk-0722-little-crow-and-nightingale.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 小乌鸦和夜莺 |
+| [sk-0723](cards/sk-0723-why-grandpa-maksim-wakes-so-early.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 为什么马克西姆爷爷醒得这么早 |
+| [sk-0724](cards/sk-0724-grandmothers-hands.md) | case | labor-education / love-education | zuo-ren-de-gu-shi-zh | 奶奶的手 |
+| [sk-0725](cards/sk-0725-offensive-words.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 侮辱的话 |
+| [sk-0726](cards/sk-0726-wooden-crane.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 木制的鹤 |
+| [sk-0727](cards/sk-0727-green-pot.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 绿色的锅 |
+| [sk-0728](cards/sk-0728-grandfathers-cradle.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 爷爷的摇篮 |
+| [sk-0729](cards/sk-0729-never-again.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 我再也不了 |
+| [sk-0730](cards/sk-0730-the-most-beautiful-mother.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 最美丽的妈妈 |
+| [sk-0731](cards/sk-0731-the-apple-on-the-treetop.md) | case | family-school / child-study | zuo-ren-de-gu-shi-zh | 在树尖上的苹果 |
+| [sk-0732](cards/sk-0732-regret.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 后悔 |

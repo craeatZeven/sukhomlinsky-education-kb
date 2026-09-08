@@ -5,17 +5,17 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 51 |
-| [family-school](topics/family-school.md) | 家校合作 | 56 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 79 |
+| [family-school](topics/family-school.md) | 家校合作 | 57 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 80 |
 | [health-first](topics/health-first.md) | 健康第一 | 31 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 49 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 58 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 82 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 119 |
 | [love-education](topics/love-education.md) | 爱的教育 | 80 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 22 |
-| [child-study](topics/child-study.md) | 儿童研究 | 148 |
+| [child-study](topics/child-study.md) | 儿童研究 | 153 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 38 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 40 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 44 |
 
 ## 来源 Sources
 
@@ -485,3 +485,13 @@
 | [sk-0445](cards/sk-0445-broken-branch.md) | case | aesthetic-nature-education / child-study | zuo-ren-de-gu-shi-zh | 在受伤的树枝面前：折一根树枝，世界就少一点欢乐 |
 | [sk-0446](cards/sk-0446-yura-pioneer-legend.md) | case | collective-education / child-study | zuo-ren-de-gu-shi-zh | 少先队员尤拉的英雄故事：宁死也不向法西斯低头 |
 | [sk-0447](cards/sk-0447-what-is-better-chinese.md) | case | thinking-and-nature / family-school | zuo-ren-de-gu-shi-zh | 什么最好呀（中文原版）：从“什么更好”到“好在哪里” |
+| [sk-0448](cards/sk-0448-rooster-comb.md) | case | aesthetic-nature-education / child-study | zuo-ren-de-gu-shi-zh | 公鸡为什么有鸡冠：晚上把鸡冠收好，白天再展示 |
+| [sk-0449](cards/sk-0449-cat-ashamed.md) | case | aesthetic-nature-education / child-study | zuo-ren-de-gu-shi-zh | 猫害臊了：抓不到麻雀，失败也会让猫脸红 |
+| [sk-0450](cards/sk-0450-we-saved-lark.md) | case | aesthetic-nature-education / labor-education | zuo-ren-de-gu-shi-zh | 我们怎样拯救了小云雀：把鸟窝搬到收割机到不了的地方 |
+| [sk-0451](cards/sk-0451-thorns-for-butterfly.md) | case | aesthetic-nature-education / child-study | zuo-ren-de-gu-shi-zh | 为了不让蝴蝶被刺伤：孩子主动为小生命清除危险 |
+| [sk-0452](cards/sk-0452-rain-and-thunder.md) | case | thinking-and-nature / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 雨和雷：把自然现象讲成小生命的故事 |
+| [sk-0453](cards/sk-0453-morning-breeze.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 晨风：微风醒来，把世界一点点唤醒 |
+| [sk-0454](cards/sk-0454-rabbit-and-rowan.md) | case | aesthetic-nature-education / child-study | zuo-ren-de-gu-shi-zh | 小兔子和花楸树：求不到时，去请求能帮忙的风 |
+| [sk-0455](cards/sk-0455-autumn-golden-ribbon.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 秋天带来了金色的带子：秋叶是季节送给树的礼物 |
+| [sk-0456](cards/sk-0456-goodbye-sun.md) | case | aesthetic-nature-education / family-school | zuo-ren-de-gu-shi-zh | 再见，太阳：用温柔的告别建立对自然的亲密 |
+| [sk-0457](cards/sk-0457-ant-crosses-stream.md) | case | thinking-and-nature / child-study | zuo-ren-de-gu-shi-zh | 蚂蚁是怎样穿过小溪的：为家人想办法的蚂蚁 |

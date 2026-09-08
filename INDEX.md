@@ -5,17 +5,17 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 52 |
-| [family-school](topics/family-school.md) | 家校合作 | 94 |
+| [family-school](topics/family-school.md) | 家校合作 | 97 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 104 |
 | [health-first](topics/health-first.md) | 健康第一 | 33 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 176 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 122 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 120 |
-| [love-education](topics/love-education.md) | 爱的教育 | 177 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 22 |
-| [child-study](topics/child-study.md) | 儿童研究 | 204 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 177 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 124 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 121 |
+| [love-education](topics/love-education.md) | 爱的教育 | 181 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 23 |
+| [child-study](topics/child-study.md) | 儿童研究 | 206 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 39 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 86 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 88 |
 
 ## 来源 Sources
 
@@ -702,3 +702,11 @@
 | [sk-0662](cards/sk-0662-soap-bubbles.md) | case | aesthetic-nature-education / child-study | zuo-ren-de-gu-shi-zh | 肥皂泡：骄傲吹得越大，破得越快 |
 | [sk-0663](cards/sk-0663-being-human-is-hard.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 做人真难：累了也要走回去，向给水喝的妇女道谢 |
 | [sk-0664](cards/sk-0664-sound-of-the-axe.md) | case | family-school / child-study | zuo-ren-de-gu-shi-zh | 斧子的敲击声：父亲认出砍树人是熟人后，愤怒变成了困窘 |
+| [sk-0665](cards/sk-0665-same-words.md) | case | love-education / teacher-growth | zuo-ren-de-gu-shi-zh | 同样的话：同一句“去打水吧”，冷冰冰与亲切地说效果完全不同 |
+| [sk-0666](cards/sk-0666-maybe-he-knows-nothing.md) | case | child-study / assessment-grading | zuo-ren-de-gu-shi-zh | 可能他什么也不知道吧：沉默不等于聪明，孩子戳破了成人的想当然 |
+| [sk-0667](cards/sk-0667-sons-photo.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 儿子的照片：父亲撕下光荣榜上儿子的照片，因为人品配不上荣誉 |
+| [sk-0668](cards/sk-0668-two-brothers.md) | case | family-school / collective-education | zuo-ren-de-gu-shi-zh | 两兄弟：母亲葬礼的那天，没有人去参加弟弟的婚礼 |
+| [sk-0669](cards/sk-0669-lighthouse-keeper.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 航标灯工人：河流消失后，他仍在原地点灯，让人看见自己的愚蠢 |
+| [sk-0670](cards/sk-0670-unconquered-man.md) | case | thinking-and-nature / love-education | zuo-ren-de-gu-shi-zh | 不可征服的人：临死前他不要泉水，而要寻找水的秘密 |
+| [sk-0671](cards/sk-0671-petrik-and-pavlik.md) | case | family-school / child-study | zuo-ren-de-gu-shi-zh | 彼得里克和帕夫利克：孩子会记住大人在背后说的每一句话 |
+| [sk-0672](cards/sk-0672-big-vanya-and-little-vanya.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 大万尼亚和小万尼亚：感到要为另一个人的生命负责，人就不可战胜 |

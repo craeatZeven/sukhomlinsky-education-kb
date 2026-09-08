@@ -5,16 +5,16 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 99 |
-| [family-school](topics/family-school.md) | 家校合作 | 272 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 203 |
-| [health-first](topics/health-first.md) | 健康第一 | 51 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 259 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 242 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 201 |
-| [love-education](topics/love-education.md) | 爱的教育 | 459 |
+| [family-school](topics/family-school.md) | 家校合作 | 275 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 206 |
+| [health-first](topics/health-first.md) | 健康第一 | 52 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 260 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 252 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 209 |
+| [love-education](topics/love-education.md) | 爱的教育 | 472 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 40 |
-| [child-study](topics/child-study.md) | 儿童研究 | 373 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 80 |
+| [child-study](topics/child-study.md) | 儿童研究 | 377 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 81 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 168 |
 
 ## 来源 Sources
@@ -1244,3 +1244,23 @@
 | [sk-1209](cards/sk-1209-letter-17-respect-women-and-female-beauty.md) | principle | love-education / family-school | xuan-ji-zh-vol3 | 第17封信：尊重妇女与女性美 |
 | [sk-1210](cards/sk-1210-letter-13-patriotism-from-berlin.md) | principle | love-education / teacher-growth | xuan-ji-zh-vol3 | 第13封信：从柏林谈对祖国的责任 |
 | [sk-1211](cards/sk-1211-conclusion-new-man-alloy-of-conviction.md) | principle | love-education / teacher-growth | xuan-ji-zh-vol2 | 结束语：共产主义信念是新人成长的合金 |
+| [sk-1212](cards/sk-1212-spread-knowledge-and-social-life.md) | practice | collective-education / teacher-growth | xuan-ji-zh-vol2 | 传播知识与参加社会生活 |
+| [sk-1213](cards/sk-1213-teach-children-meaning-of-giving.md) | principle | love-education / child-study | xuan-ji-zh-vol2 | 怎样教孩子懂得奉献的思想 |
+| [sk-1214](cards/sk-1214-build-labor-relations-in-collective.md) | practice | labor-education / collective-education | xuan-ji-zh-vol2 | 怎样在学校集体内建立劳动关系 |
+| [sk-1215](cards/sk-1215-how-to-congratulate-family-birthdays.md) | practice | family-school / love-education | xuan-ji-zh-vol2 | 怎样祝贺亲人的生日 |
+| [sk-1216](cards/sk-1216-what-can-and-cannot-be-discussed.md) | principle | collective-education / child-study | xuan-ji-zh-vol2 | 在学校集体中什么可以讨论和什么不可以讨论 |
+| [sk-1217](cards/sk-1217-convey-meaning-of-teacher-labor.md) | principle | teacher-growth / love-education | xuan-ji-zh-vol2 | 怎样把教师劳动的意义传送到学生的意识中去 |
+| [sk-1218](cards/sk-1218-advice-to-teachers-in-large-schools.md) | method | teacher-growth | xuan-ji-zh-vol2 | 向在规模大的学校里工作的教师提些建议 |
+| [sk-1219](cards/sk-1219-cultivating-communist-ideals-in-children.md) | case | child-study / love-education | xuan-ji-zh-vol2 | 怎样培养孩子们具有共产主义理想 |
+| [sk-1220](cards/sk-1220-advice-to-one-room-school-teachers.md) | method | teacher-growth / reading-and-books | xuan-ji-zh-vol2 | 给单班制学校教师的建议 |
+| [sk-1221](cards/sk-1221-cultivating-love-for-socialist-motherland.md) | principle | love-education / aesthetic-nature-education | xuan-ji-zh-vol2 | 怎样培养忠于社会主义祖国的情感 |
+| [sk-1222](cards/sk-1222-future-mothers-and-fathers-with-family.md) | method | family-school / love-education | xuan-ji-zh-vol2 | 怎样和家长一道培养未来的母亲和父亲 |
+| [sk-1223](cards/sk-1223-pursuing-ideals-cultivates-principle.md) | principle | love-education / collective-education / teacher-growth | xuan-ji-zh-vol2 | 用追求理想的方法培养思想性 |
+| [sk-1224](cards/sk-1224-do-not-fear-difficulty.md) | principle | health-first / love-education / labor-education | xuan-ji-zh-vol2 | 不要害怕困难，有困难是好事，否则就谈不上对青少年进行思想教育 |
+| [sk-1225](cards/sk-1225-understand-and-apply-soviet-law.md) | method | collective-education / love-education | xuan-ji-zh-vol2 | 怎样教孩子们理解和运用苏维埃国家法律 |
+| [sk-1226](cards/sk-1226-komsomol-members-care-for-public-interest.md) | practice | labor-education / collective-education | xuan-ji-zh-vol2 | 怎样教育共青团员关心公共利益 |
+| [sk-1227](cards/sk-1227-preface-why-this-book.md) | principle | teacher-growth / child-study | xuan-ji-zh-vol2 | 代前言 |
+| [sk-1228](cards/sk-1228-encourage-continuous-moral-improvement.md) | method | collective-education / love-education | xuan-ji-zh-vol2 | 怎样激励人们经常不断地发展和完善道德 |
+| [sk-1229](cards/sk-1229-youth-not-indifferent-to-life-and-struggle.md) | method | love-education / family-school / collective-education | xuan-ji-zh-vol2 | 怎样使青年对我们的生活和斗争不要漠不关心 |
+| [sk-1230](cards/sk-1230-send-spirit-of-the-times-to-youth.md) | case | love-education / collective-education / teacher-growth | xuan-ji-zh-vol2 | 怎样把时代精神送到青少年的心坎里 |
+| [sk-1231](cards/sk-1231-young-leninists-and-pioneer-teacher-role.md) | method | collective-education / love-education / teacher-growth | xuan-ji-zh-vol2 | 怎样培养少年列宁主义者，教师在少先队组织生活中的作用 |

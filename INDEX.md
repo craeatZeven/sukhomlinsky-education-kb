@@ -5,15 +5,15 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 52 |
-| [family-school](topics/family-school.md) | 家校合作 | 86 |
+| [family-school](topics/family-school.md) | 家校合作 | 90 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 104 |
 | [health-first](topics/health-first.md) | 健康第一 | 33 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 174 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 114 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 175 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 118 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 120 |
-| [love-education](topics/love-education.md) | 爱的教育 | 162 |
+| [love-education](topics/love-education.md) | 爱的教育 | 171 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 22 |
-| [child-study](topics/child-study.md) | 儿童研究 | 199 |
+| [child-study](topics/child-study.md) | 儿童研究 | 201 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 39 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 86 |
 
@@ -683,3 +683,13 @@
 | [sk-0643](cards/sk-0643-whos-grandpas-relatives.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 谁是爷爷的亲戚：他是所有诚实的人的亲戚 |
 | [sk-0644](cards/sk-0644-unhappy-andrei.md) | case | labor-education / learning-difficulties | zuo-ren-de-gu-shi-zh | 不幸的安德烈：不幸是因为不爱劳动，劳动是最大的美 |
 | [sk-0645](cards/sk-0645-grandpa-matveys-oak-tree.md) | case | aesthetic-nature-education / love-education | zuo-ren-de-gu-shi-zh | 马特维爷爷的橡树：为别人栽一棵树，让别人记住你 |
+| [sk-0646](cards/sk-0646-laughing-at-old-grandma.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 嘲笑老奶奶：看着别人无助而发笑，是在做一件大坏事 |
+| [sk-0647](cards/sk-0647-treating-with-apples.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 用苹果招待：接受好意后转身就忘，是很丑恶的 |
+| [sk-0648](cards/sk-0648-what-is-tactlessness.md) | case | child-study / love-education | zuo-ren-de-gu-shi-zh | 什么叫不知分寸：好心也要看见对方真正需要什么 |
+| [sk-0649](cards/sk-0649-heart-of-stone.md) | case | child-study / family-school | zuo-ren-de-gu-shi-zh | 铁石心肠：只关心自己愿望的人，会渐渐失去对他人的感觉 |
+| [sk-0650](cards/sk-0650-one-legged-man.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 缺了一条腿的男人：公共车厢里最刺眼的，是装着没看见 |
+| [sk-0651](cards/sk-0651-boys-having-fun.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 男孩子们在取乐：只顾自己快乐而不顾别人，比野人更坏 |
+| [sk-0652](cards/sk-0652-beautiful-words-and-beautiful-deeds.md) | case | aesthetic-nature-education / love-education | zuo-ren-de-gu-shi-zh | 漂亮的语言和漂亮的事情：真正美丽的是事情，不是话语 |
+| [sk-0653](cards/sk-0653-talking-irresponsibly.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 信口开河：说过的神圣承诺，要用行动一直守下去 |
+| [sk-0654](cards/sk-0654-mom-has-no-time.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 妈妈没时间：只顾自己吃独食，会让客人觉得羞耻 |
+| [sk-0655](cards/sk-0655-ingratitude.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 忘恩负义：只挑剔招待，不谢招待的人，会让爷爷心痛 |

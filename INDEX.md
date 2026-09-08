@@ -4,17 +4,17 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 54 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 55 |
 | [family-school](topics/family-school.md) | 家校合作 | 165 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 115 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 116 |
 | [health-first](topics/health-first.md) | 健康第一 | 34 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 188 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 140 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 128 |
-| [love-education](topics/love-education.md) | 爱的教育 | 250 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 25 |
-| [child-study](topics/child-study.md) | 儿童研究 | 225 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 47 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 190 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 143 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 129 |
+| [love-education](topics/love-education.md) | 爱的教育 | 257 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 26 |
+| [child-study](topics/child-study.md) | 儿童研究 | 228 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 48 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 98 |
 
 ## 来源 Sources
@@ -820,3 +820,13 @@
 | [sk-0780](cards/sk-0780-oak-acorns.md) | case | collective-education / labor-education | zuo-ren-de-gu-shi-zh | 柞树果 |
 | [sk-0781](cards/sk-0781-hunchbacked-girl.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 驼背的女孩 |
 | [sk-0782](cards/sk-0782-maria-petrovna-would-be-sad.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 因为那样做玛丽亚·彼得洛夫娜会难过的 |
+| [sk-0783](cards/sk-0783-school-in-the-attic.md) | case | collective-education / learning-difficulties | zuo-ren-de-gu-shi-zh | 阁楼上的学校 |
+| [sk-0784](cards/sk-0784-why-seryozha-was-ashamed.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 谢廖扎为什么感到羞愧 |
+| [sk-0785](cards/sk-0785-homework-book-left-at-home.md) | case | love-education / child-study | zuo-ren-de-gu-shi-zh | 作业本忘在家里了 |
+| [sk-0786](cards/sk-0786-mityas-vacation.md) | case | child-study / love-education | zuo-ren-de-gu-shi-zh | 米佳的假期 |
+| [sk-0787](cards/sk-0787-young-garden.md) | case | labor-education / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 年轻的花园 |
+| [sk-0788](cards/sk-0788-mathematics-an-interesting-science.md) | case | child-study / teacher-growth | zuo-ren-de-gu-shi-zh | 数学，一门多么有意思的科学 |
+| [sk-0789](cards/sk-0789-lonely-teacher.md) | case | reading-and-books / love-education | zuo-ren-de-gu-shi-zh | 孤独的老师 |
+| [sk-0790](cards/sk-0790-we-like-to-draw.md) | case | aesthetic-nature-education / love-education | zuo-ren-de-gu-shi-zh | 我们喜欢画画 |
+| [sk-0791](cards/sk-0791-cheat-slip.md) | case | assessment-grading / love-education | zuo-ren-de-gu-shi-zh | 作弊的小纸条 |
+| [sk-0792](cards/sk-0792-timur-team-members.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 铁木尔队队员 |

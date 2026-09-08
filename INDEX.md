@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 95 |
-| [family-school](topics/family-school.md) | 家校合作 | 257 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 194 |
-| [health-first](topics/health-first.md) | 健康第一 | 47 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 258 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 230 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 190 |
-| [love-education](topics/love-education.md) | 爱的教育 | 439 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 38 |
-| [child-study](topics/child-study.md) | 儿童研究 | 360 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 97 |
+| [family-school](topics/family-school.md) | 家校合作 | 260 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 197 |
+| [health-first](topics/health-first.md) | 健康第一 | 48 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 259 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 233 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 194 |
+| [love-education](topics/love-education.md) | 爱的教育 | 440 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 39 |
+| [child-study](topics/child-study.md) | 儿童研究 | 367 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 75 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 162 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 165 |
 
 ## 来源 Sources
 
@@ -1204,3 +1204,13 @@
 | [sk-1169](cards/sk-1169-how-to-become-modest-and-cultivate-modesty.md) | principle | love-education / collective-education / family-school | xuan-ji-zh-vol2 | 如何成为谦虚的人，怎样培养谦虚 |
 | [sk-1170](cards/sk-1170-i-gave-my-heart-to-children-preface.md) | quote | love-education / teacher-growth / child-study | xuan-ji-zh-vol3 | 我把心给了孩子们·前言 |
 | [sk-1171](cards/sk-1171-how-to-cultivate-a-right-attitude-to-love.md) | principle | love-education / family-school | xuan-ji-zh-vol2 | 怎样培养青年们正确对待爱 |
+| [sk-1172](cards/sk-1172-no-abstract-students.md) | principle | learning-difficulties / child-study / assessment-grading | xuan-ji-zh-vol2 | 请记住，没有也不可能有抽象的学生 |
+| [sk-1173](cards/sk-1173-about-acquiring-knowledge.md) | method | thinking-and-nature / teacher-growth / child-study | xuan-ji-zh-vol2 | 关于获取知识 |
+| [sk-1174](cards/sk-1174-active-activity-content-in-courses.md) | method | labor-education / thinking-and-nature / child-study | xuan-ji-zh-vol2 | 学生学习课程的积极活动内容 |
+| [sk-1175](cards/sk-1175-arrange-learning-by-season.md) | method | health-first / child-study / teacher-growth | xuan-ji-zh-vol2 | 怎样按季节安排学生的学习 |
+| [sk-1176](cards/sk-1176-labor-promotes-intellectual-development.md) | principle | labor-education / learning-difficulties / thinking-and-nature | xuan-ji-zh-vol2 | 通过爱劳动促进学生智力发展 |
+| [sk-1177](cards/sk-1177-educational-talk-with-collective.md) | method | collective-education / teacher-growth | xuan-ji-zh-vol2 | 怎样同集体进行有教育作用的谈话 |
+| [sk-1178](cards/sk-1178-conditions-for-collective-educating-individuals.md) | principle | collective-education / child-study / teacher-growth | xuan-ji-zh-vol2 | 在哪些条件下集体才能有效地发挥教育个人的作用 |
+| [sk-1179](cards/sk-1179-cherish-the-happiness-of-life.md) | principle | aesthetic-nature-education / family-school / child-study | xuan-ji-zh-vol2 | 何谓珍惜生活的幸福 |
+| [sk-1180](cards/sk-1180-understanding-loved-ones-suffering.md) | principle | family-school / love-education / child-study | xuan-ji-zh-vol2 | 理解亲人的痛苦能提高道德敏锐性 |
+| [sk-1181](cards/sk-1181-uncompromising-attitude-toward-evil.md) | principle | collective-education / labor-education / family-school | xuan-ji-zh-vol2 | 怎样培养个人对邪恶持毫不妥协的态度 |

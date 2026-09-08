@@ -5,15 +5,15 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 55 |
-| [family-school](topics/family-school.md) | 家校合作 | 171 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 117 |
+| [family-school](topics/family-school.md) | 家校合作 | 173 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 119 |
 | [health-first](topics/health-first.md) | 健康第一 | 34 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 193 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 151 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 194 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 155 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 129 |
-| [love-education](topics/love-education.md) | 爱的教育 | 272 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 27 |
-| [child-study](topics/child-study.md) | 儿童研究 | 233 |
+| [love-education](topics/love-education.md) | 爱的教育 | 281 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 28 |
+| [child-study](topics/child-study.md) | 儿童研究 | 236 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 49 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 100 |
 
@@ -850,3 +850,13 @@
 | [sk-0810](cards/sk-0810-the-flower-nobody-wanted.md) | case | love-education / collective-education | zuo-ren-de-gu-shi-zh | 没人要的小花 |
 | [sk-0811](cards/sk-0811-kolya-vitya-and-the-puppy.md) | case | love-education / collective-education | zuo-ren-de-gu-shi-zh | 科利亚、维佳和小狗 |
 | [sk-0812](cards/sk-0812-mishas-bicycle.md) | case | collective-education / family-school / love-education | zuo-ren-de-gu-shi-zh | 米沙的自行车 |
+| [sk-0813](cards/sk-0813-strawberries-for-natasha.md) | case | love-education / family-school | zuo-ren-de-gu-shi-zh | 给娜塔莎的草莓 |
+| [sk-0814](cards/sk-0814-lily-of-the-valley-by-the-window.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 窗前的铃兰花 |
+| [sk-0815](cards/sk-0815-the-hardest-test.md) | case | assessment-grading / love-education | zuo-ren-de-gu-shi-zh | 最难的测验 |
+| [sk-0816](cards/sk-0816-a-flower-or-a-wolfs-mouth.md) | case | aesthetic-nature-education / child-study | zuo-ren-de-gu-shi-zh | 是花还是狼嘴 |
+| [sk-0817](cards/sk-0817-a-headscarf-for-grandma-yefrosinia.md) | case | collective-education / love-education / labor-education | zuo-ren-de-gu-shi-zh | 送给叶夫罗西尼娅奶奶的头巾 |
+| [sk-0818](cards/sk-0818-tanya-smiled.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 塔尼娅笑了 |
+| [sk-0819](cards/sk-0819-the-woodpecker-and-the-girl.md) | case | love-education / labor-education | zuo-ren-de-gu-shi-zh | 啄木鸟和女孩 |
+| [sk-0820](cards/sk-0820-the-flower-of-friendship.md) | case | collective-education / love-education / child-study | zuo-ren-de-gu-shi-zh | 友谊之花 |
+| [sk-0821](cards/sk-0821-my-dads-illness-is-over.md) | case | love-education / child-study | zuo-ren-de-gu-shi-zh | 我爸爸的病好了 |
+| [sk-0822](cards/sk-0822-what-does-congratulations-mean.md) | case | love-education / collective-education | zuo-ren-de-gu-shi-zh | “祝贺”这个词是什么意思 |

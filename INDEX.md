@@ -5,15 +5,15 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 55 |
-| [family-school](topics/family-school.md) | 家校合作 | 173 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 119 |
-| [health-first](topics/health-first.md) | 健康第一 | 34 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 194 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 155 |
+| [family-school](topics/family-school.md) | 家校合作 | 178 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 120 |
+| [health-first](topics/health-first.md) | 健康第一 | 35 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 196 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 157 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 129 |
-| [love-education](topics/love-education.md) | 爱的教育 | 281 |
+| [love-education](topics/love-education.md) | 爱的教育 | 287 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 28 |
-| [child-study](topics/child-study.md) | 儿童研究 | 236 |
+| [child-study](topics/child-study.md) | 儿童研究 | 239 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 49 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 100 |
 
@@ -860,3 +860,13 @@
 | [sk-0820](cards/sk-0820-the-flower-of-friendship.md) | case | collective-education / love-education / child-study | zuo-ren-de-gu-shi-zh | 友谊之花 |
 | [sk-0821](cards/sk-0821-my-dads-illness-is-over.md) | case | love-education / child-study | zuo-ren-de-gu-shi-zh | 我爸爸的病好了 |
 | [sk-0822](cards/sk-0822-what-does-congratulations-mean.md) | case | love-education / collective-education | zuo-ren-de-gu-shi-zh | “祝贺”这个词是什么意思 |
+| [sk-0823](cards/sk-0823-will-we-never-meet-again.md) | case | love-education / child-study | zuo-ren-de-gu-shi-zh | 难道我们永远不会再见面了吗 |
+| [sk-0824](cards/sk-0824-pretty-natalochka.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 漂亮的娜塔洛齐卡 |
+| [sk-0825](cards/sk-0825-the-woodpecker-without-kin.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 没有亲人的啄木鸟 |
+| [sk-0826](cards/sk-0826-kind-words.md) | case | health-first / love-education | zuo-ren-de-gu-shi-zh | 善良的话语 |
+| [sk-0827](cards/sk-0827-the-hunchbacked-girl-and-the-twinkling-star.md) | case | love-education / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 驼背的小姑娘和眨眼睛的小星星 |
+| [sk-0828](cards/sk-0828-the-pearl-necklace-with-four-rays.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 射出四道光芒的珍珠项链 |
+| [sk-0829](cards/sk-0829-the-cradle.md) | case | aesthetic-nature-education / family-school | zuo-ren-de-gu-shi-zh | 摇篮 |
+| [sk-0830](cards/sk-0830-scarlet-or-blood-red.md) | case | family-school / child-study | zuo-ren-de-gu-shi-zh | 是鲜红的，还是血红的 |
+| [sk-0831](cards/sk-0831-why-the-tractor-fell-silent.md) | case | labor-education / family-school | zuo-ren-de-gu-shi-zh | 为什么拖拉机沉默了 |
+| [sk-0832](cards/sk-0832-what-was-marika-thinking.md) | case | child-study / collective-education | zuo-ren-de-gu-shi-zh | 玛里卡想什么来着 |

@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 64 |
-| [family-school](topics/family-school.md) | 家校合作 | 226 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 70 |
+| [family-school](topics/family-school.md) | 家校合作 | 228 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 173 |
 | [health-first](topics/health-first.md) | 健康第一 | 36 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 221 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 199 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 134 |
-| [love-education](topics/love-education.md) | 爱的教育 | 375 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 33 |
-| [child-study](topics/child-study.md) | 儿童研究 | 273 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 51 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 107 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 136 |
+| [love-education](topics/love-education.md) | 爱的教育 | 378 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 34 |
+| [child-study](topics/child-study.md) | 儿童研究 | 279 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 54 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 110 |
 
 ## 来源 Sources
 
@@ -1028,3 +1028,12 @@
 | [sk-0991](cards/sk-0991-mosquito-and-barrel.md) | case | child-study / teacher-growth | xuan-ji-zh-vol2 | 蚊子与大木桶 |
 | [sk-0992](cards/sk-0992-why-zoya-cried.md) | case | love-education / family-school | xuan-ji-zh-vol2 | 卓娅为什么不哭了 |
 | [sk-0993](cards/sk-0993-mother-bee.md) | case | aesthetic-nature-education / love-education / collective-education | xuan-ji-zh-vol1 | 蜜蜂妈妈 |
+| [sk-0994](cards/sk-0994-secret-of-interest.md) | principle | learning-difficulties / teacher-growth / thinking-and-nature | xuan-ji-zh-vol2 | 兴趣的奥秘何在 |
+| [sk-0995](cards/sk-0995-work-with-difficult-students.md) | method | learning-difficulties / reading-and-books / child-study | xuan-ji-zh-vol2 | 关于做“困难”学生的工作 |
+| [sk-0996](cards/sk-0996-reading-for-difficult-students.md) | principle | reading-and-books / learning-difficulties | xuan-ji-zh-vol2 | 阅读是“困难”学生智力教育的重要手段 |
+| [sk-0997](cards/sk-0997-grading-must-carry-weight.md) | method | assessment-grading / learning-difficulties / child-study | xuan-ji-zh-vol2 | 评分应当有分量 |
+| [sk-0998](cards/sk-0998-two-curricula-develop-thinking.md) | principle | thinking-and-nature / reading-and-books / learning-difficulties | xuan-ji-zh-vol2 | “两个教学大纲”，发展学生的思维 |
+| [sk-0999](cards/sk-0999-how-to-cultivate-memory.md) | method | thinking-and-nature / child-study / learning-difficulties | xuan-ji-zh-vol2 | 怎样培养记忆力 |
+| [sk-1000](cards/sk-1000-art-of-individual-talk.md) | method | teacher-growth / child-study / love-education | xuan-ji-zh-vol2 | 要掌握与学生个别谈话的艺术 |
+| [sk-1001](cards/sk-1001-teach-child-to-accept-criticism.md) | method | family-school / child-study / love-education | xuan-ji-zh-vol2 | 怎样教孩子正确对待批评、责备、惩罚 |
+| [sk-1002](cards/sk-1002-parents-role-in-child-life.md) | principle | family-school / love-education / child-study | xuan-ji-zh-vol2 | 父母在孩子生活中的作用 |

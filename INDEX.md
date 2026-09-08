@@ -5,17 +5,17 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 52 |
-| [family-school](topics/family-school.md) | 家校合作 | 153 |
+| [family-school](topics/family-school.md) | 家校合作 | 159 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 112 |
 | [health-first](topics/health-first.md) | 健康第一 | 33 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 179 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 180 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 134 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 121 |
-| [love-education](topics/love-education.md) | 爱的教育 | 237 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 122 |
+| [love-education](topics/love-education.md) | 爱的教育 | 243 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 24 |
-| [child-study](topics/child-study.md) | 儿童研究 | 216 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 39 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 89 |
+| [child-study](topics/child-study.md) | 儿童研究 | 219 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 40 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 91 |
 
 ## 来源 Sources
 
@@ -780,3 +780,13 @@
 | [sk-0740](cards/sk-0740-mothers-gray-braid.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 母亲灰白色的辫子 |
 | [sk-0741](cards/sk-0741-willow-twig.md) | case | assessment-grading / family-school | zuo-ren-de-gu-shi-zh | 柳条 |
 | [sk-0742](cards/sk-0742-father-and-son.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 父亲和儿子 |
+| [sk-0743](cards/sk-0743-my-lark-flew-out-the-window.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 我的小云雀飞出了窗 |
+| [sk-0744](cards/sk-0744-blind-love.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 盲目的爱 |
+| [sk-0745](cards/sk-0745-mothers-field.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 母亲的田地 |
+| [sk-0746](cards/sk-0746-winds-from-four-directions-and-mothers-pain.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 四个方向的风和母亲的痛苦 |
+| [sk-0747](cards/sk-0747-legend-about-mothers-love.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 关于母爱的传说 |
+| [sk-0748](cards/sk-0748-light.md) | case | teacher-growth / love-education | zuo-ren-de-gu-shi-zh | 灯光 |
+| [sk-0749](cards/sk-0749-milk-is-white.md) | case | child-study / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 牛奶是洁白的呀 |
+| [sk-0750](cards/sk-0750-how-could-there-be-no-me.md) | case | child-study / thinking-and-nature | zuo-ren-de-gu-shi-zh | 怎么会没我呢 |
+| [sk-0751](cards/sk-0751-alenka-and-spring.md) | case | child-study / thinking-and-nature | zuo-ren-de-gu-shi-zh | 阿莲卡和春天 |
+| [sk-0752](cards/sk-0752-fathers-primer.md) | case | reading-and-books / family-school | zuo-ren-de-gu-shi-zh | 父亲的识字课本 |

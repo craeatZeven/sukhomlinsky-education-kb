@@ -5,17 +5,17 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 51 |
-| [family-school](topics/family-school.md) | 家校合作 | 63 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 96 |
+| [family-school](topics/family-school.md) | 家校合作 | 67 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 97 |
 | [health-first](topics/health-first.md) | 健康第一 | 33 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 158 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 162 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 92 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 119 |
-| [love-education](topics/love-education.md) | 爱的教育 | 103 |
+| [love-education](topics/love-education.md) | 爱的教育 | 113 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 22 |
 | [child-study](topics/child-study.md) | 儿童研究 | 193 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 38 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 85 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 86 |
 
 ## 来源 Sources
 
@@ -614,3 +614,13 @@
 | [sk-0574](cards/sk-0574-winter-evening.md) | case | aesthetic-nature-education / love-education | zuo-ren-de-gu-shi-zh | 冬天的黄昏：妈妈把白色田野讲成童话田野，孩子记了一生 |
 | [sk-0575](cards/sk-0575-swallow-on-the-window.md) | case | aesthetic-nature-education / love-education | zuo-ren-de-gu-shi-zh | 窗户上的燕子：玻璃霜花和燕子衔来的第一块土，都是祖国的记忆 |
 | [sk-0576](cards/sk-0576-crane-flight-in-the-sky.md) | case | aesthetic-nature-education / love-education | zuo-ren-de-gu-shi-zh | 天空中仙鹤的队伍：奶奶的故事和窗外的鹤群，像一幅油画留在记忆里 |
+| [sk-0577](cards/sk-0577-old-cherry-tree.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 老樱桃树：老树把果核留给土地，祖辈的记忆让祖国继续活着 |
+| [sk-0578](cards/sk-0578-green-meadow.md) | case | aesthetic-nature-education / love-education | zuo-ren-de-gu-shi-zh | 绿色的草地：童年的一望无际，是祖国最娇嫩的幼芽 |
+| [sk-0579](cards/sk-0579-old-year-and-new-year.md) | case | labor-education / love-education | zuo-ren-de-gu-shi-zh | 旧年和新年：三把钥匙交给人们——开发大地、种好粮田、守护祖国 |
+| [sk-0580](cards/sk-0580-soldiers-little-spoon.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 士兵的小匙：一把经历战争的匙，是祖国的小小一部分 |
+| [sk-0581](cards/sk-0581-in-ten-years.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 再过10年：父亲的枪会等你长大，父亲的叮嘱在边境回响 |
+| [sk-0582](cards/sk-0582-son-this-is-my-field.md) | case | aesthetic-nature-education / love-education | zuo-ren-de-gu-shi-zh | 儿子，这是我的田野：父亲把战斗过的土地指给孩子看 |
+| [sk-0583](cards/sk-0583-cornerake-and-field-mouse.md) | case | thinking-and-nature / love-education | zuo-ren-de-gu-shi-zh | 长脚秧鸡和田鼠：几千公里跋涉，是什么在召唤它？——祖国 |
+| [sk-0584](cards/sk-0584-fathers-pencil.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 父亲的铅笔：用爸爸的笔写下对祖国的誓言 |
+| [sk-0585](cards/sk-0585-the-most-precious-thing.md) | case | aesthetic-nature-education / love-education | zuo-ren-de-gu-shi-zh | 最珍贵的：一包家乡泥土让远方的士兵懂得自己守卫什么 |
+| [sk-0586](cards/sk-0586-crane-and-parrot.md) | case | aesthetic-nature-education / love-education | zuo-ren-de-gu-shi-zh | 仙鹤和鹦鹉：好就好在我生在那里，那里是我的祖国 |

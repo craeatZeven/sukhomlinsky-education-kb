@@ -5,17 +5,17 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 51 |
-| [family-school](topics/family-school.md) | 家校合作 | 59 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 86 |
-| [health-first](topics/health-first.md) | 健康第一 | 31 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 117 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 83 |
+| [family-school](topics/family-school.md) | 家校合作 | 61 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 90 |
+| [health-first](topics/health-first.md) | 健康第一 | 33 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 130 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 87 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 119 |
-| [love-education](topics/love-education.md) | 爱的教育 | 86 |
+| [love-education](topics/love-education.md) | 爱的教育 | 91 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 22 |
-| [child-study](topics/child-study.md) | 儿童研究 | 186 |
+| [child-study](topics/child-study.md) | 儿童研究 | 191 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 38 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 77 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 82 |
 
 ## 来源 Sources
 
@@ -565,3 +565,23 @@
 | [sk-0525](cards/sk-0525-willow-golden-braids.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 柳树，就像是扎着金黄色发辫的姑娘：小鸟飞走后，柳树等待春天 |
 | [sk-0526](cards/sk-0526-spring-forest-waking.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 春天的树林：只有橡树还在睡觉，等第一声雷鸣 |
 | [sk-0527](cards/sk-0527-maple-autumn-dream.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 秋天的槭树：红叶是树梦见的蒲公英、朝霞和黄鹂翅膀 |
+| [sk-0528](cards/sk-0528-willow-by-the-pond.md) | case | aesthetic-nature-education / child-study | zuo-ren-de-gu-shi-zh | 池塘边的柳树：十年后，柳树说“我认得你” |
+| [sk-0529](cards/sk-0529-how-autumn-begins.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 秋天是怎样开始的：严寒爷爷的大女儿，唱着银色蛛网的歌 |
+| [sk-0530](cards/sk-0530-ant-and-pumpkin-seed.md) | case | collective-education / labor-education | zuo-ren-de-gu-shi-zh | 蚂蚁和南瓜子：一只累了，另一只马上接住 |
+| [sk-0531](cards/sk-0531-dewdrop-journey.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 露珠：回到天上，又化作雨滴落回土地 |
+| [sk-0532](cards/sk-0532-evening-glow.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 晚霞：太阳在熔化黄金的湖里洗澡 |
+| [sk-0533](cards/sk-0533-grandpa-autumn.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 秋爷爷：他的胡子伸到草地上，变成了秋雾 |
+| [sk-0534](cards/sk-0534-poison-berry-bush.md) | case | health-first / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 毒莓灌木：有毒的东西常常是美丽的 |
+| [sk-0535](cards/sk-0535-birds-pantry.md) | case | aesthetic-nature-education / labor-education | zuo-ren-de-gu-shi-zh | 鸟的小仓库：花楸树的果实留到最困难的时候 |
+| [sk-0536](cards/sk-0536-sun-and-ladybug.md) | case | health-first / thinking-and-nature | zuo-ren-de-gu-shi-zh | 太阳和瓢虫：别过早飞出来，严寒是狡猾的 |
+| [sk-0537](cards/sk-0537-swans-fly-away.md) | case | aesthetic-nature-education / love-education | zuo-ren-de-gu-shi-zh | 天鹅飞走了：难道悲哀是朱红色的？ |
+| [sk-0538](cards/sk-0538-hedgehog-mother-comforts-children.md) | case | love-education / child-study | zuo-ren-de-gu-shi-zh | 刺猬妈妈怎样抚慰自己的孩子：你们的头发柔软得像亚麻 |
+| [sk-0539](cards/sk-0539-cuckoos-sorrow.md) | case | child-study / family-school | zuo-ren-de-gu-shi-zh | 布谷鸟的痛苦：看似无情的背后，可能有别人不知道的责任 |
+| [sk-0540](cards/sk-0540-what-happened-to-my-children.md) | case | child-study / family-school | zuo-ren-de-gu-shi-zh | 我的孩子们怎么啦：母鸡孵出小鸭，却按小鸡的标准要求它们 |
+| [sk-0541](cards/sk-0541-old-tree-stump.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 老树墩：刺猬来安家，孤独的树墩重新长出青苔 |
+| [sk-0542](cards/sk-0542-curious-poppy-seed.md) | case | child-study / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 好奇的虞美人花子：掉进大世界的种子，长成花海中的一朵 |
+| [sk-0543](cards/sk-0543-how-grain-became-ear-of-wheat.md) | case | labor-education / collective-education | zuo-ren-de-gu-shi-zh | 麦种是怎样长成麦穗的：被珍惜的一粒种子，向劳动者鞠躬 |
+| [sk-0544](cards/sk-0544-poplars-on-the-steppe.md) | case | collective-education / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 草原上的杨树：孤独的老树请过路人种下两棵小杨树 |
+| [sk-0545](cards/sk-0545-olya-the-magician.md) | case | labor-education / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 奥莉娅，女魔术师：孩子的照料让秋天与春天在温室相遇 |
+| [sk-0546](cards/sk-0546-pine-tree-for-sparrows.md) | case | love-education / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 为了小麻雀的小松树：把自己的新年树分给窗外的小鸟 |
+| [sk-0547](cards/sk-0547-swallow-with-broken-wing.md) | case | love-education / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 折断了翅膀的燕子：不能南飞的燕子，被带回家照顾 |

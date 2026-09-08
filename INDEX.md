@@ -8,10 +8,10 @@
 | [family-school](topics/family-school.md) | 家校合作 | 224 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 171 |
 | [health-first](topics/health-first.md) | 健康第一 | 36 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 219 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 218 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 195 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 133 |
-| [love-education](topics/love-education.md) | 爱的教育 | 371 |
+| [love-education](topics/love-education.md) | 爱的教育 | 370 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 33 |
 | [child-study](topics/child-study.md) | 儿童研究 | 271 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 51 |
@@ -955,7 +955,6 @@
 | [sk-0915](cards/sk-0915-right-attitude-to-labor.md) | case | labor-education / learning-difficulties | zuo-ren-de-gu-shi-zh | 必须正确地对待劳动 |
 | [sk-0916](cards/sk-0916-bread-labor-and-song.md) | case | labor-education / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 面包、劳动和歌 |
 | [sk-0917](cards/sk-0917-petrik-dog-and-kitten.md) | case | love-education / child-study | zuo-ren-de-gu-shi-zh | 彼得里克、狗和小猫 |
-| [sk-0918](cards/sk-0918-ashamed-before-nightingale.md) | case | aesthetic-nature-education / love-education | zuo-ren-de-gu-shi-zh | 面对小夜莺感到羞愧 |
 | [sk-0919](cards/sk-0919-why-not-find-glasses-yesterday.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 为什么昨天你不替我找眼镜 |
 | [sk-0920](cards/sk-0920-petrik-got-angry.md) | case | love-education / child-study | zuo-ren-de-gu-shi-zh | 彼得里克生气了 |
 | [sk-0921](cards/sk-0921-how-girl-saw-herself.md) | case | child-study / love-education | zuo-ren-de-gu-shi-zh | 小姑娘是怎样看见自己的 |

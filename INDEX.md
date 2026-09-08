@@ -5,16 +5,16 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 99 |
-| [family-school](topics/family-school.md) | 家校合作 | 269 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 201 |
+| [family-school](topics/family-school.md) | 家校合作 | 272 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 203 |
 | [health-first](topics/health-first.md) | 健康第一 | 51 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 259 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 240 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 197 |
-| [love-education](topics/love-education.md) | 爱的教育 | 452 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 39 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 242 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 201 |
+| [love-education](topics/love-education.md) | 爱的教育 | 459 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 40 |
 | [child-study](topics/child-study.md) | 儿童研究 | 373 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 78 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 80 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 168 |
 
 ## 来源 Sources
@@ -1234,3 +1234,13 @@
 | [sk-1199](cards/sk-1199-loyalty-and-loyalty-to-others.md) | principle | love-education / family-school | xuan-ji-zh-vol2 | 忠诚感和对别人的忠诚意味着什么 |
 | [sk-1200](cards/sk-1200-advice-to-new-teachers.md) | method | teacher-growth / reading-and-books / child-study | xuan-ji-zh-vol2 | 向初到学校工作的教师提一些建议 |
 | [sk-1201](cards/sk-1201-advice-to-first-grade-teachers.md) | method | child-study / family-school / health-first | xuan-ji-zh-vol2 | 向准备担任一年级工作的教师提一些建议 |
+| [sk-1202](cards/sk-1202-letter-3-thinking-is-true-humanity.md) | principle | love-education / reading-and-books | xuan-ji-zh-vol3 | 第3封信：思想性就是真正的人性 |
+| [sk-1203](cards/sk-1203-guide-childrens-labor-with-family.md) | method | labor-education / family-school | xuan-ji-zh-vol2 | 怎样同家庭一道指导儿童劳动 |
+| [sk-1204](cards/sk-1204-labor-ennobles-heart-and-humanity.md) | case | labor-education / love-education | xuan-ji-zh-vol2 | 怎样通过劳动使心灵高尚和培养人性 |
+| [sk-1205](cards/sk-1205-how-to-be-good-children.md) | method | family-school / love-education | xuan-ji-zh-vol2 | 怎样教学生们成为好子女 |
+| [sk-1206](cards/sk-1206-unite-thought-and-civic-dignity.md) | method | teacher-growth / collective-education / reading-and-books | xuan-ji-zh-vol2 | 怎样使思想和公民尊严感融为一体 |
+| [sk-1207](cards/sk-1207-what-collective-self-activity-centers-on.md) | practice | collective-education / assessment-grading | xuan-ji-zh-vol2 | 集体的自主活动重在什么 |
+| [sk-1208](cards/sk-1208-school-study-is-active-civic-life.md) | principle | teacher-growth / love-education | xuan-ji-zh-vol2 | 在校学习是正在成长一代的积极的公民生活 |
+| [sk-1209](cards/sk-1209-letter-17-respect-women-and-female-beauty.md) | principle | love-education / family-school | xuan-ji-zh-vol3 | 第17封信：尊重妇女与女性美 |
+| [sk-1210](cards/sk-1210-letter-13-patriotism-from-berlin.md) | principle | love-education / teacher-growth | xuan-ji-zh-vol3 | 第13封信：从柏林谈对祖国的责任 |
+| [sk-1211](cards/sk-1211-conclusion-new-man-alloy-of-conviction.md) | principle | love-education / teacher-growth | xuan-ji-zh-vol2 | 结束语：共产主义信念是新人成长的合金 |

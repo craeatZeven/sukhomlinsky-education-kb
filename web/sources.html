@@ -73,6 +73,14 @@
       </a>
     </div>
   </section>
+  <section>
+    <h2 class="section-title">数据导出</h2>
+    <p class="section-sub">把全部卡片导出为 JSON 或 CSV，便于二次处理、备课或做研究。</p>
+    <div class="load-wrap">
+      <button id="exportAllJson" class="chip" type="button">导出全库 JSON</button>
+      <button id="exportAllCsv" class="chip" type="button">导出全库 CSV</button>
+    </div>
+  </section>
 </main>
 
 <footer>
@@ -86,6 +94,28 @@
 <script>
 const SOURCES = (window.KB_DATA && window.KB_DATA.sources) || [];
 const CARDS = (window.KB_DATA && window.KB_DATA.cards) || [];
+function downloadBlob(filename, text, type){
+  const blob = new Blob([text], {type});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url; a.download = filename; document.body.appendChild(a); a.click();
+  a.remove(); URL.revokeObjectURL(url);
+}
+function csvEscape(v){
+  const s = String(v == null ? "" : v).replace(/"/g, '""');
+  return /[",\n]/.test(s) ? `"${s}"` : s;
+}
+function exportAllJson(){
+  downloadBlob("sukhomlinsky-cards.json", JSON.stringify(CARDS, null, 2), "application/json");
+}
+function exportAllCsv(){
+  const cols = ["id","type","title","source","topics","ref","url"];
+  const rows = [cols.join(",")].concat(CARDS.map(c=>cols.map(k=>{
+    if(k==="topics") return csvEscape((c.topics||[]).join("|"));
+    return csvEscape(c[k]);
+  }).join(",")));
+  downloadBlob("sukhomlinsky-cards.csv", "\ufeff"+rows.join("\n"), "text/csv;charset=utf-8");
+}
 document.addEventListener("DOMContentLoaded", ()=>{
   const counts = {};
   CARDS.forEach(c=>{ counts[c.source]=(counts[c.source]||0)+1; });
@@ -100,6 +130,8 @@ document.addEventListener("DOMContentLoaded", ()=>{
         · <a target="_blank" rel="noopener" href="${s.url || '../sources/' + s.slug + '.md'}">来源记录 ↗</a>
       </p>
     </article>`).join("");
+  document.getElementById("exportAllJson").addEventListener("click", exportAllJson);
+  document.getElementById("exportAllCsv").addEventListener("click", exportAllCsv);
 });
 </script>
 </body>

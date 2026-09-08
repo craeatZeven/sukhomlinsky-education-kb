@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 91 |
-| [family-school](topics/family-school.md) | 家校合作 | 249 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 189 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 93 |
+| [family-school](topics/family-school.md) | 家校合作 | 251 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 190 |
 | [health-first](topics/health-first.md) | 健康第一 | 45 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 249 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 216 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 177 |
-| [love-education](topics/love-education.md) | 爱的教育 | 420 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 258 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 225 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 180 |
+| [love-education](topics/love-education.md) | 爱的教育 | 430 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 38 |
-| [child-study](topics/child-study.md) | 儿童研究 | 338 |
+| [child-study](topics/child-study.md) | 儿童研究 | 350 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 70 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 149 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 156 |
 
 ## 来源 Sources
 
@@ -1165,3 +1165,22 @@
 | [sk-1129](cards/sk-1129-voice-of-spring.md) | case | aesthetic-nature-education / thinking-and-nature / child-study | xuan-ji-zh-vol4 | 春之声 |
 | [sk-1130](cards/sk-1130-unforgettable-day-of-my-childhood.md) | case | family-school / aesthetic-nature-education / child-study | xuan-ji-zh-vol4 | 我童年时期难忘的一天 |
 | [sk-1131](cards/sk-1131-when-first-cosmonauts-land-on-mars.md) | case | thinking-and-nature / child-study / love-education | xuan-ji-zh-vol4 | 当我们的首批宇航员登上火星的时候 |
+| [sk-1132](cards/sk-1132-developing-childrens-thinking-and-intelligence.md) | method | learning-difficulties / thinking-and-nature / child-study | xuan-ji-zh-vol2 | 怎样发展儿童的思维和智力 |
+| [sk-1133](cards/sk-1133-protecting-adolescents-inner-pure-passion.md) | principle | love-education / child-study / collective-education | xuan-ji-zh-vol2 | 要保护青少年内心的纯洁激情 |
+| [sk-1134](cards/sk-1134-self-education-through-labor-and-learning.md) | method | labor-education / child-study / teacher-growth | xuan-ji-zh-vol2 | 怎样启发学生在劳动和学习中进行自我教育 |
+| [sk-1135](cards/sk-1135-making-virtue-attractive.md) | method | love-education / collective-education | xuan-ji-zh-vol2 | 要善于使美德具有吸引力 |
+| [sk-1136](cards/sk-1136-unity-of-emotional-and-moral-education.md) | principle | love-education / aesthetic-nature-education / learning-difficulties | xuan-ji-zh-vol3 | 情感教育和道德教育的统一 |
+| [sk-1138](cards/sk-1138-division-of-labor-between-principal-and-director.md) | practice | teacher-growth / collective-education | xuan-ji-zh-vol4 | 我们怎样在校长和教导主任之间实行分工 |
+| [sk-1139](cards/sk-1139-collective-study-of-unity-of-thinking-and-emotion.md) | method | teacher-growth / thinking-and-nature / collective-education | xuan-ji-zh-vol4 | 集体研究“思维与情感的统一”问题 |
+| [sk-1140](cards/sk-1140-cultivating-ideal-of-behavioral-beauty.md) | principle | collective-education / love-education / child-study | xuan-ji-zh-vol1 | 行为美的理想观念的培养 |
+| [sk-1141](cards/sk-1141-choosing-a-life-partner-and-spiritual-compatibility.md) | case | love-education / family-school / child-study | xuan-ji-zh-vol3 | 第15封信：选择伴侣与精神世界的要求 |
+| [sk-1142](cards/sk-1142-little-bird-fell-from-nest.md) | case | thinking-and-nature / child-study / love-education | xuan-ji-zh-vol1 | 小鸟从窝里掉了下来 |
+| [sk-1143](cards/sk-1143-petal-and-flower.md) | case | collective-education / aesthetic-nature-education / child-study | xuan-ji-zh-vol5 | 花瓣和花朵 |
+| [sk-1144](cards/sk-1144-little-girls-and-poppy.md) | case | love-education / aesthetic-nature-education / collective-education | xuan-ji-zh-vol4 | 小姑娘和罂粟花 |
+| [sk-1145](cards/sk-1145-iron-lock.md) | case | love-education / aesthetic-nature-education / child-study | xuan-ji-zh-vol4 | 铁锁 |
+| [sk-1146](cards/sk-1146-starlings-wintering.md) | case | aesthetic-nature-education / thinking-and-nature / child-study | xuan-ji-zh-vol3 | 椋鸟过冬 |
+| [sk-1147](cards/sk-1147-new-year-pine-tree.md) | case | aesthetic-nature-education / child-study / thinking-and-nature | xuan-ji-zh-vol3 | 新年松树 |
+| [sk-1148](cards/sk-1148-how-we-returned-from-the-field.md) | case | aesthetic-nature-education / thinking-and-nature / family-school | xuan-ji-zh-vol3 | 我们是怎样从野外归来的 |
+| [sk-1149](cards/sk-1149-early-autumn.md) | case | aesthetic-nature-education / thinking-and-nature / child-study | xuan-ji-zh-vol3 | 初秋 |
+| [sk-1150](cards/sk-1150-flame-horse.md) | case | love-education / collective-education / aesthetic-nature-education | xuan-ji-zh-vol3 | 火焰驹 |
+| [sk-1151](cards/sk-1151-artyom-mikhailovich-budyonny-cavalryman.md) | case | love-education / collective-education / child-study | xuan-ji-zh-vol3 | 阿尔乔姆·米哈伊洛维奇——布琼尼骑兵 |

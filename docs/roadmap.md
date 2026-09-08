@@ -27,10 +27,12 @@
 ## v0.4 — 覆盖审计与内容补全（进行中）
 - [x] 44 篇《美德故事》44/44 盘点（`docs/story-coverage-meide-gushi.md`）
 - [x] 113 条官方故事书目盘点（`docs/coverage-official-tales.md`）
+- [x] 113 条书目 ↔ 卡片全量对照草稿（`docs/coverage-official-tales-mapping.md`，93/113 高置信）
 - [x] 五卷本按作品统计（`docs/coverage-volumes.md`）
-- [ ] 五卷本逐章覆盖审计
-- [ ] 113 条书目 ↔ 卡片全量对照表
+- [x] 五卷本逐章覆盖审计（`docs/coverage-volumes-chapters.md`）
 - [ ] 44 篇中 11 篇 probable + 2 篇 thematic 的人工复核
+- [ ] 113 条对照草稿的人工抽检；5 条 medium + 15 条 none 的后续处理
+- [ ] 五卷本优先 20 个 gap 章节的补卡
 - [ ] 562 篇期刊文章的合法获取与逐步补卡
 
 ## v0.5 — 生态化

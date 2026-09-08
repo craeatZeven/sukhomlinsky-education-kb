@@ -43,14 +43,14 @@
 - 核心著作：五卷本 + 给教师的建议 + 做人的故事 已形成可检索中文全文池
 - 《做人的故事》：540/540 个目录标题均已建卡（含 OCR 异题/异体字按正文校订；507「狼良的牙齿」按正文题名「狼的牙齿」建卡；323「会唱歌的羽毛」另有 ZuoRen 中文原版卡 sk-0982）
 - 儿童故事：44 篇美德故事已全量盘点——31 篇确认同源、11 篇高度可能、2 篇仅主题相关（见 `docs/story-coverage-meide-gushi.md`）
-- 五卷本：已按作品统计卡片来源分布（见 `docs/coverage-volumes.md`）；逐章缺口待人工审计
+- 五卷本：已按作品统计卡片来源分布（见 `docs/coverage-volumes.md`），并完成章节级覆盖审计（见 `docs/coverage-volumes-chapters.md`）：310 个审计单位中 13 covered / 154 partial / 143 gap
 - 562篇文章：仅第5卷68篇（77条目）已覆盖；其余暂缓
-- 113条官方故事书目：已盘点，89 条保守可挂现有卡片；真正缺口是“条目↔卡片”对照表（见 `docs/coverage-official-tales.md`）
+- 113条官方故事书目：已盘点，并完成“条目↔卡片”对照草稿：93/113 高置信可挂现有卡（见 `docs/coverage-official-tales.md`、`docs/coverage-official-tales-mapping.md`）
 
 ## 五、下一步（整理向）
 
 1. 《做人的故事》540 个标题已全部建卡；后续只做按需修订（页码/异文/主题归类）；
 2. 44 篇美德故事：优先人工复核 11 篇 probable 和 2 篇 thematic；
-3. 113 条官方书目：优先建立“条目 ↔ 卡片”对照表，先挂 89 条高置信；
-4. 五卷本：按目录逐章做覆盖审计；
+3. 113 条官方书目：人工抽检 93 条高置信映射，补齐 5 条 medium 与 15 条 none；
+4. 五卷本：按 `docs/coverage-volumes-chapters.md` 的优先清单，先补 20 个高价值 gap 章节；
 5. 定期重建 `scripts/check_kb.py` + `scripts/build_site.py`，保持索引与网页同步。

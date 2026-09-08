@@ -5,17 +5,17 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 52 |
-| [family-school](topics/family-school.md) | 家校合作 | 159 |
+| [family-school](topics/family-school.md) | 家校合作 | 161 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 112 |
 | [health-first](topics/health-first.md) | 健康第一 | 33 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 180 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 134 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 122 |
-| [love-education](topics/love-education.md) | 爱的教育 | 243 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 24 |
-| [child-study](topics/child-study.md) | 儿童研究 | 219 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 40 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 91 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 181 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 136 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 125 |
+| [love-education](topics/love-education.md) | 爱的教育 | 246 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 25 |
+| [child-study](topics/child-study.md) | 儿童研究 | 222 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 44 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 92 |
 
 ## 来源 Sources
 
@@ -790,3 +790,13 @@
 | [sk-0750](cards/sk-0750-how-could-there-be-no-me.md) | case | child-study / thinking-and-nature | zuo-ren-de-gu-shi-zh | 怎么会没我呢 |
 | [sk-0751](cards/sk-0751-alenka-and-spring.md) | case | child-study / thinking-and-nature | zuo-ren-de-gu-shi-zh | 阿莲卡和春天 |
 | [sk-0752](cards/sk-0752-fathers-primer.md) | case | reading-and-books / family-school | zuo-ren-de-gu-shi-zh | 父亲的识字课本 |
+| [sk-0753](cards/sk-0753-tender-hands.md) | case | teacher-growth / love-education | zuo-ren-de-gu-shi-zh | 温柔的手 |
+| [sk-0754](cards/sk-0754-forgive-me-children-i-am-late.md) | case | teacher-growth / love-education | zuo-ren-de-gu-shi-zh | 请原谅，孩子们，我迟到了 |
+| [sk-0755](cards/sk-0755-proud-letter.md) | case | reading-and-books / collective-education | zuo-ren-de-gu-shi-zh | 傲慢的字母 |
+| [sk-0756](cards/sk-0756-neglected-primer.md) | case | reading-and-books / love-education | zuo-ren-de-gu-shi-zh | 被冷落的识字课本 |
+| [sk-0757](cards/sk-0757-book-and-candy.md) | case | reading-and-books / family-school | zuo-ren-de-gu-shi-zh | 书和糖果 |
+| [sk-0758](cards/sk-0758-where-does-your-father-work.md) | case | teacher-growth / child-study | zuo-ren-de-gu-shi-zh | 你爸爸在哪儿工作 |
+| [sk-0759](cards/sk-0759-big-and-small.md) | case | thinking-and-nature / child-study | zuo-ren-de-gu-shi-zh | 大的和小的 |
+| [sk-0760](cards/sk-0760-now-you-can-become-a-student-of-humanity.md) | case | reading-and-books / collective-education | zuo-ren-de-gu-shi-zh | 现在你可以成为人类的学生了 |
+| [sk-0761](cards/sk-0761-four-sheets-of-gold-paper.md) | case | aesthetic-nature-education / child-study | zuo-ren-de-gu-shi-zh | 四张金纸 |
+| [sk-0762](cards/sk-0762-dont-worry-dad.md) | case | assessment-grading / family-school | zuo-ren-de-gu-shi-zh | 爸爸，别犯愁 |

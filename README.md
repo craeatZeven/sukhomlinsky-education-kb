@@ -35,7 +35,7 @@ topics/   → 主题页：按教育场景聚合卡片，并做跨书综合
 - [x] 可溯源卡片 **1156 张**（13 个来源）
 - [x] 《做人的故事》目录 **540/540 篇全部建卡**，页码已与 OCR 正文页逐条核对
 - [x] 覆盖审计：44 篇《美德故事》44/44 盘点、113 条官方故事书目 + 98 条卡片对照（全量核验）、五卷本按作品与章节级覆盖
-- [x] 五卷本章节级审计：310 个审计单位（13 covered / 154 partial / 143 gap），附优先补卡清单
+- [x] 五卷本章节级审计：310 个审计单位（13 covered / 154 partial / 143 gap）；后续已补卡使 66 个 gap 不再空白，剩余 76 个（95% 在第2卷），见 `docs/coverage-volumes-gaps-remaining.md`
 - [x] 全量质量审计：`python scripts/audit_cards.py`（0 硬错误 / 0 警告）
 - [x] 网页检索站：[打开 `web/index.html`](web/index.html) · [GitHub Pages](https://craeatzeven.github.io/sukhomlinsky-education-kb/)
 - [x] 网页支持：关键词/主题/来源/类型过滤、全文搜索、JSON/CSV 导出

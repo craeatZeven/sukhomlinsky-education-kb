@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 84 |
-| [family-school](topics/family-school.md) | 家校合作 | 238 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 178 |
-| [health-first](topics/health-first.md) | 健康第一 | 42 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 86 |
+| [family-school](topics/family-school.md) | 家校合作 | 240 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 180 |
+| [health-first](topics/health-first.md) | 健康第一 | 43 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 226 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 205 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 158 |
-| [love-education](topics/love-education.md) | 爱的教育 | 393 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 207 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 165 |
+| [love-education](topics/love-education.md) | 爱的教育 | 400 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 37 |
-| [child-study](topics/child-study.md) | 儿童研究 | 304 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 65 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 118 |
+| [child-study](topics/child-study.md) | 儿童研究 | 305 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 67 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 122 |
 
 ## 来源 Sources
 
@@ -1097,3 +1097,13 @@
 | [sk-1061](cards/sk-1061-mutual-education-in-collective.md) | principle | collective-education / teacher-growth | xuan-ji-zh-vol4 | 关于自我教育 |
 | [sk-1062](cards/sk-1062-perception-in-early-school-age.md) | principle | child-study / thinking-and-nature | xuan-ji-zh-vol1 | 知觉在学龄初期儿童精神发展中的作用 |
 | [sk-1063](cards/sk-1063-communication-in-collective.md) | principle | collective-education / love-education | xuan-ji-zh-vol1 | 集体中的交往 |
+| [sk-1064](cards/sk-1064-how-to-cultivate-mature-thought.md) | principle | thinking-and-nature / teacher-growth / reading-and-books | xuan-ji-zh-vol2 | 何种见解能够培养出成熟的思想 |
+| [sk-1065](cards/sk-1065-where-sense-of-duty-shows.md) | principle | love-education / collective-education / labor-education | xuan-ji-zh-vol2 | 在哪些行为之中应表现出义务感 |
+| [sk-1066](cards/sk-1066-obedience-and-leadership.md) | method | collective-education / teacher-growth / love-education | xuan-ji-zh-vol2 | 怎样培养服从和领导的能力，怎样用高度严格要求的精神进行教育 |
+| [sk-1067](cards/sk-1067-how-to-arouse-thirst-for-knowledge.md) | method | learning-difficulties / teacher-growth / child-study | xuan-ji-zh-vol2 | 怎样激起求知欲 |
+| [sk-1068](cards/sk-1068-who-and-what-educates-the-child.md) | principle | family-school / teacher-growth / love-education | xuan-ji-zh-vol2 | 谁在教育儿童，什么在教育儿童，什么取决于教师，什么取决其他教育者 |
+| [sk-1069](cards/sk-1069-spiritual-culture-morality-atheism.md) | principle | love-education / reading-and-books / teacher-growth | xuan-ji-zh-vol3 | 精神素养、道德和无神论 |
+| [sk-1070](cards/sk-1070-guiding-intellectual-work-in-class.md) | method | teacher-growth / learning-difficulties / thinking-and-nature | xuan-ji-zh-vol3 | 我们是怎样指导课上的智能劳动的 |
+| [sk-1071](cards/sk-1071-understanding-of-thought-and-feeling.md) | method | love-education / teacher-growth / thinking-and-nature | xuan-ji-zh-vol3 | 思想认识 |
+| [sk-1072](cards/sk-1072-sensitivity-and-sympathy.md) | principle | love-education / family-school / health-first | xuan-ji-zh-vol4 | 敏感性和同情心的培养 |
+| [sk-1073](cards/sk-1073-labor-and-all-round-development.md) | principle | labor-education / thinking-and-nature / love-education | xuan-ji-zh-vol3 | 劳动对人的全面发展的作用 |

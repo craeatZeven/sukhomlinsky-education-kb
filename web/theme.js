@@ -55,8 +55,18 @@
     }, { threshold: 0.05, rootMargin: "0px 0px -30px 0px" });
     targets.forEach(function (el) { io.observe(el); });
   }
+  function searchShortcut() {
+    document.addEventListener("keydown", function (e) {
+      if (e.key !== "/" || e.metaKey || e.ctrlKey || e.altKey) return;
+      var tag = (document.activeElement && document.activeElement.tagName || "").toLowerCase();
+      if (tag === "input" || tag === "textarea" || tag === "select") return;
+      var box = document.getElementById("search") || document.getElementById("q");
+      if (box) { e.preventDefault(); box.focus(); box.select && box.select(); }
+    });
+  }
   document.addEventListener("DOMContentLoaded", function () {
     buildFab();
     reveal();
+    searchShortcut();
   });
 })();

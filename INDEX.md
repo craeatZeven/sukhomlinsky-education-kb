@@ -5,15 +5,15 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 52 |
-| [family-school](topics/family-school.md) | 家校合作 | 102 |
+| [family-school](topics/family-school.md) | 家校合作 | 107 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 105 |
 | [health-first](topics/health-first.md) | 健康第一 | 33 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 178 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 129 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 179 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 132 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 121 |
-| [love-education](topics/love-education.md) | 爱的教育 | 186 |
+| [love-education](topics/love-education.md) | 爱的教育 | 194 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 23 |
-| [child-study](topics/child-study.md) | 儿童研究 | 208 |
+| [child-study](topics/child-study.md) | 儿童研究 | 211 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 39 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 89 |
 
@@ -720,3 +720,13 @@
 | [sk-0680](cards/sk-0680-at-uncle-matveys.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 在马特维舅舅家：没有苹果就不用说谢谢吗？ |
 | [sk-0681](cards/sk-0681-the-greedy-boy.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 贪婪的男孩：占有不了的就毁掉，贪婪像心里的小蛆 |
 | [sk-0682](cards/sk-0682-how-mitya-ate.md) | case | collective-education / family-school | zuo-ren-de-gu-shi-zh | 米佳是怎样吃饭的：妈妈的“不必分给别人”让他独自吃完后羞愧 |
+| [sk-0683](cards/sk-0683-the-stingiest-old-man.md) | case | aesthetic-nature-education / collective-education | zuo-ren-de-gu-shi-zh | 世界上最吝啬的老头：把美锁进篱笆，也把自己与人们隔开 |
+| [sk-0684](cards/sk-0684-ivanovs-house-is-on-fire.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 伊凡诺夫家的房子着火了：只为自己的家奔跑的人，还算好人吗 |
+| [sk-0685](cards/sk-0685-because-i-am-a-human.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 因为我是人：替别人搬开路上的石头，才是做人的自觉 |
+| [sk-0686](cards/sk-0686-today-i-became-a-pioneer.md) | case | collective-education / family-school | zuo-ren-de-gu-shi-zh | 我今天成了少先队员：孩子用诚实和正义拦下了父亲的偷窃 |
+| [sk-0687](cards/sk-0687-joy-in-childs-eyes.md) | case | love-education / child-study | zuo-ren-de-gu-shi-zh | 孩子眼睛中的快乐：擦干眼泪并让他微笑，是最美的教育瞬间 |
+| [sk-0688](cards/sk-0688-mother-came.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 妈妈来了：亲人的归来让窗外的野兽消失 |
+| [sk-0689](cards/sk-0689-grandpas-spoon.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 爷爷的汤匙：日常小仪式让爱与记忆长久延续 |
+| [sk-0690](cards/sk-0690-why-mother-cried.md) | case | love-education / child-study | zuo-ren-de-gu-shi-zh | 妈妈为什么哭：眼泪既可以是离别，也可以是重逢的喜悦 |
+| [sk-0691](cards/sk-0691-grandma-is-resting.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 奶奶在休息：孩子从妈妈的动作里学会了轻声爱护 |
+| [sk-0692](cards/sk-0692-did-conscience-not-tell-you-anything.md) | case | love-education / child-study | zuo-ren-de-gu-shi-zh | 良心没指示你什么吗：把班级任务看得比爸爸的病还重，是良心的缺席 |

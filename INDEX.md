@@ -6,16 +6,16 @@
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 51 |
 | [family-school](topics/family-school.md) | 家校合作 | 59 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 83 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 84 |
 | [health-first](topics/health-first.md) | 健康第一 | 31 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 100 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 108 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 83 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 119 |
-| [love-education](topics/love-education.md) | 爱的教育 | 85 |
+| [love-education](topics/love-education.md) | 爱的教育 | 86 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 22 |
-| [child-study](topics/child-study.md) | 儿童研究 | 176 |
+| [child-study](topics/child-study.md) | 儿童研究 | 181 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 38 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 68 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 73 |
 
 ## 来源 Sources
 
@@ -545,3 +545,13 @@
 | [sk-0505](cards/sk-0505-flute-and-wind.md) | case | aesthetic-nature-education / child-study | zuo-ren-de-gu-shi-zh | 长笛和风：力气再大，也吹不出美的音乐 |
 | [sk-0506](cards/sk-0506-river-angry-at-rain.md) | case | thinking-and-nature / child-study | zuo-ren-de-gu-shi-zh | 河流是怎样对小雨点大发脾气的：没有灰色的我，也就没有你 |
 | [sk-0507](cards/sk-0507-curious-woodpecker.md) | case | child-study / thinking-and-nature | zuo-ren-de-gu-shi-zh | 好奇的啄木鸟：从巢里探出身子，掉到地上 |
+| [sk-0508](cards/sk-0508-nobody-can-destroy-song.md) | case | aesthetic-nature-education / child-study | zuo-ren-de-gu-shi-zh | 谁也不能消灭歌声：把笛子埋进地里，麦穗长出来歌唱 |
+| [sk-0509](cards/sk-0509-sparrows-wait-for-sun.md) | case | love-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 小麻雀们怎样等待太阳：太阳不出来，妈妈就不去抓虫 |
+| [sk-0510](cards/sk-0510-by-the-pond.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 池塘边：老柳树，你会等到春天来临的 |
+| [sk-0511](cards/sk-0511-saving-frogs.md) | case | child-study / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 拯救小青蛙：水塘快干了，把它们送到池塘去 |
+| [sk-0512](cards/sk-0512-autumn-oak.md) | case | aesthetic-nature-education / child-study | zuo-ren-de-gu-shi-zh | 秋天的橡树：我不想与自己的衣服分手 |
+| [sk-0513](cards/sk-0513-who-lights-chestnut-candles.md) | case | thinking-and-nature / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 是谁点燃了栗子树上的蜡烛：太阳把火星递给小松鼠 |
+| [sk-0514](cards/sk-0514-unusual-hunter.md) | case | aesthetic-nature-education / child-study | zuo-ren-de-gu-shi-zh | 不寻常的猎人：带着空口袋回家，为兔子铺干草 |
+| [sk-0515](cards/sk-0515-dew-on-flower.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 花朵上的露珠：每一颗露珠里都点起小小的太阳 |
+| [sk-0516](cards/sk-0516-bee-enters-classroom.md) | case | child-study / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 蜜蜂飞进了教室：全班屏住呼吸等它飞出窗 |
+| [sk-0517](cards/sk-0517-field-and-meadow.md) | case | labor-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 田野和草地：我变绿是因为人们劳动播种 |

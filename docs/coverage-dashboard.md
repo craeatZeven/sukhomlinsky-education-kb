@@ -65,6 +65,7 @@
 ## 维护命令
 
 ```bash
+python scripts/validate_all.py
 python scripts/check_kb.py
 python scripts/audit_cards.py
 python scripts/coverage_report.py

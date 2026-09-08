@@ -145,6 +145,7 @@ def main() -> int:
     lines.append('## 维护命令')
     lines.append('')
     lines.append('```bash')
+    lines.append('python scripts/validate_all.py')
     lines.append('python scripts/check_kb.py')
     lines.append('python scripts/audit_cards.py')
     lines.append('python scripts/coverage_report.py')

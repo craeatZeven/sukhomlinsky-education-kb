@@ -1,0 +1,52 @@
+# 本地已有全文资产盘点（2026-09-08）
+
+> 用途：把“已经合法拿到并可检索”的材料整理成一张总表；难找的 450 篇期刊文章暂不追。
+> 所有本地 OCR/全文文件都在 gitignored `local_working_copy/`，不入 GitHub。
+
+## 一、全文/OCR 资产
+
+| 资产 | 版本/来源 | 本地文件 | 规模 | 卡片数 |
+|---|---|---|---|---|
+| 苏霍姆林斯基选集（五卷本）第1卷 | 教育科学出版社，中文扫描 OCR | `ocr/mineru-range/merged/苏霍姆林斯基选集（五卷本）第1卷.txt` | 1.39 MB | 38 |
+| 苏霍姆林斯基选集(五卷本)第2卷 | 同上 | `.../第2卷.txt` | 1.40 MB | 51 |
+| 苏霍姆林斯基选集（五卷本）第3卷 | 同上 | `.../第3卷.txt` | 1.59 MB | 53 |
+| 苏霍姆林斯基选集(五卷本)第4卷 | 同上 | `.../第4卷.txt` | 1.46 MB | 41 |
+| 苏霍姆林斯基选集（五卷本）第5卷 | 同上（68篇论文集） | `.../第5卷.txt` | 1.43 MB | 109 |
+| 给教师的建议 | 杜殿坤编译，教育科学 | `.../苏霍姆林斯基-给教师的建议.txt` | 1.02 MB | 23 |
+| 做人的故事 | 诸惠芳等译，人民教育 2015，读秀图像 OCR | `zuoren-gushi-full-ocr.md` / `zuoren-gushi-ocr-pages.jsonl` | 443页 / 24.2万字 | 6 |
+| On Education | Progress 1977 英文 | 本地 EPUB/文本（见 source） | — | 41 |
+| To Children I Give My Heart | 英文公开版 | 本地 PDF/txt | — | 22 |
+| Each One Must Shine | Alan Cockerill 英文 | 本地 txt | — | 16 |
+| The Singing Feather | 英文儿童故事集，Archive.org | `singing-feather.txt` | 16 KB | 12 |
+| 把心献给孩子（中文） | EPUB 抽取 | 本地 EPUB | — | 35 |
+
+## 二、可检索的书目/索引资产
+
+| 文件 | 内容 | 规模 |
+|---|---|---|
+| `official-bibliography-1987.txt` | 1987官方传记书目全文 | 633 KB |
+| `bibliography-1987-entries.csv` | 结构化 1082 条 | 1082 行 |
+| `articles-562-coverage.csv` / `articles-485-availability.csv` | 562篇文章覆盖/可获得性 | 562 行 |
+| `tales-113-coverage.csv` / `tales-113-inventory.md` | 113篇故事标题对齐/清单 | 113 条 |
+| `zuoren-story-index.csv` | 《做人的故事》540个标题→首次页码 | 540 行（527个已定位） |
+| `content-matrix.csv/md` | 卡片内容矩阵 | 447 卡（已随建卡更新） |
+| `story-title-matches.txt` | 44篇美德故事在五卷本中的精确命中 | — |
+| `story-title-zuoren-candidates.txt` | 44篇 vs 《做人的故事》候选映射 | — |
+
+## 三、未纳入的临时文件
+
+`local_working_copy/tmp_*.html/txt/pdf`（koob、studfile、multiurok 等来源）是早期试探下载，**来源授权不明，不计入正式资产，也不用于建卡**。需要时再单独评估或删除。
+
+## 四、当前覆盖口径
+
+- 卡片总数：447（13 sources / 12 topics）
+- 核心著作：五卷本 + 给教师的建议 + 做人的故事 已形成可检索中文全文池
+- 儿童故事：44篇美德故事中 15 篇已确认有卡/同源；其余待继续用《做人的故事》等内部挖
+- 562篇文章：仅第5卷68篇（77条目）已覆盖；其余暂缓
+- 113篇官方故事：标题已对齐，全文覆盖尚未逐一标注
+
+## 五、下一步（整理向）
+
+1. 基于 `zuoren-story-index.csv` 抽查多页故事，把《做人的故事》里高价值故事逐步建卡；
+2. 按 44 篇美德故事候选映射继续核正文；
+3. 定期重建 `scripts/check_kb.py` + `scripts/build_site.py`，保持索引与网页同步。

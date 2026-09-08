@@ -4,16 +4,16 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 55 |
-| [family-school](topics/family-school.md) | 家校合作 | 178 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 120 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 56 |
+| [family-school](topics/family-school.md) | 家校合作 | 185 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 121 |
 | [health-first](topics/health-first.md) | 健康第一 | 35 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 196 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 157 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 200 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 162 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 129 |
-| [love-education](topics/love-education.md) | 爱的教育 | 287 |
+| [love-education](topics/love-education.md) | 爱的教育 | 305 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 28 |
-| [child-study](topics/child-study.md) | 儿童研究 | 239 |
+| [child-study](topics/child-study.md) | 儿童研究 | 243 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 49 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 100 |
 
@@ -870,3 +870,23 @@
 | [sk-0830](cards/sk-0830-scarlet-or-blood-red.md) | case | family-school / child-study | zuo-ren-de-gu-shi-zh | 是鲜红的，还是血红的 |
 | [sk-0831](cards/sk-0831-why-the-tractor-fell-silent.md) | case | labor-education / family-school | zuo-ren-de-gu-shi-zh | 为什么拖拉机沉默了 |
 | [sk-0832](cards/sk-0832-what-was-marika-thinking.md) | case | child-study / collective-education | zuo-ren-de-gu-shi-zh | 玛里卡想什么来着 |
+| [sk-0833](cards/sk-0833-zina-pick-one-more-flower.md) | case | love-education / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 季娜，再摘一朵花吧 |
+| [sk-0834](cards/sk-0834-the-hardest-lesson.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 最难的一课 |
+| [sk-0835](cards/sk-0835-the-hard-hearted-man.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 铁石心肠的人 |
+| [sk-0836](cards/sk-0836-repeating-a-year.md) | case | learning-difficulties / collective-education | zuo-ren-de-gu-shi-zh | 留级 |
+| [sk-0837](cards/sk-0837-the-doll-with-a-hurt-arm.md) | case | love-education / child-study | zuo-ren-de-gu-shi-zh | 胳膊受伤的娃娃 |
+| [sk-0838](cards/sk-0838-he-will-come-back.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 他会回来的 |
+| [sk-0839](cards/sk-0839-i-fear-neither-thunder-nor-lightning.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 我既不怕雷鸣，也不怕闪电 |
+| [sk-0840](cards/sk-0840-wipe-away-her-tears.md) | case | love-education / family-school | zuo-ren-de-gu-shi-zh | 给她擦干眼泪 |
+| [sk-0841](cards/sk-0841-the-headscarf-is-gone.md) | case | child-study / love-education | zuo-ren-de-gu-shi-zh | 花头巾没了 |
+| [sk-0842](cards/sk-0842-the-little-girl-and-the-white-stork.md) | case | child-study / family-school | zuo-ren-de-gu-shi-zh | 小女孩和白鹳 |
+| [sk-0843](cards/sk-0843-this-must-become-a-real-person.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 这要成为一个真正的人才行 |
+| [sk-0844](cards/sk-0844-the-old-man-and-death.md) | case | labor-education / love-education | zuo-ren-de-gu-shi-zh | 老爷爷和死神 |
+| [sk-0845](cards/sk-0845-the-happiest-person-in-the-world.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 世界上最幸福的人 |
+| [sk-0846](cards/sk-0846-all-graves-belong-to-humanity.md) | case | love-education / collective-education | zuo-ren-de-gu-shi-zh | 所有的墓都是人类共有的 |
+| [sk-0847](cards/sk-0847-all-kind-people-are-one-family.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 所有善良的人们都是一家人 |
+| [sk-0848](cards/sk-0848-how-vasilko-was-born.md) | case | love-education / family-school | zuo-ren-de-gu-shi-zh | 瓦西里科是怎么出生的 |
+| [sk-0849](cards/sk-0849-why-do-people-live-in-the-world.md) | case | aesthetic-nature-education / love-education | zuo-ren-de-gu-shi-zh | 人为什么要活在世上 |
+| [sk-0850](cards/sk-0850-strawflowers.md) | case | love-education / child-study | zuo-ren-de-gu-shi-zh | 蜡菊 |
+| [sk-0851](cards/sk-0851-he-hated-beauty.md) | case | love-education / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 他憎恨美丽 |
+| [sk-0852](cards/sk-0852-love-and-cruelty.md) | case | love-education / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 爱和凶残 |

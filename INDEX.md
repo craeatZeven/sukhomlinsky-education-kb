@@ -5,13 +5,13 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 52 |
-| [family-school](topics/family-school.md) | 家校合作 | 126 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 107 |
+| [family-school](topics/family-school.md) | 家校合作 | 134 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 111 |
 | [health-first](topics/health-first.md) | 健康第一 | 33 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 179 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 133 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 121 |
-| [love-education](topics/love-education.md) | 爱的教育 | 210 |
+| [love-education](topics/love-education.md) | 爱的教育 | 220 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 23 |
 | [child-study](topics/child-study.md) | 儿童研究 | 215 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 39 |
@@ -750,3 +750,13 @@
 | [sk-0710](cards/sk-0710-who-makes-us-bread.md) | case | family-school / labor-education | zuo-ren-de-gu-shi-zh | 谁给我们做面包 |
 | [sk-0711](cards/sk-0711-pitying-himself.md) | case | family-school / child-study / love-education | zuo-ren-de-gu-shi-zh | 心痛自己 |
 | [sk-0712](cards/sk-0712-story-of-the-goose-mother.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 母鹅的故事 |
+| [sk-0713](cards/sk-0713-mom-does-not-like-fried-mushrooms.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 妈妈不喜欢吃烧蘑菇 |
+| [sk-0714](cards/sk-0714-we-make-grandpas-bed.md) | case | family-school / labor-education / love-education | zuo-ren-de-gu-shi-zh | 我们给爷爷铺床 |
+| [sk-0715](cards/sk-0715-visiting-grandma-mariya.md) | case | love-education / labor-education | zuo-ren-de-gu-shi-zh | 在玛丽亚奶奶家做客 |
+| [sk-0716](cards/sk-0716-the-tenderest-hands.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 最温柔的手 |
+| [sk-0717](cards/sk-0717-three-apples.md) | case | family-school / labor-education / love-education | zuo-ren-de-gu-shi-zh | 三个苹果 |
+| [sk-0718](cards/sk-0718-who-takes-whom-home.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 谁把谁带回家 |
+| [sk-0719](cards/sk-0719-grandmas-lark.md) | case | labor-education / love-education | zuo-ren-de-gu-shi-zh | 奶奶的云雀 |
+| [sk-0720](cards/sk-0720-father-came-back.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 父亲回来了 |
+| [sk-0721](cards/sk-0721-mom-sent-me.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 妈妈让我来 |
+| [sk-0722](cards/sk-0722-little-crow-and-nightingale.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 小乌鸦和夜莺 |

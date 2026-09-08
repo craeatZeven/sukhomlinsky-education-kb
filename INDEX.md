@@ -5,17 +5,17 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 56 |
-| [family-school](topics/family-school.md) | 家校合作 | 185 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 121 |
+| [family-school](topics/family-school.md) | 家校合作 | 193 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 136 |
 | [health-first](topics/health-first.md) | 健康第一 | 35 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 200 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 162 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 203 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 164 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 129 |
-| [love-education](topics/love-education.md) | 爱的教育 | 305 |
+| [love-education](topics/love-education.md) | 爱的教育 | 312 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 28 |
-| [child-study](topics/child-study.md) | 儿童研究 | 243 |
+| [child-study](topics/child-study.md) | 儿童研究 | 246 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 49 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 100 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 103 |
 
 ## 来源 Sources
 
@@ -890,3 +890,23 @@
 | [sk-0850](cards/sk-0850-strawflowers.md) | case | love-education / child-study | zuo-ren-de-gu-shi-zh | 蜡菊 |
 | [sk-0851](cards/sk-0851-he-hated-beauty.md) | case | love-education / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 他憎恨美丽 |
 | [sk-0852](cards/sk-0852-love-and-cruelty.md) | case | love-education / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 爱和凶残 |
+| [sk-0853](cards/sk-0853-dirty-words.md) | case | love-education / family-school | zuo-ren-de-gu-shi-zh | 脏话 |
+| [sk-0854](cards/sk-0854-what-to-leave-behind.md) | case | labor-education / love-education | zuo-ren-de-gu-shi-zh | 人应当在世上留下什么 |
+| [sk-0855](cards/sk-0855-before-the-fair-judge.md) | case | labor-education / love-education | zuo-ren-de-gu-shi-zh | 在公正的法官面前 |
+| [sk-0856](cards/sk-0856-worlds-finest-craftsman.md) | case | family-school / labor-education | zuo-ren-de-gu-shi-zh | 谁是世界上最优秀的能工巧匠 |
+| [sk-0857](cards/sk-0857-legend-of-love.md) | case | love-education / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 爱的传说 |
+| [sk-0858](cards/sk-0858-first-bread-festival.md) | case | labor-education / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 第一块面包节 |
+| [sk-0859](cards/sk-0859-the-lazy-pillow.md) | case | family-school / child-study | zuo-ren-de-gu-shi-zh | 懒惰的枕头 |
+| [sk-0860](cards/sk-0860-right-hand-and-left-hand.md) | case | labor-education / collective-education | zuo-ren-de-gu-shi-zh | 右手和左手 |
+| [sk-0861](cards/sk-0861-worlds-laziest-cat.md) | case | labor-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 世界上最懒的猫 |
+| [sk-0862](cards/sk-0862-why-andrei-is-sad.md) | case | love-education / labor-education | zuo-ren-de-gu-shi-zh | 为什么安德烈感到忧伤 |
+| [sk-0863](cards/sk-0863-this-is-not-difficult.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 这不困难 |
+| [sk-0864](cards/sk-0864-yurko-timur-team-member.md) | case | collective-education / family-school | zuo-ren-de-gu-shi-zh | 尤尔科，铁木尔队队员 |
+| [sk-0865](cards/sk-0865-the-starlings-have-arrived.md) | case | thinking-and-nature / labor-education | zuo-ren-de-gu-shi-zh | 椋鸟飞来了 |
+| [sk-0866](cards/sk-0866-forced-by-misfortune.md) | case | labor-education / family-school | zuo-ren-de-gu-shi-zh | 灾祸所迫 |
+| [sk-0867](cards/sk-0867-a-pair-of-dark-hands.md) | case | labor-education / love-education | zuo-ren-de-gu-shi-zh | 一双黑黑的手 |
+| [sk-0868](cards/sk-0868-why-mother-praised-nikolai.md) | case | family-school / labor-education | zuo-ren-de-gu-shi-zh | 为什么母亲夸奖尼古拉 |
+| [sk-0869](cards/sk-0869-the-apple-and-the-dawn.md) | case | labor-education / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 苹果与黎明 |
+| [sk-0870](cards/sk-0870-what-nina-should-do.md) | case | child-study / family-school / labor-education | zuo-ren-de-gu-shi-zh | 尼娜应该做些什么事 |
+| [sk-0871](cards/sk-0871-lucky-the-sun-shines.md) | case | child-study / labor-education | zuo-ren-de-gu-shi-zh | 幸好阳光灿烂 |
+| [sk-0872](cards/sk-0872-grandma-and-little-peter.md) | case | labor-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 奶奶和小彼得 |

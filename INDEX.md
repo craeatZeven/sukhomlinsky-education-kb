@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 60 |
-| [family-school](topics/family-school.md) | 家校合作 | 199 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 146 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 61 |
+| [family-school](topics/family-school.md) | 家校合作 | 203 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 162 |
 | [health-first](topics/health-first.md) | 健康第一 | 35 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 207 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 167 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 129 |
-| [love-education](topics/love-education.md) | 爱的教育 | 319 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 210 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 173 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 131 |
+| [love-education](topics/love-education.md) | 爱的教育 | 323 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 30 |
-| [child-study](topics/child-study.md) | 儿童研究 | 248 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 50 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 104 |
+| [child-study](topics/child-study.md) | 儿童研究 | 250 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 51 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 105 |
 
 ## 来源 Sources
 
@@ -930,3 +930,23 @@
 | [sk-0890](cards/sk-0890-he-became-a-worker.md) | case | labor-education / family-school | zuo-ren-de-gu-shi-zh | 他成为一名劳动者 |
 | [sk-0891](cards/sk-0891-how-fedya-did-his-homework.md) | case | family-school / learning-difficulties | zuo-ren-de-gu-shi-zh | 费佳是怎样做作业的 |
 | [sk-0892](cards/sk-0892-happiness-and-labor.md) | case | labor-education / love-education | zuo-ren-de-gu-shi-zh | 幸福与劳动 |
+| [sk-0893](cards/sk-0893-you-reap-what-you-sow.md) | case | love-education / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 种瓜得瓜，种豆得豆 |
+| [sk-0894](cards/sk-0894-baker-and-tailor.md) | case | labor-education / collective-education | zuo-ren-de-gu-shi-zh | 面包师与裁缝 |
+| [sk-0895](cards/sk-0895-the-old-table.md) | case | family-school / labor-education | zuo-ren-de-gu-shi-zh | 一张旧桌子 |
+| [sk-0896](cards/sk-0896-how-fedya-felt-he-was-a-person.md) | case | child-study / labor-education | zuo-ren-de-gu-shi-zh | 费佳怎样觉出自己是一个“人” |
+| [sk-0897](cards/sk-0897-the-wasted-day.md) | case | labor-education / reading-and-books | zuo-ren-de-gu-shi-zh | 被浪费的一天 |
+| [sk-0898](cards/sk-0898-sweet-bread-bitter-sweat.md) | case | labor-education / family-school | zuo-ren-de-gu-shi-zh | 馒头是甜的，因为汗水是苦的 |
+| [sk-0899](cards/sk-0899-the-lonely-ant.md) | case | collective-education / labor-education | zuo-ren-de-gu-shi-zh | 一只孤独的蚂蚁 |
+| [sk-0900](cards/sk-0900-craftsman-and-chisel.md) | case | teacher-growth / labor-education | zuo-ren-de-gu-shi-zh | 手工匠与刻刀 |
+| [sk-0901](cards/sk-0901-man-brought-life.md) | case | labor-education / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 人带来了生命 |
+| [sk-0902](cards/sk-0902-how-stepan-filled-the-barrel.md) | case | learning-difficulties / labor-education | zuo-ren-de-gu-shi-zh | 斯捷潘是怎样用水灌满大桶的 |
+| [sk-0903](cards/sk-0903-the-ox-and-the-gardener.md) | case | labor-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 牛与园丁 |
+| [sk-0904](cards/sk-0904-what-if-time-stopped.md) | case | labor-education / child-study | zuo-ren-de-gu-shi-zh | 如果时间停止，将会发生什么 |
+| [sk-0905](cards/sk-0905-the-barrel-with-a-hole.md) | case | labor-education / collective-education | zuo-ren-de-gu-shi-zh | 有洞的桶 |
+| [sk-0906](cards/sk-0906-bread-is-labor.md) | case | labor-education / love-education | zuo-ren-de-gu-shi-zh | 面包这就是劳动 |
+| [sk-0907](cards/sk-0907-borscht-with-fresh-bread.md) | case | labor-education / family-school | zuo-ren-de-gu-shi-zh | 甜菜汤带新鲜面包 |
+| [sk-0908](cards/sk-0908-let-somebody-else-do-it.md) | case | collective-education / family-school | zuo-ren-de-gu-shi-zh | 让其他什么人去做 |
+| [sk-0909](cards/sk-0909-the-man-with-a-burning-heart.md) | case | aesthetic-nature-education / love-education | zuo-ren-de-gu-shi-zh | 有一颗滚烫心的人 |
+| [sk-0910](cards/sk-0910-the-peasant-and-the-field-mouse.md) | case | labor-education / collective-education | zuo-ren-de-gu-shi-zh | 农人与田鼠 |
+| [sk-0911](cards/sk-0911-two-shovels.md) | case | labor-education / teacher-growth | zuo-ren-de-gu-shi-zh | 两把铲子 |
+| [sk-0912](cards/sk-0912-how-a-rabbit-was-punished.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 一只兔子怎样被惩罚 |

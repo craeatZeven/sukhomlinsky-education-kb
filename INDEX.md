@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 93 |
-| [family-school](topics/family-school.md) | 家校合作 | 254 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 193 |
-| [health-first](topics/health-first.md) | 健康第一 | 46 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 95 |
+| [family-school](topics/family-school.md) | 家校合作 | 257 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 194 |
+| [health-first](topics/health-first.md) | 健康第一 | 47 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 258 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 228 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 186 |
-| [love-education](topics/love-education.md) | 爱的教育 | 435 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 230 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 190 |
+| [love-education](topics/love-education.md) | 爱的教育 | 439 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 38 |
-| [child-study](topics/child-study.md) | 儿童研究 | 355 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 72 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 158 |
+| [child-study](topics/child-study.md) | 儿童研究 | 360 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 75 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 162 |
 
 ## 来源 Sources
 
@@ -1194,3 +1194,13 @@
 | [sk-1159](cards/sk-1159-scientific-worldview-and-basic-knowledge.md) | principle | thinking-and-nature / labor-education / child-study | xuan-ji-zh-vol4 | 科学世界观的形成过程与科学基础知识的掌握 |
 | [sk-1160](cards/sk-1160-books-wisdom-and-faith-influence-hearts.md) | case | reading-and-books / teacher-growth / child-study | xuan-ji-zh-vol2 | 要用书籍、智慧与信念控制学生的心灵 |
 | [sk-1161](cards/sk-1161-teacher-collective-and-student-collective.md) | principle | collective-education / family-school / teacher-growth | xuan-ji-zh-vol1 | 教师集体和学生集体 |
+| [sk-1162](cards/sk-1162-students-intellectual-life.md) | principle | reading-and-books / thinking-and-nature / teacher-growth | xuan-ji-zh-vol2 | 关于学生的智力生活 |
+| [sk-1163](cards/sk-1163-intuition-is-the-path-of-cognition.md) | principle | thinking-and-nature / learning-difficulties / child-study | xuan-ji-zh-vol2 | 直观是认识的途径，是照亮认识途径的光辉 |
+| [sk-1164](cards/sk-1164-guide-every-student-to-sources-of-interest.md) | method | reading-and-books / child-study / teacher-growth | xuan-ji-zh-vol2 | 把每个学生引向兴趣的发源地 |
+| [sk-1165](cards/sk-1165-how-to-train-fluent-writing.md) | method | learning-difficulties / child-study / labor-education | xuan-ji-zh-vol2 | 怎样训练儿童流利地书写 |
+| [sk-1166](cards/sk-1166-conscious-discipline-in-mental-labor.md) | method | reading-and-books / thinking-and-nature / health-first | xuan-ji-zh-vol2 | 怎样在脑力劳动中培养自觉的纪律 |
+| [sk-1167](cards/sk-1167-what-is-ideological-education-in-class.md) | principle | thinking-and-nature / teacher-growth / collective-education | xuan-ji-zh-vol2 | 什么是课堂上的思想教育 |
+| [sk-1168](cards/sk-1168-teach-children-to-understand-grief.md) | principle | love-education / family-school / child-study | xuan-ji-zh-vol2 | 怎样教会孩子善于理解人的悲痛 |
+| [sk-1169](cards/sk-1169-how-to-become-modest-and-cultivate-modesty.md) | principle | love-education / collective-education / family-school | xuan-ji-zh-vol2 | 如何成为谦虚的人，怎样培养谦虚 |
+| [sk-1170](cards/sk-1170-i-gave-my-heart-to-children-preface.md) | quote | love-education / teacher-growth / child-study | xuan-ji-zh-vol3 | 我把心给了孩子们·前言 |
+| [sk-1171](cards/sk-1171-how-to-cultivate-a-right-attitude-to-love.md) | principle | love-education / family-school | xuan-ji-zh-vol2 | 怎样培养青年们正确对待爱 |

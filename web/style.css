@@ -175,3 +175,13 @@ footer a { color: var(--accent); text-decoration: none; }
 }
 .back-top.show { opacity: 1; pointer-events: auto; transform: none; }
 @media (max-width: 680px) { .back-top { right: 12px; bottom: 68px; } }
+
+/* Print-friendly card */
+@media print {
+  .topnav, footer, .theme-fab, .back-top, .read-progress, #pager, #related, .page-head .eyebrow { display: none !important; }
+  body { background: #fff !important; color: #000 !important; }
+  .page-head { padding: 0 0 12px; }
+  .wrap { max-width: 100%; padding: 0; }
+  .card { box-shadow: none; border: 1px solid #ddd; }
+  a { color: #000; text-decoration: none; }
+}

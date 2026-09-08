@@ -1,5 +1,5 @@
 {
-  "total_cards": 1156,
+  "total_cards": 1166,
   "source_count": 12,
   "topic_count": 12,
   "zuoren_cards": 540,
@@ -12,21 +12,21 @@
       "page_refs": 540
     },
     {
+      "slug": "xuan-ji-zh-vol2",
+      "title": "苏霍姆林斯基选集（五卷本）第2卷",
+      "cards": 122,
+      "page_refs": 45
+    },
+    {
       "slug": "xuan-ji-zh-vol5",
       "title": "苏霍姆林斯基选集（五卷本）第5卷",
       "cards": 116,
       "page_refs": 109
     },
     {
-      "slug": "xuan-ji-zh-vol2",
-      "title": "苏霍姆林斯基选集（五卷本）第2卷",
-      "cards": 113,
-      "page_refs": 45
-    },
-    {
       "slug": "xuan-ji-zh-vol3",
       "title": "苏霍姆林斯基选集（五卷本）第3卷",
-      "cards": 93,
+      "cards": 94,
       "page_refs": 51
     },
     {
@@ -85,15 +85,15 @@
     },
     {
       "type": "quote",
-      "cards": 259
+      "cards": 260
     },
     {
       "type": "principle",
-      "cards": 148
+      "cards": 154
     },
     {
       "type": "method",
-      "cards": 80
+      "cards": 83
     },
     {
       "type": "practice",
@@ -104,12 +104,12 @@
     {
       "slug": "love-education",
       "title": "爱的教育",
-      "cards": 435
+      "cards": 439
     },
     {
       "slug": "child-study",
       "title": "儿童研究",
-      "cards": 355
+      "cards": 360
     },
     {
       "slug": "aesthetic-nature-education",
@@ -119,42 +119,42 @@
     {
       "slug": "family-school",
       "title": "家校合作",
-      "cards": 254
+      "cards": 257
     },
     {
       "slug": "collective-education",
       "title": "集体教育",
-      "cards": 228
+      "cards": 230
     },
     {
       "slug": "labor-education",
       "title": "劳动教育",
-      "cards": 193
+      "cards": 194
     },
     {
       "slug": "teacher-growth",
       "title": "教师成长",
-      "cards": 186
+      "cards": 190
     },
     {
       "slug": "thinking-and-nature",
       "title": "思维课与大自然",
-      "cards": 158
+      "cards": 162
     },
     {
       "slug": "learning-difficulties",
       "title": "学习困难学生",
-      "cards": 93
+      "cards": 95
     },
     {
       "slug": "reading-and-books",
       "title": "阅读与书籍",
-      "cards": 72
+      "cards": 75
     },
     {
       "slug": "health-first",
       "title": "健康第一",
-      "cards": 46
+      "cards": 47
     },
     {
       "slug": "assessment-grading",

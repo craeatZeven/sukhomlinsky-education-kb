@@ -5,17 +5,17 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 51 |
-| [family-school](topics/family-school.md) | 家校合作 | 61 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 90 |
+| [family-school](topics/family-school.md) | 家校合作 | 63 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 94 |
 | [health-first](topics/health-first.md) | 健康第一 | 33 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 130 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 87 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 148 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 91 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 119 |
-| [love-education](topics/love-education.md) | 爱的教育 | 91 |
+| [love-education](topics/love-education.md) | 爱的教育 | 98 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 22 |
-| [child-study](topics/child-study.md) | 儿童研究 | 191 |
+| [child-study](topics/child-study.md) | 儿童研究 | 193 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 38 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 82 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 83 |
 
 ## 来源 Sources
 
@@ -585,3 +585,22 @@
 | [sk-0545](cards/sk-0545-olya-the-magician.md) | case | labor-education / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 奥莉娅，女魔术师：孩子的照料让秋天与春天在温室相遇 |
 | [sk-0546](cards/sk-0546-pine-tree-for-sparrows.md) | case | love-education / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 为了小麻雀的小松树：把自己的新年树分给窗外的小鸟 |
 | [sk-0547](cards/sk-0547-swallow-with-broken-wing.md) | case | love-education / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 折断了翅膀的燕子：不能南飞的燕子，被带回家照顾 |
+| [sk-0548](cards/sk-0548-larks-wonderful-song.md) | case | aesthetic-nature-education / love-education | zuo-ren-de-gu-shi-zh | 云雀美妙的歌声：云雀用歌声把行人从巢边引开 |
+| [sk-0549](cards/sk-0549-no-nightingale.md) | case | aesthetic-nature-education / child-study | zuo-ren-de-gu-shi-zh | 没有夜莺：新幼儿园很明亮，却少了樱桃园里的歌声 |
+| [sk-0550](cards/sk-0550-nothing-in-the-field.md) | case | labor-education / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 田野里什么也没有：农艺师看见空荡田野里的美 |
+| [sk-0551](cards/sk-0551-blizzard.md) | case | love-education / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 暴风雪：救回受伤小鸟，养好翅膀后还它自由 |
+| [sk-0552](cards/sk-0552-how-many-flutes.md) | case | labor-education / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 这里有多少笛子啊：少年用接骨木做笛子，听见草木歌唱 |
+| [sk-0553](cards/sk-0553-a-small-piece-of-summer.md) | case | aesthetic-nature-education / family-school | zuo-ren-de-gu-shi-zh | 一小块夏天：粉红苹果把季节留在桌上，全家一冬都因它而笑 |
+| [sk-0554](cards/sk-0554-oak-by-the-road.md) | case | aesthetic-nature-education / love-education | zuo-ren-de-gu-shi-zh | 路旁的橡树：宽阔马路为老橡树弯成马掌形 |
+| [sk-0555](cards/sk-0555-swallows-say-goodbye-to-homeland.md) | case | aesthetic-nature-education / love-education | zuo-ren-de-gu-shi-zh | 燕子告别家乡：孩子听懂燕子临行前久久停留的忧伤 |
+| [sk-0556](cards/sk-0556-little-bear-kind-or-evil.md) | case | child-study / love-education | zuo-ren-de-gu-shi-zh | 小熊是凶恶的还是善良的：被害怕的公牛犊在男孩丧父时温柔安慰 |
+| [sk-0557](cards/sk-0557-larks-have-come.md) | case | aesthetic-nature-education / family-school | zuo-ren-de-gu-shi-zh | 云雀飞来了：面团小鸟在男孩被窝里暖过后飞上春天天空 |
+| [sk-0558](cards/sk-0558-boy-and-lily-of-the-valley.md) | case | aesthetic-nature-education / love-education | zuo-ren-de-gu-shi-zh | 男孩和铃兰花：说不出美在哪里，所以让花继续长大 |
+| [sk-0559](cards/sk-0559-girl-and-camomile.md) | case | aesthetic-nature-education / collective-education | zuo-ren-de-gu-shi-zh | 女孩和母菊：搬开压迫的石头，花和人成为朋友 |
+| [sk-0560](cards/sk-0560-little-girl-and-titmouse.md) | case | love-education / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 小姑娘和山雀：女孩喂它一冬，它回赠一首歌 |
+| [sk-0561](cards/sk-0561-little-purple-flower.md) | case | aesthetic-nature-education / collective-education | zuo-ren-de-gu-shi-zh | 紫色的小花：如果世界只有一种颜色，就没有美了 |
+| [sk-0562](cards/sk-0562-horse-and-knight.md) | case | labor-education / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 马和骑士：另一半木头里藏着的骑士被烧成了炭 |
+| [sk-0563](cards/sk-0563-ox-and-titmouse.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 犍牛和小山雀：走近一步想看美，薄冰镜子却碎了 |
+| [sk-0564](cards/sk-0564-apple-tree-and-fence.md) | case | aesthetic-nature-education / collective-education | zuo-ren-de-gu-shi-zh | 苹果树和篱笆：苹果树问，太阳是谁的，天空是谁的 |
+| [sk-0565](cards/sk-0565-rubbish-heap.md) | case | aesthetic-nature-education / collective-education | zuo-ren-de-gu-shi-zh | 垃圾堆：孩子们种出一朵玫瑰，全校才看见身边的脏乱 |
+| [sk-0566](cards/sk-0566-most-beautiful-and-ugliest.md) | case | labor-education / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 最美的和最丑的：最美的是人的劳动，最丑的是浪费劳动 |

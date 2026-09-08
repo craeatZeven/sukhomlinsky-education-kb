@@ -5,15 +5,15 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 51 |
-| [family-school](topics/family-school.md) | 家校合作 | 77 |
+| [family-school](topics/family-school.md) | 家校合作 | 81 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 100 |
 | [health-first](topics/health-first.md) | 健康第一 | 33 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 170 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 99 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 172 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 104 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 120 |
-| [love-education](topics/love-education.md) | 爱的教育 | 139 |
+| [love-education](topics/love-education.md) | 爱的教育 | 146 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 22 |
-| [child-study](topics/child-study.md) | 儿童研究 | 195 |
+| [child-study](topics/child-study.md) | 儿童研究 | 197 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 39 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 86 |
 
@@ -104,8 +104,8 @@
 | [sk-0064](cards/sk-0064-lifetime-preparation-for-each-lesson.md) | quote | teacher-growth / reading-and-books | gei-jiao-shi-de-jian-yi-zh | 每一节课都是用一生来备课的 |
 | [sk-0065](cards/sk-0065-grades-fewer-but-meaningful.md) | principle | assessment-grading / child-study | gei-jiao-shi-de-jian-yi-zh | 评分宁可少一些，但每次都要有分量 |
 | [sk-0066](cards/sk-0066-childrens-wisdom-in-fingertips.md) | quote | labor-education / learning-difficulties | gei-jiao-shi-de-jian-yi-zh | 儿童的智慧在他的手指尖上 |
-| [sk-0067](cards/sk-0067-thinking-lessons-in-nature.md) | method | thinking-and-nature / child-study / aesthetic-nature-education | gei-jiao-shi-de-jian-yi-zh | 到自然界去上 |
-| [sk-0068](cards/sk-0068-pavlik-thought-awakening.md) | case | learning-difficulties / child-study / labor-education | gei-jiao-shi-de-jian-yi-zh | 巴甫里克的 |
+| [sk-0067](cards/sk-0067-thinking-lessons-in-nature.md) | method | thinking-and-nature / child-study / aesthetic-nature-education | gei-jiao-shi-de-jian-yi-zh | 到自然界去上'思维课'：在观察中形成概念 |
+| [sk-0068](cards/sk-0068-pavlik-thought-awakening.md) | case | learning-difficulties / child-study / labor-education | gei-jiao-shi-de-jian-yi-zh | 巴甫里克的'思维觉醒'：别用教科书捆住差生的智慧 |
 | [sk-0069](cards/sk-0069-health-educators-most-important-work.md) | principle | health-first / family-school | gei-jiao-shi-de-jian-yi-zh | 关心儿童的健康是教育者最重要的工作 |
 | [sk-0070](cards/sk-0070-education-core-dignity.md) | quote | love-education / teacher-growth | gei-jiao-shi-de-jian-yi-zh | 教育的核心是让学生体验到自己的尊严感 |
 | [sk-0071](cards/sk-0071-parent-school.md) | method | family-school / child-study | gei-jiao-shi-de-jian-yi-zh | 家长学校：从孩子入学前两年开始持续培训家长 |
@@ -539,7 +539,7 @@
 | [sk-0499](cards/sk-0499-nightingale-mother-feeds-water.md) | case | love-education / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 夜莺妈妈怎样给自己的孩子喂水：含来一滴最清的露珠 |
 | [sk-0500](cards/sk-0500-green-pigtails-red-pantry.md) | case | thinking-and-nature / labor-education | zuo-ren-de-gu-shi-zh | 绿色的小辫和红色的储藏室：胡萝卜根里藏着糖 |
 | [sk-0501](cards/sk-0501-first-frost-and-chrysanthemum.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 初寒和菊花：寒霜忘了路边的小菊花 |
-| [sk-0502](cards/sk-0502-dawn.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 晨曦：云雀唱“我已经看到了太阳” |
+| [sk-0502](cards/sk-0502-dawn.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 晨曦：云雀唱‘我已经看到了太阳’ |
 | [sk-0503](cards/sk-0503-bee-music.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 蜜蜂的音乐声：太阳把琴弦拧紧在花瓣之间 |
 | [sk-0504](cards/sk-0504-spring-wind.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 春风：睡够了的槭树该醒醒了 |
 | [sk-0505](cards/sk-0505-flute-and-wind.md) | case | aesthetic-nature-education / child-study | zuo-ren-de-gu-shi-zh | 长笛和风：力气再大，也吹不出美的音乐 |
@@ -558,13 +558,13 @@
 | [sk-0518](cards/sk-0518-sunflower-follows-sun.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 太阳花：向日葵追着太阳转，梦见朝霞 |
 | [sk-0519](cards/sk-0519-found-nest-left-quietly.md) | case | aesthetic-nature-education / child-study | zuo-ren-de-gu-shi-zh | 我们是怎样在树林里找到鸟窝的：看见小鸟后轻轻走开 |
 | [sk-0520](cards/sk-0520-snowdrop-sees-sun.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 树林中的春天：蓝色的小花问‘太阳为什么变红了’ |
-| [sk-0521](cards/sk-0521-apiary-morning.md) | case | aesthetic-nature-education / labor-education | zuo-ren-de-gu-shi-zh | 养蜂场的早晨：蜜蜂找到最芬芳的花，把蜜带回蜂箱 |
-| [sk-0522](cards/sk-0522-twilight-haze.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 黄昏的朦胧：干草垛变成扬着淡紫色风帆的大船 |
-| [sk-0523](cards/sk-0523-spring-rain-ant-mother.md) | case | thinking-and-nature / love-education | zuo-ren-de-gu-shi-zh | 春雨：蚂蚁妈妈把甜甜的杨树汁带回家 |
+| [sk-0521](cards/sk-0521-apiary-morning.md) | case | labor-education / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 养蜂场的早晨：蜜蜂找到最芬芳的花，把蜜带回蜂箱 |
+| [sk-0522](cards/sk-0522-twilight-haze.md) | case | aesthetic-nature-education / child-study | zuo-ren-de-gu-shi-zh | 黄昏的朦胧：干草垛变成扬着淡紫色风帆的大船 |
+| [sk-0523](cards/sk-0523-spring-rain-ant-mother.md) | case | labor-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 春雨：蚂蚁妈妈把甜甜的杨树汁带回家 |
 | [sk-0524](cards/sk-0524-oriole-nest.md) | case | aesthetic-nature-education / child-study | zuo-ren-de-gu-shi-zh | 黄鹂的巢：灌木丛被砍掉，黄鹂回来找不到家 |
-| [sk-0525](cards/sk-0525-willow-golden-braids.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 柳树，就像是扎着金黄色发辫的姑娘：小鸟飞走后，柳树等待春天 |
+| [sk-0525](cards/sk-0525-willow-golden-braids.md) | case | aesthetic-nature-education / child-study | zuo-ren-de-gu-shi-zh | 柳树，就像是扎着金黄色发辫的姑娘：小鸟飞走后，柳树等待春天 |
 | [sk-0526](cards/sk-0526-spring-forest-waking.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 春天的树林：只有橡树还在睡觉，等第一声雷鸣 |
-| [sk-0527](cards/sk-0527-maple-autumn-dream.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 秋天的槭树：红叶是树梦见的蒲公英、朝霞和黄鹂翅膀 |
+| [sk-0527](cards/sk-0527-maple-autumn-dream.md) | case | aesthetic-nature-education / child-study | zuo-ren-de-gu-shi-zh | 秋天的槭树：红叶是树梦见的蒲公英、朝霞和黄鹂翅膀 |
 | [sk-0528](cards/sk-0528-willow-by-the-pond.md) | case | aesthetic-nature-education / child-study | zuo-ren-de-gu-shi-zh | 池塘边的柳树：十年后，柳树说“我认得你” |
 | [sk-0529](cards/sk-0529-how-autumn-begins.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 秋天是怎样开始的：严寒爷爷的大女儿，唱着银色蛛网的歌 |
 | [sk-0530](cards/sk-0530-ant-and-pumpkin-seed.md) | case | collective-education / labor-education | zuo-ren-de-gu-shi-zh | 蚂蚁和南瓜子：一只累了，另一只马上接住 |
@@ -653,3 +653,13 @@
 | [sk-0613](cards/sk-0613-iron-commissar.md) | case | collective-education / teacher-growth | zuo-ren-de-gu-shi-zh | 铁政委：假脚与一颗传遍千人的心 |
 | [sk-0614](cards/sk-0614-it-happened-on-the-dnieper.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 这事发生在第聂伯河上：乌克兰母亲认下莫斯科儿子 |
 | [sk-0615](cards/sk-0615-on-the-hill.md) | case | aesthetic-nature-education / love-education | zuo-ren-de-gu-shi-zh | 在山冈上：染血的土地开出鲜红玫瑰 |
+| [sk-0616](cards/sk-0616-keep-the-flame-of-anger-alive.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 为了心中的怒火不熄灭：草地中央永远留下的两段石墩 |
+| [sk-0617](cards/sk-0617-purple-flower.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 紫色的花朵：每年只开一朵，替女儿请父亲祝福 |
+| [sk-0618](cards/sk-0618-eternal-wanderer.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 永远的流浪者：母亲看见背上的伤，看见了真相 |
+| [sk-0619](cards/sk-0619-three-oak-trees.md) | case | aesthetic-nature-education / collective-education | zuo-ren-de-gu-shi-zh | 三棵橡树：战士留下的三颗橡果长成活的纪念碑 |
+| [sk-0620](cards/sk-0620-birch-nightingale.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 桦木做的夜莺：父亲在集中营遗物里认出女儿的小鸟 |
+| [sk-0621](cards/sk-0621-boy-who-feared-the-dark.md) | case | child-study / love-education | zuo-ren-de-gu-shi-zh | 害怕黑暗的男孩：最怕黑的孩子在夜里做了勇敢的事 |
+| [sk-0622](cards/sk-0622-immortal-red-scarf.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 万古流芳的红领巾：一面旗被剪成五条仍是旗 |
+| [sk-0623](cards/sk-0623-unfinished-letter.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 没有写完的信：母亲在空白处听儿子未说完的话 |
+| [sk-0624](cards/sk-0624-lenin-monument.md) | case | aesthetic-nature-education / collective-education | zuo-ren-de-gu-shi-zh | 列宁纪念碑：被砍倒的橡树在男孩照料下活了过来 |
+| [sk-0625](cards/sk-0625-communist-partisans.md) | case | collective-education / child-study | zuo-ren-de-gu-shi-zh | 共产主义游击队：十四岁的萨沙把信念当作武器 |

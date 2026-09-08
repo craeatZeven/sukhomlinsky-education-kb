@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 72 |
-| [family-school](topics/family-school.md) | 家校合作 | 232 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 175 |
-| [health-first](topics/health-first.md) | 健康第一 | 39 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 73 |
+| [family-school](topics/family-school.md) | 家校合作 | 234 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 176 |
+| [health-first](topics/health-first.md) | 健康第一 | 41 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 223 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 202 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 146 |
-| [love-education](topics/love-education.md) | 爱的教育 | 385 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 35 |
-| [child-study](topics/child-study.md) | 儿童研究 | 292 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 59 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 112 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 153 |
+| [love-education](topics/love-education.md) | 爱的教育 | 386 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 36 |
+| [child-study](topics/child-study.md) | 儿童研究 | 296 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 61 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 113 |
 
 ## 来源 Sources
 
@@ -1057,3 +1057,13 @@
 | [sk-1021](cards/sk-1021-komsomol-meeting-lively-debate.md) | method | collective-education / reading-and-books / teacher-growth | xuan-ji-zh-vol3 | 共青团会议怎样才有生气 |
 | [sk-1022](cards/sk-1022-abstract-student-vs-living-person.md) | principle | love-education / child-study / reading-and-books | xuan-ji-zh-vol5 | 抽象的学生与活生生的人 |
 | [sk-1023](cards/sk-1023-teacher-vocation-and-talent.md) | principle | teacher-growth / child-study / love-education | xuan-ji-zh-vol2 | 什么是从事教师工作的才能，它是怎样形成的 |
+| [sk-1024](cards/sk-1024-conclusion-all-round-development.md) | principle | teacher-growth / family-school / child-study | xuan-ji-zh-vol1 | 结束语：为未来培养全面发展的人 |
+| [sk-1025](cards/sk-1025-spiritual-world-preface.md) | principle | child-study / reading-and-books / teacher-growth | xuan-ji-zh-vol1 | 学生的精神世界（序言）：知识不只为了劳动 |
+| [sk-1026](cards/sk-1026-teacher-health-and-fulfilling-spiritual-life.md) | principle | teacher-growth / health-first | xuan-ji-zh-vol2 | 谈谈教师的健康和充实的精神生活 |
+| [sk-1027](cards/sk-1027-where-to-find-time-24-hours.md) | method | teacher-growth / reading-and-books | xuan-ji-zh-vol2 | 从哪儿找时间，一昼夜只有24小时 |
+| [sk-1028](cards/sk-1028-knowledge-both-goal-and-means.md) | principle | thinking-and-nature / child-study | xuan-ji-zh-vol2 | 知识既是目的又是手段 |
+| [sk-1029](cards/sk-1029-mother-of-learning-not-stepmother.md) | method | learning-difficulties / assessment-grading | xuan-ji-zh-vol2 | 学习之母不应变成后娘 |
+| [sk-1030](cards/sk-1030-teacher-authority.md) | principle | teacher-growth / love-education | xuan-ji-zh-vol2 | 教师的权威是什么，应该表现在哪里 |
+| [sk-1031](cards/sk-1031-health-health-and-health.md) | principle | health-first / family-school | xuan-ji-zh-vol3 | 健康、健康，还是健康 |
+| [sk-1032](cards/sk-1032-letter-6-talent-and-education.md) | quote | teacher-growth / labor-education / child-study | xuan-ji-zh-vol3 | 第6封信：天赋与教育，人是自己志向的创造者 |
+| [sk-1033](cards/sk-1033-author-words-school-leader.md) | principle | teacher-growth | xuan-ji-zh-vol4 | 作者的话：校长要成为“教师的教师” |

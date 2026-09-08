@@ -38,6 +38,14 @@
     <h2 class="section-title">匹配结果</h2>
     <div class="grid" id="problemGrid"></div>
   </section>
+
+  <section>
+    <h2 class="section-title">全库卡片匹配</h2>
+    <p class="section-sub">按标题、中文转述、原文摘录和出处搜索全部卡片；输入问题关键词即可。</p>
+    <div class="stats" id="cardStats" style="margin:12px 0"></div>
+    <div class="grid" id="problemCardGrid"></div>
+    <div class="empty" id="problemCardEmpty">没有匹配的卡片，换个关键词试试。</div>
+  </section>
 </main>
 
 <footer>
@@ -46,6 +54,7 @@
   </div>
 </footer>
 
+<script src="data.js?v=20260907"></script>
 <script src="theme.js?v=20260907"></script>
 <script>
 const PROBLEMS = [
@@ -66,6 +75,31 @@ const PROBLEMS = [
   {id:"no-mind", title:"孩子不爱动脑、只刷短视频", keys:"短视频 不动脑 无聊 思考 游戏", desc:"思维需要被教会；用问题、观察与真实任务激活脑力。", ids:["sk-0007","sk-0190","sk-0191","sk-0174"]},
   {id:"health", title:"孩子食欲差、易疲劳、体质弱", keys:"健康 睡眠 户外 食欲 疲劳 生病", desc:"健康是学习地基；先调作息与户外，再谈学业。", ids:["sk-0069","sk-0184","sk-0187","sk-0020","sk-0021"]}
 ];
+const CARDS = (window.KB_DATA && window.KB_DATA.cards) || [];
+function cardSearchText(c){
+  const topics = (c.topics||[]).join(" ");
+  const excerpts = (c.excerpts||[]).join(" ");
+  return [c.title, c.cn, c.id, c.source, c.ref, excerpts, topics, c.type].join(" ").toLowerCase();
+}
+function renderCardResults(q){
+  const grid = document.getElementById("problemCardGrid");
+  const empty = document.getElementById("problemCardEmpty");
+  const stats = document.getElementById("cardStats");
+  if(!q){ grid.innerHTML=""; empty.style.display="none"; stats.innerHTML=""; return; }
+  const list = CARDS.filter(c=>cardSearchText(c).includes(q)).slice(0,30);
+  stats.innerHTML = `<div class="stat"><b>${list.length}</b><span>卡片命中</span></div>`;
+  empty.style.display = list.length ? "none" : "block";
+  grid.innerHTML = list.map(c=>{
+    const exps = (c.excerpts && c.excerpts.length) ? c.excerpts : (c.excerpt ? [c.excerpt] : []);
+    const ex = exps.length ? `<p class="excerpt">“${exps[0]}”</p>` : "";
+    return `<article class="card">
+      <div class="card-top"><span class="badge">${c.type}</span><span class="meta">${c.id}</span></div>
+      <h3><a href="card.html?id=${c.id}#${c.id}" style="color:inherit">${c.title}</a></h3>
+      ${ex}
+      <p class="ref" style="margin-top:10px">${c.ref||""}</p>
+    </article>`;
+  }).join("");
+}
 function renderProblems(list){
   document.getElementById("problemGrid").innerHTML = list.map(p=>`
     <article class="case-card" id="${p.id}">
@@ -81,6 +115,7 @@ function apply(){
   const q = (document.getElementById("q").value||"").trim().toLowerCase();
   const list = q ? PROBLEMS.filter(p=>p.title.includes(q) || p.keys.includes(q)) : PROBLEMS;
   renderProblems(list);
+  renderCardResults(q);
   if(q){
     const m = PROBLEMS.find(p=>p.keys.includes(q) || p.title.includes(q));
     if(m) location.hash = m.id;

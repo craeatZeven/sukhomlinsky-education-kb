@@ -5,15 +5,15 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 64 |
-| [family-school](topics/family-school.md) | 家校合作 | 223 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 171 |
+| [family-school](topics/family-school.md) | 家校合作 | 226 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 173 |
 | [health-first](topics/health-first.md) | 健康第一 | 36 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 218 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 195 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 133 |
-| [love-education](topics/love-education.md) | 爱的教育 | 370 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 221 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 199 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 134 |
+| [love-education](topics/love-education.md) | 爱的教育 | 375 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 33 |
-| [child-study](topics/child-study.md) | 儿童研究 | 270 |
+| [child-study](topics/child-study.md) | 儿童研究 | 273 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 51 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 107 |
 
@@ -1018,3 +1018,13 @@
 | [sk-0980](cards/sk-0980-timid-lyonya.md) | case | collective-education / child-study | zuo-ren-de-gu-shi-zh | 胆小的廖尼亚 |
 | [sk-0981](cards/sk-0981-force-yourself-to-feel.md) | case | teacher-growth / child-study | zuo-ren-de-gu-shi-zh | 最重要的是迫使自己去感受 |
 | [sk-0982](cards/sk-0982-singing-feather-zuoren.md) | case | child-study / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 会唱歌的羽毛 |
+| [sk-0983](cards/sk-0983-arrogant-petal.md) | case | aesthetic-nature-education / child-study | gei-jiao-shi-de-jian-yi-zh | 一片傲慢的花瓣 |
+| [sk-0984](cards/sk-0984-liar-flower.md) | case | labor-education / family-school | xuan-ji-zh-vol2 | 不做谎花草 |
+| [sk-0985](cards/sk-0985-fill-the-pit.md) | case | collective-education / love-education | xuan-ji-zh-vol2 | 把路坑填平了吧 |
+| [sk-0986](cards/sk-0986-diligent-and-lazy-twins.md) | case | labor-education / family-school | xuan-ji-zh-vol1 | 勤劳人与懒惰人 |
+| [sk-0987](cards/sk-0987-why-angry-at-alexander.md) | case | collective-education / love-education | xuan-ji-zh-vol2 | 为什么对亚历山大愤怒了 |
+| [sk-0988](cards/sk-0988-when-others-misfortune.md) | case | collective-education / love-education | xuan-ji-zh-vol2 | 当他人遇到不幸时，你怎么办 |
+| [sk-0990](cards/sk-0990-proud-burdock-flower.md) | case | aesthetic-nature-education / child-study | xuan-ji-zh-vol2 | 自以为是美人的牛蒡花 |
+| [sk-0991](cards/sk-0991-mosquito-and-barrel.md) | case | child-study / teacher-growth | xuan-ji-zh-vol2 | 蚊子与大木桶 |
+| [sk-0992](cards/sk-0992-why-zoya-cried.md) | case | love-education / family-school | xuan-ji-zh-vol2 | 卓娅为什么不哭了 |
+| [sk-0993](cards/sk-0993-mother-bee.md) | case | aesthetic-nature-education / love-education / collective-education | xuan-ji-zh-vol1 | 蜜蜂妈妈 |

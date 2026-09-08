@@ -5,7 +5,7 @@
 
 ## 总览
 
-- 卡片总数：**980**
+- 卡片总数：**990**
 - 来源数：**12**
 - 主题数：**12**
 - 《做人的故事》：**540 张卡 / 540 个目录标题**
@@ -16,13 +16,13 @@
 |---|---:|---:|
 | 做人的故事（`zuo-ren-de-gu-shi-zh`） | 540 | 540/540 |
 | 苏霍姆林斯基选集（五卷本）第5卷（`xuan-ji-zh-vol5`） | 109 | 109/109 |
+| 苏霍姆林斯基选集（五卷本）第2卷（`xuan-ji-zh-vol2`） | 58 | 45/58 |
 | 苏霍姆林斯基选集（五卷本）第3卷（`xuan-ji-zh-vol3`） | 52 | 51/52 |
-| 苏霍姆林斯基选集（五卷本）第2卷（`xuan-ji-zh-vol2`） | 51 | 45/51 |
 | On Education（`on-education`） | 41 | 0/41 |
 | 苏霍姆林斯基选集（五卷本）第4卷（`xuan-ji-zh-vol4`） | 41 | 41/41 |
-| 苏霍姆林斯基选集（五卷本）第1卷（`xuan-ji-zh-vol1`） | 38 | 36/38 |
+| 苏霍姆林斯基选集（五卷本）第1卷（`xuan-ji-zh-vol1`） | 40 | 36/40 |
 | 把心献给孩子（`ba-xin-xian-gei-hai-zi-zh`） | 35 | 0/35 |
-| 给教师的建议（`gei-jiao-shi-de-jian-yi-zh`） | 23 | 23/23 |
+| 给教师的建议（`gei-jiao-shi-de-jian-yi-zh`） | 24 | 23/24 |
 | To Children I Give My Heart（`to-children-i-give-my-heart`） | 22 | 0/22 |
 | Each One Must Shine: The Educational Legacy of V. A. Sukhomlinsky（`each-one-must-shine`） | 16 | 0/16 |
 | The Singing Feather (会唱歌的羽毛)（`singing-feather`） | 12 | 0/12 |
@@ -31,7 +31,7 @@
 
 | 类型 | 数量 |
 |---|---:|
-| `case` | 588 |
+| `case` | 598 |
 | `quote` | 256 |
 | `principle` | 79 |
 | `method` | 35 |
@@ -41,13 +41,13 @@
 
 | 主题 | 卡片数 |
 |---|---:|
-| 爱的教育（`love-education`） | 370 |
-| 儿童研究（`child-study`） | 270 |
-| 家校合作（`family-school`） | 223 |
-| 美育与自然（`aesthetic-nature-education`） | 218 |
-| 集体教育（`collective-education`） | 195 |
-| 劳动教育（`labor-education`） | 171 |
-| 教师成长（`teacher-growth`） | 133 |
+| 爱的教育（`love-education`） | 375 |
+| 儿童研究（`child-study`） | 273 |
+| 家校合作（`family-school`） | 226 |
+| 美育与自然（`aesthetic-nature-education`） | 221 |
+| 集体教育（`collective-education`） | 199 |
+| 劳动教育（`labor-education`） | 173 |
+| 教师成长（`teacher-growth`） | 134 |
 | 思维课与大自然（`thinking-and-nature`） | 107 |
 | 学习困难学生（`learning-difficulties`） | 64 |
 | 阅读与书籍（`reading-and-books`） | 51 |

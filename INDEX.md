@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 56 |
-| [family-school](topics/family-school.md) | 家校合作 | 193 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 136 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 60 |
+| [family-school](topics/family-school.md) | 家校合作 | 199 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 146 |
 | [health-first](topics/health-first.md) | 健康第一 | 35 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 203 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 164 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 207 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 167 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 129 |
-| [love-education](topics/love-education.md) | 爱的教育 | 312 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 28 |
-| [child-study](topics/child-study.md) | 儿童研究 | 246 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 49 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 103 |
+| [love-education](topics/love-education.md) | 爱的教育 | 319 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 30 |
+| [child-study](topics/child-study.md) | 儿童研究 | 248 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 50 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 104 |
 
 ## 来源 Sources
 
@@ -910,3 +910,23 @@
 | [sk-0870](cards/sk-0870-what-nina-should-do.md) | case | child-study / family-school / labor-education | zuo-ren-de-gu-shi-zh | 尼娜应该做些什么事 |
 | [sk-0871](cards/sk-0871-lucky-the-sun-shines.md) | case | child-study / labor-education | zuo-ren-de-gu-shi-zh | 幸好阳光灿烂 |
 | [sk-0872](cards/sk-0872-grandma-and-little-peter.md) | case | labor-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 奶奶和小彼得 |
+| [sk-0873](cards/sk-0873-why-is-todays-bread-dry-and-hard.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 为什么今天的面包又干又硬 |
+| [sk-0874](cards/sk-0874-the-floor-is-clean-but-what-about-the-soul.md) | case | assessment-grading / love-education | zuo-ren-de-gu-shi-zh | 地板是清洁的，而心灵呢 |
+| [sk-0875](cards/sk-0875-the-ant-traveller.md) | case | labor-education / collective-education | zuo-ren-de-gu-shi-zh | 蚂蚁旅行家 |
+| [sk-0876](cards/sk-0876-the-lazy-man-and-the-sun.md) | case | labor-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 懒人与太阳 |
+| [sk-0877](cards/sk-0877-the-stone-on-the-boundary.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 地界上的石头 |
+| [sk-0878](cards/sk-0878-the-eternal-sentry.md) | case | love-education / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 永恒的哨兵 |
+| [sk-0879](cards/sk-0879-a-small-shovel.md) | case | labor-education / family-school | zuo-ren-de-gu-shi-zh | 一把小铲子 |
+| [sk-0880](cards/sk-0880-how-many-sunrises-have-i-slept-through.md) | case | aesthetic-nature-education / child-study | zuo-ren-de-gu-shi-zh | 我睡过了多少次日出 |
+| [sk-0881](cards/sk-0881-farewell-to-the-horse.md) | case | love-education / labor-education | zuo-ren-de-gu-shi-zh | 跟马告别 |
+| [sk-0882](cards/sk-0882-dont-forget-a-screw.md) | case | family-school / labor-education | zuo-ren-de-gu-shi-zh | 别忘记一颗螺丝钉 |
+| [sk-0883](cards/sk-0883-five-oak-trees.md) | case | labor-education / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 五棵橡树 |
+| [sk-0884](cards/sk-0884-the-big-bucket.md) | case | labor-education / collective-education | zuo-ren-de-gu-shi-zh | 大水桶 |
+| [sk-0885](cards/sk-0885-why-pigeons-fly-to-oleg.md) | case | love-education / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 为什么鸽子飞向奥列格 |
+| [sk-0886](cards/sk-0886-petrik-and-marika.md) | case | learning-difficulties / reading-and-books | zuo-ren-de-gu-shi-zh | 彼得里克和玛莉卡 |
+| [sk-0887](cards/sk-0887-the-best-ruler.md) | case | assessment-grading / learning-difficulties | zuo-ren-de-gu-shi-zh | 最好的尺 |
+| [sk-0888](cards/sk-0888-how-yura-educated-himself.md) | case | child-study / learning-difficulties | zuo-ren-de-gu-shi-zh | 尤拉是怎样教育自己的 |
+| [sk-0889](cards/sk-0889-wet-shirt-and-dry-shirt.md) | case | labor-education / family-school | zuo-ren-de-gu-shi-zh | 湿衬衫与干衬衫 |
+| [sk-0890](cards/sk-0890-he-became-a-worker.md) | case | labor-education / family-school | zuo-ren-de-gu-shi-zh | 他成为一名劳动者 |
+| [sk-0891](cards/sk-0891-how-fedya-did-his-homework.md) | case | family-school / learning-difficulties | zuo-ren-de-gu-shi-zh | 费佳是怎样做作业的 |
+| [sk-0892](cards/sk-0892-happiness-and-labor.md) | case | labor-education / love-education | zuo-ren-de-gu-shi-zh | 幸福与劳动 |

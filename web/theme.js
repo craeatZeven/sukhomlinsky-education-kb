@@ -64,9 +64,33 @@
       if (box) { e.preventDefault(); box.focus(); box.select && box.select(); }
     });
   }
+  function readingProgress() {
+    var bar = document.createElement("div");
+    bar.className = "read-progress";
+    var top = document.createElement("button");
+    top.className = "back-top";
+    top.type = "button";
+    top.setAttribute("aria-label", "返回顶部");
+    top.textContent = "↑";
+    top.addEventListener("click", function () {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+    document.body.appendChild(bar);
+    document.body.appendChild(top);
+    function update() {
+      var max = document.documentElement.scrollHeight - window.innerHeight;
+      var ratio = max > 0 ? (window.scrollY / max) : 0;
+      bar.style.width = (Math.max(0, Math.min(1, ratio)) * 100) + "%";
+      top.classList.toggle("show", window.scrollY > 400);
+    }
+    window.addEventListener("scroll", update, { passive: true });
+    window.addEventListener("resize", update);
+    update();
+  }
   document.addEventListener("DOMContentLoaded", function () {
     buildFab();
     reveal();
     searchShortcut();
+    readingProgress();
   });
 })();

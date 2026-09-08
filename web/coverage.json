@@ -1,5 +1,5 @@
 {
-  "total_cards": 1146,
+  "total_cards": 1156,
   "source_count": 12,
   "topic_count": 12,
   "zuoren_cards": 540,
@@ -20,25 +20,25 @@
     {
       "slug": "xuan-ji-zh-vol2",
       "title": "苏霍姆林斯基选集（五卷本）第2卷",
-      "cards": 108,
+      "cards": 113,
       "page_refs": 45
     },
     {
       "slug": "xuan-ji-zh-vol3",
       "title": "苏霍姆林斯基选集（五卷本）第3卷",
-      "cards": 92,
+      "cards": 93,
       "page_refs": 51
     },
     {
       "slug": "xuan-ji-zh-vol4",
       "title": "苏霍姆林斯基选集（五卷本）第4卷",
-      "cards": 75,
+      "cards": 77,
       "page_refs": 41
     },
     {
       "slug": "xuan-ji-zh-vol1",
       "title": "苏霍姆林斯基选集（五卷本）第1卷",
-      "cards": 65,
+      "cards": 67,
       "page_refs": 36
     },
     {
@@ -81,7 +81,7 @@
   "types": [
     {
       "type": "case",
-      "cards": 634
+      "cards": 636
     },
     {
       "type": "quote",
@@ -89,11 +89,11 @@
     },
     {
       "type": "principle",
-      "cards": 142
+      "cards": 148
     },
     {
       "type": "method",
-      "cards": 78
+      "cards": 80
     },
     {
       "type": "practice",
@@ -104,12 +104,12 @@
     {
       "slug": "love-education",
       "title": "爱的教育",
-      "cards": 430
+      "cards": 435
     },
     {
       "slug": "child-study",
       "title": "儿童研究",
-      "cards": 350
+      "cards": 355
     },
     {
       "slug": "aesthetic-nature-education",
@@ -119,27 +119,27 @@
     {
       "slug": "family-school",
       "title": "家校合作",
-      "cards": 251
+      "cards": 254
     },
     {
       "slug": "collective-education",
       "title": "集体教育",
-      "cards": 225
+      "cards": 228
     },
     {
       "slug": "labor-education",
       "title": "劳动教育",
-      "cards": 190
+      "cards": 193
     },
     {
       "slug": "teacher-growth",
       "title": "教师成长",
-      "cards": 180
+      "cards": 186
     },
     {
       "slug": "thinking-and-nature",
       "title": "思维课与大自然",
-      "cards": 156
+      "cards": 158
     },
     {
       "slug": "learning-difficulties",
@@ -149,12 +149,12 @@
     {
       "slug": "reading-and-books",
       "title": "阅读与书籍",
-      "cards": 70
+      "cards": 72
     },
     {
       "slug": "health-first",
       "title": "健康第一",
-      "cards": 45
+      "cards": 46
     },
     {
       "slug": "assessment-grading",

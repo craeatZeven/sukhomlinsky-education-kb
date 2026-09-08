@@ -5,17 +5,17 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 93 |
-| [family-school](topics/family-school.md) | 家校合作 | 251 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 190 |
-| [health-first](topics/health-first.md) | 健康第一 | 45 |
+| [family-school](topics/family-school.md) | 家校合作 | 254 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 193 |
+| [health-first](topics/health-first.md) | 健康第一 | 46 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 258 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 225 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 180 |
-| [love-education](topics/love-education.md) | 爱的教育 | 430 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 228 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 186 |
+| [love-education](topics/love-education.md) | 爱的教育 | 435 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 38 |
-| [child-study](topics/child-study.md) | 儿童研究 | 350 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 70 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 156 |
+| [child-study](topics/child-study.md) | 儿童研究 | 355 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 72 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 158 |
 
 ## 来源 Sources
 
@@ -1184,3 +1184,13 @@
 | [sk-1149](cards/sk-1149-early-autumn.md) | case | aesthetic-nature-education / thinking-and-nature / child-study | xuan-ji-zh-vol3 | 初秋 |
 | [sk-1150](cards/sk-1150-flame-horse.md) | case | love-education / collective-education / aesthetic-nature-education | xuan-ji-zh-vol3 | 火焰驹 |
 | [sk-1151](cards/sk-1151-artyom-mikhailovich-budyonny-cavalryman.md) | case | love-education / collective-education / child-study | xuan-ji-zh-vol3 | 阿尔乔姆·米哈伊洛维奇——布琼尼骑兵 |
+| [sk-1152](cards/sk-1152-how-adolescent-thought-matures.md) | principle | love-education / collective-education / child-study | xuan-ji-zh-vol2 | 青少年的思想是怎样成熟起来的 |
+| [sk-1153](cards/sk-1153-how-to-make-education-work-plan.md) | method | teacher-growth / family-school / reading-and-books | xuan-ji-zh-vol2 | 怎样做教育工作计划 |
+| [sk-1154](cards/sk-1154-teach-students-not-to-speak-empty-words.md) | method | love-education / teacher-growth / collective-education | xuan-ji-zh-vol2 | 要教育学生不说空话 |
+| [sk-1155](cards/sk-1155-educating-teachers-own-children.md) | principle | family-school / teacher-growth / love-education | xuan-ji-zh-vol2 | 关于对自己子女的教育问题 |
+| [sk-1156](cards/sk-1156-role-of-manual-labor-in-all-round-development.md) | principle | labor-education / thinking-and-nature / child-study | xuan-ji-zh-vol4 | 手工劳动在全面发展中的作用 |
+| [sk-1157](cards/sk-1157-letter-7-truth-must-benefit-people.md) | case | love-education / labor-education / teacher-growth | xuan-ji-zh-vol3 | 第7封信：真理不能只靠说实话取胜 |
+| [sk-1158](cards/sk-1158-general-characteristics-of-youth.md) | principle | child-study / love-education / health-first | xuan-ji-zh-vol1 | 青年的一般特点 |
+| [sk-1159](cards/sk-1159-scientific-worldview-and-basic-knowledge.md) | principle | thinking-and-nature / labor-education / child-study | xuan-ji-zh-vol4 | 科学世界观的形成过程与科学基础知识的掌握 |
+| [sk-1160](cards/sk-1160-books-wisdom-and-faith-influence-hearts.md) | case | reading-and-books / teacher-growth / child-study | xuan-ji-zh-vol2 | 要用书籍、智慧与信念控制学生的心灵 |
+| [sk-1161](cards/sk-1161-teacher-collective-and-student-collective.md) | principle | collective-education / family-school / teacher-growth | xuan-ji-zh-vol1 | 教师集体和学生集体 |

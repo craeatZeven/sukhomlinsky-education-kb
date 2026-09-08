@@ -63,7 +63,7 @@ function renderCard(c){
   if(!c){ document.getElementById("cardMain").innerHTML = `<p class="empty" style="display:block">未找到该卡片，请检查链接或去主题浏览。</p>`; return; }
   document.title = c.id + " · " + c.title + " · 苏霍姆林斯基教育知识库";
   document.getElementById("cardTitle").textContent = c.title;
-  const topicBadges = (c.topics||[]).map(s=>`<a class="badge" style="margin-right:6px;text-decoration:none" href="explore.html?topic=${s}">${topicTitle(s)}</a>`).join("");
+  const topicBadges = (c.topics||[]).map(s=>`<a class="badge" style="margin-right:6px;text-decoration:none" href="topic.html?slug=${s}">${topicTitle(s)}</a>`).join("");
   const exps = (c.excerpts && c.excerpts.length) ? c.excerpts : (c.excerpt ? [c.excerpt] : []);
   const excerptsHtml = exps.map((q,i)=>`<div class="excerpt" style="margin-top:10px">${q}</div>`).join("");
   const tags = [...(c.tags||[]).map(t=>EXTRA_TAG_LABELS[t]||t)];

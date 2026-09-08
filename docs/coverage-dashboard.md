@@ -5,7 +5,7 @@
 
 ## 总览
 
-- 卡片总数：**1069**
+- 卡片总数：**1089**
 - 来源数：**12**
 - 主题数：**12**
 - 《做人的故事》：**540 张卡 / 540 个目录标题**
@@ -16,10 +16,10 @@
 |---|---:|---:|
 | 做人的故事（`zuo-ren-de-gu-shi-zh`） | 540 | 540/540 |
 | 苏霍姆林斯基选集（五卷本）第5卷（`xuan-ji-zh-vol5`） | 113 | 109/113 |
-| 苏霍姆林斯基选集（五卷本）第2卷（`xuan-ji-zh-vol2`） | 94 | 45/94 |
-| 苏霍姆林斯基选集（五卷本）第3卷（`xuan-ji-zh-vol3`） | 66 | 51/66 |
-| 苏霍姆林斯基选集（五卷本）第4卷（`xuan-ji-zh-vol4`） | 54 | 41/54 |
-| 苏霍姆林斯基选集（五卷本）第1卷（`xuan-ji-zh-vol1`） | 52 | 36/52 |
+| 苏霍姆林斯基选集（五卷本）第2卷（`xuan-ji-zh-vol2`） | 97 | 45/97 |
+| 苏霍姆林斯基选集（五卷本）第3卷（`xuan-ji-zh-vol3`） | 71 | 51/71 |
+| 苏霍姆林斯基选集（五卷本）第4卷（`xuan-ji-zh-vol4`） | 61 | 41/61 |
+| 苏霍姆林斯基选集（五卷本）第1卷（`xuan-ji-zh-vol1`） | 57 | 36/57 |
 | On Education（`on-education`） | 41 | 0/41 |
 | 把心献给孩子（`ba-xin-xian-gei-hai-zi-zh`） | 35 | 0/35 |
 | 给教师的建议（`gei-jiao-shi-de-jian-yi-zh`） | 24 | 23/24 |
@@ -31,26 +31,26 @@
 
 | 类型 | 数量 |
 |---|---:|
-| `case` | 600 |
-| `quote` | 258 |
-| `principle` | 123 |
-| `method` | 63 |
-| `practice` | 25 |
+| `case` | 605 |
+| `quote` | 259 |
+| `principle` | 129 |
+| `method` | 66 |
+| `practice` | 30 |
 
 ## 主题分布
 
 | 主题 | 卡片数 |
 |---|---:|
-| 爱的教育（`love-education`） | 400 |
-| 儿童研究（`child-study`） | 305 |
-| 家校合作（`family-school`） | 240 |
-| 美育与自然（`aesthetic-nature-education`） | 226 |
-| 集体教育（`collective-education`） | 207 |
-| 劳动教育（`labor-education`） | 180 |
-| 教师成长（`teacher-growth`） | 165 |
-| 思维课与大自然（`thinking-and-nature`） | 122 |
-| 学习困难学生（`learning-difficulties`） | 86 |
-| 阅读与书籍（`reading-and-books`） | 67 |
+| 爱的教育（`love-education`） | 409 |
+| 儿童研究（`child-study`） | 313 |
+| 家校合作（`family-school`） | 244 |
+| 美育与自然（`aesthetic-nature-education`） | 232 |
+| 集体教育（`collective-education`） | 210 |
+| 劳动教育（`labor-education`） | 182 |
+| 教师成长（`teacher-growth`） | 171 |
+| 思维课与大自然（`thinking-and-nature`） | 132 |
+| 学习困难学生（`learning-difficulties`） | 87 |
+| 阅读与书籍（`reading-and-books`） | 68 |
 | 健康第一（`health-first`） | 43 |
 | 评价与分数（`assessment-grading`） | 37 |
 
@@ -58,7 +58,7 @@
 
 - 《做人的故事》540 个目录标题已全部建卡；页码已与 OCR 正文页逐条核对（含 OCR 异体字/错字映射）。
 - 《苏霍姆林斯基讲美德故事》44 篇已全量盘点：31 篇确认同源、11 篇高度可能、2 篇仅主题相关；详见 `docs/story-coverage-meide-gushi.md`。
-- 113 条官方故事书目已盘点，并完成“条目 ↔ 卡片”全量核验：96/113 高置信可挂现有卡（10 A + 86 H；17 条 E_none）；详见 `docs/coverage-official-tales-mapping.md` 及三份 verification 报告。
+- 113 条官方故事书目已盘点并完成全量核验：98/113 高置信可挂现有卡（10 A + 88 H；15 条 E_none）；另用本地全文补建 sk-1085–sk-1091 等故事卡。
 - 五卷本已按作品统计（`docs/coverage-volumes.md`），并完成章节级覆盖审计（`docs/coverage-volumes-chapters.md`）：310 个审计单位中 13 个 covered、154 个 partial、143 个 gap。
 - 562 篇期刊文章：仅第五卷 68 篇已覆盖；其余受合法获取渠道限制，暂缓。
 - 英文/电子本（On Education、To Children I Give My Heart、Each One Must Shine、Singing Feather、把心献给孩子）：暂用本地文件/行号定位，未统一到印刷页码。

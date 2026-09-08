@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 86 |
-| [family-school](topics/family-school.md) | 家校合作 | 240 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 180 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 87 |
+| [family-school](topics/family-school.md) | 家校合作 | 244 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 182 |
 | [health-first](topics/health-first.md) | 健康第一 | 43 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 226 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 207 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 165 |
-| [love-education](topics/love-education.md) | 爱的教育 | 400 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 232 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 210 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 171 |
+| [love-education](topics/love-education.md) | 爱的教育 | 409 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 37 |
-| [child-study](topics/child-study.md) | 儿童研究 | 305 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 67 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 122 |
+| [child-study](topics/child-study.md) | 儿童研究 | 313 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 68 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 132 |
 
 ## 来源 Sources
 
@@ -1107,3 +1107,23 @@
 | [sk-1071](cards/sk-1071-understanding-of-thought-and-feeling.md) | method | love-education / teacher-growth / thinking-and-nature | xuan-ji-zh-vol3 | 思想认识 |
 | [sk-1072](cards/sk-1072-sensitivity-and-sympathy.md) | principle | love-education / family-school / health-first | xuan-ji-zh-vol4 | 敏感性和同情心的培养 |
 | [sk-1073](cards/sk-1073-labor-and-all-round-development.md) | principle | labor-education / thinking-and-nature / love-education | xuan-ji-zh-vol3 | 劳动对人的全面发展的作用 |
+| [sk-1074](cards/sk-1074-moral-emotions-early-school-age.md) | principle | love-education / child-study | xuan-ji-zh-vol1 | 道德情感在学龄初期儿童精神发展中的作用 |
+| [sk-1075](cards/sk-1075-collective-influence-on-adolescent-spiritual-world.md) | principle | collective-education / child-study | xuan-ji-zh-vol1 | 集体对少年精神世界形成的影响 |
+| [sk-1076](cards/sk-1076-personal-dignity-and-how-to-cultivate.md) | principle | love-education / child-study | xuan-ji-zh-vol2 | 什么是个性的尊严以及怎样培养它 |
+| [sk-1077](cards/sk-1077-educator-words-enter-student-heart.md) | method | family-school / love-education | xuan-ji-zh-vol2 | 怎样使教育者的话进入受教育者的内心 |
+| [sk-1078](cards/sk-1078-collective-develops-individuality.md) | principle | collective-education / teacher-growth | xuan-ji-zh-vol2 | 怎样通过集体使个性全面发展 |
+| [sk-1079](cards/sk-1079-hands-and-intellect.md) | principle | labor-education / thinking-and-nature | xuan-ji-zh-vol3 | 手和理智 |
+| [sk-1080](cards/sk-1080-first-year-studying-children.md) | method | child-study / family-school | xuan-ji-zh-vol3 | 第一年——考察孩子 |
+| [sk-1081](cards/sk-1081-self-service.md) | practice | labor-education | xuan-ji-zh-vol4 | 自我服务 |
+| [sk-1082](cards/sk-1082-century-of-mathematics-or-century-of-man.md) | principle | thinking-and-nature / teacher-growth | xuan-ji-zh-vol4 | 是数学的世纪，还是人的世纪 |
+| [sk-1083](cards/sk-1083-teach-children-to-learn.md) | method | reading-and-books / learning-difficulties / teacher-growth | xuan-ji-zh-vol4 | 是否注意教会儿童学习 |
+| [sk-1084](cards/sk-1084-girl-and-wild-chrysanthemum.md) | case | love-education / thinking-and-nature / collective-education | xuan-ji-zh-vol1 | 女孩和野菊花 |
+| [sk-1085](cards/sk-1085-bee-pumpkin-flower-night.md) | case | thinking-and-nature / love-education / aesthetic-nature-education | xuan-ji-zh-vol1 | 蜜蜂是怎样在南瓜花里过夜的 |
+| [sk-1086](cards/sk-1086-mitya-matchbox-beetle.md) | case | child-study / teacher-growth / thinking-and-nature | xuan-ji-zh-vol1 | 米佳的火柴盒甲虫 |
+| [sk-1087](cards/sk-1087-why-grandpa-grandma-cried.md) | case | love-education / family-school / child-study | xuan-ji-zh-vol3 | 为什么爷爷和奶奶掉眼泪？ |
+| [sk-1088](cards/sk-1088-is-our-grandma-a-child.md) | case | love-education / family-school / child-study | xuan-ji-zh-vol3 | 难道我们的奶奶是个孩子吗？ |
+| [sk-1089](cards/sk-1089-song-of-the-lark.md) | quote | aesthetic-nature-education / thinking-and-nature / love-education | xuan-ji-zh-vol3 | 百灵鸟之歌 |
+| [sk-1090](cards/sk-1090-autumn.md) | practice | aesthetic-nature-education / thinking-and-nature / teacher-growth | xuan-ji-zh-vol4 | 秋 |
+| [sk-1091](cards/sk-1091-sunrise.md) | practice | aesthetic-nature-education / thinking-and-nature / teacher-growth | xuan-ji-zh-vol4 | 日出 |
+| [sk-1092](cards/sk-1092-dusk.md) | practice | aesthetic-nature-education / thinking-and-nature / child-study | xuan-ji-zh-vol4 | 黄昏 |
+| [sk-1093](cards/sk-1093-when-sun-hid-in-cloud.md) | practice | aesthetic-nature-education / thinking-and-nature / love-education | xuan-ji-zh-vol4 | 当太阳没入乌云的时候 |

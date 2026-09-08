@@ -9,7 +9,7 @@
 ## v0.2 — 内容扩展（已完成）
 - [x] 12 个主题页全部建立
 - [x] 本地/公开中译本来源登记
-- [x] 卡片规模到 1069 张（13 个来源）
+- [x] 卡片规模到 1089 张（13 个来源）
 - [x] 《做人的故事》540/540 目录标题建卡
 - [x] 页码尽量落实到 OCR 印刷页码；ZuoRen 540 张已逐条核对
 - [ ] 术语表（glossary）待建
@@ -27,7 +27,7 @@
 ## v0.4 — 覆盖审计与内容补全（进行中）
 - [x] 44 篇《美德故事》44/44 盘点（`docs/story-coverage-meide-gushi.md`）
 - [x] 113 条官方故事书目盘点（`docs/coverage-official-tales.md`）
-- [x] 113 条书目 ↔ 卡片全量对照与核验（`docs/coverage-official-tales-mapping.md`，96/113 高置信：10 A + 86 H；17 E_none；三份 verification 报告）
+- [x] 113 条书目 ↔ 卡片全量对照与核验（`docs/coverage-official-tales-mapping.md`，98/113 高置信：10 A + 88 H；15 E_none；三份 verification 报告）
 - [x] 五卷本按作品统计（`docs/coverage-volumes.md`）
 - [x] 五卷本逐章覆盖审计（`docs/coverage-volumes-chapters.md`）
 - [ ] 44 篇中 11 篇 probable + 2 篇 thematic 的人工复核

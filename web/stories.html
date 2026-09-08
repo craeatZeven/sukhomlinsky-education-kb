@@ -29,6 +29,7 @@
     <p>按原书 OCR 页码顺序浏览全部故事卡：每篇都是短原文摘录 + 中文转述 + 教育应用 + 出处核对。</p>
     <div class="searchbox">
       <input id="q" type="search" placeholder="搜索故事名、关键词或页码，如：奶奶、p150、夜莺……" />
+      <button class="chip" id="randomBtn" type="button">随机一篇</button>
       <button class="chip" id="clearBtn" type="button">清空</button>
     </div>
   </div>
@@ -89,6 +90,10 @@ function render(){
 document.addEventListener("DOMContentLoaded", () => {
   render();
   document.getElementById("q").addEventListener("input", () => { visibleCount = 80; render(); });
+  document.getElementById("randomBtn").addEventListener("click", () => {
+    const c = STORIES[Math.floor(Math.random() * STORIES.length)];
+    if (c) location.href = "card.html?id=" + c.id + "#" + c.id;
+  });
   document.getElementById("clearBtn").addEventListener("click", () => { document.getElementById("q").value = ""; visibleCount = 80; render(); });
   document.getElementById("loadMore").addEventListener("click", () => { visibleCount += 80; render(); });
 });

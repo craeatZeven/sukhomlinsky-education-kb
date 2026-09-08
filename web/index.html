@@ -28,6 +28,10 @@
     <div class="kicker">Sukhomlinsky Education KB</div>
     <h1>活教育学：<br>从原著里长出来的教育智慧</h1>
     <p class="sub">从原著里长出来的教育智慧：每一条想法、每一个案例都带出处，可被人类阅读，也可被 Agent 检索。</p>
+    <div class="searchbox" style="max-width:560px;margin:18px auto 0">
+      <input id="heroSearch" type="search" placeholder="搜索卡片：后进生、说谎、劳动教育、坐不住……" />
+      <button class="chip" id="heroSearchBtn" type="button">搜索</button>
+    </div>
     <div class="stats" id="stats"></div>
   </div>
 </header>
@@ -114,6 +118,14 @@ document.addEventListener("DOMContentLoaded", ()=>{
     <div class="stat"><b>${TOPICS.length}</b><span>主题</span></div>
     <div class="stat"><b>${CARDS.length}</b><span>卡片</span></div>
     <div class="stat"><b>540</b><span>做人的故事</span></div>`;
+  const heroSearch = document.getElementById("heroSearch");
+  const heroSearchBtn = document.getElementById("heroSearchBtn");
+  const doSearch = () => {
+    const q = (heroSearch.value || "").trim();
+    location.href = "explore.html" + (q ? "?q=" + encodeURIComponent(q) : "");
+  };
+  heroSearchBtn.addEventListener("click", doSearch);
+  heroSearch.addEventListener("keydown", (e) => { if (e.key === "Enter") doSearch(); });
   if(CARDS.length){
     const c=CARDS[Math.floor(Math.random()*CARDS.length)];
     const ex=(c.excerpts&&c.excerpts[0])||c.excerpt||"";

@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 88 |
-| [family-school](topics/family-school.md) | 家校合作 | 247 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 185 |
-| [health-first](topics/health-first.md) | 健康第一 | 43 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 239 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 213 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 175 |
-| [love-education](topics/love-education.md) | 爱的教育 | 414 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 91 |
+| [family-school](topics/family-school.md) | 家校合作 | 249 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 189 |
+| [health-first](topics/health-first.md) | 健康第一 | 45 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 249 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 216 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 177 |
+| [love-education](topics/love-education.md) | 爱的教育 | 420 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 38 |
-| [child-study](topics/child-study.md) | 儿童研究 | 324 |
+| [child-study](topics/child-study.md) | 儿童研究 | 338 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 70 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 140 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 149 |
 
 ## 来源 Sources
 
@@ -1145,3 +1145,23 @@
 | [sk-1109](cards/sk-1109-when-autumn-begins-apple-scent.md) | case | aesthetic-nature-education / thinking-and-nature | xuan-ji-zh-vol4 | 当秋天开始的时候 |
 | [sk-1110](cards/sk-1110-stork-blessing-on-roof.md) | case | aesthetic-nature-education / love-education / child-study | xuan-ji-zh-vol4 | 鹳 |
 | [sk-1111](cards/sk-1111-morning-glow-student-composition.md) | case | aesthetic-nature-education / thinking-and-nature / child-study | xuan-ji-zh-vol3 | 朝霞 |
+| [sk-1112](cards/sk-1112-youth-moral-convictions-and-ideals.md) | principle | love-education / child-study | xuan-ji-zh-vol1 | 青年人的道德信念和理想 |
+| [sk-1113](cards/sk-1113-collective-and-individual-spiritual-life.md) | principle | collective-education / child-study / thinking-and-nature | xuan-ji-zh-vol1 | 集体和个人的精神生活 |
+| [sk-1114](cards/sk-1114-teacher-time-and-interdependence-of-stages.md) | method | teacher-growth / learning-difficulties | xuan-ji-zh-vol2 | 教师的时间和各教学阶段的相互依存性 |
+| [sk-1115](cards/sk-1115-from-facts-to-abstract-truth.md) | method | learning-difficulties / thinking-and-nature | xuan-ji-zh-vol2 | 怎样引导学生从了解事实到认识抽象真理 |
+| [sk-1116](cards/sk-1116-what-emotional-education-should-be-like.md) | method | love-education / family-school | xuan-ji-zh-vol2 | 培养情感的教育应当是怎样的 |
+| [sk-1117](cards/sk-1117-living-problem-book-1000-questions.md) | practice | thinking-and-nature / learning-difficulties / child-study | xuan-ji-zh-vol3 | 活的习题集中的1000道题 |
+| [sk-1118](cards/sk-1118-thought-becomes-conviction.md) | principle | love-education / child-study | xuan-ji-zh-vol3 | 思想变为信念 |
+| [sk-1119](cards/sk-1119-cherishing-natural-wealth.md) | method | aesthetic-nature-education / labor-education / health-first | xuan-ji-zh-vol4 | 培养对自然财富的珍惜爱护态度 |
+| [sk-1120](cards/sk-1120-physical-education-and-leisure-rest.md) | method | health-first / child-study / aesthetic-nature-education | xuan-ji-zh-vol4 | 体育与空余时间和休息问题 |
+| [sk-1121](cards/sk-1121-cultivating-talents-interests-aspirations.md) | principle | labor-education / child-study / teacher-growth | xuan-ji-zh-vol4 | 才能、爱好和志向的培养和发展 |
+| [sk-1122](cards/sk-1122-apple-tree-in-bloom.md) | case | aesthetic-nature-education / thinking-and-nature / child-study | xuan-ji-zh-vol3 | 苹果树开花 |
+| [sk-1123](cards/sk-1123-spring-flower.md) | case | aesthetic-nature-education / thinking-and-nature / child-study | xuan-ji-zh-vol3 | 报春花 |
+| [sk-1124](cards/sk-1124-angry-spider.md) | case | love-education / aesthetic-nature-education / child-study | xuan-ji-zh-vol3 | 凶恶的蜘蛛 |
+| [sk-1125](cards/sk-1125-ice-flowers-on-window.md) | case | child-study / thinking-and-nature / aesthetic-nature-education | xuan-ji-zh-vol3 | 玻璃窗上的冰窗花是哪儿来的 |
+| [sk-1126](cards/sk-1126-what-is-most-important-in-life.md) | case | labor-education / thinking-and-nature / collective-education | xuan-ji-zh-vol3 | 生活中什么是最主要的 |
+| [sk-1127](cards/sk-1127-hedgehogs.md) | case | aesthetic-nature-education / love-education / child-study | xuan-ji-zh-vol3 | 刺猬 |
+| [sk-1128](cards/sk-1128-our-melon-field-life.md) | case | collective-education / labor-education / aesthetic-nature-education | xuan-ji-zh-vol3 | 我们的瓜园生活 |
+| [sk-1129](cards/sk-1129-voice-of-spring.md) | case | aesthetic-nature-education / thinking-and-nature / child-study | xuan-ji-zh-vol4 | 春之声 |
+| [sk-1130](cards/sk-1130-unforgettable-day-of-my-childhood.md) | case | family-school / aesthetic-nature-education / child-study | xuan-ji-zh-vol4 | 我童年时期难忘的一天 |
+| [sk-1131](cards/sk-1131-when-first-cosmonauts-land-on-mars.md) | case | thinking-and-nature / child-study / love-education | xuan-ji-zh-vol4 | 当我们的首批宇航员登上火星的时候 |

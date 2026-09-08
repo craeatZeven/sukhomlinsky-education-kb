@@ -27,7 +27,7 @@
 ## v0.4 — 覆盖审计与内容补全（进行中）
 - [x] 44 篇《美德故事》44/44 盘点（`docs/story-coverage-meide-gushi.md`）
 - [x] 113 条官方故事书目盘点（`docs/coverage-official-tales.md`）
-- [x] 113 条书目 ↔ 卡片全量对照草稿（`docs/coverage-official-tales-mapping.md`，92/113 高置信；20 条抽样复核见 `docs/coverage-official-tales-mapping-verification.md`）
+- [x] 113 条书目 ↔ 卡片全量对照草稿（`docs/coverage-official-tales-mapping.md`，93/113 高置信；两轮共 40 条抽样复核见 `docs/coverage-official-tales-mapping-verification.md` 与 `...-round2.md`）
 - [x] 五卷本按作品统计（`docs/coverage-volumes.md`）
 - [x] 五卷本逐章覆盖审计（`docs/coverage-volumes-chapters.md`）
 - [ ] 44 篇中 11 篇 probable + 2 篇 thematic 的人工复核

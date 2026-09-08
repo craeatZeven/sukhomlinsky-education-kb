@@ -139,7 +139,7 @@ def main() -> int:
     lines.append('')
     lines.append('- 《做人的故事》540 个目录标题已全部建卡；页码已与 OCR 正文页逐条核对（含 OCR 异体字/错字映射）。')
     lines.append('- 《苏霍姆林斯基讲美德故事》44 篇已全量盘点：31 篇确认同源、11 篇高度可能、2 篇仅主题相关；详见 `docs/story-coverage-meide-gushi.md`。')
-    lines.append('- 113 条官方故事书目已盘点，并完成“条目 ↔ 卡片”对照草稿：92/113 高置信可挂现有卡（20 条抽样复核后修正 1 条）；详见 `docs/coverage-official-tales.md`、`docs/coverage-official-tales-mapping.md` 与 `docs/coverage-official-tales-mapping-verification.md`。')
+    lines.append('- 113 条官方故事书目已盘点，并完成“条目 ↔ 卡片”对照草稿：93/113 高置信可挂现有卡（两轮共 40 条抽样复核，修正 3 条）；详见 `docs/coverage-official-tales.md`、`docs/coverage-official-tales-mapping.md` 与两份 verification 报告。')
     lines.append('- 五卷本已按作品统计（`docs/coverage-volumes.md`），并完成章节级覆盖审计（`docs/coverage-volumes-chapters.md`）：310 个审计单位中 13 个 covered、154 个 partial、143 个 gap。')
     lines.append('- 562 篇期刊文章：仅第五卷 68 篇已覆盖；其余受合法获取渠道限制，暂缓。')
     lines.append('- 英文/电子本（On Education、To Children I Give My Heart、Each One Must Shine、Singing Feather、把心献给孩子）：暂用本地文件/行号定位，未统一到印刷页码。')

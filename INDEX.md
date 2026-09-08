@@ -5,16 +5,16 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 72 |
-| [family-school](topics/family-school.md) | 家校合作 | 231 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 174 |
-| [health-first](topics/health-first.md) | 健康第一 | 37 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 222 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 201 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 140 |
-| [love-education](topics/love-education.md) | 爱的教育 | 381 |
+| [family-school](topics/family-school.md) | 家校合作 | 232 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 175 |
+| [health-first](topics/health-first.md) | 健康第一 | 39 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 223 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 202 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 146 |
+| [love-education](topics/love-education.md) | 爱的教育 | 385 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 35 |
-| [child-study](topics/child-study.md) | 儿童研究 | 287 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 56 |
+| [child-study](topics/child-study.md) | 儿童研究 | 292 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 59 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 112 |
 
 ## 来源 Sources
@@ -1047,3 +1047,13 @@
 | [sk-1011](cards/sk-1011-advice-on-classroom-observation-and-analysis.md) | method | teacher-growth / assessment-grading / child-study | xuan-ji-zh-vol4 | 关于听课和分析课的几点建议 |
 | [sk-1012](cards/sk-1012-emotional-education.md) | case | family-school / love-education / child-study | xuan-ji-zh-vol5 | 情感教育 |
 | [sk-1013](cards/sk-1013-know-yourself.md) | principle | child-study / teacher-growth / love-education | xuan-ji-zh-vol5 | 认识自己 |
+| [sk-1014](cards/sk-1014-preface-practice-and-research-united.md) | principle | teacher-growth / child-study | xuan-ji-zh-vol1 | 序言：把实际工作与科学研究结合起来 |
+| [sk-1015](cards/sk-1015-history-of-all-round-development-idea.md) | principle | teacher-growth / labor-education | xuan-ji-zh-vol1 | 个人全面发展思想的历史沿革 |
+| [sk-1016](cards/sk-1016-how-to-cultivate-child-spiritual-strength.md) | method | love-education / health-first / child-study | xuan-ji-zh-vol2 | 怎样培养孩子的精神力量 |
+| [sk-1017](cards/sk-1017-nature-source-of-health.md) | method | health-first / aesthetic-nature-education | xuan-ji-zh-vol3 | 大自然——健康的源泉 |
+| [sk-1018](cards/sk-1018-essence-of-year-summary.md) | method | teacher-growth / reading-and-books | xuan-ji-zh-vol4 | 总结的实质及做法 |
+| [sk-1019](cards/sk-1019-child-duty-to-others.md) | principle | love-education / family-school | xuan-ji-zh-vol2 | 孩子应该怎样理解自己对他人的义务 |
+| [sk-1020](cards/sk-1020-helping-teachers-perfect-skills.md) | method | teacher-growth / child-study | xuan-ji-zh-vol4 | 帮助教师完善教育技巧 |
+| [sk-1021](cards/sk-1021-komsomol-meeting-lively-debate.md) | method | collective-education / reading-and-books / teacher-growth | xuan-ji-zh-vol3 | 共青团会议怎样才有生气 |
+| [sk-1022](cards/sk-1022-abstract-student-vs-living-person.md) | principle | love-education / child-study / reading-and-books | xuan-ji-zh-vol5 | 抽象的学生与活生生的人 |
+| [sk-1023](cards/sk-1023-teacher-vocation-and-talent.md) | principle | teacher-growth / child-study / love-education | xuan-ji-zh-vol2 | 什么是从事教师工作的才能，它是怎样形成的 |

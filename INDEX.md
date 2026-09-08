@@ -5,15 +5,15 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 52 |
-| [family-school](topics/family-school.md) | 家校合作 | 90 |
+| [family-school](topics/family-school.md) | 家校合作 | 94 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 104 |
 | [health-first](topics/health-first.md) | 健康第一 | 33 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 175 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 118 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 176 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 122 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 120 |
-| [love-education](topics/love-education.md) | 爱的教育 | 171 |
+| [love-education](topics/love-education.md) | 爱的教育 | 177 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 22 |
-| [child-study](topics/child-study.md) | 儿童研究 | 201 |
+| [child-study](topics/child-study.md) | 儿童研究 | 204 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 39 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 86 |
 
@@ -693,3 +693,12 @@
 | [sk-0653](cards/sk-0653-talking-irresponsibly.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 信口开河：说过的神圣承诺，要用行动一直守下去 |
 | [sk-0654](cards/sk-0654-mom-has-no-time.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 妈妈没时间：只顾自己吃独食，会让客人觉得羞耻 |
 | [sk-0655](cards/sk-0655-ingratitude.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 忘恩负义：只挑剔招待，不谢招待的人，会让爷爷心痛 |
+| [sk-0656](cards/sk-0656-ordinary-man.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 普通人：把水桶留在井边，让后来的人也能喝上水 |
+| [sk-0657](cards/sk-0657-borrowing-a-shovel.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 借铁锨：先问一声“您好”，再开口向人借东西 |
+| [sk-0658](cards/sk-0658-doctor-fell-ill.md) | case | love-education / collective-education | zuo-ren-de-gu-shi-zh | 医生病了：在生命关头，他用尽最后力气先救小女孩 |
+| [sk-0659](cards/sk-0659-smallest-apple.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 最小的苹果：为什么客人专挑最小的吃？因为他是人 |
+| [sk-0660](cards/sk-0660-forest-hut.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 林中小屋：好心人把食物和水留给了素不相识的过路人 |
+| [sk-0661](cards/sk-0661-dad-you-have-grown-up.md) | case | family-school / child-study | zuo-ren-de-gu-shi-zh | 您已经长大了，爸爸：孩子质问成人为何对暴行沉默 |
+| [sk-0662](cards/sk-0662-soap-bubbles.md) | case | aesthetic-nature-education / child-study | zuo-ren-de-gu-shi-zh | 肥皂泡：骄傲吹得越大，破得越快 |
+| [sk-0663](cards/sk-0663-being-human-is-hard.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 做人真难：累了也要走回去，向给水喝的妇女道谢 |
+| [sk-0664](cards/sk-0664-sound-of-the-axe.md) | case | family-school / child-study | zuo-ren-de-gu-shi-zh | 斧子的敲击声：父亲认出砍树人是熟人后，愤怒变成了困窘 |

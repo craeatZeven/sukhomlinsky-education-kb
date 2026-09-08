@@ -5,17 +5,17 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 51 |
-| [family-school](topics/family-school.md) | 家校合作 | 57 |
+| [family-school](topics/family-school.md) | 家校合作 | 58 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 80 |
 | [health-first](topics/health-first.md) | 健康第一 | 31 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 58 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 68 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 82 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 119 |
-| [love-education](topics/love-education.md) | 爱的教育 | 80 |
+| [love-education](topics/love-education.md) | 爱的教育 | 81 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 22 |
-| [child-study](topics/child-study.md) | 儿童研究 | 153 |
+| [child-study](topics/child-study.md) | 儿童研究 | 156 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 38 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 44 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 49 |
 
 ## 来源 Sources
 
@@ -495,3 +495,13 @@
 | [sk-0455](cards/sk-0455-autumn-golden-ribbon.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 秋天带来了金色的带子：秋叶是季节送给树的礼物 |
 | [sk-0456](cards/sk-0456-goodbye-sun.md) | case | aesthetic-nature-education / family-school | zuo-ren-de-gu-shi-zh | 再见，太阳：用温柔的告别建立对自然的亲密 |
 | [sk-0457](cards/sk-0457-ant-crosses-stream.md) | case | thinking-and-nature / child-study | zuo-ren-de-gu-shi-zh | 蚂蚁是怎样穿过小溪的：为家人想办法的蚂蚁 |
+| [sk-0458](cards/sk-0458-swallow-saved-by-motherly-love.md) | case | aesthetic-nature-education / love-education | zuo-ren-de-gu-shi-zh | 燕子是怎样得救的：想到孩子，就有了逃生的力量 |
+| [sk-0459](cards/sk-0459-poppy-waits-for-bee.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 虞美人什么时候打开花瓣：她在等待蜜蜂 |
+| [sk-0460](cards/sk-0460-rowan-waits-for-guests.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 花楸树在等谁：果实因等待贵客而变甜 |
+| [sk-0461](cards/sk-0461-snowflake-and-water-drop.md) | case | thinking-and-nature / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 雪花和小水珠：美丽的雪花在温暖里变成水珠 |
+| [sk-0462](cards/sk-0462-crucian-in-fishbowl.md) | case | child-study / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 鱼缸中的小鲫鱼：请把我放回池塘去吧 |
+| [sk-0463](cards/sk-0463-flower-and-snow.md) | case | aesthetic-nature-education / child-study | zuo-ren-de-gu-shi-zh | 花朵和雪：冬天屋里开出的丁香花 |
+| [sk-0464](cards/sk-0464-let-bee-out.md) | case | child-study / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 怎样让蜜蜂飞出去：一个女孩焦急等待课间 |
+| [sk-0465](cards/sk-0465-butterfly-and-flower-on-water.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 蝴蝶与花朵：一朵花让蝴蝶在水上旅行 |
+| [sk-0466](cards/sk-0466-all-trees-sing.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 林子里所有的树都在歌唱：每棵树都有自己的歌 |
+| [sk-0467](cards/sk-0467-they-are-so-pitiable.md) | case | aesthetic-nature-education / family-school | zuo-ren-de-gu-shi-zh | 他们是多么可怜：天没亮就去听云雀 |

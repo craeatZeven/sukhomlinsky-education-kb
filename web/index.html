@@ -64,6 +64,18 @@
       <p>查看已登记书源、OCR 状态、作品总清单与缺口，了解每张卡背后的书从哪里来。</p>
       <span class="go">看书源 →</span>
     </a>
+    <a class="portal-card" href="explore.html?source=zuo-ren-de-gu-shi-zh">
+      <div class="icon">📖</div>
+      <h3>《做人的故事》540 篇</h3>
+      <p>按原书目录顺序浏览全部 540 个故事卡：短原文摘录 + 中文转述 + 教育应用 + 出处核对。</p>
+      <span class="go">看故事 →</span>
+    </a>
+    <a class="portal-card" href="sources.html">
+      <div class="icon">📊</div>
+      <h3>覆盖报告</h3>
+      <p>44 篇美德故事、113 条官方书目、五卷本来源分布与全库质量审计结果。</p>
+      <span class="go">看报告 →</span>
+    </a>
     <a class="portal-card" href="https://github.com/craeatZeven/sukhomlinsky-education-kb/blob/master/INDEX.md" target="_blank" rel="noopener">
       <div class="icon">🧩</div>
       <h3>Markdown 底座</h3>
@@ -99,7 +111,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
     <div class="stat"><b>${SOURCES.length}</b><span>书源</span></div>
     <div class="stat"><b>${TOPICS.length}</b><span>主题</span></div>
     <div class="stat"><b>${CARDS.length}</b><span>卡片</span></div>
-    <div class="stat"><b>12</b><span>案例 Review</span></div>`;
+    <div class="stat"><b>540</b><span>做人的故事</span></div>`;
   if(CARDS.length){
     const c=CARDS[Math.floor(Math.random()*CARDS.length)];
     const ex=(c.excerpts&&c.excerpts[0])||c.excerpt||"";

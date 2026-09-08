@@ -6,16 +6,16 @@
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 51 |
 | [family-school](topics/family-school.md) | 家校合作 | 59 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 82 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 83 |
 | [health-first](topics/health-first.md) | 健康第一 | 31 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 93 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 100 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 83 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 119 |
-| [love-education](topics/love-education.md) | 爱的教育 | 84 |
+| [love-education](topics/love-education.md) | 爱的教育 | 85 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 22 |
-| [child-study](topics/child-study.md) | 儿童研究 | 172 |
+| [child-study](topics/child-study.md) | 儿童研究 | 176 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 38 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 61 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 68 |
 
 ## 来源 Sources
 
@@ -535,3 +535,13 @@
 | [sk-0495](cards/sk-0495-apple-smells.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 苹果飘香：月亮升起后，苹果还带着太阳的气息 |
 | [sk-0496](cards/sk-0496-sunflower-in-thunderstorm.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 雷雨时的向日葵：乌云后仍燃着太阳的火焰 |
 | [sk-0497](cards/sk-0497-purple-grove-in-ravine.md) | case | thinking-and-nature / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 峡谷中的淡紫色的小树林：远看像小河，近看是丁香 |
+| [sk-0498](cards/sk-0498-oak-shepherd.md) | case | aesthetic-nature-education / child-study | zuo-ren-de-gu-shi-zh | 橡树，牧羊人：被雷火烧焦树尖后，鹤来筑巢 |
+| [sk-0499](cards/sk-0499-nightingale-mother-feeds-water.md) | case | love-education / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 夜莺妈妈怎样给自己的孩子喂水：含来一滴最清的露珠 |
+| [sk-0500](cards/sk-0500-green-pigtails-red-pantry.md) | case | thinking-and-nature / labor-education | zuo-ren-de-gu-shi-zh | 绿色的小辫和红色的储藏室：胡萝卜根里藏着糖 |
+| [sk-0501](cards/sk-0501-first-frost-and-chrysanthemum.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 初寒和菊花：寒霜忘了路边的小菊花 |
+| [sk-0502](cards/sk-0502-dawn.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 晨曦：云雀唱“我已经看到了太阳” |
+| [sk-0503](cards/sk-0503-bee-music.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 蜜蜂的音乐声：太阳把琴弦拧紧在花瓣之间 |
+| [sk-0504](cards/sk-0504-spring-wind.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 春风：睡够了的槭树该醒醒了 |
+| [sk-0505](cards/sk-0505-flute-and-wind.md) | case | aesthetic-nature-education / child-study | zuo-ren-de-gu-shi-zh | 长笛和风：力气再大，也吹不出美的音乐 |
+| [sk-0506](cards/sk-0506-river-angry-at-rain.md) | case | thinking-and-nature / child-study | zuo-ren-de-gu-shi-zh | 河流是怎样对小雨点大发脾气的：没有灰色的我，也就没有你 |
+| [sk-0507](cards/sk-0507-curious-woodpecker.md) | case | child-study / thinking-and-nature | zuo-ren-de-gu-shi-zh | 好奇的啄木鸟：从巢里探出身子，掉到地上 |

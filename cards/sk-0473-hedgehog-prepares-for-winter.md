@@ -10,7 +10,7 @@ source: zuo-ren-de-gu-shi-zh
 ref: "《做人的故事》（人民教育出版社 2015，诸惠芳等译）《刺猬是怎样准备过冬的》，OCR 图像版 p13"
 url: ""
 status: reviewed
-created: "2026-09-08
+created: "2026-09-08"
 updated: "2026-09-08"
 reviewed_by: "maintainer (source-checked)"
 ---

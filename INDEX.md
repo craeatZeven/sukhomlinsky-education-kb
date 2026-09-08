@@ -5,17 +5,17 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 51 |
-| [family-school](topics/family-school.md) | 家校合作 | 58 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 81 |
+| [family-school](topics/family-school.md) | 家校合作 | 59 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 82 |
 | [health-first](topics/health-first.md) | 健康第一 | 31 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 77 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 85 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 82 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 119 |
-| [love-education](topics/love-education.md) | 爱的教育 | 82 |
+| [love-education](topics/love-education.md) | 爱的教育 | 83 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 22 |
-| [child-study](topics/child-study.md) | 儿童研究 | 162 |
+| [child-study](topics/child-study.md) | 儿童研究 | 166 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 38 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 52 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 57 |
 
 ## 来源 Sources
 
@@ -515,3 +515,13 @@
 | [sk-0475](cards/sk-0475-oak-under-window.md) | case | aesthetic-nature-education / love-education | zuo-ren-de-gu-shi-zh | 窗下的橡树：为了不砍树，把房子搬走 |
 | [sk-0476](cards/sk-0476-lonely-crack-willow.md) | case | aesthetic-nature-education / child-study | zuo-ren-de-gu-shi-zh | 孤独的爆竹柳：水中的倒影让它看见自己的美 |
 | [sk-0477](cards/sk-0477-rabbit-warms-in-moonlight.md) | case | aesthetic-nature-education / child-study | zuo-ren-de-gu-shi-zh | 小兔子怎样在月光下取暖：跑到干草垛，月光就暖了 |
+| [sk-0478](cards/sk-0478-clever-glazier.md) | case | thinking-and-nature / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 机灵的镶玻璃工：原来是严寒给水池盖上了玻璃 |
+| [sk-0479](cards/sk-0479-lark-helps-sun.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 云雀在帮助太阳：当云雀飞进蓝天，天空就会暖一些 |
+| [sk-0480](cards/sk-0480-lilac-tree.md) | case | aesthetic-nature-education / child-study | zuo-ren-de-gu-shi-zh | 丁香树：折走花枝的人，让世界少了笑容 |
+| [sk-0481](cards/sk-0481-ant-hurrying-where.md) | case | child-study / labor-education | zuo-ren-de-gu-shi-zh | 蚂蚁匆匆忙忙地去哪里：为孩子们找食物 |
+| [sk-0482](cards/sk-0482-autumn-outfit.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 秋天的装束：金黄辫子的秋天轻轻走过草地 |
+| [sk-0483](cards/sk-0483-stream-watering-daisy.md) | case | aesthetic-nature-education / child-study | zuo-ren-de-gu-shi-zh | 小溪如何给草地上的野菊花喂水：听到哭声的小溪 |
+| [sk-0484](cards/sk-0484-small-grass-and-last-years-leaf.md) | case | thinking-and-nature / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 小草茎和去年的叶子：顶开旧叶看见春天 |
+| [sk-0485](cards/sk-0485-willow-cut-down.md) | case | aesthetic-nature-education / child-study | zuo-ren-de-gu-shi-zh | 柳树被砍了：一片叶子问“我们为什么躺在地上” |
+| [sk-0486](cards/sk-0486-bee-finds-lily-of-valley.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 蜜蜂是怎样找到铃兰花的：每朵花都是银色小铃铛 |
+| [sk-0487](cards/sk-0487-mothers-hand-smell-in-dream.md) | case | love-education / family-school | zuo-ren-de-gu-shi-zh | 在梦中袭来妈妈手的香味：蚂蚁妈妈认出了孩子 |

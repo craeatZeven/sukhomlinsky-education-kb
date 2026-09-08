@@ -4,14 +4,14 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 51 |
-| [family-school](topics/family-school.md) | 家校合作 | 85 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 103 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 52 |
+| [family-school](topics/family-school.md) | 家校合作 | 86 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 104 |
 | [health-first](topics/health-first.md) | 健康第一 | 33 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 172 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 108 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 174 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 114 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 120 |
-| [love-education](topics/love-education.md) | 爱的教育 | 153 |
+| [love-education](topics/love-education.md) | 爱的教育 | 162 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 22 |
 | [child-study](topics/child-study.md) | 儿童研究 | 199 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 39 |
@@ -673,3 +673,13 @@
 | [sk-0633](cards/sk-0633-everyone-has-a-duty.md) | case | family-school / labor-education | zuo-ren-de-gu-shi-zh | 每个人都应该：孩子的责任是成长为一个人 |
 | [sk-0634](cards/sk-0634-say-hello-to-people.md) | case | collective-education / family-school | zuo-ren-de-gu-shi-zh | 对人说“您好”：一句问候让世界变亮 |
 | [sk-0635](cards/sk-0635-why-say-thanks.md) | case | collective-education / family-school | zuo-ren-de-gu-shi-zh | 为什么要说“谢谢”：人不是狼，所以人会道谢 |
+| [sk-0636](cards/sk-0636-grandpa-stay-healthy.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 爷爷，祝您身体健康：一句亲切的问候是孤寂老人心头的乐曲 |
+| [sk-0637](cards/sk-0637-little-water-drop.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 小水滴：水井旁被挤走的老奶奶，考验孩子心中有没有别人 |
+| [sk-0638](cards/sk-0638-joy-and-sadness.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 快乐和悲伤：快乐应该永远让位于悲伤 |
+| [sk-0639](cards/sk-0639-beautiful-and-ugly.md) | case | aesthetic-nature-education / love-education | zuo-ren-de-gu-shi-zh | 美丽的和丑陋的：心灵的美丑写在如何对待他人上 |
+| [sk-0640](cards/sk-0640-trip-to-kaniv.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 去坎涅夫市旅行：全班把旅行推迟到同学的妈妈病愈之后 |
+| [sk-0641](cards/sk-0641-indifference.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 漠不关心：她不是我的奶奶，可她也是大家的奶奶 |
+| [sk-0642](cards/sk-0642-glass-of-water.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 一杯水：不要去做想做的事，而要去做必须做的事 |
+| [sk-0643](cards/sk-0643-whos-grandpas-relatives.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 谁是爷爷的亲戚：他是所有诚实的人的亲戚 |
+| [sk-0644](cards/sk-0644-unhappy-andrei.md) | case | labor-education / learning-difficulties | zuo-ren-de-gu-shi-zh | 不幸的安德烈：不幸是因为不爱劳动，劳动是最大的美 |
+| [sk-0645](cards/sk-0645-grandpa-matveys-oak-tree.md) | case | aesthetic-nature-education / love-education | zuo-ren-de-gu-shi-zh | 马特维爷爷的橡树：为别人栽一棵树，让别人记住你 |

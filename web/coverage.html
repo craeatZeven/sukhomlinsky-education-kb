@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>覆盖报告 · 苏霍姆林斯基教育知识库</title>
+<link rel="stylesheet" href="style.css?v=20260907" />
+</head>
+<body data-theme="green">
+<nav class="topnav">
+  <div class="inner">
+    <a class="brand" href="index.html">苏霍姆林斯基教育知识库</a>
+    <div class="nav-links">
+      <a class="nav-link" href="index.html">首页</a>
+      <a class="nav-link" href="explore.html">主题浏览</a>
+      <a class="nav-link" href="problem.html">问题检索</a>
+      <a class="nav-link" href="clusters.html">思想地图</a>
+      <a class="nav-link" href="cases.html">案例 Review</a>
+      <a class="nav-link" href="sources.html">书源</a>
+    </div>
+  </div>
+</nav>
+
+<header class="page-head">
+  <div class="wrap">
+    <div class="eyebrow">Coverage</div>
+    <h1>覆盖报告</h1>
+    <p>当前知识库的卡片量、来源分布、主题分布和已知缺口。数据由 <code>scripts/coverage_report.py</code> 自动生成。</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <section>
+    <div class="stats" id="coverageStats"></div>
+  </section>
+
+  <section>
+    <h2 class="section-title">来源覆盖</h2>
+    <p class="section-sub">每个来源的卡片数，以及 ref 中带印刷页码的数量。</p>
+    <div class="grid" id="sourceGrid"></div>
+  </section>
+
+  <section>
+    <h2 class="section-title">主题分布</h2>
+    <div class="grid" id="topicGrid"></div>
+  </section>
+
+  <section>
+    <h2 class="section-title">更多覆盖审计</h2>
+    <div class="grid">
+      <a class="portal-card" href="https://github.com/craeatZeven/sukhomlinsky-education-kb/blob/master/docs/coverage-dashboard.md" target="_blank" rel="noopener">
+        <div class="icon">📊</div><h3>覆盖仪表盘</h3><p>完整统计表与维护命令。</p><span class="go">打开 →</span>
+      </a>
+      <a class="portal-card" href="https://github.com/craeatZeven/sukhomlinsky-education-kb/blob/master/docs/coverage-volumes-chapters.md" target="_blank" rel="noopener">
+        <div class="icon">🔬</div><h3>五卷本章节审计</h3><p>310 个章节/篇目的 covered / partial / gap。</p><span class="go">打开 →</span>
+      </a>
+      <a class="portal-card" href="https://github.com/craeatZeven/sukhomlinsky-education-kb/blob/master/docs/story-coverage-meide-gushi.md" target="_blank" rel="noopener">
+        <div class="icon">🌸</div><h3>44 篇美德故事</h3><p>44/44 全量同源覆盖表。</p><span class="go">打开 →</span>
+      </a>
+      <a class="portal-card" href="https://github.com/craeatZeven/sukhomlinsky-education-kb/blob/master/docs/coverage-official-tales-mapping.md" target="_blank" rel="noopener">
+        <div class="icon">🔗</div><h3>113 条官方书目对照</h3><p>113 条书目 ↔ 已有卡片对照草稿。</p><span class="go">打开 →</span>
+      </a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><a href="index.html">← 返回首页</a> · 数据源 <a href="../INDEX.md">INDEX.md</a></p>
+  </div>
+</footer>
+
+<script src="theme.js?v=20260907"></script>
+<script>
+document.addEventListener("DOMContentLoaded", async ()=>{
+  const stats = document.getElementById("coverageStats");
+  try {
+    const r = await fetch("coverage.json?v=" + Date.now());
+    const d = await r.json();
+    stats.innerHTML = `
+      <div class="stat"><b>${d.total_cards}</b><span>卡片</span></div>
+      <div class="stat"><b>${d.source_count}</b><span>来源</span></div>
+      <div class="stat"><b>${d.topic_count}</b><span>主题</span></div>
+      <div class="stat"><b>${d.zuoren_cards}</b><span>做人的故事</span></div>`;
+    document.getElementById("sourceGrid").innerHTML = d.sources.map(s=>`
+      <a class="source-card" style="text-decoration:none;color:inherit" href="explore.html?source=${s.slug}">
+        <span class="badge">${s.cards} 张</span>
+        <h3 style="margin:10px 0 6px">${s.title}</h3>
+        <p class="meta">印刷页码 ref：${s.page_refs}/${s.cards}</p>
+        <p class="ref" style="margin-top:10px">浏览该来源 →</p>
+      </a>`).join("");
+    document.getElementById("topicGrid").innerHTML = d.topics.map(t=>`
+      <a class="source-card" style="text-decoration:none;color:inherit" href="explore.html?topic=${t.slug}">
+        <span class="badge">${t.cards} 张</span>
+        <h3 style="margin:10px 0 6px">${t.title}</h3>
+        <p class="ref">浏览该主题 →</p>
+      </a>`).join("");
+  } catch (e) {
+    stats.innerHTML = '<p class="empty" style="display:block">覆盖数据加载失败，请直接查看 GitHub 文档。</p>';
+  }
+});
+</script>
+</body>
+</html>

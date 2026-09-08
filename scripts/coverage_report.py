@@ -8,6 +8,7 @@ Usage:
 """
 from __future__ import annotations
 
+import json
 import re
 import sys
 from collections import Counter, defaultdict
@@ -156,6 +157,31 @@ def main() -> int:
 
     OUT.write_text('\n'.join(lines) + '\n', encoding='utf-8')
     print(f'wrote {OUT}')
+
+    web_json = ROOT / 'web' / 'coverage.json'
+    payload = {
+        'total_cards': total,
+        'source_count': len(source_cards),
+        'topic_count': len(topic_cards),
+        'zuoren_cards': zuoren_cards,
+        'zuoren_titles': len(zuoren_ref_titles),
+        'sources': [
+            {
+                'slug': src,
+                'title': source_title.get(src, src),
+                'cards': n,
+                'page_refs': source_with_page[src],
+            }
+            for src, n in source_cards.most_common()
+        ],
+        'types': [{'type': typ, 'cards': n} for typ, n in type_cards.most_common()],
+        'topics': [
+            {'slug': t, 'title': topic_title.get(t, t), 'cards': n}
+            for t, n in topic_cards.most_common()
+        ],
+    }
+    web_json.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    print(f'wrote {web_json}')
     print(f'cards={total} sources={len(source_cards)} topics={len(topic_cards)} zuoren={zuoren_cards}')
     return 0
 

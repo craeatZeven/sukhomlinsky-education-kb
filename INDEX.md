@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 73 |
-| [family-school](topics/family-school.md) | 家校合作 | 234 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 176 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 78 |
+| [family-school](topics/family-school.md) | 家校合作 | 235 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 178 |
 | [health-first](topics/health-first.md) | 健康第一 | 41 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 223 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 202 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 153 |
-| [love-education](topics/love-education.md) | 爱的教育 | 386 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 36 |
-| [child-study](topics/child-study.md) | 儿童研究 | 296 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 61 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 113 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 154 |
+| [love-education](topics/love-education.md) | 爱的教育 | 389 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 37 |
+| [child-study](topics/child-study.md) | 儿童研究 | 298 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 63 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 116 |
 
 ## 来源 Sources
 
@@ -1067,3 +1067,13 @@
 | [sk-1031](cards/sk-1031-health-health-and-health.md) | principle | health-first / family-school | xuan-ji-zh-vol3 | 健康、健康，还是健康 |
 | [sk-1032](cards/sk-1032-letter-6-talent-and-education.md) | quote | teacher-growth / labor-education / child-study | xuan-ji-zh-vol3 | 第6封信：天赋与教育，人是自己志向的创造者 |
 | [sk-1033](cards/sk-1033-author-words-school-leader.md) | principle | teacher-growth | xuan-ji-zh-vol4 | 作者的话：校长要成为“教师的教师” |
+| [sk-1034](cards/sk-1034-ways-to-cultivate-spiritual-world.md) | principle | love-education / labor-education | xuan-ji-zh-vol1 | 培养学生精神世界的途径和方法：道德教育的艺术在于行动先行 |
+| [sk-1035](cards/sk-1035-how-to-hold-student-attention.md) | method | learning-difficulties / reading-and-books | xuan-ji-zh-vol2 | 怎样使学生注意力集中：先形成情绪高涨和智力振奋的内心状态 |
+| [sk-1036](cards/sk-1036-homework-check-with-scratchpaper.md) | method | assessment-grading / learning-difficulties | xuan-ji-zh-vol2 | 用草稿本检查家庭作业：让全班都在进行脑力劳动 |
+| [sk-1037](cards/sk-1037-teach-students-to-observe.md) | principle | thinking-and-nature / child-study | xuan-ji-zh-vol2 | 观察是知识的理解和记忆之母：教学生观察、教学生细看 |
+| [sk-1038](cards/sk-1038-cultivating-conscience.md) | principle | love-education / family-school | xuan-ji-zh-vol2 | 怎样培养良心感：以羞耻心为土壤，让内在的“我”说话 |
+| [sk-1039](cards/sk-1039-remember-basic-knowledge.md) | method | learning-difficulties / reading-and-books | xuan-ji-zh-vol2 | 让学生记住基本知识：把知识的“骨架”在小学阶段牢牢打好 |
+| [sk-1040](cards/sk-1040-skills-and-knowledge-must-not-be-out-of-balance.md) | principle | learning-difficulties / thinking-and-nature | xuan-ji-zh-vol2 | 技能和知识之间不可比例失调：没有工具就塞不进知识 |
+| [sk-1041](cards/sk-1041-cultivating-intellectual-capacity.md) | principle | thinking-and-nature / child-study | xuan-ji-zh-vol4 | 培养学生的智能：观察力是发达智力的首要特点 |
+| [sk-1042](cards/sk-1042-the-birth-of-goodness.md) | case | love-education / labor-education | xuan-ji-zh-vol5 | 善的萌生：从为亲人种一丛玫瑰开始教儿童行善 |
+| [sk-1043](cards/sk-1043-how-to-assign-homework.md) | method | teacher-growth / learning-difficulties | xuan-ji-zh-vol4 | 关于听课和分析课的几点建议：教师应当怎样布置家庭作业 |

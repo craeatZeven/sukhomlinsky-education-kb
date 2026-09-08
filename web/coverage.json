@@ -1,0 +1,165 @@
+{
+  "total_cards": 1039,
+  "source_count": 12,
+  "topic_count": 12,
+  "zuoren_cards": 540,
+  "zuoren_titles": 540,
+  "sources": [
+    {
+      "slug": "zuo-ren-de-gu-shi-zh",
+      "title": "做人的故事",
+      "cards": 540,
+      "page_refs": 540
+    },
+    {
+      "slug": "xuan-ji-zh-vol5",
+      "title": "苏霍姆林斯基选集（五卷本）第5卷",
+      "cards": 113,
+      "page_refs": 109
+    },
+    {
+      "slug": "xuan-ji-zh-vol2",
+      "title": "苏霍姆林斯基选集（五卷本）第2卷",
+      "cards": 81,
+      "page_refs": 45
+    },
+    {
+      "slug": "xuan-ji-zh-vol3",
+      "title": "苏霍姆林斯基选集（五卷本）第3卷",
+      "cards": 59,
+      "page_refs": 51
+    },
+    {
+      "slug": "xuan-ji-zh-vol4",
+      "title": "苏霍姆林斯基选集（五卷本）第4卷",
+      "cards": 48,
+      "page_refs": 41
+    },
+    {
+      "slug": "xuan-ji-zh-vol1",
+      "title": "苏霍姆林斯基选集（五卷本）第1卷",
+      "cards": 48,
+      "page_refs": 36
+    },
+    {
+      "slug": "on-education",
+      "title": "On Education",
+      "cards": 41,
+      "page_refs": 0
+    },
+    {
+      "slug": "ba-xin-xian-gei-hai-zi-zh",
+      "title": "把心献给孩子",
+      "cards": 35,
+      "page_refs": 0
+    },
+    {
+      "slug": "gei-jiao-shi-de-jian-yi-zh",
+      "title": "给教师的建议",
+      "cards": 24,
+      "page_refs": 23
+    },
+    {
+      "slug": "to-children-i-give-my-heart",
+      "title": "To Children I Give My Heart",
+      "cards": 22,
+      "page_refs": 0
+    },
+    {
+      "slug": "each-one-must-shine",
+      "title": "Each One Must Shine: The Educational Legacy of V. A. Sukhomlinsky",
+      "cards": 16,
+      "page_refs": 0
+    },
+    {
+      "slug": "singing-feather",
+      "title": "The Singing Feather (会唱歌的羽毛)",
+      "cards": 12,
+      "page_refs": 0
+    }
+  ],
+  "types": [
+    {
+      "type": "case",
+      "cards": 600
+    },
+    {
+      "type": "quote",
+      "cards": 257
+    },
+    {
+      "type": "principle",
+      "cards": 107
+    },
+    {
+      "type": "method",
+      "cards": 53
+    },
+    {
+      "type": "practice",
+      "cards": 22
+    }
+  ],
+  "topics": [
+    {
+      "slug": "love-education",
+      "title": "爱的教育",
+      "cards": 389
+    },
+    {
+      "slug": "child-study",
+      "title": "儿童研究",
+      "cards": 298
+    },
+    {
+      "slug": "family-school",
+      "title": "家校合作",
+      "cards": 235
+    },
+    {
+      "slug": "aesthetic-nature-education",
+      "title": "美育与自然",
+      "cards": 223
+    },
+    {
+      "slug": "collective-education",
+      "title": "集体教育",
+      "cards": 202
+    },
+    {
+      "slug": "labor-education",
+      "title": "劳动教育",
+      "cards": 178
+    },
+    {
+      "slug": "teacher-growth",
+      "title": "教师成长",
+      "cards": 154
+    },
+    {
+      "slug": "thinking-and-nature",
+      "title": "思维课与大自然",
+      "cards": 116
+    },
+    {
+      "slug": "learning-difficulties",
+      "title": "学习困难学生",
+      "cards": 78
+    },
+    {
+      "slug": "reading-and-books",
+      "title": "阅读与书籍",
+      "cards": 63
+    },
+    {
+      "slug": "health-first",
+      "title": "健康第一",
+      "cards": 41
+    },
+    {
+      "slug": "assessment-grading",
+      "title": "评价与分数",
+      "cards": 37
+    }
+  ]
+}

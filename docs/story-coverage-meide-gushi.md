@@ -68,7 +68,7 @@
 
 ## 3. 仍需人工确认的标题
 
-以下 13 篇尚未逐字核对《美德故事》原书正文，建议后续拿到原书或授权影印件后逐篇复核：
+以下 13 篇尚未逐字核对《美德故事》原书正文。2026-09-08 已做一轮本地语料复核，结论是**状态维持不变**：11 篇 `probable_same_story`、2 篇 `thematic_only`；因《美德故事》原书正文本地不可得，暂无一篇能升级为 `confirmed_same_story`。逐条证据见 [`story-coverage-meide-gushi-verification.md`](story-coverage-meide-gushi-verification.md)。
 
 - **云雀之歌**（probable_same_story）
 - **大自然的美**（thematic_only）
@@ -88,6 +88,7 @@
 
 - 标题匹配：`local_working_copy/zuoren-story-index.csv`（540 篇）+ `story-title-zuoren-candidates.txt`。
 - 正文核对：`local_working_copy/zuoren-gushi-full-ocr.md`、`zuoren-story-segments.jsonl`；
-  五卷本 OCR：`local_working_copy/ocr/mineru-range/merged/*.txt`；卡片：`cards/*.md`（980 张）。
+  五卷本 OCR：`local_working_copy/ocr/mineru-range/merged/*.txt`；卡片：`cards/*.md`（1039 张）。
 - 五卷本对应条目多为书中内嵌故事/童话，尚无独立卡片；已建卡者填入 `card_id`。
-- 相关既有文档：`docs/story-coverage-meide-gushi.md`、`docs/story-mapping-meide-vs-zuoren.md`。
+- 13 篇待确认标题的逐条核查：`docs/story-coverage-meide-gushi-verification.md`。
+- 相关既有文档：`docs/story-mapping-meide-vs-zuoren.md`。

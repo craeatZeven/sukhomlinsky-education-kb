@@ -5,17 +5,17 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 54 |
-| [family-school](topics/family-school.md) | 家校合作 | 161 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 113 |
+| [family-school](topics/family-school.md) | 家校合作 | 165 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 115 |
 | [health-first](topics/health-first.md) | 健康第一 | 34 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 187 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 137 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 126 |
-| [love-education](topics/love-education.md) | 爱的教育 | 246 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 188 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 140 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 128 |
+| [love-education](topics/love-education.md) | 爱的教育 | 250 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 25 |
-| [child-study](topics/child-study.md) | 儿童研究 | 223 |
+| [child-study](topics/child-study.md) | 儿童研究 | 225 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 47 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 96 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 98 |
 
 ## 来源 Sources
 
@@ -810,3 +810,13 @@
 | [sk-0770](cards/sk-0770-my-own-word.md) | case | thinking-and-nature / teacher-growth | zuo-ren-de-gu-shi-zh | 我想说自己的词 |
 | [sk-0771](cards/sk-0771-beauty-inspiration-joy-and-mystery.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 美丽、灵感、欢乐和神秘 |
 | [sk-0772](cards/sk-0772-boy-with-heart-disease.md) | case | collective-education / health-first | zuo-ren-de-gu-shi-zh | 患心脏病的男孩 |
+| [sk-0773](cards/sk-0773-why-are-you-sitting-so-still.md) | case | family-school / thinking-and-nature | zuo-ren-de-gu-shi-zh | 你怎么坐得这么老实 |
+| [sk-0774](cards/sk-0774-to-hear-the-bell-first.md) | case | child-study / teacher-growth | zuo-ren-de-gu-shi-zh | 为了能最先听到下课铃 |
+| [sk-0775](cards/sk-0775-how-happy-you-are.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 你们是多么幸福呀 |
+| [sk-0776](cards/sk-0776-granny-motria-and-andreika.md) | case | love-education / collective-education | zuo-ren-de-gu-shi-zh | 莫特里娅奶奶和安德烈卡 |
+| [sk-0777](cards/sk-0777-i-asked-grandma.md) | case | family-school / teacher-growth | zuo-ren-de-gu-shi-zh | 问过奶奶了 |
+| [sk-0778](cards/sk-0778-sew-a-patch-for-me-too.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 给我也缝上补丁 |
+| [sk-0779](cards/sk-0779-boriss-starling-nest.md) | case | labor-education / child-study | zuo-ren-de-gu-shi-zh | 鲍里斯的椋鸟窝 |
+| [sk-0780](cards/sk-0780-oak-acorns.md) | case | collective-education / labor-education | zuo-ren-de-gu-shi-zh | 柞树果 |
+| [sk-0781](cards/sk-0781-hunchbacked-girl.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 驼背的女孩 |
+| [sk-0782](cards/sk-0782-maria-petrovna-would-be-sad.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 因为那样做玛丽亚·彼得洛夫娜会难过的 |

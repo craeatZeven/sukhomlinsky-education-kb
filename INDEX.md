@@ -8,12 +8,12 @@
 | [family-school](topics/family-school.md) | 家校合作 | 224 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 171 |
 | [health-first](topics/health-first.md) | 健康第一 | 36 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 218 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 219 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 195 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 133 |
 | [love-education](topics/love-education.md) | 爱的教育 | 371 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 33 |
-| [child-study](topics/child-study.md) | 儿童研究 | 270 |
+| [child-study](topics/child-study.md) | 儿童研究 | 271 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 51 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 107 |
 
@@ -1019,3 +1019,4 @@
 | [sk-0979](cards/sk-0979-slingshot-and-sparrow-nest.md) | case | love-education / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 弹弓与麻雀窝 |
 | [sk-0980](cards/sk-0980-timid-lyonya.md) | case | collective-education / child-study | zuo-ren-de-gu-shi-zh | 胆小的廖尼亚 |
 | [sk-0981](cards/sk-0981-force-yourself-to-feel.md) | case | teacher-growth / child-study | zuo-ren-de-gu-shi-zh | 最重要的是迫使自己去感受 |
+| [sk-0982](cards/sk-0982-singing-feather-zuoren.md) | case | child-study / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 会唱歌的羽毛 |

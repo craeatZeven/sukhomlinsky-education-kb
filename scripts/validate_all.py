@@ -18,6 +18,7 @@ SCRIPTS = [
     'check_kb.py',
     'audit_cards.py',
     'coverage_report.py',
+    'coverage_volumes.py',
     'build_site.py',
 ]
 

@@ -69,5 +69,6 @@ python scripts/validate_all.py
 python scripts/check_kb.py
 python scripts/audit_cards.py
 python scripts/coverage_report.py
+python scripts/coverage_volumes.py
 python scripts/build_site.py
 ```

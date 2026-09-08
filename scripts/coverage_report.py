@@ -149,6 +149,7 @@ def main() -> int:
     lines.append('python scripts/check_kb.py')
     lines.append('python scripts/audit_cards.py')
     lines.append('python scripts/coverage_report.py')
+    lines.append('python scripts/coverage_volumes.py')
     lines.append('python scripts/build_site.py')
     lines.append('```')
 

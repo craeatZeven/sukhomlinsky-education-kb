@@ -5,13 +5,13 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 51 |
-| [family-school](topics/family-school.md) | 家校合作 | 75 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 99 |
+| [family-school](topics/family-school.md) | 家校合作 | 77 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 100 |
 | [health-first](topics/health-first.md) | 健康第一 | 33 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 168 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 95 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 119 |
-| [love-education](topics/love-education.md) | 爱的教育 | 131 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 170 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 99 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 120 |
+| [love-education](topics/love-education.md) | 爱的教育 | 139 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 22 |
 | [child-study](topics/child-study.md) | 儿童研究 | 195 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 39 |
@@ -644,3 +644,12 @@
 | [sk-0604](cards/sk-0604-hero-partisan.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 英雄，游击队员：妈妈的眼泪能让英雄复活 |
 | [sk-0605](cards/sk-0605-we-will-not-retreat-anywhere.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 哪里也不撤退：诚实死亡胜于可耻后退 |
 | [sk-0606](cards/sk-0606-immortal-mother.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 永生的母亲：他有一位天天来送花的母亲 |
+| [sk-0607](cards/sk-0607-burn-but-you-cannot-defeat-us.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 杀吧，烧吧，但你们战胜不了：一个人的拒绝成为一座城的碑文 |
+| [sk-0608](cards/sk-0608-precious-ear-of-wheat.md) | case | labor-education / love-education | zuo-ren-de-gu-shi-zh | 珍贵的麦穗：爷爷从焦土上捡起的一粒希望 |
+| [sk-0609](cards/sk-0609-we-have-only-one-motherland.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 我们只有一个母亲——祖国：两位母亲在无名战士墓前认作姐妹 |
+| [sk-0610](cards/sk-0610-burnt-cherry-tree.md) | case | aesthetic-nature-education / love-education | zuo-ren-de-gu-shi-zh | 被烧焦了的樱桃树：战士救下的一根花枝活了五年 |
+| [sk-0611](cards/sk-0611-pierced-helmet.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 被打穿的头盔：从地底掘出的老兵心跳 |
+| [sk-0612](cards/sk-0612-regimental-banner.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 团队的旗帜：旗帜在胸前，伤员挺到被找到 |
+| [sk-0613](cards/sk-0613-iron-commissar.md) | case | collective-education / teacher-growth | zuo-ren-de-gu-shi-zh | 铁政委：假脚与一颗传遍千人的心 |
+| [sk-0614](cards/sk-0614-it-happened-on-the-dnieper.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 这事发生在第聂伯河上：乌克兰母亲认下莫斯科儿子 |
+| [sk-0615](cards/sk-0615-on-the-hill.md) | case | aesthetic-nature-education / love-education | zuo-ren-de-gu-shi-zh | 在山冈上：染血的土地开出鲜红玫瑰 |

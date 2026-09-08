@@ -5,17 +5,17 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 55 |
-| [family-school](topics/family-school.md) | 家校合作 | 165 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 116 |
+| [family-school](topics/family-school.md) | 家校合作 | 168 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 117 |
 | [health-first](topics/health-first.md) | 健康第一 | 34 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 190 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 143 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 192 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 145 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 129 |
-| [love-education](topics/love-education.md) | 爱的教育 | 257 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 26 |
-| [child-study](topics/child-study.md) | 儿童研究 | 228 |
+| [love-education](topics/love-education.md) | 爱的教育 | 265 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 27 |
+| [child-study](topics/child-study.md) | 儿童研究 | 231 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 48 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 98 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 99 |
 
 ## 来源 Sources
 
@@ -830,3 +830,13 @@
 | [sk-0790](cards/sk-0790-we-like-to-draw.md) | case | aesthetic-nature-education / love-education | zuo-ren-de-gu-shi-zh | 我们喜欢画画 |
 | [sk-0791](cards/sk-0791-cheat-slip.md) | case | assessment-grading / love-education | zuo-ren-de-gu-shi-zh | 作弊的小纸条 |
 | [sk-0792](cards/sk-0792-timur-team-members.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 铁木尔队队员 |
+| [sk-0793](cards/sk-0793-sixty-years-later.md) | case | love-education / family-school | zuo-ren-de-gu-shi-zh | 60年之后 |
+| [sk-0794](cards/sk-0794-legend-of-the-pearl-of-truth.md) | case | labor-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 真理金珠的传说 |
+| [sk-0795](cards/sk-0795-old-cherrys-grandson.md) | case | aesthetic-nature-education / love-education | zuo-ren-de-gu-shi-zh | 老樱桃的小孙子 |
+| [sk-0796](cards/sk-0796-abandoned-kitten.md) | case | love-education / child-study | zuo-ren-de-gu-shi-zh | 被抛弃的小猫 |
+| [sk-0797](cards/sk-0797-boy-and-sick-mother.md) | case | love-education / family-school | zuo-ren-de-gu-shi-zh | 小男孩和生病的妈妈 |
+| [sk-0798](cards/sk-0798-fox-and-mouse.md) | case | love-education / family-school | zuo-ren-de-gu-shi-zh | 狐狸和老鼠 |
+| [sk-0799](cards/sk-0799-blue-cranes.md) | case | child-study / aesthetic-nature-education / love-education | zuo-ren-de-gu-shi-zh | 蓝色的仙鹤 |
+| [sk-0800](cards/sk-0800-song-of-the-big-gray-stone.md) | case | assessment-grading / love-education | zuo-ren-de-gu-shi-zh | 大灰石头的歌 |
+| [sk-0801](cards/sk-0801-picking-mushrooms.md) | case | child-study / collective-education | zuo-ren-de-gu-shi-zh | 采蘑菇 |
+| [sk-0802](cards/sk-0802-hello-rooster-brother.md) | case | love-education / collective-education | zuo-ren-de-gu-shi-zh | 公鸡弟弟，你好 |

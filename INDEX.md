@@ -5,7 +5,7 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 64 |
-| [family-school](topics/family-school.md) | 家校合作 | 224 |
+| [family-school](topics/family-school.md) | 家校合作 | 223 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 171 |
 | [health-first](topics/health-first.md) | 健康第一 | 36 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 218 |
@@ -13,7 +13,7 @@
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 133 |
 | [love-education](topics/love-education.md) | 爱的教育 | 370 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 33 |
-| [child-study](topics/child-study.md) | 儿童研究 | 271 |
+| [child-study](topics/child-study.md) | 儿童研究 | 270 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 51 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 107 |
 
@@ -394,7 +394,6 @@
 | [sk-0354](cards/sk-0354-letters-to-son-07.md) | method | labor-education | xuan-ji-zh-vol3 | 让手成为创造者：从最粗的活练起 |
 | [sk-0355](cards/sk-0355-letters-to-son-08.md) | quote | labor-education | xuan-ji-zh-vol3 | 人间的幸福在劳动中 |
 | [sk-0356](cards/sk-0356-letters-to-son-09.md) | principle | child-study / reading-and-books | xuan-ji-zh-vol3 | 自我教育从自我认识开始 |
-| [sk-0357](cards/sk-0357-letters-to-son-10.md) | quote | family-school / child-study | xuan-ji-zh-vol3 | 在小孩子身上看到明天的成年人 |
 | [sk-0358](cards/sk-0358-letters-to-son-11.md) | quote | labor-education / family-school | xuan-ji-zh-vol3 | 你在大地上的足迹：童年的汗水 |
 | [sk-0359](cards/sk-0359-known-book-excerpts-01.md) | quote | thinking-and-nature | xuan-ji-zh-vol3 | 300页《大自然的书》：300次观察，学习思索 |
 | [sk-0360](cards/sk-0360-known-book-excerpts-02.md) | quote | love-education / collective-education | xuan-ji-zh-vol3 | 你们是土地的主人 |

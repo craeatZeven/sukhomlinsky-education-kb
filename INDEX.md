@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 52 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 54 |
 | [family-school](topics/family-school.md) | 家校合作 | 161 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 112 |
-| [health-first](topics/health-first.md) | 健康第一 | 33 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 181 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 136 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 125 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 113 |
+| [health-first](topics/health-first.md) | 健康第一 | 34 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 187 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 137 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 126 |
 | [love-education](topics/love-education.md) | 爱的教育 | 246 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 25 |
-| [child-study](topics/child-study.md) | 儿童研究 | 222 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 44 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 92 |
+| [child-study](topics/child-study.md) | 儿童研究 | 223 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 47 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 96 |
 
 ## 来源 Sources
 
@@ -800,3 +800,13 @@
 | [sk-0760](cards/sk-0760-now-you-can-become-a-student-of-humanity.md) | case | reading-and-books / collective-education | zuo-ren-de-gu-shi-zh | 现在你可以成为人类的学生了 |
 | [sk-0761](cards/sk-0761-four-sheets-of-gold-paper.md) | case | aesthetic-nature-education / child-study | zuo-ren-de-gu-shi-zh | 四张金纸 |
 | [sk-0762](cards/sk-0762-dont-worry-dad.md) | case | assessment-grading / family-school | zuo-ren-de-gu-shi-zh | 爸爸，别犯愁 |
+| [sk-0763](cards/sk-0763-blue-pencil.md) | case | aesthetic-nature-education / child-study | zuo-ren-de-gu-shi-zh | 蓝铅笔 |
+| [sk-0764](cards/sk-0764-two-books-quarrel.md) | case | reading-and-books / labor-education | zuo-ren-de-gu-shi-zh | 两本书的争吵 |
+| [sk-0765](cards/sk-0765-cause-phenomenon-result.md) | case | learning-difficulties / thinking-and-nature | zuo-ren-de-gu-shi-zh | 原因、现象、结果 |
+| [sk-0766](cards/sk-0766-sleeping-book.md) | case | reading-and-books / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 沉睡的书 |
+| [sk-0767](cards/sk-0767-shining-peak-and-stony-path.md) | case | learning-difficulties / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 闪光的顶峰和布满石头的小路 |
+| [sk-0768](cards/sk-0768-only-one-sun.md) | case | thinking-and-nature / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 太阳只有一个 |
+| [sk-0769](cards/sk-0769-two-pages.md) | case | reading-and-books / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 两页书 |
+| [sk-0770](cards/sk-0770-my-own-word.md) | case | thinking-and-nature / teacher-growth | zuo-ren-de-gu-shi-zh | 我想说自己的词 |
+| [sk-0771](cards/sk-0771-beauty-inspiration-joy-and-mystery.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 美丽、灵感、欢乐和神秘 |
+| [sk-0772](cards/sk-0772-boy-with-heart-disease.md) | case | collective-education / health-first | zuo-ren-de-gu-shi-zh | 患心脏病的男孩 |

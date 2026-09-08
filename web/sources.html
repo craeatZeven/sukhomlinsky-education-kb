@@ -47,6 +47,18 @@
       <a class="portal-card" href="https://github.com/craeatZeven/sukhomlinsky-education-kb/blob/master/docs/quality-notes.md" target="_blank" rel="noopener">
         <div class="icon">🔎</div><h3>质量与重复观察</h3><p>OCR 待校、ref 待纸本核、语义重叠卡登记。</p><span class="go">打开 →</span>
       </a>
+      <a class="portal-card" href="https://github.com/craeatZeven/sukhomlinsky-education-kb/blob/master/docs/coverage-dashboard.md" target="_blank" rel="noopener">
+        <div class="icon">📊</div><h3>覆盖仪表盘</h3><p>按来源/类型/主题统计卡片量与页码覆盖，一眼看清缺口。</p><span class="go">打开 →</span>
+      </a>
+      <a class="portal-card" href="https://github.com/craeatZeven/sukhomlinsky-education-kb/blob/master/docs/coverage-volumes.md" target="_blank" rel="noopener">
+        <div class="icon">📚</div><h3>五卷本覆盖</h3><p>五卷本按作品统计已有卡片来源分布。</p><span class="go">打开 →</span>
+      </a>
+      <a class="portal-card" href="https://github.com/craeatZeven/sukhomlinsky-education-kb/blob/master/docs/coverage-official-tales.md" target="_blank" rel="noopener">
+        <div class="icon">🧾</div><h3>113 条官方故事书目</h3><p>书目条目可获得性与已有卡覆盖情况。</p><span class="go">打开 →</span>
+      </a>
+      <a class="portal-card" href="https://github.com/craeatZeven/sukhomlinsky-education-kb/blob/master/docs/story-coverage-meide-gushi.md" target="_blank" rel="noopener">
+        <div class="icon">🌸</div><h3>44 篇美德故事覆盖</h3><p>44/44 全量盘点：确认同源、可能同源、仅主题相关。</p><span class="go">打开 →</span>
+      </a>
       <a class="portal-card" href="https://github.com/craeatZeven/sukhomlinsky-education-kb/blob/master/INDEX.md" target="_blank" rel="noopener">
         <div class="icon">🧩</div><h3>唯一索引 INDEX.md</h3><p>主题、来源、卡片三合一，AI/开发者入口。</p><span class="go">打开 →</span>
       </a>
@@ -64,13 +76,20 @@
 <script src="theme.js?v=20260907"></script>
 <script>
 const SOURCES = (window.KB_DATA && window.KB_DATA.sources) || [];
+const CARDS = (window.KB_DATA && window.KB_DATA.cards) || [];
 document.addEventListener("DOMContentLoaded", ()=>{
+  const counts = {};
+  CARDS.forEach(c=>{ counts[c.source]=(counts[c.source]||0)+1; });
   document.getElementById("sourceGrid").innerHTML = SOURCES.map(s=>`
     <article class="source-card">
       <span class="badge">${s.lang}</span>
       <h3 style="margin:10px 0 6px">${s.title}</h3>
       <p class="meta">${s.meta}</p>
-      <p class="ref" style="margin-top:10px"><a target="_blank" rel="noopener" href="${s.url || '../sources/' + s.slug + '.md'}">查看来源记录 ↗</a></p>
+      <p class="ref" style="margin-top:10px">${counts[s.slug]||0} 张卡片</p>
+      <p class="ref" style="margin-top:10px">
+        <a href="explore.html?source=${s.slug}">浏览该来源卡片 →</a>
+        · <a target="_blank" rel="noopener" href="${s.url || '../sources/' + s.slug + '.md'}">来源记录 ↗</a>
+      </p>
     </article>`).join("");
 });
 </script>

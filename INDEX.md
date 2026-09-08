@@ -6,16 +6,16 @@
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 51 |
 | [family-school](topics/family-school.md) | 家校合作 | 63 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 94 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 96 |
 | [health-first](topics/health-first.md) | 健康第一 | 33 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 148 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 91 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 158 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 92 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 119 |
-| [love-education](topics/love-education.md) | 爱的教育 | 98 |
+| [love-education](topics/love-education.md) | 爱的教育 | 103 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 22 |
 | [child-study](topics/child-study.md) | 儿童研究 | 193 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 38 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 83 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 85 |
 
 ## 来源 Sources
 
@@ -604,3 +604,13 @@
 | [sk-0564](cards/sk-0564-apple-tree-and-fence.md) | case | aesthetic-nature-education / collective-education | zuo-ren-de-gu-shi-zh | 苹果树和篱笆：苹果树问，太阳是谁的，天空是谁的 |
 | [sk-0565](cards/sk-0565-rubbish-heap.md) | case | aesthetic-nature-education / collective-education | zuo-ren-de-gu-shi-zh | 垃圾堆：孩子们种出一朵玫瑰，全校才看见身边的脏乱 |
 | [sk-0566](cards/sk-0566-most-beautiful-and-ugliest.md) | case | labor-education / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 最美的和最丑的：最美的是人的劳动，最丑的是浪费劳动 |
+| [sk-0567](cards/sk-0567-oak-and-crack-willow.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 橡树和爆竹柳：站直了迎向风暴，还是弯下腰躲避风暴 |
+| [sk-0568](cards/sk-0568-sunlight-again.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 我再次见到了你，太阳光：孩子爬上杨树，只为再看一次落下去的太阳 |
+| [sk-0569](cards/sk-0569-seryozhas-flower.md) | case | aesthetic-nature-education / collective-education | zuo-ren-de-gu-shi-zh | 谢廖扎的花：不能带走、不能交换的美，也可以说‘这是我的花’ |
+| [sk-0570](cards/sk-0570-chrysanthemum-and-onion.md) | case | aesthetic-nature-education / labor-education | zuo-ren-de-gu-shi-zh | 菊花和葱头：漂亮的菊花值得赞美，实用的葱头也值得赞叹 |
+| [sk-0571](cards/sk-0571-bonfire-in-the-field.md) | case | labor-education / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 田野上的篝火：妈妈劳作后的烤土豆，成了孩子心里最轻松的记忆 |
+| [sk-0572](cards/sk-0572-bullfinch.md) | case | aesthetic-nature-education / love-education | zuo-ren-de-gu-shi-zh | 红腹灰雀：妈妈说它们‘从太阳后面飞来’，成了孩子对祖国的第一印象 |
+| [sk-0573](cards/sk-0573-willow-by-the-pond.md) | case | aesthetic-nature-education / love-education | zuo-ren-de-gu-shi-zh | 池塘旁的柳树：老柳树枯了，根上长出的幼芽让它‘永生’ |
+| [sk-0574](cards/sk-0574-winter-evening.md) | case | aesthetic-nature-education / love-education | zuo-ren-de-gu-shi-zh | 冬天的黄昏：妈妈把白色田野讲成童话田野，孩子记了一生 |
+| [sk-0575](cards/sk-0575-swallow-on-the-window.md) | case | aesthetic-nature-education / love-education | zuo-ren-de-gu-shi-zh | 窗户上的燕子：玻璃霜花和燕子衔来的第一块土，都是祖国的记忆 |
+| [sk-0576](cards/sk-0576-crane-flight-in-the-sky.md) | case | aesthetic-nature-education / love-education | zuo-ren-de-gu-shi-zh | 天空中仙鹤的队伍：奶奶的故事和窗外的鹤群，像一幅油画留在记忆里 |

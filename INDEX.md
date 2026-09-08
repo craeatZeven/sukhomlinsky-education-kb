@@ -5,15 +5,15 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 52 |
-| [family-school](topics/family-school.md) | 家校合作 | 107 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 105 |
+| [family-school](topics/family-school.md) | 家校合作 | 116 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 106 |
 | [health-first](topics/health-first.md) | 健康第一 | 33 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 179 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 132 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 133 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 121 |
-| [love-education](topics/love-education.md) | 爱的教育 | 194 |
+| [love-education](topics/love-education.md) | 爱的教育 | 201 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 23 |
-| [child-study](topics/child-study.md) | 儿童研究 | 211 |
+| [child-study](topics/child-study.md) | 儿童研究 | 213 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 39 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 89 |
 
@@ -730,3 +730,13 @@
 | [sk-0690](cards/sk-0690-why-mother-cried.md) | case | love-education / child-study | zuo-ren-de-gu-shi-zh | 妈妈为什么哭：眼泪既可以是离别，也可以是重逢的喜悦 |
 | [sk-0691](cards/sk-0691-grandma-is-resting.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 奶奶在休息：孩子从妈妈的动作里学会了轻声爱护 |
 | [sk-0692](cards/sk-0692-did-conscience-not-tell-you-anything.md) | case | love-education / child-study | zuo-ren-de-gu-shi-zh | 良心没指示你什么吗：把班级任务看得比爸爸的病还重，是良心的缺席 |
+| [sk-0693](cards/sk-0693-if-i-had-a-flying-carpet.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 如果我有飞毯 |
+| [sk-0694](cards/sk-0694-treading-out-a-path.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 踩出一条小路 |
+| [sk-0695](cards/sk-0695-letter-to-father.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 给父亲的信 |
+| [sk-0696](cards/sk-0696-why-grandma-left.md) | case | family-school / child-study | zuo-ren-de-gu-shi-zh | 为什么奶奶走了 |
+| [sk-0697](cards/sk-0697-grandsons-request.md) | case | family-school / child-study | zuo-ren-de-gu-shi-zh | 孙子的请求 |
+| [sk-0698](cards/sk-0698-grandpas-belt.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 爷爷的腰带 |
+| [sk-0699](cards/sk-0699-birthday-lunch.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 生日午餐 |
+| [sk-0700](cards/sk-0700-mom-smells-of-bread.md) | case | labor-education / family-school | zuo-ren-de-gu-shi-zh | 妈妈身上有面包香味 |
+| [sk-0701](cards/sk-0701-who-tells-grandma-stories.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 谁给奶奶讲故事 |
+| [sk-0702](cards/sk-0702-apple-in-the-autumn-garden.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 秋天花园中的苹果 |

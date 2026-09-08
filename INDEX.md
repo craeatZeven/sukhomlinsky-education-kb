@@ -6,16 +6,16 @@
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 51 |
 | [family-school](topics/family-school.md) | 家校合作 | 58 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 80 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 81 |
 | [health-first](topics/health-first.md) | 健康第一 | 31 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 68 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 77 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 82 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 119 |
-| [love-education](topics/love-education.md) | 爱的教育 | 81 |
+| [love-education](topics/love-education.md) | 爱的教育 | 82 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 22 |
-| [child-study](topics/child-study.md) | 儿童研究 | 156 |
+| [child-study](topics/child-study.md) | 儿童研究 | 162 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 38 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 49 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 52 |
 
 ## 来源 Sources
 
@@ -505,3 +505,13 @@
 | [sk-0465](cards/sk-0465-butterfly-and-flower-on-water.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 蝴蝶与花朵：一朵花让蝴蝶在水上旅行 |
 | [sk-0466](cards/sk-0466-all-trees-sing.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 林子里所有的树都在歌唱：每棵树都有自己的歌 |
 | [sk-0467](cards/sk-0467-they-are-so-pitiable.md) | case | aesthetic-nature-education / family-school | zuo-ren-de-gu-shi-zh | 他们是多么可怜：天没亮就去听云雀 |
+| [sk-0468](cards/sk-0468-why-titmouse-cries.md) | case | aesthetic-nature-education / child-study | zuo-ren-de-gu-shi-zh | 山雀为什么哭：秋千荡在鸟巢旁 |
+| [sk-0469](cards/sk-0469-white-linen.md) | case | aesthetic-nature-education / thinking-and-nature | zuo-ren-de-gu-shi-zh | 白色的亚麻布：晨霜像老奶奶铺下的亚麻布 |
+| [sk-0470](cards/sk-0470-hamster-prepares-for-winter.md) | case | aesthetic-nature-education / labor-education | zuo-ren-de-gu-shi-zh | 原仓鼠怎样准备过冬：面颊里藏着粮食的小口袋 |
+| [sk-0471](cards/sk-0471-landrail-and-swallow.md) | case | thinking-and-nature / child-study | zuo-ren-de-gu-shi-zh | 长脚秧鸡和燕子：你飞着去，我走着去 |
+| [sk-0472](cards/sk-0472-sergey-and-matvey.md) | case | aesthetic-nature-education / child-study | zuo-ren-de-gu-shi-zh | 谢尔盖和马特维：同一片草地，有人看见美，有人看见牛奶 |
+| [sk-0473](cards/sk-0473-hedgehog-prepares-for-winter.md) | case | aesthetic-nature-education / child-study | zuo-ren-de-gu-shi-zh | 刺猬是怎样准备过冬的：准备好屋子，也准备好朋友 |
+| [sk-0474](cards/sk-0474-fox-lantern.md) | case | thinking-and-nature / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 狐狸的小灯：用一团萤火虫照亮回家的路 |
+| [sk-0475](cards/sk-0475-oak-under-window.md) | case | aesthetic-nature-education / love-education | zuo-ren-de-gu-shi-zh | 窗下的橡树：为了不砍树，把房子搬走 |
+| [sk-0476](cards/sk-0476-lonely-crack-willow.md) | case | aesthetic-nature-education / child-study | zuo-ren-de-gu-shi-zh | 孤独的爆竹柳：水中的倒影让它看见自己的美 |
+| [sk-0477](cards/sk-0477-rabbit-warms-in-moonlight.md) | case | aesthetic-nature-education / child-study | zuo-ren-de-gu-shi-zh | 小兔子怎样在月光下取暖：跑到干草垛，月光就暖了 |

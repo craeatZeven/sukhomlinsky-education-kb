@@ -5,15 +5,15 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 51 |
-| [family-school](topics/family-school.md) | 家校合作 | 81 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 100 |
+| [family-school](topics/family-school.md) | 家校合作 | 85 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 103 |
 | [health-first](topics/health-first.md) | 健康第一 | 33 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 172 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 104 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 108 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 120 |
-| [love-education](topics/love-education.md) | 爱的教育 | 146 |
+| [love-education](topics/love-education.md) | 爱的教育 | 153 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 22 |
-| [child-study](topics/child-study.md) | 儿童研究 | 197 |
+| [child-study](topics/child-study.md) | 儿童研究 | 199 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 39 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 86 |
 
@@ -663,3 +663,13 @@
 | [sk-0623](cards/sk-0623-unfinished-letter.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 没有写完的信：母亲在空白处听儿子未说完的话 |
 | [sk-0624](cards/sk-0624-lenin-monument.md) | case | aesthetic-nature-education / collective-education | zuo-ren-de-gu-shi-zh | 列宁纪念碑：被砍倒的橡树在男孩照料下活了过来 |
 | [sk-0625](cards/sk-0625-communist-partisans.md) | case | collective-education / child-study | zuo-ren-de-gu-shi-zh | 共产主义游击队：十四岁的萨沙把信念当作武器 |
+| [sk-0626](cards/sk-0626-living-in-hatred-of-enemies.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 我活在对敌人的仇恨中：99岁的尤希姆爷爷以仇恨为武器战斗到胜利 |
+| [sk-0627](cards/sk-0627-girl-who-did-not-clap.md) | case | child-study / love-education | zuo-ren-de-gu-shi-zh | 不鼓掌的女孩：没有双手的迈娅让全场在沉默中听见人性 |
+| [sk-0628](cards/sk-0628-indestructible-stone.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 不能消灭的石头：白石三次被炸仍从土里冒出，象征祖国不可消灭 |
+| [sk-0629](cards/sk-0629-battle-for-children.md) | case | child-study / love-education | zuo-ren-de-gu-shi-zh | 为了孩子们的战斗：地下党员在集中营里救回孩子的母语与灵魂 |
+| [sk-0630](cards/sk-0630-mother-at-sons-grave.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 在儿子墓前的母亲：母亲与18岁战士在墓前进行无声的心灵交谈 |
+| [sk-0631](cards/sk-0631-honey-biscuit-and-wheat-ear.md) | case | labor-education / love-education | zuo-ren-de-gu-shi-zh | 蜜糖饼干和麦穗：没有麦穗就没有面包干，也没有你，饼干 |
+| [sk-0632](cards/sk-0632-khemras-field.md) | case | labor-education / love-education | zuo-ren-de-gu-shi-zh | 赫玛拉的田地：拖拉机手热爱土地，因为他更热爱人 |
+| [sk-0633](cards/sk-0633-everyone-has-a-duty.md) | case | family-school / labor-education | zuo-ren-de-gu-shi-zh | 每个人都应该：孩子的责任是成长为一个人 |
+| [sk-0634](cards/sk-0634-say-hello-to-people.md) | case | collective-education / family-school | zuo-ren-de-gu-shi-zh | 对人说“您好”：一句问候让世界变亮 |
+| [sk-0635](cards/sk-0635-why-say-thanks.md) | case | collective-education / family-school | zuo-ren-de-gu-shi-zh | 为什么要说“谢谢”：人不是狼，所以人会道谢 |

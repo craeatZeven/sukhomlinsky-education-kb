@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 70 |
-| [family-school](topics/family-school.md) | 家校合作 | 228 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 173 |
-| [health-first](topics/health-first.md) | 健康第一 | 36 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 221 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 199 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 136 |
-| [love-education](topics/love-education.md) | 爱的教育 | 378 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 34 |
-| [child-study](topics/child-study.md) | 儿童研究 | 279 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 54 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 110 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 72 |
+| [family-school](topics/family-school.md) | 家校合作 | 231 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 174 |
+| [health-first](topics/health-first.md) | 健康第一 | 37 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 222 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 201 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 140 |
+| [love-education](topics/love-education.md) | 爱的教育 | 381 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 35 |
+| [child-study](topics/child-study.md) | 儿童研究 | 287 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 56 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 112 |
 
 ## 来源 Sources
 
@@ -1037,3 +1037,13 @@
 | [sk-1000](cards/sk-1000-art-of-individual-talk.md) | method | teacher-growth / child-study / love-education | xuan-ji-zh-vol2 | 要掌握与学生个别谈话的艺术 |
 | [sk-1001](cards/sk-1001-teach-child-to-accept-criticism.md) | method | family-school / child-study / love-education | xuan-ji-zh-vol2 | 怎样教孩子正确对待批评、责备、惩罚 |
 | [sk-1002](cards/sk-1002-parents-role-in-child-life.md) | principle | family-school / love-education / child-study | xuan-ji-zh-vol2 | 父母在孩子生活中的作用 |
+| [sk-1004](cards/sk-1004-cultivating-courage-and-will.md) | principle | collective-education / labor-education / child-study | xuan-ji-zh-vol1 | 勇敢精神、对敌人的不可调和性和必胜意志的培养 |
+| [sk-1005](cards/sk-1005-intellectual-activity-and-self-evaluation.md) | principle | child-study / learning-difficulties / teacher-growth | xuan-ji-zh-vol1 | 智力积极性和少年自我意识、自我评价的形成 |
+| [sk-1006](cards/sk-1006-joy-sensitivity-and-conscience.md) | principle | collective-education / love-education / child-study | xuan-ji-zh-vol1 | 儿童集体中的欢乐和善感、力量和良心 |
+| [sk-1007](cards/sk-1007-native-language.md) | principle | aesthetic-nature-education / reading-and-books / thinking-and-nature | xuan-ji-zh-vol3 | 祖国语言 |
+| [sk-1008](cards/sk-1008-books-and-child-spiritual-life.md) | method | reading-and-books / child-study / family-school | xuan-ji-zh-vol3 | 书和儿童的精神生活 |
+| [sk-1009](cards/sk-1009-adolescent-physical-development-and-psyche.md) | principle | health-first / child-study / family-school | xuan-ji-zh-vol3 | 少年的身体发育与心理素养 |
+| [sk-1010](cards/sk-1010-intellectual-education-knowledge-and-development.md) | principle | thinking-and-nature / learning-difficulties / teacher-growth | xuan-ji-zh-vol4 | 智育：知识的内容、掌握过程与智力发展 |
+| [sk-1011](cards/sk-1011-advice-on-classroom-observation-and-analysis.md) | method | teacher-growth / assessment-grading / child-study | xuan-ji-zh-vol4 | 关于听课和分析课的几点建议 |
+| [sk-1012](cards/sk-1012-emotional-education.md) | case | family-school / love-education / child-study | xuan-ji-zh-vol5 | 情感教育 |
+| [sk-1013](cards/sk-1013-know-yourself.md) | principle | child-study / teacher-growth / love-education | xuan-ji-zh-vol5 | 认识自己 |

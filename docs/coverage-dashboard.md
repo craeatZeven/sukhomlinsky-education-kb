@@ -5,7 +5,7 @@
 
 ## 总览
 
-- 卡片总数：**999**
+- 卡片总数：**1009**
 - 来源数：**12**
 - 主题数：**12**
 - 《做人的故事》：**540 张卡 / 540 个目录标题**
@@ -15,12 +15,12 @@
 | 来源 | 卡片数 | 含印刷页码 ref |
 |---|---:|---:|
 | 做人的故事（`zuo-ren-de-gu-shi-zh`） | 540 | 540/540 |
-| 苏霍姆林斯基选集（五卷本）第5卷（`xuan-ji-zh-vol5`） | 109 | 109/109 |
+| 苏霍姆林斯基选集（五卷本）第5卷（`xuan-ji-zh-vol5`） | 111 | 109/111 |
 | 苏霍姆林斯基选集（五卷本）第2卷（`xuan-ji-zh-vol2`） | 67 | 45/67 |
-| 苏霍姆林斯基选集（五卷本）第3卷（`xuan-ji-zh-vol3`） | 52 | 51/52 |
+| 苏霍姆林斯基选集（五卷本）第3卷（`xuan-ji-zh-vol3`） | 55 | 51/55 |
+| 苏霍姆林斯基选集（五卷本）第4卷（`xuan-ji-zh-vol4`） | 43 | 41/43 |
+| 苏霍姆林斯基选集（五卷本）第1卷（`xuan-ji-zh-vol1`） | 43 | 36/43 |
 | On Education（`on-education`） | 41 | 0/41 |
-| 苏霍姆林斯基选集（五卷本）第4卷（`xuan-ji-zh-vol4`） | 41 | 41/41 |
-| 苏霍姆林斯基选集（五卷本）第1卷（`xuan-ji-zh-vol1`） | 40 | 36/40 |
 | 把心献给孩子（`ba-xin-xian-gei-hai-zi-zh`） | 35 | 0/35 |
 | 给教师的建议（`gei-jiao-shi-de-jian-yi-zh`） | 24 | 23/24 |
 | To Children I Give My Heart（`to-children-i-give-my-heart`） | 22 | 0/22 |
@@ -31,28 +31,28 @@
 
 | 类型 | 数量 |
 |---|---:|
-| `case` | 598 |
+| `case` | 599 |
 | `quote` | 256 |
-| `principle` | 83 |
-| `method` | 40 |
+| `principle` | 90 |
+| `method` | 42 |
 | `practice` | 22 |
 
 ## 主题分布
 
 | 主题 | 卡片数 |
 |---|---:|
-| 爱的教育（`love-education`） | 378 |
-| 儿童研究（`child-study`） | 279 |
-| 家校合作（`family-school`） | 228 |
-| 美育与自然（`aesthetic-nature-education`） | 221 |
-| 集体教育（`collective-education`） | 199 |
-| 劳动教育（`labor-education`） | 173 |
-| 教师成长（`teacher-growth`） | 136 |
-| 思维课与大自然（`thinking-and-nature`） | 110 |
-| 学习困难学生（`learning-difficulties`） | 70 |
-| 阅读与书籍（`reading-and-books`） | 54 |
-| 健康第一（`health-first`） | 36 |
-| 评价与分数（`assessment-grading`） | 34 |
+| 爱的教育（`love-education`） | 381 |
+| 儿童研究（`child-study`） | 287 |
+| 家校合作（`family-school`） | 231 |
+| 美育与自然（`aesthetic-nature-education`） | 222 |
+| 集体教育（`collective-education`） | 201 |
+| 劳动教育（`labor-education`） | 174 |
+| 教师成长（`teacher-growth`） | 140 |
+| 思维课与大自然（`thinking-and-nature`） | 112 |
+| 学习困难学生（`learning-difficulties`） | 72 |
+| 阅读与书籍（`reading-and-books`） | 56 |
+| 健康第一（`health-first`） | 37 |
+| 评价与分数（`assessment-grading`） | 35 |
 
 ## 当前已知缺口
 

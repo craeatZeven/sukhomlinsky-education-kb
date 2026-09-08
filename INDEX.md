@@ -5,16 +5,16 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 51 |
-| [family-school](topics/family-school.md) | 家校合作 | 67 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 97 |
+| [family-school](topics/family-school.md) | 家校合作 | 71 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 99 |
 | [health-first](topics/health-first.md) | 健康第一 | 33 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 162 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 92 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 165 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 94 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 119 |
-| [love-education](topics/love-education.md) | 爱的教育 | 113 |
+| [love-education](topics/love-education.md) | 爱的教育 | 121 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 22 |
 | [child-study](topics/child-study.md) | 儿童研究 | 193 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 38 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 39 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 86 |
 
 ## 来源 Sources
@@ -624,3 +624,13 @@
 | [sk-0584](cards/sk-0584-fathers-pencil.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 父亲的铅笔：用爸爸的笔写下对祖国的誓言 |
 | [sk-0585](cards/sk-0585-the-most-precious-thing.md) | case | aesthetic-nature-education / love-education | zuo-ren-de-gu-shi-zh | 最珍贵的：一包家乡泥土让远方的士兵懂得自己守卫什么 |
 | [sk-0586](cards/sk-0586-crane-and-parrot.md) | case | aesthetic-nature-education / love-education | zuo-ren-de-gu-shi-zh | 仙鹤和鹦鹉：好就好在我生在那里，那里是我的祖国 |
+| [sk-0587](cards/sk-0587-seryozha-waiting-for-letter.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 谢廖扎在等信：哥哥要一束家乡的麦穗 |
+| [sk-0588](cards/sk-0588-how-beautiful-belarus.md) | case | aesthetic-nature-education / collective-education | zuo-ren-de-gu-shi-zh | 多美呀，白俄罗斯：要亲眼看见，才知道朋友家乡的美 |
+| [sk-0589](cards/sk-0589-grass-stem-from-home.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 来自家乡的草茎：一根草让战士想起母亲和土地 |
+| [sk-0590](cards/sk-0590-beyond-the-sea-is-a-foreign-land.md) | case | labor-education / love-education | zuo-ren-de-gu-shi-zh | 在海的那边是异国他乡：再旱也不离开自己的土地 |
+| [sk-0591](cards/sk-0591-rose.md) | case | aesthetic-nature-education / love-education | zuo-ren-de-gu-shi-zh | 玫瑰花：从英雄头盔里长出的花 |
+| [sk-0592](cards/sk-0592-nightingale-nest.md) | case | aesthetic-nature-education / love-education | zuo-ren-de-gu-shi-zh | 夜莺的巢：战场上的士兵小心地安放一个鸟巢 |
+| [sk-0593](cards/sk-0593-he-will-come-back.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 他还会回来的：把救命恩人的故事讲给孩子听 |
+| [sk-0594](cards/sk-0594-this-is-the-motherland.md) | case | reading-and-books / love-education | zuo-ren-de-gu-shi-zh | 这就是祖国：一首诗和一片干蒿草叶 |
+| [sk-0595](cards/sk-0595-soviet-soldiers-heart.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 苏联士兵的心：最后一句是‘接住孩子’ |
+| [sk-0596](cards/sk-0596-the-richest-man-in-the-world.md) | case | labor-education / collective-education | zuo-ren-de-gu-shi-zh | 世界上最富的人：人人都是土地和劳动的主人 |

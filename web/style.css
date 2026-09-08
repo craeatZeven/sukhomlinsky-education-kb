@@ -185,3 +185,17 @@ footer a { color: var(--accent); text-decoration: none; }
   .card { box-shadow: none; border: 1px solid #ddd; }
   a { color: #000; text-decoration: none; }
 }
+
+/* Mobile polish */
+@media (max-width: 680px) {
+  .wrap { padding-left: 16px; padding-right: 16px; }
+  .hero h1 { font-size: 30px; }
+  .page-head h1 { font-size: 26px; }
+  .card { padding: 16px; }
+  .searchbox { flex-direction: column; align-items: stretch; }
+  .searchbox input { width: 100%; }
+  .stats { gap: 8px; }
+  .stat { padding: 10px 12px; }
+  .topnav .brand { font-size: 15px; }
+  .topnav .nav-links { font-size: 13px; }
+}

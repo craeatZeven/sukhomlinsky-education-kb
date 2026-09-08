@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 97 |
-| [family-school](topics/family-school.md) | 家校合作 | 260 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 197 |
-| [health-first](topics/health-first.md) | 健康第一 | 48 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 98 |
+| [family-school](topics/family-school.md) | 家校合作 | 265 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 200 |
+| [health-first](topics/health-first.md) | 健康第一 | 49 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 259 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 233 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 194 |
-| [love-education](topics/love-education.md) | 爱的教育 | 440 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 238 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 195 |
+| [love-education](topics/love-education.md) | 爱的教育 | 448 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 39 |
-| [child-study](topics/child-study.md) | 儿童研究 | 367 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 75 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 165 |
+| [child-study](topics/child-study.md) | 儿童研究 | 370 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 76 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 166 |
 
 ## 来源 Sources
 
@@ -1214,3 +1214,13 @@
 | [sk-1179](cards/sk-1179-cherish-the-happiness-of-life.md) | principle | aesthetic-nature-education / family-school / child-study | xuan-ji-zh-vol2 | 何谓珍惜生活的幸福 |
 | [sk-1180](cards/sk-1180-understanding-loved-ones-suffering.md) | principle | family-school / love-education / child-study | xuan-ji-zh-vol2 | 理解亲人的痛苦能提高道德敏锐性 |
 | [sk-1181](cards/sk-1181-uncompromising-attitude-toward-evil.md) | principle | collective-education / labor-education / family-school | xuan-ji-zh-vol2 | 怎样培养个人对邪恶持毫不妥协的态度 |
+| [sk-1182](cards/sk-1182-last-recommendation-keep-education-intent-hidden.md) | principle | teacher-growth / love-education | xuan-ji-zh-vol2 | 最后一条建议——保密：把教育意图隐蔽起来 |
+| [sk-1183](cards/sk-1183-self-education-through-physical-culture.md) | method | health-first / child-study / labor-education | xuan-ji-zh-vol2 | 怎样在体育方面引导学生进行自我教育 |
+| [sk-1184](cards/sk-1184-born-to-leave-a-trace-behind.md) | principle | love-education / labor-education / family-school | xuan-ji-zh-vol2 | 人生下来是为了在自己身后留下痕迹 |
+| [sk-1185](cards/sk-1185-cultivating-loyalty-to-kin-and-close-ones.md) | principle | love-education / family-school / collective-education | xuan-ji-zh-vol2 | 怎样培养对亲人和亲近的人的忠诚感 |
+| [sk-1186](cards/sk-1186-teaching-children-moral-freedom.md) | principle | love-education / collective-education / child-study | xuan-ji-zh-vol2 | 怎样教孩子理解道德上的自由感 |
+| [sk-1187](cards/sk-1187-helping-children-recognize-their-own-faults.md) | method | love-education / child-study / family-school | xuan-ji-zh-vol2 | 怎样教孩子明白和意识自己的过错 |
+| [sk-1188](cards/sk-1188-cultivating-respect-for-grandparents.md) | method | family-school / love-education / collective-education | xuan-ji-zh-vol2 | 培养尊敬爷爷奶奶的情感 |
+| [sk-1189](cards/sk-1189-commemorating-ones-ancestors-with-respect.md) | principle | love-education / family-school / collective-education | xuan-ji-zh-vol2 | 人应当尊敬地纪念自己的先辈 |
+| [sk-1190](cards/sk-1190-giving-students-the-joy-of-knowledge.md) | principle | learning-difficulties / reading-and-books / thinking-and-nature | xuan-ji-zh-vol2 | 怎样使学生们具有知识的欢乐 |
+| [sk-1191](cards/sk-1191-cultivating-a-conscious-pursuit-of-goodness.md) | principle | love-education / collective-education / labor-education | xuan-ji-zh-vol2 | 怎样培养孩子自觉地去追求善良 |

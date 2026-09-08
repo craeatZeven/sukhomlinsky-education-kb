@@ -4,16 +4,16 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 61 |
-| [family-school](topics/family-school.md) | 家校合作 | 203 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 162 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 62 |
+| [family-school](topics/family-school.md) | 家校合作 | 213 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 167 |
 | [health-first](topics/health-first.md) | 健康第一 | 35 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 210 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 173 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 212 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 176 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 131 |
-| [love-education](topics/love-education.md) | 爱的教育 | 323 |
+| [love-education](topics/love-education.md) | 爱的教育 | 337 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 30 |
-| [child-study](topics/child-study.md) | 儿童研究 | 250 |
+| [child-study](topics/child-study.md) | 儿童研究 | 255 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 51 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 105 |
 
@@ -950,3 +950,23 @@
 | [sk-0910](cards/sk-0910-the-peasant-and-the-field-mouse.md) | case | labor-education / collective-education | zuo-ren-de-gu-shi-zh | 农人与田鼠 |
 | [sk-0911](cards/sk-0911-two-shovels.md) | case | labor-education / teacher-growth | zuo-ren-de-gu-shi-zh | 两把铲子 |
 | [sk-0912](cards/sk-0912-how-a-rabbit-was-punished.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 一只兔子怎样被惩罚 |
+| [sk-0913](cards/sk-0913-not-lost-but-found.md) | case | labor-education / family-school | zuo-ren-de-gu-shi-zh | 没有失去，而是找到了 |
+| [sk-0914](cards/sk-0914-seven-knives.md) | case | labor-education / collective-education | zuo-ren-de-gu-shi-zh | 七把刀 |
+| [sk-0915](cards/sk-0915-right-attitude-to-labor.md) | case | labor-education / learning-difficulties | zuo-ren-de-gu-shi-zh | 必须正确地对待劳动 |
+| [sk-0916](cards/sk-0916-bread-labor-and-song.md) | case | labor-education / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 面包、劳动和歌 |
+| [sk-0917](cards/sk-0917-petrik-dog-and-kitten.md) | case | love-education / child-study | zuo-ren-de-gu-shi-zh | 彼得里克、狗和小猫 |
+| [sk-0918](cards/sk-0918-ashamed-before-nightingale.md) | case | aesthetic-nature-education / love-education | zuo-ren-de-gu-shi-zh | 面对小夜莺感到羞愧 |
+| [sk-0919](cards/sk-0919-why-not-find-glasses-yesterday.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 为什么昨天你不替我找眼镜 |
+| [sk-0920](cards/sk-0920-petrik-got-angry.md) | case | love-education / child-study | zuo-ren-de-gu-shi-zh | 彼得里克生气了 |
+| [sk-0921](cards/sk-0921-how-girl-saw-herself.md) | case | child-study / love-education | zuo-ren-de-gu-shi-zh | 小姑娘是怎样看见自己的 |
+| [sk-0922](cards/sk-0922-why-petrik-cried.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 为什么彼得里克哭了起来 |
+| [sk-0923](cards/sk-0923-the-doll-in-the-rain.md) | case | love-education / family-school | zuo-ren-de-gu-shi-zh | 雨中的娃娃 |
+| [sk-0924](cards/sk-0924-who-will-fetch-firewood.md) | case | labor-education / love-education | zuo-ren-de-gu-shi-zh | 谁去打柴 |
+| [sk-0925](cards/sk-0925-fathers-gift.md) | case | love-education / family-school | zuo-ren-de-gu-shi-zh | 爸爸的礼物 |
+| [sk-0926](cards/sk-0926-little-fox-first-grader.md) | case | family-school / child-study | zuo-ren-de-gu-shi-zh | 小狐狸——一年级小学生 |
+| [sk-0927](cards/sk-0927-who-painted-the-rooster.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 谁给公鸡涂上了颜色 |
+| [sk-0928](cards/sk-0928-the-green-mittens.md) | case | child-study / family-school | zuo-ren-de-gu-shi-zh | 绿色的小手套 |
+| [sk-0929](cards/sk-0929-why-everyone-cheered-up.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 为什么大家都快活起来 |
+| [sk-0930](cards/sk-0930-a-little-red-star.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 一颗小红星 |
+| [sk-0931](cards/sk-0931-the-big-cup.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 大杯子 |
+| [sk-0932](cards/sk-0932-how-the-boys-ate-up-the-honey.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 小男孩们是怎么吃光了蜂蜜的 |

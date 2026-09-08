@@ -5,15 +5,15 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 52 |
-| [family-school](topics/family-school.md) | 家校合作 | 116 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 106 |
+| [family-school](topics/family-school.md) | 家校合作 | 126 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 107 |
 | [health-first](topics/health-first.md) | 健康第一 | 33 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 179 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 133 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 121 |
-| [love-education](topics/love-education.md) | 爱的教育 | 201 |
+| [love-education](topics/love-education.md) | 爱的教育 | 210 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 23 |
-| [child-study](topics/child-study.md) | 儿童研究 | 213 |
+| [child-study](topics/child-study.md) | 儿童研究 | 215 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 39 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 89 |
 
@@ -740,3 +740,13 @@
 | [sk-0700](cards/sk-0700-mom-smells-of-bread.md) | case | labor-education / family-school | zuo-ren-de-gu-shi-zh | 妈妈身上有面包香味 |
 | [sk-0701](cards/sk-0701-who-tells-grandma-stories.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 谁给奶奶讲故事 |
 | [sk-0702](cards/sk-0702-apple-in-the-autumn-garden.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 秋天花园中的苹果 |
+| [sk-0703](cards/sk-0703-on-grandmas-bed.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 在奶奶的床上 |
+| [sk-0704](cards/sk-0704-mothers-eyes.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 母亲的眼睛 |
+| [sk-0705](cards/sk-0705-want-to-look-like-dad.md) | case | family-school / child-study / love-education | zuo-ren-de-gu-shi-zh | 多想长得也像爸爸 |
+| [sk-0706](cards/sk-0706-grandpa-and-andreika.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 爷爷和安德烈卡 |
+| [sk-0707](cards/sk-0707-let-me-be-yours-grandma.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 就让我是您的，奶奶 |
+| [sk-0708](cards/sk-0708-letter-to-grandson.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 给孙子的信 |
+| [sk-0709](cards/sk-0709-gray-hair.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 灰白的头发 |
+| [sk-0710](cards/sk-0710-who-makes-us-bread.md) | case | family-school / labor-education | zuo-ren-de-gu-shi-zh | 谁给我们做面包 |
+| [sk-0711](cards/sk-0711-pitying-himself.md) | case | family-school / child-study / love-education | zuo-ren-de-gu-shi-zh | 心痛自己 |
+| [sk-0712](cards/sk-0712-story-of-the-goose-mother.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 母鹅的故事 |

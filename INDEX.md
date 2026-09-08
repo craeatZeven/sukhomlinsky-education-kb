@@ -5,17 +5,17 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 55 |
-| [family-school](topics/family-school.md) | 家校合作 | 168 |
+| [family-school](topics/family-school.md) | 家校合作 | 171 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 117 |
 | [health-first](topics/health-first.md) | 健康第一 | 34 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 192 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 145 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 193 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 151 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 129 |
-| [love-education](topics/love-education.md) | 爱的教育 | 265 |
+| [love-education](topics/love-education.md) | 爱的教育 | 272 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 27 |
-| [child-study](topics/child-study.md) | 儿童研究 | 231 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 48 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 99 |
+| [child-study](topics/child-study.md) | 儿童研究 | 233 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 49 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 100 |
 
 ## 来源 Sources
 
@@ -840,3 +840,13 @@
 | [sk-0800](cards/sk-0800-song-of-the-big-gray-stone.md) | case | assessment-grading / love-education | zuo-ren-de-gu-shi-zh | 大灰石头的歌 |
 | [sk-0801](cards/sk-0801-picking-mushrooms.md) | case | child-study / collective-education | zuo-ren-de-gu-shi-zh | 采蘑菇 |
 | [sk-0802](cards/sk-0802-hello-rooster-brother.md) | case | love-education / collective-education | zuo-ren-de-gu-shi-zh | 公鸡弟弟，你好 |
+| [sk-0803](cards/sk-0803-keep-the-cat-from-catching-mice.md) | case | child-study / reading-and-books | zuo-ren-de-gu-shi-zh | 让猫抓不到老鼠 |
+| [sk-0804](cards/sk-0804-if-the-rooster-does-not-crow-morning-will-not-come.md) | case | child-study / love-education | zuo-ren-de-gu-shi-zh | 公鸡不叫，早晨就不会来 |
+| [sk-0805](cards/sk-0805-the-little-brother-is-born.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 小弟弟出生了 |
+| [sk-0806](cards/sk-0806-the-new-trousers.md) | case | family-school / collective-education | zuo-ren-de-gu-shi-zh | 新裤子 |
+| [sk-0807](cards/sk-0807-the-indifferent-tree-stump.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 漠不关心的树墩 |
+| [sk-0808](cards/sk-0808-grandma-marias-funeral.md) | case | love-education / collective-education | zuo-ren-de-gu-shi-zh | 玛丽亚奶奶的葬礼 |
+| [sk-0809](cards/sk-0809-why-grandpa-smiled.md) | case | thinking-and-nature / aesthetic-nature-education | zuo-ren-de-gu-shi-zh | 爷爷为什么笑了 |
+| [sk-0810](cards/sk-0810-the-flower-nobody-wanted.md) | case | love-education / collective-education | zuo-ren-de-gu-shi-zh | 没人要的小花 |
+| [sk-0811](cards/sk-0811-kolya-vitya-and-the-puppy.md) | case | love-education / collective-education | zuo-ren-de-gu-shi-zh | 科利亚、维佳和小狗 |
+| [sk-0812](cards/sk-0812-mishas-bicycle.md) | case | collective-education / family-school / love-education | zuo-ren-de-gu-shi-zh | 米沙的自行车 |

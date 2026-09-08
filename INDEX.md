@@ -5,15 +5,15 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 51 |
-| [family-school](topics/family-school.md) | 家校合作 | 71 |
+| [family-school](topics/family-school.md) | 家校合作 | 75 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 99 |
 | [health-first](topics/health-first.md) | 健康第一 | 33 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 165 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 94 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 168 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 95 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 119 |
-| [love-education](topics/love-education.md) | 爱的教育 | 121 |
+| [love-education](topics/love-education.md) | 爱的教育 | 131 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 22 |
-| [child-study](topics/child-study.md) | 儿童研究 | 193 |
+| [child-study](topics/child-study.md) | 儿童研究 | 195 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 39 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 86 |
 
@@ -634,3 +634,13 @@
 | [sk-0594](cards/sk-0594-this-is-the-motherland.md) | case | reading-and-books / love-education | zuo-ren-de-gu-shi-zh | 这就是祖国：一首诗和一片干蒿草叶 |
 | [sk-0595](cards/sk-0595-soviet-soldiers-heart.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 苏联士兵的心：最后一句是‘接住孩子’ |
 | [sk-0596](cards/sk-0596-the-richest-man-in-the-world.md) | case | labor-education / collective-education | zuo-ren-de-gu-shi-zh | 世界上最富的人：人人都是土地和劳动的主人 |
+| [sk-0597](cards/sk-0597-three-birches-at-the-grave.md) | case | aesthetic-nature-education / love-education | zuo-ren-de-gu-shi-zh | 墓地上的三棵白桦树：无风时的沙沙声让孩子想起烈士 |
+| [sk-0598](cards/sk-0598-i-want-to-go-home.md) | case | child-study / love-education | zuo-ren-de-gu-shi-zh | 我想回家：最珍贵的不是风景多美，而是自己出生的地方 |
+| [sk-0599](cards/sk-0599-fathers-testament.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 父亲的遗言：祖国是儿子16岁才读懂的家训 |
+| [sk-0600](cards/sk-0600-lily-of-the-valley-by-the-stone.md) | case | aesthetic-nature-education / love-education | zuo-ren-de-gu-shi-zh | 石头旁的铃兰花：每朵花是英雄的一滴血 |
+| [sk-0601](cards/sk-0601-heros-grave.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 英雄的墓：每天路过兄弟墓，想念自己的爷爷 |
+| [sk-0602](cards/sk-0602-rose-in-the-open-field.md) | case | aesthetic-nature-education / love-education | zuo-ren-de-gu-shi-zh | 原野上的玫瑰：从英雄心脏落下的地方开出花 |
+| [sk-0603](cards/sk-0603-grandfathers-testament.md) | case | child-study / love-education | zuo-ren-de-gu-shi-zh | 爷爷的遗嘱：先成为一个爱国主义者，再想当什么 |
+| [sk-0604](cards/sk-0604-hero-partisan.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 英雄，游击队员：妈妈的眼泪能让英雄复活 |
+| [sk-0605](cards/sk-0605-we-will-not-retreat-anywhere.md) | case | collective-education / love-education | zuo-ren-de-gu-shi-zh | 哪里也不撤退：诚实死亡胜于可耻后退 |
+| [sk-0606](cards/sk-0606-immortal-mother.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 永生的母亲：他有一位天天来送花的母亲 |

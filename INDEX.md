@@ -5,14 +5,14 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 52 |
-| [family-school](topics/family-school.md) | 家校合作 | 143 |
+| [family-school](topics/family-school.md) | 家校合作 | 153 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 112 |
 | [health-first](topics/health-first.md) | 健康第一 | 33 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 179 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 133 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 134 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 121 |
-| [love-education](topics/love-education.md) | 爱的教育 | 229 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 23 |
+| [love-education](topics/love-education.md) | 爱的教育 | 237 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 24 |
 | [child-study](topics/child-study.md) | 儿童研究 | 216 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 39 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 89 |
@@ -770,3 +770,13 @@
 | [sk-0730](cards/sk-0730-the-most-beautiful-mother.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 最美丽的妈妈 |
 | [sk-0731](cards/sk-0731-the-apple-on-the-treetop.md) | case | family-school / child-study | zuo-ren-de-gu-shi-zh | 在树尖上的苹果 |
 | [sk-0732](cards/sk-0732-regret.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 后悔 |
+| [sk-0733](cards/sk-0733-why-peoples-hearts-hurt.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 人为什么会心痛 |
+| [sk-0734](cards/sk-0734-missing-fathers-words.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 怀念父亲的话 |
+| [sk-0735](cards/sk-0735-the-stopped-hand.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 被制止的手 |
+| [sk-0736](cards/sk-0736-telephone-receiver.md) | case | collective-education / family-school | zuo-ren-de-gu-shi-zh | 电话听筒 |
+| [sk-0737](cards/sk-0737-darling-only-son.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 最心爱的宝贝儿子 |
+| [sk-0738](cards/sk-0738-birth-of-an-egoist.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 利己主义者的诞生 |
+| [sk-0739](cards/sk-0739-kolya-felt-lighter.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 科利亚觉得轻松一些了 |
+| [sk-0740](cards/sk-0740-mothers-gray-braid.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 母亲灰白色的辫子 |
+| [sk-0741](cards/sk-0741-willow-twig.md) | case | assessment-grading / family-school | zuo-ren-de-gu-shi-zh | 柳条 |
+| [sk-0742](cards/sk-0742-father-and-son.md) | case | family-school / love-education | zuo-ren-de-gu-shi-zh | 父亲和儿子 |

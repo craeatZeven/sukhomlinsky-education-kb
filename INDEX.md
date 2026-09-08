@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 82 |
-| [family-school](topics/family-school.md) | 家校合作 | 237 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 84 |
+| [family-school](topics/family-school.md) | 家校合作 | 238 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 178 |
 | [health-first](topics/health-first.md) | 健康第一 | 42 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 224 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 203 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 156 |
-| [love-education](topics/love-education.md) | 爱的教育 | 390 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 226 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 205 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 158 |
+| [love-education](topics/love-education.md) | 爱的教育 | 393 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 37 |
-| [child-study](topics/child-study.md) | 儿童研究 | 300 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 64 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 116 |
+| [child-study](topics/child-study.md) | 儿童研究 | 304 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 65 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 118 |
 
 ## 来源 Sources
 
@@ -1087,3 +1087,13 @@
 | [sk-1051](cards/sk-1051-room-of-thought.md) | practice | reading-and-books / teacher-growth | xuan-ji-zh-vol4 | 学校集体的精神生活：“思想之室” |
 | [sk-1052](cards/sk-1052-why-children-become-difficult.md) | principle | learning-difficulties / child-study | xuan-ji-zh-vol4 | 他们为什么变成了难教儿童 |
 | [sk-1053](cards/sk-1053-most-important-skills-and-habits.md) | method | teacher-growth / learning-difficulties | xuan-ji-zh-vol4 | 学生应当掌握的最重要的技能和技巧 |
+| [sk-1054](cards/sk-1054-win-students-minds-and-hearts.md) | principle | teacher-growth / child-study | xuan-ji-zh-vol2 | 要赢得学生的思想和心灵 |
+| [sk-1055](cards/sk-1055-develop-knowledge-through-reading.md) | method | reading-and-books / learning-difficulties | xuan-ji-zh-vol2 | 怎样通过阅读发展知识 |
+| [sk-1056](cards/sk-1056-parents-unity-in-action.md) | method | family-school / love-education | xuan-ji-zh-vol2 | 作为教育者的父母怎样做到行动统一 |
+| [sk-1057](cards/sk-1057-what-is-suffering-how-to-overcome.md) | principle | love-education / child-study | xuan-ji-zh-vol2 | 什么叫痛苦，怎样教孩子们去克服它 |
+| [sk-1058](cards/sk-1058-school-under-the-blue-sky.md) | practice | thinking-and-nature / aesthetic-nature-education | xuan-ji-zh-vol3 | 蓝天下的学校 |
+| [sk-1059](cards/sk-1059-learning-part-of-spiritual-life.md) | principle | learning-difficulties / child-study | xuan-ji-zh-vol3 | 学习——精神生活的一部分 |
+| [sk-1060](cards/sk-1060-perception-of-beauty-and-feelings.md) | method | aesthetic-nature-education | xuan-ji-zh-vol4 | 美的认识与情操的培养 |
+| [sk-1061](cards/sk-1061-mutual-education-in-collective.md) | principle | collective-education / teacher-growth | xuan-ji-zh-vol4 | 关于自我教育 |
+| [sk-1062](cards/sk-1062-perception-in-early-school-age.md) | principle | child-study / thinking-and-nature | xuan-ji-zh-vol1 | 知觉在学龄初期儿童精神发展中的作用 |
+| [sk-1063](cards/sk-1063-communication-in-collective.md) | principle | collective-education / love-education | xuan-ji-zh-vol1 | 集体中的交往 |

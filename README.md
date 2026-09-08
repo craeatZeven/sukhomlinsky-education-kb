@@ -31,15 +31,15 @@ topics/   → 主题页：按教育场景聚合卡片，并做跨书综合
 ## 当前状态
 
 - [x] 仓库骨架与规范
-- [x] MVP 主题：[学习困难学生（后进生）](topics/learning-difficulties.md)
-- [x] 可溯源卡片 63 张（学习困难 16 / 家校合作 8 / 劳动教育 5 / 健康第一 5 / 美育与自然 5 / 集体教育 5 / 教师成长 7 / 爱的教育 5 / 评价与分数 5 / 儿童研究 5 / 阅读与书籍 5 / 思维课与大自然 5，其中多张卡跨主题）
-- [x] 主题：[学习困难学生](topics/learning-difficulties.md) · [家校合作](topics/family-school.md) · [劳动教育](topics/labor-education.md) · [健康第一](topics/health-first.md) · [美育与自然](topics/aesthetic-nature-education.md) · [集体教育](topics/collective-education.md) · [教师成长](topics/teacher-growth.md) · [爱的教育](topics/love-education.md) · [评价与分数](topics/assessment-grading.md) · [儿童研究](topics/child-study.md) · [阅读与书籍](topics/reading-and-books.md) · [思维课与大自然](topics/thinking-and-nature.md)
-- [x] 本地书源全部登记：11 个唯一来源（覆盖本地 12 份文件，见 [书源盘点](docs/book-inventory.md)）
-- [x] 网页原型：[打开 `web/index.html`](web/index.html) · [GitHub Pages 部署说明](docs/deployment.md)
-- [ ] 更多主题（家校合作、劳动教育、美育、集体教育……）
-- [ ] 中文扫描 PDF 全文 OCR 完成（《教育箴言》✅EasyOCR完成；其余已切换 MinerU 3.4.5 pipeline 后台排队中）
-- [ ] GitHub Pages 部署
-- [ ] JSON/CSV 导出
+- [x] 12 个主题页：学习困难学生、家校合作、劳动教育、健康第一、美育与自然、集体教育、教师成长、爱的教育、评价与分数、儿童研究、阅读与书籍、思维课与大自然
+- [x] 可溯源卡片 **990 张**（13 个来源）
+- [x] 《做人的故事》目录 **540/540 篇全部建卡**，页码已与 OCR 正文页逐条核对
+- [x] 覆盖审计：44 篇《美德故事》44/44 盘点、113 条官方故事书目盘点、五卷本按作品覆盖清单
+- [x] 全量质量审计：`python scripts/audit_cards.py`（0 硬错误 / 0 警告）
+- [x] 网页检索站：[打开 `web/index.html`](web/index.html) · [GitHub Pages](https://craeatzeven.github.io/sukhomlinsky-education-kb/)
+- [x] 网页支持：关键词/主题/来源/类型过滤、全文搜索、JSON/CSV 导出
+- [ ] GitHub Actions CI（本地凭据缺少 workflow scope，暂用 `scripts/validate_all.py` 代替）
+- [ ] 五卷本逐章覆盖审计（已有按作品统计版）
 - [ ] skills.sh 发布
 
 ## 快速开始
@@ -60,7 +60,7 @@ topics/   → 主题页：按教育场景聚合卡片，并做跨书综合
 | [`sources/`](sources/) | 原书/译本书目元数据 |
 | [`schemas/`](schemas/) | frontmatter 字段规范 |
 | [`templates/`](templates/) | 新建 source/card/topic 的模板 |
-| [`web/`](web/) | 杂志风知识检索站（单文件 HTML 原型） |
+| [`web/`](web/) | 杂志风知识检索站：主题/来源过滤、全文搜索、JSON/CSV 导出 |
 | [`docs/`](docs/) | 生产流程、质量门、版权政策、路线图 |
 
 ## 质量纪律

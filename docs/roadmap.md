@@ -1,23 +1,39 @@
 # Roadmap
 
-## v0.1（当前 MVP）
-- [x] 仓库骨架（README / SKILL / INDEX / LICENSE / NOTICE / CONTRIBUTING / AGENTS）
+## v0.1 — 仓库骨架（已完成）
+- [x] README / SKILL / INDEX / LICENSE / NOTICE / CONTRIBUTING / AGENTS
 - [x] 规范与模板（schemas / templates / docs）
-- [x] 2 本来源登记
-- [x] 1 个主题 + 8 张可溯源卡片
+- [x] 书源登记
+- [x] 首个主题 + 可溯源卡片
 
-## v0.2 — 内容扩展
-- [ ] 补全“家校合作”“劳动教育”“美育与自然”“集体教育”“教师成长”“健康第一”等主题
-- [ ] 从本地/公开中译本补充中文来源与对照
-- [ ] 给每张卡补 `page` 精确页码（纸质版核对）
-- [ ] 建立术语表（glossary）
+## v0.2 — 内容扩展（已完成）
+- [x] 12 个主题页全部建立
+- [x] 本地/公开中译本来源登记
+- [x] 卡片规模到 990 张（13 个来源）
+- [x] 《做人的故事》540/540 目录标题建卡
+- [x] 页码尽量落实到 OCR 印刷页码；ZuoRen 540 张已逐条核对
+- [ ] 术语表（glossary）待建
 
-## v0.3 — 检索与发布
-- [ ] GitHub Pages 静态检索站（按主题/类型/来源过滤）
-- [ ] JSON/CSV 导出
-- [ ] 简单的 frontmatter 校验脚本（CI）
+## v0.3 — 检索与发布（已完成主体）
+- [x] GitHub Pages 静态检索站
+- [x] 按主题/来源/类型过滤
+- [x] 全文搜索（标题 + 中文转述 + 原文摘录 + 出处）
+- [x] JSON / CSV 导出
+- [x] frontmatter 校验脚本（`scripts/check_kb.py`）
+- [x] 全量质量审计脚本（`scripts/audit_cards.py`）
+- [x] 覆盖仪表盘（`docs/coverage-dashboard.md`）
+- [ ] GitHub Actions CI（本地凭据缺 workflow scope；暂用 `scripts/validate_all.py`）
 
-## v0.4 — 生态化
+## v0.4 — 覆盖审计与内容补全（进行中）
+- [x] 44 篇《美德故事》44/44 盘点（`docs/story-coverage-meide-gushi.md`）
+- [x] 113 条官方故事书目盘点（`docs/coverage-official-tales.md`）
+- [x] 五卷本按作品统计（`docs/coverage-volumes.md`）
+- [ ] 五卷本逐章覆盖审计
+- [ ] 113 条书目 ↔ 卡片全量对照表
+- [ ] 44 篇中 11 篇 probable + 2 篇 thematic 的人工复核
+- [ ] 562 篇期刊文章的合法获取与逐步补卡
+
+## v0.5 — 生态化
 - [ ] 作为可移植 Agent Skill 发布到 skills.sh
-- [ ] 支持多语言（中/英）
+- [ ] 多语言（中/英）
 - [ ] 社区贡献指南完善

@@ -5,7 +5,7 @@
 > **快照时点**：2026-09-09 01:24（UTC+8）
 > **快照卡片量**：`cards/*.md` 共 **1156** 张，其中五卷本卡 **466** 张（vol1 67 / vol2 113 / vol3 93 / vol4 77 / vol5 116），最新卡 **sk-1161**
 > **说明**：本报告是上述时点的快照；后续新增卡片会使 `now_covered` / `still_gap` 数值变化，最新覆盖状态以 `cards/` 与 `docs/coverage-volumes.md` 为准。
-> **更新**：第二轮审计见 `docs/coverage-volumes-gaps-remaining-round2.md`（快照 1186 卡）：原 143 个 gap 中 95 个已不再空白、47 个仍空白、1 个存疑。
+> **更新**：第二轮审计见 `docs/coverage-volumes-gaps-remaining-round2.md`（快照 1186 卡）：原 143 个 gap 中 95 个已不再空白、47 个仍空白、1 个存疑。第三轮审计见 `docs/coverage-volumes-gaps-remaining-round3.md`（快照 1206 卡）：115 个已不再空白、27 个仍空白、1 个存疑。
 
 ---
 

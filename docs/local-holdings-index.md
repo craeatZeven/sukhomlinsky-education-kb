@@ -43,7 +43,7 @@
 - 核心著作：五卷本 + 给教师的建议 + 做人的故事 已形成可检索中文全文池
 - 《做人的故事》：540/540 个目录标题均已建卡（含 OCR 异题/异体字按正文校订；507「狼良的牙齿」按正文题名「狼的牙齿」建卡；323「会唱歌的羽毛」另有 ZuoRen 中文原版卡 sk-0982）
 - 儿童故事：44 篇美德故事已全量盘点——31 篇确认同源、11 篇高度可能、2 篇仅主题相关（见 `docs/story-coverage-meide-gushi.md`）
-- 五卷本：已按作品统计卡片来源分布（见 `docs/coverage-volumes.md`），并完成章节级覆盖审计（见 `docs/coverage-volumes-chapters.md`）与两轮剩余缺口审计（见 `docs/coverage-volumes-gaps-remaining.md`、`docs/coverage-volumes-gaps-remaining-round2.md`）：原 143 个 gap 中 95 个已不再空白、47 个仍空白、1 个口径存疑
+- 五卷本：已按作品统计卡片来源分布（见 `docs/coverage-volumes.md`），并完成章节级覆盖审计与三轮剩余缺口审计：原 143 个 gap 中 115 个已不再空白、27 个仍空白、1 个口径存疑（见 `docs/coverage-volumes-gaps-remaining-round3.md`）
 - 562篇文章：仅第5卷68篇（77条目）已覆盖；其余暂缓
 - 113条官方故事书目：已盘点并完成全量核验：98/113 高置信可挂现有卡（10 A + 88 H；15 条 E_none；见 `docs/coverage-official-tales-mapping.md` 及三份 verification 报告）
 

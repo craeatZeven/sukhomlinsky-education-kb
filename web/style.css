@@ -199,3 +199,7 @@ footer a { color: var(--accent); text-decoration: none; }
   .topnav .brand { font-size: 15px; }
   .topnav .nav-links { font-size: 13px; }
 }
+
+/* Coverage bars */
+.bar-wrap { height: 6px; background: var(--accent-soft); border-radius: 999px; overflow: hidden; margin: 10px 0 4px; }
+.bar { height: 100%; background: var(--accent); border-radius: 999px; transition: width .3s ease; }

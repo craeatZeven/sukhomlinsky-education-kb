@@ -82,10 +82,13 @@ document.addEventListener("DOMContentLoaded", async ()=>{
       <div class="stat"><b>${d.source_count}</b><span>来源</span></div>
       <div class="stat"><b>${d.topic_count}</b><span>主题</span></div>
       <div class="stat"><b>${d.zuoren_cards}</b><span>做人的故事</span></div>`;
+    const maxS = Math.max(...d.sources.map(s=>s.cards), 1);
+    const maxT = Math.max(...d.topics.map(t=>t.cards), 1);
     document.getElementById("sourceGrid").innerHTML = d.sources.map(s=>`
       <a class="source-card" style="text-decoration:none;color:inherit" href="explore.html?source=${s.slug}">
         <span class="badge">${s.cards} 张</span>
         <h3 style="margin:10px 0 6px">${s.title}</h3>
+        <div class="bar-wrap"><div class="bar" style="width:${(s.cards/maxS*100).toFixed(1)}%"></div></div>
         <p class="meta">印刷页码 ref：${s.page_refs}/${s.cards}</p>
         <p class="ref" style="margin-top:10px">浏览该来源 →</p>
       </a>`).join("");
@@ -93,6 +96,7 @@ document.addEventListener("DOMContentLoaded", async ()=>{
       <a class="source-card" style="text-decoration:none;color:inherit" href="explore.html?topic=${t.slug}">
         <span class="badge">${t.cards} 张</span>
         <h3 style="margin:10px 0 6px">${t.title}</h3>
+        <div class="bar-wrap"><div class="bar" style="width:${(t.cards/maxT*100).toFixed(1)}%"></div></div>
         <p class="ref">浏览该主题 →</p>
       </a>`).join("");
   } catch (e) {

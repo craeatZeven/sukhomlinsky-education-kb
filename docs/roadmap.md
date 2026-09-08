@@ -30,7 +30,7 @@
 - [x] 113 条书目 ↔ 卡片全量对照与核验（`docs/coverage-official-tales-mapping.md`，98/113 高置信：10 A + 88 H；15 E_none；三份 verification 报告）
 - [x] 五卷本按作品统计（`docs/coverage-volumes.md`）
 - [x] 五卷本逐章覆盖审计（`docs/coverage-volumes-chapters.md`）
-- [x] 五卷本剩余缺口审计（`docs/coverage-volumes-gaps-remaining.md` + `...-round2.md`）：原 143 个 gap 中 95 个已不再空白、47 个仍空白、1 个存疑
+- [x] 五卷本剩余缺口审计（三轮）：原 143 个 gap 中 115 个已不再空白、27 个仍空白、1 个存疑（`docs/coverage-volumes-gaps-remaining-round3.md`）
 - [ ] 按剩余缺口清单继续补卡（优先第2卷《给教师的100条建议》《怎样培养真正的人》）
 - [ ] 44 篇中 11 篇 probable + 2 篇 thematic 的人工复核
 - [ ] 113 条对照草稿的人工抽检；5 条 medium + 15 条 none 的后续处理

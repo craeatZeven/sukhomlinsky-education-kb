@@ -5,7 +5,7 @@
 
 ## 总览
 
-- 卡片总数：**1089**
+- 卡片总数：**1107**
 - 来源数：**12**
 - 主题数：**12**
 - 《做人的故事》：**540 张卡 / 540 个目录标题**
@@ -15,11 +15,11 @@
 | 来源 | 卡片数 | 含印刷页码 ref |
 |---|---:|---:|
 | 做人的故事（`zuo-ren-de-gu-shi-zh`） | 540 | 540/540 |
-| 苏霍姆林斯基选集（五卷本）第5卷（`xuan-ji-zh-vol5`） | 113 | 109/113 |
-| 苏霍姆林斯基选集（五卷本）第2卷（`xuan-ji-zh-vol2`） | 97 | 45/97 |
-| 苏霍姆林斯基选集（五卷本）第3卷（`xuan-ji-zh-vol3`） | 71 | 51/71 |
-| 苏霍姆林斯基选集（五卷本）第4卷（`xuan-ji-zh-vol4`） | 61 | 41/61 |
-| 苏霍姆林斯基选集（五卷本）第1卷（`xuan-ji-zh-vol1`） | 57 | 36/57 |
+| 苏霍姆林斯基选集（五卷本）第5卷（`xuan-ji-zh-vol5`） | 115 | 109/115 |
+| 苏霍姆林斯基选集（五卷本）第2卷（`xuan-ji-zh-vol2`） | 101 | 45/101 |
+| 苏霍姆林斯基选集（五卷本）第3卷（`xuan-ji-zh-vol3`） | 75 | 51/75 |
+| 苏霍姆林斯基选集（五卷本）第4卷（`xuan-ji-zh-vol4`） | 65 | 41/65 |
+| 苏霍姆林斯基选集（五卷本）第1卷（`xuan-ji-zh-vol1`） | 61 | 36/61 |
 | On Education（`on-education`） | 41 | 0/41 |
 | 把心献给孩子（`ba-xin-xian-gei-hai-zi-zh`） | 35 | 0/35 |
 | 给教师的建议（`gei-jiao-shi-de-jian-yi-zh`） | 24 | 23/24 |
@@ -31,28 +31,28 @@
 
 | 类型 | 数量 |
 |---|---:|
-| `case` | 605 |
+| `case` | 613 |
 | `quote` | 259 |
-| `principle` | 129 |
-| `method` | 66 |
-| `practice` | 30 |
+| `principle` | 135 |
+| `method` | 69 |
+| `practice` | 31 |
 
 ## 主题分布
 
 | 主题 | 卡片数 |
 |---|---:|
-| 爱的教育（`love-education`） | 409 |
-| 儿童研究（`child-study`） | 313 |
-| 家校合作（`family-school`） | 244 |
-| 美育与自然（`aesthetic-nature-education`） | 232 |
-| 集体教育（`collective-education`） | 210 |
-| 劳动教育（`labor-education`） | 182 |
-| 教师成长（`teacher-growth`） | 171 |
-| 思维课与大自然（`thinking-and-nature`） | 132 |
-| 学习困难学生（`learning-difficulties`） | 87 |
-| 阅读与书籍（`reading-and-books`） | 68 |
+| 爱的教育（`love-education`） | 414 |
+| 儿童研究（`child-study`） | 324 |
+| 家校合作（`family-school`） | 247 |
+| 美育与自然（`aesthetic-nature-education`） | 239 |
+| 集体教育（`collective-education`） | 213 |
+| 劳动教育（`labor-education`） | 185 |
+| 教师成长（`teacher-growth`） | 175 |
+| 思维课与大自然（`thinking-and-nature`） | 140 |
+| 学习困难学生（`learning-difficulties`） | 88 |
+| 阅读与书籍（`reading-and-books`） | 70 |
 | 健康第一（`health-first`） | 43 |
-| 评价与分数（`assessment-grading`） | 37 |
+| 评价与分数（`assessment-grading`） | 38 |
 
 ## 当前已知缺口
 

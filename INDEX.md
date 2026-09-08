@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 87 |
-| [family-school](topics/family-school.md) | 家校合作 | 244 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 182 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 88 |
+| [family-school](topics/family-school.md) | 家校合作 | 247 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 185 |
 | [health-first](topics/health-first.md) | 健康第一 | 43 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 232 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 210 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 171 |
-| [love-education](topics/love-education.md) | 爱的教育 | 409 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 37 |
-| [child-study](topics/child-study.md) | 儿童研究 | 313 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 68 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 132 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 239 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 213 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 175 |
+| [love-education](topics/love-education.md) | 爱的教育 | 414 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 38 |
+| [child-study](topics/child-study.md) | 儿童研究 | 324 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 70 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 140 |
 
 ## 来源 Sources
 
@@ -1127,3 +1127,21 @@
 | [sk-1091](cards/sk-1091-sunrise.md) | practice | aesthetic-nature-education / thinking-and-nature / teacher-growth | xuan-ji-zh-vol4 | 日出 |
 | [sk-1092](cards/sk-1092-dusk.md) | practice | aesthetic-nature-education / thinking-and-nature / child-study | xuan-ji-zh-vol4 | 黄昏 |
 | [sk-1093](cards/sk-1093-when-sun-hid-in-cloud.md) | practice | aesthetic-nature-education / thinking-and-nature / love-education | xuan-ji-zh-vol4 | 当太阳没入乌云的时候 |
+| [sk-1094](cards/sk-1094-advice-on-keeping-educational-diary.md) | method | teacher-growth / child-study | xuan-ji-zh-vol2 | 关于写教育日记的建议 |
+| [sk-1095](cards/sk-1095-deepen-parent-education-as-child-grows.md) | method | family-school / teacher-growth / labor-education | xuan-ji-zh-vol2 | 怎样随着儿童的成长和发展而加深对家长的教育工作 |
+| [sk-1096](cards/sk-1096-cherish-and-develop-adolescent-memory.md) | method | learning-difficulties / reading-and-books / child-study | xuan-ji-zh-vol2 | 爱惜并发展青少年的记忆力：建立有意记忆和无意记忆的合理比例 |
+| [sk-1097](cards/sk-1097-teach-child-to-face-death.md) | principle | love-education / family-school | xuan-ji-zh-vol2 | 怎样教人正确对待死 |
+| [sk-1098](cards/sk-1098-adolescent-thinking-and-speech.md) | principle | child-study / thinking-and-nature | xuan-ji-zh-vol1 | 少年的思维与言语活动 |
+| [sk-1099](cards/sk-1099-characteristics-of-young-pupils-activity.md) | practice | child-study / labor-education / collective-education | xuan-ji-zh-vol1 | 学龄初期儿童活动的特点 |
+| [sk-1100](cards/sk-1100-teacher-personality-in-collective.md) | principle | teacher-growth / collective-education | xuan-ji-zh-vol1 | 教师的人格在集体和学生个人精神生活中的作用 |
+| [sk-1101](cards/sk-1101-what-is-primary-school.md) | principle | teacher-growth / child-study / reading-and-books | xuan-ji-zh-vol3 | 什么是小学？ |
+| [sk-1102](cards/sk-1102-love-in-civic-birth.md) | principle | love-education / family-school | xuan-ji-zh-vol3 | 恋爱：尊重少年隐秘的内心世界 |
+| [sk-1103](cards/sk-1103-moral-habits.md) | principle | love-education / collective-education / child-study | xuan-ji-zh-vol3 | 道德习惯：确立道德观念和道德信念的基础 |
+| [sk-1104](cards/sk-1104-sparrow-asks-where-sun-sets.md) | case | thinking-and-nature / aesthetic-nature-education / child-study | xuan-ji-zh-vol1 | 麻雀多么想知道太阳落到哪儿去了 |
+| [sk-1105](cards/sk-1105-flying-flower-dandelion-seed.md) | case | aesthetic-nature-education / thinking-and-nature / child-study | xuan-ji-zh-vol5 | 会飞的花 |
+| [sk-1106](cards/sk-1106-whos-the-smartest-silence.md) | case | thinking-and-nature / child-study / assessment-grading | xuan-ji-zh-vol5 | 谁最聪明 |
+| [sk-1107](cards/sk-1107-cranes-in-blue-sky.md) | case | aesthetic-nature-education / thinking-and-nature / love-education | xuan-ji-zh-vol4 | 蓝天中的仙鹤 |
+| [sk-1108](cards/sk-1108-haymaking-field-night.md) | case | aesthetic-nature-education / thinking-and-nature / labor-education | xuan-ji-zh-vol4 | 刈草场之夜 |
+| [sk-1109](cards/sk-1109-when-autumn-begins-apple-scent.md) | case | aesthetic-nature-education / thinking-and-nature | xuan-ji-zh-vol4 | 当秋天开始的时候 |
+| [sk-1110](cards/sk-1110-stork-blessing-on-roof.md) | case | aesthetic-nature-education / love-education / child-study | xuan-ji-zh-vol4 | 鹳 |
+| [sk-1111](cards/sk-1111-morning-glow-student-composition.md) | case | aesthetic-nature-education / thinking-and-nature / child-study | xuan-ji-zh-vol3 | 朝霞 |

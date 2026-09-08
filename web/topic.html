@@ -34,6 +34,8 @@
     <div id="topicBody"></div>
     <h2 class="section-title">本主题卡片</h2>
     <div class="grid" id="cardList"></div>
+    <h2 class="section-title" style="margin-top:28px">相关专题</h2>
+    <div class="grid" id="relatedTopics"></div>
   </section>
 </main>
 
@@ -77,6 +79,15 @@ function render(){
       <h3 style="margin:10px 0 4px;font-size:17px">${c.title}</h3>
       <p class="cn" style="font-size:13px;color:var(--soft)">${(c.cn||"").slice(0,80)}${(c.cn||"").length>80?"…":""}</p>
     </a>`).join("") || `<p class="section-sub">暂无卡片</p>`;
+  const co = {};
+  list.forEach(c => (c.topics||[]).forEach(t => { if(t !== slug) co[t] = (co[t]||0)+1; }));
+  const related = Object.keys(co).sort((a,b)=>co[b]-co[a]).slice(0,4);
+  document.getElementById("relatedTopics").innerHTML = related.map(s=>`
+    <a class="source-card" style="text-decoration:none;color:inherit" href="topic.html?slug=${s}">
+      <span class="badge">${co[s]} 张共现</span>
+      <h3 style="margin:10px 0 4px;font-size:17px">${topicTitle(s)}</h3>
+      <p class="ref">进入专题 →</p>
+    </a>`).join("") || `<p class="section-sub">暂无相关专题</p>`;
 }
 document.addEventListener("DOMContentLoaded", render);
 </script>

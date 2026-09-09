@@ -49,6 +49,10 @@
 > 本地实测（1386 张卡）：`/api/meta` 12 来源 12 主题、`劳动`(2 字)→LIKE 372 命中、`苏霍姆林斯基`(6 字)→FTS5 771 命中、
 > `劳动 教育`→336 命中、`情感教育`→9 命中；分页/聚合/相关卡/随机卡/批量取卡均正常。
 > **尚未做**：真实部署（需要一台主机或 Cloudflare Workers+D1 之类的托管）；Pages 上的静态版仍按原样运行。
+> **Cloudflare 变体（2026-09-09 追加，已本地实测）**：`cloudflare/`（wrangler.toml + `src/index.js` + schema/data SQL 生成器
+> `scripts/build_d1_sql.py` + Docker 版之外的免运维方案）。本地 `wrangler dev --local` + 本地 D1 实测：
+> 1386 卡 / 2970 主题关联 / FTS5 1386 行；接口结果与 FastAPI 版逐项一致；`web/search.html` 跨源调用正常。
+> 部署命令与成本估算见 `cloudflare/README.md`（需要用户自己的 Cloudflare 账号执行 `wrangler login` + `deploy`）。
 
 **做法**：后端只读知识库，暴露 API；前端按需调用。
 

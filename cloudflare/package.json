@@ -1,0 +1,23 @@
+{
+  "name": "suk-kb-api",
+  "private": true,
+  "version": "0.1.0",
+  "description": "苏霍姆林斯基教育知识库 · Cloudflare Workers + D1 只读 API",
+  "type": "module",
+  "scripts": {
+    "gen": "python ../scripts/build_d1_sql.py --fts",
+    "db:create": "wrangler d1 create suk-kb",
+    "db:schema": "wrangler d1 execute suk-kb --remote --file=./schema.sql --yes",
+    "db:data": "wrangler d1 execute suk-kb --remote --file=./data.sql --yes",
+    "db:fts": "wrangler d1 execute suk-kb --remote --file=./schema_fts.sql --yes",
+    "db:schema:local": "wrangler d1 execute suk-kb --local --file=./schema.sql --yes",
+    "db:data:local": "wrangler d1 execute suk-kb --local --file=./data.sql --yes",
+    "db:fts:local": "wrangler d1 execute suk-kb --local --file=./schema_fts.sql --yes",
+    "dev": "wrangler dev --local --port 8787",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail"
+  },
+  "devDependencies": {
+    "wrangler": "^4.130.0"
+  }
+}

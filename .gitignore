@@ -20,3 +20,10 @@ api/kb.db-shm
 __pycache__/
 *.pyc
 .venv/
+
+# Cloudflare Workers 构建产物（源码保留：wrangler.toml / package.json / src/ / schema.sql / README.md）
+cloudflare/node_modules/
+cloudflare/.wrangler/
+cloudflare/data.sql
+cloudflare/schema_fts.sql
+cloudflare/coverage.json

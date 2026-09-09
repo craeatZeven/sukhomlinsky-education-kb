@@ -1,0 +1,19 @@
+name = "suk-kb-api"
+main = "src/index.js"
+compatibility_date = "2024-11-01"
+workers_dev = true
+
+# 自定义域名（可选）：先在 Cloudflare 里把域名接入，然后解开注释
+# routes = [
+#   { pattern = "kb-api.example.com", custom_domain = true }
+# ]
+
+[vars]
+# 允许的前端来源；上线后改成你的站点，例如 "https://craeatzeven.github.io"
+CORS_ORIGIN = "*"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "suk-kb"
+# 首次执行 `npx wrangler d1 create suk-kb` 后，把输出的 database_id 填到这里
+database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"

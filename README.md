@@ -65,6 +65,7 @@ topics/   → 主题页：按教育场景聚合卡片，并做跨书综合
 | [`templates/`](templates/) | 新建 source/card/topic 的模板 |
 | [`web/`](web/) | 杂志风知识检索站：主题/来源过滤、全文搜索、JSON/CSV 导出 |
 | [`api/`](api/) | 可选后端：FastAPI + SQLite FTS5 只读接口，同时托管 `web/`（见 `api/README.md`） |
+| [`cloudflare/`](cloudflare/) | 可选后端（免运维）：Cloudflare Workers + D1，接口与 `api/` 一致（见 `cloudflare/README.md`） |
 | [`scripts/`](scripts/) | 校验/审计/建站/建库脚本（`validate_all.py`、`build_db.py` 等） |
 | [`docs/kb-status.md`](docs/kb-status.md) | **知识库状态总表**：规模、三项覆盖审计、密度、质量门、已知缺口、文档索引 |
 | [`docs/`](docs/) | 生产流程、质量门、版权政策、路线图 |

@@ -43,6 +43,13 @@
 
 ### 档位 B：前端 + 后端（推荐的第一档「真后端」）
 
+> **状态更新（2026-09-09）：已实现可运行原型**，代码在本仓库：
+> `scripts/build_db.py`（cards → `api/kb.db`，FTS5 trigram）、`api/main.py`（FastAPI 11 个端点 + 静态站托管）、
+> `api/requirements.txt`、`api/README.md`、`Dockerfile`、`docker-compose.yml`、前端配套页 `web/search.html` + `web/config.js`。
+> 本地实测（1386 张卡）：`/api/meta` 12 来源 12 主题、`劳动`(2 字)→LIKE 372 命中、`苏霍姆林斯基`(6 字)→FTS5 771 命中、
+> `劳动 教育`→336 命中、`情感教育`→9 命中；分页/聚合/相关卡/随机卡/批量取卡均正常。
+> **尚未做**：真实部署（需要一台主机或 Cloudflare Workers+D1 之类的托管）；Pages 上的静态版仍按原样运行。
+
 **做法**：后端只读知识库，暴露 API；前端按需调用。
 
 ```

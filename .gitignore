@@ -10,3 +10,13 @@ Thumbs.db
 # Local working copies / private notes (do not commit)
 local_working_copy/
 *.local.md
+
+# Generated backend database (rebuild with: python scripts/build_db.py)
+api/kb.db
+api/kb.db-wal
+api/kb.db-shm
+
+# Python
+__pycache__/
+*.pyc
+.venv/

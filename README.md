@@ -39,9 +39,10 @@ topics/   → 主题页：按教育场景聚合卡片，并做跨书综合
 - [x] 全量质量审计：`python scripts/audit_cards.py`（0 硬错误 / 0 警告）
 - [x] 网页检索站：[打开 `web/index.html`](web/index.html) · [GitHub Pages](https://craeatzeven.github.io/sukhomlinsky-education-kb/)
 - [x] 网页支持：关键词/主题/来源/类型过滤、全文搜索、JSON/CSV 导出
+- [x] 后端 API（可选，档位 B 原型）：`scripts/build_db.py` → SQLite+FTS5，`api/main.py`（FastAPI，同时托管静态站），前端页 `web/search.html`；见 [`api/README.md`](api/README.md)
 - [ ] GitHub Actions CI（本地凭据缺少 workflow scope，暂用 `scripts/validate_all.py` 代替）
 - [x] 五卷本逐章覆盖审计（`docs/coverage-volumes-chapters.md`）+ 四轮剩余缺口审计：143 个 `gap` 已全部补卡
-- [ ] 网页架构升级（可选，见 `docs/web-architecture-options.md`：静态分片 → 前端+后端）
+- [ ] 网页架构升级（可选，见 `docs/web-architecture-options.md`：静态分片 A 未做，后端 B 已有可运行原型）
 - [ ] skills.sh 发布
 
 ## 快速开始
@@ -63,6 +64,8 @@ topics/   → 主题页：按教育场景聚合卡片，并做跨书综合
 | [`schemas/`](schemas/) | frontmatter 字段规范 |
 | [`templates/`](templates/) | 新建 source/card/topic 的模板 |
 | [`web/`](web/) | 杂志风知识检索站：主题/来源过滤、全文搜索、JSON/CSV 导出 |
+| [`api/`](api/) | 可选后端：FastAPI + SQLite FTS5 只读接口，同时托管 `web/`（见 `api/README.md`） |
+| [`scripts/`](scripts/) | 校验/审计/建站/建库脚本（`validate_all.py`、`build_db.py` 等） |
 | [`docs/kb-status.md`](docs/kb-status.md) | **知识库状态总表**：规模、三项覆盖审计、密度、质量门、已知缺口、文档索引 |
 | [`docs/`](docs/) | 生产流程、质量门、版权政策、路线图 |
 

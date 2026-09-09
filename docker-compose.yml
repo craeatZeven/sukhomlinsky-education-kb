@@ -1,0 +1,10 @@
+services:
+  kb-api:
+    build: .
+    image: suk-kb-api:latest
+    ports:
+      - "8000:8000"
+    environment:
+      KB_DB: /app/api/kb.db
+      KB_CORS_ORIGINS: "*"     # 生产环境请改成你的前端域名，例如 https://craeatzeven.github.io
+    restart: unless-stopped

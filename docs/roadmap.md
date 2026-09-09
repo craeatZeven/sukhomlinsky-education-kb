@@ -33,6 +33,9 @@
 - [x] 五卷本剩余缺口审计（四轮）：原 143 个 gap 中 135 个已不再空白、7 个仍空白、1 个存疑（第四轮快照，`docs/coverage-volumes-gaps-remaining-round4.md`）
 - [x] 剩余 7 个 gap 补齐（sk-1232–sk-1238，2026-09-09）；第 1/3/4/5 卷 gap 已连续三轮清零，第 2 卷 gap 清零
 - [ ] 五卷本「加密度」：第 2 卷 166 个审计单位仅 2 个 ≥3 张卡、118 行停在 1 张卡；第 5 卷 68 篇多为每篇 1–2 张（下一阶段主线）
+- [x] 第 2 卷加密度审计（`docs/vol2-density-report.md`）：166 单位 = 154 单卡 / 6 双卡 / 2 ≥3 张（口径 A），给出 20 项第二张卡清单
+- [x] 审计表归属勘误（`docs/coverage-volumes-chapters-corrections.md`）：6 张卡错位，第 33/36/40/52 篇实为 0 张 → 补建 sk-1259–sk-1262
+- [ ] 第 2 卷密度补卡：按 `docs/vol2-density-report.md` §四 前 20 项各补第 2 张卡（sk-1239–sk-1258）；第 5 卷优先补 method/practice/case 而非第 N 张 quote
 - [ ] 44 篇中 11 篇 probable + 2 篇 thematic 的人工复核
 - [ ] 113 条对照草稿的人工抽检；5 条 medium + 15 条 none 的后续处理
 - [x] 五卷本优先 20 个 gap 章节的补卡

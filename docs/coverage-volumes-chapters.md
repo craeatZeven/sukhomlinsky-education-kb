@@ -2,6 +2,8 @@
 
 > **更新（2026-09-08）**：已按本报告 §四 优先清单新增 sk-0994–sk-1002 共 9 张卡；随后新增 sk-1004–sk-1013、sk-1014–sk-1023、sk-1024–sk-1033、sk-1034–sk-1043、sk-1044–sk-1053、sk-1054–sk-1063、sk-1064–sk-1073、sk-1074–sk-1083、sk-1094–sk-1103、sk-1112–sk-1121、sk-1132–sk-1141、sk-1152–sk-1161、sk-1162–sk-1171、sk-1172–sk-1181、sk-1182–sk-1191、sk-1192–sk-1201、sk-1202–sk-1211、sk-1212–sk-1231、sk-1232–sk-1238（补齐第四轮剩余 7 个 gap）等批次卡片；另从本地五卷本全文补建 sk-1084–sk-1093、sk-1104–sk-1111、sk-1122–sk-1131、sk-1142–sk-1151 等故事/短文卡。下表中的 `gap`/`partial` 为审计时快照；最新覆盖状态以 `cards/`、`docs/coverage-volumes.md` 与 `docs/coverage-volumes-gaps-remaining-round4.md` 为准。  
 
+> **归属勘误（2026-09-09）**：《怎样培养真正的人》有 6 张卡的篇目归属与卡片 `ref` 行号不符——第 33 篇实为 0 张（3 张卡属第 38/41/41 篇）、第 36 篇 0 张（属第 42 篇）、第 40 篇 0 张（属第 45 篇）、第 52 篇 0 张（属第 56 篇）。已补建 sk-1259–sk-1262 闭合；证据与复现方法见 `docs/coverage-volumes-chapters-corrections.md`，第 2 卷密度审计见 `docs/vol2-density-report.md`。  
+
 > **审计对象**：教育科学出版社《苏霍姆林斯基选集（五卷本）》中文版（本地扫描 OCR 全文）。  
 > **全文来源**：`local_working_copy/ocr/mineru-range/merged/苏霍姆林斯基选集（五卷本）第1–5卷.txt`（目录页 + 正文标题 OCR）。  
 > **卡片来源**：`cards/*.md` frontmatter 的 `source: xuan-ji-zh-vol1…vol5` 与 `ref` 字段。  

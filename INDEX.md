@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 122 |
-| [family-school](topics/family-school.md) | 家校合作 | 305 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 222 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 126 |
+| [family-school](topics/family-school.md) | 家校合作 | 312 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 223 |
 | [health-first](topics/health-first.md) | 健康第一 | 61 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 265 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 281 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 264 |
-| [love-education](topics/love-education.md) | 爱的教育 | 541 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 47 |
-| [child-study](topics/child-study.md) | 儿童研究 | 425 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 91 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 181 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 289 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 278 |
+| [love-education](topics/love-education.md) | 爱的教育 | 550 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 48 |
+| [child-study](topics/child-study.md) | 儿童研究 | 436 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 93 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 184 |
 
 ## 来源 Sources
 
@@ -1369,3 +1369,23 @@
 | [sk-1334](cards/sk-1334-vol5-family-relations-literacy-course.md) | method | family-school / love-education / teacher-growth | xuan-ji-zh-vol5 | 关于学校教育的思考 |
 | [sk-1335](cards/sk-1335-vol2-understanding-new-material-stage.md) | practice | learning-difficulties / teacher-growth / thinking-and-nature | xuan-ji-zh-vol2 | 理解新教材是课堂教学的一个阶段 |
 | [sk-1336](cards/sk-1336-vol2-physical-self-education-arrangements.md) | practice | health-first / child-study / love-education | xuan-ji-zh-vol2 | 怎样在体育方面引导学生进行自我教育 |
+| [sk-1337](cards/sk-1337-vol2-knowledge-as-means-practice.md) | practice | learning-difficulties / reading-and-books / teacher-growth | xuan-ji-zh-vol2 | 知识既是目的又是手段 |
+| [sk-1338](cards/sk-1338-vol2-teach-students-to-observe.md) | method | thinking-and-nature / learning-difficulties / child-study | xuan-ji-zh-vol2 | 教学生观察,教学生细看 |
+| [sk-1339](cards/sk-1339-vol2-reading-for-difficult-students-practice.md) | practice | reading-and-books / learning-difficulties / teacher-growth | xuan-ji-zh-vol2 | 阅读是“困难”学生智力教育的重要手段 |
+| [sk-1340](cards/sk-1340-vol2-win-minds-and-hearts-case.md) | case | teacher-growth / child-study / collective-education | xuan-ji-zh-vol2 | 要赢得学生的思想和心灵 |
+| [sk-1341](cards/sk-1341-vol2-student-intellectual-life-practice.md) | practice | learning-difficulties / thinking-and-nature / teacher-growth | xuan-ji-zh-vol2 | 关于学生的智力生活 |
+| [sk-1342](cards/sk-1342-vol2-study-preschool-children-thinking.md) | method | child-study / thinking-and-nature / teacher-growth | xuan-ji-zh-vol2 | 怎样研究学前儿童的思维 |
+| [sk-1343](cards/sk-1343-vol2-educating-own-children-practice.md) | practice | family-school / teacher-growth / child-study | xuan-ji-zh-vol2 | 关于对自己子女的教育问题 |
+| [sk-1344](cards/sk-1344-vol2-who-educates-children-practice.md) | practice | family-school / teacher-growth / collective-education | xuan-ji-zh-vol2 | 谁在教育儿童，什么在教育儿童，在教育方面什么取决于教师，什么取决其他教育者 |
+| [sk-1345](cards/sk-1345-vol2-help-children-want-to-learn-practice.md) | practice | assessment-grading / family-school / teacher-growth | xuan-ji-zh-vol2 | 为使儿童愿意好好学习该做些什么 |
+| [sk-1346](cards/sk-1346-vol2-collective-as-tool-case.md) | case | collective-education / labor-education / teacher-growth | xuan-ji-zh-vol2 | 集体是教育的工具，怎样建立集体它靠什么来维持 |
+| [sk-1347](cards/sk-1347-vol2-collective-and-personality-practice.md) | practice | collective-education / child-study / love-education | xuan-ji-zh-vol2 | 怎样通过集体使个性全面发展 |
+| [sk-1348](cards/sk-1348-vol2-how-thinking-matures-practice.md) | practice | collective-education / love-education / teacher-growth | xuan-ji-zh-vol2 | 青少年的思想是怎样成熟起来的 |
+| [sk-1349](cards/sk-1349-vol2-conditions-for-collective-education.md) | practice | collective-education / teacher-growth / child-study | xuan-ji-zh-vol2 | 在哪些条件下集体才能有效地发挥教育个人的作用 |
+| [sk-1350](cards/sk-1350-vol2-what-may-be-discussed-in-collective.md) | practice | collective-education / teacher-growth / love-education | xuan-ji-zh-vol2 | 在学校集体中什么可以讨论和什么不可以讨论 |
+| [sk-1351](cards/sk-1351-vol2-teacher-authority-practice.md) | practice | teacher-growth / love-education / child-study | xuan-ji-zh-vol2 | 教师的权威是什么，应该表现在哪里 |
+| [sk-1352](cards/sk-1352-vol2-understanding-relatives-suffering.md) | method | love-education / family-school / child-study | xuan-ji-zh-vol2 | 理解亲人的痛苦能提高道德敏锐性 |
+| [sk-1353](cards/sk-1353-vol2-teaching-children-to-love-parents.md) | practice | family-school / love-education / child-study | xuan-ji-zh-vol2 | 怎样教会孩子们热爱自己的父母 |
+| [sk-1354](cards/sk-1354-vol2-loyalty-to-close-ones-practice.md) | practice | love-education / family-school / collective-education | xuan-ji-zh-vol2 | 怎样培养对亲人和亲近的人的忠诚感 |
+| [sk-1355](cards/sk-1355-vol2-convey-meaning-of-teacher-labor.md) | method | teacher-growth / love-education / child-study | xuan-ji-zh-vol2 | 怎样把教师劳动的意义传送到学生的意识中去 |
+| [sk-1356](cards/sk-1356-vol2-greatest-joy-is-birth-of-man.md) | case | love-education / family-school / child-study | xuan-ji-zh-vol2 | 最大的欢乐就是人的诞生 |

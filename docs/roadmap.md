@@ -43,7 +43,8 @@
 - [x] 第 5 卷加密度第三轮：再补 8 篇「全引言」篇目（sk-1304–sk-1311：method 5 / practice 3）；第 5 卷卡片 156 → 164
 - [x] 第 2 卷备选清单补卡：下篇 83/84/91、真正的人 50/21 各补 1 张（sk-1312–sk-1316）；第 2 卷卡片 210 → 215
 - [x] 第 2/5 卷加密度**复查审计（第三轮）**（`docs/density-reaudit-round3.md`）：vol2 166 单位 = 129 单卡 / 31 双卡 / 6 ≥3 张，**15 个全引言单位、69 个无可操作卡单位**；vol5 = 3 单卡 / 36 双卡 / 29 ≥3 张，全引言仅剩 2 篇；两卷密度结构已对调。另新发现 6 张卡归属错误（见 `docs/coverage-volumes-chapters-corrections.md` §六）
-- [ ] 第 2 卷继续加密度：仍有 129 个单卡单位、69 个无可操作卡单位；高频主题 assessment-grading / health-first / reading / learning-difficulties 系统性偏少
+- [x] 第 2 卷加密度第五轮：按复查审计的诊断，对 20 个「单卡且唯一卡为 principle/quote」的单位各补一张操作/案例卡（sk-1337–sk-1356：practice 13 / method 4 / case 3）；第 2 卷卡片 232 → 252
+- [ ] 第 2 卷继续加密度：仍有约 109 个单卡单位、约 49 个无可操作卡单位；高频主题 assessment-grading / health-first / reading / learning-difficulties 系统性偏少
 - [x] ZuoRen 漏卡审计与补卡（`docs/zuoren-uncarded-audit.md`）：目录实为 541 篇，补建 sk-1263《暴风雪》p277–278；官方书目 694 条升 H_high
 - [ ] 44 篇中 11 篇 probable + 2 篇 thematic 的人工复核
 - [ ] 113 条对照草稿的人工抽检；5 条 medium + 14 条 none 的后续处理

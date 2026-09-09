@@ -1,5 +1,5 @@
 {
-  "total_cards": 1331,
+  "total_cards": 1351,
   "source_count": 12,
   "topic_count": 12,
   "zuoren_cards": 541,
@@ -14,7 +14,7 @@
     {
       "slug": "xuan-ji-zh-vol2",
       "title": "苏霍姆林斯基选集（五卷本）第2卷",
-      "cards": 232,
+      "cards": 252,
       "page_refs": 45
     },
     {
@@ -81,7 +81,7 @@
   "types": [
     {
       "type": "case",
-      "cards": 658
+      "cards": 661
     },
     {
       "type": "quote",
@@ -93,33 +93,38 @@
     },
     {
       "type": "method",
-      "cards": 151
+      "cards": 155
     },
     {
       "type": "practice",
-      "cards": 68
+      "cards": 81
     }
   ],
   "topics": [
     {
       "slug": "love-education",
       "title": "爱的教育",
-      "cards": 541
+      "cards": 550
     },
     {
       "slug": "child-study",
       "title": "儿童研究",
-      "cards": 425
+      "cards": 436
     },
     {
       "slug": "family-school",
       "title": "家校合作",
-      "cards": 305
+      "cards": 312
     },
     {
       "slug": "collective-education",
       "title": "集体教育",
-      "cards": 281
+      "cards": 289
+    },
+    {
+      "slug": "teacher-growth",
+      "title": "教师成长",
+      "cards": 278
     },
     {
       "slug": "aesthetic-nature-education",
@@ -127,29 +132,24 @@
       "cards": 265
     },
     {
-      "slug": "teacher-growth",
-      "title": "教师成长",
-      "cards": 264
-    },
-    {
       "slug": "labor-education",
       "title": "劳动教育",
-      "cards": 222
+      "cards": 223
     },
     {
       "slug": "thinking-and-nature",
       "title": "思维课与大自然",
-      "cards": 181
+      "cards": 184
     },
     {
       "slug": "learning-difficulties",
       "title": "学习困难学生",
-      "cards": 122
+      "cards": 126
     },
     {
       "slug": "reading-and-books",
       "title": "阅读与书籍",
-      "cards": 91
+      "cards": 93
     },
     {
       "slug": "health-first",
@@ -159,7 +159,7 @@
     {
       "slug": "assessment-grading",
       "title": "评价与分数",
-      "cards": 47
+      "cards": 48
     }
   ]
 }

@@ -88,7 +88,7 @@
 - 15 个静态页面：首页、主题浏览、问题检索、思想地图、案例 Review、书源、卡片详情、主题页、故事索引（541 篇）、覆盖仪表盘、使用指南、最新卡片、**API 检索页**等；支持关键词/主题/来源/类型过滤、全文搜索、JSON/CSV 导出、引用复制、分享、打印/PDF。
 - 性能实测（`docs/web-architecture-options.md` §六）：1351 张卡时首屏 607 KB gzip 级、过滤 2.8 ms、搜索 13.7 ms、**渲染全部卡片后布局 4,090 ms**（因此不一次性渲染全部，保持分页）。
 - **后端 API（档位 B）已实现可运行原型**（2026-09-09）：`scripts/build_db.py` → `api/kb.db`（SQLite + FTS5 trigram），`api/main.py`（FastAPI 11 个端点，同时托管 `web/`），配套前端页 `web/search.html` + `web/config.js`，容器化文件 `Dockerfile` / `docker-compose.yml`，说明见 `api/README.md`。本地实测 1386 张卡检索正常；**尚未部署到公网**。
-- **Cloudflare 免运维变体（2026-09-09）**：`cloudflare/`（Workers + D1），SQL 由 `scripts/build_d1_sql.py` 生成；本地 `wrangler dev --local` + 本地 D1 实测通过（1386 卡 / FTS5 可用 / 接口与 FastAPI 版一致 / 前端跨源调用正常）。**部署需用户自己的 Cloudflare 账号**，步骤见 `cloudflare/README.md`。
+- **Cloudflare 免运维变体（2026-09-09 已上线）**：`cloudflare/`（Workers + D1），SQL 由 `scripts/build_d1_sql.py` 生成。线上地址 **https://suk-kb-api.suk-kb.workers.dev**（D1 `suk-kb`，1386 卡 + FTS5；`/api/search?q=苏霍姆林斯基` 走 FTS5 771 命中、`q=劳动` 走 LIKE 372 命中；GitHub Pages 的 `search.html` 已连上）。CORS 已收紧为站点域名。**注意**：`*.workers.dev` 在国内网络被 DNS 污染（脚本类客户端不可达、浏览器可访问），主要受众在大陆时需绑自定义域名；`search.html` 在后端不可达时会自动回退到本地静态检索。
 - 仍未实施：档位 A 静态分片（把 `web/data.js` 3.26 MB / 755 KB gzip 拆成索引 + 按需取卡）。
 
 ---

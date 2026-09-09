@@ -39,7 +39,8 @@ topics/   → 主题页：按教育场景聚合卡片，并做跨书综合
 - [x] 全量质量审计：`python scripts/audit_cards.py`（0 硬错误 / 0 警告）
 - [x] 网页检索站：[打开 `web/index.html`](web/index.html) · [GitHub Pages](https://craeatzeven.github.io/sukhomlinsky-education-kb/)
 - [x] 网页支持：关键词/主题/来源/类型过滤、全文搜索、JSON/CSV 导出
-- [x] 后端 API（可选，档位 B 原型）：`scripts/build_db.py` → SQLite+FTS5，`api/main.py`（FastAPI，同时托管静态站），前端页 `web/search.html`；见 [`api/README.md`](api/README.md)
+- [x] 后端 API（可选，档位 B）：本地版 `scripts/build_db.py` + `api/main.py`（FastAPI）；**已上线版** [Cloudflare Workers + D1](https://suk-kb-api.suk-kb.workers.dev/api/health)（见 [`cloudflare/README.md`](cloudflare/README.md)）
+- [x] API 检索页 [`web/search.html`](web/search.html)：服务端 FTS5 检索 + 分页 + 聚合 + 导出；后端不可达时自动回退本地静态检索
 - [ ] GitHub Actions CI（本地凭据缺少 workflow scope，暂用 `scripts/validate_all.py` 代替）
 - [x] 五卷本逐章覆盖审计（`docs/coverage-volumes-chapters.md`）+ 四轮剩余缺口审计：143 个 `gap` 已全部补卡
 - [ ] 网页架构升级（可选，见 `docs/web-architecture-options.md`：静态分片 A 未做，后端 B 已有可运行原型）

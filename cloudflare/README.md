@@ -3,6 +3,34 @@
 > 与 `api/`（FastAPI 版）**接口形状完全一致**，`web/search.html` 不用改代码，只改 `web/config.js` 里的 `apiBase`。
 > 选它是因为：无需服务器、免费额度足够、全球边缘节点、数据库用托管 SQLite（D1）。
 
+## 零、当前部署状态（2026-09-09 已上线）
+
+| 项 | 值 |
+|---|---|
+| Worker 地址 | **https://suk-kb-api.suk-kb.workers.dev** |
+| 版本 ID | `d324cabb-dec3-420b-b5c2-8c9804abbde3` |
+| D1 数据库 | `suk-kb` · id `e8883afd-c7e5-4b9b-bb84-fa3be965a3c8` · 区域 WNAM |
+| workers.dev 子域 | `suk-kb` |
+| 数据量 | 1386 卡 / 2970 主题关联 / FTS5 1386 行 |
+| CORS | 已收紧为 `https://craeatzeven.github.io` |
+| 前端接线 | `web/config.js` 的 `apiBase` 已指向该地址；Pages 上的 `search.html` 实测已连上后端 |
+
+**线上实测（2026-09-09）**：
+
+| 检查 | 结果 |
+|---|---|
+| `/api/health` | `{"status":"ok","cards":1386,"backend":"cloudflare-workers-d1"}` |
+| `/api/meta` | 1386 卡 / 12 来源 / 12 主题 |
+| `/api/search?q=劳动` | `like-short-query` · 372 命中 |
+| `/api/search?q=苏霍姆林斯基` | `fts-trigram` · 771 命中 |
+| `/api/search?q=劳动 教育` | 336 命中 |
+| `/api/random`、`/api/coverage` | 正常 |
+| GitHub Pages `search.html` | 显示「后端已连接 · 共 1386 张卡」，渲染 20 条/页、70 页 |
+
+> ⚠️ **网络注意**：本机用 Python/curl 访问 `*.workers.dev` 会失败（DNS 被污染到 75.126.150.210 / 67.228.235.93，TLS 握手被重置），但 **Chrome 能正常打开**（浏览器自带 DoH）。
+> 也就是说：**浏览器/用户能访问，脚本类客户端在国内网络可能不行**。
+> 如果主要受众在中国大陆，建议给 Worker 绑一个**自定义域名**（见下节末尾），`*.workers.dev` 在国内普遍被屏蔽。
+
 ```
 cards/*.md ──scripts/build_d1_sql.py──▶ cloudflare/{schema.sql,data.sql,schema_fts.sql,coverage.json}
                                               │  wrangler d1 execute --file

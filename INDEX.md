@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 105 |
-| [family-school](topics/family-school.md) | 家校合作 | 283 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 209 |
-| [health-first](topics/health-first.md) | 健康第一 | 52 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 109 |
+| [family-school](topics/family-school.md) | 家校合作 | 284 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 210 |
+| [health-first](topics/health-first.md) | 健康第一 | 53 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 261 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 260 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 223 |
-| [love-education](topics/love-education.md) | 爱的教育 | 489 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 43 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 262 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 228 |
+| [love-education](topics/love-education.md) | 爱的教育 | 492 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 44 |
 | [child-study](topics/child-study.md) | 儿童研究 | 383 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 83 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 169 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 85 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 172 |
 
 ## 来源 Sources
 
@@ -1283,6 +1283,14 @@
 | [sk-1248](cards/sk-1248-parent-school-curriculum.md) | method | family-school / love-education / child-study | xuan-ji-zh-vol2 | 怎样培养母亲和父亲做好学校和家庭的协同教育工作 |
 | [sk-1249](cards/sk-1249-parents-role-know-their-work.md) | practice | family-school / love-education / labor-education | xuan-ji-zh-vol2 | 父母在孩子生活中的作用 |
 | [sk-1250](cards/sk-1250-three-kinds-of-unreasonable-love.md) | case | family-school / love-education / child-study | xuan-ji-zh-vol2 | 作为教育者的父母怎样做到行动统一 |
+| [sk-1251](cards/sk-1251-labor-and-intellect-link.md) | case | labor-education / thinking-and-nature / learning-difficulties | xuan-ji-zh-vol2 | 通过爱劳动促进学生智力发展 |
+| [sk-1252](cards/sk-1252-reducing-marking-burden-three-steps.md) | method | assessment-grading / teacher-growth | xuan-ji-zh-vol2 | 怎样减轻批改作业之苦 |
+| [sk-1253](cards/sk-1253-second-syllabus-reading-list.md) | practice | reading-and-books / thinking-and-nature / learning-difficulties | xuan-ji-zh-vol2 | “两个教学大纲”，发展学生的思维 |
+| [sk-1254](cards/sk-1254-visual-aids-three-redlines.md) | method | thinking-and-nature / learning-difficulties / teacher-growth | xuan-ji-zh-vol2 | 直观是认识的途径，是照亮认识途径的光辉 |
+| [sk-1255](cards/sk-1255-mental-labor-four-requirements.md) | method | learning-difficulties / teacher-growth / health-first | xuan-ji-zh-vol2 | 怎样教孩子正确对待脑力劳动 |
+| [sk-1256](cards/sk-1256-school-as-source-of-spiritual-life-family-library.md) | practice | family-school / reading-and-books / love-education | xuan-ji-zh-vol2 | 培养对待学校的态度要像对待人民精神生活的最重要的发源地那样 |
+| [sk-1257](cards/sk-1257-school-life-as-civic-life-checklist.md) | practice | collective-education / love-education / teacher-growth | xuan-ji-zh-vol2 | 在校学习是正在成长一代的积极的公民生活 |
+| [sk-1258](cards/sk-1258-belief-formation-objective-necessity.md) | principle | collective-education / love-education / teacher-growth | xuan-ji-zh-vol2 | 共产主义信念的形成是社会进步和道德进步的客观必然性 |
 | [sk-1259](cards/sk-1259-conscience-guides-conduct.md) | principle | love-education / child-study / teacher-growth | xuan-ji-zh-vol2 | 怎样才能做到使行为举止听从良心的最强有力的指挥 |
 | [sk-1260](cards/sk-1260-shared-participation-and-feeling.md) | method | love-education / collective-education / family-school | xuan-ji-zh-vol2 | 怎样培养自己的学生具有共同参与、共同感受的能力 |
 | [sk-1261](cards/sk-1261-generosity-and-selflessness.md) | method | love-education / family-school / labor-education | xuan-ji-zh-vol2 | 怎样培养孩子具有慷慨大方和大公无私的品格 |

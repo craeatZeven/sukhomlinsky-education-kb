@@ -4,6 +4,7 @@
 > **数据来源**：`docs/coverage-volumes-chapters.md`（310 行审计单位表）、`cards/*.md`（1233 张卡）、`local_working_copy/ocr/mineru-range/merged/苏霍姆林斯基选集(五卷本)第2卷.txt`（9140 行）。
 > **只读声明**：本报告未改动 `cards/`、`docs/`、`INDEX.md`、`web/`，未执行任何 git 写命令，未删除任何文件；分析脚本全部写在仓库外 `D:\Local\Temp\density1\`。本文件是本次唯一的仓库内写入（`local_working_copy/` 已在 `.gitignore` 中）。
 > **时点**：卡片库快照 = `cards/*.md` 1233 张，最大 id **sk-1238**，五卷本卡 543 张（vol1 67 / vol2 186 / vol3 97 / vol4 77 / vol5 116）。
+> **后续动作（2026-09-09 回填）**：§四 的 20 项已全部建卡（`sk-1239`–`sk-1258`）；§六.2 的归属冲突已由 `docs/coverage-volumes-chapters-corrections.md` 裁定并补建 `sk-1259`–`sk-1262`。第 2 卷卡片数 186 → 210，全库 1233 → 1257。
 
 ---
 

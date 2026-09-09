@@ -18,12 +18,16 @@ cards/*.md ──scripts/build_d1_sql.py──▶ cloudflare/{schema.sql,data.sq
 
 ## 一、部署（约 10 分钟，全部命令在 `cloudflare/` 目录下执行）
 
+> **在 Windows 上跑，不要用 WSL。** 本仓库在 `D:\Git\sukhomlinsky-education-kb`，
+> PowerShell 里 `cd D:\Git\sukhomlinsky-education-kb\cloudflare`；
+> 本机 Python 是 `D:\python\python.exe`（WSL 里既没有 `python` 命令，npm 还配着一个不通的代理）。
+
 ```bash
-cd cloudflare
-npm install                       # 安装 wrangler（首次）
+cd D:\Git\sukhomlinsky-education-kb\cloudflare
+npm install                       # 安装 wrangler（首次；本机已装好可跳过）
 
 # 1) 生成 SQL（在仓库根目录执行）
-python ../scripts/build_d1_sql.py --fts
+D:\python\python.exe ..\scripts\build_d1_sql.py --fts
 
 # 2) 登录 Cloudflare（浏览器授权，只需一次）
 npx wrangler login
@@ -31,7 +35,7 @@ npx wrangler login
 # 3) 创建 D1 数据库，把输出里的 database_id 填进 wrangler.toml
 npx wrangler d1 create suk-kb
 
-# 4) 建表 + 导入数据（1386 张卡，约 3.4 MB）
+# 4) 建表 + 导入数据（1386 张卡，约 3.1 MB）
 npx wrangler d1 execute suk-kb --remote --file=./schema.sql --yes
 npx wrangler d1 execute suk-kb --remote --file=./data.sql --yes
 
@@ -65,8 +69,8 @@ window.KB_CONFIG = { apiBase: "https://suk-kb-api.<你的子域>.workers.dev" };
 ## 三、本地预览（不需要 Cloudflare 账号）
 
 ```bash
-cd cloudflare
-npm install                 # 安装 wrangler（首次）
+cd D:\Git\sukhomlinsky-education-kb\cloudflare
+npm install                 # 安装 wrangler（首次；本机已装好可跳过）
 npm run db:schema:local     # 本地 D1：建表
 npm run db:data:local       # 导入 1386 张卡
 npm run db:fts:local        # 可选：FTS5 索引

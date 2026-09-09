@@ -4,17 +4,17 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 109 |
-| [family-school](topics/family-school.md) | 家校合作 | 284 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 210 |
-| [health-first](topics/health-first.md) | 健康第一 | 53 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 261 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 263 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 228 |
-| [love-education](topics/love-education.md) | 爱的教育 | 493 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 112 |
+| [family-school](topics/family-school.md) | 家校合作 | 285 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 212 |
+| [health-first](topics/health-first.md) | 健康第一 | 55 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 262 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 267 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 236 |
+| [love-education](topics/love-education.md) | 爱的教育 | 500 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 44 |
-| [child-study](topics/child-study.md) | 儿童研究 | 384 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 85 |
+| [child-study](topics/child-study.md) | 儿童研究 | 391 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 86 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 172 |
 
 ## 来源 Sources
@@ -1296,3 +1296,15 @@
 | [sk-1261](cards/sk-1261-generosity-and-selflessness.md) | method | love-education / family-school / labor-education | xuan-ji-zh-vol2 | 怎样培养孩子具有慷慨大方和大公无私的品格 |
 | [sk-1262](cards/sk-1262-beauty-as-means-of-moral-education.md) | principle | aesthetic-nature-education / love-education / labor-education | xuan-ji-zh-vol2 | 美是培养善良、热爱劳动、热诚和爱情的重要手段 |
 | [sk-1263](cards/sk-1263-blizzard-two-boys.md) | case | love-education / child-study / collective-education | zuo-ren-de-gu-shi-zh | 暴风雪：两个孩子看见对方，就不那么怕了 |
+| [sk-1264](cards/sk-1264-vol5-multi-channel-help-for-lagging-students.md) | method | learning-difficulties / child-study / teacher-growth | xuan-ji-zh-vol5 | 班里的后进生 |
+| [sk-1265](cards/sk-1265-vol5-teach-students-how-to-learn-reading-dose.md) | method | learning-difficulties / reading-and-books / teacher-growth | xuan-ji-zh-vol5 | 教会学生学习 |
+| [sk-1266](cards/sk-1266-vol5-overload-beyond-memorization.md) | method | learning-difficulties / health-first / teacher-growth | xuan-ji-zh-vol5 | 负担过重揭秘 |
+| [sk-1267](cards/sk-1267-vol5-starting-point-of-citizenship.md) | method | love-education / collective-education / teacher-growth | xuan-ji-zh-vol5 | 公民的起点 |
+| [sk-1268](cards/sk-1268-vol5-behavior-training-as-discipline-method.md) | method | collective-education / teacher-growth / love-education | xuan-ji-zh-vol5 | 行为训练是自觉纪律教育的一种方法 |
+| [sk-1269](cards/sk-1269-vol5-how-to-love-students-protective-education.md) | method | love-education / teacher-growth / child-study | xuan-ji-zh-vol5 | 怎样爱学生 |
+| [sk-1270](cards/sk-1270-vol5-emotional-education-three-channels.md) | method | love-education / aesthetic-nature-education / child-study | xuan-ji-zh-vol5 | 情感教育 |
+| [sk-1271](cards/sk-1271-vol5-letter-on-educational-ethics-checklist.md) | method | teacher-growth / love-education / child-study | xuan-ji-zh-vol5 | 关于教育道德的一封信 |
+| [sk-1272](cards/sk-1272-vol5-teacher-language-training-paths.md) | method | teacher-growth / love-education / collective-education | xuan-ji-zh-vol5 | 德育中的教师语言 |
+| [sk-1273](cards/sk-1273-vol5-develop-each-student-unique-beauty.md) | method | child-study / love-education / labor-education | xuan-ji-zh-vol5 | 开发出每个学生独特的人格之美 |
+| [sk-1274](cards/sk-1274-vol5-develop-abilities-and-interests-groups.md) | practice | child-study / labor-education / collective-education | xuan-ji-zh-vol5 | 发展学生的个人能力与爱好 |
+| [sk-1275](cards/sk-1275-vol5-our-duty-is-to-educate-people.md) | method | child-study / health-first / family-school | xuan-ji-zh-vol5 | 我们的职责是培养人 |

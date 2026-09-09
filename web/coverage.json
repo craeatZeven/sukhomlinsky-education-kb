@@ -1,5 +1,5 @@
 {
-  "total_cards": 1258,
+  "total_cards": 1270,
   "source_count": 12,
   "topic_count": 12,
   "zuoren_cards": 541,
@@ -20,7 +20,7 @@
     {
       "slug": "xuan-ji-zh-vol5",
       "title": "苏霍姆林斯基选集（五卷本）第5卷",
-      "cards": 116,
+      "cards": 128,
       "page_refs": 109
     },
     {
@@ -93,48 +93,48 @@
     },
     {
       "type": "method",
-      "cards": 116
+      "cards": 127
     },
     {
       "type": "practice",
-      "cards": 46
+      "cards": 47
     }
   ],
   "topics": [
     {
       "slug": "love-education",
       "title": "爱的教育",
-      "cards": 493
+      "cards": 500
     },
     {
       "slug": "child-study",
       "title": "儿童研究",
-      "cards": 384
+      "cards": 391
     },
     {
       "slug": "family-school",
       "title": "家校合作",
-      "cards": 284
+      "cards": 285
     },
     {
       "slug": "collective-education",
       "title": "集体教育",
-      "cards": 263
+      "cards": 267
     },
     {
       "slug": "aesthetic-nature-education",
       "title": "美育与自然",
-      "cards": 261
+      "cards": 262
     },
     {
       "slug": "teacher-growth",
       "title": "教师成长",
-      "cards": 228
+      "cards": 236
     },
     {
       "slug": "labor-education",
       "title": "劳动教育",
-      "cards": 210
+      "cards": 212
     },
     {
       "slug": "thinking-and-nature",
@@ -144,17 +144,17 @@
     {
       "slug": "learning-difficulties",
       "title": "学习困难学生",
-      "cards": 109
+      "cards": 112
     },
     {
       "slug": "reading-and-books",
       "title": "阅读与书籍",
-      "cards": 85
+      "cards": 86
     },
     {
       "slug": "health-first",
       "title": "健康第一",
-      "cards": 53
+      "cards": 55
     },
     {
       "slug": "assessment-grading",

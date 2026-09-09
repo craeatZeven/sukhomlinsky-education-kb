@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 112 |
-| [family-school](topics/family-school.md) | 家校合作 | 289 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 214 |
-| [health-first](topics/health-first.md) | 健康第一 | 56 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 263 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 270 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 236 |
-| [love-education](topics/love-education.md) | 爱的教育 | 506 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 114 |
+| [family-school](topics/family-school.md) | 家校合作 | 295 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 220 |
+| [health-first](topics/health-first.md) | 健康第一 | 57 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 265 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 274 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 245 |
+| [love-education](topics/love-education.md) | 爱的教育 | 519 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 45 |
-| [child-study](topics/child-study.md) | 儿童研究 | 395 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 86 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 174 |
+| [child-study](topics/child-study.md) | 儿童研究 | 405 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 89 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 178 |
 
 ## 来源 Sources
 
@@ -1316,3 +1316,23 @@
 | [sk-1281](cards/sk-1281-vol5-letter-to-young-father-desires.md) | practice | family-school / love-education / child-study | xuan-ji-zh-vol5 | 致年轻父亲的信 |
 | [sk-1282](cards/sk-1282-vol5-labor-aspiration-happiness-guidance.md) | method | labor-education / child-study / love-education | xuan-ji-zh-vol5 | 劳动·志向·幸福 |
 | [sk-1283](cards/sk-1283-vol5-cultivating-sense-of-duty.md) | practice | love-education / family-school / collective-education | xuan-ji-zh-vol5 | 义务感的培养 |
+| [sk-1284](cards/sk-1284-vol5-interest-as-motive-of-learning.md) | method | learning-difficulties / teacher-growth / child-study | xuan-ji-zh-vol5 | 学习兴趣是学生学习活动的重要动力 |
+| [sk-1285](cards/sk-1285-vol5-mental-labor-and-life-connection.md) | method | labor-education / thinking-and-nature / teacher-growth | xuan-ji-zh-vol5 | 脑力劳动及学校与生活的联系 |
+| [sk-1286](cards/sk-1286-vol5-society-and-teacher-growth.md) | method | teacher-growth / collective-education / family-school | xuan-ji-zh-vol5 | 社会与教师 |
+| [sk-1287](cards/sk-1287-vol5-labor-foundation-of-development.md) | practice | labor-education / child-study / love-education | xuan-ji-zh-vol5 | 劳动是人全面发展的基础 |
+| [sk-1288](cards/sk-1288-vol5-teacher-and-children-self-reflection.md) | method | teacher-growth / love-education / child-study | xuan-ji-zh-vol5 | 教师与孩子们 |
+| [sk-1289](cards/sk-1289-vol5-education-and-self-education-mechanism.md) | principle | love-education / child-study / health-first | xuan-ji-zh-vol5 | 教育与自我教育 |
+| [sk-1290](cards/sk-1290-vol5-how-to-praise-properly.md) | method | love-education / collective-education / teacher-growth | xuan-ji-zh-vol5 | 要善于表扬好人好事 |
+| [sk-1291](cards/sk-1291-vol5-a-piece-of-bread-civic-education.md) | practice | love-education / labor-education / family-school | xuan-ji-zh-vol5 | 一块面包 |
+| [sk-1292](cards/sk-1292-vol5-see-both-trees-and-forest.md) | method | reading-and-books / thinking-and-nature / teacher-growth | xuan-ji-zh-vol5 | 既要见树木，也要见森林 |
+| [sk-1293](cards/sk-1293-vol5-build-trust-with-students.md) | method | teacher-growth / love-education / child-study | xuan-ji-zh-vol5 | 没有信任便没有教育 |
+| [sk-1294](cards/sk-1294-vol5-classroom-teaching-and-knowledge-case.md) | case | thinking-and-nature / learning-difficulties / teacher-growth | xuan-ji-zh-vol5 | 课堂教学与知识 |
+| [sk-1295](cards/sk-1295-vol5-my-educational-creed-practice.md) | practice | love-education / collective-education / child-study | xuan-ji-zh-vol5 | 我的教育信念 |
+| [sk-1296](cards/sk-1296-vol5-parents-pedagogy-actions.md) | practice | family-school / love-education / child-study | xuan-ji-zh-vol5 | 父母教育学 |
+| [sk-1297](cards/sk-1297-vol5-man-is-the-greatest-wealth.md) | method | love-education / child-study / collective-education | xuan-ji-zh-vol5 | 人是最巨大的财富 |
+| [sk-1298](cards/sk-1298-vol5-literature-as-educational-means.md) | practice | reading-and-books / love-education / aesthetic-nature-education | xuan-ji-zh-vol5 | 强有力的教育手段 |
+| [sk-1299](cards/sk-1299-vol5-todays-schoolchild-books-over-screens.md) | method | reading-and-books / child-study / family-school | xuan-ji-zh-vol5 | 今日的小学生 |
+| [sk-1300](cards/sk-1300-vol5-nature-labor-and-worldview.md) | practice | aesthetic-nature-education / labor-education / thinking-and-nature | xuan-ji-zh-vol5 | 大自然、劳动和世界观 |
+| [sk-1301](cards/sk-1301-vol5-three-factors-of-labor-education.md) | method | labor-education / love-education / child-study | xuan-ji-zh-vol5 | “应该劳动”、“劳动艰苦”和“劳动美好”三个因素的和谐统一 |
+| [sk-1302](cards/sk-1302-vol5-labor-of-the-heart-arrangements.md) | method | teacher-growth / love-education / family-school | xuan-ji-zh-vol5 | 心灵的劳动 |
+| [sk-1303](cards/sk-1303-vol5-dont-let-soul-rust.md) | practice | family-school / love-education / labor-education | xuan-ji-zh-vol5 | 别让心灵锈斑斑 |

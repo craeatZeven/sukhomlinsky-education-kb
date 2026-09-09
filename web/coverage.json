@@ -1,5 +1,5 @@
 {
-  "total_cards": 1278,
+  "total_cards": 1298,
   "source_count": 12,
   "topic_count": 12,
   "zuoren_cards": 541,
@@ -20,7 +20,7 @@
     {
       "slug": "xuan-ji-zh-vol5",
       "title": "苏霍姆林斯基选集（五卷本）第5卷",
-      "cards": 136,
+      "cards": 156,
       "page_refs": 109
     },
     {
@@ -81,7 +81,7 @@
   "types": [
     {
       "type": "case",
-      "cards": 648
+      "cards": 649
     },
     {
       "type": "quote",
@@ -89,72 +89,72 @@
     },
     {
       "type": "principle",
-      "cards": 191
+      "cards": 192
     },
     {
       "type": "method",
-      "cards": 128
+      "cards": 139
     },
     {
       "type": "practice",
-      "cards": 51
+      "cards": 58
     }
   ],
   "topics": [
     {
       "slug": "love-education",
       "title": "爱的教育",
-      "cards": 506
+      "cards": 519
     },
     {
       "slug": "child-study",
       "title": "儿童研究",
-      "cards": 395
+      "cards": 405
     },
     {
       "slug": "family-school",
       "title": "家校合作",
-      "cards": 289
+      "cards": 295
     },
     {
       "slug": "collective-education",
       "title": "集体教育",
-      "cards": 270
+      "cards": 274
     },
     {
       "slug": "aesthetic-nature-education",
       "title": "美育与自然",
-      "cards": 263
+      "cards": 265
     },
     {
       "slug": "teacher-growth",
       "title": "教师成长",
-      "cards": 236
+      "cards": 245
     },
     {
       "slug": "labor-education",
       "title": "劳动教育",
-      "cards": 214
+      "cards": 220
     },
     {
       "slug": "thinking-and-nature",
       "title": "思维课与大自然",
-      "cards": 174
+      "cards": 178
     },
     {
       "slug": "learning-difficulties",
       "title": "学习困难学生",
-      "cards": 112
+      "cards": 114
     },
     {
       "slug": "reading-and-books",
       "title": "阅读与书籍",
-      "cards": 86
+      "cards": 89
     },
     {
       "slug": "health-first",
       "title": "健康第一",
-      "cards": 56
+      "cards": 57
     },
     {
       "slug": "assessment-grading",

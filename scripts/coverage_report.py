@@ -137,7 +137,7 @@ def main() -> int:
     lines.append('')
     lines.append('## 当前已知缺口')
     lines.append('')
-    lines.append('- 《做人的故事》540 个目录标题已全部建卡；页码已与 OCR 正文页逐条核对（含 OCR 异体字/错字映射）。')
+    lines.append('- 《做人的故事》目录共 541 篇（540 个不重复标题 + 同题《暴风雪》两篇：p59 救小鸟 / p277–278 托利亚与萨沙），已全部建卡；页码已与 OCR 正文页逐条核对（含 OCR 异体字/错字映射）。')
     lines.append('- 《苏霍姆林斯基讲美德故事》44 篇已全量盘点：31 篇确认同源、11 篇高度可能、2 篇仅主题相关；详见 `docs/story-coverage-meide-gushi.md`。')
     lines.append('- 113 条官方故事书目已盘点并完成全量核验：98/113 高置信可挂现有卡（10 A + 88 H；15 条 E_none）；另用本地全文补建 sk-1085–sk-1091 等故事卡。')
     lines.append('- 五卷本已按作品统计（`docs/coverage-volumes.md`），并完成章节级覆盖审计与四轮剩余缺口审计：原 143 个 gap 中 135 个已不再空白、7 个仍空白、1 个口径存疑（第四轮快照 1226 卡）；该 7 项已由 sk-1232–sk-1238 补卡。详见 `docs/coverage-volumes-chapters.md` 与 `docs/coverage-volumes-gaps-remaining-round4.md`。')

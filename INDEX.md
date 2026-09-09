@@ -9,11 +9,11 @@
 | [labor-education](topics/labor-education.md) | 劳动教育 | 210 |
 | [health-first](topics/health-first.md) | 健康第一 | 53 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 261 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 262 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 263 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 228 |
-| [love-education](topics/love-education.md) | 爱的教育 | 492 |
+| [love-education](topics/love-education.md) | 爱的教育 | 493 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 44 |
-| [child-study](topics/child-study.md) | 儿童研究 | 383 |
+| [child-study](topics/child-study.md) | 儿童研究 | 384 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 85 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 172 |
 
@@ -1295,3 +1295,4 @@
 | [sk-1260](cards/sk-1260-shared-participation-and-feeling.md) | method | love-education / collective-education / family-school | xuan-ji-zh-vol2 | 怎样培养自己的学生具有共同参与、共同感受的能力 |
 | [sk-1261](cards/sk-1261-generosity-and-selflessness.md) | method | love-education / family-school / labor-education | xuan-ji-zh-vol2 | 怎样培养孩子具有慷慨大方和大公无私的品格 |
 | [sk-1262](cards/sk-1262-beauty-as-means-of-moral-education.md) | principle | aesthetic-nature-education / love-education / labor-education | xuan-ji-zh-vol2 | 美是培养善良、热爱劳动、热诚和爱情的重要手段 |
+| [sk-1263](cards/sk-1263-blizzard-two-boys.md) | case | love-education / child-study / collective-education | zuo-ren-de-gu-shi-zh | 暴风雪：两个孩子看见对方，就不那么怕了 |

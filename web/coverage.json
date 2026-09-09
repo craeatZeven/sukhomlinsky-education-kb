@@ -1,15 +1,15 @@
 {
-  "total_cards": 1257,
+  "total_cards": 1258,
   "source_count": 12,
   "topic_count": 12,
-  "zuoren_cards": 540,
+  "zuoren_cards": 541,
   "zuoren_titles": 540,
   "sources": [
     {
       "slug": "zuo-ren-de-gu-shi-zh",
       "title": "做人的故事",
-      "cards": 540,
-      "page_refs": 540
+      "cards": 541,
+      "page_refs": 541
     },
     {
       "slug": "xuan-ji-zh-vol2",
@@ -81,7 +81,7 @@
   "types": [
     {
       "type": "case",
-      "cards": 644
+      "cards": 645
     },
     {
       "type": "quote",
@@ -104,12 +104,12 @@
     {
       "slug": "love-education",
       "title": "爱的教育",
-      "cards": 492
+      "cards": 493
     },
     {
       "slug": "child-study",
       "title": "儿童研究",
-      "cards": 383
+      "cards": 384
     },
     {
       "slug": "family-school",
@@ -119,7 +119,7 @@
     {
       "slug": "collective-education",
       "title": "集体教育",
-      "cards": 262
+      "cards": 263
     },
     {
       "slug": "aesthetic-nature-education",

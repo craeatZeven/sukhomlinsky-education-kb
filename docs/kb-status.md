@@ -9,7 +9,7 @@
 
 | 项 | 数值 |
 |---|---|
-| 卡片总数 | **1371**（本文件随批次更新；实时值以 `cards/` 与 `docs/coverage-dashboard.md` 为准） |
+| 卡片总数 | **1386**（本文件随批次更新；实时值以 `cards/` 与 `docs/coverage-dashboard.md` 为准） |
 | 来源 | 13 个已登记（12 个已有卡） |
 | 主题 | 12 个 |
 | 在线站点 | https://craeatzeven.github.io/sukhomlinsky-education-kb/ |

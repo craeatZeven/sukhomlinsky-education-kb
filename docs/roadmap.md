@@ -45,7 +45,9 @@
 - [x] 第 2/5 卷加密度**复查审计（第三轮）**（`docs/density-reaudit-round3.md`）：vol2 166 单位 = 129 单卡 / 31 双卡 / 6 ≥3 张，**15 个全引言单位、69 个无可操作卡单位**；vol5 = 3 单卡 / 36 双卡 / 29 ≥3 张，全引言仅剩 2 篇；两卷密度结构已对调。另新发现 6 张卡归属错误（见 `docs/coverage-volumes-chapters-corrections.md` §六）
 - [x] 第 2 卷加密度第五轮：按复查审计的诊断，对 20 个「单卡且唯一卡为 principle/quote」的单位各补一张操作/案例卡（sk-1337–sk-1356：practice 13 / method 4 / case 3）；第 2 卷卡片 232 → 252
 - [x] 第 2 卷加密度第六轮：再补 20 个「单卡且唯一卡为 principle/quote」单位（sk-1357–sk-1376：practice 12 / method 7 / case 1），覆盖珍惜幸福、成熟思想、奉献、义务感、正确对待死、纪念先辈、理解悲痛、良心感、良心指挥、道德自由、分寸行为、追求善良、不妥协、教师才能形成、孤独者教育、保密、信念形成绪论、对他人的义务、求知欲课例、忠诚感；第 2 卷卡片 252 → 272
-- [ ] 第 2 卷继续加密度：仍有约 89 个单卡单位、约 29 个无可操作卡单位；高频主题 assessment-grading / health-first / reading / learning-difficulties 系统性偏少
+- [x] 第 2 卷加密度第七轮：补 15 张（sk-1377–sk-1391：practice 8 / case 5 / method 2），覆盖知识欢乐、欲望素养、正确对待爱、美育手段、革命者行动、理想与思想性、纯洁激情、信念与精神面貌案例、信念形成方法、信念形成过程案例、结束语落地、父辈与孩子和谐、敬老案例、生日祝贺案例、「应当—困难—好」场景；第 2 卷卡片 272 → 287
+- [x] 知识库状态总表 `docs/kb-status.md`（规模/三项覆盖审计/密度/质量门/缺口/文档索引，作为新会话单一入口）
+- [ ] 第 2 卷继续加密度：仍有约 74 个单卡单位、约 24 个无可操作卡单位；高频主题 assessment-grading / health-first / reading / learning-difficulties 系统性偏少
 - [x] ZuoRen 漏卡审计与补卡（`docs/zuoren-uncarded-audit.md`）：目录实为 541 篇，补建 sk-1263《暴风雪》p277–278；官方书目 694 条升 H_high
 - [ ] 44 篇中 11 篇 probable + 2 篇 thematic 的人工复核
 - [ ] 113 条对照草稿的人工抽检；5 条 medium + 14 条 none 的后续处理

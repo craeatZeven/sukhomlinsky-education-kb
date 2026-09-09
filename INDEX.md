@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 127 |
-| [family-school](topics/family-school.md) | 家校合作 | 321 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 224 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 128 |
+| [family-school](topics/family-school.md) | 家校合作 | 326 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 225 |
 | [health-first](topics/health-first.md) | 健康第一 | 61 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 265 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 297 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 288 |
-| [love-education](topics/love-education.md) | 爱的教育 | 567 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 266 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 305 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 295 |
+| [love-education](topics/love-education.md) | 爱的教育 | 581 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 48 |
-| [child-study](topics/child-study.md) | 儿童研究 | 448 |
+| [child-study](topics/child-study.md) | 儿童研究 | 455 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 94 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 185 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 186 |
 
 ## 来源 Sources
 
@@ -1409,3 +1409,18 @@
 | [sk-1374](cards/sk-1374-vol2-duty-to-others-practice.md) | practice | love-education / family-school / child-study | xuan-ji-zh-vol2 | 孩子应该怎样理解自己对他人的义务 |
 | [sk-1375](cards/sk-1375-vol2-curiosity-case.md) | case | learning-difficulties / child-study / teacher-growth | xuan-ji-zh-vol2 | 怎样激起求知欲 |
 | [sk-1376](cards/sk-1376-vol2-loyalty-meaning-practice.md) | practice | love-education / collective-education / family-school | xuan-ji-zh-vol2 | 忠诚感和对别人的忠诚意味着什么 |
+| [sk-1377](cards/sk-1377-vol2-joy-of-knowledge-practice.md) | practice | learning-difficulties / thinking-and-nature / teacher-growth | xuan-ji-zh-vol2 | 怎样使学生们具有知识的欢乐 |
+| [sk-1378](cards/sk-1378-vol2-culture-of-desires-practice.md) | practice | love-education / family-school / child-study | xuan-ji-zh-vol2 | 怎样使男女青年们具有人的欲望的素养 |
+| [sk-1379](cards/sk-1379-vol2-right-attitude-to-love-practice.md) | practice | love-education / family-school / child-study | xuan-ji-zh-vol2 | 怎样培养青年们正确对待爱 |
+| [sk-1380](cards/sk-1380-vol2-beauty-as-means-practice.md) | practice | aesthetic-nature-education / love-education / labor-education | xuan-ji-zh-vol2 | 美是培养善良、热爱劳动、热诚和爱情的重要手段 |
+| [sk-1381](cards/sk-1381-vol2-revolutionary-today-practice.md) | practice | love-education / collective-education / teacher-growth | xuan-ji-zh-vol2 | 在当今做个革命者意味着什么 |
+| [sk-1382](cards/sk-1382-vol2-ideological-education-through-ideals-practice.md) | practice | love-education / collective-education / teacher-growth | xuan-ji-zh-vol2 | 用追求理想的方法培养思想性 |
+| [sk-1383](cards/sk-1383-vol2-protect-pure-passions-practice.md) | practice | love-education / child-study / collective-education | xuan-ji-zh-vol2 | 要保护青少年内心的纯洁激情 |
+| [sk-1384](cards/sk-1384-vol2-belief-and-spiritual-image-case.md) | case | collective-education / love-education / teacher-growth | xuan-ji-zh-vol2 | 信念对形成人的精神面貌的作用 |
+| [sk-1385](cards/sk-1385-vol2-belief-formation-objective-method.md) | method | collective-education / love-education / teacher-growth | xuan-ji-zh-vol2 | 共产主义信念的形成是社会进步和道德进步的客观必然性 |
+| [sk-1386](cards/sk-1386-vol2-belief-formation-process-case.md) | case | collective-education / teacher-growth / love-education | xuan-ji-zh-vol2 | 共产主义信念的形成过程 |
+| [sk-1387](cards/sk-1387-vol2-young-generation-conclusion-practice.md) | practice | collective-education / love-education / teacher-growth | xuan-ji-zh-vol2 | 结束语：把信念的号召落成可做的具体事情 |
+| [sk-1388](cards/sk-1388-vol2-harmony-between-generations-method.md) | method | family-school / love-education / child-study | xuan-ji-zh-vol2 | 怎样培养父辈和孩子们之间的和谐关系 |
+| [sk-1389](cards/sk-1389-vol2-respect-grandparents-case.md) | case | family-school / love-education / child-study | xuan-ji-zh-vol2 | 培养尊敬爷爷奶奶的情感 |
+| [sk-1390](cards/sk-1390-vol2-birthday-congratulations-case.md) | case | family-school / love-education / child-study | xuan-ji-zh-vol2 | 怎样祝贺亲人的生日 |
+| [sk-1391](cards/sk-1391-vol2-connecting-should-difficult-good-case.md) | case | love-education / child-study / collective-education | xuan-ji-zh-vol2 | 怎样把孩子行为中的“应当”、“困难”和“好”连接起来 |

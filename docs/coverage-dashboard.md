@@ -5,7 +5,7 @@
 
 ## 总览
 
-- 卡片总数：**1371**
+- 卡片总数：**1386**
 - 来源数：**12**
 - 主题数：**12**
 - 《做人的故事》：**541 张卡 / 540 个目录标题**
@@ -15,7 +15,7 @@
 | 来源 | 卡片数 | 含印刷页码 ref |
 |---|---:|---:|
 | 做人的故事（`zuo-ren-de-gu-shi-zh`） | 541 | 541/541 |
-| 苏霍姆林斯基选集（五卷本）第2卷（`xuan-ji-zh-vol2`） | 272 | 45/272 |
+| 苏霍姆林斯基选集（五卷本）第2卷（`xuan-ji-zh-vol2`） | 287 | 45/287 |
 | 苏霍姆林斯基选集（五卷本）第5卷（`xuan-ji-zh-vol5`） | 167 | 109/167 |
 | 苏霍姆林斯基选集（五卷本）第3卷（`xuan-ji-zh-vol3`） | 97 | 51/97 |
 | 苏霍姆林斯基选集（五卷本）第4卷（`xuan-ji-zh-vol4`） | 77 | 41/77 |
@@ -31,25 +31,25 @@
 
 | 类型 | 数量 |
 |---|---:|
-| `case` | 663 |
+| `case` | 668 |
 | `quote` | 260 |
 | `principle` | 194 |
-| `method` | 162 |
-| `practice` | 92 |
+| `method` | 164 |
+| `practice` | 100 |
 
 ## 主题分布
 
 | 主题 | 卡片数 |
 |---|---:|
-| 爱的教育（`love-education`） | 567 |
-| 儿童研究（`child-study`） | 448 |
-| 家校合作（`family-school`） | 321 |
-| 集体教育（`collective-education`） | 297 |
-| 教师成长（`teacher-growth`） | 288 |
-| 美育与自然（`aesthetic-nature-education`） | 265 |
-| 劳动教育（`labor-education`） | 224 |
-| 思维课与大自然（`thinking-and-nature`） | 185 |
-| 学习困难学生（`learning-difficulties`） | 127 |
+| 爱的教育（`love-education`） | 581 |
+| 儿童研究（`child-study`） | 455 |
+| 家校合作（`family-school`） | 326 |
+| 集体教育（`collective-education`） | 305 |
+| 教师成长（`teacher-growth`） | 295 |
+| 美育与自然（`aesthetic-nature-education`） | 266 |
+| 劳动教育（`labor-education`） | 225 |
+| 思维课与大自然（`thinking-and-nature`） | 186 |
+| 学习困难学生（`learning-difficulties`） | 128 |
 | 阅读与书籍（`reading-and-books`） | 94 |
 | 健康第一（`health-first`） | 61 |
 | 评价与分数（`assessment-grading`） | 48 |

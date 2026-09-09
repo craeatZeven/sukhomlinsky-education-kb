@@ -63,6 +63,7 @@ topics/   → 主题页：按教育场景聚合卡片，并做跨书综合
 | [`schemas/`](schemas/) | frontmatter 字段规范 |
 | [`templates/`](templates/) | 新建 source/card/topic 的模板 |
 | [`web/`](web/) | 杂志风知识检索站：主题/来源过滤、全文搜索、JSON/CSV 导出 |
+| [`docs/kb-status.md`](docs/kb-status.md) | **知识库状态总表**：规模、三项覆盖审计、密度、质量门、已知缺口、文档索引 |
 | [`docs/`](docs/) | 生产流程、质量门、版权政策、路线图 |
 
 ## 质量纪律

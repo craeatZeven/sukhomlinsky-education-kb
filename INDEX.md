@@ -5,17 +5,17 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 114 |
-| [family-school](topics/family-school.md) | 家校合作 | 299 |
+| [family-school](topics/family-school.md) | 家校合作 | 301 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 221 |
 | [health-first](topics/health-first.md) | 健康第一 | 57 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 265 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 276 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 250 |
-| [love-education](topics/love-education.md) | 爱的教育 | 527 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 278 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 252 |
+| [love-education](topics/love-education.md) | 爱的教育 | 531 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 45 |
-| [child-study](topics/child-study.md) | 儿童研究 | 409 |
+| [child-study](topics/child-study.md) | 儿童研究 | 413 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 89 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 178 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 179 |
 
 ## 来源 Sources
 
@@ -1344,3 +1344,8 @@
 | [sk-1309](cards/sk-1309-vol5-words-to-fathers-actions.md) | practice | family-school / love-education / child-study | xuan-ji-zh-vol5 | 致父亲们的话 |
 | [sk-1310](cards/sk-1310-vol5-we-continue-ourselves-in-children.md) | practice | family-school / love-education / labor-education | xuan-ji-zh-vol5 | 我们在儿童身上延续自己 |
 | [sk-1311](cards/sk-1311-vol5-purity-and-nobility-actions.md) | method | teacher-growth / family-school / love-education | xuan-ji-zh-vol5 | 纯洁与高尚 |
+| [sk-1312](cards/sk-1312-vol2-individual-talk-case.md) | case | teacher-growth / love-education / child-study | xuan-ji-zh-vol2 | 要掌握与学生个别谈话的艺术 |
+| [sk-1313](cards/sk-1313-vol2-moral-self-education-practice.md) | practice | love-education / collective-education / child-study | xuan-ji-zh-vol2 | 怎样激发学生在道德方面进行自我教育 |
+| [sk-1314](cards/sk-1314-vol2-class-lesson-ideological-education-case.md) | case | teacher-growth / thinking-and-nature / collective-education | xuan-ji-zh-vol2 | 什么是课堂上的思想教育 |
+| [sk-1315](cards/sk-1315-vol2-how-to-talk-about-love.md) | method | love-education / family-school / child-study | xuan-ji-zh-vol2 | 青年对待爱情的精神准备应当包括些什么 |
+| [sk-1316](cards/sk-1316-vol2-how-to-become-good-children-practice.md) | practice | family-school / love-education / child-study | xuan-ji-zh-vol2 | 怎样教学生们成为好子女 |

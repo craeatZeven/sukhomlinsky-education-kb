@@ -9,7 +9,7 @@
 ## v0.2 — 内容扩展（已完成）
 - [x] 12 个主题页全部建立
 - [x] 本地/公开中译本来源登记
-- [x] 卡片规模到 1226 张（13 个来源）
+- [x] 卡片规模到 1233 张（13 个来源）
 - [x] 《做人的故事》540/540 目录标题建卡
 - [x] 页码尽量落实到 OCR 印刷页码；ZuoRen 540 张已逐条核对
 - [ ] 术语表（glossary）待建
@@ -30,8 +30,9 @@
 - [x] 113 条书目 ↔ 卡片全量对照与核验（`docs/coverage-official-tales-mapping.md`，98/113 高置信：10 A + 88 H；15 E_none；三份 verification 报告）
 - [x] 五卷本按作品统计（`docs/coverage-volumes.md`）
 - [x] 五卷本逐章覆盖审计（`docs/coverage-volumes-chapters.md`）
-- [x] 五卷本剩余缺口审计（三轮）：原 143 个 gap 中 115 个已不再空白、27 个仍空白、1 个存疑（`docs/coverage-volumes-gaps-remaining-round3.md`）
-- [ ] 按剩余缺口清单继续补卡（优先第2卷《给教师的100条建议》《怎样培养真正的人》）
+- [x] 五卷本剩余缺口审计（四轮）：原 143 个 gap 中 135 个已不再空白、7 个仍空白、1 个存疑（第四轮快照，`docs/coverage-volumes-gaps-remaining-round4.md`）
+- [x] 剩余 7 个 gap 补齐（sk-1232–sk-1238，2026-09-09）；第 1/3/4/5 卷 gap 已连续三轮清零，第 2 卷 gap 清零
+- [ ] 五卷本「加密度」：第 2 卷 166 个审计单位仅 2 个 ≥3 张卡、118 行停在 1 张卡；第 5 卷 68 篇多为每篇 1–2 张（下一阶段主线）
 - [ ] 44 篇中 11 篇 probable + 2 篇 thematic 的人工复核
 - [ ] 113 条对照草稿的人工抽检；5 条 medium + 15 条 none 的后续处理
 - [ ] 五卷本优先 20 个 gap 章节的补卡

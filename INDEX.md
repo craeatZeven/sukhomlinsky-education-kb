@@ -5,13 +5,13 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 99 |
-| [family-school](topics/family-school.md) | 家校合作 | 275 |
+| [family-school](topics/family-school.md) | 家校合作 | 277 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 206 |
 | [health-first](topics/health-first.md) | 健康第一 | 52 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 260 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 252 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 209 |
-| [love-education](topics/love-education.md) | 爱的教育 | 472 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 257 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 216 |
+| [love-education](topics/love-education.md) | 爱的教育 | 479 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 40 |
 | [child-study](topics/child-study.md) | 儿童研究 | 377 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 81 |
@@ -1264,3 +1264,10 @@
 | [sk-1229](cards/sk-1229-youth-not-indifferent-to-life-and-struggle.md) | method | love-education / family-school / collective-education | xuan-ji-zh-vol2 | 怎样使青年对我们的生活和斗争不要漠不关心 |
 | [sk-1230](cards/sk-1230-send-spirit-of-the-times-to-youth.md) | case | love-education / collective-education / teacher-growth | xuan-ji-zh-vol2 | 怎样把时代精神送到青少年的心坎里 |
 | [sk-1231](cards/sk-1231-young-leninists-and-pioneer-teacher-role.md) | method | collective-education / love-education / teacher-growth | xuan-ji-zh-vol2 | 怎样培养少年列宁主义者，教师在少先队组织生活中的作用 |
+| [sk-1232](cards/sk-1232-responsibility-before-war-heroes.md) | method | love-education / teacher-growth / family-school | xuan-ji-zh-vol2 | 怎样培养年轻一代在伟大卫国战争英雄面前的责任感 |
+| [sk-1233](cards/sk-1233-komsomol-members-and-socialist-motherland.md) | method | love-education / collective-education / teacher-growth | xuan-ji-zh-vol2 | 怎样使共青团员胸怀社会主义祖国 |
+| [sk-1234](cards/sk-1234-what-it-means-to-be-a-revolutionary-today.md) | principle | love-education / teacher-growth / collective-education | xuan-ji-zh-vol2 | 在当今做个革命者意味着什么 |
+| [sk-1235](cards/sk-1235-cultivating-komsomol-members-aspiration.md) | method | collective-education / love-education / teacher-growth | xuan-ji-zh-vol2 | 怎样培养共青团员的上进心 |
+| [sk-1236](cards/sk-1236-moral-preparation-for-military-duty.md) | method | love-education / teacher-growth / family-school | xuan-ji-zh-vol2 | 怎样培养学生在道德上准备当军人的天职 |
+| [sk-1237](cards/sk-1237-instilling-communist-ideas-in-young-leninists.md) | principle | collective-education / love-education / teacher-growth | xuan-ji-zh-vol2 | 怎样向少年列宁主义者灌输共产主义思想 |
+| [sk-1238](cards/sk-1238-red-komsomol-card-and-honor-of-title.md) | practice | collective-education / love-education / teacher-growth | xuan-ji-zh-vol2 | 怎样使青年在领到印有伟大列宁肖像的红色共青团证时激情满怀，怎样使他们珍惜共青团员的称号 |

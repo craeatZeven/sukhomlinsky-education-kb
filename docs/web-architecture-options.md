@@ -1,0 +1,114 @@
+# 网页架构升级选项：从静态站到「前端 + 后端」
+
+> **状态**：提案（2026-09-09 记录，**尚未实施**）。当前线上仍是静态站（GitHub Pages），本文件只做决策依据。
+> **触发问题**：用户问「能不能做成前端和后端的架构」。答案：能，但要先看清代价和收益，并知道**内容主线（补卡/加密度）优先级更高**。
+
+---
+
+## 一、现状（T0 静态站）
+
+| 项 | 现状 |
+|---|---|
+| 托管 | GitHub Pages（`master` / 根目录），零运维、免费 |
+| 页面 | 14 个静态 HTML（首页、检索、专题、卡片详情、故事索引、覆盖、指南、最新等） |
+| 数据 | `web/data.js` **2.56 MB**（全库 1233 张卡一次性内联）+ `web/coverage.json` 3.5 KB |
+| 检索 | 纯前端：关键词/主题/来源/类型过滤 + 全文搜索（在 2.56 MB 内存数组上跑） |
+| 写入路径 | 本地脚本建卡 → `scripts/build_site.py` 重建 → `git push` → Pages 重新构建 |
+| 无后端 | 没有 API、没有数据库、没有账号、没有服务端搜索 |
+
+### 现状的真实痛点
+
+1. **首屏体积随卡片线性增长**：1233 张卡 2.56 MB；按当前节奏到 2000 张约 4 MB。移动端和弱网体验会持续变差。
+2. **搜索能力受限**：没有分词、没有拼音/模糊匹配、没有相关度排序、没有跨来源语义检索；中文全文搜索只能靠子串匹配。
+3. **写入门槛高**：新增一张卡要走本地脚本 + git，非技术贡献者无法参与。
+4. **无法被程序调用**：agent、第三方站点、自动化管线没法直接查这个知识库（只能下载整个 `data.js`）。
+5. **没有用户层**：收藏、笔记、专题订阅、学习进度都无处存放。
+
+---
+
+## 二、三个可选档位
+
+### 档位 A：静态增强（T0.5，不改架构）
+
+**做法**：把 `data.js` 拆成「索引 + 分片」。
+
+- `web/data/index.json`：每张卡只放 `id/title/topics/source/type/摘要前 N 字`（预计 ~200–300 KB）；
+- `web/data/cards/<id>.json`：单卡详情按需 fetch；
+- 全文搜索改为预构建倒排索引（MiniSearch / Orama / Lunr，构建期生成、前端加载）；
+- 覆盖页、故事索引等继续用 `coverage.json` 等小文件。
+
+**收益**：首屏从 2.56 MB 降到 200–300 KB 级；搜索仍是纯前端但可加分词与相关度排序。
+**代价**：仍不能多人写卡、仍无 API；多一层构建产物要维护。
+**适合**：只想解决「越来越慢」，不想引入服务器。**约 0.5–1 天工作量。**
+
+### 档位 B：前端 + 后端（推荐的第一档「真后端」）
+
+**做法**：后端只读知识库，暴露 API；前端按需调用。
+
+```
+cards/*.md ──scripts/build_db.py──> kb.db (SQLite + FTS5 全文索引)
+                                        │
+                            FastAPI /api/{search,cards,topics,sources,coverage}
+                                        │
+        React+Vite 前端（或保留现有 HTML 渐进增强）──> 浏览器
+```
+
+- **后端**：Python FastAPI + SQLite（FTS5 `trigram` 分词器对中文较友好；需要更强分词可挂 jieba）。接口建议：
+  - `GET /api/search?q=&topic=&source=&type=&page=&size=` → 相关度排序 + 分页 + 聚合计数
+  - `GET /api/cards/{id}`、`GET /api/topics/{slug}`、`GET /api/sources/{slug}`、`GET /api/coverage`
+  - `GET /api/random`（随机一卡）、`GET /api/related/{id}`（同主题/同来源相邻卡）
+- **数据管线**：复用 `scripts/build_site.py` 的解析逻辑，新增 `scripts/build_db.py` 生成 `kb.db`；`git push` 后由 CI/定时任务重建。
+- **前端**：可以先保留现有 14 个静态页（把数据源从 `data.js` 换成 API），再逐步换到标准档位 React + TS + Tailwind + Vite。
+
+**收益**：首屏 100 KB 级；服务端搜索（分页、排序、聚合、拼音/模糊）；**有 API**，agent 和第三方可直接调用；为将来的收藏/笔记/写卡留出接口。
+**代价**：多一个要运维的服务进程；GitHub Pages 跑不了后端，必须另找托管。
+**适合**：知识库开始被程序消费、或需要多人贡献时。**约 3–5 天工作量（含部署）。**
+
+### 档位 C：完整前后端 + 数据库 + 写入路径
+
+在 B 之上加：
+
+- 贡献者流程：草稿 → 审核 → 发布（对应卡片 `status: draft/reviewed`）；
+- 卡片版本历史、变更 diff、回滚；
+- 用户账号：收藏、笔记、学习进度、专题订阅；
+- 管理后台：批量导入 OCR、批量改主题、重复检测看板（现在这些都在本地脚本里）。
+
+**收益**：可长期多人运营。
+**代价**：运维、鉴权、备份、审核人力都要跟上。**没有真实协作者之前不建议做。**
+
+---
+
+## 三、部署形态选择（档位 B/C 落地时）
+
+| 形态 | 说明 | 运维成本 |
+|---|---|---|
+| 单机 Docker Compose | nginx（静态）+ FastAPI + SQLite 挂卷；一台小 VPS 即可 | 中（要管机器、证书、备份） |
+| Serverless + 托管 SQLite | Cloudflare Workers + D1，或 Vercel Functions + Turso | **低**（免运维、有免费额度），冷启动有延迟 |
+| 纯静态 + 外部搜索服务 | 前端留在 Pages，搜索走托管服务（Algolia/Typesense/Meilisearch Cloud） | 低，但数据要同步出去，中文分词要另配 |
+
+**若目标是「尽量零运维」**：选 Serverless + 托管 SQLite（Workers + D1 或 Vercel + Turso）。
+**若目标是「数据不出本机、完全可控」**：选单机 Docker + SQLite。
+
+---
+
+## 四、结论与建议
+
+1. **不建议一步跳到 C**。当前没有真实的多用户/协作需求，先把内容做厚。
+2. **优先级排序**：内容（补卡/加密度）> 档位 A（解决变慢）> 档位 B（要 API 时）。
+3. **可以并存的迁移方式**：GitHub Pages 上的静态站继续可用；新后端作为 `v2` 独立部署，前端逐步切过去，不做「一次性重写」。
+4. **触发升级的硬信号**（任一出现就值得上 B）：
+   - 首屏 `data.js` 超过 4 MB 或移动端首屏 > 3 秒；
+   - 需要让 agent/第三方程序查询知识库；
+   - 出现非技术贡献者要提交卡片；
+   - 需要收藏/笔记等用户态功能。
+
+---
+
+## 五、若决定实施 B：落地清单（备查）
+
+1. `scripts/build_db.py`：cards → SQLite（表 `cards`、`topics`、`sources`，FTS5 虚拟表 + trigger 同步）。
+2. `api/`：FastAPI 应用（`/api/search`、`/api/cards/{id}`、`/api/topics`、`/api/sources`、`/api/coverage`、`/api/random`），pydantic 响应模型，CORS 只放行前端域名。
+3. 前端：先改 `explore.html`/`card.html` 的数据源（fetch API + 分页），其余页保持静态。
+4. 部署：Dockerfile + compose（或 Workers + D1），数据库文件构建期生成、运行期只读挂载。
+5. 校验：`scripts/validate_all.py` 之后追加 `scripts/build_db.py --check`（API 与卡片库一致性）。
+6. 回归：Pages 静态站与 API 版共存，用同一份 `cards/` 数据源保证一致。

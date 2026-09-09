@@ -40,7 +40,8 @@ topics/   → 主题页：按教育场景聚合卡片，并做跨书综合
 - [x] 网页检索站：[打开 `web/index.html`](web/index.html) · [GitHub Pages](https://craeatzeven.github.io/sukhomlinsky-education-kb/)
 - [x] 网页支持：关键词/主题/来源/类型过滤、全文搜索、JSON/CSV 导出
 - [ ] GitHub Actions CI（本地凭据缺少 workflow scope，暂用 `scripts/validate_all.py` 代替）
-- [ ] 五卷本逐章覆盖审计（已有按作品统计版）
+- [x] 五卷本逐章覆盖审计（`docs/coverage-volumes-chapters.md`）+ 四轮剩余缺口审计：143 个 `gap` 已全部补卡
+- [ ] 网页架构升级（可选，见 `docs/web-architecture-options.md`：静态分片 → 前端+后端）
 - [ ] skills.sh 发布
 
 ## 快速开始

@@ -4,7 +4,7 @@
 > **数据来源**：`docs/coverage-volumes-chapters.md`（310 行审计单位表）、`cards/*.md`（1233 张卡）、`local_working_copy/ocr/mineru-range/merged/苏霍姆林斯基选集(五卷本)第2卷.txt`（9140 行）。
 > **只读声明**：本报告未改动 `cards/`、`docs/`、`INDEX.md`、`web/`，未执行任何 git 写命令，未删除任何文件；分析脚本全部写在仓库外 `D:\Local\Temp\density1\`。本文件是本次唯一的仓库内写入（`local_working_copy/` 已在 `.gitignore` 中）。
 > **时点**：卡片库快照 = `cards/*.md` 1233 张，最大 id **sk-1238**，五卷本卡 543 张（vol1 67 / vol2 186 / vol3 97 / vol4 77 / vol5 116）。
-> **后续动作（2026-09-09 回填）**：§四 的 20 项已全部建卡（`sk-1239`–`sk-1258`）；§六.2 的归属冲突已由 `docs/coverage-volumes-chapters-corrections.md` 裁定并补建 `sk-1259`–`sk-1262`。第 2 卷卡片数 186 → 210，全库 1233 → 1257。
+> **后续动作（2026-09-09 回填）**：§四 的 20 项已全部建卡（`sk-1239`–`sk-1258`）；§六.2 的归属冲突已由 `docs/coverage-volumes-chapters-corrections.md` 裁定并补建 `sk-1259`–`sk-1262`。第 2 卷卡片数 186 → 210，全库 1233 → 1257；类型结构随之改善——case+practice 占比由约 9.5% 升到 **19.5%**（210 张：principle 68 / method 68 / quote 33 / case 25 / practice 16）。
 > **勘误（2026-09-09）**：§四 第 17 项《怎样培养真正的人》29. 怎样教孩子正确对待脑力劳动的行号 `L3380–3429` **有误**——该区间实为第 25 篇《怎样使学生们具有知识的欢乐》；第 29 篇正文实际在 **L3592–3637**（已按此建卡 sk-1255）。建卡前请以 OCR 的 `## ` 标题行为准复核行号，不要直接采信本报告的行号列。
 
 ---

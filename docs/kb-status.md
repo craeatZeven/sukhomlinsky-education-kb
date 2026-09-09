@@ -120,3 +120,24 @@
 | `docs/roadmap.md` | 路线图与已完成项 |
 | `docs/web-architecture-options.md` | 网页架构选项与性能实测 |
 | `docs/copyright-policy.md` | 版权边界（公开仓库只放短摘录/转述，全文留在 gitignored 本地目录） |
+
+---
+
+## 八、收官核验（2026-09-09，全部 PASS）
+
+脚本：`local_working_copy/final_verification.py`（可重跑）。核验项与结果：
+
+| 核验项 | 结果 |
+|---|---|
+| 卡片总数 1386（12 个有卡来源，541/287/167/97/77/67/41/35/24/22/16/12） | PASS |
+| 版权边界：单卡摘录最长 697 汉字（≤800） | PASS |
+| `docs/coverage-dashboard.md` 总数一致 | PASS |
+| `web/coverage.json` 总数与各来源卡片数一致 | PASS |
+| `INDEX.md` 卡片条目数一致（1386） | PASS |
+| `README.md` / `docs/kb-status.md` / `docs/local-holdings-index.md` / `docs/roadmap.md` 声明总数一致 | PASS |
+| 三项覆盖审计 + 密度/勘误/质量日志文档齐备（14 份） | PASS |
+| `local_working_copy/` 在 `.gitignore`（全文不入公开仓库） | PASS |
+| 网页 18 个页面/数据文件齐备 | PASS |
+| 全库重复扫描：同标题组均为「同篇第二张卡」；摘录 Jaccard ≥ 0.70 的卡片对 **0** | PASS |
+| `scripts/validate_all.py` → `ALL OK`（0 硬错误 / 0 警告） | PASS |
+| 线上 `web/coverage.json` 与本地一致（1386 / 各来源一致） | PASS |

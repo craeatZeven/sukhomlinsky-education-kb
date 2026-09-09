@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 99 |
-| [family-school](topics/family-school.md) | 家校合作 | 279 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 208 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 105 |
+| [family-school](topics/family-school.md) | 家校合作 | 283 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 209 |
 | [health-first](topics/health-first.md) | 健康第一 | 52 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 261 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 258 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 217 |
-| [love-education](topics/love-education.md) | 爱的教育 | 483 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 40 |
-| [child-study](topics/child-study.md) | 儿童研究 | 378 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 81 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 168 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 260 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 223 |
+| [love-education](topics/love-education.md) | 爱的教育 | 489 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 43 |
+| [child-study](topics/child-study.md) | 儿童研究 | 383 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 83 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 169 |
 
 ## 来源 Sources
 
@@ -1271,6 +1271,18 @@
 | [sk-1236](cards/sk-1236-moral-preparation-for-military-duty.md) | method | love-education / teacher-growth / family-school | xuan-ji-zh-vol2 | 怎样培养学生在道德上准备当军人的天职 |
 | [sk-1237](cards/sk-1237-instilling-communist-ideas-in-young-leninists.md) | principle | collective-education / love-education / teacher-growth | xuan-ji-zh-vol2 | 怎样向少年列宁主义者灌输共产主义思想 |
 | [sk-1238](cards/sk-1238-red-komsomol-card-and-honor-of-title.md) | practice | collective-education / love-education / teacher-growth | xuan-ji-zh-vol2 | 怎样使青年在领到印有伟大列宁肖像的红色共青团证时激情满怀，怎样使他们珍惜共青团员的称号 |
+| [sk-1239](cards/sk-1239-difficult-student-case-fedia.md) | case | learning-difficulties / reading-and-books / child-study | xuan-ji-zh-vol2 | 关于做“困难”学生的工作 |
+| [sk-1240](cards/sk-1240-no-abstract-students-tiered-tasks.md) | practice | learning-difficulties / child-study / assessment-grading | xuan-ji-zh-vol2 | 请记住，没有也不可能有抽象的学生 |
+| [sk-1241](cards/sk-1241-grading-as-mirror-of-relationship.md) | principle | assessment-grading / teacher-growth / love-education | xuan-ji-zh-vol2 | 评分应当有分量 |
+| [sk-1242](cards/sk-1242-homework-check-alternatives.md) | practice | assessment-grading / learning-difficulties / teacher-growth | xuan-ji-zh-vol2 | 怎样使家庭作业的检查成为有效的脑力劳动 |
+| [sk-1243](cards/sk-1243-timing-of-punishment.md) | case | love-education / family-school / child-study | xuan-ji-zh-vol2 | 怎样教孩子正确对待批评、责备、惩罚 |
+| [sk-1244](cards/sk-1244-attention-two-lessons-contrast.md) | case | learning-difficulties / teacher-growth / thinking-and-nature | xuan-ji-zh-vol2 | 怎样使学生注意力集中 |
+| [sk-1245](cards/sk-1245-basic-knowledge-checklist.md) | practice | learning-difficulties / reading-and-books / teacher-growth | xuan-ji-zh-vol2 | 让学生记住基本知识 |
+| [sk-1246](cards/sk-1246-conscious-discipline-four-conditions.md) | principle | teacher-growth / learning-difficulties / collective-education | xuan-ji-zh-vol2 | 怎样在脑力劳动中培养自觉的纪律 |
+| [sk-1247](cards/sk-1247-self-education-three-factors.md) | principle | collective-education / love-education / teacher-growth | xuan-ji-zh-vol2 | 怎样教学生自己教育自己 |
+| [sk-1248](cards/sk-1248-parent-school-curriculum.md) | method | family-school / love-education / child-study | xuan-ji-zh-vol2 | 怎样培养母亲和父亲做好学校和家庭的协同教育工作 |
+| [sk-1249](cards/sk-1249-parents-role-know-their-work.md) | practice | family-school / love-education / labor-education | xuan-ji-zh-vol2 | 父母在孩子生活中的作用 |
+| [sk-1250](cards/sk-1250-three-kinds-of-unreasonable-love.md) | case | family-school / love-education / child-study | xuan-ji-zh-vol2 | 作为教育者的父母怎样做到行动统一 |
 | [sk-1259](cards/sk-1259-conscience-guides-conduct.md) | principle | love-education / child-study / teacher-growth | xuan-ji-zh-vol2 | 怎样才能做到使行为举止听从良心的最强有力的指挥 |
 | [sk-1260](cards/sk-1260-shared-participation-and-feeling.md) | method | love-education / collective-education / family-school | xuan-ji-zh-vol2 | 怎样培养自己的学生具有共同参与、共同感受的能力 |
 | [sk-1261](cards/sk-1261-generosity-and-selflessness.md) | method | love-education / family-school / labor-education | xuan-ji-zh-vol2 | 怎样培养孩子具有慷慨大方和大公无私的品格 |

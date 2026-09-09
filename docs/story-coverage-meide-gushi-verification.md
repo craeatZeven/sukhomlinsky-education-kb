@@ -2,7 +2,7 @@
 
 > 2026-09-08 核查报告：对 `docs/story-coverage-meide-gushi.md` §3 列出的 13 篇 probable / thematic 标题逐条复核。
 > 核查语料：`local_working_copy/zuoren-gushi-full-ocr.md`（《做人的故事》443 页 OCR）、
-> `zuoren-story-segments.jsonl`（540 篇分段）、`zuoren-story-index.csv`（540 篇标题索引）、
+> `zuoren-story-segments.jsonl`（540 篇分段；目录另有同题《暴风雪》第二篇，2026-09-09 补建 sk-1263 后为 541 篇）、`zuoren-story-index.csv`（541 篇标题索引）、
 > `local_working_copy/ocr/mineru-range/merged/*.txt`（五卷本第 1–5 卷 + 《给教师的建议》）、
 > `cards/*.md`（现 1039 张）。
 

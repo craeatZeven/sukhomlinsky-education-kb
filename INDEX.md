@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 114 |
-| [family-school](topics/family-school.md) | 家校合作 | 301 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 221 |
-| [health-first](topics/health-first.md) | 健康第一 | 57 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 122 |
+| [family-school](topics/family-school.md) | 家校合作 | 305 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 222 |
+| [health-first](topics/health-first.md) | 健康第一 | 61 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 265 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 278 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 252 |
-| [love-education](topics/love-education.md) | 爱的教育 | 531 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 45 |
-| [child-study](topics/child-study.md) | 儿童研究 | 413 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 89 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 179 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 281 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 264 |
+| [love-education](topics/love-education.md) | 爱的教育 | 541 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 47 |
+| [child-study](topics/child-study.md) | 儿童研究 | 425 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 91 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 181 |
 
 ## 来源 Sources
 
@@ -1349,3 +1349,23 @@
 | [sk-1314](cards/sk-1314-vol2-class-lesson-ideological-education-case.md) | case | teacher-growth / thinking-and-nature / collective-education | xuan-ji-zh-vol2 | 什么是课堂上的思想教育 |
 | [sk-1315](cards/sk-1315-vol2-how-to-talk-about-love.md) | method | love-education / family-school / child-study | xuan-ji-zh-vol2 | 青年对待爱情的精神准备应当包括些什么 |
 | [sk-1316](cards/sk-1316-vol2-how-to-become-good-children-practice.md) | practice | family-school / love-education / child-study | xuan-ji-zh-vol2 | 怎样教学生们成为好子女 |
+| [sk-1317](cards/sk-1317-vol2-first-learning-of-material-four-steps.md) | method | learning-difficulties / teacher-growth / assessment-grading | xuan-ji-zh-vol2 | 教材的首次学习 |
+| [sk-1318](cards/sk-1318-vol2-three-instrumental-skills.md) | method | learning-difficulties / reading-and-books / teacher-growth | xuan-ji-zh-vol2 | 技能和知识之间不可比例失调 |
+| [sk-1319](cards/sk-1319-vol2-memory-1-to-3-in-anatomy-unit.md) | case | learning-difficulties / child-study / teacher-growth | xuan-ji-zh-vol2 | 爱惜并发展青少年的记忆力 |
+| [sk-1320](cards/sk-1320-vol2-lazy-stepa-remade.md) | case | family-school / labor-education / learning-difficulties | xuan-ji-zh-vol2 | 怎样和懒惰作斗争 |
+| [sk-1321](cards/sk-1321-vol2-comprehensive-review-four-tasks.md) | practice | learning-difficulties / assessment-grading / teacher-growth | xuan-ji-zh-vol2 | 学习之母不应变成后娘 |
+| [sk-1322](cards/sk-1322-vol2-roots-and-soil-life-lesson.md) | case | learning-difficulties / thinking-and-nature / child-study | xuan-ji-zh-vol2 | 兴趣的奥秘何在 |
+| [sk-1323](cards/sk-1323-vol2-prevent-nervous-exhaustion-chain.md) | method | health-first / teacher-growth / child-study | xuan-ji-zh-vol2 | 怎样在日常活动过程中防止神经衰弱 |
+| [sk-1324](cards/sk-1324-vol2-teacher-health-two-cases.md) | case | health-first / teacher-growth / love-education | xuan-ji-zh-vol2 | 谈谈教师的健康和充实的精神生活问题有关工作乐趣的几句话 |
+| [sk-1325](cards/sk-1325-vol2-free-time-transfer-failure.md) | case | health-first / learning-difficulties / child-study | xuan-ji-zh-vol2 | 为了不造成负担过重，必须有自由活动时间 |
+| [sk-1326](cards/sk-1326-vol2-dmitrik-and-the-beetle.md) | case | love-education / teacher-growth / child-study | xuan-ji-zh-vol2 | 怎样爱惜儿童的信任 |
+| [sk-1327](cards/sk-1327-vol2-goodwill-is-mutual.md) | principle | love-education / teacher-growth / child-study | xuan-ji-zh-vol2 | 要善意待人 |
+| [sk-1328](cards/sk-1328-vol2-teacher-intellectual-wealth.md) | practice | teacher-growth / reading-and-books / collective-education | xuan-ji-zh-vol2 | 作为教育者的教师应具备什么品质 |
+| [sk-1329](cards/sk-1329-vol2-cultivating-goodwill-practice.md) | practice | love-education / family-school / child-study | xuan-ji-zh-vol2 | 怎样培养孩子具有善意感 |
+| [sk-1330](cards/sk-1330-vol2-how-to-talk-with-youth-about-love.md) | method | love-education / family-school / child-study | xuan-ji-zh-vol2 | 怎样向青年们谈爱情 |
+| [sk-1331](cards/sk-1331-vol2-ideal-image-of-a-real-person.md) | principle | love-education / child-study / teacher-growth | xuan-ji-zh-vol2 | 怎样才能使人成为有教养的人 |
+| [sk-1332](cards/sk-1332-vol5-know-yourself-long-term-tasks.md) | method | child-study / love-education / collective-education | xuan-ji-zh-vol5 | 认识自己 |
+| [sk-1333](cards/sk-1333-vol5-cognition-and-belief-two-families.md) | case | love-education / child-study / collective-education | xuan-ji-zh-vol5 | 认知与信念 |
+| [sk-1334](cards/sk-1334-vol5-family-relations-literacy-course.md) | method | family-school / love-education / teacher-growth | xuan-ji-zh-vol5 | 关于学校教育的思考 |
+| [sk-1335](cards/sk-1335-vol2-understanding-new-material-stage.md) | practice | learning-difficulties / teacher-growth / thinking-and-nature | xuan-ji-zh-vol2 | 理解新教材是课堂教学的一个阶段 |
+| [sk-1336](cards/sk-1336-vol2-physical-self-education-arrangements.md) | practice | health-first / child-study / love-education | xuan-ji-zh-vol2 | 怎样在体育方面引导学生进行自我教育 |

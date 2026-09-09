@@ -27,7 +27,7 @@
 ## v0.4 — 覆盖审计与内容补全（进行中）
 - [x] 44 篇《美德故事》44/44 盘点（`docs/story-coverage-meide-gushi.md`）
 - [x] 113 条官方故事书目盘点（`docs/coverage-official-tales.md`）
-- [x] 113 条书目 ↔ 卡片全量对照与核验（`docs/coverage-official-tales-mapping.md`，98/113 高置信：10 A + 88 H；15 E_none；三份 verification 报告）
+- [x] 113 条书目 ↔ 卡片全量对照与核验（`docs/coverage-official-tales-mapping.md`，99/113 高置信：10 A + 89 H；14 E_none；三份 verification 报告）
 - [x] 五卷本按作品统计（`docs/coverage-volumes.md`）
 - [x] 五卷本逐章覆盖审计（`docs/coverage-volumes-chapters.md`）
 - [x] 五卷本剩余缺口审计（四轮）：原 143 个 gap 中 135 个已不再空白、7 个仍空白、1 个存疑（第四轮快照，`docs/coverage-volumes-gaps-remaining-round4.md`）

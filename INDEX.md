@@ -5,17 +5,17 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 112 |
-| [family-school](topics/family-school.md) | 家校合作 | 285 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 212 |
-| [health-first](topics/health-first.md) | 健康第一 | 55 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 262 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 267 |
+| [family-school](topics/family-school.md) | 家校合作 | 289 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 214 |
+| [health-first](topics/health-first.md) | 健康第一 | 56 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 263 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 270 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 236 |
-| [love-education](topics/love-education.md) | 爱的教育 | 500 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 44 |
-| [child-study](topics/child-study.md) | 儿童研究 | 391 |
+| [love-education](topics/love-education.md) | 爱的教育 | 506 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 45 |
+| [child-study](topics/child-study.md) | 儿童研究 | 395 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 86 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 172 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 174 |
 
 ## 来源 Sources
 
@@ -1308,3 +1308,11 @@
 | [sk-1273](cards/sk-1273-vol5-develop-each-student-unique-beauty.md) | method | child-study / love-education / labor-education | xuan-ji-zh-vol5 | 开发出每个学生独特的人格之美 |
 | [sk-1274](cards/sk-1274-vol5-develop-abilities-and-interests-groups.md) | practice | child-study / labor-education / collective-education | xuan-ji-zh-vol5 | 发展学生的个人能力与爱好 |
 | [sk-1275](cards/sk-1275-vol5-our-duty-is-to-educate-people.md) | method | child-study / health-first / family-school | xuan-ji-zh-vol5 | 我们的职责是培养人 |
+| [sk-1276](cards/sk-1276-vol5-be-careful-with-children-case.md) | case | assessment-grading / child-study / love-education | xuan-ji-zh-vol5 | 要慎待儿童 |
+| [sk-1277](cards/sk-1277-vol5-education-without-punishment-case.md) | case | love-education / collective-education / family-school | xuan-ji-zh-vol5 | 没有惩罚的教育 |
+| [sk-1278](cards/sk-1278-vol5-wisdom-and-hands-lesson.md) | case | labor-education / thinking-and-nature / child-study | xuan-ji-zh-vol5 | 智慧与双手 |
+| [sk-1279](cards/sk-1279-vol5-school-and-nature-year-round.md) | practice | aesthetic-nature-education / thinking-and-nature / health-first | xuan-ji-zh-vol5 | 学校与大自然 |
+| [sk-1280](cards/sk-1280-vol5-atmosphere-of-your-home.md) | practice | family-school / love-education / collective-education | xuan-ji-zh-vol5 | 您家的氛围 |
+| [sk-1281](cards/sk-1281-vol5-letter-to-young-father-desires.md) | practice | family-school / love-education / child-study | xuan-ji-zh-vol5 | 致年轻父亲的信 |
+| [sk-1282](cards/sk-1282-vol5-labor-aspiration-happiness-guidance.md) | method | labor-education / child-study / love-education | xuan-ji-zh-vol5 | 劳动·志向·幸福 |
+| [sk-1283](cards/sk-1283-vol5-cultivating-sense-of-duty.md) | practice | love-education / family-school / collective-education | xuan-ji-zh-vol5 | 义务感的培养 |

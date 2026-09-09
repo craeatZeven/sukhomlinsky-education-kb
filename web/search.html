@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>API 检索 · 苏霍姆林斯基教育知识库</title>
+<title>检索 · 苏霍姆林斯基教育知识库</title>
 <link rel="stylesheet" href="style.css?v=20260909">
 </head>
 <body>
@@ -13,7 +13,7 @@
     <nav>
       <a class="nav-link" href="index.html">首页</a>
       <a class="nav-link" href="explore.html">主题浏览</a>
-      <a class="nav-link active" href="search.html">API 检索</a>
+      <a class="nav-link active" href="search.html">检索</a>
       <a class="nav-link" href="stories.html">541 篇故事</a>
       <a class="nav-link" href="coverage.html">覆盖</a>
       <a class="nav-link" href="guide.html">指南</a>
@@ -22,8 +22,8 @@
 </header>
 
 <main class="wrap" style="padding:28px 0 60px">
-  <div class="eyebrow">Server-side Search · FastAPI + SQLite FTS5</div>
-  <h1 style="margin:6px 0 10px">API 检索（后端版）</h1>
+  <div class="eyebrow">Server-side Search · FastAPI / Cloudflare Workers + SQLite FTS5</div>
+  <h1 style="margin:6px 0 10px">检索</h1>
   <p class="meta" id="apiState">正在连接后端…</p>
 
   <div class="card" style="padding:16px;margin-top:16px">
@@ -51,31 +51,68 @@
 
 <footer class="site-footer">
   <div class="wrap">
-    <p><a href="index.html">← 返回首页</a> · 数据源 <a href="../INDEX.md">INDEX.md</a> · 后端说明 <a href="../api/README.md">api/README.md</a></p>
+    <p><a href="index.html">← 返回首页</a> · 数据源 <a href="../INDEX.md">INDEX.md</a> · 后端说明 <a href="../api/README.md">api/README.md</a> · <a href="../cloudflare/README.md">cloudflare/README.md</a></p>
   </div>
 </footer>
 
 <script src="config.js?v=20260909"></script>
 <script src="theme.js?v=20260909"></script>
 <script>
+/* 双模式检索：
+ *   1) 后端可用（config.js 的 apiBase 指向 FastAPI / Cloudflare Worker）→ 服务端 FTS5 检索 + 分页 + 聚合
+ *   2) 后端不可用（例如 *.workers.dev 在当前网络被屏蔽）→ 自动回退到静态 data.js 的本地检索
+ * 两种模式界面一致，用户无感。 */
 const CFG = window.KB_CONFIG || {};
 const API = (CFG.apiBase || "").replace(/\/$/, "");
 const $ = id => document.getElementById(id);
+const TYPE_LABELS = {quote:"quote 语录", case:"case 案例", principle:"principle 原则", method:"method 方法", practice:"practice 实践"};
+let MODE = "api";          // api | static
+let KB = null;             // 静态数据（回退时按需加载）
+let META = { sources: [], topics: [] };
 let state = { q: "", source: "", topic: "", type: "", page: 1, size: 20, total: 0, pages: 0, items: [] };
 
-function apiUrl(path){ return API + path; }
+function labelType(t){ return TYPE_LABELS[t] || t; }
+function topicTitle(slug){ const t = META.topics.find(x => x.slug === slug); return t ? t.title : slug; }
+function sourceTitle(slug){ const s = META.sources.find(x => x.slug === slug); return s ? s.title : slug; }
 
 async function api(path){
-  const r = await fetch(apiUrl(path), { headers: { "Accept": "application/json" } });
+  const r = await fetch(API + path, { headers: { "Accept": "application/json" } });
   if(!r.ok) throw new Error(path + " → HTTP " + r.status);
   return r.json();
 }
 
-function labelType(t){ return {quote:"quote 语录", case:"case 案例", principle:"principle 原则", method:"method 方法", practice:"practice 实践"}[t] || t; }
+/* ---------- 静态回退 ---------- */
+function loadStatic(){
+  if(KB) return Promise.resolve(KB);
+  return new Promise((resolve, reject)=>{
+    const s = document.createElement("script");
+    s.src = "data.js?v=20260909";
+    s.onload = ()=>{ KB = window.KB_DATA || {sources:[],topics:[],cards:[]}; resolve(KB); };
+    s.onerror = ()=>reject(new Error("data.js 加载失败"));
+    document.head.appendChild(s);
+  });
+}
+
+function staticSearch(){
+  const terms = state.q.toLowerCase().split(/\s+/).filter(Boolean);
+  const list = KB.cards.filter(c=>{
+    if(state.source && c.source !== state.source) return false;
+    if(state.type && c.type !== state.type) return false;
+    if(state.topic && !(c.topics||[]).includes(state.topic)) return false;
+    if(!terms.length) return true;
+    const text = [c.title, c.id, c.cn, c.ref, (c.excerpts||[]).join(" "), (c.topics||[]).join(" ")].join(" ").toLowerCase();
+    return terms.every(t => text.includes(t));
+  });
+  const start = (state.page - 1) * state.size;
+  const items = list.slice(start, start + state.size).map(c=>({
+    ...c, snippet: (c.cn || c.excerpt || "").slice(0, 160),
+  }));
+  return { total: list.length, items, mode: "static-client" };
+}
 
 function cardHtml(c){
   const topics = (c.topics||[]).map(s=>`<a class="badge" style="margin-right:6px;text-decoration:none" href="topic.html?slug=${s}">${topicTitle(s)}</a>`).join("");
-  const snippet = c.snippet ? `<p class="excerpt">…${snippet}…</p>` : "";
+  const snippet = c.snippet ? `<p class="excerpt">…${c.snippet}…</p>` : "";
   return `<article class="card" style="padding:16px;margin-bottom:14px">
     <div class="card-top"><div>${topics}</div><span class="badge">${labelType(c.type)}</span></div>
     <h3 style="margin:8px 0 6px"><a href="card.html?id=${c.id}#${c.id}" style="color:inherit">${c.title}</a></h3>
@@ -84,59 +121,82 @@ function cardHtml(c){
   </article>`;
 }
 
-let META = { sources: [], topics: [] };
-function topicTitle(slug){ const t = META.topics.find(x=>x.slug===slug); return t ? t.title : slug; }
-function sourceTitle(slug){ const s = META.sources.find(x=>x.slug===slug); return s ? s.title : slug; }
-
-async function loadMeta(){
-  const m = await api("/api/meta");
-  META.sources = (m.sources||[]).map(s=>({slug:s.slug, title:s.slug, cards:s.cards}));
-  META.topics = (m.topics||[]).map(t=>({slug:t.slug, title:t.slug, cards:t.cards}));
-  try{
-    const st = await api("/api/sources");
-    META.sources = st.items;
-  }catch(e){}
+function fillFacets(){
   const fS = $("fSource"), fT = $("fTopic"), fType = $("fType");
+  fS.innerHTML = '<option value="">全部来源</option>';
+  fT.innerHTML = '<option value="">全部主题</option>';
+  fType.innerHTML = '<option value="">全部类型</option>';
   META.sources.forEach(s=>{ fS.insertAdjacentHTML("beforeend", `<option value="${s.slug}">${s.slug} · ${s.cards}</option>`); });
   META.topics.forEach(t=>{ fT.insertAdjacentHTML("beforeend", `<option value="${t.slug}">${t.slug} · ${t.cards}</option>`); });
-  ["quote","case","principle","method","practice"].forEach(t=>{
-    fType.insertAdjacentHTML("beforeend", `<option value="${t}">${labelType(t)}</option>`);
-  });
-  $("apiState").textContent = `后端已连接 · 共 ${m.total_cards} 张卡 · 来源 ${m.sources.length} · 主题 ${m.topics.length}（API：${API || "同源"}）`;
+  Object.keys(TYPE_LABELS).forEach(t=>{ fType.insertAdjacentHTML("beforeend", `<option value="${t}">${labelType(t)}</option>`); });
 }
 
-function buildQuery(){
-  const p = new URLSearchParams();
-  if(state.q) p.set("q", state.q);
-  if(state.source) p.set("source", state.source);
-  if(state.topic) p.set("topic", state.topic);
-  if(state.type) p.set("type", state.type);
-  p.set("page", state.page); p.set("size", state.size);
-  return "/api/search?" + p.toString();
+async function initData(){
+  try{
+    const m = await api("/api/meta");
+    META.sources = (m.sources||[]).map(s=>({slug:s.slug, title:s.slug, cards:s.cards}));
+    META.topics = (m.topics||[]).map(t=>({slug:t.slug, title:t.slug, cards:t.cards}));
+    MODE = "api";
+    $("apiState").textContent = `后端已连接 · 共 ${m.total_cards} 张卡 · 来源 ${m.sources.length} · 主题 ${m.topics.length}（API：${API || "同源"}）`;
+  }catch(e){
+    MODE = "static";
+    await loadStatic();
+    const counts = {};
+    KB.cards.forEach(c=>{ counts[c.source] = (counts[c.source]||0)+1; });
+    META.sources = KB.sources.map(s=>({slug:s.slug, title:s.title, cards:counts[s.slug]||0}));
+    META.topics = KB.topics.map(t=>({slug:t.slug, title:t.title,
+      cards: KB.cards.filter(c=>(c.topics||[]).includes(t.slug)).length}));
+    $("apiState").textContent = `后端不可用（${e.message}），已切换到本地静态检索 · 共 ${KB.cards.length} 张卡`;
+  }
+  fillFacets();
 }
 
 async function run(){
   $("results").innerHTML = `<p class="meta">检索中…</p>`;
+  let r;
   try{
-    const r = await api(buildQuery());
-    state.items = r.items || []; state.total = r.total || 0; state.pages = r.pages || 0;
-    $("stats").innerHTML = `
-      <div class="stat"><b>${state.total}</b><span>命中卡片</span></div>
-      <div class="stat"><b>${state.pages}</b><span>页数</span></div>
-      <div class="stat"><b>${r.mode}</b><span>检索模式</span></div>`;
-    $("results").innerHTML = state.items.length ? state.items.map(cardHtml).join("")
-      : `<p class="empty" style="display:block">没有匹配的卡片，换个词试试。</p>`;
-    $("pager").innerHTML = `
-      <button class="chip" id="prevBtn" type="button" ${state.page<=1?"disabled":""}>← 上一页</button>
-      <span class="meta">第 ${state.page} / ${state.pages || 1} 页</span>
-      <button class="chip" id="nextBtn" type="button" ${state.page>=state.pages?"disabled":""}>下一页 →</button>`;
-    const prev = $("prevBtn"), next = $("nextBtn");
-    if(prev) prev.addEventListener("click", ()=>{ state.page = Math.max(1, state.page-1); run(); });
-    if(next) next.addEventListener("click", ()=>{ state.page = Math.min(state.pages, state.page+1); run(); });
+    if(MODE === "api"){
+      const p = new URLSearchParams();
+      if(state.q) p.set("q", state.q);
+      if(state.source) p.set("source", state.source);
+      if(state.topic) p.set("topic", state.topic);
+      if(state.type) p.set("type", state.type);
+      p.set("page", state.page); p.set("size", state.size);
+      r = await api("/api/search?" + p.toString());
+    }else{
+      r = staticSearch();
+    }
   }catch(e){
-    $("results").innerHTML = `<p class="empty" style="display:block">后端不可用：${e.message}<br>请先运行 <code>python scripts/build_db.py</code> 与 <code>uvicorn api.main:app</code>，或在 <code>web/config.js</code> 里把 <code>apiBase</code> 指向你的 API 地址。</p>`;
-    $("apiState").textContent = "后端未连接";
+    if(MODE === "api"){
+      MODE = "static";
+      try{
+        await loadStatic(); fillFacets(); r = staticSearch();
+        $("apiState").textContent = `后端请求失败（${e.message}），已切换到本地静态检索 · 共 ${KB.cards.length} 张卡`;
+      }catch(e2){
+        $("results").innerHTML = `<p class="empty" style="display:block">检索失败：${e2.message}</p>`;
+        return;
+      }
+    }else{
+      $("results").innerHTML = `<p class="empty" style="display:block">检索失败：${e.message}</p>`;
+      return;
+    }
   }
+  state.items = r.items || [];
+  state.total = r.total || 0;
+  state.pages = Math.max(1, Math.ceil(state.total / state.size));
+  $("stats").innerHTML = `
+    <div class="stat"><b>${state.total}</b><span>命中卡片</span></div>
+    <div class="stat"><b>${state.pages}</b><span>页数</span></div>
+    <div class="stat"><b>${r.mode || MODE}</b><span>检索模式</span></div>`;
+  $("results").innerHTML = state.items.length ? state.items.map(cardHtml).join("")
+    : `<p class="empty" style="display:block">没有匹配的卡片，换个词试试。</p>`;
+  $("pager").innerHTML = `
+    <button class="chip" id="prevBtn" type="button" ${state.page<=1?"disabled":""}>← 上一页</button>
+    <span class="meta">第 ${state.page} / ${state.pages} 页</span>
+    <button class="chip" id="nextBtn" type="button" ${state.page>=state.pages?"disabled":""}>下一页 →</button>`;
+  const prev = $("prevBtn"), next = $("nextBtn");
+  if(prev) prev.addEventListener("click", ()=>{ state.page = Math.max(1, state.page-1); run(); });
+  if(next) next.addEventListener("click", ()=>{ state.page = Math.min(state.pages, state.page+1); run(); });
 }
 
 function downloadBlob(filename, text, type){
@@ -149,7 +209,7 @@ function downloadBlob(filename, text, type){
 function csvEscape(v){ const s = String(v==null?"":v).replace(/"/g,'""'); return /[",\n]/.test(s) ? `"${s}"` : s; }
 
 document.addEventListener("DOMContentLoaded", async ()=>{
-  try{ await loadMeta(); }catch(e){ $("apiState").textContent = "后端未连接（" + e.message + "）"; }
+  try{ await initData(); }catch(e){ $("apiState").textContent = "初始化失败：" + e.message; }
   $("searchBtn").addEventListener("click", ()=>{
     state.q = $("q").value.trim(); state.source = $("fSource").value;
     state.topic = $("fTopic").value; state.type = $("fType").value;
@@ -158,7 +218,10 @@ document.addEventListener("DOMContentLoaded", async ()=>{
   $("q").addEventListener("keydown", e=>{ if(e.key === "Enter") $("searchBtn").click(); });
   ["fSource","fTopic","fType","fSize"].forEach(id=>$(id).addEventListener("change", ()=>$("searchBtn").click()));
   $("randomBtn").addEventListener("click", async ()=>{
-    try{ const c = await api("/api/random"); location.href = "card.html?id=" + c.id + "#" + c.id; }catch(e){ alert("后端不可用：" + e.message); }
+    try{
+      if(MODE === "api"){ const c = await api("/api/random"); location.href = "card.html?id=" + c.id + "#" + c.id; }
+      else { const c = KB.cards[Math.floor(Math.random()*KB.cards.length)]; location.href = "card.html?id=" + c.id + "#" + c.id; }
+    }catch(e){ alert("取随机卡失败：" + e.message); }
   });
   $("exportJson").addEventListener("click", ()=>downloadBlob("kb-search-page.json", JSON.stringify(state.items, null, 2), "application/json"));
   $("exportCsv").addEventListener("click", ()=>{

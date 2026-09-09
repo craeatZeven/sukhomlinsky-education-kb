@@ -1,12 +1,15 @@
 /* 前端运行配置（可安全提交）。
  *
- * apiBase：后端 API 的地址。留空字符串表示「与页面同源」——
- *   当页面由 FastAPI 进程托管时（uvicorn api.main:app，同一端口既提供 web/ 又提供 /api/*），
- *   保持留空即可；当页面托管在 GitHub Pages、后端在别处时，填后端地址，例如：
- *   apiBase: "https://kb-api.example.workers.dev"
+ * apiBase：后端 API 的地址。
+ *   - 留空 "" → 与页面同源（页面由 FastAPI 进程托管时用这个：uvicorn api.main:app）
+ *   - 填地址   → 页面在 GitHub Pages、后端在别处时用这个
  *
- * 注意：把后端地址公开写在仓库里等于公开该服务的 URL，请确保后端已做限流/防滥用。
+ * 当前值指向已部署的 Cloudflare Worker（2026-09-09 部署，账号 Tylorwang671）。
+ * 注意：*.workers.dev 在中国大陆网络通常被 DNS 污染/SNI 屏蔽；
+ *   web/search.html 在后端不可达时会**自动回退到本地静态检索**（data.js），
+ *   因此这个地址在国内打不开也不会让页面失效。
+ * 若日后绑定自定义域名（cloudflare/wrangler.toml 的 routes），把这里换成自定义域名即可。
  */
 window.KB_CONFIG = {
-  apiBase: ""
+  apiBase: "https://suk-kb-api.suk-kb.workers.dev"
 };

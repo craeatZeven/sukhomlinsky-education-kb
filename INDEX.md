@@ -5,15 +5,15 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 114 |
-| [family-school](topics/family-school.md) | 家校合作 | 295 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 220 |
+| [family-school](topics/family-school.md) | 家校合作 | 299 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 221 |
 | [health-first](topics/health-first.md) | 健康第一 | 57 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 265 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 274 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 245 |
-| [love-education](topics/love-education.md) | 爱的教育 | 519 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 276 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 250 |
+| [love-education](topics/love-education.md) | 爱的教育 | 527 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 45 |
-| [child-study](topics/child-study.md) | 儿童研究 | 405 |
+| [child-study](topics/child-study.md) | 儿童研究 | 409 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 89 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 178 |
 
@@ -1336,3 +1336,11 @@
 | [sk-1301](cards/sk-1301-vol5-three-factors-of-labor-education.md) | method | labor-education / love-education / child-study | xuan-ji-zh-vol5 | “应该劳动”、“劳动艰苦”和“劳动美好”三个因素的和谐统一 |
 | [sk-1302](cards/sk-1302-vol5-labor-of-the-heart-arrangements.md) | method | teacher-growth / love-education / family-school | xuan-ji-zh-vol5 | 心灵的劳动 |
 | [sk-1303](cards/sk-1303-vol5-dont-let-soul-rust.md) | practice | family-school / love-education / labor-education | xuan-ji-zh-vol5 | 别让心灵锈斑斑 |
+| [sk-1304](cards/sk-1304-vol5-language-as-educational-tool.md) | method | teacher-growth / love-education / collective-education | xuan-ji-zh-vol5 | 谈语言的教育作用 |
+| [sk-1305](cards/sk-1305-vol5-people-teacher-daily-practice.md) | method | teacher-growth / collective-education / love-education | xuan-ji-zh-vol5 | 人民教师 |
+| [sk-1306](cards/sk-1306-vol5-dont-fear-being-kind.md) | method | love-education / teacher-growth / child-study | xuan-ji-zh-vol5 | 休怕成为慈爱的人 |
+| [sk-1307](cards/sk-1307-vol5-letter-to-daughter-observing-children.md) | practice | family-school / child-study / love-education | xuan-ji-zh-vol5 | 致女儿的信 |
+| [sk-1308](cards/sk-1308-vol5-words-to-the-next-generation.md) | method | teacher-growth / love-education / child-study | xuan-ji-zh-vol5 | 寄语后来人 |
+| [sk-1309](cards/sk-1309-vol5-words-to-fathers-actions.md) | practice | family-school / love-education / child-study | xuan-ji-zh-vol5 | 致父亲们的话 |
+| [sk-1310](cards/sk-1310-vol5-we-continue-ourselves-in-children.md) | practice | family-school / love-education / labor-education | xuan-ji-zh-vol5 | 我们在儿童身上延续自己 |
+| [sk-1311](cards/sk-1311-vol5-purity-and-nobility-actions.md) | method | teacher-growth / family-school / love-education | xuan-ji-zh-vol5 | 纯洁与高尚 |

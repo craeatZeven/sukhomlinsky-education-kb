@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 126 |
-| [family-school](topics/family-school.md) | 家校合作 | 312 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 223 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 127 |
+| [family-school](topics/family-school.md) | 家校合作 | 321 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 224 |
 | [health-first](topics/health-first.md) | 健康第一 | 61 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 265 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 289 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 278 |
-| [love-education](topics/love-education.md) | 爱的教育 | 550 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 297 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 288 |
+| [love-education](topics/love-education.md) | 爱的教育 | 567 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 48 |
-| [child-study](topics/child-study.md) | 儿童研究 | 436 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 93 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 184 |
+| [child-study](topics/child-study.md) | 儿童研究 | 448 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 94 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 185 |
 
 ## 来源 Sources
 
@@ -1389,3 +1389,23 @@
 | [sk-1354](cards/sk-1354-vol2-loyalty-to-close-ones-practice.md) | practice | love-education / family-school / collective-education | xuan-ji-zh-vol2 | 怎样培养对亲人和亲近的人的忠诚感 |
 | [sk-1355](cards/sk-1355-vol2-convey-meaning-of-teacher-labor.md) | method | teacher-growth / love-education / child-study | xuan-ji-zh-vol2 | 怎样把教师劳动的意义传送到学生的意识中去 |
 | [sk-1356](cards/sk-1356-vol2-greatest-joy-is-birth-of-man.md) | case | love-education / family-school / child-study | xuan-ji-zh-vol2 | 最大的欢乐就是人的诞生 |
+| [sk-1357](cards/sk-1357-vol2-treasure-happiness-of-life-practice.md) | practice | love-education / child-study / family-school | xuan-ji-zh-vol2 | 何谓珍惜生活的幸福 |
+| [sk-1358](cards/sk-1358-vol2-mature-thoughts-practice.md) | practice | child-study / thinking-and-nature / teacher-growth | xuan-ji-zh-vol2 | 何种见解能够培养出成熟的思想 |
+| [sk-1359](cards/sk-1359-vol2-teaching-devotion-practice.md) | practice | love-education / labor-education / family-school | xuan-ji-zh-vol2 | 怎样教孩子懂得奉献的思想 |
+| [sk-1360](cards/sk-1360-vol2-where-duty-shows-practice.md) | practice | love-education / collective-education / family-school | xuan-ji-zh-vol2 | 在哪些行为之中应表现出义务感 |
+| [sk-1361](cards/sk-1361-vol2-teach-about-death-method.md) | method | love-education / child-study / family-school | xuan-ji-zh-vol2 | 怎样教人正确对待死 |
+| [sk-1362](cards/sk-1362-vol2-commemorating-ancestors-case.md) | case | love-education / family-school / collective-education | xuan-ji-zh-vol2 | 人应当尊敬地纪念自己的先辈 |
+| [sk-1363](cards/sk-1363-vol2-understanding-grief-practice.md) | practice | love-education / family-school / child-study | xuan-ji-zh-vol2 | 怎样教会孩子善于理解人的悲痛 |
+| [sk-1364](cards/sk-1364-vol2-cultivating-conscience-method.md) | method | love-education / child-study / teacher-growth | xuan-ji-zh-vol2 | 怎样培养良心感 |
+| [sk-1365](cards/sk-1365-vol2-conscience-guides-conduct-method.md) | method | love-education / child-study / teacher-growth | xuan-ji-zh-vol2 | 怎样才能做到使行为举止听从良心的最强有力的指挥 |
+| [sk-1366](cards/sk-1366-vol2-moral-freedom-method.md) | method | love-education / collective-education / child-study | xuan-ji-zh-vol2 | 怎样教孩子理解道德上的自由感 |
+| [sk-1367](cards/sk-1367-vol2-tactful-behavior-practice.md) | practice | love-education / child-study / teacher-growth | xuan-ji-zh-vol2 | 怎样教孩子懂得敏锐而有分寸的行为 |
+| [sk-1368](cards/sk-1368-vol2-pursue-goodness-method.md) | method | love-education / collective-education / teacher-growth | xuan-ji-zh-vol2 | 怎样培养孩子自觉地去追求善良 |
+| [sk-1369](cards/sk-1369-vol2-intolerance-to-evil-practice.md) | practice | love-education / collective-education / teacher-growth | xuan-ji-zh-vol2 | 怎样培养个人对邪恶持毫不妥协的态度 |
+| [sk-1370](cards/sk-1370-vol2-teaching-talent-method.md) | method | teacher-growth / child-study / reading-and-books | xuan-ji-zh-vol2 | 什么是从事教师工作的才能，它是怎样形成的 |
+| [sk-1371](cards/sk-1371-vol2-education-about-lonely-practice.md) | practice | love-education / collective-education / family-school | xuan-ji-zh-vol2 | 要教育学生对孤独者不要漠不关心 |
+| [sk-1372](cards/sk-1372-vol2-last-advice-secrecy-practice.md) | practice | teacher-growth / love-education / child-study | xuan-ji-zh-vol2 | 最后一条建议—保密 |
+| [sk-1373](cards/sk-1373-vol2-young-generation-introduction-method.md) | method | collective-education / love-education / teacher-growth | xuan-ji-zh-vol2 | 年轻一代共产主义信念的形成（绪论） |
+| [sk-1374](cards/sk-1374-vol2-duty-to-others-practice.md) | practice | love-education / family-school / child-study | xuan-ji-zh-vol2 | 孩子应该怎样理解自己对他人的义务 |
+| [sk-1375](cards/sk-1375-vol2-curiosity-case.md) | case | learning-difficulties / child-study / teacher-growth | xuan-ji-zh-vol2 | 怎样激起求知欲 |
+| [sk-1376](cards/sk-1376-vol2-loyalty-meaning-practice.md) | practice | love-education / collective-education / family-school | xuan-ji-zh-vol2 | 忠诚感和对别人的忠诚意味着什么 |

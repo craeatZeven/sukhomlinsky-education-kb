@@ -54,7 +54,7 @@
   </div>
 </footer>
 
-<script src="data.js?v=20260907"></script>
+<script src="kb.js"></script>
 <script src="theme.js?v=20260907"></script>
 <script>
 const PROBLEMS = [
@@ -75,39 +75,58 @@ const PROBLEMS = [
   {id:"no-mind", title:"孩子不爱动脑、只刷短视频", keys:"短视频 不动脑 无聊 思考 游戏", desc:"思维需要被教会；用问题、观察与真实任务激活脑力。", ids:["sk-0007","sk-0190","sk-0191","sk-0174"]},
   {id:"health", title:"孩子食欲差、易疲劳、体质弱", keys:"健康 睡眠 户外 食欲 疲劳 生病", desc:"健康是学习地基；先调作息与户外，再谈学业。", ids:["sk-0069","sk-0184","sk-0187","sk-0020","sk-0021"]}
 ];
-const CARDS = (window.KB_DATA && window.KB_DATA.cards) || [];
-function cardSearchText(c){
-  const topics = (c.topics||[]).join(" ");
-  const excerpts = (c.excerpts||[]).join(" ");
-  return [c.title, c.cn, c.id, c.source, c.ref, excerpts, topics, c.type].join(" ").toLowerCase();
+let CARDS = [];
+let CORPUS_BY_ID = new Map();
+let corpusLoading = false;
+function cardSearchText(c, useCorpus){
+  const base = [c.title, c.cn, c.id, c.source, KB.sourceTitle(c.source), KB.refText(c.ref),
+                (c.topics||[]).join(" "), c.type, c.preview].join(" ").toLowerCase();
+  if(!useCorpus) return base;
+  const entry = CORPUS_BY_ID.get(c.id);
+  return base + " " + (entry ? entry.text : "").toLowerCase();
 }
-function renderCardResults(q){
+async function renderCardResults(q){
   const grid = document.getElementById("problemCardGrid");
   const empty = document.getElementById("problemCardEmpty");
   const stats = document.getElementById("cardStats");
   if(!q){ grid.innerHTML=""; empty.style.display="none"; stats.innerHTML=""; return; }
-  const list = CARDS.filter(c=>cardSearchText(c).includes(q)).slice(0,30);
-  stats.innerHTML = `<div class="stat"><b>${list.length}</b><span>卡片命中</span></div>`;
+  let list = CARDS.filter(c=>cardSearchText(c, false).includes(q)).slice(0,30);
+  let deep = false;
+  if(!list.length && !corpusLoading && CARDS.length){
+    corpusLoading = true;
+    stats.innerHTML = `<div class="stat"><b>…</b><span>正在加载原文索引</span></div>`;
+    try{
+      const corpus = await KB.loadSearch("all");
+      CORPUS_BY_ID = new Map(corpus.map(e=>[e.id, e]));
+      list = CARDS.filter(c=>cardSearchText(c, true).includes(q)).slice(0,30);
+      deep = true;
+    }catch(e){
+      stats.innerHTML = `<div class="stat"><b>0</b><span>原文索引加载失败，请改用<a href="search.html">检索页</a></span></div>`;
+      empty.style.display = "block";
+      grid.innerHTML = "";
+      corpusLoading = false;
+      return;
+    }
+    corpusLoading = false;
+  }
+  stats.innerHTML = `<div class="stat"><b>${list.length}</b><span>卡片命中${deep ? "（含原文）" : ""}</span></div>`;
   empty.style.display = list.length ? "none" : "block";
-  grid.innerHTML = list.map(c=>{
-    const exps = (c.excerpts && c.excerpts.length) ? c.excerpts : (c.excerpt ? [c.excerpt] : []);
-    const ex = exps.length ? `<p class="excerpt">“${exps[0]}”</p>` : "";
-    return `<article class="card">
-      <div class="card-top"><span class="badge">${c.type}</span><span class="meta">${c.id}</span></div>
-      <h3><a href="card.html?id=${c.id}#${c.id}" style="color:inherit">${c.title}</a></h3>
-      ${ex}
-      <p class="ref" style="margin-top:10px">${c.ref||""}</p>
-    </article>`;
-  }).join("");
+  grid.innerHTML = list.map(c=>`
+    <article class="card">
+      <div class="card-top"><span class="badge">${KB.esc(KB.typeLabel(c.type))}</span><span class="meta">${KB.esc(c.id)}</span></div>
+      <h3><a href="card.html?id=${encodeURIComponent(c.id)}#${KB.esc(c.id)}" style="color:inherit">${KB.esc(c.title)}</a></h3>
+      ${c.preview?`<p class="excerpt">“${KB.esc(c.preview)}”</p>`:""}
+      <p class="ref" style="margin-top:10px">${KB.esc(KB.refText(c.ref || ""))}</p>
+    </article>`).join("");
 }
 function renderProblems(list){
   document.getElementById("problemGrid").innerHTML = list.map(p=>`
-    <article class="case-card" id="${p.id}">
+    <article class="case-card" id="${KB.esc(p.id)}">
       <span class="badge">问题</span>
-      <h3 style="margin:10px 0 6px">${p.title}</h3>
-      <p class="meta">${p.desc}</p>
+      <h3 style="margin:10px 0 6px">${KB.esc(p.title)}</h3>
+      <p class="meta">${KB.esc(p.desc)}</p>
       <p class="ref" style="margin-top:10px">
-        ${p.ids.map(id=>`<a href="card.html?id=${id}#${id}" style="margin-right:6px">${id}</a>`).join("")}
+        ${p.ids.map(id=>`<a href="card.html?id=${encodeURIComponent(id)}#${KB.esc(id)}" style="margin-right:6px">${KB.esc(id)}</a>`).join("")}
       </p>
     </article>`).join("") || `<p class="empty" style="display:block">没有匹配的问题。试试“说谎”“后进生”“坐不住”等关键词。</p>`;
 }
@@ -121,12 +140,14 @@ function apply(){
     if(m) location.hash = m.id;
   }
 }
-document.addEventListener("DOMContentLoaded", ()=>{
+document.addEventListener("DOMContentLoaded", async ()=>{
   const init = new URLSearchParams(location.search).get("q");
   if(init) document.getElementById("q").value = init;
   apply();
   document.getElementById("q").addEventListener("input", apply);
   document.getElementById("clearBtn").addEventListener("click", ()=>{ document.getElementById("q").value=""; apply(); });
+  try { CARDS = await KB.loadIndex(); } catch(e) { /* 索引失败时仅展示问题清单 */ }
+  apply();
 });
 </script>
 </body>

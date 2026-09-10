@@ -42,30 +42,30 @@
   </div>
 </footer>
 
-<script src="data.js?v=20260907"></script>
+<script src="kb.js"></script>
 <script src="theme.js?v=20260907"></script>
 <script>
-const CARDS = (window.KB_DATA && window.KB_DATA.cards) || [];
-const SOURCES = (window.KB_DATA && window.KB_DATA.sources) || [];
-const TOPICS = (window.KB_DATA && window.KB_DATA.topics) || [];
-function sourceTitle(slug){ const s=SOURCES.find(x=>x.slug===slug); return s?s.title:slug; }
-function topicTitle(slug){ const t=TOPICS.find(x=>x.slug===slug); return t?t.title:slug; }
-document.addEventListener("DOMContentLoaded", ()=>{
-  const sorted = CARDS.slice().sort((a,b)=>b.id.localeCompare(a.id, "en"));
-  const latest = sorted.slice(0, 60);
-  document.getElementById("stats").innerHTML = `
-    <div class="stat"><b>${latest.length}</b><span>最近卡片</span></div>
-    <div class="stat"><b>${CARDS.length}</b><span>全部卡片</span></div>`;
-  document.getElementById("latestGrid").innerHTML = latest.map(c=>`
-    <article class="card">
-      <div class="card-top">
-        <span class="badge">${c.id}</span>
-        <span class="meta">${c.type}</span>
-      </div>
-      <h3 style="margin:10px 0 6px"><a href="card.html?id=${c.id}#${c.id}" style="color:inherit">${c.title}</a></h3>
-      <p class="ref">${sourceTitle(c.source)}</p>
-      <p class="ref">${(c.topics||[]).map(topicTitle).join(" / ")}</p>
-    </article>`).join("");
+document.addEventListener("DOMContentLoaded", async ()=>{
+  document.getElementById("latestGrid").innerHTML = `<p class="section-sub">正在加载最近卡片…</p>`;
+  try{
+    const meta = await KB.ready();
+    const latest = await KB.loadLatest();
+    document.getElementById("stats").innerHTML = `
+      <div class="stat"><b>${latest.length}</b><span>最近卡片</span></div>
+      <div class="stat"><b>${meta.counts.cards}</b><span>全部卡片</span></div>`;
+    document.getElementById("latestGrid").innerHTML = latest.map(c=>`
+      <article class="card">
+        <div class="card-top">
+          <span class="badge">${KB.esc(c.id)}</span>
+          <span class="meta">${KB.esc(KB.typeLabel(c.type))}</span>
+        </div>
+        <h3 style="margin:10px 0 6px"><a href="card.html?id=${encodeURIComponent(c.id)}#${KB.esc(c.id)}" style="color:inherit">${KB.esc(c.title)}</a></h3>
+        <p class="ref">${KB.esc(KB.sourceTitle(c.source))}</p>
+        <p class="ref">${(c.topics||[]).map(t=>KB.esc(KB.topicTitle(t))).join(" / ")}</p>
+      </article>`).join("");
+  }catch(e){
+    document.getElementById("latestGrid").innerHTML = `<p class="section-sub">数据加载失败：${KB.esc(e.message)}</p>`;
+  }
 });
 </script>
 </body>

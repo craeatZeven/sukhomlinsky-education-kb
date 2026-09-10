@@ -41,29 +41,30 @@
   </div>
 </footer>
 
-<script src="data.js?v=20260907"></script>
+<script src="kb.js"></script>
 <script src="theme.js?v=20260907"></script>
 <script>
-const TOPICS = (window.KB_DATA && window.KB_DATA.topics) || [];
-const CARDS = (window.KB_DATA && window.KB_DATA.cards) || [];
 document.addEventListener("DOMContentLoaded", ()=>{
-  const counts = {};
-  CARDS.forEach(c => (c.topics || []).forEach(t => { counts[t] = (counts[t] || 0) + 1; }));
-  document.getElementById("topicGrid").innerHTML = TOPICS.map(t => {
-    const core = (t.core || []).slice(0, 2).map(x => `<li>${x}</li>`).join("");
-    const methods = (t.methods || []).slice(0, 2).map(x => `<li>${x}</li>`).join("");
-    return `<article class="card">
-      <div class="card-top"><span class="badge">${counts[t.slug] || 0} 张卡</span><span class="meta">${t.aliases || ""}</span></div>
-      <h3 style="margin:10px 0 6px"><a href="topic.html?slug=${t.slug}" style="color:inherit">${t.title}</a></h3>
-      <p class="cn">${t.summary || ""}</p>
-      <details style="margin-top:10px"><summary>核心判断</summary><ul>${core}</ul></details>
-      <details style="margin-top:6px"><summary>可操作方法</summary><ul>${methods}</ul></details>
-      <div style="margin-top:12px;display:flex;gap:8px;flex-wrap:wrap">
-        <a class="chip" style="text-decoration:none" href="topic.html?slug=${t.slug}">进入专题 →</a>
-        <a class="chip" style="text-decoration:none" href="explore.html?topic=${t.slug}">筛选卡片 →</a>
-      </div>
-    </article>`;
-  }).join("");
+  document.getElementById("topicGrid").innerHTML = `<p class="section-sub">正在加载主题…</p>`;
+  KB.ready().then(meta=>{
+    document.getElementById("topicGrid").innerHTML = meta.topics.map(t => {
+      const core = (t.core || []).slice(0, 2).map(x => `<li>${KB.esc(x)}</li>`).join("");
+      const methods = (t.methods || []).slice(0, 2).map(x => `<li>${KB.esc(x)}</li>`).join("");
+      return `<article class="card">
+        <div class="card-top"><span class="badge">${t.cards || 0} 张卡</span><span class="meta">${KB.esc(t.aliases || "")}</span></div>
+        <h3 style="margin:10px 0 6px"><a href="topic.html?slug=${encodeURIComponent(t.slug)}" style="color:inherit">${KB.esc(t.title)}</a></h3>
+        <p class="cn">${KB.esc(t.summary || "")}</p>
+        <details style="margin-top:10px"><summary>核心判断</summary><ul>${core}</ul></details>
+        <details style="margin-top:6px"><summary>可操作方法</summary><ul>${methods}</ul></details>
+        <div style="margin-top:12px;display:flex;gap:8px;flex-wrap:wrap">
+          <a class="chip" style="text-decoration:none" href="topic.html?slug=${encodeURIComponent(t.slug)}">进入专题 →</a>
+          <a class="chip" style="text-decoration:none" href="explore.html?topic=${encodeURIComponent(t.slug)}">筛选卡片 →</a>
+        </div>
+      </article>`;
+    }).join("");
+  }).catch(e=>{
+    document.getElementById("topicGrid").innerHTML = `<p class="section-sub">数据加载失败：${KB.esc(e.message)}</p>`;
+  });
 });
 </script>
 </body>

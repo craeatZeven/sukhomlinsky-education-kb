@@ -20,6 +20,7 @@ SCRIPTS = [
     'coverage_report.py',
     'coverage_volumes.py',
     'build_site.py',
+    'build_shards.py',
 ]
 
 

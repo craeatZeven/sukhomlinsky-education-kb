@@ -50,52 +50,80 @@
   </div>
 </footer>
 
-<script src="data.js?v=20260907"></script>
+<script src="kb.js"></script>
 <script src="theme.js?v=20260907"></script>
 <script>
-const CARDS = (window.KB_DATA && window.KB_DATA.cards) || [];
 const ZUOREN_SOURCE = "zuo-ren-de-gu-shi-zh";
-const STORIES = CARDS
-  .filter(c => c.source === ZUOREN_SOURCE)
-  .map(c => {
-    const m = (c.ref || "").match(/p\s*(\d+)/);
-    return { ...c, page: m ? parseInt(m[1], 10) : 99999 };
-  })
-  .sort((a, b) => a.page - b.page || a.title.localeCompare(b.title, "zh-CN"));
+let STORIES = [];
+let CORPUS = null;
+let CORPUS_BY_ID = new Map();
+let corpusLoading = false;
 let visibleCount = 80;
-let filtered = STORIES.slice();
+let filtered = [];
 
-function storyText(c){
-  return [c.title, c.id, c.ref, c.cn, (c.excerpts || []).join(" ")].join(" ").toLowerCase();
+function storyText(c, useCorpus){
+  return KB.searchText(c, useCorpus ? CORPUS_BY_ID.get(c.id) : null);
 }
-function render(){
+function render(deep){
   const q = (document.getElementById("q").value || "").trim().toLowerCase();
-  filtered = q ? STORIES.filter(c => storyText(c).includes(q)) : STORIES.slice();
+  filtered = q ? STORIES.filter(c => storyText(c, deep).includes(q)) : STORIES.slice();
   document.getElementById("stats").innerHTML = `
     <div class="stat"><b>${filtered.length}</b><span>匹配故事</span></div>
-    <div class="stat"><b>${STORIES.length}</b><span>全部故事</span></div>`;
+    <div class="stat"><b>${STORIES.length}</b><span>全部故事</span></div>
+    ${deep ? '<div class="stat"><b>✓</b><span>已含原文全文</span></div>' : ''}`;
   const slice = filtered.slice(0, visibleCount);
   document.getElementById("storyGrid").innerHTML = slice.map(c => {
-    const exps = (c.excerpts && c.excerpts.length) ? c.excerpts : (c.excerpt ? [c.excerpt] : []);
-    const ex = exps.length ? `<p class="excerpt">“${exps[0]}”</p>` : "";
-    return `<article class="card">
-      <div class="card-top"><span class="badge">p${c.page === 99999 ? "?" : c.page}</span><span class="meta">${c.id}</span></div>
-      <h3><a href="card.html?id=${c.id}#${c.id}" style="color:inherit">${c.title}</a></h3>
+    const ex = c.preview ? `<p class="excerpt">“${KB.esc(c.preview)}”</p>` : "";
+    return `<article class="card" id="card-${KB.esc(c.id)}">
+      <div class="card-top"><span class="badge">p${c.page == null ? "?" : c.page}</span><span class="meta">${KB.esc(c.id)}</span></div>
+      <h3><a href="card.html?id=${encodeURIComponent(c.id)}#${KB.esc(c.id)}" style="color:inherit">${KB.esc(c.title)}</a></h3>
       ${ex}
     </article>`;
   }).join("");
   document.getElementById("empty").style.display = filtered.length ? "none" : "block";
   document.getElementById("loadMore").style.display = filtered.length > visibleCount ? "inline-block" : "none";
 }
-document.addEventListener("DOMContentLoaded", () => {
-  render();
-  document.getElementById("q").addEventListener("input", () => { visibleCount = 80; render(); });
+async function runSearch(){
+  const q = (document.getElementById("q").value || "").trim();
+  if(!q){ visibleCount = 80; render(false); return; }
+  const quick = STORIES.filter(c => storyText(c, false).includes(q.toLowerCase()));
+  if(quick.length || corpusLoading){ visibleCount = 80; render(false); return; }
+  corpusLoading = true;
+  document.getElementById("stats").innerHTML = `<div class="stat"><b>…</b><span>正在加载原文索引</span></div>`;
+  try{
+    CORPUS = await KB.loadSearch(ZUOREN_SOURCE);
+    CORPUS_BY_ID = new Map(CORPUS.map(e => [e.id, e]));
+  }catch(e){
+    document.getElementById("stats").innerHTML = `<div class="stat"><b>0</b><span>原文索引加载失败，请改用<a href="search.html">检索页</a></span></div>`;
+  }
+  corpusLoading = false;
+  visibleCount = 80;
+  render(!!CORPUS);
+}
+document.addEventListener("DOMContentLoaded", async () => {
+  document.getElementById("stats").innerHTML = `<div class="stat"><b>…</b><span>正在加载《做人的故事》索引</span></div>`;
+  try{
+    const list = await KB.loadIndexFor(ZUOREN_SOURCE);
+    STORIES = list.slice().sort((a, b) =>
+      (a.page == null ? 99999 : a.page) - (b.page == null ? 99999 : b.page) ||
+      a.title.localeCompare(b.title, "zh-CN"));
+  }catch(e){
+    document.getElementById("stats").innerHTML = `<div class="stat"><b>0</b><span>数据加载失败：${KB.esc(e.message)}</span></div>`;
+  }
+  render(false);
+  let debounce = null;
+  document.getElementById("q").addEventListener("input", () => {
+    clearTimeout(debounce);
+    debounce = setTimeout(runSearch, 200);
+  });
   document.getElementById("randomBtn").addEventListener("click", () => {
     const c = STORIES[Math.floor(Math.random() * STORIES.length)];
-    if (c) location.href = "card.html?id=" + c.id + "#" + c.id;
+    if (c) location.href = "card.html?id=" + encodeURIComponent(c.id) + "#" + c.id;
   });
-  document.getElementById("clearBtn").addEventListener("click", () => { document.getElementById("q").value = ""; visibleCount = 80; render(); });
-  document.getElementById("loadMore").addEventListener("click", () => { visibleCount += 80; render(); });
+  document.getElementById("clearBtn").addEventListener("click", () => {
+    document.getElementById("q").value = ""; visibleCount = 80; render(false);
+  });
+  document.getElementById("loadMore").addEventListener("click", () => { visibleCount += 80; render(!!CORPUS); });
 });
 </script>
 </body>

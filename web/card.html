@@ -22,7 +22,6 @@
 
 <header class="page-head">
   <div class="wrap">
-    <div class="eyebrow">Card Detail</div>
     <h1 id="cardTitle">卡片详情</h1>
     <p id="cardMeta"></p>
   </div>
@@ -47,47 +46,51 @@
   </div>
 </footer>
 
-<script src="data.js?v=20260907"></script>
+<script src="kb.js"></script>
 <script src="theme.js?v=20260907"></script>
 <script>
-const SOURCES = (window.KB_DATA && window.KB_DATA.sources) || [];
-const TOPICS = (window.KB_DATA && window.KB_DATA.topics) || [];
-const CARDS = (window.KB_DATA && window.KB_DATA.cards) || [];
-const TYPE_LABELS = {quote:"quote 语录", case:"case 案例", principle:"principle 原则", method:"method 方法", practice:"practice 实践"};
-const EXTRA_TAG_LABELS = {"OCR待校":"OCR 待校", "待纸本核":"待纸本核", "跨主题":"跨主题"};
-function topicTitle(slug){ const t=TOPICS.find(x=>x.slug===slug); return t?t.title:slug; }
-function sourceTitle(slug){ const s=SOURCES.find(x=>x.slug===slug); return s?s.title:slug; }
 function getParam(){ return new URLSearchParams(location.search).get("id") || location.hash.replace("#",""); }
-function cardLink(c){ return `card.html?id=${c.id}#${c.id}`; }
-function renderCard(c){
-  if(!c){ document.getElementById("cardMain").innerHTML = `<p class="empty" style="display:block">未找到该卡片，请检查链接或去主题浏览。</p>`; return; }
+function cardLink(c){ return `card.html?id=${encodeURIComponent(c.id)}#${KB.esc(c.id)}`; }
+function renderCard(c, error){
+  if(!c){
+    const msg = error
+      ? (error.notFound
+          ? `没有这张卡片（${KB.esc(getParam())}）。可能是链接里的 ID 有误，或卡片已调整。`
+          : "卡片数据加载失败：" + KB.esc(error.message))
+      : "未找到该卡片，请检查链接或去主题浏览。";
+    document.getElementById("cardMain").innerHTML = `<p class="empty" style="display:block">${msg}</p>
+      <div style="margin-top:14px;display:flex;gap:10px;flex-wrap:wrap">
+        <a class="chip" style="text-decoration:none" href="explore.html">← 去主题浏览</a>
+        <a class="chip" style="text-decoration:none" href="search.html">用检索页查找</a>
+      </div>`;
+    return;
+  }
   document.title = c.id + " · " + c.title + " · 苏霍姆林斯基教育知识库";
   document.getElementById("cardTitle").textContent = c.title;
-  const topicBadges = (c.topics||[]).map(s=>`<a class="badge" style="margin-right:6px;text-decoration:none" href="topic.html?slug=${s}">${topicTitle(s)}</a>`).join("");
+  const topicBadges = (c.topics||[]).map(s=>`<a class="badge" style="margin-right:6px;text-decoration:none" href="topic.html?slug=${encodeURIComponent(s)}">${KB.esc(KB.topicTitle(s))}</a>`).join("");
   const exps = (c.excerpts && c.excerpts.length) ? c.excerpts : (c.excerpt ? [c.excerpt] : []);
-  const excerptsHtml = exps.map((q,i)=>`<div class="excerpt" style="margin-top:10px">${q}</div>`).join("");
-  const tags = [...(c.tags||[]).map(t=>EXTRA_TAG_LABELS[t]||t)];
-  const citation = `${c.title} // 苏霍姆林斯基教育知识库 ${c.id} · ${sourceTitle(c.source)} · ${c.ref}`;
-  document.getElementById("cardMeta").textContent = c.id + " · " + sourceTitle(c.source);
+  const excerptsHtml = exps.map(q=>`<div class="excerpt" style="margin-top:10px">${KB.esc(q)}</div>`).join("");
+  const tags = (c.tags||[]).map(t=>KB.TAG_LABELS[t]||t);
+  const ref = KB.refText(c.ref);
+  const citation = `${c.title} // 苏霍姆林斯基教育知识库 ${c.id} · ${KB.sourceTitle(c.source)} · ${ref}`;
+  document.getElementById("cardMeta").textContent = c.id + " · " + KB.sourceTitle(c.source);
   document.getElementById("cardMain").innerHTML = `
     <div class="card-top">
       <div>${topicBadges}</div>
-      <span class="badge" style="background:transparent;border:1px solid var(--line);color:var(--soft)">${TYPE_LABELS[c.type]||c.type}</span>
+      <span class="badge" style="background:transparent;border:1px solid var(--line);color:var(--soft)">${KB.esc(KB.typeLabel(c.type))}</span>
     </div>
-    <h2 style="margin:12px 0 8px;font-size:24px">${c.title}</h2>
-    ${excerptsHtml}
-    ${c.cn?`<div class="cn" style="margin-top:12px"><b>中文转述：</b>${c.cn}</div>`:""}
-    <div class="ref" style="margin-top:14px;line-height:1.7"><b>出处：</b>${sourceTitle(c.source)}<br>${c.ref}</div>
-    ${tags.length?`<div style="margin-top:10px">${tags.map(t=>`<span class="meta" style="border:1px solid var(--line);border-radius:999px;padding:1px 8px;margin-right:6px">${t}</span>`).join("")}</div>`:""}
+    ${excerptsHtml}    ${c.cn?`<div class="cn" style="margin-top:12px"><b>中文转述：</b>${KB.esc(c.cn)}</div>`:""}
+    <div class="ref" style="margin-top:14px;line-height:1.7"><b>出处：</b>${KB.esc(KB.sourceTitle(c.source))}<br>${KB.esc(ref)}</div>
+    ${tags.length?`<div style="margin-top:10px">${tags.map(t=>`<span class="meta" style="border:1px solid var(--line);border-radius:999px;padding:1px 8px;margin-right:6px">${KB.esc(t)}</span>`).join("")}</div>`:""}
     <div style="margin-top:16px;display:flex;gap:10px;flex-wrap:wrap">
       <button class="chip" id="copyBtn" type="button">复制引用</button>
       <button class="chip" id="shareBtn" type="button">分享</button>
       <button class="chip" id="printBtn" type="button">打印 / 存 PDF</button>
-      <a class="chip" style="text-decoration:none" href="explore.html?source=${c.source}">查看同来源卡片 →</a>
+      <a class="chip" style="text-decoration:none" href="explore.html?source=${encodeURIComponent(c.source)}">查看同来源卡片 →</a>
       <a class="chip" style="text-decoration:none" href="../INDEX.md" target="_blank" rel="noopener">在 INDEX 中查看 ↗</a>
     </div>`;
   document.getElementById("copyBtn").addEventListener("click", ()=>{
-    navigator.clipboard && navigator.clipboard.writeText(citation).then(()=>{document.getElementById("copyBtn").textContent="已复制";});
+    if(navigator.clipboard) navigator.clipboard.writeText(citation).then(()=>{document.getElementById("copyBtn").textContent="已复制";});
   });
   document.getElementById("shareBtn").addEventListener("click", async ()=>{
     const shareData = { title: c.title + " · 苏霍姆林斯基教育知识库", text: citation, url: location.href };
@@ -103,26 +106,33 @@ function renderCard(c){
   renderPager(c);
 }
 function renderPager(c){
-  const idx = CARDS.findIndex(x=>x.id===c.id);
-  const prev = idx>0 ? CARDS[idx-1] : null;
-  const next = idx>=0 && idx<CARDS.length-1 ? CARDS[idx+1] : null;
+  const prev = c.prev ? { id: c.prev } : null;
+  const next = c.next ? { id: c.next } : null;
   document.getElementById("pager").innerHTML = `
-    ${prev?`<a class="chip" style="text-decoration:none" href="${cardLink(prev)}">← ${prev.id}</a>`:`<span></span>`}
-    ${next?`<a class="chip" style="text-decoration:none" href="${cardLink(next)}">${next.id} →</a>`:`<span></span>`}`;
+    ${prev?`<a class="chip" style="text-decoration:none" href="${cardLink(prev)}">← ${KB.esc(prev.id)}</a>`:`<span></span>`}
+    ${next?`<a class="chip" style="text-decoration:none" href="${cardLink(next)}">${KB.esc(next.id)} →</a>`:`<span></span>`}`;
 }
 function renderRelated(c){
-  const rel = CARDS.filter(x=>x.id!==c.id && (x.topics||[]).some(t=>(c.topics||[]).includes(t))).slice(0,6);
+  const rel = c.related || [];
   document.getElementById("related").innerHTML = rel.map(x=>`
     <a class="source-card" style="text-decoration:none;color:inherit" href="${cardLink(x)}">
-      <span class="badge">${TYPE_LABELS[x.type]||x.type}</span>
-      <h3 style="margin:10px 0 4px;font-size:17px">${x.title}</h3>
-      <p class="ref">${x.id} · ${(x.topics||[]).map(topicTitle).join(" / ")}</p>
+      <span class="badge">${KB.esc(KB.typeLabel(x.type))}</span>
+      <h3 style="margin:10px 0 4px;font-size:17px">${KB.esc(x.title)}</h3>
+      <p class="ref">${KB.esc(x.id)} · ${(x.topics||[]).map(t=>KB.esc(KB.topicTitle(t))).join(" / ")}</p>
     </a>`).join("") || `<p class="section-sub">暂无相关卡片</p>`;
 }
-document.addEventListener("DOMContentLoaded", ()=>{
+document.addEventListener("DOMContentLoaded", async ()=>{
   const id = getParam();
-  if(id){ renderCard(CARDS.find(c=>c.id===id)); }
-  else { renderCard(null); }
+  if(!id){ renderCard(null); return; }
+  document.getElementById("cardMain").innerHTML = `<p class="section-sub">正在加载卡片…</p>`;
+  try{
+    /* 单卡 JSON 自带上一张/下一张/相关卡片，详情页不再拉整库索引 */
+    const card = await KB.loadCard(id);
+    renderCard(card);
+    KB.ready().then(()=>{ if(card) renderCard(card); }).catch(()=>{});
+  }catch(e){
+    renderCard(null, e);
+  }
 });
 </script>
 </body>

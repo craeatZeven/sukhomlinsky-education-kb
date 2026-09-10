@@ -56,68 +56,86 @@
 </footer>
 
 <script src="config.js?v=20260909"></script>
+<script src="kb.js"></script>
 <script src="theme.js?v=20260909"></script>
 <script>
 /* 双模式检索：
  *   1) 后端可用（config.js 的 apiBase 指向 FastAPI / Cloudflare Worker）→ 服务端 FTS5 检索 + 分页 + 聚合
- *   2) 后端不可用（例如 *.workers.dev 在当前网络被屏蔽）→ 自动回退到静态 data.js 的本地检索
- * 两种模式界面一致，用户无感。 */
+ *   2) 后端不可用（例如 *.workers.dev 在当前网络被屏蔽）→ 自动回退到静态分片（data/index.json + data/search/all.json）
+ * 两种模式界面一致，用户无感；静态分片只在回退时按需加载，不拖慢首屏。 */
 const CFG = window.KB_CONFIG || {};
 const API = (CFG.apiBase || "").replace(/\/$/, "");
 const $ = id => document.getElementById(id);
-const TYPE_LABELS = {quote:"quote 语录", case:"case 案例", principle:"principle 原则", method:"method 方法", practice:"practice 实践"};
 let MODE = "api";          // api | static
-let KB = null;             // 静态数据（回退时按需加载）
+let SDATA = null;          // 静态回退数据 {index, corpusById}
 let META = { sources: [], topics: [] };
 let state = { q: "", source: "", topic: "", type: "", page: 1, size: 20, total: 0, pages: 0, items: [] };
 
-function labelType(t){ return TYPE_LABELS[t] || t; }
+function labelType(t){ return KB.typeLabel(t); }
 function topicTitle(slug){ const t = META.topics.find(x => x.slug === slug); return t ? t.title : slug; }
 function sourceTitle(slug){ const s = META.sources.find(x => x.slug === slug); return s ? s.title : slug; }
 
-async function api(path){
-  const r = await fetch(API + path, { headers: { "Accept": "application/json" } });
-  if(!r.ok) throw new Error(path + " → HTTP " + r.status);
-  return r.json();
+/* 后端探测/请求带超时：*.workers.dev 在国内常被屏蔽，TCP 连接会长时间挂起，
+ * 不能让用户干等——4 秒不通就回退静态分片。 */
+async function api(path, timeoutMs){
+  const ctl = new AbortController();
+  const timer = setTimeout(() => ctl.abort(), timeoutMs || 4000);
+  try{
+    const r = await fetch(API + path, { headers: { "Accept": "application/json" }, signal: ctl.signal });
+    if(!r.ok) throw new Error(path + " → HTTP " + r.status);
+    return await r.json();
+  }catch(e){
+    throw new Error(e.name === "AbortError" ? "后端无响应（超时）" : e.message);
+  }finally{
+    clearTimeout(timer);
+  }
 }
 
 /* ---------- 静态回退 ---------- */
-function loadStatic(){
-  if(KB) return Promise.resolve(KB);
-  return new Promise((resolve, reject)=>{
-    const s = document.createElement("script");
-    s.src = "data.js?v=20260909";
-    s.onload = ()=>{ KB = window.KB_DATA || {sources:[],topics:[],cards:[]}; resolve(KB); };
-    s.onerror = ()=>reject(new Error("data.js 加载失败"));
-    document.head.appendChild(s);
-  });
+async function loadStatic(){
+  if(SDATA) return SDATA;
+  const [index, corpus] = await Promise.all([KB.loadIndex(), KB.loadSearch("all")]);
+  SDATA = { index, corpusById: new Map(corpus.map(e => [e.id, e])) };
+  return SDATA;
+}
+
+function snippetFor(c, terms){
+  const text = (SDATA.corpusById.get(c.id) || {}).text || "";
+  const lower = text.toLowerCase();
+  let pos = -1;
+  for(const t of terms){
+    const i = lower.indexOf(t);
+    if(i >= 0 && (pos < 0 || i < pos)) pos = i;
+  }
+  if(pos < 0) return (c.cn || c.preview || "").slice(0, 160);
+  return text.slice(Math.max(0, pos - 40), Math.max(0, pos - 40) + 160);
 }
 
 function staticSearch(){
   const terms = state.q.toLowerCase().split(/\s+/).filter(Boolean);
-  const list = KB.cards.filter(c=>{
+  const list = SDATA.index.filter(c=>{
     if(state.source && c.source !== state.source) return false;
     if(state.type && c.type !== state.type) return false;
     if(state.topic && !(c.topics||[]).includes(state.topic)) return false;
     if(!terms.length) return true;
-    const text = [c.title, c.id, c.cn, c.ref, (c.excerpts||[]).join(" "), (c.topics||[]).join(" ")].join(" ").toLowerCase();
+    const text = KB.searchText(c, SDATA.corpusById.get(c.id));
     return terms.every(t => text.includes(t));
   });
   const start = (state.page - 1) * state.size;
   const items = list.slice(start, start + state.size).map(c=>({
-    ...c, snippet: (c.cn || c.excerpt || "").slice(0, 160),
+    ...c, snippet: snippetFor(c, terms),
   }));
   return { total: list.length, items, mode: "static-client" };
 }
 
 function cardHtml(c){
-  const topics = (c.topics||[]).map(s=>`<a class="badge" style="margin-right:6px;text-decoration:none" href="topic.html?slug=${s}">${topicTitle(s)}</a>`).join("");
-  const snippet = c.snippet ? `<p class="excerpt">…${c.snippet}…</p>` : "";
+  const topics = (c.topics||[]).map(s=>`<a class="badge" style="margin-right:6px;text-decoration:none" href="topic.html?slug=${encodeURIComponent(s)}">${KB.esc(topicTitle(s))}</a>`).join("");
+  const snippet = c.snippet ? `<p class="excerpt">…${KB.esc(c.snippet)}…</p>` : "";
   return `<article class="card" style="padding:16px;margin-bottom:14px">
-    <div class="card-top"><div>${topics}</div><span class="badge">${labelType(c.type)}</span></div>
-    <h3 style="margin:8px 0 6px"><a href="card.html?id=${c.id}#${c.id}" style="color:inherit">${c.title}</a></h3>
+    <div class="card-top"><div>${topics}</div><span class="badge">${KB.esc(labelType(c.type))}</span></div>
+    <h3 style="margin:8px 0 6px"><a href="card.html?id=${encodeURIComponent(c.id)}#${KB.esc(c.id)}" style="color:inherit">${KB.esc(c.title)}</a></h3>
     ${snippet}
-    <div class="ref" style="margin-top:8px">${c.id} · ${sourceTitle(c.source)}<br>${c.ref || ""}</div>
+    <div class="ref" style="margin-top:8px">${KB.esc(c.id)} · ${KB.esc(sourceTitle(c.source))}<br>${KB.esc(KB.refText(c.ref || ""))}</div>
   </article>`;
 }
 
@@ -128,7 +146,7 @@ function fillFacets(){
   fType.innerHTML = '<option value="">全部类型</option>';
   META.sources.forEach(s=>{ fS.insertAdjacentHTML("beforeend", `<option value="${s.slug}">${s.slug} · ${s.cards}</option>`); });
   META.topics.forEach(t=>{ fT.insertAdjacentHTML("beforeend", `<option value="${t.slug}">${t.slug} · ${t.cards}</option>`); });
-  Object.keys(TYPE_LABELS).forEach(t=>{ fType.insertAdjacentHTML("beforeend", `<option value="${t}">${labelType(t)}</option>`); });
+  Object.keys(KB.TYPE_LABELS).forEach(t=>{ fType.insertAdjacentHTML("beforeend", `<option value="${t}">${labelType(t)}</option>`); });
 }
 
 async function initData(){
@@ -141,14 +159,12 @@ async function initData(){
   }catch(e){
     MODE = "static";
     await loadStatic();
-    const counts = {};
-    KB.cards.forEach(c=>{ counts[c.source] = (counts[c.source]||0)+1; });
-    META.sources = KB.sources.map(s=>({slug:s.slug, title:s.title, cards:counts[s.slug]||0}));
-    META.topics = KB.topics.map(t=>({slug:t.slug, title:t.title,
-      cards: KB.cards.filter(c=>(c.topics||[]).includes(t.slug)).length}));
-    $("apiState").textContent = `后端不可用（${e.message}），已切换到本地静态检索 · 共 ${KB.cards.length} 张卡`;
+    const meta = KB.meta;
+    META.sources = meta.sources.map(s=>({slug:s.slug, title:s.title, cards:s.cards||0}));
+    META.topics = meta.topics.map(t=>({slug:t.slug, title:t.title, cards:t.cards||0}));
+    $("apiState").textContent = `后端不可用（${e.message}），已切换到本地静态检索 · 共 ${meta.counts.cards} 张卡`;
   }
-  fillFacets();
+  try { fillFacets(); } catch(e) { $("apiState").textContent += "（筛选器初始化失败：" + e.message + "）"; }
 }
 
 async function run(){
@@ -170,8 +186,8 @@ async function run(){
     if(MODE === "api"){
       MODE = "static";
       try{
-        await loadStatic(); fillFacets(); r = staticSearch();
-        $("apiState").textContent = `后端请求失败（${e.message}），已切换到本地静态检索 · 共 ${KB.cards.length} 张卡`;
+        await loadStatic(); try { fillFacets(); } catch(e2) {} r = staticSearch();
+        $("apiState").textContent = `后端请求失败（${e.message}），已切换到本地静态检索 · 共 ${SDATA.index.length} 张卡`;
       }catch(e2){
         $("results").innerHTML = `<p class="empty" style="display:block">检索失败：${e2.message}</p>`;
         return;
@@ -219,8 +235,8 @@ document.addEventListener("DOMContentLoaded", async ()=>{
   ["fSource","fTopic","fType","fSize"].forEach(id=>$(id).addEventListener("change", ()=>$("searchBtn").click()));
   $("randomBtn").addEventListener("click", async ()=>{
     try{
-      if(MODE === "api"){ const c = await api("/api/random"); location.href = "card.html?id=" + c.id + "#" + c.id; }
-      else { const c = KB.cards[Math.floor(Math.random()*KB.cards.length)]; location.href = "card.html?id=" + c.id + "#" + c.id; }
+      if(MODE === "api"){ const c = await api("/api/random"); location.href = "card.html?id=" + encodeURIComponent(c.id) + "#" + c.id; }
+      else { const c = await KB.loadRandomCard(); location.href = "card.html?id=" + encodeURIComponent(c.id) + "#" + c.id; }
     }catch(e){ alert("取随机卡失败：" + e.message); }
   });
   $("exportJson").addEventListener("click", ()=>downloadBlob("kb-search-page.json", JSON.stringify(state.items, null, 2), "application/json"));

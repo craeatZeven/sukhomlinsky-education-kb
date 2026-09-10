@@ -25,7 +25,7 @@
   <div class="wrap">
     <div class="eyebrow">Browse by Topic</div>
     <h1>按主题浏览</h1>
-    <p>先选“讲什么”，类型和其他标签只是辅助筛选。</p>
+    <p class="hide-sm">先选“讲什么”，类型和其他标签只是辅助筛选。</p>
     <div class="searchbox">
       <input id="search" type="search" placeholder="关键词（可选）：后进生、健康、读书、评价……" />
       <button class="chip" id="clearBtn" type="button">重置</button>
@@ -39,20 +39,20 @@
     <div class="chips" id="topicChips" style="justify-content:flex-start; max-width:100%"></div>
   </section>
 
-  <section>
-    <h2 class="section-title">来源 · 按书筛选</h2>
-    <div class="chips" id="sourceChips" style="justify-content:flex-start; max-width:100%"></div>
-  </section>
+  <details class="filters" id="filters">
+    <summary>更多筛选（来源 / 类型 / 状态标签）<span class="hint" id="filterHint">未启用</span></summary>
+    <div class="filters-body">
+      <h3>来源 · 按书筛选</h3>
+      <div class="chips" id="sourceChips" style="justify-content:flex-start; max-width:100%"></div>
+      <h3>标签 · 可选筛选</h3>
+      <p class="section-sub">类型（quote/case/principle/method/practice）与状态标签（OCR待校、待纸本核、跨主题），可多选。</p>
+      <div class="chips" id="tagChips" style="justify-content:flex-start"></div>
+    </div>
+  </details>
 
   <section>
-    <h2 class="section-title">标签 · 可选筛选</h2>
-    <p class="section-sub">类型（quote/case/principle/method/practice）与状态标签（OCR待校、待纸本核、跨主题），可多选。</p>
-    <div class="chips" id="tagChips" style="justify-content:flex-start"></div>
-  </section>
-
-  <section>
-    <div class="stats" id="stats" style="margin:18px 0"></div>
-    <div class="load-wrap" style="margin:0 0 18px">
+    <div class="stats" id="stats" style="margin:18px 0 12px"></div>
+    <div class="load-wrap" style="margin:0 0 18px;display:flex;gap:8px;justify-content:center;flex-wrap:wrap">
       <button id="exportJson" class="chip" type="button">导出当前结果 JSON</button>
       <button id="exportCsv" class="chip" type="button">导出当前结果 CSV</button>
     </div>
@@ -68,102 +68,114 @@
   </div>
 </footer>
 
-<script src="data.js?v=20260907"></script>
+<script src="kb.js"></script>
 <script src="theme.js?v=20260907"></script>
 <script>
-const SOURCES = (window.KB_DATA && window.KB_DATA.sources) || [];
-const TOPICS = (window.KB_DATA && window.KB_DATA.topics) || [];
-const CARDS = (window.KB_DATA && window.KB_DATA.cards) || [];
-const TYPE_LABELS = {quote:"quote 语录", case:"case 案例", principle:"principle 原则", method:"method 方法", practice:"practice 实践"};
-const EXTRA_TAG_LABELS = {"OCR待校":"OCR 待校", "待纸本核":"待纸本核", "跨主题":"跨主题"};
+let CARDS = [];                 /* 全库索引（摘要，无正文） */
+let CORPUS = null;              /* 全文检索语料，首次需要时再拉 */
+let CORPUS_BY_ID = new Map();
+let CORPUS_SCOPE = null;
+let corpusLoading = false;
 
 let activeTopic = "all";
 let activeSource = "all";
 let activeTags = new Set();
 let currentFiltered = [];
-let visibleCount = 60;
+/* 移动端首屏更短，一屏 24 张足够；桌面 60 张。 */
+const PAGE_SIZE = window.matchMedia("(max-width: 680px)").matches ? 24 : 60;
+let visibleCount = PAGE_SIZE;
 const $ = id => document.getElementById(id);
 
-function topicTitle(slug){ const t=TOPICS.find(x=>x.slug===slug); return t?t.title:slug; }
+function topicTitle(slug){ return KB.topicTitle(slug); }
+function sourceTitle(slug){ return KB.sourceTitle(slug); }
 function allTagDefs(){
-  const typeTags = [...new Set(CARDS.map(c=>c.type))].map(t=>({id:"type:"+t, label:TYPE_LABELS[t]||t, kind:"type"}));
-  const extraTags = [...new Set(CARDS.flatMap(c=>c.tags||[]))].map(t=>({id:"tag:"+t, label:EXTRA_TAG_LABELS[t]||t, kind:"tag"}));
+  const typeTags = [...new Set(CARDS.map(c=>c.type))].map(t=>({id:"type:"+t, label:KB.typeLabel(t), kind:"type"}));
+  const extraTags = [...new Set(CARDS.flatMap(c=>c.tags||[]))].map(t=>({id:"tag:"+t, label:KB.TAG_LABELS[t]||t, kind:"tag"}));
   return [...typeTags, ...extraTags];
 }
 function buildTopicChips(){
-  const chips = [{slug:"all", title:"全部主题"}, ...TOPICS.map(t=>({slug:t.slug, title:t.title}))];
-  $("topicChips").innerHTML = chips.map(t=>`<button class="chip ${t.slug===activeTopic?"active":""}" data-topic="${t.slug}">${t.title}</button>`).join("");
+  const chips = [{slug:"all", title:"全部主题"}, ...KB.meta.topics.map(t=>({slug:t.slug, title:t.title}))];
+  $("topicChips").innerHTML = chips.map(t=>`<button class="chip ${t.slug===activeTopic?"active":""}" data-topic="${KB.esc(t.slug)}">${KB.esc(t.title)}</button>`).join("");
 }
 function buildSourceChips(){
-  const counts = {};
-  CARDS.forEach(c=>{ counts[c.source]=(counts[c.source]||0)+1; });
-  const chips = [{slug:"all", title:"全部来源", count:CARDS.length}, ...SOURCES.map(s=>({slug:s.slug, title:s.title, count:counts[s.slug]||0}))];
-  $("sourceChips").innerHTML = chips.map(s=>`<button class="chip ${s.slug===activeSource?"active":""}" data-source="${s.slug}">${s.title} · ${s.count}</button>`).join("");
+  const chips = [{slug:"all", title:"全部来源", count:KB.meta.counts.cards},
+                 ...KB.meta.sources.filter(s=>s.cards).map(s=>({slug:s.slug, title:s.title, count:s.cards}))];
+  $("sourceChips").innerHTML = chips.map(s=>`<button class="chip ${s.slug===activeSource?"active":""}" data-source="${KB.esc(s.slug)}">${KB.esc(s.title)} · ${s.count}</button>`).join("");
 }
 function buildTagChips(){
   $("tagChips").innerHTML = allTagDefs().map(t=>{
     const active = activeTags.has(t.id);
-    return `<button class="chip ${active?"active":""}" data-tag="${t.id}">${t.label}</button>`;
+    return `<button class="chip ${active?"active":""}" data-tag="${KB.esc(t.id)}">${KB.esc(t.label)}</button>`;
   }).join("");
 }
-function cardSearchText(c){
-  const topics = (c.topics||[]).map(topicTitle).join(" ");
-  const tags = [TYPE_LABELS[c.type]||c.type, ...(c.tags||[])].join(" ");
-  const excerpts = (c.excerpts||[]).join(" ");
-  return (c.title+" "+(c.cn||"")+" "+c.id+" "+c.source+" "+sourceTitle(c.source)+" "+(c.ref||"")+" "+excerpts+" "+topics+" "+tags).toLowerCase();
+function matchQuery(c, q, useCorpus){
+  const text = KB.searchText(c, useCorpus ? CORPUS_BY_ID.get(c.id) : null);
+  return text.includes(q);
 }
-function sourceTitle(slug){ const s=SOURCES.find(x=>x.slug===slug); return s?s.title:slug; }
-function cardHTML(c){
-  const topicBadges = (c.topics||[]).map(s=>`<a class="badge" style="margin-right:6px;text-decoration:none" href="explore.html?topic=${s}">${topicTitle(s)}</a>`).join("");
-  const extraTags = (c.tags||[]).map(t=>`<span class="meta" style="border:1px solid var(--line);border-radius:999px;padding:1px 8px;margin-left:6px">${EXTRA_TAG_LABELS[t]||t}</span>`).join("");
-  const exps = (c.excerpts && c.excerpts.length) ? c.excerpts : (c.excerpt ? [c.excerpt] : []);
-  let excerptHtml = "";
-  if(exps.length){
-    excerptHtml = `<p class="excerpt">“${exps[0]}”</p>`;
-    if(exps.length > 1){
-      excerptHtml += `<details class="more-excerpts"><summary>本卡另有 ${exps.length - 1} 段原文</summary>${exps.slice(1).map(q=>`<p class="excerpt">“${q}”</p>`).join("")}</details>`;
-    }
-  }
-  return `
-  <article class="card" id="card-${c.id}">
-    <div class="card-top">
-      <div>${topicBadges}</div>
-      <span class="badge" style="background:transparent;border:1px solid var(--line);color:var(--soft)">${TYPE_LABELS[c.type]||c.type}</span>
-    </div>
-    <h3><a href="card.html?id=${c.id}#${c.id}" style="color:inherit">${c.title}</a></h3>
-    ${excerptHtml}
-    ${c.cn?`<p class="cn">${c.cn}</p>`:""}
-    <div class="ref" style="margin-top:10px">${c.id} · ${sourceTitle(c.source)}<br>${c.ref}</div>
-    ${extraTags?`<div style="margin-top:8px">${extraTags}</div>`:""}
-  </article>`;
-}
-function paintCards(){
-  const slice = currentFiltered.slice(0, visibleCount);
-  $("cardGrid").innerHTML = slice.map(cardHTML).join("");
-  $("empty").style.display = currentFiltered.length ? "none" : "block";
-  $("loadMore").style.display = currentFiltered.length > visibleCount ? "inline-block" : "none";
-}
-function applyFilter(){
-  const q = ($("search").value||"").trim().toLowerCase();
-  currentFiltered = CARDS.filter(c=>{
+function filterPass(q, useCorpus){
+  return CARDS.filter(c=>{
     if(activeTopic!=="all" && !(c.topics||[]).includes(activeTopic)) return false;
     if(activeSource!=="all" && c.source!==activeSource) return false;
     for(const tagId of activeTags){
       if(tagId.startsWith("type:") && c.type !== tagId.slice(5)) return false;
       if(tagId.startsWith("tag:") && !(c.tags||[]).includes(tagId.slice(4))) return false;
     }
-    if(q && !cardSearchText(c).includes(q)) return false;
+    if(q && !matchQuery(c, q, useCorpus)) return false;
     return true;
   });
-  visibleCount = 60;
-  paintCards();
 }
-function renderStats(){
+async function ensureCorpus(scope){
+  if(CORPUS_SCOPE === scope) return;
+  corpusLoading = true;
+  $("empty").style.display = "none";
+  $("stats").innerHTML = `<div class="stat"><b>…</b><span>正在加载全文索引（首次检索需要）</span></div>`;
+  CORPUS = await KB.loadSearch(scope);
+  CORPUS_BY_ID = new Map(CORPUS.map(e=>[e.id, e]));
+  CORPUS_SCOPE = scope;
+  corpusLoading = false;
+}
+async function applyFilter(){
+  const q = ($("search").value||"").trim().toLowerCase();
+  let list = filterPass(q, false);
+  let deep = false;
+  if(q && list.length === 0 && !corpusLoading){
+    const scope = activeSource === "all" ? "all" : activeSource;
+    try{
+      await ensureCorpus(scope);
+      list = filterPass(q, true);
+      deep = true;
+    }catch(e){
+      $("stats").innerHTML = `<div class="stat"><b>0</b><span>全文索引加载失败，请改用<a href="search.html">检索页</a></span></div>`;
+      currentFiltered = [];
+      paintCards();
+      return;
+    }
+  }
+  currentFiltered = list;
+  visibleCount = PAGE_SIZE;
+  paintCards();
+  renderStats(deep, q);
+}
+function paintCards(){
+  const slice = currentFiltered.slice(0, visibleCount);
+  $("cardGrid").innerHTML = slice.map(c=>KB.cardHTML(c)).join("");
+  $("empty").style.display = currentFiltered.length ? "none" : "block";
+  $("loadMore").style.display = currentFiltered.length > visibleCount ? "inline-block" : "none";
+}
+function renderStats(deep, q){
   const tagText = activeTags.size ? ` · ${activeTags.size} 个标签` : "";
   const sourceText = activeSource!=="all" ? ` · ${sourceTitle(activeSource)}` : "";
+  const deepText = deep ? ` · 已含原文全文` : "";
+  const hint = (q && !deep) ? `<span style="color:var(--soft)">（当前匹配标题/转述/出处；0 结果时自动扩展原文）</span>` : "";
+  /* 未筛选时不重复显示同一个数字（旧版会出现「1386 / 1386」两条） */
+  const filtered = currentFiltered.length !== CARDS.length || activeTopic!=="all" ||
+                   activeSource!=="all" || activeTags.size > 0 || !!q;
   $("stats").innerHTML = `
-    <div class="stat"><b>${currentFiltered.length}</b><span>当前结果${sourceText}${tagText}</span></div>
-    <div class="stat"><b>${CARDS.length}</b><span>全部卡片</span></div>`;
+    <div class="stat"><b>${currentFiltered.length}</b><span>${filtered ? "命中卡片" : "全部卡片"}${sourceText}${tagText}${deepText}</span></div>
+    ${filtered ? `<div class="stat"><b>${CARDS.length}</b><span>全库卡片</span></div>` : ""}
+    ${hint}`;
+  const n = (activeSource!=="all"?1:0) + activeTags.size;
+  $("filterHint").textContent = n ? `已启用 ${n} 项` : "未启用";
 }
 function syncUrl(){
   const p = new URLSearchParams();
@@ -188,43 +200,64 @@ function exportJson(){
   downloadBlob("sukhomlinsky-cards.json", JSON.stringify(currentFiltered, null, 2), "application/json");
 }
 function exportCsv(){
-  const cols = ["id","type","title","source","topics","ref","url"];
+  const cols = ["id","type","title","source","topics","ref"];
   const rows = [cols.join(",")].concat(currentFiltered.map(c=>cols.map(k=>{
     if(k==="topics") return csvEscape((c.topics||[]).join("|"));
-    return csvEscape(c[k]);
+    return csvEscape(k==="ref" ? KB.refText(c[k]) : c[k]);
   }).join(",")));
   downloadBlob("sukhomlinsky-cards.csv", "\ufeff"+rows.join("\n"), "text/csv;charset=utf-8");
 }
-document.addEventListener("DOMContentLoaded", ()=>{
+document.addEventListener("DOMContentLoaded", async ()=>{
   const qs = new URLSearchParams(location.search);
   const t = qs.get("topic");
-  if(t && TOPICS.some(x=>x.slug===t)) activeTopic = t;
+  if(t) activeTopic = t;
   const s = qs.get("source");
-  if(s && SOURCES.some(x=>x.slug===s)) activeSource = s;
+  if(s) activeSource = s;
   const tagsParam = qs.get("tags");
   if(tagsParam){ tagsParam.split(",").forEach(id=>{ if(id.startsWith("type:")||id.startsWith("tag:")) activeTags.add(id); }); }
   const qParam = qs.get("q");
   if(qParam) $("search").value = qParam;
-  buildTopicChips(); buildSourceChips(); buildTagChips(); applyFilter(); renderStats(); syncUrl();
+
+  $("stats").innerHTML = `<div class="stat"><b>…</b><span>正在加载卡片索引</span></div>`;
+  try{
+    CARDS = await KB.loadIndex();
+  }catch(e){
+    $("stats").innerHTML = `<div class="stat"><b>0</b><span>数据加载失败：${KB.esc(e.message)}</span></div>`;
+    $("empty").style.display = "block";
+    return;
+  }
+  if(activeTopic!=="all" && !KB.meta.topics.some(x=>x.slug===activeTopic)) activeTopic = "all";
+  if(activeSource!=="all" && !KB.meta.sources.some(x=>x.slug===activeSource)) activeSource = "all";
+
+  buildTopicChips(); buildSourceChips(); buildTagChips();
+  KB.bindMore($("cardGrid"));
+  /* URL 里带了来源/标签筛选时，自动展开筛选面板，避免"结果为空却看不到原因" */
+  if(activeSource !== "all" || activeTags.size) $("filters").open = true;
+  await applyFilter(); syncUrl();
+
   $("topicChips").addEventListener("click", e=>{
     const btn=e.target.closest(".chip"); if(!btn||!btn.dataset.topic) return;
-    activeTopic=btn.dataset.topic; buildTopicChips(); applyFilter(); renderStats(); syncUrl();
+    activeTopic=btn.dataset.topic; buildTopicChips(); applyFilter(); syncUrl();
   });
   $("sourceChips").addEventListener("click", e=>{
     const btn=e.target.closest(".chip"); if(!btn||!btn.dataset.source) return;
-    activeSource=btn.dataset.source; buildSourceChips(); applyFilter(); renderStats(); syncUrl();
+    activeSource=btn.dataset.source; buildSourceChips(); applyFilter(); syncUrl();
   });
   $("tagChips").addEventListener("click", e=>{
     const btn=e.target.closest(".chip"); if(!btn||!btn.dataset.tag) return;
     const id = btn.dataset.tag;
     if(activeTags.has(id)) activeTags.delete(id); else activeTags.add(id);
-    buildTagChips(); applyFilter(); renderStats(); syncUrl();
+    buildTagChips(); applyFilter(); syncUrl();
   });
-  $("search").addEventListener("input", ()=>{ applyFilter(); renderStats(); });
-  $("loadMore").addEventListener("click", ()=>{ visibleCount+=60; paintCards(); });
+  let debounce = null;
+  $("search").addEventListener("input", ()=>{
+    clearTimeout(debounce);
+    debounce = setTimeout(()=>{ applyFilter(); }, 180);
+  });
+  $("loadMore").addEventListener("click", ()=>{ visibleCount+=PAGE_SIZE; paintCards(); });
   $("clearBtn").addEventListener("click", ()=>{
     $("search").value=""; activeTopic="all"; activeSource="all"; activeTags.clear();
-    buildTopicChips(); buildSourceChips(); buildTagChips(); applyFilter(); renderStats(); syncUrl();
+    buildTopicChips(); buildSourceChips(); buildTagChips(); applyFilter(); syncUrl();
   });
   $("exportJson").addEventListener("click", exportJson);
   $("exportCsv").addEventListener("click", exportCsv);

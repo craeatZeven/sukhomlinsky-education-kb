@@ -92,11 +92,9 @@
   </div>
 </footer>
 
-<script src="data.js?v=20260907"></script>
+<script src="kb.js"></script>
 <script src="theme.js?v=20260907"></script>
 <script>
-const SOURCES = (window.KB_DATA && window.KB_DATA.sources) || [];
-const CARDS = (window.KB_DATA && window.KB_DATA.cards) || [];
 function downloadBlob(filename, text, type){
   const blob = new Blob([text], {type});
   const url = URL.createObjectURL(blob);
@@ -108,33 +106,48 @@ function csvEscape(v){
   const s = String(v == null ? "" : v).replace(/"/g, '""');
   return /[",\n]/.test(s) ? `"${s}"` : s;
 }
-function exportAllJson(){
-  downloadBlob("sukhomlinsky-cards.json", JSON.stringify(CARDS, null, 2), "application/json");
-}
-function exportAllCsv(){
-  const cols = ["id","type","title","source","topics","ref","url"];
-  const rows = [cols.join(",")].concat(CARDS.map(c=>cols.map(k=>{
-    if(k==="topics") return csvEscape((c.topics||[]).join("|"));
-    return csvEscape(c[k]);
-  }).join(",")));
-  downloadBlob("sukhomlinsky-cards.csv", "\ufeff"+rows.join("\n"), "text/csv;charset=utf-8");
+/* 全库导出按需加载索引（不导出正文，正文在单卡 JSON / data.json 里） */
+async function exportAll(kind){
+  const btnJson = document.getElementById("exportAllJson");
+  const btnCsv = document.getElementById("exportAllCsv");
+  const original = (kind === "json" ? btnJson : btnCsv).textContent;
+  (kind === "json" ? btnJson : btnCsv).textContent = "加载中…";
+  try{
+    const cards = await KB.loadIndex();
+    if(kind === "json"){
+      downloadBlob("sukhomlinsky-cards.json", JSON.stringify(cards, null, 2), "application/json");
+    } else {
+      const cols = ["id","type","title","source","topics","ref"];
+      const rows = [cols.join(",")].concat(cards.map(c=>cols.map(k=>{
+        if(k==="topics") return csvEscape((c.topics||[]).join("|"));
+        return csvEscape(k==="ref" ? KB.refText(c[k]) : c[k]);
+      }).join(",")));
+      downloadBlob("sukhomlinsky-cards.csv", "\ufeff"+rows.join("\n"), "text/csv;charset=utf-8");
+    }
+  }catch(e){
+    alert("导出失败：" + e.message);
+  }
+  (kind === "json" ? btnJson : btnCsv).textContent = original;
 }
 document.addEventListener("DOMContentLoaded", ()=>{
-  const counts = {};
-  CARDS.forEach(c=>{ counts[c.source]=(counts[c.source]||0)+1; });
-  document.getElementById("sourceGrid").innerHTML = SOURCES.map(s=>`
-    <article class="source-card">
-      <span class="badge">${s.lang}</span>
-      <h3 style="margin:10px 0 6px">${s.title}</h3>
-      <p class="meta">${s.meta}</p>
-      <p class="ref" style="margin-top:10px">${counts[s.slug]||0} 张卡片</p>
-      <p class="ref" style="margin-top:10px">
-        <a href="explore.html?source=${s.slug}">浏览该来源卡片 →</a>
-        · <a target="_blank" rel="noopener" href="${s.url || '../sources/' + s.slug + '.md'}">来源记录 ↗</a>
-      </p>
-    </article>`).join("");
-  document.getElementById("exportAllJson").addEventListener("click", exportAllJson);
-  document.getElementById("exportAllCsv").addEventListener("click", exportAllCsv);
+  document.getElementById("sourceGrid").innerHTML = `<p class="section-sub">正在加载书源…</p>`;
+  KB.ready().then(meta=>{
+    document.getElementById("sourceGrid").innerHTML = meta.sources.map(s=>`
+      <article class="source-card">
+        <span class="badge">${KB.esc(s.lang)}</span>
+        <h3 style="margin:10px 0 6px">${KB.esc(s.title)}</h3>
+        <p class="meta">${KB.esc(s.meta)}</p>
+        <p class="ref" style="margin-top:10px">${s.cards || 0} 张卡片</p>
+        <p class="ref" style="margin-top:10px">
+          <a href="explore.html?source=${encodeURIComponent(s.slug)}">浏览该来源卡片 →</a>
+          · <a target="_blank" rel="noopener" href="${KB.esc(s.url || '../sources/' + s.slug + '.md')}">来源记录 ↗</a>
+        </p>
+      </article>`).join("");
+  }).catch(e=>{
+    document.getElementById("sourceGrid").innerHTML = `<p class="section-sub">数据加载失败：${KB.esc(e.message)}</p>`;
+  });
+  document.getElementById("exportAllJson").addEventListener("click", ()=>exportAll("json"));
+  document.getElementById("exportAllCsv").addEventListener("click", ()=>exportAll("csv"));
 });
 </script>
 </body>

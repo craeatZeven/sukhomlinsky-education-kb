@@ -119,19 +119,23 @@
   </div>
 </footer>
 
-<script src="data.js?v=20260907"></script>
+<script src="kb.js"></script>
 <script src="theme.js?v=20260907"></script>
 <script>
-document.addEventListener("DOMContentLoaded", ()=>{
-  const SOURCES=(window.KB_DATA&&window.KB_DATA.sources)||[];
-  const TOPICS=(window.KB_DATA&&window.KB_DATA.topics)||[];
-  const CARDS=(window.KB_DATA&&window.KB_DATA.cards)||[];
-  const zuorenCount = CARDS.filter(c=>c.source==="zuo-ren-de-gu-shi-zh").length;
-  document.getElementById("stats").innerHTML = `
-    <div class="stat"><b>${SOURCES.length}</b><span>书源</span></div>
-    <div class="stat"><b>${TOPICS.length}</b><span>主题</span></div>
-    <div class="stat"><b>${CARDS.length}</b><span>卡片</span></div>
-    <div class="stat"><b>${zuorenCount}</b><span>做人的故事</span></div>`;
+document.addEventListener("DOMContentLoaded", () => {
+  /* 首页只加载 meta（约 9 KB）+ 一张随机卡片，不再拉整库数据。 */
+  KB.ready().then(meta => {
+    const zuoren = (meta.sources.find(s => s.slug === "zuo-ren-de-gu-shi-zh") || {}).cards || 0;
+    document.getElementById("stats").innerHTML = `
+      <div class="stat"><b>${meta.counts.sources}</b><span>书源</span></div>
+      <div class="stat"><b>${meta.counts.topics}</b><span>主题</span></div>
+      <div class="stat"><b>${meta.counts.cards}</b><span>卡片</span></div>
+      <div class="stat"><b>${zuoren}</b><span>做人的故事</span></div>`;
+  }).catch(() => {
+    document.getElementById("stats").innerHTML =
+      '<div class="stat"><b>1386</b><span>卡片</span></div>';
+  });
+
   const heroSearch = document.getElementById("heroSearch");
   const heroSearchBtn = document.getElementById("heroSearchBtn");
   const doSearch = () => {
@@ -140,13 +144,16 @@ document.addEventListener("DOMContentLoaded", ()=>{
   };
   heroSearchBtn.addEventListener("click", doSearch);
   heroSearch.addEventListener("keydown", (e) => { if (e.key === "Enter") doSearch(); });
-  if(CARDS.length){
-    const c=CARDS[Math.floor(Math.random()*CARDS.length)];
-    const ex=(c.excerpts&&c.excerpts[0])||c.excerpt||"";
+
+  KB.loadRandomCard().then(c => {
+    const ex = (c.excerpts && c.excerpts[0]) || c.excerpt || "";
     document.getElementById("randomQuote").innerHTML = `
-      <p class="excerpt">${ex}</p>
-      <p class="ref">${c.id} · ${c.title} · <a href="card.html?id=${c.id}#${c.id}">查看卡片</a></p>`;
-  }
+      <p class="excerpt">${KB.esc(ex)}</p>
+      <p class="ref">${KB.esc(c.id)} · ${KB.esc(c.title)} · <a href="card.html?id=${encodeURIComponent(c.id)}#${KB.esc(c.id)}">查看卡片</a></p>`;
+  }).catch(() => {
+    document.getElementById("randomQuote").innerHTML =
+      '<p class="ref">随机原文暂不可用，<a href="explore.html">进入浏览页</a>。</p>';
+  });
 });
 </script>
 </body>

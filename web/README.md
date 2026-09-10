@@ -2,7 +2,24 @@
 
 ## 本地预览
 
-直接双击打开 `index.html` 即可。页面会读取同目录的 `data.js`（本地文件，无网络依赖）。
+直接双击打开 `index.html` 即可（`fetch()` 读同目录的 `data/` 分片；用本地 HTTP 服务更稳，例如 `python -m http.server 8000`）。
+
+## 数据层：分片按需加载（档位 A）
+
+浏览器不加载全库，而是按需取分片：
+
+| 文件 | 内容 | 大小（gzip） | 谁在用 |
+|---|---|---|---|
+| `data/meta.json` | 书源、主题、计数 | ~9 KB | 所有页面 |
+| `data/index.json` | 全库卡片索引（元数据 + 摘要，无正文） | ~305 KB | 浏览页 / 详情页翻页与相关推荐 |
+| `data/index/<source>.json` | 按来源切分的索引 | 4–167 KB | 《做人的故事》页 |
+| `data/topic/<slug>.json` | 按主题切分的索引 | 12–130 KB | 专题页 |
+| `data/cards/<id>.json` | 单卡全文 | ~0.9 KB | 卡片详情页、列表「展开更多原文」 |
+| `data/search/<scope>.json` | 全文检索语料 | 5–664 KB | 检索页本地回退、列表页 0 结果时的深度检索 |
+| `data/latest.json`、`data/ids.json` | 最近 60 张、全部 id | ~17 KB | 最近更新页、随机卡片 |
+
+`kb.js` 是统一的数据层（`KB.ready() / loadIndex() / loadIndexFor() / loadTopicIndex() / loadCard() / loadSearch() / loadLatest() / loadRandomCard()`），
+并集中处理 HTML 转义（`KB.esc`）与 `ref` 里 OCR 注释的还原（`KB.refText`）。
 
 ## 当前能力
 
@@ -20,10 +37,10 @@
 
 ## 与仓库数据的关系
 
-- `data.js` 是数据快照，由 `../scripts/build_site.py` 从 Markdown 自动生成。
+- `data/` 下的分片由 `../scripts/build_shards.py` 从 Markdown 自动生成；`data.json` 是全库快照（供 agent 取用，浏览器不加载）。
 - 内容更新后执行：
   ```bash
-  python ../scripts/build_site.py
+  python ../scripts/validate_all.py     # 含 build_site.py + build_shards.py
   ```
   即可刷新网页数据。
 - 源文件：`../sources/`、`../topics/`、`../cards/`、`../INDEX.md`。

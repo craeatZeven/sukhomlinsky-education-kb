@@ -49,17 +49,19 @@
   </div>
 </footer>
 
-<script src="data.js?v=20260907"></script>
+<script src="kb.js"></script>
 <script src="theme.js?v=20260907"></script>
 <script>
-const SOURCES = (window.KB_DATA && window.KB_DATA.sources) || [];
-const TOPICS = (window.KB_DATA && window.KB_DATA.topics) || [];
-const CARDS = (window.KB_DATA && window.KB_DATA.cards) || [];
-const TYPE_LABELS = {quote:"quote 语录", case:"case 案例", principle:"principle 原则", method:"method 方法", practice:"practice 实践"};
-function topicTitle(slug){ const t=TOPICS.find(x=>x.slug===slug); return t?t.title:slug; }
-function render(){
+async function render(){
   const slug = new URLSearchParams(location.search).get("slug");
-  const topic = TOPICS.find(t=>t.slug===slug);
+  let meta;
+  try { meta = await KB.ready(); }
+  catch(e){
+    document.getElementById("topicTitle").textContent = "数据加载失败";
+    document.getElementById("topicSummary").textContent = e.message;
+    return;
+  }
+  const topic = meta.topics.find(t=>t.slug===slug);
   if(!topic){
     document.getElementById("topicTitle").textContent = "未找到主题";
     document.getElementById("topicSummary").textContent = "请从主题浏览进入。";
@@ -69,29 +71,33 @@ function render(){
   document.getElementById("topicSummary").textContent = topic.summary || "";
   document.title = topic.title + " · 苏霍姆林斯基教育知识库";
   document.getElementById("topicBody").innerHTML = `
-    <p><b>别名：</b>${topic.aliases || "无"}</p>
-    <h3>核心判断</h3><ul>${(topic.core||[]).map(x=>`<li>${x}</li>`).join("")}</ul>
-    <h3>可操作方法</h3><ul>${(topic.methods||[]).map(x=>`<li>${x}</li>`).join("")}</ul>
-    <h3>跨书综合</h3><p>${topic.cross || ""}</p>`;
-  const list = CARDS.filter(c=>(c.topics||[]).includes(slug));
+    <p><b>别名：</b>${KB.esc(topic.aliases || "无")}</p>
+    <h3>核心判断</h3><ul>${(topic.core||[]).map(x=>`<li>${KB.esc(x)}</li>`).join("")}</ul>
+    <h3>可操作方法</h3><ul>${(topic.methods||[]).map(x=>`<li>${KB.esc(x)}</li>`).join("")}</ul>
+    <h3>跨书综合</h3><p>${KB.esc(topic.cross || "")}</p>`;
+
+  document.getElementById("cardList").innerHTML = `<p class="section-sub">正在加载该主题卡片…</p>`;
+  const list = await KB.loadTopicIndex(slug);
   document.getElementById("cardList").innerHTML = list.map(c=>`
-    <a class="source-card" style="text-decoration:none;color:inherit" href="card.html?id=${c.id}#${c.id}">
+    <a class="source-card" style="text-decoration:none;color:inherit" href="card.html?id=${encodeURIComponent(c.id)}#${KB.esc(c.id)}">
       <div class="card-top">
-        <span class="badge">${TYPE_LABELS[c.type]||c.type}</span>
-        <span class="ref">${c.id}</span>
+        <span class="badge">${KB.esc(KB.typeLabel(c.type))}</span>
+        <span class="ref">${KB.esc(c.id)}</span>
       </div>
-      <h3 style="margin:10px 0 4px;font-size:17px">${c.title}</h3>
-      <p class="cn" style="font-size:13px;color:var(--soft)">${(c.cn||"").slice(0,80)}${(c.cn||"").length>80?"…":""}</p>
+      <h3 style="margin:10px 0 4px;font-size:17px">${KB.esc(c.title)}</h3>
+      <p class="cn" style="color:var(--soft)">${KB.esc(c.cn || "")}</p>
     </a>`).join("") || `<p class="section-sub">暂无卡片</p>`;
+
   const co = {};
   list.forEach(c => (c.topics||[]).forEach(t => { if(t !== slug) co[t] = (co[t]||0)+1; }));
   const related = Object.keys(co).sort((a,b)=>co[b]-co[a]).slice(0,4);
   document.getElementById("relatedTopics").innerHTML = related.map(s=>`
-    <a class="source-card" style="text-decoration:none;color:inherit" href="topic.html?slug=${s}">
+    <a class="source-card" style="text-decoration:none;color:inherit" href="topic.html?slug=${encodeURIComponent(s)}">
       <span class="badge">${co[s]} 张共现</span>
-      <h3 style="margin:10px 0 4px;font-size:17px">${topicTitle(s)}</h3>
+      <h3 style="margin:10px 0 4px;font-size:17px">${KB.esc(KB.topicTitle(s))}</h3>
       <p class="ref">进入专题 →</p>
     </a>`).join("") || `<p class="section-sub">暂无相关专题</p>`;
+
   const download = (filename, text, type) => {
     const blob = new Blob([text], {type});
     const url = URL.createObjectURL(blob);
@@ -107,10 +113,10 @@ function render(){
     download(topic.slug + ".json", JSON.stringify(list, null, 2), "application/json");
   });
   document.getElementById("exportTopicCsv").addEventListener("click", ()=>{
-    const cols = ["id","type","title","source","topics","ref","url"];
+    const cols = ["id","type","title","source","topics","ref"];
     const rows = [cols.join(",")].concat(list.map(c=>cols.map(k=>{
       if(k==="topics") return csvEscape((c.topics||[]).join("|"));
-      return csvEscape(c[k]);
+      return csvEscape(k==="ref" ? KB.refText(c[k]) : c[k]);
     }).join(",")));
     download(topic.slug + ".csv", "\ufeff"+rows.join("\n"), "text/csv;charset=utf-8");
   });

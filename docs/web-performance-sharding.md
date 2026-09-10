@@ -40,45 +40,61 @@
 
 ---
 
-## 三、实测：每页真实传输量（headless Chrome，本地未压缩）
+## 三、实测：每页真实传输量
 
-| 页面 | 改造前 | 改造后（原始） | 改造后（Pages gzip 估算） |
-|---|---|---|---|
-| 首页 | 3.4 MB | **75 KB**（meta + ids + 1 张卡） | ~28 KB |
-| 卡片详情 | 3.4 MB | **9.6 KB**（meta + 单卡） | ~12 KB |
-| 主题浏览 | 3.4 MB | 1.10 MB（索引） | ~335 KB |
-| 《做人的故事》 | 3.4 MB | 431 KB（来源索引） | ~140 KB |
-| 专题页 | 3.4 MB | 182 KB（主题索引） | ~70 KB |
-| 最近更新 | 3.4 MB | 53 KB | ~25 KB |
-| 书源 / 主题总览 | 3.4 MB | 9 KB | ~12 KB |
+### 3.1 线上实测（GitHub Pages，CDN gzip 后的真实字节数，headless Chrome 抓 `Network.loadingFinished`）
 
-首屏卡片的渲染规模：主题浏览默认只渲染 **60 张（移动端 24 张）**，DOM 900 节点（改造前全量渲染 19,578 节点）。
+| 页面 | 改造前 | 改造后（线上真实传输） |
+|---|---|---|
+| 首页 `index.html` | 3.4 MB | **31,990 B（31 KB）** |
+| 卡片详情 `card.html?id=sk-0001` | 3.4 MB | **4,166 B（4 KB）** |
+| 主题浏览 `explore.html` | 3.4 MB | 318,782 B（319 KB，含全库索引） |
+| 主题浏览（带主题筛选） | 3.4 MB | 4,948 B（索引已缓存，几乎只剩 HTML） |
+| 《做人的故事》`stories.html` | 3.4 MB | 126,009 B（126 KB） |
+| 专题页 `topic.html?slug=labor-education` | 3.4 MB | 56,363 B（56 KB） |
+| 最近更新 `latest.html` | 3.4 MB | 16,462 B |
+| 书源 `sources.html` / 主题总览 `topics.html` | 3.4 MB | 3,461 B / 1,571 B |
+
+### 3.2 本地未压缩对照（同一套页面，本地 HTTP 服务）
+
+首页 75 KB（meta + ids + 1 张卡）、卡片详情 9.6 KB、主题浏览 1.10 MB、故事页 431 KB、专题页 182 KB、最近更新 53 KB。
+差额就是 gzip：索引 1.09 MB → 306 KB、单卡平均 3.2 KB → 1.3 KB。
+
+首屏卡片的渲染规模：主题浏览默认只渲染 **60 张（移动端 24 张）**，DOM 900 节点（改造前全量渲染 19,578 节点、布局 4,090 ms）。
 
 ---
 
 ## 四、验收：自动化检查（脚本在 gitignored `local_working_copy/web-audit/`）
 
-`node local_working_copy/web-audit/audit.mjs` —— CDP 驱动 headless Chrome，18 个页面 + 4 条交互流程：
+`node local_working_copy/web-audit/audit.mjs` —— CDP 驱动 headless Chrome，18 个页面 + 5 条交互流程，**本地与线上各跑一遍**：
 
-- **18/18 页面 OK**：控制台错误 0、页面异常 0、请求失败 0；
+- **18/18 页面 OK**（两轮）：控制台错误 0、页面异常 0、请求失败 0；
 - `explore-deep-search` PASS：索引查不到的词自动加载全文语料后命中（「孜」→ 3 张，状态栏显示「已含原文全文」）；
 - `stories-deep-search` PASS：《做人的故事》页同样的深度检索路径；
 - `explore-expand-excerpts` PASS：列表「展开」按需拉单卡 JSON，补出 2 段原文；
-- `search-static-fallback` PASS：后端不可达时自动切本地静态检索，「劳动」→ 411 命中、20/页、摘要来自原文正文。
+- `search-static-fallback` PASS（线上）：后端可达时走 Cloudflare Worker，`q=劳动` → **372 命中 / `like-short-query` 模式**；
+- `search-fallback-when-api-blocked` PASS（线上，用 CDP 把 `*workers.dev*` 整个屏蔽，模拟国内网络）：
+  页面在 4 秒超时后自动切本地静态分片，`q=劳动` → **411 命中 / `static-client` 模式**，摘要直接取自原文正文。
+
+> 结论：**面向国内的可用性不依赖后端**。后端可达时用 FTS5（更准、更省流量、可被程序调用），
+> 不可达时同一个界面用静态分片完成检索，用户无感。
 
 `node local_working_copy/web-audit/metrics.mjs` —— 客观 UX 指标（1440×900 / 390×844 两档）：
 
 | 检查项 | 结果 |
 |---|---|
 | 横向溢出（`scrollWidth - clientWidth`） | 全部页面 **0** |
-| 首屏能否看到卡片 | 主题浏览：桌面 746 px、移动 676 px（均小于视口高度） |
-| 移动端触控目标 < 40 px 的元素 | 主题浏览 43 → **0**；其余页面 0（检索页除外，已补规则） |
+| 首屏能否看到卡片 | 主题浏览：桌面 746 px、移动 676 px（均小于视口高度，改造前 1096 / 1675 px 都在首屏之外） |
+| 移动端触控目标 < 40 px 的元素 | 主题浏览 43 → **0**；其余页面 0 |
 | 最小字号 | 12 px（仅 eyebrow / 出处等辅助文字） |
 
 `node local_working_copy/web-audit/aesthetics.mjs` —— 机检字阶与对比度：
 
 - 字阶收敛为 **12 / 14 / 17 / 21 / 26 / 34** 六级，相邻级差 1.17 / 1.21 / 1.24 / 1.24 / 1.31（改造前是 12/13/14/15/16/17/18/20/24/26/28，级差 1.06–1.14，肉眼分不出层级）；
 - 对比度：正文 13.66:1、次要文字 5.04:1、徽章 4.99:1（均过 WCAG AA；绿色主题的 `--soft` 由 4.34:1 调深到 5.04:1）。
+
+视觉复审另外用视觉模型做了两轮（改版前 / 改版后，截图在 `local_working_copy/web-audit/shots/`），
+第二轮指出的「首屏卡片露出量」「横滑无提示」「统计数字重复」「摘要截断无出口」四项均已修掉。
 
 ---
 

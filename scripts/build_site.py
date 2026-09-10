@@ -164,6 +164,14 @@ def parse_cards() -> list[dict]:
                 current.append(content)
         if current:
             excerpts.append(' '.join(current))
+        # 兼容写法：部分卡片的「原文/Excerpt」是普通段落而非 `>` 引用块。
+        # 早期只收 `>` 行，导致这些卡的原文在网页与检索语料里完全不可见（18 张）。
+        if not excerpts:
+            for line in excerpt_section.splitlines():
+                line = line.strip()
+                if not line or line.startswith(('#', '|', '-', '*', '>')):
+                    continue
+                excerpts.append(line)
         excerpt = ' '.join(excerpts)
         cn_section = section(text, '中文转述/说明')
         cn = first_para(cn_section)

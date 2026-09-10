@@ -24,9 +24,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 SPEC = ROOT / 'taxonomy.md'
 
-SEC_LAYERS = '一、五个范畴（教育学的层级，不是借来的字）'
-SEC_ENTRIES = '二、十九条目'
-SEC_FACETS = '三、故事域的十四个分面'
+SEC_LAYERS = '一、五个观察角度'
+SEC_ENTRIES = '二、二十条目'
+SEC_FACETS = '三、故事域的三个字段、十七个分面'
 SEC_MAPPING = '四、旧主题 → 新条目映射（迁移用）'
 SEC_OVERRIDE = '六、人工裁定（覆盖算法）'
 
@@ -73,7 +73,7 @@ def load_spec(path: Path | None = None) -> dict:
             # 复分标签（关照层）：不参与主归属分区，只给相关卡片加标记
             'tag': '复分' in r[5],
         })
-    facets = [{'id': r[0], 'name': r[1], 'kind': r[2], 'keywords': _kw(r[3])}
+    facets = [{'id': r[0], 'name': r[1], 'field': r[2], 'keywords': _kw(r[3])}
               for r in _rows(path, SEC_FACETS, 4)]
     mapping = {}
     for r in _rows(path, SEC_MAPPING, 4):
@@ -87,7 +87,9 @@ def load_spec(path: Path | None = None) -> dict:
     for r in _rows(path, SEC_OVERRIDE, 3):
         override[r[0]] = {'primary': r[1].split()[0], 'why': r[2]}
     return {'layers': layers, 'entries': entries, 'facets': facets,
-            'mapping': mapping, 'override': override}
+            'mapping': mapping, 'override': override,
+            # 旧标签先验加成（首选 / 次选）：见 docs/taxonomy-plan.md §五
+            'prior': (2.5, 1.0)}
 
 
 def build_scorer(cards: list[dict], spec: dict, haystack: dict[str, str]):
@@ -114,7 +116,6 @@ def build_scorer(cards: list[dict], spec: dict, haystack: dict[str, str]):
 def classify(card: dict, spec: dict, score, haystack: dict[str, str]) -> dict:
     """返回 {'primary', 'facets', 'see_also', 'tags', 'reason'}"""
     cid = card['id']
-    entry_of = {e['id']: e for e in spec['entries']}
     assignable = {e['id'] for e in spec['entries'] if not e['tag']}   # 复分标签不持卡
 
     # 复分标记：所有卡片（含故事）都算
@@ -126,21 +127,6 @@ def classify(card: dict, spec: dict, score, haystack: dict[str, str]) -> dict:
         return {'primary': None, 'facets': facets, 'see_also': [], 'tags': tags,
                 'reason': '故事体走分面'}
 
-    mapped: set[str] = set()
-    first_choices: list[str] = []
-    for t in card.get('topics', []):
-        m = spec['mapping'].get(t)
-        if not m:
-            continue
-        if m['primary'] in assignable:
-            mapped.add(m['primary'])
-            first_choices.append(m['primary'])
-        mapped.update(s for s in m['secondary'] if s in assignable)
-
-    # 强证据命中（弱证据不参与主归属）
-    strong_hits = {e['id'] for e in spec['entries']
-                   if e['id'] in assignable and score(e['keywords'], cid) > 0}
-
     # 人工裁定优先于算法（见 taxonomy.md §六）
     forced = spec.get('override', {}).get(cid)
     if forced:
@@ -150,27 +136,40 @@ def classify(card: dict, spec: dict, score, haystack: dict[str, str]) -> dict:
         return {'primary': forced['primary'], 'facets': [], 'see_also': see, 'tags': tags,
                 'reason': f'人工裁定（{forced["why"]}）'}
 
-    candidates = mapped | strong_hits
+    # 旧标签 = **加分先验**，不是候选围栏：优先项加成大、次选项加成小、没被旧标签提到的条目 0 分。
+    # 这样「文本证据明显更强」的条目能翻盘（新条目由此获得卡片），而旧标签在证据接近时仍然说了算。
+    p_first, p_second = spec.get('prior', (2.5, 1.0))
+    prior: dict[str, float] = {}
+    for t in card.get('topics', []):
+        m = spec['mapping'].get(t)
+        if not m:
+            continue
+        if m['primary'] in assignable:
+            prior[m['primary']] = max(prior.get(m['primary'], 0.0), p_first)
+        for s in m['secondary']:
+            if s in assignable:
+                prior[s] = max(prior.get(s, 0.0), p_second)
+
+    kw = {e['id']: score(e['keywords'], cid) for e in spec['entries'] if e['id'] in assignable}
+    total = {e: kw[e] + prior.get(e, 0.0) for e in kw}
+    candidates = {e for e in kw if kw[e] > 0 or prior.get(e, 0.0) > 0}
     if not candidates:
         return {'primary': None, 'facets': [], 'see_also': [], 'tags': tags,
                 'reason': '无旧标签映射且无关键词命中'}
 
-    def best_of(pool: set[str]):
-        ranked = sorted(((score(entry_of[e]['keywords'], cid), e) for e in pool),
-                        key=lambda x: (-x[0], x[1]))
-        return ranked[0] if ranked and ranked[0][0] > 0 else None
-
-    # 三级：① 人工范围内有证据 → 范围内取最强；② 任何条目有证据 → 取最强（新条目由此获得卡片）；
-    #       ③ 全无证据 → 回落人工首选
-    pick = best_of(mapped & strong_hits)
-    if pick:
-        best, reason = pick[1], f'人工范围内命中（{pick[0]:.2f}，范围 {len(mapped)} 个）'
+    best = sorted(candidates, key=lambda e: (-total[e], e))[0]
+    if kw[best] <= 0:
+        reason = '全无关键词证据，按旧标签先验定夺'
+    elif best in prior:
+        reason = (f'旧标签先验 + 文本证据（关键词 {kw[best]:.2f} + 先验 {prior[best]:.1f}'
+                  f' = {total[best]:.2f}）')
+        runner = sorted((e for e in candidates if e != best), key=lambda e: (-total[e], e))
+        if runner and total[runner[0]] > total[best] - 1e-9:
+            reason += '（并列）'
     else:
-        pick = best_of(strong_hits)
-        if pick:
-            best, reason = pick[1], f'范围内无证据，按关键词归入新条目（{pick[0]:.2f}）'
-        else:
-            best, reason = (first_choices[0] if first_choices else sorted(candidates)[0]), '全无关键词证据，回落人工首选'
+        runner = sorted((e for e in candidates if e != best), key=lambda e: (-total[e], e))
+        beat = f'，压过旧标签项 {total[runner[0]]:.2f}' if runner else ''
+        reason = f'文本证据推翻旧标签（关键词 {kw[best]:.2f}{beat}）'
 
     # 参见区：强 + 弱证据都算（弱证据只能用在这里）
     see = [e['id'] for e in spec['entries']

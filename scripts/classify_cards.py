@@ -80,14 +80,23 @@ def main() -> int:
     p('范畴分布：' + ' · '.join(f'{k} {v}（{v/len(essay)*100:.0f}%）' for k, v in layer_dist.most_common()) + '\n')
 
     # 2) 故事分面
-    p('## 二、故事体分面（%d 篇）\n' % len(story))
+    p('## 二、故事体分面（%d 篇，三个字段可多值）\n' % len(story))
     fcount = Counter(f for c in story for f in results[c['id']]['facets'])
     covered = sum(1 for c in story if results[c['id']]['facets'])
-    p('| 分面 | 类型 | 篇数 |')
+    p('| 字段 | 分面 | 篇数 |')
     p('|---|---|---|')
     for f in spec['facets']:
-        p(f'| {f["id"]} {f["name"]} | {f["kind"]} | {fcount.get(f["id"], 0)} |')
-    p(f'\n分面覆盖率：{covered}/{len(story)}（{covered/len(story)*100:.1f}%）\n')
+        p(f'| {f["field"]} | {f["id"]} {f["name"]} | {fcount.get(f["id"], 0)} |')
+    p(f'\n分面覆盖率：{covered}/{len(story)}（{covered/len(story)*100:.1f}%）')
+    by_field = Counter()
+    for c in story:
+        for fld in {next(f["field"] for f in spec["facets"] if f["id"] == fid)
+                    for fid in results[c['id']]['facets']}:
+            by_field[fld] += 1
+    p('字段覆盖：' + ' · '.join(f'{k} {v}（{v/len(story)*100:.0f}%）' for k, v in by_field.most_common()))
+    multi = sum(1 for c in story if len({next(f["field"] for f in spec["facets"] if f["id"] == fid)
+                                         for fid in results[c['id']]['facets']}) >= 2)
+    p(f'至少落进两个字段：{multi}/{len(story)}（{multi/len(story)*100:.1f}%）\n')
 
     # 3) 门槛
     p('## 三、验证门槛\n')
@@ -125,6 +134,22 @@ def main() -> int:
             story_hit = [cid for cid in hit if results[cid]['facets']]
             p(f'- **{e["id"]} {e["name"]}**：{len(hit)} 张（论述 {len(essay_hit)} · 故事 {len(story_hit)}）；'
               f'这些卡的主归属仍由内容决定')
+        p()
+
+    # 3c) 人工裁定的自检：哪些裁定算法其实已经同意（同意 = 这条裁定暂时没用上）
+    if spec.get('override'):
+        no_op = dict(spec)
+        no_op['override'] = {}
+        agree, disagree = [], []
+        for cid, ov in spec['override'].items():
+            card = next(c for c in cards if c['id'] == cid)
+            auto = classify(card, no_op, score, hay)['primary']
+            (agree if auto == ov['primary'] else disagree).append((cid, auto, ov['primary']))
+        p('## 三·补二、人工裁定自检\n')
+        p(f'- 算法已能判对（裁定暂时没用上）：{len(agree)} 条'
+          + ('（' + ' · '.join(c for c, _, _ in agree) + '）' if agree else ''))
+        p(f'- 算法仍判错（裁定在起作用）：{len(disagree)} 条'
+          + ('（' + ' · '.join(f'{c}：算法 {a} → 裁定 {m}' for c, a, m in disagree) + '）' if disagree else ''))
         p()
 
     # 4) 旧主题迁移去向

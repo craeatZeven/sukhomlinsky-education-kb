@@ -97,19 +97,35 @@ def main() -> int:
     essay_no_primary = [cid for cid, r in results.items()
                         if not r['primary'] and cid not in {c['id'] for c in story}]
     checks.append(('每张论述卡有主归属', not essay_no_primary, f'未归属 {len(essay_no_primary)} 张'))
-    small = [(entry[k]['name'], v) for k, v in dist.items()
-             if v < 4 and not entry[k].get('overview')]
-    checks.append(('无条目低于 4 张（总纲页不持卡）', not small,
-                   f'{small or "无"}（低于 15 张的应标注为小条目）'))
-    checks.append(('最大条目 ≤20%', biggest[1] / len(essay) <= 0.20,
-                   f'{entry[biggest[0]]["name"]} {biggest[1]} 张（{biggest[1]/len(essay)*100:.1f}%）'))
     checks.append(('故事分面覆盖 ≥95%', story_covered / len(story) >= 0.95,
                    f'{story_covered}/{len(story)}（{story_covered/len(story)*100:.1f}%），未覆盖 {len(story)-story_covered} 篇'))
     empty = [c['id'] for c in cards if not ((c.get('excerpts') or [''])[0]).strip()]
     checks.append(('无空摘录卡', not empty, f'空摘录 {len(empty)} 张：{empty[:5]}'))
     for name, ok, detail in checks:
         p(f'- [{"PASS" if ok else "FAIL"}] {name} —— {detail}')
+
+    # 观察指标（不作门槛）：分布是否异常
+    p('\n观察指标（不作正确性门槛，只用于发现异常）：\n')
+    p(f'- 最大条目：{entry[biggest[0]]["name"]} {biggest[1]} 张（{biggest[1]/len(essay)*100:.1f}%）')
+    small = [(entry[k]['name'], v) for k, v in dist.items() if v < 15]
+    tiny = [(entry[k]['name'], v) for k, v in dist.items() if v < 4]
+    p(f'- 低于 15 张（页面标注「小条目」）：{" · ".join(f"{n} {v}" for n, v in sorted(small, key=lambda x: x[1])) or "无"}')
+    p(f'- 低于 4 张（须人工确认是否条目本身有问题）：{" · ".join(f"{n} {v}" for n, v in tiny) or "无"}')
+    zero = [e['id'] + ' ' + e['name'] for e in spec['entries'] if not e['tag'] and not dist.get(e['id'])]
+    p(f'- 零主归属条目：{" · ".join(zero) or "无"}')
     p()
+
+    # 3b) 复分标签
+    tag_entries = [e for e in spec['entries'] if e['tag']]
+    if tag_entries:
+        p('## 三·补、复分标签（不参与主归属分区）\n')
+        for e in tag_entries:
+            hit = [cid for cid, r in results.items() if e['id'] in r['tags']]
+            essay_hit = [cid for cid in hit if results[cid]['primary']]
+            story_hit = [cid for cid in hit if results[cid]['facets']]
+            p(f'- **{e["id"]} {e["name"]}**：{len(hit)} 张（论述 {len(essay_hit)} · 故事 {len(story_hit)}）；'
+              f'这些卡的主归属仍由内容决定')
+        p()
 
     # 4) 旧主题迁移去向
     p('## 四、旧主题迁移去向（核对新体系是否接得住）\n')
@@ -148,12 +164,17 @@ def main() -> int:
         alts = ' · '.join(f'{entry[eid]["name"]}（{s:.1f}）' for s, eid in hits[:3] if s > 0 and eid != r['primary'])
         review.append((c, r, alts or '（除建议条目外无其他关键词命中）'))
     review.sort(key=lambda x: x[0]['id'])
+    confirmed = [c for c in cards if c['type'] != 'case'
+                 and results[c['id']]['reason'].startswith('人工范围内命中')]
     rl = ['# 分类人工复核清单', '',
-          f'迁移预演中**确信度较低**的卡片，共 {len(review)} 张（其余 '
-          f'{len(essay) - len(review)} 张论述卡由人工旧标签直接认定，无需复核）。',
+          f'迁移预演中**确信度较低**的卡片，共 {len(review)} 张。',
           '',
           '判断依据：规则会优先在「旧标签划定的候选范围」内选条目；',
           '下列卡片在该范围内**没有关键词证据**，因此由关键词单独定夺或回落人工首选——最可能误判。',
+          '',
+          f'> ⚠️ 另有 {len(confirmed)} 张卡由人工旧标签直接认定——算法并没有真正"验证"过它们。',
+          '> 旧标签已被证明是**粗而非错**的先验，它不会自我纠错，所以这批卡不能算「无需复核」，',
+          '> 改由 `docs/classification-audit.md` 的**盲审抽样**抽查：隐藏旧标签与算法答案后独立判定。',
           '', '| 卡片 | 类型 | 旧标签 | 建议条目 | 判断依据 | 关键词命中的其他条目 |',
           '|---|---|---|---|---|---|']
     for c, r, alts in review:
@@ -172,6 +193,44 @@ def main() -> int:
     if '--write' in sys.argv:
         review_path.write_text('\n'.join(rl) + '\n', encoding='utf-8')
         print(f'已写入 {review_path}（{len(review)} 张待复核）')
+
+    # 6) 盲审抽样：从"由旧标签直接认定"的卡里分层抽 100 张，隐藏旧标签与算法答案
+    import random
+    rng = random.Random(20260910)
+    buckets: dict[str, list[dict]] = defaultdict(list)
+    for c in confirmed:
+        buckets[results[c['id']]['primary']].append(c)
+    quota = {k: max(1, round(len(v) / len(confirmed) * 100)) for k, v in buckets.items()}
+    sample: list[dict] = []
+    for k, v in buckets.items():
+        sample += rng.sample(v, min(quota[k], len(v)))
+    sample = sample[:100]
+    sample.sort(key=lambda c: c['id'])
+    ap = ['# 分类盲审抽样（100 张）', '',
+          f'样本来源：**{len(confirmed)} 张由旧标签直接认定主归属的论述卡**——算法没有独立验证过它们。',
+          '分层方式：按算法给出的主归属等比例分配名额，随机种子 20260910。',
+          '',
+          '**审读方法**：先只看「原文摘录 / 编辑转述」，自己判断属于哪一条，写好「我的判断」；',
+          '再展开「对答案」看算法结论与旧标签，把分歧写进「分歧说明」。',
+          '旧标签本身就是要被检验的对象，所以它只出现在答案区。',
+          '',
+          f'样本数：{len(sample)} 张。', '']
+    for i, c in enumerate(sample, 1):
+        r = results[c['id']]
+        ap += [f'## {i}. {c["id"]}　{c.get("title", "")}', '',
+               f'- 原文摘录：{(c.get("excerpts") or [""])[0][:400]}',
+               f'- 编辑转述：{(c.get("cn") or "")[:300]}',
+               f'- 出处：{c.get("ref") or ""}',
+               '- 我的判断：______',
+               '- 分歧说明：______', '',
+               '<details><summary>对答案</summary>', '',
+               f'算法：{r["primary"]} {entry[r["primary"]]["name"]}（{r["reason"]}）｜'
+               f'旧标签：{", ".join(c.get("topics", []))}',
+               '</details>', '']
+    audit_path = ROOT / 'docs' / 'classification-audit.md'
+    if '--write' in sys.argv:
+        audit_path.write_text('\n'.join(ap) + '\n', encoding='utf-8')
+        print(f'已写入 {audit_path}（{len(sample)} 张盲审样本）')
     return 0
 
 

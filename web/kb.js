@@ -158,6 +158,54 @@
 
     /* ---------- 渲染辅助 ---------- */
 
+    /* 出处：悬停就地看出版信息（Gwern 的 popup 机制，纯 CSS 实现）。
+       href 省略时不生成链接——用在整行可点的目录行里。 */
+    sourcePop: function (slug, href) {
+      var list = (KB.meta && KB.meta.sources) || [];
+      var s = null;
+      for (var i = 0; i < list.length; i++) if (list[i].slug === slug) { s = list[i]; break; }
+      var title = s ? s.title : slug;
+      var bits = [];
+      if (s && s.meta) bits.push(KB.esc(s.meta));
+      if (s && s.cards) bits.push(s.cards + " 张卡片");
+      var pop = '<span class="src-pop">' + bits.join("<br>") +
+        (href ? '<br><span style="opacity:.65">进入该来源 →</span>' : '') + '</span>';
+      var inner = KB.esc(title) + pop;
+      return href
+        ? '<a class="src" href="' + href + '">' + inner + '</a>'
+        : '<span class="src" tabindex="0">' + inner + '</span>';
+    },
+
+    /* 出处行里已含书名时，事实表里就不再重复书名（只留出版社/年份/页码） */
+    refShort: function (ref, slug) {
+      var t = KB.refText(ref);
+      var title = KB.sourceTitle(slug);
+      if (title && title !== slug && t.indexOf(title) === 0) {
+        t = t.slice(title.length).replace(/^[\s，,、·。]+/, "");
+      }
+      return t;
+    },
+
+    /* 目录行：列表页专用（档案版式）。
+       一行放三类信息——引文 / 题名与类型 / 出处与主题；整行可点。 */
+    cardRowHTML: function (card) {
+      var topics = (card.topics || []).map(KB.topicTitle).join(" · ");
+      var flag = "";
+      if ((card.n || 0) > 1) flag = '<span class="row-flag">另有 ' + (card.n - 1) + ' 段原文</span>';
+      else if (card.trunc) flag = '<span class="row-flag">读全文 →</span>';
+      return '\n  <a class="row" href="card.html?id=' + encodeURIComponent(card.id) + '#' + KB.esc(card.id) + '">\n' +
+        '    <p class="row-quote">“' + KB.esc(card.preview || card.title) + '”</p>\n' +
+        '    <div class="row-meta">\n' +
+        '      <span class="row-title">' + KB.esc(card.title) + '</span>\n' +
+        '      <span>' + KB.esc(KB.typeLabel(card.type)) + '</span>\n' +
+        '      ' + KB.sourcePop(card.source) + '\n' +
+        '      <span>' + KB.esc(card.id) + '</span>\n' +
+        (topics ? '      <span>' + KB.esc(topics) + '</span>\n' : '') +
+        (flag ? '      ' + flag + '\n' : '') +
+        '    </div>\n' +
+        '  </a>';
+    },
+
     /* 索引条目 + 全文语料 → 可检索文本（小写） */
     searchText: function (card, corpusEntry) {
       var topics = (card.topics || []).map(KB.topicTitle).join(" ");
@@ -177,7 +225,7 @@
           encodeURIComponent(slug) + '">' + KB.esc(KB.topicTitle(slug)) + '</a>';
       }).join("");
       var extraTags = (card.tags || []).map(function (t) {
-        return '<span class="meta" style="border:1px solid var(--line);border-radius:999px;padding:1px 8px;margin-left:6px">' +
+        return '<span class="meta" style="border:1px solid var(--line);border-radius:2px;padding:1px 8px;margin-left:6px">' +
           KB.esc(KB.TAG_LABELS[t] || t) + '</span>';
       }).join("");
       var excerptHtml = "";
@@ -203,7 +251,8 @@
         excerptHtml + '\n' +
         (card.cn ? '    <p class="cn">' + KB.esc(card.cn) + '</p>\n' : '') +
         '    <div class="ref" style="margin-top:10px">' + KB.esc(card.id) + ' · ' +
-        KB.esc(KB.sourceTitle(card.source)) + '<br>' + KB.esc(KB.refText(card.ref)) + '</div>\n' +
+        KB.sourcePop(card.source, 'explore.html?source=' + encodeURIComponent(card.source)) +
+        '<br>' + KB.esc(KB.refText(card.ref)) + '</div>\n' +
         (extraTags ? '    <div style="margin-top:8px">' + extraTags + '</div>\n' : '') +
         '  </article>';
     },

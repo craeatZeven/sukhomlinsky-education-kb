@@ -37,8 +37,8 @@
 
 <main class="wrap">
   <section>
-    <div class="stats" id="stats" style="margin:18px 0"></div>
-    <div class="grid" id="storyGrid"></div>
+    <div class="stats stats--quiet" id="stats"></div>
+    <div class="rows" id="storyGrid"></div>
     <div class="empty" id="empty">没有匹配的故事，换个关键词试试。</div>
     <div class="load-wrap"><button id="loadMore" class="chip" type="button" style="display:none">加载更多故事</button></div>
   </section>
@@ -67,18 +67,22 @@ function storyText(c, useCorpus){
 function render(deep){
   const q = (document.getElementById("q").value || "").trim().toLowerCase();
   filtered = q ? STORIES.filter(c => storyText(c, deep).includes(q)) : STORIES.slice();
+  /* 未筛选时不重复显示同一个数字 */
+  const filteredOut = filtered.length !== STORIES.length;
   document.getElementById("stats").innerHTML = `
-    <div class="stat"><b>${filtered.length}</b><span>匹配故事</span></div>
-    <div class="stat"><b>${STORIES.length}</b><span>全部故事</span></div>
-    ${deep ? '<div class="stat"><b>✓</b><span>已含原文全文</span></div>' : ''}`;
+    <div class="stat"><b>${filtered.length}</b><span>${filteredOut ? "匹配故事" : "全部故事"}${deep ? " · 已含原文全文" : ""}</span></div>
+    ${filteredOut ? `<div class="stat"><b>${STORIES.length}</b><span>全部故事</span></div>` : ""}`;
   const slice = filtered.slice(0, visibleCount);
   document.getElementById("storyGrid").innerHTML = slice.map(c => {
-    const ex = c.preview ? `<p class="excerpt">“${KB.esc(c.preview)}”</p>` : "";
-    return `<article class="card" id="card-${KB.esc(c.id)}">
-      <div class="card-top"><span class="badge">p${c.page == null ? "?" : c.page}</span><span class="meta">${KB.esc(c.id)}</span></div>
-      <h3><a href="card.html?id=${encodeURIComponent(c.id)}#${KB.esc(c.id)}" style="color:inherit">${KB.esc(c.title)}</a></h3>
-      ${ex}
-    </article>`;
+    const pageLabel = c.page == null ? "p?" : "p" + c.page;
+    return `<a class="row" href="card.html?id=${encodeURIComponent(c.id)}#${KB.esc(c.id)}">
+      <p class="row-quote">“${KB.esc(c.preview || c.title)}”</p>
+      <div class="row-meta">
+        <span class="row-title">${KB.esc(c.title)}</span>
+        <span>${KB.esc(pageLabel)}</span>
+        <span>${KB.esc(c.id)}</span>
+      </div>
+    </a>`;
   }).join("");
   document.getElementById("empty").style.display = filtered.length ? "none" : "block";
   document.getElementById("loadMore").style.display = filtered.length > visibleCount ? "inline-block" : "none";

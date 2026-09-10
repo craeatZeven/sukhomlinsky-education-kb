@@ -37,7 +37,8 @@
       <button id="exportTopicJson" class="chip" type="button">导出本专题 JSON</button>
       <button id="exportTopicCsv" class="chip" type="button">导出本专题 CSV</button>
     </div>
-    <div class="grid" id="cardList"></div>
+    <div class="rows" id="cardList"></div>
+    <div class="load-wrap"><button id="loadMore" class="chip" type="button" style="display:none">加载更多卡片</button></div>
     <h2 class="section-title" style="margin-top:28px">相关专题</h2>
     <div class="grid" id="relatedTopics"></div>
   </section>
@@ -78,15 +79,16 @@ async function render(){
 
   document.getElementById("cardList").innerHTML = `<p class="section-sub">正在加载该主题卡片…</p>`;
   const list = await KB.loadTopicIndex(slug);
-  document.getElementById("cardList").innerHTML = list.map(c=>`
-    <a class="source-card" style="text-decoration:none;color:inherit" href="card.html?id=${encodeURIComponent(c.id)}#${KB.esc(c.id)}">
-      <div class="card-top">
-        <span class="badge">${KB.esc(KB.typeLabel(c.type))}</span>
-        <span class="ref">${KB.esc(c.id)}</span>
-      </div>
-      <h3 style="margin:10px 0 4px;font-size:17px">${KB.esc(c.title)}</h3>
-      <p class="cn" style="color:var(--soft)">${KB.esc(c.cn || "")}</p>
-    </a>`).join("") || `<p class="section-sub">暂无卡片</p>`;
+  /* 目录行一屏 40 条，避免一次铺开 200+ 行 */
+  const PAGE_SIZE = 40;
+  let shown = PAGE_SIZE;
+  const paint = () => {
+    document.getElementById("cardList").innerHTML = list.slice(0, shown).map(c=>KB.cardRowHTML(c)).join("") ||
+      `<p class="section-sub">暂无卡片</p>`;
+    document.getElementById("loadMore").style.display = list.length > shown ? "inline-block" : "none";
+  };
+  paint();
+  document.getElementById("loadMore").addEventListener("click", ()=>{ shown += PAGE_SIZE; paint(); });
 
   const co = {};
   list.forEach(c => (c.topics||[]).forEach(t => { if(t !== slug) co[t] = (co[t]||0)+1; }));

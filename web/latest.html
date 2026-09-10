@@ -31,8 +31,8 @@
 
 <main class="wrap">
   <section>
-    <div class="stats" id="stats" style="margin:18px 0"></div>
-    <div class="grid" id="latestGrid"></div>
+    <div class="stats stats--quiet" id="stats"></div>
+    <div class="rows" id="latestGrid"></div>
   </section>
 </main>
 
@@ -54,15 +54,16 @@ document.addEventListener("DOMContentLoaded", async ()=>{
       <div class="stat"><b>${latest.length}</b><span>最近卡片</span></div>
       <div class="stat"><b>${meta.counts.cards}</b><span>全部卡片</span></div>`;
     document.getElementById("latestGrid").innerHTML = latest.map(c=>`
-      <article class="card">
-        <div class="card-top">
-          <span class="badge">${KB.esc(c.id)}</span>
-          <span class="meta">${KB.esc(KB.typeLabel(c.type))}</span>
+      <a class="row" href="card.html?id=${encodeURIComponent(c.id)}#${KB.esc(c.id)}">
+        <p class="row-quote">“${KB.esc(c.preview || c.title)}”</p>
+        <div class="row-meta">
+          <span class="row-title">${KB.esc(c.title)}</span>
+          <span>${KB.esc(KB.typeLabel(c.type))}</span>
+          ${KB.sourcePop(c.source)}
+          <span>${KB.esc(c.id)}</span>
+          <span>${(c.topics||[]).map(t=>KB.esc(KB.topicTitle(t))).join(" · ")}</span>
         </div>
-        <h3 style="margin:10px 0 6px"><a href="card.html?id=${encodeURIComponent(c.id)}#${KB.esc(c.id)}" style="color:inherit">${KB.esc(c.title)}</a></h3>
-        <p class="ref">${KB.esc(KB.sourceTitle(c.source))}</p>
-        <p class="ref">${(c.topics||[]).map(t=>KB.esc(KB.topicTitle(t))).join(" / ")}</p>
-      </article>`).join("");
+      </a>`).join("");
   }catch(e){
     document.getElementById("latestGrid").innerHTML = `<p class="section-sub">数据加载失败：${KB.esc(e.message)}</p>`;
   }

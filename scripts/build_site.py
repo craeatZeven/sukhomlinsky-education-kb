@@ -103,13 +103,12 @@ def parse_sources() -> list[dict]:
             meta_parts.append(str(fm['publisher']))
         if fm.get('year'):
             meta_parts.append(str(fm['year']))
-        if fm.get('status'):
-            meta_parts.append(f"status:{fm['status']}")
         sources.append({
             'slug': fm['slug'],
             'title': fm.get('title', p.stem),
             'lang': (fm.get('lang') or '').upper() or '?',
-            'meta': ' · '.join(meta_parts),
+            'meta': ' · '.join(meta_parts),          # 只放出版信息，状态属于维护字段不进前台
+            'status': fm.get('status', ''),
             'url': fm.get('url') or f"../sources/{fm['slug']}.md",
         })
     return sources
@@ -188,6 +187,10 @@ def parse_cards() -> list[dict]:
             'cn': cn,
             'ref': fm.get('ref', ''),
             'tags': tags,
+            # 溯源字段（详情页「关于本卡」用）
+            'created': fm.get('created', ''),
+            'updated': fm.get('updated', ''),
+            'reviewed_by': fm.get('reviewed_by', ''),
         })
     return cards
 

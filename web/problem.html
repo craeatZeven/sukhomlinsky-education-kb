@@ -42,8 +42,8 @@
   <section>
     <h2 class="section-title">全库卡片匹配</h2>
     <p class="section-sub">按标题、中文转述、原文摘录和出处搜索全部卡片；输入问题关键词即可。</p>
-    <div class="stats" id="cardStats" style="margin:12px 0"></div>
-    <div class="grid" id="problemCardGrid"></div>
+    <div class="stats stats--quiet" id="cardStats" style="margin:12px 0"></div>
+    <div class="rows" id="problemCardGrid"></div>
     <div class="empty" id="problemCardEmpty">没有匹配的卡片，换个关键词试试。</div>
   </section>
 </main>
@@ -111,13 +111,7 @@ async function renderCardResults(q){
   }
   stats.innerHTML = `<div class="stat"><b>${list.length}</b><span>卡片命中${deep ? "（含原文）" : ""}</span></div>`;
   empty.style.display = list.length ? "none" : "block";
-  grid.innerHTML = list.map(c=>`
-    <article class="card">
-      <div class="card-top"><span class="badge">${KB.esc(KB.typeLabel(c.type))}</span><span class="meta">${KB.esc(c.id)}</span></div>
-      <h3><a href="card.html?id=${encodeURIComponent(c.id)}#${KB.esc(c.id)}" style="color:inherit">${KB.esc(c.title)}</a></h3>
-      ${c.preview?`<p class="excerpt">“${KB.esc(c.preview)}”</p>`:""}
-      <p class="ref" style="margin-top:10px">${KB.esc(KB.refText(c.ref || ""))}</p>
-    </article>`).join("");
+  grid.innerHTML = list.map(c=>KB.cardRowHTML(c)).join("");
 }
 function renderProblems(list){
   document.getElementById("problemGrid").innerHTML = list.map(p=>`

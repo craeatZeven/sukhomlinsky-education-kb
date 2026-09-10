@@ -91,6 +91,9 @@ def card_full_entry(card: dict, prev_id=None, next_id=None, related=None) -> dic
         'cn': card.get('cn', ''),
         'excerpt': card.get('excerpt', ''),
         'excerpts': card.get('excerpts', []),
+        # 「关于本卡」溯源块用
+        'created': card.get('created', ''),
+        'updated': card.get('updated', ''),
         'prev': prev_id,
         'next': next_id,
         'related': related or [],

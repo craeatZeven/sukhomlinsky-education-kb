@@ -30,7 +30,7 @@
 <main class="wrap">
   <p style="margin:0 0 16px"><a href="index.html">首页</a> / <a href="explore.html">主题浏览</a> / 卡片详情</p>
   <section>
-    <article class="card" id="cardMain"></article>
+    <article class="card card--reading" id="cardMain"></article>
     <div style="display:flex;justify-content:space-between;gap:12px;margin-top:14px;flex-wrap:wrap" id="pager"></div>
   </section>
 
@@ -77,17 +77,27 @@ function renderCard(c, error){
   document.getElementById("cardMain").innerHTML = `
     <div class="card-top">
       <div>${topicBadges}</div>
-      <span class="badge" style="background:transparent;border:1px solid var(--line);color:var(--soft)">${KB.esc(KB.typeLabel(c.type))}</span>
+      <span class="badge">${KB.esc(KB.typeLabel(c.type))}</span>
     </div>
-    ${excerptsHtml}    ${c.cn?`<div class="cn" style="margin-top:12px"><b>中文转述：</b>${KB.esc(c.cn)}</div>`:""}
-    <div class="ref" style="margin-top:14px;line-height:1.7"><b>出处：</b>${KB.esc(KB.sourceTitle(c.source))}<br>${KB.esc(ref)}</div>
-    ${tags.length?`<div style="margin-top:10px">${tags.map(t=>`<span class="meta" style="border:1px solid var(--line);border-radius:999px;padding:1px 8px;margin-right:6px">${KB.esc(t)}</span>`).join("")}</div>`:""}
-    <div style="margin-top:16px;display:flex;gap:10px;flex-wrap:wrap">
+    <dl class="keyfacts">
+      <dt>主题</dt><dd>${(c.topics||[]).map(t=>KB.esc(KB.topicTitle(t))).join(" · ") || "—"}</dd>
+      <dt>出处</dt><dd>${KB.sourcePop(c.source, 'explore.html?source=' + encodeURIComponent(c.source))}</dd>
+      <dt>出版信息</dt><dd>${KB.esc(KB.refShort(ref, c.source)) || "—"}</dd>
+    </dl>
+    ${excerptsHtml}
+    ${c.cn?`<div class="cn" style="margin-top:16px"><b>中文转述：</b>${KB.esc(c.cn)}</div>`:""}
+    ${tags.length?`<div style="margin-top:12px">${tags.map(t=>`<span class="meta" style="border:1px solid var(--line);border-radius:2px;padding:1px 8px;margin-right:6px">${KB.esc(t)}</span>`).join("")}</div>`:""}
+    <div style="margin-top:18px;display:flex;gap:10px;flex-wrap:wrap">
       <button class="chip" id="copyBtn" type="button">复制引用</button>
       <button class="chip" id="shareBtn" type="button">分享</button>
       <button class="chip" id="printBtn" type="button">打印 / 存 PDF</button>
       <a class="chip" style="text-decoration:none" href="explore.html?source=${encodeURIComponent(c.source)}">查看同来源卡片 →</a>
       <a class="chip" style="text-decoration:none" href="../INDEX.md" target="_blank" rel="noopener">在 INDEX 中查看 ↗</a>
+    </div>
+    <div class="record">
+      <b>关于本卡</b>　编号 ${KB.esc(c.id)}　录入 ${KB.esc(c.created || "—")}${c.updated && c.updated !== c.created ? `　最近校订 ${KB.esc(c.updated)}` : ""}${c.reviewed_by ? `　校验 ${KB.esc(c.reviewed_by)}` : ""}<br>
+      原文摘自上述出版物，OCR 转写后逐段回查；「中文转述」为编者对该段的准确复述，不是原文。<br>
+      发现错漏可在 <a href="https://github.com/craeatZeven/sukhomlinsky-education-kb/issues" target="_blank" rel="noopener">仓库 issue</a> 提出，或在 <a href="../INDEX.md" target="_blank" rel="noopener">INDEX.md</a> 里核对原始记录。
     </div>`;
   document.getElementById("copyBtn").addEventListener("click", ()=>{
     if(navigator.clipboard) navigator.clipboard.writeText(citation).then(()=>{document.getElementById("copyBtn").textContent="已复制";});

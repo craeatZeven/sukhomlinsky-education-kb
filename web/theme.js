@@ -26,7 +26,6 @@
     if (document.getElementById("themeFab")) return;
     var fab = document.createElement("button");
     fab.id = "themeFab";
-    fab.className = "theme-fab";
     fab.setAttribute("aria-label", "切换风格");
     fab.innerHTML = THEMES.map(function (t) {
       return '<span class="dot" style="background:' + t.dot + '" title="' + t.label + '"></span>';
@@ -37,7 +36,15 @@
       var next = THEMES[(idx + 1) % THEMES.length].id;
       applyTheme(next);
     });
-    document.body.appendChild(fab);
+    /* 放进顶栏右侧（深 chrome 层），不再用悬浮胶囊——悬浮会盖住目录行文字 */
+    var navLinks = document.querySelector(".topnav .nav-links");
+    if (navLinks) {
+      fab.className = "theme-nav";
+      navLinks.appendChild(fab);
+    } else {
+      fab.className = "theme-fab";
+      document.body.appendChild(fab);
+    }
     applyTheme(currentTheme());
   }
   function reveal() {

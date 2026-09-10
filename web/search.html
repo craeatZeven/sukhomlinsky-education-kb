@@ -45,7 +45,7 @@
   </div>
 
   <div id="stats" style="display:flex;gap:18px;flex-wrap:wrap;margin:16px 0"></div>
-  <div id="results"></div>
+  <div class="rows" id="results"></div>
   <div id="pager" style="display:flex;gap:10px;align-items:center;margin-top:18px"></div>
 </main>
 
@@ -129,14 +129,18 @@ function staticSearch(){
 }
 
 function cardHtml(c){
-  const topics = (c.topics||[]).map(s=>`<a class="badge" style="margin-right:6px;text-decoration:none" href="topic.html?slug=${encodeURIComponent(s)}">${KB.esc(topicTitle(s))}</a>`).join("");
-  const snippet = c.snippet ? `<p class="excerpt">…${KB.esc(c.snippet)}…</p>` : "";
-  return `<article class="card" style="padding:16px;margin-bottom:14px">
-    <div class="card-top"><div>${topics}</div><span class="badge">${KB.esc(labelType(c.type))}</span></div>
-    <h3 style="margin:8px 0 6px"><a href="card.html?id=${encodeURIComponent(c.id)}#${KB.esc(c.id)}" style="color:inherit">${KB.esc(c.title)}</a></h3>
-    ${snippet}
-    <div class="ref" style="margin-top:8px">${KB.esc(c.id)} · ${KB.esc(sourceTitle(c.source))}<br>${KB.esc(KB.refText(c.ref || ""))}</div>
-  </article>`;
+  const quote = c.snippet || c.preview || c.cn || c.title;
+  const topics = (c.topics||[]).map(topicTitle).join(" · ");
+  return `<a class="row" href="card.html?id=${encodeURIComponent(c.id)}#${KB.esc(c.id)}">
+    <p class="row-quote">${KB.esc(quote)}</p>
+    <div class="row-meta">
+      <span class="row-title">${KB.esc(c.title)}</span>
+      <span>${KB.esc(labelType(c.type))}</span>
+      ${KB.sourcePop(c.source)}
+      <span>${KB.esc(c.id)}</span>
+      ${topics?`<span>${KB.esc(topics)}</span>`:""}
+    </div>
+  </a>`;
 }
 
 function fillFacets(){

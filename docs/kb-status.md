@@ -92,6 +92,7 @@
 - **后端 API（档位 B）已实现可运行原型**（2026-09-09）：`scripts/build_db.py` → `api/kb.db`（SQLite + FTS5 trigram），`api/main.py`（FastAPI 11 个端点，同时托管 `web/`），配套前端页 `web/search.html` + `web/config.js`，容器化文件 `Dockerfile` / `docker-compose.yml`，说明见 `api/README.md`。本地实测 1386 张卡检索正常；**尚未部署到公网**。
 - **Cloudflare 免运维变体（2026-09-09 已上线）**：`cloudflare/`（Workers + D1），SQL 由 `scripts/build_d1_sql.py` 生成。线上地址 **https://suk-kb-api.suk-kb.workers.dev**（D1 `suk-kb`，1386 卡 + FTS5；`/api/search?q=苏霍姆林斯基` 走 FTS5 771 命中、`q=劳动` 走 LIKE 372 命中；GitHub Pages 的 `search.html` 已连上）。CORS 已收紧为站点域名。**注意**：`*.workers.dev` 在国内网络被 DNS 污染（脚本类客户端不可达、浏览器可访问），主要受众在大陆时需绑自定义域名；`search.html` 在后端不可达时会自动回退到本地静态检索。
 - 已完成：档位 A 静态分片（`web/data/` + `web/kb.js`，见 `docs/web-performance-sharding.md`）。
+- **版式分而治之（2026-09-10）**：调研 24 个同类高级感站点后定版——列表页走档案版式（目录行 / 零圆角 / hairline / 深色 chrome 层），详情页保留杂志阅读（衬线大引文 + 纸感 + **700px 阅读栏宽**）；砖红限量到 4 处；详情页新增「关于本卡」溯源块。实测与验收见 `docs/web-archive-layout.md`。
 
 ---
 

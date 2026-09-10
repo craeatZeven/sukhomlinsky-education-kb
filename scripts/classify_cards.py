@@ -178,29 +178,28 @@ def main() -> int:
         report.write_text('\n'.join(out) + '\n', encoding='utf-8')
         print(f'\n已写入 {report}')
 
-    # 5) 人工复核清单（只列"确信度低"的，附判断依据与备选）
+    # 5. 人工复核清单：列出**算法推翻了旧标签**的卡片（最可能判错的一批）
     review = []
     for c in cards:
         r = results[c['id']]
-        if c['type'] == 'case' or r['reason'].startswith('人工范围内命中'):
+        if c['type'] == 'case' or r.get('source') not in ('override', 'none'):
             continue
         hits = sorted(((score(entry[e['id']]['keywords'], c['id']), e['id']) for e in spec['entries']),
                       key=lambda x: (-x[0], x[1]))
         alts = ' · '.join(f'{entry[eid]["name"]}（{s:.1f}）' for s, eid in hits[:3] if s > 0 and eid != r['primary'])
         review.append((c, r, alts or '（除建议条目外无其他关键词命中）'))
     review.sort(key=lambda x: x[0]['id'])
-    confirmed = [c for c in cards if c['type'] != 'case'
-                 and results[c['id']]['reason'].startswith('人工范围内命中')]
+    confirmed = [c for c in cards if c['type'] != 'case' and results[c['id']].get('source') == 'prior']
     rl = ['# 分类人工复核清单', '',
-          f'迁移预演中**确信度较低**的卡片，共 {len(review)} 张。',
+          f'**算法推翻了旧标签**的卡片，共 {len(review)} 张。',
           '',
-          '判断依据：规则会优先在「旧标签划定的候选范围」内选条目；',
-          '下列卡片在该范围内**没有关键词证据**，因此由关键词单独定夺或回落人工首选——最可能误判。',
+          '判断依据：新规则下旧标签只是加分先验（首选 +2.5 / 次选 +1.0）；',
+          '下列卡片的文本证据足以压过先验，所以改判——改判可能是对的（旧标签本来就粗），',
+          '也可能是关键词误伤。逐条看一遍是最省事的保险。',
           '',
-          f'> ⚠️ 另有 {len(confirmed)} 张卡由人工旧标签直接认定——算法并没有真正"验证"过它们。',
-          '> 旧标签已被证明是**粗而非错**的先验，它不会自我纠错，所以这批卡不能算「无需复核」，',
-          '> 改由 `docs/classification-audit.md` 的**盲审抽样**抽查：隐藏旧标签与算法答案后独立判定。',
-          '', '| 卡片 | 类型 | 旧标签 | 建议条目 | 判断依据 | 关键词命中的其他条目 |',
+          f'> 另有 **{len(confirmed)} 张**由旧标签先验定下（算法没有独立验证过它们），',
+          '> 它们不进这张清单，改由 `docs/classification-audit.md` 的**盲审抽样**抽查。',
+          '', '| 卡片 | 类型 | 旧标签 | 新主归属 | 判断依据 | 关键词命中的其他条目 |',
           '|---|---|---|---|---|---|']
     for c, r, alts in review:
         prim = f"{r['primary']} {entry[r['primary']]['name']}" if r['primary'] else '—'
@@ -219,37 +218,44 @@ def main() -> int:
         review_path.write_text('\n'.join(rl) + '\n', encoding='utf-8')
         print(f'已写入 {review_path}（{len(review)} 张待复核）')
 
-    # 6) 盲审抽样：从"由旧标签直接认定"的卡里分层抽 100 张，隐藏旧标签与算法答案
+    # 6) 盲审抽样：从**全部论述卡**分层抽 100 张，隐藏旧标签与算法答案
+    #
+    # 样本范围从「由旧标签直接认定的卡」扩到「全部论述卡」：只审前者只能回答
+    # 「旧标签准不准」，审全部才能回答「这套分类准不准」——后者才是要报的数。
     import random
     rng = random.Random(20260910)
+    essay_all = [c for c in cards if c['type'] != 'case']
     buckets: dict[str, list[dict]] = defaultdict(list)
-    for c in confirmed:
+    for c in essay_all:
         buckets[results[c['id']]['primary']].append(c)
-    quota = {k: max(1, round(len(v) / len(confirmed) * 100)) for k, v in buckets.items()}
+    quota = {k: max(1, round(len(v) / len(essay_all) * 100)) for k, v in buckets.items()}
     sample: list[dict] = []
     for k, v in buckets.items():
         sample += rng.sample(v, min(quota[k], len(v)))
     sample = sample[:100]
     sample.sort(key=lambda c: c['id'])
+    by_source = Counter(results[c['id']].get('source', '?') for c in sample)
     ap = ['# 分类盲审抽样（100 张）', '',
-          f'样本来源：**{len(confirmed)} 张由旧标签直接认定主归属的论述卡**——算法没有独立验证过它们。',
+          f'样本来源：**全部 {len(essay_all)} 张论述卡**（不只是"由旧标签认定"的那一批）。',
           '分层方式：按算法给出的主归属等比例分配名额，随机种子 20260910。',
           '',
           '**审读方法**：先只看「原文摘录 / 编辑转述」，自己判断属于哪一条，写好「我的判断」；',
           '再展开「对答案」看算法结论与旧标签，把分歧写进「分歧说明」。',
           '旧标签本身就是要被检验的对象，所以它只出现在答案区。',
           '',
-          f'样本数：{len(sample)} 张。', '']
+          f'样本数：{len(sample)} 张。按算法"怎么定下来的"分布：'
+          + ' · '.join(f'{k} {v}' for k, v in by_source.most_common()),
+          '', '盲审结果的汇总写在 `docs/classification-audit-result.md`。', '']
     for i, c in enumerate(sample, 1):
         r = results[c['id']]
         ap += [f'## {i}. {c["id"]}　{c.get("title", "")}', '',
-               f'- 原文摘录：{(c.get("excerpts") or [""])[0][:400]}',
-               f'- 编辑转述：{(c.get("cn") or "")[:300]}',
+               f'- 原文摘录：{(c.get("excerpts") or [""])[0]}',
+               f'- 编辑转述：{c.get("cn") or ""}',
                f'- 出处：{c.get("ref") or ""}',
                '- 我的判断：______',
                '- 分歧说明：______', '',
                '<details><summary>对答案</summary>', '',
-               f'算法：{r["primary"]} {entry[r["primary"]]["name"]}（{r["reason"]}）｜'
+               f'算法：{r["primary"]} {entry[r["primary"]]["name"]}（{r["reason"]}，来源 {r.get("source")}）｜'
                f'旧标签：{", ".join(c.get("topics", []))}',
                '</details>', '']
     audit_path = ROOT / 'docs' / 'classification-audit.md'

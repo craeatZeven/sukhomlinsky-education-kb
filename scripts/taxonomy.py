@@ -125,7 +125,7 @@ def classify(card: dict, spec: dict, score, haystack: dict[str, str]) -> dict:
     if card.get('type') == 'case':                    # 故事体 → 分面
         facets = [f['id'] for f in spec['facets'] if score(f['keywords'], cid) > 0]
         return {'primary': None, 'facets': facets, 'see_also': [], 'tags': tags,
-                'reason': '故事体走分面'}
+                'reason': '故事体走分面', 'source': 'story'}
 
     # 人工裁定优先于算法（见 taxonomy.md §六）
     forced = spec.get('override', {}).get(cid)
@@ -134,7 +134,7 @@ def classify(card: dict, spec: dict, score, haystack: dict[str, str]) -> dict:
                if e['id'] != forced['primary'] and not e['tag']
                and score(e['keywords'] + e['weak'], cid) > 0]
         return {'primary': forced['primary'], 'facets': [], 'see_also': see, 'tags': tags,
-                'reason': f'人工裁定（{forced["why"]}）'}
+                'reason': f'人工裁定（{forced["why"]}）', 'source': 'manual'}
 
     # 旧标签 = **加分先验**，不是候选围栏：优先项加成大、次选项加成小、没被旧标签提到的条目 0 分。
     # 这样「文本证据明显更强」的条目能翻盘（新条目由此获得卡片），而旧标签在证据接近时仍然说了算。
@@ -155,14 +155,16 @@ def classify(card: dict, spec: dict, score, haystack: dict[str, str]) -> dict:
     candidates = {e for e in kw if kw[e] > 0 or prior.get(e, 0.0) > 0}
     if not candidates:
         return {'primary': None, 'facets': [], 'see_also': [], 'tags': tags,
-                'reason': '无旧标签映射且无关键词命中'}
+                'reason': '无旧标签映射且无关键词命中', 'source': 'none'}
 
     best = sorted(candidates, key=lambda e: (-total[e], e))[0]
     if kw[best] <= 0:
         reason = '全无关键词证据，按旧标签先验定夺'
+        source = 'prior'
     elif best in prior:
         reason = (f'旧标签先验 + 文本证据（关键词 {kw[best]:.2f} + 先验 {prior[best]:.1f}'
                   f' = {total[best]:.2f}）')
+        source = 'prior'
         runner = sorted((e for e in candidates if e != best), key=lambda e: (-total[e], e))
         if runner and total[runner[0]] > total[best] - 1e-9:
             reason += '（并列）'
@@ -170,12 +172,14 @@ def classify(card: dict, spec: dict, score, haystack: dict[str, str]) -> dict:
         runner = sorted((e for e in candidates if e != best), key=lambda e: (-total[e], e))
         beat = f'，压过旧标签项 {total[runner[0]]:.2f}' if runner else ''
         reason = f'文本证据推翻旧标签（关键词 {kw[best]:.2f}{beat}）'
+        source = 'override'
 
     # 参见区：强 + 弱证据都算（弱证据只能用在这里）
     see = [e['id'] for e in spec['entries']
            if e['id'] != best and e['id'] in assignable
            and score(e['keywords'] + e['weak'], cid) > 0]
-    return {'primary': best, 'facets': [], 'see_also': see, 'tags': tags, 'reason': reason}
+    return {'primary': best, 'facets': [], 'see_also': see, 'tags': tags,
+            'reason': reason, 'source': source}
 
 
 if __name__ == '__main__':

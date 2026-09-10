@@ -1,152 +1,209 @@
 # 分类人工复核清单
 
-**算法推翻了旧标签**的卡片，共 129 张。
+**算法推翻了旧标签**的卡片，共 186 张。
 
 判断依据：新规则下旧标签只是加分先验（首选 +2.5 / 次选 +1.0）；
 下列卡片的文本证据足以压过先验，所以改判——改判可能是对的（旧标签本来就粗），
 也可能是关键词误伤。逐条看一遍是最省事的保险。
 
-> 另有 **584 张**由旧标签先验定下（算法没有独立验证过它们），
+> 另有 **522 张**由旧标签先验定下（算法没有独立验证过它们），
 > 它们不进这张清单，改由 `docs/classification-audit.md` 的**盲审抽样**抽查。
 
 | 卡片 | 类型 | 旧标签 | 新主归属 | 判断依据 | 关键词命中的其他条目 |
 |---|---|---|---|---|---|
-| sk-0002 | method | learning-difficulties | A16 评价与分数 | 文本证据推翻旧标签（关键词 4.80，压过旧标签项 4.14） | 学习困难学生（15.1） · 家庭与母亲（4.1） |
-| sk-0003 | principle | learning-difficulties | A20 检查知识与考查 | 文本证据推翻旧标签（关键词 5.10，压过旧标签项 2.50） | 学习困难学生（6.2） · 教师（2.4） |
-| sk-0011 | practice | family-school | A13 阅读与书籍 | 文本证据推翻旧标签（关键词 7.10，压过旧标签项 6.67） | 思维与智力（6.7） · 检查知识与考查（5.6） |
-| sk-0016 | practice | labor-education | A3 幸福与精神生活 | 文本证据推翻旧标签（关键词 7.96，压过旧标签项 7.81） | 劳动与创造（5.3） · 思维与智力（4.1） |
-| sk-0018 | method | labor-education, learning-difficulties | A13 阅读与书籍 | 文本证据推翻旧标签（关键词 7.10，压过旧标签项 4.83） | 家庭与母亲（4.1） · 思维与智力（3.4） |
-| sk-0024 | quote | aesthetic-nature-education | A13 阅读与书籍 | 文本证据推翻旧标签（关键词 7.44，压过旧标签项 6.71） | 美与艺术（4.2） · 道德判断与品德培养（3.0） |
-| sk-0025 | principle | aesthetic-nature-education | A11 劳动与创造 | 文本证据推翻旧标签（关键词 2.98，压过旧标签项 2.50） | 教师（2.4） |
-| sk-0037 | principle | teacher-growth | A9 集体与同伴 | 文本证据推翻旧标签（关键词 8.62，压过旧标签项 8.10） | 阅读与书籍（7.1） · 幸福与精神生活（7.0） |
-| sk-0051 | quote | child-study, learning-difficulties | A1 全面发展与个性 | 文本证据推翻旧标签（关键词 5.06，压过旧标签项 4.69） | 学习困难学生（12.0） · 思维与智力（3.7） |
-| sk-0071 | method | family-school, child-study | A10 教师 | 文本证据推翻旧标签（关键词 7.21，压过旧标签项 6.64） | 全面发展与个性（4.4） · 家庭与母亲（4.1） |
-| sk-0082 | quote | thinking-and-nature, aesthetic-nature-education | A11 劳动与创造 | 文本证据推翻旧标签（关键词 8.38，压过旧标签项 6.19） | 自然与思维课（4.1） · 思维与智力（3.7） |
-| sk-0089 | practice | family-school | A4 自我教育 | 文本证据推翻旧标签（关键词 10.95，压过旧标签项 9.44） | 道德判断与品德培养（9.4） · 尊严、爱与信任（4.3） |
-| sk-0101 | method | assessment-grading | A20 检查知识与考查 | 文本证据推翻旧标签（关键词 12.44，压过旧标签项 3.31） | 思维与智力（3.3） · 教师（2.4） |
-| sk-0104 | quote | teacher-growth, collective-education | A14 美与艺术 | 文本证据推翻旧标签（关键词 5.93，压过旧标签项 4.88） | 习惯与纪律（4.9） · 自我教育（3.8） |
-| sk-0108 | principle | thinking-and-nature, child-study | A3 幸福与精神生活 | 文本证据推翻旧标签（关键词 11.09，压过旧标签项 6.19） | 思维与智力（3.7） · 了解儿童（3.4） |
-| sk-0109 | method | child-study, teacher-growth | A11 劳动与创造 | 文本证据推翻旧标签（关键词 7.93，压过旧标签项 6.30） | 全面发展与个性（5.0） · 幸福与精神生活（4.0） |
-| sk-0112 | practice | collective-education, teacher-growth | A5 尊严、爱与信任 | 文本证据推翻旧标签（关键词 8.89，压过旧标签项 7.63） | 自我教育（6.6） · 思维与智力（4.0） |
-| sk-0115 | principle | child-study, teacher-growth | A3 幸福与精神生活 | 文本证据推翻旧标签（关键词 6.98，压过旧标签项 5.62） | 尊严、爱与信任（4.6） · 教师（2.4） |
-| sk-0116 | method | teacher-growth, collective-education | A15 思维与智力 | 文本证据推翻旧标签（关键词 7.40，压过旧标签项 4.88） | 全面发展与个性（4.4） · 尊严、爱与信任（4.3） |
-| sk-0118 | principle | reading-and-books, assessment-grading | A14 美与艺术 | 文本证据推翻旧标签（关键词 9.19，压过旧标签项 6.97） | 幸福与精神生活（7.0） · 自我教育（5.9） |
-| sk-0123 | quote | aesthetic-nature-education | A7 健康与作息 | 文本证据推翻旧标签（关键词 8.42，压过旧标签项 7.24） | 劳动与创造（5.3） · 尊严、爱与信任（4.9） |
-| sk-0126 | method | health-first, child-study | A4 自我教育 | 文本证据推翻旧标签（关键词 21.33，压过旧标签项 15.73） | 健康与作息（13.2） · 评价与分数（10.6） |
-| sk-0139 | principle | collective-education, teacher-growth, labor-education | A5 尊严、爱与信任 | 文本证据推翻旧标签（关键词 13.23，压过旧标签项 10.85） | 集体与同伴（8.4） · 阅读与书籍（7.4） |
-| sk-0142 | method | teacher-growth, family-school, child-study | A3 幸福与精神生活 | 文本证据推翻旧标签（关键词 6.29，压过旧标签项 5.38） | 尊严、爱与信任（4.4） · 自我教育（4.3） |
-| sk-0147 | quote | aesthetic-nature-education | A11 劳动与创造 | 文本证据推翻旧标签（关键词 10.14，压过旧标签项 2.50） | （除建议条目外无其他关键词命中） |
-| sk-0148 | method | reading-and-books, aesthetic-nature-education | A11 劳动与创造 | 文本证据推翻旧标签（关键词 2.98，压过旧标签项 2.50） | 教师（2.4） |
-| sk-0152 | quote | collective-education, child-study | A4 自我教育 | 文本证据推翻旧标签（关键词 14.78，压过旧标签项 5.66） | 习惯与纪律（5.0） · 尊严、爱与信任（4.4） |
-| sk-0158 | quote | collective-education, aesthetic-nature-education | A15 思维与智力 | 文本证据推翻旧标签（关键词 7.01，压过旧标签项 6.18） | 幸福与精神生活（3.8） · 集体与同伴（3.7） |
-| sk-0162 | quote | teacher-growth | A15 思维与智力 | 文本证据推翻旧标签（关键词 14.03，压过旧标签项 9.71） | 教师（7.2） · 健康与作息（5.9） |
-| sk-0164 | quote | collective-education, teacher-growth | A5 尊严、爱与信任 | 文本证据推翻旧标签（关键词 9.42，压过旧标签项 9.34） | 集体与同伴（6.8） · 了解儿童（3.4） |
-| sk-0171 | quote | teacher-growth, collective-education | A1 全面发展与个性 | 文本证据推翻旧标签（关键词 6.63，压过旧标签项 4.88） | 评价与分数（4.2） · 了解儿童（3.8） |
-| sk-0217 | quote | child-study, learning-difficulties | A12 自然与思维课 | 文本证据推翻旧标签（关键词 5.19，压过旧标签项 4.31） | 思维与智力（3.3） |
-| sk-0220 | quote | love-education, teacher-growth | A8 家庭与母亲 | 文本证据推翻旧标签（关键词 7.64，压过旧标签项 4.88） | 教师（2.4） |
-| sk-0228 | quote | family-school, love-education | A11 劳动与创造 | 文本证据推翻旧标签（关键词 7.66，压过旧标签项 7.40） | 尊严、爱与信任（4.9） · 家庭与母亲（3.5） |
-| sk-0236 | quote | family-school, love-education | A20 检查知识与考查 | 文本证据推翻旧标签（关键词 5.10，压过旧标签项 4.42） | 集体与同伴（3.7） · 幸福与精神生活（3.4） |
-| sk-0238 | principle | child-study, teacher-growth | A19 道德判断与品德培养 | 文本证据推翻旧标签（关键词 6.44，压过旧标签项 4.88） | 自我教育（3.8） · 幸福与精神生活（3.0） |
-| sk-0243 | quote | child-study, collective-education | A7 健康与作息 | 文本证据推翻旧标签（关键词 9.08，压过旧标签项 6.44） | 道德判断与品德培养（6.4） · 全面发展与个性（4.4） |
-| sk-0252 | quote | family-school, love-education | A11 劳动与创造 | 文本证据推翻旧标签（关键词 7.79，压过旧标签项 2.50） | （除建议条目外无其他关键词命中） |
-| sk-0253 | quote | family-school, labor-education | A19 道德判断与品德培养 | 文本证据推翻旧标签（关键词 10.13，压过旧标签项 8.43） | 家庭与母亲（5.9） · 劳动与创造（2.3） |
-| sk-0255 | quote | teacher-growth, child-study | A3 幸福与精神生活 | 文本证据推翻旧标签（关键词 8.08，压过旧标签项 6.30） | 检查知识与考查（6.0） · 全面发展与个性（5.2） |
-| sk-0259 | quote | family-school, love-education | A1 全面发展与个性 | 文本证据推翻旧标签（关键词 4.43，压过旧标签项 2.50） | 劳动与创造（2.3） |
-| sk-0268 | principle | labor-education, collective-education | A3 幸福与精神生活 | 文本证据推翻旧标签（关键词 12.39，压过旧标签项 10.31） | 劳动与创造（7.8） · 集体与同伴（5.9） |
-| sk-0274 | principle | labor-education, thinking-and-nature | A3 幸福与精神生活 | 文本证据推翻旧标签（关键词 7.64，压过旧标签项 4.83） | 了解儿童（3.8） · 劳动与创造（2.3） |
-| sk-0283 | quote | labor-education | A5 尊严、爱与信任 | 文本证据推翻旧标签（关键词 9.70，压过旧标签项 7.81） | 劳动与创造（5.3） |
-| sk-0286 | quote | labor-education, child-study | A3 幸福与精神生活 | 文本证据推翻旧标签（关键词 7.39，压过旧标签项 7.14） | 公民与祖国（7.1） · 尊严、爱与信任（4.9） |
-| sk-0288 | quote | collective-education, child-study | A4 自我教育 | 文本证据推翻旧标签（关键词 21.31，压过旧标签项 3.31） | 幸福与精神生活（3.3） · 道德判断与品德培养（3.0） |
-| sk-0289 | principle | collective-education, child-study | A19 道德判断与品德培养 | 文本证据推翻旧标签（关键词 2.99，压过旧标签项 2.50） | （除建议条目外无其他关键词命中） |
-| sk-0296 | quote | collective-education, child-study | A16 评价与分数 | 文本证据推翻旧标签（关键词 18.18，压过旧标签项 2.99） | 道德判断与品德培养（3.0） |
-| sk-0299 | principle | teacher-growth, child-study | A16 评价与分数 | 文本证据推翻旧标签（关键词 4.16，压过旧标签项 3.87） | 阅读与书籍（2.9） |
-| sk-0301 | quote | collective-education, child-study | A4 自我教育 | 文本证据推翻旧标签（关键词 8.24，压过旧标签项 2.99） | 道德判断与品德培养（3.0） |
-| sk-0303 | quote | teacher-growth, child-study | A1 全面发展与个性 | 文本证据推翻旧标签（关键词 5.06，压过旧标签项 4.35） | 思维与智力（3.4） · 道德判断与品德培养（3.0） |
-| sk-0304 | quote | love-education | A4 自我教育 | 文本证据推翻旧标签（关键词 8.24，压过旧标签项 4.31） | 幸福与精神生活（3.3） · 道德判断与品德培养（3.0） |
-| sk-0309 | quote | learning-difficulties, teacher-growth | A16 评价与分数 | 文本证据推翻旧标签（关键词 4.16，压过旧标签项 2.50） | 学习困难学生（4.9） |
-| sk-0312 | quote | labor-education, collective-education | A1 全面发展与个性 | 文本证据推翻旧标签（关键词 5.02，压过旧标签项 4.90） | 尊严、爱与信任（4.9） · 劳动与创造（2.3） |
-| sk-0319 | principle | child-study, teacher-growth | A7 健康与作息 | 文本证据推翻旧标签（关键词 8.94，压过旧标签项 5.43） | 自我教育（4.4） · 教师（2.4） |
-| sk-0348 | quote | family-school | A11 劳动与创造 | 文本证据推翻旧标签（关键词 6.93，压过旧标签项 6.00） | 家庭与母亲（3.5） · 思维与智力（3.3） |
-| sk-0349 | quote | love-education, collective-education | A19 道德判断与品德培养 | 文本证据推翻旧标签（关键词 6.44，压过旧标签项 5.05） | 习惯与纪律（4.8） · 公民与祖国（4.0） |
-| sk-0361 | quote | love-education, child-study | A17 习惯与纪律 | 文本证据推翻旧标签（关键词 5.84，压过旧标签项 2.99） | 道德判断与品德培养（3.0） |
-| sk-0362 | quote | love-education | A4 自我教育 | 文本证据推翻旧标签（关键词 8.24，压过旧标签项 4.43） | 全面发展与个性（4.4） · 幸福与精神生活（3.3） |
-| sk-0369 | quote | teacher-growth | A15 思维与智力 | 文本证据推翻旧标签（关键词 9.02，压过旧标签项 4.88） | 尊严、爱与信任（4.3） · 集体与同伴（3.2） |
-| sk-0370 | quote | reading-and-books | A15 思维与智力 | 文本证据推翻旧标签（关键词 7.49，压过旧标签项 6.46） | 阅读与书籍（4.0） · 劳动与创造（2.3） |
-| sk-0373 | quote | child-study, thinking-and-nature | A1 全面发展与个性 | 文本证据推翻旧标签（关键词 5.06，压过旧标签项 3.82） | 自我教育（3.8） · 劳动与创造（2.3） |
-| sk-0382 | principle | labor-education, collective-education | A1 全面发展与个性 | 文本证据推翻旧标签（关键词 11.01，压过旧标签项 7.81） | 劳动与创造（5.3） · 公民与祖国（4.0） |
-| sk-0385 | quote | labor-education, collective-education | A4 自我教育 | 文本证据推翻旧标签（关键词 9.75，压过旧标签项 7.04） | 公民与祖国（6.0） · 集体与同伴（3.2） |
-| sk-0389 | quote | love-education | A11 劳动与创造 | 文本证据推翻旧标签（关键词 7.57，压过旧标签项 4.42） | 思维与智力（4.1） · 幸福与精神生活（3.4） |
-| sk-0390 | quote | teacher-growth, reading-and-books | A15 思维与智力 | 文本证据推翻旧标签（关键词 10.33，压过旧标签项 6.04） | 检查知识与考查（6.0） · 美与艺术（4.5） |
-| sk-0396 | quote | child-study, health-first | A3 幸福与精神生活 | 文本证据推翻旧标签（关键词 3.97，压过旧标签项 2.50） | （除建议条目外无其他关键词命中） |
-| sk-0406 | quote | teacher-growth, reading-and-books | A15 思维与智力 | 文本证据推翻旧标签（关键词 10.33，压过旧标签项 9.60） | 阅读与书籍（7.1） · 健康与作息（4.1） |
-| sk-0407 | quote | labor-education | A1 全面发展与个性 | 文本证据推翻旧标签（关键词 14.59，压过旧标签项 4.83） | 幸福与精神生活（3.8） · 集体与同伴（3.2） |
-| sk-0410 | principle | love-education, collective-education | A19 道德判断与品德培养 | 文本证据推翻旧标签（关键词 8.39，压过旧标签项 2.50） | （除建议条目外无其他关键词命中） |
-| sk-0416 | quote | child-study, love-education | A4 自我教育 | 文本证据推翻旧标签（关键词 5.84，压过旧标签项 5.05） | 公民与祖国（4.0） · 思维与智力（3.3） |
-| sk-0417 | quote | aesthetic-nature-education, child-study | A1 全面发展与个性 | 文本证据推翻旧标签（关键词 4.38，压过旧标签项 2.98） | 劳动与创造（3.0） |
-| sk-0425 | quote | child-study, teacher-growth | A1 全面发展与个性 | 文本证据推翻旧标签（关键词 4.43，压过旧标签项 3.42） | 幸福与精神生活（3.4） · 劳动与创造（3.0） |
-| sk-1001 | method | family-school, child-study, love-education | A16 评价与分数 | 文本证据推翻旧标签（关键词 14.37，压过旧标签项 8.09） | 幸福与精神生活（7.1） · 尊严、爱与信任（4.4） |
-| sk-1005 | principle | child-study, learning-difficulties, teacher-growth | A16 评价与分数 | 文本证据推翻旧标签（关键词 8.93，压过旧标签项 4.88） | 家庭与母亲（3.5） · 思维与智力（3.4） |
-| sk-1015 | principle | teacher-growth, labor-education | A1 全面发展与个性 | 文本证据推翻旧标签（关键词 9.44，压过旧标签项 5.87） | 习惯与纪律（4.9） · 幸福与精神生活（3.8） |
-| sk-1018 | method | teacher-growth, reading-and-books | A15 思维与智力 | 文本证据推翻旧标签（关键词 7.51，压过旧标签项 7.33） | 教师（4.8） |
-| sk-1024 | principle | teacher-growth, family-school, child-study | A11 劳动与创造 | 文本证据推翻旧标签（关键词 10.71，压过旧标签项 10.21） | 全面发展与个性（10.2） · 美与艺术（8.9） |
-| sk-1029 | method | learning-difficulties, assessment-grading | A20 检查知识与考查 | 文本证据推翻旧标签（关键词 6.16，压过旧标签项 5.28） | 全面发展与个性（5.1） · 健康与作息（4.3） |
-| sk-1036 | method | assessment-grading, learning-difficulties | A20 检查知识与考查 | 文本证据推翻旧标签（关键词 6.85，压过旧标签项 4.31） | 思维与智力（3.3） · 教师（2.4） |
-| sk-1037 | principle | thinking-and-nature, child-study | A20 检查知识与考查 | 文本证据推翻旧标签（关键词 11.25，压过旧标签项 10.38） | 美与艺术（10.4） · 思维与智力（7.5） |
-| sk-1043 | method | teacher-growth, learning-difficulties | A12 自然与思维课 | 文本证据推翻旧标签（关键词 11.96，压过旧标签项 9.71） | 教师（7.2） · 全面发展与个性（5.2） |
-| sk-1050 | quote | love-education | A15 思维与智力 | 文本证据推翻旧标签（关键词 7.51，压过旧标签项 4.60） | 劳动与创造（4.6） · 了解儿童（3.4） |
-| sk-1052 | principle | learning-difficulties, child-study | A10 教师 | 文本证据推翻旧标签（关键词 7.21，压过旧标签项 5.67） | 学习困难学生（11.8） · 自然与思维课（5.7） |
-| sk-1054 | principle | teacher-growth, child-study | A16 评价与分数 | 文本证据推翻旧标签（关键词 9.99，压过旧标签项 6.41） | 幸福与精神生活（6.4） · 美与艺术（5.9） |
-| sk-1058 | practice | thinking-and-nature, aesthetic-nature-education | A19 道德判断与品德培养 | 文本证据推翻旧标签（关键词 12.25，压过旧标签项 7.24） | 美与艺术（4.7） · 自然与思维课（4.1） |
-| sk-1062 | principle | child-study, thinking-and-nature | A3 幸福与精神生活 | 文本证据推翻旧标签（关键词 10.77，压过旧标签项 2.50） | （除建议条目外无其他关键词命中） |
-| sk-1073 | principle | labor-education, thinking-and-nature, love-education | A1 全面发展与个性 | 文本证据推翻旧标签（关键词 21.22，压过旧标签项 9.99） | 思维与智力（7.5） · 劳动与创造（5.3） |
-| sk-1076 | principle | love-education, child-study | A4 自我教育 | 文本证据推翻旧标签（关键词 9.97，压过旧标签项 7.40） | 健康与作息（5.9） · 尊严、爱与信任（4.9） |
-| sk-1078 | principle | collective-education, teacher-growth | A11 劳动与创造 | 文本证据推翻旧标签（关键词 10.71，压过旧标签项 9.40） | 全面发展与个性（9.4） · 美与艺术（9.2） |
-| sk-1099 | practice | child-study, labor-education, collective-education | A19 道德判断与品德培养 | 文本证据推翻旧标签（关键词 2.99，压过旧标签项 2.50） | 教师（2.4） |
-| sk-1103 | principle | love-education, collective-education, child-study | A4 自我教育 | 文本证据推翻旧标签（关键词 14.09，压过旧标签项 9.57） | 评价与分数（9.6） · 习惯与纪律（4.8） |
-| sk-1112 | principle | love-education, child-study | A4 自我教育 | 文本证据推翻旧标签（关键词 15.59，压过旧标签项 8.85） | 思维与智力（7.8） · 劳动与创造（5.3） |
-| sk-1118 | principle | love-education, child-study | A4 自我教育 | 文本证据推翻旧标签（关键词 9.75，压过旧标签项 4.74） | 美与艺术（4.7） · 全面发展与个性（4.4） |
-| sk-1135 | method | love-education, collective-education | A19 道德判断与品德培养 | 文本证据推翻旧标签（关键词 2.99，压过旧标签项 2.50） | 教师（2.4） |
-| sk-1136 | principle | love-education, aesthetic-nature-education, learning-difficulties | A1 全面发展与个性 | 文本证据推翻旧标签（关键词 4.43，压过旧标签项 4.31） | 自我教育（3.8） · 幸福与精神生活（3.3） |
-| sk-1138 | practice | teacher-growth, collective-education | A17 习惯与纪律 | 文本证据推翻旧标签（关键词 10.80，压过旧标签项 9.71） | 教师（7.2） · 健康与作息（5.3） |
-| sk-1154 | method | love-education, teacher-growth, collective-education | A15 思维与智力 | 文本证据推翻旧标签（关键词 8.20，压过旧标签项 6.88） | 尊严、爱与信任（4.4） · 集体与同伴（3.2） |
-| sk-1159 | principle | thinking-and-nature, labor-education, child-study | A3 幸福与精神生活 | 文本证据推翻旧标签（关键词 11.27，压过旧标签项 8.17） | 思维与智力（5.7） · 全面发展与个性（5.1） |
-| sk-1177 | method | collective-education, teacher-growth | A15 思维与智力 | 文本证据推翻旧标签（关键词 7.36，压过旧标签项 5.66） | 自我教育（4.3） · 美与艺术（4.2） |
-| sk-1180 | principle | family-school, love-education, child-study | A19 道德判断与品德培养 | 文本证据推翻旧标签（关键词 9.15，压过旧标签项 7.65） | 幸福与精神生活（6.7） · 习惯与纪律（5.8） |
-| sk-1186 | principle | love-education, collective-education, child-study | A19 道德判断与品德培养 | 文本证据推翻旧标签（关键词 8.39，压过旧标签项 6.76） | 公民与祖国（5.7） · 习惯与纪律（4.9） |
-| sk-1190 | principle | learning-difficulties, reading-and-books, thinking-and-nature | A3 幸福与精神生活 | 文本证据推翻旧标签（关键词 14.06，压过旧标签项 9.60） | 评价与分数（9.0） · 阅读与书籍（7.1） |
-| sk-1193 | principle | love-education, family-school | A15 思维与智力 | 文本证据推翻旧标签（关键词 6.67，压过旧标签项 6.00） | 家庭与母亲（3.5） · 幸福与精神生活（3.3） |
-| sk-1202 | principle | love-education, reading-and-books | A1 全面发展与个性 | 文本证据推翻旧标签（关键词 8.81，压过旧标签项 7.40） | 尊严、爱与信任（4.9） · 道德判断与品德培养（3.0） |
-| sk-1205 | method | family-school, love-education | A7 健康与作息 | 文本证据推翻旧标签（关键词 10.22，压过旧标签项 10.14） | 家庭与母亲（7.6） · 幸福与精神生活（7.1） |
-| sk-1209 | principle | love-education, family-school | A19 道德判断与品德培养 | 文本证据推翻旧标签（关键词 9.44，压过旧标签项 6.76） | 尊严、爱与信任（4.3） · 幸福与精神生活（3.8） |
-| sk-1211 | principle | love-education, teacher-growth | A7 健康与作息 | 文本证据推翻旧标签（关键词 13.23，压过旧标签项 10.71） | 劳动与创造（10.7） · 思维与智力（10.4） |
-| sk-1226 | practice | labor-education, collective-education | A5 尊严、爱与信任 | 文本证据推翻旧标签（关键词 9.01，压过旧标签项 5.66） | 教师（4.8） · 评价与分数（4.8） |
-| sk-1227 | principle | teacher-growth, child-study | A11 劳动与创造 | 文本证据推翻旧标签（关键词 5.31，压过旧标签项 4.88） | 幸福与精神生活（4.0） · 阅读与书籍（2.9） |
-| sk-1248 | method | family-school, love-education, child-study | A7 健康与作息 | 文本证据推翻旧标签（关键词 15.53，压过旧标签项 12.00） | 习惯与纪律（12.0） · 思维与智力（10.7） |
-| sk-1252 | method | assessment-grading, teacher-growth | A20 检查知识与考查 | 文本证据推翻旧标签（关键词 12.48，压过旧标签项 7.83） | 阅读与书籍（6.8） · 劳动与创造（5.3） |
-| sk-1262 | principle | aesthetic-nature-education, love-education, labor-education | A1 全面发展与个性 | 文本证据推翻旧标签（关键词 9.44，压过旧标签项 7.81） | 劳动与创造（5.3） · 自我教育（4.4） |
-| sk-1268 | method | collective-education, teacher-growth, love-education | A16 评价与分数 | 文本证据推翻旧标签（关键词 16.10，压过旧标签项 9.34） | 自我教育（8.2） · 集体与同伴（6.8） |
-| sk-1273 | method | child-study, love-education, labor-education | A12 自然与思维课 | 文本证据推翻旧标签（关键词 11.01，压过旧标签项 9.67） | 思维与智力（7.8） · 了解儿童（7.2） |
-| sk-1289 | principle | love-education, child-study, health-first | A4 自我教育 | 文本证据推翻旧标签（关键词 40.23，压过旧标签项 4.99） | 评价与分数（4.8） · 全面发展与个性（4.4） |
-| sk-1290 | method | love-education, collective-education, teacher-growth | A16 评价与分数 | 文本证据推翻旧标签（关键词 10.26，压过旧标签项 7.14） | 习惯与纪律（7.1） · 道德判断与品德培养（5.4） |
-| sk-1304 | method | teacher-growth, love-education, collective-education | A15 思维与智力 | 文本证据推翻旧标签（关键词 11.50，压过旧标签项 10.92） | 教师（8.4） · 幸福与精神生活（6.3） |
-| sk-1315 | method | love-education, family-school, child-study | A11 劳动与创造 | 文本证据推翻旧标签（关键词 7.57，压过旧标签项 6.76） | 自我教育（6.2） · 集体与同伴（5.4） |
-| sk-1316 | practice | family-school, love-education, child-study | A7 健康与作息 | 文本证据推翻旧标签（关键词 10.22，压过旧标签项 10.14） | 家庭与母亲（7.6） · 阅读与书籍（7.4） |
-| sk-1327 | principle | love-education, teacher-growth, child-study | A19 道德判断与品德培养 | 文本证据推翻旧标签（关键词 9.44，压过旧标签项 8.90） | 评价与分数（8.9） · 集体与同伴（8.9） |
-| sk-1332 | method | child-study, love-education, collective-education | A4 自我教育 | 文本证据推翻旧标签（关键词 14.61，压过旧标签项 9.34） | 劳动与创造（7.0） · 集体与同伴（6.8） |
-| sk-1347 | practice | collective-education, child-study, love-education | A14 美与艺术 | 文本证据推翻旧标签（关键词 13.40，压过旧标签项 11.40） | 阅读与书籍（11.4） · 劳动与创造（10.7） |
-| sk-1360 | practice | love-education, collective-education, family-school | A11 劳动与创造 | 文本证据推翻旧标签（关键词 11.84，压过旧标签项 10.72） | 公民与祖国（9.7） · 幸福与精神生活（7.4） |
-| sk-1366 | method | love-education, collective-education, child-study | A19 道德判断与品德培养 | 文本证据推翻旧标签（关键词 8.39，压过旧标签项 6.67） | 公民与祖国（5.7） · 全面发展与个性（5.0） |
-| sk-1369 | practice | love-education, collective-education, teacher-growth | A20 检查知识与考查 | 文本证据推翻旧标签（关键词 5.10，压过旧标签项 5.05） | 评价与分数（4.8） · 公民与祖国（4.0） |
-| sk-1373 | method | collective-education, love-education, teacher-growth | A19 道德判断与品德培养 | 文本证据推翻旧标签（关键词 9.15，压过旧标签项 7.04） | 公民与祖国（6.0） · 自我教育（3.8） |
-| sk-1382 | practice | love-education, collective-education, teacher-growth | A1 全面发展与个性 | 文本证据推翻旧标签（关键词 9.49，压过旧标签项 7.46） | 思维与智力（7.5） · 公民与祖国（5.3） |
-| sk-1388 | method | family-school, love-education, child-study | A4 自我教育 | 文本证据推翻旧标签（关键词 9.75，压过旧标签项 6.76） | 尊严、爱与信任（4.3） · 思维与智力（4.1） |
+| sk-0002 | method | learning-difficulties | A16 评价与分数 | 原文证据压倒旧标签（关键词 4.80，压过旧标签项 4.14） | 学习困难学生（15.1） · 家庭与母亲（4.1） |
+| sk-0003 | principle | learning-difficulties | A20 检查知识与考查 | 原文证据压倒旧标签（关键词 5.10） | 学习困难学生（6.2） |
+| sk-0011 | practice | family-school | A15 思维与智力 | 原文证据压倒旧标签（关键词 6.67，压过旧标签项 6.64） | 儿童发展与年龄阶段（6.2） · 检查知识与考查（5.6） |
+| sk-0025 | principle | aesthetic-nature-education | A22 教学方法与教育艺术 | 原文证据压倒旧标签（关键词 5.14，压过旧标签项 2.98） | 劳动与创造（3.0） |
+| sk-0034 | quote | teacher-growth | A4 自我教育 | 原文证据压倒旧标签（关键词 3.82） | （除建议条目外无其他关键词命中） |
+| sk-0036 | quote | teacher-growth | A5 尊严、爱与信任 | 原文证据压倒旧标签（关键词 10.09） | （除建议条目外无其他关键词命中） |
+| sk-0037 | principle | teacher-growth | A9 集体与同伴 | 原文证据压倒旧标签（关键词 8.62，压过旧标签项 5.19） | 全面发展与个性（5.2） · 阅读与书籍（4.2） |
+| sk-0038 | principle | teacher-growth | A16 评价与分数 | 原文证据压倒旧标签（关键词 4.80，压过旧标签项 3.82） | 自我教育（3.8） |
+| sk-0047 | principle | assessment-grading | A19 道德判断与品德培养 | 原文证据压倒旧标签（关键词 11.63，压过旧标签项 6.66） | 尊严、爱与信任（4.6） · 评价与分数（4.2） |
+| sk-0051 | quote | child-study, learning-difficulties | A1 全面发展与个性 | 原文证据压倒旧标签（关键词 5.06，压过旧标签项 4.69） | 学习困难学生（12.0） · 思维与智力（3.7） |
+| sk-0082 | quote | thinking-and-nature, aesthetic-nature-education | A11 劳动与创造 | 原文证据压倒旧标签（关键词 8.38，压过旧标签项 6.19） | 道德判断与品德培养（4.9） · 自然与思维课（4.1） |
+| sk-0084 | quote | teacher-growth, child-study | A4 自我教育 | 原文证据压倒旧标签（关键词 9.75，压过旧标签项 2.99） | 道德判断与品德培养（3.0） · 劳动与创造（2.3） |
+| sk-0089 | practice | family-school | A4 自我教育 | 原文证据压倒旧标签（关键词 10.95，压过旧标签项 9.44） | 道德判断与品德培养（9.4） · 尊严、爱与信任（4.3） |
+| sk-0101 | method | assessment-grading | A20 检查知识与考查 | 原文证据压倒旧标签（关键词 12.44，压过旧标签项 3.31） | 思维与智力（3.3） · 劳动与创造（2.3） |
+| sk-0104 | quote | teacher-growth, collective-education | A14 美与艺术 | 原文证据压倒旧标签（关键词 5.93，压过旧标签项 4.87） | 习惯与纪律（4.9） · 自我教育（3.8） |
+| sk-0105 | quote | health-first, child-study | A22 教学方法与教育艺术 | 原文证据压倒旧标签（关键词 6.16，压过旧标签项 5.98） | 尊严、爱与信任（5.0） · 劳动与创造（2.3） |
+| sk-0109 | method | child-study, teacher-growth | A11 劳动与创造 | 原文证据压倒旧标签（关键词 7.93，压过旧标签项 6.34） | 儿童发展与年龄阶段（5.3） · 全面发展与个性（5.0） |
+| sk-0112 | practice | collective-education, teacher-growth | A5 尊严、爱与信任 | 原文证据压倒旧标签（关键词 8.89，压过旧标签项 6.63） | 自我教育（6.6） · 道德判断与品德培养（5.2） |
+| sk-0115 | principle | child-study, teacher-growth | A3 幸福与精神生活 | 原文证据压倒旧标签（关键词 6.04，压过旧标签项 5.62） | 尊严、爱与信任（4.6） |
+| sk-0116 | method | teacher-growth, collective-education | A15 思维与智力 | 原文证据压倒旧标签（关键词 7.40，压过旧标签项 4.38） | 全面发展与个性（4.4） · 尊严、爱与信任（4.3） |
+| sk-0118 | principle | reading-and-books, assessment-grading | A14 美与艺术 | 原文证据压倒旧标签（关键词 9.19，压过旧标签项 6.93） | 自我教育（5.9） · 检查知识与考查（5.6） |
+| sk-0123 | quote | aesthetic-nature-education | A7 健康与作息 | 原文证据压倒旧标签（关键词 8.42，压过旧标签项 7.24） | 劳动与创造（5.3） · 尊严、爱与信任（4.9） |
+| sk-0126 | method | health-first, child-study | A4 自我教育 | 原文证据压倒旧标签（关键词 21.33，压过旧标签项 15.73） | 健康与作息（13.2） · 评价与分数（10.6） |
+| sk-0139 | principle | collective-education, teacher-growth, labor-education | A5 尊严、爱与信任 | 原文证据压倒旧标签（关键词 13.23，压过旧标签项 10.85） | 集体与同伴（8.4） · 劳动与创造（5.3） |
+| sk-0141 | quote | teacher-growth | A17 习惯与纪律 | 原文证据压倒旧标签（关键词 4.87，压过旧标签项 4.57） | 阅读与书籍（4.6） · 全面发展与个性（4.4） |
+| sk-0142 | method | teacher-growth, family-school, child-study | A19 道德判断与品德培养 | 原文证据压倒旧标签（关键词 7.38，压过旧标签项 4.34） | 自我教育（4.3） · 集体与同伴（3.2） |
+| sk-0143 | quote | teacher-growth, child-study, love-education | A4 自我教育 | 原文证据压倒旧标签（关键词 10.97，压过旧标签项 5.19） | 自然与思维课（5.2） · 评价与分数（4.8） |
+| sk-0144 | quote | teacher-growth | A11 劳动与创造 | 原文证据压倒旧标签（关键词 2.98） | （除建议条目外无其他关键词命中） |
+| sk-0147 | quote | aesthetic-nature-education | A11 劳动与创造 | 原文证据压倒旧标签（关键词 10.14，压过旧标签项 5.14） | 教学方法与教育艺术（5.1） |
+| sk-0148 | method | reading-and-books, aesthetic-nature-education | A11 劳动与创造 | 原文证据压倒旧标签（关键词 2.98） | （除建议条目外无其他关键词命中） |
+| sk-0152 | quote | collective-education, child-study | A4 自我教育 | 原文证据压倒旧标签（关键词 14.78，压过旧标签项 7.38） | 道德判断与品德培养（7.4） · 习惯与纪律（5.0） |
+| sk-0158 | quote | collective-education, aesthetic-nature-education | A15 思维与智力 | 原文证据压倒旧标签（关键词 7.01，压过旧标签项 6.18） | 幸福与精神生活（3.8） · 集体与同伴（3.7） |
+| sk-0164 | quote | collective-education, teacher-growth | A5 尊严、爱与信任 | 原文证据压倒旧标签（关键词 9.42，压过旧标签项 9.34） | 集体与同伴（6.8） · 了解儿童（3.4） |
+| sk-0170 | principle | love-education, collective-education | A19 道德判断与品德培养 | 原文证据压倒旧标签（关键词 2.99） | （除建议条目外无其他关键词命中） |
+| sk-0171 | quote | teacher-growth, collective-education | A1 全面发展与个性 | 原文证据压倒旧标签（关键词 6.63，压过旧标签项 5.08） | 评价与分数（4.2） · 教学方法与教育艺术（4.1） |
+| sk-0175 | quote | reading-and-books, aesthetic-nature-education | A11 劳动与创造 | 原文证据压倒旧标签（关键词 4.68） | （除建议条目外无其他关键词命中） |
+| sk-0196 | quote | teacher-growth, child-study | A8 家庭与母亲 | 原文证据压倒旧标签（关键词 3.50） | （除建议条目外无其他关键词命中） |
+| sk-0198 | quote | love-education, child-study | A19 道德判断与品德培养 | 原文证据压倒旧标签（关键词 7.86，压过旧标签项 4.97） | 幸福与精神生活（4.0） · 家庭与母亲（3.5） |
+| sk-0202 | quote | child-study, teacher-growth | A4 自我教育 | 原文证据压倒旧标签（关键词 17.19，压过旧标签项 2.99） | 道德判断与品德培养（3.0） |
+| sk-0206 | quote | teacher-growth, child-study | A16 评价与分数 | 原文证据压倒旧标签（关键词 4.74，压过旧标签项 3.79） | 幸福与精神生活（3.8） · 劳动与创造（2.3） |
+| sk-0217 | quote | child-study, learning-difficulties | A22 教学方法与教育艺术 | 原文证据压倒旧标签（关键词 6.85，压过旧标签项 5.19） | 自然与思维课（5.2） · 思维与智力（3.3） |
+| sk-0228 | quote | family-school, love-education | A11 劳动与创造 | 原文证据压倒旧标签（关键词 7.66，压过旧标签项 7.40） | 尊严、爱与信任（4.9） · 家庭与母亲（3.5） |
+| sk-0236 | quote | family-school, love-education | A20 检查知识与考查 | 原文证据压倒旧标签（关键词 5.10，压过旧标签项 4.42） | 集体与同伴（3.7） · 幸福与精神生活（3.4） |
+| sk-0237 | quote | reading-and-books, teacher-growth | A3 幸福与精神生活 | 原文证据压倒旧标签（关键词 7.39，压过旧标签项 6.73） | 阅读与书籍（4.2） |
+| sk-0238 | principle | child-study, teacher-growth | A19 道德判断与品德培养 | 原文证据压倒旧标签（关键词 6.44，压过旧标签项 5.60） | 学习方法与学习技能（5.6） · 自我教育（3.8） |
+| sk-0241 | principle | collective-education, teacher-growth | A15 思维与智力 | 原文证据压倒旧标签（关键词 7.49，压过旧标签项 5.66） | 阅读与书籍（4.0） · 自我教育（3.8） |
+| sk-0243 | quote | child-study, collective-education | A7 健康与作息 | 原文证据压倒旧标签（关键词 9.08，压过旧标签项 6.44） | 道德判断与品德培养（6.4） · 全面发展与个性（4.4） |
+| sk-0249 | method | child-study, love-education | A7 健康与作息 | 原文证据压倒旧标签（关键词 4.28，压过旧标签项 3.68） | 集体与同伴（3.7） |
+| sk-0252 | quote | family-school, love-education | A11 劳动与创造 | 原文证据压倒旧标签（关键词 7.79） | （除建议条目外无其他关键词命中） |
+| sk-0253 | quote | family-school, labor-education | A19 道德判断与品德培养 | 原文证据压倒旧标签（关键词 10.13，压过旧标签项 8.43） | 家庭与母亲（5.9） · 劳动与创造（2.3） |
+| sk-0256 | quote | teacher-growth, child-study | A4 自我教育 | 原文证据压倒旧标签（关键词 4.43，压过旧标签项 4.21） | 美与艺术（4.2） · 劳动与创造（2.3） |
+| sk-0257 | quote | love-education, child-study | A7 健康与作息 | 原文证据压倒旧标签（关键词 5.93，压过旧标签项 4.97） | 幸福与精神生活（4.0） · 劳动与创造（2.3） |
+| sk-0259 | quote | family-school, love-education | A1 全面发展与个性 | 原文证据压倒旧标签（关键词 4.43，压过旧标签项 2.33） | 劳动与创造（2.3） |
+| sk-0262 | principle | learning-difficulties, teacher-growth | A11 劳动与创造 | 原文证据压倒旧标签（关键词 2.98） | 学习困难学生（5.8） |
+| sk-0266 | quote | collective-education, teacher-growth | A4 自我教育 | 原文证据压倒旧标签（关键词 9.75，压过旧标签项 4.77） | 评价与分数（4.8） · 道德判断与品德培养（3.0） |
+| sk-0273 | quote | child-study, teacher-growth | A11 劳动与创造 | 原文证据压倒旧标签（关键词 2.98） | （除建议条目外无其他关键词命中） |
+| sk-0277 | quote | teacher-growth | A11 劳动与创造 | 原文证据压倒旧标签（关键词 2.33） | （除建议条目外无其他关键词命中） |
+| sk-0283 | quote | labor-education | A5 尊严、爱与信任 | 原文证据压倒旧标签（关键词 9.70，压过旧标签项 7.81） | 劳动与创造（5.3） |
+| sk-0284 | quote | teacher-growth | A14 美与艺术 | 原文证据压倒旧标签（关键词 4.21，压过旧标签项 4.05） | 思维与智力（4.0） · 劳动与创造（2.3） |
+| sk-0285 | quote | teacher-growth, reading-and-books | A14 美与艺术 | 原文证据压倒旧标签（关键词 4.21，压过旧标签项 4.05） | 思维与智力（4.0） |
+| sk-0286 | quote | labor-education, child-study | A3 幸福与精神生活 | 原文证据压倒旧标签（关键词 7.39，压过旧标签项 7.14） | 公民与祖国（7.1） · 尊严、爱与信任（4.9） |
+| sk-0288 | quote | collective-education, child-study | A4 自我教育 | 原文证据压倒旧标签（关键词 21.31，压过旧标签项 2.99） | 道德判断与品德培养（3.0） |
+| sk-0289 | principle | collective-education, child-study | A22 教学方法与教育艺术 | 原文证据压倒旧标签（关键词 5.14，压过旧标签项 2.99） | 道德判断与品德培养（3.0） |
+| sk-0290 | quote | child-study, collective-education | A19 道德判断与品德培养 | 原文证据压倒旧标签（关键词 11.23，压过旧标签项 5.62） | 尊严、爱与信任（4.6） |
+| sk-0296 | quote | collective-education, child-study | A16 评价与分数 | 原文证据压倒旧标签（关键词 18.18，压过旧标签项 2.99） | 道德判断与品德培养（3.0） |
+| sk-0299 | principle | teacher-growth, child-study | A23 学习方法与学习技能 | 原文证据压倒旧标签（关键词 6.04，压过旧标签项 4.16） | 评价与分数（4.2） |
+| sk-0301 | quote | collective-education, child-study | A4 自我教育 | 原文证据压倒旧标签（关键词 8.24，压过旧标签项 2.99） | 道德判断与品德培养（3.0） |
+| sk-0302 | quote | teacher-growth | A4 自我教育 | 原文证据压倒旧标签（关键词 3.82） | （除建议条目外无其他关键词命中） |
+| sk-0303 | quote | teacher-growth, child-study | A1 全面发展与个性 | 原文证据压倒旧标签（关键词 5.06，压过旧标签项 4.35） | 思维与智力（3.4） · 道德判断与品德培养（3.0） |
+| sk-0304 | quote | love-education | A4 自我教育 | 原文证据压倒旧标签（关键词 8.24，压过旧标签项 2.99） | 道德判断与品德培养（3.0） |
+| sk-0308 | quote | teacher-growth, love-education | A6 了解儿童 | 原文证据压倒旧标签（关键词 3.37，压过旧标签项 2.98） | 劳动与创造（3.0） |
+| sk-0312 | quote | labor-education, collective-education | A1 全面发展与个性 | 原文证据压倒旧标签（关键词 5.02，压过旧标签项 4.90） | 尊严、爱与信任（4.9） · 劳动与创造（2.3） |
+| sk-0314 | quote | love-education, teacher-growth | A4 自我教育 | 原文证据压倒旧标签（关键词 3.82） | （除建议条目外无其他关键词命中） |
+| sk-0315 | principle | love-education, collective-education | A4 自我教育 | 原文证据压倒旧标签（关键词 9.75，压过旧标签项 7.86） | 道德判断与品德培养（7.9） |
+| sk-0319 | principle | child-study, teacher-growth | A7 健康与作息 | 原文证据压倒旧标签（关键词 8.94，压过旧标签项 4.43） | 自我教育（4.4） |
+| sk-0329 | principle | reading-and-books, learning-difficulties | A22 教学方法与教育艺术 | 原文证据压倒旧标签（关键词 8.76，压过旧标签项 6.30） | 尊严、爱与信任（4.3） · 了解儿童（3.8） |
+| sk-0333 | quote | teacher-growth | A4 自我教育 | 原文证据压倒旧标签（关键词 4.34，压过旧标签项 3.31） | 思维与智力（3.3） |
+| sk-0348 | quote | family-school | A11 劳动与创造 | 原文证据压倒旧标签（关键词 6.93，压过旧标签项 6.00） | 家庭与母亲（3.5） · 思维与智力（3.3） |
+| sk-0349 | quote | love-education, collective-education | A19 道德判断与品德培养 | 原文证据压倒旧标签（关键词 6.44，压过旧标签项 5.05） | 习惯与纪律（4.8） · 公民与祖国（4.0） |
+| sk-0353 | quote | teacher-growth, love-education | A4 自我教育 | 原文证据压倒旧标签（关键词 4.34） | （除建议条目外无其他关键词命中） |
+| sk-0361 | quote | love-education, child-study | A17 习惯与纪律 | 原文证据压倒旧标签（关键词 5.84，压过旧标签项 2.99） | 道德判断与品德培养（3.0） |
+| sk-0362 | quote | love-education | A4 自我教育 | 原文证据压倒旧标签（关键词 8.24，压过旧标签项 4.43） | 全面发展与个性（4.4） · 道德判断与品德培养（3.0） |
+| sk-0365 | quote | child-study, love-education | A17 习惯与纪律 | 原文证据压倒旧标签（关键词 5.02，压过旧标签项 4.60） | 劳动与创造（4.6） · 幸福与精神生活（3.4） |
+| sk-0369 | quote | teacher-growth | A15 思维与智力 | 原文证据压倒旧标签（关键词 9.02，压过旧标签项 4.26） | 尊严、爱与信任（4.3） · 集体与同伴（3.2） |
+| sk-0370 | quote | reading-and-books | A15 思维与智力 | 原文证据压倒旧标签（关键词 7.49，压过旧标签项 6.46） | 教学方法与教育艺术（4.1） · 阅读与书籍（4.0） |
+| sk-0372 | quote | love-education | A19 道德判断与品德培养 | 原文证据压倒旧标签（关键词 13.53，压过旧标签项 11.47） | 尊严、爱与信任（9.0） |
+| sk-0373 | quote | child-study, thinking-and-nature | A1 全面发展与个性 | 原文证据压倒旧标签（关键词 5.06，压过旧标签项 3.82） | 自我教育（3.8） · 劳动与创造（2.3） |
+| sk-0375 | quote | aesthetic-nature-education | A21 儿童发展与年龄阶段 | 原文证据压倒旧标签（关键词 6.85，压过旧标签项 2.99） | 道德判断与品德培养（3.0） |
+| sk-0380 | quote | health-first, teacher-growth | A5 尊严、爱与信任 | 原文证据压倒旧标签（关键词 9.72，压过旧标签项 5.34） | 儿童发展与年龄阶段（5.3） · 思维与智力（4.0） |
+| sk-0382 | principle | labor-education, collective-education | A1 全面发展与个性 | 原文证据压倒旧标签（关键词 11.01，压过旧标签项 7.81） | 劳动与创造（5.3） · 公民与祖国（4.0） |
+| sk-0385 | quote | labor-education, collective-education | A4 自我教育 | 原文证据压倒旧标签（关键词 9.75，压过旧标签项 7.04） | 公民与祖国（6.0） · 集体与同伴（3.2） |
+| sk-0389 | quote | love-education | A11 劳动与创造 | 原文证据压倒旧标签（关键词 7.57，压过旧标签项 5.19） | 道德判断与品德培养（5.2） · 思维与智力（4.1） |
+| sk-0390 | quote | teacher-growth, reading-and-books | A15 思维与智力 | 原文证据压倒旧标签（关键词 10.33，压过旧标签项 6.04） | 检查知识与考查（6.0） · 美与艺术（4.5） |
+| sk-0396 | quote | child-study, health-first | A3 幸福与精神生活 | 原文证据压倒旧标签（关键词 3.97） | （除建议条目外无其他关键词命中） |
+| sk-0406 | quote | teacher-growth, reading-and-books | A15 思维与智力 | 原文证据压倒旧标签（关键词 10.33，压过旧标签项 6.73） | 阅读与书籍（4.2） · 健康与作息（4.1） |
+| sk-0407 | quote | labor-education | A1 全面发展与个性 | 原文证据压倒旧标签（关键词 14.59，压过旧标签项 6.85） | 儿童发展与年龄阶段（6.8） · 幸福与精神生活（3.8） |
+| sk-0408 | quote | family-school, reading-and-books | A21 儿童发展与年龄阶段 | 原文证据压倒旧标签（关键词 13.00，压过旧标签项 12.57） | 家庭与母亲（10.1） · 思维与智力（5.7） |
+| sk-0410 | principle | love-education, collective-education | A19 道德判断与品德培养 | 原文证据压倒旧标签（关键词 7.86） | （除建议条目外无其他关键词命中） |
+| sk-0417 | quote | aesthetic-nature-education, child-study | A1 全面发展与个性 | 原文证据压倒旧标签（关键词 4.38，压过旧标签项 2.98） | 劳动与创造（3.0） |
+| sk-0425 | quote | child-study, teacher-growth | A1 全面发展与个性 | 原文证据压倒旧标签（关键词 4.43，压过旧标签项 3.42） | 幸福与精神生活（3.4） · 劳动与创造（3.0） |
+| sk-1001 | method | family-school, child-study, love-education | A16 评价与分数 | 原文证据压倒旧标签（关键词 14.37，压过旧标签项 13.42） | 道德判断与品德培养（13.4） · 自我教育（4.3） |
+| sk-1002 | principle | family-school, love-education, child-study | A11 劳动与创造 | 原文证据压倒旧标签（关键词 6.93，压过旧标签项 6.76） | 尊严、爱与信任（4.3） · 健康与作息（4.1） |
+| sk-1005 | principle | child-study, learning-difficulties, teacher-growth | A16 评价与分数 | 原文证据压倒旧标签（关键词 8.93，压过旧标签项 4.35） | 家庭与母亲（3.5） · 思维与智力（3.4） |
+| sk-1013 | principle | child-study, teacher-growth, love-education | A4 自我教育 | 原文证据压倒旧标签（关键词 14.61，压过旧标签项 8.96） | 评价与分数（9.0） · 习惯与纪律（4.9） |
+| sk-1015 | principle | teacher-growth, labor-education | A1 全面发展与个性 | 原文证据压倒旧标签（关键词 9.44，压过旧标签项 5.87） | 习惯与纪律（4.9） · 幸福与精神生活（3.8） |
+| sk-1018 | method | teacher-growth, reading-and-books | A15 思维与智力 | 原文证据压倒旧标签（关键词 7.51，压过旧标签项 7.33） | 教师（4.8） |
+| sk-1022 | principle | love-education, child-study, reading-and-books | A22 教学方法与教育艺术 | 原文证据压倒旧标签（关键词 9.91，压过旧标签项 6.73） | 全面发展与个性（5.1） · 道德判断与品德培养（4.4） |
+| sk-1024 | principle | teacher-growth, family-school, child-study | A11 劳动与创造 | 原文证据压倒旧标签（关键词 10.71，压过旧标签项 10.21） | 全面发展与个性（10.2） · 美与艺术（8.9） |
+| sk-1029 | method | learning-difficulties, assessment-grading | A20 检查知识与考查 | 原文证据压倒旧标签（关键词 6.16，压过旧标签项 5.28） | 全面发展与个性（5.1） · 教学方法与教育艺术（4.7） |
+| sk-1034 | principle | love-education, labor-education | A19 道德判断与品德培养 | 原文证据压倒旧标签（关键词 10.13，压过旧标签项 5.80） | 习惯与纪律（4.8） · 美与艺术（4.2） |
+| sk-1036 | method | assessment-grading, learning-difficulties | A20 检查知识与考查 | 原文证据压倒旧标签（关键词 6.85，压过旧标签项 4.31） | 思维与智力（3.3） · 劳动与创造（2.3） |
+| sk-1037 | principle | thinking-and-nature, child-study | A20 检查知识与考查 | 原文证据压倒旧标签（关键词 11.25，压过旧标签项 10.38） | 美与艺术（10.4） · 思维与智力（7.5） |
+| sk-1038 | principle | love-education, family-school | A19 道德判断与品德培养 | 原文证据压倒旧标签（关键词 12.25，压过旧标签项 7.04） | 幸福与精神生活（6.0） · 习惯与纪律（4.8） |
+| sk-1043 | method | teacher-growth, learning-difficulties | A12 自然与思维课 | 原文证据压倒旧标签（关键词 11.96，压过旧标签项 7.33） | 全面发展与个性（5.2） · 教师（4.8） |
+| sk-1050 | quote | love-education | A15 思维与智力 | 原文证据压倒旧标签（关键词 7.51，压过旧标签项 4.60） | 劳动与创造（4.6） · 了解儿童（3.4） |
+| sk-1053 | method | teacher-growth, learning-difficulties | A13 阅读与书籍 | 原文证据压倒旧标签（关键词 8.53，压过旧标签项 7.67） | 思维与智力（6.7） · 检查知识与考查（5.6） |
+| sk-1054 | principle | teacher-growth, child-study | A16 评价与分数 | 原文证据压倒旧标签（关键词 9.99，压过旧标签项 5.93） | 美与艺术（5.9） · 劳动与创造（5.3） |
+| sk-1058 | practice | thinking-and-nature, aesthetic-nature-education | A19 道德判断与品德培养 | 原文证据压倒旧标签（关键词 11.72，压过旧标签项 7.24） | 美与艺术（4.7） · 自然与思维课（4.1） |
+| sk-1061 | principle | collective-education, teacher-growth | A19 道德判断与品德培养 | 原文证据压倒旧标签（关键词 9.15，压过旧标签项 8.77） | 自我教育（8.8） · 尊严、爱与信任（4.8） |
+| sk-1062 | principle | child-study, thinking-and-nature | A3 幸福与精神生活 | 原文证据压倒旧标签（关键词 3.79） | （除建议条目外无其他关键词命中） |
+| sk-1063 | principle | collective-education, love-education | A4 自我教育 | 原文证据压倒旧标签（关键词 10.28，压过旧标签项 5.66） | 思维与智力（4.1） · 幸福与精神生活（3.8） |
+| sk-1069 | principle | love-education, reading-and-books, teacher-growth | A15 思维与智力 | 原文证据压倒旧标签（关键词 3.31，压过旧标签项 3.16） | 集体与同伴（3.2） · 道德判断与品德培养（3.0） |
+| sk-1071 | method | love-education, teacher-growth, thinking-and-nature | A19 道德判断与品德培养 | 原文证据压倒旧标签（关键词 2.99，压过旧标签项 2.33） | 劳动与创造（2.3） |
+| sk-1072 | principle | love-education, family-school, health-first | A15 思维与智力 | 原文证据压倒旧标签（关键词 7.99，压过旧标签项 7.24） | 公民与祖国（5.7） · 尊严、爱与信任（4.7） |
+| sk-1073 | principle | labor-education, thinking-and-nature, love-education | A1 全面发展与个性 | 原文证据压倒旧标签（关键词 21.22，压过旧标签项 9.99） | 思维与智力（7.5） · 劳动与创造（5.3） |
+| sk-1074 | principle | love-education, child-study | A19 道德判断与品德培养 | 原文证据压倒旧标签（关键词 21.03，压过旧标签项 9.09） | 集体与同伴（9.1） · 尊严、爱与信任（4.9） |
+| sk-1076 | principle | love-education, child-study | A4 自我教育 | 原文证据压倒旧标签（关键词 9.97，压过旧标签项 7.40） | 健康与作息（5.9） · 尊严、爱与信任（4.9） |
+| sk-1078 | principle | collective-education, teacher-growth | A11 劳动与创造 | 原文证据压倒旧标签（关键词 10.71，压过旧标签项 9.40） | 全面发展与个性（9.4） · 美与艺术（9.2） |
+| sk-1100 | principle | teacher-growth, collective-education | A4 自我教育 | 原文证据压倒旧标签（关键词 10.44，压过旧标签项 5.66） | 美与艺术（4.5） · 全面发展与个性（4.4） |
+| sk-1103 | principle | love-education, collective-education, child-study | A4 自我教育 | 原文证据压倒旧标签（关键词 14.09，压过旧标签项 9.57） | 评价与分数（9.6） · 儿童发展与年龄阶段（5.3） |
+| sk-1112 | principle | love-education, child-study | A4 自我教育 | 原文证据压倒旧标签（关键词 15.59，压过旧标签项 10.46） | 幸福与精神生活（9.5） · 思维与智力（7.8） |
+| sk-1118 | principle | love-education, child-study | A4 自我教育 | 原文证据压倒旧标签（关键词 9.75，压过旧标签项 4.74） | 美与艺术（4.7） · 全面发展与个性（4.4） |
+| sk-1133 | principle | love-education, child-study, collective-education | A19 道德判断与品德培养 | 原文证据压倒旧标签（关键词 9.25，压过旧标签项 8.46） | 思维与智力（7.5） · 劳动与创造（4.8） |
+| sk-1135 | method | love-education, collective-education | A19 道德判断与品德培养 | 原文证据压倒旧标签（关键词 8.18） | （除建议条目外无其他关键词命中） |
+| sk-1136 | principle | love-education, aesthetic-nature-education, learning-difficulties | A1 全面发展与个性 | 原文证据压倒旧标签（关键词 4.43，压过旧标签项 3.82） | 自我教育（3.8） · 道德判断与品德培养（3.0） |
+| sk-1138 | practice | teacher-growth, collective-education | A17 习惯与纪律 | 原文证据压倒旧标签（关键词 10.80，压过旧标签项 7.33） | 教学方法与教育艺术（6.2） · 健康与作息（5.3） |
+| sk-1153 | method | teacher-growth, family-school, reading-and-books | A15 思维与智力 | 原文证据压倒旧标签（关键词 13.70，压过旧标签项 11.03） | 阅读与书籍（8.5） · 家庭与母亲（3.5） |
+| sk-1154 | method | love-education, teacher-growth, collective-education | A19 道德判断与品德培养 | 原文证据压倒旧标签（关键词 9.58，压过旧标签项 8.20） | 思维与智力（8.2） · 集体与同伴（3.2） |
+| sk-1155 | principle | family-school, teacher-growth, love-education | A13 阅读与书籍 | 原文证据压倒旧标签（关键词 4.23，压过旧标签项 4.14） | 自然与思维课（4.1） |
+| sk-1168 | principle | love-education, family-school, child-study | A19 道德判断与品德培养 | 原文证据压倒旧标签（关键词 7.38，压过旧标签项 5.84） | 习惯与纪律（5.8） · 美与艺术（4.5） |
+| sk-1177 | method | collective-education, teacher-growth | A15 思维与智力 | 原文证据压倒旧标签（关键词 7.36，压过旧标签项 5.66） | 自我教育（4.3） · 美与艺术（4.2） |
+| sk-1179 | principle | aesthetic-nature-education, family-school, child-study | A4 自我教育 | 原文证据压倒旧标签（关键词 8.77，压过旧标签项 7.67） | 思维与智力（6.7） · 劳动与创造（4.6） |
+| sk-1180 | principle | family-school, love-education, child-study | A19 道德判断与品德培养 | 原文证据压倒旧标签（关键词 9.15，压过旧标签项 7.96） | 习惯与纪律（5.8） · 尊严、爱与信任（5.5） |
+| sk-1186 | principle | love-education, collective-education, child-study | A19 道德判断与品德培养 | 原文证据压倒旧标签（关键词 7.86，压过旧标签项 6.76） | 公民与祖国（5.7） · 习惯与纪律（4.9） |
+| sk-1190 | principle | learning-difficulties, reading-and-books, thinking-and-nature | A16 评价与分数 | 原文证据压倒旧标签（关键词 8.96，压过旧标签项 6.73） | 劳动与创造（5.3） · 阅读与书籍（4.2） |
+| sk-1193 | principle | love-education, family-school | A15 思维与智力 | 原文证据压倒旧标签（关键词 6.67，压过旧标签项 6.00） | 家庭与母亲（3.5） · 道德判断与品德培养（3.0） |
+| sk-1194 | method | learning-difficulties, thinking-and-nature | A22 教学方法与教育艺术 | 原文证据压倒旧标签（关键词 13.90，压过旧标签项 9.97） | 思维与智力（7.5） · 劳动与创造（7.0） |
+| sk-1202 | principle | love-education, reading-and-books | A1 全面发展与个性 | 原文证据压倒旧标签（关键词 8.81，压过旧标签项 7.40） | 尊严、爱与信任（4.9） · 道德判断与品德培养（3.0） |
+| sk-1209 | principle | love-education, family-school | A19 道德判断与品德培养 | 原文证据压倒旧标签（关键词 9.44，压过旧标签项 6.76） | 尊严、爱与信任（4.3） · 幸福与精神生活（3.8） |
+| sk-1210 | principle | love-education, teacher-growth | A19 道德判断与品德培养 | 原文证据压倒旧标签（关键词 5.19，压过旧标签项 4.93） | 劳动与创造（4.7） · 自我教育（4.4） |
+| sk-1211 | principle | love-education, teacher-growth | A7 健康与作息 | 原文证据压倒旧标签（关键词 13.23，压过旧标签项 10.71） | 劳动与创造（10.7） · 思维与智力（10.4） |
+| sk-1217 | principle | teacher-growth, love-education | A19 道德判断与品德培养 | 原文证据压倒旧标签（关键词 2.99，压过旧标签项 2.33） | 劳动与创造（2.3） |
+| sk-1218 | method | teacher-growth | A15 思维与智力 | 原文证据压倒旧标签（关键词 3.69，压过旧标签项 3.16） | 集体与同伴（3.2） · 劳动与创造（3.0） |
+| sk-1226 | practice | labor-education, collective-education | A19 道德判断与品德培养 | 原文证据压倒旧标签（关键词 9.58，压过旧标签项 5.66） | 教师（4.8） · 评价与分数（4.8） |
+| sk-1227 | principle | teacher-growth, child-study | A11 劳动与创造 | 原文证据压倒旧标签（关键词 5.31） | （除建议条目外无其他关键词命中） |
+| sk-1234 | principle | love-education, teacher-growth, collective-education | A11 劳动与创造 | 原文证据压倒旧标签（关键词 9.90，压过旧标签项 8.98） | 公民与祖国（8.0） · 幸福与精神生活（7.2） |
+| sk-1236 | method | love-education, teacher-growth, family-school | A19 道德判断与品德培养 | 原文证据压倒旧标签（关键词 8.18，压过旧标签项 7.40） | 习惯与纪律（5.8） · 集体与同伴（5.4） |
+| sk-1237 | principle | collective-education, love-education, teacher-growth | A13 阅读与书籍 | 原文证据压倒旧标签（关键词 8.19，压过旧标签项 8.16） | 自我教育（8.2） · 幸福与精神生活（3.4） |
+| sk-1248 | method | family-school, love-education, child-study | A7 健康与作息 | 原文证据压倒旧标签（关键词 15.53，压过旧标签项 12.00） | 习惯与纪律（12.0） · 思维与智力（10.7） |
+| sk-1252 | method | assessment-grading, teacher-growth | A20 检查知识与考查 | 原文证据压倒旧标签（关键词 12.48，压过旧标签项 5.60） | 学习方法与学习技能（5.6） · 劳动与创造（5.3） |
+| sk-1262 | principle | aesthetic-nature-education, love-education, labor-education | A1 全面发展与个性 | 原文证据压倒旧标签（关键词 9.44，压过旧标签项 7.81） | 劳动与创造（5.3） · 自我教育（4.4） |
+| sk-1268 | method | collective-education, teacher-growth, love-education | A16 评价与分数 | 原文证据压倒旧标签（关键词 16.10，压过旧标签项 9.34） | 自我教育（8.2） · 集体与同伴（6.8） |
+| sk-1273 | method | child-study, love-education, labor-education | A12 自然与思维课 | 原文证据压倒旧标签（关键词 11.01，压过旧标签项 9.67） | 思维与智力（7.8） · 了解儿童（7.2） |
+| sk-1289 | principle | love-education, child-study, health-first | A4 自我教育 | 原文证据压倒旧标签（关键词 40.23，压过旧标签项 4.77） | 评价与分数（4.8） · 全面发展与个性（4.4） |
+| sk-1290 | method | love-education, collective-education, teacher-growth | A16 评价与分数 | 原文证据压倒旧标签（关键词 10.26，压过旧标签项 9.25） | 道德判断与品德培养（9.3） · 习惯与纪律（7.1） |
+| sk-1302 | method | teacher-growth, love-education, family-school | A4 自我教育 | 原文证据压倒旧标签（关键词 10.58，压过旧标签项 7.01） | 劳动与创造（7.0） · 健康与作息（4.8） |
+| sk-1305 | method | teacher-growth, collective-education, love-education | A13 阅读与书籍 | 原文证据压倒旧标签（关键词 12.76，压过旧标签项 6.44） | 自我教育（6.4） · 习惯与纪律（4.9） |
+| sk-1315 | method | love-education, family-school, child-study | A11 劳动与创造 | 原文证据压倒旧标签（关键词 7.57，压过旧标签项 6.76） | 自我教育（6.2） · 集体与同伴（5.4） |
+| sk-1316 | practice | family-school, love-education, child-study | A7 健康与作息 | 原文证据压倒旧标签（关键词 10.22，压过旧标签项 10.14） | 家庭与母亲（7.6） · 学习方法与学习技能（6.0） |
+| sk-1327 | principle | love-education, teacher-growth, child-study | A19 道德判断与品德培养 | 原文证据压倒旧标签（关键词 9.44，压过旧标签项 8.90） | 评价与分数（8.9） · 集体与同伴（8.9） |
+| sk-1332 | method | child-study, love-education, collective-education | A4 自我教育 | 原文证据压倒旧标签（关键词 14.61，压过旧标签项 9.34） | 劳动与创造（7.0） · 集体与同伴（6.8） |
+| sk-1344 | practice | family-school, teacher-growth, collective-education | A15 思维与智力 | 原文证据压倒旧标签（关键词 7.49，压过旧标签项 6.64） | 美与艺术（4.7） · 阅读与书籍（4.6） |
+| sk-1347 | practice | collective-education, child-study, love-education | A14 美与艺术 | 原文证据压倒旧标签（关键词 13.40，压过旧标签项 10.71） | 劳动与创造（10.7） · 全面发展与个性（9.4） |
+| sk-1355 | method | teacher-growth, love-education, child-study | A4 自我教育 | 原文证据压倒旧标签（关键词 6.16，压过旧标签项 5.87） | 全面发展与个性（4.4） · 自然与思维课（4.1） |
+| sk-1360 | practice | love-education, collective-education, family-school | A11 劳动与创造 | 原文证据压倒旧标签（关键词 11.84，压过旧标签项 10.72） | 公民与祖国（9.7） · 习惯与纪律（4.8） |
+| sk-1364 | method | love-education, child-study, teacher-growth | A19 道德判断与品德培养 | 原文证据压倒旧标签（关键词 13.82，压过旧标签项 8.47） | 思维与智力（7.5） · 美与艺术（4.2） |
+| sk-1365 | method | love-education, child-study, teacher-growth | A19 道德判断与品德培养 | 原文证据压倒旧标签（关键词 7.38，压过旧标签项 5.84） | 习惯与纪律（5.8） · 美与艺术（4.2） |
+| sk-1366 | method | love-education, collective-education, child-study | A19 道德判断与品德培养 | 原文证据压倒旧标签（关键词 7.86，压过旧标签项 6.67） | 公民与祖国（5.7） · 全面发展与个性（5.0） |
+| sk-1368 | method | love-education, collective-education, teacher-growth | A4 自我教育 | 原文证据压倒旧标签（关键词 12.59，压过旧标签项 12.47） | 劳动与创造（12.5） · 道德判断与品德培养（9.0） |
+| sk-1369 | practice | love-education, collective-education, teacher-growth | A20 检查知识与考查 | 原文证据压倒旧标签（关键词 5.10，压过旧标签项 5.05） | 评价与分数（4.8） · 公民与祖国（4.0） |
+| sk-1373 | method | collective-education, love-education, teacher-growth | A19 道德判断与品德培养 | 原文证据压倒旧标签（关键词 9.15，压过旧标签项 7.04） | 公民与祖国（6.0） · 教学方法与教育艺术（4.1） |
+| sk-1376 | practice | love-education, collective-education, family-school | A11 劳动与创造 | 原文证据压倒旧标签（关键词 9.99，压过旧标签项 9.33） | 自然与思维课（9.3） · 公民与祖国（8.0） |
+| sk-1382 | practice | love-education, collective-education, teacher-growth | A1 全面发展与个性 | 原文证据压倒旧标签（关键词 9.49，压过旧标签项 7.46） | 思维与智力（7.5） · 公民与祖国（5.3） |
+| sk-1383 | practice | love-education, child-study, collective-education | A19 道德判断与品德培养 | 原文证据压倒旧标签（关键词 9.25，压过旧标签项 8.46） | 思维与智力（7.5） · 劳动与创造（4.8） |
+| sk-1387 | practice | collective-education, love-education, teacher-growth | A11 劳动与创造 | 原文证据压倒旧标签（关键词 5.31，压过旧标签项 4.93） | 健康与作息（4.8） · 全面发展与个性（4.4） |
+| sk-1388 | method | family-school, love-education, child-study | A4 自我教育 | 原文证据压倒旧标签（关键词 9.75，压过旧标签项 6.76） | 尊严、爱与信任（4.3） · 思维与智力（4.1） |
 
 ## 逐条内容（判断用）
 
 ### sk-0002　先让孩子变得“可教”，而不是吼叫与说教
 
 - 旧标签：learning-difficulties
-- 建议：**A16 评价与分数**（文本证据推翻旧标签（关键词 4.80，压过旧标签项 4.14））
+- 建议：**A16 评价与分数**（原文证据压倒旧标签（关键词 4.80，压过旧标签项 4.14））
 - 其他命中：学习困难学生（15.1） · 家庭与母亲（4.1）
 - 转述：面对“说不动”的孩子，教师常以为问题是孩子不听话；苏霍姆林斯基认为真正要做的是先恢复孩子的“可教育性”——让儿童处于能听进教师话语的状态。对弱生不吼叫，而是给额外帮助；对道德引导也同样，不用惩罚和向家长告状开路。
 - 出处：On Education (Progress Publishers, 1977), p. 34（EPUB page 35）
@@ -154,87 +211,95 @@
 ### sk-0003　教育失灵不是孩子不可救药，而是路径错了
 
 - 旧标签：learning-difficulties
-- 建议：**A20 检查知识与考查**（文本证据推翻旧标签（关键词 5.10，压过旧标签项 2.50））
-- 其他命中：学习困难学生（6.2） · 教师（2.4）
+- 建议：**A20 检查知识与考查**（原文证据压倒旧标签（关键词 5.10））
+- 其他命中：学习困难学生（6.2）
 - 转述：教师面对“难教的孩子”感到无能为力，通常不是因为孩子真的不可救药，而是教育路径错了——只想着“纠错”或“防错”。苏霍姆林斯基主张从孩子入学第一天起就发现并持续巩固、发展他的积极潜能，而不是整天盯着缺陷。
 - 出处：On Education (Progress Publishers, 1977), p. 72（EPUB page 73）
 
 ### sk-0011　家长培训班：在孩子入学前就培训家长
 
 - 旧标签：family-school
-- 建议：**A13 阅读与书籍**（文本证据推翻旧标签（关键词 7.10，压过旧标签项 6.67））
-- 其他命中：思维与智力（6.7） · 检查知识与考查（5.6）
+- 建议：**A15 思维与智力**（原文证据压倒旧标签（关键词 6.67，压过旧标签项 6.64））
+- 其他命中：儿童发展与年龄阶段（6.2） · 检查知识与考查（5.6）
 - 转述：帕夫雷什中学的“家长学校/家长培训班”在孩子入学前就已开始，面向 2–6 岁儿童的家长。内容覆盖身体、心理、智力、道德、审美发展，特别教家长如何应对孩子的提问、如何带孩子走进自然、如何营造家庭读书氛围。
 - 出处：把心献给孩子（中文），《生活习题集里的一千道题》
-
-### sk-0016　从种麦到粮食盛典：让劳动成为可庆祝的成果
-
-- 旧标签：labor-education
-- 建议：**A3 幸福与精神生活**（文本证据推翻旧标签（关键词 7.96，压过旧标签项 7.81））
-- 其他命中：劳动与创造（5.3） · 思维与智力（4.1）
-- 转述：帕夫雷什的孩子不是“象征性”劳动：他们真实松土、选种、播种、收割、脱粒、磨面、烤面包，最后举办“粮食盛典”邀请父母品尝。劳动教育的关键不是口号，而是让孩子从完整劳动中体验“我能创造、我能带给他人快乐”。
-- 出处：把心献给孩子（中文），《劳动是崇高的》
-
-### sk-0018　用“体力 + 脑力”结合改造最懒散、最被忽视的孩子
-
-- 旧标签：labor-education, learning-difficulties
-- 建议：**A13 阅读与书籍**（文本证据推翻旧标签（关键词 7.10，压过旧标签项 4.83））
-- 其他命中：家庭与母亲（4.1） · 思维与智力（3.4）
-- 转述：对家长从未让其劳动、又懒散被忽视的孩子，直接逼他“用功读书”很难；苏霍姆林斯基的方法是先让他承担一定体力劳动，再逐步让他在劳动中看到“理解与驾驭自然/事物”的智力意义，从而真正克服懒惰。
-- 出处：On Education (Progress Publishers, 1977), p. 200（EPUB page 201）
-
-### sk-0024　自然、书籍与人中的美，能使心灵变得高尚
-
-- 旧标签：aesthetic-nature-education
-- 建议：**A13 阅读与书籍**（文本证据推翻旧标签（关键词 7.44，压过旧标签项 6.71））
-- 其他命中：美与艺术（4.2） · 道德判断与品德培养（3.0）
-- 转述：苏霍姆林斯基把美育列为最重要的教育原则之一：自然、书籍和他人身上的美能提升儿童心灵的敏感性，使其更容易接受道德影响。偏重实用的教育必须用“看似无用”的艺术与美来平衡。
-- 出处：On Education (Progress Publishers, 1977), EPUB page 36
 
 ### sk-0025　美的唤醒需要耐心：不是指给孩子看，而是等待他真正被触动
 
 - 旧标签：aesthetic-nature-education
-- 建议：**A11 劳动与创造**（文本证据推翻旧标签（关键词 2.98，压过旧标签项 2.50））
-- 其他命中：教师（2.4）
+- 建议：**A22 教学方法与教育艺术**（原文证据压倒旧标签（关键词 5.14，压过旧标签项 2.98））
+- 其他命中：劳动与创造（3.0）
 - 转述：带儿童看风景很容易，但“真正被美触动”不能靠讲解或命令。教师能做的是持续创造接触美的机会，并耐心等待那个可能数年之后才到来的时刻。
 - 出处：On Education (Progress Publishers, 1977), EPUB page 36
+
+### sk-0034　没有对孩子的信念，就没有教育；没有信念就是没有爱
+
+- 旧标签：teacher-growth
+- 建议：**A4 自我教育**（原文证据压倒旧标签（关键词 3.82））
+- 其他命中：（除建议条目外无其他关键词命中）
+- 转述：苏霍姆林斯基把“对孩子的信念”视为教师不可让渡的底线：相信孩子有力量、有能力、有“变好”的愿望。没有信念的教育在他看来不可能成立，缺少信念就是缺少爱。
+- 出处：On Education (Progress Publishers, 1977), EPUB page 21
+
+### sk-0036　小学教师对孩子必须像母亲一样亲近
+
+- 旧标签：teacher-growth
+- 建议：**A5 尊严、爱与信任**（原文证据压倒旧标签（关键词 10.09））
+- 其他命中：（除建议条目外无其他关键词命中）
+- 转述：对低龄儿童而言，教师不是“知识传递者”的抽象角色，而应是像母亲一样可亲近的人。教育从师生信任与相互信赖开始；教师眼中的人性温度是最基本也最复杂的教育规则。
+- 出处：把心献给孩子（中文），《学校校长》
 
 ### sk-0037　教师不仅是导师，也是朋友和同伴
 
 - 旧标签：teacher-growth
-- 建议：**A9 集体与同伴**（文本证据推翻旧标签（关键词 8.62，压过旧标签项 8.10））
-- 其他命中：阅读与书籍（7.1） · 幸福与精神生活（7.0）
+- 建议：**A9 集体与同伴**（原文证据压倒旧标签（关键词 8.62，压过旧标签项 5.19））
+- 其他命中：全面发展与个性（5.2） · 阅读与书籍（4.2）
 - 转述：教师的情感修养需要在与儿童的多样共同生活中养成：一起劳动、游戏、远足、读书。如果师生只在课堂见面，教育影响就难以进入孩子的情感世界。
 - 出处：把心献给孩子（中文），《学校校长》
+
+### sk-0038　真正的教师即使批评，也不扑灭孩子“还有目标要追”的念头
+
+- 旧标签：teacher-growth
+- 建议：**A16 评价与分数**（原文证据压倒旧标签（关键词 4.80，压过旧标签项 3.82））
+- 其他命中：自我教育（3.8）
+- 转述：教师可以批评、可以不满甚至可以有情绪，但有一条底线：不能扼杀孩子心中“我还有值得追求的目标”的信念。批评若让孩子认定自己无可救药，教育就失败了。
+- 出处：On Education (Progress Publishers, 1977), EPUB page 72
+
+### sk-0047　不公平的低分是孩子撒谎与欺骗的温床
+
+- 旧标签：assessment-grading
+- 建议：**A19 道德判断与品德培养**（原文证据压倒旧标签（关键词 11.63，压过旧标签项 6.66））
+- 其他命中：尊严、爱与信任（4.6） · 评价与分数（4.2）
+- 转述：孩子撒谎、隐瞒成绩，常常不是天生品行问题，而是“不公平低分+不信任”逼出来的。苏霍姆林斯基甚至说“懒惰是不信任的产物”。
+- 出处：把心献给孩子（中文），《让孩子感受到脑力劳动的快乐和取得优异成绩的喜悦》
 
 ### sk-0051　对很多教师来说，后进生是一本紧闭的书
 
 - 旧标签：child-study, learning-difficulties
-- 建议：**A1 全面发展与个性**（文本证据推翻旧标签（关键词 5.06，压过旧标签项 4.69））
+- 建议：**A1 全面发展与个性**（原文证据压倒旧标签（关键词 5.06，压过旧标签项 4.69））
 - 其他命中：学习困难学生（12.0） · 思维与智力（3.7）
 - 转述：后进生之所以“难教”，首先因为教师没有真正读到他这本“紧闭的书”。不理解孩子独特的思维方式和世界观，任何所谓敏感与技巧都无从谈起。
 - 出处：On Education (Progress Publishers, 1977), EPUB page 63
 
-### sk-0071　家长学校：从孩子入学前两年开始持续培训家长
-
-- 旧标签：family-school, child-study
-- 建议：**A10 教师**（文本证据推翻旧标签（关键词 7.21，压过旧标签项 6.64））
-- 其他命中：全面发展与个性（4.4） · 家庭与母亲（4.1）
-- 转述：苏霍姆林斯基认为，只有学校和家庭“志同道合”，教育才能完整。为此他在帕夫雷什中学开办家长学校：家长在孩子入学前两年就报名，一直学到孩子中学毕业；课程按孩子年龄分五组（学前、一二年级、三四年级、五至七年级、七至十年级），每月活动两次，由校长、教导主任和有经验教师主讲，内容突出年龄心理学、个性心理学及体育、智育、德育、美育
-- 出处：《给教师的建议》（杜殿坤编译，教育科学出版社），(八四)我们的“家长学校”；OCR 原PDF页段: p0400-0499 (0-based)
-
 ### sk-0082　活生生的大自然，不能被技术影像取代
 
 - 旧标签：thinking-and-nature, aesthetic-nature-education
-- 建议：**A11 劳动与创造**（文本证据推翻旧标签（关键词 8.38，压过旧标签项 6.19））
-- 其他命中：自然与思维课（4.1） · 思维与智力（3.7）
+- 建议：**A11 劳动与创造**（原文证据压倒旧标签（关键词 8.38，压过旧标签项 6.19））
+- 其他命中：道德判断与品德培养（4.9） · 自然与思维课（4.1）
 - 转述：苏霍姆林斯基承认电影、电视等可以把蜜蜂世界、果树开花过程“简化”地呈现在儿童眼前，这是好事也是坏事：技术缩短了儿童与世界的时间距离，却也使儿童远离真实自然。大自然是思维的摇篮，儿童在直接接触中不断发现问题、产生惊奇，这种活经验远非任何影像信息可比。
 - 出处：《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社，2001），论文《学校与大自然》，OCR原文页码段 `<!-- OCR 原PDF页段: p0800-0899 (0-based
+
+### sk-0084　知道道德规范，不等于形成道德信念
+
+- 旧标签：teacher-growth, child-study
+- 建议：**A4 自我教育**（原文证据压倒旧标签（关键词 9.75，压过旧标签项 2.99））
+- 其他命中：道德判断与品德培养（3.0） · 劳动与创造（2.3）
+- 转述：道德教育与知识教育不同：学生记住“应该如何对待劳动、公共财产、他人”并不等于形成了信念；知道更多规范的人，不一定在行动上更道德。教育者如果把“学生能复述规范”当作德育成功，就忽视了从知识到信念需要情感体验、行动练习和内心认同。
+- 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《年轻一代共产主义信念的形成》绪论，OCR 原PDF页段: p0000-0099 (0-based)
 
 ### sk-0089　家校共同遵守的“十不准”
 
 - 旧标签：family-school
-- 建议：**A4 自我教育**（文本证据推翻旧标签（关键词 10.95，压过旧标签项 9.44））
+- 建议：**A4 自我教育**（原文证据压倒旧标签（关键词 10.95，压过旧标签项 9.44））
 - 其他命中：道德判断与品德培养（9.4） · 尊严、爱与信任（4.3）
 - 转述：“十不准”表面是礼貌清单，实质是把尊重老人、体谅父母、节制欲望变成可反复练习的行为。苏霍姆林斯基特别指出，如果教育者的话与行为脱节，就会培养出两面三刀的人；不尊重别人的孩子，也不可能尊重真理。
 - 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《怎样培养真正的人》“怎样培养父辈和孩子们之间的和谐关系”，OCR 原PDF页段: p0200-0299 (0-based)
@@ -242,55 +307,55 @@
 ### sk-0101　检查知识时让全班用草稿本同步思考
 
 - 旧标签：assessment-grading
-- 建议：**A20 检查知识与考查**（文本证据推翻旧标签（关键词 12.44，压过旧标签项 3.31））
-- 其他命中：思维与智力（3.3） · 教师（2.4）
+- 建议：**A20 检查知识与考查**（原文证据压倒旧标签（关键词 12.44，压过旧标签项 3.31））
+- 其他命中：思维与智力（3.3） · 劳动与创造（2.3）
 - 转述：许多课的严重缺点是检查家庭作业时只提问三四个学生并给分，其余学生无事可做或紧张等待。苏霍姆林斯基建议：每个学生备一个草稿本，教师提问时全班都动笔写出答案要点、图表或算式；例如一个学生上黑板求公分母，其余学生在草稿本里各自写例题并比较。这样检查知识不再是少数人的表演，而让所有学生持续进行独立的脑力劳动，也便于教师了解全班
 - 出处：《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《和青年校长的谈话》第7次谈话“关于听课和分析课的几点建议”（为什么以及如何检查学生的知识），OCR 原PDF页段：p080
 
 ### sk-0104　学校如精致乐器，教师人格负责调音
 
 - 旧标签：teacher-growth, collective-education
-- 建议：**A14 美与艺术**（文本证据推翻旧标签（关键词 5.93，压过旧标签项 4.88））
+- 建议：**A14 美与艺术**（原文证据压倒旧标签（关键词 5.93，压过旧标签项 4.87））
 - 其他命中：习惯与纪律（4.9） · 自我教育（3.8）
 - 转述：苏霍姆林斯基用“乐器调音”比喻教师人格在整个学校育人系统中的位置。学校可以设计出丰富的活动与制度，但真正决定这些制度能否影响学生心灵的，是教育者以怎样的人格、信念与精神面貌出现在学生面前。教师人格是“调音”的关键，否则再好的旋律也无法奏出。
 - 出处：《苏霍姆林斯基选集（五卷本）第1卷》（教育科学出版社），《全面发展的人的培养问题》“教师的人格、教师集体与学生的全面发展”章（OCR 原PDF页段: p0200-0299, 0-b
 
-### sk-0108　让认识周围世界成为儿童真正的活动
+### sk-0105　大脑是最精密柔嫩的器官，要小心爱护
 
-- 旧标签：thinking-and-nature, child-study
-- 建议：**A3 幸福与精神生活**（文本证据推翻旧标签（关键词 11.09，压过旧标签项 6.19））
-- 其他命中：思维与智力（3.7） · 了解儿童（3.4）
-- 转述：苏霍姆林斯基强调“认识”不等于“被告知”。低年级学生的思维具体、形象，但如果教学只让他们记住事物的名称和表面特征，精神生活就会贫乏。真正有效的教学要让观察、惊讶、发现和情感体验同时发生，使儿童在认识世界时成为一个主动的探索者。
-- 出处：《苏霍姆林斯基选集（五卷本）第1卷》（教育科学出版社），《学生的精神世界》“（3）学龄初期儿童思维与感觉相互联系的一些特点”节（OCR 原PDF页段: p0300-0399, 0-
+- 旧标签：health-first, child-study
+- 建议：**A22 教学方法与教育艺术**（原文证据压倒旧标签（关键词 6.16，压过旧标签项 5.98））
+- 其他命中：尊严、爱与信任（5.0） · 劳动与创造（2.3）
+- 转述：苏霍姆林斯基反对把儿童的大脑当作“可以无限制贮存信息的电子机器”，警惕那些只追求速度和紧张程度的“高效快速”教学法。脑力劳动的完满与否，首先取决于劳动组织得是否正确、周密与合理，而不是越快越好、塞得越多越好。
+- 出处：《苏霍姆林斯基选集（五卷本）第1卷》（教育科学出版社），《全面发展的人的培养问题》“关心年轻一代的健康与体育”章（OCR 原PDF页段: p0200-0299, 0-based）
 
 ### sk-0109　发展爱好：让特长领域比大纲多学十倍
 
 - 旧标签：child-study, teacher-growth
-- 建议：**A11 劳动与创造**（文本证据推翻旧标签（关键词 7.93，压过旧标签项 6.30））
-- 其他命中：全面发展与个性（5.0） · 幸福与精神生活（4.0）
+- 建议：**A11 劳动与创造**（原文证据压倒旧标签（关键词 7.93，压过旧标签项 6.34））
+- 其他命中：儿童发展与年龄阶段（5.3） · 全面发展与个性（5.0）
 - 转述：当学生在某个领域表现出兴趣时，不应只按统一大纲“齐步走”，而要给他超大纲的阅读、实验、制作和研究机会。一个人在自己擅长且热爱的领域获得成功体验后，会更愿意去克服其他领域的困难；这种“以特长养信心”的做法，不是放弃全面发展，而是全面发展的入口。
 - 出处：《苏霍姆林斯基选集（五卷本）第1卷》（教育科学出版社），《学生的精神世界》“（6）发展个人爱好在少年精神生活中的意义”节（OCR 原PDF页段: p0400-0499, 0-bas
 
 ### sk-0112　讲台上的彩色菊花：让集体情绪可被看见
 
 - 旧标签：collective-education, teacher-growth
-- 建议：**A5 尊严、爱与信任**（文本证据推翻旧标签（关键词 8.89，压过旧标签项 7.63））
-- 其他命中：自我教育（6.6） · 思维与智力（4.0）
+- 建议：**A5 尊严、爱与信任**（原文证据压倒旧标签（关键词 8.89，压过旧标签项 6.63））
+- 其他命中：自我教育（6.6） · 道德判断与品德培养（5.2）
 - 转述：教师需要为学生提供安全、非对抗的表达通道，让学生连“对老师不满”也能说出口。彩色菊花是一种无声的情感信号系统：它既训练儿童觉察和命名集体情绪，也要求教师认真对待负面信号、反思自己的行为并向学生作出解释或修复。这不是纵容学生，而是把师生关系建立在诚实与相互尊重的基础上。
 - 出处：《苏霍姆林斯基选集（五卷本）第1卷》（教育科学出版社），《培养集体的方法》“（3）情感洋溢的集体生活”节（OCR 原PDF页段: p0600-0699, 0-based）
 
 ### sk-0115　保护少年内心世界的隐秘，是教育的最重要任务
 
 - 旧标签：child-study, teacher-growth
-- 建议：**A3 幸福与精神生活**（文本证据推翻旧标签（关键词 6.98，压过旧标签项 5.62））
-- 其他命中：尊严、爱与信任（4.6） · 教师（2.4）
+- 建议：**A3 幸福与精神生活**（原文证据压倒旧标签（关键词 6.04，压过旧标签项 5.62））
+- 其他命中：尊严、爱与信任（4.6）
 - 转述：少年正在形成独立的内心世界；教师若强行窥探、公开或“深挖”他不愿示人的感受，并不会让孩子更听话，反而会损伤其情感敏感度，最终造成麻木与冷漠。苏霍姆林斯基把“不侵犯隐秘”列为少年教育的重要原则，并主张用个别谈话、替孩子保守秘密来赢得信任，而不是把内心“全部摊开”。
 - 出处：《苏霍姆林斯基选集（五卷本）第3卷》（教育科学出版社），《公民的诞生》“当代人的精神世界与童年期、少年期的教育方法”，OCR 原PDF页段 p0400-0499 (0-based)
 
 ### sk-0116　用“您”称呼少年：以尊重的语言确认人格
 
 - 旧标签：teacher-growth, collective-education
-- 建议：**A15 思维与智力**（文本证据推翻旧标签（关键词 7.40，压过旧标签项 4.88））
+- 建议：**A15 思维与智力**（原文证据压倒旧标签（关键词 7.40，压过旧标签项 4.38））
 - 其他命中：全面发展与个性（4.4） · 尊严、爱与信任（4.3）
 - 转述：苏霍姆林斯基所在学校的教师对少年学生用敬称“您”。这不只是礼貌形式，而是让学生从语言中感到：教师看见的不只是“今天成绩如何的学生”，更是一个正在走向成熟的、有创造潜能的个性。他主张通过这种尊重让少年体会到：教师尊重他已经取得的，也尊重他依靠努力将要达到的更高发展。
 - 出处：《苏霍姆林斯基选集（五卷本）第3卷》（教育科学出版社），《公民的诞生》“基本的道德素养”，OCR 原PDF页段 p0600-0699 (0-based)
@@ -298,15 +363,15 @@
 ### sk-0118　读完文学后不当堂追问：别把感动变成解剖
 
 - 旧标签：reading-and-books, assessment-grading
-- 建议：**A14 美与艺术**（文本证据推翻旧标签（关键词 9.19，压过旧标签项 6.97））
-- 其他命中：幸福与精神生活（7.0） · 自我教育（5.9）
+- 建议：**A14 美与艺术**（原文证据压倒旧标签（关键词 9.19，压过旧标签项 6.93））
+- 其他命中：自我教育（5.9） · 检查知识与考查（5.6）
 - 转述：苏霍姆林斯基认为，文学教育的目的不是让学生日后复述背诵，而是让作品在心灵中留下痕迹、促进自我认识。因此读完一篇文艺作品后立刻要求“讲出思想内容/写作特点”，正如听完音乐立刻要求说出“它讲了什么”一样，会破坏审美体验。他更愿意从学生日常如何对待父母、祖辈、异性同伴等真实关系，来判断文学是否真正影响了他的精神世界。
 - 出处：《苏霍姆林斯基选集（五卷本）第3卷》（教育科学出版社），《公民的诞生》“世界观与信念”，OCR 原PDF页段 p0500-0599 (0-based)
 
 ### sk-0123　人类美的标准同时也是道德的标准
 
 - 旧标签：aesthetic-nature-education
-- 建议：**A7 健康与作息**（文本证据推翻旧标签（关键词 8.42，压过旧标签项 7.24））
+- 建议：**A7 健康与作息**（原文证据压倒旧标签（关键词 8.42，压过旧标签项 7.24））
 - 其他命中：劳动与创造（5.3） · 尊严、爱与信任（4.9）
 - 转述：苏霍姆林斯基在谈审美观时指出：人的外表美不是孤立的身体条件，而是内在精神、道德尊严与劳动的创造在面容和举止上的显现；无所事事与不道德会毁掉美，忘我劳动和创造则会使人容光焕发。因此可以说，人类美的标准同时也是道德的标准；健康的身体、崇高的道德、高尚的美感构成和谐。每个人是自己精神美的创造者，而这种美会影响周围人。
 - 出处：《苏霍姆林斯基选集（五卷本）第3卷》（教育科学出版社），《给儿子的信》第18封信，OCR 原PDF页段 p0900-0993 (0-based)
@@ -314,7 +379,7 @@
 ### sk-0126　把身体锻炼放进自我教育：冷水浴、雪擦身靠‘自我强制’
 
 - 旧标签：health-first, child-study
-- 建议：**A4 自我教育**（文本证据推翻旧标签（关键词 21.33，压过旧标签项 15.73））
+- 建议：**A4 自我教育**（原文证据压倒旧标签（关键词 21.33，压过旧标签项 15.73））
 - 其他命中：健康与作息（13.2） · 评价与分数（10.6）
 - 转述：健康习惯不能靠教师天天盯、家长时时催，而应转化为少年自己的自我教育。苏霍姆林斯基强调，如果教师简单强迫，学生很可能会欺骗老师，假装已经做到；关键是要让学生自己“强制自己”。当孩子第一次用冷水或雪团战胜自己的惰性，体验到克服弱点的欢悦，他才会开始用批判眼光看自己，形成自我认识和自律。集体在此不是监视者，而是用风气、评价和
 - 出处：《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社，2001），论文《教育与自我教育》，OCR原文页码段 `<!-- OCR 原PDF页段: p0300-0399 (0-base
@@ -322,95 +387,151 @@
 ### sk-0139　集体的四块基石：共同思想、共同智力、共同情感、共同组织
 
 - 旧标签：collective-education, teacher-growth, labor-education
-- 建议：**A5 尊严、爱与信任**（文本证据推翻旧标签（关键词 13.23，压过旧标签项 10.85））
-- 其他命中：集体与同伴（8.4） · 阅读与书籍（7.4）
+- 建议：**A5 尊严、爱与信任**（原文证据压倒旧标签（关键词 13.23，压过旧标签项 10.85））
+- 其他命中：集体与同伴（8.4） · 劳动与创造（5.3）
 - 转述：这条原则纠正一种常见误区：把班集体建设等同于“建机构、定制度、立规矩”。苏霍姆林斯基给出的顺序是：先有共同的价值判断与情感体验（尤其通过有公益意义的集体劳动），再谈组织和服从。所谓“智力的共同性”也不是所有人兴趣相同，而是大家都渴求知识、尊重书籍与有教养的人；每个人以不同的爱好充实集体，集体的智力生活才真正丰富。
 - 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《给教师的100条建议》“集体是教育的工具，怎样建立集体，它靠什么来维持”，OCR 原PDF页段: p0700-0799 (
+
+### sk-0141　能力只能由能力来培养，志向只能由志向培养
+
+- 旧标签：teacher-growth
+- 建议：**A17 习惯与纪律**（原文证据压倒旧标签（关键词 4.87，压过旧标签项 4.57））
+- 其他命中：阅读与书籍（4.6） · 全面发展与个性（4.4）
+- 转述：苏霍姆林斯基强调，教育的力量来自教育者活生生的个性，而不是制度、纲领或机构。教师不只是把知识从自己的头脑搬进学生头脑；学生认识世界时，也同时在认识教师这个人，知识是和学生如何对待教师的“知识明灯”融合在一起的。热爱自己学科的教师会唤起学生对知识、科学和书籍的热爱；只有个性才能影响个性，只有性格才能养成性格。
+- 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《给教师的100条建议》“作为教育者的教师应具备什么品质”，OCR 原PDF页段: p0700-0799 (0-based)
 
 ### sk-0142　用‘母亲永远在看着你’培养独处时的良心
 
 - 旧标签：teacher-growth, family-school, child-study
-- 建议：**A3 幸福与精神生活**（文本证据推翻旧标签（关键词 6.29，压过旧标签项 5.38））
-- 其他命中：尊严、爱与信任（4.4） · 自我教育（4.3）
+- 建议：**A19 道德判断与品德培养**（原文证据压倒旧标签（关键词 7.38，压过旧标签项 4.34））
+- 其他命中：自我教育（4.3） · 集体与同伴（3.2）
 - 转述：这不是用“被抓住”的恐惧来管住孩子，而是把“母亲的爱与期待”内化成独处时的良心见证人。关键前提是孩子与母亲有真实的情感联结，否则这句话会变成空洞威胁。苏霍姆林斯基还给出从“偷偷摘一朵花”到“对啼哭的小孩不闻不问”的细微起点：道德自我教育要从日常小事中培养敏锐心灵，而不是等到犯大错再处理。
 - 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《给教师的100条建议》“怎样激发学生在道德方面进行自我教育”，OCR 原PDF页段: p0800-0889 (0-base
+
+### sk-0143　惩罚使孩子从良心的责备中解脱出来
+
+- 旧标签：teacher-growth, child-study, love-education
+- 建议：**A4 自我教育**（原文证据压倒旧标签（关键词 10.97，压过旧标签项 5.19））
+- 其他命中：自然与思维课（5.2） · 评价与分数（4.8）
+- 转述：苏霍姆林斯基提出“绝对正常的教育是与惩罚无缘的”。惩罚把孩子从内疚中“解救”出来：孩子想的是“我已经受过罚了”，而不是“我做错了什么”，于是不再思考自己的行为，良心开始沉睡。他讲了一个反例：三年级学生科斯佳用弹弓打麻雀并折磨它，教师罚他三次不去森林；科斯佳却把没长毛的小麻雀塞进教师桌子里报复。惩罚没有使他反省，反而让他
+- 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《给教师的100条建议》“怎样教学生自己教育自己”，OCR 原PDF页段: p0800-0889 (0-based)
+
+### sk-0144　教育是教师在儿童身上的奇妙再创造
+
+- 旧标签：teacher-growth
+- 建议：**A11 劳动与创造**（原文证据压倒旧标签（关键词 2.98））
+- 其他命中：（除建议条目外无其他关键词命中）
+- 转述：苏霍姆林斯基认为，教育者最悲哀的失败，不是学生考试不好，而是孩子以“面目模糊、灰色无光”的个体离开教师。教育不是单向传递知识，而是教师把自己精神生命中真正有价值的东西，奇妙地“再造”在另一个人的成长里。
+- 出处：On Education (Progress Publishers, 1977), Part I “Education and the Educator,” “I Am a Fir
 
 ### sk-0147　人因驻足欣赏美而成为人
 
 - 旧标签：aesthetic-nature-education
-- 建议：**A11 劳动与创造**（文本证据推翻旧标签（关键词 10.14，压过旧标签项 2.50））
-- 其他命中：（除建议条目外无其他关键词命中）
+- 建议：**A11 劳动与创造**（原文证据压倒旧标签（关键词 10.14，压过旧标签项 5.14））
+- 其他命中：教学方法与教育艺术（5.1）
 - 转述：苏霍姆林斯基把“看美”和“造工具”并列为人之为人的起源：人不仅靠双手劳动，还因为看见星空、朝霞、露珠而惊叹，才开始创造新的美。教育者的任务不是把美当作知识讲解，而是自己也停下来，真正与儿童一起惊叹；美才会在孩子心里开花。
 - 出处：On Education (Progress Publishers, 1977), Part IV “Beauty,” “To the Humane by Way of the B
 
 ### sk-0148　写作（创作）不是天生就会：先听教师示范，再走向独立创作
 
 - 旧标签：reading-and-books, aesthetic-nature-education
-- 建议：**A11 劳动与创造**（文本证据推翻旧标签（关键词 2.98，压过旧标签项 2.50））
-- 其他命中：教师（2.4）
+- 建议：**A11 劳动与创造**（原文证据压倒旧标签（关键词 2.98））
+- 其他命中：（除建议条目外无其他关键词命中）
 - 转述：很多语文教师抱怨学生不会写作文，却从不亲自示范写作。苏霍姆林斯基指出，创造性写作不是儿童面对美景就能自动发生的本能，它必须被教。他的做法是：先让学生听到教师本人如何把眼前景色变成词语（他曾在水塘边即景写下一篇范文并读给学生听），学生先复现教师的写法，再逐步过渡到独立描写给自己留下印象的自然景物。教师自己不会写、从未说过
 - 出处：On Education (Progress Publishers, 1977), Part IV “Beauty,” “School Means First and Foremo
 
 ### sk-0152　独处时也会为自己羞愧、渴望比现在更好——教育成果的试金石
 
 - 旧标签：collective-education, child-study
-- 建议：**A4 自我教育**（文本证据推翻旧标签（关键词 14.78，压过旧标签项 5.66））
-- 其他命中：习惯与纪律（5.0） · 尊严、爱与信任（4.4）
+- 建议：**A4 自我教育**（原文证据压倒旧标签（关键词 14.78，压过旧标签项 7.38））
+- 其他命中：道德判断与品德培养（7.4） · 习惯与纪律（5.0）
 - 转述：在讨论“纪律和自律”时，苏霍姆林斯基把对集体负责与对自己良心负责放在一起谈：一个人意识不到对自己的责任，就听不到良知的召唤。因此，判断教育和自我教育成果的标准，不是学生当着教师或集体的面是否守规矩，而是他独自一人时是否会为自己的不道德行为感到羞愧，是否真心渴望成为比现在更好的人。当“什么好、什么坏”从外部要求变成他个人
 - 出处：《苏霍姆林斯基选集（五卷本）第3卷》（教育科学出版社），《公民的诞生》“纪律和自律——集体责任感与个人责任感”（含“让人学会用另外一些人的眼光来看自己”），OCR 原PDF页段 p
 
 ### sk-0158　让孩子每天看到的一切都经过安排：环境也是教育者
 
 - 旧标签：collective-education, aesthetic-nature-education
-- 建议：**A15 思维与智力**（文本证据推翻旧标签（关键词 7.01，压过旧标签项 6.18））
+- 建议：**A15 思维与智力**（原文证据压倒旧标签（关键词 7.01，压过旧标签项 6.18））
 - 其他命中：幸福与精神生活（3.8） · 集体与同伴（3.7）
 - 转述：苏霍姆林斯基把校舍内部的陈设视为一种“无声的教育者”：走廊、教室、活动室里孩子经常看到的东西，不是随便贴上去的装饰，而在塑造他的精神面貌。因此每幅画、每句话都应当与儿童年龄相适应，应当能诱导他思考、启发他对照自己和同学；图片、标语、学生作品不是给成人看的摆设，而是进入儿童精神生活的材料。他还在帕夫雷什中学用大量实例说明
 - 出处：《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《帕夫雷什中学》第2章“学校的物质基础及学生周围的环境”（校舍内部陈设的教育作用），OCR 原PDF页段：p0200-029
 
-### sk-0162　教师的语言修养，决定课堂上的脑力劳动
-
-- 旧标签：teacher-growth
-- 建议：**A15 思维与智力**（文本证据推翻旧标签（关键词 14.03，压过旧标签项 9.71））
-- 其他命中：教师（7.2） · 健康与作息（5.9）
-- 转述：苏霍姆林斯基从一次听课中发现：生物教师讲得混乱、缺乏逻辑，学生下课精疲力竭却几乎没听懂。校长起初没察觉，是因为自己熟悉教材，能用已有知识“填补”教师讲解中的漏洞。他把教师的讲述逐字记录，在校务会议上念给大家听，问：“一个对所讲内容毫无准备的人，能从这样的讲述中听懂什么？”答案是什么也听不懂。此后全校把教师语言修养作为长
-- 出处：《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《和青年校长的谈话》第2次谈话“教育现象之间的相互依存性”（教师的教育素养），OCR 原PDF页段：p0600-0699 (
-
 ### sk-0164　儿童的错误多数不必交给集体讨论：教师独自知道更好
 
 - 旧标签：collective-education, teacher-growth
-- 建议：**A5 尊严、爱与信任**（文本证据推翻旧标签（关键词 9.42，压过旧标签项 9.34））
+- 建议：**A5 尊严、爱与信任**（原文证据压倒旧标签（关键词 9.42，压过旧标签项 9.34））
 - 其他命中：集体与同伴（6.8） · 了解儿童（3.4）
 - 转述：苏霍姆林斯基在“彩色铅笔”事件中观察到：一个孩子拿了同学的彩色铅笔，教师没有发动集体“审问”和谴责，而是把铅笔说成是自己误带回家，第二天悄悄归还，保全了孩子的信任与自尊。他由此提出：儿童犯错多数并非出于恶意，而是轻率与幼稚；如果已经真诚后悔，再把错误交给集体评判，只会让儿童心灵受伤、变得麻木，甚至使集体学会用现成的批判
 - 出处：《苏霍姆林斯基选集（五卷本）第1卷》（教育科学出版社），《培养集体的方法》第4章“(3)教师对学生个人和集体拥有的合理权力”节（OCR 原PDF页段: p0800-0875, 0-
 
+### sk-0170　道德教育的“空弹”：故事唤起的热情必须有行善的出口
+
+- 旧标签：love-education, collective-education
+- 建议：**A19 道德判断与品德培养**（原文证据压倒旧标签（关键词 2.99））
+- 其他命中：（除建议条目外无其他关键词命中）
+- 转述：本卡主要使用 Cockerill 的分析性转述，说明苏霍姆林斯基的“空弹”概念：如果教师用英雄故事、自我牺牲的故事激起儿童的情感，却不给儿童任何真实的利他行动出口，这些激动就会像“空弹”一样白白放掉。儿童经历的空弹越多，思想越难推动行动，对教师言辞也会越来越麻木。关键不是少讲故事，而是让“言辞”与“实践”互为表里。
+- 出处：Each One Must Shine (Cockerill, 2009 electronic ed.), Chapter 2 The School at Pavlysh, Aim
+
 ### sk-0171　学习只是教育这朵花的一枚花瓣——教育无小事、无主次
 
 - 旧标签：teacher-growth, collective-education
-- 建议：**A1 全面发展与个性**（文本证据推翻旧标签（关键词 6.63，压过旧标签项 4.88））
-- 其他命中：评价与分数（4.2） · 了解儿童（3.8）
+- 建议：**A1 全面发展与个性**（原文证据压倒旧标签（关键词 6.63，压过旧标签项 5.08））
+- 其他命中：评价与分数（4.2） · 教学方法与教育艺术（4.1）
 - 转述：这是苏霍姆林斯基直接论述“全面和谐发展”的段落：学业只是整朵教育之花的一枚花瓣。教育中没有可以忽略的“小事”，也没有可以独占的“主瓣”；课堂、课外兴趣发展和学生之间的相互关系都同样重要。教师如果只把目光盯在成绩上，就等同于只培养花瓣而毁掉整朵花。
 - 出处：Each One Must Shine (Cockerill, 2009 electronic ed.), Chapter 2 The School at Pavlysh, Aim
+
+### sk-0175　在儿童闻到词语的芬芳之前，不要开始识字教学
+
+- 旧标签：reading-and-books, aesthetic-nature-education
+- 建议：**A11 劳动与创造**（原文证据压倒旧标签（关键词 4.68））
+- 其他命中：（除建议条目外无其他关键词命中）
+- 转述：苏霍姆林斯基描述他带六岁儿童“走向词语源头”的做法：词不只是指称事物的标签，而应带着情感色彩、自己的芬芳与细微层次。他主张先让儿童通过自然和美感经验爱上词、感受到词的美，再开始识字；否则识字会成为苦役，孩子即使最终学会也付出了过高代价。
+- 出处：Each One Must Shine (Cockerill, 2009 electronic ed.), Chapter 4 Intellectual Education — s
+
+### sk-0196　教师首先是孩子学习生活的人
+
+- 旧标签：teacher-growth, child-study
+- 建议：**A8 家庭与母亲**（原文证据压倒旧标签（关键词 3.50））
+- 其他命中：（除建议条目外无其他关键词命中）
+- 转述：苏霍姆林斯基把教师职业的定义从“知识传递者”扩展为“生活榜样”：孩子通过模仿身边有威信的人来认识世界，教师和父母一样，是最早被孩子仿效的活榜样。所以教师的专业身份首先不是学科，而是他作为一个人的活法。
+- 出处：《教师与孩子们》｜OCR 原PDF页段: p0300-0399
+
+### sk-0198　人至高无上的快乐是为他人而生活
+
+- 旧标签：love-education, child-study
+- 建议：**A19 道德判断与品德培养**（原文证据压倒旧标签（关键词 7.86，压过旧标签项 4.97））
+- 其他命中：幸福与精神生活（4.0） · 家庭与母亲（3.5）
+- 转述：儿童天生只图自己的欢乐，不会自发产生道德感。要预防孩子长成自私的人，不能靠说教，而要帮儿童“行善”：从为父母、长辈做实实在在的好事中，体验到为他人而生活是更大的快乐。感恩与回报感必须通过行动习得。
+- 出处：《善的萌生》｜OCR 原PDF页段: p0300-0399
+
+### sk-0202　真正教育让少年认识世界时也认识自己
+
+- 旧标签：child-study, teacher-growth
+- 建议：**A4 自我教育**（原文证据压倒旧标签（关键词 17.19，压过旧标签项 2.99））
+- 其他命中：道德判断与品德培养（3.0）
+- 转述：德育若只教少年“什么是善、什么是恶”，往往到此为止；苏霍姆林斯基认为这只是教育的开始。真正的教育要让学生在领悟道德美时反观自己，用最高标准衡量自己，追问“我是怎样一个人”。没有这种内在精神活动，道德知识不会变成个人信念。
+- 出处：《休叫心灵空荡荡——论精神生活在德育中的作用》（OCR 标题作“休叫心灵空荡荡———论精神活动在德育中的作用①”，待校）｜OCR 原PDF页段: p0300-0399
+
+### sk-0206　教学首先是师生活生生的人际关系
+
+- 旧标签：teacher-growth, child-study
+- 建议：**A16 评价与分数**（原文证据压倒旧标签（关键词 4.74，压过旧标签项 3.79））
+- 其他命中：幸福与精神生活（3.8） · 劳动与创造（2.3）
+- 转述：对“教师劳动中最重要的是什么”，苏霍姆林斯基的回答不是知识、方法或大纲，而是把学生当作活生生的人。教学首先是师生之间的人际交往；学生的成功与挫折属于精神生活，若教师只搬运知识、只盯分数，就切断了教育最核心的力量。
+- 出处：《惟有依靠你们——致未来教师的信》｜OCR 原PDF页段: p0400-0499
 
 ### sk-0217　只见树木不见森林：教学要见整体
 
 - 旧标签：child-study, learning-difficulties
-- 建议：**A12 自然与思维课**（文本证据推翻旧标签（关键词 5.19，压过旧标签项 4.31））
-- 其他命中：思维与智力（3.3）
+- 建议：**A22 教学方法与教育艺术**（原文证据压倒旧标签（关键词 6.85，压过旧标签项 5.19））
+- 其他命中：自然与思维课（5.2） · 思维与智力（3.3）
 - 转述：学生精确背下历史事件的每个细节和日期，却不会对整体作分析、不会概括事件的轮廓和意义——这就是“见树不见林”。苏霍姆林斯基主张组织教学时应让学生对重大课题作整体思考：只有见到森林这个统一整体，才会对每一棵树形成较全面概念。
 - 出处：《既要见树木，也要见森林》｜OCR 原PDF页段: p0500-0599
-
-### sk-0220　休怕成为慈爱的人：引发儿童邪恶的不是慈爱，而是粗暴、冷漠和严酷
-
-- 旧标签：love-education, teacher-growth
-- 建议：**A8 家庭与母亲**（文本证据推翻旧标签（关键词 7.64，压过旧标签项 4.88））
-- 其他命中：教师（2.4）
-- 转述：《休怕成为慈爱的人》以少年谢尔盖的“生活故事”为起点：父母离异、教师当众羞辱、校卫呵斥、父亲鞭打，一次本可被一句慈爱话语化解的委屈，最终累积成纵火伤人的悲剧。苏霍姆林斯基由此提出，慈爱不是纵容或“娃娃腔”，而是仁慈和人道；真正把儿童推向邪恶的，不是教师或家长的慈爱，而是成年人的粗暴、冷漠与严酷。
-- 出处：《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社，2001），论文《休怕成为慈爱的人》，OCR原文页码段 `<!-- OCR 原PDF页段: p0500-0599 (0-bas
 
 ### sk-0228　夫妻之爱会化为你未来孩子的精神美
 
 - 旧标签：family-school, love-education
-- 建议：**A11 劳动与创造**（文本证据推翻旧标签（关键词 7.66，压过旧标签项 7.40））
+- 建议：**A11 劳动与创造**（原文证据压倒旧标签（关键词 7.66，压过旧标签项 7.40））
 - 其他命中：尊严、爱与信任（4.9） · 家庭与母亲（3.5）
 - 转述：《父母教育学》在给未来父亲的话中强调：要培育孩子，首先应真心诚意地爱自己的妻子。真诚的爱意味着奉献、创造和付出心智；好的丈夫用自己的爱创造妻子的美，这种爱最终会变成孩子内在的精神美。苏霍姆林斯基说，夫妻之爱像供给树木养分的须根，根坏死了，真正的父爱和母爱也就丧失了。
 - 出处：《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社，2001），论文《父母教育学》，OCR原文页码段 `<!-- OCR 原PDF页段: p0600-0699 (0-based)
@@ -418,31 +539,55 @@
 ### sk-0236　父亲道德堕落是孩子的痛苦：要保护好儿童对人的爱与信心
 
 - 旧标签：family-school, love-education
-- 建议：**A20 检查知识与考查**（文本证据推翻旧标签（关键词 5.10，压过旧标签项 4.42））
+- 建议：**A20 检查知识与考查**（原文证据压倒旧标签（关键词 5.10，压过旧标签项 4.42））
 - 其他命中：集体与同伴（3.7） · 幸福与精神生活（3.4）
 - 转述：《致父亲们的话》用了多个儿童视角的细节：娜塔莎没有父亲，只能幻想“父亲是飞行员”来支撑自己；彼佳在茶馆旁看见醉倒的父亲，第二天上课被问到家庭情况时脸色刷白；米佳的父亲入狱，同学当众说出“米佳他爹坐牢啦”。苏霍姆林斯基指出，当儿童对“正常事物”的信心破灭时，不听话、无礼、蛮横就会出现。
 - 出处：《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社，2001），论文《致父亲们的话》，OCR原文页码段 `<!-- OCR 原PDF页段: p0700-0799 (0-based
 
+### sk-0237　最有诱惑力的享受是读书：让好书成为童年最大的快乐
+
+- 旧标签：reading-and-books, teacher-growth
+- 建议：**A3 幸福与精神生活**（原文证据压倒旧标签（关键词 7.39，压过旧标签项 6.73））
+- 其他命中：阅读与书籍（4.2）
+- 转述：《今日的小学生》谈当代儿童周围充满足球、篮球、收音机、电视等诱惑。苏霍姆林斯基不反对适当消遣，但担心消遣吞噬全部精力会使人精神空虚。他认为，解决之道是让儿童在童年和少年时代就感到“读书是最有诱惑力的享受”。
+- 出处：《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社，2001），论文《今日的小学生》，OCR原文页码段 `<!-- OCR 原PDF页段: p0700-0799 (0-based
+
 ### sk-0238　儿童不是白纸：信念培养是一场针对已有思想影响的斗争
 
 - 旧标签：child-study, teacher-growth
-- 建议：**A19 道德判断与品德培养**（文本证据推翻旧标签（关键词 6.44，压过旧标签项 4.88））
-- 其他命中：自我教育（3.8） · 幸福与精神生活（3.0）
+- 建议：**A19 道德判断与品德培养**（原文证据压倒旧标签（关键词 6.44，压过旧标签项 5.60））
+- 其他命中：学习方法与学习技能（5.6） · 自我教育（3.8）
 - 转述：苏霍姆林斯基在《认知与信念》中用“白纸”比喻展开论辩：入学儿童并不是等待教师任意书写的空白纸，家庭、环境和早期生活已经在他心灵上留下难以抹去的痕迹。因此，培养信念不是单向灌输，而是含有“斗争”成分的工作——教育者必须正视已经形成的善恶印象，再以更鲜明的形象和更可信的生活事实去影响儿童。
 - 出处：《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社，2001），论文《认知与信念》，OCR原文页码段 `<!-- OCR 原PDF页段: p0700-0799 (0-based)
+
+### sk-0241　信念不能机械传授，只能在集体智力生活的空气中磨炼
+
+- 旧标签：collective-education, teacher-growth
+- 建议：**A15 思维与智力**（原文证据压倒旧标签（关键词 7.49，压过旧标签项 5.66））
+- 其他命中：阅读与书籍（4.0） · 自我教育（3.8）
+- 转述：苏霍姆林斯基认为，信念不是知识点的附属品：它不能像作业一样“留下去背”，不能靠记忆硬灌。信念的形成需要磨炼，而这种磨炼只有在集体智力生活丰富时才可能发生——学生在共同的思想交流、阅读、争论、劳动与相互关系中，把自己的认识变成个人立场。
+- 出处：《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社，2001），论文《遵循列宁思想办学》，OCR原文页码段 `<!-- OCR 原PDF页段: p0700-0799 (0-bas
 
 ### sk-0243　思想的勇敢：敢于把世界上发生的事当成自己的事
 
 - 旧标签：child-study, collective-education
-- 建议：**A7 健康与作息**（文本证据推翻旧标签（关键词 9.08，压过旧标签项 6.44））
+- 建议：**A7 健康与作息**（原文证据压倒旧标签（关键词 9.08，压过旧标签项 6.44））
 - 其他命中：道德判断与品德培养（6.4） · 全面发展与个性（4.4）
 - 转述：苏霍姆林斯基把“勇敢”从身体层面提升到思想层面。儿童如果敢于思考世界上的善恶斗争，并把远处的不义与自己的命运联系起来，就不会自感渺小无力；这种“思想的勇敢”能生长出面向未来、敢于行动的精神状态。
 - 出处：《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社，2001），论文《把学生锻炼成胜利者》，OCR原文页码段 `<!-- OCR 原PDF页段: p0700-0799 (0-ba
 
+### sk-0249　用体验自由界限的方法教儿童学会控制愿望（罗曼的一天）
+
+- 旧标签：child-study, love-education
+- 建议：**A7 健康与作息**（原文证据压倒旧标签（关键词 4.28，压过旧标签项 3.68））
+- 其他命中：集体与同伴（3.7）
+- 转述：文中男孩罗曼好斗冲动，常“无缘无故”打同学。苏霍姆林斯基没有长篇说教，而是把罗曼的右手用绷带绑在裤兜里，自己也照样绑起右手陪他度过一整天。罗曼在亲身体验“失去自由”后，开始琢磨假如真的失去自由生活会怎样，慢慢学着控制自己。
+- 出处：《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社，2001），论文《清泉》，OCR原文页码段 `<!-- OCR 原PDF页段: p0800-0899 (0-based) --
+
 ### sk-0252　爱是一种艰苦劳动：在子女身上延续自己
 
 - 旧标签：family-school, love-education
-- 建议：**A11 劳动与创造**（文本证据推翻旧标签（关键词 7.79，压过旧标签项 2.50））
+- 建议：**A11 劳动与创造**（原文证据压倒旧标签（关键词 7.79））
 - 其他命中：（除建议条目外无其他关键词命中）
 - 转述：《我们在儿童身上延续自己》通过老寿星、父亲斯捷潘、被生父抛弃后由继父养大的儿子等故事，讨论家庭与亲子关系的精神本质。苏霍姆林斯基认为，爱不是突来的灵感或祥光，而是一种需要勇气和坚持的“劳动”，其目的不是占有孩子，而是在孩子身上再塑并延续自己内在的精神美。
 - 出处：《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社，2001），论文《我们在儿童身上延续自己》，OCR原文页码段 `<!-- OCR 原PDF页段: p0800-0899 (0-
@@ -450,55 +595,95 @@
 ### sk-0253　儿童通过劳动认识世界，并在劳动中形成道德标准
 
 - 旧标签：family-school, labor-education
-- 建议：**A19 道德判断与品德培养**（文本证据推翻旧标签（关键词 10.13，压过旧标签项 8.43））
+- 建议：**A19 道德判断与品德培养**（原文证据压倒旧标签（关键词 10.13，压过旧标签项 8.43））
 - 其他命中：家庭与母亲（5.9） · 劳动与创造（2.3）
 - 转述：在奥莉娅与奶奶一起做家务的故事中，苏霍姆林斯基看到劳动对幼童认知与道德的双重作用：孩子不是先学抽象道理再劳动，而是在“我俩在干活”“我俩累了”的共同劳动中认识世界、认识他人，并逐渐形成什么是勤快、什么是懒散的道德判断。
 - 出处：《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社，2001），论文《我们在儿童身上延续自己》，OCR原文页码段 `<!-- OCR 原PDF页段: p0800-0899 (0-
 
-### sk-0255　教师道德不容许一个学生感到自己孤独
+### sk-0256　教育的艺术：教师每次接触都是对心灵劳动的推动
 
 - 旧标签：teacher-growth, child-study
-- 建议：**A3 幸福与精神生活**（文本证据推翻旧标签（关键词 8.08，压过旧标签项 6.30））
-- 其他命中：检查知识与考查（6.0） · 全面发展与个性（5.2）
-- 转述：阿纳托利的故事中，女教师只看见他“不会做题”“不交手册”，却看不见他失去爷爷、被同学嘲笑、把作业本埋进土里等一连串无声的痛苦。苏霍姆林斯基由此提出教师道德的最低要求：不容许学生独自承受痛苦，也不容许学生无人分享欢乐。
-- 出处：《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社，2001），论文《关于教育道德的一封信》，OCR原文页码段 `<!-- OCR 原PDF页段: p0800-0899 (0-b
+- 建议：**A4 自我教育**（原文证据压倒旧标签（关键词 4.43，压过旧标签项 4.21））
+- 其他命中：美与艺术（4.2） · 劳动与创造（2.3）
+- 转述：《心灵的劳动》提出一个反直觉的机制：教师越少显露强制痕迹，越能激发学生内在力量。教师的意志应当强大，但对学生来说又应“不易觉察”——苏霍姆林斯基称之为心灵劳动的推动力。学生应当感到没有人在敦促他、搀扶他，才能成为自己的教育者。
+- 出处：《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社，2001），论文《心灵的劳动》，OCR原文页码段 `<!-- OCR 原PDF页段: p0800-0899 (0-based)
+
+### sk-0257　心灵劳动是与亲人的忧患与共：不要怕向年轻心灵揭示痛苦
+
+- 旧标签：love-education, child-study
+- 建议：**A7 健康与作息**（原文证据压倒旧标签（关键词 5.93，压过旧标签项 4.97））
+- 其他命中：幸福与精神生活（4.0） · 劳动与创造（2.3）
+- 转述：苏霍姆林斯基把“心灵的劳动”定义为对他人命运的深度参与：不只是分享快乐，更包括与亲人忧患与共、同甘共苦。他反对把孩子隔离在一切痛苦之外；适当让年轻心灵接触家人的辛劳、疾病、忧伤甚至离别，反而能使人高尚。
+- 出处：《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社，2001），论文《心灵的劳动》，OCR原文页码段 `<!-- OCR 原PDF页段: p0800-0899 (0-based)
 
 ### sk-0259　在爱与忠诚的领域里，做忠实丈夫和父亲比超产更难
 
 - 旧标签：family-school, love-education
-- 建议：**A1 全面发展与个性**（文本证据推翻旧标签（关键词 4.43，压过旧标签项 2.50））
+- 建议：**A1 全面发展与个性**（原文证据压倒旧标签（关键词 4.43，压过旧标签项 2.33））
 - 其他命中：劳动与创造（2.3）
 - 转述：文中工程师安德烈在集会上慷慨陈词，愿去遥远国家支援建设，却在女友怀孕时想逃避责任；公众由此看清他“高昂激情”下藏着的自私。苏霍姆林斯基借这个故事指出：一个人最容易被考察的地方，往往不是公共讲台，而是爱与忠诚这类最微妙的私人领域。
 - 出处：《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社，2001），论文《纯洁与高尚》，OCR原文页码段 `<!-- OCR 原PDF页段: p0900-0923 (0-based)
 
-### sk-0268　无神论教育不能只靠谈话，要用积极活动见诸行动
+### sk-0262　创造成功的“预感”，是培养学习愿望的最重要任务
 
-- 旧标签：labor-education, collective-education
-- 建议：**A3 幸福与精神生活**（文本证据推翻旧标签（关键词 12.39，压过旧标签项 10.31））
-- 其他命中：劳动与创造（7.8） · 集体与同伴（5.9）
-- 转述：苏霍姆林斯基认为，宗教影响抓住的是人的情感、审美和孤独感；抵御它不能只靠科学谈话，而要靠符合年龄的、能带来胜利喜悦和紧张努力的创造活动。孩子在活动中体验人类双手与思想的创造力，才能从内心摆脱“命运由超自然力量决定”的观念。
-- 出处：论文《从小成为无神论者》，OCR原文页码段 `<!-- OCR 原PDF页段: p0000-0099 (0-based) -->`
+- 旧标签：learning-difficulties, teacher-growth
+- 建议：**A11 劳动与创造**（原文证据压倒旧标签（关键词 2.98））
+- 其他命中：学习困难学生（5.8）
+- 转述：苏霍姆林斯基分析八年级学生学业冷漠后发现，后进生并非天生不愿学习，而是长期看不到自己的进步，形成“我只能得3分”的自我定势。教师最重要的任务不是降低难度或空洞鼓励，而是让学生真实地预感到“我也能成功”，把这种成功预感变成推动持续学习的愿望。
+- 出处：论文《学习兴趣是学生学习活动的重要动力》，OCR原文页码段 `<!-- OCR 原PDF页段: p0000-0099 (0-based) -->`
 
-### sk-0274　劳动吸引孩子，是因为通向诱人目的的新世界，而不是重复动作
+### sk-0266　道德美不只看怎样评价现实，而首先看积极的活动
 
-- 旧标签：labor-education, thinking-and-nature
-- 建议：**A3 幸福与精神生活**（文本证据推翻旧标签（关键词 7.64，压过旧标签项 4.83））
-- 其他命中：了解儿童（3.8） · 劳动与创造（2.3）
-- 转述：苏霍姆林斯基在葡萄园劳动实验中看到，孩子最初热爱劳动，不是因为“挖坑运肥”本身有趣，而是劳动带他们进入一个新世界，脏活累活只是通往诱人成果的通道。一旦新事物变成司空见惯的重复，兴趣就会消退。
-- 出处：论文《怎样培养学生热爱劳动》，OCR原文页码段 `<!-- OCR 原PDF页段: p0100-0199 (0-based) -->`
+- 旧标签：collective-education, teacher-growth
+- 建议：**A4 自我教育**（原文证据压倒旧标签（关键词 9.75，压过旧标签项 4.77））
+- 其他命中：评价与分数（4.8） · 道德判断与品德培养（3.0）
+- 转述：苏霍姆林斯基用“见死不救者不受法律追究却丧失人格”的例子说明：不违法不等于有道德。学校的任务不是让学生只会背诵道德规范或口头谴责坏事，而是让违背道德的行为被内心视为严重罪过，并用舍己救人的实际行动证明道德信念。
+- 出处：论文《共产主义思想是德育的基础》，OCR原文页码段 `<!-- OCR 原PDF页段: p0000-0099 (0-based) -->`
+
+### sk-0273　教师要做灵巧的珠宝匠，开发每个学生独特的人格之美
+
+- 旧标签：child-study, teacher-growth
+- 建议：**A11 劳动与创造**（原文证据压倒旧标签（关键词 2.98））
+- 其他命中：（除建议条目外无其他关键词命中）
+- 转述：苏霍姆林斯基用珠宝作比：灰暗的宝石经珠宝匠之手会闪闪发光；学生也是如此，一旦创造力被开发，就会放出各具特色的光彩。教育不是把所有人塑造成一个模子，而是把每个人的独特性提升到完美人格的高度。
+- 出处：论文《开发出每个学生独特的人格之美》，OCR原文页码段 `<!-- OCR 原PDF页段: p0100-0199 (0-based) -->`
+
+### sk-0277　教师一旦停止知识增长，就不再是学生的知识灯塔
+
+- 旧标签：teacher-growth
+- 建议：**A11 劳动与创造**（原文证据压倒旧标签（关键词 2.33））
+- 其他命中：（除建议条目外无其他关键词命中）
+- 转述：苏霍姆林斯基记述一位老物理教师的故事：乡镇青年工人已在讨论基本粒子等前沿问题，老教师却因多年未更新知识而无法应约开讲座，最终由一位好学的年轻毕业生完成。社会文化水平不断提高，教师必须持续学习，否则连身边的劳动者都会超越他。
+- 出处：论文《社会与教师》，OCR原文页码段 `<!-- OCR 原PDF页段: p0100-0199 (0-based) -->`
 
 ### sk-0283　热爱的工作是人的根：根扎得越深，自尊感越强
 
 - 旧标签：labor-education
-- 建议：**A5 尊严、爱与信任**（文本证据推翻旧标签（关键词 9.70，压过旧标签项 7.81））
+- 建议：**A5 尊严、爱与信任**（原文证据压倒旧标签（关键词 9.70，压过旧标签项 7.81））
 - 其他命中：劳动与创造（5.3）
 - 转述：护林员沙波瓦洛夫用树根比喻职业与人生：他35年栽育三百多万株树，仍觉得工作越做越珍贵。苏霍姆林斯基借此说明，劳动岗位的转换不是目的；只有在自己热爱的工作中扎根，人才会形成稳定而深刻的尊严感与创造力。
 - 出处：论文《劳动是人全面发展的基础》（OCR中该篇为二级标题），OCR原文页码段 `<!-- OCR 原PDF页段: p0200-0299 (0-based) -->`
 
+### sk-0284　语言是教育科学变成教师教学艺术的桥梁
+
+- 旧标签：teacher-growth
+- 建议：**A14 美与艺术**（原文证据压倒旧标签（关键词 4.21，压过旧标签项 4.05））
+- 其他命中：思维与智力（4.0） · 劳动与创造（2.3）
+- 转述：苏霍姆林斯基反对轻视谈话教育。他认为行为、劳动虽然重要，但决定它们的是人的内心活动，而语言是影响内心活动的重要工具；没有生动深入的语言，就没有真正的学校与教育。教育科学只有经由教师的语言才能活起来。
+- 出处：论文《谈语言的教育作用》，OCR原文页码段 `<!-- OCR 原PDF页段: p0200-0299 (0-based) -->`
+
+### sk-0285　语言如刻刀：能塑造美丽心灵，也能摧毁它
+
+- 旧标签：teacher-growth, reading-and-books
+- 建议：**A14 美与艺术**（原文证据压倒旧标签（关键词 4.21，压过旧标签项 4.05））
+- 其他命中：思维与智力（4.0）
+- 转述：苏霍姆林斯基在文章结尾向教师建议：想使教学成为艺术，就要磨砺语言，从民族语言的宝库中寻找能让孩子眼睛闪光的词语。语言不是次要工具，而是能深入性格细微处、既能塑造也能摧毁心灵的力量，因此必须慎重而精湛地使用。
+- 出处：论文《谈语言的教育作用》，OCR原文页码段 `<!-- OCR 原PDF页段: p0200-0299 (0-based) -->`
+
 ### sk-0286　找到自己的志向，就是找到自己的幸福与做人尊严
 
 - 旧标签：labor-education, child-study
-- 建议：**A3 幸福与精神生活**（文本证据推翻旧标签（关键词 7.39，压过旧标签项 7.14））
+- 建议：**A3 幸福与精神生活**（原文证据压倒旧标签（关键词 7.39，压过旧标签项 7.14））
 - 其他命中：公民与祖国（7.1） · 尊严、爱与信任（4.9）
 - 转述：苏霍姆林斯基回答女青年斯维特兰娜的困惑：志向不是天生注定的，而是人在劳动中逐步形成和确认的。一个人若选择了不符合志向的道路，即使工作体面也不会幸福；只有当他在所爱劳动中证实自身价值，个人快乐与社会责任才会融合。
 - 出处：论文《劳动·志向·幸福》，OCR原文页码段 `<!-- OCR 原PDF页段: p0200-0299 (0-based) -->`
@@ -506,23 +691,31 @@
 ### sk-0288　信念不只是知道，而首先是把知识变为行动
 
 - 旧标签：collective-education, child-study
-- 建议：**A4 自我教育**（文本证据推翻旧标签（关键词 21.31，压过旧标签项 3.31））
-- 其他命中：幸福与精神生活（3.3） · 道德判断与品德培养（3.0）
+- 建议：**A4 自我教育**（原文证据压倒旧标签（关键词 21.31，压过旧标签项 2.99））
+- 其他命中：道德判断与品德培养（3.0）
 - 转述：苏霍姆林斯基区分了“知道道德概念”和“形成道德信念”：信念的标志不是能复述知识，而是知识已经进入人的精神世界，与情感、意志融合，并在行动中表现出来。德育的最终结果不是记住道理，而是言行一致。
 - 出处：《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《帕夫雷什中学》第4章“德育”之“从道德概念到道德信念的途径”，OCR 原PDF页段：p0200-0299 (0-based
 
 ### sk-0289　全人类道德准则只有通过主动行动才成为个人良知
 
 - 旧标签：collective-education, child-study
-- 建议：**A19 道德判断与品德培养**（文本证据推翻旧标签（关键词 2.99，压过旧标签项 2.50））
-- 其他命中：（除建议条目外无其他关键词命中）
+- 建议：**A22 教学方法与教育艺术**（原文证据压倒旧标签（关键词 5.14，压过旧标签项 2.99））
+- 其他命中：道德判断与品德培养（3.0）
 - 转述：帕夫雷什中学把“讲解和诱导、说服和激发”结合起来，但他们强调：光让孩子知道“什么好、什么不好”是不够的。道德准则要内化为个人良知，必须经由孩子主动做出的、具有社会性质的行为。道德教育从儿童有意识生活一开始就进行，但落脚点始终是积极行动。
 - 出处：《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《帕夫雷什中学》第4章“德育”之“公民基础——道德教育的基本环节”，OCR 原PDF页段：p0200-0299 (0-bas
+
+### sk-0290　不要粉饰现实：不能让孩子在家里和会上讲两套话
+
+- 旧标签：child-study, collective-education
+- 建议：**A19 道德判断与品德培养**（原文证据压倒旧标签（关键词 11.23，压过旧标签项 5.62））
+- 其他命中：尊严、爱与信任（4.6）
+- 转述：苏霍姆林斯基反对在儿童周围制造“思想上无菌的环境”。他认为粉饰生活会带来认识上的教条主义、怀疑主义和对崇高目标的不信任；诚实教育的前提，是成人不要求孩子过双重生活——私下说一套、公开说另一套。学校生活应当充满正义和诚挚精神。
+- 出处：《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《帕夫雷什中学》第4章“德育”之“@培养诚实和荣誉感”（OCR标题原带“@”符号，[OCR待校]），OCR 原PDF页段：p
 
 ### sk-0296　不要只号召讲卫生，而要去打扫
 
 - 旧标签：collective-education, child-study
-- 建议：**A16 评价与分数**（文本证据推翻旧标签（关键词 18.18，压过旧标签项 2.99））
+- 建议：**A16 评价与分数**（原文证据压倒旧标签（关键词 18.18，压过旧标签项 2.99））
 - 其他命中：道德判断与品德培养（3.0）
 - 转述：苏霍姆林斯基借用伊尔夫和彼得罗夫的话批评“活动月、竞赛、评比”掩盖下的形式主义：如果精力全花在各种突击活动上，教育工作就会失掉远景目标。道德真理必须体现在事物、现象和关系之中，而不是停留在号召里。
 - 出处：《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《和青年校长的谈话》第5次谈话“关于道德教育的几个问题”之“道德真理(准则、规则、原则)应当在 事物、现象、关系之中体现出来
@@ -530,23 +723,31 @@
 ### sk-0299　善于预见，首先要善于回顾走过的道路
 
 - 旧标签：teacher-growth, child-study
-- 建议：**A16 评价与分数**（文本证据推翻旧标签（关键词 4.16，压过旧标签项 3.87））
-- 其他命中：阅读与书籍（2.9）
+- 建议：**A23 学习方法与学习技能**（原文证据压倒旧标签（关键词 6.04，压过旧标签项 4.16））
+- 其他命中：评价与分数（4.2）
 - 转述：苏霍姆林斯基认为，学年总结不只是行政程序，而是教育思想领导的重要环节：把现在与过去、未来联系起来分析，才能预见和防止“万尼亚到了六年级还不会解应用题”这类可悲的意外。他保存近20年的学校工作计划、课外活动计划，以及10年前的低年级学生书面作业和多年的听课笔记，作为分析教育过程的一手材料。
 - 出处：《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《和青年校长的谈话》第8次谈话“怎样做学年总结”之“学年总结为什么是必要的”，OCR 原PDF页段：p0800-0899 (
 
 ### sk-0301　意志就是行为的道德，信念的坚定性就是意志力
 
 - 旧标签：collective-education, child-study
-- 建议：**A4 自我教育**（文本证据推翻旧标签（关键词 8.24，压过旧标签项 2.99））
+- 建议：**A4 自我教育**（原文证据压倒旧标签（关键词 8.24，压过旧标签项 2.99））
 - 其他命中：道德判断与品德培养（3.0）
 - 转述：苏霍姆林斯基把“意志”定义为行为的道德：一个人信念是否坚定，看其行为动机在多大程度上反映社会发展的利益。个人需要越是反映社会利益，动机就越高尚，行动也越自觉——意志力不是单纯的“咬牙坚持”，而是有道德方向的坚持。
 - 出处：《年轻一代共产主义信念的形成》 / 共产主义信念是个人意志力的源泉 / <!-- OCR 原PDF页段: p0000-0099 (0-based) -->
 
+### sk-0302　知识向信念的转化取决于教书与育人的结合
+
+- 旧标签：teacher-growth
+- 建议：**A4 自我教育**（原文证据压倒旧标签（关键词 3.82））
+- 其他命中：（除建议条目外无其他关键词命中）
+- 转述：知识不会自动变成信念。学生能否把所学化为自己的观点和行动，首先取决于师生之间心灵交流的质量，以及教师是否把“教书者”和“育人者”两种职责结合在自己身上。
+- 出处：《年轻一代共产主义信念的形成》 / 教学目的和教育目的的统一 / <!-- OCR 原PDF页段: p0100-0199 (0-based) -->
+
 ### sk-0303　智力的发展应服从于道德的发展
 
 - 旧标签：teacher-growth, child-study
-- 建议：**A1 全面发展与个性**（文本证据推翻旧标签（关键词 5.06，压过旧标签项 4.35））
+- 建议：**A1 全面发展与个性**（原文证据压倒旧标签（关键词 5.06，压过旧标签项 4.35））
 - 其他命中：思维与智力（3.4） · 道德判断与品德培养（3.0）
 - 转述：这是苏霍姆林斯基在论述“世界观、道德意识和道德行为的统一”时提出的一条总原则：智力发展本身不是目的，而要服务于道德发展。知识若不能促使年轻人把力量投入有益于社会的活动，就会变成负担。
 - 出处：《年轻一代共产主义信念的形成》 / 世界观、道德意识和道德行为的统一 / <!-- OCR 原PDF页段: p0100-0199 (0-based) -->
@@ -554,39 +755,71 @@
 ### sk-0304　生而为人，就要成为大写的人
 
 - 旧标签：love-education
-- 建议：**A4 自我教育**（文本证据推翻旧标签（关键词 8.24，压过旧标签项 4.31））
-- 其他命中：幸福与精神生活（3.3） · 道德判断与品德培养（3.0）
+- 建议：**A4 自我教育**（原文证据压倒旧标签（关键词 8.24，压过旧标签项 2.99））
+- 其他命中：道德判断与品德培养（3.0）
 - 转述：苏霍姆林斯基把“成为大写的人”作为道德教育的一条红线：真正的人要有一种精神，这种精神表现在信念与情感、意志与追求之中，表现在对待他人和自己的态度上。教育就是要在每个学生身上树立人的自豪感。
 - 出处：《怎样培养真正的人》 / 真正的人应当什么样 / <!-- OCR 原PDF页段: p0200-0299 (0-based) -->
 
-### sk-0309　教材首次学习不扎实是落后根源之一
+### sk-0308　教学生用心灵了解人，善意就能创造奇迹
 
-- 旧标签：learning-difficulties, teacher-growth
-- 建议：**A16 评价与分数**（文本证据推翻旧标签（关键词 4.16，压过旧标签项 2.50））
-- 其他命中：学习困难学生（4.9）
-- 转述：苏霍姆林斯基提出“教材的首次学习”概念：从不知向知迈出的第一步，决定后续学习是否越来越省劲。首次学习必须特别明确，让每个学生（尤其是“困难”学生）当堂独立作业，力求首次学习不出差错，否则模糊观念越积越多，落后压力越来越大。
-- 出处：《给教师的100条建议》 / 教材的首次学习 / <!-- OCR 原PDF页段: p0600-0699 (0-based) -->
+- 旧标签：teacher-growth, love-education
+- 建议：**A6 了解儿童**（原文证据压倒旧标签（关键词 3.37，压过旧标签项 2.98））
+- 其他命中：劳动与创造（3.0）
+- 转述：教师的善意不是口号，而是一种需要培养的品质。苏霍姆林斯基的做法是带学生到“美丽角”去观察和感受路人的眼神与命运，让学生学会用心了解他人的处境。能用心觉察别人情绪的学生，才会以善待人、以心换心。
+- 出处：《给教师的100条建议》 / 要善意待人 / <!-- OCR 原PDF页段: p0500-0599 (0-based) -->
 
 ### sk-0312　真正的全面发展：贡献与消费之间的和谐
 
 - 旧标签：labor-education, collective-education
-- 建议：**A1 全面发展与个性**（文本证据推翻旧标签（关键词 5.02，压过旧标签项 4.90））
+- 建议：**A1 全面发展与个性**（原文证据压倒旧标签（关键词 5.02，压过旧标签项 4.90））
 - 其他命中：尊严、爱与信任（4.9） · 劳动与创造（2.3）
 - 转述：苏霍姆林斯基在梳理个人全面发展思想的历史沿革后指出：全面发展并不意味着一个人不停地从一种职业转到另一种职业，也不是样样都做而又不求甚解。真正全面发展的核心标志，是个人奉献给社会的东西与他从社会取得、消费的东西之间的和谐；如果不发展一个人对劳动的需要，充分满足其各种需要就不可思议。
 - 出处：《苏霍姆林斯基选集（五卷本）第1卷》（教育科学出版社），《全面发展的人的培养问题》第1章“个人全面发展思想的历史沿革”（OCR 原PDF页段: p0000-0099, 0-base
 
+### sk-0314　真理要像母亲一样亲，才能成为信念
+
+- 旧标签：love-education, teacher-growth
+- 建议：**A4 自我教育**（原文证据压倒旧标签（关键词 3.82））
+- 其他命中：（除建议条目外无其他关键词命中）
+- 转述：儿童对真理的感知、认识和理解，还不等于有了信念。真理只有在情感上变得像母亲一样亲切，人才会真正把它当作信念；判断一个人信念是否坚定，要看他是否随时准备为真理的胜利而战斗。信念的养成随时随地都在进行。
+- 出处：《苏霍姆林斯基选集（五卷本）第1卷》（教育科学出版社），《全面发展的人的培养问题》第4章“共产主义的信念和坚定的、不可动摇的世界观的形成”（OCR 原PDF页段: p0100-01
+
+### sk-0315　从道德概念到道德信念，要从情感行为开始
+
+- 旧标签：love-education, collective-education
+- 建议：**A4 自我教育**（原文证据压倒旧标签（关键词 9.75，压过旧标签项 7.86））
+- 其他命中：道德判断与品德培养（7.9）
+- 转述：道德概念不会自动变成道德信念。情感是道德信念的血肉：从概念到信念的转化，必须从充满深刻情感的行为开始。当一个人多次因做好事而体验到欢乐，他才会把别人的坏事当作自己的痛苦来感受，从而实现行为与认识的统一。
+- 出处：《苏霍姆林斯基选集（五卷本）第1卷》（教育科学出版社），《全面发展的人的培养问题》第5章“共产主义道德的培养”（OCR 原PDF页段: p0100-0199, 0-based）
+
 ### sk-0319　不要讥笑少年隐秘的意志考验
 
 - 旧标签：child-study, teacher-growth
-- 建议：**A7 健康与作息**（文本证据推翻旧标签（关键词 8.94，压过旧标签项 5.43））
-- 其他命中：自我教育（4.4） · 教师（2.4）
+- 建议：**A7 健康与作息**（原文证据压倒旧标签（关键词 8.94，压过旧标签项 4.43））
+- 其他命中：自我教育（4.4）
 - 转述：少年会自觉寻找考验和锻炼意志的途径，例如在严寒中开窗睡觉、用绝食考验耐力等。苏霍姆林斯基认为，教师最好不要干涉这些隐秘的事情（除非危害健康）；任何责备和讥笑，都会玷污少年心中最宝贵的东西，把崇高的事情庸俗化。
 - 出处：《苏霍姆林斯基选集（五卷本）第1卷》（教育科学出版社），《学生的精神世界》“少年时期”章“(2)少年意志的特点”节（OCR 原PDF页段: p0400-0499, 0-based）
+
+### sk-0329　第二个大纲：非必修知识的大纲
+
+- 旧标签：reading-and-books, learning-difficulties
+- 建议：**A22 教学方法与教育艺术**（原文证据压倒旧标签（关键词 8.76，压过旧标签项 6.30））
+- 其他命中：尊严、爱与信任（4.3） · 了解儿童（3.8）
+- 转述：苏霍姆林斯基提出“智育的两个大纲”：第一大纲是必修知识（课堂教学）；第二大纲是非必修知识——大纲范围之外、由科学视野和学生兴趣决定的知识。少年在课外读得越多、知道得越多，就越珍视知识、尊重教师和课堂。对于思维迟钝的学生，读一定量大纲规定以外的科普文艺反而是理解必修教材的条件。
+- 出处：《公民的诞生》少年的智育和教学·智育的两个大纲 / OCR 原PDF页段: p0600-0699 (0-based)
+
+### sk-0333　五年寒窗培养工程师，学会做人需要一辈子
+
+- 旧标签：teacher-growth
+- 建议：**A4 自我教育**（原文证据压倒旧标签（关键词 4.34，压过旧标签项 3.31））
+- 其他命中：思维与智力（3.3）
+- 转述：苏霍姆林斯基在信中谈青年精神空虚的问题：熟记、背诵多于思考，人文科学教育薄弱，人们彼此冷漠。他认为普通学校和大学教育的头等任务是“变知识为人所有，使教学充满高尚美好的情感”。工程师可以五年培养出来，但学会做人需要一辈子——人道主义教育也是自我教育的内容。
+- 出处：《给儿子的信》第9封信 / OCR 原PDF页段: p0900-0993 (0-based)
 
 ### sk-0348　致年轻的朋友：你飞出了父母的巢
 
 - 旧标签：family-school
-- 建议：**A11 劳动与创造**（文本证据推翻旧标签（关键词 6.93，压过旧标签项 6.00））
+- 建议：**A11 劳动与创造**（原文证据压倒旧标签（关键词 6.93，压过旧标签项 6.00））
 - 其他命中：家庭与母亲（3.5） · 思维与智力（3.3）
 - 转述：父亲写给离家上大学的儿子的第一封信，点出年轻人刚独立时容易被新生活吸引、不念家。这是全书开篇的第一句话，引出父亲对儿子终生保存书信、反复思考教诲、珍惜劳动与粮食的劝告。
 - 出处：《给儿子的信》第1封信；OCR 原PDF页段: p0800-0899 (0-based)
@@ -594,15 +827,23 @@
 ### sk-0349　做一个公民：别对邪恶无动于衷
 
 - 旧标签：love-education, collective-education
-- 建议：**A19 道德判断与品德培养**（文本证据推翻旧标签（关键词 6.44，压过旧标签项 5.05））
+- 建议：**A19 道德判断与品德培养**（原文证据压倒旧标签（关键词 6.44，压过旧标签项 5.05））
 - 其他命中：习惯与纪律（4.8） · 公民与祖国（4.0）
 - 转述：父亲告诉儿子：比死亡更可怕的是面对邪恶与虚伪时无动于衷——看见了却装作没看见，不去思考所见之事，善恶不分。一个人若养成对事情毫不在乎的习惯，很快就会对任何事情都满不在乎。
 - 出处：《给儿子的信》第2封信；OCR 原PDF页段: p0800-0899 (0-based)
 
+### sk-0353　学会做人需要一辈子
+
+- 旧标签：teacher-growth, love-education
+- 建议：**A4 自我教育**（原文证据压倒旧标签（关键词 4.34））
+- 其他命中：（除建议条目外无其他关键词命中）
+- 转述：父亲提醒正在读大学的儿子：专业学习固然重要，但首要的是成为一个人。人道主义教育也是自我教育的内容，把自己培养成人，是头等重要的事。
+- 出处：《给儿子的信》第9封信；OCR 原PDF页段: p0900-0993 (0-based)
+
 ### sk-0361　生活由行为举止组成
 
 - 旧标签：love-education, child-study
-- 建议：**A17 习惯与纪律**（文本证据推翻旧标签（关键词 5.84，压过旧标签项 2.99））
+- 建议：**A17 习惯与纪律**（原文证据压倒旧标签（关键词 5.84，压过旧标签项 2.99））
 - 其他命中：道德判断与品德培养（3.0）
 - 转述：人的整个生活就是由一个个行为举止组成的；道德品质不在宣言里，而在对待他人的日常举动里。因此教育要从具体行为中培养道德意识，而不是停留在说教上。
 - 出处：《怎样培养真正的人》·第42篇 怎样启迪孩子们具有高尚的行为举止·OCR 原PDF页段 p0400-0499 (0-based)
@@ -610,15 +851,23 @@
 ### sk-0362　生而为人，要成为大写的人
 
 - 旧标签：love-education
-- 建议：**A4 自我教育**（文本证据推翻旧标签（关键词 8.24，压过旧标签项 4.43））
-- 其他命中：全面发展与个性（4.4） · 幸福与精神生活（3.3）
+- 建议：**A4 自我教育**（原文证据压倒旧标签（关键词 8.24，压过旧标签项 4.43））
+- 其他命中：全面发展与个性（4.4） · 道德判断与品德培养（3.0）
 - 转述：出生只是生物学事实，“成为人”是道德任务。真正的人要有人的精神——这种精神在信念与情感、意志与追求中，在对他人和自己的态度中，在分明的爱与憎和追求理想中表现出来。
 - 出处：《怎样培养真正的人》·第2篇 真正的人应当什么样·OCR 原PDF页段 p0200-0299 (0-based)
+
+### sk-0365　成为有教养的人，先要有欢乐
+
+- 旧标签：child-study, love-education
+- 建议：**A17 习惯与纪律**（原文证据压倒旧标签（关键词 5.02，压过旧标签项 4.60））
+- 其他命中：劳动与创造（4.6） · 幸福与精神生活（3.4）
+- 转述：孩子成为有教养的人的第一个前提不是纪律或知识，而是欢乐、幸福和对世界的乐观感受。真正的人道主义精神，就在于珍惜孩子有权享受的欢乐和幸福。
+- 出处：《怎样培养真正的人》·第1篇 怎样才能使人成为有教养的人·OCR 原PDF页段 p0200-0299 (0-based)
 
 ### sk-0369　教师是学生智力生活的第一盏指路灯
 
 - 旧标签：teacher-growth
-- 建议：**A15 思维与智力**（文本证据推翻旧标签（关键词 9.02，压过旧标签项 4.88））
+- 建议：**A15 思维与智力**（原文证据压倒旧标签（关键词 9.02，压过旧标签项 4.26））
 - 其他命中：尊严、爱与信任（4.3） · 集体与同伴（3.2）
 - 转述：教师不只是一个知识传授者，他首先点燃学生的求知欲，并把尊重科学、文化和教育变成学生内在的态度。这句话出自苏霍姆林斯基对帕夫雷什中学教师集体的介绍，强调的是教师在学生智力生活中不可替代的引领作用。
 - 出处：《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《帕夫雷什中学》第1章“全体教师团结一致是教育教学工作成功的保证”之“我们的教师和教育者”，OCR 原PDF页段：p0000
@@ -626,23 +875,47 @@
 ### sk-0370　没有课外阅读，课堂阅读就会变成死记硬背
 
 - 旧标签：reading-and-books
-- 建议：**A15 思维与智力**（文本证据推翻旧标签（关键词 7.49，压过旧标签项 6.46））
-- 其他命中：阅读与书籍（4.0） · 劳动与创造（2.3）
+- 建议：**A15 思维与智力**（原文证据压倒旧标签（关键词 7.49，压过旧标签项 6.46））
+- 其他命中：教学方法与教育艺术（4.1） · 阅读与书籍（4.0）
 - 转述：苏霍姆林斯基把课外阅读视为课堂脑力劳动的营养来源。课内所学若没有课外的广泛阅读作支撑，学生对文本的理解就只能停留在机械记忆层面，无法变成真正的智力活动。
 - 出处：《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《帕夫雷什中学》第2章“学校的物质基础及学生周围的环境”之“课堂教学和课外活动的环境”，OCR 原PDF页段：p0100-0
+
+### sk-0372　善良情感，是良心的头道防线
+
+- 旧标签：love-education
+- 建议：**A19 道德判断与品德培养**（原文证据压倒旧标签（关键词 13.53，压过旧标签项 11.47））
+- 其他命中：尊严、爱与信任（9.0）
+- 转述：苏霍姆林斯基在谈男女青年道德美感教育时指出，对纯洁美好爱情的品德准备，必须从培养儿童心灵中的善良情感做起。一个人若从小能对他人的痛苦产生同情，长大后才不会做出伤害伴侣和家庭的事。善良情感是良心最前面的防线。
+- 出处：《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《帕夫雷什中学》第4章“德育”之“培养男女青年相互关系的道德美感”，OCR 原PDF页段：p0300-0399 (0-bas
 
 ### sk-0373　教会儿童积极地看世界，在劳动中恪守信念
 
 - 旧标签：child-study, thinking-and-nature
-- 建议：**A1 全面发展与个性**（文本证据推翻旧标签（关键词 5.06，压过旧标签项 3.82））
+- 建议：**A1 全面发展与个性**（原文证据压倒旧标签（关键词 5.06，压过旧标签项 3.82））
 - 其他命中：自我教育（3.8） · 劳动与创造（2.3）
 - 转述：苏霍姆林斯基认为，智育与世界观的统一不在口头说教，而在儿童是否能用积极的态度看待世界、并在劳动中坚持自己的信念。只有当知识转化为个人行动中的信念时，知识才真正产生教育作用。
 - 出处：《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《帕夫雷什中学》第5章“智育”之“智育与世界观”，OCR 原PDF页段：p0300-0399 (0-based)
 
+### sk-0375　美是人的道德财富的源泉
+
+- 旧标签：aesthetic-nature-education
+- 建议：**A21 儿童发展与年龄阶段**（原文证据压倒旧标签（关键词 6.85，压过旧标签项 2.99））
+- 其他命中：道德判断与品德培养（3.0）
+- 转述：苏霍姆林斯基认为美育与德育密不可分：美是人的道德财富的源泉，学校要在孩子神经系统最敏感的童年期，让美成为德育的有力手段，使人性的源泉真正流入孩子心灵。
+- 出处：《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《帕夫雷什中学》第7章“美育”之“少年和青年时期的审美教育和人的全面发展”，OCR 原PDF页段：p0500-0599 (0
+
+### sk-0380　保护少年的中枢神经系统就是爱护心脏
+
+- 旧标签：health-first, teacher-growth
+- 建议：**A5 尊严、爱与信任**（原文证据压倒旧标签（关键词 9.72，压过旧标签项 5.34））
+- 其他命中：儿童发展与年龄阶段（5.3） · 思维与智力（4.0）
+- 转述：少年期是大脑发生深刻质变的时期，神经系统极度敏感，稍有不慎的触动就会“暴跳”“发火”。保护少年的中枢神经系统，就等于爱护他的心脏和整个机体。教师的语言应是“隐藏着同情心和宽容态度的最巧妙的工具”，而不是灼伤心灵的鞭子。
+- 出处：《公民的诞生》·少年的身体发育与心理素养·爱护少年的神经系统；OCR 原PDF页段: p0500-0599 (0-based)
+
 ### sk-0382　公民感要牢记心里而非挂在口头上
 
 - 旧标签：labor-education, collective-education
-- 建议：**A1 全面发展与个性**（文本证据推翻旧标签（关键词 11.01，压过旧标签项 7.81））
+- 建议：**A1 全面发展与个性**（原文证据压倒旧标签（关键词 11.01，压过旧标签项 7.81））
 - 其他命中：劳动与创造（5.3） · 公民与祖国（4.0）
 - 转述：劳动之所以能成为个性和谐发展的基础，是因为人在劳动中确认自己是个公民：不仅获得面包，还能实现自己的才智和创造。劳动教育最重要的准则，是让公民感不挂在口头上，而是牢记在心里。
 - 出处：《公民的诞生》·劳动对少年精神生活的作用；OCR 原PDF页段: p0800-0899 (0-based)
@@ -650,7 +923,7 @@
 ### sk-0385　劳动的社会意义揭示越鲜明，劳动越成为需要
 
 - 旧标签：labor-education, collective-education
-- 建议：**A4 自我教育**（文本证据推翻旧标签（关键词 9.75，压过旧标签项 7.04））
+- 建议：**A4 自我教育**（原文证据压倒旧标签（关键词 9.75，压过旧标签项 7.04））
 - 其他命中：公民与祖国（6.0） · 集体与同伴（3.2）
 - 转述：苏霍姆林斯基分析少先队高产玉米小队连续数年的工作后得出结论：小队集体接受任务、只规定工作性质而不规定个人定额，当"为提高农艺而奋斗"的社会意义被鲜明揭示时，儿童反而干得更好，并且越来越少把成果与报酬挂钩——劳动从外部义务变成内在需要。这正是"先进思想是革命道德信念的源泉"一节的核心论据：共产主义信念要在真正落实先进思想
 - 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《年轻一代共产主义信念的形成》第1章“信念对形成人的精神面貌的作用”之“先进思想是革命道德信念的源泉”，OCR 原PDF页段
@@ -658,15 +931,15 @@
 ### sk-0389　只有聪慧的人，才会是幸福的人
 
 - 旧标签：love-education
-- 建议：**A11 劳动与创造**（文本证据推翻旧标签（关键词 7.57，压过旧标签项 4.42））
-- 其他命中：思维与智力（4.1） · 幸福与精神生活（3.4）
+- 建议：**A11 劳动与创造**（原文证据压倒旧标签（关键词 7.57，压过旧标签项 5.19））
+- 其他命中：道德判断与品德培养（5.2） · 思维与智力（4.1）
 - 转述：苏霍姆林斯基与姑娘们谈爱情时，把"聪慧"作为幸福的前提：真正女性的气质是温柔与端庄、抚爱与不屈不挠的结合，女人的智慧能培养出男子的诚实。他反对"爱情消逝论"，认为爱情不是兽欲而是需要精神力量去创造和终生珍惜的；理智、慎重、严格要求的态度，是对自己和未来家庭的责任。
 - 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《怎样培养真正的人》“怎样向青年们谈爱情”，OCR 原PDF页段: p0500-0599 (0-based)
 
 ### sk-0390　学生应当成为语言的音乐家
 
 - 旧标签：teacher-growth, reading-and-books
-- 建议：**A15 思维与智力**（文本证据推翻旧标签（关键词 10.33，压过旧标签项 6.04））
+- 建议：**A15 思维与智力**（原文证据压倒旧标签（关键词 10.33，压过旧标签项 6.04））
 - 其他命中：检查知识与考查（6.0） · 美与艺术（4.5）
 - 转述：苏霍姆林斯基认为，批改作业之苦的根源不在批改本身，而在学生作业本中的大量错误；错误的祸根是技能与知识之间的比例失调。减轻批改负担的前提，是全校有高度的语言修养：让学生像感受音乐一样感受语言，让词语与亲身所做、所见、所察、所思的事物发生联系，使语言成为创作的手段。
 - 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《给教师的100条建议》“怎样减轻批改作业之苦”，OCR 原PDF页段: p0600-0699 (0-based)
@@ -674,7 +947,7 @@
 ### sk-0396　快乐是儿童精神发展的源泉
 
 - 旧标签：child-study, health-first
-- 建议：**A3 幸福与精神生活**（文本证据推翻旧标签（关键词 3.97，压过旧标签项 2.50））
+- 建议：**A3 幸福与精神生活**（原文证据压倒旧标签（关键词 3.97））
 - 其他命中：（除建议条目外无其他关键词命中）
 - 转述：快乐不是装饰品，而是儿童发展的前提：有了快乐，儿童才会对自己的力量产生乐观和信心，才愿意与周围世界建立丰富的实际关系；没有这些关系，精神发展乃至天赋的充分发展都不可能。
 - 出处：《苏霍姆林斯基选集（五卷本）第1卷》（教育科学出版社），《学生的精神世界》“外部环境是学生精神生活的决定性因素”节（OCR 原PDF页段: p0300-0399, 0-based）
@@ -682,39 +955,39 @@
 ### sk-0406　谈谈教师的教育素养
 
 - 旧标签：teacher-growth, reading-and-books
-- 建议：**A15 思维与智力**（文本证据推翻旧标签（关键词 10.33，压过旧标签项 9.60））
-- 其他命中：阅读与书籍（7.1） · 健康与作息（4.1）
+- 建议：**A15 思维与智力**（原文证据压倒旧标签（关键词 10.33，压过旧标签项 6.73））
+- 其他命中：阅读与书籍（4.2） · 健康与作息（4.1）
 - 转述：教师的教育素养首先来自对所教学科的深刻知识——教学大纲对教师应只是起码常识；其次是懂得研究儿童的方法，有扎实的心理学基础；再次是语言修养，它极大程度地决定学生课堂脑力劳动的效率。教师语言混乱、逻辑不清，学生只能靠课外抠教科书来弥补，这是以健康为代价的。提升教育素养的根本途径是“读书，读书，再读书”。
 - 出处：《给教师的建议》（杜殿坤编译，教育科学出版社），第87条建议(八七)谈谈教师的教育素养；OCR 原PDF页段: p0400-0499 (0-based)
 
 ### sk-0407　劳动教育和个性全面发展
 
 - 旧标签：labor-education
-- 建议：**A1 全面发展与个性**（文本证据推翻旧标签（关键词 14.59，压过旧标签项 4.83））
-- 其他命中：幸福与精神生活（3.8） · 集体与同伴（3.2）
+- 建议：**A1 全面发展与个性**（原文证据压倒旧标签（关键词 14.59，压过旧标签项 6.85））
+- 其他命中：儿童发展与年龄阶段（6.8） · 幸福与精神生活（3.8）
 - 转述：劳动教育不是孤立的技能训练，而要紧密联系德育、智育、美育，使劳动进入个性和集体的精神生活，让热爱劳动在少年和青年早期就成为最重要的品质之一。文章提出多项原则：劳动素养与一般发展相结合；在劳动中展示、发现和发展个性；劳动具有高度的道德意义和公益方向；童年期早期参加生产劳动；劳动种类多样化、经常不断、量力而行；劳动与多方面
 - 出处：《给教师的建议》（杜殿坤编译，教育科学出版社），第94条建议(九四)劳动教育和个性全面发展；OCR 原PDF页段: p0500-0573 (0-based)
+
+### sk-0408　怎样使学校教育和家庭教育保持一致？
+
+- 旧标签：family-school, reading-and-books
+- 建议：**A21 儿童发展与年龄阶段**（原文证据压倒旧标签（关键词 13.00，压过旧标签项 12.57））
+- 其他命中：家庭与母亲（10.1） · 思维与智力（5.7）
+- 转述：学校教育和家庭教育的影响方向必须一致，否则学校教学过程会像纸房子一样倒塌。实现一致的途径包括：长期开办家长学校（从学前组到青年期组）、让每个家庭过“书籍节”并拥有最低限度藏书、吸引家长参与校务委员会、以及谨慎而有分寸地对家长进行个别指导。家长是儿童最早的教育者，学龄前的家庭环境在很大程度上决定了儿童的精神发展和求知欲。
+- 出处：《给教师的建议》（杜殿坤编译，教育科学出版社），第99条建议(九九)怎样使学校教育和家庭教育保持一致？；OCR 原PDF页段: p0500-0573 (0-based)
 
 ### sk-0410　孩子做坏事，多半是因为没学过做好事
 
 - 旧标签：love-education, collective-education
-- 建议：**A19 道德判断与品德培养**（文本证据推翻旧标签（关键词 8.39，压过旧标签项 2.50））
+- 建议：**A19 道德判断与品德培养**（原文证据压倒旧标签（关键词 7.86））
 - 其他命中：（除建议条目外无其他关键词命中）
 - 转述：苏霍姆林斯基提醒：学生做出不良行为，往往不是有人教他作恶，而是成人从未认真教过他如何行善。道德教育应当把功夫下在“教善”上，而不是等坏事出现后再去追责和纠正。
 - 出处：On Education (1977, Progress Publishers), Part VI 'Morals and Convictions / Devotion to an
 
-### sk-0416　青春期是人的第二次诞生
-
-- 旧标签：child-study, love-education
-- 建议：**A4 自我教育**（文本证据推翻旧标签（关键词 5.84，压过旧标签项 5.05））
-- 其他命中：公民与祖国（4.0） · 思维与智力（3.3）
-- 转述：苏霍姆林斯基把青春期比作“第二次诞生”：第一次诞生的是生命，第二次诞生的是公民——一个不仅能认识周围世界、也能认识自己的积极思考者。少年嘴上说“别管我、我能行”，内心却渴望一位年长朋友的肩膀；教育者要读懂这种矛盾。
-- 出处：On Education (1977, Progress Publishers), Part VI 'Morals and Convictions / The World of I
-
 ### sk-0417　儿童创造力是自我表达与自我肯定的独特领域
 
 - 旧标签：aesthetic-nature-education, child-study
-- 建议：**A1 全面发展与个性**（文本证据推翻旧标签（关键词 4.38，压过旧标签项 2.98））
+- 建议：**A1 全面发展与个性**（原文证据压倒旧标签（关键词 4.38，压过旧标签项 2.98））
 - 其他命中：劳动与创造（3.0）
 - 转述：儿童的创造力是他们内心生活、自我表达与自我肯定的深刻而独特的领域；正是在创造中，每个孩子独特的个性才清晰地显露出来。苏霍姆林斯基由此认为，这种独特性无法用任何普适标准去分类或衡量。
 - 出处：To Children I Give My Heart (Progress Publishers, Moscow; text shows no year), The School 
@@ -722,7 +995,7 @@
 ### sk-0425　每个人都必须发光：没有人应当成为风中尘埃
 
 - 旧标签：child-study, teacher-growth
-- 建议：**A1 全面发展与个性**（文本证据推翻旧标签（关键词 4.43，压过旧标签项 3.42））
+- 建议：**A1 全面发展与个性**（原文证据压倒旧标签（关键词 4.43，压过旧标签项 3.42））
 - 其他命中：幸福与精神生活（3.4） · 劳动与创造（3.0）
 - 转述：苏霍姆林斯基坚信人格不可穷尽，每个人都能成为创造者，在世上留下自己的痕迹。他不接受任何人是“风中尘埃”，主张每个人都必须像银河中的群星一样发光。（本段为苏霍姆林斯基原话英译，非 Cockerill 分析；“communism”为原文时代语汇，可理解为“共同的幸福理想”。）
 - 出处：Each One Must Shine (Cockerill, 2009 electronic ed.), Chapter 3, 'Moral Education' section
@@ -730,23 +1003,39 @@
 ### sk-1001　怎样教孩子正确对待批评、责备、惩罚
 
 - 旧标签：family-school, child-study, love-education
-- 建议：**A16 评价与分数**（文本证据推翻旧标签（关键词 14.37，压过旧标签项 8.09））
-- 其他命中：幸福与精神生活（7.1） · 尊严、爱与信任（4.4）
+- 建议：**A16 评价与分数**（原文证据压倒旧标签（关键词 14.37，压过旧标签项 13.42））
+- 其他命中：道德判断与品德培养（13.4） · 自我教育（4.3）
 - 转述：苏霍姆林斯基把批评、责备、惩罚放在“人如何对待他人的评价”这一道德修养问题里。人人都对坏的东西表示批评和责备，这本身就是和睦相处的一部分；一个人怎样对待批评和责备，能反映出他的道德修养。要教孩子理解和感受责备中流露的正义感，学会感谢那些尖锐但中肯的话，因为它们在救人，使人不至于堕落。
 - 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《怎样培养真正的人》39“怎样教孩子正确对待批评、责备、惩罚”
+
+### sk-1002　父母在孩子生活中的作用
+
+- 旧标签：family-school, love-education, child-study
+- 建议：**A11 劳动与创造**（原文证据压倒旧标签（关键词 6.93，压过旧标签项 6.76））
+- 其他命中：尊严、爱与信任（4.3） · 健康与作息（4.1）
+- 转述：苏霍姆林斯基从孩子对父母的态度谈起：父母给了你生命，为你而活，你应珍惜他们的健康与安宁，尊重他们用劳动、血汗和劳累换来的一切，给家里带来欢乐与平静。但他随即把问题提升到教育的前提条件：父与子是教育中最复杂的问题之一，如果父母本身不是有道德素养、能使孩子生活充实的人，一切教育影响的尝试都会落空。
+- 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《怎样培养真正的人》20“父母在孩子生活中的作用”
 
 ### sk-1005　智力积极性和少年自我意识、自我评价的形成
 
 - 旧标签：child-study, learning-difficulties, teacher-growth
-- 建议：**A16 评价与分数**（文本证据推翻旧标签（关键词 8.93，压过旧标签项 4.88））
+- 建议：**A16 评价与分数**（原文证据压倒旧标签（关键词 8.93，压过旧标签项 4.35））
 - 其他命中：家庭与母亲（3.5） · 思维与智力（3.4）
 - 转述：少年自我意识的觉醒，首先表现为他意识到“我已经不是儿童”。他因此对别人如何评价自己异常敏感：既渴望得到教师和集体的赞扬，也容易因一句讽刺、一次当众揭短而受伤甚至走向对立。苏霍姆林斯基由此得出教育上的分寸：当少年已经知道自己的缺点并正在努力克服时，成人不应反复强调、讽刺挖苦，而应给他时间和精神力量去自我纠正；不适当的干预
 - 出处：《苏霍姆林斯基选集（五卷本）第1卷》（教育科学出版社），《学生的精神世界》第5章 (5)“智力积极性和少年自我意识、自我评价的形成”
 
+### sk-1013　认识自己
+
+- 旧标签：child-study, teacher-growth, love-education
+- 建议：**A4 自我教育**（原文证据压倒旧标签（关键词 14.61，压过旧标签项 8.96））
+- 其他命中：评价与分数（9.0） · 习惯与纪律（4.9）
+- 转述：本篇以一位少年读者的来信开篇：他成绩不差，却发现自己是个“没有意志力的人”，只会做被迫做的事，于是追问“自我教育从何做起”。苏霍姆林斯基借菲利普爷爷临终的话回答：人生的睿智就是认识自己，而自我教育正是从认识自己开始的。他指出，自我教育的实质是善于强制自己，这种能力扎根于自豪感——一个人在自己的劳动中体会到艰辛，也体会到
+- 出处：《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社），《论文集》第51篇“认识自己”
+
 ### sk-1015　个人全面发展思想的历史沿革
 
 - 旧标签：teacher-growth, labor-education
-- 建议：**A1 全面发展与个性**（文本证据推翻旧标签（关键词 9.44，压过旧标签项 5.87））
+- 建议：**A1 全面发展与个性**（原文证据压倒旧标签（关键词 9.44，压过旧标签项 5.87））
 - 其他命中：习惯与纪律（4.9） · 幸福与精神生活（3.8）
 - 转述：这是全书的第一章。苏霍姆林斯基用思想史的线索说明：全面发展的观念并非凭空产生，它经历了古代“身心既美且善”的理想、中世纪教会对理性与欢乐的压制、文艺复兴人文主义的复活、空想社会主义者把劳动与教学结合的幻想，直到马克思、恩格斯揭示出人的全面发展的客观条件，以及列宁把它作为社会主义教育的实际任务。
 - 出处：《苏霍姆林斯基选集（五卷本）第1卷》（教育科学出版社），《全面发展的人的培养问题》第1章“个人全面发展思想的历史沿革”
@@ -754,15 +1043,23 @@
 ### sk-1018　总结的实质及做法
 
 - 旧标签：teacher-growth, reading-and-books
-- 建议：**A15 思维与智力**（文本证据推翻旧标签（关键词 7.51，压过旧标签项 7.33））
+- 建议：**A15 思维与智力**（原文证据压倒旧标签（关键词 7.51，压过旧标签项 7.33））
 - 其他命中：教师（4.8）
 - 转述：这是《和青年校长的谈话》最后一次谈话中的一节，讲学年总结到底该怎么做。苏霍姆林斯基的答案朴素而具体：校长要有一本记事簿，一年又一年地记录，凡是引起自己注意、哪怕只是模糊想法的每个事实都写进去。这本记事簿既是教育日记，也是长期概括分析的准备；积累到一定程度，就会有一个“顿然领悟”的时刻，长期躲闪的真理实质突然显现。
 - 出处：《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《和青年校长的谈话》第8次谈话“怎样做学年总结”之“总结的实质及做法”
 
+### sk-1022　抽象的学生与活生生的人
+
+- 旧标签：love-education, child-study, reading-and-books
+- 建议：**A22 教学方法与教育艺术**（原文证据压倒旧标签（关键词 9.91，压过旧标签项 6.73））
+- 其他命中：全面发展与个性（5.1） · 道德判断与品德培养（4.4）
+- 转述：这一节从一位“命运奇特”的妇女的故事出发：她在学校时照本宣科地学《大雷雨》，却直到很久以后才真正理解那些本应在读书时就该明白的事理，甚至一度进了修道院。苏霍姆林斯基由此追问：为什么我们信奉的真理、艺术语言的真与美，有时就是进不了年轻人的心扉？他的回答是，很多教师传授知识时没有注入自己的思想和感情，面对的似乎不是课堂里一
+- 出处：《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社），《论文集》第39篇“关于学校教育的思考”之“(3)抽象的学生与活生生的人”
+
 ### sk-1024　结束语：为未来培养全面发展的人
 
 - 旧标签：teacher-growth, family-school, child-study
-- 建议：**A11 劳动与创造**（文本证据推翻旧标签（关键词 10.71，压过旧标签项 10.21））
+- 建议：**A11 劳动与创造**（原文证据压倒旧标签（关键词 10.71，压过旧标签项 10.21））
 - 其他命中：全面发展与个性（10.2） · 美与艺术（8.9）
 - 转述：这是《全面发展的人的培养问题》全书结论的核心表述。苏霍姆林斯基把教育定义为面向未来的"播种"：学校不仅要传授当下有用的知识，更要预见学生10年、20年、30年后的样子，为未来社会培养公民。他强调知识教育与思想教育、道德教育的统一，认为没有牢固的知识、丰富的智力修养和多方面的智力兴趣，就不可能有真正高的道德尊严。
 - 出处：《苏霍姆林斯基选集（五卷本）第1卷》（教育科学出版社），《全面发展的人的培养问题》结束语
@@ -770,87 +1067,151 @@
 ### sk-1029　学习之母不应变成后娘
 
 - 旧标签：learning-difficulties, assessment-grading
-- 建议：**A20 检查知识与考查**（文本证据推翻旧标签（关键词 6.16，压过旧标签项 5.28））
-- 其他命中：全面发展与个性（5.1） · 健康与作息（4.3）
+- 建议：**A20 检查知识与考查**（原文证据压倒旧标签（关键词 6.16，压过旧标签项 5.28））
+- 其他命中：全面发展与个性（5.1） · 教学方法与教育艺术（4.7）
 - 转述："复习是学习之母"是民间教育学的常识，但在实践中，复习常常变成"狠毒的后娘"：把几周甚至几个月的教材压缩到一天或几天里复习，大量事实和结论压顶而来，学生还要同时应付其他功课，结果脑子乱成一团、精疲力竭，甚至伤了身体。苏霍姆林斯基主张按课程和教材特点组织复习。
 - 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《给教师的100条建议》上篇 18“学习之母不应变成后娘”
+
+### sk-1034　培养学生精神世界的途径和方法：道德教育的艺术在于行动先行
+
+- 旧标签：love-education, labor-education
+- 建议：**A19 道德判断与品德培养**（原文证据压倒旧标签（关键词 10.13，压过旧标签项 5.80））
+- 其他命中：习惯与纪律（4.8） · 美与艺术（4.2）
+- 转述：苏霍姆林斯基认为，学生精神生活的宽广程度制约着道德教育两种基本方法的实施效果——说服教育和培养道德行为习惯。道德教育的艺术不在于先讲道理再要求学生做到，而在于让孩子一进学校门就通过自己的行动提高认识，再从教师的教导中找到与自己在积极活动中产生的思想、感受相共鸣的东西。高尚的思想与高尚的道德情感融为一体并变成高尚行为之时
+- 出处：《苏霍姆林斯基选集（五卷本）第1卷》（教育科学出版社），《学生的精神世界》第2章“培养学生精神世界的途径和方法”之 (1)“道德教育诸方法的特点及其统一性”、(2)“鼓励学生积极表
 
 ### sk-1036　用草稿本检查家庭作业：让全班都在进行脑力劳动
 
 - 旧标签：assessment-grading, learning-difficulties
-- 建议：**A20 检查知识与考查**（文本证据推翻旧标签（关键词 6.85，压过旧标签项 4.31））
-- 其他命中：思维与智力（3.3） · 教师（2.4）
+- 建议：**A20 检查知识与考查**（原文证据压倒旧标签（关键词 6.85，压过旧标签项 4.31））
+- 其他命中：思维与智力（3.3） · 劳动与创造（2.3）
 - 转述：苏霍姆林斯基把家庭作业检查从“叫一个学生到黑板前回答”改为全班同时动笔：教师把任务写在黑板上，全体学生把任务记在草稿本上，草稿本暂时代替黑板，教师细心查看每个人的学习情况，随时让个别学生说明“在做什么、为了什么、怎么做”。这样不必复述，教师就能大致掌握全班的知识状况；同时每个学生都在独立作业，检查知识本身成了积极运用知
 - 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《给教师的100条建议》上篇 16“怎样使家庭作业的检查成为有效的脑力劳动”
 
 ### sk-1037　观察是知识的理解和记忆之母：教学生观察、教学生细看
 
 - 旧标签：thinking-and-nature, child-study
-- 建议：**A20 检查知识与考查**（文本证据推翻旧标签（关键词 11.25，压过旧标签项 10.38））
+- 建议：**A20 检查知识与考查**（原文证据压倒旧标签（关键词 11.25，压过旧标签项 10.38））
 - 其他命中：美与艺术（10.4） · 思维与智力（7.5）
 - 转述：苏霍姆林斯基指出，有些学校只把观察当作证实教材的手段，而不把它当作积极的智力活动和发展智力的途径。他认为观察是“知识的理解和记忆之母”：知识在观察中活跃起来、进入流通领域，成为可运用的工具。他带学生到冬日果园里找春天的征兆，让最不细心的孩子也能发现两三个，让会听大自然音乐的孩子听出春天苏醒的旋律；此后每周重访，每次都有
 - 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《给教师的100条建议》上篇 21“教学生观察，教学生细看”
 
+### sk-1038　怎样培养良心感：以羞耻心为土壤，让内在的“我”说话
+
+- 旧标签：love-education, family-school
+- 建议：**A19 道德判断与品德培养**（原文证据压倒旧标签（关键词 12.25，压过旧标签项 7.04））
+- 其他命中：幸福与精神生活（6.0） · 习惯与纪律（4.8）
+- 转述：苏霍姆林斯基把良心、羞耻、责任、义务视为高尚道德的四个源泉，其中羞耻心是良心得以存在的基础。良心不是记住几条道德规范，而是一种“几倍于体验和感受的认识”：只有当人从幼年起习惯感受到自己处在众人眼前，内在的“我”的声音才会说话。因此，培养良心感的关键是让孩子用别人的思想感情渗透进自己的内心世界——即使周围无人注视，也感到
+- 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《怎样培养真正的人》32“怎样培养良心感”
+
 ### sk-1043　关于听课和分析课的几点建议：教师应当怎样布置家庭作业
 
 - 旧标签：teacher-growth, learning-difficulties
-- 建议：**A12 自然与思维课**（文本证据推翻旧标签（关键词 11.96，压过旧标签项 9.71））
-- 其他命中：教师（7.2） · 全面发展与个性（5.2）
+- 建议：**A12 自然与思维课**（原文证据压倒旧标签（关键词 11.96，压过旧标签项 7.33））
+- 其他命中：全面发展与个性（5.2） · 教师（4.8）
 - 转述：苏霍姆林斯基把布置家庭作业看作校长听课和分析课时必须关注的问题，而不是教师的私事。他要求校长努力做到不让教师把课外作业当成课内作业的量的追加；课外作业应当能使学生的知识向广度和深度发展，能提高他们的学习能力，是他们掌握课堂知识的准备。应当让学生在课外去观察自然界和社会现象，发展个人的爱好和多方面的智力需求。
 - 出处：《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《和青年校长的谈话》第7次谈话“关于听课和分析课的几点建议”之“教师应当怎样布置家庭作业”
 
 ### sk-1050　第11封信：培养自己的情感境界
 
 - 旧标签：love-education
-- 建议：**A15 思维与智力**（文本证据推翻旧标签（关键词 7.51，压过旧标签项 4.60））
+- 建议：**A15 思维与智力**（原文证据压倒旧标签（关键词 7.51，压过旧标签项 4.60））
 - 其他命中：劳动与创造（4.6） · 了解儿童（3.4）
 - 转述：苏霍姆林斯基在给儿子的信中把“情感的自我培养”当作青年最重要的功课之一。他观察到，人际冲突常常不是因为道理讲不清，而是因为人不会控制感情；当一个人无法用思想证明自己正确时，就容易用喊叫、暴躁、凶狠这些“本能的反抗”来填补思想的贫乏。真正的人的感情不能离开思想而存在：感情来自思想，思想滋润感情，丰富的思想使人成为精神世界
 - 出处：《苏霍姆林斯基选集（五卷本）第3卷》（教育科学出版社），《给儿子的信》第11封信
 
-### sk-1052　他们为什么变成了难教儿童
+### sk-1053　学生应当掌握的最重要的技能和技巧
 
-- 旧标签：learning-difficulties, child-study
-- 建议：**A10 教师**（文本证据推翻旧标签（关键词 7.21，压过旧标签项 5.67））
-- 其他命中：学习困难学生（11.8） · 自然与思维课（5.7）
-- 转述：苏霍姆林斯基认为，学校出现难教儿童不能完全归咎于教师和校长，但教师的过错在于没有努力考察孩子变成难教儿童的原因。教师应像医生查病源一样，细致研究儿童智力、情感和道德的发展，从每个孩子的困难和特点出发采取措施，并尽可能预防致难的原因。他用医生作比：真正有人道主义精神的医生不会对病人说“你没有希望了”，教师更不能天天让儿童
-- 出处：《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《和青年校长的谈话》第4次谈话“难教儿童”之“他们为什么变成了难教儿童”
+- 旧标签：teacher-growth, learning-difficulties
+- 建议：**A13 阅读与书籍**（原文证据压倒旧标签（关键词 8.53，压过旧标签项 7.67））
+- 其他命中：思维与智力（6.7） · 检查知识与考查（5.6）
+- 转述：苏霍姆林斯基把“最重要的技能和技巧”看作教养、智力和信念赖以产生的基础，并逐一规定学生在第几学年、第几学季应当达到什么水平。他列出的清单包括十二项：观察、思考（类比、比较、对比、提问）、表达、流利阅读并理解、流畅迅速正确地书写、划分阅读材料的相对独立部分并找出联系、找到相关书籍、在书中找到所需材料、对阅读材料作初步逻辑
+- 出处：《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《和青年校长的谈话》第6次谈话“谈谈怎样指导学生的脑力劳动”之“学生应当掌握的最重要的技能和技巧”
 
 ### sk-1054　要赢得学生的思想和心灵
 
 - 旧标签：teacher-growth, child-study
-- 建议：**A16 评价与分数**（文本证据推翻旧标签（关键词 9.99，压过旧标签项 6.41））
-- 其他命中：幸福与精神生活（6.4） · 美与艺术（5.9）
+- 建议：**A16 评价与分数**（原文证据压倒旧标签（关键词 9.99，压过旧标签项 5.93））
+- 其他命中：美与艺术（5.9） · 劳动与创造（5.3）
 - 转述：苏霍姆林斯基把“赢得学生的思想和心灵”看成教师创造性劳动的一个方面：一位有才华的教师到校两年，就能让一门学科成为学生喜爱的课程，并带出一批有才能的少年。这种“竞赛”不是抢生源，而是每个教师都力求让自己的课程对学生产生真正的吸引力，从而让学校的智力生活朝气蓬勃。
 - 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《给教师的100条建议》上篇 26“要赢得学生的思想和心灵”
 
 ### sk-1058　蓝天下的学校
 
 - 旧标签：thinking-and-nature, aesthetic-nature-education
-- 建议：**A19 道德判断与品德培养**（文本证据推翻旧标签（关键词 12.25，压过旧标签项 7.24））
+- 建议：**A19 道德判断与品德培养**（原文证据压倒旧标签（关键词 11.72，压过旧标签项 7.24））
 - 其他命中：美与艺术（4.7） · 自然与思维课（4.1）
 - 转述：“蓝天下的学校”是苏霍姆林斯基为六岁儿童开办的学前预备学校：开学第一天不在教室，而在葡萄园、绿草地、大梨树下。他先让孩子光脚走路、感受阳光和土地，再围坐欣赏果园，用“太阳在洒火花”的童言引出巨人铁匠的童话，边讲边画。孩子分到葡萄，每人留一串带回家给妈妈——审美、幻想与善行从第一天就交织在一起。
 - 出处：《苏霍姆林斯基选集（五卷本）第3卷》（教育科学出版社），《我把心给了孩子们》“快乐学校”之“蓝天下的学校”
 
+### sk-1061　关于自我教育
+
+- 旧标签：collective-education, teacher-growth
+- 建议：**A19 道德判断与品德培养**（原文证据压倒旧标签（关键词 9.15，压过旧标签项 8.77））
+- 其他命中：自我教育（8.8） · 尊严、爱与信任（4.8）
+- 转述：苏霍姆林斯基这里的“自我教育”不是个人闭门修身，而是集体内部学生之间品德与精神财富的相互影响。它的起点是“一个人的独特性引起别人产生仿效的愿望”：集体里总有人在某方面有突出的天赋、才能和志趣，教育技巧就在于让这些鲜明个性通过坚定的意志、高尚的自尊感和正当的自爱心表现出来，成为集体的骨干和榜样。
+- 出处：《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《和青年校长的谈话》第2次谈话“教育现象之间的相互依存性”之“关于自我教育”
+
 ### sk-1062　知觉在学龄初期儿童精神发展中的作用
 
 - 旧标签：child-study, thinking-and-nature
-- 建议：**A3 幸福与精神生活**（文本证据推翻旧标签（关键词 10.77，压过旧标签项 2.50））
+- 建议：**A3 幸福与精神生活**（原文证据压倒旧标签（关键词 3.79））
 - 其他命中：（除建议条目外无其他关键词命中）
 - 转述：苏霍姆林斯基把知觉看作学龄初期儿童精神发展的“主要渠道”：外部世界通过看、听、摸进入孩子的头脑，并直接带上情感色彩。孩子年龄越小，他知觉到的一切就越容易被感染、越容易引发情感反应。他引用马克思的话说明，感性禀赋是孩子与世界连接的第一条纽带。
 - 出处：《苏霍姆林斯基选集（五卷本）第1卷》（教育科学出版社），《学生的精神世界》第4章“从幼年时期到少年时期”之 (1)“知觉在学龄初期儿童精神发展中的作用”
 
+### sk-1063　集体中的交往
+
+- 旧标签：collective-education, love-education
+- 建议：**A4 自我教育**（原文证据压倒旧标签（关键词 10.28，压过旧标签项 5.66））
+- 其他命中：思维与智力（4.1） · 幸福与精神生活（3.8）
+- 转述：苏霍姆林斯基把“人与人交往的美”看作培养集体的核心：一个人会成为怎样的人，取决于他在交往中的表现、交往激起他什么样的思想、把他的志趣引向何方。如果集体生活里缺少美、深厚的情感、丰富的精神生活和充实的思想，就不可能有真正的自我认识和自我教育。
+- 出处：《苏霍姆林斯基选集（五卷本）第1卷》（教育科学出版社），《培养集体的方法》第3章“集体对个人教育影响的形成”之 (2)“集体中的交往”
+
+### sk-1069　精神素养、道德和无神论
+
+- 旧标签：love-education, reading-and-books, teacher-growth
+- 建议：**A15 思维与智力**（原文证据压倒旧标签（关键词 3.31，压过旧标签项 3.16））
+- 其他命中：集体与同伴（3.2） · 道德判断与品德培养（3.0）
+- 转述：苏霍姆林斯基提出一个尖锐的规律：一个人对周围世界了解得愈多，他就应当愈了解人；若忽视这一点，知识与道德之间的协调就会被破坏，他把这种状态称为“道德上的无知”。其表现是：掌握大量关于周围世界的知识，却在历史、社会政治、精神心理和美学方面都不了解人的本质；不去思考是什么使人高于其他生物，情感范畴就无法发展，感情就会变得粗俗
+- 出处：《苏霍姆林斯基选集（五卷本）第3卷》（教育科学出版社），《公民的诞生》“道德的形成——公民的诞生”之“精神素养、道德和无神论”
+
+### sk-1071　思想认识
+
+- 旧标签：love-education, teacher-growth, thinking-and-nature
+- 建议：**A19 道德判断与品德培养**（原文证据压倒旧标签（关键词 2.99，压过旧标签项 2.33））
+- 其他命中：劳动与创造（2.3）
+- 转述：苏霍姆林斯基区分了两种“懂”：一种是把真理变成要记牢、背熟、解答、回答并“和盘托出”的知识，内心却对理智所考虑的东西漠不关心；另一种是用理智和心灵一起认识，确立个人对道德真理和原则的态度。他举了一位热衷表格图表的历史教师为例：教师讲述1812年卫国战争中人民的伟大功勋，孩子们凝神屏息地听着，可教师忽然用寥寥数语结束故事
+- 出处：《苏霍姆林斯基选集（五卷本）第3卷》（教育科学出版社），《公民的诞生》“情感教育与美感教育”之“思想认识”
+
+### sk-1072　敏感性和同情心的培养
+
+- 旧标签：love-education, family-school, health-first
+- 建议：**A15 思维与智力**（原文证据压倒旧标签（关键词 7.99，压过旧标签项 7.24））
+- 其他命中：公民与祖国（5.7） · 尊严、爱与信任（4.7）
+- 转述：苏霍姆林斯基把“敏感性和同情心”列为道德教育中起巨大作用的敏锐精细的道德情操，与义务感并列。他认为人道主义教育的入门，是让孩子在精神上给别人以温暖时自己也感受快乐；这一领域需要细心琢磨，核心是让孩子学会感受别人的痛苦、忧伤和不幸，与需要同情帮助的人共忧患。他特别强调年幼时期最为有利，因为小孩子对别人的痛苦反应特别敏锐，
+- 出处：《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《帕夫雷什中学》第4章“德育”之“敏感性和同情心的培养”
+
 ### sk-1073　劳动对人的全面发展的作用
 
 - 旧标签：labor-education, thinking-and-nature, love-education
-- 建议：**A1 全面发展与个性**（文本证据推翻旧标签（关键词 21.22，压过旧标签项 9.99））
+- 建议：**A1 全面发展与个性**（原文证据压倒旧标签（关键词 21.22，压过旧标签项 9.99））
 - 其他命中：思维与智力（7.5） · 劳动与创造（5.3）
 - 转述：苏霍姆林斯基先泼了一盆冷水：劳动固然具有强大的教育作用，但少年手上在干活，并不等于劳动的教育力量已经显现。如果脱离了思想教育、智育、德育、美育、情感教育和体育，脱离了创造、兴趣和需求，脱离了学生之间多方面的联系，劳动就只是负担，学生只想推掉它，好去做更有趣的事。他对“怠惰”的解释也很独到：怠惰蔓延不是因为人们什么都不做
 - 出处：《苏霍姆林斯基选集（五卷本）第3卷》（教育科学出版社），《公民的诞生》“劳动对少年精神生活的作用”之“劳动对人的全面发展的作用”
 
+### sk-1074　道德情感在学龄初期儿童精神发展中的作用
+
+- 旧标签：love-education, child-study
+- 建议：**A19 道德判断与品德培养**（原文证据压倒旧标签（关键词 21.03，压过旧标签项 9.09））
+- 其他命中：集体与同伴（9.1） · 尊严、爱与信任（4.9）
+- 转述：苏霍姆林斯基把学龄初期（7—11岁）道德情感的发育看作一个由集体感受走向思想一致的渐进过程。这个年龄的孩子还不能真正理解自己的生活对集体的依赖，集体对他们的作用往往通过共同的感受、鲜明的形象和具体的行为发生；也正因如此，“通过集体给个性以影响”的原则对低年级学生尤其重要。孩子的情感世界起初被简单地划分为好与坏、正义与非
+- 出处：《苏霍姆林斯基选集（五卷本）第1卷》（教育科学出版社），《学生的精神世界》第4章“从幼年时期到少年时期”之 (4)“道德情感在学龄初期儿童精神发展中的作用”
+
 ### sk-1076　什么是个性的尊严以及怎样培养它
 
 - 旧标签：love-education, child-study
-- 建议：**A4 自我教育**（文本证据推翻旧标签（关键词 9.97，压过旧标签项 7.40））
+- 建议：**A4 自我教育**（原文证据压倒旧标签（关键词 9.97，压过旧标签项 7.40））
 - 其他命中：健康与作息（5.9） · 尊严、爱与信任（4.9）
 - 转述：苏霍姆林斯基把“人的个性尊严”称为一种细微而娇嫩、坚强而勇敢、摸不着而又不屈不挠的概念。他认为人应当有尊严地活着、劳动、享受物质与精神财富，有尊严地感受欢乐与痛苦、对待疾病和生命的最后时刻；即便在最艰难的情况下，也不能越过理智控制行为的那条界线。尊严在他看来是“控制自己感情的一种智慧权”，高尚的个性表现为善于明智而细致
 - 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《怎样培养真正的人》45“什么是个性的尊严以及怎样培养它”
@@ -858,103 +1219,135 @@
 ### sk-1078　怎样通过集体使个性全面发展
 
 - 旧标签：collective-education, teacher-growth
-- 建议：**A11 劳动与创造**（文本证据推翻旧标签（关键词 10.71，压过旧标签项 9.40））
+- 建议：**A11 劳动与创造**（原文证据压倒旧标签（关键词 10.71，压过旧标签项 9.40））
 - 其他命中：全面发展与个性（9.4） · 美与艺术（9.2）
 - 转述：苏霍姆林斯基指出，人是一个不可分割的整体（道德的、智力的、情感的、审美的、创造的），仅靠基层班集体这一种组织形式，无法揭示、表现和发展这个整体，因为班集体在成员相互关系上具有局限性。一个学生爱数学，另一个爱生物，第三个爱文学，第四个爱技术创作，还有音乐、图画、木刻等爱好；随着接近成年，这些志趣所要求从事的活动差异越来越
 - 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《给教师的100条建议》下篇 64“怎样通过集体使个性全面发展”
 
-### sk-1099　学龄初期儿童活动的特点
+### sk-1100　教师的人格在集体和学生个人精神生活中的作用
 
-- 旧标签：child-study, labor-education, collective-education
-- 建议：**A19 道德判断与品德培养**（文本证据推翻旧标签（关键词 2.99，压过旧标签项 2.50））
-- 其他命中：教师（2.4）
-- 转述：苏霍姆林斯基指出，低年级学生的年龄特点首先体现在活动上：他们无法对活动“漠不关心”，要么被吸引，要么觉得没意思，而且这种态度会直接写在脸上。孩子在游戏中最认真，有哭有笑、真动感情；但教师若想把这种认真劲儿直接搬到学习上，则注定失败，因为“掌握知识的重要性”不可能一下子被小孩子认识——他们更多是感觉，而不是理解。
-- 出处：《苏霍姆林斯基选集（五卷本）第1卷》（教育科学出版社），《学生的精神世界》第4章“从幼年时期到少年时期”之 (6)“学龄初期儿童活动的特点”
+- 旧标签：teacher-growth, collective-education
+- 建议：**A4 自我教育**（原文证据压倒旧标签（关键词 10.44，压过旧标签项 5.66））
+- 其他命中：美与艺术（4.5） · 全面发展与个性（4.4）
+- 转述：这一节把“教师人格”放在集体教育的根基位置。苏霍姆林斯基引用马克思关于人通过他人来反映自己的思想，指出：学生首先不是靠某种方法或手段受影响，而是靠教师本人的人格。没有教师真实思想和热情的鼓舞，再好的方法也会变成死板公式。孩子从学步起就同教育者比较、向教育者提要求、把教育者当榜样，所以不阐明教师个性的作用，谈培养集体就像
+- 出处：《苏霍姆林斯基选集（五卷本）第1卷》（教育科学出版社），《培养集体的方法》第4章“教师的人格、教师集体和学生集体”之 (1)“教师的人格在集体和学生个人精神生活中的作用”
 
 ### sk-1103　道德习惯：确立道德观念和道德信念的基础
 
 - 旧标签：love-education, collective-education, child-study
-- 建议：**A4 自我教育**（文本证据推翻旧标签（关键词 14.09，压过旧标签项 9.57））
-- 其他命中：评价与分数（9.6） · 习惯与纪律（4.8）
+- 建议：**A4 自我教育**（原文证据压倒旧标签（关键词 14.09，压过旧标签项 9.57））
+- 其他命中：评价与分数（9.6） · 儿童发展与年龄阶段（5.3）
 - 转述：苏霍姆林斯基把道德习惯看作道德观念与道德信念之间的桥梁。它源于高度自觉性与情感评价的统一：当一个人重视并习惯于高尚的道德真理时，意识中会像闪电般通过情感信号——“应当这样做，因为不这样做，自尊心是不允许的”。有了习惯，社会道德准则才真正成为个人的精神财富；没有习惯，就谈不上自我肯定、自我教育和自尊感。少年期正是形成这种
 - 出处：《苏霍姆林斯基选集（五卷本）第3卷》（教育科学出版社），《公民的诞生》“道德的形成——公民的诞生”之“道德习惯”
 
 ### sk-1112　青年人的道德信念和理想
 
 - 旧标签：love-education, child-study
-- 建议：**A4 自我教育**（文本证据推翻旧标签（关键词 15.59，压过旧标签项 8.85））
-- 其他命中：思维与智力（7.8） · 劳动与创造（5.3）
+- 建议：**A4 自我教育**（原文证据压倒旧标签（关键词 15.59，压过旧标签项 10.46））
+- 其他命中：幸福与精神生活（9.5） · 思维与智力（7.8）
 - 转述：青年期是道德信念和理想真正开始形成的阶段。苏霍姆林斯基注意到，高中生不再满足于接受现成结论，而是要求独立表达自己的道德立场，并通过自己的行动让别人判断自己“站在哪一边”。他们强烈地想要认识自己、评价自己的内心世界，并据此选择未来的生活道路。
 - 出处：《苏霍姆林斯基选集（五卷本）第1卷》（教育科学出版社），《学生的精神世界》第6章“青年早期”之“(3)青年人的道德信念和理想”
 
 ### sk-1118　思想变为信念
 
 - 旧标签：love-education, child-study
-- 建议：**A4 自我教育**（文本证据推翻旧标签（关键词 9.75，压过旧标签项 4.74））
+- 建议：**A4 自我教育**（原文证据压倒旧标签（关键词 9.75，压过旧标签项 4.74））
 - 其他命中：美与艺术（4.7） · 全面发展与个性（4.4）
 - 转述：苏霍姆林斯基认为，道德教育的基础不是记住了多少道德条文，而是形成了真正的道德信念。思想要变成信念，教师首先必须了解少年的心灵，成为他们的知心人；同时，学生必须有丰富的“精神活动”，即把政治、道德、审美的思想变成自己内心的财富，并在行动中体现出来。
 - 出处：《苏霍姆林斯基选集（五卷本）第3卷》（教育科学出版社），《公民的诞生》“道德的形成——公民的诞生”之“思想变为信念”
 
+### sk-1133　要保护青少年内心的纯洁激情
+
+- 旧标签：love-education, child-study, collective-education
+- 建议：**A19 道德判断与品德培养**（原文证据压倒旧标签（关键词 9.25，压过旧标签项 8.46））
+- 其他命中：思维与智力（7.5） · 劳动与创造（4.8）
+- 转述：苏霍姆林斯基把“冷漠”视为青少年教育中最危险的毒素：它会把人变成只顾自己、对公共痛苦无动于衷的庸人。相反，青少年越是亲手为别人做好事，心灵就越纯洁高尚，也越会与邪恶和漠不关心势不两立。
+- 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《给教师的100条建议》下篇 75“要保护青少年内心的纯洁激情”
+
 ### sk-1135　要善于使美德具有吸引力
 
 - 旧标签：love-education, collective-education
-- 建议：**A19 道德判断与品德培养**（文本证据推翻旧标签（关键词 2.99，压过旧标签项 2.50））
-- 其他命中：教师（2.4）
+- 建议：**A19 道德判断与品德培养**（原文证据压倒旧标签（关键词 8.18））
+- 其他命中：（除建议条目外无其他关键词命中）
 - 转述：苏霍姆林斯基指出，道德原则本身美好，并不等于它会自动吸引学生。越是崇高的原则，越需要以光彩、有表现力的活动去呈现；如果只是反复说“要正直、要诚实”，再正确的道理也会变成学生厌烦的说教。
 - 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《给教师的100条建议》下篇 93“要善于使美德具有吸引力”
 
 ### sk-1136　情感教育和道德教育的统一
 
 - 旧标签：love-education, aesthetic-nature-education, learning-difficulties
-- 建议：**A1 全面发展与个性**（文本证据推翻旧标签（关键词 4.43，压过旧标签项 4.31））
-- 其他命中：自我教育（3.8） · 幸福与精神生活（3.3）
+- 建议：**A1 全面发展与个性**（原文证据压倒旧标签（关键词 4.43，压过旧标签项 3.82））
+- 其他命中：自我教育（3.8） · 道德判断与品德培养（3.0）
 - 转述：苏霍姆林斯基认为，认识世界从来不是纯粹理性、与情感无关的活动。如果一个人缺乏崇高的情感素养，就很难形成坚定的信念和道德立场；而情感上的冷漠会导向利己主义，成为漠视他人和社会利益的根源。
 - 出处：《苏霍姆林斯基选集（五卷本）第3卷》（教育科学出版社），《公民的诞生》“情感教育与美感教育”之“情感教育和道德教育的统一”
 
 ### sk-1138　我们怎样在校长和教导主任之间实行分工
 
 - 旧标签：teacher-growth, collective-education
-- 建议：**A17 习惯与纪律**（文本证据推翻旧标签（关键词 10.80，压过旧标签项 9.71））
-- 其他命中：教师（7.2） · 健康与作息（5.3）
+- 建议：**A17 习惯与纪律**（原文证据压倒旧标签（关键词 10.80，压过旧标签项 7.33））
+- 其他命中：教学方法与教育艺术（6.2） · 健康与作息（5.3）
 - 转述：苏霍姆林斯基把校长和教导主任的关系描述为“做同一项工作”的分工协作，而不是各管一摊。两人的共同目标只有一个：帮助教师提高教育技巧。具体做法是先共同商量、总结上一阶段工作的优缺点，再在学年、学季、教学周开始前把听课对象、指导教师、检查范围等分到人。
 - 出处：《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《帕夫雷什中学》第1章“全体教师团结一致是教育教学工作成功的保证”之“我们怎样在校长和教导主任之间实行分工”
+
+### sk-1153　怎样做教育工作计划
+
+- 旧标签：teacher-growth, family-school, reading-and-books
+- 建议：**A15 思维与智力**（原文证据压倒旧标签（关键词 13.70，压过旧标签项 11.03））
+- 其他命中：阅读与书籍（8.5） · 家庭与母亲（3.5）
+- 转述：苏霍姆林斯基反对把教育工作计划写成装潢门面的官样文章，但他坚持“没有计划就无法想象完全合格的教育工作”。做计划的第一步不是排活动表，而是先想清楚要把学生培养成什么样的人，并据此倒推十年、十五年：包括一份学生在校十年间要读完的世界文化书单，一份毕业后仍应继续阅读的“后备书单”，以及学生从入学到成年应为父母和他人做些什么、
+- 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《给教师的100条建议》下篇 97“怎样做教育工作计划”
 
 ### sk-1154　要教育学生不说空话
 
 - 旧标签：love-education, teacher-growth, collective-education
-- 建议：**A15 思维与智力**（文本证据推翻旧标签（关键词 8.20，压过旧标签项 6.88））
-- 其他命中：尊严、爱与信任（4.4） · 集体与同伴（3.2）
+- 建议：**A19 道德判断与品德培养**（原文证据压倒旧标签（关键词 9.58，压过旧标签项 8.20））
+- 其他命中：思维与智力（8.2） · 集体与同伴（3.2）
 - 转述：苏霍姆林斯基把“说空话”看作一种会同时腐蚀个人和集体的恶习：一旦空话流行，集体就不可能在思想上真正统一，因为语言与行动脱钩，人就等于在精神上被解除了武装。他给出的矫正方法非常具体——教学生说话算数，不给没有把握的承诺留余地：与其说“我保证完成”，不如说“我要尽力办成”；说了就要做，哪怕重做十次也不在众人面前失信。
 - 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《给教师的100条建议》下篇 81“要教育学生不说空话”
 
-### sk-1159　科学世界观的形成过程与科学基础知识的掌握
+### sk-1155　关于对自己子女的教育问题
 
-- 旧标签：thinking-and-nature, labor-education, child-study
-- 建议：**A3 幸福与精神生活**（文本证据推翻旧标签（关键词 11.27，压过旧标签项 8.17））
-- 其他命中：思维与智力（5.7） · 全面发展与个性（5.1）
-- 转述：苏霍姆林斯基区分了“掌握知识”和“形成世界观”：只有当人站在个人的生活立场上对待知识，让学到的知识在生活实践中得到反映并决定行为方向时，知识才转化为世界观因素；人对知识及其结论所采取的个人态度，就是信念。因此，教育性教学最重要的任务之一，是防止学生对知识采取冷漠态度，认为知识内容与己无关。
-- 出处：《苏霍姆林斯基选集（五卷本）第4卷》（教育科学出版社），《帕夫雷什中学》第5章“智育”之“科学世界观的形成过程与科学基础知识的掌握”
+- 旧标签：family-school, teacher-growth, love-education
+- 建议：**A13 阅读与书籍**（原文证据压倒旧标签（关键词 4.23，压过旧标签项 4.14））
+- 其他命中：自然与思维课（4.1）
+- 转述：苏霍姆林斯基指出一个教师群体中普遍而自相矛盾的现象：最会教育别人孩子的人，往往没有时间教育自己的孩子。他的建议不是让教师把学校搬回家，恰恰相反——在家里，教师首先应当是父亲和母亲，而不是老师或班主任；不要把家庭变成“小型的学校”，不要把学校的气氛、教师“管人”的权力和情绪带回家。
+- 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《给教师的100条建议》上篇 50“关于对自己子女的教育问题”
+
+### sk-1168　怎样教会孩子善于理解人的悲痛
+
+- 旧标签：love-education, family-school, child-study
+- 建议：**A19 道德判断与品德培养**（原文证据压倒旧标签（关键词 7.38，压过旧标签项 5.84））
+- 其他命中：习惯与纪律（5.8） · 美与艺术（4.5）
+- 转述：这一节教孩子如何面对亲人的死亡与悲痛：亲人去世意味着“你本身的一小部分死去”，要表示哀悼，要懂得在哀悼期不去娱乐场所、家里不放响亮的娱乐音乐，让良心悄悄提示自己。苏霍姆林斯基举了一个反面例子——九年级学生送葬后立刻去踢足球，还被朋友称赞“精神坚强”；他直言这不是坚强，而是道德上的无知：这种人在生活里没有任何神圣的东西。
+- 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《怎样培养真正的人》15. 怎样教会孩子善于理解人的悲痛
 
 ### sk-1177　怎样同集体进行有教育作用的谈话
 
 - 旧标签：collective-education, teacher-growth
-- 建议：**A15 思维与智力**（文本证据推翻旧标签（关键词 7.36，压过旧标签项 5.66））
+- 建议：**A15 思维与智力**（原文证据压倒旧标签（关键词 7.36，压过旧标签项 5.66））
 - 其他命中：自我教育（4.3） · 美与艺术（4.2）
 - 转述：这一节讲班主任和教师最常用的德育手段——集体谈话。苏霍姆林斯基首先强调语言的分量：教师通过语言打动学生的理智与心灵，而语言是否有力，取决于谈话有没有崇高的精神、能否鼓舞人；教师说出的不只是内容，也把自己的一部分心思交给学生。因此谈话的前提，是教师自己深信并用整个心灵捍卫所说的道理。
 - 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《给教师的100条建议》下篇 98. 怎样同集体进行有教育作用的谈话
 
+### sk-1179　何谓珍惜生活的幸福
+
+- 旧标签：aesthetic-nature-education, family-school, child-study
+- 建议：**A4 自我教育**（原文证据压倒旧标签（关键词 8.77，压过旧标签项 7.67））
+- 其他命中：思维与智力（6.7） · 劳动与创造（4.6）
+- 转述：这一节把“珍惜生活的幸福”当作一项最重要的道德课题。苏霍姆林斯基说，生活的幸福像空气一样充盈，人却像在空气充足时感觉不到空气那样，很少去思索它；要真正珍惜它，需要高尚、细致、全面的精神修养，即智力、心灵和意志的修养。他把它比作“扬起自我教育风帆的风”——没有这股风，人就看不到生活目标，停止发展。
+- 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《怎样培养真正的人》3. 何谓珍惜生活的幸福
+
 ### sk-1180　理解亲人的痛苦能提高道德敏锐性
 
 - 旧标签：family-school, love-education, child-study
-- 建议：**A19 道德判断与品德培养**（文本证据推翻旧标签（关键词 9.15，压过旧标签项 7.65））
-- 其他命中：幸福与精神生活（6.7） · 习惯与纪律（5.8）
+- 建议：**A19 道德判断与品德培养**（原文证据压倒旧标签（关键词 9.15，压过旧标签项 7.96））
+- 其他命中：习惯与纪律（5.8） · 尊严、爱与信任（5.5）
 - 转述：这一节讲道德敏锐性的培养机制：能感受和理解亲人的痛苦，会反过来提高一个人的道德敏锐性、品德和人性。苏霍姆林斯基要求孩子学会从别人的眼睛里、从细微到几乎察觉不到的举动中、从步履和呼吸里、从人观察世界的目光中看到痛苦；要知道自己的言行会直接影响他人的精神状态，不要以自己的举止使别人痛苦、受辱、不宁。
 - 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《怎样培养真正的人》12. 理解亲人的痛苦能提高道德敏锐性
 
 ### sk-1186　怎样教孩子理解道德上的自由感
 
 - 旧标签：love-education, collective-education, child-study
-- 建议：**A19 道德判断与品德培养**（文本证据推翻旧标签（关键词 8.39，压过旧标签项 6.76））
+- 建议：**A19 道德判断与品德培养**（原文证据压倒旧标签（关键词 7.86，压过旧标签项 6.76））
 - 其他命中：公民与祖国（5.7） · 习惯与纪律（4.9）
 - 转述：这一节处理德育中一个较难的命题：道德自由不是“想做什么就做什么”，而是人能自觉地把自己与集体、社会、人民的共同利益联系起来，听从义务感。苏霍姆林斯基指出，孩子长大后会不好意思再被大人牵着手，这种“想独立”的愿望恰恰是道德自由的萌芽，教育要尊重它、发展它，而不是压制它。
 - 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《怎样培养真正的人》34. 怎样教孩子理解道德上的自由感
@@ -962,55 +1355,79 @@
 ### sk-1190　怎样使学生们具有知识的欢乐
 
 - 旧标签：learning-difficulties, reading-and-books, thinking-and-nature
-- 建议：**A3 幸福与精神生活**（文本证据推翻旧标签（关键词 14.06，压过旧标签项 9.60））
-- 其他命中：评价与分数（9.0） · 阅读与书籍（7.1）
+- 建议：**A16 评价与分数**（原文证据压倒旧标签（关键词 8.96，压过旧标签项 6.73））
+- 其他命中：劳动与创造（5.3） · 阅读与书籍（4.2）
 - 转述：这一节回答“怎样让学生把学习体验为幸福”。苏霍姆林斯基指出：学习本应是最大的幸福，但在人人享有学习机会的社会里，它反而容易被看作负担甚至惩罚；一旦到了这一步，任何道德教育成绩都无从谈起。
 - 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《怎样培养真正的人》25. 怎样使学生们具有知识的欢乐
 
 ### sk-1193　青年对待爱情的精神准备应当包括些什么
 
 - 旧标签：love-education, family-school
-- 建议：**A15 思维与智力**（文本证据推翻旧标签（关键词 6.67，压过旧标签项 6.00））
-- 其他命中：家庭与母亲（3.5） · 幸福与精神生活（3.3）
+- 建议：**A15 思维与智力**（原文证据压倒旧标签（关键词 6.67，压过旧标签项 6.00））
+- 其他命中：家庭与母亲（3.5） · 道德判断与品德培养（3.0）
 - 转述：苏霍姆林斯基把“爱情的精神准备”具体化为一份婚前自检清单：能否忠诚、有无懒惰自私冷酷、能否控制欲望、对家庭物质基础有无准备。他特别强调结婚前要征求父母意见，因为家庭生活的意义和目的就是教育子女；不思考未来子女就走进婚姻，好比要终生远行却既不知自己的力量，也不知要走的路。
 - 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《怎样培养真正的人》50. 青年对待爱情的精神准备应当包括些什么
+
+### sk-1194　理解新教材是课堂教学的一个阶段
+
+- 旧标签：learning-difficulties, thinking-and-nature
+- 建议：**A22 教学方法与教育艺术**（原文证据压倒旧标签（关键词 13.90，压过旧标签项 9.97））
+- 其他命中：思维与智力（7.5） · 劳动与创造（7.0）
+- 转述：这一条把“理解”确立为课堂教学中一个独立而必要的阶段。苏霍姆林斯基区分了“了解”与“知道”：昨天全班似乎都懂了，今天却有一半人模糊甚至忘掉，原因就在于缺少理解。理解不是复述，而是学生自己思考所学内容、检验理解是否正确、尝试把知识运用于实践。
+- 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《给教师的100条建议》上篇 15. 理解新教材是课堂教学的一个阶段
 
 ### sk-1202　第3封信：思想性就是真正的人性
 
 - 旧标签：love-education, reading-and-books
-- 建议：**A1 全面发展与个性**（文本证据推翻旧标签（关键词 8.81，压过旧标签项 7.40））
+- 建议：**A1 全面发展与个性**（原文证据压倒旧标签（关键词 8.81，压过旧标签项 7.40））
 - 其他命中：尊严、爱与信任（4.9） · 道德判断与品德培养（3.0）
 - 转述：儿子在大学来信中说，自己身边有人用讽刺的口吻谈论“思想性”，把为理想而生活说成是想捞道德资本，他因此感到沮丧，不知道该怎样理解为理想而生活。苏霍姆林斯基回信说：正因为这些问题让你焦虑不安，这才好；对周围人说什么、想什么毫不在乎，才是真正危险的。
 - 出处：《苏霍姆林斯基选集（五卷本）第3卷》（教育科学出版社），《给儿子的信》第3封信
 
-### sk-1205　怎样教学生们成为好子女
-
-- 旧标签：family-school, love-education
-- 建议：**A7 健康与作息**（文本证据推翻旧标签（关键词 10.22，压过旧标签项 10.14））
-- 其他命中：家庭与母亲（7.6） · 幸福与精神生活（7.1）
-- 转述：这一篇既是苏霍姆林斯基对学生的直接教诲，也是对教师和家长的提醒。乌克兰民谚说人有三个不幸——“死亡、衰老、子女不好”，前两个无法避免，唯有“子女不好”可以像防火一样预防，而这不只取决于父母，也取决于子女自己。好子女的标准很具体：只给家里带来和睦、安宁、欢乐和幸福，不带来忧虑、烦恼、埋怨和耻辱。
-- 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《怎样培养真正的人》21. 怎样教学生们成为好子女
-
 ### sk-1209　第17封信：尊重妇女与女性美
 
 - 旧标签：love-education, family-school
-- 建议：**A19 道德判断与品德培养**（文本证据推翻旧标签（关键词 9.44，压过旧标签项 6.76））
+- 建议：**A19 道德判断与品德培养**（原文证据压倒旧标签（关键词 9.44，压过旧标签项 6.76））
 - 其他命中：尊严、爱与信任（4.3） · 幸福与精神生活（3.8）
 - 转述：儿子在信中问父亲：怎样尊重姑娘的女性美，什么是女性美。苏霍姆林斯基说，这个问题让儿子不安，他很高兴，因为对待妇女的态度是衡量道德的一把尺子——马克思说过，从这种关系可以判断人的整个文化教养程度；对妇女蛮横无理的人，会对一切都蛮横无理。
 - 出处：《苏霍姆林斯基选集（五卷本）第3卷》（教育科学出版社），《给儿子的信》第17封信
 
+### sk-1210　第13封信：从柏林谈对祖国的责任
+
+- 旧标签：love-education, teacher-growth
+- 建议：**A19 道德判断与品德培养**（原文证据压倒旧标签（关键词 5.19，压过旧标签项 4.93））
+- 其他命中：劳动与创造（4.7） · 自我教育（4.4）
+- 转述：这封信写于柏林。苏霍姆林斯基告诉儿子，自己不是第一次出国，但每次远离祖国，都会有一种新的力量激起他热爱祖国的情感；在国外，他特别深切地感到自己对祖国担负的一切责任。他把祖国比作慈祥而又严格的母亲：如果儿子成了懒惰、冷酷、意志薄弱、假仁假义、不诚实的人，母亲会何等伤心。
+- 出处：《苏霍姆林斯基选集（五卷本）第3卷》（教育科学出版社），《给儿子的信》第13封信
+
 ### sk-1211　结束语：共产主义信念是新人成长的合金
 
 - 旧标签：love-education, teacher-growth
-- 建议：**A7 健康与作息**（文本证据推翻旧标签（关键词 13.23，压过旧标签项 10.71））
+- 建议：**A7 健康与作息**（原文证据压倒旧标签（关键词 13.23，压过旧标签项 10.71））
 - 其他命中：劳动与创造（10.7） · 思维与智力（10.4）
 - 转述：这是《年轻一代共产主义信念的形成》的结束语，写于 1961 年加加林完成人类首次宇宙飞行之后。苏霍姆林斯基把这一事件看作人类思维、创造、劳动发展的新阶段，也是人类精神发展的新阶段；他用“合金”作比喻：强壮健康的身体、高度发达的智力、深湛的技术知识、高尚的道德品质，融合成新人的真正威严，而融合这一合金的强大力量就是共产主
 - 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《年轻一代共产主义信念的形成》结束语
 
+### sk-1217　怎样把教师劳动的意义传送到学生的意识中去
+
+- 旧标签：teacher-growth, love-education
+- 建议：**A19 道德判断与品德培养**（原文证据压倒旧标签（关键词 2.99，压过旧标签项 2.33））
+- 其他命中：劳动与创造（2.3）
+- 转述：苏霍姆林斯基先说明教师劳动的特殊性：纺织工、炼钢工、庄稼人较快就能看到成果，而教师要年复一年、甚至十几年才看到自己造就的对象；任何劳动都不像教师劳动那样一有差错就可能造成严重后果。因此，学生理解教师劳动的复杂性，不是对教师的怜悯，而是成为教师志同道合者的前提。
+- 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《怎样培养真正的人》28. 怎样把教师劳动的意义传送到学生的意识中去
+
+### sk-1218　向在规模大的学校里工作的教师提些建议
+
+- 旧标签：teacher-growth
+- 建议：**A15 思维与智力**（原文证据压倒旧标签（关键词 3.69，压过旧标签项 3.16））
+- 其他命中：集体与同伴（3.2） · 劳动与创造（3.0）
+- 转述：这一篇是写给大规模学校里的年轻教师的。苏霍姆林斯基承认，在有许多同事的学校里更容易提高水平，但提醒借鉴经验是一件复杂而需要创造的工作：不要依次去听所有人的课，那样很难抓到要领。他给出一条省时的入口——先看学生练习本；如果某个班绝大多数学生的字写得漂亮、清秀、正确，这就是可以学习的直接标志，因为练习本是整个教育工作的一面
+- 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《给教师的100条建议》上篇 46. 向在规模大的学校里工作的教师提些建议
+
 ### sk-1226　怎样教育共青团员关心公共利益
 
 - 旧标签：labor-education, collective-education
-- 建议：**A5 尊严、爱与信任**（文本证据推翻旧标签（关键词 9.01，压过旧标签项 5.66））
+- 建议：**A19 道德判断与品德培养**（原文证据压倒旧标签（关键词 9.58，压过旧标签项 5.66））
 - 其他命中：教师（4.8） · 评价与分数（4.8）
 - 转述：这一条从两个反面例子讲起：一位副校长把社会学研究室布置得很漂亮，却答不出怎样让马列主义真理深入青少年心灵——苏霍姆林斯基批评这种“只看得见上级命令，而看不见人的灵魂”的教育，说没有灵魂、没有心灵，教育就等于零。接着是一个正面案例：共青团员在为国家仓库选送谷米时，有人建议把差谷米垫在车厢底下、好谷米盖在上面以“完成计划”
 - 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《给教师的100条建议》下篇 76. 怎样教育共青团员关心公共利益
@@ -1018,15 +1435,39 @@
 ### sk-1227　代前言
 
 - 旧标签：teacher-growth, child-study
-- 建议：**A11 劳动与创造**（文本证据推翻旧标签（关键词 5.31，压过旧标签项 4.88））
-- 其他命中：幸福与精神生活（4.0） · 阅读与书籍（2.9）
+- 建议：**A11 劳动与创造**（原文证据压倒旧标签（关键词 5.31））
+- 其他命中：（除建议条目外无其他关键词命中）
 - 转述：《代前言》交代了《给教师的100条建议》的写作缘起：苏霍姆林斯基在帕夫雷什中学工作期间，同刚开始工作的年轻教师进行过数百次会见和谈话，收到成千上万封信，这些促使他写成此书。他深信，没有比教师更富有求知精神、不满足现状、更充满创造思想的人。
 - 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《给教师的100条建议》代前言
+
+### sk-1234　在当今做个革命者意味着什么
+
+- 旧标签：love-education, teacher-growth, collective-education
+- 建议：**A11 劳动与创造**（原文证据压倒旧标签（关键词 9.90，压过旧标签项 8.98））
+- 其他命中：公民与祖国（8.0） · 幸福与精神生活（7.2）
+- 转述：这一条回答的是一个价值定向问题：在今天，做“革命者”到底意味着什么。苏霍姆林斯基没有把它讲成政治表态，而是先让孩子懂得自己已经拥有的东西——公民身份、自由劳动的幸福、精神生活与成长的道路，然后把这些“拥有”放回历史里，指出它们是革命换来的。他要求孩子把吃穿住的关怀放在第二位，把智力和情感、创造和美、图书和音乐的关怀放在
+- 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《怎样培养真正的人》53. 在当今做个革命者意味着什么
+
+### sk-1236　怎样培养学生在道德上准备当军人的天职
+
+- 旧标签：love-education, teacher-growth, family-school
+- 建议：**A19 道德判断与品德培养**（原文证据压倒旧标签（关键词 8.18，压过旧标签项 7.40））
+- 其他命中：习惯与纪律（5.8） · 集体与同伴（5.4）
+- 转述：这一条谈的是怎样让学生从童年起在道德上为承担保卫祖国的责任做好准备。苏霍姆林斯基把这件事理解为长期的品格养成，而不是临到服兵役时才开始的思想动员：能吃苦耐劳、不怕困难、信守诺言，这些品质都要从小培养，而信守诺言本身就是一种道德上的高尚品格。
+- 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《怎样培养真正的人》58. 怎样培养学生在道德上准备当军人的天职
+
+### sk-1237　怎样向少年列宁主义者灌输共产主义思想
+
+- 旧标签：collective-education, love-education, teacher-growth
+- 建议：**A13 阅读与书籍**（原文证据压倒旧标签（关键词 8.19，压过旧标签项 8.16））
+- 其他命中：自我教育（8.2） · 幸福与精神生活（3.4）
+- 转述：这一条讲的是思想信念怎样才能真正进入少年儿童的心灵。苏霍姆林斯基的出发点是那句拉丁谚语：“话语开导人，榜样吸引人。”他认为靠抽象宣讲和反复说教无法把思想交给孩子，只能通过体现人的最高美德的鲜明形象和榜样，把信念展示在儿童的意识和心灵面前；这些美德在他那里被概括为为人民的幸福而斗争、自我牺牲、对信仰忠贞不渝、百折不挠、对
+- 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《给教师的100条建议》下篇 67. 怎样向少年列宁主义者灌输共产主义思想
 
 ### sk-1248　怎样培养母亲和父亲做好学校和家庭的协同教育工作
 
 - 旧标签：family-school, love-education, child-study
-- 建议：**A7 健康与作息**（文本证据推翻旧标签（关键词 15.53，压过旧标签项 12.00））
+- 建议：**A7 健康与作息**（原文证据压倒旧标签（关键词 15.53，压过旧标签项 12.00））
 - 其他命中：习惯与纪律（12.0） · 思维与智力（10.7）
 - 转述：苏霍姆林斯基把家长教育学校当作一项常规课程来办，而不是零散的家长会：不关心家长的教育修养，任何教育和教学任务都不可能完成，家长教育学是整个教育理论和实践的基础。学校按学段分成学前部、一至三年级、四至八年级、九至十一年级四个部，父母在孩子入学前三年就开始学习。
 - 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《给教师的100条建议》下篇 52. 怎样培养母亲和父亲做好学校和家庭的协同教育工作
@@ -1034,15 +1475,15 @@
 ### sk-1252　怎样减轻批改作业之苦
 
 - 旧标签：assessment-grading, teacher-growth
-- 建议：**A20 检查知识与考查**（文本证据推翻旧标签（关键词 12.48，压过旧标签项 7.83））
-- 其他命中：阅读与书籍（6.8） · 劳动与创造（5.3）
+- 建议：**A20 检查知识与考查**（原文证据压倒旧标签（关键词 12.48，压过旧标签项 5.60））
+- 其他命中：学习方法与学习技能（5.6） · 劳动与创造（5.3）
 - 转述：这一节的落点是可执行的三步流程，而不是号召教师忍耐。苏霍姆林斯基先诊断病灶：批改之苦的祸根不是批改本身，而是「技能与知识之间的比例失调」——在语法、规范阅读、数学这类课程里，技能长期落后于知识，学生因此大量出错，教师再用力批也批不完，所以单纯压缩批改时间的努力「什么结果也没有达到」。
 - 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《给教师的100条建议》上篇 19. 怎样减轻批改作业之苦
 
 ### sk-1262　美是培养善良、热爱劳动、热诚和爱情的重要手段
 
 - 旧标签：aesthetic-nature-education, love-education, labor-education
-- 建议：**A1 全面发展与个性**（文本证据推翻旧标签（关键词 9.44，压过旧标签项 7.81））
+- 建议：**A1 全面发展与个性**（原文证据压倒旧标签（关键词 9.44，压过旧标签项 7.81））
 - 其他命中：劳动与创造（5.3） · 自我教育（4.4）
 - 转述：这一篇是苏霍姆林斯基美育思想的纲领性表述：美不是生活的装饰，而是培养善良、热爱劳动、热诚和爱情的重要手段。他从人对花瓣与晚霞的注视讲起，说明美的存在不依我们的意识和意志为转移，但美需要被人发现、被人认识，才会存在于人的心灵之中；我们来到世界上就是为了认识美、确立美和创造美。人能看到天空的奥秘、群星的闪烁、晚霞的粉红、草
 - 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《怎样培养真正的人》52. 美是培养善良、热爱劳动、热诚和爱情的重要手段
@@ -1050,7 +1491,7 @@
 ### sk-1268　行为训练是自觉纪律教育的一种方法
 
 - 旧标签：collective-education, teacher-growth, love-education
-- 建议：**A16 评价与分数**（文本证据推翻旧标签（关键词 16.10，压过旧标签项 9.34））
+- 建议：**A16 评价与分数**（原文证据压倒旧标签（关键词 16.10，压过旧标签项 9.34））
 - 其他命中：自我教育（8.2） · 集体与同伴（6.8）
 - 转述：本篇把“纪律要求”转写成一套可复制的操作：先由教师确定训练的任务与内容，再把任务提出来，使每个学生感到这不是强加给他的，而是集体自愿为整个集体接受的。任务必须触及全班利益、与学习活动直接相关（如“没有正当理由决不缺课”“课后无人监督自动留下补课”“不提示、不抄袭”），并且要用克服困难的过程本身去鼓舞集体——这个克服困难
 - 出处：《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社），《论文集》第 2 篇“行为训练是自觉纪律教育的一种方法”
@@ -1058,7 +1499,7 @@
 ### sk-1273　开发出每个学生独特的人格之美
 
 - 旧标签：child-study, love-education, labor-education
-- 建议：**A12 自然与思维课**（文本证据推翻旧标签（关键词 11.01，压过旧标签项 9.67））
+- 建议：**A12 自然与思维课**（原文证据压倒旧标签（关键词 11.01，压过旧标签项 9.67））
 - 其他命中：思维与智力（7.8） · 了解儿童（7.2）
 - 转述：观察什么：不看孩子在课堂上的读写反应，而看他在自然与劳动现场的行为。巴甫利克在教室里被判定“思维迟钝”“对自然景物和自然现象都无动于衷”，到了田野和树林里却完全变成另一个人——他讲自己观察到的动植物现象时，能“第一眼就发现事物与现象之间的无形联系”。另一类同等重要的信号是手：自然课老师说他的智慧“在手指尖上”，即动手的
 - 出处：《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社），《论文集》第 8 篇“开发出每个学生独特的人格之美”
@@ -1066,7 +1507,7 @@
 ### sk-1289　教育与自我教育
 
 - 旧标签：love-education, child-study, health-first
-- 建议：**A4 自我教育**（文本证据推翻旧标签（关键词 40.23，压过旧标签项 4.99））
+- 建议：**A4 自我教育**（原文证据压倒旧标签（关键词 40.23，压过旧标签项 4.77））
 - 其他命中：评价与分数（4.8） · 全面发展与个性（4.4）
 - 转述：自我教育不是一句态度，而是一条有次序的机制：自我认识—自我要求—自我控制，并且每一步都有明确的触发条件。起点是自我认识。作者引古语“战胜自己是最难的胜利”，说“认识自己便山此开始，自我教育也由此开始”。而自我认识不是凭空反省出来的，它来自“成功地克服自身弱点的欢悦”——一个人在童年体验过这种欢悦，才会开始以批判的目光看
 - 出处：《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社），《论文集》第 21 篇“教育与自我教育”
@@ -1074,23 +1515,31 @@
 ### sk-1290　要善于表扬好人好事
 
 - 旧标签：love-education, collective-education, teacher-growth
-- 建议：**A16 评价与分数**（文本证据推翻旧标签（关键词 10.26，压过旧标签项 7.14））
-- 其他命中：习惯与纪律（7.1） · 道德判断与品德培养（5.4）
+- 建议：**A16 评价与分数**（原文证据压倒旧标签（关键词 10.26，压过旧标签项 9.25））
+- 其他命中：道德判断与品德培养（9.3） · 习惯与纪律（7.1）
 - 转述：“怎样表扬才对”这篇给的第一条是看对象：被表扬的“好人好事”是孩子真做的事，还是孩子为了被表扬而做的事。文中那所学校里，有学生做好事只是希望得到表扬；作者判断，如果不是没完没了地在墙报上报道沃洛佳和他的“铁木儿小队”、不给他们颁发荣誉证书，要让沃洛佳帮助别人，“他兴许连一根小指头儿也不愿动弹”。表扬一旦变成常规化的公开
 - 出处：《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社），《论文集》第 26 篇“要善于表扬好人好事”
 
-### sk-1304　谈语言的教育作用
+### sk-1302　心灵的劳动
 
-- 旧标签：teacher-growth, love-education, collective-education
-- 建议：**A15 思维与智力**（文本证据推翻旧标签（关键词 11.50，压过旧标签项 10.92））
-- 其他命中：教师（8.4） · 幸福与精神生活（6.3）
-- 转述：这篇《谈语言的教育作用》针对的是一种流行的轻视：有人说教师的语言在教育手段中只占第二位，首位的应是活动与劳动，于是“语言教育”被当作收效不明显的事，谈话前的准备也就被省掉了。苏霍姆林斯基反驳说，行为与劳动固然重要，但决定它们的正是人的内心活动，而语言是影响内心活动的重要手段；因此谈话不是随便聊聊，而是要和学生的智慧与心
-- 出处：《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社），《论文集》第 14 篇“谈语言的教育作用”
+- 旧标签：teacher-growth, love-education, family-school
+- 建议：**A4 自我教育**（原文证据压倒旧标签（关键词 10.58，压过旧标签项 7.01））
+- 其他命中：劳动与创造（7.0） · 健康与作息（4.8）
+- 转述：“心灵的劳动”在这篇里不是比喻，而是一套可以布置的安排。第一层安排是环境：校门入口种玫瑰这样秀美娇嫩的东西，并且要关心让学生周围这类东西尽可能多一些。理由很直接——若学生四周全是钢筋水泥般坚不可摧的东西，根本用不着心灵的劳动；只有当每天多次从盛开的玫瑰前走过，需要克制“掐一朵、甚至只是摸一摸”的诱惑时，道德力量才有被锻
+- 出处：《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社），《论文集》第 66 篇“心灵的劳动”
+
+### sk-1305　人民教师
+
+- 旧标签：teacher-growth, collective-education, love-education
+- 建议：**A13 阅读与书籍**（原文证据压倒旧标签（关键词 12.76，压过旧标签项 6.44））
+- 其他命中：自我教育（6.4） · 习惯与纪律（4.9）
+- 转述：《人民教师》通篇讲的是教师这个身份到底意味着什么，但其中有一层很实在的日常操作含义：教师的自我要求不是抽象的道德口号，而是几件天天要做的事。苏霍姆林斯基把它概括为“两项重任”——一是给学生一定的知识储备，二是教学生终身自己补充和丰富知识、独立运用人类文化成果的本领。他直言第一项任务学校和社会都重视，第二项却很少有人认真
+- 出处：《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社），《论文集》第 22 篇“人民教师”
 
 ### sk-1315　青年对待爱情的精神准备应当包括些什么
 
 - 旧标签：love-education, family-school, child-study
-- 建议：**A11 劳动与创造**（文本证据推翻旧标签（关键词 7.57，压过旧标签项 6.76））
+- 建议：**A11 劳动与创造**（原文证据压倒旧标签（关键词 7.57，压过旧标签项 6.76））
 - 其他命中：自我教育（6.2） · 集体与同伴（5.4）
 - 转述：苏霍姆林斯基给青年谈爱情，是从一张自查清单开始的，而不是从道德训诫开始：建立家庭之前，先问自己能不能成为忠诚的人、身上有没有懒惰自私冷酷无情、能不能控制自己的欲望、对家庭的物质保证有没有准备（因为妻子可能长期不工作、要教养孩子）。接着是征询父母意见——他们的生活智慧能帮助青年迈好这一步，而家庭生活的意义和目的就是教育子
 - 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《怎样培养真正的人》50. 青年对待爱情的精神准备应当包括些什么
@@ -1098,15 +1547,15 @@
 ### sk-1316　怎样教学生们成为好子女
 
 - 旧标签：family-school, love-education, child-study
-- 建议：**A7 健康与作息**（文本证据推翻旧标签（关键词 10.22，压过旧标签项 10.14））
-- 其他命中：家庭与母亲（7.6） · 阅读与书籍（7.4）
+- 建议：**A7 健康与作息**（原文证据压倒旧标签（关键词 10.22，压过旧标签项 10.14））
+- 其他命中：家庭与母亲（7.6） · 学习方法与学习技能（6.0）
 - 转述：这一篇把“教学生成为好子女”落到学校与家庭的具体安排上。第一条安排是改掉“叫家长”的默认做法：尽可能少请家长到学校来对孩子进行道德训斥、用父亲的“强硬手腕”吓唬儿子，而应尽可能多地让孩子同父母在精神上交往，这种交往能给母亲和父亲带来欢乐。第二条安排是把“给家庭带来欢乐”当成办学的支点——作者说初年级正是依靠这一点办学而
 - 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《怎样培养真正的人》21. 怎样教学生们成为好子女
 
 ### sk-1327　要善意待人
 
 - 旧标签：love-education, teacher-growth, child-study
-- 建议：**A19 道德判断与品德培养**（文本证据推翻旧标签（关键词 9.44，压过旧标签项 8.90））
+- 建议：**A19 道德判断与品德培养**（原文证据压倒旧标签（关键词 9.44，压过旧标签项 8.90））
 - 其他命中：评价与分数（8.9） · 集体与同伴（8.9）
 - 转述：这一条讲的是善意的性质：它是相互的。苏霍姆林斯基先把善意从口号还原成一次自检——如果成绩不好、跟不上同班同学、甚至犯了流氓行为的是你自己的儿子，你会不会提出开除、减品行分数？理智或许会提醒你这些办法也是需要的，但心里首先冒出来的，一定是能挽救儿子、在他心里建立道德的纯洁和美的办法。这份心愿就是善意待人。
 - 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《给教师的100条建议》上篇 4“要善意待人”
@@ -1114,39 +1563,79 @@
 ### sk-1332　认识自己
 
 - 旧标签：child-study, love-education, collective-education
-- 建议：**A4 自我教育**（文本证据推翻旧标签（关键词 14.61，压过旧标签项 9.34））
+- 建议：**A4 自我教育**（原文证据压倒旧标签（关键词 14.61，压过旧标签项 9.34））
 - 其他命中：劳动与创造（7.0） · 集体与同伴（6.8）
 - 转述：这一篇回答一位15岁读者的来信，但苏霍姆林斯基没有停在“自我教育靠意志力”这种空话上，而是给出了三个可以把“认识自己”设计成长期任务的实例。第一个是菲利普爷爷：92年、从没哪天不劳动，把一片蛮荒经营成“菲利普爷爷草地”。他的“认识自己”不是内省，而是在一块具体土地上几十年不间断的劳动中，一点点看清自己是谁。
 - 出处：《苏霍姆林斯基选集（五卷本）第5卷》（教育科学出版社），《论文集》第 51 篇“认识自己”
 
+### sk-1344　谁在教育儿童，什么在教育儿童，在教育方面什么取决于教师，什么取决其他教育者
+
+- 旧标签：family-school, teacher-growth, collective-education
+- 建议：**A15 思维与智力**（原文证据压倒旧标签（关键词 7.49，压过旧标签项 6.64））
+- 其他命中：美与艺术（4.7） · 阅读与书籍（4.6）
+- 转述：这一篇把参与教育的力量数清楚：家庭（其中最细致、最有才华的雕塑家是母亲）、教师、集体（儿童集体、少年集体、青年集体）、受教育者本人（自我教育）、书籍所构成的精神生活世界，以及完全意料之外的“雕塑家”（街上结交的少年、来做客一周的亲属或熟人）。儿童像一块大理石，同时有几把刀子在上面雕刻；教育之所以难，正因为在同一处地方会
+- 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《给教师的100条建议》下篇 51. 谁在教育儿童，什么在教育儿童，在教育方面什么取决于教师，什么取决其他教育者
+
 ### sk-1347　怎样通过集体使个性全面发展
 
 - 旧标签：collective-education, child-study, love-education
-- 建议：**A14 美与艺术**（文本证据推翻旧标签（关键词 13.40，压过旧标签项 11.40））
-- 其他命中：阅读与书籍（11.4） · 劳动与创造（10.7）
+- 建议：**A14 美与艺术**（原文证据压倒旧标签（关键词 13.40，压过旧标签项 10.71））
+- 其他命中：劳动与创造（10.7） · 全面发展与个性（9.4）
 - 转述：这一篇的出发点是：人是一个不可分割的整体（道德的、智力的、情感的、审美的、创造的），而任何一个基层班集体在成员相互关系的组织上都有局限性，所以班集体不可能成为完成个性全面发展任务的唯一组织形式。要让每个人显出长处，就必须在班集体之外再搭出多种类型的集体。
 - 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《给教师的100条建议》下篇 64. 怎样通过集体使个性全面发展
+
+### sk-1355　怎样把教师劳动的意义传送到学生的意识中去
+
+- 旧标签：teacher-growth, love-education, child-study
+- 建议：**A4 自我教育**（原文证据压倒旧标签（关键词 6.16，压过旧标签项 5.87））
+- 其他命中：全面发展与个性（4.4） · 自然与思维课（4.1）
+- 转述：这一节回答的是操作层面的问题：学生凭什么真正理解教师劳动，而不是被要求去"感恩"。苏霍姆林斯基的做法是先把教师的劳动放进可比的对象里——纺织工人一小时看到成果，炼钢工人几小时看到火焰般的铁水，庄稼人几个月看到谷穗，而教师要年复一年，甚至十几年，意图才勉强显现。差异一旦被讲清楚，"教师的劳动是无可比拟的"就不再是一句口号
+- 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《怎样培养真正的人》28. 怎样把教师劳动的意义传送到学生的意识中去
 
 ### sk-1360　在哪些行为之中应表现出义务感
 
 - 旧标签：love-education, collective-education, family-school
-- 建议：**A11 劳动与创造**（文本证据推翻旧标签（关键词 11.84，压过旧标签项 10.72））
-- 其他命中：公民与祖国（9.7） · 幸福与精神生活（7.4）
+- 建议：**A11 劳动与创造**（原文证据压倒旧标签（关键词 11.84，压过旧标签项 10.72））
+- 其他命中：公民与祖国（9.7） · 习惯与纪律（4.8）
 - 转述：本卡把这一节整理成“义务感落在哪些具体行为上、怎样练”的清单。苏霍姆林斯基先立地基：权利若没有义务和具体责任（公民、劳动者、有文化素养的人、儿子或女儿、父亲或母亲的责任），就是不可思议的；“谁想不尽义务而享受幸福生活，最终将成为一个令人谴责或令人遗憾的人”。而精神高尚的根本，是“把应当付出个人幸福看做是一种信念”，首先
 - 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《怎样培养真正的人》8. 在哪些行为之中应表现出义务感
+
+### sk-1364　怎样培养良心感
+
+- 旧标签：love-education, child-study, teacher-growth
+- 建议：**A19 道德判断与品德培养**（原文证据压倒旧标签（关键词 13.82，压过旧标签项 8.47））
+- 其他命中：思维与智力（7.5） · 美与艺术（4.2）
+- 转述：这一篇通篇讲“怎样练”，与讲原理的卡片互补。核心机制是：良心只有建立在羞耻心之上才会在人的心灵中存在，而羞耻感是可以“加倍地去认识体验和感受”训练出来的——训练场就在活动、举止和对自己行为的思考之中。换句话说，良心感不是听来的，是练出来的，练得越细、越积极，羞耻感和良心感就越得到强化。
+- 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《怎样培养真正的人》32. 怎样培养良心感
+
+### sk-1365　怎样才能做到使行为举止听从良心的最强有力的指挥
+
+- 旧标签：love-education, child-study, teacher-growth
+- 建议：**A19 道德判断与品德培养**（原文证据压倒旧标签（关键词 7.38，压过旧标签项 5.84））
+- 其他命中：习惯与纪律（5.8） · 美与艺术（4.2）
+- 转述：这一篇回答的是“怎样让良心真的指挥行为”。作者把要点定得很集中：主要的一点是保护儿童的心灵不受虚伪和可耻行为的侵扰，培养出纯洁的良心。而良心本身是一种非常细嫩、而且任性的东西——如果由着它的性子为所欲为，它就会变成残酷的东西；所以要教孩子（尤其是少年）主宰自己的良心、管束住它，它才会成为一生行为举止的聪慧而卓越的卫士。
+- 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《怎样培养真正的人》33. 怎样才能做到使行为举止听从良心的最强有力的指挥
 
 ### sk-1366　怎样教孩子理解道德上的自由感
 
 - 旧标签：love-education, collective-education, child-study
-- 建议：**A19 道德判断与品德培养**（文本证据推翻旧标签（关键词 8.39，压过旧标签项 6.67））
+- 建议：**A19 道德判断与品德培养**（原文证据压倒旧标签（关键词 7.86，压过旧标签项 6.67））
 - 其他命中：公民与祖国（5.7） · 全面发展与个性（5.0）
 - 转述：这一篇讲“怎样教”，落脚点是把道德自由从抽象概念变成孩子能懂、能练的东西。道德自由不是想做什么就做什么，而是只有当人意识到自己是集体、社会、人民的一分子，懂得大家的共同利益和需求，听从自己的义务感，自由才成为真正的福利——为别人做好事应当成为个人的道德倾向、成为自己的需求与愿望，这样的人才既自由又幸福。
 - 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《怎样培养真正的人》34. 怎样教孩子理解道德上的自由感
 
+### sk-1368　怎样培养孩子自觉地去追求善良
+
+- 旧标签：love-education, collective-education, teacher-growth
+- 建议：**A4 自我教育**（原文证据压倒旧标签（关键词 12.59，压过旧标签项 12.47））
+- 其他命中：劳动与创造（12.5） · 道德判断与品德培养（9.0）
+- 转述：这一篇只讲“怎样培养”，核心是把善从外部要求变成孩子自愿的追求。原文给出的第一步是先立尺子：善的意念要成为孩子本身的一部分，与他的思想、观点、信念分不开，成为他用来解释和评价周围人际关系的尺子。这把尺子在他的意识、生活和实践中树立得越持久，道德教育和自我教育就越成功。
+- 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《怎样培养真正的人》46. 怎样培养孩子自觉地去追求善良
+
 ### sk-1369　怎样培养个人对邪恶持毫不妥协的态度
 
 - 旧标签：love-education, collective-education, teacher-growth
-- 建议：**A20 检查知识与考查**（文本证据推翻旧标签（关键词 5.10，压过旧标签项 5.05））
+- 建议：**A20 检查知识与考查**（原文证据压倒旧标签（关键词 5.10，压过旧标签项 5.05））
 - 其他命中：评价与分数（4.8） · 公民与祖国（4.0）
 - 转述：这是一张实践卡，回答“怎样安排”才能让孩子对邪恶不妥协。起点是态度：对待丑恶现象的积极态度首先是憎恨它，是不容忍、不妥协，是敢于勇敢、直率地批评身边的不公正；勇敢的人毋宁死，也不会背叛自己的信念。
 - 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《怎样培养真正的人》47. 怎样培养个人对邪恶持毫不妥协的态度
@@ -1154,23 +1643,47 @@
 ### sk-1373　年轻一代共产主义信念的形成（绪论）
 
 - 旧标签：collective-education, love-education, teacher-growth
-- 建议：**A19 道德判断与品德培养**（文本证据推翻旧标签（关键词 9.15，压过旧标签项 7.04））
-- 其他命中：公民与祖国（6.0） · 自我教育（3.8）
+- 建议：**A19 道德判断与品德培养**（原文证据压倒旧标签（关键词 9.15，压过旧标签项 7.04））
+- 其他命中：公民与祖国（6.0） · 教学方法与教育艺术（4.1）
 - 转述：这篇绪论把“道德教育不同于知识教育”从判断落成了方法问题。苏霍姆林斯基先立命题：共产主义道德的决定性力量是信念，形成信念是教育的主要任务之一；而许多学校最严重的缺点，恰恰是用“理解道德概念、真理、规范”取代信念的形成。原因就在于忽视了道德教育与知识教育的区别。
 - 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《年轻一代共产主义信念的形成》绪论
+
+### sk-1376　忠诚感和对别人的忠诚意味着什么
+
+- 旧标签：love-education, collective-education, family-school
+- 建议：**A11 劳动与创造**（原文证据压倒旧标签（关键词 9.99，压过旧标签项 9.33））
+- 其他命中：自然与思维课（9.3） · 公民与祖国（8.0）
+- 转述：这一篇的可操作部分，是一次具体安排的谈话：毕业晚会前，苏霍姆林斯基把即将领毕业证书的学生带到森林里，在鲜花盛开的大自然中做“最推心置腹的谈话”，他自己称其为“对未来的父母进行的最后一次告诫”。场景本身就是方法——离开教室、离开讲台，让忠诚的讨论发生在人愿意说真话的地方。
+- 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《怎样培养真正的人》35. 忠诚感和对别人的忠诚意味着什么
 
 ### sk-1382　用追求理想的方法培养思想性
 
 - 旧标签：love-education, collective-education, teacher-growth
-- 建议：**A1 全面发展与个性**（文本证据推翻旧标签（关键词 9.49，压过旧标签项 7.46））
+- 建议：**A1 全面发展与个性**（原文证据压倒旧标签（关键词 9.49，压过旧标签项 7.46））
 - 其他命中：思维与智力（7.5） · 公民与祖国（5.3）
 - 转述：这一篇讲的是“用追求理想的方法培养思想性”，落点是**具体安排**——原文没有停在“要有理想”的口号上，而是写出了一套可操作的布置。第一步是把抽象问题变成少年自己必须回答的问题：他先问“究竟怎样去培养智慧、世界观、思想性和追求理想的志向”，再引用达·芬奇“智慧是经验之女”，说明智慧靠使用而非灌输；接着把“智慧的勇敢和诚
 - 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《怎样培养真正的人》57. 用追求理想的方法培养思想性
 
+### sk-1383　要保护青少年内心的纯洁激情
+
+- 旧标签：love-education, child-study, collective-education
+- 建议：**A19 道德判断与品德培养**（原文证据压倒旧标签（关键词 9.25，压过旧标签项 8.46））
+- 其他命中：思维与智力（7.5） · 劳动与创造（4.8）
+- 转述：这一篇给的是**具体做法与禁区**，而不是关于“激情可贵”的一般主张。先立靶子：要像防火那样警惕冷漠无情，因为冷漠会把人变成只顾自己、对公共事情漠不关心的庸人和小市民，其信条就是“事不关己，高高挂起”。正面做法则是一句可操作的判据——年轻人用自己的双手为别人做的好事越多，心灵就越纯洁越高尚。
+- 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《给教师的100条建议》下篇 75. 要保护青少年内心的纯洁激情
+
+### sk-1387　结束语：把信念的号召落成可做的具体事情
+
+- 旧标签：collective-education, love-education, teacher-growth
+- 建议：**A11 劳动与创造**（原文证据压倒旧标签（关键词 5.31，压过旧标签项 4.93））
+- 其他命中：健康与作息（4.8） · 全面发展与个性（4.4）
+- 转述：结束语在描述过加加林宇宙飞行之后，把话头转向了教育者手上的活。苏霍姆林斯基说，此刻真正让教育者操心的问题不是理想多么宏大，而是两个可操作的问题：怎样让受教育者的每一次内心激动都伴随思考、劳动、英勇行为的勃发；哪些精神力量应当在人身上确立和锻炼。目标也很具体——让孩子进入生活时成为“拥有充分权利、又对长辈创造的财富倍加爱
+- 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《年轻一代共产主义信念的形成》结束语
+
 ### sk-1388　怎样培养父辈和孩子们之间的和谐关系
 
 - 旧标签：family-school, love-education, child-study
-- 建议：**A4 自我教育**（文本证据推翻旧标签（关键词 9.75，压过旧标签项 6.76））
+- 建议：**A4 自我教育**（原文证据压倒旧标签（关键词 9.75，压过旧标签项 6.76））
 - 其他命中：尊严、爱与信任（4.3） · 思维与智力（4.1）
 - 转述：这一节回答的是和谐关系从哪儿来这个问题。苏霍姆林斯基先摆出代际结构：年老的一代、创造力旺盛的一代、刚开始意识到自己存在的新一代同时生活在一个世界里，一个人的父母也是别人的孩子，人类种族就这样代代相传。由此得出法则——敬重老一辈，因为他们比你聪明、精神上比你富有；与长辈交往的时刻都要善于向他们学习，不要自以为是、过于自信
 - 出处：《苏霍姆林斯基选集（五卷本）第2卷》（教育科学出版社），《怎样培养真正的人》18. 怎样培养父辈和孩子们之间的和谐关系

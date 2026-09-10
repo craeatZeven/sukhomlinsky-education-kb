@@ -105,7 +105,14 @@ def main() -> int:
     story_covered = sum(1 for c in story if results[c['id']]['facets'])
     essay_no_primary = [cid for cid, r in results.items()
                         if not r['primary'] and cid not in {c['id'] for c in story}]
-    checks.append(('每张论述卡有主归属', not essay_no_primary, f'未归属 {len(essay_no_primary)} 张'))
+    pending = [cid for cid, r in results.items() if r.get('source') == 'pending']
+    stray = [cid for cid in essay_no_primary if cid not in pending]
+    checks.append(('论述卡要么定案、要么登记待裁决', not stray,
+                   f'无主归属 {len(essay_no_primary)} 张（其中已登记待裁决 {len(pending)} 张）'
+                   + (f'；⚠ 未登记 {stray}' if stray else '')))
+    if pending:
+        p(f'  · 待裁决 {len(pending)} 张（旧标签可映射、但原文无任何关键词证据，按元规则不强行定案）：'
+          + ' · '.join(pending))
     checks.append(('故事分面覆盖 ≥95%', story_covered / len(story) >= 0.95,
                    f'{story_covered}/{len(story)}（{story_covered/len(story)*100:.1f}%），未覆盖 {len(story)-story_covered} 篇'))
     empty = [c['id'] for c in cards if not ((c.get('excerpts') or [''])[0]).strip()]

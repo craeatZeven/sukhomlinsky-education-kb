@@ -25,7 +25,7 @@ ROOT = Path(__file__).resolve().parent.parent
 SPEC = ROOT / 'taxonomy.md'
 
 SEC_LAYERS = '一、五个观察角度'
-SEC_ENTRIES = '二、二十条目'
+SEC_ENTRIES = '二、二十三条目'
 SEC_FACETS = '三、故事域的三个字段、十七个分面'
 SEC_MAPPING = '四、旧主题 → 新条目映射（迁移用）'
 SEC_OVERRIDE = '六、人工裁定（覆盖算法）'
@@ -151,28 +151,28 @@ def classify(card: dict, spec: dict, score, haystack: dict[str, str]) -> dict:
                 prior[s] = max(prior.get(s, 0.0), p_second)
 
     kw = {e['id']: score(e['keywords'], cid) for e in spec['entries'] if e['id'] in assignable}
-    total = {e: kw[e] + prior.get(e, 0.0) for e in kw}
-    candidates = {e for e in kw if kw[e] > 0 or prior.get(e, 0.0) > 0}
-    if not candidates:
-        return {'primary': None, 'facets': [], 'see_also': [], 'tags': tags,
-                'reason': '无旧标签映射且无关键词命中', 'source': 'none'}
 
-    best = sorted(candidates, key=lambda e: (-total[e], e))[0]
-    if kw[best] <= 0:
-        reason = '全无关键词证据，按旧标签先验定夺'
+    # 证据资格（2026-09-10 外部评审判定）：**没有原文证据的条目不得定案**。
+    # 旧标签只是加分先验，不能单独把一张卡判给谁——原文一句话都不支持它，凭什么给它。
+    evidence = {e for e in kw if kw[e] > 0}
+    if not evidence:
+        return {'primary': None, 'facets': [], 'see_also': [], 'tags': tags,
+                'reason': '旧标签可映射，但原文没有任何条目关键词证据——标「待裁决」，不强行定案',
+                'source': 'pending', 'pending_for': sorted(prior)}
+
+    total = {e: kw[e] + prior.get(e, 0.0) for e in evidence}
+    ranked = sorted(evidence, key=lambda e: (-total[e], e))
+    best = ranked[0]
+    if prior.get(best, 0.0) > 0:
         source = 'prior'
-    elif best in prior:
-        reason = (f'旧标签先验 + 文本证据（关键词 {kw[best]:.2f} + 先验 {prior[best]:.1f}'
+        reason = (f'原文证据 + 旧标签一致（关键词 {kw[best]:.2f} + 先验 {prior[best]:.1f}'
                   f' = {total[best]:.2f}）')
-        source = 'prior'
-        runner = sorted((e for e in candidates if e != best), key=lambda e: (-total[e], e))
-        if runner and total[runner[0]] > total[best] - 1e-9:
+        if len(ranked) > 1 and total[ranked[1]] > total[best] - 1e-9:
             reason += '（并列）'
     else:
-        runner = sorted((e for e in candidates if e != best), key=lambda e: (-total[e], e))
-        beat = f'，压过旧标签项 {total[runner[0]]:.2f}' if runner else ''
-        reason = f'文本证据推翻旧标签（关键词 {kw[best]:.2f}{beat}）'
         source = 'override'
+        beat = f'，压过旧标签项 {total[ranked[1]]:.2f}' if len(ranked) > 1 else ''
+        reason = f'原文证据压倒旧标签（关键词 {kw[best]:.2f}{beat}）'
 
     # 参见区：强 + 弱证据都算（弱证据只能用在这里）
     see = [e['id'] for e in spec['entries']

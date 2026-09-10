@@ -255,6 +255,7 @@ def main() -> int:
           '', '盲审结果的汇总写在 `docs/classification-audit-result.md`。', '']
     for i, c in enumerate(sample, 1):
         r = results[c['id']]
+        prim = (f'{r["primary"]} {entry[r["primary"]]["name"]}' if r['primary'] else '**待裁决**（原文无条目关键词证据）')
         ap += [f'## {i}. {c["id"]}　{c.get("title", "")}', '',
                f'- 原文摘录：{(c.get("excerpts") or [""])[0]}',
                f'- 编辑转述：{c.get("cn") or ""}',
@@ -262,7 +263,7 @@ def main() -> int:
                '- 我的判断：______',
                '- 分歧说明：______', '',
                '<details><summary>对答案</summary>', '',
-               f'算法：{r["primary"]} {entry[r["primary"]]["name"]}（{r["reason"]}，来源 {r.get("source")}）｜'
+               f'算法：{prim}（{r["reason"]}，来源 {r.get("source")}）｜'
                f'旧标签：{", ".join(c.get("topics", []))}',
                '</details>', '']
     audit_path = ROOT / 'docs' / 'classification-audit.md'

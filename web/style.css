@@ -325,6 +325,22 @@ footer a { color: var(--accent); text-decoration: none; }
   .rows .row-meta > * + *::before { margin-right: 8px; }
 }
 
+/* 链接型目录行（首页的「看结构 / 用起来」两组）：标题 + 说明 + 去箭头 */
+.rows--plain { border-top: 0; }
+.rows .row-link {
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 18px;
+  padding: 16px 0 15px;
+}
+.rows .row-link .row-title { font-size: 17px; }
+.rows .row-link .row-desc { flex: 1 1 320px; font-size: 14px; color: var(--soft); letter-spacing: 0; }
+.rows .row-link .row-go { font-family: var(--mono); font-size: 12px; letter-spacing: .02em; color: var(--accent); }
+.rows .row-link:hover { background: color-mix(in srgb, var(--accent) 4%, transparent); }
+.rows .row-link:hover .row-title { color: var(--accent); }
+@media (max-width: 680px) {
+  .rows .row-link { padding: 14px 0 13px; }
+  .rows .row-link .row-desc { flex: 1 1 100%; }
+}
+
 /* 出处 popup：悬停就地看出版信息，不必跳走（Gwern 机制） */
 .src { position: relative; border-bottom: 1px dotted var(--line); cursor: help; }
 .src-pop {

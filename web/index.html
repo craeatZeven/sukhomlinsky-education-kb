@@ -38,69 +38,79 @@
 </header>
 
 <main class="wrap">
-  <h2 class="section-title">从这里开始</h2>
-  <p class="section-sub">四个入口，按你的目的选择。</p>
-  <section class="grid">
-    <a class="portal-card" href="topics.html">
-      <div class="icon">🧭</div>
-      <h3>教育专题</h3>
-      <p>12 个专题：每个专题都有核心判断、可操作方法、跨书综合和对应卡片。</p>
-      <span class="go">看专题 →</span>
-    </a>
-    <a class="portal-card" href="problem.html">
-      <div class="icon">🎯</div>
-      <h3>问题检索</h3>
-      <p>直接输入教育问题（“孩子说谎”“后进生”“坐不住”），返回苏霍姆林斯基的想法、案例与卡片。</p>
-      <span class="go">找答案 →</span>
-    </a>
-    <a class="portal-card" href="cases.html">
-      <div class="icon">🧭</div>
-      <h3>案例 Review</h3>
-      <p>用真实教育困境反查知识库：后进生、说谎、坐不住、班级排挤、教师倦怠……给出可执行建议。</p>
-      <span class="go">看案例 →</span>
-    </a>
-    <a class="portal-card" href="clusters.html">
-      <div class="icon">🗺️</div>
-      <h3>思想地图</h3>
-      <p>从“主题目录”再往上聚成十组教育主张：爱、劳动、自然、健康、集体、教师、评价、家庭、自我教育……</p>
-      <span class="go">看地图 →</span>
-    </a>
-    <a class="portal-card" href="sources.html">
-      <div class="icon">📚</div>
-      <h3>书源与作品地图</h3>
-      <p>查看已登记书源、OCR 状态、作品总清单与缺口，了解每张卡背后的书从哪里来。</p>
-      <span class="go">看书源 →</span>
-    </a>
-    <a class="portal-card" href="stories.html">
-      <div class="icon">📖</div>
-      <h3>《做人的故事》541 篇</h3>
-      <p>按原书页码顺序浏览全部 541 个故事卡：短原文摘录 + 中文转述 + 教育应用 + 出处核对。</p>
-      <span class="go">看故事 →</span>
-    </a>
-    <a class="portal-card" href="coverage.html">
-      <div class="icon">📊</div>
-      <h3>覆盖报告</h3>
-      <p>44 篇美德故事、113 条官方书目、五卷本来源分布与全库质量审计结果。</p>
-      <span class="go">看报告 →</span>
-    </a>
-    <a class="portal-card" href="latest.html">
-      <div class="icon">🆕</div>
-      <h3>最近更新</h3>
-      <p>按卡片 ID 倒序看最近新增的内容，方便回看新补的卡片。</p>
-      <span class="go">看更新 →</span>
-    </a>
-    <a class="portal-card" href="guide.html">
-      <div class="icon">🧭</div>
-      <h3>使用指南</h3>
-      <p>5 分钟上手：按专题、按问题、按故事三种用法，以及引用、导出和 Agent 接入。</p>
-      <span class="go">看指南 →</span>
-    </a>
-    <a class="portal-card" href="https://github.com/craeatZeven/sukhomlinsky-education-kb/blob/master/INDEX.md" target="_blank" rel="noopener">
-      <div class="icon">🧩</div>
-      <h3>Markdown 底座</h3>
-      <p>人和 AI 共用同一份数据：INDEX.md、cards/、sources/、SKILL.md，可直接被 Agent 加载。</p>
-      <span class="go">看仓库 →</span>
-    </a>
+  <section>
+    <h2 class="section-title">读内容</h2>
+    <p class="section-sub">按目的进入正文——专题、问题、案例、故事四条路。</p>
+    <div class="grid">
+      <a class="portal-card" href="topics.html">
+        <div class="icon">🧭</div>
+        <h3>按教育专题</h3>
+        <p>12 个专题：每个都有核心判断、可操作方法、跨书综合和对应卡片。</p>
+        <span class="go">看专题 →</span>
+      </a>
+      <a class="portal-card" href="problem.html">
+        <div class="icon">🎯</div>
+        <h3>按真实问题</h3>
+        <p>输入“孩子说谎”“后进生”“坐不住”，返回苏霍姆林斯基的想法、案例与卡片。</p>
+        <span class="go">找答案 →</span>
+      </a>
+      <a class="portal-card" href="cases.html">
+        <div class="icon">🧩</div>
+        <h3>按困境案例</h3>
+        <p>16 个教育困境反查知识库，给出可执行建议与对应原文。</p>
+        <span class="go">看案例 →</span>
+      </a>
+      <a class="portal-card" href="stories.html">
+        <div class="icon">📖</div>
+        <h3>按故事读</h3>
+        <p>《做人的故事》541 篇，按原书页码顺序通读。</p>
+        <span class="go">看故事 →</span>
+      </a>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">看结构</h2>
+    <p class="section-sub">这个库长什么样、每张卡从哪来、覆盖到哪一步。</p>
+    <div class="rows rows--plain" id="structureRows">
+      <a class="row row-link" href="clusters.html">
+        <span class="row-title">思想地图</span>
+        <span class="row-desc">十组教育主张，以及主题之间怎么连起来</span>
+        <span class="row-go">看地图 →</span>
+      </a>
+      <a class="row row-link" href="sources.html">
+        <span class="row-title">书源与作品</span>
+        <span class="row-desc">13 个书源、OCR 状态、作品总清单与缺口</span>
+        <span class="row-go">看书源 →</span>
+      </a>
+      <a class="row row-link" href="coverage.html">
+        <span class="row-title">覆盖报告</span>
+        <span class="row-desc">卡片量、来源与主题分布、44 篇美德故事与 113 条官方书目核对结果</span>
+        <span class="row-go">看报告 →</span>
+      </a>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">用起来</h2>
+    <p class="section-sub">怎么用、最近补了什么、怎么接进你自己的流程。</p>
+    <div class="rows rows--plain">
+      <a class="row row-link" href="guide.html">
+        <span class="row-title">使用指南</span>
+        <span class="row-desc">5 分钟上手：三种用法、一张卡里有什么、引用与导出</span>
+        <span class="row-go">看指南 →</span>
+      </a>
+      <a class="row row-link" href="latest.html">
+        <span class="row-title">最近更新</span>
+        <span class="row-desc">按编号倒序看最新补入的卡片</span>
+        <span class="row-go">看更新 →</span>
+      </a>
+      <a class="row row-link" href="https://github.com/craeatZeven/sukhomlinsky-education-kb/blob/master/INDEX.md" target="_blank" rel="noopener">
+        <span class="row-title">Markdown 底座</span>
+        <span class="row-desc">INDEX.md、cards/、sources/、SKILL.md——人和 AI 共用同一份数据</span>
+        <span class="row-go">看仓库 ↗</span>
+      </a>
+    </div>
   </section>
 
   <section>

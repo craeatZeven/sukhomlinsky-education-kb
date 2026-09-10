@@ -135,6 +135,10 @@ a:hover { color: var(--accent); text-decoration-color: var(--accent); }
 .portal-card .go { display: inline-block; margin-top: 12px; color: var(--accent); font-size: 14px; font-weight: 700; }
 .badge { display: inline-block; font-size: 12px; font-weight: 400; padding: 2px 8px; border-radius: var(--radius-archive); background: transparent; border: 1px solid var(--line); color: var(--soft); letter-spacing: .02em; }
 .badge a { text-decoration: none; }
+a.badge { text-decoration: none; }
+a.badge:hover { border-color: color-mix(in srgb, var(--accent) 38%, var(--line)); color: var(--accent); }
+.card-top .badge + .badge, .keyfacts + .badge { margin-left: 6px; }
+.card-top > div > .badge { margin-right: 6px; }
 .meta { color: var(--soft); font-size: 14px; }
 .ref { font-family: var(--mono); font-size: 12px; letter-spacing: .02em; line-height: 1.8; color: var(--soft); }
 .card-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 8px; flex-wrap: wrap; }
@@ -346,16 +350,30 @@ footer a { color: var(--accent); text-decoration: none; }
 .card--reading .record,
 .card--reading .keyfacts { max-width: var(--read); }
 .card--reading .excerpt {
-  font-size: 21px; line-height: 1.6; padding-left: 34px; padding-top: 2px;
+  font-size: 21px; line-height: 1.7; padding-left: 40px; padding-top: 2px;
 }
-.card--reading .excerpt::before { font-size: 58px; top: -12px; left: -2px; opacity: .2; }
-.card--reading .cn { font-size: 17px; }
+/* 悬挂大引号：本页内容本身就是引文，这是「内容即装饰」的机会（Stripe Press 做法） */
+.card--reading .excerpt::before { font-size: 68px; top: -16px; left: -2px; opacity: .18; }
+.card--reading .excerpt + .excerpt { margin-top: 20px; }
+.card--reading .cn { font-size: 17px; margin-top: 22px; }
+/* 详情页的标签是核心导航入口（点进该主题的全部卡片），比列表里更实一点 */
+.card--reading .badge { color: var(--ink); border-color: color-mix(in srgb, var(--ink) 22%, transparent); padding: 3px 10px; }
 #topicBody, #topicBody p, #topicBody li { max-width: var(--read); }
+/* 说明类页面（使用指南等）也走阅读栏宽 */
+.reading > section > p,
+.reading > section > ul,
+.reading > section > ol,
+.reading > section > blockquote,
+.reading > section > .sub,
+.reading > section > .callout { max-width: var(--read); }
+/* 详情页标题区：主题标签带计数，行距松一点 */
+.card--reading .card-top { gap: 8px 0; margin-bottom: 4px; }
 
 /* 「关于本卡」溯源块（V&A 做法：让页面显得有制度，不是个人笔记） */
 .record {
-  margin-top: 22px; padding-top: 14px;
+  margin-top: 24px; padding-top: 14px;
   border-top: 1px solid var(--line);
+  max-width: var(--read);
   font-family: var(--mono); font-size: 12px; line-height: 1.9; letter-spacing: .02em; color: var(--soft);
 }
 .record b { color: var(--ink); font-weight: 500; }
@@ -378,4 +396,8 @@ footer a:hover { color: var(--accent); }
 
 @media print {
   footer { background: none; color: #000; }
+  /* 打印：目录行不要被截断在页缝里，元信息压成纯黑 */
+  .rows .row { break-inside: avoid; page-break-inside: avoid; background: none !important; }
+  .rows .row-quote, .rows .row-meta, .rows .row-title { color: #000 !important; }
+  .row-flag, .theme-nav, .src-pop { display: none !important; }
 }

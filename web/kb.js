@@ -186,6 +186,15 @@
       return t;
     },
 
+    /* 主题标签：可点进专题，并显示该主题卡片数（V&A 做法——标签即检索入口且可丈量） */
+    topicBadge: function (slug) {
+      var n = 0;
+      var list = (KB.meta && KB.meta.topics) || [];
+      for (var i = 0; i < list.length; i++) if (list[i].slug === slug) { n = list[i].cards || 0; break; }
+      return '<a class="badge" href="topic.html?slug=' + encodeURIComponent(slug) + '">' +
+        KB.esc(KB.topicTitle(slug)) + (n ? ' · ' + n : '') + '</a>';
+    },
+
     /* 目录行：列表页专用（档案版式）。
        一行放三类信息——引文 / 题名与类型 / 出处与主题；整行可点。 */
     cardRowHTML: function (card) {

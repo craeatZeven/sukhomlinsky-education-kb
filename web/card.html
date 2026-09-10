@@ -62,12 +62,43 @@ function renderCard(c, error){
       <div style="margin-top:14px;display:flex;gap:10px;flex-wrap:wrap">
         <a class="chip" style="text-decoration:none" href="explore.html">← 去主题浏览</a>
         <a class="chip" style="text-decoration:none" href="search.html">用检索页查找</a>
-      </div>`;
+        <button class="chip" id="anotherBtn" type="button">随机看一张</button>
+      </div>
+      <h2 class="section-title" style="margin-top:26px">或者，从这里开始</h2>
+      <div class="rows" id="fallbackRows"><p class="section-sub">正在取几张卡片…</p></div>`;
+    document.getElementById("anotherBtn").addEventListener("click", ()=>{
+      KB.loadIds().then(ids => {
+        const id = ids[Math.floor(Math.random()*ids.length)];
+        location.href = "card.html?id=" + encodeURIComponent(id) + "#" + id;
+      }).catch(()=>{});
+    });
+    /* 空状态不给人死路：给三张真实卡片（WIP 的 404 做法） */
+    KB.loadIds().then(ids => {
+      const picks = [];
+      const seen = new Set();
+      while (picks.length < 3 && seen.size < ids.length) {
+        const id = ids[Math.floor(Math.random()*ids.length)];
+        if (!seen.has(id)) { seen.add(id); picks.push(id); }
+      }
+      return Promise.all(picks.map(id => KB.loadCard(id).catch(()=>null)));
+    }).then(cards => {
+      const box = document.getElementById("fallbackRows");
+      if (!box) return;
+      const list = cards.filter(Boolean);
+      if (!list.length) { box.innerHTML = '<p class="section-sub">卡片数据暂不可用。</p>'; return; }
+      box.innerHTML = list.map(c => KB.cardRowHTML({
+        id: c.id, type: c.type, title: c.title, source: c.source, topics: c.topics, tags: c.tags,
+        ref: c.ref, preview: (c.excerpts && c.excerpts[0]) || c.excerpt || "", n: (c.excerpts||[]).length,
+      })).join("");
+    }).catch(()=>{
+      const box = document.getElementById("fallbackRows");
+      if (box) box.innerHTML = '<p class="section-sub">卡片数据暂不可用。</p>';
+    });
     return;
   }
   document.title = c.id + " · " + c.title + " · 苏霍姆林斯基教育知识库";
   document.getElementById("cardTitle").textContent = c.title;
-  const topicBadges = (c.topics||[]).map(s=>`<a class="badge" style="margin-right:6px;text-decoration:none" href="topic.html?slug=${encodeURIComponent(s)}">${KB.esc(KB.topicTitle(s))}</a>`).join("");
+  const topicBadges = (c.topics||[]).map(s=>KB.topicBadge(s)).join("");
   const exps = (c.excerpts && c.excerpts.length) ? c.excerpts : (c.excerpt ? [c.excerpt] : []);
   const excerptsHtml = exps.map(q=>`<div class="excerpt" style="margin-top:10px">${KB.esc(q)}</div>`).join("");
   const tags = (c.tags||[]).map(t=>KB.TAG_LABELS[t]||t);
@@ -85,19 +116,19 @@ function renderCard(c, error){
       <dt>出版信息</dt><dd>${KB.esc(KB.refShort(ref, c.source)) || "—"}</dd>
     </dl>
     ${excerptsHtml}
-    ${c.cn?`<div class="cn" style="margin-top:16px"><b>中文转述：</b>${KB.esc(c.cn)}</div>`:""}
+    ${c.cn?`<div class="cn"><b>中文转述：</b>${KB.esc(c.cn)}</div>`:""}
     ${tags.length?`<div style="margin-top:12px">${tags.map(t=>`<span class="meta" style="border:1px solid var(--line);border-radius:2px;padding:1px 8px;margin-right:6px">${KB.esc(t)}</span>`).join("")}</div>`:""}
-    <div style="margin-top:18px;display:flex;gap:10px;flex-wrap:wrap">
+    <div class="record">
+      <b>关于本卡</b>　编号 ${KB.esc(c.id)}　录入 ${KB.esc(c.created || "—")}${c.updated && c.updated !== c.created ? `　最近校订 ${KB.esc(c.updated)}` : ""}${c.reviewed_by ? `　校验 ${KB.esc(c.reviewed_by)}` : ""}<br>
+      原文摘自上述出版物，OCR 转写后逐段回查；「中文转述」为编者对该段的准确复述，不是原文。<br>
+      发现错漏可在 <a href="https://github.com/craeatZeven/sukhomlinsky-education-kb/issues" target="_blank" rel="noopener">仓库 issue</a> 提出，或在 <a href="../INDEX.md" target="_blank" rel="noopener">INDEX.md</a> 里核对原始记录。
+    </div>
+    <div style="margin-top:16px;display:flex;gap:10px;flex-wrap:wrap">
       <button class="chip" id="copyBtn" type="button">复制引用</button>
       <button class="chip" id="shareBtn" type="button">分享</button>
       <button class="chip" id="printBtn" type="button">打印 / 存 PDF</button>
       <a class="chip" style="text-decoration:none" href="explore.html?source=${encodeURIComponent(c.source)}">查看同来源卡片 →</a>
       <a class="chip" style="text-decoration:none" href="../INDEX.md" target="_blank" rel="noopener">在 INDEX 中查看 ↗</a>
-    </div>
-    <div class="record">
-      <b>关于本卡</b>　编号 ${KB.esc(c.id)}　录入 ${KB.esc(c.created || "—")}${c.updated && c.updated !== c.created ? `　最近校订 ${KB.esc(c.updated)}` : ""}${c.reviewed_by ? `　校验 ${KB.esc(c.reviewed_by)}` : ""}<br>
-      原文摘自上述出版物，OCR 转写后逐段回查；「中文转述」为编者对该段的准确复述，不是原文。<br>
-      发现错漏可在 <a href="https://github.com/craeatZeven/sukhomlinsky-education-kb/issues" target="_blank" rel="noopener">仓库 issue</a> 提出，或在 <a href="../INDEX.md" target="_blank" rel="noopener">INDEX.md</a> 里核对原始记录。
     </div>`;
   document.getElementById("copyBtn").addEventListener("click", ()=>{
     if(navigator.clipboard) navigator.clipboard.writeText(citation).then(()=>{document.getElementById("copyBtn").textContent="已复制";});

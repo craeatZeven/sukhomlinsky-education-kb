@@ -98,14 +98,17 @@ def classify(card: dict, spec: dict, score, haystack: dict[str, str]) -> dict:
     candidates: set[str] = set()
     mapped: set[str] = set()
     first_choices: list[str] = []
+    assignable = {e['id'] for e in spec['entries'] if not e.get('overview')}   # 总纲页不持卡
     for t in card.get('topics', []):
         m = spec['mapping'].get(t)
         if not m:
             continue
-        mapped.add(m['primary'])
-        first_choices.append(m['primary'])
-        mapped.update(m['secondary'])
-    keyword_hits = {e['id'] for e in spec['entries'] if score(e['keywords'], cid) > 0}
+        if m['primary'] in assignable:
+            mapped.add(m['primary'])
+            first_choices.append(m['primary'])
+        mapped.update(s for s in m['secondary'] if s in assignable)
+    keyword_hits = {e['id'] for e in spec['entries']
+                    if e['id'] in assignable and score(e['keywords'], cid) > 0}
     candidates = mapped | keyword_hits
     if not candidates:
         return {'primary': None, 'facets': [], 'see_also': [], 'reason': '无旧标签映射且无关键词命中'}

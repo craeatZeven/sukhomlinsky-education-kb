@@ -136,6 +136,42 @@ def main() -> int:
     if '--write' in sys.argv:
         report.write_text('\n'.join(out) + '\n', encoding='utf-8')
         print(f'\n已写入 {report}')
+
+    # 5) 人工复核清单（只列"确信度低"的，附判断依据与备选）
+    review = []
+    for c in cards:
+        r = results[c['id']]
+        if c['type'] == 'case' or r['reason'].startswith('人工范围内命中'):
+            continue
+        hits = sorted(((score(entry[e['id']]['keywords'], c['id']), e['id']) for e in spec['entries']),
+                      key=lambda x: (-x[0], x[1]))
+        alts = ' · '.join(f'{entry[eid]["name"]}（{s:.1f}）' for s, eid in hits[:3] if s > 0 and eid != r['primary'])
+        review.append((c, r, alts or '（除建议条目外无其他关键词命中）'))
+    review.sort(key=lambda x: x[0]['id'])
+    rl = ['# 分类人工复核清单', '',
+          f'迁移预演中**确信度较低**的卡片，共 {len(review)} 张（其余 '
+          f'{len(essay) - len(review)} 张论述卡由人工旧标签直接认定，无需复核）。',
+          '',
+          '判断依据：规则会优先在「旧标签划定的候选范围」内选条目；',
+          '下列卡片在该范围内**没有关键词证据**，因此由关键词单独定夺或回落人工首选——最可能误判。',
+          '', '| 卡片 | 类型 | 旧标签 | 建议条目 | 判断依据 | 关键词命中的其他条目 |',
+          '|---|---|---|---|---|---|']
+    for c, r, alts in review:
+        prim = f"{r['primary']} {entry[r['primary']]['name']}" if r['primary'] else '—'
+        rl.append(f"| {c['id']} | {c['type']} | {', '.join(c.get('topics', []))} | {prim} | {r['reason']} | {alts} |")
+    rl += ['', '## 逐条内容（判断用）', '']
+    for c, r, alts in review:
+        prim = f"{r['primary']} {entry[r['primary']]['name']}" if r['primary'] else '—'
+        rl += [f"### {c['id']}　{c.get('title', '')}", '',
+               f"- 旧标签：{', '.join(c.get('topics', []))}",
+               f"- 建议：**{prim}**（{r['reason']}）",
+               f"- 其他命中：{alts}",
+               f"- 转述：{(c.get('cn') or '')[:160]}",
+               f"- 出处：{(c.get('ref') or '')[:90]}", '']
+    review_path = ROOT / 'docs' / 'classification-review.md'
+    if '--write' in sys.argv:
+        review_path.write_text('\n'.join(rl) + '\n', encoding='utf-8')
+        print(f'已写入 {review_path}（{len(review)} 张待复核）')
     return 0
 
 

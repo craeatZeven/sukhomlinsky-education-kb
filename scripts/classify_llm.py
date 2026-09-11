@@ -107,7 +107,10 @@ def report_facets(out: dict, spec: dict) -> None:
     def line(label: str, got: int, need: str) -> str:
         return f"  {label}：{got}/{n}（{got / n * 100:.1f}%）　门槛 {need}"
 
-    print("\n故事体分面标记（关键词直接命中，门槛见 docs/facet-labeling-plan.md）：")
+    srcs = {c.get("facet_source") for _cid, c in cases}
+    label = {"keyword": "关键词直接命中", "judge": "逐卡判读"}.get(
+        srcs.pop() if len(srcs) == 1 else "", "来源混合：" + "、".join(sorted(map(str, srcs))))
+    print(f"\n故事体分面标记（{label}；门槛见 docs/facet-labeling-plan.md）：")
     print(line("① 至少落进 1 个分面", len(at_least_one), "≥ 95%"))
     print(line("② 至少落进 2 个不同字段", len(two_fields), "≥ 85%"))
     print(line("⑤ 零标记", len(zero), "≤ 5%"))
@@ -261,19 +264,38 @@ def cmd_collect(write: bool = True):
                 out[k]["primary"] = ov["primary"]
                 out[k]["source"] = "manual"
                 out[k]["override_why"] = ov["why"]
+        # 分面标记的来源可能是关键词（第一轮）或逐卡判读（第二轮，过门槛的那个）。
+        # **判读结果不能被关键词重算覆盖**——2026-09-11 实测踩到过这个坑：
+        # `collect` 一跑就把 673 张的判读分面全换成了关键词分面，
+        # 而关键词那一版的一致率只有 61.4%（没过门槛）。所以这里以"已有的判读结果"优先。
+        prev = {}
+        if RESULT.exists():
+            try:
+                prev = json.loads(RESULT.read_text(encoding="utf-8"))
+            except Exception:
+                prev = {}
+        kept = 0
         for c in cards():
             if c["type"] == "case":
+                old = prev.get(c["id"]) or {}
+                if old.get("facet_source") == "judge" and old.get("facets") is not None:
+                    facets, src = old["facets"], "judge"
+                    kept += 1
+                else:
+                    facets, src = facets_for(c, spec), "keyword"
                 out[c["id"]] = {"primary": None, "type": "case",
                                 "title": c.get("title", ""),
                                 "old_topics": c.get("topics", []),
-                                "facets": facets_for(c, spec),
+                                "facets": facets,
                                 "tags": tags_for(c, spec),
-                                "facet_source": "keyword"}
+                                "facet_source": src}
         RESULT.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
         print(f"\n已写入 {RESULT}（{len(out)} 张）")
         print(f"人工裁定表命中 {len(spec.get('override', {}))} 条，"
               f"其中改判 {len(applied)} 条："
               + " · ".join(f"{k} {a}→{b}" for k, a, b in applied))
+        if kept:
+            print(f"保留已有判读分面 {kept} 张（facet_source=judge），未用关键词重算")
         report_facets(out, spec)
         write_review(out, entry, conflicts)
     elif write:

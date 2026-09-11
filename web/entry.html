@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>条目 · 苏霍姆林斯基教育知识库</title>
+<link rel="stylesheet" href="style.css?v=20260907" />
+</head>
+<body data-theme="green">
+<nav class="topnav">
+  <div class="inner">
+    <a class="brand" href="index.html">苏霍姆林斯基教育知识库</a>
+    <div class="nav-links">
+      <a class="nav-link" href="index.html">首页</a>
+      <a class="nav-link active" href="entries.html">分类条目</a>
+      <a class="nav-link" href="facets.html">故事分面</a>
+      <a class="nav-link" href="explore.html">主题浏览</a>
+      <a class="nav-link" href="sources.html">书源</a>
+    </div>
+  </div>
+</nav>
+
+<header class="page-head">
+  <div class="wrap">
+    <div class="eyebrow" id="entryEyebrow">Entry</div>
+    <h1 id="entryTitle">条目</h1>
+    <p id="entryRule"></p>
+    <div class="stats stats--quiet" id="entryStats" style="justify-content:center"></div>
+  </div>
+</header>
+
+<main class="wrap">
+  <p style="margin:0 0 16px"><a href="index.html">首页</a> / <a href="entries.html">分类条目</a> / <span id="crumb">条目</span></p>
+
+  <section id="primarySection">
+    <h2 class="section-title" id="primaryTitle">主归属</h2>
+    <p class="section-sub" id="primarySub"></p>
+    <div class="rows" id="cardList"></div>
+    <div class="load-wrap"><button id="loadMore" class="chip" type="button" style="display:none">加载更多卡片</button></div>
+    <div class="load-wrap" style="margin-top:0">
+      <button id="exportEntryJson" class="chip" type="button">导出本条目 JSON</button>
+      <button id="exportEntryCsv" class="chip" type="button">导出本条目 CSV</button>
+    </div>
+  </section>
+
+  <section id="crossSection">
+    <h2 class="section-title">交叉参见</h2>
+    <p class="section-sub" id="crossSub"></p>
+    <div class="rows" id="crossList"></div>
+    <div class="load-wrap"><button id="crossMore" class="chip" type="button" style="display:none">加载更多参见卡片</button></div>
+  </section>
+
+  <section>
+    <h2 class="section-title">同一角度下的其他条目</h2>
+    <p class="section-sub" id="siblingSub"></p>
+    <div class="chips" id="siblings" style="justify-content:flex-start"></div>
+  </section>
+
+  <section>
+    <div class="pending-note">
+      <b>故事体卡片不走条目主归属</b>
+      <p>全库的故事体卡片（case）没有 <code>primary</code>，它们按「角色 / 场景 / 事件或情绪」三个字段、十七个分面组织，
+      请从 <a href="facets.html">故事分面</a> 进入。</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><a href="index.html">← 返回首页</a> · 规格 <a href="../taxonomy.md">taxonomy.md</a> · 数据 <a href="../classification.json">classification.json</a></p>
+  </div>
+</footer>
+
+<script src="kb.js"></script>
+<script src="theme.js?v=20260907"></script>
+<script>
+const PAGE_SIZE = 40;
+
+function fail(msg){
+  document.getElementById("entryTitle").textContent = "未找到该条目";
+  document.getElementById("entryRule").textContent = msg;
+  document.getElementById("primarySub").textContent = "";
+  document.getElementById("crossSub").textContent = "";
+  document.getElementById("siblings").innerHTML = "";
+  document.getElementById("cardList").innerHTML =
+    `<p class="section-sub">${KB.esc(msg)} <a href="entries.html">回到条目总览 →</a></p>`;
+  document.getElementById("crossSection").style.display = "none";
+}
+
+function paged(boxId, btnId, cards, emptyText){
+  const box = document.getElementById(boxId);
+  const btn = document.getElementById(btnId);
+  let shown = PAGE_SIZE;
+  const paint = () => {
+    box.innerHTML = cards.slice(0, shown).map(c => KB.cardRowHTML(c)).join("") ||
+      `<p class="section-sub">${KB.esc(emptyText)}</p>`;
+    btn.style.display = cards.length > shown ? "inline-block" : "none";
+  };
+  paint();
+  btn.addEventListener("click", () => { shown += PAGE_SIZE; paint(); });
+}
+
+function download(filename, text, type){
+  const blob = new Blob([text], {type});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url; a.download = filename; document.body.appendChild(a); a.click();
+  a.remove(); URL.revokeObjectURL(url);
+}
+const csvEscape = v => {
+  const s = String(v == null ? "" : v).replace(/"/g, '""');
+  return /[",\n]/.test(s) ? `"${s}"` : s;
+};
+
+document.addEventListener("DOMContentLoaded", async () => {
+  const code = (new URLSearchParams(location.search).get("code") || "").trim();
+  let meta;
+  try { meta = await KB.ready(); }
+  catch(e){ fail("数据加载失败：" + e.message); return; }
+
+  const info = KB.entryInfo(code);
+  if(!code || !info){ fail(`没有这个条目（${code || "空参数"}）。条目编号形如 A11。`); return; }
+
+  let entry;
+  try { entry = await KB.loadEntry(code); }
+  catch(e){ fail("条目数据加载失败：" + e.message); return; }
+
+  const layer = KB.layerInfo(info.layer);
+  document.title = `${entry.code} ${entry.name} · 苏霍姆林斯基教育知识库`;
+  document.getElementById("entryEyebrow").textContent = `Entry · ${info.layer}`;
+  document.getElementById("entryTitle").textContent = `${entry.code} ${entry.name}`;
+  document.getElementById("entryRule").textContent = `收录口径：${entry.rule}`;
+  document.getElementById("crumb").textContent = `${entry.code} ${entry.name}`;
+
+  const cards = entry.cards || [];
+  const cross = entry.cross || [];
+  if(info.tag){
+    /* 复分标签（当前只有 A18 学习困难学生）：本身不持卡片，只给相关卡片加标记。
+       分片里的 cards 就是"带此标记的卡"，张数一律由它算，不写死。 */
+    document.getElementById("entryStats").innerHTML = `
+      <div class="stat"><b>${cards.length}</b><span>带此标记的卡</span></div>
+      <span class="meta">复分标签 · 不参与主归属分区</span>`;
+  } else {
+    document.getElementById("entryStats").innerHTML = `
+      <div class="stat"><b>${cards.length}</b><span>主归属卡</span></div>
+      <div class="stat"><b>${cross.length}</b><span>被参见</span></div>
+      <div class="stat"><b>${layer ? KB.esc(layer.name) : KB.esc(info.layer)}</b><span>所属角度</span></div>`;
+  }
+
+  /* 复分标签不持主归属，这一段的小标题与说明都要说清"下面是带标记的卡"，不能叫主归属 */
+  document.getElementById("primaryTitle").textContent = info.tag ? "带此标记的卡" : "主归属";
+  document.getElementById("primarySub").innerHTML = info.tag
+    ? `<b>${KB.esc(entry.code)} ${KB.esc(entry.name)}</b> 是复分标签：它本身不持卡片，只给「谈这类孩子」的卡加标记——
+       每张卡的主归属仍按内容定。下面列出的 ${cards.length} 张就是带此标记的卡，每行末尾标出的是那张卡自己的主归属。`
+    : `中心主张落在「${KB.esc(entry.name)}」的 ${cards.length} 张卡。收录口径：${KB.esc(entry.rule)}`;
+  paged("cardList", "loadMore", cards, info.tag ? "暂无带此标记的卡片。" : "该条目暂无主归属卡片。");
+
+  if(cross.length){
+    document.getElementById("crossSub").innerHTML =
+      `另有 <b>${cross.length}</b> 张卡把「${KB.esc(entry.name)}」列为参见——它们的主条目是别处，
+       但同样讲了这件事，所以查这个话题时必须一起看。每行末尾标出的是那张卡自己的主归属。`;
+    paged("crossList", "crossMore", cross, "暂无交叉参见。");
+  } else {
+    document.getElementById("crossSection").style.display = "none";
+  }
+
+  const siblings = layer ? (layer.entries || []).filter(c => c !== entry.code) : [];
+  document.getElementById("siblingSub").innerHTML = layer
+    ? `「${KB.esc(layer.name)}」这个角度回答：<b>${KB.esc(layer.question)}</b>`
+    : (info.tag ? `${KB.esc(info.layer)}是复分标签，不属于五个观察角度（${(meta.layers || []).map(l => KB.esc(l.name)).join(" / ")}），所以没有"同角度的其他条目"。` : "");
+  document.getElementById("siblings").innerHTML = siblings.map(c => {
+    const e = KB.entryInfo(c);
+    return `<a class="chip" style="text-decoration:none" href="entry.html?code=${encodeURIComponent(c)}">${KB.esc(c)} ${KB.esc(e ? e.name : "")}</a>`;
+  }).join("") || `<span class="meta">${info.tag ? "复分标签不参与主归属分区，没有同级条目" : "该角度下暂无其他条目"}</span>`;
+
+  document.getElementById("exportEntryJson").addEventListener("click", () => {
+    download(`${entry.code}.json`, JSON.stringify(entry, null, 2), "application/json");
+  });
+  document.getElementById("exportEntryCsv").addEventListener("click", () => {
+    const cols = ["id","part","type","title","source","primary","seealso","ref"];
+    const rows = [cols.join(",")].concat(
+      cards.map(c => ({...c, part: info.tag ? "带此标记" : "主归属"}))
+        .concat(cross.map(c => ({...c, part: "参见"})))
+        .map(c => cols.map(k => {
+          if(k === "seealso") return csvEscape((c.seealso||[]).join("|"));
+          if(k === "ref") return csvEscape(KB.refText(c.ref));
+          return csvEscape(c[k]);
+        }).join(",")));
+    download(`${entry.code}.csv`, "\ufeff" + rows.join("\n"), "text/csv;charset=utf-8");
+  });
+});
+</script>
+</body>
+</html>

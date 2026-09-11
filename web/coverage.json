@@ -81,11 +81,11 @@
   "types": [
     {
       "type": "case",
-      "cards": 668
+      "cards": 673
     },
     {
       "type": "quote",
-      "cards": 260
+      "cards": 259
     },
     {
       "type": "principle",
@@ -97,7 +97,7 @@
     },
     {
       "type": "practice",
-      "cards": 100
+      "cards": 96
     }
   ],
   "topics": [

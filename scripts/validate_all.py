@@ -21,6 +21,10 @@ SCRIPTS = [
     'coverage_volumes.py',
     'build_site.py',
     'build_shards.py',
+    # 必须排在两个 build 之后：它拿 classification.json 对账 web/data/ 的分片。
+    # 这是唯一能拦住「分片悄悄和分类脱节」的一步（`collect` 曾经把判读分面
+    # 重算成没过门槛的关键词分面，别的检查全都没报错）。
+    'check_classification_shards.py',
 ]
 
 

@@ -31,11 +31,11 @@
 
 | 类型 | 数量 |
 |---|---:|
-| `case` | 668 |
-| `quote` | 260 |
+| `case` | 673 |
+| `quote` | 259 |
 | `principle` | 194 |
 | `method` | 164 |
-| `practice` | 100 |
+| `practice` | 96 |
 
 ## 主题分布
 

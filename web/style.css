@@ -139,6 +139,26 @@ a.badge { text-decoration: none; }
 a.badge:hover { border-color: color-mix(in srgb, var(--accent) 38%, var(--line)); color: var(--accent); }
 .card-top .badge + .badge, .keyfacts + .badge { margin-left: 6px; }
 .card-top > div > .badge { margin-right: 6px; }
+/* 分类条目徽章：主归属实线（重）· 参见虚线（轻）——一句话里就能看出"这是哪一条、还涉及哪几条" */
+.badge--entry { color: var(--ink); border-color: color-mix(in srgb, var(--accent) 45%, var(--line)); }
+a.badge--entry:hover { background: color-mix(in srgb, var(--accent) 8%, transparent); }
+a.badge--see { color: var(--soft); border-style: dashed; }
+/* 条目归属块（条目页 / 卡片详情）：主归属 + 参见，跟着标题走 */
+.entry-attr { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 8px; margin: 14px 0 0; }
+.entry-attr .k { font-family: var(--mono); font-size: 12px; letter-spacing: .02em; color: var(--soft); }
+/* 观察角度的说明行（条目总览） */
+.angle-note { color: var(--soft); margin: -8px 0 18px; }
+.angle-note b { color: var(--ink); font-weight: 500; }
+/* 「分面标记待补」这类如实告知的提示条：黄底不报警，但要显眼 */
+.pending-note {
+  border: 1px solid color-mix(in srgb, var(--accent) 35%, var(--line));
+  border-left: 4px solid var(--accent);
+  border-radius: var(--radius-archive);
+  background: color-mix(in srgb, var(--accent) 6%, var(--card));
+  padding: 14px 18px; margin: 0 0 22px; color: var(--soft); font-size: 14px;
+}
+.pending-note b { color: var(--ink); font-weight: 500; }
+.pending-note p { margin: 6px 0 0; }
 .meta { color: var(--soft); font-size: 14px; }
 .ref { font-family: var(--mono); font-size: 12px; letter-spacing: .02em; line-height: 1.8; color: var(--soft); }
 .card-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 8px; flex-wrap: wrap; }
@@ -317,6 +337,8 @@ footer a { color: var(--accent); text-decoration: none; }
 .rows .row-meta > * + *::before { content: "·"; margin-right: 10px; color: color-mix(in srgb, var(--soft) 45%, transparent); }
 .rows .row-title { font-family: var(--serif); font-size: 14px; letter-spacing: 0; color: var(--ink); }
 .rows .row-flag { color: color-mix(in srgb, var(--accent) 75%, var(--soft)); }
+/* 目录行里的条目归属：整行已被 <a> 包住，只能作文字，故给一点颜色当"可读的坐标" */
+.rows .row-meta .row-entry { color: color-mix(in srgb, var(--accent) 68%, var(--soft)); }
 @media (max-width: 680px) {
   .rows .row { padding: 16px 0 14px; }
   .rows .row-quote { font-size: 17px; -webkit-line-clamp: 3; }

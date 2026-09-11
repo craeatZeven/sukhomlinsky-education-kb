@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>故事分面 · 苏霍姆林斯基教育知识库</title>
+<link rel="stylesheet" href="style.css?v=20260907" />
+</head>
+<body data-theme="green">
+<nav class="topnav">
+  <div class="inner">
+    <a class="brand" href="index.html">苏霍姆林斯基教育知识库</a>
+    <div class="nav-links">
+      <a class="nav-link" href="index.html">首页</a>
+      <a class="nav-link" href="entries.html">分类条目</a>
+      <a class="nav-link active" href="facets.html">故事分面</a>
+      <a class="nav-link" href="explore.html">主题浏览</a>
+      <a class="nav-link" href="sources.html">书源</a>
+    </div>
+  </div>
+</nav>
+
+<header class="page-head">
+  <div class="wrap">
+    <div class="eyebrow" id="facetEyebrow">Facet</div>
+    <h1 id="facetTitle">故事分面</h1>
+    <p id="facetSub"></p>
+    <div class="stats" id="facetStats"></div>
+  </div>
+</header>
+
+<main class="wrap">
+  <p style="margin:0 0 16px"><a href="index.html">首页</a> / <a href="facets.html">故事分面</a> / <span id="crumb">分面</span></p>
+
+  <section>
+    <h2 class="section-title">这个分面下的故事</h2>
+    <p class="section-sub" id="listSub"></p>
+    <div class="rows" id="cardList"></div>
+    <div class="load-wrap"><button id="loadMore" class="chip" type="button" style="display:none">加载更多故事卡</button></div>
+  </section>
+
+  <section>
+    <h2 class="section-title">同一字段下的其他分面</h2>
+    <p class="section-sub" id="siblingSub"></p>
+    <div class="chips" id="siblings" style="justify-content:flex-start"></div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><a href="index.html">← 返回首页</a> · 规格 <a href="../taxonomy.md">taxonomy.md</a> · 标记计划 <a href="../docs/facet-labeling-plan.md">facet-labeling-plan.md</a></p>
+  </div>
+</footer>
+
+<script src="kb.js"></script>
+<script src="theme.js?v=20260907"></script>
+<script>
+const PAGE_SIZE = 40;
+
+function fail(msg){
+  document.getElementById("facetTitle").textContent = "未找到该分面";
+  document.getElementById("facetSub").textContent = msg;
+  document.getElementById("cardList").innerHTML =
+    `<p class="section-sub">${KB.esc(msg)} <a href="facets.html">回到分面总览 →</a></p>`;
+  document.getElementById("siblings").innerHTML = "";
+}
+
+/* 与 entry.html 同一套列表：档案版式行 + 「加载更多」（S6 这类大分面有几百张） */
+function paged(boxId, btnId, cards, emptyText){
+  const box = document.getElementById(boxId);
+  const btn = document.getElementById(btnId);
+  let shown = PAGE_SIZE;
+  const paint = () => {
+    box.innerHTML = cards.slice(0, shown).map(c => KB.cardRowHTML(c)).join("") ||
+      `<p class="section-sub">${KB.esc(emptyText)}</p>`;
+    btn.style.display = cards.length > shown ? "inline-block" : "none";
+  };
+  paint();
+  btn.addEventListener("click", () => { shown += PAGE_SIZE; paint(); });
+}
+
+document.addEventListener("DOMContentLoaded", async () => {
+  const code = (new URLSearchParams(location.search).get("code") || "").trim().toUpperCase();
+  let meta;
+  try { meta = await KB.ready(); }
+  catch(e){ fail("数据加载失败：" + e.message); return; }
+
+  const known = (meta.facets || []).find(f => f.code === code);
+  if(!code || !known){ fail(`没有这个分面（${code || "空参数"}）。分面编号形如 S1。`); return; }
+
+  let facet;
+  try { facet = await KB.loadFacet(code); }
+  catch(e){ fail("分面数据加载失败：" + e.message); return; }
+
+  document.title = `${facet.code} ${facet.name} · 苏霍姆林斯基教育知识库`;
+  document.getElementById("facetEyebrow").textContent = `Facet · ${facet.field}`;
+  document.getElementById("facetTitle").textContent = `${facet.code} ${facet.name}`;
+  document.getElementById("facetSub").textContent =
+    `字段：${facet.field}（${facet.field === "角色" ? "谁在场" : facet.field === "场景" ? "在哪发生" : "发生了什么"}）`;
+  document.getElementById("crumb").textContent = `${facet.code} ${facet.name}`;
+
+  /* 计数一律从 meta.facets 读（分片里的 count 是占位的 0，两处都不写死数字） */
+  const count = (known && known.count) || facet.count || 0;
+  const cards = facet.cards || [];
+  /* siteReady = 全站分面是否已上线（meta.facets_ready）；
+     分片自带 ready 与之取或，任一为真就按可用状态渲染。 */
+  const ready = !!meta.facets_ready || !!facet.ready;
+
+  document.getElementById("facetStats").innerHTML = `
+    <div class="stat"><b>${facet.field}</b><span>字段</span></div>
+    <div class="stat"><b>${count}</b><span>带此标记的故事</span></div>
+    <div class="stat"><b>${cards.length}</b><span>本页可列出的卡片</span></div>`;
+
+  document.getElementById("listSub").innerHTML = ready
+    ? `共 <b>${cards.length}</b> 张带「${KB.esc(facet.name)}」标记的故事卡，按档案版式列出（整行可点，进卡片详情）。`
+    : `该分面已算出 <b>${count}</b> 张带此标记的故事，但数据分片里还没有卡片清单（<code>cards</code> 为空），本页暂时列不出来。`;
+  paged("cardList", "loadMore", cards, ready ? "该分面暂无故事。" : "数据分片里还没有这个分面的卡片清单。");
+
+  const same = (meta.facets || []).filter(f => f.field === facet.field && f.code !== facet.code);
+  document.getElementById("siblingSub").textContent = `同为「${facet.field}」字段的分面：`;
+  document.getElementById("siblings").innerHTML = same.map(f =>
+    `<a class="chip" style="text-decoration:none" href="facet.html?code=${encodeURIComponent(f.code)}">${KB.esc(f.code)} ${KB.esc(f.name)}</a>`
+  ).join("");
+});
+</script>
+</body>
+</html>

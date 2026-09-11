@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", async ()=>{
           <span>${KB.esc(KB.typeLabel(c.type))}</span>
           ${KB.sourcePop(c.source)}
           <span>${KB.esc(c.id)}</span>
-          <span>${(c.topics||[]).map(t=>KB.esc(KB.topicTitle(t))).join(" · ")}</span>
+          <span class="row-entry">${KB.esc(KB.cardMetaText(c))}</span>
         </div>
       </a>`).join("");
   }catch(e){

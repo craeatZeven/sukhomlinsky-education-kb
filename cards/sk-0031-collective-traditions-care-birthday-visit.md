@@ -10,7 +10,7 @@ ref: "把心献给孩子（中文），《我们的集体是一个友爱的大�
 url: ""
 status: reviewed
 created: "2026-09-06"
-updated: "2026-09-06"
+updated: "2026-09-11"
 reviewed_by: "maintainer (source-checked)"
 ---
 
@@ -33,3 +33,4 @@ reviewed_by: "maintainer (source-checked)"
 - source: ba-xin-xian-gei-hai-zi-zh
 - ref: 把心献给孩子（中文），《我们的集体是一个友爱的大家庭》
 - 已核对原文：是（本地中文 EPUB 纯文本）
+- 备注：本卡摘录是**叙述**（三个孩子过生日的经过），本身不含一句可引的主张；主张（集体传统让"关心他人"成为可体验的生活）落在**这项实践本身**上。原计划从出处书《把心献给孩子》补摘一句承载主张的原文，但**该书正文不在本地仓库**（只有 EPUB 登记信息与卡片摘录的检索语料），无法逐字核验，故按规矩**不补、不编**。——2026-09-11 记于 docs/llm-classification-plan.md §9.4

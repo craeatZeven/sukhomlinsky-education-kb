@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>故事分面 · 苏霍姆林斯基教育知识库</title>
+<link rel="stylesheet" href="style.css?v=20260907" />
+</head>
+<body data-theme="green">
+<nav class="topnav">
+  <div class="inner">
+    <a class="brand" href="index.html">苏霍姆林斯基教育知识库</a>
+    <div class="nav-links">
+      <a class="nav-link" href="index.html">首页</a>
+      <a class="nav-link" href="entries.html">分类条目</a>
+      <a class="nav-link active" href="facets.html">故事分面</a>
+      <a class="nav-link" href="explore.html">主题浏览</a>
+      <a class="nav-link" href="sources.html">书源</a>
+    </div>
+  </div>
+</nav>
+
+<header class="page-head">
+  <div class="wrap">
+    <div class="eyebrow">Story Facets</div>
+    <h1>故事分面</h1>
+    <p>故事体卡片不走条目主归属，而是按<b>三个字段</b>（谁在场 · 在哪发生 · 发生了什么）分成<b>十七个分面</b>，一张故事可以同时落进多个分面。</p>
+    <div class="stats" id="facetStats"></div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section>
+    <div class="pending-note" id="pending"></div>
+    <div id="groups"></div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><a href="index.html">← 返回首页</a> · 规格 <a href="../taxonomy.md">taxonomy.md</a> · 标记计划 <a href="../docs/facet-labeling-plan.md">facet-labeling-plan.md</a></p>
+  </div>
+</footer>
+
+<script src="kb.js"></script>
+<script src="theme.js?v=20260907"></script>
+<script>
+document.addEventListener("DOMContentLoaded", async () => {
+  let meta;
+  try { meta = await KB.ready(); }
+  catch(e){
+    document.getElementById("groups").innerHTML =
+      `<p class="section-sub">数据加载失败：${KB.esc(e.message)}</p>`;
+    return;
+  }
+  const facets = meta.facets || [];
+  const ready = !!meta.facets_ready;
+  const story = ((meta.classification || {}).story) || 0;
+  const markedTotal = facets.reduce((a, f) => a + (f.count || 0), 0);
+
+  document.getElementById("facetStats").innerHTML = `
+    <div class="stat"><b>3</b><span>字段</span></div>
+    <div class="stat"><b>${facets.length}</b><span>分面</span></div>
+    <div class="stat"><b>${story}</b><span>故事体卡片</span></div>
+    <div class="stat"><b>${markedTotal}</b><span>分面标记（可多选）</span></div>
+    <div class="stat"><b>${ready ? "已就绪" : "计数已算出"}</b><span>分面标记</span></div>`;
+
+  if(!ready){
+    /* 过渡态兜底：计数已在 meta.facets 里，但分片还没带上卡片清单。
+       正常上线后这段不会出现。 */
+    document.getElementById("pending").innerHTML = `
+      <b>分面计数已算出，但数据分片里的卡片清单还没更新</b>
+      <p>下面每个分面的张数都是从 <code>data/meta.json</code> 读出来的真实数字，不是 0；
+      但 <code>data/facet/&lt;编号&gt;.json</code> 里的 <code>cards</code> 还是空的，所以点进分面页暂时列不出卡片。
+      重建分片（<code>python scripts/validate_all.py</code>）后即可。</p>`;
+  }
+
+  const byField = [];
+  facets.forEach(f => {
+    let g = byField.find(x => x.field === f.field);
+    if(!g){ g = {field: f.field, items: []}; byField.push(g); }
+    g.items.push(f);
+  });
+
+  document.getElementById("groups").innerHTML = byField.map((g, i) => `
+  <section>
+    <h2 class="section-title">${i + 1} · ${KB.esc(g.field)}</h2>
+    <p class="angle-note">${g.items.length} 个分面 · 共 ${g.items.reduce((a, f) => a + (f.count || 0), 0)} 个分面标记（一张故事可落进多个分面）</p>
+    <div class="grid">
+      ${g.items.map(f => `
+      <a class="source-card" style="text-decoration:none;color:inherit" href="facet.html?code=${encodeURIComponent(f.code)}">
+        <div class="card-top">
+          <span class="badge">${KB.esc(f.code)}</span>
+          <span class="badge">${KB.esc(f.field)}</span>
+        </div>
+        <h3 style="margin:10px 0 4px;font-size:17px">${KB.esc(f.name)}</h3>
+        <p class="ref">${f.count} 张故事 →</p>
+      </a>`).join("")}
+    </div>
+  </section>`).join("");
+});
+</script>
+</body>
+</html>

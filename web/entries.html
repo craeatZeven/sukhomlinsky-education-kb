@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>二十三条目 · 苏霍姆林斯基教育知识库</title>
+<link rel="stylesheet" href="style.css?v=20260907" />
+</head>
+<body data-theme="green">
+<nav class="topnav">
+  <div class="inner">
+    <a class="brand" href="index.html">苏霍姆林斯基教育知识库</a>
+    <div class="nav-links">
+      <a class="nav-link" href="index.html">首页</a>
+      <a class="nav-link active" href="entries.html">分类条目</a>
+      <a class="nav-link" href="facets.html">故事分面</a>
+      <a class="nav-link" href="explore.html">主题浏览</a>
+      <a class="nav-link" href="sources.html">书源</a>
+    </div>
+  </div>
+</nav>
+
+<header class="page-head">
+  <div class="wrap">
+    <div class="eyebrow">Entries</div>
+    <h1>二十三条目</h1>
+    <p>分类规格（<a href="../taxonomy.md">taxonomy.md</a>）把全库分成 <b>5 个观察角度、23 个条目</b>：同一句话可以同时从「宗旨」和「内容与方法」看，所以角度不是层层包含，而是看教育的五个方向。</p>
+    <div class="stats" id="entryStats"></div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section>
+    <div class="pending-note" id="howto"></div>
+    <div id="groups"></div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><a href="index.html">← 返回首页</a> · 规格 <a href="../taxonomy.md">taxonomy.md</a> · 数据 <a href="../classification.json">classification.json</a></p>
+  </div>
+</footer>
+
+<script src="kb.js"></script>
+<script src="theme.js?v=20260907"></script>
+<script>
+/* 每个角度下的全部主归属卡：点开才加载该角度的分片（data/layer/<n>.json） */
+function bindAngleBrowser(){
+  document.querySelectorAll("details[data-angle]").forEach(det => {
+    det.addEventListener("toggle", () => {
+      if(!det.open || det.dataset.loaded) return;
+      det.dataset.loaded = "1";
+      const box = det.querySelector(".rows");
+      const more = det.querySelector(".load-wrap");
+      const btn = det.querySelector("button");
+      const PAGE = 20;
+      box.innerHTML = `<p class="section-sub">正在加载该角度的卡片…</p>`;
+      KB.loadLayer(det.dataset.angle).then(layer => {
+        let shown = PAGE;
+        const cards = layer.cards || [];
+        const paint = () => {
+          box.innerHTML = cards.slice(0, shown).map(c => KB.cardRowHTML(c)).join("")
+            || `<p class="section-sub">该角度暂无卡片</p>`;
+          more.style.display = cards.length > shown ? "block" : "none";
+        };
+        paint();
+        btn.addEventListener("click", () => { shown += PAGE; paint(); });
+      }).catch(e => {
+        box.innerHTML = `<p class="section-sub">加载失败：${KB.esc(e.message)}</p>`;
+      });
+    });
+  });
+}
+
+document.addEventListener("DOMContentLoaded", async () => {
+  let meta;
+  try { meta = await KB.ready(); }
+  catch(e){
+    document.getElementById("groups").innerHTML =
+      `<p class="section-sub">数据加载失败：${KB.esc(e.message)}</p>`;
+    return;
+  }
+  const entries = meta.entries || [];
+  const layers = meta.layers || [];
+  const tagged = entries.filter(e => e.tag);
+  const main = entries.filter(e => !e.tag);
+  const c = meta.classification || {};
+
+  document.getElementById("entryStats").innerHTML = `
+    <div class="stat"><b>${layers.length}</b><span>观察角度</span></div>
+    <div class="stat"><b>${entries.length}</b><span>条目</span></div>
+    <div class="stat"><b>${c.assigned || 0}</b><span>有主归属的卡</span></div>
+    <div class="stat"><b>${c.seealso || 0}</b><span>交叉参见</span></div>`;
+
+  document.getElementById("howto").innerHTML = `
+    <b>怎么读这张表</b>
+    <p>每个条目下面两个数字：<b>主归属</b>是中心主张落在这一条的卡片数，<b>被参见</b>是有多少张别的卡把这一条列为参见。
+    反过来问"他对劳动教育的看法"，点开 <a href="entry.html?code=A11">A11 劳动与创造</a> 时要把「主归属」和「交叉参见」两区合起来看——
+    后者是"这条不是它的主条目，但它也讲了这件事"。</p>
+    <p>${c.seealso || 0} 条参见里有 <b>${c.cross_layer || 0}</b> 条跨观察角度——这正是"五角度不是包含关系"的证据。
+    还有 ${c.story || 0} 张故事体卡片（case）不走条目主归属，走 <a href="facets.html">故事分面</a>。</p>`;
+
+  const byCode = {};
+  entries.forEach(e => { byCode[e.code] = e; });
+
+  let html = "";
+  layers.forEach(layer => {
+    const list = (layer.entries || []).map(c => byCode[c]).filter(Boolean);
+    html += `
+  <section>
+    <h2 class="section-title">${layer.index} · ${KB.esc(layer.name)}</h2>
+    <p class="angle-note">这个角度回答：<b>${KB.esc(layer.question)}</b> —— ${list.length} 个条目，${layer.count} 张主归属卡</p>
+    <div class="rows rows--plain">
+      ${list.map(e => `
+      <a class="row row-link" href="entry.html?code=${encodeURIComponent(e.code)}">
+        <span class="row-title">${KB.esc(e.code)} ${KB.esc(e.name)}</span>
+        <span class="row-desc">${KB.esc(e.rule)}</span>
+        <span class="row-go">主归属 ${e.count} 张 · 被参见 ${e.cross} →</span>
+      </a>`).join("")}
+    </div>
+    <details class="filters" data-angle="${layer.index}" style="margin-top:16px">
+      <summary>按这个角度看全部 ${layer.count} 张卡 <span class="hint">（点开才加载）</span></summary>
+      <div class="filters-body">
+        <div class="rows" id="angleRows${layer.index}"></div>
+        <div class="load-wrap"><button class="chip" type="button" style="display:none">加载更多卡片</button></div>
+      </div>
+    </details>
+  </section>`;
+  });
+
+  if (tagged.length) {
+    html += `
+  <section>
+    <h2 class="section-title">复分标签（不参与主归属）</h2>
+    <p class="angle-note">复分标签不是第 6 个角度，而是一枚<b>只给相关卡片加标记</b>的标签：它永远不出现在任何一张卡的主归属里。
+    点开即列出全部被打标的卡片，每张卡的主归属仍按内容定。</p>
+    <div class="rows rows--plain">
+      ${tagged.map(e => `
+      <a class="row row-link" href="entry.html?code=${encodeURIComponent(e.code)}">
+        <span class="row-title">${KB.esc(e.code)} ${KB.esc(e.name)}</span>
+        <span class="row-desc">${KB.esc(e.rule)}</span>
+        <span class="row-go">带此标记 ${e.tag_count || 0} 张 →</span>
+      </a>`).join("")}
+    </div>
+  </section>`;
+  }
+
+  document.getElementById("groups").innerHTML = html;
+  bindAngleBrowser();
+});
+</script>
+</body>
+</html>

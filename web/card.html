@@ -89,6 +89,7 @@ function renderCard(c, error){
       box.innerHTML = list.map(c => KB.cardRowHTML({
         id: c.id, type: c.type, title: c.title, source: c.source, topics: c.topics, tags: c.tags,
         ref: c.ref, preview: (c.excerpts && c.excerpts[0]) || c.excerpt || "", n: (c.excerpts||[]).length,
+        primary: c.primary, seealso: c.seealso, primary_name: c.primary_name,
       })).join("");
     }).catch(()=>{
       const box = document.getElementById("fallbackRows");
@@ -98,7 +99,8 @@ function renderCard(c, error){
   }
   document.title = c.id + " · " + c.title + " · 苏霍姆林斯基教育知识库";
   document.getElementById("cardTitle").textContent = c.title;
-  const topicBadges = (c.topics||[]).map(s=>KB.topicBadge(s)).join("");
+  const entryTop = KB.entryBadges(c);
+  const seeBadges = (c.seealso || []).map(code => KB.entryBadge(code, {kind:"see", cross:true})).join(" ");
   const exps = (c.excerpts && c.excerpts.length) ? c.excerpts : (c.excerpt ? [c.excerpt] : []);
   const excerptsHtml = exps.map(q=>`<div class="excerpt" style="margin-top:10px">${KB.esc(q)}</div>`).join("");
   const tags = (c.tags||[]).map(t=>KB.TAG_LABELS[t]||t);
@@ -107,11 +109,12 @@ function renderCard(c, error){
   document.getElementById("cardMeta").textContent = c.id + " · " + KB.sourceTitle(c.source);
   document.getElementById("cardMain").innerHTML = `
     <div class="card-top">
-      <div>${topicBadges}</div>
+      <div>${entryTop}</div>
       <span class="badge">${KB.esc(KB.typeLabel(c.type))}</span>
     </div>
     <dl class="keyfacts">
-      <dt>主题</dt><dd>${(c.topics||[]).map(t=>KB.esc(KB.topicTitle(t))).join(" · ") || "—"}</dd>
+      <dt>这一条属于</dt><dd>${c.primary ? KB.entryBadge(c.primary, {cross:true}) : `<a class="badge" href="facets.html">故事体 · 走故事分面</a>`}</dd>
+      <dt>还涉及哪些条目</dt><dd>${seeBadges || "—"}</dd>
       <dt>出处</dt><dd>${KB.sourcePop(c.source, 'explore.html?source=' + encodeURIComponent(c.source))}</dd>
       <dt>出版信息</dt><dd>${KB.esc(KB.refShort(ref, c.source)) || "—"}</dd>
     </dl>
@@ -159,7 +162,7 @@ function renderRelated(c){
     <a class="source-card" style="text-decoration:none;color:inherit" href="${cardLink(x)}">
       <span class="badge">${KB.esc(KB.typeLabel(x.type))}</span>
       <h3 style="margin:10px 0 4px;font-size:17px">${KB.esc(x.title)}</h3>
-      <p class="ref">${KB.esc(x.id)} · ${(x.topics||[]).map(t=>KB.esc(KB.topicTitle(t))).join(" / ")}</p>
+      <p class="ref">${KB.esc(x.id)} · ${x.primary ? KB.esc(x.primary + " " + (x.primary_name || KB.entryName(x.primary))) : "故事体 · 走故事分面"}</p>
     </a>`).join("") || `<p class="section-sub">暂无相关卡片</p>`;
 }
 document.addEventListener("DOMContentLoaded", async ()=>{

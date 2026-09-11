@@ -8,11 +8,14 @@
  *      ref 里的 `<!-- ... -->`、书名号引号等把 DOM 结构吃掉。
  *
  * 用法：
- *   KB.ready().then(meta => { ... })          // 书源 / 主题 / 计数
+ *   KB.ready().then(meta => { ... })          // 书源 / 主题 / 分类条目 / 计数
  *   KB.loadIndex().then(cards => { ... })     // 全库索引（含摘要，无正文）
  *   KB.loadIndexFor('zuo-ren-de-gu-shi-zh')   // 按来源的索引切片
  *   KB.loadCard('sk-0001')                    // 单卡全文
  *   KB.loadSearch('all' | '<source>')         // 全文检索语料（按需）
+ *   KB.loadEntry('A11')                       // 条目分片：主归属卡 + 交叉参见卡
+ *   KB.loadLayer(1)                           // 观察角度分片（宗旨…衡量）
+ *   KB.loadFacet('S1')                        // 故事分面分片（计数 + 该分面下的故事卡）
  */
 (function () {
   "use strict";
@@ -94,6 +97,33 @@
       return slug;
     },
 
+    /* ---------- 分类条目（taxonomy.md 的 A1–A23） ---------- */
+
+    /* meta.entries 里的一条；code 不合法时返回 null。
+       名字与计数都在 meta 里，前端不必再逐条查分片。 */
+    entryInfo: function (code) {
+      var list = (KB.meta && KB.meta.entries) || [];
+      for (var i = 0; i < list.length; i++) if (list[i].code === code) return list[i];
+      return null;
+    },
+
+    entryName: function (code) {
+      var e = KB.entryInfo(code);
+      return e ? e.name : (code || "");
+    },
+
+    /* 「角度名」→ 该角度下的条目（meta.layers，复分标签层不在其中） */
+    layerInfo: function (name) {
+      var list = (KB.meta && KB.meta.layers) || [];
+      for (var i = 0; i < list.length; i++) if (list[i].name === name) return list[i];
+      return null;
+    },
+
+    /* 复分标签（当前只有 A18 学习困难学生）：不持主归属，只做标记，故单列 */
+    tagEntries: function () {
+      return ((KB.meta && KB.meta.entries) || []).filter(function (e) { return e.tag; });
+    },
+
     /* ---------- 加载器 ---------- */
 
     ready: function () {
@@ -150,6 +180,30 @@
       });
     },
 
+    /* 条目分片：{code, name, layer, rule, count, cards, cross}
+       cards = 主归属该条目的卡；cross = 把该条目标为 seealso 的卡（各带 cross_from）。 */
+    loadEntry: function (code) {
+      return KB.ready().then(function () {
+        return getJSON("entry/" + encodeURIComponent(code) + ".json");
+      });
+    },
+
+    /* 观察角度分片：{index, name, question, count, entries, cards} */
+    loadLayer: function (n) {
+      return KB.ready().then(function () {
+        return getJSON("layer/" + encodeURIComponent(n) + ".json");
+      });
+    },
+
+    /* 故事分面分片：{code, name, field, count, cards, ready}
+       分面已上线：cards = 该分面下的故事卡（archive 版式行直接可渲染）；
+       计数以 meta.facets 为准，本分片的 count 与之同源。 */
+    loadFacet: function (code) {
+      return KB.ready().then(function () {
+        return getJSON("facet/" + encodeURIComponent(code) + ".json");
+      });
+    },
+
     loadRandomCard: function () {
       return KB.loadIds().then(function (ids) {
         return KB.loadCard(ids[Math.floor(Math.random() * ids.length)]);
@@ -186,7 +240,8 @@
       return t;
     },
 
-    /* 主题标签：可点进专题，并显示该主题卡片数（V&A 做法——标签即检索入口且可丈量） */
+    /* 主题标签：可点进专题，并显示该主题卡片数（V&A 做法——标签即检索入口且可丈量）
+       旧页面（explore/topic 等）仍在使用，保留作向后兼容。 */
     topicBadge: function (slug) {
       var n = 0;
       var list = (KB.meta && KB.meta.topics) || [];
@@ -195,10 +250,60 @@
         KB.esc(KB.topicTitle(slug)) + (n ? ' · ' + n : '') + '</a>';
     },
 
+    /* 条目徽章：分类条目（A1–A23）的可点入口，进 entry.html?code=…
+       默认显示「编号 名称 · 主归属卡数」；options.cross 时补上被参见次数。
+       kind='see' 渲染成参见样式（虚线边框），与主归属区分开。 */
+    entryBadge: function (code, options) {
+      options = options || {};
+      var e = KB.entryInfo(code);
+      var name = e ? e.name : "";
+      var n = e ? (e.count || 0) : 0;
+      var cross = e ? (e.cross || 0) : 0;
+      var bits = [];
+      if (n) bits.push(n + " 张");
+      if (options.cross && cross) bits.push("被参见 " + cross);
+      var title = code + (name ? " " + name : "") + " · 主归属 " + n + " 张 · 被参见 " + cross + " 张";
+      return '<a class="badge badge--entry' + (options.kind === "see" ? " badge--see" : "") +
+        '" href="entry.html?code=' + encodeURIComponent(code) + '" title="' + KB.esc(title) + '">' +
+        KB.esc(code) + (name ? ' ' + KB.esc(name) : "") +
+        (bits.length ? ' · ' + KB.esc(bits.join(" · ")) : '') + '</a>';
+    },
+
+    /* 一张卡的条目归属：主归属徽章 + 参见徽章（都是可点链接） */
+    entryBadges: function (card) {
+      var out = "";
+      if (card.primary) out += KB.entryBadge(card.primary);
+      (card.seealso || []).forEach(function (code) {
+        out += KB.entryBadge(code, { kind: "see", cross: true });
+      });
+      if (!out) out = '<a class="badge" href="facets.html">故事体 · 走故事分面</a>';
+      return out;
+    },
+
+    /* 目录行是整行一个 <a>，里面不能再放链接 —— 条目归属在这里只作文字。
+       主归属在前，参见在后（G2：用户先要知道"这是哪一条"。） */
+    entryText: function (card) {
+      if (card.primary) {
+        var t = "主归属 · " + card.primary + " " + (card.primary_name || KB.entryName(card.primary));
+        var see = card.seealso || [];
+        if (see.length) {
+          t += " ／ 参见 " + see.map(function (c) { return c + " " + KB.entryName(c); }).join("、");
+        }
+        return t;
+      }
+      return card.type === "case" ? "故事体 · 走故事分面" : "未定条目";
+    },
+
+    /* 列表行里的分类元信息：有新分类就用新分类；没有（例如后端 API 返回的旧载荷，
+       里面有 topics 却没有 primary）才回落到旧 topics——旧标签是兜底，不是主信息。 */
+    cardMetaText: function (card) {
+      if (card && (card.primary || card.type === "case")) return KB.entryText(card);
+      return (card.topics || []).map(KB.topicTitle).join(" · ");
+    },
+
     /* 目录行：列表页专用（档案版式）。
-       一行放三类信息——引文 / 题名与类型 / 出处与主题；整行可点。 */
+       一行放三类信息——引文 / 题名与类型 / 出处与条目归属；整行可点。 */
     cardRowHTML: function (card) {
-      var topics = (card.topics || []).map(KB.topicTitle).join(" · ");
       var flag = "";
       if ((card.n || 0) > 1) flag = '<span class="row-flag">另有 ' + (card.n - 1) + ' 段原文</span>';
       else if (card.trunc) flag = '<span class="row-flag">读全文 →</span>';
@@ -209,19 +314,22 @@
         '      <span>' + KB.esc(KB.typeLabel(card.type)) + '</span>\n' +
         '      ' + KB.sourcePop(card.source) + '\n' +
         '      <span>' + KB.esc(card.id) + '</span>\n' +
-        (topics ? '      <span>' + KB.esc(topics) + '</span>\n' : '') +
+        '      <span class="row-entry">' + KB.esc(KB.entryText(card)) + '</span>\n' +
         (flag ? '      ' + flag + '\n' : '') +
         '    </div>\n' +
         '  </a>';
     },
 
-    /* 索引条目 + 全文语料 → 可检索文本（小写） */
+    /* 索引条目 + 全文语料 → 可检索文本（小写）
+       旧 topics 仍进检索文本：旧标签是回溯入口，不该因为换了分类就搜不到。 */
     searchText: function (card, corpusEntry) {
       var topics = (card.topics || []).map(KB.topicTitle).join(" ");
+      var entries = [card.primary, card.primary_name].concat(card.seealso || [], card.seealso_names || []);
       var tags = [KB.typeLabel(card.type)].concat(card.tags || []).join(" ");
       return [
         card.id, card.title, card.cn, card.preview, KB.refText(card.ref),
         card.source, KB.sourceTitle(card.source), topics, tags,
+        entries.join(" "),
         corpusEntry ? corpusEntry.text : ""
       ].join(" ").toLowerCase();
     },
@@ -229,10 +337,7 @@
     /* 列表卡片（索引数据即可渲染） */
     cardHTML: function (card, options) {
       options = options || {};
-      var topicBadges = (card.topics || []).map(function (slug) {
-        return '<a class="badge" style="margin-right:6px;text-decoration:none" href="explore.html?topic=' +
-          encodeURIComponent(slug) + '">' + KB.esc(KB.topicTitle(slug)) + '</a>';
-      }).join("");
+      var entryBadges = KB.entryBadges(card);
       var extraTags = (card.tags || []).map(function (t) {
         return '<span class="meta" style="border:1px solid var(--line);border-radius:2px;padding:1px 8px;margin-left:6px">' +
           KB.esc(KB.TAG_LABELS[t] || t) + '</span>';
@@ -251,7 +356,7 @@
       }
       return '\n  <article class="card" id="card-' + KB.esc(card.id) + '">\n' +
         '    <div class="card-top">\n' +
-        '      <div>' + topicBadges + '</div>\n' +
+        '      <div>' + entryBadges + '</div>\n' +
         '      <span class="badge" style="background:transparent;border:1px solid var(--line);color:var(--soft)">' +
         KB.esc(KB.typeLabel(card.type)) + '</span>\n' +
         '    </div>\n' +

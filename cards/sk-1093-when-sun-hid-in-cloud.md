@@ -1,6 +1,6 @@
 ---
 id: sk-1093
-type: practice
+type: case
 title: "当太阳没入乌云的时候"
 lang: zh-CN
 topics:

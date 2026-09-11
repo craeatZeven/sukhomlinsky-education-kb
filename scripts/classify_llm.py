@@ -52,8 +52,63 @@ def cards() -> list[dict]:
 
 
 def texts(c: dict) -> str:
-    exc = (c.get("excerpts") or [""])[0]
-    return (c.get("title", "") + "\n" + exc + "\n" + (c.get("cn") or ""))
+    """卡片的全部可依据文本：标题 + **所有**摘录段 + 编辑转述。
+
+    2026-09-11 修正：原来只取 `excerpts[0]`，导致依据落在第 2 段以后的卡片被误判成
+    「依据对不上原文」（实测 3 张：sk-1232 在第 4 段、sk-1295 / sk-1302 在第 3 段）。
+    校验要回答的问题是「这句话是不是出自这张卡」，不是「是不是出自第一段」。
+    **注意**：判读包（`cmd_packets`）当时只投喂了第一段摘录，见
+    `docs/llm-classification-plan.md` 里关于「多段摘录卡」的说明。
+    """
+    return (c.get("title", "") + "\n"
+            + "\n".join(c.get("excerpts") or [])
+            + "\n" + (c.get("cn") or ""))
+
+
+def facets_for(c: dict, spec: dict) -> list[str]:
+    """故事体的分面标记（多选）：`taxonomy.md` §三 表里的「判定用关键词」命中即给。
+
+    为什么这里可以用关键词而条目分类不行，见 `docs/facet-labeling-plan.md` §二：
+    分面的定义本身就是那张关键词表，且分面是可多选的标记、不是互斥的主归属。
+    门槛与实测见同文件（先定门槛后测）。
+    """
+    text = texts(c)
+    hit = []
+    for f in spec["facets"]:
+        if any(k in text for k in f["keywords"]):
+            hit.append(f["id"])
+    return hit
+
+
+def report_facets(out: dict, spec: dict) -> None:
+    """按 `docs/facet-labeling-plan.md` §三 预先定下的门槛逐条对照。"""
+    field_of = {f["id"]: f["field"] for f in spec["facets"]}
+    cases = [(cid, v) for cid, v in out.items() if v.get("type") == "case"]
+    if not cases:
+        return
+    n = len(cases)
+    at_least_one = [(cid, v) for cid, v in cases if v.get("facets")]
+    fields = {f["field"] for f in spec["facets"]}
+    two_fields = [(cid, v) for cid, v in cases
+                  if len({field_of[f] for f in v.get("facets", [])} & fields) >= 2]
+    zero = [(cid, v) for cid, v in cases if not v.get("facets")]
+
+    def line(label: str, got: int, need: str) -> str:
+        return f"  {label}：{got}/{n}（{got / n * 100:.1f}%）　门槛 {need}"
+
+    print("\n故事体分面标记（关键词直接命中，门槛见 docs/facet-labeling-plan.md）：")
+    print(line("① 至少落进 1 个分面", len(at_least_one), "≥ 95%"))
+    print(line("② 至少落进 2 个不同字段", len(two_fields), "≥ 85%"))
+    print(line("⑤ 零标记", len(zero), "≤ 5%"))
+    if zero:
+        print("     零标记卡片：" + " ".join(cid for cid, _ in zero[:12])
+              + (" …" if len(zero) > 12 else ""))
+    per = {}
+    for _cid, c in cases:
+        for f in c.get("facets", []):
+            per[f] = per.get(f, 0) + 1
+    print("  分面命中数：" + " · ".join(f"{k} {per.get(k, 0)}"
+                                    for k in sorted(per, key=lambda x: int(x[1:]))))
 
 
 def cmd_packets(per: int = 25):
@@ -133,10 +188,17 @@ def cmd_collect(write: bool = True):
                                   merged[k].get("from", ""), v["from"]))
             merged[k] = v
 
-    print(f"收卷：{len(merged)}/{len(essays)} 张　来源 {len(files)} 个文件")
-    if len(merged) < len(essays):
+    covered = [c["id"] for c in essays if c["id"] in merged]
+    extra = [k for k in merged if k not in byid or byid[k]["type"] == "case"]
+    print(f"收卷：{len(covered)}/{len(essays)} 张论述卡　来源 {len(files)} 个文件")
+    if len(covered) < len(essays):
         miss = [c["id"] for c in essays if c["id"] not in merged]
         print(f"⚠ 缺 {len(miss)} 张：{miss[:12]}{' …' if len(miss) > 12 else ''}")
+    if extra:
+        # 卡片改过 type（论述 → 故事）后，旧判读会留在输出文件里。这不是错误，
+        # 但要说出来，免得"收卷数 ≠ 论述卡数"看起来像漏判。
+        print(f"　另有 {len(extra)} 行判读对应的卡已不是论述体（type 改过），本次忽略："
+              + " ".join(sorted(extra)[:8]) + (" …" if len(extra) > 8 else ""))
 
     illegal = [k for k, v in merged.items() if v["entry"] not in valid | {"SPLIT", "NONE"}]
     fake, ratios = [], []
@@ -168,21 +230,38 @@ def cmd_collect(write: bool = True):
         f"{k} {v}" for k, v in sorted(kinds.items(), key=lambda x: -x[1])))
     print(f"其中 SPLIT {kinds.get('SPLIT', 0)} · NONE {kinds.get('NONE', 0)}")
 
-    if write and len(merged) == len(essays) and not illegal and not fake:
+    if write and len(covered) == len(essays) and not illegal and not fake:
         out = {c["id"]: {"primary": merged[c["id"]]["entry"],
+                         "seealso": merged[c["id"]].get("see", []),
                          "claim": merged[c["id"]]["claim"],
                          "evidence": merged[c["id"]]["evidence"],
                          "title": c.get("title", ""),
                          "old_topics": c.get("topics", []),
                          "type": c["type"]}
                for c in essays if c["id"] in merged}
+        # taxonomy.md §六 人工裁定表覆盖判读（source=manual）。
+        # 判读是概率性的，裁定是人拍板的；两者不一致时以裁定为准，并留痕。
+        applied = []
+        for k, ov in spec.get("override", {}).items():
+            if k in out and out[k].get("primary") not in (None, "SPLIT", "NONE"):
+                if out[k]["primary"] != ov["primary"]:
+                    applied.append((k, out[k]["primary"], ov["primary"]))
+                out[k]["primary"] = ov["primary"]
+                out[k]["source"] = "manual"
+                out[k]["override_why"] = ov["why"]
         for c in cards():
             if c["type"] == "case":
                 out[c["id"]] = {"primary": None, "type": "case",
                                 "title": c.get("title", ""),
-                                "old_topics": c.get("topics", [])}
+                                "old_topics": c.get("topics", []),
+                                "facets": facets_for(c, spec),
+                                "facet_source": "keyword"}
         RESULT.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
         print(f"\n已写入 {RESULT}（{len(out)} 张）")
+        print(f"人工裁定表命中 {len(spec.get('override', {}))} 条，"
+              f"其中改判 {len(applied)} 条："
+              + " · ".join(f"{k} {a}→{b}" for k, a, b in applied))
+        report_facets(out, spec)
         write_review(out, entry, conflicts)
     elif write:
         print("\n⚠ 有校验未通过，**未写文件**。先修干净再写。")
@@ -198,9 +277,31 @@ def write_review(out: dict, entry: dict, conflicts: list | None = None):
     conflict = [(k, over[k]["primary"], out[k].get("primary"))
                 for k in out if k in over and out[k].get("primary") not in (None, over[k]["primary"])]
     L = ["# LLM 逐卡判读 · 人工复核清单", "",
-         "> 由 `python scripts/classify_llm.py collect` 生成。判读记录见 `classification.json`。", "",
-         f"## 一、待拆分 SPLIT（{len(split)} 张）", "",
-         "原文有两个真正并列、无可见主次的主张——按元规则不强行破平局，需人工决定拆卡或选一个。", ""]
+         "> 由 `python scripts/classify_llm.py collect` 生成。判读记录见 `classification.json`。", ""]
+
+    # 概要：把这一轮的关键数字写在最上面，免得要翻到文末才知道结果
+    allconf = conflicts or []
+    real_pairs = [(a, b) for _k, a, b, _fa, _fb in allconf
+                  if a not in ("NONE", "SPLIT") and b not in ("NONE", "SPLIT")]
+    n_cards = len([1 for v in out.values() if v.get("primary")])
+    layer_of = {e["id"]: e.get("layer", "") for e in spec["entries"]}
+    cross_pair = [1 for a, b in real_pairs if layer_of.get(a) != layer_of.get(b)]
+    sees = sum(len(v.get("seealso") or []) for v in out.values())
+    with_see = sum(1 for v in out.values() if v.get("seealso"))
+    L += ["## 〇、概要", "",
+          f"- 有主归属的卡：**{n_cards} 张**（其余为故事体，走分面）",
+          f"- 参见：**{sees} 条**，分布在 **{with_see} 张**卡上"
+          f"（占论述卡的 {with_see / n_cards * 100:.1f}%）",
+          f"- 两轮判读（不同判读各做一遍）主归属不一致：**{len(allconf)} 张**"
+          f"，其中两轮都给了真条目的 **{len(real_pairs)} 张**",
+          f"  - 条目级一致率：**{(1 - len(real_pairs) / n_cards) * 100:.1f}%**",
+          f"  - **同范畴（五个观察角度）一致率："
+          f"{(1 - len(cross_pair) / n_cards) * 100:.1f}%**",
+          "",
+          "同范畴一致率是本规格最该看的数字：它说明「这张卡属于五个角度里的哪一个」"
+          "几乎总是稳的，分歧集中在「具体落到哪一条」。", ""]
+    L += [f"## 一、待拆分 SPLIT（{len(split)} 张）", "",
+          "原文有两个真正并列、无可见主次的主张——按元规则不强行破平局，需人工决定拆卡或选一个。", ""]
     for k in sorted(split):
         c = byid.get(k, {})
         L += [f"- **{k}　{c.get('title', '')}**",
@@ -214,11 +315,17 @@ def write_review(out: dict, entry: dict, conflicts: list | None = None):
         L += [f"- **{k}　{c.get('title', '')}**　依据：{out[k].get('evidence', '')}"]
     conflicts = conflicts or []
     if conflicts:
-        L += ["", f"## 三、同一张卡两次判读不一致（{len(conflicts)} 张）", "",
-              "这些卡被独立判读了两次（催办时重复投递），两次给出不同条目。"
-              "**没有静默取其中一个**——两条都记下来，由人决定。"
-              "这类卡正是「边界本来就模糊」的证据。", "",
-              "| 卡片 | 标题 | 判读 A | 判读 B |", "|---|---|---|---|"]
+        real = [(k, a, b, fa, fb) for k, a, b, fa, fb in conflicts
+                if a not in ("NONE", "SPLIT") and b not in ("NONE", "SPLIT")]
+        L += ["", f"## 三、两轮判读给出不同主归属（{len(conflicts)} 张，"
+                  f"其中两轮都给了真条目的 {len(real)} 张）", "",
+              "第一轮（`batch-*.out.txt`，只给主归属）与第二轮（`v2/`，主归属 + 参见）"
+              "**由不同判读完成**，等于一次免费的第二次独立判读。"
+              "两轮不一致不是错误，是「这张卡的边界本来就模糊」的量化证据；"
+              "**没有静默取其中一个**——两条都记下来，由人决定。", "",
+              "其中 `NONE` / `SPLIT` 与某个条目并列的那几行，争的不是「属于哪一条」，"
+              "而是「原文到底有没有主张」，性质不同，故单列。", "",
+              "| 卡片 | 标题 | 第一轮 | 第二轮 |", "|---|---|---|---|"]
         for k, a, b, fa, fb in sorted(conflicts):
             L.append(f"| {k} | {byid.get(k, {}).get('title', '')[:30]} | {a} | {b} |")
     L += ["", f"## 四、与人工裁定表冲突（{len(conflict)} 张）", "",

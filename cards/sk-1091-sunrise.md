@@ -1,6 +1,6 @@
 ---
 id: sk-1091
-type: practice
+type: case
 title: "日出"
 lang: zh-CN
 topics:

@@ -1,6 +1,6 @@
 ---
 id: sk-1089
-type: quote
+type: case
 title: "百灵鸟之歌"
 lang: zh-CN
 topics:

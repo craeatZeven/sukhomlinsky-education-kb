@@ -1,6 +1,6 @@
 ---
 id: sk-1092
-type: practice
+type: case
 title: "黄昏"
 lang: zh-CN
 topics:

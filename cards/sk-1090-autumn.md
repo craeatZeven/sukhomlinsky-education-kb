@@ -1,6 +1,6 @@
 ---
 id: sk-1090
-type: practice
+type: case
 title: "秋"
 lang: zh-CN
 topics:

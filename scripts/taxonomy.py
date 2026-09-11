@@ -84,8 +84,15 @@ def load_spec(path: Path | None = None) -> dict:
             'note': r[3],
         }
     override = {}
+    valid_ids = {e['id'] for e in entries}
     for r in _rows(path, SEC_OVERRIDE, 3):
-        override[r[0]] = {'primary': r[1].split()[0], 'why': r[2]}
+        # 表格里的条目号常写成 **A16** 之类加粗强调，必须剥掉 markdown 记号，
+        # 否则 '**A16' != 'A16'，人工裁定会静默失效（2026-09-11 修）。
+        prim = r[1].split()[0].strip('*`_ ')
+        if prim not in valid_ids:
+            raise ValueError(f'{SEC_OVERRIDE} 第 {r[0]} 行的主归属「{r[1]}」'
+                             f'解析为「{prim}」，不是合法条目号')
+        override[r[0]] = {'primary': prim, 'why': r[2]}
     return {'layers': layers, 'entries': entries, 'facets': facets,
             'mapping': mapping, 'override': override,
             # 旧标签先验加成（首选 / 次选）：见 docs/taxonomy-plan.md §五

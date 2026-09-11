@@ -65,6 +65,17 @@ def texts(c: dict) -> str:
             + "\n" + (c.get("cn") or ""))
 
 
+def tags_for(c: dict, spec: dict) -> list[str]:
+    """复分标签（如 A18 学习困难学生）：不参与主归属分区，只给相关卡片打标记。
+
+    `taxonomy.md` §一 把「关照」列为一个观察角度，但它的条目是**复分标签**——
+    不持卡、不出现在 `primary` 里。用关键词命中算（同 `facets_for` 的理由）。
+    """
+    text = texts(c)
+    return [e["id"] for e in spec["entries"]
+            if e.get("tag") and any(k in text for k in e["keywords"] + e["weak"])]
+
+
 def facets_for(c: dict, spec: dict) -> list[str]:
     """故事体的分面标记（多选）：`taxonomy.md` §三 表里的「判定用关键词」命中即给。
 
@@ -237,7 +248,8 @@ def cmd_collect(write: bool = True):
                          "evidence": merged[c["id"]]["evidence"],
                          "title": c.get("title", ""),
                          "old_topics": c.get("topics", []),
-                         "type": c["type"]}
+                         "type": c["type"],
+                         "tags": tags_for(c, spec)}
                for c in essays if c["id"] in merged}
         # taxonomy.md §六 人工裁定表覆盖判读（source=manual）。
         # 判读是概率性的，裁定是人拍板的；两者不一致时以裁定为准，并留痕。
@@ -255,6 +267,7 @@ def cmd_collect(write: bool = True):
                                 "title": c.get("title", ""),
                                 "old_topics": c.get("topics", []),
                                 "facets": facets_for(c, spec),
+                                "tags": tags_for(c, spec),
                                 "facet_source": "keyword"}
         RESULT.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
         print(f"\n已写入 {RESULT}（{len(out)} 张）")

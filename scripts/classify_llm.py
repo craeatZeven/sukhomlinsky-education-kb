@@ -33,7 +33,18 @@ WORK.mkdir(parents=True, exist_ok=True)
 RESULT = ROOT / "classification.json"
 SPEC_FOR_JUDGE = ROOT / "docs" / "audit" / "SPEC-FOR-JUDGE.md"
 
-LINE_RE = re.compile(r"^(sk-\d{4})\s*\|\s*(\S+)\s*\|\s*中心主张：(.*?)\s*\|\s*原文依据：(.*?)\s*$")
+LINE_RE = re.compile(
+    r"^(sk-\d{4})\s*\|\s*(\S+)\s*\|\s*(?:参见：\s*(.*?)\s*\|\s*)?中心主张：(.*?)\s*\|\s*原文依据：(.*?)\s*$")
+
+VALID_EXTRA = {"SPLIT", "NONE"}
+SEP = re.compile(r"[,，、]")
+
+
+def _split_see(cell: str) -> list[str]:
+    if cell is None:
+        return []
+    return [x.strip() for x in SEP.split(cell)
+            if x.strip() and x.strip() not in ("—", "-", "无", "None")]
 
 
 def cards() -> list[dict]:
@@ -75,9 +86,9 @@ def parse(path: Path) -> tuple[dict, list[str]]:
         if not m:
             bad.append(f"{path.name}:{ln} 格式不符：{line[:70]}")
             continue
-        cid, eid, claim, ev = m.groups()
-        got[cid] = {"entry": eid.strip(), "claim": claim.strip(), "evidence": ev.strip(),
-                    "from": path.name}
+        cid, eid, see, claim, ev = m.groups()
+        got[cid] = {"entry": eid.strip(), "see": _split_see(see),
+                    "claim": claim.strip(), "evidence": ev.strip(), "from": path.name}
     return got, bad
 
 
@@ -110,7 +121,9 @@ def cmd_collect(write: bool = True):
     essays = [c for c in cards() if c["type"] != "case"]
 
     merged, bad, conflicts = {}, [], []
-    files = sorted(WORK.glob("out-*.txt")) + sorted(WORK.glob("*.out.txt"))
+    # v2/ 放「主归属 + 参见」那一轮的输出，最后处理，覆盖只有主归属的 v1
+    files = (sorted(WORK.glob("out-*.txt")) + sorted(WORK.glob("*.out.txt"))
+             + sorted(WORK.glob("v2/*.out.txt")))
     for f in files:
         g, b = parse(f)
         bad += b

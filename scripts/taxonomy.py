@@ -28,7 +28,7 @@ SEC_LAYERS = '一、五个观察角度'
 SEC_ENTRIES = '二、二十三条目'
 SEC_FACETS = '三、故事域的三个字段、十七个分面'
 SEC_MAPPING = '四、旧主题 → 新条目映射（迁移用）'
-SEC_OVERRIDE = '六、人工裁定（覆盖算法）'
+SEC_OVERRIDE = '六、人工裁定（覆盖判读）'
 
 
 def _rows(path: Path, section_title: str, expect_cols: int) -> list[list[str]]:

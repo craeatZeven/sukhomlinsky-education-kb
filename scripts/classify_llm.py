@@ -109,14 +109,15 @@ def cmd_collect(write: bool = True):
     byid = {c["id"]: c for c in cards()}
     essays = [c for c in cards() if c["type"] != "case"]
 
-    merged, bad = {}, []
+    merged, bad, conflicts = {}, [], []
     files = sorted(WORK.glob("out-*.txt")) + sorted(WORK.glob("*.out.txt"))
     for f in files:
         g, b = parse(f)
         bad += b
         for k, v in g.items():
             if k in merged and merged[k]["entry"] != v["entry"]:
-                bad.append(f"{k} 两次判读不一致：{merged[k]['entry']} vs {v['entry']}")
+                conflicts.append((k, merged[k]["entry"], v["entry"],
+                                  merged[k].get("from", ""), v["from"]))
             merged[k] = v
 
     print(f"收卷：{len(merged)}/{len(essays)} 张　来源 {len(files)} 个文件")
@@ -169,13 +170,13 @@ def cmd_collect(write: bool = True):
                                 "old_topics": c.get("topics", [])}
         RESULT.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
         print(f"\n已写入 {RESULT}（{len(out)} 张）")
-        write_review(out, entry)
+        write_review(out, entry, conflicts)
     elif write:
         print("\n⚠ 有校验未通过，**未写文件**。先修干净再写。")
 
 
-def write_review(out: dict, entry: dict):
-    """出人工复核清单：SPLIT（待拆分）/ NONE（无主张）/ 与人工裁定表冲突的卡。"""
+def write_review(out: dict, entry: dict, conflicts: list | None = None):
+    """出人工复核清单：SPLIT（待拆分）/ NONE（无主张）/ 两次判读不一致 / 与人工裁定表冲突。"""
     spec = load_spec()
     byid = {c["id"]: c for c in cards()}
     split = [k for k, v in out.items() if v.get("primary") == "SPLIT"]
@@ -198,7 +199,16 @@ def write_review(out: dict, entry: dict):
     for k in sorted(none_):
         c = byid.get(k, {})
         L += [f"- **{k}　{c.get('title', '')}**　依据：{out[k].get('evidence', '')}"]
-    L += ["", f"## 三、与人工裁定表冲突（{len(conflict)} 张）", "",
+    conflicts = conflicts or []
+    if conflicts:
+        L += ["", f"## 三、同一张卡两次判读不一致（{len(conflicts)} 张）", "",
+              "这些卡被独立判读了两次（催办时重复投递），两次给出不同条目。"
+              "**没有静默取其中一个**——两条都记下来，由人决定。"
+              "这类卡正是「边界本来就模糊」的证据。", "",
+              "| 卡片 | 标题 | 判读 A | 判读 B |", "|---|---|---|---|"]
+        for k, a, b, fa, fb in sorted(conflicts):
+            L.append(f"| {k} | {byid.get(k, {}).get('title', '')[:30]} | {a} | {b} |")
+    L += ["", f"## 四、与人工裁定表冲突（{len(conflict)} 张）", "",
           "`taxonomy.md` §六 登记的人工裁定优先于算法。这里是判读与裁定不一致的卡——"
           "要么裁定过时了，要么判读错了，都要人看一眼。", "",
           "| 卡片 | 标题 | 人工裁定 | 本次判读 |", "|---|---|---|---|"]

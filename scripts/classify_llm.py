@@ -81,6 +81,27 @@ def parse(path: Path) -> tuple[dict, list[str]]:
     return got, bad
 
 
+def norm_txt(s: str) -> str:
+    return re.sub(r"[\s「」“”\"'，。、；：…—·（）()【】\[\]!？?!,.;:-]", "", s)
+
+
+def evidence_match(evidence: str, text: str, n: int = 4, need: float = 0.7) -> tuple[bool, float]:
+    """判读给的「原文依据」是否真的出自这张卡。
+
+    **不能用精确子串匹配**：语料是 OCR 来的，错字不少
+    （实测有「自已」应为「自己」、「就足是」应为「就是要」、「对白已」应为「对自己」）。
+    精确匹配会把真引文判成编造。这里改用 n-gram 覆盖率：
+    把依据切成 4 字窗口，看有多大比例能在卡片文字里找到；≥70% 即算通过。
+    """
+    e, t = norm_txt(evidence), norm_txt(text)
+    if len(e) < n:
+        return (e in t if e else False), (1.0 if e and e in t else 0.0)
+    grams = [e[i:i + n] for i in range(len(e) - n + 1)]
+    hit = sum(1 for g in grams if g in t)
+    r = hit / len(grams)
+    return r >= need, r
+
+
 def cmd_collect(write: bool = True):
     spec = load_spec()
     entry = {e["id"]: e for e in spec["entries"]}
@@ -89,7 +110,7 @@ def cmd_collect(write: bool = True):
     essays = [c for c in cards() if c["type"] != "case"]
 
     merged, bad = {}, []
-    files = sorted(WORK.glob("out-*.txt")) + sorted(WORK.glob("batch-*.out.txt"))
+    files = sorted(WORK.glob("out-*.txt")) + sorted(WORK.glob("*.out.txt"))
     for f in files:
         g, b = parse(f)
         bad += b
@@ -103,26 +124,24 @@ def cmd_collect(write: bool = True):
         miss = [c["id"] for c in essays if c["id"] not in merged]
         print(f"⚠ 缺 {len(miss)} 张：{miss[:12]}{' …' if len(miss) > 12 else ''}")
 
-    # 硬校验 1：条目编号合法
     illegal = [k for k, v in merged.items() if v["entry"] not in valid | {"SPLIT", "NONE"}]
-    # 硬校验 2：**原文依据必须真的在卡里**（抓编造）
-    fake = []
+    fake, ratios = [], []
     for k, v in merged.items():
         if v["entry"] == "NONE":
             continue
-        ev = re.sub(r"[「」“”\"'\s]", "", v["evidence"])
-        src = re.sub(r"[「」“”\"'\s]", "", texts(byid[k]))
-        key = ev[:14] if len(ev) >= 14 else ev
-        if key and key not in src:
-            fake.append((k, v["evidence"][:40]))
-    # 硬校验 3：证据太短（没有说服力）
+        ok, r = evidence_match(v["evidence"], texts(byid[k]))
+        ratios.append(r)
+        if not ok:
+            fake.append((k, round(r, 2), v["evidence"][:40]))
     short = [k for k, v in merged.items()
              if v["entry"] not in ("NONE",) and len(v["evidence"]) < 8]
 
     print(f"\n条目编号非法：{len(illegal)} {illegal[:8]}")
-    print(f"原文依据对不上原文（疑似编造）：{len(fake)}")
-    for k, e in fake[:10]:
-        print(f"    {k}　「{e}」")
+    ok_n = len(ratios) - len(fake)
+    print(f"原文依据能对上原文：{ok_n}/{len(ratios)}"
+          f"（{ok_n / len(ratios) * 100:.1f}%）" if ratios else "原文依据：无")
+    for k, r, e in fake[:10]:
+        print(f"    对不上（覆盖率 {r}）{k}：「{e}」")
     print(f"原文依据过短（<8 字）：{len(short)} {short[:8]}")
     print(f"格式错误行：{len(bad)}")
     for b in bad[:8]:

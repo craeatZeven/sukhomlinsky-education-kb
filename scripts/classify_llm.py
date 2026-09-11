@@ -362,6 +362,97 @@ def cmd_merge(argv: list[str]):
     print(f"并入 {n} 个判读输出")
 
 
+def cmd_facet_packets(per: int = 25):
+    """生成故事体分面判读包。
+
+    为什么「事件或情绪」一栏必须走判读、关键词不行，见 `docs/facet-labeling-plan.md` §5.2：
+    词面一致率只有 63–75%（门槛 80%），因为那一栏问的是「这件事有没有发生」，
+    读完整段才答得上。包内**不给关键词表**（同 §三 的抽样规则，给了它只是在复述关键词）。
+    """
+    spec = load_spec()
+    cases = [c for c in cards() if c["type"] == "case"]
+    cases.sort(key=lambda c: c["id"])
+    work = ROOT / "local_working_copy" / "llm-facets"
+    work.mkdir(parents=True, exist_ok=True)
+    n = 0
+    for i in range(0, len(cases), per):
+        chunk = cases[i:i + per]
+        n += 1
+        L = [f"# 故事分面判读 · 第 {n} 包（{len(chunk)} 张）", ""]
+        for c in chunk:
+            L += [f"## {c['id']}", "",
+                  f"**标题**：{c.get('title', '')}", "",
+                  f"**原文摘录**：{' '.join(c.get('excerpts') or [])}", "",
+                  f"**编辑转述**：{c.get('cn') or ''}", "",
+                  f"**出处**：{c.get('ref') or ''}", ""]
+        (work / f"batch-{n:02d}.md").write_text("\n".join(L), encoding="utf-8")
+    # 判读须知：只给分面表本身（那是定义），不给判定用关键词（那是算法）
+    T = ["# 故事分面判读 · 任务说明", "",
+         "给每张故事卡打「分面」标记。三个字段各自可多选，一张卡可落进多个字段、每个字段里多个分面。", "",
+         "## 分面表", ""]
+    for f in spec["facets"]:
+        T.append(f"- **{f['id']}　{f['name']}**（{f['field']}）")
+    T += ["", "## 判读要求", "",
+          "1. **只看卡片内容判断**，不要因为某个词出现就机械命中。"
+          "要问「这张卡讲的事情里，这个东西真的在场吗」。",
+          "2. 具体口径（这些是实测出来的陷阱，务必照办）：",
+          "   - 拟人角色按它被描写的角色算（「秋爷爷」算老人），但**面团捏的云雀不算动物**——现场没有真鸟。",
+          "   - 只在台词里被提名、并未出场的家人**不算**角色在场。",
+          "   - 「劳动」「美」作为**论点**被陈述、而场中并无劳动事件／审美活动时，"
+          "**不给** S12／S11。",
+          "   - 道德意义上的「美」（漂亮的语言、漂亮的心灵）**不给** S11。",
+          "   - 死亡只在被陈述或在场时给 S15；仅作背景交代的不算。",
+          "3. 一个分面都不合适就写 `NONE`（这是有用信息，不要凑数）。",
+          "4. 只给分面编号，不要自创。",
+          "", "## 输出格式", "",
+          "每张卡一行，四栏：",
+          "", "```", "sk-XXXX | S3,S6 | 一句话理由（不超过 30 字）", "```", "",
+          "不要表头、不要代码围栏（上面那个只是示意）。"]
+    (work / "TASK.md").write_text("\n".join(T), encoding="utf-8")
+    print(f"共 {len(cases)} 张故事卡 → {n} 个分面判读包（每包 {per} 张）在 {work}")
+    print(f"判读规格：{work / 'TASK.md'}")
+
+
+def cmd_facet_merge(argv: list[str]):
+    """把分面判读结果并进 classification.json 的 facets 字段。"""
+    spec = load_spec()
+    valid = {f["id"] for f in spec["facets"]}
+    got, bad = {}, []
+    for a in argv:
+        src = Path(a)
+        for ln, line in enumerate(src.read_text(encoding="utf-8").splitlines(), 1):
+            line = line.strip()
+            if not line or not line.startswith("sk-"):
+                continue
+            m = re.match(r"^(sk-\d{4})\s*\|\s*([^|]*)\|", line)
+            if not m:
+                bad.append(f"{src.name}:{ln} 格式不符：{line[:60]}")
+                continue
+            cid, cell = m.group(1), m.group(2).strip()
+            fids = [] if cell.upper() in ("NONE", "—", "-") else [
+                x.strip() for x in re.split(r"[,，、\s]+", cell) if x.strip()]
+            unknown = [f for f in fids if f not in valid]
+            if unknown:
+                bad.append(f"{src.name}:{ln} {cid} 非法分面号 {unknown}")
+                continue
+            got[cid] = fids
+    cls = json.loads(RESULT.read_text(encoding="utf-8"))
+    n = 0
+    for cid, fids in got.items():
+        if cid in cls and cls[cid].get("type") == "case":
+            cls[cid]["facets"] = fids
+            cls[cid]["facet_source"] = "judge"
+            n += 1
+    if bad:
+        print(f"⚠ 有 {len(bad)} 行不合规，**未写文件**：")
+        for b in bad[:10]:
+            print("   " + b)
+        return
+    RESULT.write_text(json.dumps(cls, ensure_ascii=False, indent=1), encoding="utf-8")
+    print(f"并入 {n} 张故事卡的分面判读 → {RESULT}")
+    report_facets(cls, spec)
+
+
 if __name__ == "__main__":
     cmd = sys.argv[1] if len(sys.argv) > 1 else "check"
     if cmd == "packets":
@@ -369,6 +460,13 @@ if __name__ == "__main__":
         if "--per" in sys.argv:
             per = int(sys.argv[sys.argv.index("--per") + 1])
         cmd_packets(per)
+    elif cmd == "facet-packets":
+        per = 25
+        if "--per" in sys.argv:
+            per = int(sys.argv[sys.argv.index("--per") + 1])
+        cmd_facet_packets(per)
+    elif cmd == "facet-merge":
+        cmd_facet_merge(sys.argv[2:])
     elif cmd == "collect":
         cmd_collect(write=True)
     elif cmd == "merge":

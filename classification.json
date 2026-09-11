@@ -10338,10 +10338,11 @@
    "learning-difficulties"
   ],
   "facets": [
+   "S4",
    "S8"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0006": {
   "primary": null,
@@ -10351,11 +10352,11 @@
    "learning-difficulties"
   ],
   "facets": [
-   "S6",
+   "S4",
    "S8"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0015": {
   "primary": null,
@@ -10366,14 +10367,16 @@
    "learning-difficulties"
   ],
   "facets": [
-   "S8",
+   "S3",
+   "S4",
+   "S9",
    "S12",
    "S13"
   ],
   "tags": [
    "A18"
   ],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0022": {
   "primary": null,
@@ -10383,11 +10386,11 @@
    "health-first"
   ],
   "facets": [
-   "S8",
-   "S16"
+   "S6",
+   "S8"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0068": {
   "primary": null,
@@ -10401,13 +10404,14 @@
   "facets": [
    "S4",
    "S6",
-   "S9",
+   "S8",
+   "S12",
    "S16"
   ],
   "tags": [
    "A18"
   ],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0074": {
   "primary": null,
@@ -10419,11 +10423,13 @@
   ],
   "facets": [
    "S1",
+   "S7",
    "S8",
+   "S15",
    "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0076": {
   "primary": null,
@@ -10434,15 +10440,14 @@
    "child-study"
   ],
   "facets": [
+   "S4",
    "S6",
-   "S8",
-   "S11",
-   "S12"
+   "S8"
   ],
   "tags": [
    "A18"
   ],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0081": {
   "primary": null,
@@ -10455,15 +10460,12 @@
   ],
   "facets": [
    "S1",
-   "S6",
    "S7",
-   "S11",
    "S12",
-   "S13",
    "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0087": {
   "primary": null,
@@ -10475,11 +10477,12 @@
   ],
   "facets": [
    "S1",
+   "S3",
    "S6",
-   "S8"
+   "S10"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0090": {
   "primary": null,
@@ -10494,13 +10497,10 @@
    "S4",
    "S5",
    "S8",
-   "S12",
-   "S15",
-   "S16",
-   "S17"
+   "S16"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0099": {
   "primary": null,
@@ -10511,15 +10511,13 @@
    "labor-education"
   ],
   "facets": [
+   "S3",
    "S4",
-   "S6",
-   "S8",
    "S9",
-   "S11",
    "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0102": {
   "primary": null,
@@ -10530,11 +10528,12 @@
    "learning-difficulties"
   ],
   "facets": [
+   "S4",
    "S6",
    "S8"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0111": {
   "primary": null,
@@ -10545,14 +10544,13 @@
    "child-study"
   ],
   "facets": [
-   "S1",
    "S2",
-   "S4",
+   "S3",
    "S8",
    "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0114": {
   "primary": null,
@@ -10563,11 +10561,12 @@
    "child-study"
   ],
   "facets": [
-   "S1",
-   "S4"
+   "S4",
+   "S8",
+   "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0121": {
   "primary": null,
@@ -10580,13 +10579,11 @@
   "facets": [
    "S1",
    "S2",
-   "S3",
    "S7",
-   "S9",
    "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0125": {
   "primary": null,
@@ -10599,12 +10596,13 @@
   "facets": [
    "S3",
    "S4",
-   "S8"
+   "S8",
+   "S17"
   ],
   "tags": [
    "A18"
   ],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0132": {
   "primary": null,
@@ -10617,13 +10615,13 @@
   ],
   "facets": [
    "S1",
-   "S6",
+   "S3",
+   "S4",
    "S9",
-   "S12",
-   "S13"
+   "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0135": {
   "primary": null,
@@ -10635,12 +10633,13 @@
    "teacher-growth"
   ],
   "facets": [
+   "S3",
    "S4",
    "S6",
-   "S13"
+   "S16"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0140": {
   "primary": null,
@@ -10652,20 +10651,16 @@
    "child-study"
   ],
   "facets": [
-   "S1",
    "S2",
-   "S4",
-   "S6",
+   "S3",
    "S9",
-   "S10",
-   "S11",
    "S12",
    "S13",
    "S15",
    "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0150": {
   "primary": null,
@@ -10683,7 +10678,7 @@
    "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0168": {
   "primary": null,
@@ -10694,12 +10689,10 @@
    "collective-education"
   ],
   "facets": [
-   "S8",
-   "S12",
-   "S17"
+   "S8"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0172": {
   "primary": null,
@@ -10712,12 +10705,12 @@
   "facets": [
    "S4",
    "S6",
-   "S9",
+   "S8",
    "S11",
    "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0183": {
   "primary": null,
@@ -10728,16 +10721,13 @@
    "learning-difficulties"
   ],
   "facets": [
-   "S3",
    "S4",
-   "S8",
-   "S12",
-   "S17"
+   "S8"
   ],
   "tags": [
    "A18"
   ],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0185": {
   "primary": null,
@@ -10749,13 +10739,13 @@
   ],
   "facets": [
    "S4",
-   "S8",
-   "S12"
+   "S6",
+   "S8"
   ],
   "tags": [
    "A18"
   ],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0195": {
   "primary": null,
@@ -10766,13 +10756,12 @@
    "learning-difficulties"
   ],
   "facets": [
+   "S4",
    "S5",
-   "S6",
-   "S9",
-   "S11"
+   "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0203": {
   "primary": null,
@@ -10785,11 +10774,13 @@
   "facets": [
    "S1",
    "S2",
+   "S3",
+   "S9",
    "S10",
-   "S17"
+   "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0205": {
   "primary": null,
@@ -10801,12 +10792,11 @@
   ],
   "facets": [
    "S4",
-   "S8",
    "S15",
    "S16"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0336": {
   "primary": null,
@@ -10818,12 +10808,12 @@
   ],
   "facets": [
    "S4",
+   "S3",
    "S6",
-   "S9",
-   "S17"
+   "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0337": {
   "primary": null,
@@ -10835,11 +10825,10 @@
   "facets": [
    "S3",
    "S6",
-   "S13",
    "S16"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0338": {
   "primary": null,
@@ -10851,15 +10840,12 @@
   ],
   "facets": [
    "S1",
-   "S5",
-   "S6",
-   "S9",
-   "S11",
+   "S4",
    "S16",
    "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0339": {
   "primary": null,
@@ -10870,12 +10856,10 @@
    "family-school"
   ],
   "facets": [
-   "S1",
-   "S6",
-   "S11"
+   "S1"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0340": {
   "primary": null,
@@ -10886,13 +10870,13 @@
    "child-study"
   ],
   "facets": [
-   "S1",
+   "S3",
+   "S8",
    "S4",
-   "S6",
-   "S11"
+   "S10"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0341": {
   "primary": null,
@@ -10903,13 +10887,12 @@
    "love-education"
   ],
   "facets": [
-   "S1",
    "S3",
-   "S6",
-   "S11"
+   "S5",
+   "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0342": {
   "primary": null,
@@ -10921,12 +10904,12 @@
   ],
   "facets": [
    "S1",
+   "S2",
    "S6",
-   "S11",
-   "S12"
+   "S10"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0343": {
   "primary": null,
@@ -10938,12 +10921,10 @@
   ],
   "facets": [
    "S5",
-   "S6",
-   "S10",
    "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0344": {
   "primary": null,
@@ -10953,14 +10934,12 @@
    "love-education"
   ],
   "facets": [
-   "S1",
    "S5",
-   "S6",
-   "S11",
-   "S14"
+   "S1",
+   "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0345": {
   "primary": null,
@@ -10971,11 +10950,12 @@
    "thinking-and-nature"
   ],
   "facets": [
+   "S5",
    "S1",
-   "S5"
+   "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0346": {
   "primary": null,
@@ -10986,10 +10966,10 @@
   ],
   "facets": [
    "S6",
-   "S17"
+   "S16"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0347": {
   "primary": null,
@@ -11000,12 +10980,12 @@
    "aesthetic-nature-education"
   ],
   "facets": [
-   "S6",
+   "S5",
    "S11",
    "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0433": {
   "primary": null,
@@ -11017,12 +10997,13 @@
   ],
   "facets": [
    "S3",
-   "S6",
    "S8",
-   "S11"
+   "S6",
+   "S11",
+   "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0434": {
   "primary": null,
@@ -11034,13 +11015,14 @@
    "aesthetic-nature-education"
   ],
   "facets": [
-   "S1",
    "S4",
+   "S3",
+   "S8",
    "S5",
-   "S12"
+   "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0435": {
   "primary": null,
@@ -11052,11 +11034,12 @@
   ],
   "facets": [
    "S4",
-   "S6",
-   "S12"
+   "S3",
+   "S8",
+   "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0436": {
   "primary": null,
@@ -11067,10 +11050,12 @@
    "collective-education"
   ],
   "facets": [
-   "S6"
+   "S4",
+   "S12",
+   "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0437": {
   "primary": null,
@@ -11081,10 +11066,12 @@
    "family-school"
   ],
   "facets": [
-   "S1"
+   "S1",
+   "S4",
+   "S8"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0438": {
   "primary": null,
@@ -11096,15 +11083,12 @@
    "love-education"
   ],
   "facets": [
-   "S1",
    "S3",
-   "S6",
-   "S11",
-   "S13",
-   "S17"
+   "S8",
+   "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0439": {
   "primary": null,
@@ -11115,11 +11099,11 @@
    "collective-education"
   ],
   "facets": [
-   "S15",
-   "S16"
+   "S4",
+   "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0440": {
   "primary": null,
@@ -11130,11 +11114,12 @@
    "child-study"
   ],
   "facets": [
+   "S5",
    "S6",
    "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0441": {
   "primary": null,
@@ -11145,15 +11130,13 @@
    "collective-education"
   ],
   "facets": [
-   "S1",
    "S2",
-   "S4",
+   "S3",
    "S6",
-   "S12",
    "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0442": {
   "primary": null,
@@ -11164,13 +11147,14 @@
    "child-study"
   ],
   "facets": [
+   "S3",
    "S5",
    "S6",
    "S11",
    "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0443": {
   "primary": null,
@@ -11181,12 +11165,12 @@
    "child-study"
   ],
   "facets": [
+   "S3",
    "S5",
-   "S11",
-   "S12"
+   "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0444": {
   "primary": null,
@@ -11198,13 +11182,11 @@
   ],
   "facets": [
    "S1",
-   "S5",
-   "S6",
-   "S11",
-   "S14"
+   "S7",
+   "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0445": {
   "primary": null,
@@ -11215,13 +11197,12 @@
    "child-study"
   ],
   "facets": [
-   "S1",
-   "S5",
+   "S2",
    "S6",
-   "S11"
+   "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0446": {
   "primary": null,
@@ -11232,10 +11213,13 @@
    "child-study"
   ],
   "facets": [
-   "S1"
+   "S1",
+   "S4",
+   "S10",
+   "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0447": {
   "primary": null,
@@ -11247,12 +11231,10 @@
   ],
   "facets": [
    "S1",
-   "S6",
-   "S11",
-   "S12"
+   "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0448": {
   "primary": null,
@@ -11263,11 +11245,10 @@
    "child-study"
   ],
   "facets": [
-   "S5",
-   "S6"
+   "S5"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0449": {
   "primary": null,
@@ -11279,12 +11260,10 @@
   ],
   "facets": [
    "S5",
-   "S7",
-   "S12",
    "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0450": {
   "primary": null,
@@ -11298,12 +11277,10 @@
    "S5",
    "S6",
    "S9",
-   "S11",
-   "S12",
    "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0451": {
   "primary": null,
@@ -11316,12 +11293,10 @@
   "facets": [
    "S1",
    "S5",
-   "S6",
-   "S11",
-   "S16"
+   "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0452": {
   "primary": null,
@@ -11331,9 +11306,12 @@
    "thinking-and-nature",
    "aesthetic-nature-education"
   ],
-  "facets": [],
+  "facets": [
+   "S6",
+   "S16"
+  ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0453": {
   "primary": null,
@@ -11345,12 +11323,10 @@
   ],
   "facets": [
    "S5",
-   "S6",
-   "S10",
-   "S11"
+   "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0454": {
   "primary": null,
@@ -11363,11 +11339,10 @@
   "facets": [
    "S5",
    "S6",
-   "S11",
    "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0455": {
   "primary": null,
@@ -11379,11 +11354,10 @@
   ],
   "facets": [
    "S6",
-   "S11",
-   "S13"
+   "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0456": {
   "primary": null,
@@ -11393,9 +11367,11 @@
    "aesthetic-nature-education",
    "family-school"
   ],
-  "facets": [],
+  "facets": [
+   "S6"
+  ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0457": {
   "primary": null,
@@ -11407,11 +11383,10 @@
   ],
   "facets": [
    "S5",
-   "S7",
-   "S10"
+   "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0458": {
   "primary": null,
@@ -11424,12 +11399,10 @@
   "facets": [
    "S1",
    "S5",
-   "S6",
-   "S13",
-   "S15"
+   "S16"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0459": {
   "primary": null,
@@ -11441,11 +11414,10 @@
   ],
   "facets": [
    "S5",
-   "S6",
-   "S11"
+   "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0460": {
   "primary": null,
@@ -11456,13 +11428,12 @@
    "thinking-and-nature"
   ],
   "facets": [
+   "S5",
    "S6",
-   "S11",
-   "S14",
-   "S15"
+   "S14"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0461": {
   "primary": null,
@@ -11477,7 +11448,7 @@
    "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0462": {
   "primary": null,
@@ -11489,11 +11460,10 @@
   ],
   "facets": [
    "S5",
-   "S7",
-   "S12"
+   "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0463": {
   "primary": null,
@@ -11505,13 +11475,10 @@
   ],
   "facets": [
    "S6",
-   "S7",
-   "S11",
-   "S13",
-   "S16"
+   "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0464": {
   "primary": null,
@@ -11523,10 +11490,11 @@
   ],
   "facets": [
    "S5",
-   "S11"
+   "S8",
+   "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0465": {
   "primary": null,
@@ -11538,11 +11506,10 @@
   ],
   "facets": [
    "S5",
-   "S6",
-   "S11"
+   "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0466": {
   "primary": null,
@@ -11557,7 +11524,7 @@
    "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0467": {
   "primary": null,
@@ -11570,14 +11537,10 @@
   "facets": [
    "S1",
    "S6",
-   "S7",
-   "S9",
-   "S11",
-   "S12",
-   "S13"
+   "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0468": {
   "primary": null,
@@ -11588,11 +11551,12 @@
    "child-study"
   ],
   "facets": [
+   "S3",
    "S5",
-   "S6"
+   "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0469": {
   "primary": null,
@@ -11603,13 +11567,11 @@
    "thinking-and-nature"
   ],
   "facets": [
-   "S1",
    "S2",
-   "S6",
-   "S11"
+   "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0470": {
   "primary": null,
@@ -11620,12 +11582,12 @@
    "labor-education"
   ],
   "facets": [
+   "S5",
    "S9",
-   "S12",
-   "S16"
+   "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0471": {
   "primary": null,
@@ -11637,12 +11599,10 @@
   ],
   "facets": [
    "S5",
-   "S6",
-   "S10",
-   "S16"
+   "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0472": {
   "primary": null,
@@ -11653,12 +11613,12 @@
    "child-study"
   ],
   "facets": [
+   "S3",
    "S6",
-   "S11",
-   "S12"
+   "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0473": {
   "primary": null,
@@ -11669,13 +11629,12 @@
    "child-study"
   ],
   "facets": [
-   "S3",
-   "S6",
-   "S7",
-   "S11"
+   "S5",
+   "S11",
+   "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0474": {
   "primary": null,
@@ -11687,12 +11646,10 @@
   ],
   "facets": [
    "S5",
-   "S6",
-   "S10",
-   "S16"
+   "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0475": {
   "primary": null,
@@ -11704,13 +11661,12 @@
   ],
   "facets": [
    "S1",
-   "S6",
-   "S7",
-   "S11",
-   "S12"
+   "S2",
+   "S4",
+   "S7"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0476": {
   "primary": null,
@@ -11725,7 +11681,7 @@
    "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0477": {
   "primary": null,
@@ -11737,10 +11693,11 @@
   ],
   "facets": [
    "S5",
-   "S9"
+   "S6",
+   "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0478": {
   "primary": null,
@@ -11751,10 +11708,13 @@
    "aesthetic-nature-education"
   ],
   "facets": [
-   "S1"
+   "S1",
+   "S4",
+   "S6",
+   "S7"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0479": {
   "primary": null,
@@ -11766,12 +11726,12 @@
   ],
   "facets": [
    "S1",
+   "S5",
    "S6",
-   "S11",
-   "S13"
+   "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0480": {
   "primary": null,
@@ -11786,7 +11746,7 @@
    "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0481": {
   "primary": null,
@@ -11800,10 +11760,10 @@
    "S1",
    "S3",
    "S5",
-   "S6"
+   "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0482": {
   "primary": null,
@@ -11814,12 +11774,11 @@
    "thinking-and-nature"
   ],
   "facets": [
-   "S1",
    "S2",
    "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0483": {
   "primary": null,
@@ -11831,12 +11790,10 @@
   ],
   "facets": [
    "S6",
-   "S11",
-   "S13",
-   "S16"
+   "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0484": {
   "primary": null,
@@ -11850,7 +11807,7 @@
    "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0485": {
   "primary": null,
@@ -11862,10 +11819,11 @@
   ],
   "facets": [
    "S6",
-   "S15"
+   "S15",
+   "S16"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0486": {
   "primary": null,
@@ -11881,7 +11839,7 @@
    "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0487": {
   "primary": null,
@@ -11897,7 +11855,7 @@
    "S7"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0488": {
   "primary": null,
@@ -11909,10 +11867,11 @@
   ],
   "facets": [
    "S1",
+   "S4",
    "S7"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0489": {
   "primary": null,
@@ -11924,11 +11883,10 @@
   ],
   "facets": [
    "S5",
-   "S6",
-   "S11"
+   "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0490": {
   "primary": null,
@@ -11940,11 +11898,10 @@
   ],
   "facets": [
    "S6",
-   "S11",
-   "S16"
+   "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0491": {
   "primary": null,
@@ -11955,12 +11912,13 @@
    "aesthetic-nature-education"
   ],
   "facets": [
+   "S3",
    "S4",
    "S6",
-   "S14"
+   "S8"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0492": {
   "primary": null,
@@ -11976,7 +11934,7 @@
    "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0493": {
   "primary": null,
@@ -11989,11 +11947,10 @@
   "facets": [
    "S5",
    "S6",
-   "S7",
-   "S11"
+   "S14"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0494": {
   "primary": null,
@@ -12004,13 +11961,12 @@
    "collective-education"
   ],
   "facets": [
-   "S3",
    "S5",
    "S6",
    "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0495": {
   "primary": null,
@@ -12021,12 +11977,12 @@
    "thinking-and-nature"
   ],
   "facets": [
+   "S5",
    "S6",
-   "S9",
    "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0496": {
   "primary": null,
@@ -12037,13 +11993,11 @@
    "thinking-and-nature"
   ],
   "facets": [
-   "S6",
-   "S9",
-   "S11",
-   "S16"
+   "S5",
+   "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0497": {
   "primary": null,
@@ -12054,11 +12008,10 @@
    "aesthetic-nature-education"
   ],
   "facets": [
-   "S6",
-   "S11"
+   "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0498": {
   "primary": null,
@@ -12069,10 +12022,11 @@
    "child-study"
   ],
   "facets": [
+   "S5",
    "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0499": {
   "primary": null,
@@ -12088,7 +12042,7 @@
    "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0500": {
   "primary": null,
@@ -12102,7 +12056,7 @@
    "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0501": {
   "primary": null,
@@ -12113,12 +12067,10 @@
    "thinking-and-nature"
   ],
   "facets": [
-   "S6",
-   "S9",
-   "S11"
+   "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0502": {
   "primary": null,
@@ -12129,11 +12081,12 @@
    "thinking-and-nature"
   ],
   "facets": [
+   "S5",
    "S6",
    "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0503": {
   "primary": null,
@@ -12149,7 +12102,7 @@
    "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0504": {
   "primary": null,
@@ -12160,12 +12113,10 @@
    "thinking-and-nature"
   ],
   "facets": [
-   "S6",
-   "S7",
-   "S11"
+   "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0505": {
   "primary": null,
@@ -12176,11 +12127,10 @@
    "child-study"
   ],
   "facets": [
-   "S6",
    "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0506": {
   "primary": null,
@@ -12194,7 +12144,7 @@
    "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0507": {
   "primary": null,
@@ -12206,12 +12156,11 @@
   ],
   "facets": [
    "S1",
-   "S6",
-   "S13",
-   "S17"
+   "S5",
+   "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0508": {
   "primary": null,
@@ -12222,11 +12171,12 @@
    "child-study"
   ],
   "facets": [
+   "S3",
    "S6",
    "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0509": {
   "primary": null,
@@ -12242,7 +12192,7 @@
    "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0510": {
   "primary": null,
@@ -12254,10 +12204,10 @@
   ],
   "facets": [
    "S6",
-   "S15"
+   "S14"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0511": {
   "primary": null,
@@ -12268,11 +12218,13 @@
    "aesthetic-nature-education"
   ],
   "facets": [
-   "S13",
-   "S15"
+   "S3",
+   "S5",
+   "S6",
+   "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0512": {
   "primary": null,
@@ -12287,7 +12239,7 @@
    "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0513": {
   "primary": null,
@@ -12299,11 +12251,12 @@
   ],
   "facets": [
    "S1",
+   "S3",
    "S5",
    "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0514": {
   "primary": null,
@@ -12314,12 +12267,14 @@
    "child-study"
   ],
   "facets": [
-   "S1",
+   "S2",
+   "S3",
    "S5",
-   "S6"
+   "S6",
+   "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0515": {
   "primary": null,
@@ -12331,11 +12286,10 @@
   ],
   "facets": [
    "S6",
-   "S11",
    "S14"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0516": {
   "primary": null,
@@ -12346,11 +12300,13 @@
    "aesthetic-nature-education"
   ],
   "facets": [
+   "S3",
    "S5",
+   "S8",
    "S16"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0517": {
   "primary": null,
@@ -12362,11 +12318,10 @@
   ],
   "facets": [
    "S6",
-   "S9",
-   "S12"
+   "S9"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0518": {
   "primary": null,
@@ -12377,11 +12332,10 @@
    "thinking-and-nature"
   ],
   "facets": [
-   "S6",
-   "S11"
+   "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0519": {
   "primary": null,
@@ -12392,13 +12346,13 @@
    "child-study"
   ],
   "facets": [
+   "S3",
    "S5",
    "S6",
-   "S12",
-   "S14"
+   "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0520": {
   "primary": null,
@@ -12409,13 +12363,12 @@
    "thinking-and-nature"
   ],
   "facets": [
+   "S5",
    "S6",
-   "S11",
-   "S12",
    "S16"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0521": {
   "primary": null,
@@ -12426,15 +12379,13 @@
    "aesthetic-nature-education"
   ],
   "facets": [
-   "S3",
    "S5",
    "S6",
-   "S11",
-   "S12",
-   "S13"
+   "S9",
+   "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0522": {
   "primary": null,
@@ -12447,12 +12398,12 @@
   "facets": [
    "S6",
    "S10",
-   "S12"
+   "S11"
   ],
   "tags": [
    "A18"
   ],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0523": {
   "primary": null,
@@ -12466,13 +12417,11 @@
    "S1",
    "S5",
    "S6",
-   "S7",
-   "S10",
-   "S13",
+   "S12",
    "S16"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0524": {
   "primary": null,
@@ -12483,11 +12432,12 @@
    "child-study"
   ],
   "facets": [
+   "S5",
    "S6",
-   "S11"
+   "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0525": {
   "primary": null,
@@ -12504,7 +12454,7 @@
    "S14"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0526": {
   "primary": null,
@@ -12515,12 +12465,11 @@
    "thinking-and-nature"
   ],
   "facets": [
-   "S6",
-   "S9",
-   "S11"
+   "S5",
+   "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0527": {
   "primary": null,
@@ -12531,14 +12480,13 @@
    "child-study"
   ],
   "facets": [
+   "S3",
    "S4",
    "S6",
-   "S11",
-   "S12",
-   "S16"
+   "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0528": {
   "primary": null,
@@ -12549,11 +12497,10 @@
    "child-study"
   ],
   "facets": [
-   "S6",
-   "S8"
+   "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0529": {
   "primary": null,
@@ -12564,14 +12511,12 @@
    "thinking-and-nature"
   ],
   "facets": [
-   "S1",
    "S5",
    "S6",
-   "S11",
-   "S16"
+   "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0530": {
   "primary": null,
@@ -12584,12 +12529,11 @@
   "facets": [
    "S3",
    "S5",
-   "S6",
    "S9",
-   "S13"
+   "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0531": {
   "primary": null,
@@ -12601,11 +12545,10 @@
   ],
   "facets": [
    "S6",
-   "S11",
-   "S16"
+   "S14"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0532": {
   "primary": null,
@@ -12617,11 +12560,10 @@
   ],
   "facets": [
    "S6",
-   "S9",
    "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0533": {
   "primary": null,
@@ -12632,12 +12574,11 @@
    "thinking-and-nature"
   ],
   "facets": [
-   "S1",
-   "S6",
-   "S11"
+   "S2",
+   "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0534": {
   "primary": null,
@@ -12648,12 +12589,11 @@
    "aesthetic-nature-education"
   ],
   "facets": [
-   "S6",
-   "S9",
-   "S11"
+   "S5",
+   "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0535": {
   "primary": null,
@@ -12665,13 +12605,10 @@
   ],
   "facets": [
    "S5",
-   "S6",
-   "S9",
-   "S11",
-   "S12"
+   "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0536": {
   "primary": null,
@@ -12682,10 +12619,11 @@
    "thinking-and-nature"
   ],
   "facets": [
+   "S5",
    "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0537": {
   "primary": null,
@@ -12696,13 +12634,13 @@
    "love-education"
   ],
   "facets": [
-   "S1",
+   "S5",
    "S6",
-   "S11",
-   "S14"
+   "S14",
+   "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0538": {
   "primary": null,
@@ -12715,10 +12653,10 @@
   "facets": [
    "S1",
    "S5",
-   "S9"
+   "S7"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0539": {
   "primary": null,
@@ -12729,13 +12667,11 @@
    "family-school"
   ],
   "facets": [
-   "S6",
-   "S12",
-   "S13",
-   "S15"
+   "S5",
+   "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0540": {
   "primary": null,
@@ -12746,11 +12682,11 @@
    "family-school"
   ],
   "facets": [
-   "S5",
-   "S6"
+   "S1",
+   "S5"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0541": {
   "primary": null,
@@ -12761,14 +12697,12 @@
    "love-education"
   ],
   "facets": [
-   "S3",
    "S5",
    "S6",
-   "S11",
    "S14"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0542": {
   "primary": null,
@@ -12779,14 +12713,11 @@
    "aesthetic-nature-education"
   ],
   "facets": [
-   "S3",
    "S6",
-   "S11",
-   "S12",
    "S16"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0543": {
   "primary": null,
@@ -12797,14 +12728,13 @@
    "collective-education"
   ],
   "facets": [
-   "S3",
+   "S4",
    "S6",
-   "S10",
-   "S11",
+   "S9",
    "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0544": {
   "primary": null,
@@ -12815,11 +12745,13 @@
    "aesthetic-nature-education"
   ],
   "facets": [
+   "S4",
    "S6",
-   "S12"
+   "S10",
+   "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0545": {
   "primary": null,
@@ -12832,12 +12764,10 @@
   "facets": [
    "S6",
    "S8",
-   "S9",
-   "S11",
    "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0546": {
   "primary": null,
@@ -12850,12 +12780,12 @@
   "facets": [
    "S1",
    "S5",
-   "S6",
    "S7",
+   "S11",
    "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0547": {
   "primary": null,
@@ -12866,14 +12796,14 @@
    "aesthetic-nature-education"
   ],
   "facets": [
-   "S1",
    "S5",
    "S6",
+   "S11",
    "S13",
    "S14"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0548": {
   "primary": null,
@@ -12884,14 +12814,12 @@
    "love-education"
   ],
   "facets": [
-   "S1",
+   "S5",
    "S6",
-   "S9",
-   "S10",
    "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0549": {
   "primary": null,
@@ -12903,12 +12831,12 @@
   ],
   "facets": [
    "S5",
-   "S7",
-   "S10",
+   "S6",
+   "S8",
    "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0550": {
   "primary": null,
@@ -12919,13 +12847,11 @@
    "aesthetic-nature-education"
   ],
   "facets": [
-   "S4",
-   "S9",
-   "S11",
-   "S12"
+   "S6",
+   "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0551": {
   "primary": null,
@@ -12942,7 +12868,7 @@
    "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0552": {
   "primary": null,
@@ -12954,10 +12880,11 @@
   ],
   "facets": [
    "S6",
-   "S11"
+   "S11",
+   "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0553": {
   "primary": null,
@@ -12970,12 +12897,11 @@
   "facets": [
    "S1",
    "S6",
-   "S9",
-   "S11",
-   "S12"
+   "S7",
+   "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0554": {
   "primary": null,
@@ -12988,11 +12914,11 @@
   "facets": [
    "S4",
    "S6",
-   "S9",
+   "S10",
    "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0555": {
   "primary": null,
@@ -13004,14 +12930,11 @@
   ],
   "facets": [
    "S1",
-   "S3",
    "S5",
-   "S6",
-   "S14",
-   "S17"
+   "S14"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0556": {
   "primary": null,
@@ -13022,15 +12945,14 @@
    "love-education"
   ],
   "facets": [
-   "S1",
+   "S5",
    "S6",
+   "S7",
    "S9",
-   "S13",
-   "S15",
-   "S16"
+   "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0557": {
   "primary": null,
@@ -13043,12 +12965,11 @@
   "facets": [
    "S1",
    "S5",
-   "S6",
-   "S11",
-   "S12"
+   "S7",
+   "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0558": {
   "primary": null,
@@ -13060,11 +12981,10 @@
   ],
   "facets": [
    "S6",
-   "S11",
-   "S12"
+   "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0559": {
   "primary": null,
@@ -13075,14 +12995,12 @@
    "collective-education"
   ],
   "facets": [
-   "S3",
    "S6",
    "S11",
-   "S12",
    "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0560": {
   "primary": null,
@@ -13093,13 +13011,13 @@
    "aesthetic-nature-education"
   ],
   "facets": [
+   "S5",
    "S6",
-   "S7",
-   "S11",
-   "S13"
+   "S13",
+   "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0561": {
   "primary": null,
@@ -13111,11 +13029,10 @@
   ],
   "facets": [
    "S6",
-   "S11",
-   "S12"
+   "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0562": {
   "primary": null,
@@ -13127,16 +13044,13 @@
   ],
   "facets": [
    "S1",
-   "S3",
-   "S6",
+   "S4",
    "S7",
    "S9",
-   "S11",
-   "S12",
-   "S13"
+   "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0563": {
   "primary": null,
@@ -13147,12 +13061,12 @@
    "thinking-and-nature"
   ],
   "facets": [
+   "S5",
    "S6",
-   "S11",
-   "S12"
+   "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0564": {
   "primary": null,
@@ -13163,15 +13077,14 @@
    "collective-education"
   ],
   "facets": [
+   "S4",
    "S6",
    "S7",
    "S10",
-   "S11",
-   "S12",
-   "S16"
+   "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0565": {
   "primary": null,
@@ -13182,17 +13095,13 @@
    "collective-education"
   ],
   "facets": [
-   "S4",
-   "S6",
-   "S7",
    "S8",
    "S11",
    "S12",
-   "S14",
    "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0566": {
   "primary": null,
@@ -13203,16 +13112,15 @@
    "aesthetic-nature-education"
   ],
   "facets": [
-   "S1",
+   "S2",
    "S4",
-   "S6",
-   "S8",
    "S9",
    "S11",
-   "S12"
+   "S12",
+   "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0567": {
   "primary": null,
@@ -13223,10 +13131,11 @@
    "thinking-and-nature"
   ],
   "facets": [
-   "S6"
+   "S6",
+   "S16"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0568": {
   "primary": null,
@@ -13238,11 +13147,10 @@
   ],
   "facets": [
    "S6",
-   "S11",
-   "S14"
+   "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0569": {
   "primary": null,
@@ -13253,14 +13161,13 @@
    "collective-education"
   ],
   "facets": [
-   "S5",
+   "S3",
    "S6",
    "S8",
-   "S11",
-   "S12"
+   "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0570": {
   "primary": null,
@@ -13271,13 +13178,12 @@
    "labor-education"
   ],
   "facets": [
+   "S4",
    "S6",
-   "S7",
-   "S11",
-   "S12"
+   "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0571": {
   "primary": null,
@@ -13291,11 +13197,11 @@
    "S1",
    "S6",
    "S9",
-   "S11",
-   "S12"
+   "S12",
+   "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0572": {
   "primary": null,
@@ -13307,13 +13213,12 @@
   ],
   "facets": [
    "S1",
+   "S5",
    "S6",
-   "S7",
-   "S11",
-   "S14"
+   "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0573": {
   "primary": null,
@@ -13324,11 +13229,12 @@
    "love-education"
   ],
   "facets": [
+   "S1",
    "S6",
-   "S11"
+   "S14"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0574": {
   "primary": null,
@@ -13340,12 +13246,10 @@
   ],
   "facets": [
    "S1",
-   "S5",
-   "S6",
-   "S9"
+   "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0575": {
   "primary": null,
@@ -13357,12 +13261,10 @@
   ],
   "facets": [
    "S5",
-   "S6",
-   "S7",
-   "S11"
+   "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0576": {
   "primary": null,
@@ -13374,14 +13276,13 @@
   ],
   "facets": [
    "S1",
-   "S3",
+   "S4",
+   "S5",
    "S6",
-   "S9",
-   "S11",
-   "S13"
+   "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0577": {
   "primary": null,
@@ -13393,13 +13294,12 @@
   ],
   "facets": [
    "S1",
+   "S4",
    "S6",
-   "S11",
-   "S12",
    "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0578": {
   "primary": null,
@@ -13410,12 +13310,13 @@
    "love-education"
   ],
   "facets": [
+   "S1",
    "S5",
    "S6",
    "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0579": {
   "primary": null,
@@ -13427,12 +13328,10 @@
   ],
   "facets": [
    "S2",
-   "S9",
-   "S12",
-   "S16"
+   "S4"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0580": {
   "primary": null,
@@ -13444,13 +13343,11 @@
   ],
   "facets": [
    "S1",
-   "S7",
-   "S8",
-   "S10",
+   "S4",
    "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0581": {
   "primary": null,
@@ -13461,10 +13358,11 @@
    "love-education"
   ],
   "facets": [
-   "S1"
+   "S1",
+   "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0582": {
   "primary": null,
@@ -13476,12 +13374,14 @@
   ],
   "facets": [
    "S1",
+   "S4",
+   "S5",
    "S6",
    "S9",
    "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0583": {
   "primary": null,
@@ -13494,15 +13394,11 @@
   "facets": [
    "S5",
    "S6",
-   "S7",
-   "S9",
-   "S10",
    "S11",
-   "S12",
    "S14"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0584": {
   "primary": null,
@@ -13514,10 +13410,12 @@
   ],
   "facets": [
    "S1",
-   "S13"
+   "S4",
+   "S15",
+   "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0585": {
   "primary": null,
@@ -13529,11 +13427,12 @@
   ],
   "facets": [
    "S1",
-   "S6",
-   "S7"
+   "S4",
+   "S13",
+   "S14"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0586": {
   "primary": null,
@@ -13544,11 +13443,13 @@
    "love-education"
   ],
   "facets": [
+   "S5",
    "S6",
-   "S11"
+   "S11",
+   "S14"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0587": {
   "primary": null,
@@ -13559,11 +13460,15 @@
    "love-education"
   ],
   "facets": [
+   "S1",
+   "S4",
    "S6",
-   "S9"
+   "S9",
+   "S11",
+   "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0588": {
   "primary": null,
@@ -13575,14 +13480,12 @@
   ],
   "facets": [
    "S3",
+   "S4",
    "S6",
-   "S7",
-   "S9",
-   "S11",
-   "S12"
+   "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0589": {
   "primary": null,
@@ -13594,11 +13497,14 @@
   ],
   "facets": [
    "S1",
-   "S10",
-   "S13"
+   "S4",
+   "S6",
+   "S13",
+   "S14",
+   "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0590": {
   "primary": null,
@@ -13610,12 +13516,15 @@
   ],
   "facets": [
    "S1",
-   "S7",
+   "S3",
+   "S4",
+   "S5",
+   "S6",
    "S12",
    "S14"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0591": {
   "primary": null,
@@ -13626,12 +13535,14 @@
    "love-education"
   ],
   "facets": [
+   "S3",
    "S6",
-   "S9",
-   "S11"
+   "S11",
+   "S15",
+   "S16"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0592": {
   "primary": null,
@@ -13642,13 +13553,13 @@
    "love-education"
   ],
   "facets": [
+   "S4",
    "S5",
    "S6",
-   "S12",
-   "S16"
+   "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0593": {
   "primary": null,
@@ -13660,13 +13571,14 @@
   ],
   "facets": [
    "S1",
-   "S6",
+   "S3",
+   "S4",
    "S10",
    "S13",
    "S14"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0594": {
   "primary": null,
@@ -13677,16 +13589,14 @@
    "love-education"
   ],
   "facets": [
-   "S1",
+   "S3",
    "S4",
-   "S5",
-   "S6",
-   "S7",
-   "S9",
-   "S11"
+   "S8",
+   "S11",
+   "S14"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0595": {
   "primary": null,
@@ -13697,10 +13607,13 @@
    "love-education"
   ],
   "facets": [
-   "S1"
+   "S3",
+   "S4",
+   "S13",
+   "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0596": {
   "primary": null,
@@ -13711,17 +13624,12 @@
    "collective-education"
   ],
   "facets": [
-   "S1",
+   "S2",
    "S4",
-   "S6",
-   "S7",
-   "S9",
-   "S10",
-   "S11",
-   "S12"
+   "S10"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0597": {
   "primary": null,
@@ -13732,11 +13640,12 @@
    "love-education"
   ],
   "facets": [
+   "S3",
    "S6",
-   "S17"
+   "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0598": {
   "primary": null,
@@ -13749,11 +13658,10 @@
   "facets": [
    "S1",
    "S6",
-   "S11",
-   "S12"
+   "S14"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0599": {
   "primary": null,
@@ -13765,11 +13673,12 @@
   ],
   "facets": [
    "S1",
-   "S6",
-   "S12"
+   "S7",
+   "S14",
+   "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0600": {
   "primary": null,
@@ -13780,12 +13689,13 @@
    "love-education"
   ],
   "facets": [
-   "S1",
+   "S2",
+   "S3",
    "S6",
-   "S11"
+   "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0601": {
   "primary": null,
@@ -13797,14 +13707,13 @@
   ],
   "facets": [
    "S1",
-   "S5",
-   "S8",
+   "S6",
    "S10",
-   "S11",
-   "S14"
+   "S14",
+   "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0602": {
   "primary": null,
@@ -13816,10 +13725,11 @@
   ],
   "facets": [
    "S6",
-   "S11"
+   "S11",
+   "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0603": {
   "primary": null,
@@ -13831,14 +13741,11 @@
   ],
   "facets": [
    "S1",
-   "S4",
-   "S6",
    "S8",
-   "S11",
-   "S12"
+   "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0604": {
   "primary": null,
@@ -13851,11 +13758,11 @@
   "facets": [
    "S1",
    "S6",
-   "S11",
+   "S13",
    "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0605": {
   "primary": null,
@@ -13866,14 +13773,13 @@
    "love-education"
   ],
   "facets": [
-   "S1",
-   "S6",
+   "S3",
+   "S4",
    "S10",
-   "S15",
-   "S16"
+   "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0606": {
   "primary": null,
@@ -13885,14 +13791,12 @@
   ],
   "facets": [
    "S1",
+   "S2",
    "S6",
-   "S10",
-   "S11",
-   "S13",
    "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0607": {
   "primary": null,
@@ -13903,12 +13807,11 @@
    "love-education"
   ],
   "facets": [
-   "S6",
-   "S10",
+   "S4",
    "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0608": {
   "primary": null,
@@ -13919,16 +13822,13 @@
    "love-education"
   ],
   "facets": [
-   "S1",
    "S2",
    "S6",
    "S9",
-   "S12",
-   "S13",
-   "S16"
+   "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0609": {
   "primary": null,
@@ -13940,11 +13840,10 @@
   ],
   "facets": [
    "S1",
-   "S6",
-   "S11"
+   "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0610": {
   "primary": null,
@@ -13955,15 +13854,12 @@
    "love-education"
   ],
   "facets": [
+   "S4",
    "S6",
-   "S9",
-   "S10",
-   "S11",
-   "S13",
-   "S16"
+   "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0611": {
   "primary": null,
@@ -13974,10 +13870,13 @@
    "love-education"
   ],
   "facets": [
-   "S4"
+   "S3",
+   "S4",
+   "S9",
+   "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0612": {
   "primary": null,
@@ -13988,10 +13887,12 @@
    "love-education"
   ],
   "facets": [
+   "S3",
+   "S4",
    "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0613": {
   "primary": null,
@@ -14002,14 +13903,14 @@
    "teacher-growth"
   ],
   "facets": [
+   "S3",
    "S4",
-   "S6",
+   "S10",
    "S11",
-   "S15",
-   "S16"
+   "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0614": {
   "primary": null,
@@ -14021,13 +13922,15 @@
   ],
   "facets": [
    "S1",
-   "S6",
+   "S3",
+   "S4",
    "S7",
    "S10",
-   "S13"
+   "S14",
+   "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0615": {
   "primary": null,
@@ -14039,13 +13942,13 @@
   ],
   "facets": [
    "S2",
+   "S3",
    "S6",
-   "S9",
    "S11",
-   "S16"
+   "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0616": {
   "primary": null,
@@ -14057,14 +13960,12 @@
   ],
   "facets": [
    "S2",
-   "S6",
+   "S3",
    "S10",
-   "S11",
-   "S15",
-   "S16"
+   "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0617": {
   "primary": null,
@@ -14077,14 +13978,11 @@
   "facets": [
    "S1",
    "S6",
-   "S7",
-   "S10",
-   "S11",
-   "S12",
-   "S14"
+   "S14",
+   "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0618": {
   "primary": null,
@@ -14097,10 +13995,11 @@
   "facets": [
    "S1",
    "S7",
-   "S16"
+   "S16",
+   "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0619": {
   "primary": null,
@@ -14112,11 +14011,13 @@
   ],
   "facets": [
    "S3",
+   "S4",
    "S6",
-   "S12"
+   "S10",
+   "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0620": {
   "primary": null,
@@ -14128,13 +14029,12 @@
   ],
   "facets": [
    "S1",
-   "S5",
+   "S4",
    "S6",
-   "S10",
-   "S14"
+   "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0621": {
   "primary": null,
@@ -14146,15 +14046,13 @@
   ],
   "facets": [
    "S1",
-   "S3",
    "S6",
-   "S7",
    "S10",
    "S15",
    "S16"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0622": {
   "primary": null,
@@ -14165,13 +14063,12 @@
    "love-education"
   ],
   "facets": [
+   "S3",
    "S6",
-   "S10",
-   "S13",
    "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0623": {
   "primary": null,
@@ -14183,11 +14080,13 @@
   ],
   "facets": [
    "S1",
-   "S2",
-   "S16"
+   "S4",
+   "S9",
+   "S14",
+   "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0624": {
   "primary": null,
@@ -14198,13 +14097,13 @@
    "collective-education"
   ],
   "facets": [
+   "S3",
+   "S4",
    "S6",
-   "S10",
-   "S11",
    "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0625": {
   "primary": null,
@@ -14216,13 +14115,14 @@
   ],
   "facets": [
    "S1",
-   "S8",
+   "S2",
+   "S3",
+   "S4",
    "S15",
-   "S16",
-   "S17"
+   "S16"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0626": {
   "primary": null,
@@ -14233,13 +14133,13 @@
    "love-education"
   ],
   "facets": [
-   "S1",
    "S2",
-   "S7",
+   "S4",
+   "S10",
    "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0627": {
   "primary": null,
@@ -14250,16 +14150,14 @@
    "love-education"
   ],
   "facets": [
-   "S1",
    "S2",
-   "S5",
-   "S6",
-   "S7",
+   "S3",
+   "S4",
    "S8",
-   "S11"
+   "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0628": {
   "primary": null,
@@ -14270,15 +14168,13 @@
    "love-education"
   ],
   "facets": [
-   "S1",
    "S2",
-   "S6",
-   "S10",
-   "S11",
-   "S13"
+   "S3",
+   "S4",
+   "S10"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0629": {
   "primary": null,
@@ -14290,12 +14186,13 @@
   ],
   "facets": [
    "S1",
+   "S4",
    "S6",
-   "S13",
-   "S16"
+   "S8",
+   "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0630": {
   "primary": null,
@@ -14307,12 +14204,12 @@
   ],
   "facets": [
    "S1",
+   "S2",
    "S6",
-   "S10",
-   "S11"
+   "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0631": {
   "primary": null,
@@ -14323,12 +14220,12 @@
    "love-education"
   ],
   "facets": [
-   "S7",
+   "S6",
    "S12",
    "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0632": {
   "primary": null,
@@ -14340,15 +14237,14 @@
   ],
   "facets": [
    "S1",
+   "S4",
    "S6",
    "S9",
-   "S10",
    "S12",
-   "S13",
    "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0633": {
   "primary": null,
@@ -14361,11 +14257,10 @@
   "facets": [
    "S1",
    "S4",
-   "S9",
    "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0634": {
   "primary": null,
@@ -14376,15 +14271,15 @@
    "family-school"
   ],
   "facets": [
-   "S1",
    "S2",
+   "S4",
    "S6",
    "S10",
    "S11",
    "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0635": {
   "primary": null,
@@ -14395,11 +14290,13 @@
    "family-school"
   ],
   "facets": [
-   "S1",
-   "S6"
+   "S2",
+   "S4",
+   "S6",
+   "S10"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0636": {
   "primary": null,
@@ -14410,15 +14307,14 @@
    "love-education"
   ],
   "facets": [
-   "S1",
    "S2",
+   "S3",
+   "S4",
    "S8",
-   "S11",
-   "S12",
    "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0637": {
   "primary": null,
@@ -14429,12 +14325,13 @@
    "love-education"
   ],
   "facets": [
-   "S1",
    "S2",
-   "S6"
+   "S3",
+   "S6",
+   "S8"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0638": {
   "primary": null,
@@ -14445,14 +14342,13 @@
    "love-education"
   ],
   "facets": [
+   "S4",
    "S6",
-   "S7",
-   "S10",
-   "S11",
+   "S13",
    "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0639": {
   "primary": null,
@@ -14463,15 +14359,16 @@
    "love-education"
   ],
   "facets": [
-   "S1",
+   "S2",
    "S4",
    "S6",
-   "S11",
+   "S8",
    "S13",
-   "S15"
+   "S15",
+   "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0640": {
   "primary": null,
@@ -14482,14 +14379,13 @@
    "love-education"
   ],
   "facets": [
-   "S1",
    "S3",
+   "S4",
    "S8",
-   "S11",
-   "S15"
+   "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0641": {
   "primary": null,
@@ -14500,16 +14396,15 @@
    "love-education"
   ],
   "facets": [
-   "S1",
    "S2",
    "S3",
-   "S6",
-   "S11",
-   "S12",
+   "S4",
+   "S8",
+   "S10",
    "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0642": {
   "primary": null,
@@ -14521,13 +14416,14 @@
   ],
   "facets": [
    "S1",
+   "S2",
    "S3",
-   "S13",
+   "S4",
    "S15",
    "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0643": {
   "primary": null,
@@ -14538,11 +14434,13 @@
    "love-education"
   ],
   "facets": [
-   "S1",
-   "S2"
+   "S2",
+   "S4",
+   "S7",
+   "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0644": {
   "primary": null,
@@ -14553,14 +14451,11 @@
    "learning-difficulties"
   ],
   "facets": [
-   "S4",
-   "S7",
    "S8",
-   "S11",
    "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0645": {
   "primary": null,
@@ -14571,16 +14466,15 @@
    "love-education"
   ],
   "facets": [
-   "S1",
    "S2",
+   "S3",
    "S6",
-   "S8",
-   "S11",
    "S12",
-   "S13"
+   "S13",
+   "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0646": {
   "primary": null,
@@ -14591,12 +14485,11 @@
    "love-education"
   ],
   "facets": [
-   "S1",
    "S2",
-   "S13"
+   "S3"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0647": {
   "primary": null,
@@ -14607,15 +14500,11 @@
    "love-education"
   ],
   "facets": [
-   "S1",
    "S2",
-   "S6",
-   "S7",
-   "S12",
-   "S14"
+   "S3"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0648": {
   "primary": null,
@@ -14626,14 +14515,13 @@
    "love-education"
   ],
   "facets": [
-   "S1",
    "S2",
+   "S3",
    "S8",
-   "S12",
    "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0649": {
   "primary": null,
@@ -14647,13 +14535,10 @@
    "S1",
    "S3",
    "S7",
-   "S12",
-   "S13",
-   "S15",
-   "S16"
+   "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0650": {
   "primary": null,
@@ -14664,11 +14549,12 @@
    "love-education"
   ],
   "facets": [
-   "S11",
-   "S12"
+   "S2",
+   "S4",
+   "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0651": {
   "primary": null,
@@ -14679,12 +14565,11 @@
    "love-education"
   ],
   "facets": [
-   "S4",
-   "S7",
-   "S11"
+   "S3",
+   "S4"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0652": {
   "primary": null,
@@ -14695,14 +14580,12 @@
    "love-education"
   ],
   "facets": [
+   "S3",
    "S6",
-   "S7",
-   "S9",
-   "S11",
-   "S16"
+   "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0653": {
   "primary": null,
@@ -14713,14 +14596,12 @@
    "love-education"
   ],
   "facets": [
-   "S6",
-   "S10",
-   "S11",
+   "S3",
    "S12",
    "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0654": {
   "primary": null,
@@ -14734,11 +14615,10 @@
    "S1",
    "S3",
    "S7",
-   "S11",
    "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0655": {
   "primary": null,
@@ -14750,12 +14630,11 @@
   ],
   "facets": [
    "S1",
-   "S6",
-   "S11",
-   "S12"
+   "S2",
+   "S7"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0656": {
   "primary": null,
@@ -14766,12 +14645,13 @@
    "love-education"
   ],
   "facets": [
-   "S1",
-   "S12",
+   "S2",
+   "S4",
+   "S10",
    "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0657": {
   "primary": null,
@@ -14783,12 +14663,13 @@
   ],
   "facets": [
    "S1",
-   "S3",
-   "S6",
-   "S13"
+   "S2",
+   "S4",
+   "S10",
+   "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0658": {
   "primary": null,
@@ -14800,11 +14681,13 @@
   ],
   "facets": [
    "S4",
-   "S7",
-   "S13"
+   "S6",
+   "S10",
+   "S13",
+   "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0659": {
   "primary": null,
@@ -14816,12 +14699,11 @@
   ],
   "facets": [
    "S1",
-   "S3",
-   "S9",
-   "S13"
+   "S2",
+   "S7"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0660": {
   "primary": null,
@@ -14833,13 +14715,13 @@
   ],
   "facets": [
    "S1",
+   "S2",
    "S6",
-   "S7",
    "S10",
-   "S12"
+   "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0661": {
   "primary": null,
@@ -14851,12 +14733,11 @@
   ],
   "facets": [
    "S1",
-   "S2",
-   "S11",
+   "S4",
    "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0662": {
   "primary": null,
@@ -14872,7 +14753,7 @@
    "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0663": {
   "primary": null,
@@ -14883,13 +14764,13 @@
    "love-education"
   ],
   "facets": [
-   "S6",
-   "S7",
+   "S3",
+   "S4",
    "S10",
-   "S12"
+   "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0664": {
   "primary": null,
@@ -14901,10 +14782,13 @@
   ],
   "facets": [
    "S1",
-   "S6"
+   "S4",
+   "S6",
+   "S10",
+   "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0665": {
   "primary": null,
@@ -14915,13 +14799,12 @@
    "teacher-growth"
   ],
   "facets": [
-   "S1",
-   "S7",
+   "S2",
    "S9",
    "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0666": {
   "primary": null,
@@ -14934,11 +14817,10 @@
   "facets": [
    "S2",
    "S6",
-   "S9",
-   "S12"
+   "S9"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0667": {
   "primary": null,
@@ -14950,11 +14832,13 @@
   ],
   "facets": [
    "S1",
+   "S2",
    "S4",
-   "S15"
+   "S9",
+   "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0668": {
   "primary": null,
@@ -14966,12 +14850,13 @@
   ],
   "facets": [
    "S1",
-   "S6",
+   "S2",
    "S7",
-   "S15"
+   "S15",
+   "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0669": {
   "primary": null,
@@ -14982,17 +14867,13 @@
    "thinking-and-nature"
   ],
   "facets": [
-   "S1",
    "S2",
    "S4",
    "S6",
-   "S7",
-   "S9",
-   "S12",
-   "S15"
+   "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0670": {
   "primary": null,
@@ -15004,13 +14885,11 @@
   ],
   "facets": [
    "S6",
-   "S11",
-   "S12",
-   "S14",
+   "S13",
    "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0671": {
   "primary": null,
@@ -15023,11 +14902,12 @@
   "facets": [
    "S1",
    "S2",
+   "S4",
    "S7",
-   "S13"
+   "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0672": {
   "primary": null,
@@ -15038,11 +14918,12 @@
    "love-education"
   ],
   "facets": [
-   "S1",
+   "S3",
+   "S10",
    "S16"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0673": {
   "primary": null,
@@ -15054,11 +14935,10 @@
   ],
   "facets": [
    "S3",
-   "S7",
-   "S14"
+   "S7"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0674": {
   "primary": null,
@@ -15069,15 +14949,12 @@
    "labor-education"
   ],
   "facets": [
-   "S4",
-   "S5",
    "S6",
-   "S9",
    "S10",
    "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0675": {
   "primary": null,
@@ -15088,15 +14965,14 @@
    "family-school"
   ],
   "facets": [
-   "S1",
-   "S3",
+   "S4",
    "S7",
-   "S8",
-   "S12",
-   "S17"
+   "S9",
+   "S10",
+   "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0676": {
   "primary": null,
@@ -15107,12 +14983,12 @@
    "child-study"
   ],
   "facets": [
-   "S1",
    "S2",
-   "S6"
+   "S4",
+   "S10"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0677": {
   "primary": null,
@@ -15123,10 +14999,12 @@
    "child-study"
   ],
   "facets": [
-   "S15"
+   "S5",
+   "S6",
+   "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0678": {
   "primary": null,
@@ -15138,12 +15016,14 @@
   ],
   "facets": [
    "S1",
+   "S4",
    "S5",
-   "S13",
+   "S6",
+   "S7",
    "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0679": {
   "primary": null,
@@ -15155,13 +15035,11 @@
   ],
   "facets": [
    "S1",
-   "S3",
-   "S6",
-   "S12",
-   "S13"
+   "S4",
+   "S10"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0680": {
   "primary": null,
@@ -15172,11 +15050,12 @@
    "love-education"
   ],
   "facets": [
-   "S1",
-   "S7"
+   "S4",
+   "S7",
+   "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0681": {
   "primary": null,
@@ -15187,18 +15066,11 @@
    "love-education"
   ],
   "facets": [
-   "S1",
    "S2",
-   "S3",
-   "S6",
-   "S8",
-   "S10",
-   "S12",
-   "S13",
-   "S16"
+   "S3"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0682": {
   "primary": null,
@@ -15209,16 +15081,14 @@
    "family-school"
   ],
   "facets": [
-   "S1",
    "S3",
    "S6",
-   "S10",
-   "S11",
-   "S13",
+   "S7",
+   "S8",
    "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0683": {
   "primary": null,
@@ -15231,13 +15101,10 @@
   "facets": [
    "S1",
    "S2",
-   "S9",
-   "S11",
-   "S12",
-   "S16"
+   "S4"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0684": {
   "primary": null,
@@ -15248,12 +15115,13 @@
    "love-education"
   ],
   "facets": [
+   "S4",
+   "S9",
    "S10",
-   "S12",
    "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0685": {
   "primary": null,
@@ -15265,10 +15133,11 @@
   ],
   "facets": [
    "S1",
+   "S4",
    "S10"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0686": {
   "primary": null,
@@ -15280,13 +15149,12 @@
   ],
   "facets": [
    "S1",
+   "S4",
    "S7",
-   "S10",
-   "S15",
-   "S16"
+   "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0687": {
   "primary": null,
@@ -15297,15 +15165,12 @@
    "child-study"
   ],
   "facets": [
-   "S1",
-   "S2",
-   "S5",
+   "S4",
    "S6",
-   "S9",
    "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0688": {
   "primary": null,
@@ -15317,11 +15182,11 @@
   ],
   "facets": [
    "S1",
-   "S7",
+   "S6",
    "S16"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0689": {
   "primary": null,
@@ -15333,12 +15198,11 @@
   ],
   "facets": [
    "S1",
-   "S8",
-   "S11",
+   "S7",
    "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0690": {
   "primary": null,
@@ -15350,11 +15214,10 @@
   ],
   "facets": [
    "S1",
-   "S13",
    "S14"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0691": {
   "primary": null,
@@ -15366,12 +15229,11 @@
   ],
   "facets": [
    "S1",
-   "S7",
-   "S8",
-   "S16"
+   "S2",
+   "S7"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0692": {
   "primary": null,
@@ -15384,13 +15246,10 @@
   "facets": [
    "S1",
    "S4",
-   "S6",
-   "S8",
-   "S13",
    "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0693": {
   "primary": null,
@@ -15402,13 +15261,10 @@
   ],
   "facets": [
    "S1",
-   "S6",
-   "S11",
-   "S12",
    "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0694": {
   "primary": null,
@@ -15420,12 +15276,12 @@
   ],
   "facets": [
    "S1",
-   "S7",
-   "S8",
-   "S10"
+   "S3",
+   "S6",
+   "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0695": {
   "primary": null,
@@ -15438,14 +15294,10 @@
   "facets": [
    "S1",
    "S6",
-   "S7",
-   "S8",
-   "S11",
-   "S13",
    "S14"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0696": {
   "primary": null,
@@ -15457,11 +15309,10 @@
   ],
   "facets": [
    "S1",
-   "S7",
-   "S13"
+   "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0697": {
   "primary": null,
@@ -15472,14 +15323,12 @@
    "child-study"
   ],
   "facets": [
-   "S1",
-   "S10",
-   "S13",
-   "S14",
-   "S16"
+   "S2",
+   "S3",
+   "S7"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0698": {
   "primary": null,
@@ -15490,13 +15339,10 @@
    "love-education"
   ],
   "facets": [
-   "S1",
-   "S3",
-   "S7",
-   "S14"
+   "S8"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0699": {
   "primary": null,
@@ -15508,11 +15354,13 @@
   ],
   "facets": [
    "S1",
-   "S3",
-   "S16"
+   "S2",
+   "S4",
+   "S7",
+   "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0700": {
   "primary": null,
@@ -15524,11 +15372,10 @@
   ],
   "facets": [
    "S1",
-   "S4",
-   "S13"
+   "S4"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0701": {
   "primary": null,
@@ -15540,10 +15387,11 @@
   ],
   "facets": [
    "S1",
+   "S2",
    "S7"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0702": {
   "primary": null,
@@ -15556,12 +15404,10 @@
   "facets": [
    "S1",
    "S6",
-   "S9",
-   "S11",
-   "S13"
+   "S7"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0703": {
   "primary": null,
@@ -15573,15 +15419,12 @@
   ],
   "facets": [
    "S1",
-   "S3",
    "S6",
    "S7",
-   "S9",
-   "S11",
    "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0704": {
   "primary": null,
@@ -15593,10 +15436,10 @@
   ],
   "facets": [
    "S1",
-   "S15"
+   "S7"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0705": {
   "primary": null,
@@ -15612,7 +15455,7 @@
    "S7"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0706": {
   "primary": null,
@@ -15623,16 +15466,12 @@
    "love-education"
   ],
   "facets": [
-   "S1",
+   "S2",
    "S6",
-   "S9",
-   "S11",
-   "S14",
-   "S16",
-   "S17"
+   "S7"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0707": {
   "primary": null,
@@ -15645,11 +15484,13 @@
   "facets": [
    "S1",
    "S2",
-   "S5",
-   "S7"
+   "S3",
+   "S6",
+   "S7",
+   "S10"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0708": {
   "primary": null,
@@ -15660,12 +15501,14 @@
    "love-education"
   ],
   "facets": [
-   "S1",
-   "S6",
-   "S14"
+   "S2",
+   "S3",
+   "S7",
+   "S10",
+   "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0709": {
   "primary": null,
@@ -15677,10 +15520,10 @@
   ],
   "facets": [
    "S1",
-   "S6"
+   "S7"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0710": {
   "primary": null,
@@ -15692,11 +15535,10 @@
   ],
   "facets": [
    "S1",
-   "S7",
-   "S14"
+   "S7"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0711": {
   "primary": null,
@@ -15709,12 +15551,11 @@
   ],
   "facets": [
    "S1",
-   "S3",
    "S7",
    "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0712": {
   "primary": null,
@@ -15726,10 +15567,12 @@
   ],
   "facets": [
    "S1",
-   "S5"
+   "S5",
+   "S6",
+   "S7"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0713": {
   "primary": null,
@@ -15741,12 +15584,13 @@
   ],
   "facets": [
    "S1",
-   "S5",
    "S6",
-   "S7"
+   "S7",
+   "S9",
+   "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0714": {
   "primary": null,
@@ -15759,12 +15603,11 @@
   ],
   "facets": [
    "S1",
-   "S6",
    "S7",
-   "S17"
+   "S9"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0715": {
   "primary": null,
@@ -15775,14 +15618,13 @@
    "labor-education"
   ],
   "facets": [
-   "S1",
    "S2",
-   "S7",
-   "S8",
-   "S13"
+   "S9",
+   "S13",
+   "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0716": {
   "primary": null,
@@ -15793,12 +15635,12 @@
    "love-education"
   ],
   "facets": [
-   "S1",
-   "S11",
+   "S4",
+   "S10",
    "S16"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0717": {
   "primary": null,
@@ -15813,12 +15655,10 @@
    "S1",
    "S6",
    "S7",
-   "S9",
-   "S11",
-   "S13"
+   "S9"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0718": {
   "primary": null,
@@ -15831,12 +15671,12 @@
   "facets": [
    "S1",
    "S4",
-   "S7",
-   "S9",
-   "S10"
+   "S6",
+   "S10",
+   "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0719": {
   "primary": null,
@@ -15848,11 +15688,12 @@
   ],
   "facets": [
    "S1",
-   "S4",
+   "S2",
+   "S7",
    "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0720": {
   "primary": null,
@@ -15864,10 +15705,11 @@
   ],
   "facets": [
    "S1",
-   "S7"
+   "S7",
+   "S14"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0721": {
   "primary": null,
@@ -15879,11 +15721,12 @@
   ],
   "facets": [
    "S1",
+   "S2",
    "S3",
-   "S7"
+   "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0722": {
   "primary": null,
@@ -15894,14 +15737,13 @@
    "love-education"
   ],
   "facets": [
-   "S1",
    "S5",
-   "S6",
    "S11",
+   "S13",
    "S14"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0723": {
   "primary": null,
@@ -15913,12 +15755,10 @@
   ],
   "facets": [
    "S1",
-   "S2",
-   "S7",
-   "S8"
+   "S2"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0724": {
   "primary": null,
@@ -15930,12 +15770,12 @@
   ],
   "facets": [
    "S1",
+   "S2",
    "S7",
-   "S12",
-   "S13"
+   "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0725": {
   "primary": null,
@@ -15950,7 +15790,7 @@
    "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0726": {
   "primary": null,
@@ -15962,15 +15802,11 @@
   ],
   "facets": [
    "S1",
-   "S3",
-   "S6",
-   "S7",
-   "S9",
-   "S10",
-   "S11"
+   "S2",
+   "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0727": {
   "primary": null,
@@ -15982,13 +15818,11 @@
   ],
   "facets": [
    "S1",
-   "S6",
-   "S7",
-   "S11",
-   "S14"
+   "S2",
+   "S7"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0728": {
   "primary": null,
@@ -16000,13 +15834,10 @@
   ],
   "facets": [
    "S1",
-   "S7",
-   "S10",
-   "S11",
-   "S12"
+   "S7"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0729": {
   "primary": null,
@@ -16019,12 +15850,12 @@
   "facets": [
    "S1",
    "S2",
-   "S6",
-   "S12",
-   "S13"
+   "S3",
+   "S9",
+   "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0730": {
   "primary": null,
@@ -16037,11 +15868,10 @@
   "facets": [
    "S1",
    "S5",
-   "S6",
-   "S11"
+   "S14"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0731": {
   "primary": null,
@@ -16052,13 +15882,11 @@
    "child-study"
   ],
   "facets": [
-   "S1",
-   "S6",
-   "S9",
-   "S17"
+   "S2",
+   "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0732": {
   "primary": null,
@@ -16070,15 +15898,12 @@
   ],
   "facets": [
    "S1",
-   "S5",
-   "S6",
-   "S10",
-   "S12",
-   "S14",
+   "S2",
+   "S9",
    "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0733": {
   "primary": null,
@@ -16090,13 +15915,10 @@
   ],
   "facets": [
    "S1",
-   "S6",
-   "S9",
-   "S11",
-   "S12"
+   "S9"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0734": {
   "primary": null,
@@ -16108,13 +15930,12 @@
   ],
   "facets": [
    "S1",
+   "S3",
    "S4",
-   "S7",
-   "S8",
-   "S12"
+   "S8"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0735": {
   "primary": null,
@@ -16126,12 +15947,10 @@
   ],
   "facets": [
    "S1",
-   "S5",
-   "S6",
-   "S11"
+   "S5"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0736": {
   "primary": null,
@@ -16144,13 +15963,11 @@
   "facets": [
    "S1",
    "S3",
-   "S7",
-   "S10",
-   "S13",
+   "S15",
    "S16"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0737": {
   "primary": null,
@@ -16162,11 +15979,11 @@
   ],
   "facets": [
    "S1",
-   "S5",
-   "S7"
+   "S12",
+   "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0738": {
   "primary": null,
@@ -16178,14 +15995,11 @@
   ],
   "facets": [
    "S1",
-   "S4",
-   "S5",
-   "S8",
-   "S11",
-   "S14"
+   "S2",
+   "S8"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0739": {
   "primary": null,
@@ -16197,11 +16011,13 @@
   ],
   "facets": [
    "S1",
+   "S2",
    "S10",
-   "S16"
+   "S15",
+   "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0740": {
   "primary": null,
@@ -16213,10 +16029,10 @@
   ],
   "facets": [
    "S1",
-   "S11"
+   "S14"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0741": {
   "primary": null,
@@ -16229,11 +16045,12 @@
   "facets": [
    "S1",
    "S4",
-   "S11",
-   "S13"
+   "S8",
+   "S16",
+   "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0742": {
   "primary": null,
@@ -16245,11 +16062,11 @@
   ],
   "facets": [
    "S1",
-   "S7",
+   "S2",
    "S14"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0743": {
   "primary": null,
@@ -16261,10 +16078,11 @@
   ],
   "facets": [
    "S1",
-   "S14"
+   "S12",
+   "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0744": {
   "primary": null,
@@ -16277,10 +16095,10 @@
   "facets": [
    "S1",
    "S2",
-   "S16"
+   "S3"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0745": {
   "primary": null,
@@ -16292,13 +16110,11 @@
   ],
   "facets": [
    "S1",
-   "S6",
    "S9",
-   "S12",
-   "S13"
+   "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0746": {
   "primary": null,
@@ -16311,11 +16127,11 @@
   "facets": [
    "S1",
    "S6",
-   "S7",
-   "S14"
+   "S14",
+   "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0747": {
   "primary": null,
@@ -16327,11 +16143,11 @@
   ],
   "facets": [
    "S1",
-   "S11",
-   "S15"
+   "S15",
+   "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0748": {
   "primary": null,
@@ -16342,13 +16158,11 @@
    "love-education"
   ],
   "facets": [
-   "S4",
-   "S7",
-   "S8",
-   "S10"
+   "S6",
+   "S8"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0749": {
   "primary": null,
@@ -16359,11 +16173,11 @@
    "aesthetic-nature-education"
   ],
   "facets": [
-   "S4",
+   "S8",
    "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0750": {
   "primary": null,
@@ -16375,12 +16189,10 @@
   ],
   "facets": [
    "S1",
-   "S5",
-   "S6",
-   "S11"
+   "S7"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0751": {
   "primary": null,
@@ -16392,11 +16204,12 @@
   ],
   "facets": [
    "S1",
+   "S2",
    "S6",
    "S7"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0752": {
   "primary": null,
@@ -16409,11 +16222,10 @@
   "facets": [
    "S1",
    "S7",
-   "S8",
-   "S12"
+   "S8"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0753": {
   "primary": null,
@@ -16430,7 +16242,7 @@
    "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0754": {
   "primary": null,
@@ -16441,13 +16253,14 @@
    "love-education"
   ],
   "facets": [
+   "S3",
    "S4",
    "S6",
    "S8",
-   "S11"
+   "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0755": {
   "primary": null,
@@ -16458,10 +16271,10 @@
    "collective-education"
   ],
   "facets": [
-   "S6"
+   "S4"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0756": {
   "primary": null,
@@ -16472,12 +16285,10 @@
    "love-education"
   ],
   "facets": [
-   "S1",
-   "S8",
-   "S11"
+   "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0757": {
   "primary": null,
@@ -16489,13 +16300,10 @@
   ],
   "facets": [
    "S1",
-   "S5",
-   "S11",
-   "S12",
-   "S13"
+   "S7"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0758": {
   "primary": null,
@@ -16506,14 +16314,14 @@
    "child-study"
   ],
   "facets": [
-   "S1",
    "S3",
    "S4",
+   "S8",
    "S16",
    "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0759": {
   "primary": null,
@@ -16524,12 +16332,10 @@
    "child-study"
   ],
   "facets": [
-   "S1",
-   "S5",
-   "S7"
+   "S5"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0760": {
   "primary": null,
@@ -16540,12 +16346,10 @@
    "collective-education"
   ],
   "facets": [
-   "S1",
-   "S6",
-   "S16"
+   "S1"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0761": {
   "primary": null,
@@ -16556,11 +16360,11 @@
    "child-study"
   ],
   "facets": [
-   "S5",
-   "S16"
+   "S3",
+   "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0762": {
   "primary": null,
@@ -16572,16 +16376,11 @@
   ],
   "facets": [
    "S1",
-   "S4",
-   "S5",
-   "S6",
    "S7",
-   "S8",
-   "S11",
-   "S17"
+   "S8"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0763": {
   "primary": null,
@@ -16592,16 +16391,11 @@
    "child-study"
   ],
   "facets": [
-   "S1",
    "S3",
-   "S6",
-   "S9",
-   "S11",
-   "S12",
-   "S13"
+   "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0764": {
   "primary": null,
@@ -16612,11 +16406,10 @@
    "labor-education"
   ],
   "facets": [
-   "S12",
-   "S16"
+   "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0765": {
   "primary": null,
@@ -16628,13 +16421,12 @@
   ],
   "facets": [
    "S3",
-   "S4",
-   "S7",
+   "S6",
    "S8",
    "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0766": {
   "primary": null,
@@ -16645,12 +16437,10 @@
    "aesthetic-nature-education"
   ],
   "facets": [
-   "S6",
-   "S11",
-   "S12"
+   "S4"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0767": {
   "primary": null,
@@ -16661,10 +16451,11 @@
    "aesthetic-nature-education"
   ],
   "facets": [
-   "S10"
+   "S4",
+   "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0768": {
   "primary": null,
@@ -16675,15 +16466,11 @@
    "aesthetic-nature-education"
   ],
   "facets": [
-   "S4",
-   "S5",
    "S6",
-   "S8",
-   "S9",
    "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0769": {
   "primary": null,
@@ -16693,13 +16480,9 @@
    "reading-and-books",
    "aesthetic-nature-education"
   ],
-  "facets": [
-   "S8",
-   "S11",
-   "S12"
-  ],
+  "facets": [],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0770": {
   "primary": null,
@@ -16710,12 +16493,14 @@
    "teacher-growth"
   ],
   "facets": [
+   "S3",
    "S4",
+   "S5",
    "S6",
    "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0771": {
   "primary": null,
@@ -16726,13 +16511,13 @@
    "thinking-and-nature"
   ],
   "facets": [
-   "S1",
    "S2",
+   "S5",
    "S6",
    "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0772": {
   "primary": null,
@@ -16744,12 +16529,11 @@
   ],
   "facets": [
    "S3",
-   "S6",
-   "S7",
-   "S8"
+   "S8",
+   "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0773": {
   "primary": null,
@@ -16762,14 +16546,10 @@
   "facets": [
    "S1",
    "S5",
-   "S6",
-   "S7",
-   "S8",
-   "S9",
-   "S11"
+   "S7"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0774": {
   "primary": null,
@@ -16780,10 +16560,12 @@
    "teacher-growth"
   ],
   "facets": [
-   "S4"
+   "S3",
+   "S4",
+   "S8"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0775": {
   "primary": null,
@@ -16794,12 +16576,13 @@
    "thinking-and-nature"
   ],
   "facets": [
+   "S2",
+   "S3",
    "S4",
-   "S5",
-   "S11"
+   "S8"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0776": {
   "primary": null,
@@ -16810,14 +16593,14 @@
    "collective-education"
   ],
   "facets": [
-   "S1",
    "S2",
    "S4",
    "S8",
+   "S12",
    "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0777": {
   "primary": null,
@@ -16830,14 +16613,11 @@
   "facets": [
    "S1",
    "S4",
-   "S6",
-   "S7",
    "S8",
-   "S11",
    "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0778": {
   "primary": null,
@@ -16849,11 +16629,10 @@
   ],
   "facets": [
    "S1",
-   "S7",
-   "S11"
+   "S7"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0779": {
   "primary": null,
@@ -16866,13 +16645,12 @@
   "facets": [
    "S1",
    "S4",
-   "S6",
    "S7",
-   "S11",
-   "S13"
+   "S8",
+   "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0780": {
   "primary": null,
@@ -16884,13 +16662,13 @@
   ],
   "facets": [
    "S1",
-   "S6",
+   "S4",
+   "S7",
    "S8",
-   "S9",
    "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0781": {
   "primary": null,
@@ -16907,7 +16685,7 @@
    "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0782": {
   "primary": null,
@@ -16920,10 +16698,13 @@
   "facets": [
    "S1",
    "S3",
-   "S4"
+   "S4",
+   "S7",
+   "S8",
+   "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0783": {
   "primary": null,
@@ -16935,16 +16716,10 @@
   ],
   "facets": [
    "S3",
-   "S4",
-   "S6",
-   "S7",
-   "S8",
-   "S10",
-   "S14",
-   "S15"
+   "S8"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0784": {
   "primary": null,
@@ -16955,16 +16730,15 @@
    "love-education"
   ],
   "facets": [
+   "S3",
    "S4",
    "S5",
    "S6",
-   "S9",
-   "S11",
-   "S16",
+   "S8",
    "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0785": {
   "primary": null,
@@ -16977,14 +16751,12 @@
   "facets": [
    "S3",
    "S4",
-   "S7",
    "S8",
-   "S10",
-   "S13",
+   "S14",
    "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0786": {
   "primary": null,
@@ -16998,13 +16770,10 @@
    "S4",
    "S5",
    "S6",
-   "S7",
-   "S8",
-   "S11",
-   "S16"
+   "S8"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0787": {
   "primary": null,
@@ -17015,19 +16784,14 @@
    "aesthetic-nature-education"
   ],
   "facets": [
-   "S1",
+   "S3",
    "S4",
-   "S6",
-   "S7",
    "S8",
-   "S9",
-   "S11",
    "S12",
-   "S13",
    "S14"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0788": {
   "primary": null,
@@ -17039,14 +16803,12 @@
   ],
   "facets": [
    "S3",
+   "S4",
    "S5",
-   "S6",
-   "S8",
-   "S12",
-   "S13"
+   "S8"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0789": {
   "primary": null,
@@ -17057,17 +16819,15 @@
    "love-education"
   ],
   "facets": [
-   "S1",
+   "S2",
+   "S3",
    "S4",
    "S7",
    "S8",
-   "S10",
-   "S13",
-   "S14",
-   "S15"
+   "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0790": {
   "primary": null,
@@ -17078,16 +16838,14 @@
    "love-education"
   ],
   "facets": [
+   "S3",
    "S4",
-   "S5",
    "S6",
-   "S7",
    "S8",
-   "S11",
-   "S14"
+   "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0791": {
   "primary": null,
@@ -17099,11 +16857,11 @@
   ],
   "facets": [
    "S4",
-   "S6",
-   "S8"
+   "S8",
+   "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0792": {
   "primary": null,
@@ -17114,16 +16872,12 @@
    "love-education"
   ],
   "facets": [
-   "S1",
    "S2",
-   "S4",
-   "S6",
-   "S7",
-   "S12",
+   "S3",
    "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0793": {
   "primary": null,
@@ -17136,13 +16890,12 @@
   "facets": [
    "S1",
    "S2",
-   "S3",
    "S4",
    "S6",
-   "S11"
+   "S8"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0794": {
   "primary": null,
@@ -17153,13 +16906,11 @@
    "thinking-and-nature"
   ],
   "facets": [
-   "S1",
-   "S5",
-   "S6",
+   "S4",
    "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0795": {
   "primary": null,
@@ -17171,13 +16922,11 @@
   ],
   "facets": [
    "S1",
-   "S6",
-   "S9",
-   "S11",
-   "S12"
+   "S2",
+   "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0796": {
   "primary": null,
@@ -17188,14 +16937,12 @@
    "child-study"
   ],
   "facets": [
-   "S1",
    "S5",
-   "S6",
-   "S13",
-   "S16"
+   "S10",
+   "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0797": {
   "primary": null,
@@ -17207,14 +16954,11 @@
   ],
   "facets": [
    "S1",
-   "S5",
-   "S6",
    "S7",
-   "S9",
-   "S11"
+   "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0798": {
   "primary": null,
@@ -17225,12 +16969,11 @@
    "family-school"
   ],
   "facets": [
-   "S6",
-   "S13",
-   "S14"
+   "S5",
+   "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0799": {
   "primary": null,
@@ -17242,17 +16985,13 @@
    "love-education"
   ],
   "facets": [
-   "S1",
    "S3",
    "S4",
    "S6",
-   "S7",
-   "S10",
-   "S11",
-   "S13"
+   "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0800": {
   "primary": null,
@@ -17264,12 +17003,11 @@
   ],
   "facets": [
    "S3",
-   "S4",
    "S8",
-   "S11"
+   "S10"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0801": {
   "primary": null,
@@ -17280,13 +17018,12 @@
    "collective-education"
   ],
   "facets": [
-   "S1",
    "S3",
    "S6",
    "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0802": {
   "primary": null,
@@ -17297,16 +17034,13 @@
    "collective-education"
   ],
   "facets": [
-   "S1",
+   "S4",
    "S5",
-   "S6",
-   "S7",
-   "S10",
-   "S11",
+   "S8",
    "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0803": {
   "primary": null,
@@ -17318,12 +17052,11 @@
   ],
   "facets": [
    "S1",
-   "S5",
    "S7",
    "S16"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0804": {
   "primary": null,
@@ -17337,12 +17070,10 @@
    "S1",
    "S2",
    "S5",
-   "S7",
-   "S11",
-   "S16"
+   "S7"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0805": {
   "primary": null,
@@ -17354,11 +17085,10 @@
   ],
   "facets": [
    "S1",
-   "S11",
-   "S13"
+   "S7"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0806": {
   "primary": null,
@@ -17369,13 +17099,13 @@
    "collective-education"
   ],
   "facets": [
-   "S1",
    "S3",
-   "S6",
-   "S10"
+   "S7",
+   "S8",
+   "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0807": {
   "primary": null,
@@ -17386,13 +17116,12 @@
    "love-education"
   ],
   "facets": [
-   "S3",
+   "S5",
    "S6",
-   "S13",
    "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0808": {
   "primary": null,
@@ -17403,15 +17132,13 @@
    "collective-education"
   ],
   "facets": [
-   "S1",
    "S2",
-   "S7",
+   "S4",
    "S8",
-   "S14",
    "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0809": {
   "primary": null,
@@ -17423,12 +17150,11 @@
   ],
   "facets": [
    "S1",
-   "S6",
-   "S7",
-   "S15"
+   "S2",
+   "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0810": {
   "primary": null,
@@ -17439,15 +17165,13 @@
    "collective-education"
   ],
   "facets": [
-   "S3",
    "S4",
-   "S6",
    "S8",
    "S11",
-   "S12"
+   "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0811": {
   "primary": null,
@@ -17459,14 +17183,12 @@
   ],
   "facets": [
    "S1",
+   "S3",
    "S5",
-   "S7",
-   "S10",
-   "S11",
    "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0812": {
   "primary": null,
@@ -17478,16 +17200,12 @@
    "love-education"
   ],
   "facets": [
-   "S1",
    "S3",
-   "S6",
-   "S7",
    "S8",
-   "S9",
-   "S11"
+   "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0813": {
   "primary": null,
@@ -17500,15 +17218,11 @@
   "facets": [
    "S1",
    "S3",
-   "S6",
-   "S7",
    "S8",
-   "S11",
-   "S13",
-   "S17"
+   "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0814": {
   "primary": null,
@@ -17520,16 +17234,12 @@
   ],
   "facets": [
    "S3",
-   "S5",
    "S6",
-   "S7",
-   "S8",
-   "S9",
    "S11",
-   "S12"
+   "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0815": {
   "primary": null,
@@ -17540,14 +17250,13 @@
    "love-education"
   ],
   "facets": [
-   "S1",
-   "S4",
+   "S3",
    "S8",
-   "S12",
-   "S13"
+   "S13",
+   "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0816": {
   "primary": null,
@@ -17558,14 +17267,13 @@
    "child-study"
   ],
   "facets": [
-   "S1",
+   "S3",
    "S4",
    "S6",
-   "S10",
    "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0817": {
   "primary": null,
@@ -17577,15 +17285,12 @@
    "labor-education"
   ],
   "facets": [
-   "S1",
    "S4",
-   "S6",
    "S8",
-   "S11",
    "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0818": {
   "primary": null,
@@ -17597,13 +17302,12 @@
   ],
   "facets": [
    "S1",
+   "S2",
    "S7",
-   "S9",
-   "S12",
-   "S14"
+   "S9"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0819": {
   "primary": null,
@@ -17614,15 +17318,11 @@
    "labor-education"
   ],
   "facets": [
-   "S3",
    "S5",
-   "S6",
-   "S9",
-   "S11",
-   "S12"
+   "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0820": {
   "primary": null,
@@ -17634,19 +17334,12 @@
    "child-study"
   ],
   "facets": [
-   "S1",
    "S3",
-   "S5",
-   "S6",
-   "S7",
    "S8",
-   "S11",
-   "S13",
-   "S14",
-   "S17"
+   "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0821": {
   "primary": null,
@@ -17657,15 +17350,11 @@
    "child-study"
   ],
   "facets": [
-   "S1",
    "S3",
-   "S6",
-   "S7",
-   "S8",
-   "S11"
+   "S8"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0822": {
   "primary": null,
@@ -17676,13 +17365,12 @@
    "collective-education"
   ],
   "facets": [
-   "S1",
    "S3",
    "S4",
    "S8"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0823": {
   "primary": null,
@@ -17696,13 +17384,10 @@
    "S1",
    "S3",
    "S5",
-   "S6",
-   "S9",
-   "S11",
-   "S13"
+   "S14"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0824": {
   "primary": null,
@@ -17714,13 +17399,10 @@
   ],
   "facets": [
    "S3",
-   "S4",
-   "S6",
-   "S8",
-   "S11"
+   "S8"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0825": {
   "primary": null,
@@ -17731,13 +17413,11 @@
    "love-education"
   ],
   "facets": [
-   "S1",
    "S5",
-   "S6",
-   "S11"
+   "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0826": {
   "primary": null,
@@ -17748,13 +17428,12 @@
    "love-education"
   ],
   "facets": [
+   "S1",
    "S2",
-   "S6",
-   "S7",
-   "S11"
+   "S7"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0827": {
   "primary": null,
@@ -17765,13 +17444,10 @@
    "aesthetic-nature-education"
   ],
   "facets": [
-   "S6",
-   "S7",
-   "S11",
-   "S12"
+   "S3"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0828": {
   "primary": null,
@@ -17783,11 +17459,12 @@
   ],
   "facets": [
    "S1",
+   "S2",
    "S7",
    "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0829": {
   "primary": null,
@@ -17798,11 +17475,10 @@
    "family-school"
   ],
   "facets": [
-   "S5",
    "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0830": {
   "primary": null,
@@ -17813,14 +17489,12 @@
    "child-study"
   ],
   "facets": [
-   "S1",
-   "S6",
+   "S3",
    "S7",
-   "S11",
-   "S13"
+   "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0831": {
   "primary": null,
@@ -17831,13 +17505,13 @@
    "family-school"
   ],
   "facets": [
+   "S4",
    "S9",
    "S10",
-   "S12",
    "S16"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0832": {
   "primary": null,
@@ -17849,11 +17523,10 @@
   ],
   "facets": [
    "S3",
-   "S5",
    "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0833": {
   "primary": null,
@@ -17865,16 +17538,13 @@
   ],
   "facets": [
    "S1",
+   "S2",
    "S4",
-   "S6",
    "S8",
-   "S9",
-   "S11",
-   "S12",
    "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0834": {
   "primary": null,
@@ -17885,17 +17555,13 @@
    "love-education"
   ],
   "facets": [
-   "S2",
    "S3",
    "S4",
-   "S5",
-   "S6",
    "S8",
-   "S11",
-   "S13"
+   "S14"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0835": {
   "primary": null,
@@ -17907,12 +17573,12 @@
   ],
   "facets": [
    "S1",
-   "S6",
-   "S13",
+   "S4",
+   "S5",
    "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0836": {
   "primary": null,
@@ -17923,15 +17589,13 @@
    "collective-education"
   ],
   "facets": [
-   "S1",
    "S3",
    "S4",
-   "S7",
    "S8",
-   "S13"
+   "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0837": {
   "primary": null,
@@ -17942,15 +17606,10 @@
    "child-study"
   ],
   "facets": [
-   "S1",
-   "S3",
-   "S11",
-   "S12",
-   "S13",
    "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0838": {
   "primary": null,
@@ -17962,12 +17621,13 @@
   ],
   "facets": [
    "S1",
+   "S2",
    "S10",
    "S14",
    "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0839": {
   "primary": null,
@@ -17980,11 +17640,11 @@
   "facets": [
    "S3",
    "S6",
-   "S13",
-   "S16"
+   "S16",
+   "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0840": {
   "primary": null,
@@ -17998,11 +17658,10 @@
    "S1",
    "S3",
    "S8",
-   "S13",
-   "S16"
+   "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0841": {
   "primary": null,
@@ -18013,15 +17672,12 @@
    "love-education"
   ],
   "facets": [
+   "S3",
    "S6",
-   "S8",
-   "S9",
-   "S10",
-   "S11",
-   "S14"
+   "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0842": {
   "primary": null,
@@ -18033,10 +17689,10 @@
   ],
   "facets": [
    "S1",
-   "S13"
+   "S5"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0843": {
   "primary": null,
@@ -18047,14 +17703,13 @@
    "love-education"
   ],
   "facets": [
-   "S1",
-   "S6",
-   "S9",
-   "S11",
-   "S12"
+   "S4",
+   "S5",
+   "S12",
+   "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0844": {
   "primary": null,
@@ -18065,15 +17720,12 @@
    "love-education"
   ],
   "facets": [
-   "S1",
    "S2",
-   "S6",
    "S9",
-   "S11",
-   "S15"
+   "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0845": {
   "primary": null,
@@ -18085,16 +17737,12 @@
   ],
   "facets": [
    "S1",
-   "S2",
    "S3",
    "S10",
-   "S12",
-   "S14",
-   "S15",
-   "S17"
+   "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0846": {
   "primary": null,
@@ -18106,14 +17754,11 @@
   ],
   "facets": [
    "S1",
-   "S2",
    "S6",
-   "S7",
-   "S11",
-   "S12"
+   "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0847": {
   "primary": null,
@@ -18124,16 +17769,13 @@
    "love-education"
   ],
   "facets": [
-   "S1",
+   "S3",
    "S4",
-   "S5",
-   "S7",
    "S8",
-   "S11",
-   "S13"
+   "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0848": {
   "primary": null,
@@ -18145,14 +17787,11 @@
   ],
   "facets": [
    "S1",
-   "S4",
-   "S10",
-   "S13",
-   "S15",
-   "S17"
+   "S3",
+   "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0849": {
   "primary": null,
@@ -18163,14 +17802,12 @@
    "love-education"
   ],
   "facets": [
-   "S1",
+   "S2",
    "S6",
-   "S9",
-   "S11",
-   "S12"
+   "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0850": {
   "primary": null,
@@ -18182,14 +17819,11 @@
   ],
   "facets": [
    "S1",
-   "S6",
-   "S7",
-   "S9",
-   "S11",
-   "S16"
+   "S14",
+   "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0851": {
   "primary": null,
@@ -18201,14 +17835,11 @@
   ],
   "facets": [
    "S1",
-   "S3",
    "S5",
-   "S6",
-   "S11",
-   "S12"
+   "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0852": {
   "primary": null,
@@ -18221,11 +17852,10 @@
   "facets": [
    "S1",
    "S5",
-   "S6",
-   "S17"
+   "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0853": {
   "primary": null,
@@ -18236,14 +17866,13 @@
    "family-school"
   ],
   "facets": [
-   "S1",
+   "S3",
    "S4",
    "S8",
-   "S12",
    "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0854": {
   "primary": null,
@@ -18254,14 +17883,12 @@
    "love-education"
   ],
   "facets": [
-   "S2",
-   "S6",
-   "S9",
-   "S11",
-   "S12"
+   "S4",
+   "S10",
+   "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0855": {
   "primary": null,
@@ -18272,13 +17899,12 @@
    "love-education"
   ],
   "facets": [
-   "S6",
-   "S12",
-   "S14",
+   "S2",
+   "S4",
    "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0856": {
   "primary": null,
@@ -18290,12 +17916,12 @@
   ],
   "facets": [
    "S2",
-   "S6",
+   "S5",
    "S10",
    "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0857": {
   "primary": null,
@@ -18306,15 +17932,13 @@
    "aesthetic-nature-education"
   ],
   "facets": [
+   "S1",
    "S6",
-   "S9",
    "S11",
-   "S12",
-   "S14",
-   "S15"
+   "S14"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0858": {
   "primary": null,
@@ -18325,14 +17949,13 @@
    "aesthetic-nature-education"
   ],
   "facets": [
+   "S4",
    "S5",
    "S6",
-   "S9",
-   "S11",
    "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0859": {
   "primary": null,
@@ -18343,11 +17966,13 @@
    "child-study"
   ],
   "facets": [
-   "S1",
-   "S7"
+   "S2",
+   "S4",
+   "S8",
+   "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0860": {
   "primary": null,
@@ -18360,11 +17985,10 @@
   "facets": [
    "S9",
    "S12",
-   "S13",
    "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0861": {
   "primary": null,
@@ -18375,13 +17999,11 @@
    "thinking-and-nature"
   ],
   "facets": [
-   "S5",
-   "S11",
-   "S12",
-   "S14"
+   "S4",
+   "S5"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0862": {
   "primary": null,
@@ -18392,13 +18014,13 @@
    "labor-education"
   ],
   "facets": [
+   "S4",
    "S6",
-   "S7",
-   "S12",
-   "S16"
+   "S9",
+   "S14"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0863": {
   "primary": null,
@@ -18410,11 +18032,12 @@
   ],
   "facets": [
    "S1",
+   "S4",
    "S8",
-   "S11"
+   "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0864": {
   "primary": null,
@@ -18425,15 +18048,15 @@
    "family-school"
   ],
   "facets": [
-   "S1",
    "S2",
-   "S6",
-   "S7",
+   "S3",
+   "S4",
+   "S9",
    "S12",
    "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0865": {
   "primary": null,
@@ -18445,11 +18068,10 @@
   ],
   "facets": [
    "S5",
-   "S6",
-   "S11"
+   "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0866": {
   "primary": null,
@@ -18460,13 +18082,12 @@
    "family-school"
   ],
   "facets": [
-   "S1",
+   "S2",
    "S7",
-   "S13",
-   "S14"
+   "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0867": {
   "primary": null,
@@ -18477,13 +18098,11 @@
    "love-education"
   ],
   "facets": [
-   "S1",
-   "S7",
-   "S11",
-   "S14"
+   "S2",
+   "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0868": {
   "primary": null,
@@ -18495,13 +18114,11 @@
   ],
   "facets": [
    "S1",
-   "S7",
-   "S8",
-   "S12",
-   "S13"
+   "S9",
+   "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0869": {
   "primary": null,
@@ -18513,15 +18130,13 @@
   ],
   "facets": [
    "S1",
-   "S5",
+   "S2",
    "S6",
-   "S7",
-   "S9",
    "S11",
    "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0870": {
   "primary": null,
@@ -18534,12 +18149,11 @@
   ],
   "facets": [
    "S1",
-   "S5",
    "S7",
    "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0871": {
   "primary": null,
@@ -18551,12 +18165,10 @@
   ],
   "facets": [
    "S1",
-   "S6",
-   "S7",
-   "S8"
+   "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0872": {
   "primary": null,
@@ -18568,11 +18180,13 @@
   ],
   "facets": [
    "S1",
+   "S2",
    "S5",
-   "S6"
+   "S6",
+   "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0873": {
   "primary": null,
@@ -18585,12 +18199,10 @@
   "facets": [
    "S1",
    "S3",
-   "S7",
-   "S8",
-   "S13"
+   "S8"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0874": {
   "primary": null,
@@ -18603,12 +18215,11 @@
   "facets": [
    "S1",
    "S2",
-   "S3",
    "S7",
-   "S8"
+   "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0875": {
   "primary": null,
@@ -18620,13 +18231,10 @@
   ],
   "facets": [
    "S5",
-   "S6",
-   "S7",
-   "S12",
-   "S14"
+   "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0876": {
   "primary": null,
@@ -18640,7 +18248,7 @@
    "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0877": {
   "primary": null,
@@ -18651,12 +18259,12 @@
    "love-education"
   ],
   "facets": [
-   "S3",
-   "S5",
+   "S4",
+   "S9",
    "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0878": {
   "primary": null,
@@ -18667,15 +18275,13 @@
    "aesthetic-nature-education"
   ],
   "facets": [
-   "S3",
+   "S4",
    "S6",
-   "S9",
-   "S10",
-   "S11",
-   "S12"
+   "S15",
+   "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0879": {
   "primary": null,
@@ -18689,10 +18295,10 @@
    "S1",
    "S7",
    "S9",
-   "S13"
+   "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0880": {
   "primary": null,
@@ -18704,13 +18310,12 @@
   ],
   "facets": [
    "S1",
-   "S4",
+   "S5",
    "S6",
-   "S7",
    "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0881": {
   "primary": null,
@@ -18721,12 +18326,13 @@
    "labor-education"
   ],
   "facets": [
-   "S1",
-   "S3",
-   "S7"
+   "S2",
+   "S5",
+   "S9",
+   "S14"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0882": {
   "primary": null,
@@ -18738,13 +18344,13 @@
   ],
   "facets": [
    "S1",
-   "S4",
    "S7",
-   "S8",
-   "S12"
+   "S12",
+   "S15",
+   "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0883": {
   "primary": null,
@@ -18756,13 +18362,14 @@
   ],
   "facets": [
    "S1",
+   "S3",
    "S4",
    "S6",
-   "S10",
-   "S12"
+   "S12",
+   "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0884": {
   "primary": null,
@@ -18773,16 +18380,13 @@
    "collective-education"
   ],
   "facets": [
-   "S1",
+   "S3",
    "S4",
-   "S6",
    "S8",
-   "S9",
-   "S11",
    "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0885": {
   "primary": null,
@@ -18793,14 +18397,13 @@
    "aesthetic-nature-education"
   ],
   "facets": [
+   "S3",
    "S4",
-   "S7",
-   "S8",
-   "S14",
-   "S16"
+   "S5",
+   "S8"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0886": {
   "primary": null,
@@ -18813,12 +18416,12 @@
   "facets": [
    "S1",
    "S4",
-   "S6",
+   "S7",
    "S8",
    "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0887": {
   "primary": null,
@@ -18829,13 +18432,13 @@
    "learning-difficulties"
   ],
   "facets": [
+   "S3",
    "S4",
    "S8",
-   "S11",
    "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0888": {
   "primary": null,
@@ -18847,14 +18450,11 @@
   ],
   "facets": [
    "S1",
-   "S3",
-   "S4",
    "S7",
-   "S8",
    "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0889": {
   "primary": null,
@@ -18867,11 +18467,11 @@
   "facets": [
    "S1",
    "S7",
-   "S11",
+   "S9",
    "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0890": {
   "primary": null,
@@ -18884,11 +18484,10 @@
   "facets": [
    "S1",
    "S7",
-   "S9",
    "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0891": {
   "primary": null,
@@ -18900,11 +18499,11 @@
   ],
   "facets": [
    "S1",
-   "S8",
-   "S11"
+   "S7",
+   "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0892": {
   "primary": null,
@@ -18916,13 +18515,10 @@
   ],
   "facets": [
    "S1",
-   "S5",
-   "S6",
-   "S12",
-   "S14"
+   "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0893": {
   "primary": null,
@@ -18933,15 +18529,13 @@
    "aesthetic-nature-education"
   ],
   "facets": [
-   "S1",
    "S3",
-   "S6",
-   "S7",
-   "S12",
-   "S13"
+   "S4",
+   "S5",
+   "S14"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0894": {
   "primary": null,
@@ -18952,11 +18546,11 @@
    "collective-education"
   ],
   "facets": [
-   "S12",
-   "S14"
+   "S4",
+   "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0895": {
   "primary": null,
@@ -18970,10 +18564,10 @@
    "S1",
    "S3",
    "S7",
-   "S13"
+   "S14"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0896": {
   "primary": null,
@@ -18985,14 +18579,12 @@
   ],
   "facets": [
    "S1",
-   "S3",
-   "S6",
-   "S11",
+   "S9",
    "S12",
    "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0897": {
   "primary": null,
@@ -19004,15 +18596,11 @@
   ],
   "facets": [
    "S1",
-   "S4",
-   "S5",
-   "S6",
-   "S7",
    "S12",
    "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0898": {
   "primary": null,
@@ -19025,11 +18613,11 @@
   "facets": [
    "S1",
    "S7",
-   "S11",
+   "S9",
    "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0899": {
   "primary": null,
@@ -19046,7 +18634,7 @@
    "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0900": {
   "primary": null,
@@ -19057,12 +18645,12 @@
    "labor-education"
   ],
   "facets": [
-   "S6",
-   "S11",
-   "S14"
+   "S4",
+   "S9",
+   "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0901": {
   "primary": null,
@@ -19073,15 +18661,13 @@
    "aesthetic-nature-education"
   ],
   "facets": [
+   "S4",
+   "S5",
    "S6",
-   "S11",
-   "S12",
-   "S13",
-   "S14",
-   "S15"
+   "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0902": {
   "primary": null,
@@ -19093,10 +18679,13 @@
   ],
   "facets": [
    "S1",
+   "S3",
+   "S4",
+   "S9",
    "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0903": {
   "primary": null,
@@ -19107,12 +18696,14 @@
    "thinking-and-nature"
   ],
   "facets": [
+   "S4",
+   "S5",
+   "S9",
    "S11",
-   "S12",
-   "S16"
+   "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0904": {
   "primary": null,
@@ -19124,14 +18715,11 @@
   ],
   "facets": [
    "S4",
-   "S7",
    "S8",
-   "S10",
-   "S12",
    "S16"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0905": {
   "primary": null,
@@ -19142,15 +18730,14 @@
    "collective-education"
   ],
   "facets": [
-   "S1",
+   "S2",
    "S3",
-   "S6",
    "S8",
-   "S10",
-   "S12"
+   "S12",
+   "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0906": {
   "primary": null,
@@ -19162,14 +18749,12 @@
   ],
   "facets": [
    "S1",
-   "S6",
-   "S9",
-   "S11",
-   "S12",
+   "S2",
+   "S7",
    "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0907": {
   "primary": null,
@@ -19181,14 +18766,11 @@
   ],
   "facets": [
    "S1",
-   "S6",
    "S7",
-   "S9",
-   "S11",
    "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0908": {
   "primary": null,
@@ -19202,12 +18784,10 @@
    "S3",
    "S4",
    "S6",
-   "S7",
-   "S8",
-   "S10"
+   "S8"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0909": {
   "primary": null,
@@ -19218,13 +18798,12 @@
    "love-education"
   ],
   "facets": [
-   "S3",
+   "S4",
    "S6",
-   "S10",
    "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0910": {
   "primary": null,
@@ -19235,12 +18814,13 @@
    "collective-education"
   ],
   "facets": [
+   "S4",
+   "S5",
    "S9",
-   "S10",
    "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0911": {
   "primary": null,
@@ -19251,12 +18831,12 @@
    "teacher-growth"
   ],
   "facets": [
-   "S2",
-   "S6",
+   "S4",
+   "S9",
    "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0912": {
   "primary": null,
@@ -19267,14 +18847,14 @@
    "love-education"
   ],
   "facets": [
+   "S2",
+   "S3",
    "S5",
    "S6",
-   "S9",
-   "S12",
-   "S13"
+   "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0913": {
   "primary": null,
@@ -19286,11 +18866,11 @@
   ],
   "facets": [
    "S1",
-   "S12",
-   "S17"
+   "S9",
+   "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0914": {
   "primary": null,
@@ -19301,13 +18881,12 @@
    "collective-education"
   ],
   "facets": [
-   "S3",
-   "S7",
-   "S12",
-   "S16"
+   "S4",
+   "S9",
+   "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0915": {
   "primary": null,
@@ -19320,12 +18899,10 @@
   "facets": [
    "S3",
    "S4",
-   "S6",
-   "S12",
-   "S13"
+   "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0916": {
   "primary": null,
@@ -19336,15 +18913,13 @@
    "aesthetic-nature-education"
   ],
   "facets": [
-   "S1",
-   "S6",
+   "S4",
    "S9",
-   "S10",
    "S11",
    "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0917": {
   "primary": null,
@@ -19356,15 +18931,12 @@
   ],
   "facets": [
    "S5",
-   "S6",
-   "S9",
-   "S10",
-   "S11",
+   "S13",
    "S16",
    "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0919": {
   "primary": null,
@@ -19376,12 +18948,12 @@
   ],
   "facets": [
    "S1",
+   "S2",
    "S7",
-   "S8",
    "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0920": {
   "primary": null,
@@ -19392,12 +18964,12 @@
    "child-study"
   ],
   "facets": [
-   "S1",
    "S6",
+   "S16",
    "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0921": {
   "primary": null,
@@ -19410,11 +18982,10 @@
   "facets": [
    "S1",
    "S7",
-   "S13",
-   "S14"
+   "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0922": {
   "primary": null,
@@ -19425,16 +18996,13 @@
    "love-education"
   ],
   "facets": [
-   "S1",
    "S5",
-   "S6",
    "S7",
-   "S9",
-   "S11",
-   "S16"
+   "S16",
+   "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0923": {
   "primary": null,
@@ -19446,12 +19014,11 @@
   ],
   "facets": [
    "S1",
-   "S6",
    "S7",
    "S16"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0924": {
   "primary": null,
@@ -19465,10 +19032,10 @@
    "S1",
    "S6",
    "S7",
-   "S16"
+   "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0925": {
   "primary": null,
@@ -19479,10 +19046,12 @@
    "family-school"
   ],
   "facets": [
-   "S1"
+   "S1",
+   "S7",
+   "S14"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0926": {
   "primary": null,
@@ -19494,14 +19063,12 @@
   ],
   "facets": [
    "S1",
-   "S4",
-   "S7",
+   "S5",
    "S8",
-   "S13",
    "S16"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0927": {
   "primary": null,
@@ -19513,11 +19080,12 @@
   ],
   "facets": [
    "S1",
-   "S5",
-   "S16"
+   "S7",
+   "S16",
+   "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0928": {
   "primary": null,
@@ -19531,13 +19099,10 @@
    "S1",
    "S3",
    "S6",
-   "S10",
-   "S11",
-   "S13",
-   "S17"
+   "S8"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0929": {
   "primary": null,
@@ -19549,15 +19114,11 @@
   ],
   "facets": [
    "S3",
-   "S4",
-   "S5",
    "S6",
-   "S11",
-   "S16",
-   "S17"
+   "S8"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0930": {
   "primary": null,
@@ -19568,11 +19129,12 @@
    "love-education"
   ],
   "facets": [
+   "S1",
    "S7",
-   "S12"
+   "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0931": {
   "primary": null,
@@ -19583,12 +19145,11 @@
    "love-education"
   ],
   "facets": [
-   "S1",
-   "S8",
-   "S17"
+   "S3",
+   "S8"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0932": {
   "primary": null,
@@ -19600,14 +19161,11 @@
   ],
   "facets": [
    "S1",
-   "S6",
    "S7",
-   "S9",
-   "S11",
-   "S13"
+   "S10"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0933": {
   "primary": null,
@@ -19619,12 +19177,11 @@
   ],
   "facets": [
    "S1",
-   "S10",
-   "S14",
+   "S5",
    "S16"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0934": {
   "primary": null,
@@ -19635,10 +19192,11 @@
    "love-education"
   ],
   "facets": [
+   "S3",
    "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0935": {
   "primary": null,
@@ -19649,12 +19207,12 @@
    "love-education"
   ],
   "facets": [
-   "S4",
-   "S7",
-   "S8"
+   "S3",
+   "S8",
+   "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0936": {
   "primary": null,
@@ -19665,13 +19223,11 @@
    "collective-education"
   ],
   "facets": [
-   "S1",
    "S3",
-   "S5",
-   "S6"
+   "S5"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0937": {
   "primary": null,
@@ -19683,12 +19239,12 @@
   ],
   "facets": [
    "S3",
-   "S8",
-   "S10",
+   "S6",
+   "S13",
    "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0938": {
   "primary": null,
@@ -19700,10 +19256,11 @@
   ],
   "facets": [
    "S1",
-   "S13"
+   "S6",
+   "S7"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0939": {
   "primary": null,
@@ -19715,11 +19272,10 @@
   ],
   "facets": [
    "S5",
-   "S13",
-   "S16"
+   "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0940": {
   "primary": null,
@@ -19732,11 +19288,10 @@
   "facets": [
    "S3",
    "S6",
-   "S7",
-   "S11"
+   "S14"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0941": {
   "primary": null,
@@ -19747,17 +19302,14 @@
    "collective-education"
   ],
   "facets": [
-   "S1",
+   "S3",
    "S5",
-   "S6",
-   "S7",
    "S8",
    "S13",
-   "S16",
-   "S17"
+   "S16"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0942": {
   "primary": null,
@@ -19769,10 +19321,11 @@
   ],
   "facets": [
    "S5",
+   "S6",
    "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0943": {
   "primary": null,
@@ -19783,10 +19336,12 @@
    "love-education"
   ],
   "facets": [
-   "S1"
+   "S1",
+   "S7",
+   "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0944": {
   "primary": null,
@@ -19798,14 +19353,11 @@
   ],
   "facets": [
    "S3",
-   "S5",
-   "S6",
    "S8",
-   "S12",
-   "S17"
+   "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0945": {
   "primary": null,
@@ -19816,15 +19368,12 @@
    "child-study"
   ],
   "facets": [
-   "S4",
    "S5",
-   "S7",
-   "S8",
-   "S13",
-   "S16"
+   "S6",
+   "S8"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0946": {
   "primary": null,
@@ -19835,11 +19384,12 @@
    "health-first"
   ],
   "facets": [
-   "S1",
-   "S10"
+   "S4",
+   "S6",
+   "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0947": {
   "primary": null,
@@ -19850,14 +19400,11 @@
    "child-study"
   ],
   "facets": [
-   "S1",
    "S3",
-   "S6",
-   "S7",
-   "S13"
+   "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0948": {
   "primary": null,
@@ -19868,12 +19415,15 @@
    "love-education"
   ],
   "facets": [
-   "S1",
+   "S2",
+   "S3",
    "S6",
+   "S10",
+   "S13",
    "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0949": {
   "primary": null,
@@ -19884,15 +19434,14 @@
    "love-education"
   ],
   "facets": [
-   "S1",
    "S3",
    "S4",
    "S8",
    "S13",
-   "S16"
+   "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0950": {
   "primary": null,
@@ -19903,12 +19452,13 @@
    "assessment-grading"
   ],
   "facets": [
-   "S7",
+   "S3",
+   "S4",
    "S8",
-   "S13"
+   "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0951": {
   "primary": null,
@@ -19925,7 +19475,7 @@
    "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0952": {
   "primary": null,
@@ -19935,9 +19485,12 @@
    "labor-education",
    "collective-education"
   ],
-  "facets": [],
+  "facets": [
+   "S3",
+   "S6"
+  ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0953": {
   "primary": null,
@@ -19948,14 +19501,12 @@
    "aesthetic-nature-education"
   ],
   "facets": [
-   "S1",
-   "S5",
+   "S2",
    "S6",
-   "S11",
-   "S15"
+   "S10"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0954": {
   "primary": null,
@@ -19966,16 +19517,13 @@
    "child-study"
   ],
   "facets": [
-   "S1",
    "S2",
-   "S5",
    "S6",
-   "S7",
-   "S10",
-   "S11"
+   "S11",
+   "S16"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0955": {
   "primary": null,
@@ -19987,15 +19535,12 @@
   ],
   "facets": [
    "S1",
-   "S4",
-   "S5",
-   "S6",
    "S8",
    "S11",
-   "S13"
+   "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0956": {
   "primary": null,
@@ -20007,10 +19552,10 @@
   ],
   "facets": [
    "S1",
-   "S5"
+   "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0957": {
   "primary": null,
@@ -20023,15 +19568,11 @@
   ],
   "facets": [
    "S1",
-   "S4",
-   "S5",
-   "S6",
-   "S8",
-   "S9",
-   "S11"
+   "S2",
+   "S5"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0958": {
   "primary": null,
@@ -20043,16 +19584,14 @@
   ],
   "facets": [
    "S1",
+   "S2",
    "S5",
    "S6",
-   "S7",
-   "S11",
-   "S12",
-   "S13",
+   "S14",
    "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0959": {
   "primary": null,
@@ -20064,10 +19603,12 @@
   ],
   "facets": [
    "S1",
-   "S11"
+   "S4",
+   "S9",
+   "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0960": {
   "primary": null,
@@ -20078,15 +19619,13 @@
    "aesthetic-nature-education"
   ],
   "facets": [
+   "S5",
    "S6",
-   "S7",
-   "S9",
-   "S11",
    "S12",
    "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0961": {
   "primary": null,
@@ -20097,11 +19636,12 @@
    "learning-difficulties"
   ],
   "facets": [
-   "S4",
-   "S8"
+   "S6",
+   "S8",
+   "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0962": {
   "primary": null,
@@ -20113,10 +19653,12 @@
   ],
   "facets": [
    "S6",
-   "S8"
+   "S8",
+   "S11",
+   "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0963": {
   "primary": null,
@@ -20128,11 +19670,12 @@
   ],
   "facets": [
    "S1",
+   "S3",
    "S6",
-   "S11"
+   "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0964": {
   "primary": null,
@@ -20143,15 +19686,12 @@
    "love-education"
   ],
   "facets": [
-   "S4",
-   "S6",
+   "S3",
    "S8",
-   "S11",
-   "S12",
-   "S16"
+   "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0965": {
   "primary": null,
@@ -20164,15 +19704,12 @@
   "facets": [
    "S4",
    "S6",
-   "S7",
    "S8",
-   "S9",
-   "S11",
    "S12",
-   "S15"
+   "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0966": {
   "primary": null,
@@ -20183,13 +19720,15 @@
    "love-education"
   ],
   "facets": [
+   "S3",
    "S4",
    "S6",
+   "S8",
    "S11",
-   "S12"
+   "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0967": {
   "primary": null,
@@ -20201,12 +19740,12 @@
   ],
   "facets": [
    "S3",
-   "S4",
    "S8",
-   "S11"
+   "S11",
+   "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0968": {
   "primary": null,
@@ -20220,10 +19759,11 @@
    "S3",
    "S6",
    "S8",
+   "S11",
    "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0969": {
   "primary": null,
@@ -20235,15 +19775,11 @@
   ],
   "facets": [
    "S3",
-   "S4",
-   "S6",
    "S8",
-   "S10",
-   "S13",
-   "S15"
+   "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0970": {
   "primary": null,
@@ -20255,16 +19791,13 @@
   ],
   "facets": [
    "S1",
+   "S2",
    "S6",
    "S7",
-   "S9",
-   "S11",
-   "S12",
-   "S13",
    "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0971": {
   "primary": null,
@@ -20275,10 +19808,11 @@
    "child-study"
   ],
   "facets": [
+   "S3",
    "S5"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0972": {
   "primary": null,
@@ -20291,11 +19825,12 @@
   "facets": [
    "S3",
    "S4",
-   "S7",
+   "S8",
+   "S15",
    "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0973": {
   "primary": null,
@@ -20309,12 +19844,12 @@
    "S1",
    "S2",
    "S6",
-   "S13",
-   "S14",
+   "S9",
+   "S12",
    "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0974": {
   "primary": null,
@@ -20325,11 +19860,11 @@
    "child-study"
   ],
   "facets": [
-   "S6",
+   "S3",
    "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0975": {
   "primary": null,
@@ -20341,10 +19876,13 @@
   ],
   "facets": [
    "S1",
-   "S6"
+   "S3",
+   "S6",
+   "S13",
+   "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0976": {
   "primary": null,
@@ -20356,15 +19894,12 @@
   ],
   "facets": [
    "S1",
-   "S6",
    "S7",
-   "S11",
    "S12",
-   "S16",
    "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0977": {
   "primary": null,
@@ -20376,16 +19911,13 @@
   ],
   "facets": [
    "S1",
-   "S3",
    "S4",
-   "S7",
    "S8",
    "S12",
-   "S13",
    "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0978": {
   "primary": null,
@@ -20397,12 +19929,12 @@
   ],
   "facets": [
    "S1",
+   "S5",
    "S7",
-   "S16",
    "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0979": {
   "primary": null,
@@ -20413,16 +19945,15 @@
    "aesthetic-nature-education"
   ],
   "facets": [
-   "S1",
    "S4",
    "S5",
-   "S6",
    "S8",
-   "S11",
-   "S16"
+   "S15",
+   "S16",
+   "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0980": {
   "primary": null,
@@ -20436,11 +19967,11 @@
    "S1",
    "S3",
    "S5",
-   "S6",
-   "S13"
+   "S8",
+   "S16"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0981": {
   "primary": null,
@@ -20453,13 +19984,10 @@
   "facets": [
    "S3",
    "S4",
-   "S6",
-   "S7",
-   "S8",
-   "S12"
+   "S8"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0982": {
   "primary": null,
@@ -20470,14 +19998,11 @@
    "aesthetic-nature-education"
   ],
   "facets": [
-   "S3",
    "S5",
-   "S6",
-   "S11",
-   "S12"
+   "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0983": {
   "primary": null,
@@ -20489,13 +20014,10 @@
   ],
   "facets": [
    "S5",
-   "S6",
-   "S11",
-   "S12",
-   "S14"
+   "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0984": {
   "primary": null,
@@ -20508,13 +20030,10 @@
   "facets": [
    "S1",
    "S6",
-   "S9",
-   "S11",
-   "S12",
    "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0985": {
   "primary": null,
@@ -20525,10 +20044,12 @@
    "love-education"
   ],
   "facets": [
+   "S3",
+   "S4",
    "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0986": {
   "primary": null,
@@ -20540,12 +20061,11 @@
   ],
   "facets": [
    "S6",
-   "S11",
    "S12",
    "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0987": {
   "primary": null,
@@ -20557,11 +20077,13 @@
   ],
   "facets": [
    "S3",
-   "S12",
+   "S4",
+   "S6",
+   "S10",
    "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0988": {
   "primary": null,
@@ -20572,13 +20094,12 @@
    "love-education"
   ],
   "facets": [
-   "S1",
    "S3",
-   "S7",
+   "S4",
    "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0990": {
   "primary": null,
@@ -20590,12 +20111,10 @@
   ],
   "facets": [
    "S6",
-   "S8",
-   "S11",
-   "S12"
+   "S8"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0991": {
   "primary": null,
@@ -20606,10 +20125,10 @@
    "teacher-growth"
   ],
   "facets": [
-   "S12"
+   "S5"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0992": {
   "primary": null,
@@ -20621,14 +20140,13 @@
   ],
   "facets": [
    "S1",
-   "S3",
-   "S5",
-   "S6",
-   "S7",
-   "S11"
+   "S4",
+   "S8",
+   "S14",
+   "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-0993": {
   "primary": null,
@@ -20640,18 +20158,13 @@
    "collective-education"
   ],
   "facets": [
-   "S1",
    "S2",
    "S3",
    "S4",
-   "S5",
-   "S6",
-   "S11",
-   "S12",
-   "S13"
+   "S5"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1012": {
   "primary": null,
@@ -20663,16 +20176,12 @@
    "child-study"
   ],
   "facets": [
-   "S1",
    "S3",
    "S4",
-   "S8",
-   "S12",
-   "S13",
-   "S17"
+   "S8"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1042": {
   "primary": null,
@@ -20682,12 +20191,9 @@
    "love-education",
    "labor-education"
   ],
-  "facets": [
-   "S12",
-   "S13"
-  ],
+  "facets": [],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1084": {
   "primary": null,
@@ -20700,12 +20206,10 @@
   ],
   "facets": [
    "S6",
-   "S11",
-   "S13",
-   "S15"
+   "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1085": {
   "primary": null,
@@ -20719,11 +20223,11 @@
   "facets": [
    "S5",
    "S6",
-   "S9",
-   "S11"
+   "S13",
+   "S14"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1086": {
   "primary": null,
@@ -20737,10 +20241,11 @@
   "facets": [
    "S4",
    "S5",
-   "S12"
+   "S8",
+   "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1087": {
   "primary": null,
@@ -20753,14 +20258,13 @@
   ],
   "facets": [
    "S1",
-   "S5",
-   "S6",
+   "S2",
    "S7",
    "S11",
    "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1088": {
   "primary": null,
@@ -20773,11 +20277,11 @@
   ],
   "facets": [
    "S1",
-   "S6",
+   "S2",
    "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1089": {
   "primary": null,
@@ -20789,12 +20293,12 @@
    "love-education"
   ],
   "facets": [
+   "S5",
    "S6",
-   "S11",
-   "S12"
+   "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1090": {
   "primary": null,
@@ -20806,12 +20310,11 @@
    "teacher-growth"
   ],
   "facets": [
-   "S6",
-   "S9",
-   "S11"
+   "S5",
+   "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1091": {
   "primary": null,
@@ -20825,11 +20328,10 @@
   "facets": [
    "S5",
    "S6",
-   "S9",
    "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1092": {
   "primary": null,
@@ -20842,10 +20344,10 @@
   ],
   "facets": [
    "S2",
-   "S9"
+   "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1093": {
   "primary": null,
@@ -20858,12 +20360,10 @@
   ],
   "facets": [
    "S6",
-   "S9",
-   "S11",
    "S16"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1104": {
   "primary": null,
@@ -20877,12 +20377,10 @@
   "facets": [
    "S5",
    "S6",
-   "S9",
-   "S10",
-   "S11"
+   "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1105": {
   "primary": null,
@@ -20894,14 +20392,10 @@
    "child-study"
   ],
   "facets": [
-   "S3",
-   "S6",
-   "S11",
-   "S12",
-   "S13"
+   "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1106": {
   "primary": null,
@@ -20912,9 +20406,11 @@
    "child-study",
    "assessment-grading"
   ],
-  "facets": [],
+  "facets": [
+   "S5"
+  ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1107": {
   "primary": null,
@@ -20931,7 +20427,7 @@
    "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1108": {
   "primary": null,
@@ -20943,15 +20439,16 @@
    "labor-education"
   ],
   "facets": [
+   "S2",
+   "S3",
    "S5",
    "S6",
-   "S7",
    "S9",
    "S11",
-   "S13"
+   "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1109": {
   "primary": null,
@@ -20965,10 +20462,10 @@
    "S1",
    "S6",
    "S7",
-   "S9"
+   "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1110": {
   "primary": null,
@@ -20980,13 +20477,12 @@
    "child-study"
   ],
   "facets": [
-   "S1",
+   "S5",
    "S6",
-   "S9",
    "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1111": {
   "primary": null,
@@ -20999,11 +20495,10 @@
   ],
   "facets": [
    "S6",
-   "S11",
-   "S16"
+   "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1122": {
   "primary": null,
@@ -21017,11 +20512,10 @@
   "facets": [
    "S5",
    "S6",
-   "S9",
    "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1123": {
   "primary": null,
@@ -21038,7 +20532,7 @@
    "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1124": {
   "primary": null,
@@ -21050,10 +20544,12 @@
    "child-study"
   ],
   "facets": [
-   "S6"
+   "S5",
+   "S13",
+   "S16"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1125": {
   "primary": null,
@@ -21066,12 +20562,12 @@
   ],
   "facets": [
    "S1",
-   "S2",
    "S6",
+   "S7",
    "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1126": {
   "primary": null,
@@ -21082,12 +20578,9 @@
    "thinking-and-nature",
    "collective-education"
   ],
-  "facets": [
-   "S4",
-   "S12"
-  ],
+  "facets": [],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1127": {
   "primary": null,
@@ -21100,10 +20593,11 @@
   ],
   "facets": [
    "S5",
-   "S6"
+   "S6",
+   "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1128": {
   "primary": null,
@@ -21115,10 +20609,12 @@
    "aesthetic-nature-education"
   ],
   "facets": [
-   "S7"
+   "S3",
+   "S6",
+   "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1129": {
   "primary": null,
@@ -21131,12 +20627,10 @@
   ],
   "facets": [
    "S6",
-   "S9",
-   "S11",
-   "S12"
+   "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1130": {
   "primary": null,
@@ -21148,12 +20642,14 @@
    "child-study"
   ],
   "facets": [
-   "S1",
+   "S4",
    "S6",
-   "S11"
+   "S9",
+   "S11",
+   "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1131": {
   "primary": null,
@@ -21166,12 +20662,10 @@
   ],
   "facets": [
    "S3",
-   "S6",
-   "S11",
    "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1141": {
   "primary": null,
@@ -21182,12 +20676,9 @@
    "family-school",
    "child-study"
   ],
-  "facets": [
-   "S1",
-   "S4"
-  ],
+  "facets": [],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1142": {
   "primary": null,
@@ -21201,12 +20692,10 @@
   "facets": [
    "S1",
    "S5",
-   "S6",
-   "S13",
-   "S17"
+   "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1143": {
   "primary": null,
@@ -21219,13 +20708,10 @@
   ],
   "facets": [
    "S5",
-   "S6",
-   "S10",
-   "S11",
-   "S14"
+   "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1144": {
   "primary": null,
@@ -21237,12 +20723,12 @@
    "collective-education"
   ],
   "facets": [
-   "S1",
+   "S3",
    "S6",
-   "S11"
+   "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1145": {
   "primary": null,
@@ -21254,13 +20740,11 @@
    "child-study"
   ],
   "facets": [
-   "S3",
-   "S6",
-   "S9",
+   "S13",
    "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1146": {
   "primary": null,
@@ -21272,11 +20756,11 @@
    "child-study"
   ],
   "facets": [
-   "S6",
-   "S16"
+   "S5",
+   "S6"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1147": {
   "primary": null,
@@ -21290,14 +20774,11 @@
   "facets": [
    "S1",
    "S2",
-   "S6",
-   "S7",
-   "S11",
-   "S12",
-   "S14"
+   "S5",
+   "S7"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1148": {
   "primary": null,
@@ -21311,10 +20792,12 @@
   "facets": [
    "S1",
    "S6",
-   "S11"
+   "S9",
+   "S11",
+   "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1149": {
   "primary": null,
@@ -21328,11 +20811,10 @@
   "facets": [
    "S5",
    "S6",
-   "S10",
-   "S17"
+   "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1150": {
   "primary": null,
@@ -21344,13 +20826,14 @@
    "aesthetic-nature-education"
   ],
   "facets": [
-   "S1",
+   "S3",
+   "S4",
+   "S5",
    "S10",
-   "S14",
    "S16"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1151": {
   "primary": null,
@@ -21362,12 +20845,12 @@
    "child-study"
   ],
   "facets": [
-   "S1",
    "S2",
-   "S7"
+   "S3",
+   "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1157": {
   "primary": null,
@@ -21379,14 +20862,11 @@
    "teacher-growth"
   ],
   "facets": [
-   "S6",
-   "S9",
-   "S11",
-   "S12",
-   "S13"
+   "S4",
+   "S10"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1160": {
   "primary": null,
@@ -21399,12 +20879,10 @@
   ],
   "facets": [
    "S4",
-   "S6",
-   "S8",
-   "S11"
+   "S8"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1204": {
   "primary": null,
@@ -21416,12 +20894,11 @@
   ],
   "facets": [
    "S1",
-   "S4",
-   "S6",
-   "S12"
+   "S7",
+   "S8"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1219": {
   "primary": null,
@@ -21432,14 +20909,11 @@
    "love-education"
   ],
   "facets": [
-   "S1",
    "S4",
-   "S5",
-   "S8",
-   "S11"
+   "S8"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1230": {
   "primary": null,
@@ -21450,16 +20924,9 @@
    "collective-education",
    "teacher-growth"
   ],
-  "facets": [
-   "S1",
-   "S3",
-   "S11",
-   "S12",
-   "S13",
-   "S14"
-  ],
+  "facets": [],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1239": {
   "primary": null,
@@ -21472,17 +20939,13 @@
   ],
   "facets": [
    "S4",
-   "S6",
-   "S7",
    "S8",
-   "S11",
-   "S12",
-   "S14"
+   "S13"
   ],
   "tags": [
    "A18"
   ],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1243": {
   "primary": null,
@@ -21494,15 +20957,12 @@
    "child-study"
   ],
   "facets": [
-   "S3",
    "S4",
-   "S6",
-   "S12",
-   "S14",
+   "S8",
    "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1244": {
   "primary": null,
@@ -21514,13 +20974,14 @@
    "thinking-and-nature"
   ],
   "facets": [
+   "S3",
    "S4",
    "S5",
    "S6",
-   "S12"
+   "S8"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1250": {
   "primary": null,
@@ -21533,14 +20994,10 @@
   ],
   "facets": [
    "S1",
-   "S6",
-   "S7",
-   "S11",
-   "S12",
-   "S16"
+   "S7"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1251": {
   "primary": null,
@@ -21552,17 +21009,15 @@
    "learning-difficulties"
   ],
   "facets": [
-   "S6",
-   "S7",
+   "S3",
    "S8",
-   "S12",
-   "S13",
-   "S14"
+   "S9",
+   "S12"
   ],
   "tags": [
    "A18"
   ],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1263": {
   "primary": null,
@@ -21576,10 +21031,12 @@
   "facets": [
    "S3",
    "S6",
+   "S8",
+   "S10",
    "S16"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1276": {
   "primary": null,
@@ -21592,19 +21049,13 @@
   ],
   "facets": [
    "S1",
-   "S3",
-   "S4",
-   "S7",
    "S8",
-   "S11",
-   "S12",
-   "S13",
    "S17"
   ],
   "tags": [
    "A18"
   ],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1277": {
   "primary": null,
@@ -21616,18 +21067,12 @@
    "family-school"
   ],
   "facets": [
-   "S1",
    "S4",
-   "S5",
-   "S6",
    "S7",
-   "S8",
-   "S11",
-   "S12",
-   "S13"
+   "S8"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1278": {
   "primary": null,
@@ -21639,15 +21084,12 @@
    "child-study"
   ],
   "facets": [
-   "S3",
-   "S4",
-   "S6",
-   "S7",
-   "S11",
+   "S8",
+   "S9",
    "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1294": {
   "primary": null,
@@ -21659,15 +21101,10 @@
    "teacher-growth"
   ],
   "facets": [
-   "S3",
-   "S4",
-   "S6",
-   "S8",
-   "S11",
-   "S12"
+   "S8"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1312": {
   "primary": null,
@@ -21679,12 +21116,10 @@
    "child-study"
   ],
   "facets": [
-   "S4",
-   "S6",
-   "S12"
+   "S8"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1314": {
   "primary": null,
@@ -21696,12 +21131,10 @@
    "collective-education"
   ],
   "facets": [
-   "S3",
-   "S4",
-   "S12"
+   "S8"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1319": {
   "primary": null,
@@ -21713,14 +21146,10 @@
    "teacher-growth"
   ],
   "facets": [
-   "S3",
-   "S4",
-   "S6",
-   "S8",
-   "S12"
+   "S8"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1320": {
   "primary": null,
@@ -21734,12 +21163,10 @@
   "facets": [
    "S1",
    "S7",
-   "S8",
-   "S12",
-   "S13"
+   "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1322": {
   "primary": null,
@@ -21751,14 +21178,11 @@
    "child-study"
   ],
   "facets": [
-   "S4",
    "S6",
-   "S9",
-   "S12",
-   "S15"
+   "S8"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1324": {
   "primary": null,
@@ -21770,15 +21194,11 @@
    "love-education"
   ],
   "facets": [
-   "S3",
    "S4",
-   "S8",
-   "S12",
-   "S13",
-   "S14"
+   "S8"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1325": {
   "primary": null,
@@ -21790,14 +21210,10 @@
    "child-study"
   ],
   "facets": [
-   "S4",
-   "S6",
-   "S7",
-   "S8",
-   "S12"
+   "S8"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1326": {
   "primary": null,
@@ -21809,12 +21225,11 @@
    "child-study"
   ],
   "facets": [
-   "S3",
-   "S4",
-   "S5"
+   "S5",
+   "S8"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1333": {
   "primary": null,
@@ -21827,15 +21242,14 @@
   ],
   "facets": [
    "S1",
-   "S3",
-   "S4",
+   "S5",
    "S7",
    "S9",
    "S12",
-   "S13"
+   "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1340": {
   "primary": null,
@@ -21847,14 +21261,10 @@
    "collective-education"
   ],
   "facets": [
-   "S4",
-   "S6",
-   "S8",
-   "S12",
-   "S13"
+   "S8"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1346": {
   "primary": null,
@@ -21867,14 +21277,10 @@
   ],
   "facets": [
    "S3",
-   "S4",
-   "S6",
-   "S12",
-   "S13",
-   "S17"
+   "S8"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1356": {
   "primary": null,
@@ -21887,16 +21293,11 @@
   ],
   "facets": [
    "S1",
-   "S6",
    "S7",
-   "S8",
-   "S10",
-   "S11",
-   "S12",
-   "S13"
+   "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1362": {
   "primary": null,
@@ -21909,11 +21310,10 @@
   ],
   "facets": [
    "S1",
-   "S15",
-   "S17"
+   "S15"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1375": {
   "primary": null,
@@ -21925,14 +21325,10 @@
    "teacher-growth"
   ],
   "facets": [
-   "S1",
-   "S4",
-   "S8",
-   "S12",
-   "S13"
+   "S8"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1384": {
   "primary": null,
@@ -21944,15 +21340,12 @@
    "teacher-growth"
   ],
   "facets": [
-   "S4",
-   "S6",
-   "S7",
    "S9",
    "S12",
    "S13"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1386": {
   "primary": null,
@@ -21965,14 +21358,12 @@
   ],
   "facets": [
    "S1",
-   "S4",
    "S7",
-   "S9",
-   "S12",
+   "S8",
    "S17"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1389": {
   "primary": null,
@@ -21985,16 +21376,13 @@
   ],
   "facets": [
    "S1",
-   "S4",
+   "S2",
    "S5",
    "S6",
-   "S7",
-   "S11",
-   "S12",
-   "S13"
+   "S11"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1390": {
   "primary": null,
@@ -22007,13 +21395,10 @@
   ],
   "facets": [
    "S1",
-   "S6",
-   "S11",
-   "S13",
-   "S15"
+   "S7"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  },
  "sk-1391": {
   "primary": null,
@@ -22026,14 +21411,12 @@
   ],
   "facets": [
    "S1",
-   "S4",
    "S5",
    "S6",
-   "S9",
    "S11",
    "S12"
   ],
   "tags": [],
-  "facet_source": "keyword"
+  "facet_source": "judge"
  }
 }

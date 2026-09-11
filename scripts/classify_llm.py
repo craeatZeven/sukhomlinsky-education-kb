@@ -169,8 +169,44 @@ def cmd_collect(write: bool = True):
                                 "old_topics": c.get("topics", [])}
         RESULT.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
         print(f"\n已写入 {RESULT}（{len(out)} 张）")
+        write_review(out, entry)
     elif write:
         print("\n⚠ 有校验未通过，**未写文件**。先修干净再写。")
+
+
+def write_review(out: dict, entry: dict):
+    """出人工复核清单：SPLIT（待拆分）/ NONE（无主张）/ 与人工裁定表冲突的卡。"""
+    spec = load_spec()
+    byid = {c["id"]: c for c in cards()}
+    split = [k for k, v in out.items() if v.get("primary") == "SPLIT"]
+    none_ = [k for k, v in out.items() if v.get("primary") == "NONE"]
+    over = spec.get("override", {})
+    conflict = [(k, over[k]["primary"], out[k].get("primary"))
+                for k in out if k in over and out[k].get("primary") not in (None, over[k]["primary"])]
+    L = ["# LLM 逐卡判读 · 人工复核清单", "",
+         "> 由 `python scripts/classify_llm.py collect` 生成。判读记录见 `classification.json`。", "",
+         f"## 一、待拆分 SPLIT（{len(split)} 张）", "",
+         "原文有两个真正并列、无可见主次的主张——按元规则不强行破平局，需人工决定拆卡或选一个。", ""]
+    for k in sorted(split):
+        c = byid.get(k, {})
+        L += [f"- **{k}　{c.get('title', '')}**",
+              f"  - 主张：{out[k].get('claim', '')}",
+              f"  - 依据：{out[k].get('evidence', '')}"]
+    L += ["", f"## 二、无主张 NONE（{len(none_)} 张）", "",
+          "原文摘录本身不构成判断或要求（纯写景 / 纯叙述 / 残句）。这些卡可能要补原文摘录，"
+          "或本来就该留在故事域。", ""]
+    for k in sorted(none_):
+        c = byid.get(k, {})
+        L += [f"- **{k}　{c.get('title', '')}**　依据：{out[k].get('evidence', '')}"]
+    L += ["", f"## 三、与人工裁定表冲突（{len(conflict)} 张）", "",
+          "`taxonomy.md` §六 登记的人工裁定优先于算法。这里是判读与裁定不一致的卡——"
+          "要么裁定过时了，要么判读错了，都要人看一眼。", "",
+          "| 卡片 | 标题 | 人工裁定 | 本次判读 |", "|---|---|---|---|"]
+    for k, manual, got in sorted(conflict):
+        L.append(f"| {k} | {byid.get(k, {}).get('title', '')[:30]} | {manual} | {got} |")
+    dst = ROOT / "docs" / "classification-llm-review.md"
+    dst.write_text("\n".join(L) + "\n", encoding="utf-8")
+    print(f"已写入 {dst}（SPLIT {len(split)} · NONE {len(none_)} · 冲突 {len(conflict)}）")
 
 
 def cmd_merge(argv: list[str]):

@@ -134,6 +134,21 @@ def main() -> int:
             warnings.append((label, 'ZuoRen card ref has no printed page (pNNN)'))
 
         for section in REQUIRED_SECTIONS:
+            # 「原文/Excerpt」这一节的**意图**是"不许有卡片静默地没有内容"，
+            # 不是"每张卡都必须有一句原文"。当出处书里确实找不到可用原文时，
+            # 卡片改为 `## 编者概括/Summary` + frontmatter `excerpt_status: paraphrase`，
+            # 页面上明确标成「编者概括 · 原文待补」——这是**显式**状态，不是空缺。
+            # 2026-09-11 起因外部评审 docs/codex-final-opinion.md A1 改成这样：
+            # 此前那 13 张卡把编者概括写进 `原文/Excerpt`，页面以引文样式呈现，
+            # 读者会当成苏霍姆林斯基的原话。
+            if section == '原文/Excerpt':
+                if ('## 原文/Excerpt' in text
+                        or ('## 编者概括/Summary' in text
+                            and 'excerpt_status: paraphrase' in text)):
+                    continue
+                errors.append((label, 'missing section: 原文/Excerpt'
+                                      '（且没有 excerpt_status: paraphrase + 编者概括）'))
+                continue
             if f'## {section}' not in text:
                 errors.append((label, f'missing section: {section}'))
 

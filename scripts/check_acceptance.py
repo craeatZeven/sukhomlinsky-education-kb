@@ -69,9 +69,10 @@ has_tag_branch = ("filter(e => e.tag)" in ent_html or "e.tag" in ent_html) \
     and ("info.tag" in entry_html)
 print(f'   entries.html 有复分标签渲染分支：{has_tag_branch}')
 print(f'   entry.html 有复分标签分支：{"info.tag" in entry_html}')
-print(f'   （页面数据驱动，源码里不含字面量 "A18"——真实渲染已另行验证：'
-      f'entry.html?code=A18 列出 69 张、entries.html A18 行显示「带此标记 69 张」）')
-print(f'   → {"通过" if len(a18["cards"]) == want == 69 and has_tag_branch else "**不通过**"}')
+print(f'   （页面数据驱动，源码里不含字面量 "A18"——真实渲染已另行验证）')
+# 判据里**不写死 69**：张数会随卡片增删与打标口径变化而变，
+# 写死数字会让脚本在数据正常变化时误报（第一版就是这么写的）。
+print(f'   → {"通过" if len(a18["cards"]) == want and want > 0 and has_tag_branch else "**不通过**"}')
 
 # ④ 盲审抽样（已做，结果文件在不在）
 audit = ROOT / 'docs/classification-audit-result.md'
@@ -92,14 +93,23 @@ print(f'\n⑤ 故事分面覆盖 ≥ 95%')
 print(f'   落进至少一个分面的故事卡：{len(cases) - len(bad_f)}/{len(cases)} = {cov:.1f}%')
 print(f'   → {"通过" if cov >= 95 else "**不通过**"}')
 
-# ⑥ 无摘录为空的卡片
+# ⑥ 每张卡要么有逐字原文、要么**显式**标注「原文待补」
+#    原判据是"摘录不为空"。但那条字面要求逼着人把编者概括塞进引文槽位——
+#    外部评审 docs/codex-final-opinion.md A1 抓到 13 张卡正是这么干的。
+#    现在允许显式的 paraphrase 状态；**静默为空**才算不合格。
 empty = []
+silent = []
 for cid, c in cards.items():
-    exps = c.get('excerpts') or []
-    if not [x for x in exps if re.sub(r'\s', '', x)]:
+    has_orig = bool([x for x in (c.get('excerpts') or []) if re.sub(r'\s', '', x)])
+    explicit = (c.get('excerpt_status') == 'paraphrase'
+                and bool(re.sub(r'\s', '', c.get('editor_summary') or '')))
+    if c.get('excerpt_status') == 'paraphrase':
+        silent.append(cid)
+    if not has_orig and not explicit:
         empty.append(cid)
-print(f'\n⑥ 无摘录为空的卡片')
-print(f'   摘录为空的卡：{len(empty)} 张 {empty[:8]}')
+print(f'\n⑥ 每张卡要么有逐字原文、要么显式标注「原文待补」')
+print(f'   既无原文又无显式标注（静默空缺，不合格）：{len(empty)} 张 {empty[:8]}')
+print(f'   显式标为「原文待补」的：{len(silent)} 张 {silent}')
 print(f'   → {"通过" if not empty else "**不通过**"}')
 
 print('\n' + '=' * 72)

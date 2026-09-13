@@ -11,7 +11,8 @@
   "type": "quote",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-0002": {
   "primary": "A5",
@@ -25,7 +26,8 @@
   "type": "method",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-0003": {
   "primary": "A5",
@@ -39,7 +41,8 @@
   "type": "principle",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-0005": {
   "primary": "A7",
@@ -53,7 +56,8 @@
   "type": "principle",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-0007": {
   "primary": "A15",
@@ -65,7 +69,8 @@
    "learning-difficulties"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0008": {
   "primary": "A15",
@@ -77,7 +82,8 @@
    "learning-difficulties"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0009": {
   "primary": "A8",
@@ -89,7 +95,8 @@
    "family-school"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0010": {
   "primary": "A8",
@@ -103,7 +110,8 @@
    "family-school"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0011": {
   "primary": "A8",
@@ -115,7 +123,8 @@
    "family-school"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0012": {
   "primary": "A7",
@@ -130,7 +139,8 @@
   "type": "principle",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-0013": {
   "primary": "A5",
@@ -144,7 +154,8 @@
    "family-school"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0014": {
   "primary": "A11",
@@ -156,7 +167,8 @@
    "labor-education"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0016": {
   "primary": "A11",
@@ -168,7 +180,8 @@
    "labor-education"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0017": {
   "primary": "A11",
@@ -182,7 +195,8 @@
    "labor-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0018": {
   "primary": "A11",
@@ -195,7 +209,8 @@
    "learning-difficulties"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0019": {
   "primary": "A7",
@@ -207,7 +222,8 @@
    "health-first"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0020": {
   "primary": "A7",
@@ -222,7 +238,8 @@
    "family-school"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0021": {
   "primary": "A7",
@@ -234,7 +251,8 @@
    "health-first"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0023": {
   "primary": "A7",
@@ -249,7 +267,8 @@
   "type": "method",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-0024": {
   "primary": "A14",
@@ -261,7 +280,8 @@
    "aesthetic-nature-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0025": {
   "primary": "A14",
@@ -273,7 +293,8 @@
    "aesthetic-nature-education"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0026": {
   "primary": "A14",
@@ -285,7 +306,8 @@
    "aesthetic-nature-education"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0027": {
   "primary": "A14",
@@ -297,7 +319,8 @@
    "aesthetic-nature-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0028": {
   "primary": "A14",
@@ -311,7 +334,8 @@
    "aesthetic-nature-education"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0029": {
   "primary": "A9",
@@ -325,7 +349,8 @@
    "collective-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0030": {
   "primary": "A9",
@@ -339,7 +364,8 @@
    "collective-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0031": {
   "primary": "A9",
@@ -353,7 +379,8 @@
    "collective-education"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0032": {
   "primary": "A6",
@@ -366,7 +393,8 @@
    "learning-difficulties"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0033": {
   "primary": "A1",
@@ -380,7 +408,8 @@
    "collective-education"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0034": {
   "primary": "A5",
@@ -392,7 +421,8 @@
    "teacher-growth"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0035": {
   "primary": "A10",
@@ -404,7 +434,8 @@
    "teacher-growth"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0036": {
   "primary": "A5",
@@ -416,7 +447,8 @@
    "teacher-growth"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0037": {
   "primary": "A5",
@@ -428,7 +460,8 @@
    "teacher-growth"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0038": {
   "primary": "A16",
@@ -442,7 +475,8 @@
    "teacher-growth"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0039": {
   "primary": "A5",
@@ -454,7 +488,8 @@
    "love-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0040": {
   "primary": "A5",
@@ -468,7 +503,8 @@
    "love-education"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0041": {
   "primary": "A5",
@@ -481,7 +517,8 @@
    "teacher-growth"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0042": {
   "primary": "A5",
@@ -496,7 +533,8 @@
    "teacher-growth"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0043": {
   "primary": "A5",
@@ -510,7 +548,8 @@
    "love-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0044": {
   "primary": "A16",
@@ -524,7 +563,8 @@
   "type": "principle",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-0045": {
   "primary": "A16",
@@ -538,7 +578,8 @@
   "type": "principle",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-0046": {
   "primary": "A16",
@@ -553,7 +594,8 @@
    "family-school"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0047": {
   "primary": "A16",
@@ -565,7 +607,8 @@
    "assessment-grading"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0048": {
   "primary": "A16",
@@ -578,7 +621,8 @@
    "learning-difficulties"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0049": {
   "primary": "A6",
@@ -592,7 +636,8 @@
    "child-study"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0050": {
   "primary": "A8",
@@ -607,7 +652,8 @@
    "family-school"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0051": {
   "primary": "A6",
@@ -622,7 +668,8 @@
   "type": "quote",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-0052": {
   "primary": "A6",
@@ -636,7 +683,8 @@
    "child-study"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0053": {
   "primary": "A21",
@@ -650,7 +698,8 @@
    "child-study"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0054": {
   "primary": "A13",
@@ -662,7 +711,8 @@
    "reading-and-books"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0055": {
   "primary": "A13",
@@ -674,7 +724,8 @@
    "reading-and-books"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0056": {
   "primary": "A13",
@@ -686,7 +737,8 @@
    "reading-and-books"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0057": {
   "primary": "A4",
@@ -700,7 +752,8 @@
    "reading-and-books"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0058": {
   "primary": "A13",
@@ -712,7 +765,8 @@
    "reading-and-books"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0059": {
   "primary": "A12",
@@ -724,7 +778,8 @@
    "thinking-and-nature"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0060": {
   "primary": "A15",
@@ -737,7 +792,8 @@
    "learning-difficulties"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0061": {
   "primary": "A12",
@@ -749,7 +805,8 @@
    "thinking-and-nature"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0062": {
   "primary": "A12",
@@ -761,7 +818,8 @@
    "thinking-and-nature"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0063": {
   "primary": "A12",
@@ -773,7 +831,8 @@
    "thinking-and-nature"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0064": {
   "primary": "A10",
@@ -786,7 +845,8 @@
    "reading-and-books"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0065": {
   "primary": "A16",
@@ -801,7 +861,8 @@
   "type": "principle",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-0066": {
   "primary": "A11",
@@ -816,7 +877,8 @@
   "type": "quote",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-0067": {
   "primary": "A12",
@@ -830,7 +892,8 @@
    "aesthetic-nature-education"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0069": {
   "primary": "A7",
@@ -843,7 +906,8 @@
    "family-school"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0070": {
   "primary": "A5",
@@ -858,7 +922,8 @@
   "type": "quote",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-0071": {
   "primary": "A8",
@@ -871,7 +936,8 @@
    "child-study"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0072": {
   "primary": "A13",
@@ -885,7 +951,8 @@
    "reading-and-books"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0073": {
   "primary": "A15",
@@ -900,13 +967,14 @@
    "thinking-and-nature"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0075": {
   "primary": "A16",
   "seealso": [],
   "claim": "不要急于给低年级学生打分，两分对儿童就是鞭子和棍棒",
-  "evidence": "不要急于给低年级学生打分，尤其不要打两分",
+  "evidence": "要使人在学习的沃土上茁壮成长，就要求我们念念不忘下工作的对象是儿童，他们的思想还不成熟。",
   "title": "不给低年级学生打两分：两分就是鞭子和棍棒",
   "old_topics": [
    "assessment-grading",
@@ -916,7 +984,8 @@
   "type": "method",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-0077": {
   "primary": "A13",
@@ -933,7 +1002,8 @@
   "type": "quote",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-0078": {
   "primary": "A22",
@@ -948,20 +1018,22 @@
    "child-study"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": true
  },
  "sk-0079": {
   "primary": "A11",
   "seealso": [],
   "claim": "不能因自动化机械化取消手工劳动教育，手工技能是高技术能力的基础",
-  "evidence": "掌握复杂机器的能力建立在简单手工技能技巧之上",
+  "evidence": "操纵最复杂的机器的能力与手工性劳动的技巧有着直接的依赖关系。",
   "title": "高技术时代，仍要先掌握手工基本功",
   "old_topics": [
    "labor-education",
    "child-study"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0080": {
   "primary": "A5",
@@ -974,7 +1046,8 @@
    "child-study"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0082": {
   "primary": "A12",
@@ -987,7 +1060,8 @@
    "aesthetic-nature-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0083": {
   "primary": "A15",
@@ -1002,7 +1076,8 @@
    "health-first"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": true
  },
  "sk-0084": {
   "primary": "A4",
@@ -1017,7 +1092,8 @@
    "child-study"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0085": {
   "primary": "A11",
@@ -1029,7 +1105,8 @@
    "labor-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0086": {
   "primary": "A11",
@@ -1044,7 +1121,8 @@
    "collective-education"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0088": {
   "primary": "A19",
@@ -1059,7 +1137,8 @@
    "collective-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0089": {
   "primary": "A19",
@@ -1073,7 +1152,8 @@
    "family-school"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0091": {
   "primary": "A13",
@@ -1086,7 +1166,8 @@
    "collective-education"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0092": {
   "primary": "A14",
@@ -1102,7 +1183,8 @@
    "family-school"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0093": {
   "primary": "A22",
@@ -1117,7 +1199,8 @@
    "reading-and-books"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0094": {
   "primary": "A15",
@@ -1131,7 +1214,8 @@
    "health-first"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0095": {
   "primary": "A11",
@@ -1146,7 +1230,8 @@
    "labor-education"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0096": {
   "primary": "A11",
@@ -1161,7 +1246,8 @@
    "labor-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0097": {
   "primary": "A10",
@@ -1173,7 +1259,8 @@
    "teacher-growth"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0098": {
   "primary": "A10",
@@ -1185,7 +1272,8 @@
    "teacher-growth"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0100": {
   "primary": "A10",
@@ -1197,7 +1285,8 @@
    "teacher-growth"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0101": {
   "primary": "A20",
@@ -1209,7 +1298,8 @@
    "assessment-grading"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0103": {
   "primary": "A23",
@@ -1224,7 +1314,8 @@
   "type": "principle",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-0104": {
   "primary": "A10",
@@ -1237,7 +1328,8 @@
    "collective-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0105": {
   "primary": "A7",
@@ -1252,7 +1344,8 @@
    "child-study"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0106": {
   "primary": "A1",
@@ -1265,7 +1358,8 @@
    "teacher-growth"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0107": {
   "primary": "A19",
@@ -1280,7 +1374,8 @@
    "family-school"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0108": {
   "primary": "A15",
@@ -1295,7 +1390,8 @@
    "child-study"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0109": {
   "primary": "A1",
@@ -1310,7 +1406,8 @@
    "teacher-growth"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0110": {
   "primary": "A6",
@@ -1325,7 +1422,8 @@
    "child-study"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0112": {
   "primary": "A9",
@@ -1340,7 +1438,8 @@
    "teacher-growth"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0113": {
   "primary": "A15",
@@ -1355,7 +1454,8 @@
    "reading-and-books"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0115": {
   "primary": "A5",
@@ -1368,7 +1468,8 @@
    "teacher-growth"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0116": {
   "primary": "A5",
@@ -1381,7 +1482,8 @@
    "collective-education"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0117": {
   "primary": "A14",
@@ -1396,7 +1498,8 @@
    "thinking-and-nature"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0118": {
   "primary": "A14",
@@ -1411,7 +1514,8 @@
    "assessment-grading"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0119": {
   "primary": "A11",
@@ -1425,7 +1529,8 @@
    "labor-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0120": {
   "primary": "A19",
@@ -1438,7 +1543,8 @@
    "family-school"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0122": {
   "primary": "A23",
@@ -1453,7 +1559,8 @@
    "teacher-growth"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0123": {
   "primary": "A14",
@@ -1467,7 +1574,8 @@
    "aesthetic-nature-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0124": {
   "primary": "A16",
@@ -1480,7 +1588,8 @@
    "child-study"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0126": {
   "primary": "A4",
@@ -1488,14 +1597,15 @@
    "A7"
   ],
   "claim": "身体锻炼要成为学生自己的自我教育，靠自我强制而不靠教师强迫检查",
-  "evidence": "能激发出自我教育的教育才是真正的教育",
+  "evidence": "在白我教育中，身体锻炼占有非常重要的地位。",
   "title": "把身体锻炼放进自我教育：冷水浴、雪擦身靠‘自我强制’",
   "old_topics": [
    "health-first",
    "child-study"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0127": {
   "primary": "A8",
@@ -1508,7 +1618,8 @@
    "child-study"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0128": {
   "primary": "A3",
@@ -1517,14 +1628,15 @@
    "A11"
   ],
   "claim": "幸福不能像遗产一样传给孩子",
-  "evidence": "人的幸福不能像遗产一样赠予或接收",
+  "evidence": "的动力。从需要产生愿望。然而育人的全部实质，正在于使个人的愿望与集体、社会、人民的利益相协调。",
   "title": "幸福不能当遗产传给孩子：童年要修‘愿望’，用劳动为幸福奠基",
   "old_topics": [
    "family-school",
    "labor-education"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0129": {
   "primary": "A16",
@@ -1532,7 +1644,7 @@
    "A11"
   ],
   "claim": "哪里为大众和社会的劳动成为儿童欢乐的源泉，哪里就完全没有惩罚",
-  "evidence": "哪里就完全没有惩罚",
+  "evidence": "多年的经验使我确信，下面这条十分重要的教育规律是正确的：哪里为着大众和社会的劳动成为儿董和少年欢乐的源泉，哪里就完全没有惩罚。",
   "title": "没有惩罚的教育：让为大众的劳动成为童年欢乐的源泉",
   "old_topics": [
    "collective-education",
@@ -1541,7 +1653,8 @@
   "type": "principle",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-0130": {
   "primary": "A14",
@@ -1554,7 +1667,8 @@
    "teacher-growth"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0131": {
   "primary": "A7",
@@ -1569,7 +1683,8 @@
    "child-study"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0133": {
   "primary": "A13",
@@ -1582,7 +1697,8 @@
    "child-study"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0134": {
   "primary": "A19",
@@ -1596,7 +1712,8 @@
    "teacher-growth"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0136": {
   "primary": "A10",
@@ -1611,7 +1728,8 @@
    "love-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0137": {
   "primary": "A15",
@@ -1626,7 +1744,8 @@
    "aesthetic-nature-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0138": {
   "primary": "A5",
@@ -1639,7 +1758,8 @@
    "love-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0139": {
   "primary": "A9",
@@ -1653,7 +1773,8 @@
    "labor-education"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0141": {
   "primary": "A10",
@@ -1665,7 +1786,8 @@
    "teacher-growth"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0142": {
   "primary": "A4",
@@ -1681,7 +1803,8 @@
    "child-study"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0143": {
   "primary": "A16",
@@ -1697,7 +1820,8 @@
    "love-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0144": {
   "primary": "A10",
@@ -1709,7 +1833,8 @@
    "teacher-growth"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0145": {
   "primary": "A6",
@@ -1724,7 +1849,8 @@
    "teacher-growth"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0146": {
   "primary": "A7",
@@ -1736,7 +1862,8 @@
    "health-first"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0147": {
   "primary": "A14",
@@ -1748,7 +1875,8 @@
    "aesthetic-nature-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0148": {
   "primary": "A22",
@@ -1761,7 +1889,8 @@
    "aesthetic-nature-education"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0149": {
   "primary": "A14",
@@ -1773,7 +1902,8 @@
    "aesthetic-nature-education"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0151": {
   "primary": "A11",
@@ -1785,7 +1915,8 @@
    "labor-education"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0152": {
   "primary": "A4",
@@ -1800,7 +1931,8 @@
    "child-study"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0153": {
   "primary": "A5",
@@ -1816,6 +1948,7 @@
   ],
   "type": "principle",
   "tags": [],
+  "evidence_unverified": false,
   "source": "manual",
   "override_why": "卡片是**原则卡**，标题写明「先建立思想一致，再做精神导师」，主张落在\"教师要以怎样的立场站在少年一边\"——与少年思想感情一致、共同关心社会利益、不直接盘问「你在想什么」。「少年期矛盾」是**前提**不是主张。判读两轮分别给 A21 与 A6，都只读到前半句（第一句原文依据只截了\"更需要别人的帮助与建议\"），漏掉了卡片真正的落点。（2026-09-11 人工裁定，A21 列为参见）"
  },
@@ -1832,7 +1965,8 @@
    "collective-education"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0155": {
   "primary": "A14",
@@ -1845,7 +1979,8 @@
    "child-study"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0156": {
   "primary": "A19",
@@ -1858,7 +1993,8 @@
    "child-study"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0157": {
   "primary": "A5",
@@ -1873,7 +2009,8 @@
    "love-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0158": {
   "primary": "A10",
@@ -1886,7 +2023,8 @@
    "aesthetic-nature-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0159": {
   "primary": "A10",
@@ -1898,7 +2036,8 @@
    "teacher-growth"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0160": {
   "primary": "A7",
@@ -1912,7 +2051,8 @@
   "type": "method",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-0161": {
   "primary": "A10",
@@ -1925,7 +2065,8 @@
    "collective-education"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0162": {
   "primary": "A22",
@@ -1937,7 +2078,8 @@
    "teacher-growth"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0163": {
   "primary": "A9",
@@ -1949,7 +2091,8 @@
    "collective-education"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0164": {
   "primary": "A5",
@@ -1964,7 +2107,8 @@
    "teacher-growth"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0165": {
   "primary": "A5",
@@ -1978,7 +2122,8 @@
    "collective-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0166": {
   "primary": "A5",
@@ -1994,7 +2139,8 @@
    "child-study"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0167": {
   "primary": "A7",
@@ -2007,7 +2153,8 @@
    "learning-difficulties"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0169": {
   "primary": "A11",
@@ -2022,7 +2169,8 @@
    "collective-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0170": {
   "primary": "A19",
@@ -2037,7 +2185,8 @@
    "collective-education"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0171": {
   "primary": "A1",
@@ -2050,7 +2199,8 @@
    "collective-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0173": {
   "primary": "A14",
@@ -2062,7 +2212,8 @@
    "aesthetic-nature-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0174": {
   "primary": "A12",
@@ -2077,7 +2228,8 @@
    "learning-difficulties"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0175": {
   "primary": "A15",
@@ -2090,7 +2242,8 @@
    "aesthetic-nature-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0176": {
   "primary": "A8",
@@ -2104,7 +2257,8 @@
    "child-study"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0177": {
   "primary": "A9",
@@ -2120,7 +2274,8 @@
    "teacher-growth"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0178": {
   "primary": "A16",
@@ -2135,7 +2290,8 @@
    "learning-difficulties"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0179": {
   "primary": "A16",
@@ -2148,7 +2304,8 @@
    "learning-difficulties"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0180": {
   "primary": "A16",
@@ -2161,7 +2318,8 @@
    "family-school"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0181": {
   "primary": "A20",
@@ -2175,7 +2333,8 @@
    "assessment-grading"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0182": {
   "primary": "A16",
@@ -2188,7 +2347,8 @@
    "family-school"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0184": {
   "primary": "A7",
@@ -2200,7 +2360,8 @@
    "health-first"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0186": {
   "primary": "A7",
@@ -2215,7 +2376,8 @@
    "learning-difficulties"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0187": {
   "primary": "A7",
@@ -2230,7 +2392,8 @@
    "child-study"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": true
  },
  "sk-0188": {
   "primary": "A7",
@@ -2245,7 +2408,8 @@
    "labor-education"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0189": {
   "primary": "A7",
@@ -2257,7 +2421,8 @@
    "health-first"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0190": {
   "primary": "A15",
@@ -2272,7 +2437,8 @@
   "type": "quote",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-0191": {
   "primary": "A15",
@@ -2286,7 +2452,8 @@
    "thinking-and-nature"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0192": {
   "primary": "A12",
@@ -2301,7 +2468,8 @@
    "child-study"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0193": {
   "primary": "A12",
@@ -2316,7 +2484,8 @@
    "reading-and-books"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0194": {
   "primary": "A12",
@@ -2328,7 +2497,8 @@
    "thinking-and-nature"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0196": {
   "primary": "A10",
@@ -2341,7 +2511,8 @@
    "child-study"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0197": {
   "primary": "A5",
@@ -2354,7 +2525,8 @@
    "child-study"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0198": {
   "primary": "A19",
@@ -2369,7 +2541,8 @@
    "child-study"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0199": {
   "primary": "A19",
@@ -2384,7 +2557,8 @@
    "labor-education"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0200": {
   "primary": "A11",
@@ -2399,7 +2573,8 @@
    "teacher-growth"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0201": {
   "primary": "A22",
@@ -2412,7 +2587,8 @@
    "child-study"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0202": {
   "primary": "A4",
@@ -2428,7 +2604,8 @@
    "teacher-growth"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0204": {
   "primary": "A3",
@@ -2441,7 +2618,8 @@
    "child-study"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0206": {
   "primary": "A5",
@@ -2456,7 +2634,8 @@
    "child-study"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0207": {
   "primary": "A16",
@@ -2472,7 +2651,8 @@
    "teacher-growth"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0208": {
   "primary": "A5",
@@ -2485,7 +2665,8 @@
    "teacher-growth"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0209": {
   "primary": "A5",
@@ -2500,7 +2681,8 @@
    "child-study"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0210": {
   "primary": "A2",
@@ -2513,7 +2695,8 @@
    "collective-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0211": {
   "primary": "A5",
@@ -2528,7 +2711,8 @@
    "child-study"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0212": {
   "primary": "A2",
@@ -2543,7 +2727,8 @@
    "collective-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0213": {
   "primary": "A8",
@@ -2558,7 +2743,8 @@
    "labor-education"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0214": {
   "primary": "A22",
@@ -2573,7 +2759,8 @@
    "child-study"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0215": {
   "primary": "A5",
@@ -2588,7 +2775,8 @@
    "child-study"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0216": {
   "primary": "A13",
@@ -2604,7 +2792,8 @@
    "learning-difficulties"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0217": {
   "primary": "A15",
@@ -2619,7 +2808,8 @@
    "learning-difficulties"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0218": {
   "primary": "A15",
@@ -2634,7 +2824,8 @@
    "thinking-and-nature"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0219": {
   "primary": "A12",
@@ -2649,7 +2840,8 @@
    "child-study"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0220": {
   "primary": "A5",
@@ -2664,7 +2856,8 @@
    "teacher-growth"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0221": {
   "primary": "A5",
@@ -2679,7 +2872,8 @@
    "teacher-growth"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0222": {
   "primary": "A2",
@@ -2694,7 +2888,8 @@
    "teacher-growth"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0223": {
   "primary": "A1",
@@ -2709,7 +2904,8 @@
    "child-study"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0224": {
   "primary": "A5",
@@ -2725,7 +2921,8 @@
    "child-study"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0225": {
   "primary": "A19",
@@ -2740,7 +2937,8 @@
    "child-study"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0226": {
   "primary": "A5",
@@ -2755,7 +2953,8 @@
    "teacher-growth"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0227": {
   "primary": "A8",
@@ -2770,7 +2969,8 @@
    "love-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0228": {
   "primary": "A8",
@@ -2783,7 +2983,8 @@
    "love-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0229": {
   "primary": "A10",
@@ -2796,7 +2997,8 @@
    "reading-and-books"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0230": {
   "primary": "A3",
@@ -2809,7 +3011,8 @@
    "child-study"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0231": {
   "primary": "A22",
@@ -2824,7 +3027,8 @@
    "love-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0232": {
   "primary": "A2",
@@ -2839,7 +3043,8 @@
    "child-study"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0233": {
   "primary": "A4",
@@ -2854,7 +3059,8 @@
    "teacher-growth"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0234": {
   "primary": "A13",
@@ -2869,7 +3075,8 @@
    "teacher-growth"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0235": {
   "primary": "A8",
@@ -2884,7 +3091,8 @@
    "labor-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0236": {
   "primary": "A8",
@@ -2899,7 +3107,8 @@
    "love-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0237": {
   "primary": "A13",
@@ -2912,7 +3121,8 @@
    "teacher-growth"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0238": {
   "primary": "A4",
@@ -2927,7 +3137,8 @@
    "teacher-growth"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0239": {
   "primary": "A4",
@@ -2942,7 +3153,8 @@
    "collective-education"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0240": {
   "primary": "A23",
@@ -2957,7 +3169,8 @@
    "labor-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0241": {
   "primary": "A4",
@@ -2972,7 +3185,8 @@
    "teacher-growth"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0242": {
   "primary": "A2",
@@ -2985,7 +3199,8 @@
    "child-study"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0243": {
   "primary": "A2",
@@ -2998,7 +3213,8 @@
    "collective-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0244": {
   "primary": "A11",
@@ -3013,7 +3229,8 @@
    "collective-education"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0245": {
   "primary": "A11",
@@ -3026,7 +3243,8 @@
    "collective-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0246": {
   "primary": "A1",
@@ -3039,7 +3257,8 @@
    "thinking-and-nature"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0247": {
   "primary": "A11",
@@ -3052,7 +3271,8 @@
    "aesthetic-nature-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0248": {
   "primary": "A19",
@@ -3065,7 +3285,8 @@
    "love-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0249": {
   "primary": "A4",
@@ -3080,7 +3301,8 @@
    "love-education"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0250": {
   "primary": "A11",
@@ -3093,7 +3315,8 @@
    "family-school"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0251": {
   "primary": "A11",
@@ -3106,7 +3329,8 @@
    "teacher-growth"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0252": {
   "primary": "A8",
@@ -3119,7 +3343,8 @@
    "love-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0253": {
   "primary": "A11",
@@ -3134,7 +3359,8 @@
    "labor-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0254": {
   "primary": "A5",
@@ -3149,7 +3375,8 @@
    "love-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0255": {
   "primary": "A5",
@@ -3162,7 +3389,8 @@
    "child-study"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0256": {
   "primary": "A22",
@@ -3177,7 +3405,8 @@
    "child-study"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0257": {
   "primary": "A19",
@@ -3192,7 +3421,8 @@
    "child-study"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0258": {
   "primary": "A2",
@@ -3207,7 +3437,8 @@
    "love-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0259": {
   "primary": "A19",
@@ -3220,7 +3451,8 @@
    "love-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0260": {
   "primary": "A15",
@@ -3233,7 +3465,8 @@
    "reading-and-books"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0261": {
   "primary": "A15",
@@ -3248,7 +3481,8 @@
    "labor-education"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0262": {
   "primary": "A15",
@@ -3263,7 +3497,8 @@
   "type": "principle",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-0263": {
   "primary": "A22",
@@ -3278,7 +3513,8 @@
    "learning-difficulties"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0264": {
   "primary": "A2",
@@ -3293,7 +3529,8 @@
    "collective-education"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0265": {
   "primary": "A11",
@@ -3308,7 +3545,8 @@
    "family-school"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0266": {
   "primary": "A19",
@@ -3323,7 +3561,8 @@
    "teacher-growth"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0267": {
   "primary": "A11",
@@ -3336,7 +3575,8 @@
    "collective-education"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0268": {
   "primary": "A1",
@@ -3349,7 +3589,8 @@
    "collective-education"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0269": {
   "primary": "A11",
@@ -3362,7 +3603,8 @@
    "child-study"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0270": {
   "primary": "A11",
@@ -3377,7 +3619,8 @@
    "teacher-growth"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0271": {
   "primary": "A15",
@@ -3392,7 +3635,8 @@
   "type": "principle",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-0272": {
   "primary": "A1",
@@ -3409,7 +3653,8 @@
   "type": "quote",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-0273": {
   "primary": "A1",
@@ -3422,7 +3667,8 @@
    "teacher-growth"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0274": {
   "primary": "A11",
@@ -3435,7 +3681,8 @@
    "thinking-and-nature"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0275": {
   "primary": "A11",
@@ -3448,7 +3695,8 @@
    "teacher-growth"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0276": {
   "primary": "A10",
@@ -3463,7 +3711,8 @@
    "labor-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0277": {
   "primary": "A10",
@@ -3475,7 +3724,8 @@
    "teacher-growth"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0278": {
   "primary": "A1",
@@ -3488,7 +3738,8 @@
    "teacher-growth"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0279": {
   "primary": "A9",
@@ -3501,7 +3752,8 @@
    "teacher-growth"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0280": {
   "primary": "A11",
@@ -3516,7 +3768,8 @@
    "family-school"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0281": {
   "primary": "A11",
@@ -3531,7 +3784,8 @@
    "family-school"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0282": {
   "primary": "A11",
@@ -3546,7 +3800,8 @@
    "child-study"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0283": {
   "primary": "A11",
@@ -3558,7 +3813,8 @@
    "labor-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0284": {
   "primary": "A22",
@@ -3570,7 +3826,8 @@
    "teacher-growth"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0285": {
   "primary": "A22",
@@ -3583,7 +3840,8 @@
    "reading-and-books"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0286": {
   "primary": "A1",
@@ -3598,7 +3856,8 @@
    "child-study"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0287": {
   "primary": "A3",
@@ -3613,7 +3872,8 @@
    "family-school"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0288": {
   "primary": "A4",
@@ -3628,7 +3888,8 @@
    "child-study"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0289": {
   "primary": "A4",
@@ -3643,7 +3904,8 @@
    "child-study"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0290": {
   "primary": "A19",
@@ -3656,7 +3918,8 @@
    "collective-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0291": {
   "primary": "A15",
@@ -3669,7 +3932,8 @@
    "child-study"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0292": {
   "primary": "A11",
@@ -3684,7 +3948,8 @@
    "labor-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0293": {
   "primary": "A14",
@@ -3697,7 +3962,8 @@
    "child-study"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0294": {
   "primary": "A15",
@@ -3710,7 +3976,8 @@
    "child-study"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0295": {
   "primary": "A5",
@@ -3725,7 +3992,8 @@
   "type": "principle",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-0296": {
   "primary": "A16",
@@ -3740,7 +4008,8 @@
    "child-study"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0297": {
   "primary": "A15",
@@ -3753,7 +4022,8 @@
    "learning-difficulties"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0298": {
   "primary": "A20",
@@ -3768,7 +4038,8 @@
    "teacher-growth"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0299": {
   "primary": "A10",
@@ -3781,7 +4052,8 @@
    "child-study"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0300": {
   "primary": "A2",
@@ -3795,7 +4067,8 @@
    "collective-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0301": {
   "primary": "A4",
@@ -3808,7 +4081,8 @@
    "child-study"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0302": {
   "primary": "A4",
@@ -3822,7 +4096,8 @@
    "teacher-growth"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0303": {
   "primary": "A1",
@@ -3835,7 +4110,8 @@
    "child-study"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0304": {
   "primary": "A19",
@@ -3849,7 +4125,8 @@
    "love-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0305": {
   "primary": "A19",
@@ -3861,7 +4138,8 @@
    "love-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0306": {
   "primary": "A19",
@@ -3876,7 +4154,8 @@
    "love-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0307": {
   "primary": "A19",
@@ -3890,7 +4169,8 @@
    "child-study"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0308": {
   "primary": "A19",
@@ -3903,7 +4183,8 @@
    "love-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0309": {
   "primary": "A22",
@@ -3920,7 +4201,8 @@
   "type": "quote",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-0310": {
   "primary": "A11",
@@ -3935,7 +4217,8 @@
    "child-study"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0311": {
   "primary": "A5",
@@ -3950,7 +4233,8 @@
    "teacher-growth"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0312": {
   "primary": "A1",
@@ -3963,7 +4247,8 @@
    "collective-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0313": {
   "primary": "A15",
@@ -3975,7 +4260,8 @@
    "thinking-and-nature"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0314": {
   "primary": "A4",
@@ -3990,7 +4276,8 @@
    "teacher-growth"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0315": {
   "primary": "A4",
@@ -4005,7 +4292,8 @@
    "collective-education"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0316": {
   "primary": "A14",
@@ -4019,7 +4307,8 @@
    "aesthetic-nature-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0317": {
   "primary": "A16",
@@ -4035,6 +4324,7 @@
   ],
   "type": "quote",
   "tags": [],
+  "evidence_unverified": false,
   "source": "manual",
   "override_why": "「**判断**学生的道德……不是看他选择何种职业，而是要看他想做一个什么样的人」——问的是\"怎么判定一个孩子\"，正是 A16 的收录口径。（2026-09-10 由 A6 改判：原裁定做于 A16 的收录还只写「分数、表扬与批评」时，那时它确实不像 A16；收录改成「怎么判定一个孩子」后应归此）"
  },
@@ -4051,7 +4341,8 @@
    "child-study"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0319": {
   "primary": "A5",
@@ -4066,7 +4357,8 @@
    "teacher-growth"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0320": {
   "primary": "A2",
@@ -4079,7 +4371,8 @@
    "child-study"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0321": {
   "primary": "A9",
@@ -4092,7 +4385,8 @@
    "teacher-growth"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0322": {
   "primary": "A9",
@@ -4107,7 +4401,8 @@
    "love-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0323": {
   "primary": "A5",
@@ -4122,7 +4417,8 @@
    "teacher-growth"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0324": {
   "primary": "A16",
@@ -4137,7 +4433,8 @@
    "learning-difficulties"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0325": {
   "primary": "A2",
@@ -4152,7 +4449,8 @@
    "labor-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0326": {
   "primary": "A16",
@@ -4167,7 +4465,8 @@
    "child-study"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0327": {
   "primary": "A8",
@@ -4182,7 +4481,8 @@
    "child-study"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0328": {
   "primary": "A22",
@@ -4197,7 +4497,8 @@
    "thinking-and-nature"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0329": {
   "primary": "A15",
@@ -4212,7 +4513,8 @@
    "learning-difficulties"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0330": {
   "primary": "A4",
@@ -4225,7 +4527,8 @@
    "child-study"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0331": {
   "primary": "A2",
@@ -4239,7 +4542,8 @@
    "labor-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0332": {
   "primary": "A1",
@@ -4255,7 +4559,8 @@
    "teacher-growth"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0333": {
   "primary": "A1",
@@ -4269,7 +4574,8 @@
    "teacher-growth"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0334": {
   "primary": "A3",
@@ -4284,7 +4590,8 @@
    "love-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0335": {
   "primary": "A5",
@@ -4297,7 +4604,8 @@
    "family-school"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0348": {
   "primary": "A8",
@@ -4309,7 +4617,8 @@
    "family-school"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0349": {
   "primary": "A19",
@@ -4322,7 +4631,8 @@
    "collective-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0350": {
   "primary": "A11",
@@ -4335,7 +4645,8 @@
    "family-school"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0351": {
   "primary": "A4",
@@ -4349,7 +4660,8 @@
    "labor-education"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0352": {
   "primary": "A2",
@@ -4364,7 +4676,8 @@
    "collective-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0353": {
   "primary": "A1",
@@ -4379,7 +4692,8 @@
    "love-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0354": {
   "primary": "A11",
@@ -4391,7 +4705,8 @@
    "labor-education"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0355": {
   "primary": "A11",
@@ -4403,7 +4718,8 @@
    "labor-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0356": {
   "primary": "A4",
@@ -4416,7 +4732,8 @@
    "reading-and-books"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0358": {
   "primary": "A11",
@@ -4429,7 +4746,8 @@
    "family-school"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0359": {
   "primary": "A12",
@@ -4441,7 +4759,8 @@
    "thinking-and-nature"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0360": {
   "primary": "A2",
@@ -4454,7 +4773,8 @@
    "collective-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0361": {
   "primary": "A19",
@@ -4467,7 +4787,8 @@
    "child-study"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0362": {
   "primary": "A1",
@@ -4481,7 +4802,8 @@
    "love-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0363": {
   "primary": "A19",
@@ -4495,6 +4817,7 @@
   ],
   "type": "quote",
   "tags": [],
+  "evidence_unverified": false,
   "source": "manual",
   "override_why": "谈的是对邪恶不妥协的**道德判断**，不是「怎么了解儿童」（外部评审意见）。**判读已同意，保留作记录**"
  },
@@ -4508,7 +4831,8 @@
    "love-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0365": {
   "primary": "A3",
@@ -4523,7 +4847,8 @@
    "love-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0366": {
   "primary": "A10",
@@ -4536,7 +4861,8 @@
    "collective-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0367": {
   "primary": "A5",
@@ -4551,7 +4877,8 @@
    "child-study"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0368": {
   "primary": "A10",
@@ -4563,7 +4890,8 @@
    "teacher-growth"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0369": {
   "primary": "A15",
@@ -4575,7 +4903,8 @@
    "teacher-growth"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0370": {
   "primary": "A13",
@@ -4587,7 +4916,8 @@
    "reading-and-books"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0371": {
   "primary": "A7",
@@ -4599,7 +4929,8 @@
    "health-first"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0372": {
   "primary": "A19",
@@ -4611,7 +4942,8 @@
    "love-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0373": {
   "primary": "A1",
@@ -4626,7 +4958,8 @@
    "thinking-and-nature"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0374": {
   "primary": "A11",
@@ -4638,7 +4971,8 @@
    "labor-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0375": {
   "primary": "A14",
@@ -4650,7 +4984,8 @@
    "aesthetic-nature-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0376": {
   "primary": "A10",
@@ -4662,7 +4997,8 @@
    "teacher-growth"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0377": {
   "primary": "A15",
@@ -4675,7 +5011,8 @@
    "thinking-and-nature"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0378": {
   "primary": "A7",
@@ -4687,7 +5024,8 @@
    "health-first"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0379": {
   "primary": "A13",
@@ -4702,7 +5040,8 @@
    "aesthetic-nature-education"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0380": {
   "primary": "A7",
@@ -4715,7 +5054,8 @@
    "teacher-growth"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0381": {
   "primary": "A14",
@@ -4730,7 +5070,8 @@
    "child-study"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0382": {
   "primary": "A2",
@@ -4745,7 +5086,8 @@
    "collective-education"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0383": {
   "primary": "A2",
@@ -4760,7 +5102,8 @@
    "child-study"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0384": {
   "primary": "A9",
@@ -4775,7 +5118,8 @@
    "child-study"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0385": {
   "primary": "A11",
@@ -4788,7 +5132,8 @@
    "collective-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0386": {
   "primary": "A5",
@@ -4803,7 +5148,8 @@
    "child-study"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0387": {
   "primary": "A8",
@@ -4818,7 +5164,8 @@
    "love-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0388": {
   "primary": "A19",
@@ -4831,7 +5178,8 @@
    "collective-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0389": {
   "primary": "A3",
@@ -4843,7 +5191,8 @@
    "love-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0390": {
   "primary": "A15",
@@ -4856,7 +5205,8 @@
    "reading-and-books"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0391": {
   "primary": "A6",
@@ -4871,7 +5221,8 @@
    "thinking-and-nature"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0392": {
   "primary": "A14",
@@ -4886,7 +5237,8 @@
    "child-study"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0393": {
   "primary": "A16",
@@ -4899,7 +5251,8 @@
    "child-study"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0394": {
   "primary": "A2",
@@ -4912,7 +5265,8 @@
    "aesthetic-nature-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0395": {
   "primary": "A1",
@@ -4925,7 +5279,8 @@
    "teacher-growth"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0396": {
   "primary": "A3",
@@ -4938,7 +5293,8 @@
    "health-first"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0397": {
   "primary": "A5",
@@ -4951,7 +5307,8 @@
    "teacher-growth"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0398": {
   "primary": "A21",
@@ -4964,7 +5321,8 @@
    "child-study"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0399": {
   "primary": "A11",
@@ -4979,7 +5337,8 @@
    "collective-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0400": {
   "primary": "A9",
@@ -4994,7 +5353,8 @@
    "collective-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0401": {
   "primary": "A6",
@@ -5007,7 +5367,8 @@
    "learning-difficulties"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0402": {
   "primary": "A13",
@@ -5024,7 +5385,8 @@
   "type": "quote",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-0403": {
   "primary": "A15",
@@ -5037,7 +5399,8 @@
    "teacher-growth"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0404": {
   "primary": "A23",
@@ -5050,7 +5413,8 @@
    "health-first"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0405": {
   "primary": "A17",
@@ -5065,7 +5429,8 @@
    "learning-difficulties"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0406": {
   "primary": "A22",
@@ -5080,7 +5445,8 @@
    "reading-and-books"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0407": {
   "primary": "A11",
@@ -5094,7 +5460,8 @@
    "labor-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0408": {
   "primary": "A8",
@@ -5107,7 +5474,8 @@
    "reading-and-books"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0409": {
   "primary": "A7",
@@ -5119,7 +5487,8 @@
    "health-first"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0410": {
   "primary": "A19",
@@ -5132,7 +5501,8 @@
    "collective-education"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0411": {
   "primary": "A11",
@@ -5144,7 +5514,8 @@
    "labor-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0412": {
   "primary": "A15",
@@ -5159,7 +5530,8 @@
    "thinking-and-nature"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0413": {
   "primary": "A16",
@@ -5174,7 +5546,8 @@
    "family-school"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0414": {
   "primary": "A14",
@@ -5186,7 +5559,8 @@
    "aesthetic-nature-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0415": {
   "primary": "A12",
@@ -5199,7 +5573,8 @@
    "aesthetic-nature-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0416": {
   "primary": "A21",
@@ -5214,7 +5589,8 @@
    "love-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0417": {
   "primary": "A11",
@@ -5229,7 +5605,8 @@
    "child-study"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0418": {
   "primary": "A14",
@@ -5244,7 +5621,8 @@
    "thinking-and-nature"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0419": {
   "primary": "A15",
@@ -5257,7 +5635,8 @@
    "thinking-and-nature"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0420": {
   "primary": "A19",
@@ -5272,7 +5651,8 @@
    "love-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0421": {
   "primary": "A7",
@@ -5284,7 +5664,8 @@
    "health-first"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0422": {
   "primary": "A13",
@@ -5297,7 +5678,8 @@
    "child-study"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0423": {
   "primary": "A15",
@@ -5310,7 +5692,8 @@
    "child-study"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0424": {
   "primary": "A11",
@@ -5325,7 +5708,8 @@
    "labor-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0425": {
   "primary": "A1",
@@ -5338,7 +5722,8 @@
    "teacher-growth"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0426": {
   "primary": "A7",
@@ -5352,7 +5737,8 @@
    "health-first"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0427": {
   "primary": "A8",
@@ -5365,7 +5751,8 @@
    "love-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0428": {
   "primary": "A1",
@@ -5380,7 +5767,8 @@
    "teacher-growth"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0429": {
   "primary": "A15",
@@ -5395,7 +5783,8 @@
    "learning-difficulties"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0430": {
   "primary": "A11",
@@ -5409,7 +5798,8 @@
    "labor-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0431": {
   "primary": "A14",
@@ -5424,7 +5814,8 @@
    "labor-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0432": {
   "primary": "A15",
@@ -5439,7 +5830,8 @@
    "child-study"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0994": {
   "primary": "A15",
@@ -5455,7 +5847,8 @@
    "thinking-and-nature"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0995": {
   "primary": "A13",
@@ -5473,7 +5866,8 @@
   "type": "method",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-0996": {
   "primary": "A13",
@@ -5490,7 +5884,8 @@
   "type": "principle",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-0997": {
   "primary": "A16",
@@ -5506,7 +5901,8 @@
   "type": "method",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-0998": {
   "primary": "A15",
@@ -5522,7 +5918,8 @@
    "learning-difficulties"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0999": {
   "primary": "A15",
@@ -5536,7 +5933,8 @@
    "learning-difficulties"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1000": {
   "primary": "A5",
@@ -5553,7 +5951,8 @@
    "love-education"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1001": {
   "primary": "A19",
@@ -5569,7 +5968,8 @@
    "love-education"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1002": {
   "primary": "A8",
@@ -5585,7 +5985,8 @@
    "child-study"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1004": {
   "primary": "A19",
@@ -5601,7 +6002,8 @@
    "child-study"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1005": {
   "primary": "A21",
@@ -5617,7 +6019,8 @@
    "teacher-growth"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1006": {
   "primary": "A19",
@@ -5633,7 +6036,8 @@
    "child-study"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1007": {
   "primary": "A15",
@@ -5649,7 +6053,8 @@
    "thinking-and-nature"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1008": {
   "primary": "A13",
@@ -5663,7 +6068,8 @@
    "family-school"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1009": {
   "primary": "A21",
@@ -5677,7 +6083,8 @@
    "family-school"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1010": {
   "primary": "A15",
@@ -5691,7 +6098,8 @@
    "teacher-growth"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1011": {
   "primary": "A10",
@@ -5705,7 +6113,8 @@
    "child-study"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1013": {
   "primary": "A4",
@@ -5721,7 +6130,8 @@
    "love-education"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1014": {
   "primary": "A10",
@@ -5734,7 +6144,8 @@
    "child-study"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1015": {
   "primary": "A1",
@@ -5747,7 +6158,8 @@
    "labor-education"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1016": {
   "primary": "A4",
@@ -5763,7 +6175,8 @@
    "child-study"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1017": {
   "primary": "A7",
@@ -5778,7 +6191,8 @@
   "type": "method",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-1018": {
   "primary": "A10",
@@ -5791,7 +6205,8 @@
    "reading-and-books"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1019": {
   "primary": "A19",
@@ -5804,7 +6219,8 @@
    "family-school"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1020": {
   "primary": "A10",
@@ -5819,7 +6235,8 @@
    "child-study"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1021": {
   "primary": "A9",
@@ -5835,7 +6252,8 @@
    "teacher-growth"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1022": {
   "primary": "A22",
@@ -5851,7 +6269,8 @@
    "reading-and-books"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1023": {
   "primary": "A10",
@@ -5868,7 +6287,8 @@
    "love-education"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1024": {
   "primary": "A1",
@@ -5882,7 +6302,8 @@
    "child-study"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1025": {
   "primary": "A3",
@@ -5898,7 +6319,8 @@
    "teacher-growth"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1026": {
   "primary": "A10",
@@ -5911,7 +6333,8 @@
    "health-first"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1027": {
   "primary": "A10",
@@ -5924,7 +6347,8 @@
    "reading-and-books"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1028": {
   "primary": "A15",
@@ -5937,7 +6361,8 @@
    "child-study"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1029": {
   "primary": "A20",
@@ -5950,7 +6375,8 @@
    "assessment-grading"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1030": {
   "primary": "A5",
@@ -5963,7 +6389,8 @@
    "love-education"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1031": {
   "primary": "A7",
@@ -5978,7 +6405,8 @@
    "family-school"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1032": {
   "primary": "A1",
@@ -5995,6 +6423,7 @@
   ],
   "type": "quote",
   "tags": [],
+  "evidence_unverified": false,
   "source": "manual",
   "override_why": "《给儿子的信》第6封信的主线是**反驳\"天赋决定论\"**：「现在有成千上万人的天赋得不到发展」「教育的艺术就在于能够看到取之不尽的人类精神世界的各个方面」——落点是\"每个孩子都有未被发现的才能\"，正是 A1 的收录口径。判读给 A4，是被摘录里「教育**和自我教育**的作用」这个词组带偏了：这张卡并不谈自我教育怎么进行。劳动（A11）在卡里是**路径**，列为参见。（2026-09-11 人工裁定）"
  },
@@ -6010,7 +6439,8 @@
   "type": "principle",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-1034": {
   "primary": "A19",
@@ -6023,7 +6453,8 @@
    "labor-education"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1035": {
   "primary": "A15",
@@ -6036,7 +6467,8 @@
    "reading-and-books"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1036": {
   "primary": "A20",
@@ -6049,7 +6481,8 @@
    "learning-difficulties"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1037": {
   "primary": "A15",
@@ -6062,7 +6495,8 @@
    "child-study"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1038": {
   "primary": "A19",
@@ -6075,7 +6509,8 @@
    "family-school"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1039": {
   "primary": "A15",
@@ -6090,7 +6525,8 @@
   "type": "method",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-1040": {
   "primary": "A23",
@@ -6103,7 +6539,8 @@
    "thinking-and-nature"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1041": {
   "primary": "A15",
@@ -6116,7 +6553,8 @@
    "child-study"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1043": {
   "primary": "A10",
@@ -6131,7 +6569,8 @@
    "learning-difficulties"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1044": {
   "primary": "A9",
@@ -6143,7 +6582,8 @@
    "collective-education"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1045": {
   "primary": "A21",
@@ -6155,7 +6595,8 @@
    "child-study"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1046": {
   "primary": "A7",
@@ -6170,7 +6611,8 @@
   "type": "principle",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-1047": {
   "primary": "A14",
@@ -6182,7 +6624,8 @@
    "aesthetic-nature-education"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1048": {
   "primary": "A8",
@@ -6194,7 +6637,8 @@
    "family-school"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1049": {
   "primary": "A19",
@@ -6209,7 +6653,8 @@
    "family-school"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1050": {
   "primary": "A4",
@@ -6221,7 +6666,8 @@
    "love-education"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1051": {
   "primary": "A13",
@@ -6234,7 +6680,8 @@
    "teacher-growth"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1052": {
   "primary": "A21",
@@ -6249,7 +6696,8 @@
   "type": "principle",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-1053": {
   "primary": "A23",
@@ -6262,7 +6710,8 @@
    "learning-difficulties"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1054": {
   "primary": "A15",
@@ -6279,7 +6728,8 @@
   "type": "principle",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-1055": {
   "primary": "A13",
@@ -6292,7 +6742,8 @@
    "learning-difficulties"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1056": {
   "primary": "A8",
@@ -6305,7 +6756,8 @@
    "love-education"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1057": {
   "primary": "A19",
@@ -6320,7 +6772,8 @@
    "child-study"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1058": {
   "primary": "A12",
@@ -6335,7 +6788,8 @@
    "aesthetic-nature-education"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1059": {
   "primary": "A15",
@@ -6350,7 +6804,8 @@
    "child-study"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1060": {
   "primary": "A14",
@@ -6364,7 +6819,8 @@
    "aesthetic-nature-education"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1061": {
   "primary": "A9",
@@ -6379,7 +6835,8 @@
    "teacher-growth"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1062": {
   "primary": "A21",
@@ -6394,7 +6851,8 @@
    "thinking-and-nature"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1063": {
   "primary": "A9",
@@ -6409,7 +6867,8 @@
    "love-education"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1064": {
   "primary": "A22",
@@ -6425,7 +6884,8 @@
    "reading-and-books"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1065": {
   "primary": "A2",
@@ -6441,7 +6901,8 @@
    "labor-education"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1066": {
   "primary": "A9",
@@ -6457,7 +6918,8 @@
    "love-education"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1067": {
   "primary": "A4",
@@ -6474,6 +6936,7 @@
   ],
   "type": "method",
   "tags": [],
+  "evidence_unverified": false,
   "source": "manual",
   "override_why": "「你将成为什么样的人，取决于**你自己的努力，取决于你的自主性**」——落点是自主性与自我要求。（2026-09-10 由 A15 改判：原文**没有「求知欲」三个字**，只有标题有；当年归 A15 是因为算法看不见标题。另注：**这张卡的标题与正文不符**，宜另行处理）"
  },
@@ -6489,7 +6952,8 @@
    "love-education"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1069": {
   "primary": "A19",
@@ -6505,7 +6969,8 @@
    "teacher-growth"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1070": {
   "primary": "A22",
@@ -6521,7 +6986,8 @@
    "thinking-and-nature"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1071": {
   "primary": "A22",
@@ -6537,7 +7003,8 @@
    "thinking-and-nature"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1072": {
   "primary": "A19",
@@ -6553,7 +7020,8 @@
    "health-first"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1073": {
   "primary": "A11",
@@ -6569,7 +7037,8 @@
    "love-education"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1074": {
   "primary": "A21",
@@ -6584,7 +7053,8 @@
    "child-study"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1075": {
   "primary": "A9",
@@ -6601,7 +7071,8 @@
   "type": "principle",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-1076": {
   "primary": "A19",
@@ -6616,7 +7087,8 @@
    "child-study"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1077": {
   "primary": "A5",
@@ -6631,7 +7103,8 @@
    "love-education"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1078": {
   "primary": "A9",
@@ -6646,7 +7119,8 @@
    "teacher-growth"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1079": {
   "primary": "A11",
@@ -6661,7 +7135,8 @@
    "thinking-and-nature"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1080": {
   "primary": "A6",
@@ -6674,7 +7149,8 @@
    "family-school"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1081": {
   "primary": "A11",
@@ -6688,7 +7164,8 @@
    "labor-education"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1082": {
   "primary": "A1",
@@ -6703,7 +7180,8 @@
    "teacher-growth"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1083": {
   "primary": "A23",
@@ -6721,7 +7199,8 @@
   "type": "method",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-1094": {
   "primary": "A10",
@@ -6734,7 +7213,8 @@
    "child-study"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1095": {
   "primary": "A8",
@@ -6750,7 +7230,8 @@
    "labor-education"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1096": {
   "primary": "A15",
@@ -6764,7 +7245,8 @@
    "child-study"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1097": {
   "primary": "A19",
@@ -6777,7 +7259,8 @@
    "family-school"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1098": {
   "primary": "A21",
@@ -6790,7 +7273,8 @@
    "thinking-and-nature"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1099": {
   "primary": "A21",
@@ -6804,7 +7288,8 @@
    "collective-education"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1100": {
   "primary": "A10",
@@ -6819,7 +7304,8 @@
    "collective-education"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1101": {
   "primary": "A23",
@@ -6833,7 +7319,8 @@
    "reading-and-books"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1102": {
   "primary": "A5",
@@ -6848,7 +7335,8 @@
    "family-school"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1103": {
   "primary": "A17",
@@ -6864,7 +7352,8 @@
    "child-study"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1112": {
   "primary": "A4",
@@ -6879,7 +7368,8 @@
    "child-study"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1113": {
   "primary": "A9",
@@ -6895,7 +7385,8 @@
    "thinking-and-nature"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1114": {
   "primary": "A10",
@@ -6912,7 +7403,8 @@
   "type": "method",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-1115": {
   "primary": "A15",
@@ -6925,7 +7417,8 @@
    "thinking-and-nature"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1116": {
   "primary": "A19",
@@ -6940,7 +7433,8 @@
    "family-school"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1117": {
   "primary": "A15",
@@ -6954,7 +7448,8 @@
    "child-study"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1118": {
   "primary": "A4",
@@ -6969,7 +7464,8 @@
    "child-study"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1119": {
   "primary": "A11",
@@ -6983,7 +7479,8 @@
    "health-first"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1120": {
   "primary": "A7",
@@ -6997,7 +7494,8 @@
    "aesthetic-nature-education"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1121": {
   "primary": "A1",
@@ -7011,7 +7509,8 @@
    "teacher-growth"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1132": {
   "primary": "A15",
@@ -7027,7 +7526,8 @@
   "type": "method",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-1133": {
   "primary": "A19",
@@ -7041,7 +7541,8 @@
    "collective-education"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1134": {
   "primary": "A4",
@@ -7057,7 +7558,8 @@
    "teacher-growth"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1135": {
   "primary": "A22",
@@ -7070,7 +7572,8 @@
    "collective-education"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1136": {
   "primary": "A19",
@@ -7084,7 +7587,8 @@
    "learning-difficulties"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1138": {
   "primary": "A10",
@@ -7097,7 +7601,8 @@
    "collective-education"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1139": {
   "primary": "A10",
@@ -7111,7 +7616,8 @@
    "collective-education"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1140": {
   "primary": "A19",
@@ -7127,7 +7633,8 @@
   "type": "principle",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-1152": {
   "primary": "A2",
@@ -7143,7 +7650,8 @@
    "child-study"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1153": {
   "primary": "A10",
@@ -7157,7 +7665,8 @@
    "reading-and-books"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1154": {
   "primary": "A19",
@@ -7171,7 +7680,8 @@
    "collective-education"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1155": {
   "primary": "A8",
@@ -7185,7 +7695,8 @@
    "love-education"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1156": {
   "primary": "A11",
@@ -7199,7 +7710,8 @@
    "child-study"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1158": {
   "primary": "A21",
@@ -7215,7 +7727,8 @@
    "health-first"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1159": {
   "primary": "A1",
@@ -7231,7 +7744,8 @@
    "child-study"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1161": {
   "primary": "A9",
@@ -7247,7 +7761,8 @@
    "teacher-growth"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1162": {
   "primary": "A13",
@@ -7261,7 +7776,8 @@
    "teacher-growth"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1163": {
   "primary": "A22",
@@ -7277,7 +7793,8 @@
    "child-study"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1164": {
   "primary": "A13",
@@ -7291,7 +7808,8 @@
    "teacher-growth"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1165": {
   "primary": "A23",
@@ -7305,7 +7823,8 @@
    "labor-education"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1166": {
   "primary": "A23",
@@ -7321,7 +7840,8 @@
    "health-first"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1167": {
   "primary": "A4",
@@ -7337,7 +7857,8 @@
    "collective-education"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1168": {
   "primary": "A19",
@@ -7351,7 +7872,8 @@
    "child-study"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1169": {
   "primary": "A19",
@@ -7368,6 +7890,7 @@
   ],
   "type": "principle",
   "tags": [],
+  "evidence_unverified": false,
   "source": "manual",
   "override_why": "谦虚属于待人分寸/品德培养；纪律只是它的外壳（外部评审建议 A4，据内容改判 A19）。**判读已同意，保留作记录**"
  },
@@ -7383,7 +7906,8 @@
    "child-study"
   ],
   "type": "quote",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1171": {
   "primary": "A19",
@@ -7396,7 +7920,8 @@
    "family-school"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1172": {
   "primary": "A6",
@@ -7414,7 +7939,8 @@
   "type": "principle",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-1173": {
   "primary": "A15",
@@ -7430,7 +7956,8 @@
    "child-study"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1174": {
   "primary": "A11",
@@ -7446,7 +7973,8 @@
    "child-study"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1175": {
   "primary": "A7",
@@ -7462,7 +7990,8 @@
    "teacher-growth"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1176": {
   "primary": "A11",
@@ -7478,7 +8007,8 @@
    "thinking-and-nature"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1177": {
   "primary": "A22",
@@ -7493,7 +8023,8 @@
    "teacher-growth"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1178": {
   "primary": "A9",
@@ -7509,7 +8040,8 @@
    "teacher-growth"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1179": {
   "primary": "A3",
@@ -7523,7 +8055,8 @@
    "child-study"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1180": {
   "primary": "A19",
@@ -7537,7 +8070,8 @@
    "child-study"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1181": {
   "primary": "A19",
@@ -7551,7 +8085,8 @@
    "family-school"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1182": {
   "primary": "A22",
@@ -7566,7 +8101,8 @@
    "love-education"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1183": {
   "primary": "A4",
@@ -7582,7 +8118,8 @@
    "labor-education"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1184": {
   "primary": "A3",
@@ -7598,7 +8135,8 @@
    "family-school"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1185": {
   "primary": "A19",
@@ -7614,7 +8152,8 @@
    "collective-education"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1186": {
   "primary": "A19",
@@ -7630,7 +8169,8 @@
    "child-study"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1187": {
   "primary": "A4",
@@ -7646,7 +8186,8 @@
    "family-school"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1188": {
   "primary": "A8",
@@ -7662,7 +8203,8 @@
    "collective-education"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1189": {
   "primary": "A2",
@@ -7678,7 +8220,8 @@
    "collective-education"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1190": {
   "primary": "A15",
@@ -7692,7 +8235,8 @@
    "thinking-and-nature"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1191": {
   "primary": "A19",
@@ -7708,7 +8252,8 @@
    "labor-education"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1192": {
   "primary": "A17",
@@ -7722,7 +8267,8 @@
    "thinking-and-nature"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1193": {
   "primary": "A19",
@@ -7737,7 +8283,8 @@
    "family-school"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1194": {
   "primary": "A22",
@@ -7752,7 +8299,8 @@
    "thinking-and-nature"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1195": {
   "primary": "A9",
@@ -7767,7 +8315,8 @@
    "labor-education"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1196": {
   "primary": "A19",
@@ -7782,7 +8331,8 @@
    "family-school"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1197": {
   "primary": "A19",
@@ -7797,7 +8347,8 @@
    "collective-education"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1198": {
   "primary": "A10",
@@ -7810,7 +8361,8 @@
    "reading-and-books"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1199": {
   "primary": "A19",
@@ -7825,7 +8377,8 @@
    "family-school"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1200": {
   "primary": "A10",
@@ -7839,7 +8392,8 @@
    "child-study"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1201": {
   "primary": "A6",
@@ -7855,7 +8409,8 @@
    "health-first"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1202": {
   "primary": "A1",
@@ -7870,7 +8425,8 @@
    "reading-and-books"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1203": {
   "primary": "A11",
@@ -7885,7 +8441,8 @@
    "family-school"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1205": {
   "primary": "A19",
@@ -7900,7 +8457,8 @@
    "love-education"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1206": {
   "primary": "A15",
@@ -7916,7 +8474,8 @@
    "reading-and-books"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1207": {
   "primary": "A9",
@@ -7931,7 +8490,8 @@
   "type": "practice",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-1208": {
   "primary": "A2",
@@ -7946,7 +8506,8 @@
    "love-education"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1209": {
   "primary": "A19",
@@ -7961,7 +8522,8 @@
    "family-school"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1210": {
   "primary": "A2",
@@ -7974,7 +8536,8 @@
    "teacher-growth"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1211": {
   "primary": "A1",
@@ -7989,7 +8552,8 @@
    "teacher-growth"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1212": {
   "primary": "A2",
@@ -8003,6 +8567,7 @@
   ],
   "type": "practice",
   "tags": [],
+  "evidence_unverified": false,
   "source": "manual",
   "override_why": "「把知识的发展和加深过程**纳入农村社会生活**，是一项十分重要的教育任务」——落点是学校服务社会。「学生给别人讲时自己也弄清了」是**理由**不是主张。（2026-09-10 由 A15 改判）"
  },
@@ -8017,7 +8582,8 @@
    "child-study"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1214": {
   "primary": "A9",
@@ -8032,7 +8598,8 @@
    "collective-education"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1215": {
   "primary": "A19",
@@ -8047,7 +8614,8 @@
    "love-education"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1216": {
   "primary": "A9",
@@ -8064,7 +8632,8 @@
   "type": "principle",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-1217": {
   "primary": "A10",
@@ -8077,7 +8646,8 @@
    "love-education"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1218": {
   "primary": "A10",
@@ -8089,7 +8659,8 @@
    "teacher-growth"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1220": {
   "primary": "A10",
@@ -8106,7 +8677,8 @@
   "type": "method",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-1221": {
   "primary": "A2",
@@ -8119,7 +8691,8 @@
    "aesthetic-nature-education"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1222": {
   "primary": "A8",
@@ -8134,7 +8707,8 @@
    "love-education"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1223": {
   "primary": "A2",
@@ -8150,7 +8724,8 @@
    "teacher-growth"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1224": {
   "primary": "A19",
@@ -8166,7 +8741,8 @@
    "labor-education"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1225": {
   "primary": "A2",
@@ -8181,7 +8757,8 @@
    "love-education"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1226": {
   "primary": "A2",
@@ -8196,7 +8773,8 @@
    "collective-education"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1227": {
   "primary": "A10",
@@ -8209,7 +8787,8 @@
    "child-study"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1228": {
   "primary": "A9",
@@ -8224,7 +8803,8 @@
    "love-education"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1229": {
   "primary": "A2",
@@ -8238,7 +8818,8 @@
    "collective-education"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1231": {
   "primary": "A2",
@@ -8252,7 +8833,8 @@
    "teacher-growth"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1232": {
   "primary": "A2",
@@ -8266,7 +8848,8 @@
    "family-school"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1233": {
   "primary": "A2",
@@ -8282,7 +8865,8 @@
    "teacher-growth"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1234": {
   "primary": "A2",
@@ -8296,7 +8880,8 @@
    "collective-education"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1235": {
   "primary": "A4",
@@ -8312,7 +8897,8 @@
    "teacher-growth"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1236": {
   "primary": "A19",
@@ -8326,7 +8912,8 @@
    "family-school"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1237": {
   "primary": "A19",
@@ -8342,7 +8929,8 @@
    "teacher-growth"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1238": {
   "primary": "A9",
@@ -8356,7 +8944,8 @@
    "teacher-growth"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1240": {
   "primary": "A22",
@@ -8372,7 +8961,8 @@
    "assessment-grading"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1241": {
   "primary": "A16",
@@ -8390,7 +8980,8 @@
   "type": "principle",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-1242": {
   "primary": "A20",
@@ -8406,7 +8997,8 @@
    "teacher-growth"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1245": {
   "primary": "A15",
@@ -8422,7 +9014,8 @@
   "type": "practice",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-1246": {
   "primary": "A23",
@@ -8438,7 +9031,8 @@
    "collective-education"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1247": {
   "primary": "A4",
@@ -8454,7 +9048,8 @@
    "teacher-growth"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1248": {
   "primary": "A8",
@@ -8468,7 +9063,8 @@
    "child-study"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1249": {
   "primary": "A8",
@@ -8484,7 +9080,8 @@
    "labor-education"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1252": {
   "primary": "A20",
@@ -8501,7 +9098,8 @@
   "type": "method",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-1253": {
   "primary": "A13",
@@ -8517,7 +9115,8 @@
    "learning-difficulties"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1254": {
   "primary": "A22",
@@ -8535,7 +9134,8 @@
   "type": "method",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-1255": {
   "primary": "A11",
@@ -8551,7 +9151,8 @@
    "health-first"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1256": {
   "primary": "A13",
@@ -8567,7 +9168,8 @@
    "love-education"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1257": {
   "primary": "A2",
@@ -8581,7 +9183,8 @@
    "teacher-growth"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1258": {
   "primary": "A2",
@@ -8597,7 +9200,8 @@
    "teacher-growth"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1259": {
   "primary": "A19",
@@ -8613,7 +9217,8 @@
    "teacher-growth"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1260": {
   "primary": "A19",
@@ -8627,7 +9232,8 @@
    "family-school"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1261": {
   "primary": "A19",
@@ -8641,7 +9247,8 @@
    "labor-education"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1262": {
   "primary": "A14",
@@ -8655,7 +9262,8 @@
    "labor-education"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1264": {
   "primary": "A15",
@@ -8671,7 +9279,8 @@
   "type": "method",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-1265": {
   "primary": "A13",
@@ -8689,7 +9298,8 @@
   "type": "method",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-1266": {
   "primary": "A15",
@@ -8703,7 +9313,8 @@
    "teacher-growth"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1267": {
   "primary": "A16",
@@ -8719,7 +9330,8 @@
    "teacher-growth"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1268": {
   "primary": "A17",
@@ -8737,7 +9349,8 @@
   "type": "method",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-1269": {
   "primary": "A5",
@@ -8753,7 +9366,8 @@
    "child-study"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1270": {
   "primary": "A19",
@@ -8769,7 +9383,8 @@
    "child-study"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1271": {
   "primary": "A5",
@@ -8785,7 +9400,8 @@
    "child-study"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1272": {
   "primary": "A22",
@@ -8801,7 +9417,8 @@
    "collective-education"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1273": {
   "primary": "A6",
@@ -8817,7 +9434,8 @@
    "labor-education"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1274": {
   "primary": "A11",
@@ -8833,7 +9451,8 @@
    "collective-education"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1275": {
   "primary": "A7",
@@ -8851,7 +9470,8 @@
   "type": "method",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-1279": {
   "primary": "A12",
@@ -8865,7 +9485,8 @@
    "health-first"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1280": {
   "primary": "A8",
@@ -8879,7 +9500,8 @@
    "collective-education"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1281": {
   "primary": "A19",
@@ -8895,7 +9517,8 @@
    "child-study"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1282": {
   "primary": "A11",
@@ -8911,7 +9534,8 @@
    "love-education"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1283": {
   "primary": "A2",
@@ -8927,7 +9551,8 @@
    "collective-education"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1284": {
   "primary": "A15",
@@ -8945,7 +9570,8 @@
   "type": "method",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-1285": {
   "primary": "A15",
@@ -8961,7 +9587,8 @@
    "teacher-growth"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1286": {
   "primary": "A10",
@@ -8975,7 +9602,8 @@
    "family-school"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1287": {
   "primary": "A11",
@@ -8989,7 +9617,8 @@
    "love-education"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1288": {
   "primary": "A5",
@@ -9003,7 +9632,8 @@
    "child-study"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1289": {
   "primary": "A4",
@@ -9017,7 +9647,8 @@
    "health-first"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1290": {
   "primary": "A16",
@@ -9033,7 +9664,8 @@
    "teacher-growth"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1291": {
   "primary": "A2",
@@ -9049,7 +9681,8 @@
    "family-school"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1292": {
   "primary": "A13",
@@ -9065,7 +9698,8 @@
    "teacher-growth"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1293": {
   "primary": "A5",
@@ -9079,7 +9713,8 @@
    "child-study"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1295": {
   "primary": "A1",
@@ -9095,7 +9730,8 @@
    "child-study"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1296": {
   "primary": "A8",
@@ -9109,7 +9745,8 @@
    "child-study"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1297": {
   "primary": "A3",
@@ -9125,7 +9762,8 @@
    "collective-education"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1298": {
   "primary": "A13",
@@ -9139,7 +9777,8 @@
    "aesthetic-nature-education"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1299": {
   "primary": "A10",
@@ -9153,7 +9792,8 @@
    "family-school"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1300": {
   "primary": "A12",
@@ -9169,7 +9809,8 @@
    "thinking-and-nature"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1301": {
   "primary": "A11",
@@ -9183,7 +9824,8 @@
    "child-study"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1302": {
   "primary": "A14",
@@ -9199,7 +9841,8 @@
    "family-school"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1303": {
   "primary": "A11",
@@ -9215,7 +9858,8 @@
    "labor-education"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1304": {
   "primary": "A22",
@@ -9229,7 +9873,8 @@
    "collective-education"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1305": {
   "primary": "A10",
@@ -9245,7 +9890,8 @@
    "love-education"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1306": {
   "primary": "A5",
@@ -9261,7 +9907,8 @@
    "child-study"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1307": {
   "primary": "A6",
@@ -9275,7 +9922,8 @@
    "love-education"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1308": {
   "primary": "A5",
@@ -9293,7 +9941,8 @@
   "type": "method",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-1309": {
   "primary": "A8",
@@ -9310,7 +9959,8 @@
    "child-study"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1310": {
   "primary": "A8",
@@ -9327,7 +9977,8 @@
    "labor-education"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1311": {
   "primary": "A4",
@@ -9343,7 +9994,8 @@
    "love-education"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1313": {
   "primary": "A4",
@@ -9359,7 +10011,8 @@
    "child-study"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1315": {
   "primary": "A19",
@@ -9376,7 +10029,8 @@
    "child-study"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1316": {
   "primary": "A8",
@@ -9392,7 +10046,8 @@
    "child-study"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1317": {
   "primary": "A22",
@@ -9410,7 +10065,8 @@
   "type": "method",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-1318": {
   "primary": "A23",
@@ -9426,7 +10082,8 @@
    "teacher-growth"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1321": {
   "primary": "A20",
@@ -9442,7 +10099,8 @@
    "teacher-growth"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1323": {
   "primary": "A10",
@@ -9458,7 +10116,8 @@
    "child-study"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1327": {
   "primary": "A5",
@@ -9474,7 +10133,8 @@
   "type": "principle",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-1328": {
   "primary": "A10",
@@ -9490,7 +10150,8 @@
    "collective-education"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1329": {
   "primary": "A19",
@@ -9504,7 +10165,8 @@
    "child-study"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1330": {
   "primary": "A2",
@@ -9521,7 +10183,8 @@
    "child-study"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1331": {
   "primary": "A1",
@@ -9537,7 +10200,8 @@
    "teacher-growth"
   ],
   "type": "principle",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1332": {
   "primary": "A1",
@@ -9553,7 +10217,8 @@
    "collective-education"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1334": {
   "primary": "A19",
@@ -9567,7 +10232,8 @@
    "teacher-growth"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1335": {
   "primary": "A22",
@@ -9583,7 +10249,8 @@
    "thinking-and-nature"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1336": {
   "primary": "A7",
@@ -9599,7 +10266,8 @@
    "love-education"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1337": {
   "primary": "A15",
@@ -9617,7 +10285,8 @@
   "type": "practice",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-1338": {
   "primary": "A12",
@@ -9633,7 +10302,8 @@
    "child-study"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1339": {
   "primary": "A15",
@@ -9651,7 +10321,8 @@
   "type": "practice",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-1341": {
   "primary": "A13",
@@ -9669,7 +10340,8 @@
   "type": "practice",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-1342": {
   "primary": "A6",
@@ -9685,7 +10357,8 @@
    "teacher-growth"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1343": {
   "primary": "A8",
@@ -9701,7 +10374,8 @@
    "child-study"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1344": {
   "primary": "A9",
@@ -9718,7 +10392,8 @@
    "collective-education"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1345": {
   "primary": "A15",
@@ -9737,7 +10412,8 @@
   "type": "practice",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-1347": {
   "primary": "A9",
@@ -9753,7 +10429,8 @@
    "love-education"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1348": {
   "primary": "A2",
@@ -9769,7 +10446,8 @@
    "teacher-growth"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1349": {
   "primary": "A9",
@@ -9785,7 +10463,8 @@
    "child-study"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1350": {
   "primary": "A9",
@@ -9803,7 +10482,8 @@
   "type": "practice",
   "tags": [
    "A18"
-  ]
+  ],
+  "evidence_unverified": false
  },
  "sk-1351": {
   "primary": "A5",
@@ -9819,7 +10499,8 @@
    "child-study"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1352": {
   "primary": "A19",
@@ -9835,7 +10516,8 @@
    "child-study"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1353": {
   "primary": "A8",
@@ -9851,7 +10533,8 @@
    "child-study"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1354": {
   "primary": "A19",
@@ -9867,7 +10550,8 @@
    "collective-education"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1355": {
   "primary": "A10",
@@ -9883,7 +10567,8 @@
    "child-study"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1357": {
   "primary": "A3",
@@ -9899,7 +10584,8 @@
    "family-school"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1358": {
   "primary": "A22",
@@ -9915,7 +10601,8 @@
    "teacher-growth"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1359": {
   "primary": "A19",
@@ -9931,7 +10618,8 @@
    "family-school"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1360": {
   "primary": "A2",
@@ -9947,7 +10635,8 @@
    "family-school"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1361": {
   "primary": "A3",
@@ -9963,7 +10652,8 @@
    "family-school"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1363": {
   "primary": "A19",
@@ -9979,7 +10669,8 @@
    "child-study"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1364": {
   "primary": "A19",
@@ -9995,7 +10686,8 @@
    "teacher-growth"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1365": {
   "primary": "A4",
@@ -10011,7 +10703,8 @@
    "teacher-growth"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1366": {
   "primary": "A4",
@@ -10027,7 +10720,8 @@
    "child-study"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1367": {
   "primary": "A19",
@@ -10043,7 +10737,8 @@
    "teacher-growth"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1368": {
   "primary": "A4",
@@ -10059,7 +10754,8 @@
    "teacher-growth"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1369": {
   "primary": "A19",
@@ -10075,7 +10771,8 @@
    "teacher-growth"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1370": {
   "primary": "A10",
@@ -10091,7 +10788,8 @@
    "reading-and-books"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1371": {
   "primary": "A19",
@@ -10107,7 +10805,8 @@
    "family-school"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1372": {
   "primary": "A22",
@@ -10123,7 +10822,8 @@
    "child-study"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1373": {
   "primary": "A4",
@@ -10137,7 +10837,8 @@
    "teacher-growth"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1374": {
   "primary": "A19",
@@ -10151,7 +10852,8 @@
    "child-study"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1376": {
   "primary": "A19",
@@ -10168,7 +10870,8 @@
    "family-school"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1377": {
   "primary": "A12",
@@ -10184,7 +10887,8 @@
    "teacher-growth"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1378": {
   "primary": "A19",
@@ -10200,7 +10904,8 @@
    "child-study"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1379": {
   "primary": "A19",
@@ -10216,7 +10921,8 @@
    "child-study"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1380": {
   "primary": "A14",
@@ -10232,7 +10938,8 @@
    "labor-education"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1381": {
   "primary": "A2",
@@ -10248,7 +10955,8 @@
    "teacher-growth"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1382": {
   "primary": "A2",
@@ -10264,7 +10972,8 @@
    "teacher-growth"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1383": {
   "primary": "A19",
@@ -10280,7 +10989,8 @@
    "collective-education"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1385": {
   "primary": "A19",
@@ -10296,7 +11006,8 @@
    "teacher-growth"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1387": {
   "primary": "A4",
@@ -10312,7 +11023,8 @@
    "teacher-growth"
   ],
   "type": "practice",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-1388": {
   "primary": "A8",
@@ -10328,7 +11040,8 @@
    "child-study"
   ],
   "type": "method",
-  "tags": []
+  "tags": [],
+  "evidence_unverified": false
  },
  "sk-0004": {
   "primary": null,
@@ -10342,11 +11055,7 @@
    "S8"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A18"
-  ],
-  "case_entries_why": "两年降低低识字率，后进生工作的早期胜利"
+  "facet_source": "judge"
  },
  "sk-0006": {
   "primary": null,
@@ -10380,13 +11089,7 @@
   "tags": [
    "A18"
   ],
-  "facet_source": "judge",
-  "case_entries": [
-   "A11",
-   "A18",
-   "A19"
-  ],
-  "case_entries_why": "难教孩子在集体劳动中学会为他人付出"
+  "facet_source": "judge"
  },
  "sk-0022": {
   "primary": null,
@@ -10421,13 +11124,7 @@
   "tags": [
    "A18"
   ],
-  "facet_source": "judge",
-  "case_entries": [
-   "A11",
-   "A15",
-   "A18"
-  ],
-  "case_entries_why": "差生靠动手观察显露智慧，思维觉醒"
+  "facet_source": "judge"
  },
  "sk-0074": {
   "primary": null,
@@ -10445,12 +11142,7 @@
    "S17"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A16",
-   "A19"
-  ],
-  "case_entries_why": "公开表扬让做好事变成求表扬"
+  "facet_source": "judge"
  },
  "sk-0076": {
   "primary": null,
@@ -10468,13 +11160,7 @@
   "tags": [
    "A18"
   ],
-  "facet_source": "judge",
-  "case_entries": [
-   "A12",
-   "A15",
-   "A18"
-  ],
-  "case_entries_why": "智力落后生的长期多通道教学"
+  "facet_source": "judge"
  },
  "sk-0081": {
   "primary": null,
@@ -10492,12 +11178,7 @@
    "S17"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A8",
-   "A19"
-  ],
-  "case_entries_why": "父亲以身示范纠正谎言"
+  "facet_source": "judge"
  },
  "sk-0087": {
   "primary": null,
@@ -10514,12 +11195,7 @@
    "S10"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A4",
-   "A7"
-  ],
-  "case_entries_why": "远足锻炼孩子的意志与体能"
+  "facet_source": "judge"
  },
  "sk-0090": {
   "primary": null,
@@ -10537,12 +11213,7 @@
    "S16"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A4",
-   "A6"
-  ],
-  "case_entries_why": "了解生活半径后交付真实责任"
+  "facet_source": "judge"
  },
  "sk-0099": {
   "primary": null,
@@ -10559,13 +11230,7 @@
    "S12"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A2",
-   "A9",
-   "A11"
-  ],
-  "case_entries_why": "集体长期劳动形成公民尊严"
+  "facet_source": "judge"
  },
  "sk-0102": {
   "primary": null,
@@ -10581,13 +11246,7 @@
    "S8"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A6",
-   "A15",
-   "A18"
-  ],
-  "case_entries_why": "感知缓慢儿童另设节奏并训练思维"
+  "facet_source": "judge"
  },
  "sk-0111": {
   "primary": null,
@@ -10604,12 +11263,7 @@
    "S13"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A6",
-   "A19"
-  ],
-  "case_entries_why": "用故事诊断儿童的情感成熟度"
+  "facet_source": "judge"
  },
  "sk-0114": {
   "primary": null,
@@ -10625,12 +11279,7 @@
    "S12"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A5",
-   "A21"
-  ],
-  "case_entries_why": "少年以批判眼光衡量成人的言行不一"
+  "facet_source": "judge"
  },
  "sk-0121": {
   "primary": null,
@@ -10647,13 +11296,7 @@
    "S12"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A3",
-   "A8",
-   "A11"
-  ],
-  "case_entries_why": "娇惯不劳动导致精神空虚"
+  "facet_source": "judge"
  },
  "sk-0125": {
   "primary": null,
@@ -10672,13 +11315,7 @@
   "tags": [
    "A18"
   ],
-  "facet_source": "judge",
-  "case_entries": [
-   "A9",
-   "A16",
-   "A17"
-  ],
-  "case_entries_why": "停学处分失败，须靠集体舆论"
+  "facet_source": "judge"
  },
  "sk-0132": {
   "primary": null,
@@ -10736,13 +11373,7 @@
    "S17"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A2",
-   "A11",
-   "A19"
-  ],
-  "case_entries_why": "看见孤独者，以劳动回应牺牲"
+  "facet_source": "judge"
  },
  "sk-0150": {
   "primary": null,
@@ -10760,13 +11391,7 @@
    "S11"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A12",
-   "A15",
-   "A22"
-  ],
-  "case_entries_why": "先在大自然感受词，再学读写"
+  "facet_source": "judge"
  },
  "sk-0168": {
   "primary": null,
@@ -10780,12 +11405,7 @@
    "S8"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A2",
-   "A15"
-  ],
-  "case_entries_why": "义务感胜过检查与强制"
+  "facet_source": "judge"
  },
  "sk-0172": {
   "primary": null,
@@ -10803,13 +11423,7 @@
    "S12"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A14",
-   "A19",
-   "A22"
-  ],
-  "case_entries_why": "等美被毁的失落成熟再引导"
+  "facet_source": "judge"
  },
  "sk-0183": {
   "primary": null,
@@ -10826,12 +11440,7 @@
   "tags": [
    "A18"
   ],
-  "facet_source": "judge",
-  "case_entries": [
-   "A15",
-   "A16"
-  ],
-  "case_entries_why": "不打2分，让孩子自己挣分"
+  "facet_source": "judge"
  },
  "sk-0185": {
   "primary": null,
@@ -10849,13 +11458,7 @@
   "tags": [
    "A18"
   ],
-  "facet_source": "judge",
-  "case_entries": [
-   "A6",
-   "A7",
-   "A18"
-  ],
-  "case_entries_why": "走神实为久坐致病，先改作息"
+  "facet_source": "judge"
  },
  "sk-0195": {
   "primary": null,
@@ -10871,13 +11474,7 @@
    "S6"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A12",
-   "A15",
-   "A18"
-  ],
-  "case_entries_why": "记不住的女孩因观察发问而激活记忆"
+  "facet_source": "judge"
  },
  "sk-0203": {
   "primary": null,
@@ -10896,13 +11493,7 @@
    "S13"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A3",
-   "A16",
-   "A19"
-  ],
-  "case_entries_why": "为分数做好事，善心并未生长"
+  "facet_source": "judge"
  },
  "sk-0205": {
   "primary": null,
@@ -10918,13 +11509,7 @@
    "S16"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A3",
-   "A5",
-   "A6"
-  ],
-  "case_entries_why": "敏锐的个人关怀留住绝望少女"
+  "facet_source": "judge"
  },
  "sk-0336": {
   "primary": null,
@@ -11131,13 +11716,7 @@
    "S13"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A14",
-   "A19",
-   "A22"
-  ],
-  "case_entries_why": "摘花后引导孩子为他人留美"
+  "facet_source": "judge"
  },
  "sk-0434": {
   "primary": null,
@@ -11156,12 +11735,7 @@
    "S13"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A8",
-   "A19"
-  ],
-  "case_entries_why": "残忍从小生命开始，须善待生命"
+  "facet_source": "judge"
  },
  "sk-0435": {
   "primary": null,
@@ -11178,12 +11752,7 @@
    "S17"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A6",
-   "A5"
-  ],
-  "case_entries_why": "教师只看表面不观察儿童，冤枉伤其心灵"
+  "facet_source": "judge"
  },
  "sk-0436": {
   "primary": null,
@@ -11199,12 +11768,7 @@
    "S13"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A4",
-   "A19"
-  ],
-  "case_entries_why": "教少年克制欲望、先为他人着想"
+  "facet_source": "judge"
  },
  "sk-0437": {
   "primary": null,
@@ -11220,12 +11784,7 @@
    "S8"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A5",
-   "A8"
-  ],
-  "case_entries_why": "长辈不轻给的吻含期待，真爱非物质"
+  "facet_source": "judge"
  },
  "sk-0438": {
   "primary": null,
@@ -11242,12 +11801,7 @@
    "S13"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A9",
-   "A19"
-  ],
-  "case_entries_why": "集体情感基础：学会为他人欢乐而欢乐"
+  "facet_source": "judge"
  },
  "sk-0439": {
   "primary": null,
@@ -11262,12 +11816,7 @@
    "S15"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A2",
-   "A19"
-  ],
-  "case_entries_why": "英雄故事育爱国与蔑视背叛"
+  "facet_source": "judge"
  },
  "sk-0440": {
   "primary": null,
@@ -11283,12 +11832,7 @@
    "S11"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A14",
-   "A19"
-  ],
-  "case_entries_why": "童话讲美与谦虚不可分"
+  "facet_source": "judge"
  },
  "sk-0441": {
   "primary": null,
@@ -11305,12 +11849,7 @@
    "S17"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A19",
-   "A4"
-  ],
-  "case_entries_why": "良心先于行动醒来，萌生同情与过失感"
+  "facet_source": "judge"
  },
  "sk-0442": {
   "primary": null,
@@ -20191,12 +20730,7 @@
    "S6"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A9",
-   "A12"
-  ],
-  "case_entries_why": "思维课上儿童创作：个体离开集体无意义"
+  "facet_source": "judge"
  },
  "sk-0984": {
   "primary": null,
@@ -20212,12 +20746,7 @@
    "S17"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A11",
-   "A19"
-  ],
-  "case_entries_why": "游手好闲者童话：劳动才留下岁月"
+  "facet_source": "judge"
  },
  "sk-0985": {
   "primary": null,
@@ -20233,11 +20762,7 @@
    "S6"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A19"
-  ],
-  "case_entries_why": "孩子反问不会再来了，暴露利己主义"
+  "facet_source": "judge"
  },
  "sk-0986": {
   "primary": null,
@@ -20253,12 +20778,7 @@
    "S15"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A11",
-   "A19"
-  ],
-  "case_entries_why": "勤劳人的森林即其岁月，劳动赋予人生"
+  "facet_source": "judge"
  },
  "sk-0987": {
   "primary": null,
@@ -20276,12 +20796,7 @@
    "S13"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A19",
-   "A9"
-  ],
-  "case_entries_why": "同学对卑鄙行为愤怒，道德成积极力量"
+  "facet_source": "judge"
  },
  "sk-0988": {
   "primary": null,
@@ -20297,12 +20812,7 @@
    "S13"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A19",
-   "A9"
-  ],
-  "case_entries_why": "放弃旅行陪伴同学不幸，共情教育"
+  "facet_source": "judge"
  },
  "sk-0990": {
   "primary": null,
@@ -20317,12 +20827,7 @@
    "S8"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A16",
-   "A19"
-  ],
-  "case_entries_why": "不应得的夸奖是侮辱，谦虚由此起步"
+  "facet_source": "judge"
  },
  "sk-0991": {
   "primary": null,
@@ -20336,12 +20841,7 @@
    "S5"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A16",
-   "A19"
-  ],
-  "case_entries_why": "错误表扬歪曲衡量尺度，教人谦虚"
+  "facet_source": "judge"
  },
  "sk-0992": {
   "primary": null,
@@ -20359,12 +20859,7 @@
    "S15"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A4",
-   "A22"
-  ],
-  "case_entries_why": "讲述动人故事，孩子想成为刚强的人"
+  "facet_source": "judge"
  },
  "sk-0993": {
   "primary": null,
@@ -20382,11 +20877,7 @@
    "S5"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A9"
-  ],
-  "case_entries_why": "养蜂场讲童话，幻想凝聚儿童集体"
+  "facet_source": "judge"
  },
  "sk-1012": {
   "primary": null,
@@ -20403,12 +20894,7 @@
    "S8"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A6",
-   "A8"
-  ],
-  "case_entries_why": "每个孩子是独特的锁，须了解其家庭"
+  "facet_source": "judge"
  },
  "sk-1042": {
   "primary": null,
@@ -20420,12 +20906,7 @@
   ],
   "facets": [],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A19",
-   "A8"
-  ],
-  "case_entries_why": "教儿童为亲人行善，防自私"
+  "facet_source": "judge"
  },
  "sk-1084": {
   "primary": null,
@@ -20441,11 +20922,7 @@
    "S13"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A9"
-  ],
-  "case_entries_why": "童话把归属落到一朵花上"
+  "facet_source": "judge"
  },
  "sk-1085": {
   "primary": null,
@@ -20463,12 +20940,7 @@
    "S14"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A9",
-   "A19"
-  ],
-  "case_entries_why": "无说教的童话把招待与感谢写成动作"
+  "facet_source": "judge"
  },
  "sk-1086": {
   "primary": null,
@@ -20486,12 +20958,7 @@
    "S17"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A5",
-   "A22"
-  ],
-  "case_entries_why": "不当众没收甲虫，课后还他，护求知欲"
+  "facet_source": "judge"
  },
  "sk-1087": {
   "primary": null,
@@ -20510,11 +20977,7 @@
    "S15"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A14"
-  ],
-  "case_entries_why": "同一乐曲，老人与孩子听出不同情感"
+  "facet_source": "judge"
  },
  "sk-1088": {
   "primary": null,
@@ -20531,12 +20994,7 @@
    "S15"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A21",
-   "A8"
-  ],
-  "case_entries_why": "六岁孩子不解死亡，亲情与年龄认知"
+  "facet_source": "judge"
  },
  "sk-1089": {
   "primary": null,
@@ -20553,11 +21011,7 @@
    "S11"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A14"
-  ],
-  "case_entries_why": "诗写百灵鸟与黎明，审美与情感素养"
+  "facet_source": "judge"
  },
  "sk-1090": {
   "primary": null,
@@ -20573,11 +21027,7 @@
    "S6"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A10"
-  ],
-  "case_entries_why": "教师自己写自然习作，示范教师素养的自我完善"
+  "facet_source": "judge"
  },
  "sk-1091": {
   "primary": null,
@@ -20594,11 +21044,7 @@
    "S11"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A10"
-  ],
-  "case_entries_why": "教师观察习作，讲教师自身教育技巧的养成"
+  "facet_source": "judge"
  },
  "sk-1092": {
   "primary": null,
@@ -20614,12 +21060,7 @@
    "S6"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A12",
-   "A14"
-  ],
-  "case_entries_why": "学生自然观察习作，把暮色写成美与想象"
+  "facet_source": "judge"
  },
  "sk-1093": {
   "primary": null,
@@ -20635,12 +21076,7 @@
    "S16"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A12",
-   "A14"
-  ],
-  "case_entries_why": "一年级观察自然并把自己的盼望写进景物"
+  "facet_source": "judge"
  },
  "sk-1104": {
   "primary": null,
@@ -20657,12 +21093,7 @@
    "S13"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A12",
-   "A15"
-  ],
-  "case_entries_why": "思维课自编童话，好奇心化作想象与语言"
+  "facet_source": "judge"
  },
  "sk-1105": {
   "primary": null,
@@ -20677,12 +21108,7 @@
    "S6"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A12",
-   "A15"
-  ],
-  "case_entries_why": "思维课上孩子编蒲公英童话，想象中认识自然"
+  "facet_source": "judge"
  },
  "sk-1106": {
   "primary": null,
@@ -20697,12 +21123,7 @@
    "S5"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A15",
-   "A12"
-  ],
-  "case_entries_why": "寓言讲沉默即思考，思维课的思考训练"
+  "facet_source": "judge"
  },
  "sk-1107": {
   "primary": null,
@@ -20719,12 +21140,7 @@
    "S11"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A12",
-   "A14"
-  ],
-  "case_entries_why": "学生观察春景与仙鹤，写成审美短文"
+  "facet_source": "judge"
  },
  "sk-1108": {
   "primary": null,
@@ -20745,12 +21161,7 @@
    "S12"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A9",
-   "A11"
-  ],
-  "case_entries_why": "刈草场共同劳动与篝火夜谈的集体生活"
+  "facet_source": "judge"
  },
  "sk-1109": {
   "primary": null,
@@ -20767,12 +21178,7 @@
    "S12"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A12",
-   "A14"
-  ],
-  "case_entries_why": "儿童凭气味判断秋天，观察里长出美感"
+  "facet_source": "judge"
  },
  "sk-1110": {
   "primary": null,
@@ -20789,12 +21195,7 @@
    "S11"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A8",
-   "A12"
-  ],
-  "case_entries_why": "妈妈把鹳巢说成祝福，观察连着家庭记忆"
+  "facet_source": "judge"
  },
  "sk-1111": {
   "primary": null,
@@ -20810,12 +21211,7 @@
    "S11"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A12",
-   "A14"
-  ],
-  "case_entries_why": "迎接日出并追问宇宙，自然观察通向美"
+  "facet_source": "judge"
  },
  "sk-1122": {
   "primary": null,
@@ -20832,12 +21228,7 @@
    "S11"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A12",
-   "A14"
-  ],
-  "case_entries_why": "孩子把苹果花写成银铃，感官的审美表达"
+  "facet_source": "judge"
  },
  "sk-1123": {
   "primary": null,
@@ -20854,12 +21245,7 @@
    "S11"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A12",
-   "A15"
-  ],
-  "case_entries_why": "报春花童话，把季节转换写成想象与对话"
+  "facet_source": "judge"
  },
  "sk-1124": {
   "primary": null,
@@ -20876,12 +21262,7 @@
    "S16"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A19",
-   "A12"
-  ],
-  "case_entries_why": "观察蜘蛛后救下苍蝇，观察生出善的行动"
+  "facet_source": "judge"
  },
  "sk-1125": {
   "primary": null,
@@ -20899,12 +21280,7 @@
    "S11"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A15",
-   "A8"
-  ],
-  "case_entries_why": "母亲的诗意回答引出儿童想象与追问"
+  "facet_source": "judge"
  },
  "sk-1126": {
   "primary": null,
@@ -20917,11 +21293,7 @@
   ],
   "facets": [],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A11"
-  ],
-  "case_entries_why": "四个答案收束到劳动最主要，劳动的价值"
+  "facet_source": "judge"
  },
  "sk-1127": {
   "primary": null,
@@ -20938,12 +21310,7 @@
    "S13"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A12",
-   "A6"
-  ],
-  "case_entries_why": "长期跟踪观察一窝刺猬，观察即了解儿童"
+  "facet_source": "judge"
  },
  "sk-1128": {
   "primary": null,
@@ -20960,12 +21327,7 @@
    "S13"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A9",
-   "A11"
-  ],
-  "case_entries_why": "集体编写瓜园生活，分瓜约定见同伴关系"
+  "facet_source": "judge"
  },
  "sk-1129": {
   "primary": null,
@@ -20981,12 +21343,7 @@
    "S11"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A14",
-   "A12"
-  ],
-  "case_entries_why": "夜晚倾听大自然的音乐，审美敏感的训练"
+  "facet_source": "judge"
  },
  "sk-1130": {
   "primary": null,
@@ -21005,12 +21362,7 @@
    "S12"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A8",
-   "A14"
-  ],
-  "case_entries_why": "随父亲运干草的记忆，家庭与自然的美感"
+  "facet_source": "judge"
  },
  "sk-1131": {
   "primary": null,
@@ -21026,12 +21378,7 @@
    "S15"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A2",
-   "A15"
-  ],
-  "case_entries_why": "科幻作文回望地球，发出公民的和平呼吁"
+  "facet_source": "judge"
  },
  "sk-1141": {
   "primary": null,
@@ -21044,12 +21391,7 @@
   ],
   "facets": [],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A3",
-   "A4"
-  ],
-  "case_entries_why": "选择伴侣须对精神世界提要求，关乎幸福"
+  "facet_source": "judge"
  },
  "sk-1142": {
   "primary": null,
@@ -21066,12 +21408,7 @@
    "S6"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A8",
-   "A15"
-  ],
-  "case_entries_why": "小啄木鸟好奇闯祸，母亲宽容且好奇不灭"
+  "facet_source": "judge"
  },
  "sk-1143": {
   "primary": null,
@@ -21087,11 +21424,7 @@
    "S6"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A9"
-  ],
-  "case_entries_why": "花瓣离花朵就什么也不是，个人与集体"
+  "facet_source": "judge"
  },
  "sk-1144": {
   "primary": null,
@@ -21108,11 +21441,7 @@
    "S15"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A2"
-  ],
-  "case_entries_why": "学生自编故事表达对牺牲英雄的敬意"
+  "facet_source": "judge"
  },
  "sk-1145": {
   "primary": null,
@@ -21128,11 +21457,7 @@
    "S17"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A19"
-  ],
-  "case_entries_why": "拟人故事写出对弱者的同情与羞愧"
+  "facet_source": "judge"
  },
  "sk-1146": {
   "primary": null,
@@ -21148,11 +21473,7 @@
    "S6"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A12"
-  ],
-  "case_entries_why": "儿童观察椋鸟越冬并写下自然笔记"
+  "facet_source": "judge"
  },
  "sk-1147": {
   "primary": null,
@@ -21170,11 +21491,7 @@
    "S7"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A15"
-  ],
-  "case_entries_why": "童话习作展现儿童想象"
+  "facet_source": "judge"
  },
  "sk-1148": {
   "primary": null,
@@ -21193,11 +21510,7 @@
    "S12"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A15"
-  ],
-  "case_entries_why": "把干草车想象成航船的想象力例子"
+  "facet_source": "judge"
  },
  "sk-1149": {
   "primary": null,
@@ -21214,11 +21527,7 @@
    "S11"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A12"
-  ],
-  "case_entries_why": "由燕子与露珠写出秋天来临的观察"
+  "facet_source": "judge"
  },
  "sk-1150": {
   "primary": null,
@@ -21237,11 +21546,7 @@
    "S16"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A19"
-  ],
-  "case_entries_why": "烈马对孩子的温柔写出善良品质"
+  "facet_source": "judge"
  },
  "sk-1151": {
   "primary": null,
@@ -21258,11 +21563,7 @@
    "S13"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A2"
-  ],
-  "case_entries_why": "写英雄骑兵，孩子说我也想做这样的人"
+  "facet_source": "judge"
  },
  "sk-1157": {
   "primary": null,
@@ -21278,12 +21579,7 @@
    "S10"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A2",
-   "A19"
-  ],
-  "case_entries_why": "真理要造福于人，冷漠的实话不算信念"
+  "facet_source": "judge"
  },
  "sk-1160": {
   "primary": null,
@@ -21299,12 +21595,7 @@
    "S8"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A13",
-   "A10"
-  ],
-  "case_entries_why": "教师买书读书，用书籍影响学生心灵"
+  "facet_source": "judge"
  },
  "sk-1204": {
   "primary": null,
@@ -21320,12 +21611,7 @@
    "S8"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A4",
-   "A19"
-  ],
-  "case_entries_why": "理智知道而心灵不动，知而未成信念"
+  "facet_source": "judge"
  },
  "sk-1219": {
   "primary": null,
@@ -21340,12 +21626,7 @@
    "S8"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A2",
-   "A22"
-  ],
-  "case_entries_why": "把英雄肖像当管教杠杆，理想教育失败"
+  "facet_source": "judge"
  },
  "sk-1230": {
   "primary": null,
@@ -21358,11 +21639,7 @@
   ],
   "facets": [],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A2"
-  ],
-  "case_entries_why": "把时代精神与祖国信念送到青少年心里"
+  "facet_source": "judge"
  },
  "sk-1239": {
   "primary": null,
@@ -21381,12 +21658,7 @@
   "tags": [
    "A18"
   ],
-  "facet_source": "judge",
-  "case_entries": [
-   "A18",
-   "A13"
-  ],
-  "case_entries_why": "费佳靠阅读唤醒思想，不靠补课"
+  "facet_source": "judge"
  },
  "sk-1243": {
   "primary": null,
@@ -21403,12 +21675,7 @@
    "S17"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A16",
-   "A22"
-  ],
-  "case_entries_why": "责备的时机与针对具体孩子的语言"
+  "facet_source": "judge"
  },
  "sk-1244": {
   "primary": null,
@@ -21427,12 +21694,7 @@
    "S8"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A15",
-   "A22"
-  ],
-  "case_entries_why": "草地参观中注意力被蝴蝶小蛙夺走"
+  "facet_source": "judge"
  },
  "sk-1250": {
   "primary": null,
@@ -21448,11 +21710,7 @@
    "S7"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A8"
-  ],
-  "case_entries_why": "溺爱、暴君式爱与花钱的爱三种家庭"
+  "facet_source": "judge"
  },
  "sk-1251": {
   "primary": null,
@@ -21472,12 +21730,7 @@
   "tags": [
    "A18"
   ],
-  "facet_source": "judge",
-  "case_entries": [
-   "A11",
-   "A18"
-  ],
-  "case_entries_why": "困难学生在模型与农业劳动中变聪明"
+  "facet_source": "judge"
  },
  "sk-1263": {
   "primary": null,
@@ -21515,13 +21768,7 @@
   "tags": [
    "A18"
   ],
-  "facet_source": "judge",
-  "case_entries": [
-   "A16",
-   "A18",
-   "A5"
-  ],
-  "case_entries_why": "分数使差生心僵化，须慎待儿童"
+  "facet_source": "judge"
  },
  "sk-1277": {
   "primary": null,
@@ -21538,13 +21785,7 @@
    "S8"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A16",
-   "A4",
-   "A18"
-  ],
-  "case_entries_why": "惩罚越频繁，自我教育成分越少"
+  "facet_source": "judge"
  },
  "sk-1278": {
   "primary": null,
@@ -21561,12 +21802,7 @@
    "S12"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A11",
-   "A15"
-  ],
-  "case_entries_why": "做小匣子与钳工工具，手脑并用"
+  "facet_source": "judge"
  },
  "sk-1294": {
   "primary": null,
@@ -21581,12 +21817,7 @@
    "S8"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A22",
-   "A15"
-  ],
-  "case_entries_why": "光合作用课：由教材症结生出问题"
+  "facet_source": "judge"
  },
  "sk-1312": {
   "primary": null,
@@ -21601,13 +21832,7 @@
    "S8"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A22",
-   "A6",
-   "A5"
-  ],
-  "case_entries_why": "个别谈话的准备、倾听与谨慎接触心灵"
+  "facet_source": "judge"
  },
  "sk-1314": {
   "primary": null,
@@ -21622,12 +21847,7 @@
    "S8"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A2",
-   "A22"
-  ],
-  "case_entries_why": "伏契克一课：从知道英雄到愿意行动"
+  "facet_source": "judge"
  },
  "sk-1319": {
   "primary": null,
@@ -21642,12 +21862,7 @@
    "S8"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A15",
-   "A13"
-  ],
-  "case_entries_why": "有意与无意记忆一比三，靠阅读打底"
+  "facet_source": "judge"
  },
  "sk-1320": {
   "primary": null,
@@ -21664,13 +21879,7 @@
    "S12"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A11",
-   "A8",
-   "A17"
-  ],
-  "case_entries_why": "家庭改造懒汉：早起与体力劳动养成习惯"
+  "facet_source": "judge"
  },
  "sk-1322": {
   "primary": null,
@@ -21686,13 +21895,7 @@
    "S8"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A15",
-   "A22",
-   "A12"
-  ],
-  "case_entries_why": "抓教材接触点并把课堂搬到田野，点燃求知兴趣"
+  "facet_source": "judge"
  },
  "sk-1324": {
   "primary": null,
@@ -21708,12 +21911,7 @@
    "S8"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A10",
-   "A3"
-  ],
-  "case_entries_why": "教师因工作无乐趣而早衰，是职业与精神生活之鉴"
+  "facet_source": "judge"
  },
  "sk-1325": {
   "primary": null,
@@ -21728,12 +21926,7 @@
    "S8"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A7",
-   "A23"
-  ],
-  "case_entries_why": "作息制度与上学前做功课的时间安排，经验不可移植"
+  "facet_source": "judge"
  },
  "sk-1326": {
   "primary": null,
@@ -21749,12 +21942,7 @@
    "S8"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A5",
-   "A6"
-  ],
-  "case_entries_why": "教师悄然观察并护住孩子的甲虫，不伤其信任"
+  "facet_source": "judge"
  },
  "sk-1333": {
   "primary": null,
@@ -21774,12 +21962,7 @@
    "S15"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A4",
-   "A8"
-  ],
-  "case_entries_why": "同一堂课两种家庭氛围，道理未成信念"
+  "facet_source": "judge"
  },
  "sk-1340": {
   "primary": null,
@@ -21794,13 +21977,7 @@
    "S8"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A6",
-   "A11",
-   "A15"
-  ],
-  "case_entries_why": "了解学生志向，以创造性劳动和学科魅力赢得心灵"
+  "facet_source": "judge"
  },
  "sk-1346": {
   "primary": null,
@@ -21816,12 +21993,7 @@
    "S8"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A9",
-   "A11"
-  ],
-  "case_entries_why": "集体靠共同思想与共同劳动建立，非仅靠要求"
+  "facet_source": "judge"
  },
  "sk-1356": {
   "primary": null,
@@ -21838,12 +22010,7 @@
    "S11"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A8",
-   "A19"
-  ],
-  "case_entries_why": "期待新生儿，让兄姐在家庭中生出新义务"
+  "facet_source": "judge"
  },
  "sk-1362": {
   "primary": null,
@@ -21859,13 +22026,7 @@
    "S15"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A2",
-   "A19",
-   "A8"
-  ],
-  "case_entries_why": "扫墓与家族记忆培育公民觉悟和敬祖之德"
+  "facet_source": "judge"
  },
  "sk-1375": {
   "primary": null,
@@ -21880,13 +22041,7 @@
    "S8"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A15",
-   "A21",
-   "A4"
-  ],
-  "case_entries_why": "用\"十年后成为大人\"唤起求知欲与自主性"
+  "facet_source": "judge"
  },
  "sk-1384": {
   "primary": null,
@@ -21903,12 +22058,7 @@
    "S13"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A4",
-   "A2"
-  ],
-  "case_entries_why": "从园地坚定性到为乡亲栽树，信念化为生活准则"
+  "facet_source": "judge"
  },
  "sk-1386": {
   "primary": null,
@@ -21926,12 +22076,7 @@
    "S17"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A4",
-   "A2"
-  ],
-  "case_entries_why": "课上英雄事迹经自我审视化为行动，信念非知识"
+  "facet_source": "judge"
  },
  "sk-1389": {
   "primary": null,
@@ -21950,12 +22095,7 @@
    "S11"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A8",
-   "A19"
-  ],
-  "case_entries_why": "孙子送衬衣探蜂场，在家庭中养成敬重老人"
+  "facet_source": "judge"
  },
  "sk-1390": {
   "primary": null,
@@ -21971,12 +22111,7 @@
    "S7"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A19",
-   "A8"
-  ],
-  "case_entries_why": "生日早起当面祝福，礼物是道德价值"
+  "facet_source": "judge"
  },
  "sk-1391": {
   "primary": null,
@@ -21995,12 +22130,6 @@
    "S12"
   ],
   "tags": [],
-  "facet_source": "judge",
-  "case_entries": [
-   "A4",
-   "A11",
-   "A14"
-  ],
-  "case_entries_why": "寻求美的劳动把应当、困难与好连成自我教育"
+  "facet_source": "judge"
  }
 }

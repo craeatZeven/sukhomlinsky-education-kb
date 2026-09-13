@@ -70,8 +70,13 @@ def tags_for(c: dict, spec: dict) -> list[str]:
 
     `taxonomy.md` §一 把「关照」列为一个观察角度，但它的条目是**复分标签**——
     不持卡、不出现在 `primary` 里。用关键词命中算（同 `facets_for` 的理由）。
+
+    **搜索范围要含 `editor_summary`。** 没有逐字原文的卡把内容放在编者概括里
+    （见 docs/codex-final-opinion.md A1 的处置），那部分仍是**卡片的内容**，
+    打标签该看它——否则这类卡会凭空丢掉标记（实测 A18 从 69 掉到 67 就是这么来的）。
+    注意：这只是**打标签**用；「原文依据」的校验仍然只认原文摘录，两者不能混。
     """
-    text = texts(c)
+    text = texts(c) + "\n" + (c.get("editor_summary") or "")
     return [e["id"] for e in spec["entries"]
             if e.get("tag") and any(k in text for k in e["keywords"] + e["weak"])]
 
@@ -215,9 +220,19 @@ def cmd_collect(write: bool = True):
               + " ".join(sorted(extra)[:8]) + (" …" if len(extra) > 8 else ""))
 
     illegal = [k for k, v in merged.items() if v["entry"] not in valid | {"SPLIT", "NONE"}]
-    fake, ratios = [], []
+    # `excerpt_status: paraphrase` 的卡**本来就没有逐字原文**（出处书里找不到可用段落，
+    # 见 docs/codex-final-opinion.md A1 的处置）。它们的「原文依据」是从编者概括里抄的，
+    # 因此**天然无法用原文核验**——这不是造假，是一个必须显式记录的状态。
+    # 把它们排除出"必须对得上原文"的硬校验，单列成 `evidence_unverified`，
+    # 等原文补上后再复核。**不放松阈值，只是把这一类如实分开。**
+    unverifiable = {k for k in merged
+                    if (byid.get(k) or {}).get("excerpt_status") == "paraphrase"}
+    fake, ratios, unverified = [], [], []
     for k, v in merged.items():
         if v["entry"] == "NONE":
+            continue
+        if k in unverifiable:
+            unverified.append(k)
             continue
         ok, r = evidence_match(v["evidence"], texts(byid[k]))
         ratios.append(r)
@@ -237,8 +252,8 @@ def cmd_collect(write: bool = True):
           f"（{ok_n / len(ratios) * 100:.1f}%）" if ratios else "原文依据：无")
     strict_fake = []
     for k, v in merged.items():
-        if v["entry"] == "NONE":
-            continue
+        if v["entry"] == "NONE" or k in unverifiable:
+            continue          # paraphrase 卡没有原文可比，已在上面单列
         c = byid.get(k)
         if not c:
             continue
@@ -255,6 +270,11 @@ def cmd_collect(write: bool = True):
     for k, r, e in fake[:10]:
         print(f"    完全对不上（覆盖率 {r}）{k}：「{e}」")
     print(f"原文依据过短（<8 字）：{len(short)} {short[:8]}")
+    if unverified:
+        print(f"**依据暂不可核验（该卡 excerpt_status=paraphrase，本来就没有逐字原文）："
+              f"{len(unverified)} 张** {unverified}")
+        print("    这不是造假，是显式状态：出处书里找不到可用原文 → 页面标「原文待补」，"
+              "原文补上后需重判依据。")
     print(f"格式错误行：{len(bad)}")
     for b in bad[:8]:
         print(f"    {b}")
@@ -274,7 +294,8 @@ def cmd_collect(write: bool = True):
                          "title": c.get("title", ""),
                          "old_topics": c.get("topics", []),
                          "type": c["type"],
-                         "tags": tags_for(c, spec)}
+                         "tags": tags_for(c, spec),
+                         "evidence_unverified": c["id"] in unverifiable}
                for c in essays if c["id"] in merged}
         # taxonomy.md §六 人工裁定表覆盖判读（source=manual）。
         # 判读是概率性的，裁定是人拍板的；两者不一致时以裁定为准，并留痕。

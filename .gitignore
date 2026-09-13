@@ -27,3 +27,7 @@ cloudflare/.wrangler/
 cloudflare/data.sql
 cloudflare/schema_fts.sql
 cloudflare/coverage.json
+
+# codex/playwright 工具产生的临时截图与控制台日志（不是项目产物）
+.playwright-mcp/
+

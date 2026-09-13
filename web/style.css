@@ -92,12 +92,21 @@ a:hover { color: var(--accent); text-decoration-color: var(--accent); }
 .topnav .nav-links { min-width: 0; overflow-x: auto; scrollbar-width: none; }
 .topnav .nav-links::-webkit-scrollbar { display: none; }
 @media (max-width: 680px) {
-  .topnav .inner { gap: 8px; }
-  .topnav .nav-links { gap: 2px; flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
+  /* 窄屏顶栏改成**两行**：第一行品牌 + 风格切换，第二行导航占满整宽。
+     原来三者挤一行时，品牌（约 190px）加风格切换（69px）把链接压到只剩几十像素，
+     导航只剩「首页」和下一项残片（外部评审 docs/codex-final-opinion.md B·11 与 §5 第 7 条）。 */
+  .topnav .inner { flex-wrap: wrap; height: auto; gap: 0 8px; padding: 4px 16px 0; }
+  .topnav .brand { font-size: 15px; line-height: 40px; }
+  .topnav .theme-nav { margin-left: auto; }
+  .topnav .nav-links {
+    order: 3; flex-basis: 100%; margin-left: 0; gap: 2px;
+    flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none;
+  }
   .topnav .nav-links::-webkit-scrollbar { display: none; }
-  .topnav .nav-link { font-size: 12px; padding: 5px 8px; white-space: nowrap; }
-  .topnav .nav-links { align-items: center; }
-  .topnav .nav-link { display: inline-flex; align-items: center; min-height: 40px; }}
+  .topnav .nav-link { font-size: 12px; padding: 5px 8px; white-space: nowrap; display: inline-flex; align-items: center; min-height: 40px; }
+  /* 顶栏变高了，锚点跳转的留白要跟着加，否则目标标题会被盖住 */
+  #primarySection, #crossSection, #caseSection, #siblingSection { scroll-margin-top: 112px; }
+}
 
 /* Hero / landing */
 .hero { padding: 84px 0 60px; text-align: center; position: relative; }

@@ -262,7 +262,7 @@
      评审要求（docs/codex-final-opinion.md §C 第三件）：
      「不记 A 编号、不依赖悬停，也能完成『劳动与哪些主题相连 → 为什么相连 → 读对应原文』」。
      所以这一块用**完整中文名**、点击而非悬停，并且点一条关系就把卡片列出来。 */
-  var MAP = null, NAME = {}, INDEX = null, INDEX_LOADING = false;
+  var MAP = null, NAME = {}, INDEX = null;
 
   function relName(code) { return NAME[code] || code; }
 
@@ -297,34 +297,57 @@
     document.getElementById("relCardsWrap").style.display = "none";
   }
 
+  /* 索引只加载一次，但**并发调用共享同一个 Promise**。
+     原来的写法用 `INDEX_LOADING` 布尔量，第二次点击直接 return 什么都不渲染；
+     而第一次请求回来时又照着**它自己的旧 pair** 写入卡片，于是出现
+     「标题是新关系、卡片是旧关系」的错配（第二轮复审用延迟响应复现了：
+     先点 A11→A1、再点 A11→A15，标题显示「思维与智力」而列的是 A1 的卡）。 */
+  var INDEX_PROMISE = null;
+  function ensureIndex() {
+    if (INDEX) return Promise.resolve(INDEX);
+    if (!INDEX_PROMISE) {
+      INDEX_PROMISE = KB.loadIndex().then(function (cards) {
+        var m = {};
+        cards.forEach(function (c) { m[c.id] = c; });
+        INDEX = m;
+        return INDEX;
+      }).catch(function (e) {
+        INDEX_PROMISE = null;      // 失败不缓存，允许重试
+        throw e;
+      });
+    }
+    return INDEX_PROMISE;
+  }
+
+  /* 每次选择领一个号；只有**最后一次**选择有权写入。
+     这样无论加载多慢、用户点多快，标题与卡片都出自同一次选择。 */
+  var REL_TOKEN = 0;
+
   async function showRelation(pair, other, dir) {
     var box = document.getElementById("relCards");
     var wrap = document.getElementById("relCardsWrap");
+    var token = ++REL_TOKEN;
     wrap.style.display = "";
     var from = pair.split("|")[0], to = pair.split("|")[1];
     document.getElementById("relCardsTitle").innerHTML =
-      dir === "out"
-        ? '主归属是 <b>' + esc(from + " " + relName(from)) + '</b>、同时讲到 <b>' + esc(to + " " + relName(to)) + '</b> 的卡片'
-        : '主归属是 <b>' + esc(from + " " + relName(from)) + '</b>、同时讲到 <b>' + esc(to + " " + relName(to)) + '</b> 的卡片';
+      '主归属是 <b>' + esc(from + " " + relName(from)) + '</b>、同时讲到 <b>' +
+      esc(to + " " + relName(to)) + '</b> 的卡片';
     box.innerHTML = '<p class="angle-note">正在载入卡片索引…</p>';
     wrap.scrollIntoView({ behavior: "smooth", block: "start" });
-    if (!INDEX) {
-      if (INDEX_LOADING) return;
-      INDEX_LOADING = true;
-      try {
-        var cards = await KB.loadIndex();
-        INDEX = {};
-        cards.forEach(function (c) { INDEX[c.id] = c; });
-      } catch (e) {
+
+    var idx;
+    try {
+      idx = await ensureIndex();
+    } catch (e) {
+      if (token === REL_TOKEN) {
         box.innerHTML = '<p class="angle-note">卡片索引加载失败：' + esc(e.message) + '</p>';
-        INDEX_LOADING = false;
-        return;
       }
-      INDEX_LOADING = false;
+      return;
     }
+    if (token !== REL_TOKEN) return;   // 期间又选了别的 → 本次作废，不覆盖
     var ids = (MAP.pairs || {})[pair] || [];
     box.innerHTML = ids.length
-      ? ids.map(function (id) { return INDEX[id] ? KB.cardRowHTML(INDEX[id]) : ""; }).join("")
+      ? ids.map(function (id) { return idx[id] ? KB.cardRowHTML(idx[id]) : ""; }).join("")
       : '<p class="angle-note">这一格没有卡片。</p>';
   }
 

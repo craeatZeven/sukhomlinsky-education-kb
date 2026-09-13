@@ -11,6 +11,11 @@
      不合 WCAG AA 小字 4.5:1。每套主题各自定 --heat-3 / --heat-3-ink。 */
   --heat-3: #b4552d;
   --heat-3-ink: #ffffff;
+  /* 顶栏实际高度。窄屏顶栏是两行（84px），锚点跳转的留白要跟着变。
+     **必须用变量**：早先写了两条同特异性的 scroll-margin-top（一个在媒体查询里、
+     一条在文件后面），后者在**所有宽度**都赢——于是移动端仍按 76px 留白，
+     标题被顶栏压住约 8px（第二轮复审实测）。变量在计算值阶段解析，不受源码顺序影响。 */
+  --nav-h: 60px;
   --line: rgba(28,25,23,.12);
   --serif: "Noto Serif SC", "Songti SC", "SimSun", Georgia, serif;
   --sans: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
@@ -118,8 +123,9 @@ a:hover { color: var(--accent); text-decoration-color: var(--accent); }
   }
   .topnav .nav-links::-webkit-scrollbar { display: none; }
   .topnav .nav-link { font-size: 12px; padding: 5px 8px; white-space: nowrap; display: inline-flex; align-items: center; min-height: 40px; }
-  /* 顶栏变高了，锚点跳转的留白要跟着加，否则目标标题会被盖住 */
-  #primarySection, #crossSection, #caseSection, #siblingSection { scroll-margin-top: 112px; }
+  /* 顶栏在窄屏是两行，把实际高度交给变量——锚点留白统一由 calc(var(--nav-h) + 16px) 算，
+     不再各写一条（那样会被文件后面那条同特异性的规则盖掉）。 */
+  :root { --nav-h: 84px; }
 }
 
 /* Hero / landing */
@@ -336,8 +342,10 @@ a.badge--see { color: var(--soft); border-style: dashed; }
 .entry-jump-item b { font-size: 15px; color: var(--ink); font-variant-numeric: tabular-nums; }
 .entry-jump-item:hover { border-color: var(--accent); color: var(--accent); }
 .entry-jump-item:hover b { color: var(--accent); }
-/* 锚点跳转要给吸顶导航留出高度，否则目标标题会被顶栏盖住 */
-#primarySection, #crossSection, #caseSection, #siblingSection { scroll-margin-top: 76px; }
+/* 锚点跳转要给吸顶导航留出高度，否则目标标题会被顶栏盖住。
+   用 --nav-h（窄屏由媒体查询改成 84px），不要再写死像素。 */
+#primarySection, #crossSection, #caseSection, #siblingSection,
+#relCardsWrap, #startSection { scroll-margin-top: calc(var(--nav-h) + 16px); }
 
 /* 没有逐字原文的行：**不套引号**，改用左侧竖线 + 弱化字色表示"这是编者概括"。
    引号在这个站里是有含义的——它表示"这是原文"，所以没有原文时必须撤掉。 */
@@ -368,7 +376,6 @@ a.badge--see { color: var(--soft); border-style: dashed; }
 .rel-item:hover .rel-to, .rel-item:hover b { color: var(--accent); }
 .rel-none { color: var(--soft); font-size: 13px; margin: 0; }
 .rel-cards-title { margin: 24px 0 10px; font-size: 16px; font-weight: 500; }
-#relCardsWrap { scroll-margin-top: 76px; }
 button.mx-cell { font-family: var(--sans); border: 0; padding: 0; cursor: pointer; }
 button.mx-cell:hover { box-shadow: 0 0 0 2px var(--accent); }
 
@@ -427,6 +434,8 @@ button.mx-cell:hover { box-shadow: 0 0 0 2px var(--accent); }
 }
 .start-body { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
 .start-quote { font-family: var(--serif); font-size: 15px; line-height: 1.65; color: var(--ink); }
+.start-quote--noquote { color: var(--soft); }
+.start-quote--noquote .row-flag { margin-left: 6px; }
 .start-meta { color: var(--soft); font-size: 12px; }
 @media (max-width: 680px) { .start-cards { grid-template-columns: 1fr; } }
 

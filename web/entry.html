@@ -116,6 +116,18 @@ function fail(msg){
   document.getElementById("caseSection").style.display = "none";
 }
 
+/* 「从这里开始」那张卡的引文。
+   **引号在这个站里只表示"这是原文"**——所以只在真有逐字摘录时套引号，
+   否则退成题名（不套引号），并标明原文待补。
+   新写的模板很容易把这条契约又违反一次，所以集中在这一个函数里，别再各处手写。 */
+function startQuote(c){
+  if(c.excerpt_status === "paraphrase" || !c.preview){
+    return `<span class="start-quote start-quote--noquote">${KB.esc(c.editor_summary || c.title)}` +
+           `<span class="row-flag">编者概括 · 原文待补</span></span>`;
+  }
+  return `<span class="start-quote">“${KB.esc(c.preview)}”</span>`;
+}
+
 function paged(boxId, btnId, cards, emptyText){
   const box = document.getElementById(boxId);
   const btn = document.getElementById(btnId);
@@ -209,12 +221,18 @@ document.addEventListener("DOMContentLoaded", async () => {
      研究这个主题的人本应看得到「这件事在教学中怎样发生」。 */
   const cases = entry.cases || [];
   if (cases.length) {
+    /* 复分标签条目（如 A18）的「带此标记的卡」与「相关案例」会重叠——
+       复审实测 A18 的 11 条案例里有 7 条已经在上面那 69 张里，
+       而文案写「另有 11 条」会让读者按 69+11 理解库存。所以重叠要如实披露。 */
+    const aboveIds = new Set(cards.map(c => c.id));
+    const overlap = cases.filter(c => aboveIds.has(c.id)).length;
     jump.splice(jump.length - 2, 0,
       `<a class="entry-jump-item" href="#caseSection"><b>${cases.length}</b> 相关案例</a>`);
     document.getElementById("entryJump").innerHTML = jump.join("");
     document.getElementById("caseSub").innerHTML =
-      `另有 <b>${cases.length}</b> 条教学案例与教育叙事可以作「${KB.esc(entry.name)}」的例证——
-       它们本身没有中心主张（所以不在上面的主归属里），但讲的是这条主张在教学中怎样发生。`;
+      `<b>${cases.length}</b> 条教学案例与教育叙事可以作「${KB.esc(entry.name)}」的例证——` +
+      `它们本身没有分配主归属，但讲的是这条主张在教学中怎样发生。` +
+      (overlap ? `其中 <b>${overlap}</b> 条<b>也列在上方</b>（合计去重后 ${cases.length + cards.length - overlap} 条）。` : "");
     paged("caseList", "caseMore", cases, "暂无相关案例。");
   } else {
     document.getElementById("caseSection").style.display = "none";
@@ -229,7 +247,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       <a class="start-card" href="card.html?id=${encodeURIComponent(c.id)}#${KB.esc(c.id)}">
         <span class="start-idx">${i + 1}</span>
         <span class="start-body">
-          <span class="start-quote">“${KB.esc(c.preview || c.title)}”</span>
+          ${startQuote(c)}
           <span class="start-meta">${KB.esc(c.title)} · ${KB.esc(KB.typeLabel(c.type))} · ${KB.esc(c.id)}</span>
         </span>
       </a>`).join("");
@@ -249,9 +267,13 @@ document.addEventListener("DOMContentLoaded", async () => {
   });
   document.getElementById("exportEntryCsv").addEventListener("click", () => {
     const cols = ["id","part","type","title","source","primary","seealso","ref"];
+    /* CSV 必须包含**全部三类卡片**：主归属、交叉参见、相关案例。
+       早先只连了 cards 与 cross，新增的 116 条教学案例被漏掉——
+       A11 因此只导出 86 条，少 16 条（第二轮复审核到的源码事实）。 */
     const rows = [cols.join(",")].concat(
       cards.map(c => ({...c, part: info.tag ? "带此标记" : "主归属"}))
         .concat(cross.map(c => ({...c, part: "参见"})))
+        .concat((entry.cases || []).map(c => ({...c, part: "相关案例"})))
         .map(c => cols.map(k => {
           if(k === "seealso") return csvEscape((c.seealso||[]).join("|"));
           if(k === "ref") return csvEscape(KB.refText(c.ref));

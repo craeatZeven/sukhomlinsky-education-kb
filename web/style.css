@@ -394,6 +394,27 @@ button.mx-cell:hover { box-shadow: 0 0 0 2px var(--accent); }
 .conf-judge .conf-tag { color: var(--accent); border-color: color-mix(in srgb, var(--accent) 40%, var(--line)); }
 .conf-foot { margin: 14px 0 0; color: var(--soft); font-size: 13px; }
 
+/* 条目页首屏的「从这里开始」：先给三张入门卡，再接长目录（评审 B·03） */
+.start-block { margin: 0 0 30px; }
+.start-title { font-size: 17px; margin: 0 0 4px; display: flex; align-items: center; gap: 10px; }
+.start-title::before { content: ""; width: 4px; height: 16px; border-radius: 4px; background: var(--accent); }
+.start-note { margin: 0 0 12px; color: var(--soft); font-size: 13px; }
+.start-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 12px; }
+.start-card {
+  display: flex; gap: 12px; align-items: flex-start; text-decoration: none;
+  background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 14px 16px; transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+.start-card:hover { transform: translateY(-2px); box-shadow: var(--shadow); border-color: color-mix(in srgb, var(--accent) 40%, var(--line)); }
+.start-idx {
+  flex: none; width: 22px; height: 22px; border-radius: 50%; background: var(--accent-soft);
+  color: var(--accent); font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center;
+}
+.start-body { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.start-quote { font-family: var(--serif); font-size: 15px; line-height: 1.65; color: var(--ink); }
+.start-meta { color: var(--soft); font-size: 12px; }
+@media (max-width: 680px) { .start-cards { grid-template-columns: 1fr; } }
+
 /* Footer */
 footer { margin-top: 70px; border-top: 1px solid var(--line); padding: 28px 0 60px; color: var(--soft); font-size: 14px; text-align: center; }
 footer a { color: var(--accent); text-decoration: none; }

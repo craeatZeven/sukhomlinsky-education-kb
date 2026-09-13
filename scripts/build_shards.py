@@ -477,6 +477,23 @@ def main() -> None:
         # 相关案例：教学案例不持主归属，但「可以作这一条的例证」。
         # 放在条目页上，研究这个主题的人才能看到「这件事在教学中怎样发生」。
         cases_here = [index_by_id[cid] for cid in tax.case_of_entry.get(code, [])]
+        # 「从这里开始」：条目页首屏偏重（外部评审 docs/codex-final-opinion.md B·03 与 A3 第一处），
+        # 所以先替读者挑 3 张入门卡。挑法对读者可见、也说得清：
+        #   · 先要**主张型**的卡（quote / principle）——它们最像"一句话说清这一条"；
+        #   · 同类型里取**摘录最短**的（最短 = 最凝练、最好读进去）；
+        #   · 再按 id 稳定排序，保证每次构建结果一致。
+        # 这是编排者的挑选，页面上如实这么写，不假称"最重要"。
+        def _starter(card: dict) -> tuple:
+            cid_ = card['id']
+            pithy = 0 if card.get('type') in ('quote', 'principle') else 1
+            exps = card.get('excerpts') or []
+            return (pithy, len(exps[0]) if exps else 9999, cid_)
+
+        start_here = ([] if row['tag'] else
+                      [index_by_id[c['id']]
+                       for c in sorted((c for c in cards
+                                        if tax.primary.get(c['id']) == code),
+                                       key=_starter)[:3]])
         payload = {
             'code': code,
             'name': row['name'],
@@ -487,6 +504,7 @@ def main() -> None:
             'cards': cards_here,
             'cross': cross_here,
             'cases': cases_here,
+            'start': start_here,
         }
         path = entry_dir / f'{code}.json'
         entry_bytes += dump(path, payload)

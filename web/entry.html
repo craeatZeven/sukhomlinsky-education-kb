@@ -43,6 +43,14 @@
        只是统计文字不是跳转——「参见区存在」不等于读者看得到参见。 -->
   <nav class="entry-jump" id="entryJump" aria-label="本页分区"></nav>
 
+  <!-- 「从这里开始」：条目页首屏偏重（外部评审 B·03 与 A3 第一处），先替读者挑 3 张入门卡。
+       挑法由构建脚本给出（主张型优先、摘录最短优先），页面上如实写明这是编排者的挑选。 -->
+  <section id="startSection" class="start-block" style="display:none">
+    <h2 class="start-title">从这里开始</h2>
+    <p class="start-note">编者按「一句话说清这一条」挑的三张，不是按重要性排的。</p>
+    <div class="start-cards" id="startList"></div>
+  </section>
+
   <section id="primarySection">
     <h2 class="section-title" id="primaryTitle">主归属</h2>
     <p class="section-sub" id="primarySub"></p>
@@ -184,7 +192,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   document.getElementById("primarySub").innerHTML = info.tag
     ? `<b>${KB.esc(entry.code)} ${KB.esc(entry.name)}</b> 是复分标签：它本身不持卡片，只给「谈这类孩子」的卡加标记——
        每张卡的主归属仍按内容定。下面列出的 ${cards.length} 张就是带此标记的卡，每行末尾标出的是那张卡自己的主归属。`
-    : `中心主张落在「${KB.esc(entry.name)}」的 ${cards.length} 张卡。收录口径：${KB.esc(entry.rule)}`;
+    : `中心主张落在「${KB.esc(entry.name)}」的 ${cards.length} 张卡。`;
   paged("cardList", "loadMore", cards, info.tag ? "暂无带此标记的卡片。" : "该条目暂无主归属卡片。");
 
   if(cross.length){
@@ -210,6 +218,21 @@ document.addEventListener("DOMContentLoaded", async () => {
     paged("caseList", "caseMore", cases, "暂无相关案例。");
   } else {
     document.getElementById("caseSection").style.display = "none";
+  }
+
+  /* 首屏的「从这里开始」：把编者挑的三张摆在主列表之前，
+     免得读者一进来先面对几十行目录（评审 B·03：首屏偏重）。 */
+  const start = entry.start || [];
+  if (start.length) {
+    document.getElementById("startSection").style.display = "";
+    document.getElementById("startList").innerHTML = start.map((c, i) => `
+      <a class="start-card" href="card.html?id=${encodeURIComponent(c.id)}#${KB.esc(c.id)}">
+        <span class="start-idx">${i + 1}</span>
+        <span class="start-body">
+          <span class="start-quote">“${KB.esc(c.preview || c.title)}”</span>
+          <span class="start-meta">${KB.esc(c.title)} · ${KB.esc(KB.typeLabel(c.type))} · ${KB.esc(c.id)}</span>
+        </span>
+      </a>`).join("");
   }
 
   const siblings = layer ? (layer.entries || []).filter(c => c !== entry.code) : [];

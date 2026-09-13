@@ -36,11 +36,15 @@
       var next = THEMES[(idx + 1) % THEMES.length].id;
       applyTheme(next);
     });
-    /* 放进顶栏右侧（深 chrome 层），不再用悬浮胶囊——悬浮会盖住目录行文字 */
-    var navLinks = document.querySelector(".topnav .nav-links");
-    if (navLinks) {
+    /* 放进顶栏右侧（深 chrome 层）。
+       **不放进 `.nav-links`**：那个容器是可横向滚动的（窄屏时链接在里面滚），
+       把风格切换放进去会被一起滚走；而且它的宽度会把 10 个链接的可用空间挤到
+       不够，导致标签折成两行（2026-09-13 实测 1280 下 10 个标签全部折行）。 */
+    var bar = document.querySelector(".topnav .inner");
+    if (bar) {
       fab.className = "theme-nav";
-      navLinks.appendChild(fab);
+      fab.title = "切换风格";
+      bar.appendChild(fab);
     } else {
       fab.className = "theme-fab";
       document.body.appendChild(fab);

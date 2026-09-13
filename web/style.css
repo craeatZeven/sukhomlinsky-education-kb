@@ -83,6 +83,14 @@ a:hover { color: var(--accent); text-decoration-color: var(--accent); }
 .topnav .nav-links { display: flex; gap: 6px; margin-left: auto; }
 .topnav .nav-link { color: var(--chrome-soft); text-decoration: none; font-size: 14px; padding: 6px 12px; border-radius: var(--radius-archive); transition: color .15s, box-shadow .15s; }
 .topnav .nav-link:hover, .topnav .nav-link.active { color: var(--chrome-ink); background: transparent; box-shadow: inset 0 -2px 0 var(--accent); }
+/* 2026-09-13 修：桌面档原来没有 nowrap，宽度不够时 flex 压窄链接、**文字自己折行**
+   （实测 1280 下 10 个标签全折成两行，scrollWidth 判据察觉不到，因为折行不产生溢出）。
+   现在一律 nowrap：宁可溢出/滚动，也不要静默折行。 */
+.topnav .nav-link { white-space: nowrap; }
+/* 窄桌面档（681–800px 实测会出现页面级横向滚动条）改为在导航内部滚动：
+   min-width:0 允许容器被压缩，overflow-x:auto 把溢出收在容器里，不撑破页面。 */
+.topnav .nav-links { min-width: 0; overflow-x: auto; scrollbar-width: none; }
+.topnav .nav-links::-webkit-scrollbar { display: none; }
 @media (max-width: 680px) {
   .topnav .inner { gap: 8px; }
   .topnav .nav-links { gap: 2px; flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
@@ -209,18 +217,29 @@ a.badge--see { color: var(--soft); border-style: dashed; }
   border-left: 1px solid color-mix(in srgb, var(--chrome-ink) 16%, transparent);
   padding: 6px 4px 6px 12px; color: var(--chrome-soft); font-size: 14px;
   font-family: var(--sans); cursor: pointer; transition: color .15s;
+  flex: none;   /* 不被压缩：它是 chrome，不该跟 10 个目的地抢宽度 */
 }
 .theme-nav:hover { color: var(--chrome-ink); }
 .theme-nav .dot { width: 12px; height: 12px; border-radius: 50%; border: 2px solid color-mix(in srgb, var(--chrome-ink) 30%, transparent); }
 .theme-nav .dot.active { border-color: var(--accent); }
+/* 「风格 · 森林」这行字吃掉约 83px，正是 1280 下 10 个链接折成两行的差额来源。
+   三个圆点本身 + title 提示已经能表达状态，故顶栏一律只留圆点。 */
+.theme-nav .theme-label { display: none; }
 @media (max-width: 680px) {
   .theme-nav { margin-left: 4px; padding-left: 8px; min-height: 40px; }
-  .theme-nav .theme-label { display: none; }
 }
 
 /* Footer */
 footer { margin-top: 70px; border-top: 1px solid var(--line); padding: 28px 0 60px; color: var(--soft); font-size: 14px; text-align: center; }
 footer a { color: var(--accent); text-decoration: none; }
+/* 次级入口：工具/元信息页。顶栏只放读者目的地（10 项），
+   案例 Review / 覆盖报告 / 使用指南 / 最近更新 放在这里，从任何一页都到得了。 */
+footer .foot-links { margin: 0 0 12px; letter-spacing: .02em; }
+footer .foot-links a { text-decoration: underline; text-decoration-color: color-mix(in srgb, var(--accent) 40%, transparent); text-underline-offset: 3px; }
+footer .foot-links a:hover { text-decoration-color: var(--accent); }
+@media (max-width: 680px) {
+  footer .foot-links { line-height: 2; }
+}
 
 /* Scroll reveal */
 @media (prefers-reduced-motion: no-preference) {

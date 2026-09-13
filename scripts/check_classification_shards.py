@@ -118,6 +118,13 @@ def main() -> int:
         want_cross = sum(1 for r in cls.values() if code in (r.get('seealso') or []))
         if len(payload['cross']) != want_cross:
             fail(f'条目分片 {code} cross={len(payload["cross"])} 与现算 {want_cross} 不一致')
+        # 相关案例：case 卡靠 `case_entries` 挂到条目上（它们不持主归属）
+        want_cases = sum(1 for r in cls.values()
+                         if r.get('type') == 'case' and code in (r.get('case_entries') or []))
+        if len(payload.get('cases') or []) != want_cases:
+            fail(f'条目分片 {code} cases={len(payload.get("cases") or [])} 与现算 {want_cases} 不一致')
+        if e.get('case_count') != want_cases:
+            fail(f'meta {code} case_count={e.get("case_count")} 与现算 {want_cases} 不一致')
 
     # --- 5) 卡片总数
     if meta['counts']['cards'] != len(cls):

@@ -10342,7 +10342,11 @@
    "S8"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A18"
+  ],
+  "case_entries_why": "两年降低低识字率，后进生工作的早期胜利"
  },
  "sk-0006": {
   "primary": null,
@@ -10376,7 +10380,13 @@
   "tags": [
    "A18"
   ],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A11",
+   "A18",
+   "A19"
+  ],
+  "case_entries_why": "难教孩子在集体劳动中学会为他人付出"
  },
  "sk-0022": {
   "primary": null,
@@ -10411,7 +10421,13 @@
   "tags": [
    "A18"
   ],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A11",
+   "A15",
+   "A18"
+  ],
+  "case_entries_why": "差生靠动手观察显露智慧，思维觉醒"
  },
  "sk-0074": {
   "primary": null,
@@ -10429,7 +10445,12 @@
    "S17"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A16",
+   "A19"
+  ],
+  "case_entries_why": "公开表扬让做好事变成求表扬"
  },
  "sk-0076": {
   "primary": null,
@@ -10447,7 +10468,13 @@
   "tags": [
    "A18"
   ],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A12",
+   "A15",
+   "A18"
+  ],
+  "case_entries_why": "智力落后生的长期多通道教学"
  },
  "sk-0081": {
   "primary": null,
@@ -10465,7 +10492,12 @@
    "S17"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A8",
+   "A19"
+  ],
+  "case_entries_why": "父亲以身示范纠正谎言"
  },
  "sk-0087": {
   "primary": null,
@@ -10482,7 +10514,12 @@
    "S10"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A4",
+   "A7"
+  ],
+  "case_entries_why": "远足锻炼孩子的意志与体能"
  },
  "sk-0090": {
   "primary": null,
@@ -10500,7 +10537,12 @@
    "S16"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A4",
+   "A6"
+  ],
+  "case_entries_why": "了解生活半径后交付真实责任"
  },
  "sk-0099": {
   "primary": null,
@@ -10517,7 +10559,13 @@
    "S12"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A2",
+   "A9",
+   "A11"
+  ],
+  "case_entries_why": "集体长期劳动形成公民尊严"
  },
  "sk-0102": {
   "primary": null,
@@ -10533,7 +10581,13 @@
    "S8"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A6",
+   "A15",
+   "A18"
+  ],
+  "case_entries_why": "感知缓慢儿童另设节奏并训练思维"
  },
  "sk-0111": {
   "primary": null,
@@ -10550,7 +10604,12 @@
    "S13"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A6",
+   "A19"
+  ],
+  "case_entries_why": "用故事诊断儿童的情感成熟度"
  },
  "sk-0114": {
   "primary": null,
@@ -10566,7 +10625,12 @@
    "S12"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A5",
+   "A21"
+  ],
+  "case_entries_why": "少年以批判眼光衡量成人的言行不一"
  },
  "sk-0121": {
   "primary": null,
@@ -10583,7 +10647,13 @@
    "S12"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A3",
+   "A8",
+   "A11"
+  ],
+  "case_entries_why": "娇惯不劳动导致精神空虚"
  },
  "sk-0125": {
   "primary": null,
@@ -10602,7 +10672,13 @@
   "tags": [
    "A18"
   ],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A9",
+   "A16",
+   "A17"
+  ],
+  "case_entries_why": "停学处分失败，须靠集体舆论"
  },
  "sk-0132": {
   "primary": null,
@@ -10660,7 +10736,13 @@
    "S17"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A2",
+   "A11",
+   "A19"
+  ],
+  "case_entries_why": "看见孤独者，以劳动回应牺牲"
  },
  "sk-0150": {
   "primary": null,
@@ -10678,7 +10760,13 @@
    "S11"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A12",
+   "A15",
+   "A22"
+  ],
+  "case_entries_why": "先在大自然感受词，再学读写"
  },
  "sk-0168": {
   "primary": null,
@@ -10692,7 +10780,12 @@
    "S8"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A2",
+   "A15"
+  ],
+  "case_entries_why": "义务感胜过检查与强制"
  },
  "sk-0172": {
   "primary": null,
@@ -10710,7 +10803,13 @@
    "S12"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A14",
+   "A19",
+   "A22"
+  ],
+  "case_entries_why": "等美被毁的失落成熟再引导"
  },
  "sk-0183": {
   "primary": null,
@@ -10727,7 +10826,12 @@
   "tags": [
    "A18"
   ],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A15",
+   "A16"
+  ],
+  "case_entries_why": "不打2分，让孩子自己挣分"
  },
  "sk-0185": {
   "primary": null,
@@ -10745,7 +10849,13 @@
   "tags": [
    "A18"
   ],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A6",
+   "A7",
+   "A18"
+  ],
+  "case_entries_why": "走神实为久坐致病，先改作息"
  },
  "sk-0195": {
   "primary": null,
@@ -10761,7 +10871,13 @@
    "S6"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A12",
+   "A15",
+   "A18"
+  ],
+  "case_entries_why": "记不住的女孩因观察发问而激活记忆"
  },
  "sk-0203": {
   "primary": null,
@@ -10780,7 +10896,13 @@
    "S13"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A3",
+   "A16",
+   "A19"
+  ],
+  "case_entries_why": "为分数做好事，善心并未生长"
  },
  "sk-0205": {
   "primary": null,
@@ -10796,7 +10918,13 @@
    "S16"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A3",
+   "A5",
+   "A6"
+  ],
+  "case_entries_why": "敏锐的个人关怀留住绝望少女"
  },
  "sk-0336": {
   "primary": null,
@@ -11003,7 +11131,13 @@
    "S13"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A14",
+   "A19",
+   "A22"
+  ],
+  "case_entries_why": "摘花后引导孩子为他人留美"
  },
  "sk-0434": {
   "primary": null,
@@ -11022,7 +11156,12 @@
    "S13"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A8",
+   "A19"
+  ],
+  "case_entries_why": "残忍从小生命开始，须善待生命"
  },
  "sk-0435": {
   "primary": null,
@@ -11039,7 +11178,12 @@
    "S17"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A6",
+   "A5"
+  ],
+  "case_entries_why": "教师只看表面不观察儿童，冤枉伤其心灵"
  },
  "sk-0436": {
   "primary": null,
@@ -11055,7 +11199,12 @@
    "S13"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A4",
+   "A19"
+  ],
+  "case_entries_why": "教少年克制欲望、先为他人着想"
  },
  "sk-0437": {
   "primary": null,
@@ -11071,7 +11220,12 @@
    "S8"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A5",
+   "A8"
+  ],
+  "case_entries_why": "长辈不轻给的吻含期待，真爱非物质"
  },
  "sk-0438": {
   "primary": null,
@@ -11088,7 +11242,12 @@
    "S13"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A9",
+   "A19"
+  ],
+  "case_entries_why": "集体情感基础：学会为他人欢乐而欢乐"
  },
  "sk-0439": {
   "primary": null,
@@ -11103,7 +11262,12 @@
    "S15"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A2",
+   "A19"
+  ],
+  "case_entries_why": "英雄故事育爱国与蔑视背叛"
  },
  "sk-0440": {
   "primary": null,
@@ -11119,7 +11283,12 @@
    "S11"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A14",
+   "A19"
+  ],
+  "case_entries_why": "童话讲美与谦虚不可分"
  },
  "sk-0441": {
   "primary": null,
@@ -11136,7 +11305,12 @@
    "S17"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A19",
+   "A4"
+  ],
+  "case_entries_why": "良心先于行动醒来，萌生同情与过失感"
  },
  "sk-0442": {
   "primary": null,
@@ -20017,7 +20191,12 @@
    "S6"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A9",
+   "A12"
+  ],
+  "case_entries_why": "思维课上儿童创作：个体离开集体无意义"
  },
  "sk-0984": {
   "primary": null,
@@ -20033,7 +20212,12 @@
    "S17"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A11",
+   "A19"
+  ],
+  "case_entries_why": "游手好闲者童话：劳动才留下岁月"
  },
  "sk-0985": {
   "primary": null,
@@ -20049,7 +20233,11 @@
    "S6"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A19"
+  ],
+  "case_entries_why": "孩子反问不会再来了，暴露利己主义"
  },
  "sk-0986": {
   "primary": null,
@@ -20065,7 +20253,12 @@
    "S15"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A11",
+   "A19"
+  ],
+  "case_entries_why": "勤劳人的森林即其岁月，劳动赋予人生"
  },
  "sk-0987": {
   "primary": null,
@@ -20083,7 +20276,12 @@
    "S13"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A19",
+   "A9"
+  ],
+  "case_entries_why": "同学对卑鄙行为愤怒，道德成积极力量"
  },
  "sk-0988": {
   "primary": null,
@@ -20099,7 +20297,12 @@
    "S13"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A19",
+   "A9"
+  ],
+  "case_entries_why": "放弃旅行陪伴同学不幸，共情教育"
  },
  "sk-0990": {
   "primary": null,
@@ -20114,7 +20317,12 @@
    "S8"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A16",
+   "A19"
+  ],
+  "case_entries_why": "不应得的夸奖是侮辱，谦虚由此起步"
  },
  "sk-0991": {
   "primary": null,
@@ -20128,7 +20336,12 @@
    "S5"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A16",
+   "A19"
+  ],
+  "case_entries_why": "错误表扬歪曲衡量尺度，教人谦虚"
  },
  "sk-0992": {
   "primary": null,
@@ -20146,7 +20359,12 @@
    "S15"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A4",
+   "A22"
+  ],
+  "case_entries_why": "讲述动人故事，孩子想成为刚强的人"
  },
  "sk-0993": {
   "primary": null,
@@ -20164,7 +20382,11 @@
    "S5"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A9"
+  ],
+  "case_entries_why": "养蜂场讲童话，幻想凝聚儿童集体"
  },
  "sk-1012": {
   "primary": null,
@@ -20181,7 +20403,12 @@
    "S8"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A6",
+   "A8"
+  ],
+  "case_entries_why": "每个孩子是独特的锁，须了解其家庭"
  },
  "sk-1042": {
   "primary": null,
@@ -20193,7 +20420,12 @@
   ],
   "facets": [],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A19",
+   "A8"
+  ],
+  "case_entries_why": "教儿童为亲人行善，防自私"
  },
  "sk-1084": {
   "primary": null,
@@ -20209,7 +20441,11 @@
    "S13"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A9"
+  ],
+  "case_entries_why": "童话把归属落到一朵花上"
  },
  "sk-1085": {
   "primary": null,
@@ -20227,7 +20463,12 @@
    "S14"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A9",
+   "A19"
+  ],
+  "case_entries_why": "无说教的童话把招待与感谢写成动作"
  },
  "sk-1086": {
   "primary": null,
@@ -20245,7 +20486,12 @@
    "S17"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A5",
+   "A22"
+  ],
+  "case_entries_why": "不当众没收甲虫，课后还他，护求知欲"
  },
  "sk-1087": {
   "primary": null,
@@ -20264,7 +20510,11 @@
    "S15"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A14"
+  ],
+  "case_entries_why": "同一乐曲，老人与孩子听出不同情感"
  },
  "sk-1088": {
   "primary": null,
@@ -20281,7 +20531,12 @@
    "S15"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A21",
+   "A8"
+  ],
+  "case_entries_why": "六岁孩子不解死亡，亲情与年龄认知"
  },
  "sk-1089": {
   "primary": null,
@@ -20298,7 +20553,11 @@
    "S11"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A14"
+  ],
+  "case_entries_why": "诗写百灵鸟与黎明，审美与情感素养"
  },
  "sk-1090": {
   "primary": null,
@@ -20314,7 +20573,11 @@
    "S6"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A10"
+  ],
+  "case_entries_why": "教师自己写自然习作，示范教师素养的自我完善"
  },
  "sk-1091": {
   "primary": null,
@@ -20331,7 +20594,11 @@
    "S11"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A10"
+  ],
+  "case_entries_why": "教师观察习作，讲教师自身教育技巧的养成"
  },
  "sk-1092": {
   "primary": null,
@@ -20347,7 +20614,12 @@
    "S6"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A12",
+   "A14"
+  ],
+  "case_entries_why": "学生自然观察习作，把暮色写成美与想象"
  },
  "sk-1093": {
   "primary": null,
@@ -20363,7 +20635,12 @@
    "S16"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A12",
+   "A14"
+  ],
+  "case_entries_why": "一年级观察自然并把自己的盼望写进景物"
  },
  "sk-1104": {
   "primary": null,
@@ -20380,7 +20657,12 @@
    "S13"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A12",
+   "A15"
+  ],
+  "case_entries_why": "思维课自编童话，好奇心化作想象与语言"
  },
  "sk-1105": {
   "primary": null,
@@ -20395,7 +20677,12 @@
    "S6"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A12",
+   "A15"
+  ],
+  "case_entries_why": "思维课上孩子编蒲公英童话，想象中认识自然"
  },
  "sk-1106": {
   "primary": null,
@@ -20410,7 +20697,12 @@
    "S5"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A15",
+   "A12"
+  ],
+  "case_entries_why": "寓言讲沉默即思考，思维课的思考训练"
  },
  "sk-1107": {
   "primary": null,
@@ -20427,7 +20719,12 @@
    "S11"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A12",
+   "A14"
+  ],
+  "case_entries_why": "学生观察春景与仙鹤，写成审美短文"
  },
  "sk-1108": {
   "primary": null,
@@ -20448,7 +20745,12 @@
    "S12"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A9",
+   "A11"
+  ],
+  "case_entries_why": "刈草场共同劳动与篝火夜谈的集体生活"
  },
  "sk-1109": {
   "primary": null,
@@ -20465,7 +20767,12 @@
    "S12"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A12",
+   "A14"
+  ],
+  "case_entries_why": "儿童凭气味判断秋天，观察里长出美感"
  },
  "sk-1110": {
   "primary": null,
@@ -20482,7 +20789,12 @@
    "S11"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A8",
+   "A12"
+  ],
+  "case_entries_why": "妈妈把鹳巢说成祝福，观察连着家庭记忆"
  },
  "sk-1111": {
   "primary": null,
@@ -20498,7 +20810,12 @@
    "S11"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A12",
+   "A14"
+  ],
+  "case_entries_why": "迎接日出并追问宇宙，自然观察通向美"
  },
  "sk-1122": {
   "primary": null,
@@ -20515,7 +20832,12 @@
    "S11"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A12",
+   "A14"
+  ],
+  "case_entries_why": "孩子把苹果花写成银铃，感官的审美表达"
  },
  "sk-1123": {
   "primary": null,
@@ -20532,7 +20854,12 @@
    "S11"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A12",
+   "A15"
+  ],
+  "case_entries_why": "报春花童话，把季节转换写成想象与对话"
  },
  "sk-1124": {
   "primary": null,
@@ -20549,7 +20876,12 @@
    "S16"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A19",
+   "A12"
+  ],
+  "case_entries_why": "观察蜘蛛后救下苍蝇，观察生出善的行动"
  },
  "sk-1125": {
   "primary": null,
@@ -20567,7 +20899,12 @@
    "S11"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A15",
+   "A8"
+  ],
+  "case_entries_why": "母亲的诗意回答引出儿童想象与追问"
  },
  "sk-1126": {
   "primary": null,
@@ -20580,7 +20917,11 @@
   ],
   "facets": [],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A11"
+  ],
+  "case_entries_why": "四个答案收束到劳动最主要，劳动的价值"
  },
  "sk-1127": {
   "primary": null,
@@ -20597,7 +20938,12 @@
    "S13"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A12",
+   "A6"
+  ],
+  "case_entries_why": "长期跟踪观察一窝刺猬，观察即了解儿童"
  },
  "sk-1128": {
   "primary": null,
@@ -20614,7 +20960,12 @@
    "S13"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A9",
+   "A11"
+  ],
+  "case_entries_why": "集体编写瓜园生活，分瓜约定见同伴关系"
  },
  "sk-1129": {
   "primary": null,
@@ -20630,7 +20981,12 @@
    "S11"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A14",
+   "A12"
+  ],
+  "case_entries_why": "夜晚倾听大自然的音乐，审美敏感的训练"
  },
  "sk-1130": {
   "primary": null,
@@ -20649,7 +21005,12 @@
    "S12"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A8",
+   "A14"
+  ],
+  "case_entries_why": "随父亲运干草的记忆，家庭与自然的美感"
  },
  "sk-1131": {
   "primary": null,
@@ -20665,7 +21026,12 @@
    "S15"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A2",
+   "A15"
+  ],
+  "case_entries_why": "科幻作文回望地球，发出公民的和平呼吁"
  },
  "sk-1141": {
   "primary": null,
@@ -20678,7 +21044,12 @@
   ],
   "facets": [],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A3",
+   "A4"
+  ],
+  "case_entries_why": "选择伴侣须对精神世界提要求，关乎幸福"
  },
  "sk-1142": {
   "primary": null,
@@ -20695,7 +21066,12 @@
    "S6"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A8",
+   "A15"
+  ],
+  "case_entries_why": "小啄木鸟好奇闯祸，母亲宽容且好奇不灭"
  },
  "sk-1143": {
   "primary": null,
@@ -20711,7 +21087,11 @@
    "S6"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A9"
+  ],
+  "case_entries_why": "花瓣离花朵就什么也不是，个人与集体"
  },
  "sk-1144": {
   "primary": null,
@@ -20728,7 +21108,11 @@
    "S15"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A2"
+  ],
+  "case_entries_why": "学生自编故事表达对牺牲英雄的敬意"
  },
  "sk-1145": {
   "primary": null,
@@ -20744,7 +21128,11 @@
    "S17"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A19"
+  ],
+  "case_entries_why": "拟人故事写出对弱者的同情与羞愧"
  },
  "sk-1146": {
   "primary": null,
@@ -20760,7 +21148,11 @@
    "S6"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A12"
+  ],
+  "case_entries_why": "儿童观察椋鸟越冬并写下自然笔记"
  },
  "sk-1147": {
   "primary": null,
@@ -20778,7 +21170,11 @@
    "S7"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A15"
+  ],
+  "case_entries_why": "童话习作展现儿童想象"
  },
  "sk-1148": {
   "primary": null,
@@ -20797,7 +21193,11 @@
    "S12"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A15"
+  ],
+  "case_entries_why": "把干草车想象成航船的想象力例子"
  },
  "sk-1149": {
   "primary": null,
@@ -20814,7 +21214,11 @@
    "S11"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A12"
+  ],
+  "case_entries_why": "由燕子与露珠写出秋天来临的观察"
  },
  "sk-1150": {
   "primary": null,
@@ -20833,7 +21237,11 @@
    "S16"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A19"
+  ],
+  "case_entries_why": "烈马对孩子的温柔写出善良品质"
  },
  "sk-1151": {
   "primary": null,
@@ -20850,7 +21258,11 @@
    "S13"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A2"
+  ],
+  "case_entries_why": "写英雄骑兵，孩子说我也想做这样的人"
  },
  "sk-1157": {
   "primary": null,
@@ -20866,7 +21278,12 @@
    "S10"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A2",
+   "A19"
+  ],
+  "case_entries_why": "真理要造福于人，冷漠的实话不算信念"
  },
  "sk-1160": {
   "primary": null,
@@ -20882,7 +21299,12 @@
    "S8"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A13",
+   "A10"
+  ],
+  "case_entries_why": "教师买书读书，用书籍影响学生心灵"
  },
  "sk-1204": {
   "primary": null,
@@ -20898,7 +21320,12 @@
    "S8"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A4",
+   "A19"
+  ],
+  "case_entries_why": "理智知道而心灵不动，知而未成信念"
  },
  "sk-1219": {
   "primary": null,
@@ -20913,7 +21340,12 @@
    "S8"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A2",
+   "A22"
+  ],
+  "case_entries_why": "把英雄肖像当管教杠杆，理想教育失败"
  },
  "sk-1230": {
   "primary": null,
@@ -20926,7 +21358,11 @@
   ],
   "facets": [],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A2"
+  ],
+  "case_entries_why": "把时代精神与祖国信念送到青少年心里"
  },
  "sk-1239": {
   "primary": null,
@@ -20945,7 +21381,12 @@
   "tags": [
    "A18"
   ],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A18",
+   "A13"
+  ],
+  "case_entries_why": "费佳靠阅读唤醒思想，不靠补课"
  },
  "sk-1243": {
   "primary": null,
@@ -20962,7 +21403,12 @@
    "S17"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A16",
+   "A22"
+  ],
+  "case_entries_why": "责备的时机与针对具体孩子的语言"
  },
  "sk-1244": {
   "primary": null,
@@ -20981,7 +21427,12 @@
    "S8"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A15",
+   "A22"
+  ],
+  "case_entries_why": "草地参观中注意力被蝴蝶小蛙夺走"
  },
  "sk-1250": {
   "primary": null,
@@ -20997,7 +21448,11 @@
    "S7"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A8"
+  ],
+  "case_entries_why": "溺爱、暴君式爱与花钱的爱三种家庭"
  },
  "sk-1251": {
   "primary": null,
@@ -21017,7 +21472,12 @@
   "tags": [
    "A18"
   ],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A11",
+   "A18"
+  ],
+  "case_entries_why": "困难学生在模型与农业劳动中变聪明"
  },
  "sk-1263": {
   "primary": null,
@@ -21055,7 +21515,13 @@
   "tags": [
    "A18"
   ],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A16",
+   "A18",
+   "A5"
+  ],
+  "case_entries_why": "分数使差生心僵化，须慎待儿童"
  },
  "sk-1277": {
   "primary": null,
@@ -21072,7 +21538,13 @@
    "S8"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A16",
+   "A4",
+   "A18"
+  ],
+  "case_entries_why": "惩罚越频繁，自我教育成分越少"
  },
  "sk-1278": {
   "primary": null,
@@ -21089,7 +21561,12 @@
    "S12"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A11",
+   "A15"
+  ],
+  "case_entries_why": "做小匣子与钳工工具，手脑并用"
  },
  "sk-1294": {
   "primary": null,
@@ -21104,7 +21581,12 @@
    "S8"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A22",
+   "A15"
+  ],
+  "case_entries_why": "光合作用课：由教材症结生出问题"
  },
  "sk-1312": {
   "primary": null,
@@ -21119,7 +21601,13 @@
    "S8"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A22",
+   "A6",
+   "A5"
+  ],
+  "case_entries_why": "个别谈话的准备、倾听与谨慎接触心灵"
  },
  "sk-1314": {
   "primary": null,
@@ -21134,7 +21622,12 @@
    "S8"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A2",
+   "A22"
+  ],
+  "case_entries_why": "伏契克一课：从知道英雄到愿意行动"
  },
  "sk-1319": {
   "primary": null,
@@ -21149,7 +21642,12 @@
    "S8"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A15",
+   "A13"
+  ],
+  "case_entries_why": "有意与无意记忆一比三，靠阅读打底"
  },
  "sk-1320": {
   "primary": null,
@@ -21166,7 +21664,13 @@
    "S12"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A11",
+   "A8",
+   "A17"
+  ],
+  "case_entries_why": "家庭改造懒汉：早起与体力劳动养成习惯"
  },
  "sk-1322": {
   "primary": null,
@@ -21182,7 +21686,13 @@
    "S8"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A15",
+   "A22",
+   "A12"
+  ],
+  "case_entries_why": "抓教材接触点并把课堂搬到田野，点燃求知兴趣"
  },
  "sk-1324": {
   "primary": null,
@@ -21198,7 +21708,12 @@
    "S8"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A10",
+   "A3"
+  ],
+  "case_entries_why": "教师因工作无乐趣而早衰，是职业与精神生活之鉴"
  },
  "sk-1325": {
   "primary": null,
@@ -21213,7 +21728,12 @@
    "S8"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A7",
+   "A23"
+  ],
+  "case_entries_why": "作息制度与上学前做功课的时间安排，经验不可移植"
  },
  "sk-1326": {
   "primary": null,
@@ -21229,7 +21749,12 @@
    "S8"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A5",
+   "A6"
+  ],
+  "case_entries_why": "教师悄然观察并护住孩子的甲虫，不伤其信任"
  },
  "sk-1333": {
   "primary": null,
@@ -21249,7 +21774,12 @@
    "S15"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A4",
+   "A8"
+  ],
+  "case_entries_why": "同一堂课两种家庭氛围，道理未成信念"
  },
  "sk-1340": {
   "primary": null,
@@ -21264,7 +21794,13 @@
    "S8"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A6",
+   "A11",
+   "A15"
+  ],
+  "case_entries_why": "了解学生志向，以创造性劳动和学科魅力赢得心灵"
  },
  "sk-1346": {
   "primary": null,
@@ -21280,7 +21816,12 @@
    "S8"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A9",
+   "A11"
+  ],
+  "case_entries_why": "集体靠共同思想与共同劳动建立，非仅靠要求"
  },
  "sk-1356": {
   "primary": null,
@@ -21297,7 +21838,12 @@
    "S11"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A8",
+   "A19"
+  ],
+  "case_entries_why": "期待新生儿，让兄姐在家庭中生出新义务"
  },
  "sk-1362": {
   "primary": null,
@@ -21313,7 +21859,13 @@
    "S15"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A2",
+   "A19",
+   "A8"
+  ],
+  "case_entries_why": "扫墓与家族记忆培育公民觉悟和敬祖之德"
  },
  "sk-1375": {
   "primary": null,
@@ -21328,7 +21880,13 @@
    "S8"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A15",
+   "A21",
+   "A4"
+  ],
+  "case_entries_why": "用\"十年后成为大人\"唤起求知欲与自主性"
  },
  "sk-1384": {
   "primary": null,
@@ -21345,7 +21903,12 @@
    "S13"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A4",
+   "A2"
+  ],
+  "case_entries_why": "从园地坚定性到为乡亲栽树，信念化为生活准则"
  },
  "sk-1386": {
   "primary": null,
@@ -21363,7 +21926,12 @@
    "S17"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A4",
+   "A2"
+  ],
+  "case_entries_why": "课上英雄事迹经自我审视化为行动，信念非知识"
  },
  "sk-1389": {
   "primary": null,
@@ -21382,7 +21950,12 @@
    "S11"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A8",
+   "A19"
+  ],
+  "case_entries_why": "孙子送衬衣探蜂场，在家庭中养成敬重老人"
  },
  "sk-1390": {
   "primary": null,
@@ -21398,7 +21971,12 @@
    "S7"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A19",
+   "A8"
+  ],
+  "case_entries_why": "生日早起当面祝福，礼物是道德价值"
  },
  "sk-1391": {
   "primary": null,
@@ -21417,6 +21995,12 @@
    "S12"
   ],
   "tags": [],
-  "facet_source": "judge"
+  "facet_source": "judge",
+  "case_entries": [
+   "A4",
+   "A11",
+   "A14"
+  ],
+  "case_entries_why": "寻求美的劳动把应当、困难与好连成自我教育"
  }
 }

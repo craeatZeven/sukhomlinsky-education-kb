@@ -183,9 +183,23 @@ def parse_cards() -> list[dict]:
         excerpt = ' '.join(excerpts)
         cn_section = section(text, '中文转述/说明')
         cn = first_para(cn_section)
+        # 编者概括：当一张卡**没有逐字原文可用**时，把概括放在这个独立小节，
+        # 而不是塞进「原文/Excerpt」冒充引文（外部评审 docs/codex-final-opinion.md A1）。
+        editor_summary = ''
+        for name in ('编者概括', '编者概括/Summary'):
+            s = section(text, name)
+            if s:
+                editor_summary = s.strip()
+                break
+        # excerpt_status: verified（逐字原文，默认）| paraphrase（摘录槽位没有可用原文）
+        excerpt_status = (fm.get('excerpt_status') or 'verified').strip()
+        if not excerpts and editor_summary:
+            excerpt_status = 'paraphrase'
         topics_raw = (fm.get('topics') or '').strip()
         topics = [x.strip() for x in topics_raw.split(',') if x.strip()]
         tags: list[str] = []
+        if excerpt_status == 'paraphrase':
+            tags.append('原文待补')
         if '[OCR待校]' in text or '[extraction待校]' in text:
             tags.append('OCR待校')
         if any(k in text for k in ('待纸本核', '纸本复核', '待纸本', '待原书')):
@@ -200,6 +214,8 @@ def parse_cards() -> list[dict]:
             'topics': topics,
             'excerpt': excerpt,
             'excerpts': excerpts,
+            'excerpt_status': excerpt_status,
+            'editor_summary': editor_summary,
             'cn': cn,
             'ref': fm.get('ref', ''),
             'tags': tags,

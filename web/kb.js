@@ -311,13 +311,26 @@
     },
 
     /* 目录行：列表页专用（档案版式）。
-       一行放三类信息——引文 / 题名与类型 / 出处与条目归属；整行可点。 */
+       一行放三类信息——引文 / 题名与类型 / 出处与条目归属；整行可点。
+
+       **引号是有含义的**：它表示"这是原文"。所以只有真有逐字摘录时才套引号；
+       没有原文时退化成题名或编者概括，那时**不能套引号**——否则编辑写的标题
+       就获得了原文的视觉身份（外部评审 docs/codex-final-opinion.md A1）。 */
     cardRowHTML: function (card) {
       var flag = "";
       if ((card.n || 0) > 1) flag = '<span class="row-flag">另有 ' + (card.n - 1) + ' 段原文</span>';
       else if (card.trunc) flag = '<span class="row-flag">读全文 →</span>';
+      var lead;
+      if (card.excerpt_status === "paraphrase") {
+        lead = '<p class="row-quote row-noquote">' + KB.esc(card.editor_summary || card.title) +
+          '<span class="row-flag">编者概括 · 原文待补</span></p>';
+      } else if (card.preview) {
+        lead = '<p class="row-quote">“' + KB.esc(card.preview) + '”</p>';
+      } else {
+        lead = '<p class="row-quote row-noquote">' + KB.esc(card.title) + '</p>';
+      }
       return '\n  <a class="row" href="card.html?id=' + encodeURIComponent(card.id) + '#' + KB.esc(card.id) + '">\n' +
-        '    <p class="row-quote">“' + KB.esc(card.preview || card.title) + '”</p>\n' +
+        '    ' + lead + '\n' +
         '    <div class="row-meta">\n' +
         '      <span class="row-title">' + KB.esc(card.title) + '</span>\n' +
         '      <span>' + KB.esc(KB.typeLabel(card.type)) + '</span>\n' +

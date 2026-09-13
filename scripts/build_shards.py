@@ -41,6 +41,8 @@ WEB = ROOT / 'web'
 DATA = WEB / 'data'
 PREVIEW_LEN = 80
 CN_LEN = 60
+# 编者概括进列表行时的截断长度：比 preview 长一点，因为没有引文可看时它就是那一行的正文
+EDITOR_SUMMARY_LEN = 120
 CLASSIFICATION = ROOT / 'classification.json'
 
 
@@ -107,6 +109,11 @@ class Taxonomy:
         # 复分标签（A18）：不持主归属，只给相关卡片打标记，所以单独计数
         self.tag_count: dict[str, int] = {e['id']: 0 for e in self.entries}
         self.tag_of_card: dict[str, list[str]] = {}
+        # 教学案例挂条目：case 卡不持主归属，但可以「作某几条的例证」。
+        # 外部评审指出（docs/codex-final-opinion.md A3·第三处）：`type: case` 把
+        # 「儿童文学」和「教学案例」混成一类，后者因此退出了主题路径——
+        # 研究劳动教育的人在 A11 页看不到「这件事在教学中怎样发生」。
+        self.case_of_entry: dict[str, list[str]] = {e['id']: [] for e in self.entries}
         self.cross_layer = 0
         self.seealso_links = 0
         for cid, rec in cls.items():
@@ -118,6 +125,10 @@ class Taxonomy:
             self.tag_of_card[cid] = tg
             for code in tg:
                 self.tag_count[code] += 1
+            for code in (rec.get('case_entries') or []):
+                bucket = self.case_of_entry.get(code)
+                if bucket is not None and cid not in bucket:
+                    bucket.append(cid)
             if self.primary[cid]:
                 self.primary_count[self.primary[cid]] += 1
             for code in sa:
@@ -165,6 +176,8 @@ class Taxonomy:
                 'tag': bool(e['tag']),
                 # 复分标签用 tag_count（标记卡数），不是 count（主归属卡数，恒为 0）
                 'tag_count': self.tag_count.get(code, 0),
+                # 教学案例张数（case 卡不持主归属，但可作该条目的例证）
+                'case_count': len(self.case_of_entry.get(code, [])),
             })
         return rows
 
@@ -223,6 +236,11 @@ def card_index_entry(card: dict, tax: Taxonomy | None = None) -> dict:
         'ref': ref,
         'cn': clip(card.get('cn', ''), CN_LEN),
         'preview': clip(excerpts[0] if excerpts else '', PREVIEW_LEN),
+        # 原文身份：`excerpt_status` 为 paraphrase 时，`preview` 是空的，
+        # 前端改用 `editor_summary` 且**不套引号**（见 kb.js cardRowHTML 的注释）。
+        'excerpt_status': card.get('excerpt_status', 'verified'),
+        'editor_summary': clip(card.get('editor_summary', ''),
+                               EDITOR_SUMMARY_LEN),
         'trunc': bool(excerpts) and len(excerpts[0]) > PREVIEW_LEN,
         'n': len(excerpts),
     }
@@ -247,6 +265,8 @@ def card_full_entry(card: dict, prev_id=None, next_id=None, related=None,
         'cn': card.get('cn', ''),
         'excerpt': card.get('excerpt', ''),
         'excerpts': card.get('excerpts', []),
+        'excerpt_status': card.get('excerpt_status', 'verified'),
+        'editor_summary': card.get('editor_summary', ''),
         # 「关于本卡」溯源块用
         'created': card.get('created', ''),
         'updated': card.get('updated', ''),
@@ -454,6 +474,9 @@ def main() -> None:
                 item['cross_from_name'] = (tax.name_of.get(item['cross_from'], '')
                                            if item['cross_from'] else '')
                 cross_here.append(item)
+        # 相关案例：教学案例不持主归属，但「可以作这一条的例证」。
+        # 放在条目页上，研究这个主题的人才能看到「这件事在教学中怎样发生」。
+        cases_here = [index_by_id[cid] for cid in tax.case_of_entry.get(code, [])]
         payload = {
             'code': code,
             'name': row['name'],
@@ -463,6 +486,7 @@ def main() -> None:
             'count': len(cards_here),
             'cards': cards_here,
             'cross': cross_here,
+            'cases': cases_here,
         }
         path = entry_dir / f'{code}.json'
         entry_bytes += dump(path, payload)
@@ -515,6 +539,11 @@ def main() -> None:
     pos = {c: i for i, c in enumerate(map_order)}
     n_e = len(map_order)
     matrix = [[0] * n_e for _ in range(n_e)]
+    # 每一格对应的卡片 id：评审要求「点一条关系就能列出对应卡片」
+    # （docs/codex-final-opinion.md A3·第五处：矩阵格子只是带 title 的 span，
+    #  读者看见 A19→A4 = 14 张，却不能就地打开这 14 张）。
+    # 总量 = 参见边数（416），很小，直接塞进 map.json。
+    pairs: dict[str, list[str]] = {}
     for cid, rec in tax.cls.items():
         p = tax.primary.get(cid)
         if p not in pos:
@@ -522,6 +551,7 @@ def main() -> None:
         for s in tax.seealso.get(cid, []):
             if s in pos:
                 matrix[pos[p]][pos[s]] += 1
+                pairs.setdefault(f'{p}|{s}', []).append(cid)
     edges = sum(sum(row) for row in matrix)
     map_payload = {
         'total_cards': len(cards),
@@ -545,6 +575,7 @@ def main() -> None:
                          'count': tax.tag_count.get(e['id'], 0)}
                         for e in tax.tag_entries],
         'matrix': matrix,
+        'pairs': pairs,
         'note': ('规模 = 编辑判读的主归属卡数，不是客观真相；'
                  '「被参见」是同一张卡顺带涉及的条目数。依据 docs/taxonomy-plan.md'),
     }

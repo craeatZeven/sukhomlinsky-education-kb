@@ -45,9 +45,11 @@
 
   <section>
     <h2 class="section-title">全库卡片匹配</h2>
-    <p class="section-sub">按标题、中文转述、原文摘录和出处搜索全部卡片；输入问题关键词即可。</p>
+    <p class="section-sub">按标题、中文转述、原文摘录和出处搜索全部卡片。可以打一句自然问句（例如「孩子说谎怎么办」），
+      也能直接打关键词。</p>
     <div class="stats stats--quiet" id="cardStats" style="margin:12px 0"></div>
     <div class="rows" id="problemCardGrid"></div>
+    <div class="load-wrap"><button class="chip" id="cardMore" type="button" style="display:none" onclick="moreCardResults()">显示更多</button></div>
     <div class="empty" id="problemCardEmpty">没有匹配的卡片，换个关键词试试。</div>
   </section>
 </main>
@@ -83,40 +85,113 @@ const PROBLEMS = [
 let CARDS = [];
 let CORPUS_BY_ID = new Map();
 let corpusLoading = false;
+let corpusTried = false;
 function cardSearchText(c, useCorpus){
   const base = [c.title, c.cn, c.id, c.source, KB.sourceTitle(c.source), KB.refText(c.ref),
-                (c.topics||[]).join(" "), c.type, c.preview].join(" ").toLowerCase();
+                (c.topics||[]).join(" "), c.type, c.preview,
+                c.primary_name || "", (c.seealso_names||[]).join(" ")].join(" ").toLowerCase();
   if(!useCorpus) return base;
   const entry = CORPUS_BY_ID.get(c.id);
   return base + " " + (entry ? entry.text : "").toLowerCase();
+}
+
+/* ── 查询匹配 ──────────────────────────────────────────────────────────
+   原来用的是整串 `text.includes(q)`。中文没有词边界，于是读者打一句自然问句
+   （「孩子说谎怎么办？」）连对应的预设问题都匹配不到——整句并不是任何卡文的连续子串。
+   外部评审把这条列为「问题检索不能稳定承担全文检索兜底」（docs/codex-final-opinion.md A3·第四处）。
+
+   这里改成两步，不需要分词器：
+     1. 去掉标点与疑问词（怎么办 / 如何 / 为什么…），留下实义部分；
+     2. 先试整串命中（给满分），否则用 **2-gram 覆盖率** 打分。
+   2-gram 对"问句 vs 陈述句"这种改写有容忍度，而且纯 JS 可算、结果可解释。 */
+const QPUNCT = /[?？。，、！!；;：:"'“”‘’（）()【】\[\]\s]/g;
+const QWORDS = /(怎么办|怎么样|怎么|如何|为什么|为何|是什么|什么|哪些|哪种|哪一个|哪个|要不要|能不能|可不可以|可以吗|是不是|有没有|吗|呢|吧)/g;
+function queryTerms(q){
+  return String(q || "").replace(QPUNCT, " ").replace(QWORDS, " ").replace(/\s+/g, " ").trim();
+}
+function bigrams(s){
+  const t = String(s || "").replace(QPUNCT, "");
+  const out = [];
+  for(let i = 0; i + 2 <= t.length; i++) out.push(t.slice(i, i + 2));
+  return out;
+}
+function matchScore(text, q){
+  if(!q) return 0;
+  if(text.includes(q)) return 1;
+  const g = bigrams(q);
+  if(!g.length) return text.includes(q) ? 1 : 0;
+  let hit = 0;
+  for(const x of g) if(text.includes(x)) hit++;
+  return hit / g.length;
+}
+const MATCH_MIN = 0.6;   // 2-gram 覆盖率门槛：低于它的算不相关
+
+/* 全文索引**在第一次查询时就载入**，不再等到"浅层零结果"才去查。
+   原来那个次序会让"只出现在完整摘录里"的结果永远漏掉（评审同一处的第二条）。 */
+async function ensureCorpus(){
+  if(CORPUS_BY_ID.size || corpusLoading || corpusTried) return;
+  corpusLoading = true;
+  try{
+    const corpus = await KB.loadSearch("all");
+    CORPUS_BY_ID = new Map(corpus.map(e=>[e.id, e]));
+  }catch(e){
+    corpusTried = true;      // 失败不重试，页面会说明只搜了题名与转述
+  }
+  corpusLoading = false;
+}
+
+let CARD_HITS = [], CARD_SHOWN = 0;
+const PAGE = 30;
+function paintCardResults(){
+  const grid = document.getElementById("problemCardGrid");
+  const more = document.getElementById("cardMore");
+  const total = CARD_HITS.length;
+  const slice = CARD_HITS.slice(0, CARD_SHOWN);
+  grid.innerHTML = slice.map(([s, c]) => KB.cardRowHTML(c)).join("");
+  if(more){
+    if(CARD_SHOWN < total){
+      more.style.display = "";
+      more.textContent = `显示更多（已显示 ${CARD_SHOWN} / 共 ${total} 张）`;
+    } else {
+      more.style.display = "none";
+    }
+  }
 }
 async function renderCardResults(q){
   const grid = document.getElementById("problemCardGrid");
   const empty = document.getElementById("problemCardEmpty");
   const stats = document.getElementById("cardStats");
-  if(!q){ grid.innerHTML=""; empty.style.display="none"; stats.innerHTML=""; return; }
-  let list = CARDS.filter(c=>cardSearchText(c, false).includes(q)).slice(0,30);
-  let deep = false;
-  if(!list.length && !corpusLoading && CARDS.length){
-    corpusLoading = true;
-    stats.innerHTML = `<div class="stat"><b>…</b><span>正在加载原文索引</span></div>`;
-    try{
-      const corpus = await KB.loadSearch("all");
-      CORPUS_BY_ID = new Map(corpus.map(e=>[e.id, e]));
-      list = CARDS.filter(c=>cardSearchText(c, true).includes(q)).slice(0,30);
-      deep = true;
-    }catch(e){
-      stats.innerHTML = `<div class="stat"><b>0</b><span>原文索引加载失败，请改用<a href="search.html">检索页</a></span></div>`;
-      empty.style.display = "block";
-      grid.innerHTML = "";
-      corpusLoading = false;
-      return;
-    }
-    corpusLoading = false;
+  const query = queryTerms(q);
+  if(!query){
+    grid.innerHTML = ""; empty.style.display = "none"; stats.innerHTML = "";
+    CARD_HITS = []; CARD_SHOWN = 0;
+    const more = document.getElementById("cardMore"); if(more) more.style.display = "none";
+    return;
   }
-  stats.innerHTML = `<div class="stat"><b>${list.length}</b><span>卡片命中${deep ? "（含原文）" : ""}</span></div>`;
-  empty.style.display = list.length ? "none" : "block";
-  grid.innerHTML = list.map(c=>KB.cardRowHTML(c)).join("");
+  const deep = CORPUS_BY_ID.size > 0;
+  if(!deep) stats.innerHTML = `<div class="stat"><b>…</b><span>正在载入全文索引</span></div>`;
+  await ensureCorpus();
+
+  const scored = [];
+  for(const c of CARDS){
+    const s = Math.max(matchScore(cardSearchText(c, false), query),
+                       matchScore(cardSearchText(c, true), query));
+    if(s >= MATCH_MIN) scored.push([s, c]);
+  }
+  scored.sort((a, b) => (b[0] - a[0]) || a[1].id.localeCompare(b[1].id));
+  CARD_HITS = scored;
+  CARD_SHOWN = Math.min(PAGE, CARD_HITS.length);
+
+  /* **不许再静默截断**：原来 `slice(0,30)` 之后把 30 当成命中总数显示，
+     超过 30 条时读者会把"显示数"误读成"总量"（评审同一处第三条）。 */
+  stats.innerHTML = `<div class="stat"><b>${CARD_HITS.length}</b><span>${
+    CORPUS_BY_ID.size ? "卡片命中（含原文）" : "卡片命中（未含原文：全文索引不可用）"}</span></div>`;
+  empty.style.display = CARD_HITS.length ? "none" : "block";
+  paintCardResults();
+}
+function moreCardResults(){
+  CARD_SHOWN = Math.min(CARD_SHOWN + PAGE, CARD_HITS.length);
+  paintCardResults();
 }
 function renderProblems(list){
   document.getElementById("problemGrid").innerHTML = list.map(p=>`
@@ -130,13 +205,22 @@ function renderProblems(list){
     </article>`).join("") || `<p class="empty" style="display:block">没有匹配的问题。试试“说谎”“后进生”“坐不住”等关键词。</p>`;
 }
 function apply(){
-  const q = (document.getElementById("q").value||"").trim().toLowerCase();
-  const list = q ? PROBLEMS.filter(p=>p.title.includes(q) || p.keys.includes(q)) : PROBLEMS;
+  const raw = (document.getElementById("q").value || "").trim();
+  const q = raw.toLowerCase();
+  const t = queryTerms(q);
+  /* 预设问题也用同一套模糊匹配：整串 includes 会让「孩子说谎怎么办？」
+     匹配不到预设的「孩子说谎之后怎么办」（评审 A3·第四处）。 */
+  const list = t
+    ? PROBLEMS.filter(p => matchScore((p.title + " " + p.keys + " " + (p.desc||"")).toLowerCase(), t) >= MATCH_MIN)
+    : PROBLEMS;
   renderProblems(list);
   renderCardResults(q);
-  if(q){
-    const m = PROBLEMS.find(p=>p.keys.includes(q) || p.title.includes(q));
-    if(m) location.hash = m.id;
+  if(t){
+    const scored = PROBLEMS
+      .map(p => [matchScore((p.title + " " + p.keys + " " + (p.desc||"")).toLowerCase(), t), p])
+      .filter(x => x[0] >= MATCH_MIN)
+      .sort((a, b) => b[0] - a[0]);
+    if(scored.length && scored[0][0] === 1) location.hash = scored[0][1].id;
   }
 }
 document.addEventListener("DOMContentLoaded", async ()=>{

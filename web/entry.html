@@ -37,6 +37,12 @@
 <main class="wrap">
   <p style="margin:0 0 16px"><a href="index.html">首页</a> / <a href="entries.html">分类条目</a> / <span id="crumb">条目</span></p>
 
+  <!-- 首屏分区跳转。
+       外部评审（docs/codex-final-opinion.md A3·第二处）指出：交叉参见区原来被压在
+       40 行主归属 + 加载更多 + 导出按钮之后、约六千像素深处，页头那句「27 被参见」
+       只是统计文字不是跳转——「参见区存在」不等于读者看得到参见。 -->
+  <nav class="entry-jump" id="entryJump" aria-label="本页分区"></nav>
+
   <section id="primarySection">
     <h2 class="section-title" id="primaryTitle">主归属</h2>
     <p class="section-sub" id="primarySub"></p>
@@ -55,7 +61,14 @@
     <div class="load-wrap"><button id="crossMore" class="chip" type="button" style="display:none">加载更多参见卡片</button></div>
   </section>
 
-  <section>
+  <section id="caseSection">
+    <h2 class="section-title">相关案例</h2>
+    <p class="section-sub" id="caseSub"></p>
+    <div class="rows" id="caseList"></div>
+    <div class="load-wrap"><button id="caseMore" class="chip" type="button" style="display:none">加载更多案例</button></div>
+  </section>
+
+  <section id="siblingSection">
     <h2 class="section-title">同一角度下的其他条目</h2>
     <p class="section-sub" id="siblingSub"></p>
     <div class="chips" id="siblings" style="justify-content:flex-start"></div>
@@ -63,9 +76,10 @@
 
   <section>
     <div class="pending-note">
-      <b>故事体卡片不走条目主归属</b>
-      <p>全库的故事体卡片（case）没有 <code>primary</code>，它们按「角色 / 场景 / 事件或情绪」三个字段、十七个分面组织，
-      请从 <a href="facets.html">故事分面</a> 进入。</p>
+      <b>儿童故事不走条目主归属</b>
+      <p>给孩子读的短故事（《做人的故事》541 篇等）没有 <code>primary</code>，它们按「角色 / 场景 / 事件或情绪」三个字段、十七个分面组织，
+      请从 <a href="facets.html">故事分面</a> 进入。上面的「相关案例」是另一类——教学案例与教育叙事，
+      它们同样没有中心主张，但可以作这一条的例证。</p>
     </div>
   </section>
 </main>
@@ -91,6 +105,7 @@ function fail(msg){
   document.getElementById("cardList").innerHTML =
     `<p class="section-sub">${KB.esc(msg)} <a href="entries.html">回到条目总览 →</a></p>`;
   document.getElementById("crossSection").style.display = "none";
+  document.getElementById("caseSection").style.display = "none";
 }
 
 function paged(boxId, btnId, cards, emptyText){
@@ -153,6 +168,17 @@ document.addEventListener("DOMContentLoaded", async () => {
       <div class="stat"><b>${layer ? KB.esc(layer.name) : KB.esc(info.layer)}</b><span>所属角度</span></div>`;
   }
 
+  /* 首屏分区跳转：把「主归属 / 交叉参见 / 同角度条目 / 全库搜索」四个出口提到最上面，
+     免得读者以为这一页只有主归属（参见区在六千像素之后）。张数一律现算，不写死。 */
+  const jump = [];
+  jump.push(`<a class="entry-jump-item" href="#primarySection"><b>${cards.length}</b> ${
+    info.tag ? "带此标记的卡" : "主要论述"}</a>`);
+  if (!info.tag && cross.length) {
+    jump.push(`<a class="entry-jump-item" href="#crossSection"><b>${cross.length}</b> 相关论述·交叉参见</a>`);
+  }
+  jump.push(`<a class="entry-jump-item" href="#siblingSection">同一角度的其他条目</a>`);
+  jump.push(`<a class="entry-jump-item" href="search.html?q=${encodeURIComponent(entry.name)}">在全文里搜「${KB.esc(entry.name)}」→</a>`);
+  document.getElementById("entryJump").innerHTML = jump.join("");
   /* 复分标签不持主归属，这一段的小标题与说明都要说清"下面是带标记的卡"，不能叫主归属 */
   document.getElementById("primaryTitle").textContent = info.tag ? "带此标记的卡" : "主归属";
   document.getElementById("primarySub").innerHTML = info.tag
@@ -168,6 +194,22 @@ document.addEventListener("DOMContentLoaded", async () => {
     paged("crossList", "crossMore", cross, "暂无交叉参见。");
   } else {
     document.getElementById("crossSection").style.display = "none";
+  }
+
+  /* 相关案例：教学案例不持主归属，但「可以作这一条的例证」。
+     外部评审指出 type: case 把儿童文学与教学案例混成一类，后者因此退出了主题路径——
+     研究这个主题的人本应看得到「这件事在教学中怎样发生」。 */
+  const cases = entry.cases || [];
+  if (cases.length) {
+    jump.splice(jump.length - 2, 0,
+      `<a class="entry-jump-item" href="#caseSection"><b>${cases.length}</b> 相关案例</a>`);
+    document.getElementById("entryJump").innerHTML = jump.join("");
+    document.getElementById("caseSub").innerHTML =
+      `另有 <b>${cases.length}</b> 条教学案例与教育叙事可以作「${KB.esc(entry.name)}」的例证——
+       它们本身没有中心主张（所以不在上面的主归属里），但讲的是这条主张在教学中怎样发生。`;
+    paged("caseList", "caseMore", cases, "暂无相关案例。");
+  } else {
+    document.getElementById("caseSection").style.display = "none";
   }
 
   const siblings = layer ? (layer.entries || []).filter(c => c !== entry.code) : [];
@@ -192,9 +234,4 @@ document.addEventListener("DOMContentLoaded", async () => {
           if(k === "ref") return csvEscape(KB.refText(c.ref));
           return csvEscape(c[k]);
         }).join(",")));
-    download(`${entry.code}.csv`, "\ufeff" + rows.join("\n"), "text/csv;charset=utf-8");
-  });
-});
-</script>
-</body>
-</html>
+    download(`${entry.code}.csv`, "\ufeff" + rows.join("\n")

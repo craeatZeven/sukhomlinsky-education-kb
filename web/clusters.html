@@ -46,6 +46,32 @@
     <div id="scaleMap" class="map-scale"></div>
   </section>
 
+  <section id="relSection">
+    <h2 class="section-title">按主题读关系</h2>
+    <p class="angle-note">
+      选一个条目，看它<b>讲到</b>哪些条目、又被<b>哪些条目讲到</b>；点任意一条关系，就把那批卡片就地列出来。
+      这一块是「沿关系读下去」的入口——不用记编号、不用悬停，也不用先看懂整张矩阵。
+    </p>
+    <div class="rel-pick">
+      <label for="relPick">主题</label>
+      <select id="relPick"></select>
+    </div>
+    <div class="rel-cols">
+      <div class="rel-col">
+        <h3 id="relOutTitle">它讲到别的条目</h3>
+        <div class="rel-list" id="relOut"></div>
+      </div>
+      <div class="rel-col">
+        <h3 id="relInTitle">别的条目讲到它</h3>
+        <div class="rel-list" id="relIn"></div>
+      </div>
+    </div>
+    <div id="relCardsWrap" style="display:none">
+      <h3 class="rel-cards-title" id="relCardsTitle"></h3>
+      <div class="rows" id="relCards"></div>
+    </div>
+  </section>
+
   <section>
     <h2 class="section-title">牵引：哪个条目把哪一条列为参见</h2>
     <p class="angle-note">
@@ -200,8 +226,15 @@
           (blockEnd[j] ? " mx-bend" : "");
         var t = v ? (r + " → " + c + "：" + v + " 张卡（主归属 " + r +
                      "，顺带讲到 " + c + "）") : (r + " → " + c + "：0");
+        // 有卡片时用 <button>：可点、可键盘操作，点了就把那批卡片列出来。
+        // 原来是带 title 的 <span>，只有悬停高亮，看到「A19→A4 = 14」却打不开这 14 张。
+        if (v) {
+          return '<button type="button" class="' + cls + '" data-r="' + ri + '" data-c="' + j +
+            '" data-pair="' + esc(r + "|" + c) + '" data-other="' + esc(c) +
+            '" title="' + esc(t) + '">' + v + '</button>';
+        }
         return '<span class="' + cls + '" data-r="' + ri + '" data-c="' + j +
-          '" title="' + esc(t) + '">' + (v || "") + '</span>';
+          '" title="' + esc(t) + '"></span>';
       }).join("");
       return row;
     }).join("");
@@ -225,8 +258,80 @@
     });
   }
 
+  /* ── 单主题关系视图 ───────────────────────────────────────────────────
+     评审要求（docs/codex-final-opinion.md §C 第三件）：
+     「不记 A 编号、不依赖悬停，也能完成『劳动与哪些主题相连 → 为什么相连 → 读对应原文』」。
+     所以这一块用**完整中文名**、点击而非悬停，并且点一条关系就把卡片列出来。 */
+  var MAP = null, NAME = {}, INDEX = null, INDEX_LOADING = false;
+
+  function relName(code) { return NAME[code] || code; }
+
+  function relListHTML(code, dir) {
+    var out = [];
+    MAP.order.forEach(function (other, j) {
+      if (other === code) return;
+      var i = MAP.order.indexOf(code);
+      var n = dir === "out" ? MAP.matrix[i][j] : MAP.matrix[j][i];
+      if (!n) return;
+      var key = dir === "out" ? code + "|" + other : other + "|" + code;
+      out.push([n, key, other, dir]);
+    });
+    out.sort(function (a, b) { return b[0] - a[0]; });
+    if (!out.length) return '<p class="rel-none">没有。</p>';
+    return out.map(function (t) {
+      return '<button type="button" class="rel-item" data-pair="' + esc(t[1]) + '" data-other="' + esc(t[2]) + '">' +
+        '<b>' + t[0] + '</b> 张 → <span class="rel-to">' + esc(relName(t[2])) + '</span></button>';
+    }).join("");
+  }
+
+  function renderRelations(code) {
+    var i = MAP.order.indexOf(code);
+    if (i < 0) return;
+    document.getElementById("relPick").value = code;
+    document.getElementById("relOutTitle").innerHTML =
+      '<b>' + esc(code + " " + relName(code)) + '</b> 讲到别的条目';
+    document.getElementById("relInTitle").innerHTML =
+      '别的条目讲到 <b>' + esc(code + " " + relName(code)) + '</b>';
+    document.getElementById("relOut").innerHTML = relListHTML(code, "out");
+    document.getElementById("relIn").innerHTML = relListHTML(code, "in");
+    document.getElementById("relCardsWrap").style.display = "none";
+  }
+
+  async function showRelation(pair, other, dir) {
+    var box = document.getElementById("relCards");
+    var wrap = document.getElementById("relCardsWrap");
+    wrap.style.display = "";
+    var from = pair.split("|")[0], to = pair.split("|")[1];
+    document.getElementById("relCardsTitle").innerHTML =
+      dir === "out"
+        ? '主归属是 <b>' + esc(from + " " + relName(from)) + '</b>、同时讲到 <b>' + esc(to + " " + relName(to)) + '</b> 的卡片'
+        : '主归属是 <b>' + esc(from + " " + relName(from)) + '</b>、同时讲到 <b>' + esc(to + " " + relName(to)) + '</b> 的卡片';
+    box.innerHTML = '<p class="angle-note">正在载入卡片索引…</p>';
+    wrap.scrollIntoView({ behavior: "smooth", block: "start" });
+    if (!INDEX) {
+      if (INDEX_LOADING) return;
+      INDEX_LOADING = true;
+      try {
+        var cards = await KB.loadIndex();
+        INDEX = {};
+        cards.forEach(function (c) { INDEX[c.id] = c; });
+      } catch (e) {
+        box.innerHTML = '<p class="angle-note">卡片索引加载失败：' + esc(e.message) + '</p>';
+        INDEX_LOADING = false;
+        return;
+      }
+      INDEX_LOADING = false;
+    }
+    var ids = (MAP.pairs || {})[pair] || [];
+    box.innerHTML = ids.length
+      ? ids.map(function (id) { return INDEX[id] ? KB.cardRowHTML(INDEX[id]) : ""; }).join("")
+      : '<p class="angle-note">这一格没有卡片。</p>';
+  }
+
   document.addEventListener("DOMContentLoaded", function () {
     KB.loadMap().then(function (map) {
+      MAP = map;
+      map.entries.forEach(function (e) { NAME[e.code] = e.name; });
       document.getElementById("scaleNote").innerHTML =
         '全库 <b>' + map.total_cards + '</b> 张卡：<b>' + map.assigned +
         '</b> 张论述卡有主归属、<b>' + map.stories + '</b> 张故事卡走分面（不在本图内）。' +
@@ -255,6 +360,33 @@
       var mx = document.getElementById("matrix");
       mx.innerHTML = matrix(map);
       wireHover(mx);
+
+      /* ── 单主题关系视图：填充下拉、默认选中「劳动与创造」──
+         默认选 A11 是因为它就是当初那个原型问题（「想了解他对于劳动教育的看法，能找到吗」）。 */
+      var sel = document.getElementById("relPick");
+      sel.innerHTML = map.layers.map(function (L) {
+        var opts = L.entries.map(function (c) {
+          return '<option value="' + esc(c) + '">' + esc(c + " " + relName(c)) + '</option>';
+        }).join("");
+        return '<optgroup label="' + esc(L.name) + '">' + opts + '</optgroup>';
+      }).join("");
+      var dflt = map.order.indexOf("A11") >= 0 ? "A11" : map.order[0];
+      renderRelations(dflt);
+      sel.addEventListener("change", function () { renderRelations(sel.value); });
+
+      // 点一条关系 → 列出那批卡片。关系列表与矩阵格子走同一个处理。
+      document.getElementById("relSection").addEventListener("click", function (ev) {
+        var btn = ev.target.closest("[data-pair]");
+        if (!btn) return;
+        showRelation(btn.getAttribute("data-pair"), btn.getAttribute("data-other"), "out");
+      });
+      mx.addEventListener("click", function (ev) {
+        var btn = ev.target.closest("button.mx-cell[data-pair]");
+        if (!btn) return;
+        // 从矩阵点进来时，先把上面的关系视图切到"行"那个主题，读者才知道自己在哪
+        renderRelations(btn.getAttribute("data-pair").split("|")[0]);
+        showRelation(btn.getAttribute("data-pair"), btn.getAttribute("data-other"), "out");
+      });
     }).catch(function (e) {
       document.getElementById("scaleMap").innerHTML =
         '<p class="angle-note">地图数据加载失败：' + esc(e.message) + '</p>';

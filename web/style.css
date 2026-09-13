@@ -350,6 +350,9 @@ a.badge--see { color: var(--soft); border-style: dashed; }
 /* 没有逐字原文的行：**不套引号**，改用左侧竖线 + 弱化字色表示"这是编者概括"。
    引号在这个站里是有含义的——它表示"这是原文"，所以没有原文时必须撤掉。 */
 .row-quote.row-noquote { color: var(--soft); padding-left: 12px; border-left: 3px solid var(--line); }
+/* 「原文待补」标记独立成行，**不能放进 .row-quote**（那个块带 line-clamp，
+   标记会被裁掉，页面上看不见——第二轮复审实测）。 */
+.row-flag-line { margin: -6px 0 10px; padding-left: 12px; }
 .row-noquote .row-flag { margin-left: 8px; }
 
 /* 单主题关系视图：把「沿关系读下去」做成不用记编号、不靠悬停的入口 */

@@ -322,8 +322,13 @@
       else if (card.trunc) flag = '<span class="row-flag">读全文 →</span>';
       var lead;
       if (card.excerpt_status === "paraphrase") {
-        lead = '<p class="row-quote row-noquote">' + KB.esc(card.editor_summary || card.title) +
-          '<span class="row-flag">编者概括 · 原文待补</span></p>';
+        /* 「原文待补」这枚标记**必须放在被裁剪的段落之外**。
+           `.row-quote` 带 `-webkit-line-clamp: 2; overflow: hidden`，
+           早先把标记接在概括正文末尾，于是它落在裁切区外、页面上根本看不见
+           （第二轮复审实测：DOM 里有这几个字，肉眼看不见）。
+           只查"DOM 含待补"的验收会放过它——所以要查**可见性**。 */
+        lead = '<p class="row-quote row-noquote">' + KB.esc(card.editor_summary || card.title) + '</p>' +
+          '<p class="row-flag-line"><span class="row-flag">编者概括 · 原文待补</span></p>';
       } else if (card.preview) {
         lead = '<p class="row-quote">“' + KB.esc(card.preview) + '”</p>';
       } else {

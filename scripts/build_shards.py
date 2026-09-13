@@ -501,7 +501,53 @@ def main() -> None:
         facet_gz += gz_len(path)
     report.append((f'data/facet/<CODE>.json x{len(tax.spec["facets"])}', facet_bytes, facet_gz))
 
-    # 3f) id 清单（随机卡片）+ 最新卡片
+    # 3f) 思想地图：5 个观察角度 × 23 条目的规模 + 23×23 参见矩阵
+    #
+    # 为什么是矩阵而不是网络图：实测 23 个条目里 **123/231（53.2%）的配对都有参见边**
+    # （416 条边，平均度约 36）。这么密的图用节点连线必然糊成一团，
+    # 而矩阵在密集图上反而更清楚——分块排序之后能直接看出哪一片在互相牵引。
+    # 图例必须写明这是「编辑主归属分布」，不是客观真相（见 docs/taxonomy-plan.md）。
+    map_order = [c for _n, _l, codes in layer_blocks for c in codes]
+    pos = {c: i for i, c in enumerate(map_order)}
+    n_e = len(map_order)
+    matrix = [[0] * n_e for _ in range(n_e)]
+    for cid, rec in tax.cls.items():
+        p = tax.primary.get(cid)
+        if p not in pos:
+            continue
+        for s in tax.seealso.get(cid, []):
+            if s in pos:
+                matrix[pos[p]][pos[s]] += 1
+    edges = sum(sum(row) for row in matrix)
+    map_payload = {
+        'total_cards': len(cards),
+        'assigned': assigned,
+        'stories': story,
+        'edges': edges,
+        'max_cell': max((max(row) for row in matrix), default=0),
+        'order': map_order,
+        'layers': [{'index': n, 'name': layer['name'],
+                    'question': clean_rule(layer['question']),
+                    'count': sum(tax.primary_count[c] for c in codes),
+                    'entries': codes}
+                   for n, layer, codes in layer_blocks],
+        'entries': [{'code': c, 'name': tax.name_of.get(c, ''),
+                     'layer': tax.layer_of.get(c, ''),
+                     'primary': tax.primary_count.get(c, 0),
+                     'out': sum(matrix[pos[c]]),
+                     'in': tax.cross_count.get(c, 0)}
+                    for c in map_order],
+        'tag_entries': [{'code': e['id'], 'name': e['name'],
+                         'count': tax.tag_count.get(e['id'], 0)}
+                        for e in tax.tag_entries],
+        'matrix': matrix,
+        'note': ('规模 = 编辑判读的主归属卡数，不是客观真相；'
+                 '「被参见」是同一张卡顺带涉及的条目数。依据 docs/taxonomy-plan.md'),
+    }
+    report.append(('data/map.json', dump(DATA / 'map.json', map_payload),
+                   gz_len(DATA / 'map.json')))
+
+    # 3g) id 清单（随机卡片）+ 最新卡片
     ids = [c['id'] for c in cards]
     report.append(('data/ids.json', dump(DATA / 'ids.json', ids), gz_len(DATA / 'ids.json')))
     latest = sorted(index_cards, key=lambda e: e['id'], reverse=True)[:60]

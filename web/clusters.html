@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>思想地图 · 苏霍姆林斯基教育知识库</title>
-<link rel="stylesheet" href="style.css?v=20260907" />
+<link rel="stylesheet" href="style.css?v=20260913" />
 </head>
 <body>
 <nav class="topnav">
@@ -27,14 +27,63 @@
 
 <header class="page-head">
   <div class="wrap">
-    <div class="eyebrow">Thought Clusters</div>
+    <div class="eyebrow">Thought Map</div>
     <h1>思想地图</h1>
-    <p>十组教育主张，把 195 张卡从“主题目录”进一步聚成“立场地图”。完整底稿见 <a href="../docs/thought-clusters.md">docs/thought-clusters.md ↗</a></p>
+    <p>22 个持卡条目分布在 5 个观察角度上，下方是它们互相牵引的方向与强度。</p>
   </div>
 </header>
 
 <main class="wrap">
-  <section class="grid" id="clusterGrid"></section>
+
+  <section>
+    <h2 class="section-title">规模：每个条目承接了多少张卡</h2>
+    <p class="angle-note" id="scaleNote"></p>
+    <div class="map-legend">
+      <span><i class="sw sw-primary"></i>主归属卡数</span>
+      <span><i class="sw sw-cross"></i>被参见次数</span>
+      <span class="map-legend-note" id="legendNote"></span>
+    </div>
+    <div id="scaleMap" class="map-scale"></div>
+  </section>
+
+  <section>
+    <h2 class="section-title">牵引：哪个条目把哪一条列为参见</h2>
+    <p class="angle-note">
+      行 = 卡片自己的主归属，列 = 它顺带讲到的条目，格子深浅 = 这样的卡片有几张。
+      矩阵是<b>有向</b>的：<code>A19→A4</code> 与 <code>A4→A19</code> 是两回事。
+      条目按观察角度分块排列——同一块里的格子越深，说明这几条在这个角度内部互相牵扯得越紧。
+    </p>
+    <div class="map-legend">
+      <span>格子深浅：<i class="sw sw-0"></i>0<i class="sw sw-1"></i>少<i class="sw sw-2"></i>中<i class="sw sw-3"></i>多</span>
+      <span class="map-legend-note" id="matrixNote"></span>
+    </div>
+    <div class="map-matrix-scroll">
+      <div id="matrix" class="map-matrix"></div>
+    </div>
+    <p class="angle-note" id="matrixHint">把鼠标移到格子上，会高亮它所在的行与列。</p>
+  </section>
+
+  <section>
+    <h2 class="section-title">怎么读这张图</h2>
+    <div class="map-read">
+      <div class="map-read-item">
+        <h3>规模不是「重要性」</h3>
+        <p>条越长只说明<b>编辑判读时把更多卡片的主归属放在这里</b>，不代表这一条更重要。
+           图例写明「编辑主归属分布」，是因为它是一次判读的结果，不是客观真相。
+           判读的复核数据见 <a href="../docs/llm-classification-plan.md">docs/llm-classification-plan.md</a>。</p>
+      </div>
+      <div class="map-read-item">
+        <h3>被参见才是横切的地方</h3>
+        <p>一张卡只能有一个主归属，但它可以顺带讲到别的条目。所以「被参见」多的条目，
+           往往是别人论证时都要用到的<b>前提</b>而不是自己的结论。</p>
+      </div>
+      <div class="map-read-item">
+        <h3>为什么画成矩阵而不是网络图</h3>
+        <p id="whyMatrix"></p>
+      </div>
+    </div>
+  </section>
+
 </main>
 
 <footer>
@@ -44,29 +93,170 @@
   </div>
 </footer>
 
-<script src="theme.js?v=20260907"></script>
+<script src="theme.js?v=20260913"></script>
+<script src="kb.js?v=20260913"></script>
 <script>
-const CLUSTERS = [
-  {n:"1", title:"儿童是活生生的人：先有尊严与信任，才有教育", desc:"儿童不是知识的容器，也不是被管理的对象；教育必须先承认他是人，保护他的尊严与信任。", ids:"sk-0001 · sk-0002 · sk-0051 · sk-0070 · sk-0080 · sk-0165 · sk-0180"},
-  {n:"2", title:"爱不是溺爱：尊重、信任与明智的严格", desc:"真正的教育爱包含尊重、信任、严格要求与长期责任。", ids:"sk-0034 · sk-0036 · sk-0039 · sk-0040 · sk-0041 · sk-0157 · sk-0136"},
-  {n:"3", title:"劳动是手脑并用的“第二课堂”", desc:"劳动塑造思维、意志与人格；儿童智慧常在他手指尖上。", ids:"sk-0014 · sk-0015 · sk-0066 · sk-0068 · sk-0085 · sk-0128 · sk-0132 · sk-0151"},
-  {n:"4", title:"大自然不是背景板：它是思维的学校", desc:"自然只有被有意识地观察、提问、寻找因果时才成为教育资源。", ids:"sk-0059 · sk-0060 · sk-0061 · sk-0062 · sk-0067 · sk-0174 · sk-0190 · sk-0191"},
-  {n:"5", title:"健康是学习的地基", desc:"睡眠、户外、饮食、情绪与疾病预防，先于成绩。", ids:"sk-0005 · sk-0012 · sk-0019 · sk-0020 · sk-0023 · sk-0069 · sk-0184 · sk-0187"},
-  {n:"6", title:"集体存在的意义是让每个人都站得更高", desc:"真正集体不以压制个性为目的，而以提升每个成员为宗旨。", ids:"sk-0029 · sk-0030 · sk-0031 · sk-0032 · sk-0033 · sk-0139 · sk-0140 · sk-0177"},
-  {n:"7", title:"教师成长：读书、研究、自由时间与人格影响", desc:"真正备课靠一生阅读与思考；学校要给教师留自由时间。", ids:"sk-0035 · sk-0064 · sk-0097 · sk-0100 · sk-0122 · sk-0136 · sk-0161"},
-  {n:"8", title:"评价是为了帮助孩子，而不是审判孩子", desc:"分数应反映努力与进步，给学生“再试一次”的机会。", ids:"sk-0044 · sk-0045 · sk-0047 · sk-0065 · sk-0075 · sk-0124 · sk-0178 · sk-0182"},
-  {n:"9", title:"家庭是精神生活的起点", desc:"孩子首先从父母的态度、关系与家庭精神生活中学习。", ids:"sk-0009 · sk-0049 · sk-0081 · sk-0127 · sk-0128 · sk-0176 · sk-0089"},
-  {n:"10", title:"真正的教育会走向自我教育", desc:"良心、好书与独处，是教育成功的试金石。", ids:"sk-0057 · sk-0072 · sk-0088 · sk-0142 · sk-0143 · sk-0152 · sk-0175"}
-];
-document.addEventListener("DOMContentLoaded", ()=>{
-  document.getElementById("clusterGrid").innerHTML = CLUSTERS.map(c=>`
-    <article class="case-card">
-      <span class="badge">思想簇 ${c.n}</span>
-      <h3 style="margin:10px 0 6px">${c.title}</h3>
-      <p class="meta">${c.desc}</p>
-      <p class="ref" style="margin-top:10px">${c.ids}</p>
-    </article>`).join("");
-});
+(function () {
+  var esc = function (s) { return KB.esc(s); };
+
+  function scaleMap(map) {
+    var maxP = Math.max.apply(null, map.entries.map(function (e) { return e.primary; }));
+    var html = map.layers.map(function (L) {
+      var rows = L.entries.map(function (code) {
+        var e = map.entries.filter(function (x) { return x.code === code; })[0];
+        if (!e) return "";
+        var wP = maxP ? (e.primary / maxP * 100) : 0;
+        var wC = maxP ? (Math.min(e["in"], maxP) / maxP * 100) : 0;
+        return '<div class="map-row">' +
+          '<a class="map-code" href="entry.html?code=' + encodeURIComponent(e.code) + '">' + esc(e.code) + '</a>' +
+          '<a class="map-name" href="entry.html?code=' + encodeURIComponent(e.code) + '">' + esc(e.name) + '</a>' +
+          '<div class="map-bars" title="主归属 ' + e.primary + ' 张 · 被参见 ' + e["in"] + ' 次">' +
+            '<span class="bar bar-primary" style="width:' + wP.toFixed(2) + '%"></span>' +
+            '<span class="bar bar-cross" style="width:' + wC.toFixed(2) + '%"></span>' +
+          '</div>' +
+          '<span class="map-num"><b>' + e.primary + '</b><i>被参见 ' + e["in"] + '</i></span>' +
+          '</div>';
+      }).join("");
+      return '<div class="map-layer">' +
+        '<div class="map-layer-head">' +
+          '<span class="map-layer-idx">角度 ' + L.index + '</span>' +
+          '<span class="map-layer-name">' + esc(L.name) + '</span>' +
+          '<span class="map-layer-q">' + esc(L.question) + '</span>' +
+          '<span class="map-layer-n">' + L.count + ' 张</span>' +
+        '</div>' + rows + '</div>';
+    }).join("");
+    // 复分标签单独列：它不持主归属，所以不进上面的条
+    var tags = (map.tag_entries || []).map(function (t) {
+      return '<div class="map-row map-row-tag">' +
+        '<a class="map-code" href="entry.html?code=' + encodeURIComponent(t.code) + '">' + esc(t.code) + '</a>' +
+        '<a class="map-name" href="entry.html?code=' + encodeURIComponent(t.code) + '">' + esc(t.name) + '</a>' +
+        '<div class="map-bars"><span class="bar bar-tag" style="width:100%"></span></div>' +
+        '<span class="map-num"><b>' + t.count + '</b><i>带此标记</i></span>' +
+        '</div>';
+    }).join("");
+    return html + '<div class="map-layer map-layer-tag">' +
+      '<div class="map-layer-head"><span class="map-layer-idx">复分标签</span>' +
+      '<span class="map-layer-name">不参与主归属分区</span>' +
+      '<span class="map-layer-q">只给相关卡片加标记，主归属仍按内容定</span></div>' +
+      tags + '</div>';
+  }
+
+  function heat(n, max) {
+    if (!n) return "sw-0";
+    var r = n / (max || 1);
+    if (r <= 0.25) return "sw-1";
+    if (r <= 0.6) return "sw-2";
+    return "sw-3";
+  }
+
+  function matrix(map) {
+    var order = map.order, max = map.max_cell;
+    var nameOf = {};
+    map.entries.forEach(function (e) { nameOf[e.code] = e.name; });
+    var layerOf = {};
+    map.entries.forEach(function (e) { layerOf[e.code] = e.layer; });
+
+    // 每个角度在矩阵里占的列区间：用来画顶部的角度色带、以及块与块之间的分隔线。
+    // 没有这个，列头只是一串裸数字（1 2 3 4 19 5 6 21…），
+    // 「按观察角度分块」这件事就完全看不出来了。
+    var blocks = [], i = 0;
+    map.layers.forEach(function (L) {
+      blocks.push({ name: L.name, from: i, to: i + L.entries.length - 1 });
+      i += L.entries.length;
+    });
+    var blockEnd = {};
+    var blockOf = {};
+    blocks.forEach(function (b) {
+      blockEnd[b.to] = true;
+      for (var k = b.from; k <= b.to; k++) blockOf[k] = b;
+    });
+
+    var n = order.length;
+    // 第 1 行：角度色带（每块跨自己的列数）
+    var band = '<div class="mx-corner"></div>' + blocks.map(function (b) {
+      return '<div class="mx-band" style="grid-column:span ' + (b.to - b.from + 1) + '" ' +
+        'title="' + esc(b.name) + '">' + esc(b.name) + '</div>';
+    }).join("");
+    // 第 2 行：数字列头（末尾加块分隔线）
+    var head = '<div class="mx-corner"></div>' + order.map(function (c, j) {
+      return '<a class="mx-colhead' + (blockEnd[j] ? ' mx-bend' : '') + '" ' +
+        'href="entry.html?code=' + encodeURIComponent(c) + '" ' +
+        'title="' + esc(c + " " + nameOf[c] + "（" + layerOf[c] + "）") + '">' +
+        esc(c.replace("A", "")) + '</a>';
+    }).join("");
+    var body = order.map(function (r, ri) {
+      var row = '<a class="mx-rowhead' + (blockEnd[ri] ? ' mx-bend' : '') + '" ' +
+        'href="entry.html?code=' + encodeURIComponent(r) + '" ' +
+        'style="--l:' + blocks.indexOf(blockOf[ri]) + '" ' +
+        'title="' + esc(r + " " + nameOf[r] + "（" + layerOf[r] + "）") + '">' +
+        esc(r.replace("A", "")) + '</a>';
+      row += order.map(function (c, j) {
+        var v = map.matrix[ri][j];
+        var cls = "mx-cell " + heat(v, max) + (ri === j ? " mx-self" : "") +
+          (blockEnd[j] ? " mx-bend" : "");
+        var t = v ? (r + " → " + c + "：" + v + " 张卡（主归属 " + r +
+                     "，顺带讲到 " + c + "）") : (r + " → " + c + "：0");
+        return '<span class="' + cls + '" data-r="' + ri + '" data-c="' + j +
+          '" title="' + esc(t) + '">' + (v || "") + '</span>';
+      }).join("");
+      return row;
+    }).join("");
+    return '<div class="mx-grid" style="grid-template-columns:auto repeat(' + n +
+      ',minmax(0,1fr))">' + band + head + body + '</div>';
+  }
+
+  function wireHover(root) {
+    var cells = root.querySelectorAll(".mx-cell");
+    if (!cells.length) return;
+    cells.forEach(function (cell) {
+      cell.addEventListener("mouseenter", function () {
+        var r = cell.getAttribute("data-r"), c = cell.getAttribute("data-c");
+        cells.forEach(function (o) {
+          o.classList.toggle("mx-hl", o.getAttribute("data-r") === r || o.getAttribute("data-c") === c);
+        });
+      });
+      cell.addEventListener("mouseleave", function () {
+        cells.forEach(function (o) { o.classList.remove("mx-hl"); });
+      });
+    });
+  }
+
+  document.addEventListener("DOMContentLoaded", function () {
+    KB.loadMap().then(function (map) {
+      document.getElementById("scaleNote").innerHTML =
+        '全库 <b>' + map.total_cards + '</b> 张卡：<b>' + map.assigned +
+        '</b> 张论述卡有主归属、<b>' + map.stories + '</b> 张故事卡走分面（不在本图内）。' +
+        '每个条目下都有一张卡只能属于一个条目，所以各条之和就是 ' + map.assigned + '。';
+      document.getElementById("legendNote").innerHTML =
+        '<b>图例：编辑主归属分布</b>——条长是判读结果，不是客观重要性。';
+      document.getElementById("scaleMap").innerHTML = scaleMap(map);
+      document.getElementById("matrixNote").innerHTML =
+        '共 <b>' + map.edges + '</b> 条参见边；最密的一格是 <b>' + map.max_cell + '</b> 张。';
+      // 这一段原来硬编码了「平均每个条目连 36 条」，与数据对不上（单向 416/22=18.9、
+      // 双向 2×416/22=37.8，两种口径都不是 36——像是旧数据留下来的）。
+      // 改成现算并写明口径。
+      var n = map.order.length, pairs = n * (n - 1) / 2;
+      var withEdge = 0;
+      for (var a = 0; a < n; a++) {
+        for (var b = a + 1; b < n; b++) {
+          if (map.matrix[a][b] || map.matrix[b][a]) withEdge++;
+        }
+      }
+      document.getElementById("whyMatrix").innerHTML =
+        '实测 ' + n + ' 个条目里 <b>' + withEdge + ' 对（' +
+        (withEdge / pairs * 100).toFixed(1) + '%）之间都有参见边</b>，一共 <b>' + map.edges +
+        '</b> 条。按「每条边连两个条目」算，平均每个条目连 <b>' +
+        (2 * map.edges / n).toFixed(1) + '</b> 条。<br>' +
+        '这么密的图用节点连线会糊成一团；矩阵在密集图上反而更清楚。';
+      var mx = document.getElementById("matrix");
+      mx.innerHTML = matrix(map);
+      wireHover(mx);
+    }).catch(function (e) {
+      document.getElementById("scaleMap").innerHTML =
+        '<p class="angle-note">地图数据加载失败：' + esc(e.message) + '</p>';
+    });
+  });
+})();
 </script>
 </body>
 </html>

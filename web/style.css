@@ -229,6 +229,78 @@ a.badge--see { color: var(--soft); border-style: dashed; }
   .theme-nav { margin-left: 4px; padding-left: 8px; min-height: 40px; }
 }
 
+/* 思想地图（clusters.html）
+   两部分：条目规模条形 + 22×22 有向参见矩阵。
+   矩阵而不是网络图，因为实测 53.2% 的条目配对都有边（见 build_shards.py 注释）。 */
+.map-legend { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 20px; margin: 0 0 18px; color: var(--soft); font-size: 13px; }
+.map-legend > span { display: inline-flex; align-items: center; gap: 6px; }
+.map-legend-note { color: var(--ink); }
+.sw { display: inline-block; width: 22px; height: 10px; border-radius: 2px; }
+.sw-primary { background: var(--accent); }
+.sw-cross { background: color-mix(in srgb, var(--accent) 30%, transparent); }
+.sw-0 { background: color-mix(in srgb, var(--ink) 5%, transparent); }
+.sw-1 { background: color-mix(in srgb, var(--accent) 22%, transparent); }
+.sw-2 { background: color-mix(in srgb, var(--accent) 48%, transparent); }
+/* 最密档原来 82%：实测那一档的文字对比度只有 3.85:1，低于 WCAG AA 小字要求的 4.5:1，
+   而这一档恰好是 9~14 这种最密的格子（最不该看不清的地方）。提到 92% + 文字纯白。 */
+.sw-3 { background: color-mix(in srgb, var(--accent) 92%, transparent); }
+
+.map-scale { display: flex; flex-direction: column; gap: 26px; }
+.map-layer { border-top: 1px solid var(--line); padding-top: 12px; }
+.map-layer-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px; margin-bottom: 10px; }
+.map-layer-idx { font-size: 12px; letter-spacing: .16em; color: var(--accent); font-weight: 700; }
+.map-layer-name { font-family: var(--serif); font-weight: 900; font-size: 17px; }
+.map-layer-q { color: var(--soft); font-size: 13px; }
+.map-layer-n { margin-left: auto; color: var(--soft); font-size: 13px; font-variant-numeric: tabular-nums; }
+.map-layer-tag { border-top-style: dashed; }
+
+.map-row { display: grid; grid-template-columns: 42px minmax(96px, 168px) 1fr auto; align-items: center; gap: 10px; padding: 3px 0; }
+.map-code { font-family: var(--mono); font-size: 12px; color: var(--soft); text-decoration: none; }
+.map-name { font-size: 14px; text-decoration: none; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.map-bars { display: flex; flex-direction: column; gap: 2px; justify-content: center; }
+.bar { display: block; height: 8px; border-radius: 2px; min-width: 0; }
+.bar-primary { background: var(--accent); }
+.bar-cross { background: color-mix(in srgb, var(--accent) 30%, transparent); }
+.bar-tag { background: color-mix(in srgb, var(--soft) 35%, transparent); }
+.map-num { font-size: 12px; color: var(--soft); text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.map-num b { color: var(--ink); font-size: 14px; margin-right: 8px; }
+.map-num i { font-style: normal; }
+.map-row:hover .map-name, .map-row:hover .map-code { color: var(--accent); }
+
+.map-matrix-scroll { overflow-x: auto; }
+.map-matrix { min-width: 640px; }
+.mx-grid { display: grid; gap: 2px; align-items: stretch; }
+.mx-corner { }
+/* 顶部的角度色带：没有它，列头只是一串裸数字（1 2 3 4 19 5 6 21…），
+   「按观察角度分块」就完全看不出来。 */
+.mx-band { font-size: 11px; color: var(--soft); text-align: center; padding: 2px 0 6px;
+           border-bottom: 1px solid var(--line); overflow: hidden; white-space: nowrap; }
+.mx-colhead, .mx-rowhead { font-family: var(--mono); font-size: 10px; color: var(--soft); text-decoration: none; display: flex; align-items: center; justify-content: center; }
+.mx-rowhead { padding-right: 4px; justify-content: flex-end; }
+.mx-colhead:hover, .mx-rowhead:hover { color: var(--accent); }
+/* 块与块之间的分隔：不然 22 列连成一片，看不出分组 */
+.mx-bend { border-right: 3px solid color-mix(in srgb, var(--ink) 20%, transparent); }
+.mx-rowhead.mx-bend { border-right: 0; border-bottom: 3px solid color-mix(in srgb, var(--ink) 20%, transparent); }
+.mx-cell { aspect-ratio: 1 / 1; display: flex; align-items: center; justify-content: center; font-size: 12px; color: var(--ink); border-radius: 2px; font-variant-numeric: tabular-nums; cursor: default; }
+.mx-cell.sw-1, .mx-cell.sw-2 { color: var(--ink); }
+.mx-cell.sw-3 { color: #fff; }
+.mx-self { outline: 1px dashed var(--line); outline-offset: -1px; }
+.mx-hl { box-shadow: 0 0 0 2px var(--accent); }
+@media (max-width: 680px) {
+  .map-row { grid-template-columns: 36px 1fr auto; }
+  .map-bars { grid-column: 2 / 4; }
+  /* 数字回到第一行右侧：3 列布局下自动排布会把它塞进 36px 的第一列，
+     77px 宽的数字内容只能溢出到框外、贴着行左边缘渲染。 */
+  .map-num { grid-row: 1; grid-column: 3; }
+  .mx-colhead, .mx-rowhead { font-size: 9px; }
+  .mx-band { font-size: 9px; }
+}
+
+.map-read { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+.map-read-item { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 20px; }
+.map-read-item h3 { margin: 0 0 8px; font-size: 17px; }
+.map-read-item p { margin: 0; color: var(--soft); font-size: 14px; line-height: 1.7; }
+
 /* Footer */
 footer { margin-top: 70px; border-top: 1px solid var(--line); padding: 28px 0 60px; color: var(--soft); font-size: 14px; text-align: center; }
 footer a { color: var(--accent); text-decoration: none; }
@@ -319,9 +391,12 @@ footer .foot-links a:hover { text-decoration-color: var(--accent); }
 .filters .filters-body .section-sub { margin: 4px 0 8px; font-size: 14px; }
 .filters .filters-body .chips { justify-content: flex-start; margin-top: 8px; }
 
-/* Coverage bars */
+/* Coverage bars
+   注意：这里的裸 .bar 必须限定在 .bar-wrap 里。思想地图的规模条也用 .bar
+   （.map-row .bar，height:8px），裸 .bar 写在后面会把 height 覆盖成 100%，
+   而 .map-bars 高度是 auto → 百分比失效 → 规模条全被压成 0 高（整张规模图看不见）。 */
 .bar-wrap { height: 6px; background: var(--accent-soft); border-radius: 999px; overflow: hidden; margin: 10px 0 4px; }
-.bar { height: 100%; background: var(--accent); border-radius: 999px; transition: width .3s ease; }
+.bar-wrap .bar { height: 100%; background: var(--accent); border-radius: 999px; transition: width .3s ease; }
 
 
 /* ============================================================

@@ -204,6 +204,15 @@
       });
     },
 
+    /* 思想地图分片：{order, layers, entries, matrix, tag_entries, ...}
+       矩阵是**有向**的：matrix[i][j] = 主归属 order[i] 的卡里，把 order[j] 列为参见的张数。
+       为什么要矩阵而不是节点连线，见 scripts/build_shards.py 里那段注释（实测 53.2% 的配对都有边）。 */
+    loadMap: function () {
+      return KB.ready().then(function () {
+        return getJSON("map.json");
+      });
+    },
+
     loadRandomCard: function () {
       return KB.loadIds().then(function (ids) {
         return KB.loadCard(ids[Math.floor(Math.random() * ids.length)]);

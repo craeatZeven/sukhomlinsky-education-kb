@@ -326,14 +326,23 @@ def cmd_collect(write: bool = True):
                     kept += 1
                 else:
                     facets, src = facets_for(c, spec), "keyword"
+                # `case_entries`（教学案例挂在哪些条目上）也是**判读产出**，
+                # 由 scripts/case_entries.py 写入。`collect` 一并保留——
+                # 否则每跑一次 collect 就把 116 张案例的挂靠全抹掉
+                # （2026-09-11 实测：条目页的「相关案例」区因此整块消失）。
                 out[c["id"]] = {"primary": None, "type": "case",
                                 "title": c.get("title", ""),
                                 "old_topics": c.get("topics", []),
                                 "facets": facets,
                                 "tags": tags_for(c, spec),
-                                "facet_source": src}
+                                "facet_source": src,
+                                "case_entries": old.get("case_entries") or [],
+                                "case_entries_why": old.get("case_entries_why") or ""}
+        _case_kept = sum(1 for v in out.values() if v.get("case_entries"))
         RESULT.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
         print(f"\n已写入 {RESULT}（{len(out)} 张）")
+        if _case_kept:
+            print(f"保留已有教学案例挂靠 {_case_kept} 张（case_entries）")
         print(f"人工裁定表命中 {len(spec.get('override', {}))} 条，"
               f"其中改判 {len(applied)} 条："
               + " · ".join(f"{k} {a}→{b}" for k, a, b in applied))

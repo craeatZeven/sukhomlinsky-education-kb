@@ -6,6 +6,11 @@
   --soft: #6b625a;
   --accent: #b4552d;
   --accent-soft: #f3ddd2;
+  /* 思想地图矩阵最密档（纸本主题）：实色 + 白字，对比度 4.90:1。
+     原来用 color-mix(accent 92%, transparent) 配写死的白字，纸本档只有 4.32:1，
+     不合 WCAG AA 小字 4.5:1。每套主题各自定 --heat-3 / --heat-3-ink。 */
+  --heat-3: #b4552d;
+  --heat-3-ink: #ffffff;
   --line: rgba(28,25,23,.12);
   --serif: "Noto Serif SC", "Songti SC", "SimSun", Georgia, serif;
   --sans: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
@@ -32,6 +37,11 @@ body[data-theme="green"] {
   --chrome: #2c352f;
   --chrome-ink: #eef2ec;
   --chrome-soft: #a7b2aa;
+  /* 矩阵最密档：实色 + 该档文字色。**不能用半透明 accent 再配一个写死的白字**——
+     实测纸本主题 4.32:1、夜读主题只有 2.75:1，都低于 WCAG AA 小字 4.5:1
+     （默认的森林主题恰好合格，所以一直没暴露）。每套主题各自定，见 docs/review-disposition.md */
+  --heat-3: #2f6b4f;
+  --heat-3-ink: #ffffff;
 }
 body[data-theme="dark"] {
   --bg: #171512;
@@ -45,6 +55,10 @@ body[data-theme="dark"] {
   --chrome: #0e0c0a;
   --chrome-ink: #f0e9de;
   --chrome-soft: #8e8577;
+  /* 夜读主题的 accent 本身是浅陶色，深色填充反而不协调：
+     最密档就用 accent 实色 + **深色文字**（对比度 7.35:1）。 */
+  --heat-3: #d99a6c;
+  --heat-3-ink: #1c1917;
 }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
@@ -250,9 +264,10 @@ a.badge--see { color: var(--soft); border-style: dashed; }
 .sw-0 { background: color-mix(in srgb, var(--ink) 5%, transparent); }
 .sw-1 { background: color-mix(in srgb, var(--accent) 22%, transparent); }
 .sw-2 { background: color-mix(in srgb, var(--accent) 48%, transparent); }
-/* 最密档原来 82%：实测那一档的文字对比度只有 3.85:1，低于 WCAG AA 小字要求的 4.5:1，
-   而这一档恰好是 9~14 这种最密的格子（最不该看不清的地方）。提到 92% + 文字纯白。 */
-.sw-3 { background: color-mix(in srgb, var(--accent) 92%, transparent); }
+/* 最密档：**实色**（不是半透明 accent）+ 每套主题自己的文字色。
+   原来写死 `color-mix(accent 92%)` + 白色文字，只有默认的森林主题刚好合格；
+   实测纸本 4.32:1、夜读 2.75:1 都不达 WCAG AA 小字 4.5:1。 */
+.sw-3 { background: var(--heat-3); }
 
 .map-scale { display: flex; flex-direction: column; gap: 26px; }
 .map-layer { border-top: 1px solid var(--line); padding-top: 12px; }
@@ -292,7 +307,7 @@ a.badge--see { color: var(--soft); border-style: dashed; }
 .mx-rowhead.mx-bend { border-right: 0; border-bottom: 3px solid color-mix(in srgb, var(--ink) 20%, transparent); }
 .mx-cell { aspect-ratio: 1 / 1; display: flex; align-items: center; justify-content: center; font-size: 12px; color: var(--ink); border-radius: 2px; font-variant-numeric: tabular-nums; cursor: default; }
 .mx-cell.sw-1, .mx-cell.sw-2 { color: var(--ink); }
-.mx-cell.sw-3 { color: #fff; }
+.mx-cell.sw-3 { color: var(--heat-3-ink); }
 .mx-self { outline: 1px dashed var(--line); outline-offset: -1px; }
 .mx-hl { box-shadow: 0 0 0 2px var(--accent); }
 @media (max-width: 680px) {

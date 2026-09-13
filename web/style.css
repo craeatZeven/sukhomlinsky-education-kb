@@ -377,6 +377,23 @@ button.mx-cell:hover { box-shadow: 0 0 0 2px var(--accent); }
 .chip--quiet { border-color: transparent; color: var(--soft); }
 .chip--quiet:hover { border-color: var(--line); color: var(--ink); }
 
+/* 首页的「什么是什么」：把三类文字与判读结果的性质讲清楚。
+   评审指出首页没向读者交代置信度分层（docs/codex-final-opinion.md §A4 第 9 条）。 */
+.conf-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; }
+.conf-item { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px 18px; }
+.conf-item h3 { margin: 0 0 8px; font-size: 16px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.conf-item p { margin: 0; color: var(--soft); font-size: 14px; line-height: 1.75; }
+.conf-tag {
+  font-size: 11px; letter-spacing: .06em; font-weight: 400;
+  border: 1px solid var(--line); border-radius: var(--radius-archive); padding: 1px 7px; color: var(--soft);
+}
+.conf-orig { border-left: 3px solid var(--accent); }
+.conf-cn { border-left: 3px solid color-mix(in srgb, var(--accent) 40%, var(--line)); }
+.conf-sum { border-left: 3px solid color-mix(in srgb, var(--soft) 50%, var(--line)); }
+.conf-judge { border-left: 3px solid color-mix(in srgb, var(--accent) 65%, var(--line)); }
+.conf-judge .conf-tag { color: var(--accent); border-color: color-mix(in srgb, var(--accent) 40%, var(--line)); }
+.conf-foot { margin: 14px 0 0; color: var(--soft); font-size: 13px; }
+
 /* Footer */
 footer { margin-top: 70px; border-top: 1px solid var(--line); padding: 28px 0 60px; color: var(--soft); font-size: 14px; text-align: center; }
 footer a { color: var(--accent); text-decoration: none; }

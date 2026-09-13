@@ -431,9 +431,13 @@ button.mx-cell:hover { box-shadow: 0 0 0 2px var(--accent); }
   padding: 14px 16px; transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
 }
 .start-card:hover { transform: translateY(-2px); box-shadow: var(--shadow); border-color: color-mix(in srgb, var(--accent) 40%, var(--line)); }
-.start-idx {
-  flex: none; width: 22px; height: 22px; border-radius: 50%; background: var(--accent-soft);
-  color: var(--accent); font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center;
+/* 角色标签取代原来的序号：读者需要知道"这张是为什么/怎么做/实例"，
+   序号只说明顺序，不说明用途（第二轮复审 §B·1）。 */
+.start-role {
+  flex: none; align-self: flex-start;
+  background: var(--accent-soft); color: var(--accent);
+  font-size: 12px; font-weight: 700; letter-spacing: .04em;
+  border-radius: var(--radius-archive); padding: 3px 9px; white-space: nowrap;
 }
 .start-body { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
 .start-quote { font-family: var(--serif); font-size: 15px; line-height: 1.65; color: var(--ink); }
@@ -441,6 +445,16 @@ button.mx-cell:hover { box-shadow: 0 0 0 2px var(--accent); }
 .start-quote--noquote .row-flag { margin-left: 6px; }
 .start-meta { color: var(--soft); font-size: 12px; }
 @media (max-width: 680px) { .start-cards { grid-template-columns: 1fr; } }
+
+/* 窄屏：把「按主题读关系」提到最前。
+   复审指出（§B·3「四个重点问题」3）：规模图、关系视图、矩阵三段并列，
+   手机读者要先滚过规模统计才够到关系入口。手机上先给"选一个主题读下去"，
+   完整矩阵退到后面当详细总览。 */
+@media (max-width: 680px) {
+  #mapMain { display: flex; flex-direction: column; }
+  #relSection { order: -1; }
+  #mapMain > section:first-of-type { order: 0; }
+}
 
 /* Footer */
 footer { margin-top: 70px; border-top: 1px solid var(--line); padding: 28px 0 60px; color: var(--soft); font-size: 14px; text-align: center; }

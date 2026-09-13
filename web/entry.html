@@ -47,7 +47,9 @@
        挑法由构建脚本给出（主张型优先、摘录最短优先），页面上如实写明这是编排者的挑选。 -->
   <section id="startSection" class="start-block" style="display:none">
     <h2 class="start-title">从这里开始</h2>
-    <p class="start-note">编者按「一句话说清这一条」挑的三张，不是按重要性排的。</p>
+    <p class="start-note">编者按三个角色各挑一张：<b>为什么</b>（这一条的道理）、
+      <b>怎么做</b>（在实践里怎么落地）、<b>一个教学案例</b>（这件事在教学中怎样发生）。
+      每个角色内部取摘录最短的，不是按重要性排的。</p>
     <div class="start-cards" id="startList"></div>
   </section>
 
@@ -245,7 +247,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     document.getElementById("startSection").style.display = "";
     document.getElementById("startList").innerHTML = start.map((c, i) => `
       <a class="start-card" href="card.html?id=${encodeURIComponent(c.id)}#${KB.esc(c.id)}">
-        <span class="start-idx">${i + 1}</span>
+        <span class="start-role">${KB.esc(c.role || ("第 " + (i + 1) + " 张"))}</span>
         <span class="start-body">
           ${startQuote(c)}
           <span class="start-meta">${KB.esc(c.title)} · ${KB.esc(KB.typeLabel(c.type))} · ${KB.esc(c.id)}</span>

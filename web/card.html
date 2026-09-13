@@ -109,6 +109,16 @@ function renderCard(c, error){
   const entryTop = KB.entryBadges(c);
   const seeBadges = (c.seealso || []).map(code => KB.entryBadge(code, {kind:"see", cross:true})).join(" ");
   const exps = (c.excerpts && c.excerpts.length) ? c.excerpts : (c.excerpt ? [c.excerpt] : []);
+  /* 没有逐字原文的卡：**不套引号、不用引文块**——引号在这个站里表示"这是原文"。
+     改为左侧竖线的「编者概括」并写明原文待补（外部评审 docs/codex-final-opinion.md A1）。 */
+  const paraphraseBlock = (c.excerpt_status === "paraphrase")
+    ? `<div class="editor-summary">
+         <div class="editor-summary-head">编者概括<span>原文待补</span></div>
+         <p>${KB.esc(c.editor_summary || "（暂无可用的编者概括文本。）")}</p>
+         <p class="editor-summary-note">这一段是编者对原文内容的概括，<b>不是苏霍姆林斯基的原话</b>。
+         出处书里未能定位到可直接引用的段落，故不提供引文。</p>
+       </div>`
+    : "";
   const excerptsHtml = exps.map(q=>`<div class="excerpt" style="margin-top:10px">${KB.esc(q)}</div>`).join("");
   /* 两类标签要分开渲染：
      · `tags` = 卡片自己的维护标记（OCR待校 / 待纸本核 / 跨主题），走 KB.TAG_LABELS；
@@ -125,31 +135,34 @@ function renderCard(c, error){
   document.getElementById("cardMeta").textContent = c.id + " · " + KB.sourceTitle(c.source);
   document.getElementById("cardMain").innerHTML = `
     <div class="card-top">
-      <div>${entryTop}</div>
       <span class="badge">${KB.esc(KB.typeLabel(c.type))}</span>
+      ${c.excerpt_status === "paraphrase" ? `<span class="badge badge-warn">原文待补</span>` : ""}
     </div>
     <dl class="keyfacts">
-      <dt>这一条属于</dt><dd>${c.primary ? KB.entryBadge(c.primary, {cross:true}) : `<a class="badge" href="facets.html">故事体 · 走故事分面</a>`}</dd>
-      <dt>还涉及哪些条目</dt><dd>${seeBadges || "—"}</dd>
+      <dt>这一条属于</dt><dd>${c.primary ? KB.entryBadge(c.primary, {cross:true}) : `<a class="badge" href="facets.html">${c.type === "case" ? "故事体 · 走故事分面" : "未定"}</a>`}</dd>
+      ${seeBadges ? `<dt>还涉及哪些条目</dt><dd>${seeBadges}</dd>` : ""}
       <dt>出处</dt><dd>${KB.sourcePop(c.source, 'explore.html?source=' + encodeURIComponent(c.source))}</dd>
       <dt>出版信息</dt><dd>${KB.esc(KB.refShort(ref, c.source)) || "—"}</dd>
     </dl>
     ${excerptsHtml}
+    ${paraphraseBlock}
     ${c.cn?`<div class="cn"><b>中文转述：</b>${KB.esc(c.cn)}</div>`:""}
     ${(tags.length || taxTags.length)?`<div style="margin-top:12px">${
       taxTags.join("")
     }${tags.map(t=>`<span class="meta" style="border:1px solid var(--line);border-radius:2px;padding:1px 8px;margin-right:6px">${KB.esc(t)}</span>`).join("")}</div>`:""}
     <div class="record">
       <b>关于本卡</b>　编号 ${KB.esc(c.id)}　录入 ${KB.esc(c.created || "—")}${c.updated && c.updated !== c.created ? `　最近校订 ${KB.esc(c.updated)}` : ""}${c.reviewed_by ? `　校验 ${KB.esc(c.reviewed_by)}` : ""}<br>
-      原文摘自上述出版物，OCR 转写后逐段回查；「中文转述」为编者对该段的准确复述，不是原文。<br>
+      ${c.excerpt_status === "paraphrase"
+        ? "本卡<b>没有逐字原文摘录</b>（出处书里未能定位到可直接引用的段落），上面的「编者概括」是编者的转述，不是原文。"
+        : "原文摘自上述出版物，OCR 转写后逐段回查；「中文转述」为编者对该段的准确复述，不是原文。"}<br>
       发现错漏可在 <a href="https://github.com/craeatZeven/sukhomlinsky-education-kb/issues" target="_blank" rel="noopener">仓库 issue</a> 提出，或在 <a href="../INDEX.md" target="_blank" rel="noopener">INDEX.md</a> 里核对原始记录。
     </div>
-    <div style="margin-top:16px;display:flex;gap:10px;flex-wrap:wrap">
-      <button class="chip" id="copyBtn" type="button">复制引用</button>
+    <div class="card-actions">
+      <button class="chip chip--primary" id="copyBtn" type="button">复制引用</button>
       <button class="chip" id="shareBtn" type="button">分享</button>
       <button class="chip" id="printBtn" type="button">打印 / 存 PDF</button>
-      <a class="chip" style="text-decoration:none" href="explore.html?source=${encodeURIComponent(c.source)}">查看同来源卡片 →</a>
-      <a class="chip" style="text-decoration:none" href="../INDEX.md" target="_blank" rel="noopener">在 INDEX 中查看 ↗</a>
+      <a class="chip chip--quiet" style="text-decoration:none" href="explore.html?source=${encodeURIComponent(c.source)}">同来源卡片 →</a>
+      <a class="chip chip--quiet" style="text-decoration:none" href="../INDEX.md" target="_blank" rel="noopener">在 INDEX 中查看 ↗</a>
     </div>`;
   document.getElementById("copyBtn").addEventListener("click", ()=>{
     if(navigator.clipboard) navigator.clipboard.writeText(citation).then(()=>{document.getElementById("copyBtn").textContent="已复制";});

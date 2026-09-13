@@ -357,6 +357,26 @@ a.badge--see { color: var(--soft); border-style: dashed; }
 button.mx-cell { font-family: var(--sans); border: 0; padding: 0; cursor: pointer; }
 button.mx-cell:hover { box-shadow: 0 0 0 2px var(--accent); }
 
+/* 没有逐字原文的卡：编者概括要**一眼看出不是引文**——
+   左侧竖线 + 非衬线小字，明确写"不是原话"（外部评审 docs/codex-final-opinion.md A1） */
+.editor-summary { margin-top: 18px; border-left: 3px solid var(--line); padding: 2px 0 2px 18px; }
+.editor-summary-head { font-size: 13px; letter-spacing: .08em; color: var(--soft); }
+.editor-summary-head span {
+  margin-left: 8px; border: 1px solid color-mix(in srgb, var(--accent) 45%, var(--line));
+  border-radius: var(--radius-archive); padding: 1px 7px; color: var(--accent); font-size: 12px;
+}
+.editor-summary p { margin: 6px 0 0; font-size: 16px; line-height: 1.8; }
+.editor-summary-note { color: var(--soft); font-size: 13px !important; }
+.badge-warn { color: var(--accent); border-color: color-mix(in srgb, var(--accent) 45%, var(--line)); }
+/* 动作按主次分层：复制引用是阅读场景最常用的，其余降为次级 */
+.card-actions { margin-top: 18px; display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+.chip--primary {
+  background: var(--accent); border-color: var(--accent); color: #fff;
+}
+.chip--primary:hover { background: color-mix(in srgb, var(--accent) 85%, #000); color: #fff; }
+.chip--quiet { border-color: transparent; color: var(--soft); }
+.chip--quiet:hover { border-color: var(--line); color: var(--ink); }
+
 /* Footer */
 footer { margin-top: 70px; border-top: 1px solid var(--line); padding: 28px 0 60px; color: var(--soft); font-size: 14px; text-align: center; }
 footer a { color: var(--accent); text-decoration: none; }
@@ -537,6 +557,23 @@ footer .foot-links a:hover { text-decoration-color: var(--accent); }
 .card--reading .ref,
 .card--reading .record,
 .card--reading .keyfacts { max-width: var(--read); }
+/* 详情页的纸卡**收窄到正文栏宽并居中**。
+   原来正文列 max-width 700px，而纸卡撑满 .wrap 的 1180px，文字贴左、右侧留下
+   一大片空白（外部评审 docs/codex-final-opinion.md B·08）。
+   收窄纸卡而不是拉长行宽——行长是按可读性定的（约 41 中文字/行），不该为了填满而牺牲。 */
+.card--reading {
+  max-width: calc(var(--read) + 88px);
+  margin: 0 auto;
+  padding: 34px 44px 30px;
+}
+.card--reading .excerpt,
+.card--reading .cn,
+.card--reading .ref,
+.card--reading .record,
+.card--reading .keyfacts { max-width: none; }
+@media (max-width: 680px) {
+  .card--reading { padding: 22px 18px 20px; }
+}
 .card--reading .excerpt {
   font-size: 21px; line-height: 1.7; padding-left: 40px; padding-top: 2px;
 }

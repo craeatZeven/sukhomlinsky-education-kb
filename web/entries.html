@@ -20,7 +20,7 @@
       <a class="nav-link" href="problem.html">问题检索</a>
       <a class="nav-link" href="clusters.html">思想地图</a>
       <a class="nav-link" href="sources.html">书源</a>
-      <a class="nav-link" href="search.html">API 检索</a>
+      <a class="nav-link" href="search.html">全库搜索</a>
     </div>
   </div>
 </nav>
@@ -36,8 +36,14 @@
 
 <main class="wrap">
   <section>
-    <div class="pending-note" id="howto"></div>
+    <!-- 目录在前、规则折叠在后。
+         复审指出（§B·02）：「规则、统计先于目录，过程说明仍在」「读者先学分类法才能读内容，首屏过重」。
+         读者来是为了找条目，不是先学一套读表法。 -->
     <div id="groups"></div>
+    <details class="howto">
+      <summary>怎么读这张表</summary>
+      <div class="pending-note" id="howto"></div>
+    </details>
   </section>
 </main>
 
@@ -100,12 +106,11 @@ document.addEventListener("DOMContentLoaded", async () => {
     <div class="stat"><b>${c.seealso || 0}</b><span>交叉参见</span></div>`;
 
   document.getElementById("howto").innerHTML = `
-    <b>怎么读这张表</b>
-    <p>每个条目下面两个数字：<b>主归属</b>是中心主张落在这一条的卡片数，<b>被参见</b>是有多少张别的卡把这一条列为参见。
-    反过来问"他对劳动教育的看法"，点开 <a href="entry.html?code=A11">A11 劳动与创造</a> 时要把「主归属」和「交叉参见」两区合起来看——
-    后者是"这条不是它的主条目，但它也讲了这件事"。</p>
-    <p>${c.seealso || 0} 条参见里有 <b>${c.cross_layer || 0}</b> 条跨观察角度——这正是"五角度不是包含关系"的证据。
-    还有 ${c.story || 0} 张故事体卡片（case）不走条目主归属，走 <a href="facets.html">故事分面</a>。</p>`;
+    <p>每个条目下面两个数字：<b>主归属</b>是中心主张落在这一条的卡片数，<b>被参见</b>是有多少张别的卡把这一条列为参见。</p>
+    <p>反过来问「他对劳动教育的看法」，点开 <a href="entry.html?code=A11">A11 劳动与创造</a> 时要把「主归属」和「交叉参见」两区合起来看——
+    后者是「这条不是它的主条目，但它也讲了这件事」。还有：<b>复分标签</b>（如 A18 学习困难学生）不参与主归属分区，只给相关卡片加标记。</p>
+    <p>${c.seealso || 0} 条参见里有 <b>${c.cross_layer || 0}</b> 条跨观察角度——这正是「五个角度不是包含关系」的证据。
+    另有 ${c.story || 0} 张故事体卡片（case）不走条目主归属，走 <a href="facets.html">故事分面</a>。</p>`;
 
   const byCode = {};
   entries.forEach(e => { byCode[e.code] = e; });

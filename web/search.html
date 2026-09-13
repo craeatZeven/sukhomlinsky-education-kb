@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>检索 · 苏霍姆林斯基教育知识库</title>
+<title>全库搜索 · 苏霍姆林斯基教育知识库</title>
 <link rel="stylesheet" href="style.css?v=20260909">
 </head>
 <body>
@@ -20,15 +20,21 @@
       <a class="nav-link" href="problem.html">问题检索</a>
       <a class="nav-link" href="clusters.html">思想地图</a>
       <a class="nav-link" href="sources.html">书源</a>
-      <a class="nav-link active" href="search.html" aria-current="page">API 检索</a>
+      <a class="nav-link active" href="search.html" aria-current="page">全库搜索</a>
     </div>
   </div>
 </nav>
 
 <main class="wrap" style="padding:28px 0 60px">
-  <div class="eyebrow">Server-side Search · FastAPI / Cloudflare Workers + SQLite FTS5</div>
-  <h1 style="margin:6px 0 10px">检索</h1>
-  <p class="meta" id="apiState">正在连接后端…</p>
+  <!-- 主标题先给读者，技术实现信息降为可展开的小字。
+       复审 §B·10 指出「技术实现信息仍抢主视觉」；公开入口应叫「全库搜索」。 -->
+  <h1 style="margin:0 0 6px">全库搜索</h1>
+  <p class="meta" style="margin:0 0 6px">在 1386 张卡片里按题名、中文转述、原文摘录与出处检索；也可只按来源、主题、类型筛选。</p>
+  <details class="howto" style="margin:0 0 14px">
+    <summary>技术说明</summary>
+    <p class="meta" id="apiState">正在连接后端…</p>
+    <p class="meta">后端为 FastAPI / Cloudflare Workers + SQLite FTS5；连不上时自动切换到随站点分发的本地静态检索。</p>
+  </details>
 
   <div class="card" style="padding:16px;margin-top:16px">
     <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center">

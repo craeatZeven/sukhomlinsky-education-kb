@@ -11,6 +11,13 @@
      不合 WCAG AA 小字 4.5:1。每套主题各自定 --heat-3 / --heat-3-ink。 */
   --heat-3: #b4552d;
   --heat-3-ink: #ffffff;
+  /* 「垫在强调色实底上的文字」与「以强调色作文字色」要分开定，不能写死白色、也不能直接用 accent：
+     · --on-accent：垫在 accent 实底上的字色。夜读主题的 accent 是**浅**陶色，
+       白字实测只有 2.39:1，必须用深字；纸本/森林是深底，白字合格。
+     · --accent-ink：以 accent 作**文字色**印在页面底上时的颜色。纸本的 #b4552d
+       在纸色底上只有 4.36:1（12px 小字需 4.5），故略深一档 → 5.27:1。 */
+  --on-accent: #ffffff;
+  --accent-ink: #a24b26;
   /* 顶栏实际高度。窄屏顶栏是两行（84px），锚点跳转的留白要跟着变。
      **必须用变量**：早先写了两条同特异性的 scroll-margin-top（一个在媒体查询里、
      一条在文件后面），后者在**所有宽度**都赢——于是移动端仍按 76px 留白，
@@ -42,6 +49,8 @@ body[data-theme="green"] {
   --chrome: #2c352f;
   --chrome-ink: #eef2ec;
   --chrome-soft: #a7b2aa;
+  --on-accent: #ffffff;
+  --accent-ink: #2f6b4f;
   /* 矩阵最密档：实色 + 该档文字色。**不能用半透明 accent 再配一个写死的白字**——
      实测纸本主题 4.32:1、夜读主题只有 2.75:1，都低于 WCAG AA 小字 4.5:1
      （默认的森林主题恰好合格，所以一直没暴露）。每套主题各自定，见 docs/review-disposition.md */
@@ -60,6 +69,8 @@ body[data-theme="dark"] {
   --chrome: #0e0c0a;
   --chrome-ink: #f0e9de;
   --chrome-soft: #8e8577;
+  --on-accent: #1c1917;
+  --accent-ink: #d99a6c;
   /* 夜读主题的 accent 本身是浅陶色，深色填充反而不协调：
      最密档就用 accent 实色 + **深色文字**（对比度 7.35:1）。 */
   --heat-3: #d99a6c;
@@ -218,9 +229,9 @@ a.badge--see { color: var(--soft); border-style: dashed; }
   border: 1px solid var(--line); background: var(--card); color: var(--soft);
   border-radius: 999px; padding: 6px 14px; font-size: 14px; cursor: pointer; font-family: var(--sans); transition: all .15s;
 }
-.chip.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+.chip.active { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
 .chip:hover { border-color: var(--accent); color: var(--accent); }
-.chip.active:hover { color: #fff; }
+.chip.active:hover { color: var(--on-accent); }
 
 /* Empty/loading */
 .empty { color: var(--soft); text-align: center; padding: 50px 0; display: none; }
@@ -396,9 +407,9 @@ button.mx-cell:hover { box-shadow: 0 0 0 2px var(--accent); }
 /* 动作按主次分层：复制引用是阅读场景最常用的，其余降为次级 */
 .card-actions { margin-top: 18px; display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
 .chip--primary {
-  background: var(--accent); border-color: var(--accent); color: #fff;
+  background: var(--accent); border-color: var(--accent); color: var(--on-accent);
 }
-.chip--primary:hover { background: color-mix(in srgb, var(--accent) 85%, #000); color: #fff; }
+.chip--primary:hover { background: color-mix(in srgb, var(--accent) 85%, #000); color: var(--on-accent); }
 .chip--quiet { border-color: transparent; color: var(--soft); }
 .chip--quiet:hover { border-color: var(--line); color: var(--ink); }
 
@@ -455,6 +466,15 @@ button.mx-cell:hover { box-shadow: 0 0 0 2px var(--accent); }
   #relSection { order: -1; }
   #mapMain > section:first-of-type { order: 0; }
 }
+
+/* 条目总览页：规则折叠在目录之后（复审 §B·02「先解释规则再给目录，首屏过重」） */
+.howto { margin: 34px 0 0; }
+.howto > summary {
+  cursor: pointer; color: var(--soft); font-size: 14px;
+  padding: 8px 0; list-style-position: inside;
+}
+.howto > summary:hover { color: var(--accent); }
+.howto[open] > summary { margin-bottom: 8px; }
 
 /* Footer */
 footer { margin-top: 70px; border-top: 1px solid var(--line); padding: 28px 0 60px; color: var(--soft); font-size: 14px; text-align: center; }
@@ -604,7 +624,7 @@ footer .foot-links a:hover { text-decoration-color: var(--accent); }
 }
 .rows .row-link .row-title { font-size: 17px; }
 .rows .row-link .row-desc { flex: 1 1 320px; font-size: 14px; color: var(--soft); letter-spacing: 0; }
-.rows .row-link .row-go { font-family: var(--mono); font-size: 12px; letter-spacing: .02em; color: var(--accent); }
+.rows .row-link .row-go { font-family: var(--mono); font-size: 12px; letter-spacing: .02em; color: var(--accent-ink); }
 .rows .row-link:hover { background: color-mix(in srgb, var(--accent) 4%, transparent); }
 .rows .row-link:hover .row-title { color: var(--accent); }
 @media (max-width: 680px) {

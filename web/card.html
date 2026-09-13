@@ -94,6 +94,7 @@ function renderCard(c, error){
       if (!list.length) { box.innerHTML = '<p class="section-sub">卡片数据暂不可用。</p>'; return; }
       box.innerHTML = list.map(c => KB.cardRowHTML({
         id: c.id, type: c.type, title: c.title, source: c.source, topics: c.topics, tags: c.tags,
+        tax_tags: c.tax_tags, tax_tag_names: c.tax_tag_names,
         ref: c.ref, preview: (c.excerpts && c.excerpts[0]) || c.excerpt || "", n: (c.excerpts||[]).length,
         primary: c.primary, seealso: c.seealso, primary_name: c.primary_name,
       })).join("");
@@ -109,7 +110,16 @@ function renderCard(c, error){
   const seeBadges = (c.seealso || []).map(code => KB.entryBadge(code, {kind:"see", cross:true})).join(" ");
   const exps = (c.excerpts && c.excerpts.length) ? c.excerpts : (c.excerpt ? [c.excerpt] : []);
   const excerptsHtml = exps.map(q=>`<div class="excerpt" style="margin-top:10px">${KB.esc(q)}</div>`).join("");
+  /* 两类标签要分开渲染：
+     · `tags` = 卡片自己的维护标记（OCR待校 / 待纸本核 / 跨主题），走 KB.TAG_LABELS；
+     · `tax_tags` = 分类体系的复分标签（A18 学习困难学生…），必须显示**条目名**并可点进条目页——
+       早先这里只映射 KB.TAG_LABELS，于是 A18 在卡片页上只是一个孤零零的编号，
+       读者看不出那是「学习困难学生」。 */
   const tags = (c.tags||[]).map(t=>KB.TAG_LABELS[t]||t);
+  const taxTags = (c.tax_tags||[]).map((code,i) => {
+    const name = (c.tax_tag_names||[])[i] || "";
+    return `<a class="badge" href="entry.html?code=${encodeURIComponent(code)}">${KB.esc(code)} ${KB.esc(name)}</a>`;
+  });
   const ref = KB.refText(c.ref);
   const citation = `${c.title} // 苏霍姆林斯基教育知识库 ${c.id} · ${KB.sourceTitle(c.source)} · ${ref}`;
   document.getElementById("cardMeta").textContent = c.id + " · " + KB.sourceTitle(c.source);
@@ -126,7 +136,9 @@ function renderCard(c, error){
     </dl>
     ${excerptsHtml}
     ${c.cn?`<div class="cn"><b>中文转述：</b>${KB.esc(c.cn)}</div>`:""}
-    ${tags.length?`<div style="margin-top:12px">${tags.map(t=>`<span class="meta" style="border:1px solid var(--line);border-radius:2px;padding:1px 8px;margin-right:6px">${KB.esc(t)}</span>`).join("")}</div>`:""}
+    ${(tags.length || taxTags.length)?`<div style="margin-top:12px">${
+      taxTags.join("")
+    }${tags.map(t=>`<span class="meta" style="border:1px solid var(--line);border-radius:2px;padding:1px 8px;margin-right:6px">${KB.esc(t)}</span>`).join("")}</div>`:""}
     <div class="record">
       <b>关于本卡</b>　编号 ${KB.esc(c.id)}　录入 ${KB.esc(c.created || "—")}${c.updated && c.updated !== c.created ? `　最近校订 ${KB.esc(c.updated)}` : ""}${c.reviewed_by ? `　校验 ${KB.esc(c.reviewed_by)}` : ""}<br>
       原文摘自上述出版物，OCR 转写后逐段回查；「中文转述」为编者对该段的准确复述，不是原文。<br>

@@ -140,8 +140,12 @@ class Taxonomy:
             'seealso': sa,
             'primary_name': self.name_of.get(p, '') if p else '',
             'seealso_names': self.names(sa),
-            'tags': tg,
-            'tag_names': self.names(tg),
+            # 分类体系的复分标签（A18…）**不能覆盖** `tags`：
+            # `tags` 是卡片自己的维护标记（OCR待校 / 待纸本核 / 跨主题），
+            # explore.html 的标签筛选与 KB.TAG_LABELS 都依赖它。早先这里直接写 'tags'
+            # 把它们整个盖掉了——那些徽章在页面上静默消失（2026-09-13 修）。
+            'tax_tags': tg,
+            'tax_tag_names': self.names(tg),
         }
 
     # ---- 汇总块

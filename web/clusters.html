@@ -125,12 +125,16 @@
           '<span class="map-layer-n">' + L.count + ' 张</span>' +
         '</div>' + rows + '</div>';
     }).join("");
-    // 复分标签单独列：它不持主归属，所以不进上面的条
+    // 复分标签单独列：它不持主归属，所以不进上面的条。
+    // 但条形**必须与上面同一个刻度**（maxP）——早先这里写死 width:100%，
+    // 于是 69 张画得比 86 张还长，长度不可比（外部评审抓到的）。
     var tags = (map.tag_entries || []).map(function (t) {
+      var w = maxP ? (t.count / maxP * 100) : 0;
       return '<div class="map-row map-row-tag">' +
         '<a class="map-code" href="entry.html?code=' + encodeURIComponent(t.code) + '">' + esc(t.code) + '</a>' +
         '<a class="map-name" href="entry.html?code=' + encodeURIComponent(t.code) + '">' + esc(t.name) + '</a>' +
-        '<div class="map-bars"><span class="bar bar-tag" style="width:100%"></span></div>' +
+        '<div class="map-bars" title="带此标记 ' + t.count + ' 张">' +
+        '<span class="bar bar-tag" style="width:' + w.toFixed(2) + '%"></span></div>' +
         '<span class="map-num"><b>' + t.count + '</b><i>带此标记</i></span>' +
         '</div>';
     }).join("");

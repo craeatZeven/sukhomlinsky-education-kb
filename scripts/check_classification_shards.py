@@ -53,8 +53,14 @@ def main() -> int:
             fail(f'{cid} 主归属不一致：分类 {rec.get("primary")} vs 分片 {got.get("primary")}')
         if sorted(rec.get('seealso') or []) != sorted(got.get('seealso') or []):
             fail(f'{cid} 参见不一致：{rec.get("seealso")} vs {got.get("seealso")}')
-        if (got.get('tags') or []) != (rec.get('tags') or []):
-            fail(f'{cid} 复分标签不一致：{rec.get("tags")} vs {got.get("tags")}')
+        # 分类体系的复分标签放在 `tax_tags`，**不能占用 `tags`**：
+        # `tags` 是卡片自己的维护标记（OCR待校 / 待纸本核 / 跨主题），
+        # 前端 explore.html 的标签筛选依赖它。曾经被覆盖过一次——那些徽章静默消失。
+        # 下面两条断言就是防它复发。
+        if 'tax_tags' not in got:
+            fail(f'{cid} 分片里缺 tax_tags 字段（复分标签可能又被写回 tags 了）')
+        elif (got.get('tax_tags') or []) != (rec.get('tags') or []):
+            fail(f'{cid} 复分标签不一致：分类 {rec.get("tags")} vs 分片 {got.get("tax_tags")}')
 
     # --- 2) meta 的条目计数/被参见数/复分标记数，必须现算一致
     for e in meta['entries']:

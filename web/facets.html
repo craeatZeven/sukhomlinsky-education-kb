@@ -36,7 +36,7 @@
 
 <main class="wrap">
   <section>
-    <div class="pending-note" id="pending"></div>
+    <div class="pending-note" id="pending" hidden></div>
     <div id="groups"></div>
   </section>
 </main>
@@ -73,7 +73,9 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   if(!ready){
     /* 过渡态兜底：计数已在 meta.facets 里，但分片还没带上卡片清单。
-       正常上线后这段不会出现。 */
+       正常上线后这段不会出现——所以元素默认带 hidden，
+       否则 `.pending-note` 的边框会以**空框**形式留在页面上（评审就抓到了这个空框）。 */
+    document.getElementById("pending").hidden = false;
     document.getElementById("pending").innerHTML = `
       <b>分面计数已算出，但数据分片里的卡片清单还没更新</b>
       <p>下面每个分面的张数都是从 <code>data/meta.json</code> 读出来的真实数字，不是 0；

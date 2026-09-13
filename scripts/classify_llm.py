@@ -228,10 +228,32 @@ def cmd_collect(write: bool = True):
 
     print(f"\n条目编号非法：{len(illegal)} {illegal[:8]}")
     ok_n = len(ratios) - len(fake)
-    print(f"原文依据能对上原文：{ok_n}/{len(ratios)}"
+    # **这个指标的名字必须诚实。** 外部评审读了源码后指出（docs/codex-final-opinion.md A1）：
+    # `texts()` 的搜索范围是「标题 + 全部摘录 + **中文转述**」，所以下面这个数只能说明
+    # 「依据能在该卡的文本里找到」，**不等于「出自原文」**——依据落在编辑转述里也会通过。
+    # 另外 `evidence_match` 用的是 4 字窗口 70% 覆盖率（为了容忍 OCR 讹字），
+    # 它是模糊匹配，不是逐字相等。所以这里把两个口径分开报。
+    print(f"依据能在卡片文本中找到（标题+摘录+转述，4-gram≥70%）：{ok_n}/{len(ratios)}"
           f"（{ok_n / len(ratios) * 100:.1f}%）" if ratios else "原文依据：无")
+    strict_fake = []
+    for k, v in merged.items():
+        if v["entry"] == "NONE":
+            continue
+        c = byid.get(k)
+        if not c:
+            continue
+        only_orig = "\n".join(c.get("excerpts") or [])
+        ok2, r2 = evidence_match(v["evidence"], only_orig)
+        if not ok2:
+            strict_fake.append((k, round(r2, 2), v["evidence"][:40]))
+    n_ok2 = len(ratios) - len(strict_fake)
+    print(f"其中**仅凭原文摘录**（不含转述）也成立的：{n_ok2}/{len(ratios)}"
+          f"（{n_ok2 / len(ratios) * 100:.1f}%）"
+          f"—— 差掉的 {len(strict_fake)} 张，依据落在编辑转述里，不能算「出自原文」")
+    for k, r, e in strict_fake[:10]:
+        print(f"    仅转述可对（原文覆盖率 {r}）{k}：「{e}」")
     for k, r, e in fake[:10]:
-        print(f"    对不上（覆盖率 {r}）{k}：「{e}」")
+        print(f"    完全对不上（覆盖率 {r}）{k}：「{e}」")
     print(f"原文依据过短（<8 字）：{len(short)} {short[:8]}")
     print(f"格式错误行：{len(bad)}")
     for b in bad[:8]:

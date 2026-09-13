@@ -63,12 +63,15 @@ def main() -> int:
     for item in QUESTIONS:
         if probe and probe not in item['q']:
             continue
-        # 「读者全库检索这组词」能捞到的候选集：这是内容量的上限
+        # 「读者全库检索这组词」能捞到的候选集。**注意它只用于对照，不能拿它当分母**：
+        # 外部评审指出（docs/codex-final-opinion.md A2）——先按探测词筛出 ids、
+        # 再只在 ids 内统计主归属/参见/分面，会把「页面其实能到达、但正文不含这些词」
+        # 的卡误记成"路径到不了"。下面 path_set 现在直接从**分片**取，与关键词无关。
         ids = [c['id'] for c in cards if any(w in hay[c['id']] for w in item['probe'])]
         old = [c['id'] for c in cards if item['old'] in (c.get('topics') or [])]
         print(f'=== 问题：{item["q"]} ===')
         print(f'迁移前：点旧标签「{item["old"]}」→ {len(old)} 张')
-        print(f'全库提到相关词的卡片（内容上限）：{len(ids)} 张\n')
+        print(f'（对照）全库正文提到这组词的卡片：{len(ids)} 张——这是词表命中，不是路径可达量\n')
 
         prim = Counter(cls[i]['primary'] for i in ids if cls[i].get('primary'))
         print('路径①：**主归属**落点（读者第一跳落脚在哪个条目页）')
@@ -89,51 +92,51 @@ def main() -> int:
         for fid, n in fld.most_common(6):
             print(f'    {facet[fid]["field"]}·{facet[fid]["name"]}　{n} 篇')
 
-        print(f'\n合计可达：{len(ids)} 张（迁移前 {len(old)} 张）')
+        print(f'\n（对照）该题探测词命中的卡片：{len(ids)} 张')
 
-        # 关键区分：**分类路径的到达数** ≠ **全文检索的命中数**。
-        # 上面那个 len(ids) 是"全库正文提到这组词"，那是内容上限，不是分类能带到的量。
-        # 分类是**编过的**结构，本来就比全文检索窄——把两个数混着说会严重高估。
-        main_ids = [i for i in ids if cls[i].get('primary') in item['main']]
-        see_ids = [i for i in ids if set(cls[i].get('seealso') or []) & set(item['main'])]
+        # **路径集合必须从全库算，与探测词无关。**
+        # 外部评审判定（docs/codex-final-opinion.md A2）：早先这段是在 `ids`（按探测词筛过的
+        # 子集）里统计的，于是「页面其实到得了、但正文不含这些词」的卡被误记成路径外，
+        # 分母被词表悄悄改过。现在从全库取，并把"以前看不见的那部分"单列出来。
+        all_ids = [c['id'] for c in cards]
+        main_ids = [i for i in all_ids if cls[i].get('primary') in item['main']]
+        see_ids = [i for i in all_ids if set(cls[i].get('seealso') or []) & set(item['main'])]
         # A18 是复分标签：不进 primary / seealso，只按标记算
-        tag_ids = [i for i in ids if set(cls[i].get('tags') or []) & set(item['main'])]
-        facet_ids = [i for i in ids if set(cls[i].get('facets') or []) & set(item['facets'])]
-        path_total = len(set(main_ids) | set(see_ids) | set(tag_ids) | set(facet_ids))
-        print(f'\n--- 走分类路径实际能带到的（这才是"从条目页走进去"的量）---')
+        tag_ids = [i for i in all_ids if set(cls[i].get('tags') or []) & set(item['main'])]
+        near_ids = [i for i in all_ids if cls[i].get('primary') in item.get('near', [])]
+        facet_ids = [i for i in all_ids if set(cls[i].get('facets') or []) & set(item['facets'])]
+        path_set = set(main_ids) | set(see_ids) | set(tag_ids) | set(near_ids) | set(facet_ids)
+        path_total = len(path_set)
+        missed_by_probe = path_set - set(ids)
+        print(f'\n--- 走分类路径实际能带到的（从**全库**算，与探测词无关）---')
         print(f'    主归属{"、".join(item["main"])}：{len(main_ids)} 张')
         print(f'    参见区里挂着{"、".join(item["main"])}：{len(see_ids)} 张')
         if tag_ids:
             print(f'    复分标签：{len(tag_ids)} 张')
+        if near_ids:
+            print(f'    相邻条目{"、".join(item.get("near", []))}：{len(near_ids)} 张')
         print(f'    分面{"、".join(item["facets"])}：{len(facet_ids)} 篇')
-        print(f'    → 分类路径合计：**{path_total} 张**')
-        print(f'    （对照：全库正文提到相关词 {len(ids)} 张 = 全文检索的上限，'
-              f'不等于分类带得到的量；旧标签给 {len(old)} 张）')
-        print(f'    分类路径比全文检索窄 {len(ids) - path_total} 张——'
-              f'这是应该的：分类是编过的结构，不是检索索引。')
+        print(f'    → 分类路径合计：**{path_total} 张**'
+              f'（去重后；各条之和 {len(main_ids) + len(see_ids) + len(tag_ids) + len(near_ids) + len(facet_ids)} 有重叠）')
+        print(f'    其中 **{len(missed_by_probe)} 张**落在探测词之外——'
+              f'只看关键词时这部分会被误判成"路径到不了"')
+        print(f'    （旧标签给 {len(old)} 张）')
 
-        # 旧标签是它、但四条路都到不了的卡片
-        fell = []
-        for i in old:
-            got = cls[i].get('primary')
-            in_see = any(i in (cls[j].get('seealso') or []) for j in ids)
-            if not got and not in_see and not cls[i].get('facets') and not cls[i].get('tags'):
-                fell.append(i)
-        print(f'\n旧标签命中、但四条路都到不了的卡片：{len(fell)} 张')
-        for i in fell[:6]:
-            print(f'     {i}  {byid[i].get("title", "")[:34]}'
-                  f'  → 现在归 {cls[i].get("primary") or "故事体，无分面"}')
-
-        # 最该看的一个数：**旧标签能到、这条问题路径反而到不了的卡**
-        # 这是"变窄"的代价，必须量出来，不能因为不好看就不报
-        path_set = set(main_ids) | set(see_ids) | set(tag_ids) | set(facet_ids)
+        # 旧标签 vs 路径：差集要**双向**看，不能只说"变窄"
         lost = [i for i in old if i not in path_set]
-        print(f'\n**旧标签能到、这条路径到不了的：{len(lost)} 张**'
-              f'（占旧标签的 {len(lost) / len(old) * 100:.0f}% 就是"变窄"的代价）')
+        gained = [i for i in path_set if i not in set(old)]
+        print(f'\n**旧标签能到、路径到不了的：{len(lost)} 张**（占旧标签 '
+              f'{len(lost) / len(old) * 100:.0f}%）')
+        print(f'**路径能到、旧标签没有的：{len(gained)} 张**（占路径 '
+              f'{len(gained) / path_total * 100:.0f}%）——这一半以前从没报过')
+        print('  注意：差集两侧都可能含"误收"与"漏收"，**不能据此宣布损失合理**，'
+              '要抽样逐张判相关性（评审 A2 的要求）。')
         for i in lost[:8]:
-            print(f'     {i}  {byid[i].get("title", "")[:30]}  → 现归 '
-                  f'{cls[i].get("primary") or "故事体"}'
-                  f'{"/分面 " + ",".join(cls[i]["facets"]) if cls[i].get("facets") else ""}')
+            print(f'     缺 {i}  {byid[i].get("title", "")[:28]}  → 现归 '
+                  f'{cls[i].get("primary") or "故事体"}')
+        for i in gained[:6]:
+            print(f'     新 {i}  {byid[i].get("title", "")[:28]}  → '
+                  f'{cls[i].get("primary") or "故事体"}')
         print()
 
     return 0

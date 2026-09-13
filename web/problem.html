@@ -111,15 +111,25 @@ function queryTerms(q){
 }
 function bigrams(s){
   const t = String(s || "").replace(QPUNCT, "");
-  const out = [];
-  for(let i = 0; i + 2 <= t.length; i++) out.push(t.slice(i, i + 2));
-  return out;
+  /* **必须去重。** 反直觉的坑：ASCII 串会凭空命中——
+     「zzzzz」的全部 2-gram 都是「zz」，不去重的话任何含一个 "zz" 的卡
+     （实测 sk-0418 的 "buzzing"）都算成 4/4 = 完全命中。
+     中文没有这种字符级噪声，ASCII 有。 */
+  const set = new Set();
+  for(let i = 0; i + 2 <= t.length; i++) set.add(t.slice(i, i + 2));
+  return Array.from(set);
 }
+/* 2-gram 覆盖率：distinct gram 里有多大比例能在文本中找到。 */
 function matchScore(text, q){
   if(!q) return 0;
   if(text.includes(q)) return 1;
-  const g = bigrams(q);
-  if(!g.length) return text.includes(q) ? 1 : 0;
+  const t = String(q).replace(QPUNCT, "");
+  /* 太短的查询不做模糊匹配：中文两三个字本身通常就是关键词，
+     模糊化只会把噪声放进来（「劳动」就该靠子串命中，不该扩散）。 */
+  if(t.length < 4) return 0;
+  const g = bigrams(t);
+  /* 去重后只剩一个 2-gram 时无法判别相关性——宁可不匹配，也不要假阳性。 */
+  if(g.length < 2) return 0;
   let hit = 0;
   for(const x of g) if(text.includes(x)) hit++;
   return hit / g.length;

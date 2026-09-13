@@ -234,4 +234,9 @@ document.addEventListener("DOMContentLoaded", async () => {
           if(k === "ref") return csvEscape(KB.refText(c.ref));
           return csvEscape(c[k]);
         }).join(",")));
-    download(`${entry.code}.csv`, "\ufeff" + rows.join("\n")
+    download(`${entry.code}.csv`, "\ufeff" + rows.join("\n"), "text/csv;charset=utf-8");
+  });
+});
+</script>
+</body>
+</html>

@@ -578,4 +578,5 @@ footer a:hover { color: var(--accent); }
   /* 打印：目录行不要被截断在页缝里，元信息压成纯黑 */
   .rows .row { break-inside: avoid; page-break-inside: avoid; background: none !important; }
   .rows .row-quote, .rows .row-meta, .rows .row-title { color: #000 !important; }
-  .row-flag, .theme-nav, .src-pop { display: none !imp
+  .row-flag, .theme-nav, .src-pop { display: none !important; }
+}

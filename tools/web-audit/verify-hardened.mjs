@@ -435,6 +435,44 @@ async function main() {
       `链接=${tm.links.length} 去重=${new Set(tm.links).size}（meta 侧持卡条目 ${indep.entries}）` +
       ` 页面横溢=${tm.overflow}`);
 
+    /* 读者优先的排布（2026-09-14 用户看过第一版后定的改版）：
+       第一版写得像内部审计摘要（"可证伪""体检""块宽 ∝ 张数"），读者被行话挡在外面。
+       这三条判据守的就是"别再退回审计腔"：
+         · 两类卡必须在版图**之前**（读者先知道怎么找，再看分布）
+         · 评估者的口径块默认收起，且**真的没渲染**（不是只是看不见）
+         · 那三句"可证伪"的话仍然在页面里（不能为了读者体验把证据删掉） */
+    const reader = await probe(`(() => {
+      const ways=[...document.querySelectorAll('.tax-way')];
+      const band=document.querySelector('.tax-band');
+      const fold=document.querySelector('.tax-fold');
+      return {
+        ways: ways.length,
+        firstWayTop: ways.length ? Math.round(ways[0].getBoundingClientRect().top) : null,
+        firstBandTop: band ? Math.round(band.getBoundingClientRect().top) : null,
+        foldExists: !!fold, foldOpen: fold ? fold.open : null,
+        foldHeight: fold ? Math.round(fold.getBoundingClientRect().height) : -1,
+        claimCount: document.querySelectorAll('.tax-claim').length,
+      };
+    })()`);
+    check('分类总图', '读者优先：两类卡排在版图之前，且那两句"怎么找"都在',
+      reader.ways === 2 && reader.firstWayTop !== null && reader.firstBandTop !== null &&
+      reader.firstWayTop < reader.firstBandTop,
+      `两类卡=${reader.ways} 个，顶端 ${reader.firstWayTop}px；版图顶端 ${reader.firstBandTop}px`);
+    /* 「收起」的判据要用**高度差**，不能用"内容渲染高度=0"：
+       实测 Chrome 对 `details` 收起的内容仍然保留布局盒子（量到 77px），
+       所以"高度为 0"这条是错的判据。展开前后量一次才说得清"收起 = 折叠成一行"。 */
+    const foldOpen = await probe(`(() => {
+      const fold=document.querySelector('.tax-fold');
+      if(!fold) return {err:'no fold'};
+      fold.open = true;
+      return { open: fold.open, height: Math.round(fold.getBoundingClientRect().height) };
+    })()`);
+    check('分类总图', '评估者那块默认收起（展开前后高度差明显）；三句话仍在页内',
+      reader.foldExists && reader.foldOpen === false && reader.claimCount === 3 &&
+      foldOpen.height > reader.foldHeight * 1.5 && reader.foldHeight < 90,
+      `默认开=${reader.foldOpen} 收起高=${reader.foldHeight}px 展开高=${foldOpen.height}px ` +
+      `断言数=${reader.claimCount}`);
+
     await cdp.send('Emulation.setDeviceMetricsOverride',
       { width: 390, height: 844, deviceScaleFactor: 2, mobile: true }, sessionId);
     await goto('web/taxonomy.html', `document.querySelectorAll('.tax-cell').length>=23`);

@@ -416,10 +416,45 @@ a.badge--see { color: var(--soft); border-style: dashed; }
 #relCardsWrap, #startSection { transform: none !important; }
 
 /* ── 分类总图 taxonomy.html（2026-09-14）────────────────────────────────
-   页面任务：先讲清"两条路 + 一张网"，再用一张固定版图去**验证**那些话。
+   页面定位：**读者优先**。前半页回答"我该怎么找"（两类卡的分别 / 参见是什么 /
+   哪儿材料多 / 标记怎么用），后半页折起来给要引用或评估这个库的人。
+   这一稿是用户看过第一版后定的——第一版写得像内部审计摘要（"可证伪""体检"
+   "块宽 ∝ 张数"），读者被行话挡在外面。所以行话全部收进 <details>。
    约束来自 09-10 的地图类调研（坐标必须有定义、永不重排、面积 ∝ 数量、
    移动端退化成列表、不做星图）与风格卡 tool-data 的硬闸门（390px 不横向溢出、
    触控 ≥40px、计数用等宽小字不堆统计卡、对比度 AA）。 */
+.tax-ways { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+.tax-way { border: 1px solid var(--line); border-radius: var(--radius); padding: 16px 18px; background: var(--card); }
+.tax-way--essay { border-top: 3px solid var(--accent); }
+.tax-way--case { border-top: 3px solid color-mix(in srgb, var(--accent) 45%, var(--line)); }
+.tax-way-head { display: flex; align-items: baseline; gap: 10px; font-family: var(--mono); font-size: 12px; color: var(--soft); }
+.tax-way-head b { font-family: var(--serif); font-size: 30px; color: var(--ink); }
+.tax-way-q { margin: 8px 0 6px; font-family: var(--serif); font-size: 20px; line-height: 1.5; }
+.tax-way-note { margin: 0; font-size: 14px; line-height: 1.75; color: var(--soft); }
+.tax-way-how { margin: 10px 0 0; font-size: 14px; line-height: 1.75; }
+.tax-way-how span { display: inline-block; font-family: var(--mono); font-size: 11px; color: var(--accent-ink);
+  border: 1px solid color-mix(in srgb, var(--accent) 40%, transparent); border-radius: var(--radius-archive);
+  padding: 1px 7px; margin-right: 6px; }
+.tax-way-go { margin: 10px 0 0; display: flex; gap: 8px; flex-wrap: wrap; }
+.tax-way-go a { font-family: var(--mono); font-size: 13px; color: var(--accent-ink); text-decoration: none;
+  border: 1px solid var(--line); border-radius: var(--radius-archive); padding: 9px 12px; min-height: 40px;
+  display: inline-flex; align-items: center; }
+.tax-way-go a:hover { box-shadow: inset 0 -2px 0 var(--accent); }
+.tax-note { margin: 14px 0 0; padding: 12px 16px; font-size: 14px; line-height: 1.75;
+  border-left: 3px solid var(--accent); background: color-mix(in srgb, var(--accent) 5%, transparent); }
+
+.tax-fold { border: 1px solid var(--line); border-radius: var(--radius); background: var(--card); padding: 0 16px; }
+.tax-fold > summary { cursor: pointer; padding: 14px 0; font-size: 14px; color: var(--soft);
+  min-height: 44px; display: flex; align-items: center; list-style: none; }
+.tax-fold > summary::-webkit-details-marker { display: none; }
+.tax-fold > summary::before { content: "▸"; color: var(--accent-ink); margin-right: 8px; font-family: var(--mono); }
+.tax-fold[open] > summary::before { content: "▾"; }
+.tax-fold > summary:hover { color: var(--ink); }
+.tax-fold-body { padding-bottom: 16px; }
+.tax-fold-note { margin: 16px 0 6px; font-size: 13px; color: var(--soft); }
+.tax-fold-list { margin: 0; padding-left: 20px; font-size: 13px; line-height: 1.9; color: var(--soft); }
+.tax-fold-list b { color: var(--ink); }
+
 .tax-claims { display: grid; gap: 12px; }
 .tax-claim { display: grid; grid-template-columns: 28px minmax(0, 1fr); gap: 4px 12px;
   border-left: 3px solid var(--accent); padding: 10px 0 10px 16px; }
@@ -484,6 +519,8 @@ a.badge--see { color: var(--soft); border-style: dashed; }
 @media (max-width: 680px) {
   /* 窄屏退化成**列表 + 条形**，不硬缩版图（Histography 的教训：别拒客也别硬缩）。
      条形长度仍 ∝ 张数，用行内 width 百分比画。 */
+  .tax-ways { grid-template-columns: minmax(0, 1fr); }
+  .tax-way-q { font-size: 18px; }
   .tax-band-body { display: grid; gap: 6px; }
   .tax-cell { min-width: 0; min-height: 44px; flex-direction: row; align-items: center; gap: 8px; }
   .tax-cell .tax-name { flex: 1 1 auto; }

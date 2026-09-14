@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>分类总图 · 苏霍姆林斯基教育知识库</title>
-<link rel="stylesheet" href="style.css?v=20260914c" />
+<link rel="stylesheet" href="style.css?v=20260914d" />
 </head>
 <body data-theme="green">
 <nav class="topnav">
@@ -23,7 +23,7 @@
       <div class="nav-group active" data-group="structure">
         <button class="nav-group-btn" type="button" aria-expanded="false" aria-controls="navMenu-structure">看结构</button>
         <div class="nav-menu" id="navMenu-structure">
-          <a class="nav-link active" href="taxonomy.html" aria-current="page"><span class="nav-menu-label">分类总图</span><span class="nav-menu-sub">两条路 + 一张网：全库怎么分类的</span></a>
+          <a class="nav-link active" href="taxonomy.html" aria-current="page"><span class="nav-menu-label">分类总图</span><span class="nav-menu-sub">两类卡怎么找 · 参见 · 哪儿材料多</span></a>
           <a class="nav-link" href="entries.html"><span class="nav-menu-label">分类条目</span><span class="nav-menu-sub">5 个观察角度 · 23 个条目</span></a>
           <a class="nav-link" href="facets.html"><span class="nav-menu-label">故事分面</span><span class="nav-menu-sub">角色 / 场景 / 事件或情绪</span></a>
           <a class="nav-link" href="explore.html"><span class="nav-menu-label">筛选浏览</span><span class="nav-menu-sub">按主题、来源、类型、状态多选筛卡</span></a>
@@ -47,81 +47,75 @@
 
 <header class="page-head">
   <div class="wrap">
-    <div class="eyebrow">Taxonomy Map</div>
+    <div class="eyebrow">How to look things up</div>
     <h1>分类总图</h1>
-    <p>1386 张卡怎么分类的：<b>两条路</b>（论述卡走条目、故事卡走分面）加<b>一张网</b>（参见）。
-    先读上面三句断言，再看下面的版图——版图是用来验证这三句话的。</p>
+    <p>1386 张卡分两类。<b>知道这个区别，你找东西会快很多</b>：
+    一类是「他主张了什么」，一类是「发生了什么」——找法完全不一样。
+    这一页讲清这个库怎么组织的，所以该从哪儿找。</p>
   </div>
 </header>
 
 <main class="wrap">
 
   <section>
-    <h2 class="section-title">三句可证伪的话</h2>
-    <p class="section-sub">每句都能被下面的数字推翻。规格真源是 <a href="../taxonomy.md">taxonomy.md</a>。</p>
-    <div class="tax-claims" id="taxClaims">
-      <p class="section-sub">正在读数据…</p>
-    </div>
+    <h2 class="section-title">先分清两类卡</h2>
+    <p class="section-sub">这是全库最重要的一条分别。找错门，就会觉得"怎么搜不到"。</p>
+    <div class="tax-ways" id="taxWays"></div>
+    <p class="tax-note" id="taxNote"></p>
   </section>
 
   <section>
-    <h2 class="section-title">两条路</h2>
-    <p class="section-sub">为什么分两条：<b>论述卡有中心主张</b>，可以用"回答了什么问题"归类；
-    <b>故事卡没有中心主张</b>，它是一则叙事，只能按"谁在场 / 在哪 / 发生了什么"归。实测用教育主题词去套故事
-    只能覆盖 75%，改用分面能覆盖 99%。</p>
-    <div class="tax-paths" id="taxPaths"></div>
-  </section>
-
-  <section>
-    <h2 class="section-title">一张网：参见</h2>
-    <p class="section-sub">一张卡只有一个主归属，但它常从别的角度讲同一件事——那些关系进"参见"。
-    <b>跨角度的参见比同角度内的还多</b>，这就是"角度平行"的真正含义：
-    平行的是材料，不是分组。</p>
+    <h2 class="section-title">一张卡会在别的条目下再出现</h2>
+    <p class="section-sub">同一条主张常常也讲了别的事。每张卡只有一个<b>主归属</b>，但它可以在别的条目下作为
+    <b>参见</b>出现——这不是重复，是在提醒你「这两件事要一起看」。
+    所以查一个话题时，条目页的<b>主归属</b>和<b>交叉参见</b>两区都要看。</p>
     <div id="taxNet"></div>
   </section>
 
   <section>
-    <h2 class="section-title">版图：每个条目承接了多少张卡</h2>
-    <p class="section-sub">横条长度 ∝ 该条目的主归属张数（极小的条目给一个保底宽度，否则名字读不出来——
-    这条保底会在下面注明）。<b>规模不是重要性</b>：条长只说明卡片数量的分布。
-    点任意一条进条目页。</p>
+    <h2 class="section-title">哪儿材料多</h2>
+    <p class="section-sub">想知道苏霍姆林斯基在哪方面说得最多，看条块的长短。
+    <b>长不等于重要</b>——只说明卡片数量的分布。点任意一条进条目页。</p>
     <div class="tax-map" id="taxMap"></div>
     <div class="tax-legend" id="taxLegend"></div>
   </section>
 
   <section>
-    <h2 class="section-title">不是角度的那个：复分标签</h2>
-    <p class="section-sub">A18 学习困难学生与角度不是同一类东西：角度回答"这一条主要讲什么"，
-    复分标签回答"这条还牵涉哪一类孩子"。它<b>不参与主归属分区</b>，只给相关卡片打标记。</p>
+    <h2 class="section-title">有一类孩子被单独打了标记</h2>
+    <p class="section-sub">「学习困难学生」不是一个分类条目，而是一个<b>标记</b>：凡是谈到这类孩子的卡片都会被标上，
+    但卡片本身仍按内容归到各自的条目。所以要找"后进生怎么办"，得从这个标记进，不是从条目进。</p>
     <div id="taxTag"></div>
   </section>
 
   <section>
-    <h2 class="section-title">看完整的关系矩阵</h2>
-    <p class="section-sub">这里只画到角度一级（5×5）和往来最多的几对条目；
-    22×22 的完整矩阵与逐格数字在 <a href="clusters.html">思想地图</a>。</p>
+    <h2 class="section-title">这一页的数字是怎么来的</h2>
+    <details class="tax-fold" id="taxFold">
+      <summary>给要引用或评估这个库的人：口径的折扣，以及三句可被推翻的话</summary>
+      <div class="tax-fold-body" id="taxFoldBody"></div>
+    </details>
   </section>
 
 </main>
 
 <footer>
   <div class="wrap">
-    <p class="foot-links"><a href="entries.html">分类条目</a> · <a href="facets.html">故事分面</a> · <a href="clusters.html">思想地图</a> · <a href="coverage.html">覆盖报告</a> · <a href="guide.html">使用指南</a></p>
-    <p><a href="index.html">← 返回首页</a> · 规格 <a href="../taxonomy.md">taxonomy.md</a> · 数据 <a href="../classification.json">classification.json</a> · 裁定记录 <a href="../docs/review-disposition.md">review-disposition.md</a></p>
+    <p class="foot-links"><a href="entries.html">分类条目</a> · <a href="facets.html">故事分面</a> · <a href="clusters.html">思想地图</a> · <a href="guide.html">使用指南</a> · <a href="coverage.html">覆盖报告</a></p>
+    <p><a href="index.html">← 返回首页</a> · 操作细节见 <a href="guide.html">使用指南</a> · 规格真源 <a href="../taxonomy.md">taxonomy.md</a> · 数据 <a href="../classification.json">classification.json</a></p>
   </div>
 </footer>
 
 <script src="kb.js"></script>
-<script src="theme.js?v=20260914c"></script>
+<script src="theme.js?v=20260914d"></script>
 <script>
-/* 分类总图：全部数字**从分片现算**，一个都不写死——写死就会有两个版本的真相
-   （规格文件里已经明确不许手抄数字）。布局是确定性的：同一份数据每次得到同一张图，
-   不跑力导向、不随机。 */
+/* 分类总图：读者优先。
+   前半页回答"我该怎么找"（两类卡的分别、参见是什么、哪儿材料多、标记怎么用），
+   后半页折起来给评估者（三句可被推翻的话 + 口径折扣）。
+   所有数字**从分片现算**，一个都不写死——写死就会出现两个版本的真相。 */
 document.addEventListener("DOMContentLoaded", async () => {
   let meta, map;
   try { meta = await KB.ready(); map = await KB.loadMap(); }
   catch (e) {
-    document.getElementById("taxClaims").innerHTML =
+    document.getElementById("taxWays").innerHTML =
       `<p class="section-sub">数据加载失败：${KB.esc(e.message)}</p>`;
     return;
   }
@@ -130,68 +124,42 @@ document.addEventListener("DOMContentLoaded", async () => {
   const essays = meta.entries.filter(e => !e.tag);
   const facets = meta.facets || [];
   const layers = meta.layers || [];
-  const byCode = {}; meta.entries.forEach(e => { byCode[e.code] = e; });
   const layerOf = {}; layers.forEach(l => (l.entries || []).forEach(k => { layerOf[k] = l.name; }));
-
   const sum = (a, f) => a.reduce((s, x) => s + f(x), 0);
-  const top = essays.slice().sort((a, b) => b.count - a.count);
-  const biggest = top[0], smallest = top[top.length - 1];
-  const ratio = smallest.count ? (biggest.count / smallest.count) : 0;
-  /* 同角度内的参见 = 全部参见 − 跨角度（跨角度由 meta 给出，避免自己再算一遍出错） */
-  const sameAngle = c.seealso - c.cross_layer;
 
-  const claims = [
-    [`1386 张卡走两条路：<b>${c.assigned}</b> 张论述卡按 <b>${essays.length}</b> 个条目归档，
-      <b>${c.story}</b> 张故事卡按 <b>${facets.length}</b> 个分面归档。`,
-     `可证伪：数一遍分类文件即可；论述卡里没有一张缺主归属（故事卡则一张都没有主归属）。`],
-    [`最厚的条目 <b>${biggest.code} ${esc(biggest.name)}</b> ${biggest.count} 张，
-      最薄的 <b>${smallest.code} ${esc(smallest.name)}</b> ${smallest.count} 张——相差 <b>${ratio.toFixed(1)} 倍</b>。`,
-     `可证伪：任一条目页顶部的"主归属"数字。这也说明规模是分布事实，不是重要性排名。`],
-    [`<b>${c.seealso}</b> 条参见里有 <b>${c.cross_layer}</b> 条跨角度
-      （<b>${(c.cross_layer / c.seealso * 100).toFixed(1)}%</b>），比同角度内的 ${sameAngle} 条还多。`,
-     `可证伪：下面那张 5×5 角度表。跨角度更多 ⇒ 五个角度是"看的角度"，不是谁包含谁。`],
-  ];
-  document.getElementById("taxClaims").innerHTML = claims.map(([a, b], i) => `
-    <div class="tax-claim">
-      <span class="tax-claim-n">${i + 1}</span>
-      <p class="tax-claim-main">${a}</p>
-      <p class="tax-claim-why">${b}</p>
-    </div>`).join("");
-
-  /* ── 两条路 ───────────────────────────────────────────────────────── */
+  /* ── ① 两类卡：读者最需要知道的一条 ───────────────────────────────── */
   const fieldOf = {};
   facets.forEach(f => { (fieldOf[f.field] = fieldOf[f.field] || []).push(f); });
   const fields = Object.keys(fieldOf);
   const caseLinked = sum(meta.entries, e => e.case_count || 0);
-  document.getElementById("taxPaths").innerHTML = `
-    <div class="tax-path">
-      <div class="tax-path-head"><span class="tax-kind">论述卡</span><b>${c.assigned}</b> 张</div>
-      <p class="tax-path-note">引文 / 原则 / 方法 / 做法 —— <b>有中心主张</b>，所以按"回答了什么问题"归。</p>
-      <div class="tax-path-arrow">→</div>
-      <div class="tax-path-body">
-        <p><b>${layers.length}</b> 个观察角度 · <b>${essays.length}</b> 个条目</p>
-        <p class="tax-path-links">${layers.map(l =>
-          `<a href="entries.html#${esc(l.name)}">${l.index} · ${esc(l.name)}</a>`).join("")}</p>
-        <p class="tax-path-meta">每个条目<b>恰好归一个角度</b>（分区）；卡片可以跨角度（走参见）。</p>
-      </div>
-    </div>
-    <div class="tax-path">
-      <div class="tax-path-head"><span class="tax-kind">故事卡</span><b>${c.story}</b> 张</div>
-      <p class="tax-path-note">全部是 <code>type: case</code> —— <b>没有中心主张</b>，是叙事，所以按"谁在场 / 在哪 / 发生了什么"归。</p>
-      <div class="tax-path-arrow">→</div>
-      <div class="tax-path-body">
-        <p><b>${fields.length}</b> 个字段 · <b>${facets.length}</b> 个分面（可多选）</p>
-        <p class="tax-path-links">${fields.map(f =>
-          `<span class="tax-field">${esc(f)}<b>${fieldOf[f].length}</b></span>`).join("")}</p>
-        <p class="tax-path-meta">另有 <b>${caseLinked}</b> 处把故事挂靠到条目（教学案例可作某条的例证）——
-        <a href="cases.html">见案例 Review</a>。</p>
-      </div>
-    </div>`;
+  document.getElementById("taxWays").innerHTML = `
+    <article class="tax-way tax-way--essay">
+      <div class="tax-way-head"><span class="tax-kind">论述卡</span><b>${c.assigned}</b> 张</div>
+      <p class="tax-way-q">他<b>主张了什么</b></p>
+      <p class="tax-way-note">引文、原则、方法、做法。每一张都有一个中心意思，所以能按"讲了什么问题"归类——
+      全库共 <b>${layers.length}</b> 个观察角度、<b>${essays.length}</b> 个条目。</p>
+      <p class="tax-way-how"><span>怎么找</span>直接在全库搜索里打关键词；或者顺着条目查——
+      一个条目就是一片主张（例：<a href="entry.html?code=A11">A11 劳动与创造</a>）。</p>
+      <p class="tax-way-go"><a href="search.html">全库搜索</a> · <a href="entries.html">按 ${essays.length} 个条目查</a></p>
+    </article>
+    <article class="tax-way tax-way--case">
+      <div class="tax-way-head"><span class="tax-kind">故事卡</span><b>${c.story}</b> 张</div>
+      <p class="tax-way-q">故事里<b>发生了什么</b></p>
+      <p class="tax-way-note">给孩子读的短故事（含《做人的故事》541 篇）。它们<b>没有中心主张</b>，
+      是一则叙事——所以关键词很难搜到它们，也不能按"讲了什么问题"归类。</p>
+      <p class="tax-way-how"><span>怎么找</span>按分面翻：<b>谁在场</b>（角色）· <b>在哪发生</b>（场景）·
+      <b>发生了什么</b>（事件或情绪），共 <b>${fields.length}</b> 个字段、<b>${facets.length}</b> 个分面，可以多选。</p>
+      <p class="tax-way-go"><a href="facets.html">按故事分面翻</a> · <a href="stories.html">按页码通读</a></p>
+    </article>`;
+  document.getElementById("taxNote").innerHTML =
+    `这就是为什么<b>别只在一个地方搜</b>：论述卡和故事卡在两个不同的入口下。
+    另有一类介于两者之间——<b>教学案例</b>，它们同样没有中心主张，但可以当某一条主张的例证，
+    共 <b>${caseLinked}</b> 处挂在条目里（见 <a href="cases.html">案例 Review</a>）。`;
 
-  /* ── 一张网：角度级 5×5 + 往来最多的条目对 ─────────────────────────── */
+  /* ── ② 参见：角度级 5×5 + 往来最多的条目对 ───────────────────────── */
   const pairs = map.pairs || {};
   const between = {};
-  let topPairs = [];
+  const topPairs = [];
   Object.keys(pairs).forEach(k => {
     const [a, b] = k.split("|");
     const n = (pairs[k] || []).length;
@@ -203,18 +171,12 @@ document.addEventListener("DOMContentLoaded", async () => {
   });
   topPairs.sort((x, y) => y[2] - x[2]);
   const names = layers.map(l => l.name);
-  const cell = (a, b) => {
-    if (a === b) return null;
-    const k = [a, b].sort().join("|");
-    return between[k] || 0;
-  };
+  const cell = (a, b) => a === b ? null : (between[[a, b].sort().join("|")] || 0);
   const maxBetween = Math.max(1, ...names.flatMap(a => names.map(b => cell(a, b) || 0)));
-  /* 颜色深浅用 accent 的透明度分档——不用第二套色板，免得又出现
-     "一个随主题变的变量配一个写死的搭档"。 */
   const shade = (v) => v ? `background: color-mix(in srgb, var(--accent) ${Math.round(10 + 55 * v / maxBetween)}%, transparent)` : "";
   document.getElementById("taxNet").innerHTML = `
     <table class="tax-matrix">
-      <caption class="tax-cap">角度之间互相参见的条数（只统计<b>跨</b>角度；对角线与同角度内不在此列）</caption>
+      <caption class="tax-cap">哪些角度看同一件事最频繁（数字 = 两个角度之间互相参见的条数；对角线不算）</caption>
       <thead><tr><th></th>${names.map(n => `<th scope="col">${esc(n)}</th>`).join("")}</tr></thead>
       <tbody>${names.map(a => `<tr><th scope="row">${esc(a)}</th>${names.map(b => {
         const v = cell(a, b);
@@ -222,14 +184,15 @@ document.addEventListener("DOMContentLoaded", async () => {
           : `<td style="${shade(v)}" title="${esc(a)} ↔ ${esc(b)}：${v} 条">${v}</td>`;
       }).join("")}</tr>`).join("")}</tbody>
     </table>
-    <p class="tax-top">往来最多的条目对：${topPairs.slice(0, 6).map(([a, b, n]) =>
+    <p class="tax-top">最该一起看的几对条目：${topPairs.slice(0, 6).map(([a, b, n]) =>
       `<a href="entry.html?code=${encodeURIComponent(a)}"><b>${esc(a)}</b></a>↔<a href="entry.html?code=${encodeURIComponent(b)}"><b>${esc(b)}</b></a> <span class="tax-n">${n}</span>`).join(" · ")}</p>`;
 
-  /* ── 版图：5 泳道，块宽 ∝ 主归属数 ─────────────────────────────────── */
-  const MINW = 88;                       /* 保底宽度（px），用来注明，不藏起来 */
+  /* ── ③ 版图：哪儿材料多 ───────────────────────────────────────────── */
+  const MINW = 88;
   const totalCount = sum(essays, e => e.count) || 1;
+  const ordered = essays.slice().sort((a, b) => b.count - a.count);
   document.getElementById("taxMap").innerHTML = layers.map(l => {
-    const list = top.filter(e => e.layer === l.name);
+    const list = ordered.filter(e => e.layer === l.name);
     const sumL = sum(list, e => e.count) || 1;
     return `
     <div class="tax-band" id="${esc(l.name)}">
@@ -252,18 +215,51 @@ document.addEventListener("DOMContentLoaded", async () => {
     </div>`;
   }).join("");
   document.getElementById("taxLegend").innerHTML =
-    `图例：块宽 ∝ 主归属张数；宽度不足 ${MINW}px 的条目给保底宽度（否则名字读不出），` +
-    `所以极小条目的视觉占比会略高于真实占比。窄屏改为列表 + 条形（不硬缩）。`;
+    `条块长短 = 主归属张数。宽度不足 ${MINW}px 的条目给了保底宽度（否则名字读不出），` +
+    `所以极小的条目看上去会比实际略宽一点。窄屏改为列表。`;
 
-  /* ── 复分标签 ─────────────────────────────────────────────────────── */
+  /* ── ④ 复分标记 ──────────────────────────────────────────────────── */
   const tags = meta.entries.filter(e => e.tag);
   document.getElementById("taxTag").innerHTML = tags.length ? tags.map(e => `
     <a class="tax-tag" href="entry.html?code=${encodeURIComponent(e.code)}">
       <span class="tax-code">${esc(e.code)}</span>
       <span class="tax-name">${esc(e.name)}</span>
       <span class="tax-count"><b>${e.tag_count || 0}</b><i>张被打标</i></span>
-      <span class="tax-go">看全部 →</span>
-    </a>`).join("") : `<p class="section-sub">当前没有复分标签。</p>`;
+      <span class="tax-go">看 ${e.tag_count || 0} 张全部 →</span>
+    </a>`).join("") : `<p class="section-sub">当前没有复分标记。</p>`;
+
+  /* ── ⑤ 折叠：给评估者的口径与三句可被推翻的话 ─────────────────────── */
+  const biggest = ordered[0], smallest = ordered[ordered.length - 1];
+  const ratio = smallest.count ? (biggest.count / smallest.count) : 0;
+  const sameAngle = c.seealso - c.cross_layer;
+  const claims = [
+    [`1386 张卡走两条路：<b>${c.assigned}</b> 张论述卡按 <b>${essays.length}</b> 个条目归档，
+      <b>${c.story}</b> 张故事卡按 <b>${facets.length}</b> 个分面归档。`,
+     `可证伪：数一遍分类文件即可。论述卡里没有一张缺主归属；故事卡则一张都没有主归属。`],
+    [`最厚的条目 <b>${biggest.code} ${esc(biggest.name)}</b> ${biggest.count} 张，
+      最薄的 <b>${smallest.code} ${esc(smallest.name)}</b> ${smallest.count} 张——相差 <b>${ratio.toFixed(1)} 倍</b>。`,
+     `可证伪：任一条目页顶部的"主归属"数字。这也说明规模是分布事实，不是重要性排名。`],
+    [`<b>${c.seealso}</b> 条参见里有 <b>${c.cross_layer}</b> 条跨角度
+      （<b>${(c.cross_layer / c.seealso * 100).toFixed(1)}%</b>），比同角度内的 ${sameAngle} 条还多。`,
+     `可证伪：上面那张矩阵横向加总。跨角度更多 ⇒ 五个角度是"看的角度"，不是谁包含谁。`],
+  ];
+  document.getElementById("taxFoldBody").innerHTML = `
+    <div class="tax-claims">${claims.map(([a, b], i) => `
+      <div class="tax-claim">
+        <span class="tax-claim-n">${i + 1}</span>
+        <p class="tax-claim-main">${a}</p>
+        <p class="tax-claim-why">${b}</p>
+      </div>`).join("")}</div>
+    <p class="tax-fold-note">三条口径上的话，一并写在这里，免得再被误读：</p>
+    <ul class="tax-fold-list">
+      <li><b>条目归角度是分区，不是层级。</b>${essays.length} 个持卡条目各归恰好一个角度；一张卡可以跨角度，
+        这正是上面那张矩阵存在的原因。</li>
+      <li><b>块宽不是严格正比。</b>极小条目有 ${MINW}px 保底宽度，底部会失真；失真方向是"小的显得略大"。</li>
+      <li><b>坐标不跑布局算法。</b>板块位置由分片数据直接算出，同一份数据每次得到同一张图——
+        没有随机种子，也不会重跑一次就换位置。</li>
+      <li>规格真源：<a href="../taxonomy.md">taxonomy.md</a>；逐卡归属：<a href="../classification.json">classification.json</a>；
+        人工裁定与撤回的结论：<a href="../docs/review-disposition.md">review-disposition.md</a>。</li>
+    </ul>`;
 });
 </script>
 </body>

@@ -146,11 +146,16 @@ try {
         window.scrollTo(0, y);
         await new Promise(r => setTimeout(r, 160));
       }
-      /* 逐个 scrollIntoView，**最多 4 轮**：有的页面会在数据分片载入后
-         **重建** section（entry.html 的 #caseSection 就是），重建出来的元素
-         带新的 reveal-pending、需要新一次相交；只滚一轮会赶不上它。
-         另外**不再滚回顶部**：测的是 computed style，与滚动位置无关，
-         而 scrollTo(0,0) 会被页面里迟到的锚点滚动顶掉。 */
+      /* 逐个 scrollIntoView，**最多 4 轮**。为什么不是一轮就够：
+         实测单趟滚动会**偶发**漏掉个别 section（entry.html 的 #caseSection / #siblingSection
+         各遇到过），而滚到稳定后不再漏。
+         **注意别写成"它们被重建"**：查过 web/entry.html，这两个 section 是**静态**元素
+         （第 74 / 81 行），JS 只改它们子元素的 innerHTML，从不替换 section 本身。
+         单趟漏掉的确切原因没有逐条坐实（候选：观察时还是 display:none、或页面在滚的过程中
+         继续变长被掠过）——**机制没查清就不写进注释**，但"多滚几轮"这个做法本身是实测有效的。
+         另外**不滚回顶部**：测的是 computed style，与滚动位置无关，
+         而 scrollTo(0,0) 会被页面里迟到的锚点滚动顶掉。
+         （本段在模板字符串里，不能出现反引号。） */
       for (let round = 1; round <= 4; round++) {
         const rest = [...document.querySelectorAll('section, .grid')].filter(el => eff(el) < 0.5);
         if (!rest.length) break;

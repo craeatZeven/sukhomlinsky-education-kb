@@ -32,7 +32,7 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const PAGES = process.env.AUDIT_PAGES
   ? process.env.AUDIT_PAGES.split(',')
   : ['web/index.html', 'web/entries.html', 'web/entry.html?code=A11',
-     'web/clusters.html', 'web/facets.html', 'web/card.html?id=sk-0001',
+     'web/taxonomy.html', 'web/clusters.html', 'web/facets.html', 'web/card.html?id=sk-0001',
      'web/problem.html'];
 
 const PROBE = `(() => {

@@ -41,7 +41,8 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const PAGES = process.env.AUDIT_PAGES
   ? process.env.AUDIT_PAGES.split(',')
   : ['web/index.html', 'web/entries.html', 'web/entry.html?code=A11', 'web/facets.html',
-     'web/facet.html?code=S6', 'web/clusters.html', 'web/stories.html', 'web/cases.html',
+     'web/facet.html?code=S6', 'web/clusters.html', 'web/taxonomy.html', 'web/stories.html',
+     'web/cases.html',
      'web/sources.html', 'web/coverage.html', 'web/guide.html', 'web/latest.html',
      'web/search.html', 'web/problem.html', 'web/topics.html', 'web/topic.html?slug=yuedu',
      'web/explore.html'];

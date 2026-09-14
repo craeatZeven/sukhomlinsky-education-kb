@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>筛选浏览 · 苏霍姆林斯基教育知识库</title>
-<link rel="stylesheet" href="style.css?v=20260914b" />
+<link rel="stylesheet" href="style.css?v=20260914c" />
 </head>
 <body>
 <nav class="topnav">
@@ -23,6 +23,7 @@
       <div class="nav-group active" data-group="structure">
         <button class="nav-group-btn" type="button" aria-expanded="false" aria-controls="navMenu-structure">看结构</button>
         <div class="nav-menu" id="navMenu-structure">
+          <a class="nav-link" href="taxonomy.html"><span class="nav-menu-label">分类总图</span><span class="nav-menu-sub">两条路 + 一张网：全库怎么分类的</span></a>
           <a class="nav-link" href="entries.html"><span class="nav-menu-label">分类条目</span><span class="nav-menu-sub">5 个观察角度 · 23 个条目</span></a>
           <a class="nav-link" href="facets.html"><span class="nav-menu-label">故事分面</span><span class="nav-menu-sub">角色 / 场景 / 事件或情绪</span></a>
           <a class="nav-link active" href="explore.html" aria-current="page"><span class="nav-menu-label">筛选浏览</span><span class="nav-menu-sub">按主题、来源、类型、状态多选筛卡</span></a>
@@ -51,7 +52,7 @@
     <p class="hide-sm">按主题、来源、类型、状态多选筛卡。这里的<b>主题</b>用的是改版前的 12 个
     （现在的主轴是 <a href="entries.html">23 个条目</a>），留着是因为它筛起来顺手。</p>
     <div class="searchbox">
-      <input id="search" type="search" placeholder="关键词（可选）：后进生、健康、读书、评价……" />
+      <input aria-label="关键词筛选" id="search" type="search" placeholder="关键词（可选）：后进生、健康、读书、评价……" />
       <button class="chip" id="clearBtn" type="button">重置</button>
     </div>
   </div>
@@ -95,7 +96,7 @@
 </footer>
 
 <script src="kb.js"></script>
-<script src="theme.js?v=20260914b"></script>
+<script src="theme.js?v=20260914c"></script>
 <script>
 let CARDS = [];                 /* 全库索引（摘要，无正文） */
 let CORPUS = null;              /* 全文检索语料，首次需要时再拉 */

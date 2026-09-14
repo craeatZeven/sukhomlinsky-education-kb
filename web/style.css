@@ -415,6 +415,85 @@ a.badge--see { color: var(--soft); border-style: dashed; }
 #primarySection, #crossSection, #caseSection, #siblingSection,
 #relCardsWrap, #startSection { transform: none !important; }
 
+/* ── 分类总图 taxonomy.html（2026-09-14）────────────────────────────────
+   页面任务：先讲清"两条路 + 一张网"，再用一张固定版图去**验证**那些话。
+   约束来自 09-10 的地图类调研（坐标必须有定义、永不重排、面积 ∝ 数量、
+   移动端退化成列表、不做星图）与风格卡 tool-data 的硬闸门（390px 不横向溢出、
+   触控 ≥40px、计数用等宽小字不堆统计卡、对比度 AA）。 */
+.tax-claims { display: grid; gap: 12px; }
+.tax-claim { display: grid; grid-template-columns: 28px minmax(0, 1fr); gap: 4px 12px;
+  border-left: 3px solid var(--accent); padding: 10px 0 10px 16px; }
+.tax-claim-n { grid-row: 1 / span 2; font-family: var(--mono); font-size: 20px; font-weight: 700; color: var(--accent-ink); }
+.tax-claim-main { margin: 0; font-size: 17px; line-height: 1.7; color: var(--ink); }
+.tax-claim-why { margin: 2px 0 0; font-size: 13px; color: var(--soft); }
+
+.tax-paths { display: grid; gap: 14px; }
+.tax-path { border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 16px; background: var(--card); }
+.tax-path-head { display: flex; align-items: baseline; gap: 10px; font-family: var(--mono); font-size: 12px; color: var(--soft); }
+.tax-path-head b { font-family: var(--serif); font-size: 26px; color: var(--ink); }
+.tax-kind { font-family: var(--sans); font-size: 13px; font-weight: 700; color: var(--accent-ink);
+  border: 1px solid color-mix(in srgb, var(--accent) 40%, transparent); border-radius: 999px; padding: 2px 10px; }
+.tax-path-note { margin: 6px 0 0; font-size: 14px; color: var(--soft); }
+.tax-path-arrow { font-family: var(--mono); color: var(--accent-ink); margin: 6px 0; }
+.tax-path-body p { margin: 4px 0; font-size: 14px; }
+.tax-path-links { display: flex; flex-wrap: wrap; gap: 4px 8px; }
+.tax-path-links a, .tax-field { font-size: 13px; font-family: var(--mono); color: var(--accent-ink);
+  border: 1px solid var(--line); border-radius: var(--radius-archive); padding: 3px 8px; text-decoration: none;
+  min-height: 32px; display: inline-flex; align-items: center; gap: 6px; }
+.tax-path-links a:hover { box-shadow: inset 0 -2px 0 var(--accent); }
+.tax-field b { color: var(--ink); }
+.tax-path-meta { font-size: 13px; color: var(--soft); }
+
+.tax-matrix { width: 100%; border-collapse: collapse; font-family: var(--mono); font-size: 12px; }
+.tax-matrix th, .tax-matrix td { border: 1px solid var(--line); padding: 6px 4px; text-align: center; }
+.tax-matrix thead th, .tax-matrix tbody th { font-family: var(--sans); font-size: 12px; font-weight: 600;
+  color: var(--soft); background: color-mix(in srgb, var(--ink) 4%, transparent); }
+.tax-matrix td { color: var(--ink); }
+.tax-matrix .tax-self { color: color-mix(in srgb, var(--soft) 60%, transparent); }
+.tax-cap { caption-side: top; text-align: left; font-family: var(--sans); font-size: 13px; color: var(--soft); padding-bottom: 8px; }
+.tax-top { margin: 12px 0 0; font-size: 13px; line-height: 2; }
+.tax-top a { color: var(--accent-ink); text-decoration: none; }
+.tax-top a:hover { box-shadow: inset 0 -2px 0 var(--accent); }
+.tax-n { font-family: var(--mono); color: var(--soft); }
+
+.tax-map { display: grid; gap: 18px; }
+.tax-band-head { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.tax-band-head h3 { margin: 0; font-family: var(--serif); font-size: 18px; font-weight: 700; }
+.tax-band-q { font-size: 13px; color: var(--soft); }
+.tax-band-n { margin-left: auto; font-family: var(--mono); font-size: 12px; color: var(--accent-ink); }
+.tax-band-body { display: flex; gap: 4px; margin-top: 8px; }
+.tax-cell { display: flex; flex-direction: column; gap: 2px; justify-content: center;
+  min-width: 88px; min-height: 84px; padding: 8px 10px; text-decoration: none;
+  border: 1px solid var(--line); border-radius: var(--radius-archive);
+  background: color-mix(in srgb, var(--accent) 7%, var(--card)); color: var(--ink);
+  transition: background .15s, box-shadow .15s; }
+.tax-cell:hover { background: color-mix(in srgb, var(--accent) 16%, var(--card)); box-shadow: inset 0 -2px 0 var(--accent); }
+.tax-code { font-family: var(--mono); font-size: 11px; color: var(--accent-ink); }
+.tax-name { font-size: 13px; line-height: 1.35; }
+.tax-count b { font-family: var(--serif); font-size: 20px; }
+.tax-count i { font-family: var(--sans); font-size: 11px; font-style: normal; color: var(--soft); margin-left: 2px; }
+.tax-cross { font-family: var(--mono); font-size: 11px; color: var(--soft); }
+.tax-band-foot { margin: 6px 0 0; font-family: var(--mono); font-size: 11px; color: var(--soft); }
+.tax-legend { margin-top: 14px; font-size: 12px; line-height: 1.8; color: var(--soft); }
+.tax-tag { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; text-decoration: none;
+  border: 1px solid var(--line); border-left: 3px solid var(--accent); border-radius: var(--radius-archive);
+  padding: 12px 14px; background: var(--card); color: var(--ink); min-height: 44px; }
+.tax-tag:hover { background: color-mix(in srgb, var(--accent) 8%, var(--card)); }
+.tax-tag .tax-go { margin-left: auto; font-family: var(--mono); font-size: 12px; color: var(--accent-ink); }
+
+@media (max-width: 680px) {
+  /* 窄屏退化成**列表 + 条形**，不硬缩版图（Histography 的教训：别拒客也别硬缩）。
+     条形长度仍 ∝ 张数，用行内 width 百分比画。 */
+  .tax-band-body { display: grid; gap: 6px; }
+  .tax-cell { min-width: 0; min-height: 44px; flex-direction: row; align-items: center; gap: 8px; }
+  .tax-cell .tax-name { flex: 1 1 auto; }
+  .tax-cell .tax-count { order: 3; }
+  .tax-cell .tax-cross { display: none; }
+  .tax-matrix { font-size: 11px; }
+  .tax-matrix th, .tax-matrix td { padding: 4px 2px; }
+  .tax-claim { grid-template-columns: 22px minmax(0, 1fr); }
+  .tax-claim-main { font-size: 15px; }
+}
 /* 没有逐字原文的行：**不套引号**，改用左侧竖线 + 弱化字色表示"这是编者概括"。
    引号在这个站里是有含义的——它表示"这是原文"，所以没有原文时必须撤掉。 */
 .row-quote.row-noquote { color: var(--soft); padding-left: 12px; border-left: 3px solid var(--line); }

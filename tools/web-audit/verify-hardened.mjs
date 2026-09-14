@@ -299,8 +299,8 @@ async function main() {
         n.groups === 3 && n.btnLines.every((x) => x === 1) && n.outsideLeft === 0 && n.docOverflow <= 1,
         `组数=${n.groups} ${JSON.stringify(n.labels)} 行数=${JSON.stringify(n.btnLines)} ` +
         `左越界=${n.outsideLeft} 页面横溢=${n.docOverflow}`);
-      check(`顶栏导航(${tag})`, '14 个目的地一个不少（重排没漏掉页面）',
-        n.destinations.length === 14 && new Set(n.destinations).size === 14,
+      check(`顶栏导航(${tag})`, '15 个目的地一个不少（重排没漏掉页面）',
+        n.destinations.length === 15 && new Set(n.destinations).size === 15,
         `去重后=${new Set(n.destinations).size} 共=${n.destinations.length}`);
       check(`顶栏导航(${tag})`, '品牌链接回首页（本版去掉了单独的「首页」项）',
         n.brandHref === 'index.html', `brand href=${n.brandHref}`);
@@ -368,6 +368,90 @@ async function main() {
       `顶栏底=${anc.navBottom} 标题顶=${anc.titleTop}（差 ${anc.titleTop - anc.navBottom}px）scrollY=${anc.y} ` +
       `section 顶=${anc.secTop} 标题偏移=${anc.h2Gap} scroll-margin=${anc.scrollMarginTop} ` +
       `--nav-h=${anc.varNavH} 透明度=${anc.secOpacity} 字体就绪=${anc.fontsReady} class=${anc.secCls}`);
+
+    /* ---------- 3b. 分类总图：数字现算、版图长度与张数同序 ---------- */
+    /* 这一页的任务是"讲清分类 + 用版图验证那些话"，所以判据也必须对着这两件事：
+       ① 三句断言里的数字要从 meta.json **独立算一遍**再核对，不能只看页面上有没有字；
+       ② 版图块宽必须与主归属张数**单调同序**（有保底宽度，所以不要求严格正比，
+          但"张数多的块不能比张数少的块窄"是可证伪的）；
+       ③ 每一条目都要能点进去（23 个链接、无重复）。 */
+    const metaJson = JSON.parse(readFileSync(join(ROOT, 'web/data/meta.json'), 'utf-8'));
+    const indep = {
+      assigned: metaJson.classification.assigned,
+      story: metaJson.classification.story,
+      seealso: metaJson.classification.seealso,
+      crossLayer: metaJson.classification.cross_layer,
+      entries: metaJson.entries.filter((e) => !e.tag).length,
+      facets: metaJson.facets.length,
+      layers: metaJson.layers.length,
+      layerCodes: metaJson.layers.map((l) => l.entries.length),
+    };
+    await goto('web/taxonomy.html', `document.querySelectorAll('.tax-claim').length>=3`);
+    const tm = await probe(`(() => {
+      const claims=[...document.querySelectorAll('.tax-claim-main')].map(p=>p.textContent.replace(/\\s+/g,' ').trim());
+      const bands=[...document.querySelectorAll('.tax-band')];
+      const per=bands.map(b=>({
+        name: b.querySelector('h3').textContent.trim(),
+        n: b.querySelectorAll('.tax-cell').length,
+        cells: [...b.querySelectorAll('.tax-cell')].map(a=>({
+          code: a.querySelector('.tax-code').textContent.trim(),
+          w: Math.round(a.getBoundingClientRect().width),
+          count: parseInt(a.querySelector('.tax-count b').textContent.replace(/[^0-9]/g,''),10),
+        })),
+      }));
+      const links=[...document.querySelectorAll('.tax-map a.tax-cell')].map(a=>a.getAttribute('href'));
+      return { claims, bands: bands.length, per, links,
+        overflow: Math.round(document.documentElement.scrollWidth - document.documentElement.clientWidth) };
+    })()`);
+    const claimText = tm.claims.join(" | ");
+    check('分类总图', '三句断言的数字与 meta.json 独立算出来的一致（不是页面上写着就算）',
+      tm.claims.length === 3 &&
+      claimText.includes(String(indep.assigned)) && claimText.includes(String(indep.story)) &&
+      claimText.includes(String(indep.entries)) && claimText.includes(String(indep.facets)) &&
+      claimText.includes(String(indep.seealso)) && claimText.includes(String(indep.crossLayer)),
+      `断言数=${tm.claims.length} 独立算：论述 ${indep.assigned} 故事 ${indep.story} ` +
+      `条目 ${indep.entries} 分面 ${indep.facets} 参见 ${indep.seealso} 跨角度 ${indep.crossLayer}\n      ` +
+      `页面断言=${JSON.stringify(tm.claims.map((c) => c.slice(0, 46)))}`);
+    check('分类总图', '5 个角度泳道都在，每道的条目数与 meta.json 一致',
+      tm.bands === indep.layers &&
+      JSON.stringify(tm.per.map((b) => b.n)) === JSON.stringify(indep.layerCodes),
+      `泳道=${tm.bands} 每条条目数=${JSON.stringify(tm.per.map((b) => b.n))} ` +
+      `meta 侧=${JSON.stringify(indep.layerCodes)}`);
+    /* 单调同序：张数多的块不许比张数少的块窄（保底宽度会造出并列，但不会造出逆序） */
+    const inversions = [];
+    for (const b of tm.per) {
+      for (const x of b.cells) for (const y of b.cells) {
+        if (x.count > y.count && x.w < y.w) inversions.push(`${b.name}:${x.code}(${x.count},{x.w}px)` +
+          ` 比 ${y.code}(${y.count},${y.w}px) 窄`);
+      }
+    }
+    check('分类总图', '版图块宽与主归属张数单调同序（没有任何逆序）',
+      inversions.length === 0 && tm.per.every((b) => b.cells.length > 0),
+      inversions.length ? `${inversions.length} 处逆序：${inversions.slice(0, 3).join(' / ')}`
+        : `逐道最大块=${JSON.stringify(tm.per.map((b) => b.cells.slice().sort((p, q) => q.w - p.w)[0].code))}`);
+    check('分类总图', '22 个持卡条目都能点进条目页（A18 是复分标签，单独一块，不在这 22 里）',
+      tm.links.length === indep.entries && new Set(tm.links).size === indep.entries &&
+      tm.links.every((h) => /^entry\.html\?code=A\d+$/.test(h)) && tm.overflow <= 1,
+      `链接=${tm.links.length} 去重=${new Set(tm.links).size}（meta 侧持卡条目 ${indep.entries}）` +
+      ` 页面横溢=${tm.overflow}`);
+
+    await cdp.send('Emulation.setDeviceMetricsOverride',
+      { width: 390, height: 844, deviceScaleFactor: 2, mobile: true }, sessionId);
+    await goto('web/taxonomy.html', `document.querySelectorAll('.tax-cell').length>=23`);
+    const tmm = await probe(`(() => {
+      const cells=[...document.querySelectorAll('.tax-cell')];
+      const body=document.querySelector('.tax-band-body');
+      const minH=Math.min(...cells.map(c=>Math.round(c.getBoundingClientRect().height)));
+      const off=cells.filter(c=>{const b=c.getBoundingClientRect();
+        return b.left< -1||b.right>innerWidth+1;}).length;
+      return { display: getComputedStyle(body).display, minH, off,
+        overflow: Math.round(document.documentElement.scrollWidth - document.documentElement.clientWidth) };
+    })()`);
+    check('分类总图', '窄屏退化成列表（不硬缩版图）、触控高度达标、无横向溢出',
+      tmm.display === 'grid' && tmm.minH >= 40 && tmm.off === 0 && tmm.overflow <= 1,
+      `band-body display=${tmm.display} 最小块高=${tmm.minH}px 出界=${tmm.off} 页面横溢=${tmm.overflow}`);
+    await cdp.send('Emulation.setDeviceMetricsOverride',
+      { width: 1440, height: 900, deviceScaleFactor: 1, mobile: false }, sessionId);
 
     /* ---------- 4. 入门卡真的在首屏 ---------- */
     await cdp.send('Emulation.setDeviceMetricsOverride',

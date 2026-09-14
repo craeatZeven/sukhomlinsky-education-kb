@@ -348,6 +348,7 @@ def main() -> None:
         base + 'sources.html',
         base + 'entries.html',
         base + 'facets.html',
+        base + 'taxonomy.html',
     ]
     urls += [base + 'topic.html?slug=' + t['slug'] for t in data['topics']]
     if data['taxonomy'].get('available'):

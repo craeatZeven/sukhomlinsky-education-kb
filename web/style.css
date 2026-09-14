@@ -924,3 +924,59 @@ footer a:hover { color: var(--accent); }
   .rows .row-quote, .rows .row-meta, .rows .row-title { color: #000 !important; }
   .row-flag, .theme-nav, .src-pop { display: none !important; }
 }
+
+/* ============================================================
+   目录行：常见问题 / 困境案例（2026-09-14）
+   原为 3 列等大卡网格，机检 AP-STRUCT-01（等宽等高卡片墙，P1）命中。
+   按档案层卡「卡片墙 → 目录行」改为：一条一行 + hairline 分隔，
+   一条只放 3 个信息（标题 / 说明 / 相关卡）。
+   **作用域限定 .grid--index**：.case-card 被 10 个页面共用，不能全局改。
+   ============================================================ */
+.grid--index { grid-template-columns: 1fr; gap: 0; }
+
+.grid--index > .case-card,
+.grid--index > .source-card {
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  border-radius: 0;
+  padding: 15px 2px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  column-gap: 22px;
+  align-items: baseline;
+  background: transparent;
+}
+/* 左侧三项显式定位；右侧的 .ref 交给自动放置依次落到第 2 列。
+   （.source-card 有两个 .ref，写死 grid-row 会重叠——首版就这么踩了。） */
+.grid--index > .case-card > .badge,
+.grid--index > .source-card > .badge { grid-column: 1; grid-row: 1; }
+.grid--index > .case-card > h3,
+.grid--index > .source-card > h3 { grid-column: 1; grid-row: 2; margin: 6px 0 4px; }
+.grid--index > .case-card > .meta,
+.grid--index > .source-card > .meta { grid-column: 1; grid-row: 3; margin: 0; }
+.grid--index > .case-card > .ref,
+.grid--index > .source-card > .ref {
+  grid-column: 2; margin: 0; padding: 0;
+  font-family: var(--mono); font-size: 12px; text-align: right;
+}
+.grid--index > .case-card:hover,
+.grid--index > .source-card:hover {
+  transform: none;
+  box-shadow: none;
+  border-color: var(--line);
+  background: color-mix(in srgb, var(--ink) 3%, transparent);
+}
+@media (max-width: 680px) {
+  .grid--index > .case-card,
+  .grid--index > .source-card { grid-template-columns: 1fr; }
+  .grid--index > .case-card > .badge,
+  .grid--index > .source-card > .badge,
+  .grid--index > .case-card > h3,
+  .grid--index > .source-card > h3,
+  .grid--index > .case-card > .meta,
+  .grid--index > .source-card > .meta,
+  .grid--index > .case-card > .ref,
+  .grid--index > .source-card > .ref { grid-column: 1; grid-row: auto; }
+  .grid--index > .case-card > .ref,
+  .grid--index > .source-card > .ref { text-align: left; margin-top: 4px; }
+}

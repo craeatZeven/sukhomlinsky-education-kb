@@ -10,7 +10,7 @@
 powershell -NoProfile -ExecutionPolicy Bypass -File tools\web-audit\run-audit.ps1
 ```
 
-脚本会自己在仓库根起一个 `python -m http.server 8123`，依次跑两个验证，再关掉服务。
+脚本会自己在仓库根起一个 `python -m http.server 8123`，依次跑三份验证，再关掉服务。
 不需要先手动起服务。
 
 - 退出码 `0` = 全通过；`2` = 有判据没过；`1` = 验证脚本自身崩了。
@@ -24,9 +24,9 @@ powershell -NoProfile -ExecutionPolicy Bypass -File tools\web-audit\run-audit.ps
 $env:AUDIT_BASE='http://127.0.0.1:8123/'; node tools\web-audit\verify-hardened.mjs
 ```
 
-## 两份脚本各自管什么
+## 三份脚本各自管什么
 
-### `verify-hardened.mjs` —— 24 条判据
+### `verify-hardened.mjs` —— 30 条判据
 
 | 分区 | 条数 | 在防什么 |
 |---|---|---|
@@ -36,6 +36,7 @@ $env:AUDIT_BASE='http://127.0.0.1:8123/'; node tools\web-audit\verify-hardened.m
 | 入门卡 | 3 | 三张按角色挑（为什么 / 怎么做 / 一个教学案例）、互不重复、真的落在**首屏内** |
 | 相关案例 | 2 | 张数从 `classification.json` **现算**（不从被测分片反推）、与主归属重叠的部分有披露 |
 | 对比度 | 6 | 三套主题各自主题一致、三档齐全且达 WCAG AA 4.5:1 |
+| 目录行 | 6 | 首页与条目页的目录行是不是真的三列：说明列左边对齐、计数列**右边**对齐、标题不折行；窄屏堆叠且不横向溢出 |
 | 原文待补标记 | 1 | 标记存在且**真的可见**（不在被裁剪的段落里） |
 | 原文身份 | 1 | 没有卡片把「转述/非直引」写进原文摘录槽位（独立扫 `web/data.json`） |
 | 通用 | 1 | 全流程无 JS 异常 |
@@ -43,13 +44,41 @@ $env:AUDIT_BASE='http://127.0.0.1:8123/'; node tools\web-audit\verify-hardened.m
 每份结果都带 `dataVersion`（`classification.json` 与 `web/data.json` 的 sha256 前 12 位 + `meta.generated`）。
 看到一份结果而不知道它对应哪份数据，等于没有证据。
 
+### `scan-hidden-content.mjs` —— 有没有内容滚到了也看不见
+
+对 17 个页面各**反复滚到稳定**（先分步滚一遍，之后只要还有隐藏的 `section/.grid`
+就逐个 `scrollIntoView`，最多 4 轮），只要还有元素的**有效**不透明度 < 0.5 而里面有文字，
+就 FAIL 并报出隐藏了多少字。
+
+"反复滚到稳定"不是保险起见：`entry.html` 的 `#caseSection` 会在案例分片载入后**被重建**，
+重建出来的元素带新的 `reveal-pending`、需要新一次相交 —— 只滚一轮会赶不上它，
+于是同一份代码时好时坏（实测普查因此漏掉 7 个元素、采样数从 32 掉到 27）。
+
+这条判据的价值在 2026-09-14 被证明：条目页 6 块 **1926 字**、分面页 6 块 **863 字**
+永久隐形（见下节），而当时所有几何与对比度检查全 PASS。
+
+> 另有一条踩过的坑：量的既然是 computed style，就**不要**在量之前
+> `scrollTo(0, 0)` —— 页面里迟到的锚点滚动会把它顶掉（实测停在 y≈680），
+> 于是"没量到"被伪装成"量过且达标"。滚动位置与判定无关，就别动它。
+
 ### `verify-contrast-census.mjs` —— 3 主题 × 7 页面对比度普查
 
 `green` / `paper` / `dark` 三套主题，跑 `index / entries / entry?code=A11 / clusters / facets / card?id=sk-0001 / problem`
 七个页面，对 `h1 h2 h3 p .meta .angle-note .section-sub .row-title .row-desc .row-go .badge .chip .ref .cn a`
 逐类采样（每类前 6 个），按 WCAG AA 判定（小字 4.5:1，大字/粗体 3:1）。
-七个页面 × 三套主题 = 21 个组合；最近一次运行共采样 **798 处**文本（这个数字随页面内容浮动，
-不要把它当门槛，门槛是"任何一处不达标就 FAIL"）。
+
+两个刻意的设计（都是被坑出来的）：
+
+- **先滚到稳定再采样**。不滚就采样等于只量首屏，而结论写成"七个页面全部达标"，
+  把没量过的部分也说成达标了。
+- **不透明度沿祖先链乘积**。原来只读元素自己的 `opacity`：站点把内容藏在
+  **父级 section** 的 `opacity:0` 里，span 自己的 opacity 仍是 1，于是这个过滤条件
+  形同虚设 —— 它照样去量一个读者根本看不见的行，然后宣布"对比度达标"。
+  现在按有效不透明度算，并把"因透明未采样"的条数与具体元素（含**是谁在透明**的祖先链）
+  写进结果 JSON，当覆盖率指标看。
+
+最近一次运行的覆盖率：21 个「页面 × 主题」组合共采样 **798 处**，
+因透明未采样 **24 处**，逐个查过 —— 全是 `display:none` 的「加载更多」按钮，属正常隐藏。
 
 ## 为什么这些判据长这样（不是形式主义）
 
@@ -64,10 +93,21 @@ $env:AUDIT_BASE='http://127.0.0.1:8123/'; node tools\web-audit\verify-hardened.m
 
 这套判据**真的抓到过东西**，不是摆设：
 
+- **条目页与分面页整页隐形**（2026-09-14，最严重的一次）：`theme.js` 的滚动渐入
+  只在 `DOMContentLoaded` 抓一次 `section, .grid` 快照，而这两页的分组 section 是
+  `await KB.ready()` 之后才注入的 —— 它们永远进不了观察名单，而当时的 CSS 是
+  `body.reveal section { opacity: 0 }`，于是**永久透明，滚动也没用**：条目页 6 块
+  1926 字、分面页 6 块 863 字，对读者根本不存在（线上同样如此）。
+  而那时 24 条判据**全 PASS** —— 因为元素都在 DOM 里、几何量得到、颜色算得出。
+  修法是把隐藏条件从"凡是 section"改成"谁被观察谁才隐藏"（`reveal-pending`），
+  再用 `MutationObserver` 接住后加的节点：同一个错以后最多只是少了渐入动画。
+  正是这次事故催生了 `scan-hidden-content.mjs`。
 - `.bar` 类名撞车 → 地图比例条高度被算成 0，**肉眼完全看不见**，而所有宽度检查全是 PASS。
 - 三主题普查才发现的两处真实不达标：`.chip--primary` 在 dark 主题只有 2.39:1（修到 7.32）、
   `.row-go` 在 paper 主题 4.36:1（修到 5.22）。只验一套主题的话这两处会一直躺在那里。
 - 顶栏 10 个标签在中等宽度换行成两行 —— `scrollWidth` 检查测不到（flex 是换行，不是溢出）。
+- 目录行"三列"其实是三个挨着的 span：说明列左边缘在 108–229px 之间游走，
+  计数列被长标题挤到下一行的最左（x=22）。改成 grid + 第一列定宽后才真的成列。
 
 ## 与 `local_working_copy/web-audit/` 的关系
 

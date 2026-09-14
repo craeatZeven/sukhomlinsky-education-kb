@@ -29,9 +29,11 @@ const ROOT = process.env.KB_ROOT || resolve(HERE, '..', '..');
 const PORT = 9357;
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-const PAGES = ['web/index.html', 'web/entries.html', 'web/entry.html?code=A11',
-  'web/clusters.html', 'web/facets.html', 'web/card.html?id=sk-0001',
-  'web/problem.html'];
+const PAGES = process.env.AUDIT_PAGES
+  ? process.env.AUDIT_PAGES.split(',')
+  : ['web/index.html', 'web/entries.html', 'web/entry.html?code=A11',
+     'web/clusters.html', 'web/facets.html', 'web/card.html?id=sk-0001',
+     'web/problem.html'];
 
 const PROBE = `(() => {
   const parse=(s)=>{s=String(s);
@@ -59,13 +61,36 @@ const PROBE = `(() => {
     return {r:255,g:255,b:255,a:1};};
   const big=(cs)=>{const fs=parseFloat(cs.fontSize);
     return fs>=18.66 || (fs>=14 && parseInt(cs.fontWeight,10)>=700);};
+  /* **有效不透明度要沿祖先链乘积。** 只读元素自己的 opacity 是不够的：
+     站点隐藏内容是给**父级 section** 加 opacity:0（滚动渐入），span 自己的
+     opacity 仍然是 1。所以第一版那个「parseFloat(cs.opacity)<0.6」形同虚设 ——
+     它照样会去量一个父级全透明、读者根本看不见的行，然后宣布"对比度达标"。
+     这也是"条目页整页隐形却全项 PASS"能溜过去的原因之一。
+     （注意：PROBE 本身是模板字符串，这段注释里不能出现反引号。） */
+  const effOpacity=(el)=>{let o=1,n=el;const chain=[];
+    while(n&&n.nodeType===1){const v=parseFloat(getComputedStyle(n).opacity);
+      if(!isNaN(v))o*=v;
+      if(o<0.05){chain.push(n.tagName.toLowerCase()+(n.id?'#'+n.id:'')+'@'+getComputedStyle(n).opacity);break;}
+      n=n.parentElement;}
+    return {o, chain};};
   const sel=['h1','h2','h3','p','.meta','.angle-note','.section-sub','.row-title','.row-desc',
              '.row-go','.badge','.chip','.ref','.cn','a'];
   const out=[];
+  let invisible=0;
+  const invisibleSample=[];
   for(const s of sel){
     for(const el of [...document.querySelectorAll(s)].slice(0,6)){
       const cs=getComputedStyle(el);
-      if(cs.display==='none'||cs.visibility==='hidden'||parseFloat(cs.opacity)<0.6) continue;
+      /* 自身可见性照查，但"看不见"现在按**有效**不透明度算 */
+      const eo=effOpacity(el);
+      if(cs.display==='none'||cs.visibility==='hidden'||eo.o<0.6){
+        invisible++;
+        if(invisibleSample.length<10) invisibleSample.push({sel:s,
+          eff:Number(eo.o.toFixed(2)), display:cs.display, visibility:cs.visibility,
+          /* 把"是谁在透明"记下来：没有这条，就只能看到"eff=0"而查不出原因。 */
+          chain:eo.chain,
+          text:(el.textContent||'').replace(/\\s+/g,' ').trim().slice(0,24)});
+        continue;}
       const r=el.getBoundingClientRect();
       if(r.width<2||r.height<2) continue;
       const fg=parse(cs.color); if(!fg) continue;
@@ -79,7 +104,9 @@ const PROBE = `(() => {
         pass: cr>=need || cr>=4.5});
     }
   }
-  return out;})()`;
+  /* 把"因为看不见而没采样"的条数一并带出来：它是覆盖率的诚实度指标。
+     滚动之后这个数应当接近 0；如果它很大，说明"全部达标"只覆盖了一部分页面。 */
+  return {samples: out, invisible: invisible, invisibleSample: invisibleSample};})()`;
 
 async function main() {
   const h = (p) => createHash('sha256').update(readFileSync(p)).digest('hex').slice(0, 12);
@@ -129,6 +156,7 @@ async function main() {
 
     const all = [];
     let fails = 0;
+    let invisibleTotal = 0;
     for (const theme of ['green', 'paper', 'dark']) {
       await cdp.send('Page.navigate', { url: BASE + 'web/index.html' }, sessionId);
       await sleep(800);
@@ -137,21 +165,62 @@ async function main() {
       for (const p of PAGES) {
         await cdp.send('Page.navigate', { url: BASE + p }, sessionId);
         await sleep(1200);
+        /* **先滚完全页再采样。** 站点的 section 是滚动渐入的（`body.reveal
+           .reveal-pending { opacity: 0 }`），不滚就采样等于只量了首屏。
+           滚两轮：①分步滚一遍，给懒加载的内容一个出现的机会；
+           ②只要还有隐藏的 section/.grid，就逐个 scrollIntoView，最多 4 轮
+           —— 因为 entry.html 的 #caseSection 会在案例分片载入后**被重建**，
+           新一轮的 reveal-pending 需要新一次相交，一轮滚动可能刚好错过它
+           （实测就是这个竞态让普查漏掉 7 个元素）。
+           **不再滚回顶部再量**：测 computed style 与 rect 跟滚动位置无关，
+           而 `scrollTo(0,0)` 会被页面里迟到的锚点滚动顶掉（实测停在 y≈680），
+           反而把"没量到"伪装成"量过且达标"。 */
+        const passInfo = await probe(`(async () => {
+          const log = [];
+          try {
+            const step = Math.round(window.innerHeight * 0.7);
+            const eff=(el)=>{let o=1,n=el;
+              while(n&&n.nodeType===1){const v=parseFloat(getComputedStyle(n).opacity);
+                if(!isNaN(v))o*=v; if(o<0.05)break; n=n.parentElement;}
+              return o;};
+            for (let y = 0; y < document.documentElement.scrollHeight; y += step) {
+              window.scrollTo(0, y);
+              await new Promise(r => setTimeout(r, 130));
+            }
+            for (let round = 1; round <= 4; round++) {
+              const rest = [...document.querySelectorAll('section, .grid')]
+                .filter(el => eff(el) < 0.5);
+              log.push('r' + round + '=' + rest.length);
+              if (!rest.length) break;
+              for (const el of rest) { el.scrollIntoView({ block: 'center' });
+                await new Promise(r => setTimeout(r, 250)); }
+            }
+            /* 等渐入过渡（.55s）走完，免得量到过渡中途更淡的颜色。 */
+            await new Promise(r => setTimeout(r, 800));
+            return { ok: true, log };
+          } catch (e) { return { ok: false, log, err: String(e && e.message || e) }; }
+        })()`);
+        if (passInfo && !passInfo.ok) console.log('   [scroll pass 失败] ' + JSON.stringify(passInfo));
         const got = await probe(PROBE);
-        const bad = got.filter((x) => !x.pass);
+        const bad = got.samples.filter((x) => !x.pass);
+        invisibleTotal += got.invisible;
+        if (got.invisible) all.push({ theme, page: p, skippedInvisible: got.invisibleSample });
         for (const x of bad) {
           fails++;
           all.push({ theme, page: p, ...x });
           console.log(`  FAIL ${p} <${x.tag}> contrast=${x.contrast} need=${x.need} ` +
             `size=${x.fontSize}/${x.weight} "${x.text}"`);
         }
-        console.log(`  ${bad.length ? '✗' : '✓'} ${p}：检查 ${got.length} 处，不达标 ${bad.length}`);
+        console.log(`  ${bad.length ? '✗' : '✓'} ${p}：检查 ${got.samples.length} 处，` +
+          `不达标 ${bad.length}，另有 ${got.invisible} 处因自身或祖先透明未采样`);
       }
     }
     writeFileSync(join(OUT, 'verify-contrast-census.json'),
-      JSON.stringify({ dataVersion: V, fails, results: all }, null, 1), 'utf-8');
+      JSON.stringify({ dataVersion: V, fails, invisibleTotal, results: all }, null, 1), 'utf-8');
     console.log(`\n数据版本 ${V.classification}`);
-    console.log(`总判定: ${fails === 0 ? '三套主题 × 7 个页面，文本对比度全部达标' : `${fails} 处不达标（见 JSON）`}`);
+    console.log(`总判定: ${fails === 0
+      ? `三套主题 × 7 个页面，文本对比度全部达标（滚动后采样；因透明未采样 ${invisibleTotal} 处）`
+      : `${fails} 处不达标（见 JSON）`}`);
     process.exitCode = fails === 0 ? 0 : 2;
   } finally { proc.kill(); }
 }

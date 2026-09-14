@@ -401,6 +401,48 @@ async function main() {
       order1440.scaleTop < order1440.relTop,
       `规模=${order1440.scaleTop} 关系=${order1440.relTop}`);
 
+    /* ---------- 9. 目录行：是不是真的「三列」 ---------- */
+    /* 起因：外部评审说条目页每行的「名称 / 说明 / 数量」列关系看不清。
+       实测确认（原来的 flex + 内容定宽）：1440px 下 23 行的「说明」列左边缘在
+       108–229px 之间游走（121px 摆幅），「计数」列多数行靠右停在 x≈553、
+       却被长标题的行挤到**下一行的最左**（x=22）—— 看起来像三列，
+       其实是三个挨着的 span。改成 grid（第一列定宽 12.5rem）后：
+       说明列左边 x 唯一、计数列右边缘唯一。
+       判据：左对齐的列比**左**边、右对齐的列比**右**边。
+       第一版对三列都比左边，把「右对齐、右边缘整齐」误判成失败 —— 又是判据选错。 */
+    const ROW_PROBE = `(() => {
+      const rows = [...document.querySelectorAll('.row-link')];
+      const pick = (r, sel) => { const e = r.querySelector(sel); if (!e) return null;
+        const b = e.getBoundingClientRect();
+        return { x: Math.round(b.left), r: Math.round(b.right), lines: e.getClientRects().length }; };
+      const col = (sel) => { const a = rows.map(r => pick(r, sel)).filter(Boolean);
+        return a.length ? { n: a.length,
+          xs: [...new Set(a.map(o => o.x))].sort((p, q) => p - q),
+          rs: [...new Set(a.map(o => o.r))].sort((p, q) => p - q),
+          maxLines: Math.max(...a.map(o => o.lines)) } : null; };
+      return { n: rows.length, title: col('.row-title'), desc: col('.row-desc'),
+               go: col('.row-go'), docW: document.documentElement.clientWidth,
+               scrollW: document.documentElement.scrollWidth };
+    })()`;
+    for (const page of ['web/entries.html', 'web/index.html']) {
+      await goto(page, `document.querySelectorAll('.row-link').length > 0`);
+      const g = await probe(ROW_PROBE);
+      check('目录行', `${page}：说明列左边对齐、计数列右边对齐（各自唯一）`,
+        !!(g.desc && g.desc.xs.length === 1 && g.go && g.go.rs.length === 1),
+        `n=${g.n} desc.x=${JSON.stringify(g.desc && g.desc.xs)} ` +
+        `go.right=${JSON.stringify(g.go && g.go.rs)}`);
+      check('目录行', `${page}：标题都在一行内（第一列宽度够）`,
+        g.title.maxLines === 1, `title.maxLines=${g.title.maxLines}`);
+    }
+    await cdp.send('Emulation.setDeviceMetricsOverride',
+      { width: 390, height: 844, deviceScaleFactor: 1, mobile: true }, sessionId);
+    for (const page of ['web/entries.html', 'web/index.html']) {
+      await goto(page, `document.querySelectorAll('.row-link').length > 0`);
+      const g = await probe(ROW_PROBE);
+      check('目录行', `${page} 窄屏：堆叠且不横向溢出`, g.scrollW <= g.docW + 1,
+        `scrollW=${g.scrollW} docW=${g.docW}`);
+    }
+
     check('通用', '全流程无 JS 异常', errs.length === 0, `exceptions=${errs.length} ${JSON.stringify(errs.slice(0, 3))}`);
 
     ws.close();

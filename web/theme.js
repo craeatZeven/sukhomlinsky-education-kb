@@ -53,18 +53,43 @@
   }
   function reveal() {
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    /* 不支持 IntersectionObserver 就**什么都不隐藏**（原来是把所有 target 标
+       visible——那也对，但前提是先隐藏了；现在改成不隐藏，更省事也更快）。 */
+    if (!("IntersectionObserver" in window)) return;
     document.body.classList.add("reveal");
-    var targets = document.querySelectorAll("section, .grid");
-    if (!("IntersectionObserver" in window)) {
-      targets.forEach(function (el) { el.classList.add("visible"); });
-      return;
-    }
+    var SEL = "section, .grid";
     var io = new IntersectionObserver(function (entries) {
       entries.forEach(function (en) {
         if (en.isIntersecting) { en.target.classList.add("visible"); io.unobserve(en.target); }
       });
     }, { threshold: 0.05, rootMargin: "0px 0px -30px 0px" });
-    targets.forEach(function (el) { io.observe(el); });
+    var watched = [];
+    function watch(el) {
+      if (watched.indexOf(el) >= 0) return;
+      watched.push(el);
+      /* 先挂牌再观察：只有挂了牌的元素才会被 CSS 隐藏。
+         没挂上牌 = 内容可见，只是没有渐入。 */
+      el.classList.add("reveal-pending");
+      io.observe(el);
+    }
+    document.querySelectorAll(SEL).forEach(watch);
+    /* 关键修复：条目页 / 分面页的分组 section 是**异步注入**的
+       （DOMContentLoaded → await KB.ready() → innerHTML）。
+       原来只在这里抓一次快照，注入的 section 永远进不了观察名单，
+       于是永久停在 opacity:0 —— 整页 1926 字的正文对读者不存在，
+       而所有几何/对比度检查都照过（元素在 DOM 里，只是看不见）。
+       这里用 MutationObserver 把后加进来的 target 接上。 */
+    if ("MutationObserver" in window) {
+      new MutationObserver(function (muts) {
+        muts.forEach(function (m) {
+          Array.prototype.forEach.call(m.addedNodes, function (n) {
+            if (!n || n.nodeType !== 1) return;
+            if (n.matches && n.matches(SEL)) watch(n);
+            if (n.querySelectorAll) Array.prototype.forEach.call(n.querySelectorAll(SEL), watch);
+          });
+        });
+      }).observe(document.documentElement, { childList: true, subtree: true });
+    }
   }
   function searchShortcut() {
     document.addEventListener("keydown", function (e) {

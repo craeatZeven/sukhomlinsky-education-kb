@@ -40,7 +40,8 @@ try {
   Write-Output "repo root : $RepoRoot"
   Write-Output "server    : $($env:AUDIT_BASE)"
 
-  $targets = @('tools\web-audit\verify-hardened.mjs')
+  $targets = @('tools\web-audit\verify-hardened.mjs',
+               'tools\web-audit\scan-hidden-content.mjs')
   if (-not $SkipCensus) { $targets += 'tools\web-audit\verify-contrast-census.mjs' }
 
   foreach ($t in $targets) {

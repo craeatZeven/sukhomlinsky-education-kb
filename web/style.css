@@ -488,10 +488,15 @@ footer .foot-links a:hover { text-decoration-color: var(--accent); }
   footer .foot-links { line-height: 2; }
 }
 
-/* Scroll reveal */
+/* Scroll reveal
+   只隐藏**被 JS 真的观察了**的元素（.reveal-pending 由 theme.js 加）。
+   原来是 `body.reveal section`：凡是 section 一律先隐藏，等 JS 给 .visible。
+   结果是**异步注入**的 section（条目页/分面页在 KB.ready() 之后才建分组）
+   永远等不到 .visible —— 整页正文永久 opacity:0，滚动也没用。
+   换成"谁被观察谁才隐藏"之后，同一个错最多只是少了渐入动画，不会再把内容吃掉。 */
 @media (prefers-reduced-motion: no-preference) {
-  body.reveal section, body.reveal .grid { opacity: 0; transform: translateY(18px); transition: opacity .55s ease, transform .55s ease; }
-  body.reveal section.visible, body.reveal .grid.visible { opacity: 1; transform: none; }
+  body.reveal .reveal-pending { opacity: 0; transform: translateY(18px); transition: opacity .55s ease, transform .55s ease; }
+  body.reveal .reveal-pending.visible { opacity: 1; transform: none; }
 }
 
 /* Reading progress + back to top */
@@ -616,20 +621,34 @@ footer .foot-links a:hover { text-decoration-color: var(--accent); }
   .rows .row-meta > * + *::before { margin-right: 8px; }
 }
 
-/* 链接型目录行（首页的「看结构 / 用起来」两组）：标题 + 说明 + 去箭头 */
+/* 链接型目录行（首页的「看结构 / 用起来」两组 + 条目页的六个分组）：
+   标题 + 说明 + 计数/箭头。
+   **用 grid，不用 flex。** 原来 flex 下这三样各按自身宽度流，
+   实测（1440px，23 行）：「说明」列的左边缘在 108–229px 之间游走（121px 摆幅），
+   「计数」列多数行靠右停在 x≈553，却被长标题的行挤到**下一行的最左**（x=22）——
+   看起来像三列，其实是三个挨着的 span。列得是列：宽度由容器给定，不由内容决定。
+   第一列写死 12.5rem（最长标题「A19 道德判断与品德培养」实测 187px），
+   于是第二、三列的 x 在所有行、两个页面上都一致。 */
 .rows--plain { border-top: 0; }
 .rows .row-link {
-  display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 18px;
+  display: grid;
+  grid-template-columns: 12.5rem minmax(0, 1fr) auto;
+  align-items: baseline;
+  gap: 4px 18px;
   padding: 16px 0 15px;
 }
 .rows .row-link .row-title { font-size: 17px; }
-.rows .row-link .row-desc { flex: 1 1 320px; font-size: 14px; color: var(--soft); letter-spacing: 0; }
-.rows .row-link .row-go { font-family: var(--mono); font-size: 12px; letter-spacing: .02em; color: var(--accent-ink); }
+.rows .row-link .row-desc { font-size: 14px; color: var(--soft); letter-spacing: 0; }
+.rows .row-link .row-go {
+  font-family: var(--mono); font-size: 12px; letter-spacing: .02em;
+  color: var(--accent-ink); text-align: right; white-space: nowrap;
+}
 .rows .row-link:hover { background: color-mix(in srgb, var(--accent) 4%, transparent); }
 .rows .row-link:hover .row-title { color: var(--accent); }
 @media (max-width: 680px) {
-  .rows .row-link { padding: 14px 0 13px; }
-  .rows .row-link .row-desc { flex: 1 1 100%; }
+  /* 窄屏一列到底：三列挤在 390px 里只会又变成互相挤压的 span。 */
+  .rows .row-link { padding: 14px 0 13px; grid-template-columns: minmax(0, 1fr); gap: 2px 0; }
+  .rows .row-link .row-go { text-align: left; }
 }
 
 /* 出处 popup：悬停就地看出版信息，不必跳走（Gwern 机制） */

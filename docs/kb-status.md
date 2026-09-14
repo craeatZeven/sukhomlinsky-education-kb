@@ -87,7 +87,7 @@
 | `scripts/check_content_contract.py` | **数据层内容契约**：原文槽位不得写"转述"、转述卡必须显式标注待补、入门卡三角色齐备、案例挂靠数从 `classification.json` 现算 |
 
 **浏览器层回归**（需要真实 Chrome 与静态服务，进不了上面这条离线链）：[`tools/web-audit/`](../tools/web-audit/README.md)，三份脚本 ——
-① `verify-hardened.mjs` 30 条行为/数据/判据；② `scan-hidden-content.mjs` 17 个页面「滚两轮后还有没有内容看不见」；
+① `verify-hardened.mjs` 32 条行为/数据/判据（含「目录行是否真三列」与「打印时内容全部显形」）；② `scan-hidden-content.mjs` 17 个页面「滚到稳定后还有没有内容看不见」；
 ③ `verify-contrast-census.mjs` 三套主题 × 七个页面的文本对比度普查（先滚完全页再采样）。
 跑法：`powershell -NoProfile -ExecutionPolicy Bypass -File tools\web-audit\run-audit.ps1`。
 
@@ -192,5 +192,5 @@
 | 依据可核验性 | 论述卡的分类依据要与卡片正文做模糊匹配（4-gram ≥ 70%），对不上的显式标 `evidence_unverified`：当前 **9 张**。注意它和上一行的 11 张**不是同一张清单**——11 张里有 2 张是 `case` 卡（`sk-0111`、`sk-0185`），本来就没有 `evidence` 字段可核，不算 unverified | `local_working_copy/diag_paraphrase_vs_unverified.py` |
 | 入门卡 | 22 个持卡条目都有「为什么 / 怎么做 / 一个教学案例」三角色；A1、A20 本身没有挂靠案例，入门卡只有两张（**已登记为例外**） | 同上 |
 | 路径宽度 | 按**全库**（不是按关键词预筛）算：劳动 235 / 后进生 294 / 分数 145 / 美育 470 —— 曾误报「比旧标签窄 41%」，那是**测量口径造成的假象**，已撤回 | `scripts/path_test_prod.py` |
-| 浏览器回归 | 30 条判据全过 + 17 个页面无隐形内容 + 三主题 × 七页面对比度全过 | `tools/web-audit/run-audit.ps1` |
+| 浏览器回归 | 32 条判据全过 + 17 个页面无隐形内容 + 三主题 × 七页面对比度全过（采样 798 处，不达标 0） | `tools/web-audit/run-audit.ps1` |
 | 隐形内容（2026-09-14 修） | 条目页与分面页曾**整页永久透明**（6+6 块、1926+863 字），线上同样；当时 24 条判据全 PASS。修 `theme.js` 的渐入为「谁被观察谁才隐藏」+ MutationObserver，并新增 `scan-hidden-content.mjs` 守住 | 见 `docs/review-disposition.md` §十一 |

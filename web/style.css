@@ -498,6 +498,11 @@ footer .foot-links a:hover { text-decoration-color: var(--accent); }
   body.reveal .reveal-pending { opacity: 0; transform: translateY(18px); transition: opacity .55s ease, transform .55s ease; }
   body.reveal .reveal-pending.visible { opacity: 1; transform: none; }
 }
+/* 打印/导出 PDF 时必须全部显形。打印不会滚动，IntersectionObserver 也来不及触发，
+   否则打出来的纸只有首屏那一屏内容、后面全是空白 —— 同一类"内容被渐入吃掉"的事故。 */
+@media print {
+  body.reveal .reveal-pending { opacity: 1 !important; transform: none !important; }
+}
 
 /* Reading progress + back to top */
 .read-progress { position: fixed; top: 0; left: 0; height: 3px; width: 0; background: var(--accent); z-index: 3000; transition: width .12s linear; }

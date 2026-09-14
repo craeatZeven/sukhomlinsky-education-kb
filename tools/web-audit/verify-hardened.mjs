@@ -443,6 +443,29 @@ async function main() {
         `scrollW=${g.scrollW} docW=${g.docW}`);
     }
 
+    /* ---------- 10. 打印时内容必须全部显形 ---------- */
+    /* 滚动渐入有个自然的后遗症：打印不会滚动，IntersectionObserver 也来不及触发，
+       于是打出来/导出 PDF 的纸只有首屏那一屏、后面全是空白。
+       `@media print` 里强制显形即可。这里用 CDP 真的切到 print 媒体再量。 */
+    for (const page of ['web/entries.html', 'web/entry.html?code=A11']) {
+      await cdp.send('Emulation.setEmulatedMedia', { media: 'print' }, sessionId);
+      await goto(page, `document.querySelectorAll('.reveal-pending').length > 0`);
+      const pr = await probe(`(() => {
+        const eff=(el)=>{let o=1,n=el;
+          while(n&&n.nodeType===1){const v=parseFloat(getComputedStyle(n).opacity);
+            if(!isNaN(v))o*=v; if(o<0.05)break; n=n.parentElement;}
+          return o;};
+        const all=[...document.querySelectorAll('.reveal-pending')];
+        const falsy=all.filter(e=>eff(e)<0.9);
+        return {n:all.length, bad:falsy.length,
+          sample:falsy.slice(0,2).map(e=>e.tagName+'.'+e.className+'@'+eff(e).toFixed(2))};
+      })()`);
+      check('打印', `${page}：print 媒体下渐入元素全部显形`,
+        pr.n > 0 && pr.bad === 0,
+        `渐入元素=${pr.n} 仍隐形=${pr.bad} ${JSON.stringify(pr.sample)}`);
+    }
+    await cdp.send('Emulation.setEmulatedMedia', { media: '' }, sessionId);
+
     check('通用', '全流程无 JS 异常', errs.length === 0, `exceptions=${errs.length} ${JSON.stringify(errs.slice(0, 3))}`);
 
     ws.close();

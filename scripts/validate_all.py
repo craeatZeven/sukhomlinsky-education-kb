@@ -29,6 +29,9 @@ SCRIPTS = [
     # 对应的**渲染层**检查在 tools/web-audit/verify-hardened.mjs，那一份要 Chrome
     # 加静态服务，进不了这条离线链，所以这里至少把数据层那几条盯住。
     'check_content_contract.py',
+    # 页面元信息（分享预览 / 检索摘要）。它们**在浏览器里完全看不见**，
+    # 没人会顺手发现"这页忘了写描述"——必须有机器守着。
+    'check_page_meta.py',
 ]
 
 

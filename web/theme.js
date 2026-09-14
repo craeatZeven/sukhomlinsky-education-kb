@@ -37,9 +37,10 @@
       applyTheme(next);
     });
     /* 放进顶栏右侧（深 chrome 层）。
-       **不放进 `.nav-links`**：那个容器是可横向滚动的（窄屏时链接在里面滚），
-       把风格切换放进去会被一起滚走；而且它的宽度会把 10 个链接的可用空间挤到
-       不够，导致标签折成两行（2026-09-13 实测 1280 下 10 个标签全部折行）。 */
+       **不放进 `.nav-groups`**：那个容器在窄屏是可横向滚动的（三组按钮在里面滚），
+       把风格切换放进去会被一起滚走；而且它的宽度会把导航的可用空间挤到不够，
+       导致标签折成两行（2026-09-13 实测 1280 下 10 个标签全部折行，那是平铺版；
+       2026-09-14 改成三组下拉后同理，容器依旧不该放按钮）。 */
     var bar = document.querySelector(".topnav .inner");
     if (bar) {
       fab.className = "theme-nav";
@@ -123,9 +124,45 @@
     window.addEventListener("resize", update);
     update();
   }
+  /* 顶栏三组下拉的开关（2026-09-14 导航重排）。
+     桌面靠 CSS 的 :hover / :focus-within 也能开，这里主要给触屏与键盘用；
+     两条路径都只是把菜单显示出来，不互相冲突。 */
+  function navGroups() {
+    var groups = Array.prototype.slice.call(
+      document.querySelectorAll(".topnav .nav-group"));
+    if (!groups.length) return;
+    function closeAll(except) {
+      groups.forEach(function (g) {
+        if (g === except) return;
+        g.classList.remove("open");
+        var b = g.querySelector(".nav-group-btn");
+        if (b) b.setAttribute("aria-expanded", "false");
+      });
+    }
+    groups.forEach(function (g) {
+      var btn = g.querySelector(".nav-group-btn");
+      if (!btn) return;
+      btn.addEventListener("click", function () {
+        var open = !g.classList.contains("open");
+        closeAll(g);
+        g.classList.toggle("open", open);
+        btn.setAttribute("aria-expanded", open ? "true" : "false");
+      });
+    });
+    /* Esc 关、点空白关。点组按钮自己不关（它在 .nav-group 里面）。 */
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape") closeAll(null);
+    });
+    document.addEventListener("click", function (e) {
+      var t = e.target;
+      if (t && t.closest && t.closest(".topnav .nav-group")) return;
+      closeAll(null);
+    });
+  }
   document.addEventListener("DOMContentLoaded", function () {
     buildFab();
     reveal();
+    navGroups();
     searchShortcut();
     readingProgress();
   });

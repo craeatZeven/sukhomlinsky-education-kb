@@ -87,7 +87,7 @@
 | `scripts/check_content_contract.py` | **数据层内容契约**：原文槽位不得写"转述"、转述卡必须显式标注待补、入门卡三角色齐备、案例挂靠数从 `classification.json` 现算 |
 
 **浏览器层回归**（需要真实 Chrome 与静态服务，进不了上面这条离线链）：[`tools/web-audit/`](../tools/web-audit/README.md)，三份脚本 ——
-① `verify-hardened.mjs` 32 条行为/数据/判据（含「目录行是否真三列」与「打印时内容全部显形」）；② `scan-hidden-content.mjs` 17 个页面「滚到稳定后还有没有内容看不见」；
+① `verify-hardened.mjs` 40 条行为/数据/判据（含「三组导航各自展开是否越界」「14 个目的地一个不少」「目录行是否真三列」「打印时内容全部显形」）；② `scan-hidden-content.mjs` 17 个页面「滚到稳定后还有没有内容看不见」；
 ③ `verify-contrast-census.mjs` 三套主题 × 七个页面的文本对比度普查（先滚完全页再采样）。
 跑法：`powershell -NoProfile -ExecutionPolicy Bypass -File tools\web-audit\run-audit.ps1`。
 
@@ -103,7 +103,8 @@
 
 ## 五、网页
 
-- 18 个静态页面：首页、分类条目、故事分面、主题浏览、教育专题、故事索引、问题检索、思想地图、书源、卡片详情、条目详情、分面详情、案例 Review、覆盖仪表盘、使用指南、最新卡片、**API 检索页**等；支持关键词/条目/来源/类型过滤、全文搜索、JSON/CSV 导出、引用复制、分享、打印/PDF。
+- 18 个静态页面：首页、分类条目、故事分面、筛选浏览、教育专题、故事索引、问题检索、思想地图、书源、卡片详情、条目详情、分面详情、案例 Review、覆盖仪表盘、使用指南、最新卡片、**API 检索页**等；支持关键词/条目/来源/类型过滤、全文搜索、JSON/CSV 导出、引用复制、分享、打印/PDF。
+- **顶栏导航重排（2026-09-14）**：原来是 10 项平铺，查过 git —— 那 10 项是**分 9 天、至少 8 个提交**逐项加上去的（建站进度条，不是信息架构），而且 `分类条目 / 主题浏览 / 教育专题` 三个入口指向同一件事。现改为跟着首页已设计的三组走：**读内容 / 看结构 / 用起来**，共 **14 个目的地**全部有位，每项带一句说明；`主题浏览` 改名 `筛选浏览`、`541 篇故事` 改名 `故事索引`，去掉单独的「首页」项（品牌即首页）。见 `docs/review-disposition.md` §十二。
 - 性能实测（`docs/web-architecture-options.md` §六）：1351 张卡时首屏 607 KB gzip 级、过滤 2.8 ms、搜索 13.7 ms、**渲染全部卡片后布局 4,090 ms**（因此不一次性渲染全部，保持分页）。
 - **档位 A 静态分片已实施（2026-09-10）**：浏览器不再加载全库 `data.js`（3.26 MB / 755 KB gzip），改为 `web/kb.js` + `web/data/` 分片按需加载——首页只取 meta（9 KB gzip）+ 一张随机卡，卡片详情只取单卡 JSON（约 0.9 KB），列表页取索引（305 KB gzip），全文检索语料仅在需要时加载。实测与验收见 `docs/web-performance-sharding.md`。
 - **后端 API（档位 B）已实现可运行原型**（2026-09-09）：`scripts/build_db.py` → `api/kb.db`（SQLite + FTS5 trigram），`api/main.py`（FastAPI 11 个端点，同时托管 `web/`），配套前端页 `web/search.html` + `web/config.js`，容器化文件 `Dockerfile` / `docker-compose.yml`，说明见 `api/README.md`。本地实测 1386 张卡检索正常；**尚未部署到公网**。
@@ -192,5 +193,5 @@
 | 依据可核验性 | 论述卡的分类依据要与卡片正文做模糊匹配（4-gram ≥ 70%），对不上的显式标 `evidence_unverified`：当前 **9 张**。注意它和上一行的 11 张**不是同一张清单**——11 张里有 2 张是 `case` 卡（`sk-0111`、`sk-0185`），本来就没有 `evidence` 字段可核，不算 unverified | `local_working_copy/diag_paraphrase_vs_unverified.py` |
 | 入门卡 | 22 个持卡条目都有「为什么 / 怎么做 / 一个教学案例」三角色；A1、A20 本身没有挂靠案例，入门卡只有两张（**已登记为例外**） | 同上 |
 | 路径宽度 | 按**全库**（不是按关键词预筛）算：劳动 235 / 后进生 294 / 分数 145 / 美育 470 —— 曾误报「比旧标签窄 41%」，那是**测量口径造成的假象**，已撤回 | `scripts/path_test_prod.py` |
-| 浏览器回归 | 32 条判据全过 + 17 个页面无隐形内容 + 三主题 × 七页面对比度全过（采样 798 处，不达标 0） | `tools/web-audit/run-audit.ps1` |
+| 浏览器回归 | 40 条判据全过 + 17 个页面无隐形内容 + 三主题 × 七页面对比度全过（采样 798 处，不达标 0） | `tools/web-audit/run-audit.ps1` |
 | 隐形内容（2026-09-14 修） | 条目页与分面页曾**整页永久透明**（6+6 块、1926+863 字），线上同样；当时 24 条判据全 PASS。修 `theme.js` 的渐入为「谁被观察谁才隐藏」+ MutationObserver，并新增 `scan-hidden-content.mjs` 守住 | 见 `docs/review-disposition.md` §十一 |

@@ -74,7 +74,7 @@ const PROBE = `(() => {
       n=n.parentElement;}
     return {o, chain};};
   const sel=['h1','h2','h3','p','.meta','.angle-note','.section-sub','.row-title','.row-desc',
-             '.row-go','.badge','.chip','.ref','.cn','a'];
+             '.row-go','.badge','.chip','.ref','.cn','a','.nav-group-btn','.nav-menu-sub'];
   const out=[];
   let invisible=0;
   const invisibleSample=[];

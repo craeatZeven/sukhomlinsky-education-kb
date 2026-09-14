@@ -214,34 +214,126 @@ async function main() {
     }
     await cdp.send('Fetch.disable', {}, sessionId);
 
-    /* ---------- 3. 移动端：文字行数 + 跳转不遮挡 ---------- */
+    /* ---------- 3. 顶栏导航：三组下拉 ---------- */
+    /* 2026-09-14 导航从"10 项平铺"改成"三组下拉"。旧判据（每个 .nav-link 单行、不越界）
+       在新结构下会**变成空转**：菜单收起时一个 .nav-link 都不可见，数组为空 →
+       every() 恒真、filter() 计数恒 0 —— 那是"假通过"，比失败更糟。
+       所以改成对**新结构**有分辨力的判据，并且每条都能失败：
+         ① 三组按钮必须在（旧结构没有 .nav-group-btn，会直接 FAIL）
+         ② 组按钮单行、不左越界、容器不横溢（沿用原来的量法，量的是按钮）
+         ③ 点开一组后：菜单可见、菜单里链接全部可见且单行、且完整落在视口里
+         ④ 14 个目的地一个不少（防止重排时漏掉某个页面）
+         ⑤ 品牌链接回首页（这一版去掉了单独的"首页"项，必须证明首页仍可达）
+         ⑥ 当前页所在的**组**高亮（下拉收起时当前页看不见，只有组能指示位置） */
+    const NAV_INFO = `(() => {
+      const q=(s)=>[...document.querySelectorAll(s)];
+      const lineCount=(el)=>{const r=document.createRange();r.selectNodeContents(el);
+        const rects=[...r.getClientRects()].filter(x=>x.width>0&&x.height>0);
+        return new Set(rects.map(x=>Math.round(x.top))).size;};
+      const visible=(el)=>{const b=el.getBoundingClientRect();
+        return b.width>1&&b.height>1&&getComputedStyle(el).display!=='none';};
+      const btns=q('.topnav .nav-group-btn');
+      const box=document.querySelector('.topnav .nav-groups');
+      const brand=document.querySelector('.topnav .brand');
+      const menus=q('.topnav .nav-menu');
+      return {
+        groups: btns.length,
+        labels: btns.map(b=>b.textContent.replace(/\\s+/g,' ').trim()),
+        btnLines: btns.map(lineCount),
+        boxLeft: box ? Math.round(box.getBoundingClientRect().left) : null,
+        outsideLeft: btns.filter(b=>box && b.getBoundingClientRect().left < box.getBoundingClientRect().left-0.5).length,
+        docOverflow: Math.round(document.documentElement.scrollWidth - document.documentElement.clientWidth),
+        brandHref: brand ? brand.getAttribute('href') : null,
+        /* 目的地总数：菜单全部展开时能点到多少个链接（用 DOM 数，不靠可见性） */
+        destinations: q('.topnav .nav-menu .nav-link').map(a=>a.getAttribute('href')),
+        activeGroup: q('.topnav .nav-group.active .nav-group-btn').map(b=>b.textContent.trim()),
+        menusHidden: menus.filter(m=>getComputedStyle(m).display==='none').length,
+        menuCount: menus.length,
+      };
+    })()`;
+    const NAV_OPEN = `(async () => {
+      const groups=[...document.querySelectorAll('.topnav .nav-group')];
+      const lineCount=(el)=>{const r=document.createRange();r.selectNodeContents(el);
+        const rects=[...r.getClientRects()].filter(x=>x.width>0&&x.height>0);
+        return new Set(rects.map(x=>Math.round(x.top))).size;};
+      const per=[];
+      /* **三组都开一遍**：只查一组会漏掉最右那组——它的菜单固定 left:0，
+         268px 宽很可能冲出视口右边缘（实测确认必须靠右对齐）。 */
+      for (const g of groups) {
+        groups.forEach(x=>{ if(x!==g){ x.classList.remove('open');
+          const b=x.querySelector('.nav-group-btn'); if(b) b.setAttribute('aria-expanded','false'); }});
+        const btn=g.querySelector('.nav-group-btn');
+        btn.click();
+        await new Promise(r=>setTimeout(r,60));
+        const m=g.querySelector('.nav-menu');
+        const links=[...m.querySelectorAll('.nav-link')];
+        const mb=m.getBoundingClientRect();
+        const out=links.filter(a=>{const b=a.getBoundingClientRect();
+          return b.width<1||b.height<1||b.left< -1||b.right>innerWidth+1||b.top< -1||b.bottom>innerHeight+1;});
+        per.push({
+          label: btn.textContent.trim(),
+          opened: g.classList.contains('open'),
+          expanded: btn.getAttribute('aria-expanded'),
+          display: getComputedStyle(m).display,
+          links: links.length,
+          labelLines: links.map(a=>lineCount(a.querySelector('.nav-menu-label'))),
+          subLines: links.map(a=>lineCount(a.querySelector('.nav-menu-sub'))),
+          labelOverflow: links.filter(a=>a.querySelector('.nav-menu-label')
+            .getBoundingClientRect().right > mb.right-2).length,
+          rect: {w:Math.round(mb.width), h:Math.round(mb.height), l:Math.round(mb.left), r:Math.round(mb.right)},
+          fitsX: mb.left >= -1 && mb.right <= innerWidth + 1,
+          outOfView: out.length,
+          outSample: out.slice(0,2).map(a=>a.textContent.trim().slice(0,10)),
+        });
+      }
+      return { per,
+        docOverflow: Math.round(document.documentElement.scrollWidth - document.documentElement.clientWidth) };
+    })()`;
+    for (const [w, h] of [[1440, 900], [390, 844]]) {
+      await cdp.send('Emulation.setDeviceMetricsOverride',
+        { width: w, height: h, deviceScaleFactor: w < 700 ? 2 : 1, mobile: w < 700 }, sessionId);
+      await goto('web/entry.html?code=A11', `document.querySelectorAll('.topnav .nav-group-btn').length>0`);
+      const n = await probe(NAV_INFO);
+      const tag = w < 700 ? '窄屏' : '桌面';
+      check(`顶栏导航(${tag})`, '三组按钮都在，且文字单行、不左越界、不撑破页面',
+        n.groups === 3 && n.btnLines.every((x) => x === 1) && n.outsideLeft === 0 && n.docOverflow <= 1,
+        `组数=${n.groups} ${JSON.stringify(n.labels)} 行数=${JSON.stringify(n.btnLines)} ` +
+        `左越界=${n.outsideLeft} 页面横溢=${n.docOverflow}`);
+      check(`顶栏导航(${tag})`, '14 个目的地一个不少（重排没漏掉页面）',
+        n.destinations.length === 14 && new Set(n.destinations).size === 14,
+        `去重后=${new Set(n.destinations).size} 共=${n.destinations.length}`);
+      check(`顶栏导航(${tag})`, '品牌链接回首页（本版去掉了单独的「首页」项）',
+        n.brandHref === 'index.html', `brand href=${n.brandHref}`);
+      check(`顶栏导航(${tag})`, '当前页所在的组高亮（否则收起时不知道自己在哪）',
+        n.activeGroup.length === 1, `高亮的组=${JSON.stringify(n.activeGroup)}`);
+      const o = await probe(NAV_OPEN);
+      const bad = o.per.filter((g) => !(g.opened && g.expanded === 'true' && g.display !== 'none' &&
+        g.links > 0 && g.labelLines.every((x) => x === 1) && g.labelOverflow === 0 &&
+        g.fitsX && g.outOfView === 0));
+      check(`顶栏导航(${tag})`, '三组各自展开：菜单可见、标签单行、整条落在视口内、不冲出右边缘',
+        bad.length === 0 && o.docOverflow <= 1,
+        `不合格组=${JSON.stringify(bad.map((g) => ({ g: g.label, fitsX: g.fitsX, rect: g.rect,
+          lines: g.labelLines, out: g.outOfView, lo: g.labelOverflow })))} ` +
+        `全部=${JSON.stringify(o.per.map((g) => `${g.label}:${g.links}项${g.fitsX ? '' : ' 溢出'}`))} ` +
+        `页面横溢=${o.docOverflow}`);
+    }
+
     await cdp.send('Emulation.setDeviceMetricsOverride',
       { width: 390, height: 844, deviceScaleFactor: 2, mobile: true }, sessionId);
     await goto('web/entry.html?code=A11', `document.querySelectorAll('#entryJump .entry-jump-item').length>0`);
-    const nav = await probe(`(() => {
-      const links=[...document.querySelectorAll('.topnav .nav-link')];
-      const box=document.querySelector('.topnav .nav-links');
-      const br=box.getBoundingClientRect();
-      const inner=document.querySelector('.topnav .inner').getBoundingClientRect();
-      const lineCount=(el)=>{const r=document.createRange();r.selectNodeContents(el);
-        const rects=[...r.getClientRects()].filter(x=>x.width>0&&x.height>0);
-        const tops=new Set(rects.map(x=>Math.round(x.top)));return tops.size;};
-      return { lines: links.map(lineCount),
-        /* 导航是**可横向滚动**容器，右侧的链接滚出容器是设计如此；
-           真正要防的是：(a) 有链接跑到容器**左边界之外**（说明布局坏了），
-           (b) 容器自己越出页面。 */
-        outsideLeft: links.filter(a=>a.getBoundingClientRect().left < br.left-0.5).length,
-        boxOverLeft: Math.round(br.left - inner.left),
-        boxOverRight: Math.round(inner.right - br.right),
-        scrollable: box.scrollWidth > box.clientWidth + 1,
-        total: links.length };
+    /* 点锚点之前必须**等排版稳定**：正文用 Web 字体（Noto Serif SC），字体替换会改变
+       各段落高度，导致"点的时候算出的目标位置"与"滚完之后的位置"不一致。
+       实测没等就点，标题落到顶栏底 82px（被压住 3px）；等字体就绪后是 +15px。
+       ——这是判据的**准备步骤**有竞态，不是页面缺陷；不许靠放宽阈值糊过去。 */
+    await probe(`(async () => {
+      if (document.fonts && document.fonts.ready) await document.fonts.ready;
+      for (let i = 0; i < 60; i++) {
+        if (document.querySelectorAll('#caseList .row').length > 0) break;
+        await new Promise(r => setTimeout(r, 100));
+      }
+      return true;
     })()`);
-    check('移动导航', '每个链接文字都是单行', nav.lines.every((n) => n === 1),
-      `行数数组=${JSON.stringify(nav.lines)}`);
-    check('移动导航', '没有链接跑到导航容器左界之外，容器也没越出页面',
-      nav.outsideLeft === 0 && nav.boxOverLeft >= -1 && nav.boxOverRight >= -1,
-      `左界外=${nav.outsideLeft} 容器左溢=${nav.boxOverLeft} 容器右溢=${nav.boxOverRight} ` +
-      `可横向滚动=${nav.scrollable}（设计如此）`);
+    await sleep(300);
 
     await probe(`(() => { const a=[...document.querySelectorAll('#entryJump .entry-jump-item')]
       .find(x=>x.textContent.includes('相关案例')); if(a) a.click(); return true; })()`);
@@ -255,15 +347,27 @@ async function main() {
       lastY = y;
     }
     const anc = await probe(`(() => {
+      const cs=getComputedStyle;
       const nav=document.querySelector('.topnav').getBoundingClientRect();
-      const h=document.querySelector('#caseSection .section-title').getBoundingClientRect();
-      return { navBottom: Math.round(nav.bottom), titleTop: Math.round(h.top), y: Math.round(window.scrollY) };
+      const sec=document.getElementById('caseSection');
+      const h=sec.querySelector('.section-title').getBoundingClientRect();
+      const sb=sec.getBoundingClientRect();
+      return { navBottom: Math.round(nav.bottom), titleTop: Math.round(h.top), y: Math.round(window.scrollY),
+        /* 把"这个数是怎么来的"一并记下来：不然只有结论、没法追。
+           实测过一次 -3px，就是靠这几个量定位到 --nav-h / scroll-margin-top 的。 */
+        secTop: Math.round(sb.top), secCls: sec.className,
+        scrollMarginTop: cs(sec).scrollMarginTop,
+        varNavH: cs(document.documentElement).getPropertyValue('--nav-h').trim(),
+        h2Gap: Math.round(h.top - sb.top), secOpacity: cs(sec).opacity, secTransform: cs(sec).transform,
+        fontsReady: !!(document.fonts && document.fonts.status === 'loaded') };
     })()`);
     /* 断言要能失败：标题应当停在顶栏**下方不远处**，而不是"大于顶栏底"就放行
        （那样滚到页底也会通过）。 */
     check('移动导航', '锚点跳转后标题停在顶栏正下方（不是随便在下面）',
       anc.titleTop >= anc.navBottom - 1 && anc.titleTop <= anc.navBottom + 48,
-      `顶栏底=${anc.navBottom} 标题顶=${anc.titleTop}（差 ${anc.titleTop - anc.navBottom}px）scrollY=${anc.y}`);
+      `顶栏底=${anc.navBottom} 标题顶=${anc.titleTop}（差 ${anc.titleTop - anc.navBottom}px）scrollY=${anc.y} ` +
+      `section 顶=${anc.secTop} 标题偏移=${anc.h2Gap} scroll-margin=${anc.scrollMarginTop} ` +
+      `--nav-h=${anc.varNavH} 透明度=${anc.secOpacity} 字体就绪=${anc.fontsReady} class=${anc.secCls}`);
 
     /* ---------- 4. 入门卡真的在首屏 ---------- */
     await cdp.send('Emulation.setDeviceMetricsOverride',

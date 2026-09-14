@@ -203,7 +203,13 @@ function fillFacets(){
 }
 
 async function initData(){
+  // file:// 下 origin 是 null，而后端（Cloudflare Worker）的 CORS 只放行
+  // https://craeatzeven.github.io —— **永远不可能连上**。
+  // 照样去试的代价：白等 4 秒超时 + 控制台留下一串 CORS 报错，
+  // 让"无 console 报错"这条验收闸门误判。**知道走不通就别去撞。**
+  const offline = (location.protocol === "file:");
   try{
+    if(offline) throw new Error("file:// 下不探测后端（origin 为 null，CORS 必然拒绝）");
     const m = await api("/api/meta");
     META.sources = (m.sources||[]).map(s=>({slug:s.slug, title:s.slug, cards:s.cards}));
     META.topics = (m.topics||[]).map(t=>({slug:t.slug, title:t.slug, cards:t.cards}));

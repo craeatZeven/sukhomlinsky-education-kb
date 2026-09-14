@@ -16,6 +16,13 @@ api/kb.db
 api/kb.db-wal
 api/kb.db-shm
 
+# 离线影子分片（file:// 下替代 fetch 的 .json.js）
+# 生成物、可再生产 → 不进版本库（REPO-POLICY 铁律 4）。
+# 重建：python scripts/build_offline_shims.py
+web/data/**/*.json.js
+# 单卡打包文件不叫 *.json.js，单独列一条 —— 漏了会把 5 MB 生成物提交上去
+web/data/cards-all.js
+
 # Python
 __pycache__/
 *.pyc

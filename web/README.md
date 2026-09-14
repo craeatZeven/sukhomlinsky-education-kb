@@ -2,7 +2,45 @@
 
 ## 本地预览
 
-直接双击打开 `index.html` 即可（`fetch()` 读同目录的 `data/` 分片；用本地 HTTP 服务更稳，例如 `python -m http.server 8000`）。
+**直接双击打开 `index.html` 即可**；但要知道下面这条区别（2026-09-14 实测订正）：
+
+> ⚠️ 最初这里写的是"`fetch()` 读同目录的 `data/` 分片，双击就行"——**这句话是错的**。
+> `file://` 页面的 origin 是 `null`，Chrome 会以 CORS 拒绝**所有** `fetch`，
+> 同目录的本地文件也一样。实测检索页在 `file://` 下直接报
+> `检索失败：Cannot read properties of null (reading 'index')`，**一条结果都出不来**。
+
+修法是给**离线关键分片**生成一份 `.json.js` 影子，`kb.js` 只在 `file://` 下改用它
+（`<script src>` 不被 CORS 拦，已实测）。**http 下行为一个字节都不变。**
+
+| 打开方式 | 数据从哪来 | 状态 |
+|---|---|---|
+| 双击（`file://`） | `.json.js` 影子分片 | ✅ 检索、浏览、卡片详情都能用 |
+| 本地服务（`http://`） | `fetch()` 读 `data/*.json` | ✅ 原路径，未改动 |
+
+重建影子（**改了 `data/` 里的 json 之后必须重跑**）：
+
+```bash
+python scripts/build_offline_shims.py
+```
+
+影子只覆盖**离线关键**分片（`meta.json` · `index.json` · `search/*.json`，约 4.6 MB 生成物，
+已加进 `.gitignore`）。1386 个单卡分片**不做**影子——那既没必要，也会把仓库撑胖。
+真要完整的离线能力，起个服务最省事：`python -m http.server 8000`。
+
+### 为什么不用 Pagefind
+
+评估过 [Pagefind](https://pagefind.app/)（静态站检索的标准答案），**结论是不对口**，理由是实测的：
+
+| 项 | Pagefind 实测 | 本项目实际 |
+|---|---|---|
+| 索引内容 | 19 个页面、**813 个词** | 本库 **1,386 张卡片**、语料 1.7 MB |
+| 抓到了什么 | 页面导航栏（正文是 JS 渲染的，静态 HTML 里没有） | 卡片正文全在 `data/` 的 json 里 |
+| 粒度 | **页** | **卡** |
+| 中文 | 自带提示 "**doesn't support stemming for zh-cn**" | 现有实现按中文语料检索 |
+| 分面 | **0 filters** | 来源 / 主题 / 类型三档分面 |
+| file:// | 仍需要 HTTP（要 fetch 它的 js/wasm） | 影子分片已解决 |
+
+一句话：**Pagefind 索引静态 HTML，而本库的内容是客户端渲染的**——它只能索引到壳。
 
 ## 数据层：分片按需加载（档位 A）
 

@@ -91,6 +91,12 @@ body {
   transition: background .3s ease, color .3s ease;
 }
 h1, h2, h3, .serif { font-family: var(--serif); }
+/* 控件和代码元素**不继承字体** —— 不补这两行，页面里必然混进两个外来字体：
+     <code>/<pre> 掉到浏览器默认 monospace；<input>/<button> 掉到 Arial。
+   实测（2026-09-14）：不补时全站字体家族从 3 升到 4+，输入框里的字和页面其它字不是一套。
+   这一条 linter 抓不到（控件没有直接文本节点，AP-TYPE-02 会跳过滤掉），只能靠人补。 */
+code, kbd, samp, pre, var { font-family: var(--mono); }
+input, button, select, textarea { font-family: inherit; }
 /* 默认标题字号也收敛到同一套字阶（12 / 14 / 17 / 21 / 26 / 34） */
 h2 { font-size: 26px; line-height: 1.35; }
 h3 { font-size: 21px; line-height: 1.4; }
@@ -603,6 +609,15 @@ button.mx-cell:hover { box-shadow: 0 0 0 2px var(--accent); }
 .conf-judge .conf-tag { color: var(--accent); border-color: color-mix(in srgb, var(--accent) 40%, var(--line)); }
 .conf-foot { margin: 14px 0 0; color: var(--soft); font-size: 13px; }
 
+/* 正文可读栏宽（2026-09-14 加）
+   ------------------------------------------------------------------
+   实测三处超宽（中文一行字数）：.excerpt 64 / .angle-note 67 / .conf-foot 87，
+   而阈值是 50（AP-TYPE-03）。行太长时眼睛回扫会丢行——这不是审美偏好，
+   是阅读速度实测会掉的区间。
+   46em = 17px 下约 780px ≈ 44 个中文字；13px 下约 600px，两边都落在
+   「中文 30–45 字」这个区间内。小字用同一个 em 值会自然收得更窄，正合适。 */
+.excerpt, .angle-note, .conf-foot { max-width: 46em; }
+
 /* 条目页首屏的「从这里开始」：先给三张入门卡，再接长目录（评审 B·03） */
 .start-block { margin: 0 0 30px; }
 .start-title { font-size: 17px; margin: 0 0 4px; display: flex; align-items: center; gap: 10px; }
@@ -843,6 +858,10 @@ footer .foot-links a:hover { text-decoration-color: var(--accent); }
   opacity: 0; visibility: hidden; transition: opacity .15s ease, visibility .15s;
 }
 .src:hover .src-pop, .src:focus-within .src-pop { opacity: 1; visibility: visible; }
+/* 位置翻转：由 kb.js 在显示前量一次再加（纯 CSS 判断不了触发词离右缘还有多远）。
+   不加这两条，靠右的 .src 会把整页撑出横向滚动条 —— 实测 768px 下超出 4px。 */
+.src[data-flip~="right"] .src-pop { left: auto; right: 0; }
+.src[data-flip~="down"] .src-pop { bottom: auto; top: calc(100% + 8px); }
 @media (max-width: 680px) { .src { border-bottom: none; } .src-pop { display: none; } }
 @media print { .src-pop { display: none; } }
 

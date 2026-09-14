@@ -501,4 +501,80 @@
   };
 
   window.KB = KB;
+
+  /* ---------------------------------------------------------------------------
+     出处浮层的位置翻转（2026-09-14 加）
+     ---------------------------------------------------------------------------
+     问题：.src-pop 是 position:absolute + left:0 + width:max-content，
+     挂在**靠右**的 .src 上时必然超出视口右缘。实测 explore.html 在 768px
+     被它撑出 4px 横向滚动（整页能左右滑）。
+
+     **纯 CSS 修不了**：锚左还是锚右取决于触发词在行内的位置，
+     而 CSS 不知道"这个触发词离右边还差多少"。所以显示前量一次。
+
+     与 D:\Git\tools\web-standard\components\kit.js 的 initPop 是同一套逻辑
+     （组件库里的 c-pop）。这里用事件委托，因为浮层是 innerHTML 动态生成的。
+  */
+  function placeSrcPop(src) {
+    var pop = src.querySelector(".src-pop");
+    if (!pop) return;
+    var vw = window.innerWidth;
+
+    // 三点式：左锚 → 右锚 → 都放不下就退回左锚 + 平移。
+    // 「翻过去就完事」是错的：右锚也可能把浮层推到左边界外（被切一半，读不了）。
+    // 也不要夹宽度：地板值本身会再次溢出（实测地板 140px 时 414px 视口仍超 3.7px）。
+    src.removeAttribute("data-flip");
+    pop.style.transform = "";
+    var r = pop.getBoundingClientRect();
+    if (r.right > vw - 8) {
+      src.setAttribute("data-flip", "right");
+      r = pop.getBoundingClientRect();
+      if (r.left < 8) {
+        src.removeAttribute("data-flip");
+        r = pop.getBoundingClientRect();
+        var over = r.right - (vw - 8);
+        if (over > 0) pop.style.transform = "translateX(" + (-Math.ceil(over)) + "px)";
+      }
+    }
+    // 垂直：上面放不下就翻到下方
+    r = pop.getBoundingClientRect();
+    if (r.top < 8) {
+      var cur = src.getAttribute("data-flip");
+      src.setAttribute("data-flip", (cur ? cur + " " : "") + "down");
+    }
+  }
+  function placeAllSrcPops() {
+    var nodes = document.querySelectorAll(".src");
+    for (var i = 0; i < nodes.length; i++) placeSrcPop(nodes[i]);
+  }
+  function pickSrc(e) {
+    var t = e.target;
+    if (!t || !t.closest) return;
+    var src = t.closest(".src");
+    if (src) placeSrcPop(src);
+  }
+
+  /* ⚠️ 必须在**渲染之后立刻**摆好，不能等悬停。
+     因为浮层是 visibility:hidden —— 它不显示，但**仍然占布局、仍然撑宽文档**。
+     只在 mouseover 时算，静止状态下 768px 依旧会超出 4px（第一版就是这个毛病）。
+     childList 才观察：placeSrcPop 只改属性，不会反过来触发自己。 */
+  var placePending = false;
+  function schedulePlace() {
+    if (placePending) return;
+    placePending = true;
+    requestAnimationFrame(function () { placePending = false; placeAllSrcPops(); });
+  }
+
+  document.addEventListener("mouseover", pickSrc, true);
+  document.addEventListener("focusin", pickSrc, true);
+  window.addEventListener("resize", schedulePlace);
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", schedulePlace);
+  } else {
+    schedulePlace();
+  }
+  if (window.MutationObserver) {
+    new MutationObserver(schedulePlace).observe(document.documentElement,
+                                                 { childList: true, subtree: true });
+  }
 })();

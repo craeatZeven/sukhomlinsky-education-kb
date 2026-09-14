@@ -25,6 +25,10 @@ SCRIPTS = [
     # 这是唯一能拦住「分片悄悄和分类脱节」的一步（`collect` 曾经把判读分面
     # 重算成没过门槛的关键词分面，别的检查全都没报错）。
     'check_classification_shards.py',
+    # 纯数据层的内容契约（原文身份 / 显式待补 / 入门卡角色 / 案例挂靠）。
+    # 对应的**渲染层**检查在 tools/web-audit/verify-hardened.mjs，那一份要 Chrome
+    # 加静态服务，进不了这条离线链，所以这里至少把数据层那几条盯住。
+    'check_content_contract.py',
 ]
 
 

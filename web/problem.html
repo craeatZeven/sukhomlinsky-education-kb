@@ -39,7 +39,7 @@
 
 <main class="wrap">
   <section>
-    <h2 class="section-title">匹配结果</h2>
+    <h2 class="section-title" id="problemHead">常见问题</h2>
     <div class="grid" id="problemGrid"></div>
   </section>
 
@@ -218,6 +218,12 @@ function apply(){
   const raw = (document.getElementById("q").value || "").trim();
   const q = raw.toLowerCase();
   const t = queryTerms(q);
+  /* 标题跟着状态走。原来无论如何都写「匹配结果」，而**没输入任何东西时**
+     这一栏列出的是 16 条预设问题 —— 没有"匹配"发生，读者会去找自己没打过的
+     查询条件（外部评审 docs/codex-final-opinion.md 提到的一处）。有查询词时
+     才叫「匹配结果」，空查询时它是「常见问题」。 */
+  const head = document.getElementById("problemHead");
+  if(head) head.textContent = t ? "匹配结果" : "常见问题";
   /* 预设问题也用同一套模糊匹配：整串 includes 会让「孩子说谎怎么办？」
      匹配不到预设的「孩子说谎之后怎么办」（评审 A3·第四处）。 */
   const list = t

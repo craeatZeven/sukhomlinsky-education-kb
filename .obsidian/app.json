@@ -8,7 +8,8 @@
     "tools/",
     "templates/",
     "schemas/",
-    "docs/"
+    "docs/",
+    "INDEX.md"
   ],
   "attachmentFolderPath": "assets",
   "newFileLocation": "folder",

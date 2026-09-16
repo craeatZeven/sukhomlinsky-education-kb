@@ -1,0 +1,23 @@
+{
+  "userIgnoreFilters": [
+    "cloudflare/",
+    "web/",
+    "api/",
+    "local_working_copy/",
+    "scripts/",
+    "tools/",
+    "templates/",
+    "schemas/",
+    "docs/"
+  ],
+  "attachmentFolderPath": "assets",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "wiki/concepts",
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "shortest",
+  "useMarkdownLinks": false,
+  "showLineNumber": false,
+  "readableLineLength": true,
+  "strictLineBreaks": false,
+  "trashOption": "local"
+}

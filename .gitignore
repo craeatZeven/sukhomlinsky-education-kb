@@ -41,3 +41,15 @@ cloudflare/coverage.json
 # 浏览器回归脚本的运行产物（脚本本身在 tools/web-audit/，是要提交的）
 tools/web-audit/out/
 
+# 个人层：批注 / 待办 / 摘录。**故意不入库**——一旦 push 到公开仓库，
+# 就会永久留在 git 历史里（本仓库有过一次密钥进历史的教训，代价是重写 246 个提交）。
+# 个人内容要异地备份，走 OneDrive / 外置盘，不走公开 git。
+notes/
+
+# Obsidian：只提交配置（app.json / community-plugins.json），
+# workspace 是每次打开的窗口状态，属运行态，不入库。
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/plugins/*/data.json
+

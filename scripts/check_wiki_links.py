@@ -50,6 +50,21 @@ def main() -> int:
 
     # 可解析目标：wiki 下的文件名（去扩展名）+ 卡片的 aliases + 卡片文件名
     wiki_names = {p.stem for p in WIKI.rglob('*.md')}
+    # 还要认 **vault 里的其它笔记**（topics/ sources/ 根级 .md）——
+    # 它们同样是 Obsidian 能解析的目标。早先只认 wiki/ 与卡片，于是把
+    # `[[劳动教育]]`（指向 topics/labor-education.md）报成了死链，属**判据自己的**误报。
+    # Obsidian 按「文件名 / aliases / 标题层级」解析，**不按 frontmatter 的 title**，
+    # 所以 topics 的标题必须也写进 aliases（见 2026-09-16 那次修复）才解析得到。
+    for other in list((ROOT / 'topics').glob('*.md')) + list((ROOT / 'sources').glob('*.md')) \
+            + [q for q in ROOT.glob('*.md')]:
+        wiki_names.add(other.stem)
+        tt = other.read_text(encoding='utf-8')
+        am = re.search(r'^aliases:\s*$\n((?:\s+-\s+.*\n)+)', tt, re.M)
+        if am:
+            for line in am.group(1).splitlines():
+                v = line.strip().lstrip('-').strip().strip('"').strip("'")
+                if v:
+                    wiki_names.add(v)
     card_alias: set[str] = set()
     for p in CARDS.glob('sk-*.md'):
         t = p.read_text(encoding='utf-8')

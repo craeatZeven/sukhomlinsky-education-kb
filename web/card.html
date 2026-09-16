@@ -22,7 +22,7 @@
 <meta name="twitter:description" content="一张卡：原文摘录、中文转述、教育场景，以及来源与出处核对，可复制引用或打印成 PDF。" />
 <meta name="twitter:image" content="https://craeatzeven.github.io/sukhomlinsky-education-kb/web/og.png" />
 <!-- social:end -->
-<link rel="stylesheet" href="style.css?v=20260916" />
+<link rel="stylesheet" href="style.css?v=20260916d" />
 </head>
 <body data-theme="green">
 <nav class="topnav">
@@ -91,7 +91,7 @@
 </footer>
 
 <script src="kb.js"></script>
-<script src="theme.js?v=20260916"></script>
+<script src="theme.js?v=20260916d"></script>
 <script>
 function getParam(){ return new URLSearchParams(location.search).get("id") || location.hash.replace("#",""); }
 function cardLink(c){ return `card.html?id=${encodeURIComponent(c.id)}#${KB.esc(c.id)}`; }
@@ -182,6 +182,7 @@ function renderCard(c, error){
       <dt>出处</dt><dd>${KB.sourcePop(c.source, 'explore.html?source=' + encodeURIComponent(c.source))}</dd>
       <dt>出版信息</dt><dd>${KB.esc(KB.refShort(ref, c.source)) || "—"}</dd>
     </dl>
+    <div id="noteRefs"></div>
     ${excerptsHtml}
     ${paraphraseBlock}
     ${c.cn?`<div class="cn"><b>中文转述：</b>${KB.esc(c.cn)}</div>`:""}
@@ -222,7 +223,28 @@ function renderCard(c, error){
   });
   document.getElementById("printBtn").addEventListener("click", ()=>window.print());
   renderRelated(c);
+  renderNoteRefs(c);
   renderPager(c);
+}
+
+/* 这一张卡被哪些**成篇材料**用到（概念页分析 / 专题长文 / 入口页 / 归档问答）。
+   为什么要它：卡片页此前只能往下看（原文、场景、相关卡），**不能往上看**
+   ——"我这一条被别人用在哪里"在库里是查不到的。docs.json 每条都带 refs，正好反过来查。
+   用阅读层的低调写法：一个清单，不加卡片。 */
+async function renderNoteRefs(c){
+  const box = document.getElementById("noteRefs");
+  if(!box) return;
+  let docs = [];
+  try { docs = await KB.loadDocs(); } catch(e) { return; }
+  const mine = (docs || []).filter(d => (d.refs || []).indexOf(c.id) >= 0);
+  if(!mine.length){ box.remove(); return; }
+  const KIND = {concept:"分析", "moc-entry":"条目入口", "moc-facet":"分面入口",
+                "moc-angle":"角度入口", "moc-facet-exception":"入口（例外）",
+                query:"归档问答", topic:"专题长文"};
+  box.innerHTML = `
+    <h2 class="note-refs-head">这一条被这些地方用到 <span class="meta">${mine.length} 处</span></h2>
+    <ul class="note-refs">${mine.map(d=>`
+      <li><a href="${KB.esc(d.link)}"><span class="note-refs-kind">${KB.esc(KIND[d.type] || "成篇材料")}</span>${KB.esc(d.title)}</a></li>`).join("")}</ul>`;
 }
 function renderPager(c){
   const prev = c.prev ? { id: c.prev } : null;

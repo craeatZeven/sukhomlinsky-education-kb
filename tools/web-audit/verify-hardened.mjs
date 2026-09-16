@@ -521,6 +521,53 @@ async function main() {
       `链接=${JSON.stringify(usage.links.slice(0, 3))} 卡片区有方括号=${usage.rawBrackets} ` +
       `整页有方括号=${usage.anyBracketAnywhere}`);
 
+    /* ---------- 3e. 检索要先给「成篇材料」，再给零散卡片 ---------- */
+    /* 用户原话：「我在这个数据库里面找劳动，它能给我的只是一堆零散的卡片」。
+       实测当时：检索语料里**只有卡片**，于是《劳动教育》专题长文（1859 字）、条目页 A11、
+       归档问答一个都不出现；搜「劳动」命中 514 张卡。
+       判据守三件事，每条都能失败：
+         ① 搜「劳动」时顶部出现的成篇材料 ≥3 条
+         ② 成篇材料块在 DOM 里**排在卡片结果之前**（分层的语义，不只是"有这一块"）
+         ③ 第一条命中要包含讲「劳动」的那几篇（不是随便抓几条充数） */
+    const docsJson = JSON.parse(readFileSync(join(ROOT, 'web/data/docs.json'), 'utf-8'));
+    const wantDocsLabor = docsJson.filter((d) =>
+      (d.title || '').includes('劳动') || (d.text || '').includes('劳动')).length;
+    await goto('web/search.html?q=' + encodeURIComponent('劳动'),
+      `document.querySelectorAll('#docsBlock .doc-row').length>0`);
+    const docsBlock = await probe(`(() => {
+      const rows=[...document.querySelectorAll('#docsBlock .doc-row')];
+      const box=document.getElementById('docsBlock'), res=document.getElementById('results');
+      const before = !!(box && res && (box.compareDocumentPosition(res) & Node.DOCUMENT_POSITION_FOLLOWING));
+      return {
+        n: rows.length,
+        titles: rows.map(r=>r.querySelector('.doc-title').textContent.trim()),
+        before,
+        cards: document.querySelectorAll('#results .row').length,
+        vw: Math.round(document.documentElement.scrollWidth - document.documentElement.clientWidth),
+        stray: document.querySelectorAll('#docsBlock a[href^="note/moc.html"]').length,
+      };
+    })()`);
+    check('成篇材料', '搜「劳动」时先给出成篇材料，且它排在卡片结果之前',
+      docsBlock.n >= 3 && docsBlock.before && docsBlock.cards > 0 && docsBlock.stray === 0,
+      `成篇 ${docsBlock.n} 条（应 ≥3）· 在卡片前=${docsBlock.before} · 卡片 ${docsBlock.cards} 张 · ` +
+      `页面横溢=${docsBlock.vw}\n      前 3 条=${JSON.stringify(docsBlock.titles.slice(0, 3))}`);
+    check('成篇材料', '第一条命中确实是讲「劳动」的那几篇（不是抓几条充数）',
+      docsBlock.titles.slice(0, 3).some((t) => t.includes('劳动')),
+      `前 3 条=${JSON.stringify(docsBlock.titles.slice(0, 3))}；全库提到「劳动」的成篇材料 ${wantDocsLabor} 条`);
+
+    /* 卡片页要能**往上看**：这一条被哪些成篇材料用到 */
+    await goto('web/card.html?id=sk-0250', `!!document.querySelector('#noteRefs .note-refs li')`);
+    const noteRefs = await probe(`(() => {
+      const box=document.getElementById('noteRefs');
+      if(!box) return {n:0};
+      const items=[...box.querySelectorAll('.note-refs li a')];
+      return {n: items.length, first: items[0] ? items[0].textContent.trim() : '',
+              href: items[0] ? items[0].getAttribute('href') : ''};
+    })()`);
+    check('成篇材料', '卡片页能往上看：列出用到这一条的成篇材料',
+      noteRefs.n > 0 && /note\//.test(noteRefs.href || ''),
+      `sk-0250 被 ${noteRefs.n} 处引用，第一条=«${noteRefs.first}» → ${noteRefs.href}`);
+
     /* ---------- 4. 入门卡真的在首屏 ---------- */
     await cdp.send('Emulation.setDeviceMetricsOverride',
       { width: 1440, height: 900, deviceScaleFactor: 1, mobile: false }, sessionId);

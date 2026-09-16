@@ -572,6 +572,51 @@ a.badge--see { color: var(--soft); border-style: dashed; }
 button.mx-cell { font-family: var(--sans); border: 0; padding: 0; cursor: pointer; }
 button.mx-cell:hover { box-shadow: 0 0 0 2px var(--accent); }
 
+/* 「先看这几篇」——检索页顶部的成篇材料块。
+   检索页是**档案层**（目录行、零阴影、hairline），所以这里也用目录行语言，不套卡片；
+   用一条左边线把它和下面的卡片结果区分开。 */
+.docs-block { margin: 20px 0 8px; padding-left: 16px; border-left: 3px solid var(--accent); }
+.docs-head { margin: 0 0 8px; font-family: var(--serif); font-size: 17px; font-weight: 700; }
+.docs-note { margin-left: 8px; font-family: var(--sans); font-size: 12px; font-weight: 400; color: var(--soft); }
+.doc-row { display: grid; grid-template-columns: 76px 1fr; gap: 2px 12px;
+  padding: 10px 0; border-bottom: 1px solid var(--line); text-decoration: none; color: var(--ink); }
+.doc-row:hover .doc-title { color: var(--accent); }
+.doc-kind { font-family: var(--mono); font-size: 11px; color: var(--accent-ink);
+  border: 1px solid var(--line); border-radius: 2px; padding: 1px 5px; text-align: center;
+  align-self: start; margin-top: 2px; }
+.doc-title { font-size: 15px; font-weight: 500; }
+.doc-snip { grid-column: 2; font-size: 13px; line-height: 1.7; color: var(--soft); }
+.doc-refs { grid-column: 2; font-family: var(--mono); font-size: 11px; color: var(--soft); }
+.docs-more { margin: 8px 0 0; font-size: 12.5px; color: var(--soft); }
+
+/* 旁挂层页面（web/note/*.html）：阅读层语言 —— 栏宽收窄、引文左侧线、表格不花 */
+.note-body { max-width: 720px; }
+.note-body h1 { font-family: var(--serif); font-size: 30px; line-height: 1.35; margin: 6px 0 18px; }
+.note-body h2 { font-family: var(--serif); font-size: 21px; margin: 30px 0 10px;
+  padding-left: 10px; border-left: 4px solid var(--accent); }
+.note-body h3 { font-family: var(--serif); font-size: 17px; margin: 22px 0 8px; }
+.note-body h4 { font-size: 15px; margin: 18px 0 6px; }
+.note-body p { font-size: 16px; line-height: 1.85; margin: 0 0 12px; }
+.note-body blockquote { margin: 14px 0; padding: 3px 36px 0 24px; border-left: 3px solid var(--line); }
+.note-body blockquote p { font-size: 15.5px; }
+.note-body ul { margin: 0 0 14px; padding-left: 22px; }
+.note-body li { font-size: 15.5px; line-height: 1.8; margin-bottom: 6px; }
+.note-body code { font-family: var(--mono); font-size: 12.5px; }
+.note-table { width: 100%; border-collapse: collapse; margin: 14px 0 18px; font-size: 14px; }
+.note-table th, .note-table td { text-align: left; padding: 8px 10px;
+  border-bottom: 1px solid var(--line); vertical-align: top; }
+.note-table th { font-weight: 600; color: var(--soft); font-size: 12.5px; }
+
+/* 卡片页的「这一条被这些地方用到」：卡片页此前只能往下看，不能往上看 */
+.note-refs-head { margin: 22px 0 8px; font-family: var(--serif); font-size: 16px; font-weight: 700; }
+.note-refs-head .meta { font-family: var(--mono); font-size: 11.5px; font-weight: 400; }
+.note-refs { list-style: none; margin: 0; padding: 0; }
+.note-refs li { padding: 7px 0; border-bottom: 1px solid var(--line); }
+.note-refs a { text-decoration: none; color: var(--ink); font-size: 14.5px; }
+.note-refs a:hover { color: var(--accent); }
+.note-refs-kind { font-family: var(--mono); font-size: 11px; color: var(--accent-ink);
+  margin-right: 8px; }
+
 /* 教育场景/应用（卡片页）：1386 张卡每张都有这一节，而网站从前**完全不渲染它** ——
    2026-09-16 补。它回答"这一条什么时候用得上"，是读者最需要的一段；
    350 处卡对卡引用也全在这里。走阅读层语言（栏宽内的正文 + 左侧细线列表），

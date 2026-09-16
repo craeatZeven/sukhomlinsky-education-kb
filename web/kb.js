@@ -236,6 +236,29 @@
       });
     },
 
+    /* 成篇材料（专题长文 / 概念页分析 / 入口页 / 归档问答）。
+       **为什么需要它**：用户原话「我在这个数据库里面找劳动，它能给我的只是一堆零散的卡片」——
+       实测检索语料里只有卡片，于是《劳动教育》那篇 1859 字的专题长文、A11 条目页、
+       归档问答**一个都不会出现在搜索结果里**。这一份就是让"先给答案、再给证据"落地。
+       取不到时不报错，只是不显示这一块（file:// 下 fetch 会被拒）。 */
+    loadDocs: function () {
+      return KB.ready().then(function () {
+        return getJSON("docs.json").catch(function () { return []; });
+      });
+    },
+
+    /* 一条成篇材料的可读摘要：命中词附近 130 字 */
+    docSnippet: function (doc, terms) {
+      var text = (doc && doc.text) || "";
+      var low = text.toLowerCase(), pos = -1;
+      (terms || []).forEach(function (t) {
+        var i = low.indexOf(t);
+        if (i >= 0 && (pos < 0 || i < pos)) pos = i;
+      });
+      if (pos < 0) return text.slice(0, 130);
+      return text.slice(Math.max(0, pos - 34), Math.max(0, pos - 34) + 130);
+    },
+
     loadIds: function () {
       return KB.ready().then(function () { return getJSON("ids.json"); });
     },

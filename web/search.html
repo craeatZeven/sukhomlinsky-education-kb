@@ -22,7 +22,7 @@
 <meta name="twitter:description" content="全文检索全部卡片；后端不可达时自动回退到本地静态检索。" />
 <meta name="twitter:image" content="https://craeatzeven.github.io/sukhomlinsky-education-kb/web/og.png" />
 <!-- social:end -->
-<link rel="stylesheet" href="style.css?v=20260916">
+<link rel="stylesheet" href="style.css?v=20260916d">
 </head>
 <body>
 <nav class="topnav">
@@ -93,6 +93,10 @@
   </div>
 
   <div id="stats" style="display:flex;gap:18px;flex-wrap:wrap;margin:16px 0"></div>
+  <!-- 成篇材料优先：搜一个词，**先给已经写好的一篇**，再给零散卡片。
+       用户原话：「我在这个数据库里面找劳动，它能给我的只是一堆零散的卡片」——
+       而库里本来就有《劳动教育》专题长文、条目页 A11、归档问答，从前搜索一个字都不给。 -->
+  <div id="docsBlock"></div>
   <div class="rows" id="results"></div>
   <div id="pager" style="display:flex;gap:10px;align-items:center;margin-top:18px"></div>
 </main>
@@ -104,9 +108,9 @@
   </div>
 </footer>
 
-<script src="config.js?v=20260916"></script>
+<script src="config.js?v=20260916d"></script>
 <script src="kb.js"></script>
-<script src="theme.js?v=20260916"></script>
+<script src="theme.js?v=20260916d"></script>
 <script>
 /* 双模式检索：
  *   1) 后端可用（config.js 的 apiBase 指向 FastAPI / Cloudflare Worker）→ 服务端 FTS5 检索 + 分页 + 聚合
@@ -192,6 +196,43 @@ function cardHtml(c){
   </a>`;
 }
 
+/* 成篇材料（专题长文 / 概念页 / 入口页 / 归档问答）——**排在卡片前面**。
+   排序：标题命中 > 正文命中；同类里按正文命中次数（次数多说明这一篇真的在讲它）。
+   只在有关键词时显示：空搜索时把 59 条成篇材料全列出来没有意义。 */
+const KIND_LABEL = {topic:"专题长文", wiki:"旁挂层"};
+let DOCS = null;
+function docKindLabel(d){
+  return ({concept:"分析", "moc-entry":"条目入口", "moc-facet":"分面入口",
+           "moc-angle":"角度入口", "moc-facet-exception":"入口（例外）",
+           query:"归档问答"})[d.type] || KIND_LABEL[d.kind] || "成篇材料";
+}
+function renderDocs(terms){
+  const box = $("docsBlock");
+  if(!box) return;
+  if(!terms.length || !DOCS || !DOCS.length){ box.innerHTML = ""; return; }
+  const scored = DOCS.map(d=>{
+    const title = (d.title||"").toLowerCase(), text = (d.text||"").toLowerCase();
+    const inTitle = terms.every(t=>title.includes(t));
+    const hits = terms.reduce((n,t)=>n + (text.split(t).length - 1), 0);
+    const ok = terms.every(t=>title.includes(t) || text.includes(t));
+    return {d, ok, inTitle, hits};
+  }).filter(x=>x.ok).sort((a,b)=>(b.inTitle-a.inTitle) || (b.hits-a.hits));
+  if(!scored.length){ box.innerHTML = ""; return; }
+  const top = scored.slice(0, 5);
+  box.innerHTML = `
+    <div class="docs-block">
+      <h2 class="docs-head">先看这几篇 <span class="docs-note">已经写好的成篇材料（下面才是零散卡片）</span></h2>
+      ${top.map(({d})=>`
+        <a class="doc-row" href="${KB.esc(d.link)}">
+          <span class="doc-kind">${KB.esc(docKindLabel(d))}</span>
+          <span class="doc-title">${KB.esc(d.title)}</span>
+          <span class="doc-snip">${KB.esc(KB.docSnippet(d, terms))}…</span>
+          <span class="doc-refs">${(d.refs||[]).length} 处卡引用</span>
+        </a>`).join("")}
+      ${scored.length > top.length ? `<p class="docs-more">另有 ${scored.length - top.length} 篇也提到这个词（换更专门的词能收敛）。</p>` : ""}
+    </div>`;
+}
+
 function fillFacets(){
   const fS = $("fSource"), fT = $("fTopic"), fType = $("fType");
   fS.innerHTML = '<option value="">全部来源</option>';
@@ -265,6 +306,10 @@ async function run(){
     <div class="stat"><b>${r.mode || MODE}</b><span>检索模式</span></div>`;
   $("results").innerHTML = state.items.length ? state.items.map(cardHtml).join("")
     : `<p class="empty" style="display:block">没有匹配的卡片，换个词试试。</p>`;
+  try{
+    if(DOCS === null) DOCS = await KB.loadDocs();
+    renderDocs(state.q.toLowerCase().split(/\s+/).filter(Boolean));
+  }catch(e){ /* 成篇材料取不到就不显示这一块，不影响卡片检索 */ }
   $("pager").innerHTML = `
     <button class="chip" id="prevBtn" type="button" ${state.page<=1?"disabled":""}>← 上一页</button>
     <span class="meta">第 ${state.page} / ${state.pages} 页</span>
@@ -292,6 +337,21 @@ document.addEventListener("DOMContentLoaded", async ()=>{
   });
   $("q").addEventListener("keydown", e=>{ if(e.key === "Enter") $("searchBtn").click(); });
   ["fSource","fTopic","fType","fSize"].forEach(id=>$(id).addEventListener("change", ()=>$("searchBtn").click()));
+  /* URL 参数（?q=劳动&source=…）→ 填进筛选器并检索。
+     两个理由：① 检索结果**可以分享**了（此前只能让人自己再敲一遍）；
+     ② 自动化判据能用 `search.html?q=劳动` 直接验"先给成篇材料"这条，不必去模拟输入框。 */
+  try{
+    const u = new URLSearchParams(location.search);
+    if(u.get("q")) $("q").value = u.get("q");
+    if(u.get("source")) $("fSource").value = u.get("source");
+    if(u.get("topic")) $("fTopic").value = u.get("topic");
+    if(u.get("type")) $("fType").value = u.get("type");
+    if(u.get("size")) $("fSize").value = u.get("size");
+    if(u.get("q") || u.get("source") || u.get("topic") || u.get("type")){
+      $("searchBtn").click();
+      return;                                   // 参数已触发检索，不必再跑一次
+    }
+  }catch(e){}
   $("randomBtn").addEventListener("click", async ()=>{
     try{
       if(MODE === "api"){ const c = await api("/api/random"); location.href = "card.html?id=" + encodeURIComponent(c.id) + "#" + c.id; }

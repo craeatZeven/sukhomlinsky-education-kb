@@ -1,5 +1,10 @@
 ---
 id: sk-0023
+primary: A7
+seealso: []
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-0023
   - 睡前长时间做作业，孩子会开始落后

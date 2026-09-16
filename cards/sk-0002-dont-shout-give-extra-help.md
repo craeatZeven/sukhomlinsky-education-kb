@@ -1,5 +1,10 @@
 ---
 id: sk-0002
+primary: A5
+seealso: []
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-0002
   - 先让孩子变得“可教”，而不是吼叫与说教

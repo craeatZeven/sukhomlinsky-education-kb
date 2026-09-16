@@ -1,5 +1,11 @@
 ---
 id: sk-0794
+primary: null
+seealso: []
+facets:
+  - S12
+  - S4
+tax_tags: []
 aliases:
   - sk-0794
   - 真理金珠的传说

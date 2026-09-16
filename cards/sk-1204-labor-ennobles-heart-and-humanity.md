@@ -1,5 +1,12 @@
 ---
 id: sk-1204
+primary: null
+seealso: []
+facets:
+  - S1
+  - S7
+  - S8
+tax_tags: []
 aliases:
   - sk-1204
   - 怎样通过劳动使心灵高尚和培养人性

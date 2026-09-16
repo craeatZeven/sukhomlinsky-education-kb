@@ -1,5 +1,10 @@
 ---
 id: sk-0033
+primary: A1
+seealso:
+  - A9
+facets: []
+tax_tags: []
 aliases:
   - sk-0033
   - 集体生活应以个人提升为宗旨

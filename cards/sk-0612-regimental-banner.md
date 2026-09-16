@@ -1,5 +1,12 @@
 ---
 id: sk-0612
+primary: null
+seealso: []
+facets:
+  - S15
+  - S3
+  - S4
+tax_tags: []
 aliases:
   - sk-0612
   - 团队的旗帜：旗帜在胸前，伤员挺到被找到

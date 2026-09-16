@@ -1,5 +1,12 @@
 ---
 id: sk-1151
+primary: null
+seealso: []
+facets:
+  - S13
+  - S2
+  - S3
+tax_tags: []
 aliases:
   - sk-1151
   - 阿尔乔姆·米哈伊洛维奇——布琼尼骑兵

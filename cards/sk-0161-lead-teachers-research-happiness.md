@@ -1,5 +1,9 @@
 ---
 id: sk-0161
+primary: A10
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0161
   - 把教师引上研究之路：每位教师常年研究一个教育问题

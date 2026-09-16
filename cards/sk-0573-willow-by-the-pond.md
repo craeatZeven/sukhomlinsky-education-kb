@@ -1,5 +1,12 @@
 ---
 id: sk-0573
+primary: null
+seealso: []
+facets:
+  - S1
+  - S14
+  - S6
+tax_tags: []
 aliases:
   - sk-0573
   - 池塘旁的柳树：老柳树枯了，根上长出的幼芽让它‘永生’

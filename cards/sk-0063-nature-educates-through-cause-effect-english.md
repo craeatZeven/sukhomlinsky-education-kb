@@ -1,5 +1,9 @@
 ---
 id: sk-0063
+primary: A12
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0063
   - 大自然是教育资源，唯当人理解因果关系时

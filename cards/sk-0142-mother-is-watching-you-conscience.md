@@ -1,5 +1,10 @@
 ---
 id: sk-0142
+primary: A4
+seealso:
+  - A19
+facets: []
+tax_tags: []
 aliases:
   - sk-0142
   - 用‘母亲永远在看着你’培养独处时的良心

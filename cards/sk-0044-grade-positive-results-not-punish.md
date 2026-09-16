@@ -1,5 +1,10 @@
 ---
 id: sk-0044
+primary: A16
+seealso: []
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-0044
   - 评分应只反映积极脑力劳动成果，而不是惩罚工具

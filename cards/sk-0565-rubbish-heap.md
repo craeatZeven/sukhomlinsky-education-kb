@@ -1,5 +1,13 @@
 ---
 id: sk-0565
+primary: null
+seealso: []
+facets:
+  - S11
+  - S12
+  - S17
+  - S8
+tax_tags: []
 aliases:
   - sk-0565
   - 垃圾堆：孩子们种出一朵玫瑰，全校才看见身边的脏乱

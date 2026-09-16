@@ -1,5 +1,10 @@
 ---
 id: sk-1240
+primary: A22
+seealso:
+  - A6
+facets: []
+tax_tags: []
 aliases:
   - sk-1240
   - 请记住，没有也不可能有抽象的学生

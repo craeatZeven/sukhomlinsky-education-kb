@@ -1,5 +1,10 @@
 ---
 id: sk-1072
+primary: A19
+seealso:
+  - A5
+facets: []
+tax_tags: []
 aliases:
   - sk-1072
   - 敏感性和同情心的培养

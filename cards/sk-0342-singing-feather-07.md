@@ -1,5 +1,13 @@
 ---
 id: sk-0342
+primary: null
+seealso: []
+facets:
+  - S1
+  - S10
+  - S2
+  - S6
+tax_tags: []
 aliases:
   - sk-0342
   - 永远的白杨树

@@ -1,5 +1,12 @@
 ---
 id: sk-0986
+primary: null
+seealso: []
+facets:
+  - S12
+  - S15
+  - S6
+tax_tags: []
 aliases:
   - sk-0986
   - 勤劳人与懒惰人

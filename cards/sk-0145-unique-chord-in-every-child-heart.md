@@ -1,5 +1,10 @@
 ---
 id: sk-0145
+primary: A6
+seealso:
+  - A5
+facets: []
+tax_tags: []
 aliases:
   - sk-0145
   - 每个孩子心里都有一根独特的心弦，教师的心要与之和鸣

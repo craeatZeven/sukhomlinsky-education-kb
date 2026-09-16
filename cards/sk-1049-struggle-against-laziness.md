@@ -1,5 +1,10 @@
 ---
 id: sk-1049
+primary: A19
+seealso:
+  - A8
+facets: []
+tax_tags: []
 aliases:
   - sk-1049
   - 怎样和懒惰作斗争

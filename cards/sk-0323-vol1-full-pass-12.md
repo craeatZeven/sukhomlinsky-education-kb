@@ -1,5 +1,10 @@
 ---
 id: sk-0323
+primary: A5
+seealso:
+  - A22
+facets: []
+tax_tags: []
 aliases:
   - sk-0323
   - 孩子发笑时，教师绝不可生气

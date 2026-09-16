@@ -1,5 +1,12 @@
 ---
 id: sk-1384
+primary: null
+seealso: []
+facets:
+  - S12
+  - S13
+  - S9
+tax_tags: []
 aliases:
   - sk-1384
   - 信念对形成人的精神面貌的作用

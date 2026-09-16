@@ -1,5 +1,9 @@
 ---
 id: sk-0414
+primary: A14
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0414
   - 体操挺直身体，音乐挺直心灵

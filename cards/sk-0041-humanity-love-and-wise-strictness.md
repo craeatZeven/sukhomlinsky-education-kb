@@ -1,5 +1,9 @@
 ---
 id: sk-0041
+primary: A5
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0041
   - 教育者的爱：厚爱 + 明智的严厉 + 父母般的严格要求

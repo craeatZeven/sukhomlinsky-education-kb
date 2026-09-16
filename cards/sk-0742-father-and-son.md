@@ -1,5 +1,12 @@
 ---
 id: sk-0742
+primary: null
+seealso: []
+facets:
+  - S1
+  - S14
+  - S2
+tax_tags: []
 aliases:
   - sk-0742
   - 父亲和儿子

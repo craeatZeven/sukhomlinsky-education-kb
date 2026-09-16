@@ -1,5 +1,10 @@
 ---
 id: sk-1197
+primary: A19
+seealso:
+  - A2
+facets: []
+tax_tags: []
 aliases:
   - sk-1197
   - 怎样培养对妇女、姑娘、母亲的尊重

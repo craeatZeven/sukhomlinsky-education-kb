@@ -1,5 +1,13 @@
 ---
 id: sk-0635
+primary: null
+seealso: []
+facets:
+  - S10
+  - S2
+  - S4
+  - S6
+tax_tags: []
 aliases:
   - sk-0635
   - 为什么要说“谢谢”：人不是狼，所以人会道谢

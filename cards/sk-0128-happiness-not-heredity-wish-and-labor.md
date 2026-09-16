@@ -1,5 +1,11 @@
 ---
 id: sk-0128
+primary: A3
+seealso:
+  - A11
+  - A8
+facets: []
+tax_tags: []
 aliases:
   - sk-0128
   - 幸福不能当遗产传给孩子：童年要修‘愿望’，用劳动为幸福奠基

@@ -1,5 +1,14 @@
 ---
 id: sk-0833
+primary: null
+seealso: []
+facets:
+  - S1
+  - S13
+  - S2
+  - S4
+  - S8
+tax_tags: []
 aliases:
   - sk-0833
   - 季娜，再摘一朵花吧

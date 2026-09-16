@@ -1,5 +1,9 @@
 ---
 id: sk-0016
+primary: A11
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0016
   - 从种麦到粮食盛典：让劳动成为可庆祝的成果

@@ -1,5 +1,10 @@
 ---
 id: sk-0249
+primary: A4
+seealso:
+  - A17
+facets: []
+tax_tags: []
 aliases:
   - sk-0249
   - 用体验自由界限的方法教儿童学会控制愿望（罗曼的一天）

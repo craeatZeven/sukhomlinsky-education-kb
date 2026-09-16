@@ -1,5 +1,9 @@
 ---
 id: sk-0151
+primary: A11
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0151
   - 劳动本身不会吸引儿童：兴趣来自‘我能影响自然、看到成果’

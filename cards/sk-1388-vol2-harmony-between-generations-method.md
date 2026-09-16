@@ -1,5 +1,10 @@
 ---
 id: sk-1388
+primary: A8
+seealso:
+  - A19
+facets: []
+tax_tags: []
 aliases:
   - sk-1388
   - 怎样培养父辈和孩子们之间的和谐关系

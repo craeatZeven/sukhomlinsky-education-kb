@@ -1,5 +1,11 @@
 ---
 id: sk-0894
+primary: null
+seealso: []
+facets:
+  - S12
+  - S4
+tax_tags: []
 aliases:
   - sk-0894
   - 面包师与裁缝

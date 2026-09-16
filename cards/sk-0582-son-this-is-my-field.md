@@ -1,5 +1,15 @@
 ---
 id: sk-0582
+primary: null
+seealso: []
+facets:
+  - S1
+  - S11
+  - S4
+  - S5
+  - S6
+  - S9
+tax_tags: []
 aliases:
   - sk-0582
   - 儿子，这是我的田野：父亲把战斗过的土地指给孩子看

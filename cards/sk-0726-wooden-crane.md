@@ -1,5 +1,12 @@
 ---
 id: sk-0726
+primary: null
+seealso: []
+facets:
+  - S1
+  - S12
+  - S2
+tax_tags: []
 aliases:
   - sk-0726
   - 木制的鹤

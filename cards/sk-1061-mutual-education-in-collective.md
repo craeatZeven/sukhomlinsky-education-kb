@@ -1,5 +1,10 @@
 ---
 id: sk-1061
+primary: A9
+seealso:
+  - A4
+facets: []
+tax_tags: []
 aliases:
   - sk-1061
   - 关于自我教育

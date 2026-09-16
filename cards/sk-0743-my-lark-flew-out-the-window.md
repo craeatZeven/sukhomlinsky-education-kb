@@ -1,5 +1,12 @@
 ---
 id: sk-0743
+primary: null
+seealso: []
+facets:
+  - S1
+  - S12
+  - S17
+tax_tags: []
 aliases:
   - sk-0743
   - 我的小云雀飞出了窗

@@ -1,5 +1,9 @@
 ---
 id: sk-0139
+primary: A9
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0139
   - 集体的四块基石：共同思想、共同智力、共同情感、共同组织

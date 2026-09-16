@@ -1,5 +1,9 @@
 ---
 id: sk-0376
+primary: A10
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0376
   - 教师的人格是进行教育的基石

@@ -1,5 +1,14 @@
 ---
 id: sk-0713
+primary: null
+seealso: []
+facets:
+  - S1
+  - S13
+  - S6
+  - S7
+  - S9
+tax_tags: []
 aliases:
   - sk-0713
   - 妈妈不喜欢吃烧蘑菇

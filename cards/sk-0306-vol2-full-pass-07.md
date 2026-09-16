@@ -1,5 +1,10 @@
 ---
 id: sk-0306
+primary: A19
+seealso:
+  - A8
+facets: []
+tax_tags: []
 aliases:
   - sk-0306
   - 人的最大欢乐就是人的诞生

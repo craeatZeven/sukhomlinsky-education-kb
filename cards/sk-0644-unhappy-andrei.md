@@ -1,5 +1,11 @@
 ---
 id: sk-0644
+primary: null
+seealso: []
+facets:
+  - S12
+  - S8
+tax_tags: []
 aliases:
   - sk-0644
   - 不幸的安德烈：不幸是因为不爱劳动，劳动是最大的美

@@ -1,5 +1,10 @@
 ---
 id: sk-1355
+primary: A10
+seealso:
+  - A5
+facets: []
+tax_tags: []
 aliases:
   - sk-1355
   - 怎样把教师劳动的意义传送到学生的意识中去

@@ -1,5 +1,11 @@
 ---
 id: sk-1252
+primary: A20
+seealso:
+  - A15
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-1252
   - 怎样减轻批改作业之苦

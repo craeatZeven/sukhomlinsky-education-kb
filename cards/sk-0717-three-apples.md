@@ -1,5 +1,13 @@
 ---
 id: sk-0717
+primary: null
+seealso: []
+facets:
+  - S1
+  - S6
+  - S7
+  - S9
+tax_tags: []
 aliases:
   - sk-0717
   - 三个苹果

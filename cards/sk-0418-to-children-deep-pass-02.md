@@ -1,5 +1,10 @@
 ---
 id: sk-0418
+primary: A14
+seealso:
+  - A12
+facets: []
+tax_tags: []
 aliases:
   - sk-0418
   - 在大自然的背景中教孩子听懂音乐

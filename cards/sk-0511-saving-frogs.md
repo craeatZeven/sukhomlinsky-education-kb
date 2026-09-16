@@ -1,5 +1,13 @@
 ---
 id: sk-0511
+primary: null
+seealso: []
+facets:
+  - S13
+  - S3
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-0511
   - 拯救小青蛙：水塘快干了，把它们送到池塘去

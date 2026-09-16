@@ -1,5 +1,9 @@
 ---
 id: sk-1011
+primary: A10
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1011
   - 关于听课和分析课的几点建议

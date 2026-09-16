@@ -1,5 +1,9 @@
 ---
 id: sk-0251
+primary: A11
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0251
   - 当思维成为劳动、学校成为劳动王国，学生就会崇尚任何劳动

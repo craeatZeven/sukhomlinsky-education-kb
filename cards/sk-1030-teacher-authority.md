@@ -1,5 +1,9 @@
 ---
 id: sk-1030
+primary: A5
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1030
   - 教师的权威是什么，应该表现在哪里

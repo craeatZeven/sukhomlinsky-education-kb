@@ -1,5 +1,12 @@
 ---
 id: sk-0848
+primary: null
+seealso: []
+facets:
+  - S1
+  - S3
+  - S6
+tax_tags: []
 aliases:
   - sk-0848
   - 瓦西里科是怎么出生的

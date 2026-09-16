@@ -1,5 +1,10 @@
 ---
 id: sk-0317
+primary: A16
+seealso:
+  - A1
+facets: []
+tax_tags: []
 aliases:
   - sk-0317
   - 判断学生要看他想成为什么样的人

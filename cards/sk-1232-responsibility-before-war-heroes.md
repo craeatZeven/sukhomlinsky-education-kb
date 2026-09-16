@@ -1,5 +1,9 @@
 ---
 id: sk-1232
+primary: A2
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1232
   - 怎样培养年轻一代在伟大卫国战争英雄面前的责任感

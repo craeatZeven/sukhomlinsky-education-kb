@@ -1,5 +1,12 @@
 ---
 id: sk-0602
+primary: null
+seealso: []
+facets:
+  - S11
+  - S15
+  - S6
+tax_tags: []
 aliases:
   - sk-0602
   - 原野上的玫瑰：从英雄心脏落下的地方开出花

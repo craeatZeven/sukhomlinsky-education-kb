@@ -1,5 +1,10 @@
 ---
 id: sk-0188
+primary: A7
+seealso:
+  - A11
+facets: []
+tax_tags: []
 aliases:
   - sk-0188
   - 冬季户外劳动按年龄定时长：轻度寒冷是锻炼和预防感冒的最好手段

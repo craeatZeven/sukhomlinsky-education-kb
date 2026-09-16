@@ -1,5 +1,11 @@
 ---
 id: sk-0767
+primary: null
+seealso: []
+facets:
+  - S4
+  - S6
+tax_tags: []
 aliases:
   - sk-0767
   - 闪光的顶峰和布满石头的小路

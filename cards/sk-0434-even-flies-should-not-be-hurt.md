@@ -1,5 +1,14 @@
 ---
 id: sk-0434
+primary: null
+seealso: []
+facets:
+  - S13
+  - S3
+  - S4
+  - S5
+  - S8
+tax_tags: []
 aliases:
   - sk-0434
   - 连苍蝇也不要欺侮：善待生命要从最小生物开始

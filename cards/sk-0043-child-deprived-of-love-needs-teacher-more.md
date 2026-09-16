@@ -1,5 +1,10 @@
 ---
 id: sk-0043
+primary: A5
+seealso:
+  - A8
+facets: []
+tax_tags: []
 aliases:
   - sk-0043
   - 家中缺少疼爱的孩子，教师更要倍加关心

@@ -1,5 +1,9 @@
 ---
 id: sk-0294
+primary: A15
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0294
   - 死记硬背越多，记忆保持越不牢固

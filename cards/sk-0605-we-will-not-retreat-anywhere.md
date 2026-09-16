@@ -1,5 +1,13 @@
 ---
 id: sk-0605
+primary: null
+seealso: []
+facets:
+  - S10
+  - S15
+  - S3
+  - S4
+tax_tags: []
 aliases:
   - sk-0605
   - 哪里也不撤退：诚实死亡胜于可耻后退

@@ -1,5 +1,9 @@
 ---
 id: sk-0071
+primary: A8
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0071
   - 家长学校：从孩子入学前两年开始持续培训家长

@@ -1,5 +1,11 @@
 ---
 id: sk-1083
+primary: A23
+seealso:
+  - A13
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-1083
   - 是否注意教会儿童学习

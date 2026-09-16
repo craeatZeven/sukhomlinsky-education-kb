@@ -1,5 +1,12 @@
 ---
 id: sk-1110
+primary: null
+seealso: []
+facets:
+  - S11
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-1110
   - 鹳

@@ -1,5 +1,12 @@
 ---
 id: sk-0702
+primary: null
+seealso: []
+facets:
+  - S1
+  - S6
+  - S7
+tax_tags: []
 aliases:
   - sk-0702
   - 秋天花园中的苹果

@@ -1,5 +1,11 @@
 ---
 id: sk-0095
+primary: A11
+seealso:
+  - A19
+  - A2
+facets: []
+tax_tags: []
 aliases:
   - sk-0095
   - 第一次工资前，先充分体验为社会无酬劳动

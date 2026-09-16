@@ -1,5 +1,12 @@
 ---
 id: sk-0470
+primary: null
+seealso: []
+facets:
+  - S12
+  - S5
+  - S9
+tax_tags: []
 aliases:
   - sk-0470
   - 原仓鼠怎样准备过冬：面颊里藏着粮食的小口袋

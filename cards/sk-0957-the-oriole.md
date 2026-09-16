@@ -1,5 +1,12 @@
 ---
 id: sk-0957
+primary: null
+seealso: []
+facets:
+  - S1
+  - S2
+  - S5
+tax_tags: []
 aliases:
   - sk-0957
   - 黄鹂

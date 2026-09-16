@@ -1,5 +1,12 @@
 ---
 id: sk-0689
+primary: null
+seealso: []
+facets:
+  - S1
+  - S15
+  - S7
+tax_tags: []
 aliases:
   - sk-0689
   - 爷爷的汤匙：日常小仪式让爱与记忆长久延续

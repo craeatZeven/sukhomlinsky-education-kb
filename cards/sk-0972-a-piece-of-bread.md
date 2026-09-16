@@ -1,5 +1,14 @@
 ---
 id: sk-0972
+primary: null
+seealso: []
+facets:
+  - S15
+  - S17
+  - S3
+  - S4
+  - S8
+tax_tags: []
 aliases:
   - sk-0972
   - 一块面包

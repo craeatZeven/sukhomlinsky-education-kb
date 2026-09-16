@@ -1,5 +1,15 @@
 ---
 id: sk-0782
+primary: null
+seealso: []
+facets:
+  - S1
+  - S13
+  - S3
+  - S4
+  - S7
+  - S8
+tax_tags: []
 aliases:
   - sk-0782
   - 因为那样做玛丽亚·彼得洛夫娜会难过的

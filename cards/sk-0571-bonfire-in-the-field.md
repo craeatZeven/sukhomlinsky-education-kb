@@ -1,5 +1,14 @@
 ---
 id: sk-0571
+primary: null
+seealso: []
+facets:
+  - S1
+  - S12
+  - S13
+  - S6
+  - S9
+tax_tags: []
 aliases:
   - sk-0571
   - 田野上的篝火：妈妈劳作后的烤土豆，成了孩子心里最轻松的记忆

@@ -1,5 +1,13 @@
 ---
 id: sk-0786
+primary: null
+seealso: []
+facets:
+  - S4
+  - S5
+  - S6
+  - S8
+tax_tags: []
 aliases:
   - sk-0786
   - 米佳的假期

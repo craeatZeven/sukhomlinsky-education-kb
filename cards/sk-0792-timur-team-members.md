@@ -1,5 +1,12 @@
 ---
 id: sk-0792
+primary: null
+seealso: []
+facets:
+  - S13
+  - S2
+  - S3
+tax_tags: []
 aliases:
   - sk-0792
   - 铁木尔队队员

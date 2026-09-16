@@ -1,5 +1,12 @@
 ---
 id: sk-0940
+primary: null
+seealso: []
+facets:
+  - S14
+  - S3
+  - S6
+tax_tags: []
 aliases:
   - sk-0940
   - 探访病人

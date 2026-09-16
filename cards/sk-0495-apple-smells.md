@@ -1,5 +1,12 @@
 ---
 id: sk-0495
+primary: null
+seealso: []
+facets:
+  - S11
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-0495
   - 苹果飘香：月亮升起后，苹果还带着太阳的气息

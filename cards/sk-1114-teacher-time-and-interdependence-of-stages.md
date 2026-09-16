@@ -1,5 +1,11 @@
 ---
 id: sk-1114
+primary: A10
+seealso:
+  - A23
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-1114
   - 教师的时间和各教学阶段的相互依存性

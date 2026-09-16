@@ -1,5 +1,10 @@
 ---
 id: sk-1347
+primary: A9
+seealso:
+  - A1
+facets: []
+tax_tags: []
 aliases:
   - sk-1347
   - 怎样通过集体使个性全面发展

@@ -1,5 +1,13 @@
 ---
 id: sk-0569
+primary: null
+seealso: []
+facets:
+  - S11
+  - S3
+  - S6
+  - S8
+tax_tags: []
 aliases:
   - sk-0569
   - 谢廖扎的花：不能带走、不能交换的美，也可以说‘这是我的花’

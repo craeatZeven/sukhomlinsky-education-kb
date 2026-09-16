@@ -1,5 +1,13 @@
 ---
 id: sk-0588
+primary: null
+seealso: []
+facets:
+  - S11
+  - S3
+  - S4
+  - S6
+tax_tags: []
 aliases:
   - sk-0588
   - 多美呀，白俄罗斯：要亲眼看见，才知道朋友家乡的美

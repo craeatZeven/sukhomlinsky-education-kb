@@ -1,5 +1,13 @@
 ---
 id: sk-0686
+primary: null
+seealso: []
+facets:
+  - S1
+  - S17
+  - S4
+  - S7
+tax_tags: []
 aliases:
   - sk-0686
   - 我今天成了少先队员：孩子用诚实和正义拦下了父亲的偷窃

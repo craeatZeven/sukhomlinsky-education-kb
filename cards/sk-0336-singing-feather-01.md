@@ -1,5 +1,13 @@
 ---
 id: sk-0336
+primary: null
+seealso: []
+facets:
+  - S11
+  - S3
+  - S4
+  - S6
+tax_tags: []
 aliases:
   - sk-0336
   - 我想说自己的话

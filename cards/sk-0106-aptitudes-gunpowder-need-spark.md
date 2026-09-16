@@ -1,5 +1,9 @@
 ---
 id: sk-0106
+primary: A1
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0106
   - 素质像火药，需要用灵感火星点燃

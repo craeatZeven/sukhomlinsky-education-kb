@@ -1,5 +1,10 @@
 ---
 id: sk-1063
+primary: A9
+seealso:
+  - A14
+facets: []
+tax_tags: []
 aliases:
   - sk-1063
   - 集体中的交往

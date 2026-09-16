@@ -1,5 +1,11 @@
 ---
 id: sk-0512
+primary: null
+seealso: []
+facets:
+  - S11
+  - S6
+tax_tags: []
 aliases:
   - sk-0512
   - 秋天的橡树：我不想与自己的衣服分手

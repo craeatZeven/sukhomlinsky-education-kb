@@ -1,5 +1,10 @@
 ---
 id: sk-0107
+primary: A19
+seealso:
+  - A3
+facets: []
+tax_tags: []
 aliases:
   - sk-0107
   - 爱情不是易蒸发的液体，而是点滴积累的财富

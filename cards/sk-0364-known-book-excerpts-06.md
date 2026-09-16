@@ -1,5 +1,9 @@
 ---
 id: sk-0364
+primary: A19
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0364
   - 懂得爱，才会成为真正的人

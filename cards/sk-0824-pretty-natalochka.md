@@ -1,5 +1,11 @@
 ---
 id: sk-0824
+primary: null
+seealso: []
+facets:
+  - S3
+  - S8
+tax_tags: []
 aliases:
   - sk-0824
   - 漂亮的娜塔洛齐卡

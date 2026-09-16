@@ -1,5 +1,10 @@
 ---
 id: sk-0215
+primary: A5
+seealso:
+  - A22
+facets: []
+tax_tags: []
 aliases:
   - sk-0215
   - 学生认识人的世界，是从教师开始的

@@ -1,5 +1,12 @@
 ---
 id: sk-0507
+primary: null
+seealso: []
+facets:
+  - S1
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-0507
   - 好奇的啄木鸟：从巢里探出身子，掉到地上

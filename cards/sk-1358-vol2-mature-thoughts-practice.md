@@ -1,5 +1,10 @@
 ---
 id: sk-1358
+primary: A22
+seealso:
+  - A13
+facets: []
+tax_tags: []
 aliases:
   - sk-1358
   - 何种见解能够培养出成熟的思想

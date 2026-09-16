@@ -1,5 +1,12 @@
 ---
 id: sk-0701
+primary: null
+seealso: []
+facets:
+  - S1
+  - S2
+  - S7
+tax_tags: []
 aliases:
   - sk-0701
   - 谁给奶奶讲故事

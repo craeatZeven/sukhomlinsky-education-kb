@@ -1,5 +1,10 @@
 ---
 id: sk-0310
+primary: A11
+seealso:
+  - A15
+facets: []
+tax_tags: []
 aliases:
   - sk-0310
   - 手脑之间有千丝万缕的联系

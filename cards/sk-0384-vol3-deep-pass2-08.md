@@ -1,5 +1,10 @@
 ---
 id: sk-0384
+primary: A9
+seealso:
+  - A19
+facets: []
+tax_tags: []
 aliases:
   - sk-0384
   - 友谊是培养人的感情的学校

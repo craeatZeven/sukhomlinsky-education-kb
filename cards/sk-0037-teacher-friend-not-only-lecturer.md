@@ -1,5 +1,9 @@
 ---
 id: sk-0037
+primary: A5
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0037
   - 教师不仅是导师，也是朋友和同伴

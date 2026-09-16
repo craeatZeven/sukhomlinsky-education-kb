@@ -1,5 +1,10 @@
 ---
 id: sk-1291
+primary: A2
+seealso:
+  - A11
+facets: []
+tax_tags: []
 aliases:
   - sk-1291
   - 一块面包

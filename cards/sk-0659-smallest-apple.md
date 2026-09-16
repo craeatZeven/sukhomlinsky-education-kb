@@ -1,5 +1,12 @@
 ---
 id: sk-0659
+primary: null
+seealso: []
+facets:
+  - S1
+  - S2
+  - S7
+tax_tags: []
 aliases:
   - sk-0659
   - 最小的苹果：为什么客人专挑最小的吃？因为他是人

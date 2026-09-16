@@ -1,5 +1,12 @@
 ---
 id: sk-0953
+primary: null
+seealso: []
+facets:
+  - S10
+  - S2
+  - S6
+tax_tags: []
 aliases:
   - sk-0953
   - 石头

@@ -1,5 +1,9 @@
 ---
 id: sk-0100
+primary: A10
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0100
   - 把时间还给教师：少开会、少写计划

@@ -1,5 +1,10 @@
 ---
 id: sk-1178
+primary: A9
+seealso:
+  - A19
+facets: []
+tax_tags: []
 aliases:
   - sk-1178
   - 在哪些条件下集体才能有效地发挥教育个人的作用

@@ -1,5 +1,11 @@
 ---
 id: sk-0867
+primary: null
+seealso: []
+facets:
+  - S12
+  - S2
+tax_tags: []
 aliases:
   - sk-0867
   - 一双黑黑的手

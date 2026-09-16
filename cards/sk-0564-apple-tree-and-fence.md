@@ -1,5 +1,14 @@
 ---
 id: sk-0564
+primary: null
+seealso: []
+facets:
+  - S10
+  - S11
+  - S4
+  - S6
+  - S7
+tax_tags: []
 aliases:
   - sk-0564
   - 苹果树和篱笆：苹果树问，太阳是谁的，天空是谁的

@@ -1,5 +1,9 @@
 ---
 id: sk-1097
+primary: A19
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1097
   - 怎样教人正确对待死

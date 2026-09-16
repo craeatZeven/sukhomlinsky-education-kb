@@ -1,5 +1,9 @@
 ---
 id: sk-1257
+primary: A2
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1257
   - 在校学习是正在成长一代的积极的公民生活

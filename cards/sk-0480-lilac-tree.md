@@ -1,5 +1,11 @@
 ---
 id: sk-0480
+primary: null
+seealso: []
+facets:
+  - S11
+  - S6
+tax_tags: []
 aliases:
   - sk-0480
   - 丁香树：折走花枝的人，让世界少了笑容

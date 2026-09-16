@@ -1,5 +1,13 @@
 ---
 id: sk-0572
+primary: null
+seealso: []
+facets:
+  - S1
+  - S11
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-0572
   - 红腹灰雀：妈妈说它们‘从太阳后面飞来’，成了孩子对祖国的第一印象

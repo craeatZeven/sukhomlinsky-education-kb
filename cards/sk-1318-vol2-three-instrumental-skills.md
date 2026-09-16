@@ -1,5 +1,10 @@
 ---
 id: sk-1318
+primary: A23
+seealso:
+  - A22
+facets: []
+tax_tags: []
 aliases:
   - sk-1318
   - 技能和知识之间不可比例失调

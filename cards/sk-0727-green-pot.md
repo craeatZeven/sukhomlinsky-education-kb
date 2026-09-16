@@ -1,5 +1,12 @@
 ---
 id: sk-0727
+primary: null
+seealso: []
+facets:
+  - S1
+  - S2
+  - S7
+tax_tags: []
 aliases:
   - sk-0727
   - 绿色的锅

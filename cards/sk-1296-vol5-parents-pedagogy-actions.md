@@ -1,5 +1,9 @@
 ---
 id: sk-1296
+primary: A8
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1296
   - 父母教育学

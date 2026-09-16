@@ -1,5 +1,9 @@
 ---
 id: sk-0097
+primary: A10
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0097
   - 对教师用说服，不用行政压服

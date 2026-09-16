@@ -1,5 +1,13 @@
 ---
 id: sk-0889
+primary: null
+seealso: []
+facets:
+  - S1
+  - S12
+  - S7
+  - S9
+tax_tags: []
 aliases:
   - sk-0889
   - 湿衬衫与干衬衫

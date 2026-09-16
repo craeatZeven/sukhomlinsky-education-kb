@@ -1,5 +1,10 @@
 ---
 id: sk-1001
+primary: A19
+seealso:
+  - A4
+facets: []
+tax_tags: []
 aliases:
   - sk-1001
   - 怎样教孩子正确对待批评、责备、惩罚

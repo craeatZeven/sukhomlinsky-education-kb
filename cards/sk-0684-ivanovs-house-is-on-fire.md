@@ -1,5 +1,13 @@
 ---
 id: sk-0684
+primary: null
+seealso: []
+facets:
+  - S10
+  - S13
+  - S4
+  - S9
+tax_tags: []
 aliases:
   - sk-0684
   - 伊凡诺夫家的房子着火了：只为自己的家奔跑的人，还算好人吗

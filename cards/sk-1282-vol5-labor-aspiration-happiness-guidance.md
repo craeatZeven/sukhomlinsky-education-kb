@@ -1,5 +1,10 @@
 ---
 id: sk-1282
+primary: A11
+seealso:
+  - A21
+facets: []
+tax_tags: []
 aliases:
   - sk-1282
   - 劳动·志向·幸福

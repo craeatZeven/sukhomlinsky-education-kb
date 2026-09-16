@@ -1,5 +1,12 @@
 ---
 id: sk-0438
+primary: null
+seealso: []
+facets:
+  - S13
+  - S3
+  - S8
+tax_tags: []
 aliases:
   - sk-0438
   - 爸爸的病好了：教孩子为别人的喜悦而高兴

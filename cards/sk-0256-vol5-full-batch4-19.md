@@ -1,5 +1,10 @@
 ---
 id: sk-0256
+primary: A22
+seealso:
+  - A4
+facets: []
+tax_tags: []
 aliases:
   - sk-0256
   - 教育的艺术：教师每次接触都是对心灵劳动的推动

@@ -1,5 +1,14 @@
 ---
 id: sk-0779
+primary: null
+seealso: []
+facets:
+  - S1
+  - S12
+  - S4
+  - S7
+  - S8
+tax_tags: []
 aliases:
   - sk-0779
   - 鲍里斯的椋鸟窝

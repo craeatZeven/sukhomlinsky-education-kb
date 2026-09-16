@@ -1,5 +1,10 @@
 ---
 id: sk-0072
+primary: A13
+seealso:
+  - A4
+facets: []
+tax_tags: []
 aliases:
   - sk-0072
   - 让每个少年都有一本心爱的书，自我教育从好书开始

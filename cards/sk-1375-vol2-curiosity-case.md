@@ -1,5 +1,10 @@
 ---
 id: sk-1375
+primary: null
+seealso: []
+facets:
+  - S8
+tax_tags: []
 aliases:
   - sk-1375
   - 怎样激起求知欲

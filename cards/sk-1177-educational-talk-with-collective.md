@@ -1,5 +1,10 @@
 ---
 id: sk-1177
+primary: A22
+seealso:
+  - A4
+facets: []
+tax_tags: []
 aliases:
   - sk-1177
   - 怎样同集体进行有教育作用的谈话

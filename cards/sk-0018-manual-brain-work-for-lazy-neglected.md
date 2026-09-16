@@ -1,5 +1,9 @@
 ---
 id: sk-0018
+primary: A11
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0018
   - 用“体力 + 脑力”结合改造最懒散、最被忽视的孩子

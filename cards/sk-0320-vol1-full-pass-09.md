@@ -1,5 +1,9 @@
 ---
 id: sk-0320
+primary: A2
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0320
   - 每个学生心灵深处都藏着献身愿望

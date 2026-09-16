@@ -1,5 +1,13 @@
 ---
 id: sk-0135
+primary: null
+seealso: []
+facets:
+  - S16
+  - S3
+  - S4
+  - S6
+tax_tags: []
 aliases:
   - sk-0135
   - 勇敢无畏小队：不禁止冒险，而是把勇气引向有安全护栏的挑战

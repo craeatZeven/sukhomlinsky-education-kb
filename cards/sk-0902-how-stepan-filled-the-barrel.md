@@ -1,5 +1,14 @@
 ---
 id: sk-0902
+primary: null
+seealso: []
+facets:
+  - S1
+  - S12
+  - S3
+  - S4
+  - S9
+tax_tags: []
 aliases:
   - sk-0902
   - 斯捷潘是怎样用水灌满大桶的

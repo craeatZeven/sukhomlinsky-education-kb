@@ -1,5 +1,9 @@
 ---
 id: sk-1227
+primary: A10
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1227
   - 代前言

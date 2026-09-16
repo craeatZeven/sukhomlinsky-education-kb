@@ -1,5 +1,9 @@
 ---
 id: sk-0141
+primary: A10
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0141
   - 能力只能由能力来培养，志向只能由志向培养

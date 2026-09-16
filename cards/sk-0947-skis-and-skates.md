@@ -1,5 +1,11 @@
 ---
 id: sk-0947
+primary: null
+seealso: []
+facets:
+  - S3
+  - S6
+tax_tags: []
 aliases:
   - sk-0947
   - 滑雪板与冰鞋

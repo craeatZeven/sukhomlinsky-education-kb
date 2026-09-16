@@ -1,5 +1,10 @@
 ---
 id: sk-0258
+primary: A2
+seealso:
+  - A19
+facets: []
+tax_tags: []
 aliases:
   - sk-0258
   - 人的道德自我不可分割：不能过双重生活

@@ -1,5 +1,10 @@
 ---
 id: sk-0226
+primary: A5
+seealso:
+  - A16
+facets: []
+tax_tags: []
 aliases:
   - sk-0226
   - 冷漠寡情是教育事业最凶恶的敌人：保护儿童对教师的信赖

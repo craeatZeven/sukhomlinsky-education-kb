@@ -1,5 +1,9 @@
 ---
 id: sk-0361
+primary: A19
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0361
   - 生活由行为举止组成

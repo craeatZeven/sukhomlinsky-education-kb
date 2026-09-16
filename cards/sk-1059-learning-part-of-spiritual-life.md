@@ -1,5 +1,10 @@
 ---
 id: sk-1059
+primary: A15
+seealso:
+  - A22
+facets: []
+tax_tags: []
 aliases:
   - sk-1059
   - 学习——精神生活的一部分

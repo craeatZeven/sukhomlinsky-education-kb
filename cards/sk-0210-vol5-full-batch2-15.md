@@ -1,5 +1,9 @@
 ---
 id: sk-0210
+primary: A2
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0210
   - 崇高植根于平凡：劳动和一块面包

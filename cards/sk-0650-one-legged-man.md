@@ -1,5 +1,12 @@
 ---
 id: sk-0650
+primary: null
+seealso: []
+facets:
+  - S13
+  - S2
+  - S4
+tax_tags: []
 aliases:
   - sk-0650
   - 缺了一条腿的男人：公共车厢里最刺眼的，是装着没看见

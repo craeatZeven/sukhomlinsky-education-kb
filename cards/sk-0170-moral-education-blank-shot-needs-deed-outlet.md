@@ -1,5 +1,10 @@
 ---
 id: sk-0170
+primary: A19
+seealso:
+  - A4
+facets: []
+tax_tags: []
 aliases:
   - sk-0170
   - 道德教育的“空弹”：故事唤起的热情必须有行善的出口

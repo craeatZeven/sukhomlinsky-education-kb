@@ -1,5 +1,9 @@
 ---
 id: sk-1068
+primary: A8
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1068
   - 谁在教育儿童，什么在教育儿童，什么取决于教师，什么取决其他教育者

@@ -1,5 +1,9 @@
 ---
 id: sk-0409
+primary: A7
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0409
   - 谷物芬多精：新鲜空气是健康的灵药

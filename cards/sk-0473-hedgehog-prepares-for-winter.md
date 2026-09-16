@@ -1,5 +1,12 @@
 ---
 id: sk-0473
+primary: null
+seealso: []
+facets:
+  - S11
+  - S13
+  - S5
+tax_tags: []
 aliases:
   - sk-0473
   - 刺猬是怎样准备过冬的：准备好屋子，也准备好朋友

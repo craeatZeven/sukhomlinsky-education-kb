@@ -1,5 +1,13 @@
 ---
 id: sk-0906
+primary: null
+seealso: []
+facets:
+  - S1
+  - S17
+  - S2
+  - S7
+tax_tags: []
 aliases:
   - sk-0906
   - 面包这就是劳动

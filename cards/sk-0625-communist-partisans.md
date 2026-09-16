@@ -1,5 +1,15 @@
 ---
 id: sk-0625
+primary: null
+seealso: []
+facets:
+  - S1
+  - S15
+  - S16
+  - S2
+  - S3
+  - S4
+tax_tags: []
 aliases:
   - sk-0625
   - 共产主义游击队：十四岁的萨沙把信念当作武器

@@ -1,5 +1,14 @@
 ---
 id: sk-0090
+primary: null
+seealso: []
+facets:
+  - S16
+  - S3
+  - S4
+  - S5
+  - S8
+tax_tags: []
 aliases:
   - sk-0090
   - 冬夜护鱼：把责任交给最胆小的孩子

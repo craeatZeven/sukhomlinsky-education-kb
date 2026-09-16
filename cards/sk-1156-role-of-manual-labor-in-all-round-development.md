@@ -1,5 +1,9 @@
 ---
 id: sk-1156
+primary: A11
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1156
   - 手工劳动在全面发展中的作用

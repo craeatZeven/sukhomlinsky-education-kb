@@ -1,5 +1,10 @@
 ---
 id: sk-1189
+primary: A2
+seealso:
+  - A19
+facets: []
+tax_tags: []
 aliases:
   - sk-1189
   - 人应当尊敬地纪念自己的先辈

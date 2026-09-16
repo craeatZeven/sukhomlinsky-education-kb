@@ -1,5 +1,10 @@
 ---
 id: sk-1321
+primary: A20
+seealso:
+  - A7
+facets: []
+tax_tags: []
 aliases:
   - sk-1321
   - 学习之母不应变成后娘

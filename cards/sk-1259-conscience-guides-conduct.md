@@ -1,5 +1,10 @@
 ---
 id: sk-1259
+primary: A19
+seealso:
+  - A4
+facets: []
+tax_tags: []
 aliases:
   - sk-1259
   - 怎样才能做到使行为举止听从良心的最强有力的指挥

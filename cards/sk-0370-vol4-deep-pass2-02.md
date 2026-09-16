@@ -1,5 +1,9 @@
 ---
 id: sk-0370
+primary: A13
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0370
   - 没有课外阅读，课堂阅读就会变成死记硬背

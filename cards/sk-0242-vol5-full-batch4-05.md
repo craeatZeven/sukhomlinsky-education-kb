@@ -1,5 +1,9 @@
 ---
 id: sk-0242
+primary: A2
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0242
   - 把学生锻炼成勇敢的战士：用爱武装心，也用恨擦亮眼

@@ -1,5 +1,9 @@
 ---
 id: sk-1029
+primary: A20
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1029
   - 学习之母不应变成后娘

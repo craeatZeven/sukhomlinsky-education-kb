@@ -1,5 +1,12 @@
 ---
 id: sk-0662
+primary: null
+seealso: []
+facets:
+  - S11
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-0662
   - 肥皂泡：骄傲吹得越大，破得越快

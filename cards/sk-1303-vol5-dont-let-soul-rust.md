@@ -1,5 +1,10 @@
 ---
 id: sk-1303
+primary: A11
+seealso:
+  - A4
+facets: []
+tax_tags: []
 aliases:
   - sk-1303
   - 别让心灵锈斑斑

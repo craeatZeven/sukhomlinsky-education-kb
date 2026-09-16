@@ -1,5 +1,9 @@
 ---
 id: sk-1248
+primary: A8
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1248
   - 怎样培养母亲和父亲做好学校和家庭的协同教育工作

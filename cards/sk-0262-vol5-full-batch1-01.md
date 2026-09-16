@@ -1,5 +1,10 @@
 ---
 id: sk-0262
+primary: A15
+seealso: []
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-0262
   - 创造成功的“预感”，是培养学习愿望的最重要任务

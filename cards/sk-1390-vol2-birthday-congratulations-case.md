@@ -1,5 +1,11 @@
 ---
 id: sk-1390
+primary: null
+seealso: []
+facets:
+  - S1
+  - S7
+tax_tags: []
 aliases:
   - sk-1390
   - 怎样祝贺亲人的生日

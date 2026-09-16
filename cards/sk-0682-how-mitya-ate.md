@@ -1,5 +1,14 @@
 ---
 id: sk-0682
+primary: null
+seealso: []
+facets:
+  - S17
+  - S3
+  - S6
+  - S7
+  - S8
+tax_tags: []
 aliases:
   - sk-0682
   - 米佳是怎样吃饭的：妈妈的“不必分给别人”让他独自吃完后羞愧

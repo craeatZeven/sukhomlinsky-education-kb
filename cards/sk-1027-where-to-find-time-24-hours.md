@@ -1,5 +1,9 @@
 ---
 id: sk-1027
+primary: A10
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1027
   - 从哪儿找时间，一昼夜只有24小时

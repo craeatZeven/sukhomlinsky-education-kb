@@ -1,5 +1,13 @@
 ---
 id: sk-0516
+primary: null
+seealso: []
+facets:
+  - S16
+  - S3
+  - S5
+  - S8
+tax_tags: []
 aliases:
   - sk-0516
   - 蜜蜂飞进了教室：全班屏住呼吸等它飞出窗

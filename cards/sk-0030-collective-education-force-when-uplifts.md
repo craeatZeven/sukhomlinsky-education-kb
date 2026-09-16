@@ -1,5 +1,10 @@
 ---
 id: sk-0030
+primary: A9
+seealso:
+  - A1
+facets: []
+tax_tags: []
 aliases:
   - sk-0030
   - 集体只有当它能提升个人时，才成为教育力量

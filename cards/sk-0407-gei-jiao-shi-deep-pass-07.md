@@ -1,5 +1,10 @@
 ---
 id: sk-0407
+primary: A11
+seealso:
+  - A1
+facets: []
+tax_tags: []
 aliases:
   - sk-0407
   - 劳动教育和个性全面发展

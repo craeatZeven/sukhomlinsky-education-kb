@@ -1,5 +1,10 @@
 ---
 id: sk-0383
+primary: A2
+seealso:
+  - A19
+facets: []
+tax_tags: []
 aliases:
   - sk-0383
   - 分辨“可以、不行、应该”三件事

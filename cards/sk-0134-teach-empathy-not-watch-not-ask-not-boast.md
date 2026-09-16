@@ -1,5 +1,9 @@
 ---
 id: sk-0134
+primary: A19
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0134
   - 把共情当技能来教：不围观、不追问、不夸耀自己的善行

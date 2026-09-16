@@ -1,5 +1,13 @@
 ---
 id: sk-0656
+primary: null
+seealso: []
+facets:
+  - S10
+  - S13
+  - S2
+  - S4
+tax_tags: []
 aliases:
   - sk-0656
   - 普通人：把水桶留在井边，让后来的人也能喝上水

@@ -1,5 +1,11 @@
 ---
 id: sk-1337
+primary: A15
+seealso:
+  - A23
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-1337
   - 知识既是目的又是手段

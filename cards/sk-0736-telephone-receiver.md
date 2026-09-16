@@ -1,5 +1,13 @@
 ---
 id: sk-0736
+primary: null
+seealso: []
+facets:
+  - S1
+  - S15
+  - S16
+  - S3
+tax_tags: []
 aliases:
   - sk-0736
   - 电话听筒

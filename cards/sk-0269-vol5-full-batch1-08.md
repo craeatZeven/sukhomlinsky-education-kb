@@ -1,5 +1,9 @@
 ---
 id: sk-0269
+primary: A11
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0269
   - 在创造性劳动中获得欢乐的人，会成为反对宗教欺骗的积极战士

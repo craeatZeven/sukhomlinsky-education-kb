@@ -1,5 +1,12 @@
 ---
 id: sk-0494
+primary: null
+seealso: []
+facets:
+  - S13
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-0494
   - 小松鼠怎样救了啄木鸟：把自己的松果分给挨饿的朋友

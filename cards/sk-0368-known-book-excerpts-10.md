@@ -1,5 +1,9 @@
 ---
 id: sk-0368
+primary: A10
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0368
   - 向年轻校长提听课建议

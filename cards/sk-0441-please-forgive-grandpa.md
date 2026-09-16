@@ -1,5 +1,13 @@
 ---
 id: sk-0441
+primary: null
+seealso: []
+facets:
+  - S17
+  - S2
+  - S3
+  - S6
+tax_tags: []
 aliases:
   - sk-0441
   - 请原谅，老爷爷：让孩子的良心先于行动醒来

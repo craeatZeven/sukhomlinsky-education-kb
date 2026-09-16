@@ -1,5 +1,12 @@
 ---
 id: sk-0854
+primary: null
+seealso: []
+facets:
+  - S10
+  - S17
+  - S4
+tax_tags: []
 aliases:
   - sk-0854
   - 人应当在世上留下什么

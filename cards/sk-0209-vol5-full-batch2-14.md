@@ -1,5 +1,10 @@
 ---
 id: sk-0209
+primary: A5
+seealso:
+  - A19
+facets: []
+tax_tags: []
 aliases:
   - sk-0209
   - 我爱的不是他现在的模样，而是他应当成为的模样

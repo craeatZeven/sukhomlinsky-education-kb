@@ -1,5 +1,11 @@
 ---
 id: sk-0534
+primary: null
+seealso: []
+facets:
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-0534
   - 毒莓灌木：有毒的东西常常是美丽的

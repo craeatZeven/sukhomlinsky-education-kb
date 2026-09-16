@@ -1,5 +1,10 @@
 ---
 id: sk-0270
+primary: A11
+seealso:
+  - A15
+facets: []
+tax_tags: []
 aliases:
   - sk-0270
   - 教育与生活脱节的本质：动手没有丰富智力，智慧没有用于创造

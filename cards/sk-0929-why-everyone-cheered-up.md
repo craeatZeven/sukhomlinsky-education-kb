@@ -1,5 +1,12 @@
 ---
 id: sk-0929
+primary: null
+seealso: []
+facets:
+  - S3
+  - S6
+  - S8
+tax_tags: []
 aliases:
   - sk-0929
   - 为什么大家都快活起来

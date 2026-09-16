@@ -1,5 +1,12 @@
 ---
 id: sk-0964
+primary: null
+seealso: []
+facets:
+  - S17
+  - S3
+  - S8
+tax_tags: []
 aliases:
   - sk-0964
   - 折断腿的椅子

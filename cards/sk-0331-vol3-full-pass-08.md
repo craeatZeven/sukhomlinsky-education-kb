@@ -1,5 +1,10 @@
 ---
 id: sk-0331
+primary: A2
+seealso:
+  - A11
+facets: []
+tax_tags: []
 aliases:
   - sk-0331
   - 粮食、劳动、人民：三根支柱

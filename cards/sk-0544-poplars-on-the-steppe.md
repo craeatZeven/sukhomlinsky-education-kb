@@ -1,5 +1,13 @@
 ---
 id: sk-0544
+primary: null
+seealso: []
+facets:
+  - S10
+  - S13
+  - S4
+  - S6
+tax_tags: []
 aliases:
   - sk-0544
   - 草原上的杨树：孤独的老树请过路人种下两棵小杨树

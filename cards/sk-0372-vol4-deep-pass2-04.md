@@ -1,5 +1,9 @@
 ---
 id: sk-0372
+primary: A19
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0372
   - 善良情感，是良心的头道防线

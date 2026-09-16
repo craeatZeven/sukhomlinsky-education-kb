@@ -1,5 +1,10 @@
 ---
 id: sk-0213
+primary: A8
+seealso:
+  - A2
+facets: []
+tax_tags: []
 aliases:
   - sk-0213
   - 给新团员一株‘母亲树’树苗

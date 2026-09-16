@@ -1,5 +1,10 @@
 ---
 id: sk-1336
+primary: A7
+seealso:
+  - A4
+facets: []
+tax_tags: []
 aliases:
   - sk-1336
   - 怎样在体育方面引导学生进行自我教育

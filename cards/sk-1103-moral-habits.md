@@ -1,5 +1,10 @@
 ---
 id: sk-1103
+primary: A17
+seealso:
+  - A4
+facets: []
+tax_tags: []
 aliases:
   - sk-1103
   - 道德习惯：确立道德观念和道德信念的基础

@@ -1,5 +1,9 @@
 ---
 id: sk-0245
+primary: A11
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0245
   - 让儿童亲手看到世界因自己的劳动改变，预防坐享其成

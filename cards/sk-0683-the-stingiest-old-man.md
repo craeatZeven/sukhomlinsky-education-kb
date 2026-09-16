@@ -1,5 +1,12 @@
 ---
 id: sk-0683
+primary: null
+seealso: []
+facets:
+  - S1
+  - S2
+  - S4
+tax_tags: []
 aliases:
   - sk-0683
   - 世界上最吝啬的老头：把美锁进篱笆，也把自己与人们隔开

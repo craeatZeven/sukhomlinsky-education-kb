@@ -1,5 +1,9 @@
 ---
 id: sk-0354
+primary: A11
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0354
   - 让手成为创造者：从最粗的活练起

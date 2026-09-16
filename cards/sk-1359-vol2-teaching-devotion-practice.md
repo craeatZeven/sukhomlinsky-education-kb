@@ -1,5 +1,10 @@
 ---
 id: sk-1359
+primary: A19
+seealso:
+  - A2
+facets: []
+tax_tags: []
 aliases:
   - sk-1359
   - 怎样教孩子懂得奉献的思想

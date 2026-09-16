@@ -1,5 +1,9 @@
 ---
 id: sk-0009
+primary: A8
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0009
   - 孩子是父母道德生活的一面镜子

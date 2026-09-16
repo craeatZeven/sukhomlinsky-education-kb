@@ -1,5 +1,14 @@
 ---
 id: sk-0615
+primary: null
+seealso: []
+facets:
+  - S11
+  - S15
+  - S2
+  - S3
+  - S6
+tax_tags: []
 aliases:
   - sk-0615
   - 在山冈上：染血的土地开出鲜红玫瑰

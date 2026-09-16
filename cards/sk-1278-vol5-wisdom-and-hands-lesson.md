@@ -1,5 +1,12 @@
 ---
 id: sk-1278
+primary: null
+seealso: []
+facets:
+  - S12
+  - S8
+  - S9
+tax_tags: []
 aliases:
   - sk-1278
   - 智慧与双手

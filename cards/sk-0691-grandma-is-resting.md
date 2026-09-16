@@ -1,5 +1,12 @@
 ---
 id: sk-0691
+primary: null
+seealso: []
+facets:
+  - S1
+  - S2
+  - S7
+tax_tags: []
 aliases:
   - sk-0691
   - 奶奶在休息：孩子从妈妈的动作里学会了轻声爱护

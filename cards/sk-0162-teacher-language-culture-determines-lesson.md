@@ -1,5 +1,9 @@
 ---
 id: sk-0162
+primary: A22
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0162
   - 教师的语言修养，决定课堂上的脑力劳动

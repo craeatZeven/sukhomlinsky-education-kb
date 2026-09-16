@@ -1,5 +1,13 @@
 ---
 id: sk-0586
+primary: null
+seealso: []
+facets:
+  - S11
+  - S14
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-0586
   - 仙鹤和鹦鹉：好就好在我生在那里，那里是我的祖国

@@ -1,5 +1,14 @@
 ---
 id: sk-0667
+primary: null
+seealso: []
+facets:
+  - S1
+  - S17
+  - S2
+  - S4
+  - S9
+tax_tags: []
 aliases:
   - sk-0667
   - 儿子的照片：父亲撕下光荣榜上儿子的照片，因为人品配不上荣誉

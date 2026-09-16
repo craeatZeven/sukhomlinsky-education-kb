@@ -1,5 +1,10 @@
 ---
 id: sk-1285
+primary: A15
+seealso:
+  - A11
+facets: []
+tax_tags: []
 aliases:
   - sk-1285
   - 脑力劳动及学校与生活的联系

@@ -1,5 +1,10 @@
 ---
 id: sk-1351
+primary: A5
+seealso:
+  - A10
+facets: []
+tax_tags: []
 aliases:
   - sk-1351
   - 教师的权威是什么，应该表现在哪里

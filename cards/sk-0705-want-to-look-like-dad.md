@@ -1,5 +1,11 @@
 ---
 id: sk-0705
+primary: null
+seealso: []
+facets:
+  - S1
+  - S7
+tax_tags: []
 aliases:
   - sk-0705
   - 多想长得也像爸爸

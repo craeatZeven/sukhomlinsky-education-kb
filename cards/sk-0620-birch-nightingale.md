@@ -1,5 +1,13 @@
 ---
 id: sk-0620
+primary: null
+seealso: []
+facets:
+  - S1
+  - S15
+  - S4
+  - S6
+tax_tags: []
 aliases:
   - sk-0620
   - 桦木做的夜莺：父亲在集中营遗物里认出女儿的小鸟

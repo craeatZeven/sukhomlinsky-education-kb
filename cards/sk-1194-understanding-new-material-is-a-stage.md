@@ -1,5 +1,10 @@
 ---
 id: sk-1194
+primary: A22
+seealso:
+  - A15
+facets: []
+tax_tags: []
 aliases:
   - sk-1194
   - 理解新教材是课堂教学的一个阶段

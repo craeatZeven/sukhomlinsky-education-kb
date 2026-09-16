@@ -1,5 +1,13 @@
 ---
 id: sk-1086
+primary: null
+seealso: []
+facets:
+  - S17
+  - S4
+  - S5
+  - S8
+tax_tags: []
 aliases:
   - sk-1086
   - 米佳的火柴盒甲虫

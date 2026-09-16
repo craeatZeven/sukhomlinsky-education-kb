@@ -1,5 +1,10 @@
 ---
 id: sk-1290
+primary: A16
+seealso:
+  - A19
+facets: []
+tax_tags: []
 aliases:
   - sk-1290
   - 要善于表扬好人好事

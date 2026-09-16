@@ -1,5 +1,14 @@
 ---
 id: sk-0150
+primary: null
+seealso: []
+facets:
+  - S11
+  - S4
+  - S5
+  - S6
+  - S8
+tax_tags: []
 aliases:
   - sk-0150
   - 词语“草甸”的教学：在大自然中画画、写字，八个月学会读写

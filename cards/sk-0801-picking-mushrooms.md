@@ -1,5 +1,12 @@
 ---
 id: sk-0801
+primary: null
+seealso: []
+facets:
+  - S17
+  - S3
+  - S6
+tax_tags: []
 aliases:
   - sk-0801
   - 采蘑菇

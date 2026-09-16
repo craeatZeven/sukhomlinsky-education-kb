@@ -1,5 +1,9 @@
 ---
 id: sk-1047
+primary: A14
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1047
   - 培养儿童热爱绘画

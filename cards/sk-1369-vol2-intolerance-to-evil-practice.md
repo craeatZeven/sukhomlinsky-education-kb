@@ -1,5 +1,10 @@
 ---
 id: sk-1369
+primary: A19
+seealso:
+  - A2
+facets: []
+tax_tags: []
 aliases:
   - sk-1369
   - 怎样培养个人对邪恶持毫不妥协的态度

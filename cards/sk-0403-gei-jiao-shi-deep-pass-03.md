@@ -1,5 +1,9 @@
 ---
 id: sk-0403
+primary: A15
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0403
   - 知识——既是目的，也是手段

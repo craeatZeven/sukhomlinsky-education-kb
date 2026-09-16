@@ -1,5 +1,13 @@
 ---
 id: sk-0076
+primary: null
+seealso: []
+facets:
+  - S4
+  - S6
+  - S8
+tax_tags:
+  - A18
 aliases:
   - sk-0076
   - 107名智力落后学生：后来全都成为有知识的人

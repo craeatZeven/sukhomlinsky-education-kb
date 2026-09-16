@@ -1,5 +1,10 @@
 ---
 id: sk-0093
+primary: A22
+seealso:
+  - A15
+facets: []
+tax_tags: []
 aliases:
   - sk-0093
   - 一堂好课，应让学生想知道的比教师讲的更多

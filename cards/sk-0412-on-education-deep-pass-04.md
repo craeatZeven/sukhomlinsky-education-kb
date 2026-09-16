@@ -1,5 +1,10 @@
 ---
 id: sk-0412
+primary: A15
+seealso:
+  - A13
+facets: []
+tax_tags: []
 aliases:
   - sk-0412
   - 真正的学校是积极思维的王国

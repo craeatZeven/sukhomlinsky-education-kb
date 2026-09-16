@@ -1,5 +1,11 @@
 ---
 id: sk-1111
+primary: null
+seealso: []
+facets:
+  - S11
+  - S6
+tax_tags: []
 aliases:
   - sk-1111
   - 朝霞

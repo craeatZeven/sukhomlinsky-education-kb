@@ -1,5 +1,9 @@
 ---
 id: sk-1096
+primary: A15
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1096
   - 爱惜并发展青少年的记忆力：建立有意记忆和无意记忆的合理比例

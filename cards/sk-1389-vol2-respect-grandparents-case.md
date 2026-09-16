@@ -1,5 +1,14 @@
 ---
 id: sk-1389
+primary: null
+seealso: []
+facets:
+  - S1
+  - S11
+  - S2
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-1389
   - 培养尊敬爷爷奶奶的情感

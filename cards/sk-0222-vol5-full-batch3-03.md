@@ -1,5 +1,10 @@
 ---
 id: sk-0222
+primary: A2
+seealso:
+  - A5
+facets: []
+tax_tags: []
 aliases:
   - sk-0222
   - 把小学生看作明天的公民：童年的点滴会汇聚成人的精髓

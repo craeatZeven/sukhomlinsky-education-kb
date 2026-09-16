@@ -1,5 +1,13 @@
 ---
 id: sk-0599
+primary: null
+seealso: []
+facets:
+  - S1
+  - S14
+  - S15
+  - S7
+tax_tags: []
 aliases:
   - sk-0599
   - 父亲的遗言：祖国是儿子16岁才读懂的家训

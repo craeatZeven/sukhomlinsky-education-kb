@@ -1,5 +1,12 @@
 ---
 id: sk-1320
+primary: null
+seealso: []
+facets:
+  - S1
+  - S12
+  - S7
+tax_tags: []
 aliases:
   - sk-1320
   - 怎样和懒惰作斗争

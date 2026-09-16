@@ -1,5 +1,12 @@
 ---
 id: sk-0687
+primary: null
+seealso: []
+facets:
+  - S11
+  - S4
+  - S6
+tax_tags: []
 aliases:
   - sk-0687
   - 孩子眼睛中的快乐：擦干眼泪并让他微笑，是最美的教育瞬间

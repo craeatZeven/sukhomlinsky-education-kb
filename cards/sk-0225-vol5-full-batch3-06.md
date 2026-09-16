@@ -1,5 +1,10 @@
 ---
 id: sk-0225
+primary: A19
+seealso:
+  - A2
+facets: []
+tax_tags: []
 aliases:
   - sk-0225
   - 思想生活从体察他人开始：对身边人的悲欢保持敏锐

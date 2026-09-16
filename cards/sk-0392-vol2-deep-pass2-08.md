@@ -1,5 +1,10 @@
 ---
 id: sk-0392
+primary: A14
+seealso:
+  - A19
+facets: []
+tax_tags: []
 aliases:
   - sk-0392
   - 美是照耀世界的明亮之光

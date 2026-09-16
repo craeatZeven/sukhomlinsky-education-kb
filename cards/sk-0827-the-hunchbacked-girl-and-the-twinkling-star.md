@@ -1,5 +1,10 @@
 ---
 id: sk-0827
+primary: null
+seealso: []
+facets:
+  - S3
+tax_tags: []
 aliases:
   - sk-0827
   - 驼背的小姑娘和眨眼睛的小星星

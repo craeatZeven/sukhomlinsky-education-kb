@@ -1,5 +1,9 @@
 ---
 id: sk-1010
+primary: A15
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1010
   - 智育：知识的内容、掌握过程与智力发展

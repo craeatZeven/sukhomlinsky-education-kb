@@ -1,5 +1,11 @@
 ---
 id: sk-0476
+primary: null
+seealso: []
+facets:
+  - S11
+  - S6
+tax_tags: []
 aliases:
   - sk-0476
   - 孤独的爆竹柳：水中的倒影让它看见自己的美

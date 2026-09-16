@@ -1,5 +1,10 @@
 ---
 id: sk-0324
+primary: A16
+seealso:
+  - A6
+facets: []
+tax_tags: []
 aliases:
   - sk-0324
   - 别用评分这根树条去抽打这条壮阔的大河

@@ -1,5 +1,13 @@
 ---
 id: sk-0976
+primary: null
+seealso: []
+facets:
+  - S1
+  - S12
+  - S17
+  - S7
+tax_tags: []
 aliases:
   - sk-0976
   - 甚至连花都羞红了脸

@@ -1,5 +1,13 @@
 ---
 id: sk-0087
+primary: null
+seealso: []
+facets:
+  - S1
+  - S10
+  - S3
+  - S6
+tax_tags: []
 aliases:
   - sk-0087
   - 六千米远足：妈妈觉得太远，孩子却跑着去

@@ -1,5 +1,13 @@
 ---
 id: sk-0926
+primary: null
+seealso: []
+facets:
+  - S1
+  - S16
+  - S5
+  - S8
+tax_tags: []
 aliases:
   - sk-0926
   - 小狐狸——一年级小学生

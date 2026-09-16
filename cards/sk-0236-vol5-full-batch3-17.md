@@ -1,5 +1,10 @@
 ---
 id: sk-0236
+primary: A8
+seealso:
+  - A5
+facets: []
+tax_tags: []
 aliases:
   - sk-0236
   - 父亲道德堕落是孩子的痛苦：要保护好儿童对人的爱与信心

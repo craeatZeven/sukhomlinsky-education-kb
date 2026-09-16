@@ -1,5 +1,9 @@
 ---
 id: sk-1115
+primary: A15
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1115
   - 怎样引导学生从了解事实到认识抽象真理

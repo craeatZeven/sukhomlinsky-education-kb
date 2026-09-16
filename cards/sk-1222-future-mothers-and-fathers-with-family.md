@@ -1,5 +1,10 @@
 ---
 id: sk-1222
+primary: A8
+seealso:
+  - A19
+facets: []
+tax_tags: []
 aliases:
   - sk-1222
   - 怎样和家长一道培养未来的母亲和父亲

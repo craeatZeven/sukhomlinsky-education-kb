@@ -1,5 +1,10 @@
 ---
 id: sk-1073
+primary: A11
+seealso:
+  - A1
+facets: []
+tax_tags: []
 aliases:
   - sk-1073
   - 劳动对人的全面发展的作用

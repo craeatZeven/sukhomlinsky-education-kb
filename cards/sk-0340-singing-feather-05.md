@@ -1,5 +1,13 @@
 ---
 id: sk-0340
+primary: null
+seealso: []
+facets:
+  - S10
+  - S3
+  - S4
+  - S8
+tax_tags: []
 aliases:
   - sk-0340
   - 狼头还是花？

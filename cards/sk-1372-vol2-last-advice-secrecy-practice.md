@@ -1,5 +1,10 @@
 ---
 id: sk-1372
+primary: A22
+seealso:
+  - A4
+facets: []
+tax_tags: []
 aliases:
   - sk-1372
   - 最后一条建议—保密

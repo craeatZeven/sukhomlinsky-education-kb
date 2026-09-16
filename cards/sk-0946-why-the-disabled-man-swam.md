@@ -1,5 +1,12 @@
 ---
 id: sk-0946
+primary: null
+seealso: []
+facets:
+  - S13
+  - S4
+  - S6
+tax_tags: []
 aliases:
   - sk-0946
   - 残疾人为什么游泳

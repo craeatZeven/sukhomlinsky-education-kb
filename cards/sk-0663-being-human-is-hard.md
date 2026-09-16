@@ -1,5 +1,13 @@
 ---
 id: sk-0663
+primary: null
+seealso: []
+facets:
+  - S10
+  - S17
+  - S3
+  - S4
+tax_tags: []
 aliases:
   - sk-0663
   - 做人真难：累了也要走回去，向给水喝的妇女道谢

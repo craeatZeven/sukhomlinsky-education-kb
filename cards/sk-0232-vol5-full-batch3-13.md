@@ -1,5 +1,10 @@
 ---
 id: sk-0232
+primary: A2
+seealso:
+  - A19
+facets: []
+tax_tags: []
 aliases:
   - sk-0232
   - 义务感的培养是教育的基础和核心

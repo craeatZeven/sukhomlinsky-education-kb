@@ -1,5 +1,14 @@
 ---
 id: sk-0657
+primary: null
+seealso: []
+facets:
+  - S1
+  - S10
+  - S17
+  - S2
+  - S4
+tax_tags: []
 aliases:
   - sk-0657
   - 借铁锨：先问一声“您好”，再开口向人借东西

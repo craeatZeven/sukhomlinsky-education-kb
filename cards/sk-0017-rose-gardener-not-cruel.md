@@ -1,5 +1,10 @@
 ---
 id: sk-0017
+primary: A11
+seealso:
+  - A14
+facets: []
+tax_tags: []
 aliases:
   - sk-0017
   - 为他人创造美而劳动的孩子，不会成为冷酷的人

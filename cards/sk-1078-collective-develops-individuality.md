@@ -1,5 +1,10 @@
 ---
 id: sk-1078
+primary: A9
+seealso:
+  - A1
+facets: []
+tax_tags: []
 aliases:
   - sk-1078
   - 怎样通过集体使个性全面发展

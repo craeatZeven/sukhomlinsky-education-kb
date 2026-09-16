@@ -1,5 +1,10 @@
 ---
 id: sk-1387
+primary: A4
+seealso:
+  - A2
+facets: []
+tax_tags: []
 aliases:
   - sk-1387
   - 结束语：把信念的号召落成可做的具体事情

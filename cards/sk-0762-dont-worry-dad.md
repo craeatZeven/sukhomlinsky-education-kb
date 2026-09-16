@@ -1,5 +1,12 @@
 ---
 id: sk-0762
+primary: null
+seealso: []
+facets:
+  - S1
+  - S7
+  - S8
+tax_tags: []
 aliases:
   - sk-0762
   - 爸爸，别犯愁

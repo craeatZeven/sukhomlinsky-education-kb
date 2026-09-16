@@ -1,5 +1,14 @@
 ---
 id: sk-0576
+primary: null
+seealso: []
+facets:
+  - S1
+  - S11
+  - S4
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-0576
   - 天空中仙鹤的队伍：奶奶的故事和窗外的鹤群，像一幅油画留在记忆里

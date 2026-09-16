@@ -1,5 +1,10 @@
 ---
 id: sk-0217
+primary: A15
+seealso:
+  - A22
+facets: []
+tax_tags: []
 aliases:
   - sk-0217
   - 只见树木不见森林：教学要见整体

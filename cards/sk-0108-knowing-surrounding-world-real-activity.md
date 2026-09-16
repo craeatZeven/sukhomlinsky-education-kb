@@ -1,5 +1,10 @@
 ---
 id: sk-0108
+primary: A15
+seealso:
+  - A12
+facets: []
+tax_tags: []
 aliases:
   - sk-0108
   - 让认识周围世界成为儿童真正的活动

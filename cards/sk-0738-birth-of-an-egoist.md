@@ -1,5 +1,12 @@
 ---
 id: sk-0738
+primary: null
+seealso: []
+facets:
+  - S1
+  - S2
+  - S8
+tax_tags: []
 aliases:
   - sk-0738
   - 利己主义者的诞生

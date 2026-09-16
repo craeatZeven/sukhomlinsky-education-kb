@@ -1,5 +1,10 @@
 ---
 id: sk-0109
+primary: A1
+seealso:
+  - A11
+facets: []
+tax_tags: []
 aliases:
   - sk-0109
   - 发展爱好：让特长领域比大纲多学十倍

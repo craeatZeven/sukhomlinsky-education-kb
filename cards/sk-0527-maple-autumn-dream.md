@@ -1,5 +1,13 @@
 ---
 id: sk-0527
+primary: null
+seealso: []
+facets:
+  - S11
+  - S3
+  - S4
+  - S6
+tax_tags: []
 aliases:
   - sk-0527
   - 秋天的槭树：红叶是树梦见的蒲公英、朝霞和黄鹂翅膀

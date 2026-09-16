@@ -1,5 +1,10 @@
 ---
 id: sk-0122
+primary: A23
+seealso:
+  - A13
+facets: []
+tax_tags: []
 aliases:
   - sk-0122
   - 大学学习时间法：天天读书与两栏笔记

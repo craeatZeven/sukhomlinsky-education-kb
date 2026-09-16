@@ -1,5 +1,13 @@
 ---
 id: sk-0862
+primary: null
+seealso: []
+facets:
+  - S14
+  - S4
+  - S6
+  - S9
+tax_tags: []
 aliases:
   - sk-0862
   - 为什么安德烈感到忧伤

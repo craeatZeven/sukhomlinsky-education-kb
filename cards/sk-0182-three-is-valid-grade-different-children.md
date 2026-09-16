@@ -1,5 +1,9 @@
 ---
 id: sk-0182
+primary: A16
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0182
   - 三分也是合格成绩：不同孩子取得3分可能已是了不起的成绩

@@ -1,5 +1,13 @@
 ---
 id: sk-0828
+primary: null
+seealso: []
+facets:
+  - S1
+  - S13
+  - S2
+  - S7
+tax_tags: []
 aliases:
   - sk-0828
   - 射出四道光芒的珍珠项链

@@ -1,5 +1,9 @@
 ---
 id: sk-1301
+primary: A11
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1301
   - “应该劳动”、“劳动艰苦”和“劳动美好”三个因素的和谐统一

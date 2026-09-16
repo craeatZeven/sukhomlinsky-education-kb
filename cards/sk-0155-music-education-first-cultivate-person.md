@@ -1,5 +1,9 @@
 ---
 id: sk-0155
+primary: A14
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0155
   - 音乐教育不是培养音乐家，而首先是培养人

@@ -1,5 +1,9 @@
 ---
 id: sk-0359
+primary: A12
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0359
   - 300页《大自然的书》：300次观察，学习思索

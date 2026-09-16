@@ -1,5 +1,12 @@
 ---
 id: sk-0745
+primary: null
+seealso: []
+facets:
+  - S1
+  - S12
+  - S9
+tax_tags: []
 aliases:
   - sk-0745
   - 母亲的田地

@@ -1,5 +1,15 @@
 ---
 id: sk-0979
+primary: null
+seealso: []
+facets:
+  - S15
+  - S16
+  - S17
+  - S4
+  - S5
+  - S8
+tax_tags: []
 aliases:
   - sk-0979
   - 弹弓与麻雀窝

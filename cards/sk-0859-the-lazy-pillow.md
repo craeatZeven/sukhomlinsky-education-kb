@@ -1,5 +1,13 @@
 ---
 id: sk-0859
+primary: null
+seealso: []
+facets:
+  - S12
+  - S2
+  - S4
+  - S8
+tax_tags: []
 aliases:
   - sk-0859
   - 懒惰的枕头

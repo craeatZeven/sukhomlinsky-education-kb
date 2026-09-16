@@ -1,5 +1,11 @@
 ---
 id: sk-0700
+primary: null
+seealso: []
+facets:
+  - S1
+  - S4
+tax_tags: []
 aliases:
   - sk-0700
   - 妈妈身上有面包香味

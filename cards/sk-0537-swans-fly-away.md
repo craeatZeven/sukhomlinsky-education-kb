@@ -1,5 +1,13 @@
 ---
 id: sk-0537
+primary: null
+seealso: []
+facets:
+  - S14
+  - S15
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-0537
   - 天鹅飞走了：难道悲哀是朱红色的？

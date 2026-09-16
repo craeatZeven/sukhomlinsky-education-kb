@@ -1,5 +1,14 @@
 ---
 id: sk-0613
+primary: null
+seealso: []
+facets:
+  - S10
+  - S11
+  - S15
+  - S3
+  - S4
+tax_tags: []
 aliases:
   - sk-0613
   - 铁政委：假脚与一颗传遍千人的心

@@ -1,5 +1,9 @@
 ---
 id: sk-1266
+primary: A15
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1266
   - 负担过重揭秘

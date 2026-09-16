@@ -1,5 +1,11 @@
 ---
 id: sk-1376
+primary: A19
+seealso:
+  - A2
+  - A8
+facets: []
+tax_tags: []
 aliases:
   - sk-1376
   - 忠诚感和对别人的忠诚意味着什么

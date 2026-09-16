@@ -1,5 +1,11 @@
 ---
 id: sk-0783
+primary: null
+seealso: []
+facets:
+  - S3
+  - S8
+tax_tags: []
 aliases:
   - sk-0783
   - 阁楼上的学校

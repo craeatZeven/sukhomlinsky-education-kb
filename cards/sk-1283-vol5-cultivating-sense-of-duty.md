@@ -1,5 +1,10 @@
 ---
 id: sk-1283
+primary: A2
+seealso:
+  - A4
+facets: []
+tax_tags: []
 aliases:
   - sk-1283
   - 义务感的培养

@@ -1,5 +1,10 @@
 ---
 id: sk-1327
+primary: A5
+seealso: []
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-1327
   - 要善意待人

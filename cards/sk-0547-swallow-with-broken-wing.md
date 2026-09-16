@@ -1,5 +1,14 @@
 ---
 id: sk-0547
+primary: null
+seealso: []
+facets:
+  - S11
+  - S13
+  - S14
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-0547
   - 折断了翅膀的燕子：不能南飞的燕子，被带回家照顾

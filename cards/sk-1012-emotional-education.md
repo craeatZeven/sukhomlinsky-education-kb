@@ -1,5 +1,12 @@
 ---
 id: sk-1012
+primary: null
+seealso: []
+facets:
+  - S3
+  - S4
+  - S8
+tax_tags: []
 aliases:
   - sk-1012
   - 情感教育

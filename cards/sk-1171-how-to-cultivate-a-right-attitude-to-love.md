@@ -1,5 +1,9 @@
 ---
 id: sk-1171
+primary: A19
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1171
   - 怎样培养青年们正确对待爱

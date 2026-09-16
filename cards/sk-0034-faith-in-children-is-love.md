@@ -1,5 +1,9 @@
 ---
 id: sk-0034
+primary: A5
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0034
   - 没有对孩子的信念，就没有教育；没有信念就是没有爱

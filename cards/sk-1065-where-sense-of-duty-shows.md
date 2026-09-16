@@ -1,5 +1,10 @@
 ---
 id: sk-1065
+primary: A2
+seealso:
+  - A19
+facets: []
+tax_tags: []
 aliases:
   - sk-1065
   - 在哪些行为之中应表现出义务感

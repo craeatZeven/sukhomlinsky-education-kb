@@ -1,5 +1,10 @@
 ---
 id: sk-0505
+primary: null
+seealso: []
+facets:
+  - S11
+tax_tags: []
 aliases:
   - sk-0505
   - 长笛和风：力气再大，也吹不出美的音乐

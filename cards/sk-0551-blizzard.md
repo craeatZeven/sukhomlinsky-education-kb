@@ -1,5 +1,13 @@
 ---
 id: sk-0551
+primary: null
+seealso: []
+facets:
+  - S13
+  - S5
+  - S6
+  - S7
+tax_tags: []
 aliases:
   - sk-0551
   - 暴风雪：救回受伤小鸟，养好翅膀后还它自由

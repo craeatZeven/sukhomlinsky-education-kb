@@ -1,5 +1,12 @@
 ---
 id: sk-0774
+primary: null
+seealso: []
+facets:
+  - S3
+  - S4
+  - S8
+tax_tags: []
 aliases:
   - sk-0774
   - 为了能最先听到下课铃

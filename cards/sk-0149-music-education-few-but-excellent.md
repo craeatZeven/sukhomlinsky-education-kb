@@ -1,5 +1,9 @@
 ---
 id: sk-0149
+primary: A14
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0149
   - 音乐教育要少而精：每月至多两首乐曲，听完去听田野的寂静

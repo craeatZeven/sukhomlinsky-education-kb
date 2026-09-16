@@ -1,5 +1,9 @@
 ---
 id: sk-1221
+primary: A2
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1221
   - 怎样培养忠于社会主义祖国的情感

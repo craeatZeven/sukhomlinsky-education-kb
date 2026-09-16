@@ -1,5 +1,10 @@
 ---
 id: sk-0200
+primary: A11
+seealso:
+  - A2
+facets: []
+tax_tags: []
 aliases:
   - sk-0200
   - 让每个公民在童年体验劳动的欢乐

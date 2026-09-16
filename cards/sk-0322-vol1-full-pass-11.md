@@ -1,5 +1,10 @@
 ---
 id: sk-0322
+primary: A9
+seealso:
+  - A19
+facets: []
+tax_tags: []
 aliases:
   - sk-0322
   - 自己发光时，也要让别人发光

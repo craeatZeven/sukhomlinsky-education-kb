@@ -1,5 +1,10 @@
 ---
 id: sk-1361
+primary: A3
+seealso:
+  - A19
+facets: []
+tax_tags: []
 aliases:
   - sk-1361
   - 怎样教人正确对待死

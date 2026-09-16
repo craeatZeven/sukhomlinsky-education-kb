@@ -1,5 +1,9 @@
 ---
 id: sk-0422
+primary: A13
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0422
   - 只有当词语触动心灵隐秘处，阅读才丰富儿童生活

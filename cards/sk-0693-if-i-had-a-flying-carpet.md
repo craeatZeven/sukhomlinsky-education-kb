@@ -1,5 +1,11 @@
 ---
 id: sk-0693
+primary: null
+seealso: []
+facets:
+  - S1
+  - S13
+tax_tags: []
 aliases:
   - sk-0693
   - 如果我有飞毯

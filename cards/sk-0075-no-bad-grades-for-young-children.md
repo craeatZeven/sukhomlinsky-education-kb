@@ -1,5 +1,10 @@
 ---
 id: sk-0075
+primary: A16
+seealso: []
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-0075
   - 不给低年级学生打两分：两分就是鞭子和棍棒

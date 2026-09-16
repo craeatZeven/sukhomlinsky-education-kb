@@ -1,5 +1,10 @@
 ---
 id: sk-0254
+primary: A5
+seealso:
+  - A16
+facets: []
+tax_tags: []
 aliases:
   - sk-0254
   - 教学首先是人与人之间的关系

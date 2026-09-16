@@ -1,5 +1,10 @@
 ---
 id: sk-0307
+primary: A19
+seealso:
+  - A16
+facets: []
+tax_tags: []
 aliases:
   - sk-0307
   - 羞耻比最严厉的惩罚更有力

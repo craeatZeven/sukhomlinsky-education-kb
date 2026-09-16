@@ -1,5 +1,13 @@
 ---
 id: sk-1125
+primary: null
+seealso: []
+facets:
+  - S1
+  - S11
+  - S6
+  - S7
+tax_tags: []
 aliases:
   - sk-1125
   - 玻璃窗上的冰窗花是哪儿来的

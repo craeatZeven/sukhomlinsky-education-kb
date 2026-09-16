@@ -1,5 +1,12 @@
 ---
 id: sk-0102
+primary: null
+seealso: []
+facets:
+  - S4
+  - S6
+  - S8
+tax_tags: []
 aliases:
   - sk-0102
   - 瓦连金：给感知缓慢的儿童另设节奏

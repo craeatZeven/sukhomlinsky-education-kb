@@ -1,5 +1,11 @@
 ---
 id: sk-0819
+primary: null
+seealso: []
+facets:
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-0819
   - 啄木鸟和女孩

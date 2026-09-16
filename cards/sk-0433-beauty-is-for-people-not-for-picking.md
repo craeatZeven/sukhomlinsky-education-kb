@@ -1,5 +1,14 @@
 ---
 id: sk-0433
+primary: null
+seealso: []
+facets:
+  - S11
+  - S13
+  - S3
+  - S6
+  - S8
+tax_tags: []
 aliases:
   - sk-0433
   - 难道可以掐菊花吗：把“摘花”变成“为别人留美”的思考

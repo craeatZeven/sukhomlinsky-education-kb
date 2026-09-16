@@ -1,5 +1,9 @@
 ---
 id: sk-1120
+primary: A7
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1120
   - 体育与空余时间和休息问题

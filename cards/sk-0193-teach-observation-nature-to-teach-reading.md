@@ -1,5 +1,10 @@
 ---
 id: sk-0193
+primary: A12
+seealso:
+  - A13
+facets: []
+tax_tags: []
 aliases:
   - sk-0193
   - 教儿童观察自然界，是为了教会他读书

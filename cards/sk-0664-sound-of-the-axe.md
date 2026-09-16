@@ -1,5 +1,14 @@
 ---
 id: sk-0664
+primary: null
+seealso: []
+facets:
+  - S1
+  - S10
+  - S17
+  - S4
+  - S6
+tax_tags: []
 aliases:
   - sk-0664
   - 斧子的敲击声：父亲认出砍树人是熟人后，愤怒变成了困窘

@@ -1,5 +1,10 @@
 ---
 id: sk-0198
+primary: A19
+seealso:
+  - A3
+facets: []
+tax_tags: []
 aliases:
   - sk-0198
   - 人至高无上的快乐是为他人而生活

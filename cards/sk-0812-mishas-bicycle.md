@@ -1,5 +1,12 @@
 ---
 id: sk-0812
+primary: null
+seealso: []
+facets:
+  - S13
+  - S3
+  - S8
+tax_tags: []
 aliases:
   - sk-0812
   - 米沙的自行车

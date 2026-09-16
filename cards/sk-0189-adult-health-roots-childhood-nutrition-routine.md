@@ -1,5 +1,9 @@
 ---
 id: sk-0189
+primary: A7
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0189
   - 成年时的健康，植根于童年的营养与作息制度

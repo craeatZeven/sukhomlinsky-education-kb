@@ -1,5 +1,13 @@
 ---
 id: sk-0962
+primary: null
+seealso: []
+facets:
+  - S11
+  - S17
+  - S6
+  - S8
+tax_tags: []
 aliases:
   - sk-0962
   - 我不想不守诺言

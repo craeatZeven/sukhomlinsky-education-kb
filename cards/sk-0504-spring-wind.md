@@ -1,5 +1,10 @@
 ---
 id: sk-0504
+primary: null
+seealso: []
+facets:
+  - S6
+tax_tags: []
 aliases:
   - sk-0504
   - 春风：睡够了的槭树该醒醒了

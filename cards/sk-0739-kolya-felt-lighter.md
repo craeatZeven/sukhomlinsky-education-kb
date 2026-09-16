@@ -1,5 +1,14 @@
 ---
 id: sk-0739
+primary: null
+seealso: []
+facets:
+  - S1
+  - S10
+  - S15
+  - S17
+  - S2
+tax_tags: []
 aliases:
   - sk-0739
   - 科利亚觉得轻松一些了

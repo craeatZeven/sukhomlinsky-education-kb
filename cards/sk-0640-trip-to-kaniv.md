@@ -1,5 +1,13 @@
 ---
 id: sk-0640
+primary: null
+seealso: []
+facets:
+  - S13
+  - S3
+  - S4
+  - S8
+tax_tags: []
 aliases:
   - sk-0640
   - 去坎涅夫市旅行：全班把旅行推迟到同学的妈妈病愈之后

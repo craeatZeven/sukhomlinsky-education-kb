@@ -1,5 +1,9 @@
 ---
 id: sk-1190
+primary: A15
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1190
   - 怎样使学生们具有知识的欢乐

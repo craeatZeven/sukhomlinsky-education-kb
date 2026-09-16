@@ -1,5 +1,13 @@
 ---
 id: sk-0843
+primary: null
+seealso: []
+facets:
+  - S12
+  - S15
+  - S4
+  - S5
+tax_tags: []
 aliases:
   - sk-0843
   - 这要成为一个真正的人才行

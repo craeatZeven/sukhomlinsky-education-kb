@@ -1,5 +1,12 @@
 ---
 id: sk-0563
+primary: null
+seealso: []
+facets:
+  - S11
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-0563
   - 犍牛和小山雀：走近一步想看美，薄冰镜子却碎了

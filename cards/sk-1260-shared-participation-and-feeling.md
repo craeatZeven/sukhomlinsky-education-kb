@@ -1,5 +1,9 @@
 ---
 id: sk-1260
+primary: A19
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1260
   - 怎样培养自己的学生具有共同参与、共同感受的能力

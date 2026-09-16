@@ -1,5 +1,12 @@
 ---
 id: sk-0183
+primary: null
+seealso: []
+facets:
+  - S4
+  - S8
+tax_tags:
+  - A18
 aliases:
   - sk-0183
   - 米沙和佩特里克：没‘挣到’分数就先重做，再给分

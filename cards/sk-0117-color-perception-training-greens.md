@@ -1,5 +1,10 @@
 ---
 id: sk-0117
+primary: A14
+seealso:
+  - A12
+facets: []
+tax_tags: []
 aliases:
   - sk-0117
   - 感知色彩训练：在自然里辨认二十多种绿色

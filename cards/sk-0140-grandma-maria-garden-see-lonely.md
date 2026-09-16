@@ -1,5 +1,16 @@
 ---
 id: sk-0140
+primary: null
+seealso: []
+facets:
+  - S12
+  - S13
+  - S15
+  - S17
+  - S2
+  - S3
+  - S9
+tax_tags: []
 aliases:
   - sk-0140
   - 玛丽亚老奶奶的花园：让学生学会看见孤独者

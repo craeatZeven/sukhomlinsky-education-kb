@@ -1,5 +1,10 @@
 ---
 id: sk-1062
+primary: A21
+seealso:
+  - A15
+facets: []
+tax_tags: []
 aliases:
   - sk-1062
   - 知觉在学龄初期儿童精神发展中的作用

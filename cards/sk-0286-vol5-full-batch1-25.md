@@ -1,5 +1,10 @@
 ---
 id: sk-0286
+primary: A1
+seealso:
+  - A3
+facets: []
+tax_tags: []
 aliases:
   - sk-0286
   - 找到自己的志向，就是找到自己的幸福与做人尊严

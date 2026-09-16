@@ -1,5 +1,12 @@
 ---
 id: sk-0661
+primary: null
+seealso: []
+facets:
+  - S1
+  - S15
+  - S4
+tax_tags: []
 aliases:
   - sk-0661
   - 您已经长大了，爸爸：孩子质问成人为何对暴行沉默

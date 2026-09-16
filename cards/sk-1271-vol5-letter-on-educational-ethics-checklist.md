@@ -1,5 +1,10 @@
 ---
 id: sk-1271
+primary: A5
+seealso:
+  - A6
+facets: []
+tax_tags: []
 aliases:
   - sk-1271
   - 关于教育道德的一封信

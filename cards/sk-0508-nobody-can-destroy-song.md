@@ -1,5 +1,12 @@
 ---
 id: sk-0508
+primary: null
+seealso: []
+facets:
+  - S11
+  - S3
+  - S6
+tax_tags: []
 aliases:
   - sk-0508
   - 谁也不能消灭歌声：把笛子埋进地里，麦穗长出来歌唱

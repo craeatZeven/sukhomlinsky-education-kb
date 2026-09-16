@@ -1,5 +1,9 @@
 ---
 id: sk-0423
+primary: A15
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0423
   - 学习应逐步开始：既是艰巨劳动，也是愉快劳动

@@ -1,5 +1,13 @@
 ---
 id: sk-0788
+primary: null
+seealso: []
+facets:
+  - S3
+  - S4
+  - S5
+  - S8
+tax_tags: []
 aliases:
   - sk-0788
   - 数学，一门多么有意思的科学

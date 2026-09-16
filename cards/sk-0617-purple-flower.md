@@ -1,5 +1,13 @@
 ---
 id: sk-0617
+primary: null
+seealso: []
+facets:
+  - S1
+  - S14
+  - S15
+  - S6
+tax_tags: []
 aliases:
   - sk-0617
   - 紫色的花朵：每年只开一朵，替女儿请父亲祝福

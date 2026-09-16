@@ -1,5 +1,14 @@
 ---
 id: sk-0125
+primary: null
+seealso: []
+facets:
+  - S17
+  - S3
+  - S4
+  - S8
+tax_tags:
+  - A18
 aliases:
   - sk-0125
   - 停学处分失败的教训：惩罚必须转化为全班认可的行为训练

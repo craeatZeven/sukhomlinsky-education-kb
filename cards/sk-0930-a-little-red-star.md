@@ -1,5 +1,12 @@
 ---
 id: sk-0930
+primary: null
+seealso: []
+facets:
+  - S1
+  - S17
+  - S7
+tax_tags: []
 aliases:
   - sk-0930
   - 一颗小红星

@@ -1,5 +1,9 @@
 ---
 id: sk-1307
+primary: A6
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1307
   - 致女儿的信

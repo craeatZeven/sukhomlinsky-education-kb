@@ -1,5 +1,10 @@
 ---
 id: sk-1057
+primary: A19
+seealso:
+  - A4
+facets: []
+tax_tags: []
 aliases:
   - sk-1057
   - 什么叫痛苦，怎样教孩子们去克服它

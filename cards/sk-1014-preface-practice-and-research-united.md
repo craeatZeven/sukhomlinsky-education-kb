@@ -1,5 +1,9 @@
 ---
 id: sk-1014
+primary: A10
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1014
   - 序言：把实际工作与科学研究结合起来

@@ -1,5 +1,12 @@
 ---
 id: sk-0555
+primary: null
+seealso: []
+facets:
+  - S1
+  - S14
+  - S5
+tax_tags: []
 aliases:
   - sk-0555
   - 燕子告别家乡：孩子听懂燕子临行前久久停留的忧伤

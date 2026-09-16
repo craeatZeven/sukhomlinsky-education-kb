@@ -1,5 +1,11 @@
 ---
 id: sk-0871
+primary: null
+seealso: []
+facets:
+  - S1
+  - S6
+tax_tags: []
 aliases:
   - sk-0871
   - 幸好阳光灿烂

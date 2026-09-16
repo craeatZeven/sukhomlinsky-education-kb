@@ -1,5 +1,10 @@
 ---
 id: sk-1013
+primary: A4
+seealso:
+  - A16
+facets: []
+tax_tags: []
 aliases:
   - sk-1013
   - 认识自己

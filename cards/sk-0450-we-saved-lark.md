@@ -1,5 +1,13 @@
 ---
 id: sk-0450
+primary: null
+seealso: []
+facets:
+  - S13
+  - S5
+  - S6
+  - S9
+tax_tags: []
 aliases:
   - sk-0450
   - 我们怎样拯救了小云雀：把鸟窝搬到收割机到不了的地方

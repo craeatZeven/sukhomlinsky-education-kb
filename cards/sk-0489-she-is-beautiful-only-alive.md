@@ -1,5 +1,11 @@
 ---
 id: sk-0489
+primary: null
+seealso: []
+facets:
+  - S15
+  - S5
+tax_tags: []
 aliases:
   - sk-0489
   - 她只有活着时才美：钉在纸上的蝴蝶不再美

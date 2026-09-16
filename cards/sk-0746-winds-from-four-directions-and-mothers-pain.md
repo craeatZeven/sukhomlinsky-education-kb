@@ -1,5 +1,13 @@
 ---
 id: sk-0746
+primary: null
+seealso: []
+facets:
+  - S1
+  - S14
+  - S15
+  - S6
+tax_tags: []
 aliases:
   - sk-0746
   - 四个方向的风和母亲的痛苦

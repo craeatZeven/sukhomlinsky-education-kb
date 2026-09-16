@@ -1,5 +1,9 @@
 ---
 id: sk-1179
+primary: A3
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1179
   - 何谓珍惜生活的幸福

@@ -1,5 +1,10 @@
 ---
 id: sk-0253
+primary: A11
+seealso:
+  - A19
+facets: []
+tax_tags: []
 aliases:
   - sk-0253
   - 儿童通过劳动认识世界，并在劳动中形成道德标准

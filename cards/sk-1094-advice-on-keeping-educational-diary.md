@@ -1,5 +1,9 @@
 ---
 id: sk-1094
+primary: A10
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1094
   - 关于写教育日记的建议

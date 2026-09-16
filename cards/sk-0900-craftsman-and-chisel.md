@@ -1,5 +1,12 @@
 ---
 id: sk-0900
+primary: null
+seealso: []
+facets:
+  - S12
+  - S4
+  - S9
+tax_tags: []
 aliases:
   - sk-0900
   - 手工匠与刻刀

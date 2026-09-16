@@ -1,5 +1,14 @@
 ---
 id: sk-1150
+primary: null
+seealso: []
+facets:
+  - S10
+  - S16
+  - S3
+  - S4
+  - S5
+tax_tags: []
 aliases:
   - sk-1150
   - 火焰驹

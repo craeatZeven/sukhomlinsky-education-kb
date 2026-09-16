@@ -1,5 +1,13 @@
 ---
 id: sk-0446
+primary: null
+seealso: []
+facets:
+  - S1
+  - S10
+  - S15
+  - S4
+tax_tags: []
 aliases:
   - sk-0446
   - 少先队员尤拉的英雄故事：宁死也不向法西斯低头

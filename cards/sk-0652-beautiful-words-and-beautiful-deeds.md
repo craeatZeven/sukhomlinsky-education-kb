@@ -1,5 +1,12 @@
 ---
 id: sk-0652
+primary: null
+seealso: []
+facets:
+  - S13
+  - S3
+  - S6
+tax_tags: []
 aliases:
   - sk-0652
   - 漂亮的语言和漂亮的事情：真正美丽的是事情，不是话语

@@ -1,5 +1,9 @@
 ---
 id: sk-0415
+primary: A12
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0415
   - 儿童理性的永恒源泉在大自然

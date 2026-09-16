@@ -1,5 +1,10 @@
 ---
 id: sk-0088
+primary: A19
+seealso:
+  - A16
+facets: []
+tax_tags: []
 aliases:
   - sk-0088
   - 真正为他人做好事，不必让人看见

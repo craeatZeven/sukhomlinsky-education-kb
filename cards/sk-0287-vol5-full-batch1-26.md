@@ -1,5 +1,10 @@
 ---
 id: sk-0287
+primary: A3
+seealso:
+  - A11
+facets: []
+tax_tags: []
 aliases:
   - sk-0287
   - 幸福靠自己亲手创造，劳动和创造的乐趣不会从天而降

@@ -1,5 +1,9 @@
 ---
 id: sk-0301
+primary: A4
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0301
   - 意志就是行为的道德，信念的坚定性就是意志力

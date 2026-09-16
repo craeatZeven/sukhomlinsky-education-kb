@@ -1,5 +1,9 @@
 ---
 id: sk-1287
+primary: A11
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1287
   - 劳动是人全面发展的基础

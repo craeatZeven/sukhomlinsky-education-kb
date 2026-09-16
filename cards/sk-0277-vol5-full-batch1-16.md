@@ -1,5 +1,9 @@
 ---
 id: sk-0277
+primary: A10
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0277
   - 教师一旦停止知识增长，就不再是学生的知识灯塔

@@ -1,5 +1,10 @@
 ---
 id: sk-1270
+primary: A19
+seealso:
+  - A5
+facets: []
+tax_tags: []
 aliases:
   - sk-1270
   - 情感教育

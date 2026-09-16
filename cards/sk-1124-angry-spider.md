@@ -1,5 +1,12 @@
 ---
 id: sk-1124
+primary: null
+seealso: []
+facets:
+  - S13
+  - S16
+  - S5
+tax_tags: []
 aliases:
   - sk-1124
   - 凶恶的蜘蛛

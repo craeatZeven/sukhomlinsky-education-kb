@@ -1,5 +1,12 @@
 ---
 id: sk-0347
+primary: null
+seealso: []
+facets:
+  - S11
+  - S13
+  - S5
+tax_tags: []
 aliases:
   - sk-0347
   - 会唱歌的羽毛

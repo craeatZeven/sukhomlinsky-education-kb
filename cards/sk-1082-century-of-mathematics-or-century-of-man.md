@@ -1,5 +1,10 @@
 ---
 id: sk-1082
+primary: A1
+seealso:
+  - A3
+facets: []
+tax_tags: []
 aliases:
   - sk-1082
   - 是数学的世纪，还是人的世纪

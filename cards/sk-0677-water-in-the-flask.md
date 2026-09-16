@@ -1,5 +1,12 @@
 ---
 id: sk-0677
+primary: null
+seealso: []
+facets:
+  - S13
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-0677
   - 水壶里的水：人靠希望前进，鹰无法理解这一点

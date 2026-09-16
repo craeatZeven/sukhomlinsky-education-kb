@@ -1,5 +1,10 @@
 ---
 id: sk-0406
+primary: A22
+seealso:
+  - A10
+facets: []
+tax_tags: []
 aliases:
   - sk-0406
   - 谈谈教师的教育素养

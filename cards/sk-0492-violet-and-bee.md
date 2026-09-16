@@ -1,5 +1,12 @@
 ---
 id: sk-0492
+primary: null
+seealso: []
+facets:
+  - S15
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-0492
   - 紫罗兰和蜜蜂：我正在死去，就是说再也看不到天空和太阳

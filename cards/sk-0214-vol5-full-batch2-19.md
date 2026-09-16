@@ -1,5 +1,10 @@
 ---
 id: sk-0214
+primary: A22
+seealso:
+  - A5
+facets: []
+tax_tags: []
 aliases:
   - sk-0214
   - 决定教师语言效果的真谛是诚挚

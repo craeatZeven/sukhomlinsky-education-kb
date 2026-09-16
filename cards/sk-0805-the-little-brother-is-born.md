@@ -1,5 +1,11 @@
 ---
 id: sk-0805
+primary: null
+seealso: []
+facets:
+  - S1
+  - S7
+tax_tags: []
 aliases:
   - sk-0805
   - 小弟弟出生了

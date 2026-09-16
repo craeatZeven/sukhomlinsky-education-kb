@@ -1,5 +1,12 @@
 ---
 id: sk-0772
+primary: null
+seealso: []
+facets:
+  - S13
+  - S3
+  - S8
+tax_tags: []
 aliases:
   - sk-0772
   - 患心脏病的男孩

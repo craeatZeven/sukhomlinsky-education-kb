@@ -1,5 +1,10 @@
 ---
 id: sk-0153
+primary: A5
+seealso:
+  - A6
+facets: []
+tax_tags: []
 aliases:
   - sk-0153
   - 少年最需要帮助却拒绝求助：先建立思想一致，再做精神导师

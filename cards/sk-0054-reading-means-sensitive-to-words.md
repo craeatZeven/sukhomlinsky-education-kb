@@ -1,5 +1,9 @@
 ---
 id: sk-0054
+primary: A13
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0054
   - 会阅读，是对词句含义与美感保持敏感

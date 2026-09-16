@@ -1,5 +1,9 @@
 ---
 id: sk-0389
+primary: A3
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0389
   - 只有聪慧的人，才会是幸福的人

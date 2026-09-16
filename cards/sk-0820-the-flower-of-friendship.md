@@ -1,5 +1,12 @@
 ---
 id: sk-0820
+primary: null
+seealso: []
+facets:
+  - S13
+  - S3
+  - S8
+tax_tags: []
 aliases:
   - sk-0820
   - 友谊之花

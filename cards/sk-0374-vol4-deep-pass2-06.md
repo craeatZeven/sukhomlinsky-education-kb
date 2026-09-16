@@ -1,5 +1,9 @@
 ---
 id: sk-0374
+primary: A11
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0374
   - 普通学校的宗旨不在于职业训练

@@ -1,5 +1,9 @@
 ---
 id: sk-0158
+primary: A10
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0158
   - 让孩子每天看到的一切都经过安排：环境也是教育者

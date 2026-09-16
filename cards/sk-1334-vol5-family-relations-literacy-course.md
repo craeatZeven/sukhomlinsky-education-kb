@@ -1,5 +1,9 @@
 ---
 id: sk-1334
+primary: A19
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1334
   - 关于学校教育的思考

@@ -1,5 +1,9 @@
 ---
 id: sk-0385
+primary: A11
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0385
   - 劳动的社会意义揭示越鲜明，劳动越成为需要

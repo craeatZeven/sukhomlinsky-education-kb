@@ -1,5 +1,9 @@
 ---
 id: sk-1279
+primary: A12
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1279
   - 学校与大自然

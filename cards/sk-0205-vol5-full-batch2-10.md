@@ -1,5 +1,12 @@
 ---
 id: sk-0205
+primary: null
+seealso: []
+facets:
+  - S15
+  - S16
+  - S4
+tax_tags: []
 aliases:
   - sk-0205
   - 奥莉娅险些投靠宗教：教育要用敏锐的个人关怀留住心灵

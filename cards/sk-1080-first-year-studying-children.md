@@ -1,5 +1,9 @@
 ---
 id: sk-1080
+primary: A6
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1080
   - 第一年——考察孩子

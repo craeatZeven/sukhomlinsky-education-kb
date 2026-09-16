@@ -1,5 +1,13 @@
 ---
 id: sk-0608
+primary: null
+seealso: []
+facets:
+  - S12
+  - S2
+  - S6
+  - S9
+tax_tags: []
 aliases:
   - sk-0608
   - 珍贵的麦穗：爷爷从焦土上捡起的一粒希望

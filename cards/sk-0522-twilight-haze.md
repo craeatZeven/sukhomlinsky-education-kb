@@ -1,5 +1,13 @@
 ---
 id: sk-0522
+primary: null
+seealso: []
+facets:
+  - S10
+  - S11
+  - S6
+tax_tags:
+  - A18
 aliases:
   - sk-0522
   - 黄昏的朦胧：干草垛变成扬着淡紫色风帆的大船

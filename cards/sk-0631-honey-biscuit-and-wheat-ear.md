@@ -1,5 +1,12 @@
 ---
 id: sk-0631
+primary: null
+seealso: []
+facets:
+  - S12
+  - S17
+  - S6
+tax_tags: []
 aliases:
   - sk-0631
   - 蜜糖饼干和麦穗：没有麦穗就没有面包干，也没有你，饼干

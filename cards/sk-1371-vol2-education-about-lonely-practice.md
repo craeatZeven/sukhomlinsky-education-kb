@@ -1,5 +1,10 @@
 ---
 id: sk-1371
+primary: A19
+seealso:
+  - A4
+facets: []
+tax_tags: []
 aliases:
   - sk-1371
   - 要教育学生对孤独者不要漠不关心

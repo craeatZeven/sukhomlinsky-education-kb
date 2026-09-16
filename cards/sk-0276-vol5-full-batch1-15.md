@@ -1,5 +1,10 @@
 ---
 id: sk-0276
+primary: A10
+seealso:
+  - A11
+facets: []
+tax_tags: []
 aliases:
   - sk-0276
   - 教师对自己工作的热爱，像火一样点燃学生的热情

@@ -1,5 +1,14 @@
 ---
 id: sk-0623
+primary: null
+seealso: []
+facets:
+  - S1
+  - S14
+  - S15
+  - S4
+  - S9
+tax_tags: []
 aliases:
   - sk-0623
   - 没有写完的信：母亲在空白处听儿子未说完的话

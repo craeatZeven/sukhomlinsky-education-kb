@@ -1,5 +1,14 @@
 ---
 id: sk-0621
+primary: null
+seealso: []
+facets:
+  - S1
+  - S10
+  - S15
+  - S16
+  - S6
+tax_tags: []
 aliases:
   - sk-0621
   - 害怕黑暗的男孩：最怕黑的孩子在夜里做了勇敢的事

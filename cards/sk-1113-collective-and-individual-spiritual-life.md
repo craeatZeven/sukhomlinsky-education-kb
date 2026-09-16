@@ -1,5 +1,10 @@
 ---
 id: sk-1113
+primary: A9
+seealso:
+  - A3
+facets: []
+tax_tags: []
 aliases:
   - sk-1113
   - 集体和个人的精神生活

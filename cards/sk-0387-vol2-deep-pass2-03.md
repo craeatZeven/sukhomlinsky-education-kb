@@ -1,5 +1,10 @@
 ---
 id: sk-0387
+primary: A8
+seealso:
+  - A19
+facets: []
+tax_tags: []
 aliases:
   - sk-0387
   - 教孩子学会爱父母，是父母最重要的哲理

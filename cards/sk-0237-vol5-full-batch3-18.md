@@ -1,5 +1,9 @@
 ---
 id: sk-0237
+primary: A13
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0237
   - 最有诱惑力的享受是读书：让好书成为童年最大的快乐

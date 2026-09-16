@@ -1,5 +1,11 @@
 ---
 id: sk-0982
+primary: null
+seealso: []
+facets:
+  - S11
+  - S5
+tax_tags: []
 aliases:
   - sk-0982
   - 会唱歌的羽毛

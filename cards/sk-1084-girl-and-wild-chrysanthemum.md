@@ -1,5 +1,11 @@
 ---
 id: sk-1084
+primary: null
+seealso: []
+facets:
+  - S13
+  - S6
+tax_tags: []
 aliases:
   - sk-1084
   - 女孩和野菊花

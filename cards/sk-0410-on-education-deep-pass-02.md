@@ -1,5 +1,9 @@
 ---
 id: sk-0410
+primary: A19
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0410
   - 孩子做坏事，多半是因为没学过做好事

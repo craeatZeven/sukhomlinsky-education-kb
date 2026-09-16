@@ -1,5 +1,11 @@
 ---
 id: sk-1324
+primary: null
+seealso: []
+facets:
+  - S4
+  - S8
+tax_tags: []
 aliases:
   - sk-1324
   - 谈谈教师的健康和充实的精神生活问题有关工作乐趣的几句话

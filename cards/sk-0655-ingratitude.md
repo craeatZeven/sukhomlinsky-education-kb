@@ -1,5 +1,12 @@
 ---
 id: sk-0655
+primary: null
+seealso: []
+facets:
+  - S1
+  - S2
+  - S7
+tax_tags: []
 aliases:
   - sk-0655
   - 忘恩负义：只挑剔招待，不谢招待的人，会让爷爷心痛

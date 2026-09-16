@@ -1,5 +1,10 @@
 ---
 id: sk-0045
+primary: A16
+seealso: []
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-0045
   - 绝不能拿不及格去“让家长惩罚孩子”

@@ -1,5 +1,10 @@
 ---
 id: sk-0261
+primary: A15
+seealso:
+  - A11
+facets: []
+tax_tags: []
 aliases:
   - sk-0261
   - 课堂之外要有思考的园地：见识、观察、做，三者齐备

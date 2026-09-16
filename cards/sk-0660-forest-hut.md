@@ -1,5 +1,14 @@
 ---
 id: sk-0660
+primary: null
+seealso: []
+facets:
+  - S1
+  - S10
+  - S13
+  - S2
+  - S6
+tax_tags: []
 aliases:
   - sk-0660
   - 林中小屋：好心人把食物和水留给了素不相识的过路人

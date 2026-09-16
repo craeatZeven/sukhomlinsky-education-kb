@@ -1,5 +1,10 @@
 ---
 id: sk-0501
+primary: null
+seealso: []
+facets:
+  - S6
+tax_tags: []
 aliases:
   - sk-0501
   - 初寒和菊花：寒霜忘了路边的小菊花

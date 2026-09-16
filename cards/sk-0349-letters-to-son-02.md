@@ -1,5 +1,9 @@
 ---
 id: sk-0349
+primary: A19
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0349
   - 做一个公民：别对邪恶无动于衷

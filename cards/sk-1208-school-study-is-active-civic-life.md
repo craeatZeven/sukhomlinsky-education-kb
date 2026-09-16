@@ -1,5 +1,10 @@
 ---
 id: sk-1208
+primary: A2
+seealso:
+  - A15
+facets: []
+tax_tags: []
 aliases:
   - sk-1208
   - 在校学习是正在成长一代的积极的公民生活

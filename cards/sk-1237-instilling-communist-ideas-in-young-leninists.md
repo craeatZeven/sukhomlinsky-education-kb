@@ -1,5 +1,10 @@
 ---
 id: sk-1237
+primary: A19
+seealso:
+  - A13
+facets: []
+tax_tags: []
 aliases:
   - sk-1237
   - 怎样向少年列宁主义者灌输共产主义思想

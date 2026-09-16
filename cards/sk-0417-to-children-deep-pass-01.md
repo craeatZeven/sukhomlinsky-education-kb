@@ -1,5 +1,10 @@
 ---
 id: sk-0417
+primary: A11
+seealso:
+  - A1
+facets: []
+tax_tags: []
 aliases:
   - sk-0417
   - 儿童创造力是自我表达与自我肯定的独特领域

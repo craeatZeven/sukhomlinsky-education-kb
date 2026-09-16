@@ -1,5 +1,12 @@
 ---
 id: sk-0866
+primary: null
+seealso: []
+facets:
+  - S12
+  - S2
+  - S7
+tax_tags: []
 aliases:
   - sk-0866
   - 灾祸所迫

@@ -1,5 +1,12 @@
 ---
 id: sk-0907
+primary: null
+seealso: []
+facets:
+  - S1
+  - S12
+  - S7
+tax_tags: []
 aliases:
   - sk-0907
   - 甜菜汤带新鲜面包

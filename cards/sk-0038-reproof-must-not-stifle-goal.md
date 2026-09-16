@@ -1,5 +1,10 @@
 ---
 id: sk-0038
+primary: A16
+seealso:
+  - A5
+facets: []
+tax_tags: []
 aliases:
   - sk-0038
   - 真正的教师即使批评，也不扑灭孩子“还有目标要追”的念头

@@ -1,5 +1,9 @@
 ---
 id: sk-0377
+primary: A15
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0377
   - 游戏是儿童智力发展的窗子

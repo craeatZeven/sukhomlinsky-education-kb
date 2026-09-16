@@ -1,5 +1,10 @@
 ---
 id: sk-1016
+primary: A4
+seealso:
+  - A19
+facets: []
+tax_tags: []
 aliases:
   - sk-1016
   - 怎样培养孩子的精神力量

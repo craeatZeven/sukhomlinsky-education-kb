@@ -1,5 +1,9 @@
 ---
 id: sk-0313
+primary: A15
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0313
   - 智育不能归结为积累知识

@@ -1,5 +1,12 @@
 ---
 id: sk-0680
+primary: null
+seealso: []
+facets:
+  - S17
+  - S4
+  - S7
+tax_tags: []
 aliases:
   - sk-0680
   - 在马特维舅舅家：没有苹果就不用说谢谢吗？

@@ -1,5 +1,10 @@
 ---
 id: sk-0997
+primary: A16
+seealso: []
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-0997
   - 评分应当有分量

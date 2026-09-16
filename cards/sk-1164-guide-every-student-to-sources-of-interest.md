@@ -1,5 +1,9 @@
 ---
 id: sk-1164
+primary: A13
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1164
   - 把每个学生引向兴趣的发源地

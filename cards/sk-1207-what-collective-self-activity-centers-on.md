@@ -1,5 +1,10 @@
 ---
 id: sk-1207
+primary: A9
+seealso: []
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-1207
   - 集体的自主活动重在什么

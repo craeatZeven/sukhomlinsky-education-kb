@@ -1,5 +1,10 @@
 ---
 id: sk-1022
+primary: A22
+seealso:
+  - A5
+facets: []
+tax_tags: []
 aliases:
   - sk-1022
   - 抽象的学生与活生生的人

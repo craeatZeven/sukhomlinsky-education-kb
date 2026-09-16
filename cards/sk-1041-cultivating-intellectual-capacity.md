@@ -1,5 +1,9 @@
 ---
 id: sk-1041
+primary: A15
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1041
   - 培养学生的智能：观察力是发达智力的首要特点

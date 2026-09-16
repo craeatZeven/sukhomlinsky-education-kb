@@ -1,5 +1,11 @@
 ---
 id: sk-1092
+primary: null
+seealso: []
+facets:
+  - S2
+  - S6
+tax_tags: []
 aliases:
   - sk-1092
   - 黄昏

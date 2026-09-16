@@ -1,5 +1,10 @@
 ---
 id: sk-0413
+primary: A16
+seealso:
+  - A5
+facets: []
+tax_tags: []
 aliases:
   - sk-0413
   - 教鞭与拳头是教师职业的耻辱

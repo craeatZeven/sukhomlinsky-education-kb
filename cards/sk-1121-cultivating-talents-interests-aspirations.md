@@ -1,5 +1,9 @@
 ---
 id: sk-1121
+primary: A1
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1121
   - 才能、爱好和志向的培养和发展

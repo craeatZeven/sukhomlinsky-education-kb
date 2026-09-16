@@ -1,5 +1,11 @@
 ---
 id: sk-1241
+primary: A16
+seealso:
+  - A20
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-1241
   - 评分应当有分量

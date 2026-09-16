@@ -1,5 +1,10 @@
 ---
 id: sk-0103
+primary: A23
+seealso: []
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-0103
   - 小学的首要任务是教会儿童学习

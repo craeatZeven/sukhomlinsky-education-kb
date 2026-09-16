@@ -1,5 +1,10 @@
 ---
 id: sk-0326
+primary: A16
+seealso:
+  - A5
+facets: []
+tax_tags: []
 aliases:
   - sk-0326
   - 体罚是教育方法极端不文明的标志

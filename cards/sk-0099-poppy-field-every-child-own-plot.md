@@ -1,5 +1,13 @@
 ---
 id: sk-0099
+primary: null
+seealso: []
+facets:
+  - S12
+  - S3
+  - S4
+  - S9
+tax_tags: []
 aliases:
   - sk-0099
   - 罂粟田：让每个孩子开垦出自己的罂粟田

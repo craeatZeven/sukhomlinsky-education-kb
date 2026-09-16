@@ -1,5 +1,11 @@
 ---
 id: sk-0728
+primary: null
+seealso: []
+facets:
+  - S1
+  - S7
+tax_tags: []
 aliases:
   - sk-0728
   - 爷爷的摇篮

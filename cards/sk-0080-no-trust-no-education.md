@@ -1,5 +1,9 @@
 ---
 id: sk-0080
+primary: A5
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0080
   - 最怪诞的是不相信人：没有信任便没有教育

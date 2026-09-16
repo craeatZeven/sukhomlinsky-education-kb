@@ -1,5 +1,14 @@
 ---
 id: sk-1251
+primary: null
+seealso: []
+facets:
+  - S12
+  - S3
+  - S8
+  - S9
+tax_tags:
+  - A18
 aliases:
   - sk-1251
   - 通过爱劳动促进学生智力发展

@@ -1,5 +1,9 @@
 ---
 id: sk-1238
+primary: A9
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1238
   - 怎样使青年在领到印有伟大列宁肖像的红色共青团证时激情满怀，怎样使他们珍惜共青团员的称号

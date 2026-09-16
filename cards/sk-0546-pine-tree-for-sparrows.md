@@ -1,5 +1,14 @@
 ---
 id: sk-0546
+primary: null
+seealso: []
+facets:
+  - S1
+  - S11
+  - S13
+  - S5
+  - S7
+tax_tags: []
 aliases:
   - sk-0546
   - 为了小麻雀的小松树：把自己的新年树分给窗外的小鸟

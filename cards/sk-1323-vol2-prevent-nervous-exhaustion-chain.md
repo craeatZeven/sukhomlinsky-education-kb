@@ -1,5 +1,10 @@
 ---
 id: sk-1323
+primary: A10
+seealso:
+  - A6
+facets: []
+tax_tags: []
 aliases:
   - sk-1323
   - 怎样在日常活动过程中防止神经衰弱

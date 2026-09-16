@@ -1,5 +1,11 @@
 ---
 id: sk-0457
+primary: null
+seealso: []
+facets:
+  - S13
+  - S5
+tax_tags: []
 aliases:
   - sk-0457
   - 蚂蚁是怎样穿过小溪的：为家人想办法的蚂蚁

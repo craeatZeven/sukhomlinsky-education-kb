@@ -1,5 +1,10 @@
 ---
 id: sk-0264
+primary: A2
+seealso:
+  - A4
+facets: []
+tax_tags: []
 aliases:
   - sk-0264
   - 爱国主义不是漂亮言词，而是见之于行动的公益劳动

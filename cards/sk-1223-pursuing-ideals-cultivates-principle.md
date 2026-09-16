@@ -1,5 +1,10 @@
 ---
 id: sk-1223
+primary: A2
+seealso:
+  - A1
+facets: []
+tax_tags: []
 aliases:
   - sk-1223
   - 用追求理想的方法培养思想性

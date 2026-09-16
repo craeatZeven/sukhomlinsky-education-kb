@@ -1,5 +1,9 @@
 ---
 id: sk-1034
+primary: A19
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1034
   - 培养学生精神世界的途径和方法：道德教育的艺术在于行动先行

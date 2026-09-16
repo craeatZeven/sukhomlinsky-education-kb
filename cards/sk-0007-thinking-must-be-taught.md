@@ -1,5 +1,9 @@
 ---
 id: sk-0007
+primary: A15
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0007
   - 思维必须被教会，否则孩子只会死记硬背

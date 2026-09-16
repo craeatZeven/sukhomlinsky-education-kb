@@ -1,5 +1,15 @@
 ---
 id: sk-0632
+primary: null
+seealso: []
+facets:
+  - S1
+  - S12
+  - S15
+  - S4
+  - S6
+  - S9
+tax_tags: []
 aliases:
   - sk-0632
   - 赫玛拉的田地：拖拉机手热爱土地，因为他更热爱人

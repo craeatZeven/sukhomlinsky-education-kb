@@ -1,5 +1,10 @@
 ---
 id: sk-1060
+primary: A14
+seealso:
+  - A19
+facets: []
+tax_tags: []
 aliases:
   - sk-1060
   - 美的认识与情操的培养

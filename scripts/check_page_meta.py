@@ -22,6 +22,7 @@ import re
 import struct
 import sys
 from pathlib import Path
+from urllib.parse import unquote
 
 ROOT = Path(__file__).resolve().parent.parent
 WEB = ROOT / 'web'
@@ -52,13 +53,17 @@ def png_size(path: Path) -> tuple[int, int] | None:
 
 def main() -> int:
     pages = sorted(WEB.glob('*.html'))
+    # 旁挂层页面（web/note/*.html，由 build_notes.py 生成）也纳入——
+    # 它们是**真正会被分享出去**的分析页，元信息错了没人会发现（浏览器里看不见）。
+    note_pages = sorted((WEB / 'note').glob('*.html'))
     root_page = ROOT / 'index.html'
     descs: dict[str, str] = {}
     images: set[str] = set()
 
-    for p in pages + [root_page]:
+    for p in pages + note_pages + [root_page]:
         head = p.read_text(encoding='utf-8').split('</head>')[0]
-        label = 'index.html(根)' if p == root_page else p.name
+        label = 'index.html(根)' if p == root_page else (
+            f'note/{p.name}' if p.parent.name == 'note' else p.name)
         for need in NEED_META:
             if need not in head:
                 fail(f'{label} 缺 {need}')
@@ -81,17 +86,27 @@ def main() -> int:
         if not u or not u.startswith(BASE):
             fail(f'{label} og:url 不是本站绝对地址：{u}')
         else:
+            # 网页在 web/ 下，旁挂层页面在 web/note/ 下——别把两处的路径假设混用。
+            # 另外**要按解码后比**：note 页文件名含中文/空格，生成器写成百分号编码
+            # （`A1%20%E5%85%A8…`）是合法 URL，与原始文件名是同一个地址；
+            # 第一版按字面比，47 个 note 页各报 2 处，全属误报。
+            rel_web = f'web/note/{p.name}' if p.parent.name == 'note' else f'web/{p.name}'
             if p == root_page:
                 if u != f'{BASE}/':
                     fail(f'{label} og:url 应为站点根 {BASE}/，实际 {u}')
-            elif not u.endswith(f'/web/{p.name}'):
-                fail(f'{label} og:url 与文件名对不上：{u}')
+            elif not unquote(u).endswith('/' + rel_web):
+                fail(f'{label} og:url 与文件名对不上：{u}（应 …/{rel_web}）')
         cm = re.search(r'<link rel="canonical" href="([^"]*)"', head)
         if not cm:
             fail(f'{label} canonical 为空')
         else:
-            want = f'{BASE}/web/index.html' if p == root_page else f'{BASE}/web/{p.name}'
-            if cm.group(1) != want:
+            if p == root_page:
+                want = f'{BASE}/web/index.html'
+            elif p.parent.name == 'note':
+                want = f'{BASE}/web/note/{p.name}'
+            else:
+                want = f'{BASE}/web/{p.name}'
+            if unquote(cm.group(1)) != want:
                 fail(f'{label} canonical 应为 {want}，实际 {cm.group(1)}')
         img = attr(head, 'property="og:image"')
         if img:
@@ -120,7 +135,8 @@ def main() -> int:
         if len(PROBLEMS) > 20:
             print(f'  … 另有 {len(PROBLEMS) - 20} 处')
         return 1
-    print(f'页面元信息：全部一致（{len(pages) + 1} 个页面 · '
+    print(f'页面元信息：全部一致（{len(pages) + len(note_pages) + 1} 个页面 = '
+          f'{len(pages)} 站点页 + {len(note_pages)} 旁挂层页 + 1 个根重定向桩 · '
           f'{len(descs)} 句互不相同的描述 · 缩略图 {sorted(images)[0].split("/")[-1]} 1200×630）')
     return 0
 

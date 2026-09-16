@@ -1,5 +1,10 @@
 ---
 id: sk-0400
+primary: A9
+seealso:
+  - A19
+facets: []
+tax_tags: []
 aliases:
   - sk-0400
   - 女子应当是高不可攀的

@@ -1,5 +1,16 @@
 ---
 id: sk-0590
+primary: null
+seealso: []
+facets:
+  - S1
+  - S12
+  - S14
+  - S3
+  - S4
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-0590
   - 在海的那边是异国他乡：再旱也不离开自己的土地

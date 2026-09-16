@@ -1,5 +1,9 @@
 ---
 id: sk-0059
+primary: A12
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0059
   - 每周两次走进大自然，是去学习思考，不是游玩

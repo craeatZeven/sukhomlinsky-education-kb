@@ -1,5 +1,10 @@
 ---
 id: sk-1292
+primary: A13
+seealso:
+  - A15
+facets: []
+tax_tags: []
 aliases:
   - sk-1292
   - 既要见树木，也要见森林

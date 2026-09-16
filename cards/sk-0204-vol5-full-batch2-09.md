@@ -1,5 +1,9 @@
 ---
 id: sk-0204
+primary: A3
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0204
   - 孩子的幸福是欢乐的今天

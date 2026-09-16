@@ -1,5 +1,10 @@
 ---
 id: sk-0760
+primary: null
+seealso: []
+facets:
+  - S1
+tax_tags: []
 aliases:
   - sk-0760
   - 现在你可以成为人类的学生了

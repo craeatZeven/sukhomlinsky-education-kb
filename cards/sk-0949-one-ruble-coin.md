@@ -1,5 +1,14 @@
 ---
 id: sk-0949
+primary: null
+seealso: []
+facets:
+  - S13
+  - S17
+  - S3
+  - S4
+  - S8
+tax_tags: []
 aliases:
   - sk-0949
   - 一卢布硬币

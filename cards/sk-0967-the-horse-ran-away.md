@@ -1,5 +1,13 @@
 ---
 id: sk-0967
+primary: null
+seealso: []
+facets:
+  - S11
+  - S17
+  - S3
+  - S8
+tax_tags: []
 aliases:
   - sk-0967
   - 马跑了

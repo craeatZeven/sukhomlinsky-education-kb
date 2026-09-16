@@ -1,5 +1,10 @@
 ---
 id: sk-0050
+primary: A8
+seealso:
+  - A6
+facets: []
+tax_tags: []
 aliases:
   - sk-0050
   - 开学前几周，先熟悉每一个家庭

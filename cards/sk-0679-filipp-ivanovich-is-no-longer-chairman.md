@@ -1,5 +1,12 @@
 ---
 id: sk-0679
+primary: null
+seealso: []
+facets:
+  - S1
+  - S10
+  - S4
+tax_tags: []
 aliases:
   - sk-0679
   - 菲利普·伊凡诺维奇已经不当主席了：承诺不应随对方的职位消失

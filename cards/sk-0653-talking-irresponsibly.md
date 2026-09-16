@@ -1,5 +1,12 @@
 ---
 id: sk-0653
+primary: null
+seealso: []
+facets:
+  - S12
+  - S15
+  - S3
+tax_tags: []
 aliases:
   - sk-0653
   - 信口开河：说过的神圣承诺，要用行动一直守下去

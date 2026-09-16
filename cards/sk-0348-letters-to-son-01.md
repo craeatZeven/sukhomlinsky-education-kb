@@ -1,5 +1,9 @@
 ---
 id: sk-0348
+primary: A8
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0348
   - 致年轻的朋友：你飞出了父母的巢

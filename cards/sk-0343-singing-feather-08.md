@@ -1,5 +1,11 @@
 ---
 id: sk-0343
+primary: null
+seealso: []
+facets:
+  - S12
+  - S5
+tax_tags: []
 aliases:
   - sk-0343
   - 坚持不懈的小蚂蚁

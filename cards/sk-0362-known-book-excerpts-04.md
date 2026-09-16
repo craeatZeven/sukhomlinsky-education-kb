@@ -1,5 +1,10 @@
 ---
 id: sk-0362
+primary: A1
+seealso:
+  - A19
+facets: []
+tax_tags: []
 aliases:
   - sk-0362
   - 生而为人，要成为大写的人

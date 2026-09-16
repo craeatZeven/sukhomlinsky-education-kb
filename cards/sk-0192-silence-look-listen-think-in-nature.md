@@ -1,5 +1,10 @@
 ---
 id: sk-0192
+primary: A12
+seealso:
+  - A22
+facets: []
+tax_tags: []
 aliases:
   - sk-0192
   - 在自然中让孩子沉默、看、听、想：少讲话也是思维课

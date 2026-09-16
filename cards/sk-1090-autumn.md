@@ -1,5 +1,11 @@
 ---
 id: sk-1090
+primary: null
+seealso: []
+facets:
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-1090
   - 秋

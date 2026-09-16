@@ -1,5 +1,14 @@
 ---
 id: sk-0442
+primary: null
+seealso: []
+facets:
+  - S11
+  - S17
+  - S3
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-0442
   - 在小夜莺面前多羞呀：当着夜莺的面，我觉得羞愧

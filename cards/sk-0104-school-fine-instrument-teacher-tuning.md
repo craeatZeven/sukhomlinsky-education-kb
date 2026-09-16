@@ -1,5 +1,9 @@
 ---
 id: sk-0104
+primary: A10
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0104
   - 学校如精致乐器，教师人格负责调音

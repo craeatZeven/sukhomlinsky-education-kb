@@ -1,5 +1,9 @@
 ---
 id: sk-1051
+primary: A13
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1051
   - 学校集体的精神生活：“思想之室”

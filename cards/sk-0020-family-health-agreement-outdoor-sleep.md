@@ -1,5 +1,10 @@
 ---
 id: sk-0020
+primary: A7
+seealso:
+  - A8
+facets: []
+tax_tags: []
 aliases:
   - sk-0020
   - 与家庭约定作息：户外、早睡、开窗睡、院子安睡角

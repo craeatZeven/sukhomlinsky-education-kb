@@ -1,5 +1,9 @@
 ---
 id: sk-1231
+primary: A2
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1231
   - 怎样培养少年列宁主义者，教师在少先队组织生活中的作用

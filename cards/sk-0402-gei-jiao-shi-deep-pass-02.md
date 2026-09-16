@@ -1,5 +1,11 @@
 ---
 id: sk-0402
+primary: A13
+seealso:
+  - A15
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-0402
   - 谈谈对“后进生”的工作

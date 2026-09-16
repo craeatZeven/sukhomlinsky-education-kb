@@ -1,5 +1,9 @@
 ---
 id: sk-0401
+primary: A6
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0401
   - 请记住：没有也不可能有抽象的学生

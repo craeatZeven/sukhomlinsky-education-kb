@@ -1,5 +1,13 @@
 ---
 id: sk-1239
+primary: null
+seealso: []
+facets:
+  - S13
+  - S4
+  - S8
+tax_tags:
+  - A18
 aliases:
   - sk-1239
   - 关于做“困难”学生的工作

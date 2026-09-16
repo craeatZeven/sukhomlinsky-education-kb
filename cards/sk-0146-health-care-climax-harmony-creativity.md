@@ -1,5 +1,9 @@
 ---
 id: sk-0146
+primary: A7
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0146
   - 健康关怀不止是卫生守则，其顶峰是身心和谐与创造之乐

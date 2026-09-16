@@ -1,5 +1,12 @@
 ---
 id: sk-0817
+primary: null
+seealso: []
+facets:
+  - S13
+  - S4
+  - S8
+tax_tags: []
 aliases:
   - sk-0817
   - 送给叶夫罗西尼娅奶奶的头巾

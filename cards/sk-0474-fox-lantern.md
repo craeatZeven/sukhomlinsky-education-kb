@@ -1,5 +1,11 @@
 ---
 id: sk-0474
+primary: null
+seealso: []
+facets:
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-0474
   - 狐狸的小灯：用一团萤火虫照亮回家的路

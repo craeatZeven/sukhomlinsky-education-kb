@@ -1,5 +1,12 @@
 ---
 id: sk-0670
+primary: null
+seealso: []
+facets:
+  - S13
+  - S15
+  - S6
+tax_tags: []
 aliases:
   - sk-0670
   - 不可征服的人：临死前他不要泉水，而要寻找水的秘密

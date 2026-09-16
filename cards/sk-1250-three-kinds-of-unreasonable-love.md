@@ -1,5 +1,11 @@
 ---
 id: sk-1250
+primary: null
+seealso: []
+facets:
+  - S1
+  - S7
+tax_tags: []
 aliases:
   - sk-1250
   - 作为教育者的父母怎样做到行动统一

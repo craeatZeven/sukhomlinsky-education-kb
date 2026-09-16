@@ -1,5 +1,9 @@
 ---
 id: sk-0047
+primary: A16
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0047
   - 不公平的低分是孩子撒谎与欺骗的温床

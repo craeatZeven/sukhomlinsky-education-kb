@@ -1,5 +1,10 @@
 ---
 id: sk-0066
+primary: A11
+seealso: []
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-0066
   - 儿童的智慧在他的手指尖上

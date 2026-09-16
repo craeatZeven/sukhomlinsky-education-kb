@@ -1,5 +1,13 @@
 ---
 id: sk-0856
+primary: null
+seealso: []
+facets:
+  - S10
+  - S11
+  - S2
+  - S5
+tax_tags: []
 aliases:
   - sk-0856
   - 谁是世界上最优秀的能工巧匠

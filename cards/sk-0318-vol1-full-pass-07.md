@@ -1,5 +1,10 @@
 ---
 id: sk-0318
+primary: A21
+seealso:
+  - A14
+facets: []
+tax_tags: []
 aliases:
   - sk-0318
   - 学龄初期美感影响终生

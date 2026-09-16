@@ -1,5 +1,13 @@
 ---
 id: sk-1386
+primary: null
+seealso: []
+facets:
+  - S1
+  - S17
+  - S7
+  - S8
+tax_tags: []
 aliases:
   - sk-1386
   - 共产主义信念的形成过程

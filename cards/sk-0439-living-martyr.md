@@ -1,5 +1,11 @@
 ---
 id: sk-0439
+primary: null
+seealso: []
+facets:
+  - S15
+  - S4
+tax_tags: []
 aliases:
   - sk-0439
   - 活着的烈士：用具体英雄故事培养对背叛的蔑视

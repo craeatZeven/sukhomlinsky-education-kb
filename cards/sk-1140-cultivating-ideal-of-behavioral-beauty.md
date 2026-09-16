@@ -1,5 +1,10 @@
 ---
 id: sk-1140
+primary: A19
+seealso: []
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-1140
   - 行为美的理想观念的培养

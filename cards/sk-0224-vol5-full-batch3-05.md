@@ -1,5 +1,11 @@
 ---
 id: sk-0224
+primary: A5
+seealso:
+  - A19
+  - A22
+facets: []
+tax_tags: []
 aliases:
   - sk-0224
   - 教师面对的不是抽象学生，而是活生生具体的人

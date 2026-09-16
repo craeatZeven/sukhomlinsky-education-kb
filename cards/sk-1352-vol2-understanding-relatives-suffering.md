@@ -1,5 +1,10 @@
 ---
 id: sk-1352
+primary: A19
+seealso:
+  - A6
+facets: []
+tax_tags: []
 aliases:
   - sk-1352
   - 理解亲人的痛苦能提高道德敏锐性

@@ -1,5 +1,13 @@
 ---
 id: sk-0121
+primary: null
+seealso: []
+facets:
+  - S1
+  - S12
+  - S2
+  - S7
+tax_tags: []
 aliases:
   - sk-0121
   - 亚林娜的儿子：娇惯与不劳动如何造成精神空虚

@@ -1,5 +1,14 @@
 ---
 id: sk-1391
+primary: null
+seealso: []
+facets:
+  - S1
+  - S11
+  - S12
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-1391
   - 怎样把孩子行为中的“应当”、“困难”和“好”连接起来

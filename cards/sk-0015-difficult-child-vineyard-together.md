@@ -1,5 +1,15 @@
 ---
 id: sk-0015
+primary: null
+seealso: []
+facets:
+  - S12
+  - S13
+  - S3
+  - S4
+  - S9
+tax_tags:
+  - A18
 aliases:
   - sk-0015
   - 牵着最难教的孩子，一起去学校葡萄园劳动

@@ -1,5 +1,10 @@
 ---
 id: sk-0113
+primary: A15
+seealso:
+  - A6
+facets: []
+tax_tags: []
 aliases:
   - sk-0113
   - 不要剥夺儿童观察童话这面魔镜的幸福

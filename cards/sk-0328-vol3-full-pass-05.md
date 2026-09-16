@@ -1,5 +1,10 @@
 ---
 id: sk-0328
+primary: A22
+seealso:
+  - A15
+facets: []
+tax_tags: []
 aliases:
   - sk-0328
   - 在学生面前进行思维

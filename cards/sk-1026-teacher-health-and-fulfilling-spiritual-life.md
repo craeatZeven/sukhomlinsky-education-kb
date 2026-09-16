@@ -1,5 +1,9 @@
 ---
 id: sk-1026
+primary: A10
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1026
   - 谈谈教师的健康和充实的精神生活

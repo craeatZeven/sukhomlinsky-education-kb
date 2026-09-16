@@ -1,5 +1,10 @@
 ---
 id: sk-0448
+primary: null
+seealso: []
+facets:
+  - S5
+tax_tags: []
 aliases:
   - sk-0448
   - 公鸡为什么有鸡冠：晚上把鸡冠收好，白天再展示

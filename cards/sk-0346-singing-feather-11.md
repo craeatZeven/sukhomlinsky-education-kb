@@ -1,5 +1,11 @@
 ---
 id: sk-0346
+primary: null
+seealso: []
+facets:
+  - S16
+  - S6
+tax_tags: []
 aliases:
   - sk-0346
   - 懒骨头和太阳

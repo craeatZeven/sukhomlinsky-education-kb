@@ -1,5 +1,12 @@
 ---
 id: sk-0935
+primary: null
+seealso: []
+facets:
+  - S17
+  - S3
+  - S8
+tax_tags: []
 aliases:
   - sk-0935
   - 帕夫利克是怎样抄习题的

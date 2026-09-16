@@ -1,5 +1,14 @@
 ---
 id: sk-0776
+primary: null
+seealso: []
+facets:
+  - S12
+  - S13
+  - S2
+  - S4
+  - S8
+tax_tags: []
 aliases:
   - sk-0776
   - 莫特里娅奶奶和安德烈卡

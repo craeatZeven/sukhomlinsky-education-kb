@@ -1,5 +1,14 @@
 ---
 id: sk-0074
+primary: null
+seealso: []
+facets:
+  - S1
+  - S15
+  - S17
+  - S7
+  - S8
+tax_tags: []
 aliases:
   - sk-0074
   - 公开表扬喂大的‘模范生’，反而少了心肝

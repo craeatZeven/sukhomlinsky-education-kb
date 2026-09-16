@@ -1,5 +1,14 @@
 ---
 id: sk-0514
+primary: null
+seealso: []
+facets:
+  - S13
+  - S2
+  - S3
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-0514
   - 不寻常的猎人：带着空口袋回家，为兔子铺干草

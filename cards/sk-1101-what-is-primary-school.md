@@ -1,5 +1,9 @@
 ---
 id: sk-1101
+primary: A23
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1101
   - 什么是小学？

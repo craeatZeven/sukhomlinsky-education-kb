@@ -157,7 +157,11 @@ CHROME = '''<!doctype html>
 <meta property="og:description" content="{desc}" />
 <meta property="og:url" content="{site}/web/note/{slug}.html" />
 <meta property="og:image" content="{site}/web/og.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
 <meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="{title} · 苏霍姆林斯基教育知识库" />
+<meta name="twitter:description" content="{desc}" />
 <link rel="stylesheet" href="../style.css?v={ver}" />
 </head><body class="reveal">
 <header class="topnav"><div class="wrap topnav-in">

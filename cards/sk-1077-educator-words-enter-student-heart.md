@@ -1,5 +1,10 @@
 ---
 id: sk-1077
+primary: A5
+seealso:
+  - A8
+facets: []
+tax_tags: []
 aliases:
   - sk-1077
   - 怎样使教育者的话进入受教育者的内心

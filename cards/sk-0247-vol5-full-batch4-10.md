@@ -1,5 +1,9 @@
 ---
 id: sk-0247
+primary: A11
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0247
   - 大自然和劳动密不可分：不避任何劳动，才能做自然的知恩之子

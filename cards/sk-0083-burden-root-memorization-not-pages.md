@@ -1,5 +1,10 @@
 ---
 id: sk-0083
+primary: A15
+seealso:
+  - A20
+facets: []
+tax_tags: []
 aliases:
   - sk-0083
   - 负担过重的根源不在页数，而在把该理解的东西变成死记

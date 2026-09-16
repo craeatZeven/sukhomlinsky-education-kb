@@ -1,5 +1,10 @@
 ---
 id: sk-1004
+primary: A19
+seealso:
+  - A2
+facets: []
+tax_tags: []
 aliases:
   - sk-1004
   - 勇敢精神、对敌人的不可调和性和必胜意志的培养

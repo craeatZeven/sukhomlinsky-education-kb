@@ -1,5 +1,11 @@
 ---
 id: sk-0272
+primary: A1
+seealso:
+  - A6
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-0272
   - 所有孩子都有才，关键是找到并开发其独有能力

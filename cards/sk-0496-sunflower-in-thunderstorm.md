@@ -1,5 +1,11 @@
 ---
 id: sk-0496
+primary: null
+seealso: []
+facets:
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-0496
   - 雷雨时的向日葵：乌云后仍燃着太阳的火焰

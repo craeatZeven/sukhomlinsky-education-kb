@@ -1,5 +1,10 @@
 ---
 id: sk-1305
+primary: A10
+seealso:
+  - A23
+facets: []
+tax_tags: []
 aliases:
   - sk-1305
   - 人民教师

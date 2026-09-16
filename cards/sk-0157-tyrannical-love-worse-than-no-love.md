@@ -1,5 +1,10 @@
 ---
 id: sk-0157
+primary: A5
+seealso:
+  - A8
+facets: []
+tax_tags: []
 aliases:
   - sk-0157
   - 专横的爱是可怕摧残：不能把孩子当成自己情绪的玩具

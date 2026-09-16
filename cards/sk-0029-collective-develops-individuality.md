@@ -1,5 +1,10 @@
 ---
 id: sk-0029
+primary: A9
+seealso:
+  - A1
+facets: []
+tax_tags: []
 aliases:
   - sk-0029
   - 集体教育不压制个性，反而让每个孩子发展全部才能

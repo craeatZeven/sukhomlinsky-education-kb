@@ -1,5 +1,9 @@
 ---
 id: sk-0274
+primary: A11
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0274
   - 劳动吸引孩子，是因为通向诱人目的的新世界，而不是重复动作

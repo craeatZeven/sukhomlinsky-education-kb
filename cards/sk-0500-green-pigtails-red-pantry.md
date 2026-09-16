@@ -1,5 +1,10 @@
 ---
 id: sk-0500
+primary: null
+seealso: []
+facets:
+  - S6
+tax_tags: []
 aliases:
   - sk-0500
   - 绿色的小辫和红色的储藏室：胡萝卜根里藏着糖

@@ -1,5 +1,13 @@
 ---
 id: sk-0808
+primary: null
+seealso: []
+facets:
+  - S15
+  - S2
+  - S4
+  - S8
+tax_tags: []
 aliases:
   - sk-0808
   - 玛丽亚奶奶的葬礼

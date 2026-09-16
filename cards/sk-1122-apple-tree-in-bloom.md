@@ -1,5 +1,12 @@
 ---
 id: sk-1122
+primary: null
+seealso: []
+facets:
+  - S11
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-1122
   - 苹果树开花

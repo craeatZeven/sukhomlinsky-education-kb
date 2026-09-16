@@ -1,5 +1,10 @@
 ---
 id: sk-1338
+primary: A12
+seealso:
+  - A15
+facets: []
+tax_tags: []
 aliases:
   - sk-1338
   - "教学生观察,教学生细看"

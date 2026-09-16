@@ -1,5 +1,13 @@
 ---
 id: sk-0554
+primary: null
+seealso: []
+facets:
+  - S10
+  - S11
+  - S4
+  - S6
+tax_tags: []
 aliases:
   - sk-0554
   - 路旁的橡树：宽阔马路为老橡树弯成马掌形

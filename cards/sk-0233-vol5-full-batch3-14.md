@@ -1,5 +1,10 @@
 ---
 id: sk-0233
+primary: A4
+seealso:
+  - A2
+facets: []
+tax_tags: []
 aliases:
   - sk-0233
   - 教师说‘你应当’太多，学生说‘我应当’太少

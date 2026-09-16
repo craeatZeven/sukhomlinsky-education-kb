@@ -1,5 +1,10 @@
 ---
 id: sk-0105
+primary: A7
+seealso:
+  - A15
+facets: []
+tax_tags: []
 aliases:
   - sk-0105
   - 大脑是最精密柔嫩的器官，要小心爱护

@@ -1,5 +1,9 @@
 ---
 id: sk-0371
+primary: A7
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0371
   - 只有当运动成为每个人都喜爱的活动，才能成为教育手段

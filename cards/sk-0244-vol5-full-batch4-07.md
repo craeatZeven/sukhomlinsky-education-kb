@@ -1,5 +1,10 @@
 ---
 id: sk-0244
+primary: A11
+seealso:
+  - A2
+facets: []
+tax_tags: []
 aliases:
   - sk-0244
   - 公益劳动要进入儿童的精神生活，成为心爱的劳动

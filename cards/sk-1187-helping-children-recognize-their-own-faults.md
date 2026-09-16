@@ -1,5 +1,10 @@
 ---
 id: sk-1187
+primary: A4
+seealso:
+  - A19
+facets: []
+tax_tags: []
 aliases:
   - sk-1187
   - 怎样教孩子明白和意识自己的过错

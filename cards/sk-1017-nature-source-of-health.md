@@ -1,5 +1,10 @@
 ---
 id: sk-1017
+primary: A7
+seealso: []
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-1017
   - 大自然——健康的源泉

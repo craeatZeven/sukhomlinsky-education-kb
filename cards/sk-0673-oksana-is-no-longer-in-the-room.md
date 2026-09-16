@@ -1,5 +1,11 @@
 ---
 id: sk-0673
+primary: null
+seealso: []
+facets:
+  - S3
+  - S7
+tax_tags: []
 aliases:
   - sk-0673
   - 奥克萨娜已不在屋里了：把朋友当贼防，友谊已经被伤害了

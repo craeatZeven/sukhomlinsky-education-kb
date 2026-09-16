@@ -1,5 +1,10 @@
 ---
 id: sk-0334
+primary: A3
+seealso:
+  - A8
+facets: []
+tax_tags: []
 aliases:
   - sk-0334
   - 爱情之火需要添加多方面的精神生活

@@ -1,5 +1,9 @@
 ---
 id: sk-0246
+primary: A1
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0246
   - 在童年树立终生信念：人类是大自然的孩子

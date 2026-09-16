@@ -1,5 +1,9 @@
 ---
 id: sk-0056
+primary: A13
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0056
   - 建班级藏书库，让孩子反复读喜爱的书

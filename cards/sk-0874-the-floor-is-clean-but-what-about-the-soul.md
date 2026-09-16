@@ -1,5 +1,13 @@
 ---
 id: sk-0874
+primary: null
+seealso: []
+facets:
+  - S1
+  - S13
+  - S2
+  - S7
+tax_tags: []
 aliases:
   - sk-0874
   - 地板是清洁的，而心灵呢

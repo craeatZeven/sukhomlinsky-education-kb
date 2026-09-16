@@ -1,5 +1,10 @@
 ---
 id: sk-0040
+primary: A5
+seealso:
+  - A3
+facets: []
+tax_tags: []
 aliases:
   - sk-0040
   - 爱不是溺爱，而是让孩子获得幸福与自信

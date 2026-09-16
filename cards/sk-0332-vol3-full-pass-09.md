@@ -1,5 +1,11 @@
 ---
 id: sk-0332
+primary: A1
+seealso:
+  - A11
+  - A4
+facets: []
+tax_tags: []
 aliases:
   - sk-0332
   - 志向是天才的幼苗

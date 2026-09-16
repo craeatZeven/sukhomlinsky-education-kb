@@ -1,5 +1,9 @@
 ---
 id: sk-0180
+primary: A16
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0180
   - 学业成绩评分不是道德评分：分数好不等于孩子好

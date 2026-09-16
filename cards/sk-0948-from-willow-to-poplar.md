@@ -1,5 +1,15 @@
 ---
 id: sk-0948
+primary: null
+seealso: []
+facets:
+  - S10
+  - S13
+  - S17
+  - S2
+  - S3
+  - S6
+tax_tags: []
 aliases:
   - sk-0948
   - 从柳树到白杨树

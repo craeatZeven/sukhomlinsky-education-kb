@@ -1,5 +1,10 @@
 ---
 id: sk-0998
+primary: A15
+seealso:
+  - A13
+facets: []
+tax_tags: []
 aliases:
   - sk-0998
   - “两个教学大纲”，发展学生的思维

@@ -1,5 +1,12 @@
 ---
 id: sk-0846
+primary: null
+seealso: []
+facets:
+  - S1
+  - S13
+  - S6
+tax_tags: []
 aliases:
   - sk-0846
   - 所有的墓都是人类共有的

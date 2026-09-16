@@ -1,5 +1,11 @@
 ---
 id: sk-1000
+primary: A5
+seealso:
+  - A4
+  - A6
+facets: []
+tax_tags: []
 aliases:
   - sk-1000
   - 要掌握与学生个别谈话的艺术

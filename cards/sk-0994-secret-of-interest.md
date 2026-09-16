@@ -1,5 +1,10 @@
 ---
 id: sk-0994
+primary: A15
+seealso:
+  - A22
+facets: []
+tax_tags: []
 aliases:
   - sk-0994
   - 兴趣的奥秘何在

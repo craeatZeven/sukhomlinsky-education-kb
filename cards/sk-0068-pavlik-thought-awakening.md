@@ -1,5 +1,15 @@
 ---
 id: sk-0068
+primary: null
+seealso: []
+facets:
+  - S12
+  - S16
+  - S4
+  - S6
+  - S8
+tax_tags:
+  - A18
 aliases:
   - sk-0068
   - 巴甫里克的'思维觉醒'：别用教科书捆住差生的智慧

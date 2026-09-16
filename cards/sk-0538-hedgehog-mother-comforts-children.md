@@ -1,5 +1,12 @@
 ---
 id: sk-0538
+primary: null
+seealso: []
+facets:
+  - S1
+  - S5
+  - S7
+tax_tags: []
 aliases:
   - sk-0538
   - 刺猬妈妈怎样抚慰自己的孩子：你们的头发柔软得像亚麻

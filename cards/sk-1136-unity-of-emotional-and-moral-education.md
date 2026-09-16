@@ -1,5 +1,9 @@
 ---
 id: sk-1136
+primary: A19
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1136
   - 情感教育和道德教育的统一

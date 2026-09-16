@@ -1,5 +1,9 @@
 ---
 id: sk-1200
+primary: A10
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1200
   - 向初到学校工作的教师提一些建议

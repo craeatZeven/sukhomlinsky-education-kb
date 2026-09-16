@@ -1,5 +1,9 @@
 ---
 id: sk-0156
+primary: A19
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0156
   - 性教育少谈生理、多谈尊严：以崇敬母亲与精神交流使本能高尚

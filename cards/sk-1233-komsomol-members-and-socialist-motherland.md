@@ -1,5 +1,10 @@
 ---
 id: sk-1233
+primary: A2
+seealso:
+  - A4
+facets: []
+tax_tags: []
 aliases:
   - sk-1233
   - 怎样使共青团员胸怀社会主义祖国

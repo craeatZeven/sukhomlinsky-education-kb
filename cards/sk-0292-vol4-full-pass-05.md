@@ -1,5 +1,10 @@
 ---
 id: sk-0292
+primary: A11
+seealso:
+  - A7
+facets: []
+tax_tags: []
 aliases:
   - sk-0292
   - 劳动的快乐首先来自劳动的美

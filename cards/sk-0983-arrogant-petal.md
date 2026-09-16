@@ -1,5 +1,11 @@
 ---
 id: sk-0983
+primary: null
+seealso: []
+facets:
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-0983
   - 一片傲慢的花瓣

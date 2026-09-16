@@ -1,5 +1,10 @@
 ---
 id: sk-0212
+primary: A2
+seealso:
+  - A8
+facets: []
+tax_tags: []
 aliases:
   - sk-0212
   - 爱国主义的形成始于对人的热爱

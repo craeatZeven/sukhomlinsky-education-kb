@@ -1,5 +1,14 @@
 ---
 id: sk-0671
+primary: null
+seealso: []
+facets:
+  - S1
+  - S17
+  - S2
+  - S4
+  - S7
+tax_tags: []
 aliases:
   - sk-0671
   - 彼得里克和帕夫利克：孩子会记住大人在背后说的每一句话

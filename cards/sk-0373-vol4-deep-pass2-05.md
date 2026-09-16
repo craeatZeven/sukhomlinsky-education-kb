@@ -1,5 +1,10 @@
 ---
 id: sk-0373
+primary: A1
+seealso:
+  - A4
+facets: []
+tax_tags: []
 aliases:
   - sk-0373
   - 教会儿童积极地看世界，在劳动中恪守信念

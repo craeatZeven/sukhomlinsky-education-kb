@@ -1,5 +1,10 @@
 ---
 id: sk-0186
+primary: A7
+seealso:
+  - A15
+facets: []
+tax_tags: []
 aliases:
   - sk-0186
   - 让迟钝的脑细胞活起来：好饮食、新鲜空气与户外活动，再加智力活动

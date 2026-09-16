@@ -1,5 +1,10 @@
 ---
 id: sk-1033
+primary: A10
+seealso: []
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-1033
   - 作者的话：校长要成为“教师的教师”

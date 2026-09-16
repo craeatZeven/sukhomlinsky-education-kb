@@ -1,5 +1,10 @@
 ---
 id: sk-0169
+primary: A11
+seealso:
+  - A9
+facets: []
+tax_tags: []
 aliases:
   - sk-0169
   - 所有学生都必须参加体力劳动，包括不吸引人的劳动

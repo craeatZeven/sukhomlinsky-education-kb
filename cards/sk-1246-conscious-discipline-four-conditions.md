@@ -1,5 +1,10 @@
 ---
 id: sk-1246
+primary: A23
+seealso:
+  - A13
+facets: []
+tax_tags: []
 aliases:
   - sk-1246
   - 怎样在脑力劳动中培养自觉的纪律

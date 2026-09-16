@@ -1,5 +1,11 @@
 ---
 id: sk-0202
+primary: A4
+seealso:
+  - A15
+  - A19
+facets: []
+tax_tags: []
 aliases:
   - sk-0202
   - 真正教育让少年认识世界时也认识自己

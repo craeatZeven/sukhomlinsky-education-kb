@@ -1,5 +1,9 @@
 ---
 id: sk-0394
+primary: A2
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0394
   - 爱国主义教育的第一步是难忘的童年

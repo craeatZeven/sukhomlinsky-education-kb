@@ -1,5 +1,10 @@
 ---
 id: sk-1228
+primary: A9
+seealso:
+  - A4
+facets: []
+tax_tags: []
 aliases:
   - sk-1228
   - 怎样激励人们经常不断地发展和完善道德

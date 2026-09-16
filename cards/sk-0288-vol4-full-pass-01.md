@@ -1,5 +1,10 @@
 ---
 id: sk-0288
+primary: A4
+seealso:
+  - A19
+facets: []
+tax_tags: []
 aliases:
   - sk-0288
   - 信念不只是知道，而首先是把知识变为行动

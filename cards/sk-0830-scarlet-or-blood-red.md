@@ -1,5 +1,12 @@
 ---
 id: sk-0830
+primary: null
+seealso: []
+facets:
+  - S11
+  - S3
+  - S7
+tax_tags: []
 aliases:
   - sk-0830
   - 是鲜红的，还是血红的

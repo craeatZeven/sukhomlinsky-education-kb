@@ -1,5 +1,9 @@
 ---
 id: sk-0171
+primary: A1
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0171
   - 学习只是教育这朵花的一枚花瓣——教育无小事、无主次

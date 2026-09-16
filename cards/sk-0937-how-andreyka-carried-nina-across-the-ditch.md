@@ -1,5 +1,13 @@
 ---
 id: sk-0937
+primary: null
+seealso: []
+facets:
+  - S13
+  - S17
+  - S3
+  - S6
+tax_tags: []
 aliases:
   - sk-0937
   - 安德烈卡是怎样背尼娜过水沟的

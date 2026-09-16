@@ -1,5 +1,14 @@
 ---
 id: sk-0629
+primary: null
+seealso: []
+facets:
+  - S1
+  - S13
+  - S4
+  - S6
+  - S8
+tax_tags: []
 aliases:
   - sk-0629
   - 为了孩子们的战斗：地下党员在集中营里救回孩子的母语与灵魂

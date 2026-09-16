@@ -1,5 +1,10 @@
 ---
 id: sk-1332
+primary: A1
+seealso:
+  - A4
+facets: []
+tax_tags: []
 aliases:
   - sk-1332
   - 认识自己

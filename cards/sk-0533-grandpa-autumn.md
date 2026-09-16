@@ -1,5 +1,11 @@
 ---
 id: sk-0533
+primary: null
+seealso: []
+facets:
+  - S2
+  - S6
+tax_tags: []
 aliases:
   - sk-0533
   - 秋爷爷：他的胡子伸到草地上，变成了秋雾

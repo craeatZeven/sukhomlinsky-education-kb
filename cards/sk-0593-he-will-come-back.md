@@ -1,5 +1,15 @@
 ---
 id: sk-0593
+primary: null
+seealso: []
+facets:
+  - S1
+  - S10
+  - S13
+  - S14
+  - S3
+  - S4
+tax_tags: []
 aliases:
   - sk-0593
   - 他还会回来的：把救命恩人的故事讲给孩子听

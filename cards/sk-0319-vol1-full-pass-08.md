@@ -1,5 +1,10 @@
 ---
 id: sk-0319
+primary: A5
+seealso:
+  - A21
+facets: []
+tax_tags: []
 aliases:
   - sk-0319
   - 不要讥笑少年隐秘的意志考验

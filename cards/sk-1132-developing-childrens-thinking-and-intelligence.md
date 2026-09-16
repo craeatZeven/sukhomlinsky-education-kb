@@ -1,5 +1,10 @@
 ---
 id: sk-1132
+primary: A15
+seealso: []
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-1132
   - 怎样发展儿童的思维和智力

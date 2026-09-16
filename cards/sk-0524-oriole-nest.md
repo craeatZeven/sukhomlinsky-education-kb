@@ -1,5 +1,12 @@
 ---
 id: sk-0524
+primary: null
+seealso: []
+facets:
+  - S15
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-0524
   - 黄鹂的巢：灌木丛被砍掉，黄鹂回来找不到家

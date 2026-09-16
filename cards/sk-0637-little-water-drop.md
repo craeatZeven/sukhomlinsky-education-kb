@@ -1,5 +1,13 @@
 ---
 id: sk-0637
+primary: null
+seealso: []
+facets:
+  - S2
+  - S3
+  - S6
+  - S8
+tax_tags: []
 aliases:
   - sk-0637
   - 小水滴：水井旁被挤走的老奶奶，考验孩子心中有没有别人

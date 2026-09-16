@@ -1,5 +1,10 @@
 ---
 id: sk-1182
+primary: A22
+seealso:
+  - A4
+facets: []
+tax_tags: []
 aliases:
   - sk-1182
   - 最后一条建议——保密：把教育意图隐蔽起来

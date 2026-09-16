@@ -1,5 +1,11 @@
 ---
 id: sk-1315
+primary: A19
+seealso:
+  - A2
+  - A8
+facets: []
+tax_tags: []
 aliases:
   - sk-1315
   - 青年对待爱情的精神准备应当包括些什么

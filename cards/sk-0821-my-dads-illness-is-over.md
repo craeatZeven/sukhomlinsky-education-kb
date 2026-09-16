@@ -1,5 +1,11 @@
 ---
 id: sk-0821
+primary: null
+seealso: []
+facets:
+  - S3
+  - S8
+tax_tags: []
 aliases:
   - sk-0821
   - 我爸爸的病好了

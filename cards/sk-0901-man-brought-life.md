@@ -1,5 +1,13 @@
 ---
 id: sk-0901
+primary: null
+seealso: []
+facets:
+  - S12
+  - S4
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-0901
   - 人带来了生命

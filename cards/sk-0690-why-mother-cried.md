@@ -1,5 +1,11 @@
 ---
 id: sk-0690
+primary: null
+seealso: []
+facets:
+  - S1
+  - S14
+tax_tags: []
 aliases:
   - sk-0690
   - 妈妈为什么哭：眼泪既可以是离别，也可以是重逢的喜悦

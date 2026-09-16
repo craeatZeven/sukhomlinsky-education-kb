@@ -1,5 +1,10 @@
 ---
 id: sk-1195
+primary: A9
+seealso:
+  - A11
+facets: []
+tax_tags: []
 aliases:
   - sk-1195
   - 不同年龄学生组成的集体不是凭空建立起来的

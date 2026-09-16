@@ -1,5 +1,10 @@
 ---
 id: sk-0123
+primary: A14
+seealso:
+  - A1
+facets: []
+tax_tags: []
 aliases:
   - sk-0123
   - 人类美的标准同时也是道德的标准

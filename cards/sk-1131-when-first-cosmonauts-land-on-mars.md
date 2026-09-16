@@ -1,5 +1,11 @@
 ---
 id: sk-1131
+primary: null
+seealso: []
+facets:
+  - S15
+  - S3
+tax_tags: []
 aliases:
   - sk-1131
   - 当我们的首批宇航员登上火星的时候

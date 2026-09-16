@@ -1,5 +1,12 @@
 ---
 id: sk-1144
+primary: null
+seealso: []
+facets:
+  - S15
+  - S3
+  - S6
+tax_tags: []
 aliases:
   - sk-1144
   - 小姑娘和罂粟花

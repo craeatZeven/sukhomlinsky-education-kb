@@ -1,5 +1,13 @@
 ---
 id: sk-0703
+primary: null
+seealso: []
+facets:
+  - S1
+  - S15
+  - S6
+  - S7
+tax_tags: []
 aliases:
   - sk-0703
   - 在奶奶的床上

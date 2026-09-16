@@ -1,5 +1,9 @@
 ---
 id: sk-0079
+primary: A11
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0079
   - 高技术时代，仍要先掌握手工基本功

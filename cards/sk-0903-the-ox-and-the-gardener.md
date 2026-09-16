@@ -1,5 +1,14 @@
 ---
 id: sk-0903
+primary: null
+seealso: []
+facets:
+  - S11
+  - S12
+  - S4
+  - S5
+  - S9
+tax_tags: []
 aliases:
   - sk-0903
   - 牛与园丁

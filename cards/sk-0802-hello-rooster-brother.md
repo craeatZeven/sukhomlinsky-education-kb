@@ -1,5 +1,13 @@
 ---
 id: sk-0802
+primary: null
+seealso: []
+facets:
+  - S13
+  - S4
+  - S5
+  - S8
+tax_tags: []
 aliases:
   - sk-0802
   - 公鸡弟弟，你好

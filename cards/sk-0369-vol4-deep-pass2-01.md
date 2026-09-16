@@ -1,5 +1,9 @@
 ---
 id: sk-0369
+primary: A15
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0369
   - 教师是学生智力生活的第一盏指路灯

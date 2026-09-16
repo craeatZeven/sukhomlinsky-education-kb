@@ -1,5 +1,9 @@
 ---
 id: sk-1015
+primary: A1
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1015
   - 个人全面发展思想的历史沿革

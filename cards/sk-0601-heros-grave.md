@@ -1,5 +1,14 @@
 ---
 id: sk-0601
+primary: null
+seealso: []
+facets:
+  - S1
+  - S10
+  - S14
+  - S15
+  - S6
+tax_tags: []
 aliases:
   - sk-0601
   - 英雄的墓：每天路过兄弟墓，想念自己的爷爷

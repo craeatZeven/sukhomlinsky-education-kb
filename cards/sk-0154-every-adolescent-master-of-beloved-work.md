@@ -1,5 +1,10 @@
 ---
 id: sk-0154
+primary: A11
+seealso:
+  - A2
+facets: []
+tax_tags: []
 aliases:
   - sk-0154
   - 让每个少年成为自己心爱工作的能工巧匠：劳动自豪感催生公民

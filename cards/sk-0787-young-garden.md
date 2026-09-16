@@ -1,5 +1,14 @@
 ---
 id: sk-0787
+primary: null
+seealso: []
+facets:
+  - S12
+  - S14
+  - S3
+  - S4
+  - S8
+tax_tags: []
 aliases:
   - sk-0787
   - 年轻的花园

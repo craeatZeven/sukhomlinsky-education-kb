@@ -1,5 +1,13 @@
 ---
 id: sk-0960
+primary: null
+seealso: []
+facets:
+  - S12
+  - S17
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-0960
   - 光点

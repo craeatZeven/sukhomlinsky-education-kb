@@ -1,5 +1,10 @@
 ---
 id: sk-0300
+primary: A2
+seealso:
+  - A4
+facets: []
+tax_tags: []
 aliases:
   - sk-0300
   - 共产主义信念把人确立为社会的决定力量

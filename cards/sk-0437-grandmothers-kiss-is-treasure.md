@@ -1,5 +1,12 @@
 ---
 id: sk-0437
+primary: null
+seealso: []
+facets:
+  - S1
+  - S4
+  - S8
+tax_tags: []
 aliases:
   - sk-0437
   - 奶奶的吻：不轻易给予的奖赏比贵重礼物更珍贵

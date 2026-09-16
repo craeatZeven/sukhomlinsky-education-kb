@@ -1,5 +1,11 @@
 ---
 id: sk-0077
+primary: A13
+seealso:
+  - A23
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-0077
   - 独立阅读才能真正挽救智力落后学生

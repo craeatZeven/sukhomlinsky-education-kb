@@ -1,5 +1,10 @@
 ---
 id: sk-1186
+primary: A19
+seealso:
+  - A2
+facets: []
+tax_tags: []
 aliases:
   - sk-1186
   - 怎样教孩子理解道德上的自由感

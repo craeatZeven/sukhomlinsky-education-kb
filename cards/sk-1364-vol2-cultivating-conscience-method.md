@@ -1,5 +1,10 @@
 ---
 id: sk-1364
+primary: A19
+seealso:
+  - A4
+facets: []
+tax_tags: []
 aliases:
   - sk-1364
   - 怎样培养良心感

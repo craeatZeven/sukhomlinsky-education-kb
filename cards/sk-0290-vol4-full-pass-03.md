@@ -1,5 +1,9 @@
 ---
 id: sk-0290
+primary: A19
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0290
   - 不要粉饰现实：不能让孩子在家里和会上讲两套话

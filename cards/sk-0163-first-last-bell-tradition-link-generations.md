@@ -1,5 +1,9 @@
 ---
 id: sk-0163
+primary: A9
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0163
   - 首铃与末铃：用学校传统把高低年级和校友连成一体

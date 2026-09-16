@@ -1,5 +1,10 @@
 ---
 id: sk-0399
+primary: A11
+seealso:
+  - A9
+facets: []
+tax_tags: []
 aliases:
   - sk-0399
   - 劳动是无与伦比的欢乐

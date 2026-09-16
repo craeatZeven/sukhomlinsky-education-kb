@@ -1,5 +1,10 @@
 ---
 id: sk-0118
+primary: A14
+seealso:
+  - A13
+facets: []
+tax_tags: []
 aliases:
   - sk-0118
   - 读完文学后不当堂追问：别把感动变成解剖

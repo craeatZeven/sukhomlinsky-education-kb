@@ -1,5 +1,10 @@
 ---
 id: sk-1316
+primary: A8
+seealso:
+  - A19
+facets: []
+tax_tags: []
 aliases:
   - sk-1316
   - 怎样教学生们成为好子女

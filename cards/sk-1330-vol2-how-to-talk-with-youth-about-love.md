@@ -1,5 +1,11 @@
 ---
 id: sk-1330
+primary: A2
+seealso:
+  - A19
+  - A8
+facets: []
+tax_tags: []
 aliases:
   - sk-1330
   - 怎样向青年们谈爱情

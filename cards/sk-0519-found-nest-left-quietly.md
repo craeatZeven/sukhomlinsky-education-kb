@@ -1,5 +1,13 @@
 ---
 id: sk-0519
+primary: null
+seealso: []
+facets:
+  - S17
+  - S3
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-0519
   - 我们是怎样在树林里找到鸟窝的：看见小鸟后轻轻走开

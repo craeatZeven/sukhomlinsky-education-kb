@@ -1,5 +1,9 @@
 ---
 id: sk-0293
+primary: A14
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0293
   - 只有进入人的生活的美，才会唤起美感

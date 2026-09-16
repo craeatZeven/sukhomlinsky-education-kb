@@ -1,5 +1,11 @@
 ---
 id: sk-1339
+primary: A15
+seealso:
+  - A13
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-1339
   - 阅读是“困难”学生智力教育的重要手段

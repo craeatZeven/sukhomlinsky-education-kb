@@ -1,5 +1,10 @@
 ---
 id: sk-1039
+primary: A15
+seealso: []
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-1039
   - 让学生记住基本知识：把知识的“骨架”在小学阶段牢牢打好

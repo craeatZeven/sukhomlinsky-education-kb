@@ -1,5 +1,9 @@
 ---
 id: sk-1055
+primary: A13
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1055
   - 怎样通过阅读发展知识

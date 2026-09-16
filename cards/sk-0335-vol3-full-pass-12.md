@@ -1,5 +1,9 @@
 ---
 id: sk-0335
+primary: A5
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0335
   - 在小孩子身上看到明天的成年人

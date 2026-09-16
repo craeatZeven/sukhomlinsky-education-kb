@@ -1,5 +1,12 @@
 ---
 id: sk-0665
+primary: null
+seealso: []
+facets:
+  - S12
+  - S2
+  - S9
+tax_tags: []
 aliases:
   - sk-0665
   - 同样的话：同一句“去打水吧”，冷冰冰与亲切地说效果完全不同

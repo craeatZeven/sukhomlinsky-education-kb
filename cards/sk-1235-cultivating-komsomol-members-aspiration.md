@@ -1,5 +1,10 @@
 ---
 id: sk-1235
+primary: A4
+seealso:
+  - A9
+facets: []
+tax_tags: []
 aliases:
   - sk-1235
   - 怎样培养共青团员的上进心

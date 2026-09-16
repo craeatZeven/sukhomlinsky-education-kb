@@ -1,5 +1,9 @@
 ---
 id: sk-1019
+primary: A19
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1019
   - 孩子应该怎样理解自己对他人的义务

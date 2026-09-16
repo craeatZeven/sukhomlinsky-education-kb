@@ -1,5 +1,12 @@
 ---
 id: sk-0472
+primary: null
+seealso: []
+facets:
+  - S11
+  - S3
+  - S6
+tax_tags: []
 aliases:
   - sk-0472
   - 谢尔盖和马特维：同一片草地，有人看见美，有人看见牛奶

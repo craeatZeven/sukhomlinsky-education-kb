@@ -1,5 +1,9 @@
 ---
 id: sk-1155
+primary: A8
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1155
   - 关于对自己子女的教育问题

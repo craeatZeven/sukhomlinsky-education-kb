@@ -1,5 +1,9 @@
 ---
 id: sk-0120
+primary: A19
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0120
   - 爱情首先意味着对所爱的人的命运、前途承担责任

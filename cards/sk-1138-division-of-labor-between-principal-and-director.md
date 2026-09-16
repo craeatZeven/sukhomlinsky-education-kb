@@ -1,5 +1,9 @@
 ---
 id: sk-1138
+primary: A10
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1138
   - 我们怎样在校长和教导主任之间实行分工

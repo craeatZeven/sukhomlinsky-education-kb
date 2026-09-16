@@ -1,5 +1,10 @@
 ---
 id: sk-0110
+primary: A6
+seealso:
+  - A15
+facets: []
+tax_tags: []
 aliases:
   - sk-0110
   - 思维有快慢，要给迟钝的学生留足思考时间

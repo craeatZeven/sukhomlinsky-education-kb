@@ -1,5 +1,14 @@
 ---
 id: sk-0977
+primary: null
+seealso: []
+facets:
+  - S1
+  - S12
+  - S17
+  - S4
+  - S8
+tax_tags: []
 aliases:
   - sk-0977
   - 帕维尔和太阳

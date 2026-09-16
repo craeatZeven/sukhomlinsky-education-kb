@@ -1,5 +1,12 @@
 ---
 id: sk-0520
+primary: null
+seealso: []
+facets:
+  - S16
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-0520
   - 树林中的春天：蓝色的小花问‘太阳为什么变红了’

@@ -1,5 +1,9 @@
 ---
 id: sk-1153
+primary: A10
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1153
   - 怎样做教育工作计划

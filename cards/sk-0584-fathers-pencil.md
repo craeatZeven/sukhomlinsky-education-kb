@@ -1,5 +1,13 @@
 ---
 id: sk-0584
+primary: null
+seealso: []
+facets:
+  - S1
+  - S15
+  - S17
+  - S4
+tax_tags: []
 aliases:
   - sk-0584
   - 父亲的铅笔：用爸爸的笔写下对祖国的誓言

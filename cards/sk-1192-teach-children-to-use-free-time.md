@@ -1,5 +1,9 @@
 ---
 id: sk-1192
+primary: A17
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1192
   - 教儿童利用自由活动时间

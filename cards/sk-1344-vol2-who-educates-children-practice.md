@@ -1,5 +1,11 @@
 ---
 id: sk-1344
+primary: A9
+seealso:
+  - A10
+  - A8
+facets: []
+tax_tags: []
 aliases:
   - sk-1344
   - 谁在教育儿童，什么在教育儿童，在教育方面什么取决于教师，什么取决其他教育者

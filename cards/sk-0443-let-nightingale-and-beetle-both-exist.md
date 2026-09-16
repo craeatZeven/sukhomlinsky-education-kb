@@ -1,5 +1,12 @@
 ---
 id: sk-0443
+primary: null
+seealso: []
+facets:
+  - S3
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-0443
   - 就让夜莺和甲虫都有吧：世界不是只属于“有用而美”的那一个

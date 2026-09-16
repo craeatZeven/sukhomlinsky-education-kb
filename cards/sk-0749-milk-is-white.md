@@ -1,5 +1,11 @@
 ---
 id: sk-0749
+primary: null
+seealso: []
+facets:
+  - S11
+  - S8
+tax_tags: []
 aliases:
   - sk-0749
   - 牛奶是洁白的呀

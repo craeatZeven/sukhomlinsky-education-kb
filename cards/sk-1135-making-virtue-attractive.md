@@ -1,5 +1,9 @@
 ---
 id: sk-1135
+primary: A22
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1135
   - 要善于使美德具有吸引力

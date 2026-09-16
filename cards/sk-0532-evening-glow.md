@@ -1,5 +1,11 @@
 ---
 id: sk-0532
+primary: null
+seealso: []
+facets:
+  - S11
+  - S6
+tax_tags: []
 aliases:
   - sk-0532
   - 晚霞：太阳在熔化黄金的湖里洗澡

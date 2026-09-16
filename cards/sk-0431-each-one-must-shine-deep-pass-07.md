@@ -1,5 +1,10 @@
 ---
 id: sk-0431
+primary: A14
+seealso:
+  - A11
+facets: []
+tax_tags: []
 aliases:
   - sk-0431
   - 美只有在人为创造美而劳动时才能使人高尚

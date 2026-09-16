@@ -1,5 +1,12 @@
 ---
 id: sk-0877
+primary: null
+seealso: []
+facets:
+  - S12
+  - S4
+  - S9
+tax_tags: []
 aliases:
   - sk-0877
   - 地界上的石头

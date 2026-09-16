@@ -1,5 +1,11 @@
 ---
 id: sk-0581
+primary: null
+seealso: []
+facets:
+  - S1
+  - S15
+tax_tags: []
 aliases:
   - sk-0581
   - 再过10年：父亲的枪会等你长大，父亲的叮嘱在边境回响

@@ -1,5 +1,10 @@
 ---
 id: sk-1340
+primary: null
+seealso: []
+facets:
+  - S8
+tax_tags: []
 aliases:
   - sk-1340
   - 要赢得学生的思想和心灵

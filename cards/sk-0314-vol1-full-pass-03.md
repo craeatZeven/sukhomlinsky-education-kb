@@ -1,5 +1,10 @@
 ---
 id: sk-0314
+primary: A4
+seealso:
+  - A1
+facets: []
+tax_tags: []
 aliases:
   - sk-0314
   - 真理要像母亲一样亲，才能成为信念

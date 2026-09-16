@@ -1,5 +1,12 @@
 ---
 id: sk-0467
+primary: null
+seealso: []
+facets:
+  - S1
+  - S11
+  - S6
+tax_tags: []
 aliases:
   - sk-0467
   - 他们是多么可怜：天没亮就去听云雀

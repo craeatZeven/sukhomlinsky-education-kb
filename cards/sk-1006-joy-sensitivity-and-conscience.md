@@ -1,5 +1,10 @@
 ---
 id: sk-1006
+primary: A19
+seealso:
+  - A3
+facets: []
+tax_tags: []
 aliases:
   - sk-1006
   - 儿童集体中的欢乐和善感、力量和良心

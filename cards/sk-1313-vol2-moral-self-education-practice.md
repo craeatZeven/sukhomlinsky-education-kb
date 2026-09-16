@@ -1,5 +1,10 @@
 ---
 id: sk-1313
+primary: A4
+seealso:
+  - A19
+facets: []
+tax_tags: []
 aliases:
   - sk-1313
   - 怎样激发学生在道德方面进行自我教育

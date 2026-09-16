@@ -1,5 +1,14 @@
 ---
 id: sk-1130
+primary: null
+seealso: []
+facets:
+  - S11
+  - S12
+  - S4
+  - S6
+  - S9
+tax_tags: []
 aliases:
   - sk-1130
   - 我童年时期难忘的一天

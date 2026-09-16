@@ -1,5 +1,13 @@
 ---
 id: sk-0893
+primary: null
+seealso: []
+facets:
+  - S14
+  - S3
+  - S4
+  - S5
+tax_tags: []
 aliases:
   - sk-0893
   - 种瓜得瓜，种豆得豆

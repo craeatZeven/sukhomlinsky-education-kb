@@ -1,5 +1,9 @@
 ---
 id: sk-0330
+primary: A4
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0330
   - 同自己说话，对着自己良心说话

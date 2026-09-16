@@ -1,5 +1,13 @@
 ---
 id: sk-0847
+primary: null
+seealso: []
+facets:
+  - S15
+  - S3
+  - S4
+  - S8
+tax_tags: []
 aliases:
   - sk-0847
   - 所有善良的人们都是一家人

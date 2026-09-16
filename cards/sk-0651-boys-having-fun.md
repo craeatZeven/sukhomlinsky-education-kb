@@ -1,5 +1,11 @@
 ---
 id: sk-0651
+primary: null
+seealso: []
+facets:
+  - S3
+  - S4
+tax_tags: []
 aliases:
   - sk-0651
   - 男孩子们在取乐：只顾自己快乐而不顾别人，比野人更坏

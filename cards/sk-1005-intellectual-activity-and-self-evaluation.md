@@ -1,5 +1,10 @@
 ---
 id: sk-1005
+primary: A21
+seealso:
+  - A5
+facets: []
+tax_tags: []
 aliases:
   - sk-1005
   - 智力积极性和少年自我意识、自我评价的形成

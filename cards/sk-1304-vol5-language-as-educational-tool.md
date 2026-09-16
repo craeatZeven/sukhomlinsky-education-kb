@@ -1,5 +1,9 @@
 ---
 id: sk-1304
+primary: A22
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1304
   - 谈语言的教育作用

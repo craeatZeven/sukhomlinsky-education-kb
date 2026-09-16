@@ -1,5 +1,12 @@
 ---
 id: sk-0921
+primary: null
+seealso: []
+facets:
+  - S1
+  - S17
+  - S7
+tax_tags: []
 aliases:
   - sk-0921
   - 小姑娘是怎样看见自己的

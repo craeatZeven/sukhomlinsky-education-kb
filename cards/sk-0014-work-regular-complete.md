@@ -1,5 +1,9 @@
 ---
 id: sk-0014
+primary: A11
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0014
   - 劳动像食物一样必不可少，要系统且完整地完成

@@ -1,5 +1,12 @@
 ---
 id: sk-0984
+primary: null
+seealso: []
+facets:
+  - S1
+  - S17
+  - S6
+tax_tags: []
 aliases:
   - sk-0984
   - 不做谎花草

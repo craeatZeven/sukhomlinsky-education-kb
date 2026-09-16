@@ -1,5 +1,10 @@
 ---
 id: sk-1297
+primary: A3
+seealso:
+  - A5
+facets: []
+tax_tags: []
 aliases:
   - sk-1297
   - 人是最巨大的财富

@@ -1,5 +1,14 @@
 ---
 id: sk-0718
+primary: null
+seealso: []
+facets:
+  - S1
+  - S10
+  - S13
+  - S4
+  - S6
+tax_tags: []
 aliases:
   - sk-0718
   - 谁把谁带回家

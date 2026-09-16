@@ -1,5 +1,11 @@
 ---
 id: sk-0798
+primary: null
+seealso: []
+facets:
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-0798
   - 狐狸和老鼠

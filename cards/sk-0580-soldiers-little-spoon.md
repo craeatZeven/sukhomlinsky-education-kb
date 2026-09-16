@@ -1,5 +1,12 @@
 ---
 id: sk-0580
+primary: null
+seealso: []
+facets:
+  - S1
+  - S13
+  - S4
+tax_tags: []
 aliases:
   - sk-0580
   - 士兵的小匙：一把经历战争的匙，是祖国的小小一部分

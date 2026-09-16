@@ -1,5 +1,10 @@
 ---
 id: sk-0265
+primary: A11
+seealso:
+  - A9
+facets: []
+tax_tags: []
 aliases:
   - sk-0265
   - 童年没体验过为集体无偿劳动的欢乐，灵魂会沾上小市民习气

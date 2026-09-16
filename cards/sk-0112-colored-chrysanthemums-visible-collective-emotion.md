@@ -1,5 +1,10 @@
 ---
 id: sk-0112
+primary: A9
+seealso:
+  - A5
+facets: []
+tax_tags: []
 aliases:
   - sk-0112
   - 讲台上的彩色菊花：让集体情绪可被看见

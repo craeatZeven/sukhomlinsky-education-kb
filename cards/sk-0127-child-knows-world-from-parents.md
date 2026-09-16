@@ -1,5 +1,9 @@
 ---
 id: sk-0127
+primary: A8
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0127
   - 儿童认识世界从父母开始：妈妈怎样说话、爸爸怎样待妈妈

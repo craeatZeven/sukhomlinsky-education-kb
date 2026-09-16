@@ -1,5 +1,12 @@
 ---
 id: sk-0942
+primary: null
+seealso: []
+facets:
+  - S17
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-0942
   - 公鸡与太阳

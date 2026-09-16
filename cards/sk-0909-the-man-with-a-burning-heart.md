@@ -1,5 +1,12 @@
 ---
 id: sk-0909
+primary: null
+seealso: []
+facets:
+  - S11
+  - S4
+  - S6
+tax_tags: []
 aliases:
   - sk-0909
   - 有一颗滚烫心的人

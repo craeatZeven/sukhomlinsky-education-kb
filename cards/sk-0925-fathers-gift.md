@@ -1,5 +1,12 @@
 ---
 id: sk-0925
+primary: null
+seealso: []
+facets:
+  - S1
+  - S14
+  - S7
+tax_tags: []
 aliases:
   - sk-0925
   - 爸爸的礼物

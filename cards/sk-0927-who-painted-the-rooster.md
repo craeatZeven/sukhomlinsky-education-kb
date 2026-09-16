@@ -1,5 +1,13 @@
 ---
 id: sk-0927
+primary: null
+seealso: []
+facets:
+  - S1
+  - S16
+  - S17
+  - S7
+tax_tags: []
 aliases:
   - sk-0927
   - 谁给公鸡涂上了颜色

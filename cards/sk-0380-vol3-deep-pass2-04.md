@@ -1,5 +1,9 @@
 ---
 id: sk-0380
+primary: A7
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0380
   - 保护少年的中枢神经系统就是爱护心脏

@@ -1,5 +1,14 @@
 ---
 id: sk-0941
+primary: null
+seealso: []
+facets:
+  - S13
+  - S16
+  - S3
+  - S5
+  - S8
+tax_tags: []
 aliases:
   - sk-0941
   - 科利亚怎样变得勇敢

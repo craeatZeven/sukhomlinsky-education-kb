@@ -1,5 +1,10 @@
 ---
 id: sk-0327
+primary: A8
+seealso:
+  - A22
+facets: []
+tax_tags: []
 aliases:
   - sk-0327
   - 儿童周围的复杂关系是不自觉的教育源泉

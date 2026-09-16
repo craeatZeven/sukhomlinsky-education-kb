@@ -1,5 +1,11 @@
 ---
 id: sk-0761
+primary: null
+seealso: []
+facets:
+  - S11
+  - S3
+tax_tags: []
 aliases:
   - sk-0761
   - 四张金纸

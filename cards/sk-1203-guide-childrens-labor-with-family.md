@@ -1,5 +1,10 @@
 ---
 id: sk-1203
+primary: A11
+seealso:
+  - A8
+facets: []
+tax_tags: []
 aliases:
   - sk-1203
   - 怎样同家庭一道指导儿童劳动

@@ -1,5 +1,11 @@
 ---
 id: sk-0542
+primary: null
+seealso: []
+facets:
+  - S16
+  - S6
+tax_tags: []
 aliases:
   - sk-0542
   - 好奇的虞美人花子：掉进大世界的种子，长成花海中的一朵

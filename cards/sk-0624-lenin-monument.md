@@ -1,5 +1,13 @@
 ---
 id: sk-0624
+primary: null
+seealso: []
+facets:
+  - S12
+  - S3
+  - S4
+  - S6
+tax_tags: []
 aliases:
   - sk-0624
   - 列宁纪念碑：被砍倒的橡树在男孩照料下活了过来

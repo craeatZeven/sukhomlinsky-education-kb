@@ -1,5 +1,12 @@
 ---
 id: sk-0944
+primary: null
+seealso: []
+facets:
+  - S12
+  - S3
+  - S8
+tax_tags: []
 aliases:
   - sk-0944
   - 小苹果树

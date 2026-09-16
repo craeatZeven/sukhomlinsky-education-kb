@@ -1,5 +1,13 @@
 ---
 id: sk-1109
+primary: null
+seealso: []
+facets:
+  - S1
+  - S12
+  - S6
+  - S7
+tax_tags: []
 aliases:
   - sk-1109
   - 当秋天开始的时候

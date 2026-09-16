@@ -1,5 +1,12 @@
 ---
 id: sk-1243
+primary: null
+seealso: []
+facets:
+  - S17
+  - S4
+  - S8
+tax_tags: []
 aliases:
   - sk-1243
   - 怎样教孩子正确对待批评、责备、惩罚

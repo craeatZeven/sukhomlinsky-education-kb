@@ -1,5 +1,13 @@
 ---
 id: sk-0835
+primary: null
+seealso: []
+facets:
+  - S1
+  - S15
+  - S4
+  - S5
+tax_tags: []
 aliases:
   - sk-0835
   - 铁石心肠的人

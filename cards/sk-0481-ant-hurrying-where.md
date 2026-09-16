@@ -1,5 +1,13 @@
 ---
 id: sk-0481
+primary: null
+seealso: []
+facets:
+  - S1
+  - S12
+  - S3
+  - S5
+tax_tags: []
 aliases:
   - sk-0481
   - 蚂蚁匆匆忙忙地去哪里：为孩子们找食物

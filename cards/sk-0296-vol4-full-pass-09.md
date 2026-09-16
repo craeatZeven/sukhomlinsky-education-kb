@@ -1,5 +1,10 @@
 ---
 id: sk-0296
+primary: A16
+seealso:
+  - A19
+facets: []
+tax_tags: []
 aliases:
   - sk-0296
   - 不要只号召讲卫生，而要去打扫

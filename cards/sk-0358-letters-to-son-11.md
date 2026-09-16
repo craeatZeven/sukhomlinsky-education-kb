@@ -1,5 +1,9 @@
 ---
 id: sk-0358
+primary: A11
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0358
   - 你在大地上的足迹：童年的汗水

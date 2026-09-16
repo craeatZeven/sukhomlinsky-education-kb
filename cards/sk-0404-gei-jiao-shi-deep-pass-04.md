@@ -1,5 +1,9 @@
 ---
 id: sk-0404
+primary: A23
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0404
   - 要教会儿童利用自由支配的时间

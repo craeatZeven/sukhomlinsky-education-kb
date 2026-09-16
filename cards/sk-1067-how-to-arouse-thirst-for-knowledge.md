@@ -1,5 +1,10 @@
 ---
 id: sk-1067
+primary: A4
+seealso:
+  - A21
+facets: []
+tax_tags: []
 aliases:
   - sk-1067
   - 怎样激起求知欲

@@ -1,5 +1,12 @@
 ---
 id: sk-0920
+primary: null
+seealso: []
+facets:
+  - S16
+  - S17
+  - S6
+tax_tags: []
 aliases:
   - sk-0920
   - 彼得里克生气了

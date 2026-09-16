@@ -1,5 +1,9 @@
 ---
 id: sk-1035
+primary: A15
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1035
   - 怎样使学生注意力集中：先形成情绪高涨和智力振奋的内心状态

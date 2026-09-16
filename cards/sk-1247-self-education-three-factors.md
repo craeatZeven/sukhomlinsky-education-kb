@@ -1,5 +1,10 @@
 ---
 id: sk-1247
+primary: A4
+seealso:
+  - A5
+facets: []
+tax_tags: []
 aliases:
   - sk-1247
   - 怎样教学生自己教育自己

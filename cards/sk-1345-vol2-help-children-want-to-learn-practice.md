@@ -1,5 +1,12 @@
 ---
 id: sk-1345
+primary: A15
+seealso:
+  - A16
+  - A8
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-1345
   - 为使儿童愿意好好学习该做些什么

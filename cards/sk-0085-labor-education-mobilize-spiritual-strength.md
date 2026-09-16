@@ -1,5 +1,9 @@
 ---
 id: sk-0085
+primary: A11
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0085
   - 劳动教育任务：不是体力强度，而是动员精神力量

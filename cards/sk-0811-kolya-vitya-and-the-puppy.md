@@ -1,5 +1,13 @@
 ---
 id: sk-0811
+primary: null
+seealso: []
+facets:
+  - S1
+  - S13
+  - S3
+  - S5
+tax_tags: []
 aliases:
   - sk-0811
   - 科利亚、维佳和小狗

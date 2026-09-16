@@ -1,5 +1,10 @@
 ---
 id: sk-0049
+primary: A6
+seealso:
+  - A8
+facets: []
+tax_tags: []
 aliases:
   - sk-0049
   - 要了解孩子，就要清楚了解他的家庭

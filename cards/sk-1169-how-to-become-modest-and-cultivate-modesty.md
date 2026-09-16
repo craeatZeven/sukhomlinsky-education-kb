@@ -1,5 +1,10 @@
 ---
 id: sk-1169
+primary: A19
+seealso:
+  - A4
+facets: []
+tax_tags: []
 aliases:
   - sk-1169
   - 如何成为谦虚的人，怎样培养谦虚

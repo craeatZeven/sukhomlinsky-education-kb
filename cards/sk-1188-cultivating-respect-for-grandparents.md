@@ -1,5 +1,10 @@
 ---
 id: sk-1188
+primary: A8
+seealso:
+  - A19
+facets: []
+tax_tags: []
 aliases:
   - sk-1188
   - 培养尊敬爷爷奶奶的情感

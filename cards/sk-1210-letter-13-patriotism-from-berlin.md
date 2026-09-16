@@ -1,5 +1,9 @@
 ---
 id: sk-1210
+primary: A2
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1210
   - 第13封信：从柏林谈对祖国的责任

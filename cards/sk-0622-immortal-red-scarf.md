@@ -1,5 +1,12 @@
 ---
 id: sk-0622
+primary: null
+seealso: []
+facets:
+  - S15
+  - S3
+  - S6
+tax_tags: []
 aliases:
   - sk-0622
   - 万古流芳的红领巾：一面旗被剪成五条仍是旗

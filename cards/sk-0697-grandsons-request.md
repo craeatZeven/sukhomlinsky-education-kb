@@ -1,5 +1,12 @@
 ---
 id: sk-0697
+primary: null
+seealso: []
+facets:
+  - S2
+  - S3
+  - S7
+tax_tags: []
 aliases:
   - sk-0697
   - 孙子的请求

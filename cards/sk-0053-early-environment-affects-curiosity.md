@@ -1,5 +1,10 @@
 ---
 id: sk-0053
+primary: A21
+seealso:
+  - A6
+facets: []
+tax_tags: []
 aliases:
   - sk-0053
   - 学龄前缺乏照看与信息，会熄灭好奇心

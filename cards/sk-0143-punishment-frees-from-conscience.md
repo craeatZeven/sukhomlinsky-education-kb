@@ -1,5 +1,10 @@
 ---
 id: sk-0143
+primary: A16
+seealso:
+  - A4
+facets: []
+tax_tags: []
 aliases:
   - sk-0143
   - 惩罚使孩子从良心的责备中解脱出来

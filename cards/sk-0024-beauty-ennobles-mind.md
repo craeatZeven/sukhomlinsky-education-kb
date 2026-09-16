@@ -1,5 +1,9 @@
 ---
 id: sk-0024
+primary: A14
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0024
   - 自然、书籍与人中的美，能使心灵变得高尚

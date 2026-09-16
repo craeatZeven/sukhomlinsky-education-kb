@@ -1,5 +1,12 @@
 ---
 id: sk-0932
+primary: null
+seealso: []
+facets:
+  - S1
+  - S10
+  - S7
+tax_tags: []
 aliases:
   - sk-0932
   - 小男孩们是怎么吃光了蜂蜜的

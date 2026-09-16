@@ -1,5 +1,10 @@
 ---
 id: sk-0325
+primary: A2
+seealso:
+  - A11
+facets: []
+tax_tags: []
 aliases:
   - sk-0325
   - 对故乡土地的主人翁感是最重要的爱国主义感情

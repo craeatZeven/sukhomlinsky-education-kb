@@ -1,5 +1,9 @@
 ---
 id: sk-1289
+primary: A4
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1289
   - 教育与自我教育

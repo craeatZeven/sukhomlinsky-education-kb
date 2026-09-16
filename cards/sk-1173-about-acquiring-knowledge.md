@@ -1,5 +1,10 @@
 ---
 id: sk-1173
+primary: A15
+seealso:
+  - A20
+facets: []
+tax_tags: []
 aliases:
   - sk-1173
   - 关于获取知识

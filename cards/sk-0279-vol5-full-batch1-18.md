@@ -1,5 +1,9 @@
 ---
 id: sk-0279
+primary: A9
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0279
   - 一个人只有也在教育别人时，才能更好地受教育

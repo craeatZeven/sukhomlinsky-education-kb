@@ -1,5 +1,10 @@
 ---
 id: sk-0698
+primary: null
+seealso: []
+facets:
+  - S8
+tax_tags: []
 aliases:
   - sk-0698
   - 爷爷的腰带

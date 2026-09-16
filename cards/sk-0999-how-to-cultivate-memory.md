@@ -1,5 +1,9 @@
 ---
 id: sk-0999
+primary: A15
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0999
   - 怎样培养记忆力

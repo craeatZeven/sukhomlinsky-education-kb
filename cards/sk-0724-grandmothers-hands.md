@@ -1,5 +1,13 @@
 ---
 id: sk-0724
+primary: null
+seealso: []
+facets:
+  - S1
+  - S12
+  - S2
+  - S7
+tax_tags: []
 aliases:
   - sk-0724
   - 奶奶的手

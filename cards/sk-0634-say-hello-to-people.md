@@ -1,5 +1,15 @@
 ---
 id: sk-0634
+primary: null
+seealso: []
+facets:
+  - S10
+  - S11
+  - S13
+  - S2
+  - S4
+  - S6
+tax_tags: []
 aliases:
   - sk-0634
   - 对人说“您好”：一句问候让世界变亮

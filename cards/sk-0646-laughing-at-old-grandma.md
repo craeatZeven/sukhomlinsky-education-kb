@@ -1,5 +1,11 @@
 ---
 id: sk-0646
+primary: null
+seealso: []
+facets:
+  - S2
+  - S3
+tax_tags: []
 aliases:
   - sk-0646
   - 嘲笑老奶奶：看着别人无助而发笑，是在做一件大坏事

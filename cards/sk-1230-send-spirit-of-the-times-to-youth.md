@@ -1,5 +1,9 @@
 ---
 id: sk-1230
+primary: null
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1230
   - 怎样把时代精神送到青少年的心坎里

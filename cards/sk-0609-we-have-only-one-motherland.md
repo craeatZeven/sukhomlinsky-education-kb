@@ -1,5 +1,11 @@
 ---
 id: sk-0609
+primary: null
+seealso: []
+facets:
+  - S1
+  - S15
+tax_tags: []
 aliases:
   - sk-0609
   - 我们只有一个母亲——祖国：两位母亲在无名战士墓前认作姐妹

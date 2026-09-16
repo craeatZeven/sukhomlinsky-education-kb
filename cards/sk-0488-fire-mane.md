@@ -1,5 +1,12 @@
 ---
 id: sk-0488
+primary: null
+seealso: []
+facets:
+  - S1
+  - S4
+  - S7
+tax_tags: []
 aliases:
   - sk-0488
   - 火鬃：父亲雕的木马在孩子梦里活起来

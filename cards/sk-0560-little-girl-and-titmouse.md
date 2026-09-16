@@ -1,5 +1,13 @@
 ---
 id: sk-0560
+primary: null
+seealso: []
+facets:
+  - S11
+  - S13
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-0560
   - 小姑娘和山雀：女孩喂它一冬，它回赠一首歌

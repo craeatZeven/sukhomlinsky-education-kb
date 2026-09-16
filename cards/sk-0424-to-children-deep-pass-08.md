@@ -1,5 +1,10 @@
 ---
 id: sk-0424
+primary: A11
+seealso:
+  - A14
+facets: []
+tax_tags: []
 aliases:
   - sk-0424
   - 为创造美而劳动，会使孩子变得更好更美

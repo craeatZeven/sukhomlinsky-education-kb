@@ -1,5 +1,10 @@
 ---
 id: sk-0386
+primary: A5
+seealso:
+  - A2
+facets: []
+tax_tags: []
 aliases:
   - sk-0386
   - 教育艺术：让孩子不再是被动受教育者

@@ -1,5 +1,10 @@
 ---
 id: sk-1377
+primary: A12
+seealso:
+  - A13
+facets: []
+tax_tags: []
 aliases:
   - sk-1377
   - 怎样使学生们具有知识的欢乐

@@ -1,5 +1,10 @@
 ---
 id: sk-1379
+primary: A19
+seealso:
+  - A8
+facets: []
+tax_tags: []
 aliases:
   - sk-1379
   - 怎样培养青年们正确对待爱

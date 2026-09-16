@@ -1,5 +1,13 @@
 ---
 id: sk-0081
+primary: null
+seealso: []
+facets:
+  - S1
+  - S12
+  - S17
+  - S7
+tax_tags: []
 aliases:
   - sk-0081
   - 父亲用沉默纠正谎言：家庭靠关系与榜样，不靠说教

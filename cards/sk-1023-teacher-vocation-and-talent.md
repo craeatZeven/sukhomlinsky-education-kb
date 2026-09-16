@@ -1,5 +1,11 @@
 ---
 id: sk-1023
+primary: A10
+seealso:
+  - A5
+  - A6
+facets: []
+tax_tags: []
 aliases:
   - sk-1023
   - 什么是从事教师工作的才能，它是怎样形成的

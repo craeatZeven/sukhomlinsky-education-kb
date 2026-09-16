@@ -1,5 +1,9 @@
 ---
 id: sk-0069
+primary: A7
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0069
   - 关心儿童的健康是教育者最重要的工作

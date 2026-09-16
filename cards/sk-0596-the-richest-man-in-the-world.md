@@ -1,5 +1,12 @@
 ---
 id: sk-0596
+primary: null
+seealso: []
+facets:
+  - S10
+  - S2
+  - S4
+tax_tags: []
 aliases:
   - sk-0596
   - 世界上最富的人：人人都是土地和劳动的主人

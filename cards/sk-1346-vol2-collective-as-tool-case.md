@@ -1,5 +1,11 @@
 ---
 id: sk-1346
+primary: null
+seealso: []
+facets:
+  - S3
+  - S8
+tax_tags: []
 aliases:
   - sk-1346
   - 集体是教育的工具，怎样建立集体它靠什么来维持

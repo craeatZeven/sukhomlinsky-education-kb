@@ -1,5 +1,11 @@
 ---
 id: sk-0740
+primary: null
+seealso: []
+facets:
+  - S1
+  - S14
+tax_tags: []
 aliases:
   - sk-0740
   - 母亲灰白色的辫子

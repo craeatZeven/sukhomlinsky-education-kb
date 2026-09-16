@@ -1,5 +1,10 @@
 ---
 id: sk-0282
+primary: A11
+seealso:
+  - A1
+facets: []
+tax_tags: []
 aliases:
   - sk-0282
   - 一个人全面发展的基础，孕育于自己所喜爱的劳动之中

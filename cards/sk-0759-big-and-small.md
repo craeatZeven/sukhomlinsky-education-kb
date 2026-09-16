@@ -1,5 +1,10 @@
 ---
 id: sk-0759
+primary: null
+seealso: []
+facets:
+  - S5
+tax_tags: []
 aliases:
   - sk-0759
   - 大的和小的

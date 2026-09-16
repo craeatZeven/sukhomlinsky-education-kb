@@ -1,5 +1,10 @@
 ---
 id: sk-0218
+primary: A15
+seealso:
+  - A22
+facets: []
+tax_tags: []
 aliases:
   - sk-0218
   - 三大支柱：明晰的思维、生动的语言、创造活动

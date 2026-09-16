@@ -1,5 +1,15 @@
 ---
 id: sk-0883
+primary: null
+seealso: []
+facets:
+  - S1
+  - S12
+  - S17
+  - S3
+  - S4
+  - S6
+tax_tags: []
 aliases:
   - sk-0883
   - 五棵橡树

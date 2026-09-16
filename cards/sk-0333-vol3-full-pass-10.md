@@ -1,5 +1,10 @@
 ---
 id: sk-0333
+primary: A1
+seealso:
+  - A4
+facets: []
+tax_tags: []
 aliases:
   - sk-0333
   - 五年寒窗培养工程师，学会做人需要一辈子

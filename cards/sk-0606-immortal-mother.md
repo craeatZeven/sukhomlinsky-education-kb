@@ -1,5 +1,13 @@
 ---
 id: sk-0606
+primary: null
+seealso: []
+facets:
+  - S1
+  - S15
+  - S2
+  - S6
+tax_tags: []
 aliases:
   - sk-0606
   - 永生的母亲：他有一位天天来送花的母亲

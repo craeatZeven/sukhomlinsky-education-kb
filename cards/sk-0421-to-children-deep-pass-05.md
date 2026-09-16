@@ -1,5 +1,9 @@
 ---
 id: sk-0421
+primary: A7
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0421
   - 只靠夏天不能保住孩子的健康：冬天也是锻炼好时节

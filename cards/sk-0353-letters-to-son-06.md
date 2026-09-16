@@ -1,5 +1,10 @@
 ---
 id: sk-0353
+primary: A1
+seealso:
+  - A4
+facets: []
+tax_tags: []
 aliases:
   - sk-0353
   - 学会做人需要一辈子

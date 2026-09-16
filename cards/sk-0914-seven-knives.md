@@ -1,5 +1,12 @@
 ---
 id: sk-0914
+primary: null
+seealso: []
+facets:
+  - S12
+  - S4
+  - S9
+tax_tags: []
 aliases:
   - sk-0914
   - 七把刀

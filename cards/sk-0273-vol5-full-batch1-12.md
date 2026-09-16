@@ -1,5 +1,9 @@
 ---
 id: sk-0273
+primary: A1
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0273
   - 教师要做灵巧的珠宝匠，开发每个学生独特的人格之美

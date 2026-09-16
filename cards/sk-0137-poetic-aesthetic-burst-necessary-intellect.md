@@ -1,5 +1,10 @@
 ---
 id: sk-0137
+primary: A15
+seealso:
+  - A14
+facets: []
+tax_tags: []
 aliases:
   - sk-0137
   - 没有诗意与审美情感的迸发，就无法充分发展儿童的智力

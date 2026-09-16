@@ -1,5 +1,12 @@
 ---
 id: sk-0904
+primary: null
+seealso: []
+facets:
+  - S16
+  - S4
+  - S8
+tax_tags: []
 aliases:
   - sk-0904
   - 如果时间停止，将会发生什么

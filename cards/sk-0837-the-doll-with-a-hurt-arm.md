@@ -1,5 +1,10 @@
 ---
 id: sk-0837
+primary: null
+seealso: []
+facets:
+  - S17
+tax_tags: []
 aliases:
   - sk-0837
   - 胳膊受伤的娃娃

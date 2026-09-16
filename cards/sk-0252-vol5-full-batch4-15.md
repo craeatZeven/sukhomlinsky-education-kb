@@ -1,5 +1,9 @@
 ---
 id: sk-0252
+primary: A8
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0252
   - 爱是一种艰苦劳动：在子女身上延续自己

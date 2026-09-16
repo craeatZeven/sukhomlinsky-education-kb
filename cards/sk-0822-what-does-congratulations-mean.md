@@ -1,5 +1,12 @@
 ---
 id: sk-0822
+primary: null
+seealso: []
+facets:
+  - S3
+  - S4
+  - S8
+tax_tags: []
 aliases:
   - sk-0822
   - “祝贺”这个词是什么意思

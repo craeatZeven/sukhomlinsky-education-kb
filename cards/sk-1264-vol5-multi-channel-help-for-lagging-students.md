@@ -1,5 +1,10 @@
 ---
 id: sk-1264
+primary: A15
+seealso: []
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-1264
   - 班里的后进生

@@ -1,5 +1,11 @@
 ---
 id: sk-1362
+primary: null
+seealso: []
+facets:
+  - S1
+  - S15
+tax_tags: []
 aliases:
   - sk-1362
   - 人应当尊敬地纪念自己的先辈

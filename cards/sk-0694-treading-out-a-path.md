@@ -1,5 +1,13 @@
 ---
 id: sk-0694
+primary: null
+seealso: []
+facets:
+  - S1
+  - S13
+  - S3
+  - S6
+tax_tags: []
 aliases:
   - sk-0694
   - 踩出一条小路

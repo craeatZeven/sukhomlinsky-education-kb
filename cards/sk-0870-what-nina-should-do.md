@@ -1,5 +1,12 @@
 ---
 id: sk-0870
+primary: null
+seealso: []
+facets:
+  - S1
+  - S12
+  - S7
+tax_tags: []
 aliases:
   - sk-0870
   - 尼娜应该做些什么事

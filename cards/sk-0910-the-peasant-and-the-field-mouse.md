@@ -1,5 +1,13 @@
 ---
 id: sk-0910
+primary: null
+seealso: []
+facets:
+  - S12
+  - S4
+  - S5
+  - S9
+tax_tags: []
 aliases:
   - sk-0910
   - 农人与田鼠

@@ -1,5 +1,10 @@
 ---
 id: sk-0766
+primary: null
+seealso: []
+facets:
+  - S4
+tax_tags: []
 aliases:
   - sk-0766
   - 沉睡的书

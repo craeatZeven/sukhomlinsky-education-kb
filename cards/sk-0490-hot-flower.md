@@ -1,5 +1,11 @@
 ---
 id: sk-0490
+primary: null
+seealso: []
+facets:
+  - S11
+  - S6
+tax_tags: []
 aliases:
   - sk-0490
   - 热的花朵：春雪里唯一鲜红的玫瑰

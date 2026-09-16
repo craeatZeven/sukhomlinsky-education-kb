@@ -1,5 +1,12 @@
 ---
 id: sk-0440
+primary: null
+seealso: []
+facets:
+  - S11
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-0440
   - 骄傲的蒲公英：真正的美与谦虚分不开

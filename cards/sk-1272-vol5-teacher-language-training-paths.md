@@ -1,5 +1,10 @@
 ---
 id: sk-1272
+primary: A22
+seealso:
+  - A16
+facets: []
+tax_tags: []
 aliases:
   - sk-1272
   - 德育中的教师语言

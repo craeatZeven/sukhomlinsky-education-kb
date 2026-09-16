@@ -1,5 +1,13 @@
 ---
 id: sk-0638
+primary: null
+seealso: []
+facets:
+  - S13
+  - S15
+  - S4
+  - S6
+tax_tags: []
 aliases:
   - sk-0638
   - 快乐和悲伤：快乐应该永远让位于悲伤

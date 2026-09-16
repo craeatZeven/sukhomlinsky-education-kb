@@ -1,5 +1,12 @@
 ---
 id: sk-0598
+primary: null
+seealso: []
+facets:
+  - S1
+  - S14
+  - S6
+tax_tags: []
 aliases:
   - sk-0598
   - 我想回家：最珍贵的不是风景多美，而是自己出生的地方

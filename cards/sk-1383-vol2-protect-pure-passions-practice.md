@@ -1,5 +1,10 @@
 ---
 id: sk-1383
+primary: A19
+seealso:
+  - A5
+facets: []
+tax_tags: []
 aliases:
   - sk-1383
   - 要保护青少年内心的纯洁激情

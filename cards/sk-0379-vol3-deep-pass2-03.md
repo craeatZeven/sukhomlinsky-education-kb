@@ -1,5 +1,10 @@
 ---
 id: sk-0379
+primary: A13
+seealso:
+  - A14
+facets: []
+tax_tags: []
 aliases:
   - sk-0379
   - 教读写要让孩子置身美与游戏的世界

@@ -1,5 +1,10 @@
 ---
 id: sk-0003
+primary: A5
+seealso: []
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-0003
   - 教育失灵不是孩子不可救药，而是路径错了

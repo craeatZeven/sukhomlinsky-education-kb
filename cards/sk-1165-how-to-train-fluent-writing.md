@@ -1,5 +1,9 @@
 ---
 id: sk-1165
+primary: A23
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1165
   - 怎样训练儿童流利地书写

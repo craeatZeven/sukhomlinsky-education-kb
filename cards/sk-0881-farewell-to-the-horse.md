@@ -1,5 +1,13 @@
 ---
 id: sk-0881
+primary: null
+seealso: []
+facets:
+  - S14
+  - S2
+  - S5
+  - S9
+tax_tags: []
 aliases:
   - sk-0881
   - 跟马告别

@@ -1,5 +1,10 @@
 ---
 id: sk-1363
+primary: A19
+seealso:
+  - A3
+facets: []
+tax_tags: []
 aliases:
   - sk-1363
   - 怎样教会孩子善于理解人的悲痛

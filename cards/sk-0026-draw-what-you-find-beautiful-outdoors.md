@@ -1,5 +1,9 @@
 ---
 id: sk-0026
+primary: A14
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0026
   - 到户外去：画你眼中觉得美的东西

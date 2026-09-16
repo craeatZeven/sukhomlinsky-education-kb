@@ -1,5 +1,11 @@
 ---
 id: sk-0517
+primary: null
+seealso: []
+facets:
+  - S6
+  - S9
+tax_tags: []
 aliases:
   - sk-0517
   - 田野和草地：我变绿是因为人们劳动播种

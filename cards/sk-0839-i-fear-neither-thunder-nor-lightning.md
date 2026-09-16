@@ -1,5 +1,13 @@
 ---
 id: sk-0839
+primary: null
+seealso: []
+facets:
+  - S16
+  - S17
+  - S3
+  - S6
+tax_tags: []
 aliases:
   - sk-0839
   - 我既不怕雷鸣，也不怕闪电

@@ -1,5 +1,12 @@
 ---
 id: sk-0730
+primary: null
+seealso: []
+facets:
+  - S1
+  - S14
+  - S5
+tax_tags: []
 aliases:
   - sk-0730
   - 最美丽的妈妈

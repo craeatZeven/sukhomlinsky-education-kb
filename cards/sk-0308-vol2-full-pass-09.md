@@ -1,5 +1,9 @@
 ---
 id: sk-0308
+primary: A19
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0308
   - 教学生用心灵了解人，善意就能创造奇迹

@@ -1,5 +1,10 @@
 ---
 id: sk-0057
+primary: A4
+seealso:
+  - A13
+facets: []
+tax_tags: []
 aliases:
   - sk-0057
   - 自我教育与精神生活，从读书开始

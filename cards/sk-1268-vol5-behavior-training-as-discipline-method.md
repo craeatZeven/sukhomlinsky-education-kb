@@ -1,5 +1,11 @@
 ---
 id: sk-1268
+primary: A17
+seealso:
+  - A9
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-1268
   - 行为训练是自觉纪律教育的一种方法

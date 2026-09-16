@@ -1,5 +1,10 @@
 ---
 id: sk-1118
+primary: A4
+seealso:
+  - A6
+facets: []
+tax_tags: []
 aliases:
   - sk-1118
   - 思想变为信念

@@ -1,5 +1,10 @@
 ---
 id: sk-0295
+primary: A5
+seealso: []
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-0295
   - 加强难教儿童对自己力量的信心，耐心等待微小进步

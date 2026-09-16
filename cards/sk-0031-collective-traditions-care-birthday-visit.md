@@ -1,5 +1,10 @@
 ---
 id: sk-0031
+primary: A9
+seealso:
+  - A19
+facets: []
+tax_tags: []
 aliases:
   - sk-0031
   - 集体传统：为没有过过生日的孩子庆祝生日

@@ -1,5 +1,12 @@
 ---
 id: sk-0597
+primary: null
+seealso: []
+facets:
+  - S15
+  - S3
+  - S6
+tax_tags: []
 aliases:
   - sk-0597
   - 墓地上的三棵白桦树：无风时的沙沙声让孩子想起烈士

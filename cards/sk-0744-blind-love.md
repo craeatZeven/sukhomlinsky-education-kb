@@ -1,5 +1,12 @@
 ---
 id: sk-0744
+primary: null
+seealso: []
+facets:
+  - S1
+  - S2
+  - S3
+tax_tags: []
 aliases:
   - sk-0744
   - 盲目的爱

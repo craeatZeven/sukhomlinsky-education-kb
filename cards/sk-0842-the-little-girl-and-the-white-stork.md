@@ -1,5 +1,11 @@
 ---
 id: sk-0842
+primary: null
+seealso: []
+facets:
+  - S1
+  - S5
+tax_tags: []
 aliases:
   - sk-0842
   - 小女孩和白鹳

@@ -1,5 +1,10 @@
 ---
 id: sk-1226
+primary: A2
+seealso:
+  - A9
+facets: []
+tax_tags: []
 aliases:
   - sk-1226
   - 怎样教育共青团员关心公共利益

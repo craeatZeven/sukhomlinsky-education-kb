@@ -1,5 +1,10 @@
 ---
 id: sk-1174
+primary: A11
+seealso:
+  - A15
+facets: []
+tax_tags: []
 aliases:
   - sk-1174
   - 学生学习课程的积极活动内容

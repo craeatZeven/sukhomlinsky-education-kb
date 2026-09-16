@@ -1,5 +1,10 @@
 ---
 id: sk-0094
+primary: A15
+seealso:
+  - A7
+facets: []
+tax_tags: []
 aliases:
   - sk-0094
   - 完满的脑力劳动来自细心组织而非速度

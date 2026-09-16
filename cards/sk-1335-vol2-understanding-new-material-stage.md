@@ -1,5 +1,10 @@
 ---
 id: sk-1335
+primary: A22
+seealso:
+  - A20
+facets: []
+tax_tags: []
 aliases:
   - sk-1335
   - 理解新教材是课堂教学的一个阶段

@@ -1,5 +1,12 @@
 ---
 id: sk-0969
+primary: null
+seealso: []
+facets:
+  - S13
+  - S3
+  - S8
+tax_tags: []
 aliases:
   - sk-0969
   - 胆小的孩子

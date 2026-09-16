@@ -1,5 +1,10 @@
 ---
 id: sk-1032
+primary: A1
+seealso:
+  - A11
+facets: []
+tax_tags: []
 aliases:
   - sk-1032
   - 第6封信：天赋与教育，人是自己志向的创造者

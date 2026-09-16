@@ -1,5 +1,9 @@
 ---
 id: sk-1168
+primary: A19
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1168
   - 怎样教会孩子善于理解人的悲痛

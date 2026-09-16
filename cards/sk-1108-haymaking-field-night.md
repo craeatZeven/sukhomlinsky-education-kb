@@ -1,5 +1,16 @@
 ---
 id: sk-1108
+primary: null
+seealso: []
+facets:
+  - S11
+  - S12
+  - S2
+  - S3
+  - S5
+  - S6
+  - S9
+tax_tags: []
 aliases:
   - sk-1108
   - 刈草场之夜

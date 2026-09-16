@@ -1,5 +1,11 @@
 ---
 id: sk-0733
+primary: null
+seealso: []
+facets:
+  - S1
+  - S9
+tax_tags: []
 aliases:
   - sk-0733
   - 人为什么会心痛

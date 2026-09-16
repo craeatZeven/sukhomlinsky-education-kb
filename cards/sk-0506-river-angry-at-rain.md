@@ -1,5 +1,10 @@
 ---
 id: sk-0506
+primary: null
+seealso: []
+facets:
+  - S6
+tax_tags: []
 aliases:
   - sk-0506
   - 河流是怎样对小雨点大发脾气的：没有灰色的我，也就没有你

@@ -1,5 +1,13 @@
 ---
 id: sk-0924
+primary: null
+seealso: []
+facets:
+  - S1
+  - S12
+  - S6
+  - S7
+tax_tags: []
 aliases:
   - sk-0924
   - 谁去打柴

@@ -1,5 +1,13 @@
 ---
 id: sk-0896
+primary: null
+seealso: []
+facets:
+  - S1
+  - S12
+  - S17
+  - S9
+tax_tags: []
 aliases:
   - sk-0896
   - 费佳怎样觉出自己是一个“人”

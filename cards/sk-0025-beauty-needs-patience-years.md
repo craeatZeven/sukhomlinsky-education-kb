@@ -1,5 +1,9 @@
 ---
 id: sk-0025
+primary: A14
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0025
   - 美的唤醒需要耐心：不是指给孩子看，而是等待他真正被触动

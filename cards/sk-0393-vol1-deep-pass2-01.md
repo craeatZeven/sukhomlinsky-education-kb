@@ -1,5 +1,9 @@
 ---
 id: sk-0393
+primary: A16
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0393
   - 分数不是衡量孩子的唯一标尺

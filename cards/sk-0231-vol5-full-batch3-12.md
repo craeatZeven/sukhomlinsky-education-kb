@@ -1,5 +1,10 @@
 ---
 id: sk-0231
+primary: A22
+seealso:
+  - A5
+facets: []
+tax_tags: []
 aliases:
   - sk-0231
   - 语言可提高人也可贬低人：最可怕的是让人相信自己微不足道

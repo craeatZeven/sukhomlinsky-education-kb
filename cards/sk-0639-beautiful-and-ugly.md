@@ -1,5 +1,16 @@
 ---
 id: sk-0639
+primary: null
+seealso: []
+facets:
+  - S13
+  - S15
+  - S17
+  - S2
+  - S4
+  - S6
+  - S8
+tax_tags: []
 aliases:
   - sk-0639
   - 美丽的和丑陋的：心灵的美丑写在如何对待他人上

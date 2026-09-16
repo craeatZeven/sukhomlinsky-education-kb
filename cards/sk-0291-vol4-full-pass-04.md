@@ -1,5 +1,9 @@
 ---
 id: sk-0291
+primary: A15
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0291
   - 教师不把知识积累当最终目的，才能实现智育

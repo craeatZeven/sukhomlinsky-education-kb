@@ -1,5 +1,9 @@
 ---
 id: sk-1050
+primary: A4
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1050
   - 第11封信：培养自己的情感境界

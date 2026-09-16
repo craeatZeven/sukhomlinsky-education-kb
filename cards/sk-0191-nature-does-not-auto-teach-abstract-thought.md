@@ -1,5 +1,10 @@
 ---
 id: sk-0191
+primary: A15
+seealso:
+  - A12
+facets: []
+tax_tags: []
 aliases:
   - sk-0191
   - 大自然不会自动教会思考：只有能作抽象思维，自然才成为思维的学校

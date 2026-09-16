@@ -1,5 +1,9 @@
 ---
 id: sk-0176
+primary: A8
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0176
   - 460 个犯罪少年家庭中没有一个有家庭藏书

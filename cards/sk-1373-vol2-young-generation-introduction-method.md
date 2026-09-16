@@ -1,5 +1,9 @@
 ---
 id: sk-1373
+primary: A4
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1373
   - 年轻一代共产主义信念的形成（绪论）

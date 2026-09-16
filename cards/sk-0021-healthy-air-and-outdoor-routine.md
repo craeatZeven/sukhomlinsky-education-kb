@@ -1,5 +1,9 @@
 ---
 id: sk-0021
+primary: A7
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0021
   - 新鲜空气与户外作息是健康的“灵丹妙药”

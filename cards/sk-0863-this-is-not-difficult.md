@@ -1,5 +1,13 @@
 ---
 id: sk-0863
+primary: null
+seealso: []
+facets:
+  - S1
+  - S17
+  - S4
+  - S8
+tax_tags: []
 aliases:
   - sk-0863
   - 这不困难

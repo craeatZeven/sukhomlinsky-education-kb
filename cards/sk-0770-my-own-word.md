@@ -1,5 +1,14 @@
 ---
 id: sk-0770
+primary: null
+seealso: []
+facets:
+  - S11
+  - S3
+  - S4
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-0770
   - 我想说自己的词

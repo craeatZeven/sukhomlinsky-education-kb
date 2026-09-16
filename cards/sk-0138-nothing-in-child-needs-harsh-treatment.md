@@ -1,5 +1,9 @@
 ---
 id: sk-0138
+primary: A5
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0138
   - 儿童身上没有需要教师严酷对待的东西

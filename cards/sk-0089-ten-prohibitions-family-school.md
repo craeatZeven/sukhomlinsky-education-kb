@@ -1,5 +1,10 @@
 ---
 id: sk-0089
+primary: A19
+seealso:
+  - A8
+facets: []
+tax_tags: []
 aliases:
   - sk-0089
   - 家校共同遵守的“十不准”

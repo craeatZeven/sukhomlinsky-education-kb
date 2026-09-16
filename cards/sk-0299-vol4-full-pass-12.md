@@ -1,5 +1,9 @@
 ---
 id: sk-0299
+primary: A10
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0299
   - 善于预见，首先要善于回顾走过的道路

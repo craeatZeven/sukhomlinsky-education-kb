@@ -1,5 +1,10 @@
 ---
 id: sk-0086
+primary: A11
+seealso:
+  - A4
+facets: []
+tax_tags: []
 aliases:
   - sk-0086
   - 持续数年的劳动任务，比频繁换活动更能炼意志

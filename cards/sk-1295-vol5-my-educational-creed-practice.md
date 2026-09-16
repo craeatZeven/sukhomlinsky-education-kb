@@ -1,5 +1,10 @@
 ---
 id: sk-1295
+primary: A1
+seealso:
+  - A4
+facets: []
+tax_tags: []
 aliases:
   - sk-1295
   - 我的教育信念

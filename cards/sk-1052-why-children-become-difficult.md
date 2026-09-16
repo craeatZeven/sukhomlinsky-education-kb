@@ -1,5 +1,10 @@
 ---
 id: sk-1052
+primary: A21
+seealso: []
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-1052
   - 他们为什么变成了难教儿童

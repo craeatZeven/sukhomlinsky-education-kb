@@ -1,5 +1,9 @@
 ---
 id: sk-0175
+primary: A15
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0175
   - 在儿童闻到词语的芬芳之前，不要开始识字教学

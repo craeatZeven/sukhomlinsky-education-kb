@@ -1,5 +1,15 @@
 ---
 id: sk-0203
+primary: null
+seealso: []
+facets:
+  - S1
+  - S10
+  - S13
+  - S2
+  - S3
+  - S9
+tax_tags: []
 aliases:
   - sk-0203
   - 浇完菜又捉弄老人的少先队员：没有内在动机的‘好事’

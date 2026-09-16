@@ -1,5 +1,9 @@
 ---
 id: sk-1139
+primary: A10
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1139
   - 集体研究“思维与情感的统一”问题

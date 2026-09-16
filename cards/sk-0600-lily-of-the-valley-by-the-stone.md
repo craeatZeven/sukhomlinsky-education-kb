@@ -1,5 +1,13 @@
 ---
 id: sk-0600
+primary: null
+seealso: []
+facets:
+  - S15
+  - S2
+  - S3
+  - S6
+tax_tags: []
 aliases:
   - sk-0600
   - 石头旁的铃兰花：每朵花是英雄的一滴血

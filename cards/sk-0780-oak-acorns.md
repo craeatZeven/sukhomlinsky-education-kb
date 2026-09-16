@@ -1,5 +1,14 @@
 ---
 id: sk-0780
+primary: null
+seealso: []
+facets:
+  - S1
+  - S12
+  - S4
+  - S7
+  - S8
+tax_tags: []
 aliases:
   - sk-0780
   - 柞树果

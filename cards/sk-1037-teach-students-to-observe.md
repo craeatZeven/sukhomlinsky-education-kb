@@ -1,5 +1,9 @@
 ---
 id: sk-1037
+primary: A15
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1037
   - 观察是知识的理解和记忆之母：教学生观察、教学生细看

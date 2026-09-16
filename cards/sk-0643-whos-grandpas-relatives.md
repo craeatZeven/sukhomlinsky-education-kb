@@ -1,5 +1,13 @@
 ---
 id: sk-0643
+primary: null
+seealso: []
+facets:
+  - S15
+  - S2
+  - S4
+  - S7
+tax_tags: []
 aliases:
   - sk-0643
   - 谁是爷爷的亲戚：他是所有诚实的人的亲戚

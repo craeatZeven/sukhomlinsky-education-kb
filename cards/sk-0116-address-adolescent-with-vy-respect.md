@@ -1,5 +1,9 @@
 ---
 id: sk-0116
+primary: A5
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0116
   - 用“您”称呼少年：以尊重的语言确认人格

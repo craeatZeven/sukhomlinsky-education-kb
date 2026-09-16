@@ -1,5 +1,14 @@
 ---
 id: sk-0905
+primary: null
+seealso: []
+facets:
+  - S12
+  - S17
+  - S2
+  - S3
+  - S8
+tax_tags: []
 aliases:
   - sk-0905
   - 有洞的桶

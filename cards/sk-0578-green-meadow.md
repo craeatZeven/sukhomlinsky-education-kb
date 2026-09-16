@@ -1,5 +1,13 @@
 ---
 id: sk-0578
+primary: null
+seealso: []
+facets:
+  - S1
+  - S11
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-0578
   - 绿色的草地：童年的一望无际，是祖国最娇嫩的幼芽

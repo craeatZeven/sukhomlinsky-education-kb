@@ -1,5 +1,12 @@
 ---
 id: sk-0791
+primary: null
+seealso: []
+facets:
+  - S17
+  - S4
+  - S8
+tax_tags: []
 aliases:
   - sk-0791
   - 作弊的小纸条

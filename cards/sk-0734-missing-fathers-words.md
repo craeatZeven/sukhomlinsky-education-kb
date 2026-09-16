@@ -1,5 +1,13 @@
 ---
 id: sk-0734
+primary: null
+seealso: []
+facets:
+  - S1
+  - S3
+  - S4
+  - S8
+tax_tags: []
 aliases:
   - sk-0734
   - 怀念父亲的话

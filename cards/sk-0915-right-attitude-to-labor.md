@@ -1,5 +1,12 @@
 ---
 id: sk-0915
+primary: null
+seealso: []
+facets:
+  - S12
+  - S3
+  - S4
+tax_tags: []
 aliases:
   - sk-0915
   - 必须正确地对待劳动

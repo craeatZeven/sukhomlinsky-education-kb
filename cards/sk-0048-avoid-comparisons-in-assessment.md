@@ -1,5 +1,9 @@
 ---
 id: sk-0048
+primary: A16
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0048
   - 评价时避免“谁好谁差”的公开比较

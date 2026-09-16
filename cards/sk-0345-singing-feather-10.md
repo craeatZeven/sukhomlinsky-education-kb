@@ -1,5 +1,12 @@
 ---
 id: sk-0345
+primary: null
+seealso: []
+facets:
+  - S1
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-0345
   - 火和小麻雀

@@ -1,5 +1,9 @@
 ---
 id: sk-0039
+primary: A5
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0039
   - 要成为真正的儿童教育者，就必须把自己的心奉献给他们

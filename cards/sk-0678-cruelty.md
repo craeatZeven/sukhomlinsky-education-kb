@@ -1,5 +1,15 @@
 ---
 id: sk-0678
+primary: null
+seealso: []
+facets:
+  - S1
+  - S15
+  - S4
+  - S5
+  - S6
+  - S7
+tax_tags: []
 aliases:
   - sk-0678
   - 残酷：父亲的一句“救不了所有的”，成了孩子一生的冷血

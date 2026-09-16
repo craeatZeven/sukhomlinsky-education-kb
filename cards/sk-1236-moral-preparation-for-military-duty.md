@@ -1,5 +1,9 @@
 ---
 id: sk-1236
+primary: A19
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1236
   - 怎样培养学生在道德上准备当军人的天职

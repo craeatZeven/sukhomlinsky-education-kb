@@ -1,5 +1,12 @@
 ---
 id: sk-0114
+primary: null
+seealso: []
+facets:
+  - S12
+  - S4
+  - S8
+tax_tags: []
 aliases:
   - sk-0114
   - 少年维塔利的质问：当孩子说出痛苦的真理

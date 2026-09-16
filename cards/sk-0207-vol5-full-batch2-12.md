@@ -1,5 +1,11 @@
 ---
 id: sk-0207
+primary: A16
+seealso:
+  - A20
+  - A5
+facets: []
+tax_tags: []
 aliases:
   - sk-0207
   - 把评分当作少用的‘手术器械’

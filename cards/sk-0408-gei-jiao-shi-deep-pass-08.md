@@ -1,5 +1,9 @@
 ---
 id: sk-0408
+primary: A8
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0408
   - 怎样使学校教育和家庭教育保持一致？

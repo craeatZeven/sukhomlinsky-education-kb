@@ -1,5 +1,10 @@
 ---
 id: sk-1076
+primary: A19
+seealso:
+  - A4
+facets: []
+tax_tags: []
 aliases:
   - sk-1076
   - 什么是个性的尊严以及怎样培养它

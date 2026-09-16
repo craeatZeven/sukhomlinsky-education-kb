@@ -1,5 +1,11 @@
 ---
 id: sk-1275
+primary: A7
+seealso:
+  - A6
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-1275
   - 我们的职责是培养人

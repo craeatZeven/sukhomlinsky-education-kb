@@ -1,5 +1,13 @@
 ---
 id: sk-0954
+primary: null
+seealso: []
+facets:
+  - S11
+  - S16
+  - S2
+  - S6
+tax_tags: []
 aliases:
   - sk-0954
   - 笑容

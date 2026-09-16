@@ -1,5 +1,10 @@
 ---
 id: sk-1205
+primary: A19
+seealso:
+  - A8
+facets: []
+tax_tags: []
 aliases:
   - sk-1205
   - 怎样教学生们成为好子女

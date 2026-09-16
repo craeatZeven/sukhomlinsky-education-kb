@@ -1,5 +1,10 @@
 ---
 id: sk-0199
+primary: A19
+seealso:
+  - A14
+facets: []
+tax_tags: []
 aliases:
   - sk-0199
   - 秋季玫瑰节：让儿童为亲人种花行善

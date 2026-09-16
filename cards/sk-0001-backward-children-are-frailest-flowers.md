@@ -1,5 +1,10 @@
 ---
 id: sk-0001
+primary: A5
+seealso: []
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-0001
   - 后进生是花园里最娇嫩的花

@@ -1,5 +1,11 @@
 ---
 id: sk-0579
+primary: null
+seealso: []
+facets:
+  - S2
+  - S4
+tax_tags: []
 aliases:
   - sk-0579
   - 旧年和新年：三把钥匙交给人们——开发大地、种好粮田、守护祖国

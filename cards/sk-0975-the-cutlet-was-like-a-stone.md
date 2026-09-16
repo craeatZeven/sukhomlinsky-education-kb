@@ -1,5 +1,14 @@
 ---
 id: sk-0975
+primary: null
+seealso: []
+facets:
+  - S1
+  - S13
+  - S17
+  - S3
+  - S6
+tax_tags: []
 aliases:
   - sk-0975
   - 肉饼像石头一样

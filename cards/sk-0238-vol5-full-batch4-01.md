@@ -1,5 +1,10 @@
 ---
 id: sk-0238
+primary: A4
+seealso:
+  - A6
+facets: []
+tax_tags: []
 aliases:
   - sk-0238
   - 儿童不是白纸：信念培养是一场针对已有思想影响的斗争

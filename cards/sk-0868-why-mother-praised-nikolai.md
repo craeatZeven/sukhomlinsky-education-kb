@@ -1,5 +1,12 @@
 ---
 id: sk-0868
+primary: null
+seealso: []
+facets:
+  - S1
+  - S12
+  - S9
+tax_tags: []
 aliases:
   - sk-0868
   - 为什么母亲夸奖尼古拉

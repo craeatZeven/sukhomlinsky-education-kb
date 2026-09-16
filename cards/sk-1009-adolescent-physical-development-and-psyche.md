@@ -1,5 +1,9 @@
 ---
 id: sk-1009
+primary: A21
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1009
   - 少年的身体发育与心理素养

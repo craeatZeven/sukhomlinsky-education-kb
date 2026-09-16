@@ -1,5 +1,14 @@
 ---
 id: sk-0987
+primary: null
+seealso: []
+facets:
+  - S10
+  - S13
+  - S3
+  - S4
+  - S6
+tax_tags: []
 aliases:
   - sk-0987
   - 为什么对亚历山大愤怒了

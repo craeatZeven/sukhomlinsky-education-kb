@@ -1,5 +1,9 @@
 ---
 id: sk-0769
+primary: null
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0769
   - 两页书

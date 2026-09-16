@@ -1,5 +1,14 @@
 ---
 id: sk-0793
+primary: null
+seealso: []
+facets:
+  - S1
+  - S2
+  - S4
+  - S6
+  - S8
+tax_tags: []
 aliases:
   - sk-0793
   - 60年之后

@@ -1,5 +1,11 @@
 ---
 id: sk-1322
+primary: null
+seealso: []
+facets:
+  - S6
+  - S8
+tax_tags: []
 aliases:
   - sk-1322
   - 兴趣的奥秘何在

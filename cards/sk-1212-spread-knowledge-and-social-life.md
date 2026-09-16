@@ -1,5 +1,9 @@
 ---
 id: sk-1212
+primary: A2
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1212
   - 传播知识与参加社会生活

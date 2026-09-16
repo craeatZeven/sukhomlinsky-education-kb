@@ -1,5 +1,10 @@
 ---
 id: sk-1106
+primary: null
+seealso: []
+facets:
+  - S5
+tax_tags: []
 aliases:
   - sk-1106
   - 谁最聪明

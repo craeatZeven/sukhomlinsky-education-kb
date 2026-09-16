@@ -1,5 +1,10 @@
 ---
 id: sk-1196
+primary: A19
+seealso:
+  - A4
+facets: []
+tax_tags: []
 aliases:
   - sk-1196
   - 怎样使男女青年们具有人的欲望的素养

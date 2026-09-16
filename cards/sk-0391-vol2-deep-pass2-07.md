@@ -1,5 +1,10 @@
 ---
 id: sk-0391
+primary: A6
+seealso:
+  - A15
+facets: []
+tax_tags: []
 aliases:
   - sk-0391
   - 两种思维类型：逻辑分析与艺术形象

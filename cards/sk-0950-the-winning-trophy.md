@@ -1,5 +1,13 @@
 ---
 id: sk-0950
+primary: null
+seealso: []
+facets:
+  - S17
+  - S3
+  - S4
+  - S8
+tax_tags: []
 aliases:
   - sk-0950
   - 获胜的奖杯

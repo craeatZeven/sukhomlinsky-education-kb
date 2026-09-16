@@ -1,5 +1,11 @@
 ---
 id: sk-0550
+primary: null
+seealso: []
+facets:
+  - S11
+  - S6
+tax_tags: []
 aliases:
   - sk-0550
   - 田野里什么也没有：农艺师看见空荡田野里的美

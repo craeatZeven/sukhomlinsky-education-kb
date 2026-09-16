@@ -1,5 +1,14 @@
 ---
 id: sk-0668
+primary: null
+seealso: []
+facets:
+  - S1
+  - S15
+  - S17
+  - S2
+  - S7
+tax_tags: []
 aliases:
   - sk-0668
   - 两兄弟：母亲葬礼的那天，没有人去参加弟弟的婚礼

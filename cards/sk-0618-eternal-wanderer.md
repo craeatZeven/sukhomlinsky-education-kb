@@ -1,5 +1,13 @@
 ---
 id: sk-0618
+primary: null
+seealso: []
+facets:
+  - S1
+  - S16
+  - S17
+  - S7
+tax_tags: []
 aliases:
   - sk-0618
   - 永远的流浪者：母亲看见背上的伤，看见了真相

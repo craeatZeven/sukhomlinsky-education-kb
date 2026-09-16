@@ -1,5 +1,14 @@
 ---
 id: sk-0965
+primary: null
+seealso: []
+facets:
+  - S12
+  - S17
+  - S4
+  - S6
+  - S8
+tax_tags: []
 aliases:
   - sk-0965
   - 小苹果树活了

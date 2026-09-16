@@ -1,5 +1,9 @@
 ---
 id: sk-0064
+primary: A10
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0064
   - 每一节课都是用一生来备课的

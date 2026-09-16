@@ -1,5 +1,13 @@
 ---
 id: sk-0753
+primary: null
+seealso: []
+facets:
+  - S1
+  - S15
+  - S4
+  - S8
+tax_tags: []
 aliases:
   - sk-0753
   - 温柔的手

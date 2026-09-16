@@ -1,5 +1,10 @@
 ---
 id: sk-0257
+primary: A19
+seealso:
+  - A8
+facets: []
+tax_tags: []
 aliases:
   - sk-0257
   - 心灵劳动是与亲人的忧患与共：不要怕向年轻心灵揭示痛苦

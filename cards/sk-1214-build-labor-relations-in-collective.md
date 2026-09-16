@@ -1,5 +1,10 @@
 ---
 id: sk-1214
+primary: A9
+seealso:
+  - A11
+facets: []
+tax_tags: []
 aliases:
   - sk-1214
   - 怎样在学校集体内建立劳动关系

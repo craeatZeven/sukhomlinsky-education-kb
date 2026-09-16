@@ -1,5 +1,11 @@
 ---
 id: sk-0971
+primary: null
+seealso: []
+facets:
+  - S3
+  - S5
+tax_tags: []
 aliases:
   - sk-0971
   - 一根白羽毛

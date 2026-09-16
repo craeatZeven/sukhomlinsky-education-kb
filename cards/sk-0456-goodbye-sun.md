@@ -1,5 +1,10 @@
 ---
 id: sk-0456
+primary: null
+seealso: []
+facets:
+  - S6
+tax_tags: []
 aliases:
   - sk-0456
   - 再见，太阳：用温柔的告别建立对自然的亲密

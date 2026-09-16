@@ -1,5 +1,10 @@
 ---
 id: sk-1209
+primary: A19
+seealso:
+  - A8
+facets: []
+tax_tags: []
 aliases:
   - sk-1209
   - 第17封信：尊重妇女与女性美

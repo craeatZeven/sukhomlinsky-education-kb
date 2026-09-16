@@ -1,5 +1,11 @@
 ---
 id: sk-1143
+primary: null
+seealso: []
+facets:
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-1143
   - 花瓣和花朵

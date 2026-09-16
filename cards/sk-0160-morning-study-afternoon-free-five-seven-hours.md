@@ -1,5 +1,10 @@
 ---
 id: sk-0160
+primary: A7
+seealso: []
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-0160
   - 清晨做功课、午后不紧张：把下午还给学生的精神生活

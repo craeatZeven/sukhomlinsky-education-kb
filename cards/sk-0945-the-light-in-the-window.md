@@ -1,5 +1,12 @@
 ---
 id: sk-0945
+primary: null
+seealso: []
+facets:
+  - S5
+  - S6
+  - S8
+tax_tags: []
 aliases:
   - sk-0945
   - 窗户中的灯光

@@ -1,5 +1,10 @@
 ---
 id: sk-1255
+primary: A11
+seealso:
+  - A4
+facets: []
+tax_tags: []
 aliases:
   - sk-1255
   - 怎样教孩子正确对待脑力劳动

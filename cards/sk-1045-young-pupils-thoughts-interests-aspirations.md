@@ -1,5 +1,9 @@
 ---
 id: sk-1045
+primary: A21
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1045
   - 学龄初期儿童的思想、兴趣和志向

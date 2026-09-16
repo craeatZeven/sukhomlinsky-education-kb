@@ -1,5 +1,13 @@
 ---
 id: sk-0630
+primary: null
+seealso: []
+facets:
+  - S1
+  - S15
+  - S2
+  - S6
+tax_tags: []
 aliases:
   - sk-0630
   - 在儿子墓前的母亲：母亲与18岁战士在墓前进行无声的心灵交谈

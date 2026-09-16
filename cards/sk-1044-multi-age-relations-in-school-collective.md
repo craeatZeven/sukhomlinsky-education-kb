@@ -1,5 +1,9 @@
 ---
 id: sk-1044
+primary: A9
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1044
   - 学校集体中不同年龄的学生之间的多种关系

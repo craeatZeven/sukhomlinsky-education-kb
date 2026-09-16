@@ -1,5 +1,14 @@
 ---
 id: sk-0980
+primary: null
+seealso: []
+facets:
+  - S1
+  - S16
+  - S3
+  - S5
+  - S8
+tax_tags: []
 aliases:
   - sk-0980
   - 胆小的廖尼亚

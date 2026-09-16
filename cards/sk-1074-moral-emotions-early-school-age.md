@@ -1,5 +1,10 @@
 ---
 id: sk-1074
+primary: A21
+seealso:
+  - A19
+facets: []
+tax_tags: []
 aliases:
   - sk-1074
   - 道德情感在学龄初期儿童精神发展中的作用

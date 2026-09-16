@@ -1,5 +1,10 @@
 ---
 id: sk-1306
+primary: A5
+seealso:
+  - A19
+facets: []
+tax_tags: []
 aliases:
   - sk-1306
   - 休怕成为慈爱的人

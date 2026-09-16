@@ -1,5 +1,9 @@
 ---
 id: sk-0268
+primary: A1
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0268
   - 无神论教育不能只靠谈话，要用积极活动见诸行动

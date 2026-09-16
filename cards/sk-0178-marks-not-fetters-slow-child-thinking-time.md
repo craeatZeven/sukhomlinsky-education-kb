@@ -1,5 +1,10 @@
 ---
 id: sk-0178
+primary: A16
+seealso:
+  - A20
+facets: []
+tax_tags: []
 aliases:
   - sk-0178
   - 别让分数变成束缚思维的枷锁：给最慢的孩子思考时间

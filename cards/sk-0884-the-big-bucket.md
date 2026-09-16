@@ -1,5 +1,13 @@
 ---
 id: sk-0884
+primary: null
+seealso: []
+facets:
+  - S12
+  - S3
+  - S4
+  - S8
+tax_tags: []
 aliases:
   - sk-0884
   - 大水桶

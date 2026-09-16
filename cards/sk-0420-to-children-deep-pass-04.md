@@ -1,5 +1,10 @@
 ---
 id: sk-0420
+primary: A19
+seealso:
+  - A11
+facets: []
+tax_tags: []
 aliases:
   - sk-0420
   - 对劳动者的爱是人的道德之源

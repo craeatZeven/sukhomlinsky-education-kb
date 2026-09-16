@@ -1,5 +1,9 @@
 ---
 id: sk-0360
+primary: A2
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0360
   - 你们是土地的主人

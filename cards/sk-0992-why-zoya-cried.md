@@ -1,5 +1,14 @@
 ---
 id: sk-0992
+primary: null
+seealso: []
+facets:
+  - S1
+  - S14
+  - S15
+  - S4
+  - S8
+tax_tags: []
 aliases:
   - sk-0992
   - 卓娅为什么不哭了

@@ -1,5 +1,10 @@
 ---
 id: sk-0428
+primary: A1
+seealso:
+  - A19
+facets: []
+tax_tags: []
 aliases:
   - sk-0428
   - 每个人身上都有待展开的天赋：以创造他人之乐来吸引

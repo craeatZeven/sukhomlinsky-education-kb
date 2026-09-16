@@ -1,5 +1,15 @@
 ---
 id: sk-0587
+primary: null
+seealso: []
+facets:
+  - S1
+  - S11
+  - S12
+  - S4
+  - S6
+  - S9
+tax_tags: []
 aliases:
   - sk-0587
   - 谢廖扎在等信：哥哥要一束家乡的麦穗

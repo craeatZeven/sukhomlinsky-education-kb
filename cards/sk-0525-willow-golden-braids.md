@@ -1,5 +1,13 @@
 ---
 id: sk-0525
+primary: null
+seealso: []
+facets:
+  - S11
+  - S14
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-0525
   - 柳树，就像是扎着金黄色发辫的姑娘：小鸟飞走后，柳树等待春天

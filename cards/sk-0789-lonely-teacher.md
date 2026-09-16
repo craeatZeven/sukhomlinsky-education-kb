@@ -1,5 +1,15 @@
 ---
 id: sk-0789
+primary: null
+seealso: []
+facets:
+  - S13
+  - S2
+  - S3
+  - S4
+  - S7
+  - S8
+tax_tags: []
 aliases:
   - sk-0789
   - 孤独的老师

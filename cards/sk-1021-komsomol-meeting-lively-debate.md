@@ -1,5 +1,10 @@
 ---
 id: sk-1021
+primary: A9
+seealso:
+  - A4
+facets: []
+tax_tags: []
 aliases:
   - sk-1021
   - 共青团会议怎样才有生气

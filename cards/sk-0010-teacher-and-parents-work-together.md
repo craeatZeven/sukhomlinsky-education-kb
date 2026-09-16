@@ -1,5 +1,10 @@
 ---
 id: sk-0010
+primary: A8
+seealso:
+  - A3
+facets: []
+tax_tags: []
 aliases:
   - sk-0010
   - 教师只有与父母一同努力，才能带给孩子巨大幸福

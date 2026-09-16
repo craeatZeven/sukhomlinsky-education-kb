@@ -1,5 +1,9 @@
 ---
 id: sk-0312
+primary: A1
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0312
   - 真正的全面发展：贡献与消费之间的和谐

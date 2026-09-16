@@ -1,5 +1,13 @@
 ---
 id: sk-0771
+primary: null
+seealso: []
+facets:
+  - S11
+  - S2
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-0771
   - 美丽、灵感、欢乐和神秘

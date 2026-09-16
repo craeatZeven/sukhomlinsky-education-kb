@@ -1,5 +1,10 @@
 ---
 id: sk-0263
+primary: A22
+seealso:
+  - A15
+facets: []
+tax_tags: []
 aliases:
   - sk-0263
   - 教师课堂上的精神语调，直接影响学习愿望

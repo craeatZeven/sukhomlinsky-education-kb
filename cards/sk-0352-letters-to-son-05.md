@@ -1,5 +1,10 @@
 ---
 id: sk-0352
+primary: A2
+seealso:
+  - A11
+facets: []
+tax_tags: []
 aliases:
   - sk-0352
   - 生活的根：粮食、劳动、人民

@@ -1,5 +1,10 @@
 ---
 id: sk-0405
+primary: A17
+seealso:
+  - A7
+facets: []
+tax_tags: []
 aliases:
   - sk-0405
   - 逐步养成儿童从事紧张的创造性脑力劳动的习惯

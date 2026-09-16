@@ -1,5 +1,11 @@
 ---
 id: sk-1265
+primary: A13
+seealso:
+  - A23
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-1265
   - 教会学生学习

@@ -1,5 +1,9 @@
 ---
 id: sk-0055
+primary: A13
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0055
   - 孩子第一次读之前，先听老师和父母朗读

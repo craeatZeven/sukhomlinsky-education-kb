@@ -1,5 +1,11 @@
 ---
 id: sk-1219
+primary: null
+seealso: []
+facets:
+  - S4
+  - S8
+tax_tags: []
 aliases:
   - sk-1219
   - 怎样培养孩子们具有共产主义理想

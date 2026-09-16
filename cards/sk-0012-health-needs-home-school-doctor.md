@@ -1,5 +1,10 @@
 ---
 id: sk-0012
+primary: A7
+seealso: []
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-0012
   - 85% 学业落后与健康有关，需要家校医合力

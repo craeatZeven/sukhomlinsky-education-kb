@@ -1,5 +1,11 @@
 ---
 id: sk-1284
+primary: A15
+seealso:
+  - A22
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-1284
   - 学习兴趣是学生学习活动的重要动力

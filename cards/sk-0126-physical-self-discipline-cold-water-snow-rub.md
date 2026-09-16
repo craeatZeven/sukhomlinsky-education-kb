@@ -1,5 +1,10 @@
 ---
 id: sk-0126
+primary: A4
+seealso:
+  - A7
+facets: []
+tax_tags: []
 aliases:
   - sk-0126
   - 把身体锻炼放进自我教育：冷水浴、雪擦身靠‘自我强制’

@@ -1,5 +1,12 @@
 ---
 id: sk-0451
+primary: null
+seealso: []
+facets:
+  - S1
+  - S13
+  - S5
+tax_tags: []
 aliases:
   - sk-0451
   - 为了不让蝴蝶被刺伤：孩子主动为小生命清除危险

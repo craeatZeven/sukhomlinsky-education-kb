@@ -1,5 +1,10 @@
 ---
 id: sk-0164
+primary: A5
+seealso:
+  - A9
+facets: []
+tax_tags: []
 aliases:
   - sk-0164
   - 儿童的错误多数不必交给集体讨论：教师独自知道更好

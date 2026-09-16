@@ -1,5 +1,10 @@
 ---
 id: sk-0223
+primary: A1
+seealso:
+  - A8
+facets: []
+tax_tags: []
 aliases:
   - sk-0223
   - 学校没有教会最主要的东西：怎样生活

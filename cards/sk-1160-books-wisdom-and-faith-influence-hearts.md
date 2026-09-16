@@ -1,5 +1,11 @@
 ---
 id: sk-1160
+primary: null
+seealso: []
+facets:
+  - S4
+  - S8
+tax_tags: []
 aliases:
   - sk-1160
   - 要用书籍、智慧与信念控制学生的心灵

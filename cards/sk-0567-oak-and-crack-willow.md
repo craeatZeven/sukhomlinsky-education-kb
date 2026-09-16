@@ -1,5 +1,11 @@
 ---
 id: sk-0567
+primary: null
+seealso: []
+facets:
+  - S16
+  - S6
+tax_tags: []
 aliases:
   - sk-0567
   - 橡树和爆竹柳：站直了迎向风暴，还是弯下腰躲避风暴

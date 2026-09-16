@@ -1,5 +1,10 @@
 ---
 id: sk-0315
+primary: A4
+seealso:
+  - A19
+facets: []
+tax_tags: []
 aliases:
   - sk-0315
   - 从道德概念到道德信念，要从情感行为开始

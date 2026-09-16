@@ -1,5 +1,9 @@
 ---
 id: sk-0397
+primary: A5
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0397
   - 让少年不感到教育是强加的

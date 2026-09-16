@@ -1,5 +1,9 @@
 ---
 id: sk-1126
+primary: null
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1126
   - 生活中什么是最主要的

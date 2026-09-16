@@ -1,5 +1,13 @@
 ---
 id: sk-0585
+primary: null
+seealso: []
+facets:
+  - S1
+  - S13
+  - S14
+  - S4
+tax_tags: []
 aliases:
   - sk-0585
   - 最珍贵的：一包家乡泥土让远方的士兵懂得自己守卫什么

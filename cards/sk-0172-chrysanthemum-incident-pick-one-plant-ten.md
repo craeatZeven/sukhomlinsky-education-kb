@@ -1,5 +1,14 @@
 ---
 id: sk-0172
+primary: null
+seealso: []
+facets:
+  - S11
+  - S12
+  - S4
+  - S6
+  - S8
+tax_tags: []
 aliases:
   - sk-0172
   - 菊花事件：等孩子自己感到美被毁掉，再教他“摘一朵要种十朵”

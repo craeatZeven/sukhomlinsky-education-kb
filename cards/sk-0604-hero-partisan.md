@@ -1,5 +1,13 @@
 ---
 id: sk-0604
+primary: null
+seealso: []
+facets:
+  - S1
+  - S13
+  - S15
+  - S6
+tax_tags: []
 aliases:
   - sk-0604
   - 英雄，游击队员：妈妈的眼泪能让英雄复活

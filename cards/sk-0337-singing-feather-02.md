@@ -1,5 +1,12 @@
 ---
 id: sk-0337
+primary: null
+seealso: []
+facets:
+  - S16
+  - S3
+  - S6
+tax_tags: []
 aliases:
   - sk-0337
   - 我不怕打雷和闪电

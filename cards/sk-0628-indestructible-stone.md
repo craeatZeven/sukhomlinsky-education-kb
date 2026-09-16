@@ -1,5 +1,13 @@
 ---
 id: sk-0628
+primary: null
+seealso: []
+facets:
+  - S10
+  - S2
+  - S3
+  - S4
+tax_tags: []
 aliases:
   - sk-0628
   - 不能消灭的石头：白石三次被炸仍从土里冒出，象征祖国不可消灭

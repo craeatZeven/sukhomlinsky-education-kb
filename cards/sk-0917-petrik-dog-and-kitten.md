@@ -1,5 +1,13 @@
 ---
 id: sk-0917
+primary: null
+seealso: []
+facets:
+  - S13
+  - S16
+  - S17
+  - S5
+tax_tags: []
 aliases:
   - sk-0917
   - 彼得里克、狗和小猫

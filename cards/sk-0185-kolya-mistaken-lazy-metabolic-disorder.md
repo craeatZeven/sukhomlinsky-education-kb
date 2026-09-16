@@ -1,5 +1,13 @@
 ---
 id: sk-0185
+primary: null
+seealso: []
+facets:
+  - S4
+  - S6
+  - S8
+tax_tags:
+  - A18
 aliases:
   - sk-0185
   - 柯利亚：被误认为懒惰的走神，实为久坐室内的新陈代谢失调

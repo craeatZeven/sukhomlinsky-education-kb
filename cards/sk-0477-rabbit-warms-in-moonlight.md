@@ -1,5 +1,12 @@
 ---
 id: sk-0477
+primary: null
+seealso: []
+facets:
+  - S13
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-0477
   - 小兔子怎样在月光下取暖：跑到干草垛，月光就暖了

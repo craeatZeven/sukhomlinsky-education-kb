@@ -1,5 +1,12 @@
 ---
 id: sk-0674
+primary: null
+seealso: []
+facets:
+  - S10
+  - S12
+  - S6
+tax_tags: []
 aliases:
   - sk-0674
   - 不要忘记泉源：共同的水源要靠每个人共同维护

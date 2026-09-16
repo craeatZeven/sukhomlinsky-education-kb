@@ -1,5 +1,14 @@
 ---
 id: sk-1148
+primary: null
+seealso: []
+facets:
+  - S1
+  - S11
+  - S12
+  - S6
+  - S9
+tax_tags: []
 aliases:
   - sk-1148
   - 我们是怎样从野外归来的

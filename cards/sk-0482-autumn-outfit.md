@@ -1,5 +1,11 @@
 ---
 id: sk-0482
+primary: null
+seealso: []
+facets:
+  - S2
+  - S6
+tax_tags: []
 aliases:
   - sk-0482
   - 秋天的装束：金黄辫子的秋天轻轻走过草地

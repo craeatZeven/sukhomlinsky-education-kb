@@ -1,5 +1,11 @@
 ---
 id: sk-0471
+primary: null
+seealso: []
+facets:
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-0471
   - 长脚秧鸡和燕子：你飞着去，我走着去

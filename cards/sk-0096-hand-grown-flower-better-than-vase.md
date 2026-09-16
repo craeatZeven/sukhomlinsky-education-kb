@@ -1,5 +1,10 @@
 ---
 id: sk-0096
+primary: A11
+seealso:
+  - A14
+facets: []
+tax_tags: []
 aliases:
   - sk-0096
   - 亲手培育的花草胜过买来的细瓷花瓶

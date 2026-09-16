@@ -1,5 +1,10 @@
 ---
 id: sk-1043
+primary: A10
+seealso:
+  - A22
+facets: []
+tax_tags: []
 aliases:
   - sk-1043
   - 关于听课和分析课的几点建议：教师应当怎样布置家庭作业

@@ -1,5 +1,12 @@
 ---
 id: sk-0688
+primary: null
+seealso: []
+facets:
+  - S1
+  - S16
+  - S6
+tax_tags: []
 aliases:
   - sk-0688
   - 妈妈来了：亲人的归来让窗外的野兽消失

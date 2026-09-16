@@ -1,5 +1,10 @@
 ---
 id: sk-1199
+primary: A19
+seealso:
+  - A2
+facets: []
+tax_tags: []
 aliases:
   - sk-1199
   - 忠诚感和对别人的忠诚意味着什么

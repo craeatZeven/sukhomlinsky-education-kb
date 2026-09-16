@@ -1,5 +1,10 @@
 ---
 id: sk-1385
+primary: A19
+seealso:
+  - A9
+facets: []
+tax_tags: []
 aliases:
   - sk-1385
   - 共产主义信念的形成是社会进步和道德进步的客观必然性

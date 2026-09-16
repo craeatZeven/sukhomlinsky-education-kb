@@ -1,5 +1,9 @@
 ---
 id: sk-0098
+primary: A10
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0098
   - 教育有三个源泉：科学、技巧和艺术

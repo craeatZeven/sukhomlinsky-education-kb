@@ -1,5 +1,13 @@
 ---
 id: sk-0834
+primary: null
+seealso: []
+facets:
+  - S14
+  - S3
+  - S4
+  - S8
+tax_tags: []
 aliases:
   - sk-0834
   - 最难的一课

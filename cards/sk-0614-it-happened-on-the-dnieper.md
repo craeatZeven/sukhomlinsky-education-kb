@@ -1,5 +1,16 @@
 ---
 id: sk-0614
+primary: null
+seealso: []
+facets:
+  - S1
+  - S10
+  - S14
+  - S15
+  - S3
+  - S4
+  - S7
+tax_tags: []
 aliases:
   - sk-0614
   - 这事发生在第聂伯河上：乌克兰母亲认下莫斯科儿子

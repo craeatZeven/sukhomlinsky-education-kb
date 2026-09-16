@@ -1,5 +1,12 @@
 ---
 id: sk-0610
+primary: null
+seealso: []
+facets:
+  - S12
+  - S4
+  - S6
+tax_tags: []
 aliases:
   - sk-0610
   - 被烧焦了的樱桃树：战士救下的一根花枝活了五年

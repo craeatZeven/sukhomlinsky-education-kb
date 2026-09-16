@@ -1,5 +1,10 @@
 ---
 id: sk-1100
+primary: A10
+seealso:
+  - A9
+facets: []
+tax_tags: []
 aliases:
   - sk-1100
   - 教师的人格在集体和学生个人精神生活中的作用

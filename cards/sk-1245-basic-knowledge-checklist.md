@@ -1,5 +1,10 @@
 ---
 id: sk-1245
+primary: A15
+seealso: []
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-1245
   - 让学生记住基本知识

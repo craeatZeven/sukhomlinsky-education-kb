@@ -1,5 +1,10 @@
 ---
 id: sk-1193
+primary: A19
+seealso:
+  - A8
+facets: []
+tax_tags: []
 aliases:
   - sk-1193
   - 青年对待爱情的精神准备应当包括些什么

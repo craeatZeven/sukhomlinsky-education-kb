@@ -1,5 +1,10 @@
 ---
 id: sk-0013
+primary: A5
+seealso:
+  - A8
+facets: []
+tax_tags: []
 aliases:
   - sk-0013
   - 学校不能完全取代家庭，教师要对缺失温暖的孩子格外留心

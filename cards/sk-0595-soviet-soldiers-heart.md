@@ -1,5 +1,13 @@
 ---
 id: sk-0595
+primary: null
+seealso: []
+facets:
+  - S13
+  - S15
+  - S3
+  - S4
+tax_tags: []
 aliases:
   - sk-0595
   - 苏联士兵的心：最后一句是‘接住孩子’

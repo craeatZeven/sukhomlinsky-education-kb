@@ -1,5 +1,9 @@
 ---
 id: sk-1299
+primary: A10
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1299
   - 今日的小学生

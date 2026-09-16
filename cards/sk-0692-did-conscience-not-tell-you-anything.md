@@ -1,5 +1,12 @@
 ---
 id: sk-0692
+primary: null
+seealso: []
+facets:
+  - S1
+  - S17
+  - S4
+tax_tags: []
 aliases:
   - sk-0692
   - 良心没指示你什么吗：把班级任务看得比爸爸的病还重，是良心的缺席

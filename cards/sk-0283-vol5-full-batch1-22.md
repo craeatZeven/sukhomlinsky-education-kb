@@ -1,5 +1,9 @@
 ---
 id: sk-0283
+primary: A11
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0283
   - 热爱的工作是人的根：根扎得越深，自尊感越强

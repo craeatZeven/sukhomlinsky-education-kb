@@ -1,5 +1,12 @@
 ---
 id: sk-0988
+primary: null
+seealso: []
+facets:
+  - S13
+  - S3
+  - S4
+tax_tags: []
 aliases:
   - sk-0988
   - 当他人遇到不幸时，你怎么办

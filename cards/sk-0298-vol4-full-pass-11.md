@@ -1,5 +1,10 @@
 ---
 id: sk-0298
+primary: A20
+seealso:
+  - A10
+facets: []
+tax_tags: []
 aliases:
   - sk-0298
   - 评价课的主要标准：全体学生牢固掌握知识

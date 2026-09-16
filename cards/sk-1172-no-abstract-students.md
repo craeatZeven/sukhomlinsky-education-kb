@@ -1,5 +1,11 @@
 ---
 id: sk-1172
+primary: A6
+seealso:
+  - A16
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-1172
   - 请记住，没有也不可能有抽象的学生

@@ -1,5 +1,11 @@
 ---
 id: sk-0996
+primary: A13
+seealso:
+  - A15
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-0996
   - 阅读是“困难”学生智力教育的重要手段

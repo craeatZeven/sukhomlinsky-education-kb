@@ -1,5 +1,10 @@
 ---
 id: sk-1116
+primary: A19
+seealso:
+  - A14
+facets: []
+tax_tags: []
 aliases:
   - sk-1116
   - 培养情感的教育应当是怎样的

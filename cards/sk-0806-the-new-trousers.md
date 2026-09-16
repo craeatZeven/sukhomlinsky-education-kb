@@ -1,5 +1,13 @@
 ---
 id: sk-0806
+primary: null
+seealso: []
+facets:
+  - S13
+  - S3
+  - S7
+  - S8
+tax_tags: []
 aliases:
   - sk-0806
   - 新裤子

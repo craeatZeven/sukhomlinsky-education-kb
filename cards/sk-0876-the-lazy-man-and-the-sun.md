@@ -1,5 +1,10 @@
 ---
 id: sk-0876
+primary: null
+seealso: []
+facets:
+  - S6
+tax_tags: []
 aliases:
   - sk-0876
   - 懒人与太阳

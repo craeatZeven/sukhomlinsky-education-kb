@@ -1,5 +1,9 @@
 ---
 id: sk-1117
+primary: A15
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1117
   - 活的习题集中的1000道题

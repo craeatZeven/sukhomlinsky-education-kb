@@ -1,5 +1,10 @@
 ---
 id: sk-1163
+primary: A22
+seealso:
+  - A15
+facets: []
+tax_tags: []
 aliases:
   - sk-1163
   - 直观是认识的途径，是照亮认识途径的光辉

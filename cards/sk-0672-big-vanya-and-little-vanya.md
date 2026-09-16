@@ -1,5 +1,12 @@
 ---
 id: sk-0672
+primary: null
+seealso: []
+facets:
+  - S10
+  - S16
+  - S3
+tax_tags: []
 aliases:
   - sk-0672
   - 大万尼亚和小万尼亚：感到要为另一个人的生命负责，人就不可战胜

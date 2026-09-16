@@ -1,5 +1,9 @@
 ---
 id: sk-1162
+primary: A13
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1162
   - 关于学生的智力生活

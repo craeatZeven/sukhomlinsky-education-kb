@@ -1,5 +1,10 @@
 ---
 id: sk-0497
+primary: null
+seealso: []
+facets:
+  - S6
+tax_tags: []
 aliases:
   - sk-0497
   - 峡谷中的淡紫色的小树林：远看像小河，近看是丁香

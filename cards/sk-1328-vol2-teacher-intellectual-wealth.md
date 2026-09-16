@@ -1,5 +1,10 @@
 ---
 id: sk-1328
+primary: A10
+seealso:
+  - A15
+facets: []
+tax_tags: []
 aliases:
   - sk-1328
   - 作为教育者的教师应具备什么品质

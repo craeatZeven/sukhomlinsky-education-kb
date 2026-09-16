@@ -1,5 +1,13 @@
 ---
 id: sk-0435
+primary: null
+seealso: []
+facets:
+  - S17
+  - S3
+  - S4
+  - S8
+tax_tags: []
 aliases:
   - sk-0435
   - 是谁把墙弄脏了：教师不善于观察会冤枉孩子

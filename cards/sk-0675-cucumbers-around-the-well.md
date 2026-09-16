@@ -1,5 +1,14 @@
 ---
 id: sk-0675
+primary: null
+seealso: []
+facets:
+  - S10
+  - S12
+  - S4
+  - S7
+  - S9
+tax_tags: []
 aliases:
   - sk-0675
   - 水井旁的黄瓜：把公共的甘泉圈成私产，孩子会为父亲羞愧

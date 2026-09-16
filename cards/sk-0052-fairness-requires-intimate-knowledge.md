@@ -1,5 +1,10 @@
 ---
 id: sk-0052
+primary: A6
+seealso:
+  - A5
+facets: []
+tax_tags: []
 aliases:
   - sk-0052
   - 真正的公平来自对每个儿童内心世界的深入了解

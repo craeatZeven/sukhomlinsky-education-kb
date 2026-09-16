@@ -1,5 +1,15 @@
 ---
 id: sk-0589
+primary: null
+seealso: []
+facets:
+  - S1
+  - S13
+  - S14
+  - S15
+  - S4
+  - S6
+tax_tags: []
 aliases:
   - sk-0589
   - 来自家乡的草茎：一根草让战士想起母亲和土地

@@ -1,5 +1,11 @@
 ---
 id: sk-0731
+primary: null
+seealso: []
+facets:
+  - S2
+  - S6
+tax_tags: []
 aliases:
   - sk-0731
   - 在树尖上的苹果

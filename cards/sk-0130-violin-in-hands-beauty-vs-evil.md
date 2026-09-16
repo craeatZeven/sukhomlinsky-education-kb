@@ -1,5 +1,9 @@
 ---
 id: sk-0130
+primary: A14
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0130
   - 给每个孩子手里放一把小提琴：真正的美与恶不能相容

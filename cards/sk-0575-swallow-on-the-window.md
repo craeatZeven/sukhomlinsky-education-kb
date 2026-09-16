@@ -1,5 +1,11 @@
 ---
 id: sk-0575
+primary: null
+seealso: []
+facets:
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-0575
   - 窗户上的燕子：玻璃霜花和燕子衔来的第一块土，都是祖国的记忆

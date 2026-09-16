@@ -1,5 +1,10 @@
 ---
 id: sk-1031
+primary: A7
+seealso:
+  - A8
+facets: []
+tax_tags: []
 aliases:
   - sk-1031
   - 健康、健康，还是健康

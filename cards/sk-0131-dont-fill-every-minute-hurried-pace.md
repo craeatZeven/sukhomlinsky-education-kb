@@ -1,5 +1,10 @@
 ---
 id: sk-0131
+primary: A7
+seealso:
+  - A22
+facets: []
+tax_tags: []
 aliases:
   - sk-0131
   - 不必填满课堂每一分钟：急迫的脑力节奏会拖垮孩子

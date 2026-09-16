@@ -1,5 +1,10 @@
 ---
 id: sk-1102
+primary: A5
+seealso:
+  - A19
+facets: []
+tax_tags: []
 aliases:
   - sk-1102
   - 恋爱：尊重少年隐秘的内心世界

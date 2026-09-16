@@ -1,5 +1,10 @@
 ---
 id: sk-0028
+primary: A14
+seealso:
+  - A19
+facets: []
+tax_tags: []
 aliases:
   - sk-0028
   - 欣赏美只是善良情感的萌芽，必须化为积极行动

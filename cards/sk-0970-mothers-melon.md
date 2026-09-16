@@ -1,5 +1,14 @@
 ---
 id: sk-0970
+primary: null
+seealso: []
+facets:
+  - S1
+  - S17
+  - S2
+  - S6
+  - S7
+tax_tags: []
 aliases:
   - sk-0970
   - 妈妈的甜瓜

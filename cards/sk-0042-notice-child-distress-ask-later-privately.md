@@ -1,5 +1,10 @@
 ---
 id: sk-0042
+primary: A5
+seealso:
+  - A6
+facets: []
+tax_tags: []
 aliases:
   - sk-0042
   - 察觉孩子不对劲时，不要当众立刻追问

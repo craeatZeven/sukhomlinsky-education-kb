@@ -1,5 +1,11 @@
 ---
 id: sk-0561
+primary: null
+seealso: []
+facets:
+  - S11
+  - S6
+tax_tags: []
 aliases:
   - sk-0561
   - 紫色的小花：如果世界只有一种颜色，就没有美了

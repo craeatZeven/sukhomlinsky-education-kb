@@ -1,5 +1,9 @@
 ---
 id: sk-1040
+primary: A23
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1040
   - 技能和知识之间不可比例失调：没有工具就塞不进知识

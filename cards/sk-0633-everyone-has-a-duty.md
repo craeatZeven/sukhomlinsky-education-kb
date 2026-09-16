@@ -1,5 +1,12 @@
 ---
 id: sk-0633
+primary: null
+seealso: []
+facets:
+  - S1
+  - S12
+  - S4
+tax_tags: []
 aliases:
   - sk-0633
   - 每个人都应该：孩子的责任是成长为一个人

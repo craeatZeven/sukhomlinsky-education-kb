@@ -1,5 +1,10 @@
 ---
 id: sk-0152
+primary: A4
+seealso:
+  - A19
+facets: []
+tax_tags: []
 aliases:
   - sk-0152
   - 独处时也会为自己羞愧、渴望比现在更好——教育成果的试金石

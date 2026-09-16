@@ -1,5 +1,10 @@
 ---
 id: sk-1354
+primary: A19
+seealso:
+  - A8
+facets: []
+tax_tags: []
 aliases:
   - sk-1354
   - 怎样培养对亲人和亲近的人的忠诚感

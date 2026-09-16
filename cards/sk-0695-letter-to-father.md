@@ -1,5 +1,12 @@
 ---
 id: sk-0695
+primary: null
+seealso: []
+facets:
+  - S1
+  - S14
+  - S6
+tax_tags: []
 aliases:
   - sk-0695
   - 给父亲的信

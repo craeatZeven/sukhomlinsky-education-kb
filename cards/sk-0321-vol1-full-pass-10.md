@@ -1,5 +1,9 @@
 ---
 id: sk-0321
+primary: A9
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0321
   - 儿童在学校不光是学习，而且在那里生活

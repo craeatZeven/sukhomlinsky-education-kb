@@ -1,5 +1,11 @@
 ---
 id: sk-0129
+primary: A16
+seealso:
+  - A11
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-0129
   - 没有惩罚的教育：让为大众的劳动成为童年欢乐的源泉

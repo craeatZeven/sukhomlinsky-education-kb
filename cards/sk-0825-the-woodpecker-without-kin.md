@@ -1,5 +1,11 @@
 ---
 id: sk-0825
+primary: null
+seealso: []
+facets:
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-0825
   - 没有亲人的啄木鸟

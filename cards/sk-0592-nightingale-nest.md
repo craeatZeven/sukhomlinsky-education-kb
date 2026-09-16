@@ -1,5 +1,13 @@
 ---
 id: sk-0592
+primary: null
+seealso: []
+facets:
+  - S13
+  - S4
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-0592
   - 夜莺的巢：战场上的士兵小心地安放一个鸟巢

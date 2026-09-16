@@ -1,5 +1,13 @@
 ---
 id: sk-0815
+primary: null
+seealso: []
+facets:
+  - S13
+  - S17
+  - S3
+  - S8
+tax_tags: []
 aliases:
   - sk-0815
   - 最难的测验

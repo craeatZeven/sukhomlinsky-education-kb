@@ -1,5 +1,10 @@
 ---
 id: sk-1267
+primary: A16
+seealso:
+  - A2
+facets: []
+tax_tags: []
 aliases:
   - sk-1267
   - 公民的起点

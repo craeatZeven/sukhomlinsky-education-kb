@@ -1,5 +1,14 @@
 ---
 id: sk-0658
+primary: null
+seealso: []
+facets:
+  - S10
+  - S13
+  - S15
+  - S4
+  - S6
+tax_tags: []
 aliases:
   - sk-0658
   - 医生病了：在生命关头，他用尽最后力气先救小女孩

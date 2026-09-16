@@ -1,5 +1,10 @@
 ---
 id: sk-1300
+primary: A12
+seealso:
+  - A1
+facets: []
+tax_tags: []
 aliases:
   - sk-1300
   - 大自然、劳动和世界观

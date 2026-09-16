@@ -1,5 +1,9 @@
 ---
 id: sk-0019
+primary: A7
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0019
   - 关注健康是教育者最重要的工作

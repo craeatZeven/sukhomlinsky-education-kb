@@ -1,5 +1,10 @@
 ---
 id: sk-1253
+primary: A13
+seealso:
+  - A15
+facets: []
+tax_tags: []
 aliases:
   - sk-1253
   - “两个教学大纲”，发展学生的思维

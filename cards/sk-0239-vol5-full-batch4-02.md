@@ -1,5 +1,10 @@
 ---
 id: sk-0239
+primary: A4
+seealso:
+  - A11
+facets: []
+tax_tags: []
 aliases:
   - sk-0239
   - 只有亲手劳动让世界变好，道理才转化为信念

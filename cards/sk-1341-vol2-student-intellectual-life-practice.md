@@ -1,5 +1,11 @@
 ---
 id: sk-1341
+primary: A13
+seealso:
+  - A9
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-1341
   - 关于学生的智力生活

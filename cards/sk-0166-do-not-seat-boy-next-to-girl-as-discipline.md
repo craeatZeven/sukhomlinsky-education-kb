@@ -1,5 +1,10 @@
 ---
 id: sk-0166
+primary: A5
+seealso:
+  - A9
+facets: []
+tax_tags: []
 aliases:
   - sk-0166
   - 不要把淘气男孩安排坐女孩旁边当纪律手段

@@ -1,5 +1,9 @@
 ---
 id: sk-1154
+primary: A19
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1154
   - 要教育学生不说空话

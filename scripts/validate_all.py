@@ -40,6 +40,10 @@ SCRIPTS = [
     # 这一步的存在理由：用户问「找劳动，它给我的只是一堆零散的卡片」——
     # 检索里只有卡片，于是库里已有的成篇材料一个字都露不出来。
     'build_notes.py',
+    # 轴镜像对账：卡片的 primary/seealso/facets/tax_tags ↔ classification.json。
+    # 把轴写进卡片是"融合"，但融合的代价是**可能变成两份真相**——
+    # 这个仓库已经在中心表 vs 分片、INDEX.md vs MOC 上打过两次架，所以镜像必须有闸门。
+    'check_axes_mirror.py',
 ]
 
 

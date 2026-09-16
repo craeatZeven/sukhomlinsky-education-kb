@@ -1,5 +1,9 @@
 ---
 id: sk-0061
+primary: A12
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0061
   - 大自然没有自动教育魔力，必须让人思考因果

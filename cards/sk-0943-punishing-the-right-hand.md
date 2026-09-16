@@ -1,5 +1,12 @@
 ---
 id: sk-0943
+primary: null
+seealso: []
+facets:
+  - S1
+  - S17
+  - S7
+tax_tags: []
 aliases:
   - sk-0943
   - 惩罚右手

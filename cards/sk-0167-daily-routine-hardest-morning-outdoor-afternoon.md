@@ -1,5 +1,9 @@
 ---
 id: sk-0167
+primary: A7
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0167
   - 作息制度：早晨做最难作业，下午户外自由，睡前不做紧张脑力劳动

@@ -1,5 +1,9 @@
 ---
 id: sk-1008
+primary: A13
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1008
   - 书和儿童的精神生活

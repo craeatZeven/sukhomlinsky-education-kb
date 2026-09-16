@@ -1,5 +1,15 @@
 ---
 id: sk-0642
+primary: null
+seealso: []
+facets:
+  - S1
+  - S15
+  - S17
+  - S2
+  - S3
+  - S4
+tax_tags: []
 aliases:
   - sk-0642
   - 一杯水：不要去做想做的事，而要去做必须做的事

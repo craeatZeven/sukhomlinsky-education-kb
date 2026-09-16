@@ -1,5 +1,9 @@
 ---
 id: sk-1280
+primary: A8
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1280
   - 您家的氛围

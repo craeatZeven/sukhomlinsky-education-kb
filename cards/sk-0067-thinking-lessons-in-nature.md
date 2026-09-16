@@ -1,5 +1,9 @@
 ---
 id: sk-0067
+primary: A12
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0067
   - 到自然界去上'思维课'：在观察中形成概念

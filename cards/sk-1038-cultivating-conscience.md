@@ -1,5 +1,9 @@
 ---
 id: sk-1038
+primary: A19
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1038
   - 怎样培养良心感：以羞耻心为土壤，让内在的“我”说话

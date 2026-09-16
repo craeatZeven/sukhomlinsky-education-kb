@@ -1,5 +1,14 @@
 ---
 id: sk-0882
+primary: null
+seealso: []
+facets:
+  - S1
+  - S12
+  - S15
+  - S17
+  - S7
+tax_tags: []
 aliases:
   - sk-0882
   - 别忘记一颗螺丝钉

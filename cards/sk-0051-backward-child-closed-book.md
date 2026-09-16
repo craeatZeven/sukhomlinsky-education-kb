@@ -1,5 +1,10 @@
 ---
 id: sk-0051
+primary: A6
+seealso: []
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-0051
   - 对很多教师来说，后进生是一本紧闭的书

@@ -1,5 +1,12 @@
 ---
 id: sk-0552
+primary: null
+seealso: []
+facets:
+  - S11
+  - S12
+  - S6
+tax_tags: []
 aliases:
   - sk-0552
   - 这里有多少笛子啊：少年用接骨木做笛子，听见草木歌唱

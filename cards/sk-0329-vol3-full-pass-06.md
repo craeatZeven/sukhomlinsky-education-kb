@@ -1,5 +1,10 @@
 ---
 id: sk-0329
+primary: A15
+seealso:
+  - A13
+facets: []
+tax_tags: []
 aliases:
   - sk-0329
   - 第二个大纲：非必修知识的大纲

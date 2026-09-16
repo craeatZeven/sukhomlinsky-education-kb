@@ -1,5 +1,11 @@
 ---
 id: sk-0022
+primary: null
+seealso: []
+facets:
+  - S6
+  - S8
+tax_tags: []
 aliases:
   - sk-0022
   - 光脚、户外与不怕淋雨：三四年级不再有人生病

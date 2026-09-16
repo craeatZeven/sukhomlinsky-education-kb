@@ -1,5 +1,12 @@
 ---
 id: sk-0826
+primary: null
+seealso: []
+facets:
+  - S1
+  - S2
+  - S7
+tax_tags: []
 aliases:
   - sk-0826
   - 善良的话语

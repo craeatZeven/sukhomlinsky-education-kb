@@ -1,5 +1,10 @@
 ---
 id: sk-1007
+primary: A15
+seealso:
+  - A14
+facets: []
+tax_tags: []
 aliases:
   - sk-1007
   - 祖国语言

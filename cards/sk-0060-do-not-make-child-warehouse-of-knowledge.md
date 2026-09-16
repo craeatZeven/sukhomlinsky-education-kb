@@ -1,5 +1,9 @@
 ---
 id: sk-0060
+primary: A15
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0060
   - 别把孩子变成知识的仓库，要教他思考

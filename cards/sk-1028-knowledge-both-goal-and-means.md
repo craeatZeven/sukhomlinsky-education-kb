@@ -1,5 +1,9 @@
 ---
 id: sk-1028
+primary: A15
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1028
   - 知识既是目的又是手段

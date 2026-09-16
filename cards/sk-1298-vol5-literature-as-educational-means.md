@@ -1,5 +1,9 @@
 ---
 id: sk-1298
+primary: A13
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1298
   - 强有力的教育手段

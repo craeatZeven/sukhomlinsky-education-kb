@@ -1,5 +1,10 @@
 ---
 id: sk-0181
+primary: A20
+seealso:
+  - A16
+facets: []
+tax_tags: []
 aliases:
   - sk-0181
   - 别把知识当存货：学生不该只为明天的评分而读书

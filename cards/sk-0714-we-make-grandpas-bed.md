@@ -1,5 +1,12 @@
 ---
 id: sk-0714
+primary: null
+seealso: []
+facets:
+  - S1
+  - S7
+  - S9
+tax_tags: []
 aliases:
   - sk-0714
   - 我们给爷爷铺床

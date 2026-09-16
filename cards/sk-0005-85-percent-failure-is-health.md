@@ -1,5 +1,10 @@
 ---
 id: sk-0005
+primary: A7
+seealso: []
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-0005
   - 85% 学业失败的首要原因是健康

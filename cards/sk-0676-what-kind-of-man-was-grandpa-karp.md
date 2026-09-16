@@ -1,5 +1,12 @@
 ---
 id: sk-0676
+primary: null
+seealso: []
+facets:
+  - S10
+  - S2
+  - S4
+tax_tags: []
 aliases:
   - sk-0676
   - 卡尔波爷爷究竟是什么样的人：宁可把树苗扔进山谷，也不肯放下自己的固执

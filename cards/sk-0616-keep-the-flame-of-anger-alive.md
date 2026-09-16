@@ -1,5 +1,13 @@
 ---
 id: sk-0616
+primary: null
+seealso: []
+facets:
+  - S10
+  - S15
+  - S2
+  - S3
+tax_tags: []
 aliases:
   - sk-0616
   - 为了心中的怒火不熄灭：草地中央永远留下的两段石墩

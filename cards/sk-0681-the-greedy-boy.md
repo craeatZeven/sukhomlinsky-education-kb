@@ -1,5 +1,11 @@
 ---
 id: sk-0681
+primary: null
+seealso: []
+facets:
+  - S2
+  - S3
+tax_tags: []
 aliases:
   - sk-0681
   - 贪婪的男孩：占有不了的就毁掉，贪婪像心里的小蛆

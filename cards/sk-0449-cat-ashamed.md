@@ -1,5 +1,11 @@
 ---
 id: sk-0449
+primary: null
+seealso: []
+facets:
+  - S17
+  - S5
+tax_tags: []
 aliases:
   - sk-0449
   - 猫害臊了：抓不到麻雀，失败也会让猫脸红

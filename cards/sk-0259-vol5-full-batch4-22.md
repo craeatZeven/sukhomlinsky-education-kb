@@ -1,5 +1,9 @@
 ---
 id: sk-0259
+primary: A19
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0259
   - 在爱与忠诚的领域里，做忠实丈夫和父亲比超产更难

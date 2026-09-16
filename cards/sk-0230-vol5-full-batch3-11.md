@@ -1,5 +1,9 @@
 ---
 id: sk-0230
+primary: A3
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0230
   - 真正的教育是为他人创造幸福

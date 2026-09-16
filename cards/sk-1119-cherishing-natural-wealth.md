@@ -1,5 +1,9 @@
 ---
 id: sk-1119
+primary: A11
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1119
   - 培养对自然财富的珍惜爱护态度

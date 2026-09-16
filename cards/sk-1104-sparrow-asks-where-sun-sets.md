@@ -1,5 +1,12 @@
 ---
 id: sk-1104
+primary: null
+seealso: []
+facets:
+  - S13
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-1104
   - 麻雀多么想知道太阳落到哪儿去了

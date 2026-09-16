@@ -1,5 +1,10 @@
 ---
 id: sk-1353
+primary: A8
+seealso:
+  - A19
+facets: []
+tax_tags: []
 aliases:
   - sk-1353
   - 怎样教会孩子们热爱自己的父母

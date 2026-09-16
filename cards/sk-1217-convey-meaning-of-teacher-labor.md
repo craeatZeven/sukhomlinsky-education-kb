@@ -1,5 +1,9 @@
 ---
 id: sk-1217
+primary: A10
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1217
   - 怎样把教师劳动的意义传送到学生的意识中去

@@ -1,5 +1,10 @@
 ---
 id: sk-1302
+primary: A14
+seealso:
+  - A4
+facets: []
+tax_tags: []
 aliases:
   - sk-1302
   - 心灵的劳动

@@ -1,5 +1,13 @@
 ---
 id: sk-1276
+primary: null
+seealso: []
+facets:
+  - S1
+  - S17
+  - S8
+tax_tags:
+  - A18
 aliases:
   - sk-1276
   - 要慎待儿童

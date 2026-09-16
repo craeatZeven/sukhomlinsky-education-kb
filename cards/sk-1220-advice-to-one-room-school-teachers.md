@@ -1,5 +1,11 @@
 ---
 id: sk-1220
+primary: A10
+seealso:
+  - A13
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-1220
   - 给单班制学校教师的建议

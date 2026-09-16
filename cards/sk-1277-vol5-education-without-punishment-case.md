@@ -1,5 +1,12 @@
 ---
 id: sk-1277
+primary: null
+seealso: []
+facets:
+  - S4
+  - S7
+  - S8
+tax_tags: []
 aliases:
   - sk-1277
   - 没有惩罚的教育

@@ -1,5 +1,9 @@
 ---
 id: sk-1018
+primary: A10
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1018
   - 总结的实质及做法

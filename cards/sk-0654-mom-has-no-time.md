@@ -1,5 +1,13 @@
 ---
 id: sk-0654
+primary: null
+seealso: []
+facets:
+  - S1
+  - S17
+  - S3
+  - S7
+tax_tags: []
 aliases:
   - sk-0654
   - 妈妈没时间：只顾自己吃独食，会让客人觉得羞耻

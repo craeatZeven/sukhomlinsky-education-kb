@@ -1,5 +1,12 @@
 ---
 id: sk-0797
+primary: null
+seealso: []
+facets:
+  - S1
+  - S13
+  - S7
+tax_tags: []
 aliases:
   - sk-0797
   - 小男孩和生病的妈妈

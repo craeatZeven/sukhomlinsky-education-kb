@@ -1,5 +1,12 @@
 ---
 id: sk-0796
+primary: null
+seealso: []
+facets:
+  - S10
+  - S13
+  - S5
+tax_tags: []
 aliases:
   - sk-0796
   - 被抛弃的小猫

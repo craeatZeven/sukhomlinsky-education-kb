@@ -1,5 +1,10 @@
 ---
 id: sk-0281
+primary: A11
+seealso:
+  - A19
+facets: []
+tax_tags: []
 aliases:
   - sk-0281
   - 在孩子面前揭示生活欢乐的劳动本源，是德育的最重要任务

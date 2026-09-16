@@ -1,5 +1,9 @@
 ---
 id: sk-0124
+primary: A16
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0124
   - 分数成了衡量人的尺度：人在分数后面消失了

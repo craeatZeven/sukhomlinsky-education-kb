@@ -1,5 +1,10 @@
 ---
 id: sk-0351
+primary: A4
+seealso:
+  - A11
+facets: []
+tax_tags: []
 aliases:
   - sk-0351
   - 最困难的事应成为最喜爱的事

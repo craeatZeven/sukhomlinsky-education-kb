@@ -1,5 +1,10 @@
 ---
 id: sk-0078
+primary: A22
+seealso:
+  - A20
+facets: []
+tax_tags: []
 aliases:
   - sk-0078
   - 在教材的‘症结’处制造悬念，让旧知识成为获取新知的工具

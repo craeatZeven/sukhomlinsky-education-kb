@@ -1,5 +1,10 @@
 ---
 id: sk-0187
+primary: A7
+seealso:
+  - A21
+facets: []
+tax_tags: []
 aliases:
   - sk-0187
   - 少年期需要专门的睡眠与营养制度：早睡、铁磷、水果、睡前忌高蛋白

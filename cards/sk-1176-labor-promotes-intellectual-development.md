@@ -1,5 +1,10 @@
 ---
 id: sk-1176
+primary: A11
+seealso:
+  - A15
+facets: []
+tax_tags: []
 aliases:
   - sk-1176
   - 通过爱劳动促进学生智力发展

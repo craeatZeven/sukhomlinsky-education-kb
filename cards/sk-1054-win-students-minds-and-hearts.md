@@ -1,5 +1,11 @@
 ---
 id: sk-1054
+primary: A15
+seealso:
+  - A10
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-1054
   - 要赢得学生的思想和心灵

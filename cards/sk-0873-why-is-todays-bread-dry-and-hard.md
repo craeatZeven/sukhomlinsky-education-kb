@@ -1,5 +1,12 @@
 ---
 id: sk-0873
+primary: null
+seealso: []
+facets:
+  - S1
+  - S3
+  - S8
+tax_tags: []
 aliases:
   - sk-0873
   - 为什么今天的面包又干又硬

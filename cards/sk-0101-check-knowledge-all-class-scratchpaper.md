@@ -1,5 +1,9 @@
 ---
 id: sk-0101
+primary: A20
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0101
   - 检查知识时让全班用草稿本同步思考

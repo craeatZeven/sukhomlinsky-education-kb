@@ -1,5 +1,10 @@
 ---
 id: sk-0073
+primary: A15
+seealso:
+  - A12
+facets: []
+tax_tags: []
 aliases:
   - sk-0073
   - 每个孩子天性都是诗人，要让诗的琴弦响起来

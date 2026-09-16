@@ -1,5 +1,13 @@
 ---
 id: sk-0479
+primary: null
+seealso: []
+facets:
+  - S1
+  - S11
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-0479
   - 云雀在帮助太阳：当云雀飞进蓝天，天空就会暖一些

@@ -1,5 +1,9 @@
 ---
 id: sk-0008
+primary: A15
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0008
   - 用民间谜题单独训练“思维步数”

@@ -1,5 +1,14 @@
 ---
 id: sk-0562
+primary: null
+seealso: []
+facets:
+  - S1
+  - S11
+  - S4
+  - S7
+  - S9
+tax_tags: []
 aliases:
   - sk-0562
   - 马和骑士：另一半木头里藏着的骑士被烧成了炭

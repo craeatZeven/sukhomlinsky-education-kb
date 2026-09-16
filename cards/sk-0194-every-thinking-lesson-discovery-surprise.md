@@ -1,5 +1,9 @@
 ---
 id: sk-0194
+primary: A12
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0194
   - 每一堂思维课，都是对自然之谜的一次观察、惊讶与发现

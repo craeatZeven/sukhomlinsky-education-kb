@@ -1,5 +1,12 @@
 ---
 id: sk-0890
+primary: null
+seealso: []
+facets:
+  - S1
+  - S12
+  - S7
+tax_tags: []
 aliases:
   - sk-0890
   - 他成为一名劳动者

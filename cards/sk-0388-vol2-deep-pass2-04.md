@@ -1,5 +1,9 @@
 ---
 id: sk-0388
+primary: A19
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0388
   - 善良的情感是骄傲和自私的解毒剂

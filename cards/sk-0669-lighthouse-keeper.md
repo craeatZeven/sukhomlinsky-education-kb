@@ -1,5 +1,13 @@
 ---
 id: sk-0669
+primary: null
+seealso: []
+facets:
+  - S12
+  - S2
+  - S4
+  - S6
+tax_tags: []
 aliases:
   - sk-0669
   - 航标灯工人：河流消失后，他仍在原地点灯，让人看见自己的愚蠢

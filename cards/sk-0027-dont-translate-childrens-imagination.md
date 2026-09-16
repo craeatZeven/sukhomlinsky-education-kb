@@ -1,5 +1,9 @@
 ---
 id: sk-0027
+primary: A14
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0027
   - 不要把孩子想象中的奇妙语言改成大人的语言

@@ -1,5 +1,10 @@
 ---
 id: sk-1331
+primary: A1
+seealso:
+  - A19
+facets: []
+tax_tags: []
 aliases:
   - sk-1331
   - 怎样才能使人成为有教养的人

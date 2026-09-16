@@ -1,5 +1,9 @@
 ---
 id: sk-0243
+primary: A2
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0243
   - 思想的勇敢：敢于把世界上发生的事当成自己的事

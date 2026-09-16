@@ -1,5 +1,9 @@
 ---
 id: sk-0411
+primary: A11
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0411
   - 劳动教育成功的标志：孩子舍不得回家

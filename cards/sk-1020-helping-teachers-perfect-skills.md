@@ -1,5 +1,10 @@
 ---
 id: sk-1020
+primary: A10
+seealso:
+  - A23
+facets: []
+tax_tags: []
 aliases:
   - sk-1020
   - 帮助教师完善教育技巧

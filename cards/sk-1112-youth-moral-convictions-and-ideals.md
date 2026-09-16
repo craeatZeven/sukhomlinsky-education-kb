@@ -1,5 +1,10 @@
 ---
 id: sk-1112
+primary: A4
+seealso:
+  - A21
+facets: []
+tax_tags: []
 aliases:
   - sk-1112
   - 青年人的道德信念和理想

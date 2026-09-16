@@ -1,5 +1,12 @@
 ---
 id: sk-0503
+primary: null
+seealso: []
+facets:
+  - S11
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-0503
   - 蜜蜂的音乐声：太阳把琴弦拧紧在花瓣之间

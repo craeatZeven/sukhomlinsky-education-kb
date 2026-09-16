@@ -1,5 +1,9 @@
 ---
 id: sk-0427
+primary: A8
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0427
   - 通过父母之爱创造人

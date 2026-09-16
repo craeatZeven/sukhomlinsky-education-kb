@@ -1,5 +1,13 @@
 ---
 id: sk-0959
+primary: null
+seealso: []
+facets:
+  - S1
+  - S13
+  - S4
+  - S9
+tax_tags: []
 aliases:
   - sk-0959
   - 两位母亲

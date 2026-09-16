@@ -1,5 +1,10 @@
 ---
 id: sk-0190
+primary: A15
+seealso: []
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-0190
   - 观察是思考和识记知识之母：有观察力的学生不会落后

@@ -1,5 +1,12 @@
 ---
 id: sk-0933
+primary: null
+seealso: []
+facets:
+  - S1
+  - S16
+  - S5
+tax_tags: []
 aliases:
   - sk-0933
   - 尼娜是怎么不怕公鹅的

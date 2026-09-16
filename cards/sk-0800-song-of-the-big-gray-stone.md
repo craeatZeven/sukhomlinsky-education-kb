@@ -1,5 +1,12 @@
 ---
 id: sk-0800
+primary: null
+seealso: []
+facets:
+  - S10
+  - S3
+  - S8
+tax_tags: []
 aliases:
   - sk-0800
   - 大灰石头的歌

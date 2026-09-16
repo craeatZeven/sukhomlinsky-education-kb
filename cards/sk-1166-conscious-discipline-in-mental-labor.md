@@ -1,5 +1,10 @@
 ---
 id: sk-1166
+primary: A23
+seealso:
+  - A4
+facets: []
+tax_tags: []
 aliases:
   - sk-1166
   - 怎样在脑力劳动中培养自觉的纪律

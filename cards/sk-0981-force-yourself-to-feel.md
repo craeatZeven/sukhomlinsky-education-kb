@@ -1,5 +1,12 @@
 ---
 id: sk-0981
+primary: null
+seealso: []
+facets:
+  - S3
+  - S4
+  - S8
+tax_tags: []
 aliases:
   - sk-0981
   - 最重要的是迫使自己去感受

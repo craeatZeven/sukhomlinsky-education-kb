@@ -1,5 +1,9 @@
 ---
 id: sk-0032
+primary: A6
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0032
   - 孩子对一切冷漠时，为他匹配一位热忱的教师/同伴

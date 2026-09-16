@@ -1,5 +1,13 @@
 ---
 id: sk-0543
+primary: null
+seealso: []
+facets:
+  - S12
+  - S4
+  - S6
+  - S9
+tax_tags: []
 aliases:
   - sk-0543
   - 麦种是怎样长成麦穗的：被珍惜的一粒种子，向劳动者鞠躬

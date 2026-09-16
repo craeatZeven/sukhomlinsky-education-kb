@@ -1,5 +1,12 @@
 ---
 id: sk-0603
+primary: null
+seealso: []
+facets:
+  - S1
+  - S15
+  - S8
+tax_tags: []
 aliases:
   - sk-0603
   - 爷爷的遗嘱：先成为一个爱国主义者，再想当什么

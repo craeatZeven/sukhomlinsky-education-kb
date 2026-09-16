@@ -1,5 +1,9 @@
 ---
 id: sk-0356
+primary: A4
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0356
   - 自我教育从自我认识开始

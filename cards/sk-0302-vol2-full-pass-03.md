@@ -1,5 +1,10 @@
 ---
 id: sk-0302
+primary: A4
+seealso:
+  - A10
+facets: []
+tax_tags: []
 aliases:
   - sk-0302
   - 知识向信念的转化取决于教书与育人的结合

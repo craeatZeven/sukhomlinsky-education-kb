@@ -1,5 +1,11 @@
 ---
 id: sk-1309
+primary: A8
+seealso:
+  - A19
+  - A2
+facets: []
+tax_tags: []
 aliases:
   - sk-1309
   - 致父亲们的话

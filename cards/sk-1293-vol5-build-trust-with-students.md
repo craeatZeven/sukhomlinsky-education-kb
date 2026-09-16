@@ -1,5 +1,9 @@
 ---
 id: sk-1293
+primary: A5
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1293
   - 没有信任便没有教育

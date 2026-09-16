@@ -1,5 +1,9 @@
 ---
 id: sk-0297
+primary: A15
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0297
   - 新知识只有依附旧知识，才能牢固掌握

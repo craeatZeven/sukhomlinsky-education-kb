@@ -1,5 +1,10 @@
 ---
 id: sk-0046
+primary: A16
+seealso:
+  - A5
+facets: []
+tax_tags: []
 aliases:
   - sk-0046
   - 不要求家长在记分册签名，信任比监督更重要

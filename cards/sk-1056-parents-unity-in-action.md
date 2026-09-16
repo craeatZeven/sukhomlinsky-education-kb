@@ -1,5 +1,9 @@
 ---
 id: sk-1056
+primary: A8
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1056
   - 作为教育者的父母怎样做到行动统一

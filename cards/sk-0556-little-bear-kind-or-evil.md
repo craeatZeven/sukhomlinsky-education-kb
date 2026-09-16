@@ -1,5 +1,14 @@
 ---
 id: sk-0556
+primary: null
+seealso: []
+facets:
+  - S15
+  - S5
+  - S6
+  - S7
+  - S9
+tax_tags: []
 aliases:
   - sk-0556
   - 小熊是凶恶的还是善良的：被害怕的公牛犊在男孩丧父时温柔安慰

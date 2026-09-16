@@ -1,5 +1,10 @@
 ---
 id: sk-0416
+primary: A21
+seealso:
+  - A6
+facets: []
+tax_tags: []
 aliases:
   - sk-0416
   - 青春期是人的第二次诞生

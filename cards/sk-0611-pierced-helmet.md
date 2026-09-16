@@ -1,5 +1,13 @@
 ---
 id: sk-0611
+primary: null
+seealso: []
+facets:
+  - S12
+  - S3
+  - S4
+  - S9
+tax_tags: []
 aliases:
   - sk-0611
   - 被打穿的头盔：从地底掘出的老兵心跳

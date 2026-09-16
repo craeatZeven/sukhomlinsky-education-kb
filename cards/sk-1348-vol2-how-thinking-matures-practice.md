@@ -1,5 +1,10 @@
 ---
 id: sk-1348
+primary: A2
+seealso:
+  - A21
+facets: []
+tax_tags: []
 aliases:
   - sk-1348
   - 青少年的思想是怎样成熟起来的

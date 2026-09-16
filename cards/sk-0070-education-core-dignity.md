@@ -1,5 +1,10 @@
 ---
 id: sk-0070
+primary: A5
+seealso: []
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-0070
   - 教育的核心是让学生体验到自己的尊严感

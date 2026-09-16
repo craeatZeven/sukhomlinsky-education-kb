@@ -1,5 +1,10 @@
 ---
 id: sk-1367
+primary: A19
+seealso:
+  - A8
+facets: []
+tax_tags: []
 aliases:
   - sk-1367
   - 怎样教孩子懂得敏锐而有分寸的行为

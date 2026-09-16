@@ -1,5 +1,10 @@
 ---
 id: sk-0311
+primary: A5
+seealso:
+  - A6
+facets: []
+tax_tags: []
 aliases:
   - sk-0311
   - 儿童是不会故意做坏事的

@@ -1,5 +1,12 @@
 ---
 id: sk-0570
+primary: null
+seealso: []
+facets:
+  - S11
+  - S4
+  - S6
+tax_tags: []
 aliases:
   - sk-0570
   - 菊花和葱头：漂亮的菊花值得赞美，实用的葱头也值得赞叹

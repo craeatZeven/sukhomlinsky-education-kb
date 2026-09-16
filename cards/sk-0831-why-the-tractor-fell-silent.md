@@ -1,5 +1,13 @@
 ---
 id: sk-0831
+primary: null
+seealso: []
+facets:
+  - S10
+  - S16
+  - S4
+  - S9
+tax_tags: []
 aliases:
   - sk-0831
   - 为什么拖拉机沉默了

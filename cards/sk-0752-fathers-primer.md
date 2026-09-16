@@ -1,5 +1,12 @@
 ---
 id: sk-0752
+primary: null
+seealso: []
+facets:
+  - S1
+  - S7
+  - S8
+tax_tags: []
 aliases:
   - sk-0752
   - 父亲的识字课本

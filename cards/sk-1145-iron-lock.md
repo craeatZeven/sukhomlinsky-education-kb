@@ -1,5 +1,11 @@
 ---
 id: sk-1145
+primary: null
+seealso: []
+facets:
+  - S13
+  - S17
+tax_tags: []
 aliases:
   - sk-1145
   - 铁锁

@@ -1,5 +1,9 @@
 ---
 id: sk-0278
+primary: A1
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0278
   - 让学校里不存在一个没有个性的学生

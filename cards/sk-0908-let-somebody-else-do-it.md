@@ -1,5 +1,13 @@
 ---
 id: sk-0908
+primary: null
+seealso: []
+facets:
+  - S3
+  - S4
+  - S6
+  - S8
+tax_tags: []
 aliases:
   - sk-0908
   - 让其他什么人去做

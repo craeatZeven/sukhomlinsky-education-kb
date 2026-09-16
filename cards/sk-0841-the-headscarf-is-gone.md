@@ -1,5 +1,12 @@
 ---
 id: sk-0841
+primary: null
+seealso: []
+facets:
+  - S13
+  - S3
+  - S6
+tax_tags: []
 aliases:
   - sk-0841
   - 花头巾没了

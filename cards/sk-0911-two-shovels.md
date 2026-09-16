@@ -1,5 +1,12 @@
 ---
 id: sk-0911
+primary: null
+seealso: []
+facets:
+  - S12
+  - S4
+  - S9
+tax_tags: []
 aliases:
   - sk-0911
   - 两把铲子

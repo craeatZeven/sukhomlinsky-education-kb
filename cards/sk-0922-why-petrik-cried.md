@@ -1,5 +1,13 @@
 ---
 id: sk-0922
+primary: null
+seealso: []
+facets:
+  - S16
+  - S17
+  - S5
+  - S7
+tax_tags: []
 aliases:
   - sk-0922
   - 为什么彼得里克哭了起来

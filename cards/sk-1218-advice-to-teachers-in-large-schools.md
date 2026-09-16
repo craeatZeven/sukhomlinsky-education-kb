@@ -1,5 +1,9 @@
 ---
 id: sk-1218
+primary: A10
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1218
   - 向在规模大的学校里工作的教师提些建议

@@ -1,5 +1,14 @@
 ---
 id: sk-0594
+primary: null
+seealso: []
+facets:
+  - S11
+  - S14
+  - S3
+  - S4
+  - S8
+tax_tags: []
 aliases:
   - sk-0594
   - 这就是祖国：一首诗和一片干蒿草叶

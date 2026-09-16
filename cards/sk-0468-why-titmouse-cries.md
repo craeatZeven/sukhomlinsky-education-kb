@@ -1,5 +1,12 @@
 ---
 id: sk-0468
+primary: null
+seealso: []
+facets:
+  - S15
+  - S3
+  - S5
+tax_tags: []
 aliases:
   - sk-0468
   - 山雀为什么哭：秋千荡在鸟巢旁

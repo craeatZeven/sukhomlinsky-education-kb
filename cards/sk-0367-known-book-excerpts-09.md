@@ -1,5 +1,10 @@
 ---
 id: sk-0367
+primary: A5
+seealso:
+  - A4
+facets: []
+tax_tags: []
 aliases:
   - sk-0367
   - 信任才能唤起自尊与自我教育

@@ -1,5 +1,10 @@
 ---
 id: sk-0289
+primary: A4
+seealso:
+  - A19
+facets: []
+tax_tags: []
 aliases:
   - sk-0289
   - 全人类道德准则只有通过主动行动才成为个人良知

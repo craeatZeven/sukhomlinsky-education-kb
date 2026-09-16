@@ -1,5 +1,9 @@
 ---
 id: sk-0375
+primary: A14
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0375
   - 美是人的道德财富的源泉

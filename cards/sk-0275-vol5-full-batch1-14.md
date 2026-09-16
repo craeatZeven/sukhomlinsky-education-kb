@@ -1,5 +1,9 @@
 ---
 id: sk-0275
+primary: A11
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0275
   - 别把日常劳动当作终点，而要不断翻开“大自然之书”的新页

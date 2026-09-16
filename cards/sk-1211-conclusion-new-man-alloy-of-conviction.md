@@ -1,5 +1,10 @@
 ---
 id: sk-1211
+primary: A1
+seealso:
+  - A4
+facets: []
+tax_tags: []
 aliases:
   - sk-1211
   - 结束语：共产主义信念是新人成长的合金

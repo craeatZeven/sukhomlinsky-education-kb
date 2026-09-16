@@ -1,5 +1,9 @@
 ---
 id: sk-0062
+primary: A12
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0062
   - 《大自然的书》：四年 300 次观察的思维课程

@@ -1,5 +1,10 @@
 ---
 id: sk-0991
+primary: null
+seealso: []
+facets:
+  - S5
+tax_tags: []
 aliases:
   - sk-0991
   - 蚊子与大木桶

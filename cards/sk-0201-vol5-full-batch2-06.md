@@ -1,5 +1,9 @@
 ---
 id: sk-0201
+primary: A22
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0201
   - 真正的人民教育不滥用华丽词藻

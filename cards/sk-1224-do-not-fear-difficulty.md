@@ -1,5 +1,10 @@
 ---
 id: sk-1224
+primary: A19
+seealso:
+  - A4
+facets: []
+tax_tags: []
 aliases:
   - sk-1224
   - 不要害怕困难，有困难是好事，否则就谈不上对青少年进行思想教育

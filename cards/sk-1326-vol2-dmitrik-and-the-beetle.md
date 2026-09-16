@@ -1,5 +1,11 @@
 ---
 id: sk-1326
+primary: null
+seealso: []
+facets:
+  - S5
+  - S8
+tax_tags: []
 aliases:
   - sk-1326
   - 怎样爱惜儿童的信任

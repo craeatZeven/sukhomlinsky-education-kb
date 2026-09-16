@@ -1,5 +1,13 @@
 ---
 id: sk-0853
+primary: null
+seealso: []
+facets:
+  - S17
+  - S3
+  - S4
+  - S8
+tax_tags: []
 aliases:
   - sk-0853
   - 脏话

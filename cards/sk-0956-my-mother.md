@@ -1,5 +1,11 @@
 ---
 id: sk-0956
+primary: null
+seealso: []
+facets:
+  - S1
+  - S6
+tax_tags: []
 aliases:
   - sk-0956
   - 我的妈妈

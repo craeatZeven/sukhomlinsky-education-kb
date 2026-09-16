@@ -1,5 +1,13 @@
 ---
 id: sk-0626
+primary: null
+seealso: []
+facets:
+  - S10
+  - S15
+  - S2
+  - S4
+tax_tags: []
 aliases:
   - sk-0626
   - 我活在对敌人的仇恨中：99岁的尤希姆爷爷以仇恨为武器战斗到胜利

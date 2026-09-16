@@ -1,5 +1,9 @@
 ---
 id: sk-0197
+primary: A5
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0197
   - 言行不一的教育者是对善的嘲弄

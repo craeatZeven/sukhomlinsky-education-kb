@@ -1,5 +1,10 @@
 ---
 id: sk-0206
+primary: A5
+seealso:
+  - A19
+facets: []
+tax_tags: []
 aliases:
   - sk-0206
   - 教学首先是师生活生生的人际关系

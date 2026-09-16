@@ -1,5 +1,10 @@
 ---
 id: sk-0227
+primary: A8
+seealso:
+  - A2
+facets: []
+tax_tags: []
 aliases:
   - sk-0227
   - 真正父亲无可替代：育人比任何生产岗位更细致

@@ -1,5 +1,11 @@
 ---
 id: sk-0995
+primary: A13
+seealso:
+  - A15
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-0995
   - 关于做“困难”学生的工作

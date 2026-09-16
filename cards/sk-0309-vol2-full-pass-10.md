@@ -1,5 +1,11 @@
 ---
 id: sk-0309
+primary: A22
+seealso:
+  - A20
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-0309
   - 教材首次学习不扎实是落后根源之一

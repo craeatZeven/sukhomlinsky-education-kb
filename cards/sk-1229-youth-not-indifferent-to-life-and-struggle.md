@@ -1,5 +1,9 @@
 ---
 id: sk-1229
+primary: A2
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1229
   - 怎样使青年对我们的生活和斗争不要漠不关心

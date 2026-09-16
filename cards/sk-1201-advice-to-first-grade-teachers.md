@@ -1,5 +1,10 @@
 ---
 id: sk-1201
+primary: A6
+seealso:
+  - A8
+facets: []
+tax_tags: []
 aliases:
   - sk-1201
   - 向准备担任一年级工作的教师提一些建议

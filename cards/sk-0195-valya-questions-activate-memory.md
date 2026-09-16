@@ -1,5 +1,12 @@
 ---
 id: sk-0195
+primary: null
+seealso: []
+facets:
+  - S4
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-0195
   - 瓦利娅：让“记不住”的女孩先产生问题，记忆才被激活

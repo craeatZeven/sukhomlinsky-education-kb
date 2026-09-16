@@ -1,5 +1,11 @@
 ---
 id: sk-0748
+primary: null
+seealso: []
+facets:
+  - S6
+  - S8
+tax_tags: []
 aliases:
   - sk-0748
   - 灯光

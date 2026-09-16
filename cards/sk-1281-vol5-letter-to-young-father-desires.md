@@ -1,5 +1,10 @@
 ---
 id: sk-1281
+primary: A19
+seealso:
+  - A4
+facets: []
+tax_tags: []
 aliases:
   - sk-1281
   - 致年轻父亲的信

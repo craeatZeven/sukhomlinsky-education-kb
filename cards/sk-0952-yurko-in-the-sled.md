@@ -1,5 +1,11 @@
 ---
 id: sk-0952
+primary: null
+seealso: []
+facets:
+  - S3
+  - S6
+tax_tags: []
 aliases:
   - sk-0952
   - 尤尔科坐在雪橇里

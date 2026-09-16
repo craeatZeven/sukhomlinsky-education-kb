@@ -1,5 +1,14 @@
 ---
 id: sk-0886
+primary: null
+seealso: []
+facets:
+  - S1
+  - S17
+  - S4
+  - S7
+  - S8
+tax_tags: []
 aliases:
   - sk-0886
   - 彼得里克和玛莉卡

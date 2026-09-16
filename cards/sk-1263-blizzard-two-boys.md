@@ -1,5 +1,14 @@
 ---
 id: sk-1263
+primary: null
+seealso: []
+facets:
+  - S10
+  - S16
+  - S3
+  - S6
+  - S8
+tax_tags: []
 aliases:
   - sk-1263
   - 暴风雪：两个孩子看见对方，就不那么怕了

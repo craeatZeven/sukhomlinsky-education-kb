@@ -1,5 +1,12 @@
 ---
 id: sk-0685
+primary: null
+seealso: []
+facets:
+  - S1
+  - S10
+  - S4
+tax_tags: []
 aliases:
   - sk-0685
   - 因为我是人：替别人搬开路上的石头，才是做人的自觉

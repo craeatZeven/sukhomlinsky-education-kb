@@ -1,5 +1,12 @@
 ---
 id: sk-0486
+primary: null
+seealso: []
+facets:
+  - S11
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-0486
   - 蜜蜂是怎样找到铃兰花的：每朵花都是银色小铃铛

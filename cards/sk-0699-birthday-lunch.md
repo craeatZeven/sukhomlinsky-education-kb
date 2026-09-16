@@ -1,5 +1,14 @@
 ---
 id: sk-0699
+primary: null
+seealso: []
+facets:
+  - S1
+  - S17
+  - S2
+  - S4
+  - S7
+tax_tags: []
 aliases:
   - sk-0699
   - 生日午餐

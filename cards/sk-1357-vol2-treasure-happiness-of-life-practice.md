@@ -1,5 +1,10 @@
 ---
 id: sk-1357
+primary: A3
+seealso:
+  - A19
+facets: []
+tax_tags: []
 aliases:
   - sk-1357
   - 何谓珍惜生活的幸福

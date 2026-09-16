@@ -1,5 +1,9 @@
 ---
 id: sk-0082
+primary: A12
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0082
   - 活生生的大自然，不能被技术影像取代

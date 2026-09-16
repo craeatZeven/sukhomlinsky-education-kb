@@ -1,5 +1,12 @@
 ---
 id: sk-0559
+primary: null
+seealso: []
+facets:
+  - S11
+  - S13
+  - S6
+tax_tags: []
 aliases:
   - sk-0559
   - 女孩和母菊：搬开压迫的石头，花和人成为朋友

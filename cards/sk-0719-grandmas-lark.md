@@ -1,5 +1,13 @@
 ---
 id: sk-0719
+primary: null
+seealso: []
+facets:
+  - S1
+  - S12
+  - S2
+  - S7
+tax_tags: []
 aliases:
   - sk-0719
   - 奶奶的云雀

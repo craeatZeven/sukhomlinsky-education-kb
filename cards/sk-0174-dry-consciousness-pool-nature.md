@@ -1,5 +1,10 @@
 ---
 id: sk-0174
+primary: A12
+seealso:
+  - A15
+facets: []
+tax_tags: []
 aliases:
   - sk-0174
   - 孩子不懂时，把他干涸的“意识池塘”接回大自然

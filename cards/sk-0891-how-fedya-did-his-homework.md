@@ -1,5 +1,12 @@
 ---
 id: sk-0891
+primary: null
+seealso: []
+facets:
+  - S1
+  - S17
+  - S7
+tax_tags: []
 aliases:
   - sk-0891
   - 费佳是怎样做作业的

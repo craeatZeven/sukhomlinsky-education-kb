@@ -1,5 +1,11 @@
 ---
 id: sk-0704
+primary: null
+seealso: []
+facets:
+  - S1
+  - S7
+tax_tags: []
 aliases:
   - sk-0704
   - 母亲的眼睛

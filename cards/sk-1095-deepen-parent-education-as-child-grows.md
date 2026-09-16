@@ -1,5 +1,10 @@
 ---
 id: sk-1095
+primary: A8
+seealso:
+  - A13
+facets: []
+tax_tags: []
 aliases:
   - sk-1095
   - 怎样随着儿童的成长和发展而加深对家长的教育工作

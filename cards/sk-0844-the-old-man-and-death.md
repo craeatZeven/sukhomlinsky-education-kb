@@ -1,5 +1,12 @@
 ---
 id: sk-0844
+primary: null
+seealso: []
+facets:
+  - S12
+  - S2
+  - S9
+tax_tags: []
 aliases:
   - sk-0844
   - 老爷爷和死神

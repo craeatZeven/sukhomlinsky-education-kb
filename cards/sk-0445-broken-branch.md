@@ -1,5 +1,12 @@
 ---
 id: sk-0445
+primary: null
+seealso: []
+facets:
+  - S17
+  - S2
+  - S6
+tax_tags: []
 aliases:
   - sk-0445
   - 在受伤的树枝面前：折一根树枝，世界就少一点欢乐

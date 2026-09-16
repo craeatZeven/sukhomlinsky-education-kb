@@ -1,5 +1,11 @@
 ---
 id: sk-1308
+primary: A5
+seealso:
+  - A16
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-1308
   - 寄语后来人

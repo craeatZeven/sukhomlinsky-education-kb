@@ -1,5 +1,9 @@
 ---
 id: sk-0228
+primary: A8
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0228
   - 夫妻之爱会化为你未来孩子的精神美

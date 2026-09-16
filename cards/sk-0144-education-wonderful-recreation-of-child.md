@@ -1,5 +1,9 @@
 ---
 id: sk-0144
+primary: A10
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0144
   - 教育是教师在儿童身上的奇妙再创造

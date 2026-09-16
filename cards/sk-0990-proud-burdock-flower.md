@@ -1,5 +1,11 @@
 ---
 id: sk-0990
+primary: null
+seealso: []
+facets:
+  - S6
+  - S8
+tax_tags: []
 aliases:
   - sk-0990
   - 自以为是美人的牛蒡花

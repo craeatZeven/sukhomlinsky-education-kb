@@ -1,5 +1,14 @@
 ---
 id: sk-0708
+primary: null
+seealso: []
+facets:
+  - S10
+  - S15
+  - S2
+  - S3
+  - S7
+tax_tags: []
 aliases:
   - sk-0708
   - 给孙子的信

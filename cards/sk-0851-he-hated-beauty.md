@@ -1,5 +1,12 @@
 ---
 id: sk-0851
+primary: null
+seealso: []
+facets:
+  - S1
+  - S11
+  - S5
+tax_tags: []
 aliases:
   - sk-0851
   - 他憎恨美丽

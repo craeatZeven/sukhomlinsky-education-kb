@@ -1,5 +1,10 @@
 ---
 id: sk-0755
+primary: null
+seealso: []
+facets:
+  - S4
+tax_tags: []
 aliases:
   - sk-0755
   - 傲慢的字母

@@ -1,5 +1,13 @@
 ---
 id: sk-0530
+primary: null
+seealso: []
+facets:
+  - S12
+  - S3
+  - S5
+  - S9
+tax_tags: []
 aliases:
   - sk-0530
   - 蚂蚁和南瓜子：一只累了，另一只马上接住

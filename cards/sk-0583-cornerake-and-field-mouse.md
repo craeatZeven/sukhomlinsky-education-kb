@@ -1,5 +1,13 @@
 ---
 id: sk-0583
+primary: null
+seealso: []
+facets:
+  - S11
+  - S14
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-0583
   - 长脚秧鸡和田鼠：几千公里跋涉，是什么在召唤它？——祖国

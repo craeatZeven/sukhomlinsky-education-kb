@@ -1,5 +1,10 @@
 ---
 id: sk-1294
+primary: null
+seealso: []
+facets:
+  - S8
+tax_tags: []
 aliases:
   - sk-1294
   - 课堂教学与知识

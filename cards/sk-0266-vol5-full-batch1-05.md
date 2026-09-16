@@ -1,5 +1,10 @@
 ---
 id: sk-0266
+primary: A19
+seealso:
+  - A4
+facets: []
+tax_tags: []
 aliases:
   - sk-0266
   - 道德美不只看怎样评价现实，而首先看积极的活动

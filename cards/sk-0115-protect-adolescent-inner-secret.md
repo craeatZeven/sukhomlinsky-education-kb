@@ -1,5 +1,9 @@
 ---
 id: sk-0115
+primary: A5
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0115
   - 保护少年内心世界的隐秘，是教育的最重要任务

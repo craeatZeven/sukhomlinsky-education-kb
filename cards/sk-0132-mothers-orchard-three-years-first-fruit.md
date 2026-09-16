@@ -1,5 +1,14 @@
 ---
 id: sk-0132
+primary: null
+seealso: []
+facets:
+  - S1
+  - S12
+  - S3
+  - S4
+  - S9
+tax_tags: []
 aliases:
   - sk-0132
   - 母亲的果园：让孩子用三年劳动把第一颗果实送给妈妈

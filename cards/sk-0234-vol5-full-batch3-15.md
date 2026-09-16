@@ -1,5 +1,10 @@
 ---
 id: sk-0234
+primary: A13
+seealso:
+  - A22
+facets: []
+tax_tags: []
 aliases:
   - sk-0234
   - 文学即人学：教师是弹奏青少年心灵音乐的大师

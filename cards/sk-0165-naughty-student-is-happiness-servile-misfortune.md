@@ -1,5 +1,9 @@
 ---
 id: sk-0165
+primary: A5
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0165
   - 班上有个淘气学生是你的幸福，唯唯诺诺才是你的不幸

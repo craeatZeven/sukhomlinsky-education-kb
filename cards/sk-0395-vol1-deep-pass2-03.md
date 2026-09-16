@@ -1,5 +1,9 @@
 ---
 id: sk-0395
+primary: A1
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0395
   - 教育技巧在于展示人的全部素质

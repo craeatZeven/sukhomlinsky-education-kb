@@ -1,5 +1,9 @@
 ---
 id: sk-0147
+primary: A14
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0147
   - 人因驻足欣赏美而成为人

@@ -1,5 +1,11 @@
 ---
 id: sk-0725
+primary: null
+seealso: []
+facets:
+  - S1
+  - S17
+tax_tags: []
 aliases:
   - sk-0725
   - 侮辱的话

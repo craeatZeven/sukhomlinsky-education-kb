@@ -1,5 +1,10 @@
 ---
 id: sk-1368
+primary: A4
+seealso:
+  - A19
+facets: []
+tax_tags: []
 aliases:
   - sk-1368
   - 怎样培养孩子自觉地去追求善良

@@ -1,5 +1,9 @@
 ---
 id: sk-1213
+primary: A19
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1213
   - 怎样教孩子懂得奉献的思想

@@ -1,5 +1,13 @@
 ---
 id: sk-0765
+primary: null
+seealso: []
+facets:
+  - S13
+  - S3
+  - S6
+  - S8
+tax_tags: []
 aliases:
   - sk-0765
   - 原因、现象、结果

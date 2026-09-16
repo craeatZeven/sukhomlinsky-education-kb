@@ -1,5 +1,9 @@
 ---
 id: sk-1261
+primary: A19
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1261
   - 怎样培养孩子具有慷慨大方和大公无私的品格

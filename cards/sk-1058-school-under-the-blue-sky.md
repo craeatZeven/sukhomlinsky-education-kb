@@ -1,5 +1,10 @@
 ---
 id: sk-1058
+primary: A12
+seealso:
+  - A6
+facets: []
+tax_tags: []
 aliases:
   - sk-1058
   - 蓝天下的学校

@@ -1,5 +1,9 @@
 ---
 id: sk-1181
+primary: A19
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1181
   - 怎样培养个人对邪恶持毫不妥协的态度

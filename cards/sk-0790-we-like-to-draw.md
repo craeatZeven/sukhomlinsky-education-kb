@@ -1,5 +1,14 @@
 ---
 id: sk-0790
+primary: null
+seealso: []
+facets:
+  - S11
+  - S3
+  - S4
+  - S6
+  - S8
+tax_tags: []
 aliases:
   - sk-0790
   - 我们喜欢画画

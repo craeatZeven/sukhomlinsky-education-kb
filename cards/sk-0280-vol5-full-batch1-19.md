@@ -1,5 +1,10 @@
 ---
 id: sk-0280
+primary: A11
+seealso:
+  - A19
+facets: []
+tax_tags: []
 aliases:
   - sk-0280
   - 年轻人应当生活得艰苦些——这是最崇高的人道意义

@@ -1,5 +1,10 @@
 ---
 id: sk-0382
+primary: A2
+seealso:
+  - A11
+facets: []
+tax_tags: []
 aliases:
   - sk-0382
   - 公民感要牢记心里而非挂在口头上

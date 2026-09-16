@@ -1,5 +1,12 @@
 ---
 id: sk-0888
+primary: null
+seealso: []
+facets:
+  - S1
+  - S17
+  - S7
+tax_tags: []
 aliases:
   - sk-0888
   - 尤拉是怎样教育自己的

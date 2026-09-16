@@ -1,5 +1,13 @@
 ---
 id: sk-0648
+primary: null
+seealso: []
+facets:
+  - S13
+  - S2
+  - S3
+  - S8
+tax_tags: []
 aliases:
   - sk-0648
   - 什么叫不知分寸：好心也要看见对方真正需要什么

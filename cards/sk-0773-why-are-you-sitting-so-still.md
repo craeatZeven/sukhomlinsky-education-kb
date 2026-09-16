@@ -1,5 +1,12 @@
 ---
 id: sk-0773
+primary: null
+seealso: []
+facets:
+  - S1
+  - S5
+  - S7
+tax_tags: []
 aliases:
   - sk-0773
   - 你怎么坐得这么老实

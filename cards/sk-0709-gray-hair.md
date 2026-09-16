@@ -1,5 +1,11 @@
 ---
 id: sk-0709
+primary: null
+seealso: []
+facets:
+  - S1
+  - S7
+tax_tags: []
 aliases:
   - sk-0709
   - 灰白的头发

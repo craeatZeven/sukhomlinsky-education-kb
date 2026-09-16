@@ -1,5 +1,12 @@
 ---
 id: sk-0509
+primary: null
+seealso: []
+facets:
+  - S1
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-0509
   - 小麻雀们怎样等待太阳：太阳不出来，妈妈就不去抓虫

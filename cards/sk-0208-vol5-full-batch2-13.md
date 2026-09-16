@@ -1,5 +1,9 @@
 ---
 id: sk-0208
+primary: A5
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0208
   - 不爱学生的教师，如同歌手没有嗓音

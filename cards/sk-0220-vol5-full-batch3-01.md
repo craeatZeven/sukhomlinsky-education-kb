@@ -1,5 +1,10 @@
 ---
 id: sk-0220
+primary: A5
+seealso:
+  - A19
+facets: []
+tax_tags: []
 aliases:
   - sk-0220
   - 休怕成为慈爱的人：引发儿童邪恶的不是慈爱，而是粗暴、冷漠和严酷

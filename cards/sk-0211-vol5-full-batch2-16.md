@@ -1,5 +1,10 @@
 ---
 id: sk-0211
+primary: A5
+seealso:
+  - A2
+facets: []
+tax_tags: []
 aliases:
   - sk-0211
   - 儿童喜欢玩具，却不喜欢别人把他们变为玩具

@@ -1,5 +1,10 @@
 ---
 id: sk-1370
+primary: A10
+seealso:
+  - A6
+facets: []
+tax_tags: []
 aliases:
   - sk-1370
   - 什么是从事教师工作的才能，它是怎样形成的

@@ -1,5 +1,10 @@
 ---
 id: sk-1081
+primary: A11
+seealso:
+  - A17
+facets: []
+tax_tags: []
 aliases:
   - sk-1081
   - 自我服务

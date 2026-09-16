@@ -1,5 +1,12 @@
 ---
 id: sk-0860
+primary: null
+seealso: []
+facets:
+  - S12
+  - S17
+  - S9
+tax_tags: []
 aliases:
   - sk-0860
   - 右手和左手

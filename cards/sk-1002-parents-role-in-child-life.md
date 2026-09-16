@@ -1,5 +1,10 @@
 ---
 id: sk-1002
+primary: A8
+seealso:
+  - A19
+facets: []
+tax_tags: []
 aliases:
   - sk-1002
   - 父母在孩子生活中的作用

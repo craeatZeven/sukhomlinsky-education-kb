@@ -1,5 +1,10 @@
 ---
 id: sk-1381
+primary: A2
+seealso:
+  - A11
+facets: []
+tax_tags: []
 aliases:
   - sk-1381
   - 在当今做个革命者意味着什么

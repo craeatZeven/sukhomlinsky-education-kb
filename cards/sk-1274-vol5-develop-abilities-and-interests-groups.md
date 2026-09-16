@@ -1,5 +1,10 @@
 ---
 id: sk-1274
+primary: A11
+seealso:
+  - A9
+facets: []
+tax_tags: []
 aliases:
   - sk-1274
   - 发展学生的个人能力与爱好

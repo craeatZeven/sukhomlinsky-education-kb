@@ -1,5 +1,11 @@
 ---
 id: sk-0536
+primary: null
+seealso: []
+facets:
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-0536
   - 太阳和瓢虫：别过早飞出来，严寒是狡猾的

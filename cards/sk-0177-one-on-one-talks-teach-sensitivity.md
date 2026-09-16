@@ -1,5 +1,10 @@
 ---
 id: sk-0177
+primary: A9
+seealso:
+  - A19
+facets: []
+tax_tags: []
 aliases:
   - sk-0177
   - 集体还没形成时，用一对一谈话教孩子读懂他人的哀乐

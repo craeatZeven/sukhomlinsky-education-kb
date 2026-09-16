@@ -1,5 +1,10 @@
 ---
 id: sk-0221
+primary: A5
+seealso:
+  - A6
+facets: []
+tax_tags: []
 aliases:
   - sk-0221
   - 理解童年世界是上升，不是俯就：教师应体察儿童的世界

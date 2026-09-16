@@ -1,5 +1,10 @@
 ---
 id: sk-1161
+primary: A9
+seealso:
+  - A8
+facets: []
+tax_tags: []
 aliases:
   - sk-1161
   - 教师集体和学生集体

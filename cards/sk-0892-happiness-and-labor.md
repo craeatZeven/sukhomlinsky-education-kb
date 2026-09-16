@@ -1,5 +1,11 @@
 ---
 id: sk-0892
+primary: null
+seealso: []
+facets:
+  - S1
+  - S12
+tax_tags: []
 aliases:
   - sk-0892
   - 幸福与劳动

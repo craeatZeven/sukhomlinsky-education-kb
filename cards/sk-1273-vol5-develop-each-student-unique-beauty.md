@@ -1,5 +1,10 @@
 ---
 id: sk-1273
+primary: A6
+seealso:
+  - A11
+facets: []
+tax_tags: []
 aliases:
   - sk-1273
   - 开发出每个学生独特的人格之美

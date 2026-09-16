@@ -1,5 +1,9 @@
 ---
 id: sk-0250
+primary: A11
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0250
   - 劳动教育是‘应该劳动’、‘劳动艰苦’和‘劳动美好’的统一

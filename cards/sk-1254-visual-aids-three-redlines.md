@@ -1,5 +1,11 @@
 ---
 id: sk-1254
+primary: A22
+seealso:
+  - A15
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-1254
   - 直观是认识的途径，是照亮认识途径的光辉

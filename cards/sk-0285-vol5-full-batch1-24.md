@@ -1,5 +1,9 @@
 ---
 id: sk-0285
+primary: A22
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0285
   - 语言如刻刀：能塑造美丽心灵，也能摧毁它

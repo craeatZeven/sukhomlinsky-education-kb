@@ -1,5 +1,15 @@
 ---
 id: sk-0973
+primary: null
+seealso: []
+facets:
+  - S1
+  - S12
+  - S17
+  - S2
+  - S6
+  - S9
+tax_tags: []
 aliases:
   - sk-0973
   - 谁吃了馅饼

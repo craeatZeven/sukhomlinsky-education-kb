@@ -1,5 +1,10 @@
 ---
 id: sk-1069
+primary: A19
+seealso:
+  - A15
+facets: []
+tax_tags: []
 aliases:
   - sk-1069
   - 精神素养、道德和无神论

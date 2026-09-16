@@ -1,5 +1,9 @@
 ---
 id: sk-1329
+primary: A19
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1329
   - 怎样培养孩子具有善意感

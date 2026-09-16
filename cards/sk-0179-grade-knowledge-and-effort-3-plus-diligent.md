@@ -1,5 +1,9 @@
 ---
 id: sk-0179
+primary: A16
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0179
   - 评分既要看知识水平也要看努力：在3分旁写‘学习很认真’

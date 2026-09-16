@@ -1,5 +1,9 @@
 ---
 id: sk-0350
+primary: A11
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0350
   - 致年轻的朋友：面包是神圣的

@@ -1,5 +1,10 @@
 ---
 id: sk-0219
+primary: A12
+seealso:
+  - A15
+facets: []
+tax_tags: []
 aliases:
   - sk-0219
   - 每个儿童天性都是诗人，要教会他发现联系

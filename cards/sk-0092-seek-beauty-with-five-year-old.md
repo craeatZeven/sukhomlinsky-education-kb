@@ -1,5 +1,11 @@
 ---
 id: sk-0092
+primary: A14
+seealso:
+  - A11
+  - A8
+facets: []
+tax_tags: []
 aliases:
   - sk-0092
   - 带五岁孩子“去寻求美”：把美与早起劳动连在一起

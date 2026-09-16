@@ -1,5 +1,10 @@
 ---
 id: sk-1215
+primary: A19
+seealso:
+  - A8
+facets: []
+tax_tags: []
 aliases:
   - sk-1215
   - 怎样祝贺亲人的生日

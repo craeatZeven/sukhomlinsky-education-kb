@@ -1,5 +1,11 @@
 ---
 id: sk-0735
+primary: null
+seealso: []
+facets:
+  - S1
+  - S5
+tax_tags: []
 aliases:
   - sk-0735
   - 被制止的手

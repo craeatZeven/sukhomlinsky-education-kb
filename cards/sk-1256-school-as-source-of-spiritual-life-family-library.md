@@ -1,5 +1,10 @@
 ---
 id: sk-1256
+primary: A13
+seealso:
+  - A8
+facets: []
+tax_tags: []
 aliases:
   - sk-1256
   - 培养对待学校的态度要像对待人民精神生活的最重要的发源地那样

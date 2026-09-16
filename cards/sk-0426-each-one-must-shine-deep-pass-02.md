@@ -1,5 +1,10 @@
 ---
 id: sk-0426
+primary: A7
+seealso:
+  - A15
+facets: []
+tax_tags: []
 aliases:
   - sk-0426
   - 儿童是活的生命，大脑是最娇嫩的器官

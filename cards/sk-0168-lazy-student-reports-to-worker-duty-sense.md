@@ -1,5 +1,10 @@
 ---
 id: sk-0168
+primary: null
+seealso: []
+facets:
+  - S8
+tax_tags: []
 aliases:
   - sk-0168
   - 让懒学生向劳动者报告学习成绩：义务感胜过检查强制

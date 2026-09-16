@@ -1,5 +1,10 @@
 ---
 id: sk-1134
+primary: A4
+seealso:
+  - A11
+facets: []
+tax_tags: []
 aliases:
   - sk-1134
   - 怎样启发学生在劳动和学习中进行自我教育

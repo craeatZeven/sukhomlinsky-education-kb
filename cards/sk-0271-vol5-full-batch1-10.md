@@ -1,5 +1,10 @@
 ---
 id: sk-0271
+primary: A15
+seealso: []
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-0271
   - 死记的知识越积越多越难学；分析得来的知识越学越轻松

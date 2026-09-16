@@ -1,5 +1,11 @@
 ---
 id: sk-0004
+primary: null
+seealso: []
+facets:
+  - S4
+  - S8
+tax_tags: []
 aliases:
   - sk-0004
   - 两年把低识字率减半的第一次“战役”

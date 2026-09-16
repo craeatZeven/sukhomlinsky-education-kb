@@ -1,5 +1,9 @@
 ---
 id: sk-0305
+primary: A19
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0305
   - 教育技巧的精细处：培养学生需要人的情感

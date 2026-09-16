@@ -1,5 +1,9 @@
 ---
 id: sk-0419
+primary: A15
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0419
   - 幻想形象是思维幼芽最肥沃的土壤

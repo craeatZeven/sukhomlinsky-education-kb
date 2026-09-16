@@ -1,5 +1,10 @@
 ---
 id: sk-0136
+primary: A10
+seealso:
+  - A5
+facets: []
+tax_tags: []
 aliases:
   - sk-0136
   - 与孩子相处是内在需要而非义务：人道天赋造就教育者

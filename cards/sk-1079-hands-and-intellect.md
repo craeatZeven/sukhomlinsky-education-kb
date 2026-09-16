@@ -1,5 +1,10 @@
 ---
 id: sk-1079
+primary: A11
+seealso:
+  - A15
+facets: []
+tax_tags: []
 aliases:
   - sk-1079
   - 手和理智

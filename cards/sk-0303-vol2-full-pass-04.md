@@ -1,5 +1,9 @@
 ---
 id: sk-0303
+primary: A1
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0303
   - 智力的发展应服从于道德的发展

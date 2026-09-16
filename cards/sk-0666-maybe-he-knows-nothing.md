@@ -1,5 +1,12 @@
 ---
 id: sk-0666
+primary: null
+seealso: []
+facets:
+  - S2
+  - S6
+  - S9
+tax_tags: []
 aliases:
   - sk-0666
   - 可能他什么也不知道吧：沉默不等于聪明，孩子戳破了成人的想当然

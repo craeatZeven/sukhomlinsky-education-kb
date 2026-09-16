@@ -1,5 +1,9 @@
 ---
 id: sk-0184
+primary: A7
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0184
   - 食欲不振的根源是‘氧饥饿’：久坐室内、缺乏户外活动

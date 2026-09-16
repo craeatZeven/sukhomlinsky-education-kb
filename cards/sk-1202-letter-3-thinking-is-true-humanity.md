@@ -1,5 +1,10 @@
 ---
 id: sk-1202
+primary: A1
+seealso:
+  - A4
+facets: []
+tax_tags: []
 aliases:
   - sk-1202
   - 第3封信：思想性就是真正的人性

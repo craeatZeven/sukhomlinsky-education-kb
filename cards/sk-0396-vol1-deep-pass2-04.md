@@ -1,5 +1,9 @@
 ---
 id: sk-0396
+primary: A3
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0396
   - 快乐是儿童精神发展的源泉

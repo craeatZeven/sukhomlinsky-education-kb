@@ -1,5 +1,13 @@
 ---
 id: sk-0928
+primary: null
+seealso: []
+facets:
+  - S1
+  - S3
+  - S6
+  - S8
+tax_tags: []
 aliases:
   - sk-0928
   - 绿色的小手套

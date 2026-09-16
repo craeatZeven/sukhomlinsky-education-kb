@@ -1,5 +1,9 @@
 ---
 id: sk-1133
+primary: A19
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1133
   - 要保护青少年内心的纯洁激情

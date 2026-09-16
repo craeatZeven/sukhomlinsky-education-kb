@@ -1,5 +1,9 @@
 ---
 id: sk-0229
+primary: A10
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0229
   - 农村学校的特殊使命：做农村最重要的文化中心

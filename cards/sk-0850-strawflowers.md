@@ -1,5 +1,12 @@
 ---
 id: sk-0850
+primary: null
+seealso: []
+facets:
+  - S1
+  - S14
+  - S15
+tax_tags: []
 aliases:
   - sk-0850
   - 蜡菊

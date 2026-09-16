@@ -1,5 +1,11 @@
 ---
 id: sk-0607
+primary: null
+seealso: []
+facets:
+  - S15
+  - S4
+tax_tags: []
 aliases:
   - sk-0607
   - 杀吧，烧吧，但你们战胜不了：一个人的拒绝成为一座城的碑文

@@ -1,5 +1,10 @@
 ---
 id: sk-0381
+primary: A14
+seealso:
+  - A5
+facets: []
+tax_tags: []
 aliases:
   - sk-0381
   - 公正拨开眼睛感受美，不公正如冰甲裹心

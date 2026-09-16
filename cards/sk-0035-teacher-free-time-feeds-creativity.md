@@ -1,5 +1,9 @@
 ---
 id: sk-0035
+primary: A10
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0035
   - 教师的自由时间，是滋养创造力的根

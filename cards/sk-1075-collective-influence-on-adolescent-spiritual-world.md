@@ -1,5 +1,11 @@
 ---
 id: sk-1075
+primary: A9
+seealso:
+  - A21
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-1075
   - 集体对少年精神世界形成的影响

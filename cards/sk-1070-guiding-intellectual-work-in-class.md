@@ -1,5 +1,10 @@
 ---
 id: sk-1070
+primary: A22
+seealso:
+  - A15
+facets: []
+tax_tags: []
 aliases:
   - sk-1070
   - 我们是怎样指导课上的智能劳动的

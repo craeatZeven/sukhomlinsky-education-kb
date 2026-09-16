@@ -1,5 +1,9 @@
 ---
 id: sk-1234
+primary: A2
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1234
   - 在当今做个革命者意味着什么

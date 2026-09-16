@@ -1,5 +1,12 @@
 ---
 id: sk-0807
+primary: null
+seealso: []
+facets:
+  - S15
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-0807
   - 漠不关心的树墩

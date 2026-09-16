@@ -1,5 +1,13 @@
 ---
 id: sk-0712
+primary: null
+seealso: []
+facets:
+  - S1
+  - S5
+  - S6
+  - S7
+tax_tags: []
 aliases:
   - sk-0712
   - 母鹅的故事

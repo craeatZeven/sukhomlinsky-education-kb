@@ -1,5 +1,9 @@
 ---
 id: sk-0284
+primary: A22
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0284
   - 语言是教育科学变成教师教学艺术的桥梁

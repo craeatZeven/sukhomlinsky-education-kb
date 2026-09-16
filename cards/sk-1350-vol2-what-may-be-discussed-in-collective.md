@@ -1,5 +1,11 @@
 ---
 id: sk-1350
+primary: A9
+seealso:
+  - A5
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-1350
   - 在学校集体中什么可以讨论和什么不可以讨论

@@ -1,5 +1,9 @@
 ---
 id: sk-1180
+primary: A19
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1180
   - 理解亲人的痛苦能提高道德敏锐性

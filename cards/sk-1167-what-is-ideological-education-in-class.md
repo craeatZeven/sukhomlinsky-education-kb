@@ -1,5 +1,10 @@
 ---
 id: sk-1167
+primary: A4
+seealso:
+  - A15
+facets: []
+tax_tags: []
 aliases:
   - sk-1167
   - 什么是课堂上的思想教育

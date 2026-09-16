@@ -1,5 +1,9 @@
 ---
 id: sk-0036
+primary: A5
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0036
   - 小学教师对孩子必须像母亲一样亲近

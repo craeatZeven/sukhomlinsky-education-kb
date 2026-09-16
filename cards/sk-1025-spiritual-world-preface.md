@@ -1,5 +1,10 @@
 ---
 id: sk-1025
+primary: A3
+seealso:
+  - A15
+facets: []
+tax_tags: []
 aliases:
   - sk-1025
   - 学生的精神世界（序言）：知识不只为了劳动

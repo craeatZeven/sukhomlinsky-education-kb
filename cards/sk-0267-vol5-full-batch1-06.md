@@ -1,5 +1,9 @@
 ---
 id: sk-0267
+primary: A11
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0267
   - 劳动的教育价值不在气力大小，而在坚定的目的性

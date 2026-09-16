@@ -1,5 +1,15 @@
 ---
 id: sk-0566
+primary: null
+seealso: []
+facets:
+  - S11
+  - S12
+  - S17
+  - S2
+  - S4
+  - S9
+tax_tags: []
 aliases:
   - sk-0566
   - 最美的和最丑的：最美的是人的劳动，最丑的是浪费劳动

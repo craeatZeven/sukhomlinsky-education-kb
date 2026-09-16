@@ -1,5 +1,10 @@
 ---
 id: sk-1175
+primary: A7
+seealso:
+  - A21
+facets: []
+tax_tags: []
 aliases:
   - sk-1175
   - 怎样按季节安排学生的学习

@@ -1,5 +1,10 @@
 ---
 id: sk-1342
+primary: A6
+seealso:
+  - A15
+facets: []
+tax_tags: []
 aliases:
   - sk-1342
   - 怎样研究学前儿童的思维

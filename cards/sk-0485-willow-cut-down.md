@@ -1,5 +1,12 @@
 ---
 id: sk-0485
+primary: null
+seealso: []
+facets:
+  - S15
+  - S16
+  - S6
+tax_tags: []
 aliases:
   - sk-0485
   - 柳树被砍了：一片叶子问“我们为什么躺在地上”

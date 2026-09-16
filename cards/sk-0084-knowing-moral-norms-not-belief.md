@@ -1,5 +1,10 @@
 ---
 id: sk-0084
+primary: A4
+seealso:
+  - A19
+facets: []
+tax_tags: []
 aliases:
   - sk-0084
   - 知道道德规范，不等于形成道德信念

@@ -1,5 +1,13 @@
 ---
 id: sk-0880
+primary: null
+seealso: []
+facets:
+  - S1
+  - S11
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-0880
   - 我睡过了多少次日出

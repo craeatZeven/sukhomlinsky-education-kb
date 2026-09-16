@@ -1,5 +1,9 @@
 ---
 id: sk-1286
+primary: A10
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1286
   - 社会与教师

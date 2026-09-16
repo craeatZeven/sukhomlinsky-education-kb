@@ -1,5 +1,14 @@
 ---
 id: sk-0912
+primary: null
+seealso: []
+facets:
+  - S12
+  - S2
+  - S3
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-0912
   - 一只兔子怎样被惩罚

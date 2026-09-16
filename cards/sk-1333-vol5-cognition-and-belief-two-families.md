@@ -1,5 +1,15 @@
 ---
 id: sk-1333
+primary: null
+seealso: []
+facets:
+  - S1
+  - S12
+  - S15
+  - S5
+  - S7
+  - S9
+tax_tags: []
 aliases:
   - sk-1333
   - 认知与信念

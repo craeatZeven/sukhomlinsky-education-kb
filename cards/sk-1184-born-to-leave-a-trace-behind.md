@@ -1,5 +1,10 @@
 ---
 id: sk-1184
+primary: A3
+seealso:
+  - A2
+facets: []
+tax_tags: []
 aliases:
   - sk-1184
   - 人生下来是为了在自己身后留下痕迹

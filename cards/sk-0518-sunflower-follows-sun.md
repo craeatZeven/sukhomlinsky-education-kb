@@ -1,5 +1,10 @@
 ---
 id: sk-0518
+primary: null
+seealso: []
+facets:
+  - S6
+tax_tags: []
 aliases:
   - sk-0518
   - 太阳花：向日葵追着太阳转，梦见朝霞

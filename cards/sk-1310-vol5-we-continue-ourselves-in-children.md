@@ -1,5 +1,11 @@
 ---
 id: sk-1310
+primary: A8
+seealso:
+  - A11
+  - A19
+facets: []
+tax_tags: []
 aliases:
   - sk-1310
   - 我们在儿童身上延续自己

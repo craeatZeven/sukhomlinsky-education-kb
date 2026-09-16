@@ -1,5 +1,10 @@
 ---
 id: sk-0316
+primary: A14
+seealso:
+  - A19
+facets: []
+tax_tags: []
 aliases:
   - sk-0316
   - 美是道德纯洁、精神丰富、体魄健全的源泉

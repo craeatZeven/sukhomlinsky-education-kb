@@ -1,5 +1,12 @@
 ---
 id: sk-0706
+primary: null
+seealso: []
+facets:
+  - S2
+  - S6
+  - S7
+tax_tags: []
 aliases:
   - sk-0706
   - 爷爷和安德烈卡

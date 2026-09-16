@@ -1,5 +1,10 @@
 ---
 id: sk-1159
+primary: A1
+seealso:
+  - A15
+facets: []
+tax_tags: []
 aliases:
   - sk-1159
   - 科学世界观的形成过程与科学基础知识的掌握

@@ -1,5 +1,12 @@
 ---
 id: sk-0502
+primary: null
+seealso: []
+facets:
+  - S11
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-0502
   - 晨曦：云雀唱‘我已经看到了太阳’

@@ -1,5 +1,9 @@
 ---
 id: sk-1374
+primary: A19
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1374
   - 孩子应该怎样理解自己对他人的义务

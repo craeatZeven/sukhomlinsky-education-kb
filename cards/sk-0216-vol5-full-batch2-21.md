@@ -1,5 +1,11 @@
 ---
 id: sk-0216
+primary: A13
+seealso:
+  - A15
+  - A23
+facets: []
+tax_tags: []
 aliases:
   - sk-0216
   - 只读教科书，最终连教科书也读不好

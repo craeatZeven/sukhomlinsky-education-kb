@@ -1,5 +1,9 @@
 ---
 id: sk-0363
+primary: A19
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0363
   - 容忍弱点，对邪恶毫不妥协

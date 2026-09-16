@@ -1,5 +1,13 @@
 ---
 id: sk-0963
+primary: null
+seealso: []
+facets:
+  - S1
+  - S13
+  - S3
+  - S6
+tax_tags: []
 aliases:
   - sk-0963
   - 夏天的雷雨

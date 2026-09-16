@@ -1,5 +1,14 @@
 ---
 id: sk-0619
+primary: null
+seealso: []
+facets:
+  - S10
+  - S15
+  - S3
+  - S4
+  - S6
+tax_tags: []
 aliases:
   - sk-0619
   - 三棵橡树：战士留下的三颗橡果长成活的纪念碑

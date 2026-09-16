@@ -1,5 +1,9 @@
 ---
 id: sk-0196
+primary: A10
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0196
   - 教师首先是孩子学习生活的人

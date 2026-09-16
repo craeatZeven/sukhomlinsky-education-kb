@@ -1,5 +1,11 @@
 ---
 id: sk-0498
+primary: null
+seealso: []
+facets:
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-0498
   - 橡树，牧羊人：被雷火烧焦树尖后，鹤来筑巢

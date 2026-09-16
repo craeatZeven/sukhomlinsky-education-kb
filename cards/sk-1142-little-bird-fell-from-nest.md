@@ -1,5 +1,12 @@
 ---
 id: sk-1142
+primary: null
+seealso: []
+facets:
+  - S1
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-1142
   - 小鸟从窝里掉了下来

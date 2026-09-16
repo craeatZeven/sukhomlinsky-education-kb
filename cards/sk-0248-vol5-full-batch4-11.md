@@ -1,5 +1,9 @@
 ---
 id: sk-0248
+primary: A19
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0248
   - 羞耻心是卑污和丑恶的抗毒素

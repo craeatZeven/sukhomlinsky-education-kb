@@ -1,5 +1,11 @@
 ---
 id: sk-0452
+primary: null
+seealso: []
+facets:
+  - S16
+  - S6
+tax_tags: []
 aliases:
   - sk-0452
   - 雨和雷：把自然现象讲成小生命的故事

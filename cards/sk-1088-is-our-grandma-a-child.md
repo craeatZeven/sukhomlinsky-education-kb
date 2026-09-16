@@ -1,5 +1,12 @@
 ---
 id: sk-1088
+primary: null
+seealso: []
+facets:
+  - S1
+  - S15
+  - S2
+tax_tags: []
 aliases:
   - sk-1088
   - 难道我们的奶奶是个孩子吗？

@@ -1,5 +1,12 @@
 ---
 id: sk-0849
+primary: null
+seealso: []
+facets:
+  - S11
+  - S2
+  - S6
+tax_tags: []
 aliases:
   - sk-0849
   - 人为什么要活在世上

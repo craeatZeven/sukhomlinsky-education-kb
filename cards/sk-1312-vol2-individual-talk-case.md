@@ -1,5 +1,10 @@
 ---
 id: sk-1312
+primary: null
+seealso: []
+facets:
+  - S8
+tax_tags: []
 aliases:
   - sk-1312
   - 要掌握与学生个别谈话的艺术

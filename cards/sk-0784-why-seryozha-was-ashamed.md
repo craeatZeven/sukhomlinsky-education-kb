@@ -1,5 +1,15 @@
 ---
 id: sk-0784
+primary: null
+seealso: []
+facets:
+  - S17
+  - S3
+  - S4
+  - S5
+  - S6
+  - S8
+tax_tags: []
 aliases:
   - sk-0784
   - 谢廖扎为什么感到羞愧

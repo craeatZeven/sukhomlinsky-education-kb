@@ -1,5 +1,10 @@
 ---
 id: sk-1046
+primary: A7
+seealso: []
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-1046
   - 为了不造成负担过重，必须有自由活动时间

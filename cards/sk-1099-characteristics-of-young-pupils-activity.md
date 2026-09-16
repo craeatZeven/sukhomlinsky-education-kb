@@ -1,5 +1,9 @@
 ---
 id: sk-1099
+primary: A21
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1099
   - 学龄初期儿童活动的特点

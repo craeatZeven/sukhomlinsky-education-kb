@@ -1,5 +1,9 @@
 ---
 id: sk-1098
+primary: A21
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1098
   - 少年的思维与言语活动

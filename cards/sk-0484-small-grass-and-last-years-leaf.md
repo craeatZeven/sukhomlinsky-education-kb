@@ -1,5 +1,10 @@
 ---
 id: sk-0484
+primary: null
+seealso: []
+facets:
+  - S6
+tax_tags: []
 aliases:
   - sk-0484
   - 小草茎和去年的叶子：顶开旧叶看见春天

@@ -1,5 +1,10 @@
 ---
 id: sk-0756
+primary: null
+seealso: []
+facets:
+  - S17
+tax_tags: []
 aliases:
   - sk-0756
   - 被冷落的识字课本

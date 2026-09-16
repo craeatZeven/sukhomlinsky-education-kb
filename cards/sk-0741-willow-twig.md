@@ -1,5 +1,14 @@
 ---
 id: sk-0741
+primary: null
+seealso: []
+facets:
+  - S1
+  - S16
+  - S17
+  - S4
+  - S8
+tax_tags: []
 aliases:
   - sk-0741
   - 柳条

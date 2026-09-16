@@ -1,5 +1,13 @@
 ---
 id: sk-0978
+primary: null
+seealso: []
+facets:
+  - S1
+  - S17
+  - S5
+  - S7
+tax_tags: []
 aliases:
   - sk-0978
   - 娜塔莎是怎样向狐狸买滑头点子的

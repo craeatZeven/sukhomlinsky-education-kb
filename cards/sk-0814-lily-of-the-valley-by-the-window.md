@@ -1,5 +1,13 @@
 ---
 id: sk-0814
+primary: null
+seealso: []
+facets:
+  - S11
+  - S13
+  - S3
+  - S6
+tax_tags: []
 aliases:
   - sk-0814
   - 窗前的铃兰花

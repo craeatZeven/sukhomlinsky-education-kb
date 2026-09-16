@@ -1,5 +1,9 @@
 ---
 id: sk-0159
+primary: A10
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0159
   - 校长把听课摆在首位：每天听两节课

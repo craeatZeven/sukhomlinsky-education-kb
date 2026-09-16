@@ -1,5 +1,15 @@
 ---
 id: sk-0958
+primary: null
+seealso: []
+facets:
+  - S1
+  - S14
+  - S15
+  - S2
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-0958
   - 生命

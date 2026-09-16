@@ -1,5 +1,9 @@
 ---
 id: sk-0355
+primary: A11
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0355
   - 人间的幸福在劳动中

@@ -1,5 +1,10 @@
 ---
 id: sk-1311
+primary: A4
+seealso:
+  - A19
+facets: []
+tax_tags: []
 aliases:
   - sk-1311
   - 纯洁与高尚

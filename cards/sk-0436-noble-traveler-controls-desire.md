@@ -1,5 +1,12 @@
 ---
 id: sk-0436
+primary: null
+seealso: []
+facets:
+  - S12
+  - S13
+  - S4
+tax_tags: []
 aliases:
   - sk-0436
   - 高尚的旅行者：先为别人着想，再满足自己的饥渴

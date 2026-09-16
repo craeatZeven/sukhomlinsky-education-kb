@@ -1,5 +1,11 @@
 ---
 id: sk-0768
+primary: null
+seealso: []
+facets:
+  - S11
+  - S6
+tax_tags: []
 aliases:
   - sk-0768
   - 太阳只有一个

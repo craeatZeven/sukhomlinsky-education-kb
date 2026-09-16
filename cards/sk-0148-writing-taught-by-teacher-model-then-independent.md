@@ -1,5 +1,9 @@
 ---
 id: sk-0148
+primary: A22
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0148
   - 写作（创作）不是天生就会：先听教师示范，再走向独立创作

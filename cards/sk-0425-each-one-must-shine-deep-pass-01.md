@@ -1,5 +1,9 @@
 ---
 id: sk-0425
+primary: A1
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0425
   - 每个人都必须发光：没有人应当成为风中尘埃

@@ -1,5 +1,13 @@
 ---
 id: sk-0899
+primary: null
+seealso: []
+facets:
+  - S12
+  - S3
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-0899
   - 一只孤独的蚂蚁

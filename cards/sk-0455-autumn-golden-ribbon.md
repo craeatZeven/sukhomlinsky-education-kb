@@ -1,5 +1,11 @@
 ---
 id: sk-0455
+primary: null
+seealso: []
+facets:
+  - S15
+  - S6
+tax_tags: []
 aliases:
   - sk-0455
   - 秋天带来了金色的带子：秋叶是季节送给树的礼物

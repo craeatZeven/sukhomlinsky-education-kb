@@ -1,5 +1,10 @@
 ---
 id: sk-1380
+primary: A14
+seealso:
+  - A11
+facets: []
+tax_tags: []
 aliases:
   - sk-1380
   - 美是培养善良、热爱劳动、热诚和爱情的重要手段

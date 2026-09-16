@@ -1,5 +1,9 @@
 ---
 id: sk-1024
+primary: A1
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1024
   - 结束语：为未来培养全面发展的人

@@ -1,5 +1,13 @@
 ---
 id: sk-0577
+primary: null
+seealso: []
+facets:
+  - S1
+  - S15
+  - S4
+  - S6
+tax_tags: []
 aliases:
   - sk-0577
   - 老樱桃树：老树把果核留给土地，祖辈的记忆让祖国继续活着

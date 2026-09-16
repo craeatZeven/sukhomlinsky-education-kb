@@ -1,5 +1,13 @@
 ---
 id: sk-0804
+primary: null
+seealso: []
+facets:
+  - S1
+  - S2
+  - S5
+  - S7
+tax_tags: []
 aliases:
   - sk-0804
   - 公鸡不叫，早晨就不会来

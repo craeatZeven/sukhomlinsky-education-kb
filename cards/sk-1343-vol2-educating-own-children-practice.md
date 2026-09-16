@@ -1,5 +1,10 @@
 ---
 id: sk-1343
+primary: A8
+seealso:
+  - A10
+facets: []
+tax_tags: []
 aliases:
   - sk-1343
   - 关于对自己子女的教育问题

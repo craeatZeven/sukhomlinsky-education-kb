@@ -1,5 +1,10 @@
 ---
 id: sk-0240
+primary: A23
+seealso:
+  - A15
+facets: []
+tax_tags: []
 aliases:
   - sk-0240
   - 学生应当获取知识，而不是消费现成的知识

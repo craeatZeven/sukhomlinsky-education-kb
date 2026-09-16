@@ -1,5 +1,14 @@
 ---
 id: sk-0591
+primary: null
+seealso: []
+facets:
+  - S11
+  - S15
+  - S16
+  - S3
+  - S6
+tax_tags: []
 aliases:
   - sk-0591
   - 玫瑰花：从英雄头盔里长出的花

@@ -1,5 +1,13 @@
 ---
 id: sk-0553
+primary: null
+seealso: []
+facets:
+  - S1
+  - S11
+  - S6
+  - S7
+tax_tags: []
 aliases:
   - sk-0553
   - 一小块夏天：粉红苹果把季节留在桌上，全家一冬都因它而笑

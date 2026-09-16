@@ -1,5 +1,10 @@
 ---
 id: sk-1158
+primary: A21
+seealso:
+  - A5
+facets: []
+tax_tags: []
 aliases:
   - sk-1158
   - 青年的一般特点

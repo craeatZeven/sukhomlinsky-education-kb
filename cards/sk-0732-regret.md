@@ -1,5 +1,13 @@
 ---
 id: sk-0732
+primary: null
+seealso: []
+facets:
+  - S1
+  - S17
+  - S2
+  - S9
+tax_tags: []
 aliases:
   - sk-0732
   - 后悔

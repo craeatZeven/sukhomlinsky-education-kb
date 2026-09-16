@@ -1,5 +1,11 @@
 ---
 id: sk-1157
+primary: null
+seealso: []
+facets:
+  - S10
+  - S4
+tax_tags: []
 aliases:
   - sk-1157
   - 第7封信：真理不能只靠说实话取胜

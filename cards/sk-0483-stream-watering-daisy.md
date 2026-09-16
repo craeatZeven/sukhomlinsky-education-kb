@@ -1,5 +1,11 @@
 ---
 id: sk-0483
+primary: null
+seealso: []
+facets:
+  - S13
+  - S6
+tax_tags: []
 aliases:
   - sk-0483
   - 小溪如何给草地上的野菊花喂水：听到哭声的小溪

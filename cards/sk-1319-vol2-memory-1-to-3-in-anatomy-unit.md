@@ -1,5 +1,10 @@
 ---
 id: sk-1319
+primary: null
+seealso: []
+facets:
+  - S8
+tax_tags: []
 aliases:
   - sk-1319
   - 爱惜并发展青少年的记忆力

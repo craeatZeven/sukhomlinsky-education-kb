@@ -1,5 +1,10 @@
 ---
 id: sk-1314
+primary: null
+seealso: []
+facets:
+  - S8
+tax_tags: []
 aliases:
   - sk-1314
   - 什么是课堂上的思想教育

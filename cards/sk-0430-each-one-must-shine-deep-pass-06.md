@@ -1,5 +1,10 @@
 ---
 id: sk-0430
+primary: A11
+seealso:
+  - A1
+facets: []
+tax_tags: []
 aliases:
   - sk-0430
   - 多样劳动是磁铁：吸引孩子找到天职

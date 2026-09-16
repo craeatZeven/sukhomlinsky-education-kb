@@ -1,5 +1,10 @@
 ---
 id: sk-0432
+primary: A15
+seealso:
+  - A21
+facets: []
+tax_tags: []
 aliases:
   - sk-0432
   - 儿童用形象思考：先有画面，再理解规律

@@ -1,5 +1,13 @@
 ---
 id: sk-0478
+primary: null
+seealso: []
+facets:
+  - S1
+  - S4
+  - S6
+  - S7
+tax_tags: []
 aliases:
   - sk-0478
   - 机灵的镶玻璃工：原来是严寒给水池盖上了玻璃

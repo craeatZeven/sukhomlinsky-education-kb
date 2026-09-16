@@ -1,5 +1,13 @@
 ---
 id: sk-0649
+primary: null
+seealso: []
+facets:
+  - S1
+  - S15
+  - S3
+  - S7
+tax_tags: []
 aliases:
   - sk-0649
   - 铁石心肠：只关心自己愿望的人，会渐渐失去对他人的感觉

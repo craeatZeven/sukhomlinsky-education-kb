@@ -1,5 +1,10 @@
 ---
 id: sk-0235
+primary: A8
+seealso:
+  - A4
+facets: []
+tax_tags: []
 aliases:
   - sk-0235
   - 父辈功劳不是儿女资本：儿女越要有自己的发光点

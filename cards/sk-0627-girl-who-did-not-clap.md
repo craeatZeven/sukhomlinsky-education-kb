@@ -1,5 +1,14 @@
 ---
 id: sk-0627
+primary: null
+seealso: []
+facets:
+  - S13
+  - S2
+  - S3
+  - S4
+  - S8
+tax_tags: []
 aliases:
   - sk-0627
   - 不鼓掌的女孩：没有双手的迈娅让全场在沉默中听见人性

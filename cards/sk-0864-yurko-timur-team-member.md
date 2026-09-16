@@ -1,5 +1,15 @@
 ---
 id: sk-0864
+primary: null
+seealso: []
+facets:
+  - S12
+  - S13
+  - S2
+  - S3
+  - S4
+  - S9
+tax_tags: []
 aliases:
   - sk-0864
   - 尤尔科，铁木尔队队员

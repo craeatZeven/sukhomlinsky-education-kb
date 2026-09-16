@@ -1,5 +1,12 @@
 ---
 id: sk-1127
+primary: null
+seealso: []
+facets:
+  - S13
+  - S5
+  - S6
+tax_tags: []
 aliases:
   - sk-1127
   - 刺猬

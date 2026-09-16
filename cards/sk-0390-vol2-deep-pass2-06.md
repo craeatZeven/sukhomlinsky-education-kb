@@ -1,5 +1,9 @@
 ---
 id: sk-0390
+primary: A15
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0390
   - 学生应当成为语言的音乐家

@@ -1,5 +1,11 @@
 ---
 id: sk-0006
+primary: null
+seealso: []
+facets:
+  - S4
+  - S8
+tax_tags: []
 aliases:
   - sk-0006
   - 瓦尔娅、彼得里克与谜题：慢学习者的六个月

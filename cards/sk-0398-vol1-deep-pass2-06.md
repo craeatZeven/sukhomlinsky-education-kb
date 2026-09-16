@@ -1,5 +1,9 @@
 ---
 id: sk-0398
+primary: A21
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0398
   - 少年开始关注看不见摸不着的过程

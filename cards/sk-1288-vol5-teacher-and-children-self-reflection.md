@@ -1,5 +1,9 @@
 ---
 id: sk-1288
+primary: A5
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1288
   - 教师与孩子们

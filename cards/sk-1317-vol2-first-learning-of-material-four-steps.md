@@ -1,5 +1,11 @@
 ---
 id: sk-1317
+primary: A22
+seealso:
+  - A20
+facets: []
+tax_tags:
+  - A18
 aliases:
   - sk-1317
   - 教材的首次学习

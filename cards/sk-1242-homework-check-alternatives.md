@@ -1,5 +1,10 @@
 ---
 id: sk-1242
+primary: A20
+seealso:
+  - A16
+facets: []
+tax_tags: []
 aliases:
   - sk-1242
   - 怎样使家庭作业的检查成为有效的脑力劳动

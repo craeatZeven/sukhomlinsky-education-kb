@@ -1,5 +1,13 @@
 ---
 id: sk-0895
+primary: null
+seealso: []
+facets:
+  - S1
+  - S14
+  - S3
+  - S7
+tax_tags: []
 aliases:
   - sk-0895
   - 一张旧桌子

@@ -1,5 +1,10 @@
 ---
 id: sk-0365
+primary: A3
+seealso:
+  - A5
+facets: []
+tax_tags: []
 aliases:
   - sk-0365
   - 成为有教养的人，先要有欢乐

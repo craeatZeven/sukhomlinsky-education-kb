@@ -1,5 +1,10 @@
 ---
 id: sk-1071
+primary: A22
+seealso:
+  - A19
+facets: []
+tax_tags: []
 aliases:
   - sk-1071
   - 思想认识

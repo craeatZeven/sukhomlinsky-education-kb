@@ -1,5 +1,9 @@
 ---
 id: sk-0366
+primary: A10
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-0366
   - 我校集体的教育信念

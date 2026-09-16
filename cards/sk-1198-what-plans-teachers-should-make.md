@@ -1,5 +1,9 @@
 ---
 id: sk-1198
+primary: A10
+seealso: []
+facets: []
+tax_tags: []
 aliases:
   - sk-1198
   - 教师应制订哪些计划

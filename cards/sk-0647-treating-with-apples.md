@@ -1,5 +1,11 @@
 ---
 id: sk-0647
+primary: null
+seealso: []
+facets:
+  - S2
+  - S3
+tax_tags: []
 aliases:
   - sk-0647
   - 用苹果招待：接受好意后转身就忘，是很丑恶的

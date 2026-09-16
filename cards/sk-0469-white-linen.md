@@ -1,5 +1,11 @@
 ---
 id: sk-0469
+primary: null
+seealso: []
+facets:
+  - S2
+  - S6
+tax_tags: []
 aliases:
   - sk-0469
   - 白色的亚麻布：晨霜像老奶奶铺下的亚麻布

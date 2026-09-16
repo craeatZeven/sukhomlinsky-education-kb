@@ -1,5 +1,14 @@
 ---
 id: sk-1244
+primary: null
+seealso: []
+facets:
+  - S3
+  - S4
+  - S5
+  - S6
+  - S8
+tax_tags: []
 aliases:
   - sk-1244
   - 怎样使学生注意力集中

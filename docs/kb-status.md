@@ -84,10 +84,12 @@
 | `scripts/build_site.py` | 生成 `web/data.json`（全库快照，供 agent）+ `sitemap.xml` |
 | `scripts/build_shards.py` | 生成 `web/data/` 浏览器分片（meta / 索引 / 单卡 / 检索语料 / 条目 / 分面） |
 | `scripts/check_classification_shards.py` | **分片 ↔ `classification.json` 对账**（主归属 / 参见 / 标签 / 案例数 / 分面数 / 卡数），唯一能拦住"分片悄悄与分类脱节"的一步 |
-| `scripts/check_content_contract.py` | **数据层内容契约**：原文槽位不得写"转述"、转述卡必须显式标注待补、入门卡三角色齐备、案例挂靠数从 `classification.json` 现算 |
+| `scripts/check_content_contract.py` | **数据层内容契约**：原文槽位不得写"转述"、转述卡必须显式标注待补、入门卡三角色齐备、案例挂靠数从 `classification.json` 现算、**「教育场景/应用」必须在产物里且引用写成双链** |
+| `scripts/check_page_meta.py` | **页面元信息**：20 个页面的 description 互不相同、`og:url` 与文件名对得上、`og:image` 指向的文件真的存在且是 1200×630 |
+| `scripts/check_wiki_links.py` | **vault 层**：`wiki/` 下每个 `[[双链]]` 都要有落点、每个页面都要写进 `wiki/index.md`（死链在 Obsidian 里只显示成红字，不报错，属静默问题） |
 
 **浏览器层回归**（需要真实 Chrome 与静态服务，进不了上面这条离线链）：[`tools/web-audit/`](../tools/web-audit/README.md)，三份脚本 ——
-① `verify-hardened.mjs` 45 条行为/数据/判据（含「分类总图的三句断言是否与 meta.json 独立算的一致」「版图块宽与张数单调同序」「三组导航各自展开是否越界」「15 个目的地一个不少」「目录行是否真三列」「打印时内容全部显形」）；② `scan-hidden-content.mjs` 18 个页面「滚到稳定后还有没有内容看不见」；
+① `verify-hardened.mjs` 49 条行为/数据/判据（含「分类总图的三句断言是否与 meta.json 独立算的一致」「版图块宽与张数单调同序」「三组导航各自展开是否越界」「15 个目的地一个不少」「**卡片页的「教育场景/应用」渲染出来了且双链渲染成真链接、整页不残留 `[[`**」「目录行是否真三列」「打印时内容全部显形」）；② `scan-hidden-content.mjs` 18 个页面「滚到稳定后还有没有内容看不见」；
 ③ `verify-contrast-census.mjs` 三套主题 × 八个页面的文本对比度普查（先滚到稳定再采样）。
 跑法：`powershell -NoProfile -ExecutionPolicy Bypass -File tools\web-audit\run-audit.ps1`。
 
@@ -200,3 +202,43 @@
 | 路径宽度 | 按**全库**（不是按关键词预筛）算：劳动 235 / 后进生 294 / 分数 145 / 美育 470 —— 曾误报「比旧标签窄 41%」，那是**测量口径造成的假象**，已撤回 | `scripts/path_test_prod.py` |
 | 浏览器回归 | 40 条判据全过 + 17 个页面无隐形内容 + 三主题 × 七页面对比度全过（采样 798 处，不达标 0） | `tools/web-audit/run-audit.ps1` |
 | 隐形内容（2026-09-14 修） | 条目页与分面页曾**整页永久透明**（6+6 块、1926+863 字），线上同样；当时 24 条判据全 PASS。修 `theme.js` 的渐入为「谁被观察谁才隐藏」+ MutationObserver，并新增 `scan-hidden-content.mjs` 守住 | 见 `docs/review-disposition.md` §十一 |
+
+---
+
+## 十、vault 层：这个仓库同时是一个 Obsidian 库（2026-09-14 起）
+
+定位变了：**主界面从网站换成 Obsidian，网站降级为派生出版物**（对外分享、引用、搜索引擎、手机端）。
+`cards/` 仍是唯一真源，Obsidian 只是打开这个文件夹——**不产生副本，不产生第二份真相**。
+
+方法上接的是 **Karpathy 的「LLM wiki」**（[gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)）：
+不搞向量库/RAG，靠 Markdown + frontmatter + 索引导航。但这个库**天生就是它的形状**
+（1386 个 Markdown + 齐全 frontmatter + `INDEX.md` + `SKILL.md`），缺的是"上层"。
+
+### 层的划界（写进 `AGENTS.md` 规则 7–9）
+
+| 层 | 路径 | 谁写 | 说明 |
+|---|---|---|---|
+| 可引用层 | `cards/` 1386 张 | **只有人** | AI 只读。出处链的端点，对外发布与引用靠它 |
+| 旁挂层 | `wiki/` 31 个文件 | **AI 全权** | 5 个角度 MOC + 22 个条目 MOC + 1 份 Query 归档；`_schema.md` 是这一层的宪法 |
+| 个人层 | `notes/` | 只有人 | **已 gitignore**（个人批注不进公开仓库，也不进 git 历史） |
+
+> 规则 7 明确记下这是对 Karpathy 的**主动偏离**：他写"你几乎从不自己写 wiki——LLM 写并维护全部"；
+> 我们不能照做，因为卡片要对外发布、要被引用。**卡片只读，LLM 只写 `wiki/`。**
+
+### 这一批做的四件事
+
+1. **接通卡对卡双链**：351 处 `sk-XXXX` → `[[sk-XXXX]]`（可见文本一字未变）；1386 张卡补
+   `aliases`（id + 中文标题）。实测 **900 个双链全部有落点、0 自环**。
+2. **补上「教育场景/应用」**：1386/1386 张卡都有这一节，而网站**从未渲染它**
+   （探针实测 0/5），350 处双链就在这一节。现在构建期抽取 + 卡片页渲染 + **并入检索语料**。
+3. **vault 层**：`wiki/`（宪法 / 日志 / 索引 / moc / queries / concepts / comparisons），
+   27 个 MOC 页**从生产数据现算生成**——合计主归属 713 张 = 论述卡总数（内部一致性对上）。
+4. **可验证性**：新增 `scripts/check_wiki_links.py`（死链 + 索引同步）接进 `validate_all.py`。
+   Karpathy 方法的成功标准是"维护成本降到近零"，但**成本降到零的前提是错误能被机器发现**。
+
+### 已知未做
+
+- `tags:` 未写进卡片：`A19` 这类是**派生数据**，写进卡片就把"可引用层"和"计算结果"混了
+  （将来分类改了要动 1386 个文件）。改走 MOC 页 + Bases 查询。
+- `concepts/` 与 `comparisons/` 还是空目录（等实际用到再长）。
+- 逐条预览卡（分享单卡时显示那张卡的标题/摘要）需要构建期生成 1386 个静态页，属另一件事。

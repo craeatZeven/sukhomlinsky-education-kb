@@ -21,12 +21,20 @@
 
 | 目录 | 放什么 | 命名 |
 |---|---|---|
-| `moc/` | Map of Content：入口页（按角度 / 条目 / 场景） | `moc/<英文-slug>.md` |
-| `concepts/` | 概念页：某个概念的跨卡综合 | `concepts/<slug>.md` |
+| `moc/` | Map of Content：入口页（按角度 / 条目 / 场景） | `moc/<名称>.md` |
+| `concepts/` | 概念页：某个概念的跨卡综合 | `concepts/<名称>.md` |
 | `queries/` | **归档的好答案**（复利燃料：问过的好问题 + 答案） | `queries/<日期>-<slug>.md` |
-| `comparisons/` | 对比页（两条主张并排） | `comparisons/<slug>.md` |
+| `comparisons/` | 对比页（两条主张并排） | `comparisons/<名称>.md` |
 
-文件名一律**英文 slug**（`[[ ]]` 里才干净）；中文标题写进 frontmatter 的 `title`，并同时进 `aliases`。
+**命名：本层用中文文件名。**（2026-09-14 修正，原写"一律英文 slug"）
+
+理由：那条是照卡片的习惯定的，但两个层的**理由不同**——
+卡片的文件名是英文 slug，是因为 `[[sk-XXXX]]` 必须**短且无歧义**；
+本层没有这个约束，`[[宗旨]]`、`[[A11 劳动与创造]]` 读起来就是话。
+（`queries/` 仍带日期前缀，便于按时间排序。）
+
+**每条目/每角度页由脚本生成**（`web/data/meta.json` + `web/data/entry/*.json`），
+不手写——手写就会出现"页面上 59 张、数据里已经变了"。
 
 ## 三、链接约定
 

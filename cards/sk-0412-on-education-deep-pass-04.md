@@ -1,5 +1,8 @@
 ---
 id: sk-0412
+aliases:
+  - sk-0412
+  - 真正的学校是积极思维的王国
 type: quote
 title: "真正的学校是积极思维的王国"
 lang: zh-CN

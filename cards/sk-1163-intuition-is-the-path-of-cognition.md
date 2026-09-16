@@ -1,5 +1,8 @@
 ---
 id: sk-1163
+aliases:
+  - sk-1163
+  - 直观是认识的途径，是照亮认识途径的光辉
 type: principle
 title: "直观是认识的途径，是照亮认识途径的光辉"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0911
+aliases:
+  - sk-0911
+  - 两把铲子
 type: case
 title: "两把铲子"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-1139
+aliases:
+  - sk-1139
+  - 集体研究“思维与情感的统一”问题
 type: method
 title: "集体研究“思维与情感的统一”问题"
 lang: zh-CN

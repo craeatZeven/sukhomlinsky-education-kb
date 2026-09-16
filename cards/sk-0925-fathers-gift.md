@@ -1,5 +1,8 @@
 ---
 id: sk-0925
+aliases:
+  - sk-0925
+  - 爸爸的礼物
 type: case
 title: "爸爸的礼物"
 lang: zh-CN

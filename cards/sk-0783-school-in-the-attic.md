@@ -1,5 +1,8 @@
 ---
 id: sk-0783
+aliases:
+  - sk-0783
+  - 阁楼上的学校
 type: case
 title: "阁楼上的学校"
 lang: zh-CN

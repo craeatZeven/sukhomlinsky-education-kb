@@ -1,5 +1,8 @@
 ---
 id: sk-1177
+aliases:
+  - sk-1177
+  - 怎样同集体进行有教育作用的谈话
 type: method
 title: "怎样同集体进行有教育作用的谈话"
 lang: zh-CN

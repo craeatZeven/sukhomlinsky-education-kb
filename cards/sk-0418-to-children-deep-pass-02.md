@@ -1,5 +1,8 @@
 ---
 id: sk-0418
+aliases:
+  - sk-0418
+  - 在大自然的背景中教孩子听懂音乐
 type: quote
 title: "在大自然的背景中教孩子听懂音乐"
 lang: zh-CN

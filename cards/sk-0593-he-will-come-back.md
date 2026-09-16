@@ -1,5 +1,8 @@
 ---
 id: sk-0593
+aliases:
+  - sk-0593
+  - 他还会回来的：把救命恩人的故事讲给孩子听
 type: case
 title: "他还会回来的：把救命恩人的故事讲给孩子听"
 lang: zh-CN

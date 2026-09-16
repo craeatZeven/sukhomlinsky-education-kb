@@ -1,5 +1,8 @@
 ---
 id: sk-0031
+aliases:
+  - sk-0031
+  - 集体传统：为没有过过生日的孩子庆祝生日
 type: practice
 title: "集体传统：为没有过过生日的孩子庆祝生日"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0903
+aliases:
+  - sk-0903
+  - 牛与园丁
 type: case
 title: "牛与园丁"
 lang: zh-CN

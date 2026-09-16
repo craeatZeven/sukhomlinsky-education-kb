@@ -1,5 +1,8 @@
 ---
 id: sk-0490
+aliases:
+  - sk-0490
+  - 热的花朵：春雪里唯一鲜红的玫瑰
 type: case
 title: "热的花朵：春雪里唯一鲜红的玫瑰"
 lang: zh-CN

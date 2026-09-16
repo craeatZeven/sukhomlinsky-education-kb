@@ -1,5 +1,8 @@
 ---
 id: sk-0111
+aliases:
+  - sk-0111
+  - 给老奶奶的核桃：用故事探测儿童情感成熟度
 type: case
 title: "给老奶奶的核桃：用故事探测儿童情感成熟度"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0346
+aliases:
+  - sk-0346
+  - 懒骨头和太阳
 type: case
 title: "懒骨头和太阳"
 lang: zh-CN

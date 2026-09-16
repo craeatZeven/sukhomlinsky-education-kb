@@ -1,5 +1,8 @@
 ---
 id: sk-0279
+aliases:
+  - sk-0279
+  - 一个人只有也在教育别人时，才能更好地受教育
 type: quote
 title: "一个人只有也在教育别人时，才能更好地受教育"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0427
+aliases:
+  - sk-0427
+  - 通过父母之爱创造人
 type: quote
 title: "通过父母之爱创造人"
 lang: zh-CN

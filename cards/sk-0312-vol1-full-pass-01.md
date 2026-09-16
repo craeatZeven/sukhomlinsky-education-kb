@@ -1,5 +1,8 @@
 ---
 id: sk-0312
+aliases:
+  - sk-0312
+  - 真正的全面发展：贡献与消费之间的和谐
 type: quote
 title: "真正的全面发展：贡献与消费之间的和谐"
 lang: zh-CN

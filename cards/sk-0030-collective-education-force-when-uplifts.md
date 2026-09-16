@@ -1,5 +1,8 @@
 ---
 id: sk-0030
+aliases:
+  - sk-0030
+  - 集体只有当它能提升个人时，才成为教育力量
 type: quote
 title: "集体只有当它能提升个人时，才成为教育力量"
 lang: zh-CN

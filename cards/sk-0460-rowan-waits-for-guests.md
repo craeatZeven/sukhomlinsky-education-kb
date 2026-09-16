@@ -1,5 +1,8 @@
 ---
 id: sk-0460
+aliases:
+  - sk-0460
+  - 花楸树在等谁：果实因等待贵客而变甜
 type: case
 title: "花楸树在等谁：果实因等待贵客而变甜"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0998
+aliases:
+  - sk-0998
+  - “两个教学大纲”，发展学生的思维
 type: principle
 title: "“两个教学大纲”，发展学生的思维"
 lang: zh-CN

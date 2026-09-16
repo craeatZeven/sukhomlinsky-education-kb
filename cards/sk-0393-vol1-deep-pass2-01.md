@@ -1,5 +1,8 @@
 ---
 id: sk-0393
+aliases:
+  - sk-0393
+  - 分数不是衡量孩子的唯一标尺
 type: quote
 title: "分数不是衡量孩子的唯一标尺"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0354
+aliases:
+  - sk-0354
+  - 让手成为创造者：从最粗的活练起
 type: method
 title: "让手成为创造者：从最粗的活练起"
 lang: zh-CN

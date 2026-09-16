@@ -1,5 +1,8 @@
 ---
 id: sk-1119
+aliases:
+  - sk-1119
+  - 培养对自然财富的珍惜爱护态度
 type: method
 title: "培养对自然财富的珍惜爱护态度"
 lang: zh-CN

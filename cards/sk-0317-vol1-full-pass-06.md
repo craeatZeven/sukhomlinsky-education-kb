@@ -1,5 +1,8 @@
 ---
 id: sk-0317
+aliases:
+  - sk-0317
+  - 判断学生要看他想成为什么样的人
 type: quote
 title: "判断学生要看他想成为什么样的人"
 lang: zh-CN

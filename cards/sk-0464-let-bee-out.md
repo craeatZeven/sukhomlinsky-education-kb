@@ -1,5 +1,8 @@
 ---
 id: sk-0464
+aliases:
+  - sk-0464
+  - 怎样让蜜蜂飞出去：一个女孩焦急等待课间
 type: case
 title: "怎样让蜜蜂飞出去：一个女孩焦急等待课间"
 lang: zh-CN

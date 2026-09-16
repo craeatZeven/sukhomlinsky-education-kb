@@ -1,5 +1,8 @@
 ---
 id: sk-1186
+aliases:
+  - sk-1186
+  - 怎样教孩子理解道德上的自由感
 type: principle
 title: "怎样教孩子理解道德上的自由感"
 lang: zh-CN

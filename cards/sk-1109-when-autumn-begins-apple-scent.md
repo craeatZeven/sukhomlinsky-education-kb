@@ -1,5 +1,8 @@
 ---
 id: sk-1109
+aliases:
+  - sk-1109
+  - 当秋天开始的时候
 type: case
 title: "当秋天开始的时候"
 lang: zh-CN

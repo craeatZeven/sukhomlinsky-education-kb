@@ -1,5 +1,8 @@
 ---
 id: sk-0943
+aliases:
+  - sk-0943
+  - 惩罚右手
 type: case
 title: "惩罚右手"
 lang: zh-CN

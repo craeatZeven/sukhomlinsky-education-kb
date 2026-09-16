@@ -1,5 +1,8 @@
 ---
 id: sk-0913
+aliases:
+  - sk-0913
+  - 没有失去，而是找到了
 type: case
 title: "没有失去，而是找到了"
 lang: zh-CN

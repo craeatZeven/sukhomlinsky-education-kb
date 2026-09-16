@@ -1,5 +1,8 @@
 ---
 id: sk-0322
+aliases:
+  - sk-0322
+  - 自己发光时，也要让别人发光
 type: quote
 title: "自己发光时，也要让别人发光"
 lang: zh-CN

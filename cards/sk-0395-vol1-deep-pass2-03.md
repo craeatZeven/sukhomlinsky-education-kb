@@ -1,5 +1,8 @@
 ---
 id: sk-0395
+aliases:
+  - sk-0395
+  - 教育技巧在于展示人的全部素质
 type: quote
 title: "教育技巧在于展示人的全部素质"
 lang: zh-CN

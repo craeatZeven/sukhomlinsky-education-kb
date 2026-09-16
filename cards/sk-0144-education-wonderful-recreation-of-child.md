@@ -1,5 +1,8 @@
 ---
 id: sk-0144
+aliases:
+  - sk-0144
+  - 教育是教师在儿童身上的奇妙再创造
 type: quote
 title: "教育是教师在儿童身上的奇妙再创造"
 lang: zh-CN

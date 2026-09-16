@@ -1,5 +1,8 @@
 ---
 id: sk-0123
+aliases:
+  - sk-0123
+  - 人类美的标准同时也是道德的标准
 type: quote
 title: "人类美的标准同时也是道德的标准"
 lang: zh-CN

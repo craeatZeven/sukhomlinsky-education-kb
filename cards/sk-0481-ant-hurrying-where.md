@@ -1,5 +1,8 @@
 ---
 id: sk-0481
+aliases:
+  - sk-0481
+  - 蚂蚁匆匆忙忙地去哪里：为孩子们找食物
 type: case
 title: "蚂蚁匆匆忙忙地去哪里：为孩子们找食物"
 lang: zh-CN

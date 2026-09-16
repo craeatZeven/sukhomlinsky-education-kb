@@ -1,5 +1,8 @@
 ---
 id: sk-0051
+aliases:
+  - sk-0051
+  - 对很多教师来说，后进生是一本紧闭的书
 type: quote
 title: "对很多教师来说，后进生是一本紧闭的书"
 lang: zh-CN

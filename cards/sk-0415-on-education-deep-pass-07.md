@@ -1,5 +1,8 @@
 ---
 id: sk-0415
+aliases:
+  - sk-0415
+  - 儿童理性的永恒源泉在大自然
 type: quote
 title: "儿童理性的永恒源泉在大自然"
 lang: zh-CN

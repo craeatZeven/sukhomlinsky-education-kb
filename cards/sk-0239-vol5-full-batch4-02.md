@@ -1,5 +1,8 @@
 ---
 id: sk-0239
+aliases:
+  - sk-0239
+  - 只有亲手劳动让世界变好，道理才转化为信念
 type: principle
 title: "只有亲手劳动让世界变好，道理才转化为信念"
 lang: zh-CN

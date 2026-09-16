@@ -1,5 +1,8 @@
 ---
 id: sk-0754
+aliases:
+  - sk-0754
+  - 请原谅，孩子们，我迟到了
 type: case
 title: "请原谅，孩子们，我迟到了"
 lang: zh-CN

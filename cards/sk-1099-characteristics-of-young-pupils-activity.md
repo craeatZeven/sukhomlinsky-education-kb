@@ -1,5 +1,8 @@
 ---
 id: sk-1099
+aliases:
+  - sk-1099
+  - 学龄初期儿童活动的特点
 type: practice
 title: "学龄初期儿童活动的特点"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-1190
+aliases:
+  - sk-1190
+  - 怎样使学生们具有知识的欢乐
 type: principle
 title: "怎样使学生们具有知识的欢乐"
 lang: zh-CN

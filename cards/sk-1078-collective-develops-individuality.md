@@ -1,5 +1,8 @@
 ---
 id: sk-1078
+aliases:
+  - sk-1078
+  - 怎样通过集体使个性全面发展
 type: principle
 title: "怎样通过集体使个性全面发展"
 lang: zh-CN

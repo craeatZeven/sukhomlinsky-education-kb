@@ -1,5 +1,8 @@
 ---
 id: sk-0854
+aliases:
+  - sk-0854
+  - 人应当在世上留下什么
 type: case
 title: "人应当在世上留下什么"
 lang: zh-CN

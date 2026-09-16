@@ -1,5 +1,8 @@
 ---
 id: sk-0098
+aliases:
+  - sk-0098
+  - 教育有三个源泉：科学、技巧和艺术
 type: quote
 title: "教育有三个源泉：科学、技巧和艺术"
 lang: zh-CN

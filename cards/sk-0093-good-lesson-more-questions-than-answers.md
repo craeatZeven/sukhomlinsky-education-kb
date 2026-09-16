@@ -1,5 +1,8 @@
 ---
 id: sk-0093
+aliases:
+  - sk-0093
+  - 一堂好课，应让学生想知道的比教师讲的更多
 type: quote
 title: "一堂好课，应让学生想知道的比教师讲的更多"
 lang: zh-CN

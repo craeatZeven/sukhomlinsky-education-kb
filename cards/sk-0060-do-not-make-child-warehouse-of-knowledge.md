@@ -1,5 +1,8 @@
 ---
 id: sk-0060
+aliases:
+  - sk-0060
+  - 别把孩子变成知识的仓库，要教他思考
 type: principle
 title: "别把孩子变成知识的仓库，要教他思考"
 lang: zh-CN

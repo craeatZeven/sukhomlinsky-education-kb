@@ -1,5 +1,8 @@
 ---
 id: sk-0457
+aliases:
+  - sk-0457
+  - 蚂蚁是怎样穿过小溪的：为家人想办法的蚂蚁
 type: case
 title: "蚂蚁是怎样穿过小溪的：为家人想办法的蚂蚁"
 lang: zh-CN

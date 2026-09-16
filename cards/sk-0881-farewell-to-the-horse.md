@@ -1,5 +1,8 @@
 ---
 id: sk-0881
+aliases:
+  - sk-0881
+  - 跟马告别
 type: case
 title: "跟马告别"
 lang: zh-CN

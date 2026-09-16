@@ -1,5 +1,8 @@
 ---
 id: sk-0338
+aliases:
+  - sk-0338
+  - 佩特里克为什么哭了
 type: case
 title: "佩特里克为什么哭了"
 lang: zh-CN

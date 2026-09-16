@@ -1,5 +1,8 @@
 ---
 id: sk-0753
+aliases:
+  - sk-0753
+  - 温柔的手
 type: case
 title: "温柔的手"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0091
+aliases:
+  - sk-0091
+  - 图书的节日与永久性学校图书馆
 type: practice
 title: "图书的节日与永久性学校图书馆"
 lang: zh-CN

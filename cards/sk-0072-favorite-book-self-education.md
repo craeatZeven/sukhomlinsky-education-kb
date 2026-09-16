@@ -1,5 +1,8 @@
 ---
 id: sk-0072
+aliases:
+  - sk-0072
+  - 让每个少年都有一本心爱的书，自我教育从好书开始
 type: principle
 title: "让每个少年都有一本心爱的书，自我教育从好书开始"
 lang: zh-CN

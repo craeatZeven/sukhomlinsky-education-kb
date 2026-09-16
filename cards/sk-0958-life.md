@@ -1,5 +1,8 @@
 ---
 id: sk-0958
+aliases:
+  - sk-0958
+  - 生命
 type: case
 title: "生命"
 lang: zh-CN

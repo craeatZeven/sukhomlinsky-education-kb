@@ -1,5 +1,8 @@
 ---
 id: sk-0719
+aliases:
+  - sk-0719
+  - 奶奶的云雀
 type: case
 title: "奶奶的云雀"
 lang: zh-CN

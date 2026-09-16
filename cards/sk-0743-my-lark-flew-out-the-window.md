@@ -1,5 +1,8 @@
 ---
 id: sk-0743
+aliases:
+  - sk-0743
+  - 我的小云雀飞出了窗
 type: case
 title: "我的小云雀飞出了窗"
 lang: zh-CN

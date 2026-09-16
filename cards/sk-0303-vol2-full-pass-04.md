@@ -1,5 +1,8 @@
 ---
 id: sk-0303
+aliases:
+  - sk-0303
+  - 智力的发展应服从于道德的发展
 type: quote
 title: "智力的发展应服从于道德的发展"
 lang: zh-CN

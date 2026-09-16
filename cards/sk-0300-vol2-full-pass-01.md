@@ -1,5 +1,8 @@
 ---
 id: sk-0300
+aliases:
+  - sk-0300
+  - 共产主义信念把人确立为社会的决定力量
 type: quote
 title: "共产主义信念把人确立为社会的决定力量"
 lang: zh-CN

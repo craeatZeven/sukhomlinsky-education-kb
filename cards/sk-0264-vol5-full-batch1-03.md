@@ -1,5 +1,8 @@
 ---
 id: sk-0264
+aliases:
+  - sk-0264
+  - 爱国主义不是漂亮言词，而是见之于行动的公益劳动
 type: principle
 title: "爱国主义不是漂亮言词，而是见之于行动的公益劳动"
 lang: zh-CN

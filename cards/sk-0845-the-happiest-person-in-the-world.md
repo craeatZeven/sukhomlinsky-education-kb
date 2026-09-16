@@ -1,5 +1,8 @@
 ---
 id: sk-0845
+aliases:
+  - sk-0845
+  - 世界上最幸福的人
 type: case
 title: "世界上最幸福的人"
 lang: zh-CN

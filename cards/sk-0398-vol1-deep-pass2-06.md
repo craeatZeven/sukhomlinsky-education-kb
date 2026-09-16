@@ -1,5 +1,8 @@
 ---
 id: sk-0398
+aliases:
+  - sk-0398
+  - 少年开始关注看不见摸不着的过程
 type: quote
 title: "少年开始关注看不见摸不着的过程"
 lang: zh-CN

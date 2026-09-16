@@ -1,5 +1,8 @@
 ---
 id: sk-1204
+aliases:
+  - sk-1204
+  - 怎样通过劳动使心灵高尚和培养人性
 type: case
 title: "怎样通过劳动使心灵高尚和培养人性"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-1214
+aliases:
+  - sk-1214
+  - 怎样在学校集体内建立劳动关系
 type: practice
 title: "怎样在学校集体内建立劳动关系"
 lang: zh-CN

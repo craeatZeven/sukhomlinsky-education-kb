@@ -1,5 +1,8 @@
 ---
 id: sk-0045
+aliases:
+  - sk-0045
+  - 绝不能拿不及格去“让家长惩罚孩子”
 type: principle
 title: "绝不能拿不及格去“让家长惩罚孩子”"
 lang: zh-CN

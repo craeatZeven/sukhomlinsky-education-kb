@@ -1,5 +1,8 @@
 ---
 id: sk-0218
+aliases:
+  - sk-0218
+  - 三大支柱：明晰的思维、生动的语言、创造活动
 type: quote
 title: "三大支柱：明晰的思维、生动的语言、创造活动"
 lang: zh-CN

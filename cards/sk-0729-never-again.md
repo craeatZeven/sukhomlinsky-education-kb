@@ -1,5 +1,8 @@
 ---
 id: sk-0729
+aliases:
+  - sk-0729
+  - 我再也不了
 type: case
 title: "我再也不了"
 lang: zh-CN

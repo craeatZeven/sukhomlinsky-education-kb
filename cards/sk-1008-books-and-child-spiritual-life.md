@@ -1,5 +1,8 @@
 ---
 id: sk-1008
+aliases:
+  - sk-1008
+  - 书和儿童的精神生活
 type: method
 title: "书和儿童的精神生活"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0868
+aliases:
+  - sk-0868
+  - 为什么母亲夸奖尼古拉
 type: case
 title: "为什么母亲夸奖尼古拉"
 lang: zh-CN

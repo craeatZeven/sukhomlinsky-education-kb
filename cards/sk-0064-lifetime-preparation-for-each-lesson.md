@@ -1,5 +1,8 @@
 ---
 id: sk-0064
+aliases:
+  - sk-0064
+  - 每一节课都是用一生来备课的
 type: quote
 title: "每一节课都是用一生来备课的"
 lang: zh-CN

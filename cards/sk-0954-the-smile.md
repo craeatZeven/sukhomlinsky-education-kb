@@ -1,5 +1,8 @@
 ---
 id: sk-0954
+aliases:
+  - sk-0954
+  - 笑容
 type: case
 title: "笑容"
 lang: zh-CN

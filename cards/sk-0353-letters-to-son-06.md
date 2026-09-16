@@ -1,5 +1,8 @@
 ---
 id: sk-0353
+aliases:
+  - sk-0353
+  - 学会做人需要一辈子
 type: quote
 title: "学会做人需要一辈子"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0246
+aliases:
+  - sk-0246
+  - 在童年树立终生信念：人类是大自然的孩子
 type: quote
 title: "在童年树立终生信念：人类是大自然的孩子"
 lang: zh-CN

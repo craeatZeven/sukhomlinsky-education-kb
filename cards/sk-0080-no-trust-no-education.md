@@ -1,5 +1,8 @@
 ---
 id: sk-0080
+aliases:
+  - sk-0080
+  - 最怪诞的是不相信人：没有信任便没有教育
 type: quote
 title: "最怪诞的是不相信人：没有信任便没有教育"
 lang: zh-CN

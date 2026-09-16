@@ -1,5 +1,8 @@
 ---
 id: sk-0389
+aliases:
+  - sk-0389
+  - 只有聪慧的人，才会是幸福的人
 type: quote
 title: "只有聪慧的人，才会是幸福的人"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0452
+aliases:
+  - sk-0452
+  - 雨和雷：把自然现象讲成小生命的故事
 type: case
 title: "雨和雷：把自然现象讲成小生命的故事"
 lang: zh-CN

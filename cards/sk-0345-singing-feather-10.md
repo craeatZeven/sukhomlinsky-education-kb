@@ -1,5 +1,8 @@
 ---
 id: sk-0345
+aliases:
+  - sk-0345
+  - 火和小麻雀
 type: case
 title: "火和小麻雀"
 lang: zh-CN

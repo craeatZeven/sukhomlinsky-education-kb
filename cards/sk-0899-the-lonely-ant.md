@@ -1,5 +1,8 @@
 ---
 id: sk-0899
+aliases:
+  - sk-0899
+  - 一只孤独的蚂蚁
 type: case
 title: "一只孤独的蚂蚁"
 lang: zh-CN

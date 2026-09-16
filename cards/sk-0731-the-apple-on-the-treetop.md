@@ -1,5 +1,8 @@
 ---
 id: sk-0731
+aliases:
+  - sk-0731
+  - 在树尖上的苹果
 type: case
 title: "在树尖上的苹果"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-1058
+aliases:
+  - sk-1058
+  - 蓝天下的学校
 type: practice
 title: "蓝天下的学校"
 lang: zh-CN

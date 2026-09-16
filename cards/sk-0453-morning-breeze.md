@@ -1,5 +1,8 @@
 ---
 id: sk-0453
+aliases:
+  - sk-0453
+  - 晨风：微风醒来，把世界一点点唤醒
 type: case
 title: "晨风：微风醒来，把世界一点点唤醒"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0917
+aliases:
+  - sk-0917
+  - 彼得里克、狗和小猫
 type: case
 title: "彼得里克、狗和小猫"
 lang: zh-CN

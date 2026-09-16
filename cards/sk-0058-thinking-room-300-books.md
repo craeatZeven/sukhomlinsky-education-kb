@@ -1,5 +1,8 @@
 ---
 id: sk-0058
+aliases:
+  - sk-0058
+  - “思考室”只放三百本值得反复读的世界杰作
 type: quote
 title: "“思考室”只放三百本值得反复读的世界杰作"
 lang: zh-CN

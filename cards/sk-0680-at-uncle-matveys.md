@@ -1,5 +1,8 @@
 ---
 id: sk-0680
+aliases:
+  - sk-0680
+  - 在马特维舅舅家：没有苹果就不用说谢谢吗？
 type: case
 title: "在马特维舅舅家：没有苹果就不用说谢谢吗？"
 lang: zh-CN

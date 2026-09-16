@@ -1,5 +1,8 @@
 ---
 id: sk-0142
+aliases:
+  - sk-0142
+  - 用‘母亲永远在看着你’培养独处时的良心
 type: method
 title: "用‘母亲永远在看着你’培养独处时的良心"
 lang: zh-CN

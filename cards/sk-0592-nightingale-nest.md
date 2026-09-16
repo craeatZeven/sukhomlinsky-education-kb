@@ -1,5 +1,8 @@
 ---
 id: sk-0592
+aliases:
+  - sk-0592
+  - 夜莺的巢：战场上的士兵小心地安放一个鸟巢
 type: case
 title: "夜莺的巢：战场上的士兵小心地安放一个鸟巢"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0906
+aliases:
+  - sk-0906
+  - 面包这就是劳动
 type: case
 title: "面包这就是劳动"
 lang: zh-CN

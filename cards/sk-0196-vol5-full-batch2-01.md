@@ -1,5 +1,8 @@
 ---
 id: sk-0196
+aliases:
+  - sk-0196
+  - 教师首先是孩子学习生活的人
 type: quote
 title: "教师首先是孩子学习生活的人"
 lang: zh-CN

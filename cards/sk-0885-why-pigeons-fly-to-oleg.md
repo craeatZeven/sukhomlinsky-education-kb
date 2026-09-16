@@ -1,5 +1,8 @@
 ---
 id: sk-0885
+aliases:
+  - sk-0885
+  - 为什么鸽子飞向奥列格
 type: case
 title: "为什么鸽子飞向奥列格"
 lang: zh-CN

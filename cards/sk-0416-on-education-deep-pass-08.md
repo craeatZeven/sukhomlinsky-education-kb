@@ -1,5 +1,8 @@
 ---
 id: sk-0416
+aliases:
+  - sk-0416
+  - 青春期是人的第二次诞生
 type: quote
 title: "青春期是人的第二次诞生"
 lang: zh-CN

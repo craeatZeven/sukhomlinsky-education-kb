@@ -1,5 +1,8 @@
 ---
 id: sk-1013
+aliases:
+  - sk-1013
+  - 认识自己
 type: principle
 title: "认识自己"
 lang: zh-CN

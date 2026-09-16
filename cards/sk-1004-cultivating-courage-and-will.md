@@ -1,5 +1,8 @@
 ---
 id: sk-1004
+aliases:
+  - sk-1004
+  - 勇敢精神、对敌人的不可调和性和必胜意志的培养
 type: principle
 title: "勇敢精神、对敌人的不可调和性和必胜意志的培养"
 lang: zh-CN

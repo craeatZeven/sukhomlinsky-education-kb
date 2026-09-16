@@ -1,5 +1,8 @@
 ---
 id: sk-0982
+aliases:
+  - sk-0982
+  - 会唱歌的羽毛
 type: case
 title: "会唱歌的羽毛"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-1098
+aliases:
+  - sk-1098
+  - 少年的思维与言语活动
 type: principle
 title: "少年的思维与言语活动"
 lang: zh-CN

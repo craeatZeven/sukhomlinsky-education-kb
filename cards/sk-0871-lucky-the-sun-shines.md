@@ -1,5 +1,8 @@
 ---
 id: sk-0871
+aliases:
+  - sk-0871
+  - 幸好阳光灿烂
 type: case
 title: "幸好阳光灿烂"
 lang: zh-CN

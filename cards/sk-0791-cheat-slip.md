@@ -1,5 +1,8 @@
 ---
 id: sk-0791
+aliases:
+  - sk-0791
+  - 作弊的小纸条
 type: case
 title: "作弊的小纸条"
 lang: zh-CN

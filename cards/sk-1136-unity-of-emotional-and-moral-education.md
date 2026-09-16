@@ -1,5 +1,8 @@
 ---
 id: sk-1136
+aliases:
+  - sk-1136
+  - 情感教育和道德教育的统一
 type: principle
 title: "情感教育和道德教育的统一"
 lang: zh-CN

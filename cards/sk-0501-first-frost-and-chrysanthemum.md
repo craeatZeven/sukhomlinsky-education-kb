@@ -1,5 +1,8 @@
 ---
 id: sk-0501
+aliases:
+  - sk-0501
+  - 初寒和菊花：寒霜忘了路边的小菊花
 type: case
 title: "初寒和菊花：寒霜忘了路边的小菊花"
 lang: zh-CN

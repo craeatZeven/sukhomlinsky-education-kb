@@ -1,5 +1,8 @@
 ---
 id: sk-0839
+aliases:
+  - sk-0839
+  - 我既不怕雷鸣，也不怕闪电
 type: case
 title: "我既不怕雷鸣，也不怕闪电"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0961
+aliases:
+  - sk-0961
+  - 滴水
 type: case
 title: "滴水"
 lang: zh-CN

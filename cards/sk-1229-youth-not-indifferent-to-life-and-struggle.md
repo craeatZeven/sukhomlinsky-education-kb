@@ -1,5 +1,8 @@
 ---
 id: sk-1229
+aliases:
+  - sk-1229
+  - 怎样使青年对我们的生活和斗争不要漠不关心
 type: method
 title: "怎样使青年对我们的生活和斗争不要漠不关心"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0830
+aliases:
+  - sk-0830
+  - 是鲜红的，还是血红的
 type: case
 title: "是鲜红的，还是血红的"
 lang: zh-CN

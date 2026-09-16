@@ -1,5 +1,8 @@
 ---
 id: sk-0770
+aliases:
+  - sk-0770
+  - 我想说自己的词
 type: case
 title: "我想说自己的词"
 lang: zh-CN

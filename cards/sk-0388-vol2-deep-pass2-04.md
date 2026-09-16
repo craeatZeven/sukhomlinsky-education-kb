@@ -1,5 +1,8 @@
 ---
 id: sk-0388
+aliases:
+  - sk-0388
+  - 善良的情感是骄傲和自私的解毒剂
 type: quote
 title: "善良的情感是骄傲和自私的解毒剂"
 lang: zh-CN

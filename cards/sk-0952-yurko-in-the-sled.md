@@ -1,5 +1,8 @@
 ---
 id: sk-0952
+aliases:
+  - sk-0952
+  - 尤尔科坐在雪橇里
 type: case
 title: "尤尔科坐在雪橇里"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0531
+aliases:
+  - sk-0531
+  - 露珠：回到天上，又化作雨滴落回土地
 type: case
 title: "露珠：回到天上，又化作雨滴落回土地"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-1031
+aliases:
+  - sk-1031
+  - 健康、健康，还是健康
 type: principle
 title: "健康、健康，还是健康"
 lang: zh-CN

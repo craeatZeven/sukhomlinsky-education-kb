@@ -1,5 +1,8 @@
 ---
 id: sk-1130
+aliases:
+  - sk-1130
+  - 我童年时期难忘的一天
 type: case
 title: "我童年时期难忘的一天"
 lang: zh-CN

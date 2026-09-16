@@ -1,5 +1,8 @@
 ---
 id: sk-0380
+aliases:
+  - sk-0380
+  - 保护少年的中枢神经系统就是爱护心脏
 type: quote
 title: "保护少年的中枢神经系统就是爱护心脏"
 lang: zh-CN

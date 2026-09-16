@@ -1,5 +1,8 @@
 ---
 id: sk-0890
+aliases:
+  - sk-0890
+  - 他成为一名劳动者
 type: case
 title: "他成为一名劳动者"
 lang: zh-CN

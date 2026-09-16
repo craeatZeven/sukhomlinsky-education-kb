@@ -1,5 +1,8 @@
 ---
 id: sk-1005
+aliases:
+  - sk-1005
+  - 智力积极性和少年自我意识、自我评价的形成
 type: principle
 title: "智力积极性和少年自我意识、自我评价的形成"
 lang: zh-CN

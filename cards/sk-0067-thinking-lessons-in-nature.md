@@ -1,5 +1,8 @@
 ---
 id: sk-0067
+aliases:
+  - sk-0067
+  - 到自然界去上'思维课'：在观察中形成概念
 type: method
 title: "到自然界去上'思维课'：在观察中形成概念"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0864
+aliases:
+  - sk-0864
+  - 尤尔科，铁木尔队队员
 type: case
 title: "尤尔科，铁木尔队队员"
 lang: zh-CN

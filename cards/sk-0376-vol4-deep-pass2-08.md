@@ -1,5 +1,8 @@
 ---
 id: sk-0376
+aliases:
+  - sk-0376
+  - 教师的人格是进行教育的基石
 type: quote
 title: "教师的人格是进行教育的基石"
 lang: zh-CN

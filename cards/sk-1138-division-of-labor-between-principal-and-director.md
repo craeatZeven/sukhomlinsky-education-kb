@@ -1,5 +1,8 @@
 ---
 id: sk-1138
+aliases:
+  - sk-1138
+  - 我们怎样在校长和教导主任之间实行分工
 type: practice
 title: "我们怎样在校长和教导主任之间实行分工"
 lang: zh-CN

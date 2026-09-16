@@ -1,5 +1,8 @@
 ---
 id: sk-0786
+aliases:
+  - sk-0786
+  - 米佳的假期
 type: case
 title: "米佳的假期"
 lang: zh-CN

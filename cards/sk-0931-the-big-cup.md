@@ -1,5 +1,8 @@
 ---
 id: sk-0931
+aliases:
+  - sk-0931
+  - 大杯子
 type: case
 title: "大杯子"
 lang: zh-CN

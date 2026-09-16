@@ -1,5 +1,8 @@
 ---
 id: sk-0738
+aliases:
+  - sk-0738
+  - 利己主义者的诞生
 type: case
 title: "利己主义者的诞生"
 lang: zh-CN

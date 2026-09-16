@@ -1,5 +1,8 @@
 ---
 id: sk-0749
+aliases:
+  - sk-0749
+  - 牛奶是洁白的呀
 type: case
 title: "牛奶是洁白的呀"
 lang: zh-CN

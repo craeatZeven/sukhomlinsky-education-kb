@@ -1,5 +1,8 @@
 ---
 id: sk-1155
+aliases:
+  - sk-1155
+  - 关于对自己子女的教育问题
 type: principle
 title: "关于对自己子女的教育问题"
 lang: zh-CN

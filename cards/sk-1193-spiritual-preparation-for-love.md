@@ -1,5 +1,8 @@
 ---
 id: sk-1193
+aliases:
+  - sk-1193
+  - 青年对待爱情的精神准备应当包括些什么
 type: principle
 title: "青年对待爱情的精神准备应当包括些什么"
 lang: zh-CN

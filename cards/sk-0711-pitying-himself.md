@@ -1,5 +1,8 @@
 ---
 id: sk-0711
+aliases:
+  - sk-0711
+  - 心痛自己
 type: case
 title: "心痛自己"
 lang: zh-CN

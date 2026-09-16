@@ -1,5 +1,8 @@
 ---
 id: sk-0229
+aliases:
+  - sk-0229
+  - 农村学校的特殊使命：做农村最重要的文化中心
 type: quote
 title: "农村学校的特殊使命：做农村最重要的文化中心"
 lang: zh-CN

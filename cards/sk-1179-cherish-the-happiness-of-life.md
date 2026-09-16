@@ -1,5 +1,8 @@
 ---
 id: sk-1179
+aliases:
+  - sk-1179
+  - 何谓珍惜生活的幸福
 type: principle
 title: "何谓珍惜生活的幸福"
 lang: zh-CN

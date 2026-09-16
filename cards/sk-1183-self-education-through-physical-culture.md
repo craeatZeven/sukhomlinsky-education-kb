@@ -1,5 +1,8 @@
 ---
 id: sk-1183
+aliases:
+  - sk-1183
+  - 怎样在体育方面引导学生进行自我教育
 type: method
 title: "怎样在体育方面引导学生进行自我教育"
 lang: zh-CN

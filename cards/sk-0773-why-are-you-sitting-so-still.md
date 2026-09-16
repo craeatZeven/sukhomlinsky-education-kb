@@ -1,5 +1,8 @@
 ---
 id: sk-0773
+aliases:
+  - sk-0773
+  - 你怎么坐得这么老实
 type: case
 title: "你怎么坐得这么老实"
 lang: zh-CN

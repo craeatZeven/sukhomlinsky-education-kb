@@ -1,5 +1,8 @@
 ---
 id: sk-0879
+aliases:
+  - sk-0879
+  - 一把小铲子
 type: case
 title: "一把小铲子"
 lang: zh-CN

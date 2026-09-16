@@ -1,5 +1,8 @@
 ---
 id: sk-0351
+aliases:
+  - sk-0351
+  - 最困难的事应成为最喜爱的事
 type: principle
 title: "最困难的事应成为最喜爱的事"
 lang: zh-CN

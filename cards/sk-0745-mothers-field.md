@@ -1,5 +1,8 @@
 ---
 id: sk-0745
+aliases:
+  - sk-0745
+  - 母亲的田地
 type: case
 title: "母亲的田地"
 lang: zh-CN

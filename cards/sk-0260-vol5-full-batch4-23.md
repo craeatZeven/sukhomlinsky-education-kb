@@ -1,5 +1,8 @@
 ---
 id: sk-0260
+aliases:
+  - sk-0260
+  - 只有愿意学习并以此为欢乐，学习才会成为骄傲
 type: quote
 title: "只有愿意学习并以此为欢乐，学习才会成为骄傲"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0886
+aliases:
+  - sk-0886
+  - 彼得里克和玛莉卡
 type: case
 title: "彼得里克和玛莉卡"
 lang: zh-CN

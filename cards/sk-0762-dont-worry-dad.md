@@ -1,5 +1,8 @@
 ---
 id: sk-0762
+aliases:
+  - sk-0762
+  - 爸爸，别犯愁
 type: case
 title: "爸爸，别犯愁"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-1059
+aliases:
+  - sk-1059
+  - 学习——精神生活的一部分
 type: principle
 title: "学习——精神生活的一部分"
 lang: zh-CN

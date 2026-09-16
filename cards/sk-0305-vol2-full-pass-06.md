@@ -1,5 +1,8 @@
 ---
 id: sk-0305
+aliases:
+  - sk-0305
+  - 教育技巧的精细处：培养学生需要人的情感
 type: quote
 title: "教育技巧的精细处：培养学生需要人的情感"
 lang: zh-CN

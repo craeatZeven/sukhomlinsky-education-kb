@@ -1,5 +1,8 @@
 ---
 id: sk-1107
+aliases:
+  - sk-1107
+  - 蓝天中的仙鹤
 type: case
 title: "蓝天中的仙鹤"
 lang: zh-CN

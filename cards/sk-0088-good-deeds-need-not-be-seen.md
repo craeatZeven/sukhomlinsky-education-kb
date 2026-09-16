@@ -1,5 +1,8 @@
 ---
 id: sk-0088
+aliases:
+  - sk-0088
+  - 真正为他人做好事，不必让人看见
 type: quote
 title: "真正为他人做好事，不必让人看见"
 lang: zh-CN

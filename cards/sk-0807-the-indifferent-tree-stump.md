@@ -1,5 +1,8 @@
 ---
 id: sk-0807
+aliases:
+  - sk-0807
+  - 漠不关心的树墩
 type: case
 title: "漠不关心的树墩"
 lang: zh-CN

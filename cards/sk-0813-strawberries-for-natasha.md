@@ -1,5 +1,8 @@
 ---
 id: sk-0813
+aliases:
+  - sk-0813
+  - 给娜塔莎的草莓
 type: case
 title: "给娜塔莎的草莓"
 lang: zh-CN

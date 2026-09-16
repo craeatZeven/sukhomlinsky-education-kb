@@ -1,5 +1,8 @@
 ---
 id: sk-0408
+aliases:
+  - sk-0408
+  - 怎样使学校教育和家庭教育保持一致？
 type: quote
 title: "怎样使学校教育和家庭教育保持一致？"
 lang: zh-CN

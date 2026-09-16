@@ -1,5 +1,8 @@
 ---
 id: sk-0759
+aliases:
+  - sk-0759
+  - 大的和小的
 type: case
 title: "大的和小的"
 lang: zh-CN

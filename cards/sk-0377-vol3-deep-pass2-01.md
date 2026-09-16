@@ -1,5 +1,8 @@
 ---
 id: sk-0377
+aliases:
+  - sk-0377
+  - 游戏是儿童智力发展的窗子
 type: principle
 title: "游戏是儿童智力发展的窗子"
 lang: zh-CN

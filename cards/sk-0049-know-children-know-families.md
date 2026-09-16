@@ -1,5 +1,8 @@
 ---
 id: sk-0049
+aliases:
+  - sk-0049
+  - 要了解孩子，就要清楚了解他的家庭
 type: quote
 title: "要了解孩子，就要清楚了解他的家庭"
 lang: zh-CN

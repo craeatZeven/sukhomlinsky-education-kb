@@ -1,5 +1,8 @@
 ---
 id: sk-0252
+aliases:
+  - sk-0252
+  - 爱是一种艰苦劳动：在子女身上延续自己
 type: quote
 title: "爱是一种艰苦劳动：在子女身上延续自己"
 lang: zh-CN

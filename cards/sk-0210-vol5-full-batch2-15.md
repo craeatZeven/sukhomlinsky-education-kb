@@ -1,5 +1,8 @@
 ---
 id: sk-0210
+aliases:
+  - sk-0210
+  - 崇高植根于平凡：劳动和一块面包
 type: quote
 title: "崇高植根于平凡：劳动和一块面包"
 lang: zh-CN

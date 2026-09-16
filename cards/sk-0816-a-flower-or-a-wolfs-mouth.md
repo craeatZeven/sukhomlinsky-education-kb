@@ -1,5 +1,8 @@
 ---
 id: sk-0816
+aliases:
+  - sk-0816
+  - 是花还是狼嘴
 type: case
 title: "是花还是狼嘴"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0875
+aliases:
+  - sk-0875
+  - 蚂蚁旅行家
 type: case
 title: "蚂蚁旅行家"
 lang: zh-CN

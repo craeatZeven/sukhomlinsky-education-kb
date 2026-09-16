@@ -1,5 +1,8 @@
 ---
 id: sk-1226
+aliases:
+  - sk-1226
+  - 怎样教育共青团员关心公共利益
 type: practice
 title: "怎样教育共青团员关心公共利益"
 lang: zh-CN

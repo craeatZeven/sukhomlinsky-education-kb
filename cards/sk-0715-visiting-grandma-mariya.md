@@ -1,5 +1,8 @@
 ---
 id: sk-0715
+aliases:
+  - sk-0715
+  - 在玛丽亚奶奶家做客
 type: case
 title: "在玛丽亚奶奶家做客"
 lang: zh-CN

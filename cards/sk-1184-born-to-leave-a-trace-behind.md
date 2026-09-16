@@ -1,5 +1,8 @@
 ---
 id: sk-1184
+aliases:
+  - sk-1184
+  - 人生下来是为了在自己身后留下痕迹
 type: principle
 title: "人生下来是为了在自己身后留下痕迹"
 lang: zh-CN

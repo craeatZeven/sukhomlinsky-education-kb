@@ -1,5 +1,8 @@
 ---
 id: sk-0884
+aliases:
+  - sk-0884
+  - 大水桶
 type: case
 title: "大水桶"
 lang: zh-CN

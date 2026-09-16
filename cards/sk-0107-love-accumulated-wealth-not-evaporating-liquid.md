@@ -1,5 +1,8 @@
 ---
 id: sk-0107
+aliases:
+  - sk-0107
+  - 爱情不是易蒸发的液体，而是点滴积累的财富
 type: quote
 title: "爱情不是易蒸发的液体，而是点滴积累的财富"
 lang: zh-CN

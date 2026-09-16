@@ -1,5 +1,8 @@
 ---
 id: sk-1164
+aliases:
+  - sk-1164
+  - 把每个学生引向兴趣的发源地
 type: method
 title: "把每个学生引向兴趣的发源地"
 lang: zh-CN

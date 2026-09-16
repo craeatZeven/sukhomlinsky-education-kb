@@ -1,5 +1,8 @@
 ---
 id: sk-0768
+aliases:
+  - sk-0768
+  - 太阳只有一个
 type: case
 title: "太阳只有一个"
 lang: zh-CN

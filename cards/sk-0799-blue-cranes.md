@@ -1,5 +1,8 @@
 ---
 id: sk-0799
+aliases:
+  - sk-0799
+  - 蓝色的仙鹤
 type: case
 title: "蓝色的仙鹤"
 lang: zh-CN

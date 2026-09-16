@@ -1,5 +1,8 @@
 ---
 id: sk-0003
+aliases:
+  - sk-0003
+  - 教育失灵不是孩子不可救药，而是路径错了
 type: principle
 title: "教育失灵不是孩子不可救药，而是路径错了"
 lang: zh-CN

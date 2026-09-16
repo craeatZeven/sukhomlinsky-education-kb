@@ -1,5 +1,8 @@
 ---
 id: sk-0714
+aliases:
+  - sk-0714
+  - 我们给爷爷铺床
 type: case
 title: "我们给爷爷铺床"
 lang: zh-CN

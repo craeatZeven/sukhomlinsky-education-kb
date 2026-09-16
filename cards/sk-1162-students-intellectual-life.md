@@ -1,5 +1,8 @@
 ---
 id: sk-1162
+aliases:
+  - sk-1162
+  - 关于学生的智力生活
 type: principle
 title: "关于学生的智力生活"
 lang: zh-CN

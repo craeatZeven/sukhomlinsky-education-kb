@@ -1,5 +1,8 @@
 ---
 id: sk-1080
+aliases:
+  - sk-1080
+  - 第一年——考察孩子
 type: method
 title: "第一年——考察孩子"
 lang: zh-CN

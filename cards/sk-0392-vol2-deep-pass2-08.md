@@ -1,5 +1,8 @@
 ---
 id: sk-0392
+aliases:
+  - sk-0392
+  - 美是照耀世界的明亮之光
 type: quote
 title: "美是照耀世界的明亮之光"
 lang: zh-CN

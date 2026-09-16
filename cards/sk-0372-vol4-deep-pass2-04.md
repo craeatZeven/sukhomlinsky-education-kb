@@ -1,5 +1,8 @@
 ---
 id: sk-0372
+aliases:
+  - sk-0372
+  - 善良情感，是良心的头道防线
 type: quote
 title: "善良情感，是良心的头道防线"
 lang: zh-CN

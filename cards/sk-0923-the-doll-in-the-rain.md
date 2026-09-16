@@ -1,5 +1,8 @@
 ---
 id: sk-0923
+aliases:
+  - sk-0923
+  - 雨中的娃娃
 type: case
 title: "雨中的娃娃"
 lang: zh-CN

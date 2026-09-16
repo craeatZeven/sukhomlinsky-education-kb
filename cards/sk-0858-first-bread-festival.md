@@ -1,5 +1,8 @@
 ---
 id: sk-0858
+aliases:
+  - sk-0858
+  - 第一块面包节
 type: case
 title: "第一块面包节"
 lang: zh-CN

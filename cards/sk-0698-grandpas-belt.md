@@ -1,5 +1,8 @@
 ---
 id: sk-0698
+aliases:
+  - sk-0698
+  - 爷爷的腰带
 type: case
 title: "爷爷的腰带"
 lang: zh-CN

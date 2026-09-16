@@ -1,5 +1,8 @@
 ---
 id: sk-0765
+aliases:
+  - sk-0765
+  - 原因、现象、结果
 type: case
 title: "原因、现象、结果"
 lang: zh-CN

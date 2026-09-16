@@ -1,5 +1,8 @@
 ---
 id: sk-0985
+aliases:
+  - sk-0985
+  - 把路坑填平了吧
 type: case
 title: "把路坑填平了吧"
 lang: zh-CN

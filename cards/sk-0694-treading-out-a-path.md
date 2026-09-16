@@ -1,5 +1,8 @@
 ---
 id: sk-0694
+aliases:
+  - sk-0694
+  - 踩出一条小路
 type: case
 title: "踩出一条小路"
 lang: zh-CN

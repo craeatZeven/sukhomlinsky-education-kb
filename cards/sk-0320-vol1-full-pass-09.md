@@ -1,5 +1,8 @@
 ---
 id: sk-0320
+aliases:
+  - sk-0320
+  - 每个学生心灵深处都藏着献身愿望
 type: quote
 title: "每个学生心灵深处都藏着献身愿望"
 lang: zh-CN

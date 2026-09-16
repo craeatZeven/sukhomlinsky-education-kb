@@ -1,5 +1,8 @@
 ---
 id: sk-1029
+aliases:
+  - sk-1029
+  - 学习之母不应变成后娘
 type: method
 title: "学习之母不应变成后娘"
 lang: zh-CN

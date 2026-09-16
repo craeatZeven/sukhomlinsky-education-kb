@@ -1,5 +1,8 @@
 ---
 id: sk-0019
+aliases:
+  - sk-0019
+  - 关注健康是教育者最重要的工作
 type: quote
 title: "关注健康是教育者最重要的工作"
 lang: zh-CN

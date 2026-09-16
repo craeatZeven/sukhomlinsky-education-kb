@@ -1,5 +1,8 @@
 ---
 id: sk-1094
+aliases:
+  - sk-1094
+  - 关于写教育日记的建议
 type: method
 title: "关于写教育日记的建议"
 lang: zh-CN

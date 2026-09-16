@@ -1,5 +1,8 @@
 ---
 id: sk-0767
+aliases:
+  - sk-0767
+  - 闪光的顶峰和布满石头的小路
 type: case
 title: "闪光的顶峰和布满石头的小路"
 lang: zh-CN

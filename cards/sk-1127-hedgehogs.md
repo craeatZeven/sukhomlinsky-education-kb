@@ -1,5 +1,8 @@
 ---
 id: sk-1127
+aliases:
+  - sk-1127
+  - 刺猬
 type: case
 title: "刺猬"
 lang: zh-CN

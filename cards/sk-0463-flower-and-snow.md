@@ -1,5 +1,8 @@
 ---
 id: sk-0463
+aliases:
+  - sk-0463
+  - 花朵和雪：冬天屋里开出的丁香花
 type: case
 title: "花朵和雪：冬天屋里开出的丁香花"
 lang: zh-CN

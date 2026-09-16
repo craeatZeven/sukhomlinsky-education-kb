@@ -1,5 +1,8 @@
 ---
 id: sk-0930
+aliases:
+  - sk-0930
+  - 一颗小红星
 type: case
 title: "一颗小红星"
 lang: zh-CN

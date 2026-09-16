@@ -1,5 +1,8 @@
 ---
 id: sk-1151
+aliases:
+  - sk-1151
+  - 阿尔乔姆·米哈伊洛维奇——布琼尼骑兵
 type: case
 title: "阿尔乔姆·米哈伊洛维奇——布琼尼骑兵"
 lang: zh-CN

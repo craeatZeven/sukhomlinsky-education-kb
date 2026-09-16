@@ -1,5 +1,8 @@
 ---
 id: sk-0258
+aliases:
+  - sk-0258
+  - 人的道德自我不可分割：不能过双重生活
 type: quote
 title: "人的道德自我不可分割：不能过双重生活"
 lang: zh-CN

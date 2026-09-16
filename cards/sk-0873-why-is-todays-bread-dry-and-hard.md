@@ -1,5 +1,8 @@
 ---
 id: sk-0873
+aliases:
+  - sk-0873
+  - 为什么今天的面包又干又硬
 type: case
 title: "为什么今天的面包又干又硬"
 lang: zh-CN

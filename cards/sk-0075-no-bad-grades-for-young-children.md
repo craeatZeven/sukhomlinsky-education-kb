@@ -1,5 +1,8 @@
 ---
 id: sk-0075
+aliases:
+  - sk-0075
+  - 不给低年级学生打两分：两分就是鞭子和棍棒
 type: method
 title: "不给低年级学生打两分：两分就是鞭子和棍棒"
 lang: zh-CN

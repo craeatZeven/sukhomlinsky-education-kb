@@ -1,5 +1,8 @@
 ---
 id: sk-0033
+aliases:
+  - sk-0033
+  - 集体生活应以个人提升为宗旨
 type: principle
 title: "集体生活应以个人提升为宗旨"
 lang: zh-CN

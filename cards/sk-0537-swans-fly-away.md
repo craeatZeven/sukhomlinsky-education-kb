@@ -1,5 +1,8 @@
 ---
 id: sk-0537
+aliases:
+  - sk-0537
+  - 天鹅飞走了：难道悲哀是朱红色的？
 type: case
 title: "天鹅飞走了：难道悲哀是朱红色的？"
 lang: zh-CN

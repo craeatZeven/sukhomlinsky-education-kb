@@ -1,5 +1,8 @@
 ---
 id: sk-0594
+aliases:
+  - sk-0594
+  - 这就是祖国：一首诗和一片干蒿草叶
 type: case
 title: "这就是祖国：一首诗和一片干蒿草叶"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0341
+aliases:
+  - sk-0341
+  - 蓝鸟为什么哭
 type: case
 title: "蓝鸟为什么哭"
 lang: zh-CN

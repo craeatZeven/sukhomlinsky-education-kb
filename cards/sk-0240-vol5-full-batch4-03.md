@@ -1,5 +1,8 @@
 ---
 id: sk-0240
+aliases:
+  - sk-0240
+  - 学生应当获取知识，而不是消费现成的知识
 type: quote
 title: "学生应当获取知识，而不是消费现成的知识"
 lang: zh-CN

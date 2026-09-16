@@ -1,5 +1,8 @@
 ---
 id: sk-0948
+aliases:
+  - sk-0948
+  - 从柳树到白杨树
 type: case
 title: "从柳树到白杨树"
 lang: zh-CN

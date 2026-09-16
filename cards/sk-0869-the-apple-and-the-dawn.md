@@ -1,5 +1,8 @@
 ---
 id: sk-0869
+aliases:
+  - sk-0869
+  - 苹果与黎明
 type: case
 title: "苹果与黎明"
 lang: zh-CN

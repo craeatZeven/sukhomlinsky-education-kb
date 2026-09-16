@@ -1,5 +1,8 @@
 ---
 id: sk-0811
+aliases:
+  - sk-0811
+  - 科利亚、维佳和小狗
 type: case
 title: "科利亚、维佳和小狗"
 lang: zh-CN

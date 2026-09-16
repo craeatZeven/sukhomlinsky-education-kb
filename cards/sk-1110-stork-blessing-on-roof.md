@@ -1,5 +1,8 @@
 ---
 id: sk-1110
+aliases:
+  - sk-1110
+  - 鹳
 type: case
 title: "鹳"
 lang: zh-CN

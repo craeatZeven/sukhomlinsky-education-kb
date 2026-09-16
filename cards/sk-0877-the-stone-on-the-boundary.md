@@ -1,5 +1,8 @@
 ---
 id: sk-0877
+aliases:
+  - sk-0877
+  - 地界上的石头
 type: case
 title: "地界上的石头"
 lang: zh-CN

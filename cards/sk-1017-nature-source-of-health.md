@@ -1,5 +1,8 @@
 ---
 id: sk-1017
+aliases:
+  - sk-1017
+  - 大自然——健康的源泉
 type: method
 title: "大自然——健康的源泉"
 lang: zh-CN

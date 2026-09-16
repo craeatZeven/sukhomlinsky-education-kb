@@ -1,5 +1,8 @@
 ---
 id: sk-0702
+aliases:
+  - sk-0702
+  - 秋天花园中的苹果
 type: case
 title: "秋天花园中的苹果"
 lang: zh-CN

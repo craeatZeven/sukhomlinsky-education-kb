@@ -1,5 +1,8 @@
 ---
 id: sk-0089
+aliases:
+  - sk-0089
+  - 家校共同遵守的“十不准”
 type: practice
 title: "家校共同遵守的“十不准”"
 lang: zh-CN

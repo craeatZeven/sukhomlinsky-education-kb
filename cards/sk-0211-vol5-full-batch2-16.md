@@ -1,5 +1,8 @@
 ---
 id: sk-0211
+aliases:
+  - sk-0211
+  - 儿童喜欢玩具，却不喜欢别人把他们变为玩具
 type: quote
 title: "儿童喜欢玩具，却不喜欢别人把他们变为玩具"
 lang: zh-CN

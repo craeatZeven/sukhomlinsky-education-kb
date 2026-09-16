@@ -1,5 +1,8 @@
 ---
 id: sk-1165
+aliases:
+  - sk-1165
+  - 怎样训练儿童流利地书写
 type: method
 title: "怎样训练儿童流利地书写"
 lang: zh-CN

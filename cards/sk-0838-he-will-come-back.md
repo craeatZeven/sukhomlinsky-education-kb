@@ -1,5 +1,8 @@
 ---
 id: sk-0838
+aliases:
+  - sk-0838
+  - 他会回来的
 type: case
 title: "他会回来的"
 lang: zh-CN

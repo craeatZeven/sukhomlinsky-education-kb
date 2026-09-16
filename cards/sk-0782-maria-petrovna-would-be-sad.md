@@ -1,5 +1,8 @@
 ---
 id: sk-0782
+aliases:
+  - sk-0782
+  - 因为那样做玛丽亚·彼得洛夫娜会难过的
 type: case
 title: "因为那样做玛丽亚·彼得洛夫娜会难过的"
 lang: zh-CN

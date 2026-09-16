@@ -1,5 +1,8 @@
 ---
 id: sk-0016
+aliases:
+  - sk-0016
+  - 从种麦到粮食盛典：让劳动成为可庆祝的成果
 type: practice
 title: "从种麦到粮食盛典：让劳动成为可庆祝的成果"
 lang: zh-CN

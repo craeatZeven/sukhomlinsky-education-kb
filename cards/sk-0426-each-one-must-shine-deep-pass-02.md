@@ -1,5 +1,8 @@
 ---
 id: sk-0426
+aliases:
+  - sk-0426
+  - 儿童是活的生命，大脑是最娇嫩的器官
 type: quote
 title: "儿童是活的生命，大脑是最娇嫩的器官"
 lang: zh-CN

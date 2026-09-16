@@ -1,5 +1,8 @@
 ---
 id: sk-1160
+aliases:
+  - sk-1160
+  - 要用书籍、智慧与信念控制学生的心灵
 type: case
 title: "要用书籍、智慧与信念控制学生的心灵"
 lang: zh-CN

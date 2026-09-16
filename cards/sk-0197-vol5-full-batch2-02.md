@@ -1,5 +1,8 @@
 ---
 id: sk-0197
+aliases:
+  - sk-0197
+  - 言行不一的教育者是对善的嘲弄
 type: quote
 title: "言行不一的教育者是对善的嘲弄"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-1048
+aliases:
+  - sk-1048
+  - 怎样培养母亲和父亲做好学校和家庭的协同教育工作
 type: practice
 title: "怎样培养母亲和父亲做好学校和家庭的协同教育工作"
 lang: zh-CN

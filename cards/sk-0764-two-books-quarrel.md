@@ -1,5 +1,8 @@
 ---
 id: sk-0764
+aliases:
+  - sk-0764
+  - 两本书的争吵
 type: case
 title: "两本书的争吵"
 lang: zh-CN

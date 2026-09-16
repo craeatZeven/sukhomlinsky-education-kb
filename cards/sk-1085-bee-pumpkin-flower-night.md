@@ -1,5 +1,8 @@
 ---
 id: sk-1085
+aliases:
+  - sk-1085
+  - 蜜蜂是怎样在南瓜花里过夜的
 type: case
 title: "蜜蜂是怎样在南瓜花里过夜的"
 lang: zh-CN

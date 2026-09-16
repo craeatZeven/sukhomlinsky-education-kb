@@ -1,5 +1,8 @@
 ---
 id: sk-0180
+aliases:
+  - sk-0180
+  - 学业成绩评分不是道德评分：分数好不等于孩子好
 type: principle
 title: "学业成绩评分不是道德评分：分数好不等于孩子好"
 lang: zh-CN

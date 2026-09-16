@@ -1,5 +1,8 @@
 ---
 id: sk-0615
+aliases:
+  - sk-0615
+  - 在山冈上：染血的土地开出鲜红玫瑰
 type: case
 title: "在山冈上：染血的土地开出鲜红玫瑰"
 lang: zh-CN

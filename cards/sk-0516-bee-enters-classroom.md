@@ -1,5 +1,8 @@
 ---
 id: sk-0516
+aliases:
+  - sk-0516
+  - 蜜蜂飞进了教室：全班屏住呼吸等它飞出窗
 type: case
 title: "蜜蜂飞进了教室：全班屏住呼吸等它飞出窗"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0023
+aliases:
+  - sk-0023
+  - 睡前长时间做作业，孩子会开始落后
 type: method
 title: "睡前长时间做作业，孩子会开始落后"
 lang: zh-CN

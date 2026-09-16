@@ -1,5 +1,8 @@
 ---
 id: sk-0584
+aliases:
+  - sk-0584
+  - 父亲的铅笔：用爸爸的笔写下对祖国的誓言
 type: case
 title: "父亲的铅笔：用爸爸的笔写下对祖国的誓言"
 lang: zh-CN

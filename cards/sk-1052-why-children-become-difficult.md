@@ -1,5 +1,8 @@
 ---
 id: sk-1052
+aliases:
+  - sk-1052
+  - 他们为什么变成了难教儿童
 type: principle
 title: "他们为什么变成了难教儿童"
 lang: zh-CN

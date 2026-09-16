@@ -1,5 +1,8 @@
 ---
 id: sk-1057
+aliases:
+  - sk-1057
+  - 什么叫痛苦，怎样教孩子们去克服它
 type: principle
 title: "什么叫痛苦，怎样教孩子们去克服它"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-1123
+aliases:
+  - sk-1123
+  - 报春花
 type: case
 title: "报春花"
 lang: zh-CN

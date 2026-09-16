@@ -1,5 +1,8 @@
 ---
 id: sk-0835
+aliases:
+  - sk-0835
+  - 铁石心肠的人
 type: case
 title: "铁石心肠的人"
 lang: zh-CN

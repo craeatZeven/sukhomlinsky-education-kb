@@ -1,5 +1,8 @@
 ---
 id: sk-1174
+aliases:
+  - sk-1174
+  - 学生学习课程的积极活动内容
 type: method
 title: "学生学习课程的积极活动内容"
 lang: zh-CN

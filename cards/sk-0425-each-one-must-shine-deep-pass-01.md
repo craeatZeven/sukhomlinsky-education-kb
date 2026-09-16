@@ -1,5 +1,8 @@
 ---
 id: sk-0425
+aliases:
+  - sk-0425
+  - 每个人都必须发光：没有人应当成为风中尘埃
 type: quote
 title: "每个人都必须发光：没有人应当成为风中尘埃"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0238
+aliases:
+  - sk-0238
+  - 儿童不是白纸：信念培养是一场针对已有思想影响的斗争
 type: principle
 title: "儿童不是白纸：信念培养是一场针对已有思想影响的斗争"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-1150
+aliases:
+  - sk-1150
+  - 火焰驹
 type: case
 title: "火焰驹"
 lang: zh-CN

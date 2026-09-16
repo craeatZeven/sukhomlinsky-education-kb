@@ -1,5 +1,8 @@
 ---
 id: sk-0337
+aliases:
+  - sk-0337
+  - 我不怕打雷和闪电
 type: case
 title: "我不怕打雷和闪电"
 lang: zh-CN

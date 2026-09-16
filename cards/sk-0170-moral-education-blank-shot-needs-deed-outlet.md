@@ -1,5 +1,8 @@
 ---
 id: sk-0170
+aliases:
+  - sk-0170
+  - 道德教育的“空弹”：故事唤起的热情必须有行善的出口
 type: principle
 title: "道德教育的“空弹”：故事唤起的热情必须有行善的出口"
 lang: zh-CN

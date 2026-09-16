@@ -1,5 +1,8 @@
 ---
 id: sk-0419
+aliases:
+  - sk-0419
+  - 幻想形象是思维幼芽最肥沃的土壤
 type: quote
 title: "幻想形象是思维幼芽最肥沃的土壤"
 lang: zh-CN

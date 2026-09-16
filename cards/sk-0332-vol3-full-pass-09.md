@@ -1,5 +1,8 @@
 ---
 id: sk-0332
+aliases:
+  - sk-0332
+  - 志向是天才的幼苗
 type: quote
 title: "志向是天才的幼苗"
 lang: zh-CN

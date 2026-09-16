@@ -1,5 +1,8 @@
 ---
 id: sk-0304
+aliases:
+  - sk-0304
+  - 生而为人，就要成为大写的人
 type: quote
 title: "生而为人，就要成为大写的人"
 lang: zh-CN

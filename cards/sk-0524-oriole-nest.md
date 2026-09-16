@@ -1,5 +1,8 @@
 ---
 id: sk-0524
+aliases:
+  - sk-0524
+  - 黄鹂的巢：灌木丛被砍掉，黄鹂回来找不到家
 type: case
 title: "黄鹂的巢：灌木丛被砍掉，黄鹂回来找不到家"
 lang: zh-CN

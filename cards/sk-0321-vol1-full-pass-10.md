@@ -1,5 +1,8 @@
 ---
 id: sk-0321
+aliases:
+  - sk-0321
+  - 儿童在学校不光是学习，而且在那里生活
 type: principle
 title: "儿童在学校不光是学习，而且在那里生活"
 lang: zh-CN

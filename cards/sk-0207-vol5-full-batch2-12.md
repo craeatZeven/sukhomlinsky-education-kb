@@ -1,5 +1,8 @@
 ---
 id: sk-0207
+aliases:
+  - sk-0207
+  - 把评分当作少用的‘手术器械’
 type: method
 title: "把评分当作少用的‘手术器械’"
 lang: zh-CN

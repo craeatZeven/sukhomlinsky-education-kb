@@ -1,5 +1,8 @@
 ---
 id: sk-0746
+aliases:
+  - sk-0746
+  - 四个方向的风和母亲的痛苦
 type: case
 title: "四个方向的风和母亲的痛苦"
 lang: zh-CN

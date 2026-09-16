@@ -1,5 +1,8 @@
 ---
 id: sk-0975
+aliases:
+  - sk-0975
+  - 肉饼像石头一样
 type: case
 title: "肉饼像石头一样"
 lang: zh-CN

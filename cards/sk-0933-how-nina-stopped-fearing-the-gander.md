@@ -1,5 +1,8 @@
 ---
 id: sk-0933
+aliases:
+  - sk-0933
+  - 尼娜是怎么不怕公鹅的
 type: case
 title: "尼娜是怎么不怕公鹅的"
 lang: zh-CN

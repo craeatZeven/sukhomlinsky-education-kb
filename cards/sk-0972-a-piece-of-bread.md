@@ -1,5 +1,8 @@
 ---
 id: sk-0972
+aliases:
+  - sk-0972
+  - 一块面包
 type: case
 title: "一块面包"
 lang: zh-CN

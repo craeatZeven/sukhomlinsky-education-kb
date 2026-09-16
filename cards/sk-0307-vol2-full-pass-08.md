@@ -1,5 +1,8 @@
 ---
 id: sk-0307
+aliases:
+  - sk-0307
+  - 羞耻比最严厉的惩罚更有力
 type: quote
 title: "羞耻比最严厉的惩罚更有力"
 lang: zh-CN

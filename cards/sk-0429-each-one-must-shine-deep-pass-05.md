@@ -1,5 +1,8 @@
 ---
 id: sk-0429
+aliases:
+  - sk-0429
+  - 当学习变成纯书本之事：字母在眼前跳舞
 type: quote
 title: "当学习变成纯书本之事：字母在眼前跳舞"
 lang: zh-CN

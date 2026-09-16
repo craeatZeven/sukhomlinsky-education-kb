@@ -1,5 +1,8 @@
 ---
 id: sk-0944
+aliases:
+  - sk-0944
+  - 小苹果树
 type: case
 title: "小苹果树"
 lang: zh-CN

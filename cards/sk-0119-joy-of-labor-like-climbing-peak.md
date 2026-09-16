@@ -1,5 +1,8 @@
 ---
 id: sk-0119
+aliases:
+  - sk-0119
+  - 劳动的乐趣如同攀登顶峰，在艰难之后获得自豪
 type: quote
 title: "劳动的乐趣如同攀登顶峰，在艰难之后获得自豪"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0113
+aliases:
+  - sk-0113
+  - 不要剥夺儿童观察童话这面魔镜的幸福
 type: quote
 title: "不要剥夺儿童观察童话这面魔镜的幸福"
 lang: zh-CN

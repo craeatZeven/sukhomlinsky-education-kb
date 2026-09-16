@@ -1,5 +1,8 @@
 ---
 id: sk-0751
+aliases:
+  - sk-0751
+  - 阿莲卡和春天
 type: case
 title: "阿莲卡和春天"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0855
+aliases:
+  - sk-0855
+  - 在公正的法官面前
 type: case
 title: "在公正的法官面前"
 lang: zh-CN

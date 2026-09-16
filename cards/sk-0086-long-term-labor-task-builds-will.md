@@ -1,5 +1,8 @@
 ---
 id: sk-0086
+aliases:
+  - sk-0086
+  - 持续数年的劳动任务，比频繁换活动更能炼意志
 type: principle
 title: "持续数年的劳动任务，比频繁换活动更能炼意志"
 lang: zh-CN

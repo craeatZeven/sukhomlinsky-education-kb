@@ -1,5 +1,8 @@
 ---
 id: sk-0476
+aliases:
+  - sk-0476
+  - 孤独的爆竹柳：水中的倒影让它看见自己的美
 type: case
 title: "孤独的爆竹柳：水中的倒影让它看见自己的美"
 lang: zh-CN

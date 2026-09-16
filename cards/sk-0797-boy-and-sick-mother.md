@@ -1,5 +1,8 @@
 ---
 id: sk-0797
+aliases:
+  - sk-0797
+  - 小男孩和生病的妈妈
 type: case
 title: "小男孩和生病的妈妈"
 lang: zh-CN

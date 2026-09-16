@@ -1,5 +1,8 @@
 ---
 id: sk-0924
+aliases:
+  - sk-0924
+  - 谁去打柴
 type: case
 title: "谁去打柴"
 lang: zh-CN

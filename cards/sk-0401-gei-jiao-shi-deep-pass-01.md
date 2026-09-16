@@ -1,5 +1,8 @@
 ---
 id: sk-0401
+aliases:
+  - sk-0401
+  - 请记住：没有也不可能有抽象的学生
 type: quote
 title: "请记住：没有也不可能有抽象的学生"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-1122
+aliases:
+  - sk-1122
+  - 苹果树开花
 type: case
 title: "苹果树开花"
 lang: zh-CN

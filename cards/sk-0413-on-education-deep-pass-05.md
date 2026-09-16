@@ -1,5 +1,8 @@
 ---
 id: sk-0413
+aliases:
+  - sk-0413
+  - 教鞭与拳头是教师职业的耻辱
 type: quote
 title: "教鞭与拳头是教师职业的耻辱"
 lang: zh-CN

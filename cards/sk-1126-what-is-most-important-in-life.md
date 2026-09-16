@@ -1,5 +1,8 @@
 ---
 id: sk-1126
+aliases:
+  - sk-1126
+  - 生活中什么是最主要的
 type: case
 title: "生活中什么是最主要的"
 lang: zh-CN

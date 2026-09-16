@@ -1,5 +1,8 @@
 ---
 id: sk-0021
+aliases:
+  - sk-0021
+  - 新鲜空气与户外作息是健康的“灵丹妙药”
 type: method
 title: "新鲜空气与户外作息是健康的“灵丹妙药”"
 lang: zh-CN

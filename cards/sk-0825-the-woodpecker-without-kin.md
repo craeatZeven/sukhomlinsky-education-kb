@@ -1,5 +1,8 @@
 ---
 id: sk-0825
+aliases:
+  - sk-0825
+  - 没有亲人的啄木鸟
 type: case
 title: "没有亲人的啄木鸟"
 lang: zh-CN

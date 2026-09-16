@@ -1,5 +1,8 @@
 ---
 id: sk-0950
+aliases:
+  - sk-0950
+  - 获胜的奖杯
 type: case
 title: "获胜的奖杯"
 lang: zh-CN

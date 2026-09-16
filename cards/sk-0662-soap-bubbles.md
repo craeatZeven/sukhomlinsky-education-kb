@@ -1,5 +1,8 @@
 ---
 id: sk-0662
+aliases:
+  - sk-0662
+  - 肥皂泡：骄傲吹得越大，破得越快
 type: case
 title: "肥皂泡：骄傲吹得越大，破得越快"
 lang: zh-CN

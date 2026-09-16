@@ -1,5 +1,8 @@
 ---
 id: sk-0596
+aliases:
+  - sk-0596
+  - 世界上最富的人：人人都是土地和劳动的主人
 type: case
 title: "世界上最富的人：人人都是土地和劳动的主人"
 lang: zh-CN

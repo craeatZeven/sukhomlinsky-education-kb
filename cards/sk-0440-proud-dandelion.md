@@ -1,5 +1,8 @@
 ---
 id: sk-0440
+aliases:
+  - sk-0440
+  - 骄傲的蒲公英：真正的美与谦虚分不开
 type: case
 title: "骄傲的蒲公英：真正的美与谦虚分不开"
 lang: zh-CN

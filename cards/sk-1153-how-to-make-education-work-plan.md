@@ -1,5 +1,8 @@
 ---
 id: sk-1153
+aliases:
+  - sk-1153
+  - 怎样做教育工作计划
 type: method
 title: "怎样做教育工作计划"
 lang: zh-CN

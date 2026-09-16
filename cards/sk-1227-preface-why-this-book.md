@@ -1,5 +1,8 @@
 ---
 id: sk-1227
+aliases:
+  - sk-1227
+  - 代前言
 type: principle
 title: "代前言"
 lang: zh-CN

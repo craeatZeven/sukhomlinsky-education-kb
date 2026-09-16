@@ -1,5 +1,8 @@
 ---
 id: sk-0394
+aliases:
+  - sk-0394
+  - 爱国主义教育的第一步是难忘的童年
 type: quote
 title: "爱国主义教育的第一步是难忘的童年"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-1125
+aliases:
+  - sk-1125
+  - 玻璃窗上的冰窗花是哪儿来的
 type: case
 title: "玻璃窗上的冰窗花是哪儿来的"
 lang: zh-CN

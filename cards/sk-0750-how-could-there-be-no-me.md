@@ -1,5 +1,8 @@
 ---
 id: sk-0750
+aliases:
+  - sk-0750
+  - 怎么会没我呢
 type: case
 title: "怎么会没我呢"
 lang: zh-CN

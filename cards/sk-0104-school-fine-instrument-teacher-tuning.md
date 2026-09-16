@@ -1,5 +1,8 @@
 ---
 id: sk-0104
+aliases:
+  - sk-0104
+  - 学校如精致乐器，教师人格负责调音
 type: quote
 title: "学校如精致乐器，教师人格负责调音"
 lang: zh-CN

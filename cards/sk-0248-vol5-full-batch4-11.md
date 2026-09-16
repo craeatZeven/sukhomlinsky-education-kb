@@ -1,5 +1,8 @@
 ---
 id: sk-0248
+aliases:
+  - sk-0248
+  - 羞耻心是卑污和丑恶的抗毒素
 type: quote
 title: "羞耻心是卑污和丑恶的抗毒素"
 lang: zh-CN

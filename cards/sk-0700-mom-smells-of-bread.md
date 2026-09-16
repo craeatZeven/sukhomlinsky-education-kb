@@ -1,5 +1,8 @@
 ---
 id: sk-0700
+aliases:
+  - sk-0700
+  - 妈妈身上有面包香味
 type: case
 title: "妈妈身上有面包香味"
 lang: zh-CN

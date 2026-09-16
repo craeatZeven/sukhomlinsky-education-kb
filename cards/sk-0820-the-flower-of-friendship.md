@@ -1,5 +1,8 @@
 ---
 id: sk-0820
+aliases:
+  - sk-0820
+  - 友谊之花
 type: case
 title: "友谊之花"
 lang: zh-CN

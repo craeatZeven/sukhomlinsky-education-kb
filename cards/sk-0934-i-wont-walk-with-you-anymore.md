@@ -1,5 +1,8 @@
 ---
 id: sk-0934
+aliases:
+  - sk-0934
+  - 我不再和你一起走了
 type: case
 title: "我不再和你一起走了"
 lang: zh-CN

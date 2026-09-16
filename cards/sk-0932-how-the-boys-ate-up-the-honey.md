@@ -1,5 +1,8 @@
 ---
 id: sk-0932
+aliases:
+  - sk-0932
+  - 小男孩们是怎么吃光了蜂蜜的
 type: case
 title: "小男孩们是怎么吃光了蜂蜜的"
 lang: zh-CN

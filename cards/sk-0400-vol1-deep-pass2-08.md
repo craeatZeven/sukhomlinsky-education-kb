@@ -1,5 +1,8 @@
 ---
 id: sk-0400
+aliases:
+  - sk-0400
+  - 女子应当是高不可攀的
 type: quote
 title: "女子应当是高不可攀的"
 lang: zh-CN

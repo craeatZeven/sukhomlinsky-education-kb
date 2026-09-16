@@ -1,5 +1,8 @@
 ---
 id: sk-1088
+aliases:
+  - sk-1088
+  - 难道我们的奶奶是个孩子吗？
 type: case
 title: "难道我们的奶奶是个孩子吗？"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0006
+aliases:
+  - sk-0006
+  - 瓦尔娅、彼得里克与谜题：慢学习者的六个月
 type: case
 title: "瓦尔娅、彼得里克与谜题：慢学习者的六个月"
 lang: zh-CN

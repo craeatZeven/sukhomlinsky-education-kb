@@ -1,5 +1,8 @@
 ---
 id: sk-0384
+aliases:
+  - sk-0384
+  - 友谊是培养人的感情的学校
 type: quote
 title: "友谊是培养人的感情的学校"
 lang: zh-CN

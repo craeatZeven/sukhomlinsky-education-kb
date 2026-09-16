@@ -1,5 +1,8 @@
 ---
 id: sk-0288
+aliases:
+  - sk-0288
+  - 信念不只是知道，而首先是把知识变为行动
 type: quote
 title: "信念不只是知道，而首先是把知识变为行动"
 lang: zh-CN

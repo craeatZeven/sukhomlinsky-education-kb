@@ -1,5 +1,8 @@
 ---
 id: sk-0960
+aliases:
+  - sk-0960
+  - 光点
 type: case
 title: "光点"
 lang: zh-CN

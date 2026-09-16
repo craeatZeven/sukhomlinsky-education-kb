@@ -1,5 +1,8 @@
 ---
 id: sk-0166
+aliases:
+  - sk-0166
+  - 不要把淘气男孩安排坐女孩旁边当纪律手段
 type: method
 title: "不要把淘气男孩安排坐女孩旁边当纪律手段"
 lang: zh-CN

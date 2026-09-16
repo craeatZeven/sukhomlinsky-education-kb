@@ -1,5 +1,8 @@
 ---
 id: sk-0723
+aliases:
+  - sk-0723
+  - 为什么马克西姆爷爷醒得这么早
 type: case
 title: "为什么马克西姆爷爷醒得这么早"
 lang: zh-CN

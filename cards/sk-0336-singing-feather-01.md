@@ -1,5 +1,8 @@
 ---
 id: sk-0336
+aliases:
+  - sk-0336
+  - 我想说自己的话
 type: case
 title: "我想说自己的话"
 lang: zh-CN

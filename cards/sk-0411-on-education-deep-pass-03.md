@@ -1,5 +1,8 @@
 ---
 id: sk-0411
+aliases:
+  - sk-0411
+  - 劳动教育成功的标志：孩子舍不得回家
 type: quote
 title: "劳动教育成功的标志：孩子舍不得回家"
 lang: zh-CN

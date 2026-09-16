@@ -1,5 +1,8 @@
 ---
 id: sk-0077
+aliases:
+  - sk-0077
+  - 独立阅读才能真正挽救智力落后学生
 type: quote
 title: "独立阅读才能真正挽救智力落后学生"
 lang: zh-CN

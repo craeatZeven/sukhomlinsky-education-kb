@@ -1,5 +1,8 @@
 ---
 id: sk-1056
+aliases:
+  - sk-1056
+  - 作为教育者的父母怎样做到行动统一
 type: method
 title: "作为教育者的父母怎样做到行动统一"
 lang: zh-CN

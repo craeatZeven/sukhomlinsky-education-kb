@@ -1,5 +1,8 @@
 ---
 id: sk-0271
+aliases:
+  - sk-0271
+  - 死记的知识越积越多越难学；分析得来的知识越学越轻松
 type: principle
 title: "死记的知识越积越多越难学；分析得来的知识越学越轻松"
 lang: zh-CN

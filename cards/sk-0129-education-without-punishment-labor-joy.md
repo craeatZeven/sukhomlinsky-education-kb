@@ -1,5 +1,8 @@
 ---
 id: sk-0129
+aliases:
+  - sk-0129
+  - 没有惩罚的教育：让为大众的劳动成为童年欢乐的源泉
 type: principle
 title: "没有惩罚的教育：让为大众的劳动成为童年欢乐的源泉"
 lang: zh-CN

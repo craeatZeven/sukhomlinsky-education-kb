@@ -1,5 +1,8 @@
 ---
 id: sk-0707
+aliases:
+  - sk-0707
+  - 就让我是您的，奶奶
 type: case
 title: "就让我是您的，奶奶"
 lang: zh-CN

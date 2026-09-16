@@ -1,5 +1,8 @@
 ---
 id: sk-0914
+aliases:
+  - sk-0914
+  - 七把刀
 type: case
 title: "七把刀"
 lang: zh-CN

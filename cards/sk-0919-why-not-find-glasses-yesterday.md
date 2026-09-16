@@ -1,5 +1,8 @@
 ---
 id: sk-0919
+aliases:
+  - sk-0919
+  - 为什么昨天你不替我找眼镜
 type: case
 title: "为什么昨天你不替我找眼镜"
 lang: zh-CN

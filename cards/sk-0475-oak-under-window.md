@@ -1,5 +1,8 @@
 ---
 id: sk-0475
+aliases:
+  - sk-0475
+  - 窗下的橡树：为了不砍树，把房子搬走
 type: case
 title: "窗下的橡树：为了不砍树，把房子搬走"
 lang: zh-CN

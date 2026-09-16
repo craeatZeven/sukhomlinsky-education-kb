@@ -1,5 +1,8 @@
 ---
 id: sk-0176
+aliases:
+  - sk-0176
+  - 460 个犯罪少年家庭中没有一个有家庭藏书
 type: quote
 title: "460 个犯罪少年家庭中没有一个有家庭藏书"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0756
+aliases:
+  - sk-0756
+  - 被冷落的识字课本
 type: case
 title: "被冷落的识字课本"
 lang: zh-CN

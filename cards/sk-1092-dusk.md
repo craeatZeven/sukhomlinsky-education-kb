@@ -1,5 +1,8 @@
 ---
 id: sk-1092
+aliases:
+  - sk-1092
+  - 黄昏
 type: case
 title: "黄昏"
 lang: zh-CN

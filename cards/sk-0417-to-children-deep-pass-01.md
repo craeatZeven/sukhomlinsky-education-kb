@@ -1,5 +1,8 @@
 ---
 id: sk-0417
+aliases:
+  - sk-0417
+  - 儿童创造力是自我表达与自我肯定的独特领域
 type: quote
 title: "儿童创造力是自我表达与自我肯定的独特领域"
 lang: zh-CN

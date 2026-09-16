@@ -1,5 +1,8 @@
 ---
 id: sk-0202
+aliases:
+  - sk-0202
+  - 真正教育让少年认识世界时也认识自己
 type: quote
 title: "真正教育让少年认识世界时也认识自己"
 lang: zh-CN

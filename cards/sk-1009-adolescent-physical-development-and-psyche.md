@@ -1,5 +1,8 @@
 ---
 id: sk-1009
+aliases:
+  - sk-1009
+  - 少年的身体发育与心理素养
 type: principle
 title: "少年的身体发育与心理素养"
 lang: zh-CN

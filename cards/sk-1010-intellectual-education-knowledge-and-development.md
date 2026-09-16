@@ -1,5 +1,8 @@
 ---
 id: sk-1010
+aliases:
+  - sk-1010
+  - 智育：知识的内容、掌握过程与智力发展
 type: principle
 title: "智育：知识的内容、掌握过程与智力发展"
 lang: zh-CN

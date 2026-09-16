@@ -1,5 +1,8 @@
 ---
 id: sk-1020
+aliases:
+  - sk-1020
+  - 帮助教师完善教育技巧
 type: method
 title: "帮助教师完善教育技巧"
 lang: zh-CN

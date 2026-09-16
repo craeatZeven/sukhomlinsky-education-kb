@@ -1,5 +1,8 @@
 ---
 id: sk-0004
+aliases:
+  - sk-0004
+  - 两年把低识字率减半的第一次“战役”
 type: case
 title: "两年把低识字率减半的第一次“战役”"
 lang: zh-CN

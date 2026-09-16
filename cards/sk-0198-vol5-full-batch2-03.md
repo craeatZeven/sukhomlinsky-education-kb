@@ -1,5 +1,8 @@
 ---
 id: sk-0198
+aliases:
+  - sk-0198
+  - 人至高无上的快乐是为他人而生活
 type: quote
 title: "人至高无上的快乐是为他人而生活"
 lang: zh-CN

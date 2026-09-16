@@ -1,5 +1,8 @@
 ---
 id: sk-1044
+aliases:
+  - sk-1044
+  - 学校集体中不同年龄的学生之间的多种关系
 type: principle
 title: "学校集体中不同年龄的学生之间的多种关系"
 lang: zh-CN

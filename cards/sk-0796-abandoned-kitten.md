@@ -1,5 +1,8 @@
 ---
 id: sk-0796
+aliases:
+  - sk-0796
+  - 被抛弃的小猫
 type: case
 title: "被抛弃的小猫"
 lang: zh-CN

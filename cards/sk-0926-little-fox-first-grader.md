@@ -1,5 +1,8 @@
 ---
 id: sk-0926
+aliases:
+  - sk-0926
+  - 小狐狸——一年级小学生
 type: case
 title: "小狐狸——一年级小学生"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-1014
+aliases:
+  - sk-1014
+  - 序言：把实际工作与科学研究结合起来
 type: principle
 title: "序言：把实际工作与科学研究结合起来"
 lang: zh-CN

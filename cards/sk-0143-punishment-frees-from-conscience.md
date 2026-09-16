@@ -1,5 +1,8 @@
 ---
 id: sk-0143
+aliases:
+  - sk-0143
+  - 惩罚使孩子从良心的责备中解脱出来
 type: quote
 title: "惩罚使孩子从良心的责备中解脱出来"
 lang: zh-CN

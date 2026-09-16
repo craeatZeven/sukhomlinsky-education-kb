@@ -1,5 +1,8 @@
 ---
 id: sk-0853
+aliases:
+  - sk-0853
+  - 脏话
 type: case
 title: "脏话"
 lang: zh-CN

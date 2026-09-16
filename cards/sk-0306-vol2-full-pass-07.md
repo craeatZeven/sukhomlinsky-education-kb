@@ -1,5 +1,8 @@
 ---
 id: sk-0306
+aliases:
+  - sk-0306
+  - 人的最大欢乐就是人的诞生
 type: quote
 title: "人的最大欢乐就是人的诞生"
 lang: zh-CN

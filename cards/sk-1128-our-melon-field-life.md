@@ -1,5 +1,8 @@
 ---
 id: sk-1128
+aliases:
+  - sk-1128
+  - 我们的瓜园生活
 type: case
 title: "我们的瓜园生活"
 lang: zh-CN

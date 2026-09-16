@@ -1,5 +1,8 @@
 ---
 id: sk-0778
+aliases:
+  - sk-0778
+  - 给我也缝上补丁
 type: case
 title: "给我也缝上补丁"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-1045
+aliases:
+  - sk-1045
+  - 学龄初期儿童的思想、兴趣和志向
 type: principle
 title: "学龄初期儿童的思想、兴趣和志向"
 lang: zh-CN

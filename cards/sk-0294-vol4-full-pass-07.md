@@ -1,5 +1,8 @@
 ---
 id: sk-0294
+aliases:
+  - sk-0294
+  - 死记硬背越多，记忆保持越不牢固
 type: quote
 title: "死记硬背越多，记忆保持越不牢固"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0333
+aliases:
+  - sk-0333
+  - 五年寒窗培养工程师，学会做人需要一辈子
 type: quote
 title: "五年寒窗培养工程师，学会做人需要一辈子"
 lang: zh-CN

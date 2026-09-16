@@ -1,5 +1,8 @@
 ---
 id: sk-0859
+aliases:
+  - sk-0859
+  - 懒惰的枕头
 type: case
 title: "懒惰的枕头"
 lang: zh-CN

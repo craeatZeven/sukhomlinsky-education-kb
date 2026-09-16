@@ -1,5 +1,8 @@
 ---
 id: sk-0036
+aliases:
+  - sk-0036
+  - 小学教师对孩子必须像母亲一样亲近
 type: quote
 title: "小学教师对孩子必须像母亲一样亲近"
 lang: zh-CN

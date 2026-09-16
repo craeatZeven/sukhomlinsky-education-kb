@@ -1,5 +1,8 @@
 ---
 id: sk-0739
+aliases:
+  - sk-0739
+  - 科利亚觉得轻松一些了
 type: case
 title: "科利亚觉得轻松一些了"
 lang: zh-CN

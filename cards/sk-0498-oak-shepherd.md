@@ -1,5 +1,8 @@
 ---
 id: sk-0498
+aliases:
+  - sk-0498
+  - 橡树，牧羊人：被雷火烧焦树尖后，鹤来筑巢
 type: case
 title: "橡树，牧羊人：被雷火烧焦树尖后，鹤来筑巢"
 lang: zh-CN

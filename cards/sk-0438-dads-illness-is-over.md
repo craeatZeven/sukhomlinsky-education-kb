@@ -1,5 +1,8 @@
 ---
 id: sk-0438
+aliases:
+  - sk-0438
+  - 爸爸的病好了：教孩子为别人的喜悦而高兴
 type: case
 title: "爸爸的病好了：教孩子为别人的喜悦而高兴"
 lang: zh-CN

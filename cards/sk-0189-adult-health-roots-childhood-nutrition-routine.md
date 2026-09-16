@@ -1,5 +1,8 @@
 ---
 id: sk-0189
+aliases:
+  - sk-0189
+  - 成年时的健康，植根于童年的营养与作息制度
 type: principle
 title: "成年时的健康，植根于童年的营养与作息制度"
 lang: zh-CN

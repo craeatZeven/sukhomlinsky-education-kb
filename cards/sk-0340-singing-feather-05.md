@@ -1,5 +1,8 @@
 ---
 id: sk-0340
+aliases:
+  - sk-0340
+  - 狼头还是花？
 type: case
 title: "狼头还是花？"
 lang: zh-CN

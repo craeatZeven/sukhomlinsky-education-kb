@@ -1,5 +1,8 @@
 ---
 id: sk-1053
+aliases:
+  - sk-1053
+  - 学生应当掌握的最重要的技能和技巧
 type: method
 title: "学生应当掌握的最重要的技能和技巧"
 lang: zh-CN

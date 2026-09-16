@@ -1,5 +1,8 @@
 ---
 id: sk-0872
+aliases:
+  - sk-0872
+  - 奶奶和小彼得
 type: case
 title: "奶奶和小彼得"
 lang: zh-CN

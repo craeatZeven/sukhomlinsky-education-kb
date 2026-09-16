@@ -1,5 +1,8 @@
 ---
 id: sk-0857
+aliases:
+  - sk-0857
+  - 爱的传说
 type: case
 title: "爱的传说"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-1145
+aliases:
+  - sk-1145
+  - 铁锁
 type: case
 title: "铁锁"
 lang: zh-CN

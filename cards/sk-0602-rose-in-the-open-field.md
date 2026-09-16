@@ -1,5 +1,8 @@
 ---
 id: sk-0602
+aliases:
+  - sk-0602
+  - 原野上的玫瑰：从英雄心脏落下的地方开出花
 type: case
 title: "原野上的玫瑰：从英雄心脏落下的地方开出花"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-1198
+aliases:
+  - sk-1198
+  - 教师应制订哪些计划
 type: method
 title: "教师应制订哪些计划"
 lang: zh-CN

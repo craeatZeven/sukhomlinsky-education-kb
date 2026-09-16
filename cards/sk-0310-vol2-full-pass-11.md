@@ -1,5 +1,8 @@
 ---
 id: sk-0310
+aliases:
+  - sk-0310
+  - 手脑之间有千丝万缕的联系
 type: quote
 title: "手脑之间有千丝万缕的联系"
 lang: zh-CN

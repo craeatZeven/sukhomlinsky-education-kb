@@ -1,5 +1,8 @@
 ---
 id: sk-0162
+aliases:
+  - sk-0162
+  - 教师的语言修养，决定课堂上的脑力劳动
 type: quote
 title: "教师的语言修养，决定课堂上的脑力劳动"
 lang: zh-CN

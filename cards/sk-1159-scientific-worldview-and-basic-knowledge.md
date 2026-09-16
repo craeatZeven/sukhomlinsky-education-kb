@@ -1,5 +1,8 @@
 ---
 id: sk-1159
+aliases:
+  - sk-1159
+  - 科学世界观的形成过程与科学基础知识的掌握
 type: principle
 title: "科学世界观的形成过程与科学基础知识的掌握"
 lang: zh-CN

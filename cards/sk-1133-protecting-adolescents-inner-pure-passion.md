@@ -1,5 +1,8 @@
 ---
 id: sk-1133
+aliases:
+  - sk-1133
+  - 要保护青少年内心的纯洁激情
 type: principle
 title: "要保护青少年内心的纯洁激情"
 lang: zh-CN

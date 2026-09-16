@@ -1,5 +1,8 @@
 ---
 id: sk-0335
+aliases:
+  - sk-0335
+  - 在小孩子身上看到明天的成年人
 type: quote
 title: "在小孩子身上看到明天的成年人"
 lang: zh-CN

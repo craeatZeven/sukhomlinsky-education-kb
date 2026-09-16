@@ -1,5 +1,8 @@
 ---
 id: sk-0606
+aliases:
+  - sk-0606
+  - 永生的母亲：他有一位天天来送花的母亲
 type: case
 title: "永生的母亲：他有一位天天来送花的母亲"
 lang: zh-CN

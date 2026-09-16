@@ -1,5 +1,8 @@
 ---
 id: sk-1201
+aliases:
+  - sk-1201
+  - 向准备担任一年级工作的教师提一些建议
 type: method
 title: "向准备担任一年级工作的教师提一些建议"
 lang: zh-CN

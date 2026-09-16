@@ -1,5 +1,8 @@
 ---
 id: sk-1142
+aliases:
+  - sk-1142
+  - 小鸟从窝里掉了下来
 type: case
 title: "小鸟从窝里掉了下来"
 lang: zh-CN

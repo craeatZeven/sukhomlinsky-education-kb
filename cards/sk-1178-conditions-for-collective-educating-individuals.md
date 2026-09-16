@@ -1,5 +1,8 @@
 ---
 id: sk-1178
+aliases:
+  - sk-1178
+  - 在哪些条件下集体才能有效地发挥教育个人的作用
 type: principle
 title: "在哪些条件下集体才能有效地发挥教育个人的作用"
 lang: zh-CN

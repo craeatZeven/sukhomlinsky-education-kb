@@ -1,5 +1,8 @@
 ---
 id: sk-0766
+aliases:
+  - sk-0766
+  - 沉睡的书
 type: case
 title: "沉睡的书"
 lang: zh-CN

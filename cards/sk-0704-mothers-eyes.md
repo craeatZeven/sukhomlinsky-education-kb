@@ -1,5 +1,8 @@
 ---
 id: sk-0704
+aliases:
+  - sk-0704
+  - 母亲的眼睛
 type: case
 title: "母亲的眼睛"
 lang: zh-CN

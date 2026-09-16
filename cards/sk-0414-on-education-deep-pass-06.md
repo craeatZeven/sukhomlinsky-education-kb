@@ -1,5 +1,8 @@
 ---
 id: sk-0414
+aliases:
+  - sk-0414
+  - 体操挺直身体，音乐挺直心灵
 type: quote
 title: "体操挺直身体，音乐挺直心灵"
 lang: zh-CN

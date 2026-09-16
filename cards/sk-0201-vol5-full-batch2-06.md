@@ -1,5 +1,8 @@
 ---
 id: sk-0201
+aliases:
+  - sk-0201
+  - 真正的人民教育不滥用华丽词藻
 type: quote
 title: "真正的人民教育不滥用华丽词藻"
 lang: zh-CN

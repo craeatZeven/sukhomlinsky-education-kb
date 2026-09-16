@@ -1,5 +1,8 @@
 ---
 id: sk-0893
+aliases:
+  - sk-0893
+  - 种瓜得瓜，种豆得豆
 type: case
 title: "种瓜得瓜，种豆得豆"
 lang: zh-CN

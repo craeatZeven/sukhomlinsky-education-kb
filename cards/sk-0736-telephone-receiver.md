@@ -1,5 +1,8 @@
 ---
 id: sk-0736
+aliases:
+  - sk-0736
+  - 电话听筒
 type: case
 title: "电话听筒"
 lang: zh-CN

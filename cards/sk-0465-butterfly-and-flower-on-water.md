@@ -1,5 +1,8 @@
 ---
 id: sk-0465
+aliases:
+  - sk-0465
+  - 蝴蝶与花朵：一朵花让蝴蝶在水上旅行
 type: case
 title: "蝴蝶与花朵：一朵花让蝴蝶在水上旅行"
 lang: zh-CN

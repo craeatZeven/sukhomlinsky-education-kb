@@ -1,5 +1,8 @@
 ---
 id: sk-0097
+aliases:
+  - sk-0097
+  - 对教师用说服，不用行政压服
 type: principle
 title: "对教师用说服，不用行政压服"
 lang: zh-CN

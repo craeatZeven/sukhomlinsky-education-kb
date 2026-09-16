@@ -1,5 +1,8 @@
 ---
 id: sk-1210
+aliases:
+  - sk-1210
+  - 第13封信：从柏林谈对祖国的责任
 type: principle
 title: "第13封信：从柏林谈对祖国的责任"
 lang: zh-CN

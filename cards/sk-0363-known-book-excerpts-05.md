@@ -1,5 +1,8 @@
 ---
 id: sk-0363
+aliases:
+  - sk-0363
+  - 容忍弱点，对邪恶毫不妥协
 type: quote
 title: "容忍弱点，对邪恶毫不妥协"
 lang: zh-CN

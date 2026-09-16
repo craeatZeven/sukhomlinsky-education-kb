@@ -1,5 +1,8 @@
 ---
 id: sk-0970
+aliases:
+  - sk-0970
+  - 妈妈的甜瓜
 type: case
 title: "妈妈的甜瓜"
 lang: zh-CN

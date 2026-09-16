@@ -1,5 +1,8 @@
 ---
 id: sk-1200
+aliases:
+  - sk-1200
+  - 向初到学校工作的教师提一些建议
 type: method
 title: "向初到学校工作的教师提一些建议"
 lang: zh-CN

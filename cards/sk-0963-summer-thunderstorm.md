@@ -1,5 +1,8 @@
 ---
 id: sk-0963
+aliases:
+  - sk-0963
+  - 夏天的雷雨
 type: case
 title: "夏天的雷雨"
 lang: zh-CN

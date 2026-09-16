@@ -1,5 +1,8 @@
 ---
 id: sk-0505
+aliases:
+  - sk-0505
+  - 长笛和风：力气再大，也吹不出美的音乐
 type: case
 title: "长笛和风：力气再大，也吹不出美的音乐"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0935
+aliases:
+  - sk-0935
+  - 帕夫利克是怎样抄习题的
 type: case
 title: "帕夫利克是怎样抄习题的"
 lang: zh-CN

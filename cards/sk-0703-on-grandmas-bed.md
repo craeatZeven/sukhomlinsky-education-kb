@@ -1,5 +1,8 @@
 ---
 id: sk-0703
+aliases:
+  - sk-0703
+  - 在奶奶的床上
 type: case
 title: "在奶奶的床上"
 lang: zh-CN

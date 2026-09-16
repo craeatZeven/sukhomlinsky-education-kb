@@ -1,5 +1,8 @@
 ---
 id: sk-0812
+aliases:
+  - sk-0812
+  - 米沙的自行车
 type: case
 title: "米沙的自行车"
 lang: zh-CN

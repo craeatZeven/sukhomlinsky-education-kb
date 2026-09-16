@@ -1,5 +1,8 @@
 ---
 id: sk-0900
+aliases:
+  - sk-0900
+  - 手工匠与刻刀
 type: case
 title: "手工匠与刻刀"
 lang: zh-CN

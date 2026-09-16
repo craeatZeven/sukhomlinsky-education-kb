@@ -1,5 +1,8 @@
 ---
 id: sk-0720
+aliases:
+  - sk-0720
+  - 父亲回来了
 type: case
 title: "父亲回来了"
 lang: zh-CN

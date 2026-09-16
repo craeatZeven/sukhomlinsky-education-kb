@@ -1,5 +1,8 @@
 ---
 id: sk-1161
+aliases:
+  - sk-1161
+  - 教师集体和学生集体
 type: principle
 title: "教师集体和学生集体"
 lang: zh-CN

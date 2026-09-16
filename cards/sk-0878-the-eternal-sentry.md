@@ -1,5 +1,8 @@
 ---
 id: sk-0878
+aliases:
+  - sk-0878
+  - 永恒的哨兵
 type: case
 title: "永恒的哨兵"
 lang: zh-CN

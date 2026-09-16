@@ -1,5 +1,8 @@
 ---
 id: sk-0488
+aliases:
+  - sk-0488
+  - 火鬃：父亲雕的木马在孩子梦里活起来
 type: case
 title: "火鬃：父亲雕的木马在孩子梦里活起来"
 lang: zh-CN

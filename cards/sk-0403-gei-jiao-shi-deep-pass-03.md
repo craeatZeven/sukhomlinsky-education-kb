@@ -1,5 +1,8 @@
 ---
 id: sk-0403
+aliases:
+  - sk-0403
+  - 知识——既是目的，也是手段
 type: quote
 title: "知识——既是目的，也是手段"
 lang: zh-CN

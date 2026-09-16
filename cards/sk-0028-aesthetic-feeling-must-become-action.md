@@ -1,5 +1,8 @@
 ---
 id: sk-0028
+aliases:
+  - sk-0028
+  - 欣赏美只是善良情感的萌芽，必须化为积极行动
 type: principle
 title: "欣赏美只是善良情感的萌芽，必须化为积极行动"
 lang: zh-CN

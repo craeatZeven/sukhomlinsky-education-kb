@@ -1,5 +1,8 @@
 ---
 id: sk-0742
+aliases:
+  - sk-0742
+  - 父亲和儿子
 type: case
 title: "父亲和儿子"
 lang: zh-CN

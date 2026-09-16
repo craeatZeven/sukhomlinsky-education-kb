@@ -1,5 +1,8 @@
 ---
 id: sk-1073
+aliases:
+  - sk-1073
+  - 劳动对人的全面发展的作用
 type: principle
 title: "劳动对人的全面发展的作用"
 lang: zh-CN

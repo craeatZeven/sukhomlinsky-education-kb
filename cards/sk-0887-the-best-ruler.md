@@ -1,5 +1,8 @@
 ---
 id: sk-0887
+aliases:
+  - sk-0887
+  - 最好的尺
 type: case
 title: "最好的尺"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-1120
+aliases:
+  - sk-1120
+  - 体育与空余时间和休息问题
 type: method
 title: "体育与空余时间和休息问题"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0849
+aliases:
+  - sk-0849
+  - 人为什么要活在世上
 type: case
 title: "人为什么要活在世上"
 lang: zh-CN

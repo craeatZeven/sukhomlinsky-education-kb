@@ -1,5 +1,8 @@
 ---
 id: sk-0912
+aliases:
+  - sk-0912
+  - 一只兔子怎样被惩罚
 type: case
 title: "一只兔子怎样被惩罚"
 lang: zh-CN

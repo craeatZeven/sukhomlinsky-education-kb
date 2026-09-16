@@ -1,5 +1,8 @@
 ---
 id: sk-1113
+aliases:
+  - sk-1113
+  - 集体和个人的精神生活
 type: principle
 title: "集体和个人的精神生活"
 lang: zh-CN

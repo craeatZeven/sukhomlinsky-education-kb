@@ -1,5 +1,8 @@
 ---
 id: sk-0339
+aliases:
+  - sk-0339
+  - 什么最好？
 type: case
 title: "什么最好？"
 lang: zh-CN

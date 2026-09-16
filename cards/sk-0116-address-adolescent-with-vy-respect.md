@@ -1,5 +1,8 @@
 ---
 id: sk-0116
+aliases:
+  - sk-0116
+  - 用“您”称呼少年：以尊重的语言确认人格
 type: method
 title: "用“您”称呼少年：以尊重的语言确认人格"
 lang: zh-CN

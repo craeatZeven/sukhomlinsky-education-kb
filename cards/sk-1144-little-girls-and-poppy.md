@@ -1,5 +1,8 @@
 ---
 id: sk-1144
+aliases:
+  - sk-1144
+  - 小姑娘和罂粟花
 type: case
 title: "小姑娘和罂粟花"
 lang: zh-CN

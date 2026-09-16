@@ -1,5 +1,8 @@
 ---
 id: sk-1205
+aliases:
+  - sk-1205
+  - 怎样教学生们成为好子女
 type: method
 title: "怎样教学生们成为好子女"
 lang: zh-CN

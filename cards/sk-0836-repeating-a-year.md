@@ -1,5 +1,8 @@
 ---
 id: sk-0836
+aliases:
+  - sk-0836
+  - 留级
 type: case
 title: "留级"
 lang: zh-CN

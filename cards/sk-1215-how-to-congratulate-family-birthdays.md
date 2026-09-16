@@ -1,5 +1,8 @@
 ---
 id: sk-1215
+aliases:
+  - sk-1215
+  - 怎样祝贺亲人的生日
 type: practice
 title: "怎样祝贺亲人的生日"
 lang: zh-CN

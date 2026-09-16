@@ -1,5 +1,8 @@
 ---
 id: sk-0803
+aliases:
+  - sk-0803
+  - 让猫抓不到老鼠
 type: case
 title: "让猫抓不到老鼠"
 lang: zh-CN

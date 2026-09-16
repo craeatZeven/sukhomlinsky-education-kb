@@ -1,5 +1,8 @@
 ---
 id: sk-1069
+aliases:
+  - sk-1069
+  - 精神素养、道德和无神论
 type: principle
 title: "精神素养、道德和无神论"
 lang: zh-CN

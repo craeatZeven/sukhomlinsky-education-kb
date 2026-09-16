@@ -1,5 +1,8 @@
 ---
 id: sk-0074
+aliases:
+  - sk-0074
+  - 公开表扬喂大的‘模范生’，反而少了心肝
 type: case
 title: "公开表扬喂大的‘模范生’，反而少了心肝"
 lang: zh-CN

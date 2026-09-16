@@ -1,5 +1,8 @@
 ---
 id: sk-0356
+aliases:
+  - sk-0356
+  - 自我教育从自我认识开始
 type: principle
 title: "自我教育从自我认识开始"
 lang: zh-CN

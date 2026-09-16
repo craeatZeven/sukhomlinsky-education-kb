@@ -1,5 +1,8 @@
 ---
 id: sk-0611
+aliases:
+  - sk-0611
+  - 被打穿的头盔：从地底掘出的老兵心跳
 type: case
 title: "被打穿的头盔：从地底掘出的老兵心跳"
 lang: zh-CN

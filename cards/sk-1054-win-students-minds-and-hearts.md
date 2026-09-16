@@ -1,5 +1,8 @@
 ---
 id: sk-1054
+aliases:
+  - sk-1054
+  - 要赢得学生的思想和心灵
 type: principle
 title: "要赢得学生的思想和心灵"
 lang: zh-CN

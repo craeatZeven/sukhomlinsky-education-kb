@@ -1,5 +1,8 @@
 ---
 id: sk-0794
+aliases:
+  - sk-0794
+  - 真理金珠的传说
 type: case
 title: "真理金珠的传说"
 lang: zh-CN

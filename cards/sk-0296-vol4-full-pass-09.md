@@ -1,5 +1,8 @@
 ---
 id: sk-0296
+aliases:
+  - sk-0296
+  - 不要只号召讲卫生，而要去打扫
 type: quote
 title: "不要只号召讲卫生，而要去打扫"
 lang: zh-CN

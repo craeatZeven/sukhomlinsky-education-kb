@@ -1,5 +1,8 @@
 ---
 id: sk-1062
+aliases:
+  - sk-1062
+  - 知觉在学龄初期儿童精神发展中的作用
 type: principle
 title: "知觉在学龄初期儿童精神发展中的作用"
 lang: zh-CN

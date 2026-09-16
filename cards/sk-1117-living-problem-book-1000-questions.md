@@ -1,5 +1,8 @@
 ---
 id: sk-1117
+aliases:
+  - sk-1117
+  - 活的习题集中的1000道题
 type: practice
 title: "活的习题集中的1000道题"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0117
+aliases:
+  - sk-0117
+  - 感知色彩训练：在自然里辨认二十多种绿色
 type: practice
 title: "感知色彩训练：在自然里辨认二十多种绿色"
 lang: zh-CN

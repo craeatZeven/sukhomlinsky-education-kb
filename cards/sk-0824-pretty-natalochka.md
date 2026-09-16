@@ -1,5 +1,8 @@
 ---
 id: sk-0824
+aliases:
+  - sk-0824
+  - 漂亮的娜塔洛齐卡
 type: case
 title: "漂亮的娜塔洛齐卡"
 lang: zh-CN

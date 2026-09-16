@@ -1,5 +1,8 @@
 ---
 id: sk-0511
+aliases:
+  - sk-0511
+  - 拯救小青蛙：水塘快干了，把它们送到池塘去
 type: case
 title: "拯救小青蛙：水塘快干了，把它们送到池塘去"
 lang: zh-CN

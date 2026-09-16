@@ -1,5 +1,8 @@
 ---
 id: sk-1083
+aliases:
+  - sk-1083
+  - 是否注意教会儿童学习
 type: method
 title: "是否注意教会儿童学习"
 lang: zh-CN

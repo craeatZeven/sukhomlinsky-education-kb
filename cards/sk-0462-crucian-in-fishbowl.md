@@ -1,5 +1,8 @@
 ---
 id: sk-0462
+aliases:
+  - sk-0462
+  - 鱼缸中的小鲫鱼：请把我放回池塘去吧
 type: case
 title: "鱼缸中的小鲫鱼：请把我放回池塘去吧"
 lang: zh-CN

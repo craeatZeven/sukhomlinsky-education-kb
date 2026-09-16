@@ -1,5 +1,8 @@
 ---
 id: sk-0848
+aliases:
+  - sk-0848
+  - 瓦西里科是怎么出生的
 type: case
 title: "瓦西里科是怎么出生的"
 lang: zh-CN

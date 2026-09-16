@@ -1,5 +1,8 @@
 ---
 id: sk-0518
+aliases:
+  - sk-0518
+  - 太阳花：向日葵追着太阳转，梦见朝霞
 type: case
 title: "太阳花：向日葵追着太阳转，梦见朝霞"
 lang: zh-CN

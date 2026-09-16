@@ -1,5 +1,8 @@
 ---
 id: sk-0633
+aliases:
+  - sk-0633
+  - 每个人都应该：孩子的责任是成长为一个人
 type: case
 title: "每个人都应该：孩子的责任是成长为一个人"
 lang: zh-CN

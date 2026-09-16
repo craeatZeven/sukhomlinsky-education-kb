@@ -1,5 +1,8 @@
 ---
 id: sk-0990
+aliases:
+  - sk-0990
+  - 自以为是美人的牛蒡花
 type: case
 title: "自以为是美人的牛蒡花"
 lang: zh-CN

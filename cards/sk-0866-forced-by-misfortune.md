@@ -1,5 +1,8 @@
 ---
 id: sk-0866
+aliases:
+  - sk-0866
+  - 灾祸所迫
 type: case
 title: "灾祸所迫"
 lang: zh-CN

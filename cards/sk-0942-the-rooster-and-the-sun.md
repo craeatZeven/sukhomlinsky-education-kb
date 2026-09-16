@@ -1,5 +1,8 @@
 ---
 id: sk-0942
+aliases:
+  - sk-0942
+  - 公鸡与太阳
 type: case
 title: "公鸡与太阳"
 lang: zh-CN

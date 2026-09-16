@@ -1,5 +1,8 @@
 ---
 id: sk-0365
+aliases:
+  - sk-0365
+  - 成为有教养的人，先要有欢乐
 type: quote
 title: "成为有教养的人，先要有欢乐"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0697
+aliases:
+  - sk-0697
+  - 孙子的请求
 type: case
 title: "孙子的请求"
 lang: zh-CN

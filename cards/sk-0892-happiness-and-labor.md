@@ -1,5 +1,8 @@
 ---
 id: sk-0892
+aliases:
+  - sk-0892
+  - 幸福与劳动
 type: case
 title: "幸福与劳动"
 lang: zh-CN

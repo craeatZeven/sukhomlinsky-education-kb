@@ -1,5 +1,8 @@
 ---
 id: sk-0407
+aliases:
+  - sk-0407
+  - 劳动教育和个性全面发展
 type: quote
 title: "劳动教育和个性全面发展"
 lang: zh-CN

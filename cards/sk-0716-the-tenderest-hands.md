@@ -1,5 +1,8 @@
 ---
 id: sk-0716
+aliases:
+  - sk-0716
+  - 最温柔的手
 type: case
 title: "最温柔的手"
 lang: zh-CN

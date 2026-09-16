@@ -1,5 +1,8 @@
 ---
 id: sk-0399
+aliases:
+  - sk-0399
+  - 劳动是无与伦比的欢乐
 type: quote
 title: "劳动是无与伦比的欢乐"
 lang: zh-CN

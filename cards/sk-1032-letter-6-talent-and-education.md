@@ -1,5 +1,8 @@
 ---
 id: sk-1032
+aliases:
+  - sk-1032
+  - 第6封信：天赋与教育，人是自己志向的创造者
 type: quote
 title: "第6封信：天赋与教育，人是自己志向的创造者"
 lang: zh-CN

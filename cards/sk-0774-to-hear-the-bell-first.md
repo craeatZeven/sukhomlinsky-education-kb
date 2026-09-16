@@ -1,5 +1,8 @@
 ---
 id: sk-0774
+aliases:
+  - sk-0774
+  - 为了能最先听到下课铃
 type: case
 title: "为了能最先听到下课铃"
 lang: zh-CN

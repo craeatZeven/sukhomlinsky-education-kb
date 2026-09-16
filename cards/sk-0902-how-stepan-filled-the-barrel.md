@@ -1,5 +1,8 @@
 ---
 id: sk-0902
+aliases:
+  - sk-0902
+  - 斯捷潘是怎样用水灌满大桶的
 type: case
 title: "斯捷潘是怎样用水灌满大桶的"
 lang: zh-CN

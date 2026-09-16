@@ -1,5 +1,8 @@
 ---
 id: sk-1070
+aliases:
+  - sk-1070
+  - 我们是怎样指导课上的智能劳动的
 type: method
 title: "我们是怎样指导课上的智能劳动的"
 lang: zh-CN

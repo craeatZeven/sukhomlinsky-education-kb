@@ -1,5 +1,8 @@
 ---
 id: sk-0827
+aliases:
+  - sk-0827
+  - 驼背的小姑娘和眨眼睛的小星星
 type: case
 title: "驼背的小姑娘和眨眼睛的小星星"
 lang: zh-CN

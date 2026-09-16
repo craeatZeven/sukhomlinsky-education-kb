@@ -1,5 +1,8 @@
 ---
 id: sk-1154
+aliases:
+  - sk-1154
+  - 要教育学生不说空话
 type: method
 title: "要教育学生不说空话"
 lang: zh-CN

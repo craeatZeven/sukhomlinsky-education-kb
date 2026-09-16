@@ -1,5 +1,8 @@
 ---
 id: sk-0780
+aliases:
+  - sk-0780
+  - 柞树果
 type: case
 title: "柞树果"
 lang: zh-CN

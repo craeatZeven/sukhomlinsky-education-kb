@@ -1,5 +1,8 @@
 ---
 id: sk-0967
+aliases:
+  - sk-0967
+  - 马跑了
 type: case
 title: "马跑了"
 lang: zh-CN

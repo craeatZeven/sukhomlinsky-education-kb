@@ -1,5 +1,8 @@
 ---
 id: sk-0801
+aliases:
+  - sk-0801
+  - 采蘑菇
 type: case
 title: "采蘑菇"
 lang: zh-CN

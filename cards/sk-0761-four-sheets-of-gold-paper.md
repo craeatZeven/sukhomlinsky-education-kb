@@ -1,5 +1,8 @@
 ---
 id: sk-0761
+aliases:
+  - sk-0761
+  - 四张金纸
 type: case
 title: "四张金纸"
 lang: zh-CN

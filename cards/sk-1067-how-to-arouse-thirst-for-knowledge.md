@@ -1,5 +1,8 @@
 ---
 id: sk-1067
+aliases:
+  - sk-1067
+  - 怎样激起求知欲
 type: method
 title: "怎样激起求知欲"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0763
+aliases:
+  - sk-0763
+  - 蓝铅笔
 type: case
 title: "蓝铅笔"
 lang: zh-CN

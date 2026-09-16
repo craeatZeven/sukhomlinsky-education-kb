@@ -1,5 +1,8 @@
 ---
 id: sk-0981
+aliases:
+  - sk-0981
+  - 最重要的是迫使自己去感受
 type: case
 title: "最重要的是迫使自己去感受"
 lang: zh-CN

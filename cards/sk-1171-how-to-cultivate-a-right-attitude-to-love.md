@@ -1,5 +1,8 @@
 ---
 id: sk-1171
+aliases:
+  - sk-1171
+  - 怎样培养青年们正确对待爱
 type: principle
 title: "怎样培养青年们正确对待爱"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0815
+aliases:
+  - sk-0815
+  - 最难的测验
 type: case
 title: "最难的测验"
 lang: zh-CN

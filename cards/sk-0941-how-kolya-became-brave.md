@@ -1,5 +1,8 @@
 ---
 id: sk-0941
+aliases:
+  - sk-0941
+  - 科利亚怎样变得勇敢
 type: case
 title: "科利亚怎样变得勇敢"
 lang: zh-CN

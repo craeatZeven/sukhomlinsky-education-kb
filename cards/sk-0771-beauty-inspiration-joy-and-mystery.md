@@ -1,5 +1,8 @@
 ---
 id: sk-0771
+aliases:
+  - sk-0771
+  - 美丽、灵感、欢乐和神秘
 type: case
 title: "美丽、灵感、欢乐和神秘"
 lang: zh-CN

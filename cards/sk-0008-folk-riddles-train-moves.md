@@ -1,5 +1,8 @@
 ---
 id: sk-0008
+aliases:
+  - sk-0008
+  - 用民间谜题单独训练“思维步数”
 type: practice
 title: "用民间谜题单独训练“思维步数”"
 lang: zh-CN

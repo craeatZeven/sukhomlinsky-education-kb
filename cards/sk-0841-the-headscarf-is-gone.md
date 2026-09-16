@@ -1,5 +1,8 @@
 ---
 id: sk-0841
+aliases:
+  - sk-0841
+  - 花头巾没了
 type: case
 title: "花头巾没了"
 lang: zh-CN

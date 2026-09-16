@@ -1,5 +1,8 @@
 ---
 id: sk-0066
+aliases:
+  - sk-0066
+  - 儿童的智慧在他的手指尖上
 type: quote
 title: "儿童的智慧在他的手指尖上"
 lang: zh-CN

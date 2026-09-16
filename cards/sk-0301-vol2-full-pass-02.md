@@ -1,5 +1,8 @@
 ---
 id: sk-0301
+aliases:
+  - sk-0301
+  - 意志就是行为的道德，信念的坚定性就是意志力
 type: quote
 title: "意志就是行为的道德，信念的坚定性就是意志力"
 lang: zh-CN

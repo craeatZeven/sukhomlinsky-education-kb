@@ -1,5 +1,8 @@
 ---
 id: sk-0106
+aliases:
+  - sk-0106
+  - 素质像火药，需要用灵感火星点燃
 type: quote
 title: "素质像火药，需要用灵感火星点燃"
 lang: zh-CN

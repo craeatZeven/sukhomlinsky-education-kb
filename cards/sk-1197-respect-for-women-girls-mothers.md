@@ -1,5 +1,8 @@
 ---
 id: sk-1197
+aliases:
+  - sk-1197
+  - 怎样培养对妇女、姑娘、母亲的尊重
 type: method
 title: "怎样培养对妇女、姑娘、母亲的尊重"
 lang: zh-CN

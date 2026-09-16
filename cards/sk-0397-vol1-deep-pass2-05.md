@@ -1,5 +1,8 @@
 ---
 id: sk-0397
+aliases:
+  - sk-0397
+  - 让少年不感到教育是强加的
 type: quote
 title: "让少年不感到教育是强加的"
 lang: zh-CN

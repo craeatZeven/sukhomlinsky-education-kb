@@ -1,5 +1,8 @@
 ---
 id: sk-0898
+aliases:
+  - sk-0898
+  - 馒头是甜的，因为汗水是苦的
 type: case
 title: "馒头是甜的，因为汗水是苦的"
 lang: zh-CN

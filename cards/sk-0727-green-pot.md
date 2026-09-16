@@ -1,5 +1,8 @@
 ---
 id: sk-0727
+aliases:
+  - sk-0727
+  - 绿色的锅
 type: case
 title: "绿色的锅"
 lang: zh-CN

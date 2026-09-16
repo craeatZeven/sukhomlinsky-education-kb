@@ -1,5 +1,8 @@
 ---
 id: sk-0007
+aliases:
+  - sk-0007
+  - 思维必须被教会，否则孩子只会死记硬背
 type: quote
 title: "思维必须被教会，否则孩子只会死记硬背"
 lang: zh-CN

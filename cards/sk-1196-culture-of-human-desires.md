@@ -1,5 +1,8 @@
 ---
 id: sk-1196
+aliases:
+  - sk-1196
+  - 怎样使男女青年们具有人的欲望的素养
 type: principle
 title: "怎样使男女青年们具有人的欲望的素养"
 lang: zh-CN

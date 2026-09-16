@@ -1,5 +1,8 @@
 ---
 id: sk-0369
+aliases:
+  - sk-0369
+  - 教师是学生智力生活的第一盏指路灯
 type: quote
 title: "教师是学生智力生活的第一盏指路灯"
 lang: zh-CN

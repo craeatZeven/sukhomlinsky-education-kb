@@ -1,5 +1,8 @@
 ---
 id: sk-1072
+aliases:
+  - sk-1072
+  - 敏感性和同情心的培养
 type: principle
 title: "敏感性和同情心的培养"
 lang: zh-CN

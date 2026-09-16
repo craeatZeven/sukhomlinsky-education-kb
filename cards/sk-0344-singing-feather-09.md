@@ -1,5 +1,8 @@
 ---
 id: sk-0344
+aliases:
+  - sk-0344
+  - 我的妈妈最美丽
 type: case
 title: "我的妈妈最美丽"
 lang: zh-CN

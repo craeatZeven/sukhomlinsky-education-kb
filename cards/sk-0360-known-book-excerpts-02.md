@@ -1,5 +1,8 @@
 ---
 id: sk-0360
+aliases:
+  - sk-0360
+  - 你们是土地的主人
 type: quote
 title: "你们是土地的主人"
 lang: zh-CN

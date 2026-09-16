@@ -1,5 +1,8 @@
 ---
 id: sk-0984
+aliases:
+  - sk-0984
+  - 不做谎花草
 type: case
 title: "不做谎花草"
 lang: zh-CN

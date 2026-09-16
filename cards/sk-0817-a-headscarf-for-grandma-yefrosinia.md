@@ -1,5 +1,8 @@
 ---
 id: sk-0817
+aliases:
+  - sk-0817
+  - 送给叶夫罗西尼娅奶奶的头巾
 type: case
 title: "送给叶夫罗西尼娅奶奶的头巾"
 lang: zh-CN

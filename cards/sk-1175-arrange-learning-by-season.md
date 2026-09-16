@@ -1,5 +1,8 @@
 ---
 id: sk-1175
+aliases:
+  - sk-1175
+  - 怎样按季节安排学生的学习
 type: method
 title: "怎样按季节安排学生的学习"
 lang: zh-CN

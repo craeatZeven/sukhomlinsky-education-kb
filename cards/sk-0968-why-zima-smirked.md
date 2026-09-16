@@ -1,5 +1,8 @@
 ---
 id: sk-0968
+aliases:
+  - sk-0968
+  - 季马冷笑什么
 type: case
 title: "季马冷笑什么"
 lang: zh-CN

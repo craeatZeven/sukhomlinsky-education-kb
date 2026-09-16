@@ -1,5 +1,8 @@
 ---
 id: sk-0432
+aliases:
+  - sk-0432
+  - 儿童用形象思考：先有画面，再理解规律
 type: quote
 title: "儿童用形象思考：先有画面，再理解规律"
 lang: zh-CN

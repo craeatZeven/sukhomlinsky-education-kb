@@ -1,5 +1,8 @@
 ---
 id: sk-0474
+aliases:
+  - sk-0474
+  - 狐狸的小灯：用一团萤火虫照亮回家的路
 type: case
 title: "狐狸的小灯：用一团萤火虫照亮回家的路"
 lang: zh-CN

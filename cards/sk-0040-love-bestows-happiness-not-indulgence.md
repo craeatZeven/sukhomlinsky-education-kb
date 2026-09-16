@@ -1,5 +1,8 @@
 ---
 id: sk-0040
+aliases:
+  - sk-0040
+  - 爱不是溺爱，而是让孩子获得幸福与自信
 type: principle
 title: "爱不是溺爱，而是让孩子获得幸福与自信"
 lang: zh-CN

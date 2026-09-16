@@ -1,5 +1,8 @@
 ---
 id: sk-1090
+aliases:
+  - sk-1090
+  - 秋
 type: case
 title: "秋"
 lang: zh-CN

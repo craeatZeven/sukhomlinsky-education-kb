@@ -1,5 +1,8 @@
 ---
 id: sk-1103
+aliases:
+  - sk-1103
+  - 道德习惯：确立道德观念和道德信念的基础
 type: principle
 title: "道德习惯：确立道德观念和道德信念的基础"
 lang: zh-CN

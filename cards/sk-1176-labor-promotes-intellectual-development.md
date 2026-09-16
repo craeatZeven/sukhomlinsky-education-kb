@@ -1,5 +1,8 @@
 ---
 id: sk-1176
+aliases:
+  - sk-1176
+  - 通过爱劳动促进学生智力发展
 type: principle
 title: "通过爱劳动促进学生智力发展"
 lang: zh-CN

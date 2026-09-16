@@ -1,5 +1,8 @@
 ---
 id: sk-0862
+aliases:
+  - sk-0862
+  - 为什么安德烈感到忧伤
 type: case
 title: "为什么安德烈感到忧伤"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0792
+aliases:
+  - sk-0792
+  - 铁木尔队队员
 type: case
 title: "铁木尔队队员"
 lang: zh-CN

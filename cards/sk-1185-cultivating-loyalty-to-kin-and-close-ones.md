@@ -1,5 +1,8 @@
 ---
 id: sk-1185
+aliases:
+  - sk-1185
+  - 怎样培养对亲人和亲近的人的忠诚感
 type: principle
 title: "怎样培养对亲人和亲近的人的忠诚感"
 lang: zh-CN

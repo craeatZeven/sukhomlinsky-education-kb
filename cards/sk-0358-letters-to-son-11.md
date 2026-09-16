@@ -1,5 +1,8 @@
 ---
 id: sk-0358
+aliases:
+  - sk-0358
+  - 你在大地上的足迹：童年的汗水
 type: quote
 title: "你在大地上的足迹：童年的汗水"
 lang: zh-CN

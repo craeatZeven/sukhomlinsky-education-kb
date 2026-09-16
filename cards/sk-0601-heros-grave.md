@@ -1,5 +1,8 @@
 ---
 id: sk-0601
+aliases:
+  - sk-0601
+  - 英雄的墓：每天路过兄弟墓，想念自己的爷爷
 type: case
 title: "英雄的墓：每天路过兄弟墓，想念自己的爷爷"
 lang: zh-CN

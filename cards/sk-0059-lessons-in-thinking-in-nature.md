@@ -1,5 +1,8 @@
 ---
 id: sk-0059
+aliases:
+  - sk-0059
+  - 每周两次走进大自然，是去学习思考，不是游玩
 type: quote
 title: "每周两次走进大自然，是去学习思考，不是游玩"
 lang: zh-CN

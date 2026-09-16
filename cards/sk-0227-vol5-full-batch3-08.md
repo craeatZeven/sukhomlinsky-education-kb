@@ -1,5 +1,8 @@
 ---
 id: sk-0227
+aliases:
+  - sk-0227
+  - 真正父亲无可替代：育人比任何生产岗位更细致
 type: quote
 title: "真正父亲无可替代：育人比任何生产岗位更细致"
 lang: zh-CN

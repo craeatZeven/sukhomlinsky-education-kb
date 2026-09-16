@@ -1,5 +1,8 @@
 ---
 id: sk-0733
+aliases:
+  - sk-0733
+  - 人为什么会心痛
 type: case
 title: "人为什么会心痛"
 lang: zh-CN

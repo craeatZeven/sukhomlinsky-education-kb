@@ -1,5 +1,8 @@
 ---
 id: sk-0634
+aliases:
+  - sk-0634
+  - 对人说“您好”：一句问候让世界变亮
 type: case
 title: "对人说“您好”：一句问候让世界变亮"
 lang: zh-CN

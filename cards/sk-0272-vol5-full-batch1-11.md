@@ -1,5 +1,8 @@
 ---
 id: sk-0272
+aliases:
+  - sk-0272
+  - 所有孩子都有才，关键是找到并开发其独有能力
 type: quote
 title: "所有孩子都有才，关键是找到并开发其独有能力"
 lang: zh-CN

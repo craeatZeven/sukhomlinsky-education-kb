@@ -1,5 +1,8 @@
 ---
 id: sk-0071
+aliases:
+  - sk-0071
+  - 家长学校：从孩子入学前两年开始持续培训家长
 type: method
 title: "家长学校：从孩子入学前两年开始持续培训家长"
 lang: zh-CN

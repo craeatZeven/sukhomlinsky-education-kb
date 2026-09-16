@@ -1,5 +1,8 @@
 ---
 id: sk-1202
+aliases:
+  - sk-1202
+  - 第3封信：思想性就是真正的人性
 type: principle
 title: "第3封信：思想性就是真正的人性"
 lang: zh-CN

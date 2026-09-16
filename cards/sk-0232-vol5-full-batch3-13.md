@@ -1,5 +1,8 @@
 ---
 id: sk-0232
+aliases:
+  - sk-0232
+  - 义务感的培养是教育的基础和核心
 type: quote
 title: "义务感的培养是教育的基础和核心"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0484
+aliases:
+  - sk-0484
+  - 小草茎和去年的叶子：顶开旧叶看见春天
 type: case
 title: "小草茎和去年的叶子：顶开旧叶看见春天"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0014
+aliases:
+  - sk-0014
+  - 劳动像食物一样必不可少，要系统且完整地完成
 type: principle
 title: "劳动像食物一样必不可少，要系统且完整地完成"
 lang: zh-CN

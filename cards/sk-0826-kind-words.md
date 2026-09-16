@@ -1,5 +1,8 @@
 ---
 id: sk-0826
+aliases:
+  - sk-0826
+  - 善良的话语
 type: case
 title: "善良的话语"
 lang: zh-CN

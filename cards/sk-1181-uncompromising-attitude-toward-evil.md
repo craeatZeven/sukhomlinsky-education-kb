@@ -1,5 +1,8 @@
 ---
 id: sk-1181
+aliases:
+  - sk-1181
+  - 怎样培养个人对邪恶持毫不妥协的态度
 type: principle
 title: "怎样培养个人对邪恶持毫不妥协的态度"
 lang: zh-CN

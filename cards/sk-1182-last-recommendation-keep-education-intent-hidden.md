@@ -1,5 +1,8 @@
 ---
 id: sk-1182
+aliases:
+  - sk-1182
+  - 最后一条建议——保密：把教育意图隐蔽起来
 type: principle
 title: "最后一条建议——保密：把教育意图隐蔽起来"
 lang: zh-CN

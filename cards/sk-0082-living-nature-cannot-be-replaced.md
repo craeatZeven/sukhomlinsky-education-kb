@@ -1,5 +1,8 @@
 ---
 id: sk-0082
+aliases:
+  - sk-0082
+  - 活生生的大自然，不能被技术影像取代
 type: quote
 title: "活生生的大自然，不能被技术影像取代"
 lang: zh-CN

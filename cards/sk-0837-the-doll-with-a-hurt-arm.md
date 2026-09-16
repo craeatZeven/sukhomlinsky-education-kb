@@ -1,5 +1,8 @@
 ---
 id: sk-0837
+aliases:
+  - sk-0837
+  - 胳膊受伤的娃娃
 type: case
 title: "胳膊受伤的娃娃"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0325
+aliases:
+  - sk-0325
+  - 对故乡土地的主人翁感是最重要的爱国主义感情
 type: quote
 title: "对故乡土地的主人翁感是最重要的爱国主义感情"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0622
+aliases:
+  - sk-0622
+  - 万古流芳的红领巾：一面旗被剪成五条仍是旗
 type: case
 title: "万古流芳的红领巾：一面旗被剪成五条仍是旗"
 lang: zh-CN

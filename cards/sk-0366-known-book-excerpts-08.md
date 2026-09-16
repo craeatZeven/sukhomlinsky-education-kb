@@ -1,5 +1,8 @@
 ---
 id: sk-0366
+aliases:
+  - sk-0366
+  - 我校集体的教育信念
 type: quote
 title: "我校集体的教育信念"
 lang: zh-CN

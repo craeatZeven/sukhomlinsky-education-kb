@@ -1,5 +1,8 @@
 ---
 id: sk-1030
+aliases:
+  - sk-1030
+  - 教师的权威是什么，应该表现在哪里
 type: principle
 title: "教师的权威是什么，应该表现在哪里"
 lang: zh-CN

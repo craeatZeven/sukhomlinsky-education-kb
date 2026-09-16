@@ -1,5 +1,8 @@
 ---
 id: sk-0708
+aliases:
+  - sk-0708
+  - 给孙子的信
 type: case
 title: "给孙子的信"
 lang: zh-CN

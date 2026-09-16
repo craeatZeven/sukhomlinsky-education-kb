@@ -1,5 +1,8 @@
 ---
 id: sk-0533
+aliases:
+  - sk-0533
+  - 秋爷爷：他的胡子伸到草地上，变成了秋雾
 type: case
 title: "秋爷爷：他的胡子伸到草地上，变成了秋雾"
 lang: zh-CN

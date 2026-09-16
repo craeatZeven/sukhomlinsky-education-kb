@@ -1,5 +1,8 @@
 ---
 id: sk-1024
+aliases:
+  - sk-1024
+  - 结束语：为未来培养全面发展的人
 type: principle
 title: "结束语：为未来培养全面发展的人"
 lang: zh-CN

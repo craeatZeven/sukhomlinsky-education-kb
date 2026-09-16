@@ -1,5 +1,8 @@
 ---
 id: sk-0976
+aliases:
+  - sk-0976
+  - 甚至连花都羞红了脸
 type: case
 title: "甚至连花都羞红了脸"
 lang: zh-CN

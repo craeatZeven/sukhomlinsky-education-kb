@@ -1,5 +1,8 @@
 ---
 id: sk-0904
+aliases:
+  - sk-0904
+  - 如果时间停止，将会发生什么
 type: case
 title: "如果时间停止，将会发生什么"
 lang: zh-CN

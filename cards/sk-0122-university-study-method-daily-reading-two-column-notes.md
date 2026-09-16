@@ -1,5 +1,8 @@
 ---
 id: sk-0122
+aliases:
+  - sk-0122
+  - 大学学习时间法：天天读书与两栏笔记
 type: method
 title: "大学学习时间法：天天读书与两栏笔记"
 lang: zh-CN

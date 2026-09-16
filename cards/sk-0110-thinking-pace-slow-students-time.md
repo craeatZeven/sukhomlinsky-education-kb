@@ -1,5 +1,8 @@
 ---
 id: sk-0110
+aliases:
+  - sk-0110
+  - 思维有快慢，要给迟钝的学生留足思考时间
 type: principle
 title: "思维有快慢，要给迟钝的学生留足思考时间"
 lang: zh-CN

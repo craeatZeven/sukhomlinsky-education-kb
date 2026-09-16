@@ -1,5 +1,8 @@
 ---
 id: sk-0159
+aliases:
+  - sk-0159
+  - 校长把听课摆在首位：每天听两节课
 type: practice
 title: "校长把听课摆在首位：每天听两节课"
 lang: zh-CN

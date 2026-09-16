@@ -1,5 +1,8 @@
 ---
 id: sk-1023
+aliases:
+  - sk-1023
+  - 什么是从事教师工作的才能，它是怎样形成的
 type: principle
 title: "什么是从事教师工作的才能，它是怎样形成的"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0688
+aliases:
+  - sk-0688
+  - 妈妈来了：亲人的归来让窗外的野兽消失
 type: case
 title: "妈妈来了：亲人的归来让窗外的野兽消失"
 lang: zh-CN

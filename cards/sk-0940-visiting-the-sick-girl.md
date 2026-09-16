@@ -1,5 +1,8 @@
 ---
 id: sk-0940
+aliases:
+  - sk-0940
+  - 探访病人
 type: case
 title: "探访病人"
 lang: zh-CN

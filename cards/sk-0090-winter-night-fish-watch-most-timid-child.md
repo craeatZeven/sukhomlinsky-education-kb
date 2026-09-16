@@ -1,5 +1,8 @@
 ---
 id: sk-0090
+aliases:
+  - sk-0090
+  - 冬夜护鱼：把责任交给最胆小的孩子
 type: case
 title: "冬夜护鱼：把责任交给最胆小的孩子"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0821
+aliases:
+  - sk-0821
+  - 我爸爸的病好了
 type: case
 title: "我爸爸的病好了"
 lang: zh-CN

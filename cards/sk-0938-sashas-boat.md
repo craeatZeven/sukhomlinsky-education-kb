@@ -1,5 +1,8 @@
 ---
 id: sk-0938
+aliases:
+  - sk-0938
+  - 萨沙的船
 type: case
 title: "萨沙的船"
 lang: zh-CN

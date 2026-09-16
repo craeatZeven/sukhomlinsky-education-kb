@@ -1,5 +1,8 @@
 ---
 id: sk-0406
+aliases:
+  - sk-0406
+  - 谈谈教师的教育素养
 type: quote
 title: "谈谈教师的教育素养"
 lang: zh-CN

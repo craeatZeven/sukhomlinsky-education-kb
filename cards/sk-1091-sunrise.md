@@ -1,5 +1,8 @@
 ---
 id: sk-1091
+aliases:
+  - sk-1091
+  - 日出
 type: case
 title: "日出"
 lang: zh-CN

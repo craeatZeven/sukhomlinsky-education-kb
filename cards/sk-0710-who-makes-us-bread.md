@@ -1,5 +1,8 @@
 ---
 id: sk-0710
+aliases:
+  - sk-0710
+  - 谁给我们做面包
 type: case
 title: "谁给我们做面包"
 lang: zh-CN

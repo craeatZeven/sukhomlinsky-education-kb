@@ -1,5 +1,8 @@
 ---
 id: sk-0910
+aliases:
+  - sk-0910
+  - 农人与田鼠
 type: case
 title: "农人与田鼠"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-1131
+aliases:
+  - sk-1131
+  - 当我们的首批宇航员登上火星的时候
 type: case
 title: "当我们的首批宇航员登上火星的时候"
 lang: zh-CN

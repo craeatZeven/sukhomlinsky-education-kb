@@ -1,5 +1,8 @@
 ---
 id: sk-0212
+aliases:
+  - sk-0212
+  - 爱国主义的形成始于对人的热爱
 type: quote
 title: "爱国主义的形成始于对人的热爱"
 lang: zh-CN

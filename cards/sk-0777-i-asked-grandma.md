@@ -1,5 +1,8 @@
 ---
 id: sk-0777
+aliases:
+  - sk-0777
+  - 问过奶奶了
 type: case
 title: "问过奶奶了"
 lang: zh-CN

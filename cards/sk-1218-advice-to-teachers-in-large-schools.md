@@ -1,5 +1,8 @@
 ---
 id: sk-1218
+aliases:
+  - sk-1218
+  - 向在规模大的学校里工作的教师提些建议
 type: method
 title: "向在规模大的学校里工作的教师提些建议"
 lang: zh-CN

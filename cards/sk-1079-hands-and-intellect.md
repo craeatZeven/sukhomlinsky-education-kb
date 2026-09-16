@@ -1,5 +1,8 @@
 ---
 id: sk-1079
+aliases:
+  - sk-1079
+  - 手和理智
 type: principle
 title: "手和理智"
 lang: zh-CN

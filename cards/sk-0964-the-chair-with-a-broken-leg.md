@@ -1,5 +1,8 @@
 ---
 id: sk-0964
+aliases:
+  - sk-0964
+  - 折断腿的椅子
 type: case
 title: "折断腿的椅子"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0867
+aliases:
+  - sk-0867
+  - 一双黑黑的手
 type: case
 title: "一双黑黑的手"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0929
+aliases:
+  - sk-0929
+  - 为什么大家都快活起来
 type: case
 title: "为什么大家都快活起来"
 lang: zh-CN

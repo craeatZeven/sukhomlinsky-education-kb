@@ -1,5 +1,8 @@
 ---
 id: sk-0020
+aliases:
+  - sk-0020
+  - 与家庭约定作息：户外、早睡、开窗睡、院子安睡角
 type: practice
 title: "与家庭约定作息：户外、早睡、开窗睡、院子安睡角"
 lang: zh-CN

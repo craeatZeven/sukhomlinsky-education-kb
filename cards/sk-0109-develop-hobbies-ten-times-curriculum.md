@@ -1,5 +1,8 @@
 ---
 id: sk-0109
+aliases:
+  - sk-0109
+  - 发展爱好：让特长领域比大纲多学十倍
 type: method
 title: "发展爱好：让特长领域比大纲多学十倍"
 lang: zh-CN

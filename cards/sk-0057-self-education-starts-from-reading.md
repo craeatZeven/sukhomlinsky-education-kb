@@ -1,5 +1,8 @@
 ---
 id: sk-0057
+aliases:
+  - sk-0057
+  - 自我教育与精神生活，从读书开始
 type: quote
 title: "自我教育与精神生活，从读书开始"
 lang: zh-CN

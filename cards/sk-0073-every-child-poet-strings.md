@@ -1,5 +1,8 @@
 ---
 id: sk-0073
+aliases:
+  - sk-0073
+  - 每个孩子天性都是诗人，要让诗的琴弦响起来
 type: quote
 title: "每个孩子天性都是诗人，要让诗的琴弦响起来"
 lang: zh-CN

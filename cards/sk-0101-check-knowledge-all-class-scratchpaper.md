@@ -1,5 +1,8 @@
 ---
 id: sk-0101
+aliases:
+  - sk-0101
+  - 检查知识时让全班用草稿本同步思考
 type: method
 title: "检查知识时让全班用草稿本同步思考"
 lang: zh-CN

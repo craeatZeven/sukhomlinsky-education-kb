@@ -1,5 +1,8 @@
 ---
 id: sk-0002
+aliases:
+  - sk-0002
+  - 先让孩子变得“可教”，而不是吼叫与说教
 type: method
 title: "先让孩子变得“可教”，而不是吼叫与说教"
 lang: zh-CN

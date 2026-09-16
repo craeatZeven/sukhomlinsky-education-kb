@@ -1,5 +1,8 @@
 ---
 id: sk-0752
+aliases:
+  - sk-0752
+  - 父亲的识字课本
 type: case
 title: "父亲的识字课本"
 lang: zh-CN

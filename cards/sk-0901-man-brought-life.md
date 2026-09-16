@@ -1,5 +1,8 @@
 ---
 id: sk-0901
+aliases:
+  - sk-0901
+  - 人带来了生命
 type: case
 title: "人带来了生命"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0095
+aliases:
+  - sk-0095
+  - 第一次工资前，先充分体验为社会无酬劳动
 type: principle
 title: "第一次工资前，先充分体验为社会无酬劳动"
 lang: zh-CN

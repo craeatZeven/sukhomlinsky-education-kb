@@ -1,5 +1,8 @@
 ---
 id: sk-0206
+aliases:
+  - sk-0206
+  - 教学首先是师生活生生的人际关系
 type: quote
 title: "教学首先是师生活生生的人际关系"
 lang: zh-CN

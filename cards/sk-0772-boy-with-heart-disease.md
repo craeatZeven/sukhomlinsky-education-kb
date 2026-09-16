@@ -1,5 +1,8 @@
 ---
 id: sk-0772
+aliases:
+  - sk-0772
+  - 患心脏病的男孩
 type: case
 title: "患心脏病的男孩"
 lang: zh-CN

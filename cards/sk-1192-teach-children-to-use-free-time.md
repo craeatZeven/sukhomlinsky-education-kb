@@ -1,5 +1,8 @@
 ---
 id: sk-1192
+aliases:
+  - sk-1192
+  - 教儿童利用自由活动时间
 type: method
 title: "教儿童利用自由活动时间"
 lang: zh-CN

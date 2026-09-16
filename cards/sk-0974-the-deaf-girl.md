@@ -1,5 +1,8 @@
 ---
 id: sk-0974
+aliases:
+  - sk-0974
+  - 耳聋的小姑娘
 type: case
 title: "耳聋的小姑娘"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0523
+aliases:
+  - sk-0523
+  - 春雨：蚂蚁妈妈把甜甜的杨树汁带回家
 type: case
 title: "春雨：蚂蚁妈妈把甜甜的杨树汁带回家"
 lang: zh-CN

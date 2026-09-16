@@ -1,5 +1,8 @@
 ---
 id: sk-0699
+aliases:
+  - sk-0699
+  - 生日午餐
 type: case
 title: "生日午餐"
 lang: zh-CN

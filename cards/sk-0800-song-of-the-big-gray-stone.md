@@ -1,5 +1,8 @@
 ---
 id: sk-0800
+aliases:
+  - sk-0800
+  - 大灰石头的歌
 type: case
 title: "大灰石头的歌"
 lang: zh-CN

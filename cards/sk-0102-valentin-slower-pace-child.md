@@ -1,5 +1,8 @@
 ---
 id: sk-0102
+aliases:
+  - sk-0102
+  - 瓦连金：给感知缓慢的儿童另设节奏
 type: case
 title: "瓦连金：给感知缓慢的儿童另设节奏"
 lang: zh-CN

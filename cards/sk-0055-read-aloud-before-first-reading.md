@@ -1,5 +1,8 @@
 ---
 id: sk-0055
+aliases:
+  - sk-0055
+  - 孩子第一次读之前，先听老师和父母朗读
 type: method
 title: "孩子第一次读之前，先听老师和父母朗读"
 lang: zh-CN

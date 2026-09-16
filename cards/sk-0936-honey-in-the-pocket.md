@@ -1,5 +1,8 @@
 ---
 id: sk-0936
+aliases:
+  - sk-0936
+  - 口袋里的蜂蜜
 type: case
 title: "口袋里的蜂蜜"
 lang: zh-CN

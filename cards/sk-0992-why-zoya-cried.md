@@ -1,5 +1,8 @@
 ---
 id: sk-0992
+aliases:
+  - sk-0992
+  - 卓娅为什么不哭了
 type: case
 title: "卓娅为什么不哭了"
 lang: zh-CN

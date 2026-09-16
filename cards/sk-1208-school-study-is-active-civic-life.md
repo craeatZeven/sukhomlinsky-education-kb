@@ -1,5 +1,8 @@
 ---
 id: sk-1208
+aliases:
+  - sk-1208
+  - 在校学习是正在成长一代的积极的公民生活
 type: principle
 title: "在校学习是正在成长一代的积极的公民生活"
 lang: zh-CN

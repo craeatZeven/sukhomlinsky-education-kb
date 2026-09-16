@@ -1,5 +1,8 @@
 ---
 id: sk-0510
+aliases:
+  - sk-0510
+  - 池塘边：老柳树，你会等到春天来临的
 type: case
 title: "池塘边：老柳树，你会等到春天来临的"
 lang: zh-CN

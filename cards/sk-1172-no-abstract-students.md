@@ -1,5 +1,8 @@
 ---
 id: sk-1172
+aliases:
+  - sk-1172
+  - 请记住，没有也不可能有抽象的学生
 type: principle
 title: "请记住，没有也不可能有抽象的学生"
 lang: zh-CN

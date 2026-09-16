@@ -1,5 +1,8 @@
 ---
 id: sk-0348
+aliases:
+  - sk-0348
+  - 致年轻的朋友：你飞出了父母的巢
 type: quote
 title: "致年轻的朋友：你飞出了父母的巢"
 lang: zh-CN

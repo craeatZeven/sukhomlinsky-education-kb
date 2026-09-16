@@ -1,5 +1,8 @@
 ---
 id: sk-0009
+aliases:
+  - sk-0009
+  - 孩子是父母道德生活的一面镜子
 type: quote
 title: "孩子是父母道德生活的一面镜子"
 lang: zh-CN

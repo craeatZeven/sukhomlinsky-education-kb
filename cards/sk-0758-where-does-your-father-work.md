@@ -1,5 +1,8 @@
 ---
 id: sk-0758
+aliases:
+  - sk-0758
+  - 你爸爸在哪儿工作
 type: case
 title: "你爸爸在哪儿工作"
 lang: zh-CN

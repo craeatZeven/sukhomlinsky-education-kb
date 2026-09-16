@@ -1,5 +1,8 @@
 ---
 id: sk-0361
+aliases:
+  - sk-0361
+  - 生活由行为举止组成
 type: quote
 title: "生活由行为举止组成"
 lang: zh-CN

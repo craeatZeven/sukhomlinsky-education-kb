@@ -1,5 +1,8 @@
 ---
 id: sk-0860
+aliases:
+  - sk-0860
+  - 右手和左手
 type: case
 title: "右手和左手"
 lang: zh-CN

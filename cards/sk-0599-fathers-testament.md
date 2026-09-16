@@ -1,5 +1,8 @@
 ---
 id: sk-0599
+aliases:
+  - sk-0599
+  - 父亲的遗言：祖国是儿子16岁才读懂的家训
 type: case
 title: "父亲的遗言：祖国是儿子16岁才读懂的家训"
 lang: zh-CN

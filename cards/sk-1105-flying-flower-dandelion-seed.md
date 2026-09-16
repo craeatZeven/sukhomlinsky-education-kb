@@ -1,5 +1,8 @@
 ---
 id: sk-1105
+aliases:
+  - sk-1105
+  - 会飞的花
 type: case
 title: "会飞的花"
 lang: zh-CN

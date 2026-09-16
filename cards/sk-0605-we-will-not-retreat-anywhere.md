@@ -1,5 +1,8 @@
 ---
 id: sk-0605
+aliases:
+  - sk-0605
+  - 哪里也不撤退：诚实死亡胜于可耻后退
 type: case
 title: "哪里也不撤退：诚实死亡胜于可耻后退"
 lang: zh-CN

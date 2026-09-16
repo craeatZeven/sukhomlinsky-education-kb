@@ -1,5 +1,8 @@
 ---
 id: sk-1046
+aliases:
+  - sk-1046
+  - 为了不造成负担过重，必须有自由活动时间
 type: principle
 title: "为了不造成负担过重，必须有自由活动时间"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-1089
+aliases:
+  - sk-1089
+  - 百灵鸟之歌
 type: case
 title: "百灵鸟之歌"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-1036
+aliases:
+  - sk-1036
+  - 用草稿本检查家庭作业：让全班都在进行脑力劳动
 type: method
 title: "用草稿本检查家庭作业：让全班都在进行脑力劳动"
 lang: zh-CN

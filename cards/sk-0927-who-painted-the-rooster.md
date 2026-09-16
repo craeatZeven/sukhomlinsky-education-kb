@@ -1,5 +1,8 @@
 ---
 id: sk-0927
+aliases:
+  - sk-0927
+  - 谁给公鸡涂上了颜色
 type: case
 title: "谁给公鸡涂上了颜色"
 lang: zh-CN

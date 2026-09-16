@@ -1,5 +1,8 @@
 ---
 id: sk-0713
+aliases:
+  - sk-0713
+  - 妈妈不喜欢吃烧蘑菇
 type: case
 title: "妈妈不喜欢吃烧蘑菇"
 lang: zh-CN

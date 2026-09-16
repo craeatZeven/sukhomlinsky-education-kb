@@ -1,5 +1,8 @@
 ---
 id: sk-1097
+aliases:
+  - sk-1097
+  - 怎样教人正确对待死
 type: principle
 title: "怎样教人正确对待死"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0254
+aliases:
+  - sk-0254
+  - 教学首先是人与人之间的关系
 type: quote
 title: "教学首先是人与人之间的关系"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0908
+aliases:
+  - sk-0908
+  - 让其他什么人去做
 type: case
 title: "让其他什么人去做"
 lang: zh-CN

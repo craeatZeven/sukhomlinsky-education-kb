@@ -1,5 +1,8 @@
 ---
 id: sk-0199
+aliases:
+  - sk-0199
+  - 秋季玫瑰节：让儿童为亲人种花行善
 type: practice
 title: "秋季玫瑰节：让儿童为亲人种花行善"
 lang: zh-CN

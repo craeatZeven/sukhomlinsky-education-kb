@@ -1,5 +1,8 @@
 ---
 id: sk-0823
+aliases:
+  - sk-0823
+  - 难道我们永远不会再见面了吗
 type: case
 title: "难道我们永远不会再见面了吗"
 lang: zh-CN

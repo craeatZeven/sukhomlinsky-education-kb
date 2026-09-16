@@ -1,5 +1,8 @@
 ---
 id: sk-0956
+aliases:
+  - sk-0956
+  - 我的妈妈
 type: case
 title: "我的妈妈"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-1055
+aliases:
+  - sk-1055
+  - 怎样通过阅读发展知识
 type: method
 title: "怎样通过阅读发展知识"
 lang: zh-CN

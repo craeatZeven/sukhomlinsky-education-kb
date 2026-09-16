@@ -1,5 +1,8 @@
 ---
 id: sk-0787
+aliases:
+  - sk-0787
+  - 年轻的花园
 type: case
 title: "年轻的花园"
 lang: zh-CN

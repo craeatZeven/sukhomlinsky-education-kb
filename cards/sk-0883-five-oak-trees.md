@@ -1,5 +1,8 @@
 ---
 id: sk-0883
+aliases:
+  - sk-0883
+  - 五棵橡树
 type: case
 title: "五棵橡树"
 lang: zh-CN

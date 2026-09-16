@@ -1,5 +1,8 @@
 ---
 id: sk-0814
+aliases:
+  - sk-0814
+  - 窗前的铃兰花
 type: case
 title: "窗前的铃兰花"
 lang: zh-CN

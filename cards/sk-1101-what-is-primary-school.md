@@ -1,5 +1,8 @@
 ---
 id: sk-1101
+aliases:
+  - sk-1101
+  - 什么是小学？
 type: principle
 title: "什么是小学？"
 lang: zh-CN

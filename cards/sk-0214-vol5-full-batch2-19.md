@@ -1,5 +1,8 @@
 ---
 id: sk-0214
+aliases:
+  - sk-0214
+  - 决定教师语言效果的真谛是诚挚
 type: quote
 title: "决定教师语言效果的真谛是诚挚"
 lang: zh-CN

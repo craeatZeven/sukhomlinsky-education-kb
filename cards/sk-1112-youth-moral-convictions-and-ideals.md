@@ -1,5 +1,8 @@
 ---
 id: sk-1112
+aliases:
+  - sk-1112
+  - 青年人的道德信念和理想
 type: principle
 title: "青年人的道德信念和理想"
 lang: zh-CN

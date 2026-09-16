@@ -1,5 +1,8 @@
 ---
 id: sk-0087
+aliases:
+  - sk-0087
+  - 六千米远足：妈妈觉得太远，孩子却跑着去
 type: case
 title: "六千米远足：妈妈觉得太远，孩子却跑着去"
 lang: zh-CN

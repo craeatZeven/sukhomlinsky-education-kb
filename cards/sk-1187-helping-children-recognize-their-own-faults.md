@@ -1,5 +1,8 @@
 ---
 id: sk-1187
+aliases:
+  - sk-1187
+  - 怎样教孩子明白和意识自己的过错
 type: method
 title: "怎样教孩子明白和意识自己的过错"
 lang: zh-CN

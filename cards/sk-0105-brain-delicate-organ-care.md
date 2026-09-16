@@ -1,5 +1,8 @@
 ---
 id: sk-0105
+aliases:
+  - sk-0105
+  - 大脑是最精密柔嫩的器官，要小心爱护
 type: quote
 title: "大脑是最精密柔嫩的器官，要小心爱护"
 lang: zh-CN

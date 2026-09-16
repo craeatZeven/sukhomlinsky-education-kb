@@ -1,5 +1,8 @@
 ---
 id: sk-0915
+aliases:
+  - sk-0915
+  - 必须正确地对待劳动
 type: case
 title: "必须正确地对待劳动"
 lang: zh-CN

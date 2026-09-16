@@ -1,5 +1,8 @@
 ---
 id: sk-0431
+aliases:
+  - sk-0431
+  - 美只有在人为创造美而劳动时才能使人高尚
 type: quote
 title: "美只有在人为创造美而劳动时才能使人高尚"
 lang: zh-CN

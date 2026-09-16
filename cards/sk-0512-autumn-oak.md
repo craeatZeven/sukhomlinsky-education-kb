@@ -1,5 +1,8 @@
 ---
 id: sk-0512
+aliases:
+  - sk-0512
+  - 秋天的橡树：我不想与自己的衣服分手
 type: case
 title: "秋天的橡树：我不想与自己的衣服分手"
 lang: zh-CN

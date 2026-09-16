@@ -1,5 +1,8 @@
 ---
 id: sk-1041
+aliases:
+  - sk-1041
+  - 培养学生的智能：观察力是发达智力的首要特点
 type: principle
 title: "培养学生的智能：观察力是发达智力的首要特点"
 lang: zh-CN

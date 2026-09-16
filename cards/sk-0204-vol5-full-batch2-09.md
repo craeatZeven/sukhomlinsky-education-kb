@@ -1,5 +1,8 @@
 ---
 id: sk-0204
+aliases:
+  - sk-0204
+  - 孩子的幸福是欢乐的今天
 type: quote
 title: "孩子的幸福是欢乐的今天"
 lang: zh-CN

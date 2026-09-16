@@ -1,5 +1,8 @@
 ---
 id: sk-0969
+aliases:
+  - sk-0969
+  - 胆小的孩子
 type: case
 title: "胆小的孩子"
 lang: zh-CN

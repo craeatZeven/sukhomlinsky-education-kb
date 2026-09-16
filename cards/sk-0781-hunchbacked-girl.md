@@ -1,5 +1,8 @@
 ---
 id: sk-0781
+aliases:
+  - sk-0781
+  - 驼背的女孩
 type: case
 title: "驼背的女孩"
 lang: zh-CN

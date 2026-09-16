@@ -1,5 +1,8 @@
 ---
 id: sk-0285
+aliases:
+  - sk-0285
+  - 语言如刻刀：能塑造美丽心灵，也能摧毁它
 type: quote
 title: "语言如刻刀：能塑造美丽心灵，也能摧毁它"
 lang: zh-CN

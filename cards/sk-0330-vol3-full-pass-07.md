@@ -1,5 +1,8 @@
 ---
 id: sk-0330
+aliases:
+  - sk-0330
+  - 同自己说话，对着自己良心说话
 type: quote
 title: "同自己说话，对着自己良心说话"
 lang: zh-CN

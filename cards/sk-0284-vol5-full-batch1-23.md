@@ -1,5 +1,8 @@
 ---
 id: sk-0284
+aliases:
+  - sk-0284
+  - 语言是教育科学变成教师教学艺术的桥梁
 type: quote
 title: "语言是教育科学变成教师教学艺术的桥梁"
 lang: zh-CN

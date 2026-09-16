@@ -1,5 +1,8 @@
 ---
 id: sk-0554
+aliases:
+  - sk-0554
+  - 路旁的橡树：宽阔马路为老橡树弯成马掌形
 type: case
 title: "路旁的橡树：宽阔马路为老橡树弯成马掌形"
 lang: zh-CN

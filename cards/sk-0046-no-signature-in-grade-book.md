@@ -1,5 +1,8 @@
 ---
 id: sk-0046
+aliases:
+  - sk-0046
+  - 不要求家长在记分册签名，信任比监督更重要
 type: quote
 title: "不要求家长在记分册签名，信任比监督更重要"
 lang: zh-CN

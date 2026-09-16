@@ -1,5 +1,8 @@
 ---
 id: sk-0496
+aliases:
+  - sk-0496
+  - 雷雨时的向日葵：乌云后仍燃着太阳的火焰
 type: case
 title: "雷雨时的向日葵：乌云后仍燃着太阳的火焰"
 lang: zh-CN

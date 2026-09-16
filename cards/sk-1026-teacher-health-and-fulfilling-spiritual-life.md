@@ -1,5 +1,8 @@
 ---
 id: sk-1026
+aliases:
+  - sk-1026
+  - 谈谈教师的健康和充实的精神生活
 type: principle
 title: "谈谈教师的健康和充实的精神生活"
 lang: zh-CN

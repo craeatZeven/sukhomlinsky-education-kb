@@ -1,5 +1,8 @@
 ---
 id: sk-0208
+aliases:
+  - sk-0208
+  - 不爱学生的教师，如同歌手没有嗓音
 type: quote
 title: "不爱学生的教师，如同歌手没有嗓音"
 lang: zh-CN

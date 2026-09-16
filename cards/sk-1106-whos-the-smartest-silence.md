@@ -1,5 +1,8 @@
 ---
 id: sk-1106
+aliases:
+  - sk-1106
+  - 谁最聪明
 type: case
 title: "谁最聪明"
 lang: zh-CN

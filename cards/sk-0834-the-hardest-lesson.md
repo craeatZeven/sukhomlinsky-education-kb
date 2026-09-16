@@ -1,5 +1,8 @@
 ---
 id: sk-0834
+aliases:
+  - sk-0834
+  - 最难的一课
 type: case
 title: "最难的一课"
 lang: zh-CN

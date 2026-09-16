@@ -1,5 +1,8 @@
 ---
 id: sk-0612
+aliases:
+  - sk-0612
+  - 团队的旗帜：旗帜在胸前，伤员挺到被找到
 type: case
 title: "团队的旗帜：旗帜在胸前，伤员挺到被找到"
 lang: zh-CN

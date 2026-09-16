@@ -1,5 +1,8 @@
 ---
 id: sk-0065
+aliases:
+  - sk-0065
+  - 评分宁可少一些，但每次都要有分量
 type: principle
 title: "评分宁可少一些，但每次都要有分量"
 lang: zh-CN

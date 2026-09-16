@@ -1,5 +1,8 @@
 ---
 id: sk-0390
+aliases:
+  - sk-0390
+  - 学生应当成为语言的音乐家
 type: quote
 title: "学生应当成为语言的音乐家"
 lang: zh-CN

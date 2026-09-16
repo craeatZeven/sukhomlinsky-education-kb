@@ -1,5 +1,8 @@
 ---
 id: sk-1143
+aliases:
+  - sk-1143
+  - 花瓣和花朵
 type: case
 title: "花瓣和花朵"
 lang: zh-CN

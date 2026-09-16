@@ -1,5 +1,8 @@
 ---
 id: sk-0367
+aliases:
+  - sk-0367
+  - 信任才能唤起自尊与自我教育
 type: quote
 title: "信任才能唤起自尊与自我教育"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0922
+aliases:
+  - sk-0922
+  - 为什么彼得里克哭了起来
 type: case
 title: "为什么彼得里克哭了起来"
 lang: zh-CN

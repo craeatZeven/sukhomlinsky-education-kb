@@ -1,5 +1,8 @@
 ---
 id: sk-1194
+aliases:
+  - sk-1194
+  - 理解新教材是课堂教学的一个阶段
 type: method
 title: "理解新教材是课堂教学的一个阶段"
 lang: zh-CN

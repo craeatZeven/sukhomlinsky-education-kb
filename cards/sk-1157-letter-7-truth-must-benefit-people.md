@@ -1,5 +1,8 @@
 ---
 id: sk-1157
+aliases:
+  - sk-1157
+  - 第7封信：真理不能只靠说实话取胜
 type: case
 title: "第7封信：真理不能只靠说实话取胜"
 lang: zh-CN

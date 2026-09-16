@@ -1,5 +1,8 @@
 ---
 id: sk-0740
+aliases:
+  - sk-0740
+  - 母亲灰白色的辫子
 type: case
 title: "母亲灰白色的辫子"
 lang: zh-CN

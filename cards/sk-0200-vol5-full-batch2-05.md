@@ -1,5 +1,8 @@
 ---
 id: sk-0200
+aliases:
+  - sk-0200
+  - 让每个公民在童年体验劳动的欢乐
 type: quote
 title: "让每个公民在童年体验劳动的欢乐"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-1074
+aliases:
+  - sk-1074
+  - 道德情感在学龄初期儿童精神发展中的作用
 type: principle
 title: "道德情感在学龄初期儿童精神发展中的作用"
 lang: zh-CN

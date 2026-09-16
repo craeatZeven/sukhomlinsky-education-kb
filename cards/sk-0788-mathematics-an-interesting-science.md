@@ -1,5 +1,8 @@
 ---
 id: sk-0788
+aliases:
+  - sk-0788
+  - 数学，一门多么有意思的科学
 type: case
 title: "数学，一门多么有意思的科学"
 lang: zh-CN

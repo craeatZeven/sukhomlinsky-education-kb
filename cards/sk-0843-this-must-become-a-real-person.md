@@ -1,5 +1,8 @@
 ---
 id: sk-0843
+aliases:
+  - sk-0843
+  - 这要成为一个真正的人才行
 type: case
 title: "这要成为一个真正的人才行"
 lang: zh-CN

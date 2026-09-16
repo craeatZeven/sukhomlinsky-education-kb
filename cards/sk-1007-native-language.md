@@ -1,5 +1,8 @@
 ---
 id: sk-1007
+aliases:
+  - sk-1007
+  - 祖国语言
 type: principle
 title: "祖国语言"
 lang: zh-CN

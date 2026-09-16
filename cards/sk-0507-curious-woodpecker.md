@@ -1,5 +1,8 @@
 ---
 id: sk-0507
+aliases:
+  - sk-0507
+  - 好奇的啄木鸟：从巢里探出身子，掉到地上
 type: case
 title: "好奇的啄木鸟：从巢里探出身子，掉到地上"
 lang: zh-CN

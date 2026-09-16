@@ -1,5 +1,8 @@
 ---
 id: sk-0083
+aliases:
+  - sk-0083
+  - 负担过重的根源不在页数，而在把该理解的东西变成死记
 type: principle
 title: "负担过重的根源不在页数，而在把该理解的东西变成死记"
 lang: zh-CN

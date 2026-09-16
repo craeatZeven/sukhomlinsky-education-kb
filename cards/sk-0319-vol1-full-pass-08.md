@@ -1,5 +1,8 @@
 ---
 id: sk-0319
+aliases:
+  - sk-0319
+  - 不要讥笑少年隐秘的意志考验
 type: principle
 title: "不要讥笑少年隐秘的意志考验"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0979
+aliases:
+  - sk-0979
+  - 弹弓与麻雀窝
 type: case
 title: "弹弓与麻雀窝"
 lang: zh-CN

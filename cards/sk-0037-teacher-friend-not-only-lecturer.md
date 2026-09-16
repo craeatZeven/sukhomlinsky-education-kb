@@ -1,5 +1,8 @@
 ---
 id: sk-0037
+aliases:
+  - sk-0037
+  - 教师不仅是导师，也是朋友和同伴
 type: principle
 title: "教师不仅是导师，也是朋友和同伴"
 lang: zh-CN

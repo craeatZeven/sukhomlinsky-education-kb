@@ -1,5 +1,8 @@
 ---
 id: sk-0491
+aliases:
+  - sk-0491
+  - 这就是太阳：老橡树干上的一道阳光
 type: case
 title: "这就是太阳：老橡树干上的一道阳光"
 lang: zh-CN

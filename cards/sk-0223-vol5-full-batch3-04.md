@@ -1,5 +1,8 @@
 ---
 id: sk-0223
+aliases:
+  - sk-0223
+  - 学校没有教会最主要的东西：怎样生活
 type: quote
 title: "学校没有教会最主要的东西：怎样生活"
 lang: zh-CN

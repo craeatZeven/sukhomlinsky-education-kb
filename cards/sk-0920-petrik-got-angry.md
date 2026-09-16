@@ -1,5 +1,8 @@
 ---
 id: sk-0920
+aliases:
+  - sk-0920
+  - 彼得里克生气了
 type: case
 title: "彼得里克生气了"
 lang: zh-CN

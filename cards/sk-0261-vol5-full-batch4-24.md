@@ -1,5 +1,8 @@
 ---
 id: sk-0261
+aliases:
+  - sk-0261
+  - 课堂之外要有思考的园地：见识、观察、做，三者齐备
 type: principle
 title: "课堂之外要有思考的园地：见识、观察、做，三者齐备"
 lang: zh-CN

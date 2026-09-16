@@ -1,5 +1,8 @@
 ---
 id: sk-0146
+aliases:
+  - sk-0146
+  - 健康关怀不止是卫生守则，其顶峰是身心和谐与创造之乐
 type: principle
 title: "健康关怀不止是卫生守则，其顶峰是身心和谐与创造之乐"
 lang: zh-CN

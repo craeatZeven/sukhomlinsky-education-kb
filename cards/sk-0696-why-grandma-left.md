@@ -1,5 +1,8 @@
 ---
 id: sk-0696
+aliases:
+  - sk-0696
+  - 为什么奶奶走了
 type: case
 title: "为什么奶奶走了"
 lang: zh-CN

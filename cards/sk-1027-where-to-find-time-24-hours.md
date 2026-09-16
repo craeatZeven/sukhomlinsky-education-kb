@@ -1,5 +1,8 @@
 ---
 id: sk-1027
+aliases:
+  - sk-1027
+  - 从哪儿找时间，一昼夜只有24小时
 type: method
 title: "从哪儿找时间，一昼夜只有24小时"
 lang: zh-CN

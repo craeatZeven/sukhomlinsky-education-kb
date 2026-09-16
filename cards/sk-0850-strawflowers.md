@@ -1,5 +1,8 @@
 ---
 id: sk-0850
+aliases:
+  - sk-0850
+  - 蜡菊
 type: case
 title: "蜡菊"
 lang: zh-CN

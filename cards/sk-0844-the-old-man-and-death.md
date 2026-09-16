@@ -1,5 +1,8 @@
 ---
 id: sk-0844
+aliases:
+  - sk-0844
+  - 老爷爷和死神
 type: case
 title: "老爷爷和死神"
 lang: zh-CN

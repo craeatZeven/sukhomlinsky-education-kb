@@ -1,5 +1,8 @@
 ---
 id: sk-0099
+aliases:
+  - sk-0099
+  - 罂粟田：让每个孩子开垦出自己的罂粟田
 type: case
 title: "罂粟田：让每个孩子开垦出自己的罂粟田"
 lang: zh-CN

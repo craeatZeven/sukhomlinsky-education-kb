@@ -1,5 +1,8 @@
 ---
 id: sk-0308
+aliases:
+  - sk-0308
+  - 教学生用心灵了解人，善意就能创造奇迹
 type: quote
 title: "教学生用心灵了解人，善意就能创造奇迹"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-1169
+aliases:
+  - sk-1169
+  - 如何成为谦虚的人，怎样培养谦虚
 type: principle
 title: "如何成为谦虚的人，怎样培养谦虚"
 lang: zh-CN

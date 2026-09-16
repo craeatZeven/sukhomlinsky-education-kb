@@ -1,5 +1,8 @@
 ---
 id: sk-1189
+aliases:
+  - sk-1189
+  - 人应当尊敬地纪念自己的先辈
 type: principle
 title: "人应当尊敬地纪念自己的先辈"
 lang: zh-CN

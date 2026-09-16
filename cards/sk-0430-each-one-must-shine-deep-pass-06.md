@@ -1,5 +1,8 @@
 ---
 id: sk-0430
+aliases:
+  - sk-0430
+  - 多样劳动是磁铁：吸引孩子找到天职
 type: quote
 title: "多样劳动是磁铁：吸引孩子找到天职"
 lang: zh-CN

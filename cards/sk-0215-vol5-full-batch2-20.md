@@ -1,5 +1,8 @@
 ---
 id: sk-0215
+aliases:
+  - sk-0215
+  - 学生认识人的世界，是从教师开始的
 type: quote
 title: "学生认识人的世界，是从教师开始的"
 lang: zh-CN

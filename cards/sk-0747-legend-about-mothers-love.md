@@ -1,5 +1,8 @@
 ---
 id: sk-0747
+aliases:
+  - sk-0747
+  - 关于母爱的传说
 type: case
 title: "关于母爱的传说"
 lang: zh-CN

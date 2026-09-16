@@ -1,5 +1,8 @@
 ---
 id: sk-1195
+aliases:
+  - sk-1195
+  - 不同年龄学生组成的集体不是凭空建立起来的
 type: principle
 title: "不同年龄学生组成的集体不是凭空建立起来的"
 lang: zh-CN

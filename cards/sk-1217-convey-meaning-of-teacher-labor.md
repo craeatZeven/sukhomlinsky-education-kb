@@ -1,5 +1,8 @@
 ---
 id: sk-1217
+aliases:
+  - sk-1217
+  - 怎样把教师劳动的意义传送到学生的意识中去
 type: principle
 title: "怎样把教师劳动的意义传送到学生的意识中去"
 lang: zh-CN

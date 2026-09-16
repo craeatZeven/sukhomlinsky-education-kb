@@ -1,5 +1,8 @@
 ---
 id: sk-0048
+aliases:
+  - sk-0048
+  - 评价时避免“谁好谁差”的公开比较
 type: method
 title: "评价时避免“谁好谁差”的公开比较"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0386
+aliases:
+  - sk-0386
+  - 教育艺术：让孩子不再是被动受教育者
 type: quote
 title: "教育艺术：让孩子不再是被动受教育者"
 lang: zh-CN

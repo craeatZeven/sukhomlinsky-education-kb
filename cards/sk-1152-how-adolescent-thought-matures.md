@@ -1,5 +1,8 @@
 ---
 id: sk-1152
+aliases:
+  - sk-1152
+  - 青少年的思想是怎样成熟起来的
 type: principle
 title: "青少年的思想是怎样成熟起来的"
 lang: zh-CN

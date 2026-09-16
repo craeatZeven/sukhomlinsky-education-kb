@@ -1,5 +1,8 @@
 ---
 id: sk-0114
+aliases:
+  - sk-0114
+  - 少年维塔利的质问：当孩子说出痛苦的真理
 type: case
 title: "少年维塔利的质问：当孩子说出痛苦的真理"
 lang: zh-CN

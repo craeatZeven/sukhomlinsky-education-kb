@@ -1,5 +1,8 @@
 ---
 id: sk-0530
+aliases:
+  - sk-0530
+  - 蚂蚁和南瓜子：一只累了，另一只马上接住
 type: case
 title: "蚂蚁和南瓜子：一只累了，另一只马上接住"
 lang: zh-CN

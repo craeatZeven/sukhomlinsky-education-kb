@@ -1,5 +1,8 @@
 ---
 id: sk-0402
+aliases:
+  - sk-0402
+  - 谈谈对“后进生”的工作
 type: quote
 title: "谈谈对“后进生”的工作"
 lang: zh-CN

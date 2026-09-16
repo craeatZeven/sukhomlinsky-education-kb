@@ -1,5 +1,8 @@
 ---
 id: sk-0789
+aliases:
+  - sk-0789
+  - 孤独的老师
 type: case
 title: "孤独的老师"
 lang: zh-CN

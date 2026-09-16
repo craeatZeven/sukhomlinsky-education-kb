@@ -1,5 +1,8 @@
 ---
 id: sk-1146
+aliases:
+  - sk-1146
+  - 椋鸟过冬
 type: case
 title: "椋鸟过冬"
 lang: zh-CN

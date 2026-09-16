@@ -1,5 +1,8 @@
 ---
 id: sk-0882
+aliases:
+  - sk-0882
+  - 别忘记一颗螺丝钉
 type: case
 title: "别忘记一颗螺丝钉"
 lang: zh-CN

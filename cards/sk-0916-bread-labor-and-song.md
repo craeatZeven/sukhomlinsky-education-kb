@@ -1,5 +1,8 @@
 ---
 id: sk-0916
+aliases:
+  - sk-0916
+  - 面包、劳动和歌
 type: case
 title: "面包、劳动和歌"
 lang: zh-CN

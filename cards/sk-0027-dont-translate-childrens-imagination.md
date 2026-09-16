@@ -1,5 +1,8 @@
 ---
 id: sk-0027
+aliases:
+  - sk-0027
+  - 不要把孩子想象中的奇妙语言改成大人的语言
 type: quote
 title: "不要把孩子想象中的奇妙语言改成大人的语言"
 lang: zh-CN

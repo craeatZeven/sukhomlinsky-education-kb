@@ -1,5 +1,8 @@
 ---
 id: sk-0874
+aliases:
+  - sk-0874
+  - 地板是清洁的，而心灵呢
 type: case
 title: "地板是清洁的，而心灵呢"
 lang: zh-CN

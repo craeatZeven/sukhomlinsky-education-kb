@@ -1,5 +1,8 @@
 ---
 id: sk-0461
+aliases:
+  - sk-0461
+  - 雪花和小水珠：美丽的雪花在温暖里变成水珠
 type: case
 title: "雪花和小水珠：美丽的雪花在温暖里变成水珠"
 lang: zh-CN

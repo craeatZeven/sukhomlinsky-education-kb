@@ -1,5 +1,8 @@
 ---
 id: sk-0444
+aliases:
+  - sk-0444
+  - 七个女儿对母亲的爱：第七个女儿为妈妈洗脚
 type: case
 title: "七个女儿对母亲的爱：第七个女儿为妈妈洗脚"
 lang: zh-CN

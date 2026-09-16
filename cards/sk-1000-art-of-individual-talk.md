@@ -1,5 +1,8 @@
 ---
 id: sk-1000
+aliases:
+  - sk-1000
+  - 要掌握与学生个别谈话的艺术
 type: method
 title: "要掌握与学生个别谈话的艺术"
 lang: zh-CN

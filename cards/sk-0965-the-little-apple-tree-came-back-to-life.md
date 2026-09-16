@@ -1,5 +1,8 @@
 ---
 id: sk-0965
+aliases:
+  - sk-0965
+  - 小苹果树活了
 type: case
 title: "小苹果树活了"
 lang: zh-CN

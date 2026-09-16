@@ -1,5 +1,8 @@
 ---
 id: sk-0802
+aliases:
+  - sk-0802
+  - 公鸡弟弟，你好
 type: case
 title: "公鸡弟弟，你好"
 lang: zh-CN

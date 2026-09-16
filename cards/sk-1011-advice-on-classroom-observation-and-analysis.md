@@ -1,5 +1,8 @@
 ---
 id: sk-1011
+aliases:
+  - sk-1011
+  - 关于听课和分析课的几点建议
 type: method
 title: "关于听课和分析课的几点建议"
 lang: zh-CN

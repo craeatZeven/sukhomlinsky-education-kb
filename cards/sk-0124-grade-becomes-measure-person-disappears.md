@@ -1,5 +1,8 @@
 ---
 id: sk-0124
+aliases:
+  - sk-0124
+  - 分数成了衡量人的尺度：人在分数后面消失了
 type: quote
 title: "分数成了衡量人的尺度：人在分数后面消失了"
 lang: zh-CN

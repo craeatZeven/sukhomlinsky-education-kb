@@ -1,5 +1,8 @@
 ---
 id: sk-0536
+aliases:
+  - sk-0536
+  - 太阳和瓢虫：别过早飞出来，严寒是狡猾的
 type: case
 title: "太阳和瓢虫：别过早飞出来，严寒是狡猾的"
 lang: zh-CN

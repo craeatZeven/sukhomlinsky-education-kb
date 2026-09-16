@@ -1,5 +1,8 @@
 ---
 id: sk-0776
+aliases:
+  - sk-0776
+  - 莫特里娅奶奶和安德烈卡
 type: case
 title: "莫特里娅奶奶和安德烈卡"
 lang: zh-CN

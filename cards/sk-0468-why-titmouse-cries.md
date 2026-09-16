@@ -1,5 +1,8 @@
 ---
 id: sk-0468
+aliases:
+  - sk-0468
+  - 山雀为什么哭：秋千荡在鸟巢旁
 type: case
 title: "山雀为什么哭：秋千荡在鸟巢旁"
 lang: zh-CN

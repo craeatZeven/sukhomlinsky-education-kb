@@ -1,5 +1,8 @@
 ---
 id: sk-1049
+aliases:
+  - sk-1049
+  - 怎样和懒惰作斗争
 type: method
 title: "怎样和懒惰作斗争"
 lang: zh-CN

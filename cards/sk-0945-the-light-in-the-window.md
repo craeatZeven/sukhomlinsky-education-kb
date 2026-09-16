@@ -1,5 +1,8 @@
 ---
 id: sk-0945
+aliases:
+  - sk-0945
+  - 窗户中的灯光
 type: case
 title: "窗户中的灯光"
 lang: zh-CN

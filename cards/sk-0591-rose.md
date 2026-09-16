@@ -1,5 +1,8 @@
 ---
 id: sk-0591
+aliases:
+  - sk-0591
+  - 玫瑰花：从英雄头盔里长出的花
 type: case
 title: "玫瑰花：从英雄头盔里长出的花"
 lang: zh-CN

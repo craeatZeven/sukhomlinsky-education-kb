@@ -1,5 +1,8 @@
 ---
 id: sk-0263
+aliases:
+  - sk-0263
+  - 教师课堂上的精神语调，直接影响学习愿望
 type: quote
 title: "教师课堂上的精神语调，直接影响学习愿望"
 lang: zh-CN

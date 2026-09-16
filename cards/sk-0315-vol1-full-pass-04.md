@@ -1,5 +1,8 @@
 ---
 id: sk-0315
+aliases:
+  - sk-0315
+  - 从道德概念到道德信念，要从情感行为开始
 type: principle
 title: "从道德概念到道德信念，要从情感行为开始"
 lang: zh-CN

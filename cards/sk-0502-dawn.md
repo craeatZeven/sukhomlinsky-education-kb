@@ -1,5 +1,8 @@
 ---
 id: sk-0502
+aliases:
+  - sk-0502
+  - 晨曦：云雀唱‘我已经看到了太阳’
 type: case
 title: "晨曦：云雀唱‘我已经看到了太阳’"
 lang: zh-CN

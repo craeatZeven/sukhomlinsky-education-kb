@@ -1,5 +1,8 @@
 ---
 id: sk-1047
+aliases:
+  - sk-1047
+  - 培养儿童热爱绘画
 type: method
 title: "培养儿童热爱绘画"
 lang: zh-CN

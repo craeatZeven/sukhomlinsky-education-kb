@@ -1,5 +1,8 @@
 ---
 id: sk-0374
+aliases:
+  - sk-0374
+  - 普通学校的宗旨不在于职业训练
 type: quote
 title: "普通学校的宗旨不在于职业训练"
 lang: zh-CN

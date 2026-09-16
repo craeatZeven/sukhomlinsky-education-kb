@@ -1,5 +1,8 @@
 ---
 id: sk-0328
+aliases:
+  - sk-0328
+  - 在学生面前进行思维
 type: method
 title: "在学生面前进行思维"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0140
+aliases:
+  - sk-0140
+  - 玛丽亚老奶奶的花园：让学生学会看见孤独者
 type: case
 title: "玛丽亚老奶奶的花园：让学生学会看见孤独者"
 lang: zh-CN

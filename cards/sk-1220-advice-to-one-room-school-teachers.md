@@ -1,5 +1,8 @@
 ---
 id: sk-1220
+aliases:
+  - sk-1220
+  - 给单班制学校教师的建议
 type: method
 title: "给单班制学校教师的建议"
 lang: zh-CN

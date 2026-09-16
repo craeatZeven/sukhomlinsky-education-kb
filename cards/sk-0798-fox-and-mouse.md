@@ -1,5 +1,8 @@
 ---
 id: sk-0798
+aliases:
+  - sk-0798
+  - 狐狸和老鼠
 type: case
 title: "狐狸和老鼠"
 lang: zh-CN

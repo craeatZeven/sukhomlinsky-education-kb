@@ -1,5 +1,8 @@
 ---
 id: sk-0986
+aliases:
+  - sk-0986
+  - 勤劳人与懒惰人
 type: case
 title: "勤劳人与懒惰人"
 lang: zh-CN

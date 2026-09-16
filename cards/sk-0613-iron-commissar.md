@@ -1,5 +1,8 @@
 ---
 id: sk-0613
+aliases:
+  - sk-0613
+  - 铁政委：假脚与一颗传遍千人的心
 type: case
 title: "铁政委：假脚与一颗传遍千人的心"
 lang: zh-CN

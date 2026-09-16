@@ -1,5 +1,8 @@
 ---
 id: sk-0905
+aliases:
+  - sk-0905
+  - 有洞的桶
 type: case
 title: "有洞的桶"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0955
+aliases:
+  - sk-0955
+  - 忘了
 type: case
 title: "忘了"
 lang: zh-CN

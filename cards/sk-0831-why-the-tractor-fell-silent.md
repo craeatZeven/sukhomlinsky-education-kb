@@ -1,5 +1,8 @@
 ---
 id: sk-0831
+aliases:
+  - sk-0831
+  - 为什么拖拉机沉默了
 type: case
 title: "为什么拖拉机沉默了"
 lang: zh-CN

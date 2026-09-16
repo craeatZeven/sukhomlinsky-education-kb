@@ -1,5 +1,8 @@
 ---
 id: sk-0991
+aliases:
+  - sk-0991
+  - 蚊子与大木桶
 type: case
 title: "蚊子与大木桶"
 lang: zh-CN

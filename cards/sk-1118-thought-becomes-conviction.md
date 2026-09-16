@@ -1,5 +1,8 @@
 ---
 id: sk-1118
+aliases:
+  - sk-1118
+  - 思想变为信念
 type: principle
 title: "思想变为信念"
 lang: zh-CN

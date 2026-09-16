@@ -1,5 +1,8 @@
 ---
 id: sk-1033
+aliases:
+  - sk-1033
+  - 作者的话：校长要成为“教师的教师”
 type: principle
 title: "作者的话：校长要成为“教师的教师”"
 lang: zh-CN

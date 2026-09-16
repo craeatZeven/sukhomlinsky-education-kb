@@ -1,5 +1,8 @@
 ---
 id: sk-0865
+aliases:
+  - sk-0865
+  - 椋鸟飞来了
 type: case
 title: "椋鸟飞来了"
 lang: zh-CN

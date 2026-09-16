@@ -1,5 +1,8 @@
 ---
 id: sk-0818
+aliases:
+  - sk-0818
+  - 塔尼娅笑了
 type: case
 title: "塔尼娅笑了"
 lang: zh-CN

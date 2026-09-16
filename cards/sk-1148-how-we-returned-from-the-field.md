@@ -1,5 +1,8 @@
 ---
 id: sk-1148
+aliases:
+  - sk-1148
+  - 我们是怎样从野外归来的
 type: case
 title: "我们是怎样从野外归来的"
 lang: zh-CN

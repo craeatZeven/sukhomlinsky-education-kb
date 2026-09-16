@@ -1,5 +1,8 @@
 ---
 id: sk-0725
+aliases:
+  - sk-0725
+  - 侮辱的话
 type: case
 title: "侮辱的话"
 lang: zh-CN

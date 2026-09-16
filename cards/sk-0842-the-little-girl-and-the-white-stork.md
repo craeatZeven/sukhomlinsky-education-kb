@@ -1,5 +1,8 @@
 ---
 id: sk-0842
+aliases:
+  - sk-0842
+  - 小女孩和白鹳
 type: case
 title: "小女孩和白鹳"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0951
+aliases:
+  - sk-0951
+  - 为什么爸爸不开心
 type: case
 title: "为什么爸爸不开心"
 lang: zh-CN

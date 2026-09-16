@@ -1,5 +1,8 @@
 ---
 id: sk-0595
+aliases:
+  - sk-0595
+  - 苏联士兵的心：最后一句是‘接住孩子’
 type: case
 title: "苏联士兵的心：最后一句是‘接住孩子’"
 lang: zh-CN

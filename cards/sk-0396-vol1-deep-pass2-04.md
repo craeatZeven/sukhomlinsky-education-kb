@@ -1,5 +1,8 @@
 ---
 id: sk-0396
+aliases:
+  - sk-0396
+  - 快乐是儿童精神发展的源泉
 type: quote
 title: "快乐是儿童精神发展的源泉"
 lang: zh-CN

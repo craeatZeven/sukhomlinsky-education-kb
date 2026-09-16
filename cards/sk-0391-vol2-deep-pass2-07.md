@@ -1,5 +1,8 @@
 ---
 id: sk-0391
+aliases:
+  - sk-0391
+  - 两种思维类型：逻辑分析与艺术形象
 type: quote
 title: "两种思维类型：逻辑分析与艺术形象"
 lang: zh-CN

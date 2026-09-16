@@ -1,5 +1,8 @@
 ---
 id: sk-0995
+aliases:
+  - sk-0995
+  - 关于做“困难”学生的工作
 type: method
 title: "关于做“困难”学生的工作"
 lang: zh-CN

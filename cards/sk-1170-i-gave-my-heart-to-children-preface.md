@@ -1,5 +1,8 @@
 ---
 id: sk-1170
+aliases:
+  - sk-1170
+  - 我把心给了孩子们·前言
 type: quote
 title: "我把心给了孩子们·前言"
 lang: zh-CN

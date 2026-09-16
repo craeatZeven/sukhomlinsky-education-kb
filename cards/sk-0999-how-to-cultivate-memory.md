@@ -1,5 +1,8 @@
 ---
 id: sk-0999
+aliases:
+  - sk-0999
+  - 怎样培养记忆力
 type: method
 title: "怎样培养记忆力"
 lang: zh-CN

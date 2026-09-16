@@ -1,5 +1,8 @@
 ---
 id: sk-1180
+aliases:
+  - sk-1180
+  - 理解亲人的痛苦能提高道德敏锐性
 type: principle
 title: "理解亲人的痛苦能提高道德敏锐性"
 lang: zh-CN

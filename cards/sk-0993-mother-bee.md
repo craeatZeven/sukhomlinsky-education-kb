@@ -1,5 +1,8 @@
 ---
 id: sk-0993
+aliases:
+  - sk-0993
+  - 蜜蜂妈妈
 type: case
 title: "蜜蜂妈妈"
 lang: zh-CN

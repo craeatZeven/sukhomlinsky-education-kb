@@ -1,5 +1,8 @@
 ---
 id: sk-1001
+aliases:
+  - sk-1001
+  - 怎样教孩子正确对待批评、责备、惩罚
 type: method
 title: "怎样教孩子正确对待批评、责备、惩罚"
 lang: zh-CN

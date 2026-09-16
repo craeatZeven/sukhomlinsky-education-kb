@@ -1,5 +1,8 @@
 ---
 id: sk-0355
+aliases:
+  - sk-0355
+  - 人间的幸福在劳动中
 type: quote
 title: "人间的幸福在劳动中"
 lang: zh-CN

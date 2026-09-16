@@ -1,5 +1,8 @@
 ---
 id: sk-0894
+aliases:
+  - sk-0894
+  - 面包师与裁缝
 type: case
 title: "面包师与裁缝"
 lang: zh-CN

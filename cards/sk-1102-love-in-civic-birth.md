@@ -1,5 +1,8 @@
 ---
 id: sk-1102
+aliases:
+  - sk-1102
+  - 恋爱：尊重少年隐秘的内心世界
 type: principle
 title: "恋爱：尊重少年隐秘的内心世界"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0035
+aliases:
+  - sk-0035
+  - 教师的自由时间，是滋养创造力的根
 type: principle
 title: "教师的自由时间，是滋养创造力的根"
 lang: zh-CN

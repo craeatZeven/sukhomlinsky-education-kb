@@ -1,5 +1,8 @@
 ---
 id: sk-1216
+aliases:
+  - sk-1216
+  - 在学校集体中什么可以讨论和什么不可以讨论
 type: principle
 title: "在学校集体中什么可以讨论和什么不可以讨论"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-1147
+aliases:
+  - sk-1147
+  - 新年松树
 type: case
 title: "新年松树"
 lang: zh-CN

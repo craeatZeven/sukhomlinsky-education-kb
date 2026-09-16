@@ -1,5 +1,8 @@
 ---
 id: sk-1149
+aliases:
+  - sk-1149
+  - 初秋
 type: case
 title: "初秋"
 lang: zh-CN

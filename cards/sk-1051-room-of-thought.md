@@ -1,5 +1,8 @@
 ---
 id: sk-1051
+aliases:
+  - sk-1051
+  - 学校集体的精神生活：“思想之室”
 type: practice
 title: "学校集体的精神生活：“思想之室”"
 lang: zh-CN

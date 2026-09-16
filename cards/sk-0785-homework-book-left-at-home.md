@@ -1,5 +1,8 @@
 ---
 id: sk-0785
+aliases:
+  - sk-0785
+  - 作业本忘在家里了
 type: case
 title: "作业本忘在家里了"
 lang: zh-CN

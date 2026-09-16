@@ -1,5 +1,8 @@
 ---
 id: sk-0043
+aliases:
+  - sk-0043
+  - 家中缺少疼爱的孩子，教师更要倍加关心
 type: quote
 title: "家中缺少疼爱的孩子，教师更要倍加关心"
 lang: zh-CN

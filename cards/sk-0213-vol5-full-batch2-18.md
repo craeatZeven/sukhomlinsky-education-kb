@@ -1,5 +1,8 @@
 ---
 id: sk-0213
+aliases:
+  - sk-0213
+  - 给新团员一株‘母亲树’树苗
 type: practice
 title: "给新团员一株‘母亲树’树苗"
 lang: zh-CN

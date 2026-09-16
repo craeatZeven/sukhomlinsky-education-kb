@@ -1,5 +1,8 @@
 ---
 id: sk-0313
+aliases:
+  - sk-0313
+  - 智育不能归结为积累知识
 type: principle
 title: "智育不能归结为积累知识"
 lang: zh-CN

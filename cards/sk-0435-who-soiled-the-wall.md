@@ -1,5 +1,8 @@
 ---
 id: sk-0435
+aliases:
+  - sk-0435
+  - 是谁把墙弄脏了：教师不善于观察会冤枉孩子
 type: case
 title: "是谁把墙弄脏了：教师不善于观察会冤枉孩子"
 lang: zh-CN

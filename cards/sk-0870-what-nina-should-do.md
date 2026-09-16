@@ -1,5 +1,8 @@
 ---
 id: sk-0870
+aliases:
+  - sk-0870
+  - 尼娜应该做些什么事
 type: case
 title: "尼娜应该做些什么事"
 lang: zh-CN

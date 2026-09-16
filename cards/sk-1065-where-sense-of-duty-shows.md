@@ -1,5 +1,8 @@
 ---
 id: sk-1065
+aliases:
+  - sk-1065
+  - 在哪些行为之中应表现出义务感
 type: principle
 title: "在哪些行为之中应表现出义务感"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0334
+aliases:
+  - sk-0334
+  - 爱情之火需要添加多方面的精神生活
 type: quote
 title: "爱情之火需要添加多方面的精神生活"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-1167
+aliases:
+  - sk-1167
+  - 什么是课堂上的思想教育
 type: principle
 title: "什么是课堂上的思想教育"
 lang: zh-CN

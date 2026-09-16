@@ -1,5 +1,8 @@
 ---
 id: sk-0775
+aliases:
+  - sk-0775
+  - 你们是多么幸福呀
 type: case
 title: "你们是多么幸福呀"
 lang: zh-CN

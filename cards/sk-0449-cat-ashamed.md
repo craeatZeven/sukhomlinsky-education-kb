@@ -1,5 +1,8 @@
 ---
 id: sk-0449
+aliases:
+  - sk-0449
+  - 猫害臊了：抓不到麻雀，失败也会让猫脸红
 type: case
 title: "猫害臊了：抓不到麻雀，失败也会让猫脸红"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0311
+aliases:
+  - sk-0311
+  - 儿童是不会故意做坏事的
 type: quote
 title: "儿童是不会故意做坏事的"
 lang: zh-CN

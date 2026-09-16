@@ -1,5 +1,8 @@
 ---
 id: sk-0856
+aliases:
+  - sk-0856
+  - 谁是世界上最优秀的能工巧匠
 type: case
 title: "谁是世界上最优秀的能工巧匠"
 lang: zh-CN

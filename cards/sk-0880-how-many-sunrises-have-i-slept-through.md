@@ -1,5 +1,8 @@
 ---
 id: sk-0880
+aliases:
+  - sk-0880
+  - 我睡过了多少次日出
 type: case
 title: "我睡过了多少次日出"
 lang: zh-CN

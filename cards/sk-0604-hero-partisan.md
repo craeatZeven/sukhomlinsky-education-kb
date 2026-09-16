@@ -1,5 +1,8 @@
 ---
 id: sk-0604
+aliases:
+  - sk-0604
+  - 英雄，游击队员：妈妈的眼泪能让英雄复活
 type: case
 title: "英雄，游击队员：妈妈的眼泪能让英雄复活"
 lang: zh-CN

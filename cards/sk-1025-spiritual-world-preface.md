@@ -1,5 +1,8 @@
 ---
 id: sk-1025
+aliases:
+  - sk-1025
+  - 学生的精神世界（序言）：知识不只为了劳动
 type: principle
 title: "学生的精神世界（序言）：知识不只为了劳动"
 lang: zh-CN

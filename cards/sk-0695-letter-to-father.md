@@ -1,5 +1,8 @@
 ---
 id: sk-0695
+aliases:
+  - sk-0695
+  - 给父亲的信
 type: case
 title: "给父亲的信"
 lang: zh-CN

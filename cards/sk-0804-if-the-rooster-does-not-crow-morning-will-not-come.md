@@ -1,5 +1,8 @@
 ---
 id: sk-0804
+aliases:
+  - sk-0804
+  - 公鸡不叫，早晨就不会来
 type: case
 title: "公鸡不叫，早晨就不会来"
 lang: zh-CN

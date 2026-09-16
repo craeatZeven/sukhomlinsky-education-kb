@@ -1,5 +1,8 @@
 ---
 id: sk-1140
+aliases:
+  - sk-1140
+  - 行为美的理想观念的培养
 type: principle
 title: "行为美的理想观念的培养"
 lang: zh-CN

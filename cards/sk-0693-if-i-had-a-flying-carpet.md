@@ -1,5 +1,8 @@
 ---
 id: sk-0693
+aliases:
+  - sk-0693
+  - 如果我有飞毯
 type: case
 title: "如果我有飞毯"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0889
+aliases:
+  - sk-0889
+  - 湿衬衫与干衬衫
 type: case
 title: "湿衬衫与干衬衫"
 lang: zh-CN

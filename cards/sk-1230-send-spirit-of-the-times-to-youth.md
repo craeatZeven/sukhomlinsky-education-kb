@@ -1,5 +1,8 @@
 ---
 id: sk-1230
+aliases:
+  - sk-1230
+  - 怎样把时代精神送到青少年的心坎里
 type: case
 title: "怎样把时代精神送到青少年的心坎里"
 lang: zh-CN

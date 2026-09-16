@@ -1,5 +1,8 @@
 ---
 id: sk-0255
+aliases:
+  - sk-0255
+  - 教师道德不容许一个学生感到自己孤独
 type: quote
 title: "教师道德不容许一个学生感到自己孤独"
 lang: zh-CN

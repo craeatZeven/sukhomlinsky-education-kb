@@ -1,5 +1,8 @@
 ---
 id: sk-0302
+aliases:
+  - sk-0302
+  - 知识向信念的转化取决于教书与育人的结合
 type: quote
 title: "知识向信念的转化取决于教书与育人的结合"
 lang: zh-CN

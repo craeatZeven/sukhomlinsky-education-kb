@@ -1,5 +1,8 @@
 ---
 id: sk-0795
+aliases:
+  - sk-0795
+  - 老樱桃的小孙子
 type: case
 title: "老樱桃的小孙子"
 lang: zh-CN

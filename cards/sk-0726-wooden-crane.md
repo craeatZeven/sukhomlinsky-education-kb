@@ -1,5 +1,8 @@
 ---
 id: sk-0726
+aliases:
+  - sk-0726
+  - 木制的鹤
 type: case
 title: "木制的鹤"
 lang: zh-CN

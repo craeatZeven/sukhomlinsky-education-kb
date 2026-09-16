@@ -1,5 +1,8 @@
 ---
 id: sk-0534
+aliases:
+  - sk-0534
+  - 毒莓灌木：有毒的东西常常是美丽的
 type: case
 title: "毒莓灌木：有毒的东西常常是美丽的"
 lang: zh-CN

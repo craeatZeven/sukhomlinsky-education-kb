@@ -1,5 +1,8 @@
 ---
 id: sk-0587
+aliases:
+  - sk-0587
+  - 谢廖扎在等信：哥哥要一束家乡的麦穗
 type: case
 title: "谢廖扎在等信：哥哥要一束家乡的麦穗"
 lang: zh-CN

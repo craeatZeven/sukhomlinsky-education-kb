@@ -1,5 +1,8 @@
 ---
 id: sk-0350
+aliases:
+  - sk-0350
+  - 致年轻的朋友：面包是神圣的
 type: quote
 title: "致年轻的朋友：面包是神圣的"
 lang: zh-CN

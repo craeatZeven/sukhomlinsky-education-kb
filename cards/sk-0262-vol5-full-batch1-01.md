@@ -1,5 +1,8 @@
 ---
 id: sk-0262
+aliases:
+  - sk-0262
+  - 创造成功的“预感”，是培养学习愿望的最重要任务
 type: principle
 title: "创造成功的“预感”，是培养学习愿望的最重要任务"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0050
+aliases:
+  - sk-0050
+  - 开学前几周，先熟悉每一个家庭
 type: practice
 title: "开学前几周，先熟悉每一个家庭"
 lang: zh-CN

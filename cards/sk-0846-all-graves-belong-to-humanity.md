@@ -1,5 +1,8 @@
 ---
 id: sk-0846
+aliases:
+  - sk-0846
+  - 所有的墓都是人类共有的
 type: case
 title: "所有的墓都是人类共有的"
 lang: zh-CN

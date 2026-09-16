@@ -1,5 +1,8 @@
 ---
 id: sk-0717
+aliases:
+  - sk-0717
+  - 三个苹果
 type: case
 title: "三个苹果"
 lang: zh-CN

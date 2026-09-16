@@ -1,5 +1,8 @@
 ---
 id: sk-1063
+aliases:
+  - sk-1063
+  - 集体中的交往
 type: principle
 title: "集体中的交往"
 lang: zh-CN

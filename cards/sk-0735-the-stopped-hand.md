@@ -1,5 +1,8 @@
 ---
 id: sk-0735
+aliases:
+  - sk-0735
+  - 被制止的手
 type: case
 title: "被制止的手"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0293
+aliases:
+  - sk-0293
+  - 只有进入人的生活的美，才会唤起美感
 type: principle
 title: "只有进入人的生活的美，才会唤起美感"
 lang: zh-CN

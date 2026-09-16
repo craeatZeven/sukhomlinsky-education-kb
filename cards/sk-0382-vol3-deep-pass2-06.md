@@ -1,5 +1,8 @@
 ---
 id: sk-0382
+aliases:
+  - sk-0382
+  - 公民感要牢记心里而非挂在口头上
 type: principle
 title: "公民感要牢记心里而非挂在口头上"
 lang: zh-CN

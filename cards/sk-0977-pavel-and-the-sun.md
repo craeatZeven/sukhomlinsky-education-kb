@@ -1,5 +1,8 @@
 ---
 id: sk-0977
+aliases:
+  - sk-0977
+  - 帕维尔和太阳
 type: case
 title: "帕维尔和太阳"
 lang: zh-CN

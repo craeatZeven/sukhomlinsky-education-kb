@@ -1,5 +1,8 @@
 ---
 id: sk-1002
+aliases:
+  - sk-1002
+  - 父母在孩子生活中的作用
 type: principle
 title: "父母在孩子生活中的作用"
 lang: zh-CN

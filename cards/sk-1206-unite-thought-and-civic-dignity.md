@@ -1,5 +1,8 @@
 ---
 id: sk-1206
+aliases:
+  - sk-1206
+  - 怎样使思想和公民尊严感融为一体
 type: method
 title: "怎样使思想和公民尊严感融为一体"
 lang: zh-CN

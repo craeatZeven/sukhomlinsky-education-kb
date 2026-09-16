@@ -1,5 +1,8 @@
 ---
 id: sk-1223
+aliases:
+  - sk-1223
+  - 用追求理想的方法培养思想性
 type: principle
 title: "用追求理想的方法培养思想性"
 lang: zh-CN

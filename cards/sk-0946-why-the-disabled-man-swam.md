@@ -1,5 +1,8 @@
 ---
 id: sk-0946
+aliases:
+  - sk-0946
+  - 残疾人为什么游泳
 type: case
 title: "残疾人为什么游泳"
 lang: zh-CN

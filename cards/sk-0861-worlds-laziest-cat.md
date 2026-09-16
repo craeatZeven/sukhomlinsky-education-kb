@@ -1,5 +1,8 @@
 ---
 id: sk-0861
+aliases:
+  - sk-0861
+  - 世界上最懒的猫
 type: case
 title: "世界上最懒的猫"
 lang: zh-CN

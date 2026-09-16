@@ -1,5 +1,8 @@
 ---
 id: sk-0819
+aliases:
+  - sk-0819
+  - 啄木鸟和女孩
 type: case
 title: "啄木鸟和女孩"
 lang: zh-CN

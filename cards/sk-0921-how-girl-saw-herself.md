@@ -1,5 +1,8 @@
 ---
 id: sk-0921
+aliases:
+  - sk-0921
+  - 小姑娘是怎样看见自己的
 type: case
 title: "小姑娘是怎样看见自己的"
 lang: zh-CN

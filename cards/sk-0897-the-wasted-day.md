@@ -1,5 +1,8 @@
 ---
 id: sk-0897
+aliases:
+  - sk-0897
+  - 被浪费的一天
 type: case
 title: "被浪费的一天"
 lang: zh-CN

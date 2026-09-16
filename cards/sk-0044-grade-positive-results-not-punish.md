@@ -1,5 +1,8 @@
 ---
 id: sk-0044
+aliases:
+  - sk-0044
+  - 评分应只反映积极脑力劳动成果，而不是惩罚工具
 type: principle
 title: "评分应只反映积极脑力劳动成果，而不是惩罚工具"
 lang: zh-CN

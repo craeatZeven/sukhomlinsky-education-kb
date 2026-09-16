@@ -1,5 +1,8 @@
 ---
 id: sk-1166
+aliases:
+  - sk-1166
+  - 怎样在脑力劳动中培养自觉的纪律
 type: method
 title: "怎样在脑力劳动中培养自觉的纪律"
 lang: zh-CN

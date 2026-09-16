@@ -1,5 +1,8 @@
 ---
 id: sk-1021
+aliases:
+  - sk-1021
+  - 共青团会议怎样才有生气
 type: method
 title: "共青团会议怎样才有生气"
 lang: zh-CN

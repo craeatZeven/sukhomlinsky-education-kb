@@ -1,5 +1,8 @@
 ---
 id: sk-0331
+aliases:
+  - sk-0331
+  - 粮食、劳动、人民：三根支柱
 type: quote
 title: "粮食、劳动、人民：三根支柱"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0728
+aliases:
+  - sk-0728
+  - 爷爷的摇篮
 type: case
 title: "爷爷的摇篮"
 lang: zh-CN

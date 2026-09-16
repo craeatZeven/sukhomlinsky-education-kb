@@ -1,5 +1,8 @@
 ---
 id: sk-1012
+aliases:
+  - sk-1012
+  - 情感教育
 type: case
 title: "情感教育"
 lang: zh-CN

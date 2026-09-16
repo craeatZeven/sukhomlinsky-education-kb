@@ -1,5 +1,8 @@
 ---
 id: sk-1087
+aliases:
+  - sk-1087
+  - 为什么爷爷和奶奶掉眼泪？
 type: case
 title: "为什么爷爷和奶奶掉眼泪？"
 lang: zh-CN

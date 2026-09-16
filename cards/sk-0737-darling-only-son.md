@@ -1,5 +1,8 @@
 ---
 id: sk-0737
+aliases:
+  - sk-0737
+  - 最心爱的宝贝儿子
 type: case
 title: "最心爱的宝贝儿子"
 lang: zh-CN

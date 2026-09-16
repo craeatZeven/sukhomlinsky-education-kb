@@ -1,5 +1,8 @@
 ---
 id: sk-0701
+aliases:
+  - sk-0701
+  - 谁给奶奶讲故事
 type: case
 title: "谁给奶奶讲故事"
 lang: zh-CN

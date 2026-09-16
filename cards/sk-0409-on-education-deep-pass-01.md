@@ -1,5 +1,8 @@
 ---
 id: sk-0409
+aliases:
+  - sk-0409
+  - 谷物芬多精：新鲜空气是健康的灵药
 type: practice
 title: "谷物芬多精：新鲜空气是健康的灵药"
 lang: zh-CN

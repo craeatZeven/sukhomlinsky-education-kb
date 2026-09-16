@@ -1,5 +1,8 @@
 ---
 id: sk-1191
+aliases:
+  - sk-1191
+  - 怎样培养孩子自觉地去追求善良
 type: principle
 title: "怎样培养孩子自觉地去追求善良"
 lang: zh-CN

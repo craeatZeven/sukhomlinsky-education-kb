@@ -1,5 +1,8 @@
 ---
 id: sk-1124
+aliases:
+  - sk-1124
+  - 凶恶的蜘蛛
 type: case
 title: "凶恶的蜘蛛"
 lang: zh-CN

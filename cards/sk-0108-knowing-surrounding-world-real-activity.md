@@ -1,5 +1,8 @@
 ---
 id: sk-0108
+aliases:
+  - sk-0108
+  - 让认识周围世界成为儿童真正的活动
 type: principle
 title: "让认识周围世界成为儿童真正的活动"
 lang: zh-CN

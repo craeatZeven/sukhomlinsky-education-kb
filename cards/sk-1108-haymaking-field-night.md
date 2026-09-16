@@ -1,5 +1,8 @@
 ---
 id: sk-1108
+aliases:
+  - sk-1108
+  - 刈草场之夜
 type: case
 title: "刈草场之夜"
 lang: zh-CN

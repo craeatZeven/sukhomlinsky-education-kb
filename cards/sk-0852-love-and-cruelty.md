@@ -1,5 +1,8 @@
 ---
 id: sk-0852
+aliases:
+  - sk-0852
+  - 爱和凶残
 type: case
 title: "爱和凶残"
 lang: zh-CN

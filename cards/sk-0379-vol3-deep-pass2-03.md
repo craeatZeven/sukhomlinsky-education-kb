@@ -1,5 +1,8 @@
 ---
 id: sk-0379
+aliases:
+  - sk-0379
+  - 教读写要让孩子置身美与游戏的世界
 type: principle
 title: "教读写要让孩子置身美与游戏的世界"
 lang: zh-CN

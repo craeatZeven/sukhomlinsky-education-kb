@@ -1,5 +1,8 @@
 ---
 id: sk-0966
+aliases:
+  - sk-0966
+  - 给最弱的人每人一口水
 type: case
 title: "给最弱的人每人一口水"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-1060
+aliases:
+  - sk-1060
+  - 美的认识与情操的培养
 type: method
 title: "美的认识与情操的培养"
 lang: zh-CN

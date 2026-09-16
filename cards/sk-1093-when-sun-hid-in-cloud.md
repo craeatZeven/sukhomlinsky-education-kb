@@ -1,5 +1,8 @@
 ---
 id: sk-1093
+aliases:
+  - sk-1093
+  - 当太阳没入乌云的时候
 type: case
 title: "当太阳没入乌云的时候"
 lang: zh-CN

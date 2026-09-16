@@ -1,5 +1,8 @@
 ---
 id: sk-0316
+aliases:
+  - sk-0316
+  - 美是道德纯洁、精神丰富、体魄健全的源泉
 type: quote
 title: "美是道德纯洁、精神丰富、体魄健全的源泉"
 lang: zh-CN

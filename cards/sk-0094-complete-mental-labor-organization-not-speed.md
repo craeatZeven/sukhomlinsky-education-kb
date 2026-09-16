@@ -1,5 +1,8 @@
 ---
 id: sk-0094
+aliases:
+  - sk-0094
+  - 完满的脑力劳动来自细心组织而非速度
 type: quote
 title: "完满的脑力劳动来自细心组织而非速度"
 lang: zh-CN

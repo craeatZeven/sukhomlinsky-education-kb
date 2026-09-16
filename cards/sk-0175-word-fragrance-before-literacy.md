@@ -1,5 +1,8 @@
 ---
 id: sk-0175
+aliases:
+  - sk-0175
+  - 在儿童闻到词语的芬芳之前，不要开始识字教学
 type: quote
 title: "在儿童闻到词语的芬芳之前，不要开始识字教学"
 lang: zh-CN

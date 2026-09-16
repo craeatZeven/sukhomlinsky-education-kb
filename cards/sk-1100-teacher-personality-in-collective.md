@@ -1,5 +1,8 @@
 ---
 id: sk-1100
+aliases:
+  - sk-1100
+  - 教师的人格在集体和学生个人精神生活中的作用
 type: principle
 title: "教师的人格在集体和学生个人精神生活中的作用"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0744
+aliases:
+  - sk-0744
+  - 盲目的爱
 type: case
 title: "盲目的爱"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0784
+aliases:
+  - sk-0784
+  - 谢廖扎为什么感到羞愧
 type: case
 title: "谢廖扎为什么感到羞愧"
 lang: zh-CN

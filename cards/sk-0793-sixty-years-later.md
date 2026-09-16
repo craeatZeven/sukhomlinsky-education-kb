@@ -1,5 +1,8 @@
 ---
 id: sk-0793
+aliases:
+  - sk-0793
+  - 60年之后
 type: case
 title: "60年之后"
 lang: zh-CN

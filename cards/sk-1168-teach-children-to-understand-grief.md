@@ -1,5 +1,8 @@
 ---
 id: sk-1168
+aliases:
+  - sk-1168
+  - 怎样教会孩子善于理解人的悲痛
 type: principle
 title: "怎样教会孩子善于理解人的悲痛"
 lang: zh-CN

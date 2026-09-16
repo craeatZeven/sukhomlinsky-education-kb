@@ -1,5 +1,8 @@
 ---
 id: sk-0012
+aliases:
+  - sk-0012
+  - 85% 学业落后与健康有关，需要家校医合力
 type: principle
 title: "85% 学业落后与健康有关，需要家校医合力"
 lang: zh-CN

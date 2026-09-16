@@ -1,5 +1,8 @@
 ---
 id: sk-0404
+aliases:
+  - sk-0404
+  - 要教会儿童利用自由支配的时间
 type: quote
 title: "要教会儿童利用自由支配的时间"
 lang: zh-CN

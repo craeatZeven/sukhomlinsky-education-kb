@@ -1,5 +1,8 @@
 ---
 id: sk-0349
+aliases:
+  - sk-0349
+  - 做一个公民：别对邪恶无动于衷
 type: quote
 title: "做一个公民：别对邪恶无动于衷"
 lang: zh-CN

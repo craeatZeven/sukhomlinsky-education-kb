@@ -1,5 +1,8 @@
 ---
 id: sk-0469
+aliases:
+  - sk-0469
+  - 白色的亚麻布：晨霜像老奶奶铺下的亚麻布
 type: case
 title: "白色的亚麻布：晨霜像老奶奶铺下的亚麻布"
 lang: zh-CN

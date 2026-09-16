@@ -1,5 +1,8 @@
 ---
 id: sk-1019
+aliases:
+  - sk-1019
+  - 孩子应该怎样理解自己对他人的义务
 type: principle
 title: "孩子应该怎样理解自己对他人的义务"
 lang: zh-CN

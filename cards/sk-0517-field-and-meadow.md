@@ -1,5 +1,8 @@
 ---
 id: sk-0517
+aliases:
+  - sk-0517
+  - 田野和草地：我变绿是因为人们劳动播种
 type: case
 title: "田野和草地：我变绿是因为人们劳动播种"
 lang: zh-CN

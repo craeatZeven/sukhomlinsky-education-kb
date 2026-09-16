@@ -1,5 +1,8 @@
 ---
 id: sk-0423
+aliases:
+  - sk-0423
+  - 学习应逐步开始：既是艰巨劳动，也是愉快劳动
 type: quote
 title: "学习应逐步开始：既是艰巨劳动，也是愉快劳动"
 lang: zh-CN

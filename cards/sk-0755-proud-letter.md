@@ -1,5 +1,8 @@
 ---
 id: sk-0755
+aliases:
+  - sk-0755
+  - 傲慢的字母
 type: case
 title: "傲慢的字母"
 lang: zh-CN

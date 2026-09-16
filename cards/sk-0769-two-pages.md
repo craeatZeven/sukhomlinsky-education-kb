@@ -1,5 +1,8 @@
 ---
 id: sk-0769
+aliases:
+  - sk-0769
+  - 两页书
 type: case
 title: "两页书"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0217
+aliases:
+  - sk-0217
+  - 只见树木不见森林：教学要见整体
 type: quote
 title: "只见树木不见森林：教学要见整体"
 lang: zh-CN

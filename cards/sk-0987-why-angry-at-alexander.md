@@ -1,5 +1,8 @@
 ---
 id: sk-0987
+aliases:
+  - sk-0987
+  - 为什么对亚历山大愤怒了
 type: case
 title: "为什么对亚历山大愤怒了"
 lang: zh-CN

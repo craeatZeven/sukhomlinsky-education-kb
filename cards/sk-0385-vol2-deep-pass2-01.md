@@ -1,5 +1,8 @@
 ---
 id: sk-0385
+aliases:
+  - sk-0385
+  - 劳动的社会意义揭示越鲜明，劳动越成为需要
 type: quote
 title: "劳动的社会意义揭示越鲜明，劳动越成为需要"
 lang: zh-CN

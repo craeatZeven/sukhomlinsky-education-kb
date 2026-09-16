@@ -1,5 +1,8 @@
 ---
 id: sk-1037
+aliases:
+  - sk-1037
+  - 观察是知识的理解和记忆之母：教学生观察、教学生细看
 type: principle
 title: "观察是知识的理解和记忆之母：教学生观察、教学生细看"
 lang: zh-CN

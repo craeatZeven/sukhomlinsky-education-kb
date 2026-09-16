@@ -1,5 +1,8 @@
 ---
 id: sk-0937
+aliases:
+  - sk-0937
+  - 安德烈卡是怎样背尼娜过水沟的
 type: case
 title: "安德烈卡是怎样背尼娜过水沟的"
 lang: zh-CN

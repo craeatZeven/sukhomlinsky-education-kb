@@ -1,5 +1,8 @@
 ---
 id: sk-0387
+aliases:
+  - sk-0387
+  - 教孩子学会爱父母，是父母最重要的哲理
 type: quote
 title: "教孩子学会爱父母，是父母最重要的哲理"
 lang: zh-CN

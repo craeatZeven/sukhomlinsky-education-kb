@@ -1,5 +1,8 @@
 ---
 id: sk-0709
+aliases:
+  - sk-0709
+  - 灰白的头发
 type: case
 title: "灰白的头发"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0928
+aliases:
+  - sk-0928
+  - 绿色的小手套
 type: case
 title: "绿色的小手套"
 lang: zh-CN

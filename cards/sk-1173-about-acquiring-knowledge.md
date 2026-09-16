@@ -1,5 +1,8 @@
 ---
 id: sk-1173
+aliases:
+  - sk-1173
+  - 关于获取知识
 type: method
 title: "关于获取知识"
 lang: zh-CN

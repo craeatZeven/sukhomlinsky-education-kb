@@ -1,5 +1,8 @@
 ---
 id: sk-1064
+aliases:
+  - sk-1064
+  - 何种见解能够培养出成熟的思想
 type: principle
 title: "何种见解能够培养出成熟的思想"
 lang: zh-CN

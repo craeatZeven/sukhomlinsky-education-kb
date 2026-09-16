@@ -1,5 +1,8 @@
 ---
 id: sk-0996
+aliases:
+  - sk-0996
+  - 阅读是“困难”学生智力教育的重要手段
 type: principle
 title: "阅读是“困难”学生智力教育的重要手段"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0822
+aliases:
+  - sk-0822
+  - “祝贺”这个词是什么意思
 type: case
 title: "“祝贺”这个词是什么意思"
 lang: zh-CN

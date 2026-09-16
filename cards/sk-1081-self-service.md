@@ -1,5 +1,8 @@
 ---
 id: sk-1081
+aliases:
+  - sk-1081
+  - 自我服务
 type: practice
 title: "自我服务"
 lang: zh-CN

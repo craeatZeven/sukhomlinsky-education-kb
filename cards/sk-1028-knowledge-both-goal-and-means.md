@@ -1,5 +1,8 @@
 ---
 id: sk-1028
+aliases:
+  - sk-1028
+  - 知识既是目的又是手段
 type: principle
 title: "知识既是目的又是手段"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0147
+aliases:
+  - sk-0147
+  - 人因驻足欣赏美而成为人
 type: quote
 title: "人因驻足欣赏美而成为人"
 lang: zh-CN

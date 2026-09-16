@@ -1,5 +1,8 @@
 ---
 id: sk-0103
+aliases:
+  - sk-0103
+  - 小学的首要任务是教会儿童学习
 type: principle
 title: "小学的首要任务是教会儿童学习"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0291
+aliases:
+  - sk-0291
+  - 教师不把知识积累当最终目的，才能实现智育
 type: principle
 title: "教师不把知识积累当最终目的，才能实现智育"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0482
+aliases:
+  - sk-0482
+  - 秋天的装束：金黄辫子的秋天轻轻走过草地
 type: case
 title: "秋天的装束：金黄辫子的秋天轻轻走过草地"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-1077
+aliases:
+  - sk-1077
+  - 怎样使教育者的话进入受教育者的内心
 type: method
 title: "怎样使教育者的话进入受教育者的内心"
 lang: zh-CN

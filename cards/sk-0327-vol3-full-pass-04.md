@@ -1,5 +1,8 @@
 ---
 id: sk-0327
+aliases:
+  - sk-0327
+  - 儿童周围的复杂关系是不自觉的教育源泉
 type: principle
 title: "儿童周围的复杂关系是不自觉的教育源泉"
 lang: zh-CN

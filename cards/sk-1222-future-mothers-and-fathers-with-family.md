@@ -1,5 +1,8 @@
 ---
 id: sk-1222
+aliases:
+  - sk-1222
+  - 怎样和家长一道培养未来的母亲和父亲
 type: method
 title: "怎样和家长一道培养未来的母亲和父亲"
 lang: zh-CN

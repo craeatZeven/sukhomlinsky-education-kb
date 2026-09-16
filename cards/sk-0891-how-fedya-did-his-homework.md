@@ -1,5 +1,8 @@
 ---
 id: sk-0891
+aliases:
+  - sk-0891
+  - 费佳是怎样做作业的
 type: case
 title: "费佳是怎样做作业的"
 lang: zh-CN

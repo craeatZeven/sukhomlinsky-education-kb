@@ -1,5 +1,8 @@
 ---
 id: sk-0840
+aliases:
+  - sk-0840
+  - 给她擦干眼泪
 type: case
 title: "给她擦干眼泪"
 lang: zh-CN

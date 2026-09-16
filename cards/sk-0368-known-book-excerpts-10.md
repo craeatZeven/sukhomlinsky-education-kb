@@ -1,5 +1,8 @@
 ---
 id: sk-0368
+aliases:
+  - sk-0368
+  - 向年轻校长提听课建议
 type: quote
 title: "向年轻校长提听课建议"
 lang: zh-CN

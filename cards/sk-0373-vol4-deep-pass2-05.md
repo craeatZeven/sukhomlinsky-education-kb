@@ -1,5 +1,8 @@
 ---
 id: sk-0373
+aliases:
+  - sk-0373
+  - 教会儿童积极地看世界，在劳动中恪守信念
 type: quote
 title: "教会儿童积极地看世界，在劳动中恪守信念"
 lang: zh-CN

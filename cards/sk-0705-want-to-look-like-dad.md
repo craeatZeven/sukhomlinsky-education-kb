@@ -1,5 +1,8 @@
 ---
 id: sk-0705
+aliases:
+  - sk-0705
+  - 多想长得也像爸爸
 type: case
 title: "多想长得也像爸爸"
 lang: zh-CN

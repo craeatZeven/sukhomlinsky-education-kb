@@ -1,5 +1,8 @@
 ---
 id: sk-0980
+aliases:
+  - sk-0980
+  - 胆小的廖尼亚
 type: case
 title: "胆小的廖尼亚"
 lang: zh-CN

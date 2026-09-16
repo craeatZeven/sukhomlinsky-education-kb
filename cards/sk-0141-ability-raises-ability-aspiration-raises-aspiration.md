@@ -1,5 +1,8 @@
 ---
 id: sk-0141
+aliases:
+  - sk-0141
+  - 能力只能由能力来培养，志向只能由志向培养
 type: quote
 title: "能力只能由能力来培养，志向只能由志向培养"
 lang: zh-CN

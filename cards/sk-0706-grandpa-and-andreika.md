@@ -1,5 +1,8 @@
 ---
 id: sk-0706
+aliases:
+  - sk-0706
+  - 爷爷和安德烈卡
 type: case
 title: "爷爷和安德烈卡"
 lang: zh-CN

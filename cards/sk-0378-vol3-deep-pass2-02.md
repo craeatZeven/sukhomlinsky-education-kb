@@ -1,5 +1,8 @@
 ---
 id: sk-0378
+aliases:
+  - sk-0378
+  - 阳光、空气、水加劳动休息是最佳健康之源
 type: principle
 title: "阳光、空气、水加劳动休息是最佳健康之源"
 lang: zh-CN

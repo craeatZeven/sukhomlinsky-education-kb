@@ -1,5 +1,8 @@
 ---
 id: sk-0324
+aliases:
+  - sk-0324
+  - 别用评分这根树条去抽打这条壮阔的大河
 type: quote
 title: "别用评分这根树条去抽打这条壮阔的大河"
 lang: zh-CN

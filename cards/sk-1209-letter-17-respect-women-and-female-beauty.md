@@ -1,5 +1,8 @@
 ---
 id: sk-1209
+aliases:
+  - sk-1209
+  - 第17封信：尊重妇女与女性美
 type: principle
 title: "第17封信：尊重妇女与女性美"
 lang: zh-CN

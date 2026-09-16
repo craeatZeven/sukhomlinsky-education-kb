@@ -1,5 +1,8 @@
 ---
 id: sk-0712
+aliases:
+  - sk-0712
+  - 母鹅的故事
 type: case
 title: "母鹅的故事"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0851
+aliases:
+  - sk-0851
+  - 他憎恨美丽
 type: case
 title: "他憎恨美丽"
 lang: zh-CN

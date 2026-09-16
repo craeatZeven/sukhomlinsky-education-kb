@@ -1,5 +1,8 @@
 ---
 id: sk-0298
+aliases:
+  - sk-0298
+  - 评价课的主要标准：全体学生牢固掌握知识
 type: principle
 title: "评价课的主要标准：全体学生牢固掌握知识"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0973
+aliases:
+  - sk-0973
+  - 谁吃了馅饼
 type: case
 title: "谁吃了馅饼"
 lang: zh-CN

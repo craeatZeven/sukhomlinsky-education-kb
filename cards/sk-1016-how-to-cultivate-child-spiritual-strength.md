@@ -1,5 +1,8 @@
 ---
 id: sk-1016
+aliases:
+  - sk-1016
+  - 怎样培养孩子的精神力量
 type: method
 title: "怎样培养孩子的精神力量"
 lang: zh-CN

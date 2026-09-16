@@ -1,5 +1,8 @@
 ---
 id: sk-0909
+aliases:
+  - sk-0909
+  - 有一颗滚烫心的人
 type: case
 title: "有一颗滚烫心的人"
 lang: zh-CN

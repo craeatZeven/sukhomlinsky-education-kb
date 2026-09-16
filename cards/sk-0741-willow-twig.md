@@ -1,5 +1,8 @@
 ---
 id: sk-0741
+aliases:
+  - sk-0741
+  - 柳条
 type: case
 title: "柳条"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0375
+aliases:
+  - sk-0375
+  - 美是人的道德财富的源泉
 type: quote
 title: "美是人的道德财富的源泉"
 lang: zh-CN

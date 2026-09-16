@@ -1,5 +1,8 @@
 ---
 id: sk-1061
+aliases:
+  - sk-1061
+  - 关于自我教育
 type: principle
 title: "关于自我教育"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0163
+aliases:
+  - sk-0163
+  - 首铃与末铃：用学校传统把高低年级和校友连成一体
 type: practice
 title: "首铃与末铃：用学校传统把高低年级和校友连成一体"
 lang: zh-CN

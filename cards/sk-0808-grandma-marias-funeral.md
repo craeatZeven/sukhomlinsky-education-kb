@@ -1,5 +1,8 @@
 ---
 id: sk-0808
+aliases:
+  - sk-0808
+  - 玛丽亚奶奶的葬礼
 type: case
 title: "玛丽亚奶奶的葬礼"
 lang: zh-CN

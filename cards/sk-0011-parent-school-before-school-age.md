@@ -1,5 +1,8 @@
 ---
 id: sk-0011
+aliases:
+  - sk-0011
+  - 家长培训班：在孩子入学前就培训家长
 type: practice
 title: "家长培训班：在孩子入学前就培训家长"
 lang: zh-CN

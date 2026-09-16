@@ -1,5 +1,8 @@
 ---
 id: sk-0216
+aliases:
+  - sk-0216
+  - 只读教科书，最终连教科书也读不好
 type: quote
 title: "只读教科书，最终连教科书也读不好"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-1129
+aliases:
+  - sk-1129
+  - 春之声
 type: case
 title: "春之声"
 lang: zh-CN

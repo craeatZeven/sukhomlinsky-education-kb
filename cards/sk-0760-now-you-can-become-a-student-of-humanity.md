@@ -1,5 +1,8 @@
 ---
 id: sk-0760
+aliases:
+  - sk-0760
+  - 现在你可以成为人类的学生了
 type: case
 title: "现在你可以成为人类的学生了"
 lang: zh-CN

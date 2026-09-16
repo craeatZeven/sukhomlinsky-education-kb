@@ -1,5 +1,8 @@
 ---
 id: sk-0847
+aliases:
+  - sk-0847
+  - 所有善良的人们都是一家人
 type: case
 title: "所有善良的人们都是一家人"
 lang: zh-CN

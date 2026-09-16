@@ -1,5 +1,8 @@
 ---
 id: sk-1018
+aliases:
+  - sk-1018
+  - 总结的实质及做法
 type: method
 title: "总结的实质及做法"
 lang: zh-CN

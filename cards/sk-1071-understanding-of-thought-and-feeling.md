@@ -1,5 +1,8 @@
 ---
 id: sk-1071
+aliases:
+  - sk-1071
+  - 思想认识
 type: method
 title: "思想认识"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-1203
+aliases:
+  - sk-1203
+  - 怎样同家庭一道指导儿童劳动
 type: method
 title: "怎样同家庭一道指导儿童劳动"
 lang: zh-CN

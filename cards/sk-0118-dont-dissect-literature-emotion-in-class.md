@@ -1,5 +1,8 @@
 ---
 id: sk-0118
+aliases:
+  - sk-0118
+  - 读完文学后不当堂追问：别把感动变成解剖
 type: principle
 title: "读完文学后不当堂追问：别把感动变成解剖"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0997
+aliases:
+  - sk-0997
+  - 评分应当有分量
 type: method
 title: "评分应当有分量"
 lang: zh-CN

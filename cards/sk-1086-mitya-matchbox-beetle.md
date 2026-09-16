@@ -1,5 +1,8 @@
 ---
 id: sk-1086
+aliases:
+  - sk-1086
+  - 米佳的火柴盒甲虫
 type: case
 title: "米佳的火柴盒甲虫"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0100
+aliases:
+  - sk-0100
+  - 把时间还给教师：少开会、少写计划
 type: practice
 title: "把时间还给教师：少开会、少写计划"
 lang: zh-CN

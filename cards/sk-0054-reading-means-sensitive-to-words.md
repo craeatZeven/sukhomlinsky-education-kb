@@ -1,5 +1,8 @@
 ---
 id: sk-0054
+aliases:
+  - sk-0054
+  - 会阅读，是对词句含义与美感保持敏感
 type: quote
 title: "会阅读，是对词句含义与美感保持敏感"
 lang: zh-CN

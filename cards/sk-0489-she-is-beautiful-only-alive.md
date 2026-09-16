@@ -1,5 +1,8 @@
 ---
 id: sk-0489
+aliases:
+  - sk-0489
+  - 她只有活着时才美：钉在纸上的蝴蝶不再美
 type: case
 title: "她只有活着时才美：钉在纸上的蝴蝶不再美"
 lang: zh-CN

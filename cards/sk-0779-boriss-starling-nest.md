@@ -1,5 +1,8 @@
 ---
 id: sk-0779
+aliases:
+  - sk-0779
+  - 鲍里斯的椋鸟窝
 type: case
 title: "鲍里斯的椋鸟窝"
 lang: zh-CN

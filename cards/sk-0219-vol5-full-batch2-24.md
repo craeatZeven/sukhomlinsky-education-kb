@@ -1,5 +1,8 @@
 ---
 id: sk-0219
+aliases:
+  - sk-0219
+  - 每个儿童天性都是诗人，要教会他发现联系
 type: quote
 title: "每个儿童天性都是诗人，要教会他发现联系"
 lang: zh-CN

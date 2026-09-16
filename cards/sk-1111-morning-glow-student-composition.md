@@ -1,5 +1,8 @@
 ---
 id: sk-1111
+aliases:
+  - sk-1111
+  - 朝霞
 type: case
 title: "朝霞"
 lang: zh-CN

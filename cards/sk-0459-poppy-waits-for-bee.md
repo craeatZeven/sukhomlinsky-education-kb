@@ -1,5 +1,8 @@
 ---
 id: sk-0459
+aliases:
+  - sk-0459
+  - 虞美人什么时候打开花瓣：她在等待蜜蜂
 type: case
 title: "虞美人什么时候打开花瓣：她在等待蜜蜂"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0241
+aliases:
+  - sk-0241
+  - 信念不能机械传授，只能在集体智力生活的空气中磨炼
 type: principle
 title: "信念不能机械传授，只能在集体智力生活的空气中磨炼"
 lang: zh-CN

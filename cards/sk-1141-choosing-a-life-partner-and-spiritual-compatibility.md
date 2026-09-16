@@ -1,5 +1,8 @@
 ---
 id: sk-1141
+aliases:
+  - sk-1141
+  - 第15封信：选择伴侣与精神世界的要求
 type: case
 title: "第15封信：选择伴侣与精神世界的要求"
 lang: zh-CN

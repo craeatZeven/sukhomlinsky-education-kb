@@ -1,5 +1,8 @@
 ---
 id: sk-0962
+aliases:
+  - sk-0962
+  - 我不想不守诺言
 type: case
 title: "我不想不守诺言"
 lang: zh-CN

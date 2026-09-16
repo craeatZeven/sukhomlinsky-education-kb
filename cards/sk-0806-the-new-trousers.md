@@ -1,5 +1,8 @@
 ---
 id: sk-0806
+aliases:
+  - sk-0806
+  - 新裤子
 type: case
 title: "新裤子"
 lang: zh-CN

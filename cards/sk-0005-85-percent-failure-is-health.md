@@ -1,5 +1,8 @@
 ---
 id: sk-0005
+aliases:
+  - sk-0005
+  - 85% 学业失败的首要原因是健康
 type: principle
 title: "85% 学业失败的首要原因是健康"
 lang: zh-CN

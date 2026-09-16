@@ -1,5 +1,8 @@
 ---
 id: sk-0957
+aliases:
+  - sk-0957
+  - 黄鹂
 type: case
 title: "黄鹂"
 lang: zh-CN

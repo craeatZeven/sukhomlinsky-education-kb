@@ -1,5 +1,8 @@
 ---
 id: sk-1076
+aliases:
+  - sk-1076
+  - 什么是个性的尊严以及怎样培养它
 type: principle
 title: "什么是个性的尊严以及怎样培养它"
 lang: zh-CN

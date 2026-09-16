@@ -1,5 +1,8 @@
 ---
 id: sk-1082
+aliases:
+  - sk-1082
+  - 是数学的世纪，还是人的世纪
 type: principle
 title: "是数学的世纪，还是人的世纪"
 lang: zh-CN

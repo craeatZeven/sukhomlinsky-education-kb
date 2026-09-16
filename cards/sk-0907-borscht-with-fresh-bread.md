@@ -1,5 +1,8 @@
 ---
 id: sk-0907
+aliases:
+  - sk-0907
+  - 甜菜汤带新鲜面包
 type: case
 title: "甜菜汤带新鲜面包"
 lang: zh-CN

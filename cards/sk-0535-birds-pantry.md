@@ -1,5 +1,8 @@
 ---
 id: sk-0535
+aliases:
+  - sk-0535
+  - 鸟的小仓库：花楸树的果实留到最困难的时候
 type: case
 title: "鸟的小仓库：花楸树的果实留到最困难的时候"
 lang: zh-CN

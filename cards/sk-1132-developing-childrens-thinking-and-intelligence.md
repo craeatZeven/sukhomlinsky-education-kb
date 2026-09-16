@@ -1,5 +1,8 @@
 ---
 id: sk-1132
+aliases:
+  - sk-1132
+  - 怎样发展儿童的思维和智力
 type: method
 title: "怎样发展儿童的思维和智力"
 lang: zh-CN

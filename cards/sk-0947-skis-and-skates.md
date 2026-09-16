@@ -1,5 +1,8 @@
 ---
 id: sk-0947
+aliases:
+  - sk-0947
+  - 滑雪板与冰鞋
 type: case
 title: "滑雪板与冰鞋"
 lang: zh-CN

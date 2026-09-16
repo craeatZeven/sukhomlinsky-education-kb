@@ -1,5 +1,8 @@
 ---
 id: sk-0888
+aliases:
+  - sk-0888
+  - 尤拉是怎样教育自己的
 type: case
 title: "尤拉是怎样教育自己的"
 lang: zh-CN

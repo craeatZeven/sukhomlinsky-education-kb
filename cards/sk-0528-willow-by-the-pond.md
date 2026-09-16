@@ -1,5 +1,8 @@
 ---
 id: sk-0528
+aliases:
+  - sk-0528
+  - 池塘边的柳树：十年后，柳树说“我认得你”
 type: case
 title: "池塘边的柳树：十年后，柳树说“我认得你”"
 lang: zh-CN

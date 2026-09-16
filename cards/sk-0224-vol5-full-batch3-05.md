@@ -1,5 +1,8 @@
 ---
 id: sk-0224
+aliases:
+  - sk-0224
+  - 教师面对的不是抽象学生，而是活生生具体的人
 type: quote
 title: "教师面对的不是抽象学生，而是活生生具体的人"
 lang: zh-CN

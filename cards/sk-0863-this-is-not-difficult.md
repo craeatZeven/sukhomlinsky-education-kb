@@ -1,5 +1,8 @@
 ---
 id: sk-0863
+aliases:
+  - sk-0863
+  - 这不困难
 type: case
 title: "这不困难"
 lang: zh-CN

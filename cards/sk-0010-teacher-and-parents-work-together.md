@@ -1,5 +1,8 @@
 ---
 id: sk-0010
+aliases:
+  - sk-0010
+  - 教师只有与父母一同努力，才能带给孩子巨大幸福
 type: principle
 title: "教师只有与父母一同努力，才能带给孩子巨大幸福"
 lang: zh-CN

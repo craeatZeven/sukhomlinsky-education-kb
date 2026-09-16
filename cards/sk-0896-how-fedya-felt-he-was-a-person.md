@@ -1,5 +1,8 @@
 ---
 id: sk-0896
+aliases:
+  - sk-0896
+  - 费佳怎样觉出自己是一个“人”
 type: case
 title: "费佳怎样觉出自己是一个“人”"
 lang: zh-CN

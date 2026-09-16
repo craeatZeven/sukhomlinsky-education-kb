@@ -1,5 +1,8 @@
 ---
 id: sk-0084
+aliases:
+  - sk-0084
+  - 知道道德规范，不等于形成道德信念
 type: quote
 title: "知道道德规范，不等于形成道德信念"
 lang: zh-CN

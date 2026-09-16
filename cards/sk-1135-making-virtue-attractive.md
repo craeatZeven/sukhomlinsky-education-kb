@@ -1,5 +1,8 @@
 ---
 id: sk-1135
+aliases:
+  - sk-1135
+  - 要善于使美德具有吸引力
 type: method
 title: "要善于使美德具有吸引力"
 lang: zh-CN

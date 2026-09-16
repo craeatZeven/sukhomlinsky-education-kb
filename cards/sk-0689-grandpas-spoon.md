@@ -1,5 +1,8 @@
 ---
 id: sk-0689
+aliases:
+  - sk-0689
+  - 爷爷的汤匙：日常小仪式让爱与记忆长久延续
 type: case
 title: "爷爷的汤匙：日常小仪式让爱与记忆长久延续"
 lang: zh-CN

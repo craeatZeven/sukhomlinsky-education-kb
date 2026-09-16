@@ -1,5 +1,8 @@
 ---
 id: sk-0953
+aliases:
+  - sk-0953
+  - 石头
 type: case
 title: "石头"
 lang: zh-CN

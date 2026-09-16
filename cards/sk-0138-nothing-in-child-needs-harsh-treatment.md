@@ -1,5 +1,8 @@
 ---
 id: sk-0138
+aliases:
+  - sk-0138
+  - 儿童身上没有需要教师严酷对待的东西
 type: quote
 title: "儿童身上没有需要教师严酷对待的东西"
 lang: zh-CN

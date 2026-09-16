@@ -1,5 +1,8 @@
 ---
 id: sk-0757
+aliases:
+  - sk-0757
+  - 书和糖果
 type: case
 title: "书和糖果"
 lang: zh-CN

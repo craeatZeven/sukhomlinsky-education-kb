@@ -1,5 +1,8 @@
 ---
 id: sk-0456
+aliases:
+  - sk-0456
+  - 再见，太阳：用温柔的告别建立对自然的亲密
 type: case
 title: "再见，太阳：用温柔的告别建立对自然的亲密"
 lang: zh-CN

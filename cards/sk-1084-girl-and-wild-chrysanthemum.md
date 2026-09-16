@@ -1,5 +1,8 @@
 ---
 id: sk-1084
+aliases:
+  - sk-1084
+  - 女孩和野菊花
 type: case
 title: "女孩和野菊花"
 lang: zh-CN

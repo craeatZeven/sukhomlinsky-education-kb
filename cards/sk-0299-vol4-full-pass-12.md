@@ -1,5 +1,8 @@
 ---
 id: sk-0299
+aliases:
+  - sk-0299
+  - 善于预见，首先要善于回顾走过的道路
 type: principle
 title: "善于预见，首先要善于回顾走过的道路"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0267
+aliases:
+  - sk-0267
+  - 劳动的教育价值不在气力大小，而在坚定的目的性
 type: principle
 title: "劳动的教育价值不在气力大小，而在坚定的目的性"
 lang: zh-CN

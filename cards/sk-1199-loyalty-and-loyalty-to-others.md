@@ -1,5 +1,8 @@
 ---
 id: sk-1199
+aliases:
+  - sk-1199
+  - 忠诚感和对别人的忠诚意味着什么
 type: principle
 title: "忠诚感和对别人的忠诚意味着什么"
 lang: zh-CN

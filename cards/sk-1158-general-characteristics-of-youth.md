@@ -1,5 +1,8 @@
 ---
 id: sk-1158
+aliases:
+  - sk-1158
+  - 青年的一般特点
 type: principle
 title: "青年的一般特点"
 lang: zh-CN

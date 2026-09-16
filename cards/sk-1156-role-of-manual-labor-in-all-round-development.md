@@ -1,5 +1,8 @@
 ---
 id: sk-1156
+aliases:
+  - sk-1156
+  - 手工劳动在全面发展中的作用
 type: principle
 title: "手工劳动在全面发展中的作用"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0971
+aliases:
+  - sk-0971
+  - 一根白羽毛
 type: case
 title: "一根白羽毛"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0112
+aliases:
+  - sk-0112
+  - 讲台上的彩色菊花：让集体情绪可被看见
 type: practice
 title: "讲台上的彩色菊花：让集体情绪可被看见"
 lang: zh-CN

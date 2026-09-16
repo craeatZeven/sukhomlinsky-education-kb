@@ -1,5 +1,8 @@
 ---
 id: sk-1188
+aliases:
+  - sk-1188
+  - 培养尊敬爷爷奶奶的情感
 type: method
 title: "培养尊敬爷爷奶奶的情感"
 lang: zh-CN

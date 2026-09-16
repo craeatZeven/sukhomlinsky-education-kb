@@ -1,5 +1,8 @@
 ---
 id: sk-0024
+aliases:
+  - sk-0024
+  - 自然、书籍与人中的美，能使心灵变得高尚
 type: quote
 title: "自然、书籍与人中的美，能使心灵变得高尚"
 lang: zh-CN

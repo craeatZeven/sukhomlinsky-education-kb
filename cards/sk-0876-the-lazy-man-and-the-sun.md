@@ -1,5 +1,8 @@
 ---
 id: sk-0876
+aliases:
+  - sk-0876
+  - 懒人与太阳
 type: case
 title: "懒人与太阳"
 lang: zh-CN

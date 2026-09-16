@@ -1,5 +1,8 @@
 ---
 id: sk-0503
+aliases:
+  - sk-0503
+  - 蜜蜂的音乐声：太阳把琴弦拧紧在花瓣之间
 type: case
 title: "蜜蜂的音乐声：太阳把琴弦拧紧在花瓣之间"
 lang: zh-CN

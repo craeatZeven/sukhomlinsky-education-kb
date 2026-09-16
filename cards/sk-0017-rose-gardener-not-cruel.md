@@ -1,5 +1,8 @@
 ---
 id: sk-0017
+aliases:
+  - sk-0017
+  - 为他人创造美而劳动的孩子，不会成为冷酷的人
 type: quote
 title: "为他人创造美而劳动的孩子，不会成为冷酷的人"
 lang: zh-CN

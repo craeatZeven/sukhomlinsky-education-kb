@@ -1,5 +1,8 @@
 ---
 id: sk-0070
+aliases:
+  - sk-0070
+  - 教育的核心是让学生体验到自己的尊严感
 type: quote
 title: "教育的核心是让学生体验到自己的尊严感"
 lang: zh-CN

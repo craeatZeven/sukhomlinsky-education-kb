@@ -1,5 +1,8 @@
 ---
 id: sk-0722
+aliases:
+  - sk-0722
+  - 小乌鸦和夜莺
 type: case
 title: "小乌鸦和夜莺"
 lang: zh-CN

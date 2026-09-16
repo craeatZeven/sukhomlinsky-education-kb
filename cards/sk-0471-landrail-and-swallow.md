@@ -1,5 +1,8 @@
 ---
 id: sk-0471
+aliases:
+  - sk-0471
+  - 长脚秧鸡和燕子：你飞着去，我走着去
 type: case
 title: "长脚秧鸡和燕子：你飞着去，我走着去"
 lang: zh-CN

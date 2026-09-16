@@ -1,5 +1,8 @@
 ---
 id: sk-0994
+aliases:
+  - sk-0994
+  - 兴趣的奥秘何在
 type: principle
 title: "兴趣的奥秘何在"
 lang: zh-CN

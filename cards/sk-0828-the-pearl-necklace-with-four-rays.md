@@ -1,5 +1,8 @@
 ---
 id: sk-0828
+aliases:
+  - sk-0828
+  - 射出四道光芒的珍珠项链
 type: case
 title: "射出四道光芒的珍珠项链"
 lang: zh-CN

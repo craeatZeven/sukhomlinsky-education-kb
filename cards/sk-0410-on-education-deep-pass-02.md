@@ -1,5 +1,8 @@
 ---
 id: sk-0410
+aliases:
+  - sk-0410
+  - 孩子做坏事，多半是因为没学过做好事
 type: principle
 title: "孩子做坏事，多半是因为没学过做好事"
 lang: zh-CN

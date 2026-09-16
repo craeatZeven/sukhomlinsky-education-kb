@@ -1,5 +1,8 @@
 ---
 id: sk-1212
+aliases:
+  - sk-1212
+  - 传播知识与参加社会生活
 type: practice
 title: "传播知识与参加社会生活"
 lang: zh-CN

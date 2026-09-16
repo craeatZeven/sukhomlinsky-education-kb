@@ -1,5 +1,8 @@
 ---
 id: sk-0342
+aliases:
+  - sk-0342
+  - 永远的白杨树
 type: case
 title: "永远的白杨树"
 lang: zh-CN

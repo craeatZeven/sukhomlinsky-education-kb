@@ -1,5 +1,8 @@
 ---
 id: sk-0832
+aliases:
+  - sk-0832
+  - 玛里卡想什么来着
 type: case
 title: "玛里卡想什么来着"
 lang: zh-CN

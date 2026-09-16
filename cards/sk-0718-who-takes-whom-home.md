@@ -1,5 +1,8 @@
 ---
 id: sk-0718
+aliases:
+  - sk-0718
+  - 谁把谁带回家
 type: case
 title: "谁把谁带回家"
 lang: zh-CN

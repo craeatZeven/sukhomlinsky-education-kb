@@ -1,5 +1,8 @@
 ---
 id: sk-0233
+aliases:
+  - sk-0233
+  - 教师说‘你应当’太多，学生说‘我应当’太少
 type: quote
 title: "教师说‘你应当’太多，学生说‘我应当’太少"
 lang: zh-CN

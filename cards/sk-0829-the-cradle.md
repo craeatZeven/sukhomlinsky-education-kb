@@ -1,5 +1,8 @@
 ---
 id: sk-0829
+aliases:
+  - sk-0829
+  - 摇篮
 type: case
 title: "摇篮"
 lang: zh-CN

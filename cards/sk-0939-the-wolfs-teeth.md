@@ -1,5 +1,8 @@
 ---
 id: sk-0939
+aliases:
+  - sk-0939
+  - 狼的牙齿
 type: case
 title: "狼的牙齿"
 lang: zh-CN

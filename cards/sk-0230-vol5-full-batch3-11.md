@@ -1,5 +1,8 @@
 ---
 id: sk-0230
+aliases:
+  - sk-0230
+  - 真正的教育是为他人创造幸福
 type: quote
 title: "真正的教育是为他人创造幸福"
 lang: zh-CN

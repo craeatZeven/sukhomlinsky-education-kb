@@ -1,5 +1,8 @@
 ---
 id: sk-0724
+aliases:
+  - sk-0724
+  - 奶奶的手
 type: case
 title: "奶奶的手"
 lang: zh-CN

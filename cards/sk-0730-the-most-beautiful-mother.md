@@ -1,5 +1,8 @@
 ---
 id: sk-0730
+aliases:
+  - sk-0730
+  - 最美丽的妈妈
 type: case
 title: "最美丽的妈妈"
 lang: zh-CN

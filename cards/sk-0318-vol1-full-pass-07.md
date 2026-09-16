@@ -1,5 +1,8 @@
 ---
 id: sk-0318
+aliases:
+  - sk-0318
+  - 学龄初期美感影响终生
 type: principle
 title: "学龄初期美感影响终生"
 lang: zh-CN

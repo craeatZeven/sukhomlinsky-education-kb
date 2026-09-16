@@ -1,5 +1,8 @@
 ---
 id: sk-0809
+aliases:
+  - sk-0809
+  - 爷爷为什么笑了
 type: case
 title: "爷爷为什么笑了"
 lang: zh-CN

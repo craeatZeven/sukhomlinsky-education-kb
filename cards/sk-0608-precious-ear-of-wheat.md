@@ -1,5 +1,8 @@
 ---
 id: sk-0608
+aliases:
+  - sk-0608
+  - 珍贵的麦穗：爷爷从焦土上捡起的一粒希望
 type: case
 title: "珍贵的麦穗：爷爷从焦土上捡起的一粒希望"
 lang: zh-CN

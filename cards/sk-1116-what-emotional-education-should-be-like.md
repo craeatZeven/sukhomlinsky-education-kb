@@ -1,5 +1,8 @@
 ---
 id: sk-1116
+aliases:
+  - sk-1116
+  - 培养情感的教育应当是怎样的
 type: method
 title: "培养情感的教育应当是怎样的"
 lang: zh-CN

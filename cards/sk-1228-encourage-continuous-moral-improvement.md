@@ -1,5 +1,8 @@
 ---
 id: sk-1228
+aliases:
+  - sk-1228
+  - 怎样激励人们经常不断地发展和完善道德
 type: method
 title: "怎样激励人们经常不断地发展和完善道德"
 lang: zh-CN

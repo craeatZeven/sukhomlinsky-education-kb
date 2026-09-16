@@ -1,5 +1,8 @@
 ---
 id: sk-0193
+aliases:
+  - sk-0193
+  - 教儿童观察自然界，是为了教会他读书
 type: quote
 title: "教儿童观察自然界，是为了教会他读书"
 lang: zh-CN

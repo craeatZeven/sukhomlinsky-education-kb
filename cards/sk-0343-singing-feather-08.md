@@ -1,5 +1,8 @@
 ---
 id: sk-0343
+aliases:
+  - sk-0343
+  - 坚持不懈的小蚂蚁
 type: case
 title: "坚持不懈的小蚂蚁"
 lang: zh-CN

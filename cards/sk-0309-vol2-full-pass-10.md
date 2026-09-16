@@ -1,5 +1,8 @@
 ---
 id: sk-0309
+aliases:
+  - sk-0309
+  - 教材首次学习不扎实是落后根源之一
 type: quote
 title: "教材首次学习不扎实是落后根源之一"
 lang: zh-CN

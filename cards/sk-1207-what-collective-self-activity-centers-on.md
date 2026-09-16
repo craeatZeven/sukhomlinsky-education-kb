@@ -1,5 +1,8 @@
 ---
 id: sk-1207
+aliases:
+  - sk-1207
+  - 集体的自主活动重在什么
 type: practice
 title: "集体的自主活动重在什么"
 lang: zh-CN

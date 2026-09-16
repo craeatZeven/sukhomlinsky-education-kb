@@ -1,5 +1,8 @@
 ---
 id: sk-0381
+aliases:
+  - sk-0381
+  - 公正拨开眼睛感受美，不公正如冰甲裹心
 type: principle
 title: "公正拨开眼睛感受美，不公正如冰甲裹心"
 lang: zh-CN

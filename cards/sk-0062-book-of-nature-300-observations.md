@@ -1,5 +1,8 @@
 ---
 id: sk-0062
+aliases:
+  - sk-0062
+  - 《大自然的书》：四年 300 次观察的思维课程
 type: practice
 title: "《大自然的书》：四年 300 次观察的思维课程"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-1225
+aliases:
+  - sk-1225
+  - 怎样教孩子们理解和运用苏维埃国家法律
 type: method
 title: "怎样教孩子们理解和运用苏维埃国家法律"
 lang: zh-CN

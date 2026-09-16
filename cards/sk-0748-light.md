@@ -1,5 +1,8 @@
 ---
 id: sk-0748
+aliases:
+  - sk-0748
+  - 灯光
 type: case
 title: "灯光"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0732
+aliases:
+  - sk-0732
+  - 后悔
 type: case
 title: "后悔"
 lang: zh-CN

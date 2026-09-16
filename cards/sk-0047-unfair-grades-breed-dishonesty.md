@@ -1,5 +1,8 @@
 ---
 id: sk-0047
+aliases:
+  - sk-0047
+  - 不公平的低分是孩子撒谎与欺骗的温床
 type: principle
 title: "不公平的低分是孩子撒谎与欺骗的温床"
 lang: zh-CN

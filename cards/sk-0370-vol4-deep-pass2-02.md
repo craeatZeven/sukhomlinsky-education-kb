@@ -1,5 +1,8 @@
 ---
 id: sk-0370
+aliases:
+  - sk-0370
+  - 没有课外阅读，课堂阅读就会变成死记硬背
 type: quote
 title: "没有课外阅读，课堂阅读就会变成死记硬背"
 lang: zh-CN

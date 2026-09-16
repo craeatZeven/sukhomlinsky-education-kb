@@ -1,5 +1,8 @@
 ---
 id: sk-0364
+aliases:
+  - sk-0364
+  - 懂得爱，才会成为真正的人
 type: quote
 title: "懂得爱，才会成为真正的人"
 lang: zh-CN

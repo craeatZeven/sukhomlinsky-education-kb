@@ -1,5 +1,8 @@
 ---
 id: sk-0638
+aliases:
+  - sk-0638
+  - 快乐和悲伤：快乐应该永远让位于悲伤
 type: case
 title: "快乐和悲伤：快乐应该永远让位于悲伤"
 lang: zh-CN

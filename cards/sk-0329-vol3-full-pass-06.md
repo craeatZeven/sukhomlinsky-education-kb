@@ -1,5 +1,8 @@
 ---
 id: sk-0329
+aliases:
+  - sk-0329
+  - 第二个大纲：非必修知识的大纲
 type: principle
 title: "第二个大纲：非必修知识的大纲"
 lang: zh-CN

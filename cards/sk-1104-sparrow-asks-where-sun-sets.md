@@ -1,5 +1,8 @@
 ---
 id: sk-1104
+aliases:
+  - sk-1104
+  - 麻雀多么想知道太阳落到哪儿去了
 type: case
 title: "麻雀多么想知道太阳落到哪儿去了"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-0234
+aliases:
+  - sk-0234
+  - 文学即人学：教师是弹奏青少年心灵音乐的大师
 type: quote
 title: "文学即人学：教师是弹奏青少年心灵音乐的大师"
 lang: zh-CN

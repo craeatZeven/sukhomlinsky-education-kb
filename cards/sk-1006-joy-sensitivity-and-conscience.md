@@ -1,5 +1,8 @@
 ---
 id: sk-1006
+aliases:
+  - sk-1006
+  - 儿童集体中的欢乐和善感、力量和良心
 type: principle
 title: "儿童集体中的欢乐和善感、力量和良心"
 lang: zh-CN

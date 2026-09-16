@@ -1,5 +1,8 @@
 ---
 id: sk-0532
+aliases:
+  - sk-0532
+  - 晚霞：太阳在熔化黄金的湖里洗澡
 type: case
 title: "晚霞：太阳在熔化黄金的湖里洗澡"
 lang: zh-CN

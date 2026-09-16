@@ -1,5 +1,8 @@
 ---
 id: sk-0721
+aliases:
+  - sk-0721
+  - 妈妈让我来
 type: case
 title: "妈妈让我来"
 lang: zh-CN

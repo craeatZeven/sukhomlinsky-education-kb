@@ -1,5 +1,8 @@
 ---
 id: sk-0420
+aliases:
+  - sk-0420
+  - 对劳动者的爱是人的道德之源
 type: quote
 title: "对劳动者的爱是人的道德之源"
 lang: zh-CN

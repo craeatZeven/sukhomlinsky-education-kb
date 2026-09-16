@@ -1,5 +1,8 @@
 ---
 id: sk-0959
+aliases:
+  - sk-0959
+  - 两位母亲
 type: case
 title: "两位母亲"
 lang: zh-CN

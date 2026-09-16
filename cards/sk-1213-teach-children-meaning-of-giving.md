@@ -1,5 +1,8 @@
 ---
 id: sk-1213
+aliases:
+  - sk-1213
+  - 怎样教孩子懂得奉献的思想
 type: principle
 title: "怎样教孩子懂得奉献的思想"
 lang: zh-CN

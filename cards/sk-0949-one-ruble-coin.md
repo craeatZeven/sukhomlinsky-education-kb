@@ -1,5 +1,8 @@
 ---
 id: sk-0949
+aliases:
+  - sk-0949
+  - 一卢布硬币
 type: case
 title: "一卢布硬币"
 lang: zh-CN

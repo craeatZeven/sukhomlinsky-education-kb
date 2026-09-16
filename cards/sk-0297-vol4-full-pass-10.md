@@ -1,5 +1,8 @@
 ---
 id: sk-0297
+aliases:
+  - sk-0297
+  - 新知识只有依附旧知识，才能牢固掌握
 type: principle
 title: "新知识只有依附旧知识，才能牢固掌握"
 lang: zh-CN

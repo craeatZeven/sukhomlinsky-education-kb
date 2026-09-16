@@ -1,5 +1,8 @@
 ---
 id: sk-0790
+aliases:
+  - sk-0790
+  - 我们喜欢画画
 type: case
 title: "我们喜欢画画"
 lang: zh-CN

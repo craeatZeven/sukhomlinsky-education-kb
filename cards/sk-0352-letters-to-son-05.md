@@ -1,5 +1,8 @@
 ---
 id: sk-0352
+aliases:
+  - sk-0352
+  - 生活的根：粮食、劳动、人民
 type: quote
 title: "生活的根：粮食、劳动、人民"
 lang: zh-CN

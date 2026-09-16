@@ -1,5 +1,8 @@
 ---
 id: sk-0833
+aliases:
+  - sk-0833
+  - 季娜，再摘一朵花吧
 type: case
 title: "季娜，再摘一朵花吧"
 lang: zh-CN

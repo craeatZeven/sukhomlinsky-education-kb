@@ -1,5 +1,8 @@
 ---
 id: sk-0042
+aliases:
+  - sk-0042
+  - 察觉孩子不对劲时，不要当众立刻追问
 type: method
 title: "察觉孩子不对劲时，不要当众立刻追问"
 lang: zh-CN

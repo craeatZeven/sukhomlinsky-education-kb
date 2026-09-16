@@ -1,5 +1,8 @@
 ---
 id: sk-1114
+aliases:
+  - sk-1114
+  - 教师的时间和各教学阶段的相互依存性
 type: method
 title: "教师的时间和各教学阶段的相互依存性"
 lang: zh-CN

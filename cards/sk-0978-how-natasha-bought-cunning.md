@@ -1,5 +1,8 @@
 ---
 id: sk-0978
+aliases:
+  - sk-0978
+  - 娜塔莎是怎样向狐狸买滑头点子的
 type: case
 title: "娜塔莎是怎样向狐狸买滑头点子的"
 lang: zh-CN

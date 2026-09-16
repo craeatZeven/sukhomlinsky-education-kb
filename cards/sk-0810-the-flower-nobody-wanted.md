@@ -1,5 +1,8 @@
 ---
 id: sk-0810
+aliases:
+  - sk-0810
+  - 没人要的小花
 type: case
 title: "没人要的小花"
 lang: zh-CN

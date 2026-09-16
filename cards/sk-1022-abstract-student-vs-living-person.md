@@ -1,5 +1,8 @@
 ---
 id: sk-1022
+aliases:
+  - sk-1022
+  - 抽象的学生与活生生的人
 type: principle
 title: "抽象的学生与活生生的人"
 lang: zh-CN

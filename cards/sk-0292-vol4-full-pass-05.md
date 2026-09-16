@@ -1,5 +1,8 @@
 ---
 id: sk-0292
+aliases:
+  - sk-0292
+  - 劳动的快乐首先来自劳动的美
 type: quote
 title: "劳动的快乐首先来自劳动的美"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-1134
+aliases:
+  - sk-1134
+  - 怎样启发学生在劳动和学习中进行自我教育
 type: method
 title: "怎样启发学生在劳动和学习中进行自我教育"
 lang: zh-CN

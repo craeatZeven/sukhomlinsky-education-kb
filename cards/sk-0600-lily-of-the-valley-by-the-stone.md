@@ -1,5 +1,8 @@
 ---
 id: sk-0600
+aliases:
+  - sk-0600
+  - 石头旁的铃兰花：每朵花是英雄的一滴血
 type: case
 title: "石头旁的铃兰花：每朵花是英雄的一滴血"
 lang: zh-CN

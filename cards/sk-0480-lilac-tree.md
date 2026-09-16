@@ -1,5 +1,8 @@
 ---
 id: sk-0480
+aliases:
+  - sk-0480
+  - 丁香树：折走花枝的人，让世界少了笑容
 type: case
 title: "丁香树：折走花枝的人，让世界少了笑容"
 lang: zh-CN

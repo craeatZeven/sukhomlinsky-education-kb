@@ -1,5 +1,8 @@
 ---
 id: sk-1115
+aliases:
+  - sk-1115
+  - 怎样引导学生从了解事实到认识抽象真理
 type: method
 title: "怎样引导学生从了解事实到认识抽象真理"
 lang: zh-CN

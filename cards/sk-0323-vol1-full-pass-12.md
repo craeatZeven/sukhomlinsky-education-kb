@@ -1,5 +1,8 @@
 ---
 id: sk-0323
+aliases:
+  - sk-0323
+  - 孩子发笑时，教师绝不可生气
 type: method
 title: "孩子发笑时，教师绝不可生气"
 lang: zh-CN

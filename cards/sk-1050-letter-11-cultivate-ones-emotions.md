@@ -1,5 +1,8 @@
 ---
 id: sk-1050
+aliases:
+  - sk-1050
+  - 第11封信：培养自己的情感境界
 type: quote
 title: "第11封信：培养自己的情感境界"
 lang: zh-CN

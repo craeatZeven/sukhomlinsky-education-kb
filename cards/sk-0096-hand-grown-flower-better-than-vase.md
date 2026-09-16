@@ -1,5 +1,8 @@
 ---
 id: sk-0096
+aliases:
+  - sk-0096
+  - 亲手培育的花草胜过买来的细瓷花瓶
 type: quote
 title: "亲手培育的花草胜过买来的细瓷花瓶"
 lang: zh-CN

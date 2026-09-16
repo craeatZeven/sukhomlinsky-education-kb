@@ -1,5 +1,8 @@
 ---
 id: sk-0734
+aliases:
+  - sk-0734
+  - 怀念父亲的话
 type: case
 title: "怀念父亲的话"
 lang: zh-CN

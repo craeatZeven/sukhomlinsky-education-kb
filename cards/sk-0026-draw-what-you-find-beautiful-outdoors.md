@@ -1,5 +1,8 @@
 ---
 id: sk-0026
+aliases:
+  - sk-0026
+  - 到户外去：画你眼中觉得美的东西
 type: practice
 title: "到户外去：画你眼中觉得美的东西"
 lang: zh-CN

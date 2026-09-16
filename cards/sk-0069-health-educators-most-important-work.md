@@ -1,5 +1,8 @@
 ---
 id: sk-0069
+aliases:
+  - sk-0069
+  - 关心儿童的健康是教育者最重要的工作
 type: principle
 title: "关心儿童的健康是教育者最重要的工作"
 lang: zh-CN

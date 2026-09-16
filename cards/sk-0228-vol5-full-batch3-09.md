@@ -1,5 +1,8 @@
 ---
 id: sk-0228
+aliases:
+  - sk-0228
+  - 夫妻之爱会化为你未来孩子的精神美
 type: quote
 title: "夫妻之爱会化为你未来孩子的精神美"
 lang: zh-CN

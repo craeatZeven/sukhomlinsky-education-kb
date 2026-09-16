@@ -1,5 +1,8 @@
 ---
 id: sk-0805
+aliases:
+  - sk-0805
+  - 小弟弟出生了
 type: case
 title: "小弟弟出生了"
 lang: zh-CN

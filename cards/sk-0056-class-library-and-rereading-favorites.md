@@ -1,5 +1,8 @@
 ---
 id: sk-0056
+aliases:
+  - sk-0056
+  - 建班级藏书库，让孩子反复读喜爱的书
 type: practice
 title: "建班级藏书库，让孩子反复读喜爱的书"
 lang: zh-CN

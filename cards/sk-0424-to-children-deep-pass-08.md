@@ -1,5 +1,8 @@
 ---
 id: sk-0424
+aliases:
+  - sk-0424
+  - 为创造美而劳动，会使孩子变得更好更美
 type: quote
 title: "为创造美而劳动，会使孩子变得更好更美"
 lang: zh-CN

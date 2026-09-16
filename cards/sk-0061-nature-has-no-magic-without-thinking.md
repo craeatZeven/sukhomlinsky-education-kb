@@ -1,5 +1,8 @@
 ---
 id: sk-0061
+aliases:
+  - sk-0061
+  - 大自然没有自动教育魔力，必须让人思考因果
 type: principle
 title: "大自然没有自动教育魔力，必须让人思考因果"
 lang: zh-CN

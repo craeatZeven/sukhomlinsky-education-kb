@@ -1,5 +1,8 @@
 ---
 id: sk-0551
+aliases:
+  - sk-0551
+  - 暴风雪：救回受伤小鸟，养好翅膀后还它自由
 type: case
 title: "暴风雪：救回受伤小鸟，养好翅膀后还它自由"
 lang: zh-CN

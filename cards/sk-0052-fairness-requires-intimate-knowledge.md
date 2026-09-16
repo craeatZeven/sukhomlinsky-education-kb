@@ -1,5 +1,8 @@
 ---
 id: sk-0052
+aliases:
+  - sk-0052
+  - 真正的公平来自对每个儿童内心世界的深入了解
 type: principle
 title: "真正的公平来自对每个儿童内心世界的深入了解"
 lang: zh-CN

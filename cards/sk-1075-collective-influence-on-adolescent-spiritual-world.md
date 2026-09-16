@@ -1,5 +1,8 @@
 ---
 id: sk-1075
+aliases:
+  - sk-1075
+  - 集体对少年精神世界形成的影响
 type: principle
 title: "集体对少年精神世界形成的影响"
 lang: zh-CN

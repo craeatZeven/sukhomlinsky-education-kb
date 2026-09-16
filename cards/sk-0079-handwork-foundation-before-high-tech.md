@@ -1,5 +1,8 @@
 ---
 id: sk-0079
+aliases:
+  - sk-0079
+  - 高技术时代，仍要先掌握手工基本功
 type: principle
 title: "高技术时代，仍要先掌握手工基本功"
 lang: zh-CN

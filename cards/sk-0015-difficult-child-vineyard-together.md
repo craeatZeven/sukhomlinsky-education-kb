@@ -1,5 +1,8 @@
 ---
 id: sk-0015
+aliases:
+  - sk-0015
+  - 牵着最难教的孩子，一起去学校葡萄园劳动
 type: case
 title: "牵着最难教的孩子，一起去学校葡萄园劳动"
 lang: zh-CN

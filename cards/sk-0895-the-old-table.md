@@ -1,5 +1,8 @@
 ---
 id: sk-0895
+aliases:
+  - sk-0895
+  - 一张旧桌子
 type: case
 title: "一张旧桌子"
 lang: zh-CN

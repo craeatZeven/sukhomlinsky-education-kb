@@ -1,5 +1,8 @@
 ---
 id: sk-0504
+aliases:
+  - sk-0504
+  - 春风：睡够了的槭树该醒醒了
 type: case
 title: "春风：睡够了的槭树该醒醒了"
 lang: zh-CN

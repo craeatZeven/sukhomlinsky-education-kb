@@ -1,5 +1,8 @@
 ---
 id: sk-0115
+aliases:
+  - sk-0115
+  - 保护少年内心世界的隐秘，是教育的最重要任务
 type: principle
 title: "保护少年内心世界的隐秘，是教育的最重要任务"
 lang: zh-CN

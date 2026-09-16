@@ -1,5 +1,8 @@
 ---
 id: sk-0467
+aliases:
+  - sk-0467
+  - 他们是多么可怜：天没亮就去听云雀
 type: case
 title: "他们是多么可怜：天没亮就去听云雀"
 lang: zh-CN

@@ -1,5 +1,8 @@
 ---
 id: sk-1121
+aliases:
+  - sk-1121
+  - 才能、爱好和志向的培养和发展
 type: principle
 title: "才能、爱好和志向的培养和发展"
 lang: zh-CN

@@ -421,6 +421,30 @@
         '  </a>';
     },
 
+    /* 卡片之间的引用在 Markdown 里写成 `[[sk-XXXX]]`（Obsidian 双链，2026-09-14 起）。
+       网站这一端必须认它——否则页面上会直接显示方括号。
+       顺序要紧：**先转义再替换**，模式本身只有 [ ] 和数字字母，不会被转义影响。 */
+    linkify: function (text) {
+      return KB.esc(text || "").replace(/\[\[(sk-\d{4})\]\]/g, function (_m, id) {
+        return '<a class="wikilink" href="card.html?id=' + encodeURIComponent(id) + '">' + id + '</a>';
+      });
+    },
+
+    /* 教育场景/应用：卡里有的写成散文、有的写成 `- ` 列表，按首行判断后分别渲染。
+       逐行转义 + linkify，不整段塞进 innerHTML 的原始文本。 */
+    usageHTML: function (text) {
+      var lines = String(text || "").split("\n").map(function (l) { return l.trim(); })
+        .filter(function (l) { return l; });
+      if (!lines.length) return "";
+      var isList = lines.every(function (l) { return /^[-*]\s+/.test(l); });
+      if (isList) {
+        return "<ul>" + lines.map(function (l) {
+          return "<li>" + KB.linkify(l.replace(/^[-*]\s+/, "")) + "</li>";
+        }).join("") + "</ul>";
+      }
+      return lines.map(function (l) { return "<p>" + KB.linkify(l) + "</p>"; }).join("");
+    },
+
     /* 索引条目 + 全文语料 → 可检索文本（小写）
        旧 topics 仍进检索文本：旧标签是回溯入口，不该因为换了分类就搜不到。 */
     searchText: function (card, corpusEntry) {
@@ -431,7 +455,8 @@
         card.id, card.title, card.cn, card.preview, KB.refText(card.ref),
         card.source, KB.sourceTitle(card.source), topics, tags,
         entries.join(" "),
-        corpusEntry ? corpusEntry.text : ""
+        corpusEntry ? corpusEntry.text : "",
+        corpusEntry ? (corpusEntry.usage || "") : ""
       ].join(" ").toLowerCase();
     },
 

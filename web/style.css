@@ -572,6 +572,22 @@ a.badge--see { color: var(--soft); border-style: dashed; }
 button.mx-cell { font-family: var(--sans); border: 0; padding: 0; cursor: pointer; }
 button.mx-cell:hover { box-shadow: 0 0 0 2px var(--accent); }
 
+/* 教育场景/应用（卡片页）：1386 张卡每张都有这一节，而网站从前**完全不渲染它** ——
+   2026-09-14 补。它回答"这一条什么时候用得上"，是读者最需要的一段；
+   350 处卡对卡引用也全在这里。走阅读层语言（栏宽内的正文 + 左侧细线列表），
+   不在卡片里再套卡片。 */
+.card-usage { margin-top: 26px; padding-top: 18px; border-top: 1px solid var(--line); }
+.card-usage .section-sub { margin-bottom: 10px; }
+.card-usage code { font-family: var(--mono); font-size: 12px; }
+.usage-body p { margin: 0 0 8px; font-size: 16px; line-height: 1.85; }
+.usage-body ul { margin: 0; padding-left: 20px; }
+.usage-body li { margin-bottom: 7px; font-size: 16px; line-height: 1.8; }
+.usage-body li::marker { color: var(--accent); }
+/* 卡对卡双链（[[sk-XXXX]]）在网站上的样子：等宽小字 + 虚下划线，与普通链接区分 */
+.wikilink { font-family: var(--mono); font-size: 12.5px; color: var(--accent-ink);
+  text-decoration: none; border-bottom: 1px solid color-mix(in srgb, var(--accent) 45%, transparent); }
+.wikilink:hover { border-bottom-color: var(--accent); }
+
 /* 没有逐字原文的卡：编者概括要**一眼看出不是引文**——
    左侧竖线 + 非衬线小字，明确写"不是原话"（外部评审 docs/codex-final-opinion.md A1） */
 .editor-summary { margin-top: 18px; border-left: 3px solid var(--line); padding: 2px 0 2px 18px; }

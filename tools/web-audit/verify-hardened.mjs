@@ -491,6 +491,36 @@ async function main() {
     await cdp.send('Emulation.setDeviceMetricsOverride',
       { width: 1440, height: 900, deviceScaleFactor: 1, mobile: false }, sessionId);
 
+    /* ---------- 3c. 卡片页的「教育场景/应用」与双链渲染 ---------- */
+    /* 这一节 1386 张卡每张都有，而网站从前**完全不渲染**（2026-09-14 查出）。
+       现在补上了，判据守两件事：
+         ① 这一节真的渲染出来了（不是只在数据里）；
+         ② 里面的 [[sk-XXXX]] 被渲染成**真的链接**，而不是把方括号原样显示。
+       样本挑 sk-0983 —— 一张**确实含双链**的卡（[[sk-0073]]）。挑没有链接的卡
+       会让第 ② 条"因为没东西可查"而假通过。 */
+    await goto('web/card.html?id=sk-0983',
+      `document.querySelectorAll('.card-usage .usage-body li, .card-usage .usage-body p').length > 0`);
+    const usage = await probe(`(() => {
+      const box=document.querySelector('.card-usage');
+      const links=[...document.querySelectorAll('.card-usage a.wikilink')];
+      const main=document.getElementById('cardMain');
+      return {
+        hasBox: !!box,
+        boxText: box ? box.innerText.replace(/\\s+/g,' ').trim().slice(0,60) : '',
+        links: links.map(a=>({href:a.getAttribute('href'), text:a.textContent.trim()})),
+        rawBrackets: (main ? main.innerText : '').includes('[['),
+        anyBracketAnywhere: document.body.innerText.includes('[['),
+      };
+    })()`);
+    check('卡片页', '「教育场景/应用」真的渲染出来了（1386 张卡每张都有这一节）',
+      usage.hasBox && usage.boxText.length > 10,
+      `区块存在=${usage.hasBox} 开头=${JSON.stringify(usage.boxText)}`);
+    check('卡片页', '卡对卡双链渲染成真链接，页面上不残留 [[ ]] 方括号',
+      usage.links.length > 0 && !usage.rawBrackets && !usage.anyBracketAnywhere &&
+      usage.links.every((l) => /^card\.html\?id=sk-\d{4}$/.test(l.href) && /^sk-\d{4}$/.test(l.text)),
+      `链接=${JSON.stringify(usage.links.slice(0, 3))} 卡片区有方括号=${usage.rawBrackets} ` +
+      `整页有方括号=${usage.anyBracketAnywhere}`);
+
     /* ---------- 4. 入门卡真的在首屏 ---------- */
     await cdp.send('Emulation.setDeviceMetricsOverride',
       { width: 1440, height: 900, deviceScaleFactor: 1, mobile: false }, sessionId);

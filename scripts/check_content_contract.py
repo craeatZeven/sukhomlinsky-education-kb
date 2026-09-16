@@ -120,6 +120,28 @@ def main() -> int:
                 fail(f'{cid} 分类标 evidence_unverified，但卡片 excerpt_status='
                      f'{c.get("excerpt_status")}（应当一致）')
 
+    # ⑥ 「教育场景/应用」必须在产物里。坑：1386 张卡**每张都有**这一节，
+    #    而 build_site.py 从前根本没抽取它 —— 于是"这库最能用的一段"在网站上
+    #    完全不存在（2026-09-14 用探针实测：data.json 与单卡分片都搜不到，0/5）。
+    #    352 处卡对卡引用里的 350 处就在这一节，也一起隐形了。
+    #    这条守的是"别再静默丢掉一整节内容"。
+    no_usage = [c['id'] for c in cards if not (c.get('usage') or '').strip()]
+    if no_usage:
+        fail(f'{len(no_usage)} 张卡在网站产物里没有「教育场景/应用」：{no_usage[:8]}')
+
+    # ⑦ 卡对卡引用必须是双链 `[[sk-XXXX]]`，不许退回裸 `sk-XXXX`。
+    #    卡片正文 2026-09-14 已整体迁移（351 处）；裸写法会让 Obsidian 读不到关系、
+    #    网站也只当普通文字。这条防的是"以后新写的卡片又写回裸 id"。
+    bare = []
+    n_wikilink = 0
+    for c in cards:
+        u = c.get('usage') or ''
+        n_wikilink += len(re.findall(r'\[\[sk-\d{4}\]\]', u))
+        for m in re.finditer(r'(?<!\[\[)\bsk-\d{4}\b(?!\]\])', u):
+            bare.append(f'{c["id"]}:{m.group(0)}')
+    if bare:
+        fail(f'{len(bare)} 处「教育场景/应用」里是裸 sk-XXXX（应为 [[sk-XXXX]]）：{bare[:8]}')
+
     if PROBLEMS:
         print(f'内容契约：**{len(PROBLEMS)} 处不一致**')
         for p in PROBLEMS[:20]:
@@ -129,7 +151,9 @@ def main() -> int:
         return 1
     print(f'内容契约：全部一致'
           f'（{len(cards)} 张卡 · 原文待补 {len(marked)} 张 · '
-          f'{n_start} 个条目有入门卡 · 案例挂靠 {n_case} 处）')
+          f'{n_start} 个条目有入门卡 · 案例挂靠 {n_case} 处 · '
+          f'教育场景/应用 {len(cards) - len(no_usage)} 张有内容 · '
+          f'其中卡对卡双链 {n_wikilink} 处）')
     if two_card:
         print(f'  注：{len(two_card)} 个条目本身没有挂靠案例，入门卡只有两张'
               f'（{two_card}）——不硬凑，如实如此')

@@ -22,7 +22,7 @@
 <meta name="twitter:description" content="一张卡：原文摘录、中文转述、教育场景，以及来源与出处核对，可复制引用或打印成 PDF。" />
 <meta name="twitter:image" content="https://craeatzeven.github.io/sukhomlinsky-education-kb/web/og.png" />
 <!-- social:end -->
-<link rel="stylesheet" href="style.css?v=20260914d" />
+<link rel="stylesheet" href="style.css?v=20260914e" />
 </head>
 <body data-theme="green">
 <nav class="topnav">
@@ -91,7 +91,7 @@
 </footer>
 
 <script src="kb.js"></script>
-<script src="theme.js?v=20260914d"></script>
+<script src="theme.js?v=20260914e"></script>
 <script>
 function getParam(){ return new URLSearchParams(location.search).get("id") || location.hash.replace("#",""); }
 function cardLink(c){ return `card.html?id=${encodeURIComponent(c.id)}#${KB.esc(c.id)}`; }
@@ -185,6 +185,12 @@ function renderCard(c, error){
     ${excerptsHtml}
     ${paraphraseBlock}
     ${c.cn?`<div class="cn"><b>中文转述：</b>${KB.esc(c.cn)}</div>`:""}
+    ${(c.usage||"").trim()?`<section class="card-usage">
+       <h2 class="section-title">教育场景 / 应用</h2>
+       <p class="section-sub">这一条在什么时候用得上。里面出现的 <code>sk-XXXX</code> 可以点开——
+       它们是同一批卡片里互相印证的线索。</p>
+       <div class="usage-body">${KB.usageHTML(c.usage)}</div>
+     </section>`:""}
     ${(tags.length || taxTags.length)?`<div style="margin-top:12px">${
       taxTags.join("")
     }${tags.map(t=>`<span class="meta" style="border:1px solid var(--line);border-radius:2px;padding:1px 8px;margin-right:6px">${KB.esc(t)}</span>`).join("")}</div>`:""}

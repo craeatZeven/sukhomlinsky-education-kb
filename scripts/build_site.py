@@ -195,6 +195,11 @@ def parse_cards() -> list[dict]:
         excerpt_status = (fm.get('excerpt_status') or 'verified').strip()
         if not excerpts and editor_summary:
             excerpt_status = 'paraphrase'
+        # 教育场景/应用：**1386 张卡每张都有这一节**，但 2026-09-14 之前一直没被抽取，
+        # 于是"这库最能用的一段"在网站上完全不存在（探针实测 data.json 与单卡分片都搜不到，
+        # 且 352 处卡对卡引用里的 350 处就在这一节里）。现在按原文保留小节结构：
+        # 有的卡是散文、有的是 `- ` 列表，前端按首行判断后分别渲染成 <p> 或 <ul>。
+        usage = section(text, '教育场景/应用').strip()
         topics_raw = (fm.get('topics') or '').strip()
         topics = [x.strip() for x in topics_raw.split(',') if x.strip()]
         tags: list[str] = []
@@ -216,6 +221,7 @@ def parse_cards() -> list[dict]:
             'excerpts': excerpts,
             'excerpt_status': excerpt_status,
             'editor_summary': editor_summary,
+            'usage': usage,
             'cn': cn,
             'ref': fm.get('ref', ''),
             'tags': tags,

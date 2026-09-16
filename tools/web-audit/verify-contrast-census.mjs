@@ -74,7 +74,11 @@ const PROBE = `(() => {
       n=n.parentElement;}
     return {o, chain};};
   const sel=['h1','h2','h3','p','.meta','.angle-note','.section-sub','.row-title','.row-desc',
-             '.row-go','.badge','.chip','.ref','.cn','a','.nav-group-btn','.nav-menu-sub'];
+             '.row-go','.badge','.chip','.ref','.cn','a','.nav-group-btn','.nav-menu-sub',
+             /* 领域图的 SVG 文字：样式里刻意写成「fill: currentColor」+ CSS 的 color，
+                所以这里量到的 color 就是实际画出来的填充色（否则会量错对象）。
+                注意：本段在模板字符串里，注释里不能出现反引号。 */
+             '.dm-t1','.dm-t2','.dm-legend','.dm-li','.dm-li b'];
   const out=[];
   let invisible=0;
   const invisibleSample=[];

@@ -22,7 +22,7 @@
 <meta name="twitter:description" content="这个库怎么组织的、你该从哪儿找：论述卡按 22 个条目归类，故事卡按 17 个分面归类，另有 416 条交叉参见。" />
 <meta name="twitter:image" content="https://craeatzeven.github.io/sukhomlinsky-education-kb/web/og.png" />
 <!-- social:end -->
-<link rel="stylesheet" href="style.css?v=20260916" />
+<link rel="stylesheet" href="style.css?v=20260916b" />
 </head>
 <body data-theme="green">
 <nav class="topnav">
@@ -83,6 +83,18 @@
   </section>
 
   <section>
+    <h2 class="section-title">两条路，一张图</h2>
+    <p class="section-sub">左边是骨架（观察角度 / 故事字段），右边是具体条目与分面；
+    每一块的宽度和数字都来自实际卡片数。<b>坐标是算出来的、永远不变</b>——
+    这里没有随机布局，也没有力导向（那类图的坐标是迭代产物，重跑一次点就换位置，当不了地图）。
+    连线两种：<span class="dm-key dm-key--own">灰</span>是归属，
+    <span class="dm-key dm-key--see">砖红</span>是<b>交叉参见</b>（越粗 = 两条互相牵引的卡越多）。
+    窄屏退化成列表。</p>
+    <div class="dm-wrap" id="domainMap"><p class="section-sub">正在读数据…</p></div>
+    <p class="dm-legend" id="dmLegend"></p>
+  </section>
+
+  <section>
     <h2 class="section-title">一张卡会在别的条目下再出现</h2>
     <p class="section-sub">同一条主张常常也讲了别的事。每张卡只有一个<b>主归属</b>，但它可以在别的条目下作为
     <b>参见</b>出现——这不是重复，是在提醒你「这两件事要一起看」。
@@ -123,7 +135,7 @@
 </footer>
 
 <script src="kb.js"></script>
-<script src="theme.js?v=20260916"></script>
+<script src="theme.js?v=20260916b"></script>
 <script>
 /* 分类总图：读者优先。
    前半页回答"我该怎么找"（两类卡的分别、参见是什么、哪儿材料多、标记怎么用），
@@ -235,6 +247,174 @@ document.addEventListener("DOMContentLoaded", async () => {
   document.getElementById("taxLegend").innerHTML =
     `条块长短 = 主归属张数。宽度不足 ${MINW}px 的条目给了保底宽度（否则名字读不出），` +
     `所以极小的条目看上去会比实际略宽一点。窄屏改为列表。`;
+
+  /* ── ③.5 领域图：两条路的骨架（SVG，坐标由数据算出，不跑力导向）────────
+     设计依据来自 09-10 的地图调研：**不做星图**——力导向的坐标是随机种子 + 迭代的产物，
+     重跑一次点就全换位置，违反"地图"的第一性原理；而且它会把"共享几个高频词"画成"有关系"。
+     这里改用**二分图**：左列骨架（角度 / 字段）、右列成员（条目 / 分面），
+     位置由排序与计数算出、永远不变；连线只用**编辑判读出来的**关系（归属 + 参见），
+     每条边都有定义。窄屏退化成列表（与站点其他地方一致）。
+     可访问性：SVG 文字用 `fill: currentColor` + CSS 里的 color，这样
+     对比度普查读到的 `color` 就是实际画出来的颜色（否则它会量错对象）。 */
+  function domainMap() {
+    const NS = 'http://www.w3.org/2000/svg';
+    const pairs = map.pairs || {};
+    function esc2(s) { return KB.esc(s); }
+
+    function svgEl(tag, attrs, text) {
+      const e = document.createElementNS(NS, tag);
+      for (const k in attrs) e.setAttribute(k, attrs[k]);
+      if (text != null) e.textContent = text;
+      return e;
+    }
+    /* 一行块：w=块宽 h=块高；每块两行字（名 + 数字） */
+    function chip(g, x, y, w, h, href, line1, line2, cls) {
+      const a = svgEl('a', { href: href });
+      const box = svgEl('rect', { x: x, y: y, width: w, height: h, rx: 3, class: 'dm-box ' + cls });
+      const t1 = svgEl('text', { x: x + 8, y: y + h / 2 - 2, class: 'dm-t1 ' + cls }, line1);
+      const t2 = svgEl('text', { x: x + 8, y: y + h / 2 + 11, class: 'dm-t2 ' + cls }, line2);
+      a.appendChild(box); a.appendChild(t1); a.appendChild(t2);
+      g.appendChild(a);
+      return { x: x + w / 2, y: y + h / 2 };
+    }
+
+    const wrap = document.getElementById('domainMap');
+    wrap.innerHTML = '';
+    const W = 1000;
+    const CH = 32, GAPY = 8, GAPX = 8;
+    const LEFTW = 150, LEFTX = 8, RIGHTX = 176;
+    const entriesByLayer = {};
+    essays.forEach(e => { (entriesByLayer[e.layer] = entriesByLayer[e.layer] || []).push(e); });
+
+    /* 先算高度：每个角度块内，条目每行放 5 个 */
+    const PER_ROW = 5;
+    const CHIPW = Math.floor((W - RIGHTX - 10 - (PER_ROW - 1) * GAPX) / PER_ROW);
+    let cy = 14;
+    const layout = [];
+    layers.forEach(l => {
+      const list = (entriesByLayer[l.name] || []).slice().sort((a, b) => b.count - a.count);
+      const rows = Math.max(1, Math.ceil(list.length / PER_ROW));
+      const bh = rows * (CH + GAPY) - GAPY;
+      layout.push({ layer: l, list, y: cy, h: Math.max(bh, CH) });
+      cy += Math.max(bh, CH) + 26;
+    });
+    const H1 = cy + 6;
+
+    const svg1 = svgEl('svg', { viewBox: `0 0 ${W} ${H1}`, class: 'dm-svg', role: 'img',
+      'aria-label': '论述卡的结构：观察角度与条目，以及条目之间的交叉参见' });
+    /* 先画边，后画块（边在底下） */
+    const gEdges = svgEl('g', {}), gNodes = svgEl('g', {});
+    const pos = {};
+    layout.forEach(b => {
+      b.list.forEach((e, i) => {
+        const r = Math.floor(i / PER_ROW), c = i % PER_ROW;
+        pos[e.code] = { x: RIGHTX + c * (CHIPW + GAPX), y: b.y + r * (CH + GAPY) };
+      });
+      const sub = entriesByLayer[b.layer.name] || [];
+      b.list.forEach(e => {
+        const p = pos[e.code];
+        const x0 = LEFTX + LEFTW, y0 = b.y + b.h / 2;
+        gEdges.appendChild(svgEl('line', { x1: x0, y1: y0, x2: p.x, y2: p.y + CH / 2, class: 'dm-own' }));
+      });
+    });
+    /* 参见边：只画跨角度的，且**只画 ≥2 条的**。
+       实测分布：125 对跨角度里 76 对只有 1 条参见（弱连接）；画全部会糊成一团
+       （第一版就是这样，截图一看中间整片糊）。阈值 2 只剩 49 条边，
+       却覆盖 69% 的参见条数 —— 该画的是"有分量的关系"。
+       单条弱连接不画，但**在图例里如实报出略去了多少**（不藏）。 */
+    const MINPAIR = 2;
+    const maxPair = Math.max(1, ...Object.values(pairs).map(v => v.length));
+    let crossPairs = 0, drawnPairs = 0, skippedPairs = 0;
+    Object.keys(pairs).forEach(k => {
+      const [a, b] = k.split('|');
+      if (!pos[a] || !pos[b] || layerOf[a] === layerOf[b]) return;
+      crossPairs++;
+      const n = (pairs[k] || []).length;
+      if (n < MINPAIR) { skippedPairs++; return; }
+      drawnPairs++;
+      const pa = pos[a], pb = pos[b];
+      gEdges.appendChild(svgEl('line', {
+        x1: pa.x + CHIPW / 2, y1: pa.y + CH / 2, x2: pb.x + CHIPW / 2, y2: pb.y + CH / 2,
+        class: 'dm-see', 'stroke-width': (0.9 + 3.2 * n / maxPair).toFixed(2),
+        'stroke-opacity': (0.22 + 0.55 * n / maxPair).toFixed(2),
+      }));
+    });
+    layout.forEach(b => {
+      chip(gNodes, LEFTX, b.y, LEFTW, b.h, `entries.html#${encodeURIComponent(b.layer.name)}`,
+        `${b.layer.index} ${b.layer.name}`, `${b.layer.count} 张`, 'dm-layer');
+      b.list.forEach(e => {
+        const p = pos[e.code];
+        chip(gNodes, p.x, p.y, CHIPW, CH, `entry.html?code=${encodeURIComponent(e.code)}`,
+          `${e.code} ${e.name}`, `${e.count} 张 · 被参见 ${e.cross}`, 'dm-entry');
+      });
+    });
+    svg1.appendChild(gEdges); svg1.appendChild(gNodes);
+
+    /* 故事轴：3 字段 → 17 分面 */
+    const fields = {};
+    facets.forEach(f => { (fields[f.field] = fields[f.field] || []).push(f); });
+    const FPER = 6;
+    const FW = Math.floor((W - RIGHTX - 10 - (FPER - 1) * GAPX) / FPER);
+    let fy = 14;
+    const flayout = [];
+    Object.keys(fields).forEach(name => {
+      const list = fields[name].slice().sort((a, b) => b.count - a.count);
+      const rows = Math.max(1, Math.ceil(list.length / FPER));
+      const bh = rows * (CH + GAPY) - GAPY;
+      flayout.push({ name, list, y: fy, h: Math.max(bh, CH) });
+      fy += Math.max(bh, CH) + 26;
+    });
+    const H2 = fy + 6;
+    const svg2 = svgEl('svg', { viewBox: `0 0 ${W} ${H2}`, class: 'dm-svg', role: 'img',
+      'aria-label': '故事卡的结构：三个字段与十七个分面' });
+    const g2e = svgEl('g', {}), g2n = svgEl('g', {});
+    flayout.forEach(b => {
+      const total = b.list.reduce((s, f) => s + f.count, 0);
+      chip(g2n, LEFTX, b.y, LEFTW, b.h, 'facets.html', b.name, `${b.list.length} 个分面`, 'dm-layer');
+      b.list.forEach((f, i) => {
+        const r = Math.floor(i / FPER), c = i % FPER;
+        const x = RIGHTX + c * (FW + GAPX), y = b.y + r * (CH + GAPY);
+        g2e.appendChild(svgEl('line', { x1: LEFTX + LEFTW, y1: b.y + b.h / 2,
+          x2: x, y2: y + CH / 2, class: 'dm-own' }));
+        chip(g2n, x, y, FW, CH, `facet.html?code=${encodeURIComponent(f.code)}`,
+          `${f.code} ${f.name}`, `${f.count} 张故事`, 'dm-facet');
+      });
+    });
+    svg2.appendChild(g2e); svg2.appendChild(g2n);
+
+    wrap.appendChild(svg1);
+    wrap.appendChild(svg2);
+    document.getElementById('dmLegend').innerHTML =
+      `上图：${layers.length} 个观察角度 + ${essays.length} 个条目；` +
+      `跨角度参见共 ${crossPairs} 对，图中画出 <b>${drawnPairs} 对（≥${MINPAIR} 条）</b>，` +
+      `略去 ${skippedPairs} 对单条弱连接（画上去会把图糊掉；全部数字在下面的矩阵里）。` +
+      `下图：${Object.keys(fields).length} 个字段 + ${facets.length} 个分面。` +
+      `块宽与数字都来自实际卡片数；坐标由数据算出，<b>不跑随机布局</b>。`;
+
+    /* 窄屏：把 SVG 换成列表（SVG 在 390px 下没法读，硬缩只会变成糊的色块） */
+    const mq = window.matchMedia('(max-width: 680px)');
+    function applyMode() {
+      if (mq.matches) {
+        wrap.innerHTML = `<div class="dm-list">` +
+          layout.map(b => `<h3>${b.layer.index} ${esc(b.layer.name)}　<span class="dm-n">${b.layer.count} 张</span></h3>` +
+            b.list.map(e => `<a class="dm-li" href="entry.html?code=${encodeURIComponent(e.code)}">` +
+              `<span>${e.code} ${esc(e.name)}</span><b>${e.count}</b></a>`).join("")).join("") +
+          `</div><div class="dm-list">` +
+          flayout.map(b => `<h3>${esc(b.name)}</h3>` +
+            b.list.map(f => `<a class="dm-li" href="facet.html?code=${encodeURIComponent(f.code)}">` +
+              `<span>${f.code} ${esc(f.name)}</span><b>${f.count}</b></a>`).join("")).join("") +
+          `</div>`;
+      } else if (!wrap.querySelector('svg')) {
+        wrap.innerHTML = ''; wrap.appendChild(svg1); wrap.appendChild(svg2);
+      }
+    }
+    applyMode();
+    mq.addEventListener ? mq.addEventListener('change', applyMode) : mq.addListener(applyMode);
+  }
+  try { domainMap(); } catch (e) {
+    document.getElementById('domainMap').innerHTML =
+      `<p class="section-sub">领域图渲染失败：${KB.esc(e.message)}（数据部分不受影响）</p>`;
+  }
 
   /* ── ④ 复分标记 ──────────────────────────────────────────────────── */
   const tags = meta.entries.filter(e => e.tag);

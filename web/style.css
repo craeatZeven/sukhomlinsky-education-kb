@@ -572,37 +572,6 @@ a.badge--see { color: var(--soft); border-style: dashed; }
 button.mx-cell { font-family: var(--sans); border: 0; padding: 0; cursor: pointer; }
 button.mx-cell:hover { box-shadow: 0 0 0 2px var(--accent); }
 
-/* 领域图（分类总图页）：二分图 —— 左列骨架（角度 / 字段）、右列成员（条目 / 分面）。
-   设计依据是 09-10 地图调研的**不做星图**：坐标必须由数据算出、永不重排，
-   边必须是"编辑判读出来的"关系（归属 + 参见），而不是关键词共现。
-   可访问性要点：SVG 文字用 `fill: currentColor`，颜色写在 `color` 上 ——
-   这样对比度普查读到的 `color` 就是实际画出来的颜色（否则它会量错对象）。 */
-.dm-wrap { display: grid; gap: 14px; margin-top: 4px; }
-.dm-svg { width: 100%; height: auto; display: block;
-  border: 1px solid var(--line); border-radius: var(--radius-archive);
-  background: var(--card); }
-.dm-svg text { fill: currentColor; font-family: var(--sans); }
-.dm-box { fill: color-mix(in srgb, var(--ink) 3%, transparent); stroke: var(--line); stroke-width: 1; }
-.dm-box.dm-layer { fill: color-mix(in srgb, var(--accent) 12%, transparent); }
-.dm-svg a:hover .dm-box { stroke: var(--accent); }
-.dm-t1 { font-size: 12px; color: var(--ink); }
-.dm-t2 { font-size: 10.5px; font-family: var(--mono); color: var(--soft); }
-.dm-t1.dm-layer { font-size: 13.5px; font-weight: 700; }
-.dm-own { stroke: color-mix(in srgb, var(--soft) 45%, transparent); stroke-width: 1; }
-.dm-see { stroke: var(--accent); fill: none; }
-.dm-legend { margin: 12px 0 0; font-size: 12.5px; line-height: 1.8; color: var(--soft); }
-.dm-key { font-family: var(--mono); font-size: 11.5px; padding: 1px 6px; border-radius: 3px; }
-.dm-key--own { background: color-mix(in srgb, var(--soft) 22%, transparent); color: var(--ink); }
-.dm-key--see { background: var(--accent); color: var(--on-accent); }
-/* 窄屏退化成列表（SVG 在 390px 下没法读，硬缩只会变成糊的色块） */
-.dm-list h3 { margin: 14px 0 6px; font-family: var(--serif); font-size: 15px; }
-.dm-n { font-family: var(--mono); font-size: 11px; color: var(--soft); font-weight: 400; }
-.dm-li { display: flex; justify-content: space-between; align-items: center; gap: 10px;
-  padding: 9px 0; border-bottom: 1px solid var(--line); text-decoration: none;
-  color: var(--ink); font-size: 14px; min-height: 40px; }
-.dm-li b { font-family: var(--mono); font-size: 12px; color: var(--accent-ink); }
-.dm-li:hover { color: var(--accent); }
-
 /* 教育场景/应用（卡片页）：1386 张卡每张都有这一节，而网站从前**完全不渲染它** ——
    2026-09-16 补。它回答"这一条什么时候用得上"，是读者最需要的一段；
    350 处卡对卡引用也全在这里。走阅读层语言（栏宽内的正文 + 左侧细线列表），

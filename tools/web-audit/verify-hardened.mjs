@@ -492,7 +492,7 @@ async function main() {
       { width: 1440, height: 900, deviceScaleFactor: 1, mobile: false }, sessionId);
 
     /* ---------- 3c. 卡片页的「教育场景/应用」与双链渲染 ---------- */
-    /* 这一节 1386 张卡每张都有，而网站从前**完全不渲染**（2026-09-16 查出）。
+    /* 这一节 1386 张卡每张都有，而网站从前**完全不渲染**（2026-09-14 查出）。
        现在补上了，判据守两件事：
          ① 这一节真的渲染出来了（不是只在数据里）；
          ② 里面的 [[sk-XXXX]] 被渲染成**真的链接**，而不是把方括号原样显示。
@@ -520,79 +520,6 @@ async function main() {
       usage.links.every((l) => /^card\.html\?id=sk-\d{4}$/.test(l.href) && /^sk-\d{4}$/.test(l.text)),
       `链接=${JSON.stringify(usage.links.slice(0, 3))} 卡片区有方括号=${usage.rawBrackets} ` +
       `整页有方括号=${usage.anyBracketAnywhere}`);
-
-    /* ---------- 3d. 分类总图的「领域图」：两条路的二分图 ---------- */
-    /* 用户问「关系图不能想想办法解决吗」。09-10 的地图调研否掉的是"1386 张卡的力导向星图"
-       （坐标是随机种子+迭代的产物、重跑就换位置、还会把关键词共现画成"有关系"），
-       不是关系图本身。这里改用**二分图**：左列骨架（角度 / 字段）、右列成员（条目 / 分面），
-       坐标由排序与计数算出、永不重排；边只用编辑判读出来的关系（归属 + 跨角度参见）。
-       判据守的就是这几条设计承诺——每条都能失败：
-         ① 两张 SVG 都在，节点数与 meta 侧独立算出来的一致
-         ② 跨角度参见的边数 = 从 map.json 独立算出的跨角度对数
-         ③ 条目/分面块都是可点链接（不是画着好看的方块）
-         ④ 窄屏**退化成列表**（SVG 在 390px 下没法读，硬缩只会变成糊的色块） */
-    const mapJson = JSON.parse(readFileSync(join(ROOT, 'web/data/map.json'), 'utf-8'));
-    const layerOfCode = {};
-    metaJson.layers.forEach((l) => (l.entries || []).forEach((c) => { layerOfCode[c] = l.name; }));
-    const wantCross = Object.keys(mapJson.pairs || {}).filter((k) => {
-      const [a, b] = k.split('|');
-      return layerOfCode[a] && layerOfCode[b] && layerOfCode[a] !== layerOfCode[b];
-    }).length;
-    /* 图上只画 ≥2 条的跨角度参见（单条弱连接画上去会把图糊成一团——实测分布：
-       125 对里 76 对只有 1 条）。判据要跟着这个阈值走，否则它会因为"没画全"而误报。 */
-    const MINPAIR = 2;
-    const wantCrossDrawn = Object.keys(mapJson.pairs || {}).filter((k) => {
-      const [a, b] = k.split('|');
-      return layerOfCode[a] && layerOfCode[b] && layerOfCode[a] !== layerOfCode[b] &&
-        (mapJson.pairs[k] || []).length >= MINPAIR;
-    }).length;
-    const wantFields = Object.keys(metaJson.facets.reduce((a, f) => (a[f.field] = 1, a), {})).length;
-    await goto('web/taxonomy.html', `document.querySelectorAll('.dm-svg').length>=2`);
-    const dm = await probe(`(() => {
-      const links=[...document.querySelectorAll('.dm-svg a')];
-      return {
-        svg: document.querySelectorAll('.dm-svg').length,
-        layer: document.querySelectorAll('.dm-box.dm-layer').length,
-        entry: document.querySelectorAll('.dm-box.dm-entry').length,
-        facet: document.querySelectorAll('.dm-box.dm-facet').length,
-        own: document.querySelectorAll('.dm-own').length,
-        see: document.querySelectorAll('.dm-see').length,
-        badHref: links.filter(a=>!/^(entry\\.html\\?code=|facet\\.html\\?code=|entries\\.html#|facets\\.html)/.test(a.getAttribute('href')||'')).length,
-        legend: (document.getElementById('dmLegend')||{}).innerText||'',
-        vw: Math.round(document.documentElement.scrollWidth - document.documentElement.clientWidth),
-      };
-    })()`);
-    check('领域图', '两张 SVG 都在，节点数与 meta 独立算出来的一致',
-      dm.svg === 2 && dm.layer === indep.layers + wantFields &&
-      dm.entry === indep.entries && dm.facet === indep.facets && dm.vw <= 1,
-      `SVG=${dm.svg} 骨架块=${dm.layer}（应 ${indep.layers}+${wantFields}） 条目=${dm.entry}（应 ${indep.entries}）` +
-      ` 分面=${dm.facet}（应 ${indep.facets}） 页面横溢=${dm.vw}`);
-    check('领域图', '画出的参见边 = 跨角度 ≥2 条的（且图例如实报出略去了多少单条弱连接）',
-      dm.see === wantCrossDrawn && dm.see > 0 && dm.own > 0 &&
-      dm.legend.includes(String(wantCrossDrawn)) &&
-      dm.legend.includes(String(wantCross - wantCrossDrawn)),
-      `参见边=${dm.see} 独立算出（≥${MINPAIR} 条）=${wantCrossDrawn} 跨角度总数=${wantCross} ` +
-      `归属边=${dm.own}\n      图例=${JSON.stringify(dm.legend.slice(0, 110))}`);
-    check('领域图', '每个条目/分面块都是可点链接（不是画着好看的方块）',
-      dm.badHref === 0,
-      `非法 href 的块=${dm.badHref}；图例=${JSON.stringify(dm.legend.slice(0, 70))}`);
-    await cdp.send('Emulation.setDeviceMetricsOverride',
-      { width: 390, height: 844, deviceScaleFactor: 2, mobile: true }, sessionId);
-    await goto('web/taxonomy.html', `document.querySelectorAll('.dm-list').length>=2`);
-    const dmm = await probe(`(() => ({
-      list: document.querySelectorAll('.dm-list').length,
-      svg: document.querySelectorAll('.dm-svg').length,
-      items: document.querySelectorAll('.dm-li').length,
-      minH: Math.min(...[...document.querySelectorAll('.dm-li')].map(a=>Math.round(a.getBoundingClientRect().height))),
-      vw: Math.round(document.documentElement.scrollWidth - document.documentElement.clientWidth),
-    }))()`);
-    check('领域图', '窄屏退化成列表（不是把 SVG 硬缩成糊色块）',
-      dmm.list >= 2 && dmm.svg === 0 && dmm.items === indep.entries + indep.facets &&
-      dmm.minH >= 40 && dmm.vw <= 1,
-      `列表容器=${dmm.list} SVG=${dmm.svg} 条目行=${dmm.items}（应 ${indep.entries + indep.facets}）` +
-      ` 最小行高=${dmm.minH}px 页面横溢=${dmm.vw}`);
-    await cdp.send('Emulation.setDeviceMetricsOverride',
-      { width: 1440, height: 900, deviceScaleFactor: 1, mobile: false }, sessionId);
 
     /* ---------- 4. 入门卡真的在首屏 ---------- */
     await cdp.send('Emulation.setDeviceMetricsOverride',

@@ -267,7 +267,7 @@ def card_full_entry(card: dict, prev_id=None, next_id=None, related=None,
         'excerpts': card.get('excerpts', []),
         'excerpt_status': card.get('excerpt_status', 'verified'),
         'editor_summary': card.get('editor_summary', ''),
-        # 教育场景/应用：网站从前不渲染这一节（2026-09-14 补），
+        # 教育场景/应用：网站从前不渲染这一节（2026-09-16 补），
         # 而它是"这库怎么用"的答案所在，也是 350 处卡对卡引用的所在地。
         'usage': card.get('usage', ''),
         # 「关于本卡」溯源块用

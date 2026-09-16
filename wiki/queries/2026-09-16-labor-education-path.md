@@ -4,7 +4,7 @@ aliases:
   - 劳动教育怎么查
   - 劳动与创造 路径
 type: query
-updated: 2026-09-14
+updated: 2026-09-16
 sources:
   - sk-0014
   - sk-0016

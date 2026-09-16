@@ -573,7 +573,7 @@ button.mx-cell { font-family: var(--sans); border: 0; padding: 0; cursor: pointe
 button.mx-cell:hover { box-shadow: 0 0 0 2px var(--accent); }
 
 /* 教育场景/应用（卡片页）：1386 张卡每张都有这一节，而网站从前**完全不渲染它** ——
-   2026-09-14 补。它回答"这一条什么时候用得上"，是读者最需要的一段；
+   2026-09-16 补。它回答"这一条什么时候用得上"，是读者最需要的一段；
    350 处卡对卡引用也全在这里。走阅读层语言（栏宽内的正文 + 左侧细线列表），
    不在卡片里再套卡片。 */
 .card-usage { margin-top: 26px; padding-top: 18px; border-top: 1px solid var(--line); }

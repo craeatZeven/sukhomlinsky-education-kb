@@ -20,6 +20,7 @@ import json
 import re
 import sys
 from pathlib import Path
+from urllib.parse import quote
 
 ROOT = Path(__file__).resolve().parent.parent
 SOURCES_DIR = ROOT / 'sources'
@@ -355,11 +356,32 @@ def main() -> None:
         base + 'entries.html',
         base + 'facets.html',
         base + 'taxonomy.html',
+        # 2026-09-17 补：信息架构改成「一条主轴 + 换一种切法」后新增/漏收的页面。
+        # **漏收的代价是静默的**：这些页面对读者可达（判据管着），但**搜索引擎爬不到**
+        # ——公开门面时"读者搜不到"和"页面不存在"几乎等价。
+        base + 'reads.html',
+        base + 'sitemap.html',
+        base + 'topics.html',
+        base + 'stories.html',
+        base + 'guide.html',
+        base + 'latest.html',
+        base + 'coverage.html',
+        base + 'search.html',
     ]
     urls += [base + 'topic.html?slug=' + t['slug'] for t in data['topics']]
     if data['taxonomy'].get('available'):
         urls += [base + 'entry.html?code=' + e['code'] for e in data['taxonomy']['entries']]
+        urls += [base + 'facet.html?code=' + f['code'] for f in data['taxonomy']['facets']]
     urls += [base + 'card.html?id=' + c['id'] + '#' + c['id'] for c in data['cards']]
+    # 旁挂层的分析页（web/note/*.html，由 build_notes.py 生成）。
+    # **顺序要紧**：validate_all 里 build_site 排在 build_notes 之前，
+    # 所以这里只扫"上一轮已生成"的文件——第一轮跑会少收，第二轮起收敛。
+    # 判据 check_page_meta 会检查这些页面的元信息，但**不会检查它们在不在 sitemap 里**，
+    # 所以这里用"补一轮"的方式保证最终一致（validate_all 里 build_notes 之后没再跑 build_site，
+    # 因此把 note 页的收录放在 build_notes.py 里做更稳——见那里的 sitemap 追加）。
+    note_dir = ROOT / 'web' / 'note'
+    if note_dir.exists():
+        urls += [base + 'note/' + quote(p.name) for p in sorted(note_dir.glob('*.html'))]
     xml = ['<?xml version="1.0" encoding="UTF-8"?>',
            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for u in urls:

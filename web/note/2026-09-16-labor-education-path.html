@@ -76,10 +76,27 @@
 <ul><li>你要写东西：按第二节的三块收集材料，每条都带 <code>sk-XXXX</code>，出处可直接回查</li><li>你要备课：先看第一节那三张入门卡，再按主题挑参见</li><li>你要提问：把问题补进本页，或新建 <code>queries/&lt;日期&gt;-&lt;slug&gt;.md</code>，答案留在库里而不是聊天里</li></ul>
 </article>
 <hr />
+<div class="note-actions">
+  <button class="chip chip--primary" id="copyCite" type="button">复制引用</button>
+  <span class="meta" id="copyState"></span>
+</div>
 <p class="section-sub">这一页是<b>旁挂层</b>（编者的综合与分析），不是卡片原文。
 回到 <a href="search.html">检索</a> · <a href="entries.html">分类条目</a> ·
-<a href="topics.html">专题长文</a>；卡片一律以 <code>sk-XXXX</code> 链接可回查。</p>
+<a href="topics.html">专题长文</a> · <a href="sitemap.html">网站地图</a>；
+卡片一律以 <code>sk-XXXX</code> 链接可回查。</p>
 </main>
-<script src="kb.js?v=20260916c"></script>
 <script src="theme.js?v=20260916c"></script>
+<script>
+/* 分析页也要能"复制引用"——卡片页有这个按钮，而分析页恰恰是最可能被引用的一类页面。
+   引用串里带**类型与日期**（"编者分析"而不是"原文"），避免被当成原话引用；
+   这是这个库最在意的一件事：区分「他说的」与「编者的综合」。 */
+document.getElementById("copyCite").addEventListener("click", function () {
+  var t = document.querySelector(".note-body h1").textContent.trim();
+  var cite = t + "（编者分析） // 苏霍姆林斯基教育知识库 · " + location.href;
+  var done = function () { document.getElementById("copyState").textContent = "已复制引用串"; };
+  if (navigator.clipboard) navigator.clipboard.writeText(cite).then(done, done);
+  else { var a = document.createElement("textarea"); a.value = cite; document.body.appendChild(a);
+          a.select(); document.execCommand("copy"); a.remove(); done(); }
+});
+</script>
 </body></html>

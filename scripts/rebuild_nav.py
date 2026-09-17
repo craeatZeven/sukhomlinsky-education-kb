@@ -66,6 +66,8 @@ ACTIVE: dict[str, tuple[str | None, str | None]] = {
     'coverage.html': ('source', 'coverage.html'),
     'guide.html': ('use', 'guide.html'),
     'latest.html': ('use', 'latest.html'),
+    # 网站地图：导航减到 7 项之后，"想一眼看全"的入口。归到「用起来」那一组。
+    'sitemap.html': ('use', 'guide.html'),
     'card.html': (None, None),
 }
 

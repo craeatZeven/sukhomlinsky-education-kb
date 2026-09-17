@@ -176,12 +176,29 @@ CHROME = '''<!doctype html>
 {body}
 </article>
 <hr />
+<div class="note-actions">
+  <button class="chip chip--primary" id="copyCite" type="button">复制引用</button>
+  <span class="meta" id="copyState"></span>
+</div>
 <p class="section-sub">这一页是<b>旁挂层</b>（编者的综合与分析），不是卡片原文。
 回到 <a href="search.html">检索</a> · <a href="entries.html">分类条目</a> ·
-<a href="topics.html">专题长文</a>；卡片一律以 <code>sk-XXXX</code> 链接可回查。</p>
+<a href="topics.html">专题长文</a> · <a href="sitemap.html">网站地图</a>；
+卡片一律以 <code>sk-XXXX</code> 链接可回查。</p>
 </main>
-<script src="kb.js?v={ver}"></script>
 <script src="theme.js?v={ver}"></script>
+<script>
+/* 分析页也要能"复制引用"——卡片页有这个按钮，而分析页恰恰是最可能被引用的一类页面。
+   引用串里带**类型与日期**（"编者分析"而不是"原文"），避免被当成原话引用；
+   这是这个库最在意的一件事：区分「他说的」与「编者的综合」。 */
+document.getElementById("copyCite").addEventListener("click", function () {{
+  var t = document.querySelector(".note-body h1").textContent.trim();
+  var cite = t + "（编者分析） // 苏霍姆林斯基教育知识库 · " + location.href;
+  var done = function () {{ document.getElementById("copyState").textContent = "已复制引用串"; }};
+  if (navigator.clipboard) navigator.clipboard.writeText(cite).then(done, done);
+  else {{ var a = document.createElement("textarea"); a.value = cite; document.body.appendChild(a);
+          a.select(); document.execCommand("copy"); a.remove(); done(); }}
+}});
+</script>
 </body></html>
 '''
 
@@ -189,6 +206,71 @@ KIND_LABEL = {'concept': '概念页（分析）', 'moc': '入口页（索引）'
               'moc-entry': '条目入口页', 'moc-facet': '分面入口页',
               'moc-facet-exception': '入口页（例外登记）', 'moc-angle': '角度入口页',
               'query': '归档问答', 'topic': '专题长文'}
+
+# 网站地图（sitemap.html）：B 方案把导航从 15 项减到 7 项之后，这一页是**唯一能一眼看全**的地方。
+# 当公开门面时它是必需品：读者想知道"这个站一共有哪些页"时，没有它就只能靠猜；
+# 搜索引擎也需要一条能爬到所有页面的路。
+SITEMAP_HEAD = '''<!doctype html>
+<html lang="zh-CN"><head><meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>网站地图 · 苏霍姆林斯基教育知识库</title>
+<meta name="description" content="这个站的全部页面一览：找材料、读成篇材料、看来源、用起来四条路，每一页各自回答什么问题。" />
+<meta name="robots" content="index,follow" />
+<link rel="canonical" href="{site}/web/sitemap.html" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="网站地图 · 苏霍姆林斯基教育知识库" />
+<meta property="og:description" content="这个站的全部页面一览：找材料、读成篇材料、看来源、用起来四条路，每一页各自回答什么问题。" />
+<meta property="og:url" content="{site}/web/sitemap.html" />
+<meta property="og:image" content="{site}/web/og.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="网站地图 · 苏霍姆林斯基教育知识库" />
+<meta name="twitter:description" content="这个站的全部页面一览：找材料、读成篇材料、看来源、用起来四条路，每一页各自回答什么问题。" />
+<link rel="stylesheet" href="style.css?v={ver}" />
+</head><body class="reveal">
+{nav}
+<main class="wrap layer-archive">
+  <header class="page-head">
+    <p class="meta">SITEMAP</p>
+    <h1>网站地图</h1>
+    <p class="hero-note">导航里只放最常用的 7 个入口，其余都在这里。
+    还有 <b>1386 张卡片详情页</b>与 <b>{n_entry} 个条目页 / {n_facet} 个分面页</b>是按内容生成的，
+    不逐一列出——从下面任意入口或检索进去。</p>
+  </header>
+{blocks}
+  <section>
+    <h2 class="section-title">打错网址怎么办</h2>
+    <p class="section-sub">会到 <a href="../404.html">404 页</a>，那里有一条回首页的路。
+    也可以直接 <a href="search.html">全库检索</a> 或从 <a href="taxonomy.html">分类总图</a> 重新进。</p>
+  </section>
+</main>
+<script src="theme.js?v={ver}"></script>
+</body></html>
+'''
+
+# 地图区块：(标题, 说明, [(href, 名称, 一句话)])。第二块（读）的条目由生成器现算。
+SITEMAP_BLOCKS = [
+    ('找材料', '这个库怎么分类、怎么按各种条件把卡找出来。', [
+        ('taxonomy.html', '分类总图', '主轴：两类卡、分类结构、哪儿材料多；并由它通向四条路'),
+        ('entries.html', '分类条目', '5 个观察角度下的 22 个持卡条目（论述卡走这条）'),
+        ('facets.html', '故事分面', '673 张故事卡按角色 / 场景 / 事件或情绪归类，可多选'),
+        ('clusters.html', '思想地图', '22 个条目之间互相牵引的方向与张数（22×22 矩阵）'),
+        ('explore.html', '筛选浏览', '按主题 / 来源 / 类型 / 状态多选筛卡，可导出 JSON、CSV'),
+        ('search.html', '全库检索', '按词找：先给成篇材料，再给卡片；结果可分享'),
+    ]),
+    ('看来源', '这些材料从哪来、覆盖到哪一步。', [
+        ('sources.html', '书源与作品', '13 个来源的书目、OCR 状态、作品清单与缺口'),
+        ('coverage.html', '覆盖报告', '卡片量、来源与主题分布、覆盖审计结果'),
+    ]),
+    ('用起来', '怎么上手、怎么引用、怎么把数据拿走。', [
+        ('guide.html', '使用指南', '5 分钟上手：三种用法、一张卡里有什么、引用与导出'),
+        ('latest.html', '最近更新', '按编号倒序看最新补入的卡片'),
+        ('https://github.com/craeatZeven/sukhomlinsky-education-kb/blob/master/INDEX.md',
+         'Markdown 底座', 'INDEX.md、cards/、SKILL.md——不用网页也能用这批卡'),
+    ]),
+]
+
 
 # 「读本」枢纽页：成篇材料的**唯一静态入口**。
 # 它必须在导航里有一席，否则这些页面只能靠检索结果/卡片页的 JS 反查进入——
@@ -415,11 +497,61 @@ def main() -> int:
         comparisons=rows(kinds['comparison']), queries=rows(kinds['query']))
     (WEB / 'reads.html').write_text(hub, encoding='utf-8', newline='\n')
 
-    print(f'note 页面 {len(made)} 个 + 读本枢纽 reads.html；docs.json {len(corpus)} 条成篇材料 '
+    # ── 网站地图（sitemap.html）：导航减到 7 项之后，读者"想一眼看全"的唯一入口 ──
+    reads_items = ([('reads.html', '读本（总入口）', '12 篇编者长文 + 分析 / 对比 / 归档问答')] +
+                   [(f'note/{quote(d["slug"])}.html', d['title'],
+                     re.sub(r'\s+', ' ', next((x for x in strip_md(d['body']).split('.')
+                                               if len(x.strip()) > 12), ''))[:56] + '…')
+                    for d in docs if d['path'] is not None and d['type'] not in NO_PAGE_TYPES
+                    and d['kind'] != 'topic'] +
+                   [('topics.html', '教育专题（12 篇）', '一个专题一篇：核心判断 + 可操作方法是 + 跨书综合'),
+                    ('problem.html', '真实问题', '16 个常见问题（孩子说谎 / 坐不住 / 后进生…）'),
+                    ('cases.html', '困境案例', '16 个教育困境反查知识库，给可执行建议'),
+                    ('stories.html', '故事索引', '《做人的故事》541 篇按原书页码通读')])
+    # 修一处笔误（"可操作方法是"）由代码兜住：直接写对
+    reads_items = [(h, n, s.replace('可操作方法是', '可操作方法')) for h, n, s in reads_items]
+    blocks = []
+    for title, desc, items in SITEMAP_BLOCKS[:1] + [('读成篇材料', '不是卡片，是已经写好的一篇篇'
+                                                     '（每句判断后面都挂着卡号）', reads_items)] + \
+            SITEMAP_BLOCKS[1:]:
+        rows = '\n'.join(
+            f'      <a class="read-row" href="{esc(h)}"><span class="read-title">{esc(n)}</span>'
+            f'<span class="read-snip">{esc(s)}</span></a>' for h, n, s in items)
+        blocks.append(f'  <section>\n    <h2 class="section-title">{title}</h2>\n'
+                      f'    <p class="section-sub">{desc}</p>\n'
+                      f'    <div class="read-list">\n{rows}\n    </div>\n  </section>\n')
+    meta = json.loads((ROOT / 'web/data/meta.json').read_text(encoding='utf-8'))
+    (WEB / 'sitemap.html').write_text(
+        SITEMAP_HEAD.format(site=SITE, ver=ver, nav=read_nav(), blocks=''.join(blocks),
+                            n_entry=len(meta['entries']), n_facet=len(meta['facets'])),
+        encoding='utf-8', newline='\n')
+
+    print(f'note 页面 {len(made)} 个 + 读本枢纽 reads.html + 网站地图 sitemap.html；'
+          f'docs.json {len(corpus)} 条成篇材料 '
           f'（专题 {len(kinds["topic"])} · 分析 {len(kinds["concept"]) + len(kinds["comparison"])} · '
           f'问答 {len(kinds["query"])} · 条目 {sum(1 for c in corpus if c["kind"] == "entry")} · '
           f'分面 {sum(1 for c in corpus if c["kind"] == "facet")}）')
     print(f'  体积：{(DATA / "docs.json").stat().st_size / 1024:.0f} KB')
+
+    # ── 把 note 页补进 sitemap.xml ─────────────────────────────────────
+    # 为什么在这里补：`validate_all` 的顺序是 build_site → build_shards → rebuild_nav → build_notes，
+    # 而 build_site 生成 sitemap.xml 时，本轮 note 页**还没生成**（只有上一轮的）。
+    # 放在这里补，保证**同一轮**就收录，不依赖"多跑一次收敛"。
+    # **漏收的代价是静默的**：页面对读者可达（check_site_links 管着），但搜索引擎爬不到——
+    # 公开门面时"搜不到"和"不存在"几乎等价。
+    sm_path = WEB / 'sitemap.xml'
+    if sm_path.exists() and made:
+        sm = sm_path.read_text(encoding='utf-8')
+        base = f'{SITE}/web/'
+        added = 0
+        for d in made:
+            u = f'{base}note/{quote(d["slug"])}.html'
+            if f'<loc>{u}</loc>' not in sm:
+                sm = sm.replace('</urlset>', f'  <url><loc>{u}</loc></url>\n</urlset>')
+                added += 1
+        if added:
+            sm_path.write_text(sm, encoding='utf-8', newline='\n')
+        print(f'  sitemap.xml 新增 note 页 {added} 条')
     return 0
 
 

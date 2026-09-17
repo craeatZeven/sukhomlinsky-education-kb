@@ -25,6 +25,9 @@ SCRIPTS = [
     'build_site.py',
     'build_shards.py',
     'rebuild_nav.py',
+    # 页脚链接行也统一（与导航同理：共用块只允许一处定义，手改必然各不相同）。
+    # 网站地图在这里拿到"每页 1 跳可达"——导航减到 7 项之后它是"想一眼看全"的唯一入口。
+    'rebuild_footer.py',
     'build_notes.py',
     # ── 检查
     'check_kb.py',

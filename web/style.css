@@ -430,7 +430,10 @@ a.badge--see { color: var(--soft); border-style: dashed; }
    移动端退化成列表、不做星图）与风格卡 tool-data 的硬闸门（390px 不横向溢出、
    触控 ≥40px、计数用等宽小字不堆统计卡、对比度 AA）。 */
 .tax-ways { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
-.tax-way { border: 1px solid var(--line); border-radius: var(--radius); padding: 16px 18px; background: var(--card); }
+/* `--switch` 是「换一种切法」的卡片：**与"两类卡"同名会撞判据**
+   （verify-hardened 断言"两类卡恰好 2 个且排在版图之前"），所以单独一个类，
+   但共用同一套外观。 */
+.tax-way, .tax-way--switch { border: 1px solid var(--line); border-radius: var(--radius); padding: 16px 18px; background: var(--card); }
 .tax-way--essay { border-top: 3px solid var(--accent); }
 .tax-way--case { border-top: 3px solid color-mix(in srgb, var(--accent) 45%, var(--line)); }
 .tax-way-head { display: flex; align-items: baseline; gap: 10px; font-family: var(--mono); font-size: 12px; color: var(--soft); }

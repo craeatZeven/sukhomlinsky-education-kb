@@ -22,7 +22,7 @@
 <meta name="twitter:description" content="这个库怎么组织的、你该从哪儿找：论述卡按 22 个条目归类，故事卡按 17 个分面归类，另有 416 条交叉参见。" />
 <meta name="twitter:image" content="https://craeatzeven.github.io/sukhomlinsky-education-kb/web/og.png" />
 <!-- social:end -->
-<link rel="stylesheet" href="style.css?v=20260917c" />
+<link rel="stylesheet" href="style.css?v=20260917e" />
 </head>
 <body data-theme="green">
 <nav class="topnav">
@@ -74,6 +74,41 @@
     <p class="tax-note" id="taxNote"></p>
   </section>
 
+  <!-- 换一种切法：这一页是**主轴**（这个库怎么分类），下面四个页面是同一批材料的四种看法。
+       2026-09-17 信息架构改成"一条主轴 + 换一种切法"（用户选 B），导航从 15 项减到 7 项，
+       被移出导航的页面就从这里进——否则它们会变成孤岛（由 check_site_links.py 守着）。 -->
+  <section>
+    <h2 class="section-title">换一种切法</h2>
+    <p class="section-sub">同样一批 1386 张卡，按你手上的问题选入口。</p>
+    <div class="tax-ways">
+      <a class="tax-way--switch" href="entries.html">
+        <span class="tax-code">按条目</span>
+        <h3>二十三条目</h3>
+        <p class="tax-way-how">5 个观察角度下的 22 个持卡条目（论述卡走这条路）。
+        点进任意条目看<b>主归属</b>与<b>交叉参见</b>。</p>
+      </a>
+      <a class="tax-way--switch" href="facets.html">
+        <span class="tax-code">按分面</span>
+        <h3>故事分面</h3>
+        <p class="tax-way-how">673 张故事卡不走条目，按「谁在场 / 在哪 / 发生了什么」
+        三个字段、17 个分面组织，<b>可多选</b>。</p>
+      </a>
+      <a class="tax-way--switch" href="clusters.html">
+        <span class="tax-code">按关系</span>
+        <h3>思想地图</h3>
+        <p class="tax-way-how">22 个条目之间互相牵引的方向与张数，
+        含完整 22×22 关系矩阵——<b>哪儿条目之间来往最密。</b></p>
+      </a>
+      <a class="tax-way--switch" href="explore.html">
+        <span class="tax-code">按条件</span>
+        <h3>筛选浏览</h3>
+        <p class="tax-way-how">按主题、来源、类型、状态多选筛卡，可导出当前筛选结果
+        为 JSON 或 CSV——<b>要动手整理时用这个。</b></p>
+      </a>
+    </div>
+    <p class="tax-note">还想按<b>词</b>找？用 <a href="search.html">全库检索</a>（它先给成篇材料，再给卡片）；
+    想按<b>问题 / 困境 / 故事</b>读，去 <a href="reads.html">读本</a>。</p>
+  </section>
   <section>
     <h2 class="section-title">一张卡会在别的条目下再出现</h2>
     <p class="section-sub">同一条主张常常也讲了别的事。每张卡只有一个<b>主归属</b>，但它可以在别的条目下作为
@@ -115,7 +150,7 @@
 </footer>
 
 <script src="kb.js"></script>
-<script src="theme.js?v=20260917c"></script>
+<script src="theme.js?v=20260917e"></script>
 <script>
 /* 分类总图：读者优先。
    前半页回答"我该怎么找"（两类卡的分别、参见是什么、哪儿材料多、标记怎么用），
@@ -274,3 +309,4 @@ document.addEventListener("DOMContentLoaded", async () => {
 </script>
 </body>
 </html>
+

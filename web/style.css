@@ -100,7 +100,7 @@ input, button, select, textarea { font-family: inherit; }
 /* 默认标题字号也收敛到同一套字阶（12 / 14 / 17 / 21 / 26 / 34） */
 h2 { font-size: 26px; line-height: 1.35; }
 h3 { font-size: 21px; line-height: 1.4; }
-a { color: inherit; text-decoration: underline; text-decoration-color: color-mix(in srgb, var(--accent) 40%, transparent); text-underline-offset: 3px; text-decoration-thickness: 1px; }
+a { color: inherit; text-decoration: underline; text-decoration-color: var(--accent); text-underline-offset: 3px; text-decoration-thickness: 1px; }
 a:hover { color: var(--accent); text-decoration-color: var(--accent); }
 .wrap { max-width: 1180px; margin: 0 auto; padding: 0 22px; }
 
@@ -404,7 +404,7 @@ a.badge--see { color: var(--soft); border-style: dashed; }
    窄屏改成横向可滚的一行——纵向叠起来会吃掉太多首屏。 */
 .entry-jump.is-sticky {
   position: sticky; top: var(--nav-h); z-index: 900;
-  background: var(--paper); padding: 10px 0; margin-bottom: 16px;
+  background: var(--bg); padding: 10px 0; margin-bottom: 16px;
   border-bottom: 1px solid var(--line);
 }
 @media (max-width: 700px) {
@@ -1029,6 +1029,12 @@ footer {
 }
 footer a { color: var(--chrome-ink); text-decoration-color: color-mix(in srgb, var(--accent) 55%, transparent); }
 footer a:hover { color: var(--accent); }
+/* 2026-09-17 axe link-in-text-block（严重的 2 处就是这来的）：
+   页脚正文里的行内链接**没有下划线**（上面第 763 行有 text-decoration: none），
+   而它与周围文字的对比实测只有 ~1.8:1（#eef2ec vs #a7b2aa）——
+   也就是说这俩链接**只靠颜色区分**，色盲用户看不出来。
+   只给段落里的链接补下划线：列表型页脚链接不需要，不必全站加。 */
+footer p a { text-decoration: underline; text-decoration-color: currentColor; }
 
 @media print {
   footer { background: none; color: #000; }

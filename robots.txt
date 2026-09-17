@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://craeatzeven.github.io/sukhomlinsky-education-kb/web/sitemap.xml

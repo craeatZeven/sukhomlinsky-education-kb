@@ -299,8 +299,13 @@ async function main() {
         n.groups === 3 && n.btnLines.every((x) => x === 1) && n.outsideLeft === 0 && n.docOverflow <= 1,
         `组数=${n.groups} ${JSON.stringify(n.labels)} 行数=${JSON.stringify(n.btnLines)} ` +
         `左越界=${n.outsideLeft} 页面横溢=${n.docOverflow}`);
-      check(`顶栏导航(${tag})`, '15 个目的地一个不少（重排没漏掉页面）',
-        n.destinations.length === 15 && new Set(n.destinations).size === 15,
+      /* 2026-09-17 用户选 B（一条主轴 + 换一种切法）：导航从 15 个目的地减到 **7 个**
+         （找材料：分类总图/全库检索/读本 · 看来源：书源/覆盖 · 用起来：指南/最近更新）。
+         被移出导航的 8 个页面改由枢纽页内部链接提供——**那条由 check_site_links.py 守着**
+         （从首页 ≤3 跳可达），浏览器的这条只核对"目的地数量与去重"。 */
+      const WANT_DEST = 7;
+      check(`顶栏导航(${tag})`, `${WANT_DEST} 个目的地一个不少（重排没漏掉页面）`,
+        n.destinations.length === WANT_DEST && new Set(n.destinations).size === WANT_DEST,
         `去重后=${new Set(n.destinations).size} 共=${n.destinations.length}`);
       check(`顶栏导航(${tag})`, '品牌链接回首页（本版去掉了单独的「首页」项）',
         n.brandHref === 'index.html', `brand href=${n.brandHref}`);

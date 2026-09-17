@@ -607,6 +607,16 @@ button.mx-cell:hover { box-shadow: 0 0 0 2px var(--accent); }
   border-bottom: 1px solid var(--line); vertical-align: top; }
 .note-table th { font-weight: 600; color: var(--soft); font-size: 12.5px; }
 
+/* 「读本」枢纽页（reads.html）：档案层语言——目录行、零阴影、hairline 分隔。
+   这一页的作用是给成篇材料一个**静态入口**（此前只能靠在检索结果里撞见，
+   而检索结果是运行时生成的链接，爬虫与静态可达性判据都看不见）。 */
+.read-list { display: grid; gap: 0; margin: 4px 0 0; }
+.read-row { display: grid; gap: 3px; padding: 12px 0; border-bottom: 1px solid var(--line);
+  text-decoration: none; color: var(--ink); }
+.read-row:hover .read-title { color: var(--accent); }
+.read-title { font-size: 15.5px; font-weight: 500; }
+.read-snip { font-size: 13px; line-height: 1.7; color: var(--soft); }
+
 /* 卡片页的「这一条被这些地方用到」：卡片页此前只能往下看，不能往上看 */
 .note-refs-head { margin: 22px 0 8px; font-family: var(--serif); font-size: 16px; font-weight: 700; }
 .note-refs-head .meta { font-family: var(--mono); font-size: 11.5px; font-weight: 400; }

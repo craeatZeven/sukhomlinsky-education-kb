@@ -22,30 +22,24 @@
 <meta name="twitter:description" content="12 个编辑专题：每个都有核心判断、可操作方法、跨书综合与对应卡片。" />
 <meta name="twitter:image" content="https://craeatzeven.github.io/sukhomlinsky-education-kb/web/og.png" />
 <!-- social:end -->
-<link rel="stylesheet" href="style.css?v=20260917" />
+<link rel="stylesheet" href="style.css?v=20260917c" />
 </head>
 <body data-theme="green">
 <nav class="topnav">
   <div class="inner">
     <a class="brand" href="index.html">苏霍姆林斯基教育知识库</a>
     <div class="nav-groups">
-      <div class="nav-group active" data-group="read">
-        <button class="nav-group-btn" type="button" aria-expanded="false" aria-controls="navMenu-read">读内容</button>
-        <div class="nav-menu" id="navMenu-read">
-          <a class="nav-link active" href="topics.html" aria-current="page"><span class="nav-menu-label">教育专题</span><span class="nav-menu-sub">12 篇编辑长文：判断 + 方法 + 跨书综合</span></a>
-          <a class="nav-link" href="problem.html"><span class="nav-menu-label">真实问题</span><span class="nav-menu-sub">16 个常见问题，附想法与案例</span></a>
-          <a class="nav-link" href="cases.html"><span class="nav-menu-label">困境案例</span><span class="nav-menu-sub">16 个教育困境反查知识库</span></a>
-          <a class="nav-link" href="stories.html"><span class="nav-menu-label">故事索引</span><span class="nav-menu-sub">《做人的故事》541 篇按页码通读</span></a>
+      <div class="nav-group active" data-group="find">
+        <button class="nav-group-btn" type="button" aria-expanded="false" aria-controls="navMenu-find">找材料</button>
+        <div class="nav-menu" id="navMenu-find">
+          <a class="nav-link" href="taxonomy.html"><span class="nav-menu-label">分类总图</span><span class="nav-menu-sub">主轴：这个库怎么分类 · 换一种切法</span></a>
+          <a class="nav-link" href="search.html"><span class="nav-menu-label">全库检索</span><span class="nav-menu-sub">按词找；先给成篇材料，再给卡片</span></a>
+          <a class="nav-link active" href="reads.html" aria-current="page"><span class="nav-menu-label">读本</span><span class="nav-menu-sub">12 篇长文 + 分析 / 对比 / 问答</span></a>
         </div>
       </div>
-      <div class="nav-group" data-group="structure">
-        <button class="nav-group-btn" type="button" aria-expanded="false" aria-controls="navMenu-structure">看结构</button>
-        <div class="nav-menu" id="navMenu-structure">
-          <a class="nav-link" href="taxonomy.html"><span class="nav-menu-label">分类总图</span><span class="nav-menu-sub">两类卡怎么找 · 参见 · 哪儿材料多</span></a>
-          <a class="nav-link" href="entries.html"><span class="nav-menu-label">分类条目</span><span class="nav-menu-sub">5 个观察角度 · 23 个条目</span></a>
-          <a class="nav-link" href="facets.html"><span class="nav-menu-label">故事分面</span><span class="nav-menu-sub">角色 / 场景 / 事件或情绪</span></a>
-          <a class="nav-link" href="explore.html"><span class="nav-menu-label">筛选浏览</span><span class="nav-menu-sub">按主题、来源、类型、状态多选筛卡</span></a>
-          <a class="nav-link" href="clusters.html"><span class="nav-menu-label">思想地图</span><span class="nav-menu-sub">条目之间互相牵引的方向与张数</span></a>
+      <div class="nav-group" data-group="source">
+        <button class="nav-group-btn" type="button" aria-expanded="false" aria-controls="navMenu-source">看来源</button>
+        <div class="nav-menu" id="navMenu-source">
           <a class="nav-link" href="sources.html"><span class="nav-menu-label">书源与作品</span><span class="nav-menu-sub">13 个来源、OCR 状态与作品清单</span></a>
           <a class="nav-link" href="coverage.html"><span class="nav-menu-label">覆盖报告</span><span class="nav-menu-sub">卡片量、来源分布与覆盖缺口</span></a>
         </div>
@@ -55,8 +49,6 @@
         <div class="nav-menu" id="navMenu-use">
           <a class="nav-link" href="guide.html"><span class="nav-menu-label">使用指南</span><span class="nav-menu-sub">5 分钟上手：三种用法、引用与导出</span></a>
           <a class="nav-link" href="latest.html"><span class="nav-menu-label">最近更新</span><span class="nav-menu-sub">按编号倒序看最新补入的卡片</span></a>
-          <a class="nav-link" href="search.html"><span class="nav-menu-label">全库搜索</span><span class="nav-menu-sub">全文检索（后端不可达时回退本地）</span></a>
-          <a class="nav-link" href="https://github.com/craeatZeven/sukhomlinsky-education-kb/blob/master/INDEX.md"><span class="nav-menu-label">Markdown 底座</span><span class="nav-menu-sub">INDEX.md、cards/、SKILL.md</span></a>
         </div>
       </div>
     </div>
@@ -85,7 +77,7 @@
 </footer>
 
 <script src="kb.js"></script>
-<script src="theme.js?v=20260917"></script>
+<script src="theme.js?v=20260917c"></script>
 <script>
 document.addEventListener("DOMContentLoaded", ()=>{
   document.getElementById("topicGrid").innerHTML = `<p class="section-sub">正在加载主题…</p>`;

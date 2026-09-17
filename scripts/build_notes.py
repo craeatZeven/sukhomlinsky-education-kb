@@ -147,6 +147,11 @@ def render(md: str, resolve) -> str:
 
 CHROME = '''<!doctype html>
 <html lang="zh-CN"><head><meta charset="UTF-8" />
+<!-- 旁挂层页面在 web/note/ 下，而站内链接一律按 **web/ 为根**来写
+     （card.html / note/xxx.html / data/…）。用 <base> 统一基准，比给每个链接手加 ../ 可靠：
+     实测第一版没加，50 个 note 页的**每一个**站内链接都指向 web/note/xxx 而 404——
+     被 scripts/check_site_links.py 的可达性判据抓到（页面还在，但点不动）。 -->
+<base href="../" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>{title} · 苏霍姆林斯基教育知识库</title>
 <meta name="description" content="{desc}" />
@@ -162,13 +167,9 @@ CHROME = '''<!doctype html>
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="{title} · 苏霍姆林斯基教育知识库" />
 <meta name="twitter:description" content="{desc}" />
-<link rel="stylesheet" href="../style.css?v={ver}" />
+<link rel="stylesheet" href="style.css?v={ver}" />
 </head><body class="reveal">
-<header class="topnav"><div class="wrap topnav-in">
-<a class="brand" href="index.html">苏霍姆林斯基教育知识库</a>
-<nav class="nav-groups"><a class="nav-link" href="search.html">全库检索</a>
-<a class="nav-link" href="taxonomy.html">分类总图</a>
-<a class="nav-link" href="topics.html">专题长文</a></nav></div></header>
+{nav}
 <main class="wrap layer-reading">
 <article class="note-body">
 <p class="meta">{kindlabel}</p>
@@ -189,10 +190,106 @@ KIND_LABEL = {'concept': '概念页（分析）', 'moc': '入口页（索引）'
               'moc-facet-exception': '入口页（例外登记）', 'moc-angle': '角度入口页',
               'query': '归档问答', 'topic': '专题长文'}
 
+# 「读本」枢纽页：成篇材料的**唯一静态入口**。
+# 它必须在导航里有一席，否则这些页面只能靠检索结果/卡片页的 JS 反查进入——
+# 静态可达性判据（也是爬虫）看不见那种入口。{nav} 从 index.html 抓，保持单一来源。
+HUB = '''<!doctype html>
+<html lang="zh-CN"><head><meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>读本 · 苏霍姆林斯基教育知识库</title>
+<meta name="description" content="已经写好的一篇篇文章：12 篇编者长文、跨卡片的分析页、两条主张的对比页与归档问答，每句判断后面都挂着卡号、可回查出处。" />
+<meta name="robots" content="index,follow" />
+<link rel="canonical" href="{site}/web/reads.html" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="读本 · 苏霍姆林斯基教育知识库" />
+<meta property="og:description" content="已经写好的一篇篇文章：12 篇编者长文、跨卡片的分析页、两条主张的对比页与归档问答，每句判断后面都挂着卡号、可回查出处。" />
+<meta property="og:url" content="{site}/web/reads.html" />
+<meta property="og:image" content="{site}/web/og.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="读本 · 苏霍姆林斯基教育知识库" />
+<meta name="twitter:description" content="已经写好的一篇篇文章：12 篇编者长文、跨卡片的分析页、两条主张的对比页与归档问答，每句判断后面都挂着卡号、可回查出处。" />
+<link rel="stylesheet" href="style.css?v={ver}" />
+</head><body class="reveal">
+{nav}
+<main class="wrap layer-archive">
+  <header class="page-head">
+    <p class="meta">READ</p>
+    <h1>读本</h1>
+    <p class="hero-note">这个库不只是卡片。这里有 {n_topic} 篇编者长文、{n_analysis} 篇跨卡片的分析与对比、
+    {n_query} 份归档问答——<b>每一句判断后面都挂着卡号</b>，点得开、可回查。</p>
+    <p class="section-sub">换一种切法：想按<b>分类</b>找材料去 <a href="taxonomy.html">分类总图</a>；
+    想按<b>词</b>找去 <a href="search.html">全库检索</a>（它会先给成篇材料，再给卡片）；
+    想按<b>问题/困境/故事</b>读，见下面「换一种读法」。</p>
+  </header>
+
+  <section>
+    <h2 class="section-title">编者长文（{n_topic} 篇）</h2>
+    <p class="section-sub">一个教育专题一篇：核心判断 + 可操作方法 + 跨书综合。</p>
+    <div class="read-list">
+{topics}
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">分析与对比（{n_analysis} 篇）</h2>
+    <p class="section-sub">跨卡片把散着的主张合成论断：指出张力、前提与边界。
+    <b>编者推论</b>与<b>能反驳它的条件</b>都写在页内。</p>
+    <div class="read-list">
+{concepts}
+{comparisons}
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">归档问答（{n_query} 份）</h2>
+    <p class="section-sub">问过的好问题与查法，留在库里而不是消失在聊天里。</p>
+    <div class="read-list">
+{queries}
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">换一种读法</h2>
+    <p class="section-sub">同样一批材料，按你手上的问题选入口。</p>
+    <div class="read-list">
+      <a class="read-row" href="problem.html"><span class="read-title">按问题读</span>
+        <span class="read-snip">16 个常见问题（孩子说谎 / 坐不住 / 后进生…），附想法与案例…</span></a>
+      <a class="read-row" href="cases.html"><span class="read-title">按困境读</span>
+        <span class="read-snip">16 个教育困境反查知识库，给出可执行建议与对应原文…</span></a>
+      <a class="read-row" href="stories.html"><span class="read-title">按故事读</span>
+        <span class="read-snip">《做人的故事》541 篇，按原书页码顺序通读…</span></a>
+    </div>
+  </section>
+</main>
+<footer class="site-footer"><div class="wrap">
+  <p class="section-sub">读本里的每一页都是<b>旁挂层</b>（编者的综合与分析），不是卡片原文。
+  引用时请按页内标注区分「原文」与「编者推论」。</p>
+</div></footer>
+<script src="kb.js?v={ver}"></script>
+<script src="theme.js?v={ver}"></script>
+</body></html>
+'''
+
 
 def main() -> int:
     ver = '20260916c'
     NOTE.mkdir(parents=True, exist_ok=True)
+
+    def read_nav() -> str:
+        """从 `web/index.html` 抓现成的导航块——**单一来源**。
+
+        导航由 `rebuild_nav.py` 统一写进每个页面；枢纽页是新生成的，
+        与其在这里再写死一份（下次改导航必然漏掉它），不如从 index.html 读。
+        抓不到就返回空（页面仍可用，只是没有顶栏）。
+        """
+        try:
+            t = (WEB / 'index.html').read_text(encoding='utf-8')
+            m = re.search(r'<nav class="topnav">.*?</nav>', t, re.S)
+            return m.group(0) if m else ''
+        except Exception:
+            return ''
     card_ids = {p.stem.split('-')[0] + '-' + p.stem.split('-')[1] for p in (ROOT / 'cards').glob('sk-*.md')}
 
     # 先收集所有"成篇材料"，才能让 [[跨页链接]] 互相解析
@@ -210,6 +307,26 @@ def main() -> int:
                 docs.append({'kind': group, 'type': fm.get('type', group), 'slug': p.stem,
                              'title': fm.get('title', p.stem), 'path': p, 'body': body})
 
+    # **决定哪些"成篇材料"要生成独立的网站页面**。
+    # 只给"分析层"（概念页 / 对比页 / 归档问答）生成——它们是 vault 独有的内容。
+    # moc（5 角度 + 23 条目 + 17 分面）**不生成**：网站已经有 entries.html / entry.html /
+    # facets.html / facet.html 在做同一件事，生成 note 版就是**同一内容两套页面**
+    # （第一版生成了 46 个，被 check_site_links 的"从首页点不到"顺带暴露出来）。
+    # 但它们仍要进 docs.json（检索语料），只是链接指向**已有页面**。
+    NO_PAGE_TYPES = {'moc', 'moc-entry', 'moc-facet', 'moc-angle', 'moc-facet-exception'}
+
+    meta = json.loads((ROOT / 'web/data/meta.json').read_text(encoding='utf-8'))
+    for e in meta['entries']:
+        kind = 'tag' if e.get('tag') else 'entry'
+        docs.append({'kind': 'entry', 'type': kind, 'slug': e['code'], 'title': f'{e["code"]} {e["name"]}',
+                     'path': None, 'body': f'{e.get("rule", "")}',
+                     'link': f'entry.html?code={e["code"]}'})
+    for f in meta['facets']:
+        docs.append({'kind': 'facet', 'type': 'facet', 'slug': f['code'],
+                     'title': f'{f["code"]} {f["name"]}', 'path': None,
+                     'body': f'{f.get("field", "")} · {f.get("count", 0)} 张故事',
+                     'link': f'facet.html?code={f["code"]}'})
+
     by_title: dict[str, dict] = {}
     for d in docs:
         by_title[d['title']] = d
@@ -223,9 +340,14 @@ def main() -> int:
                 return esc(text)
             tgt = by_title.get(target)
             if tgt:
-                kind = tgt['kind']
-                href = (f'topic.html?slug={tgt["slug"]}' if kind == 'topic'
-                        else f'note/{quote(tgt["slug"])}.html')
+                # 条目/分面没有 note 页 → 指向**已有页面**（entry.html / facet.html）。
+                # 其余（topic / concept / comparison / query）指向各自页面。
+                if tgt.get('link'):
+                    href = tgt['link']
+                elif tgt['kind'] == 'topic':
+                    href = f'topic.html?slug={tgt["slug"]}'
+                else:
+                    href = f'note/{quote(tgt["slug"])}.html'
                 return f'<a href="{href}">{esc(text)}</a>'
             return esc(text)
         return resolve
@@ -234,12 +356,17 @@ def main() -> int:
 
     made = []
     for d in docs:
+        if d['path'] is None:
+            continue
         if d['kind'] == 'topic':
             continue                      # topic.html 已经渲染，不重复生成
+        if d['type'] in NO_PAGE_TYPES:
+            continue                      # 见上：moc 不生成独立页面
         body_html = render(d['body'], make_resolver(d))
         first = next((x for x in strip_md(d['body']).split('.') if len(x.strip()) > 12), '')
         desc = (first.strip() + '。')[:110] if first.strip() else d['title']
         out = CHROME.format(title=esc(d['title']), desc=esc(desc), site=SITE, ver=ver,
+                            nav=read_nav(),
                             slug=quote(d['slug']), kindlabel=KIND_LABEL.get(d['type'], '旁挂层'),
                             body=body_html)
         (NOTE / f'{d["slug"]}.html').write_text(out, encoding='utf-8', newline='\n')
@@ -252,17 +379,50 @@ def main() -> int:
         refs = sorted(set(re.findall(r'sk-\d{4}', d['body'])))
         corpus.append({'kind': d['kind'], 'type': d['type'], 'slug': d['slug'],
                        'title': d['title'], 'text': text[:2000], 'refs': refs,
-                       'link': (f'topic.html?slug={d["slug"]}' if d['kind'] == 'topic'
-                                else f'note/{quote(d["slug"])}.html')})
+                       'link': d.get('link') or (
+                           f'topic.html?slug={d["slug"]}' if d['kind'] == 'topic'
+                           else f'note/{quote(d["slug"])}.html')})
     (DATA / 'docs.json').write_text(json.dumps(corpus, ensure_ascii=False, separators=(',', ':')),
                                     encoding='utf-8', newline='\n')
 
-    print(f'note 页面 {len(made)} 个；docs.json {len(corpus)} 条成篇材料 '
-          f'（专题 {sum(1 for c in corpus if c["kind"] == "topic")} · '
-          f'旁挂层 {sum(1 for c in corpus if c["kind"] == "wiki")}）')
+    # ── 「读本」枢纽页：成篇材料唯一的静态入口 ──────────────────────────
+    # 为什么必须有它：check_site_links.py 报「50 个 note 页从首页点不到」——
+    # note 页此前**只能靠检索结果或卡片页的 JS 反查**进入，**没有静态入口**
+    # （搜索与反查都是运行时生成的链接，静态可达性判据看不见，爬虫也看不见）。
+    def rows(items: list[dict]) -> str:
+        out = []
+        for d in items:
+            href = d.get('link') or (f'topic.html?slug={d["slug"]}' if d['kind'] == 'topic'
+                                     else f'note/{quote(d["slug"])}.html')
+            first = next((x for x in strip_md(d['body']).split('.') if len(x.strip()) > 12), '')
+            snip = re.sub(r'\s+', ' ', first).strip()[:78]
+            out.append(f'<a class="read-row" href="{esc(href)}">'
+                       f'<span class="read-title">{esc(d["title"])}</span>'
+                       f'<span class="read-snip">{esc(snip)}…</span></a>')
+        return '\n'.join(out) or '<p class="section-sub">（暂无）</p>'
+
+    kinds = {
+        'topic': [d for d in docs if d['kind'] == 'topic'],
+        'concept': [d for d in docs if d['type'] == 'concept'],
+        'comparison': [d for d in docs if d['type'] == 'comparison'],
+        'query': [d for d in docs if d['type'] == 'query'],
+    }
+    hub = HUB.format(
+        ver=ver, site=SITE, nav=read_nav(),
+        n_topic=len(kinds['topic']), n_analysis=len(kinds['concept']) + len(kinds['comparison']),
+        n_query=len(kinds['query']),
+        topics=rows(kinds['topic']), concepts=rows(kinds['concept']),
+        comparisons=rows(kinds['comparison']), queries=rows(kinds['query']))
+    (WEB / 'reads.html').write_text(hub, encoding='utf-8', newline='\n')
+
+    print(f'note 页面 {len(made)} 个 + 读本枢纽 reads.html；docs.json {len(corpus)} 条成篇材料 '
+          f'（专题 {len(kinds["topic"])} · 分析 {len(kinds["concept"]) + len(kinds["comparison"])} · '
+          f'问答 {len(kinds["query"])} · 条目 {sum(1 for c in corpus if c["kind"] == "entry")} · '
+          f'分面 {sum(1 for c in corpus if c["kind"] == "facet")}）')
     print(f'  体积：{(DATA / "docs.json").stat().st_size / 1024:.0f} KB')
     return 0
 
 
 if __name__ == '__main__':
     sys.exit(main())
+

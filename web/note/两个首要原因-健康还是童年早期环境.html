@@ -1,5 +1,10 @@
 <!doctype html>
 <html lang="zh-CN"><head><meta charset="UTF-8" />
+<!-- 旁挂层页面在 web/note/ 下，而站内链接一律按 **web/ 为根**来写
+     （card.html / note/xxx.html / data/…）。用 <base> 统一基准，比给每个链接手加 ../ 可靠：
+     实测第一版没加，50 个 note 页的**每一个**站内链接都指向 web/note/xxx 而 404——
+     被 scripts/check_site_links.py 的可达性判据抓到（页面还在，但点不动）。 -->
+<base href="../" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>两个&quot;首要原因&quot;：健康，还是童年早期环境 · 苏霍姆林斯基教育知识库</title>
 <meta name="description" content="两个&quot;首要原因&quot;：健康，还是童年早期环境 对比页：把库里 两条争夺同一个位置 的主张并排。编者的分析，不是原文。 两条都自称&quot;绝大多数情况&quot;，都出自他本人， 分别来自不同来源 。 一、并排 主张 A：健康 主张 B：童年" />
@@ -15,13 +20,37 @@
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="两个&quot;首要原因&quot;：健康，还是童年早期环境 · 苏霍姆林斯基教育知识库" />
 <meta name="twitter:description" content="两个&quot;首要原因&quot;：健康，还是童年早期环境 对比页：把库里 两条争夺同一个位置 的主张并排。编者的分析，不是原文。 两条都自称&quot;绝大多数情况&quot;，都出自他本人， 分别来自不同来源 。 一、并排 主张 A：健康 主张 B：童年" />
-<link rel="stylesheet" href="../style.css?v=20260916c" />
+<link rel="stylesheet" href="style.css?v=20260916c" />
 </head><body class="reveal">
-<header class="topnav"><div class="wrap topnav-in">
-<a class="brand" href="index.html">苏霍姆林斯基教育知识库</a>
-<nav class="nav-groups"><a class="nav-link" href="search.html">全库检索</a>
-<a class="nav-link" href="taxonomy.html">分类总图</a>
-<a class="nav-link" href="topics.html">专题长文</a></nav></div></header>
+<nav class="topnav">
+  <div class="inner">
+    <a class="brand" href="index.html">苏霍姆林斯基教育知识库</a>
+    <div class="nav-groups">
+      <div class="nav-group" data-group="find">
+        <button class="nav-group-btn" type="button" aria-expanded="false" aria-controls="navMenu-find">找材料</button>
+        <div class="nav-menu" id="navMenu-find">
+          <a class="nav-link" href="taxonomy.html"><span class="nav-menu-label">分类总图</span><span class="nav-menu-sub">主轴：这个库怎么分类 · 换一种切法</span></a>
+          <a class="nav-link" href="search.html"><span class="nav-menu-label">全库检索</span><span class="nav-menu-sub">按词找；先给成篇材料，再给卡片</span></a>
+          <a class="nav-link" href="reads.html"><span class="nav-menu-label">读本</span><span class="nav-menu-sub">12 篇长文 + 分析 / 对比 / 问答</span></a>
+        </div>
+      </div>
+      <div class="nav-group" data-group="source">
+        <button class="nav-group-btn" type="button" aria-expanded="false" aria-controls="navMenu-source">看来源</button>
+        <div class="nav-menu" id="navMenu-source">
+          <a class="nav-link" href="sources.html"><span class="nav-menu-label">书源与作品</span><span class="nav-menu-sub">13 个来源、OCR 状态与作品清单</span></a>
+          <a class="nav-link" href="coverage.html"><span class="nav-menu-label">覆盖报告</span><span class="nav-menu-sub">卡片量、来源分布与覆盖缺口</span></a>
+        </div>
+      </div>
+      <div class="nav-group" data-group="use">
+        <button class="nav-group-btn" type="button" aria-expanded="false" aria-controls="navMenu-use">用起来</button>
+        <div class="nav-menu" id="navMenu-use">
+          <a class="nav-link" href="guide.html"><span class="nav-menu-label">使用指南</span><span class="nav-menu-sub">5 分钟上手：三种用法、引用与导出</span></a>
+          <a class="nav-link" href="latest.html"><span class="nav-menu-label">最近更新</span><span class="nav-menu-sub">按编号倒序看最新补入的卡片</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
 <main class="wrap layer-reading">
 <article class="note-body">
 <p class="meta">旁挂层</p>
@@ -49,7 +78,7 @@
 <p>他是否<b>晚年更强调早期环境、早年更强调健康</b>，需要逐卷对读——<b>本页回答不了</b>。</p>
 <ul><li><b>没有引入现代研究</b>：tracking/setting、ADHD、睡眠与学业的关系等当代文献都不在本库里。</li></ul>
 <p>这一页只做&quot;把他的两条主张摆清&quot;，不做&quot;哪条对&quot;的裁断。</p>
-<blockquote><p>相关：分析页 <a href="note/%E5%90%8E%E8%BF%9B%E7%94%9F%E8%AF%A5%E4%B8%8D%E8%AF%A5%E5%88%86%E5%B1%82.html">后进生该不该分层</a> · 编辑专题 <a href="topic.html?slug=learning-difficulties">学习困难学生</a> ·</p><p>条目页 <a href="note/A18%20%E5%AD%A6%E4%B9%A0%E5%9B%B0%E9%9A%BE%E5%AD%A6%E7%94%9F.html">A18 学习困难学生</a> · 分面 <a href="note/S16%20%E6%81%90%E6%83%A7%E4%B8%8E%E5%AE%B3%E6%80%95.html">S16 恐惧与害怕</a></p></blockquote>
+<blockquote><p>相关：分析页 <a href="note/%E5%90%8E%E8%BF%9B%E7%94%9F%E8%AF%A5%E4%B8%8D%E8%AF%A5%E5%88%86%E5%B1%82.html">后进生该不该分层</a> · 编辑专题 <a href="topic.html?slug=learning-difficulties">学习困难学生</a> ·</p><p>条目页 <a href="entry.html?code=A18">A18 学习困难学生</a> · 分面 <a href="facet.html?code=S16">S16 恐惧与害怕</a></p></blockquote>
 </article>
 <hr />
 <p class="section-sub">这一页是<b>旁挂层</b>（编者的综合与分析），不是卡片原文。

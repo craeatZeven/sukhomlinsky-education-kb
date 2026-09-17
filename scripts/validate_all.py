@@ -14,13 +14,21 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+# **先全部构建、再全部检查**——顺序错了会拿旧产物做判断。
+# 实测踩过：`check_page_meta.py` 原本排在 `build_notes.py` 前面，于是它检查的是
+# **上一次生成的** reads.html，报"og:description 与 description 不一致"——
+# 而生成器里那两行早就改成一致了。**判据对着旧产物下结论**是最难看出来的一类假报。
 SCRIPTS = [
-    'check_kb.py',
-    'audit_cards.py',
+    # ── 构建（生成 web/data、页面、导航）
     'coverage_report.py',
     'coverage_volumes.py',
     'build_site.py',
     'build_shards.py',
+    'rebuild_nav.py',
+    'build_notes.py',
+    # ── 检查
+    'check_kb.py',
+    'audit_cards.py',
     # 必须排在两个 build 之后：它拿 classification.json 对账 web/data/ 的分片。
     # 这是唯一能拦住「分片悄悄和分类脱节」的一步（`collect` 曾经把判读分面
     # 重算成没过门槛的关键词分面，别的检查全都没报错）。
@@ -31,15 +39,16 @@ SCRIPTS = [
     'check_content_contract.py',
     # 页面元信息（分享预览 / 检索摘要）。它们**在浏览器里完全看不见**，
     # 没人会顺手发现"这页忘了写描述"——必须有机器守着。
+    # **要排在 build_notes 之后**（它生成的那批 note 页与 reads.html 也在检查范围内）。
     'check_page_meta.py',
     # vault 层（wiki/）：双链有没有落点 + 索引有没有同步。
     # 这一层是 AI 全权写的，最容易出的错是**静默**的：死链在 Obsidian 里只显示成红字，
     # 忘了更新 index.md 更是没人会发现。
     'check_wiki_links.py',
-    # 成篇材料（专题长文 / 概念页 / 入口页 / 归档问答）→ 网站页面 + 检索语料。
-    # 这一步的存在理由：用户问「找劳动，它给我的只是一堆零散的卡片」——
-    # 检索里只有卡片，于是库里已有的成篇材料一个字都露不出来。
-    'build_notes.py',
+    # 站点可达性：从首页 ≤3 跳要到得了每一页；站内链接不许指向不存在的文件。
+    # 用户选 B（导航 15 → 7 个目的地）时，被移出导航的页面只剩"从枢纽页点进去"这一条路——
+    # **减导航等于制造孤岛**，除非有这张网守着。
+    'check_site_links.py',
     # 轴镜像对账：卡片的 primary/seealso/facets/tax_tags ↔ classification.json。
     # 把轴写进卡片是"融合"，但融合的代价是**可能变成两份真相**——
     # 这个仓库已经在中心表 vs 分片、INDEX.md vs MOC 上打过两次架，所以镜像必须有闸门。

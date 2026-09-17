@@ -91,6 +91,23 @@
         });
       }).observe(document.documentElement, { childList: true, subtree: true });
     }
+    /* 兜底：**已经在视口里的元素立刻揭示**，不等 IntersectionObserver 回调。
+       为什么需要：内容由 JS 异步注入时（首页的部分卡片、条目页的 section），
+       IO 的首次回调可能在这一帧之前就已经"结算"过，于是个别块**永久停在
+       opacity:0**——判据实测到过 1 块 155 字（"用起来"那张卡），重跑又变。
+       reveal 只是装饰，**绝不能以内容不可见为代价**：宁可少一次渐入。
+       同时监听一个短窗口内的滚动，覆盖"注入时还在视口外、随后被滚进来"的情形。 */
+    function revealInView() {
+      var vh = window.innerHeight || 800;
+      watched.forEach(function (el) {
+        if (el.classList.contains("visible")) return;
+        var r = el.getBoundingClientRect();
+        if (r.height === 0) return;
+        if (r.top < vh && r.bottom > 0) el.classList.add("visible");
+      });
+    }
+    [0, 120, 400, 1000, 2000].forEach(function (d) { setTimeout(revealInView, d); });
+    window.addEventListener("scroll", revealInView, { passive: true });
   }
   function searchShortcut() {
     document.addEventListener("keydown", function (e) {

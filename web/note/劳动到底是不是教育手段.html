@@ -1,5 +1,10 @@
 <!doctype html>
 <html lang="zh-CN"><head><meta charset="UTF-8" />
+<!-- 旁挂层页面在 web/note/ 下，而站内链接一律按 **web/ 为根**来写
+     （card.html / note/xxx.html / data/…）。用 <base> 统一基准，比给每个链接手加 ../ 可靠：
+     实测第一版没加，50 个 note 页的**每一个**站内链接都指向 web/note/xxx 而 404——
+     被 scripts/check_site_links.py 的可达性判据抓到（页面还在，但点不动）。 -->
+<base href="../" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>劳动到底是不是教育手段 · 苏霍姆林斯基教育知识库</title>
 <meta name="description" content="劳动到底是不是教育手段 这一页是 编者的综合与分析 ，不是原文。每条判断后面挂卡号，点得开、可回查。 凡是卡里没有、由我把两张卡接起来得出的，都标了「 编者推论 」。 每条判断都写成 可证伪 的——如果库里能找到反例，它" />
@@ -15,13 +20,37 @@
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="劳动到底是不是教育手段 · 苏霍姆林斯基教育知识库" />
 <meta name="twitter:description" content="劳动到底是不是教育手段 这一页是 编者的综合与分析 ，不是原文。每条判断后面挂卡号，点得开、可回查。 凡是卡里没有、由我把两张卡接起来得出的，都标了「 编者推论 」。 每条判断都写成 可证伪 的——如果库里能找到反例，它" />
-<link rel="stylesheet" href="../style.css?v=20260916c" />
+<link rel="stylesheet" href="style.css?v=20260916c" />
 </head><body class="reveal">
-<header class="topnav"><div class="wrap topnav-in">
-<a class="brand" href="index.html">苏霍姆林斯基教育知识库</a>
-<nav class="nav-groups"><a class="nav-link" href="search.html">全库检索</a>
-<a class="nav-link" href="taxonomy.html">分类总图</a>
-<a class="nav-link" href="topics.html">专题长文</a></nav></div></header>
+<nav class="topnav">
+  <div class="inner">
+    <a class="brand" href="index.html">苏霍姆林斯基教育知识库</a>
+    <div class="nav-groups">
+      <div class="nav-group" data-group="find">
+        <button class="nav-group-btn" type="button" aria-expanded="false" aria-controls="navMenu-find">找材料</button>
+        <div class="nav-menu" id="navMenu-find">
+          <a class="nav-link" href="taxonomy.html"><span class="nav-menu-label">分类总图</span><span class="nav-menu-sub">主轴：这个库怎么分类 · 换一种切法</span></a>
+          <a class="nav-link" href="search.html"><span class="nav-menu-label">全库检索</span><span class="nav-menu-sub">按词找；先给成篇材料，再给卡片</span></a>
+          <a class="nav-link" href="reads.html"><span class="nav-menu-label">读本</span><span class="nav-menu-sub">12 篇长文 + 分析 / 对比 / 问答</span></a>
+        </div>
+      </div>
+      <div class="nav-group" data-group="source">
+        <button class="nav-group-btn" type="button" aria-expanded="false" aria-controls="navMenu-source">看来源</button>
+        <div class="nav-menu" id="navMenu-source">
+          <a class="nav-link" href="sources.html"><span class="nav-menu-label">书源与作品</span><span class="nav-menu-sub">13 个来源、OCR 状态与作品清单</span></a>
+          <a class="nav-link" href="coverage.html"><span class="nav-menu-label">覆盖报告</span><span class="nav-menu-sub">卡片量、来源分布与覆盖缺口</span></a>
+        </div>
+      </div>
+      <div class="nav-group" data-group="use">
+        <button class="nav-group-btn" type="button" aria-expanded="false" aria-controls="navMenu-use">用起来</button>
+        <div class="nav-menu" id="navMenu-use">
+          <a class="nav-link" href="guide.html"><span class="nav-menu-label">使用指南</span><span class="nav-menu-sub">5 分钟上手：三种用法、引用与导出</span></a>
+          <a class="nav-link" href="latest.html"><span class="nav-menu-label">最近更新</span><span class="nav-menu-sub">按编号倒序看最新补入的卡片</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
 <main class="wrap layer-reading">
 <article class="note-body">
 <p class="meta">概念页（分析）</p>
@@ -90,7 +119,7 @@
 <blockquote><p><b>这是&quot;未被反驳&quot;，不是&quot;已证实&quot;。</b> 我用的是<b>关键词法，不是穷举</b>：</p><p>库里 1386 张卡我没有逐张读过。0 命中只能说明&quot;<b>在这些措辞下</b>没有&quot;，</p><p>不能说明&quot;库里没有&quot;。真正的穷举要么逐张读，要么换一批关键词再撞几轮</p><p>（比如&quot;纪律处分&quot;&quot;劳动任务作为处罚&quot;&quot;以工代罚&quot;这些我今天没试的写法）。</p><p>另外 T3 只是一条<b>编者推论</b>（我把 <a class="wikilink" href="card.html?id=sk-0129">sk-0129</a> 与 <a class="wikilink" href="card.html?id=sk-0267">sk-0267</a> 接起来的），</p><p>它比前两条更弱——前两条有原文直接支撑，T3 没有。</p></blockquote>
 <h3>附：这一页用了哪些卡</h3>
 <p>主依据：<a class="wikilink" href="card.html?id=sk-1301">sk-1301</a> · <a class="wikilink" href="card.html?id=sk-0250">sk-0250</a> · <a class="wikilink" href="card.html?id=sk-0129">sk-0129</a> · <a class="wikilink" href="card.html?id=sk-0095">sk-0095</a> · <a class="wikilink" href="card.html?id=sk-0267">sk-0267</a> · <a class="wikilink" href="card.html?id=sk-0151">sk-0151</a> · <a class="wikilink" href="card.html?id=sk-0411">sk-0411</a> 边界与配套：<a class="wikilink" href="card.html?id=sk-0374">sk-0374</a> · <a class="wikilink" href="card.html?id=sk-0085">sk-0085</a> · <a class="wikilink" href="card.html?id=sk-0119">sk-0119</a> · <a class="wikilink" href="card.html?id=sk-0014">sk-0014</a> · <a class="wikilink" href="card.html?id=sk-0188">sk-0188</a> · <a class="wikilink" href="card.html?id=sk-1203">sk-1203</a> · <a class="wikilink" href="card.html?id=sk-0189">sk-0189</a> 补充：<a class="wikilink" href="card.html?id=sk-0399">sk-0399</a> · <a class="wikilink" href="card.html?id=sk-0280">sk-0280</a> · <a class="wikilink" href="card.html?id=sk-0265">sk-0265</a> · <a class="wikilink" href="card.html?id=sk-0385">sk-0385</a> · <a class="wikilink" href="card.html?id=sk-0232">sk-0232</a> · <a class="wikilink" href="card.html?id=sk-0233">sk-0233</a></p>
-<blockquote><p>想顺着往下读：条目页 <a href="note/A11%20%E5%8A%B3%E5%8A%A8%E4%B8%8E%E5%88%9B%E9%80%A0.html">A11 劳动与创造</a>（全部 59 张主归属）·</p><p>故事面 <a href="note/S12%20%E5%8A%B3%E5%8A%A8.html">S12 劳动</a>（110 张故事）· 编辑专题 <a href="topic.html?slug=labor-education">劳动教育</a>（旧轴长文）·</p><p>查法归档 <a href="note/2026-09-16-labor-education-path.html">2026-09-16-labor-education-path</a></p></blockquote>
+<blockquote><p>想顺着往下读：条目页 <a href="entry.html?code=A11">A11 劳动与创造</a>（全部 59 张主归属）·</p><p>故事面 <a href="facet.html?code=S12">S12 劳动</a>（110 张故事）· 编辑专题 <a href="topic.html?slug=labor-education">劳动教育</a>（旧轴长文）·</p><p>查法归档 <a href="note/2026-09-16-labor-education-path.html">2026-09-16-labor-education-path</a></p></blockquote>
 </article>
 <hr />
 <p class="section-sub">这一页是<b>旁挂层</b>（编者的综合与分析），不是卡片原文。

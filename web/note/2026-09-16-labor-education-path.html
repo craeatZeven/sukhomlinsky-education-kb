@@ -1,5 +1,10 @@
 <!doctype html>
 <html lang="zh-CN"><head><meta charset="UTF-8" />
+<!-- 旁挂层页面在 web/note/ 下，而站内链接一律按 **web/ 为根**来写
+     （card.html / note/xxx.html / data/…）。用 <base> 统一基准，比给每个链接手加 ../ 可靠：
+     实测第一版没加，50 个 note 页的**每一个**站内链接都指向 web/note/xxx 而 404——
+     被 scripts/check_site_links.py 的可达性判据抓到（页面还在，但点不动）。 -->
+<base href="../" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>「他怎么看劳动教育」怎么查 · 苏霍姆林斯基教育知识库</title>
 <meta name="description" content="「他怎么看劳动教育」怎么查 这一页是 归档的好答案 （Karpathy 的说法：好答案要回填进 wiki，不该消失在聊天记录里）。 它回答的不是&quot;劳动教育是什么&quot;，而是 &quot;这个问题该怎么查，才不被单页误导&quot; 。 页内数字" />
@@ -15,13 +20,37 @@
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="「他怎么看劳动教育」怎么查 · 苏霍姆林斯基教育知识库" />
 <meta name="twitter:description" content="「他怎么看劳动教育」怎么查 这一页是 归档的好答案 （Karpathy 的说法：好答案要回填进 wiki，不该消失在聊天记录里）。 它回答的不是&quot;劳动教育是什么&quot;，而是 &quot;这个问题该怎么查，才不被单页误导&quot; 。 页内数字" />
-<link rel="stylesheet" href="../style.css?v=20260916c" />
+<link rel="stylesheet" href="style.css?v=20260916c" />
 </head><body class="reveal">
-<header class="topnav"><div class="wrap topnav-in">
-<a class="brand" href="index.html">苏霍姆林斯基教育知识库</a>
-<nav class="nav-groups"><a class="nav-link" href="search.html">全库检索</a>
-<a class="nav-link" href="taxonomy.html">分类总图</a>
-<a class="nav-link" href="topics.html">专题长文</a></nav></div></header>
+<nav class="topnav">
+  <div class="inner">
+    <a class="brand" href="index.html">苏霍姆林斯基教育知识库</a>
+    <div class="nav-groups">
+      <div class="nav-group" data-group="find">
+        <button class="nav-group-btn" type="button" aria-expanded="false" aria-controls="navMenu-find">找材料</button>
+        <div class="nav-menu" id="navMenu-find">
+          <a class="nav-link" href="taxonomy.html"><span class="nav-menu-label">分类总图</span><span class="nav-menu-sub">主轴：这个库怎么分类 · 换一种切法</span></a>
+          <a class="nav-link" href="search.html"><span class="nav-menu-label">全库检索</span><span class="nav-menu-sub">按词找；先给成篇材料，再给卡片</span></a>
+          <a class="nav-link" href="reads.html"><span class="nav-menu-label">读本</span><span class="nav-menu-sub">12 篇长文 + 分析 / 对比 / 问答</span></a>
+        </div>
+      </div>
+      <div class="nav-group" data-group="source">
+        <button class="nav-group-btn" type="button" aria-expanded="false" aria-controls="navMenu-source">看来源</button>
+        <div class="nav-menu" id="navMenu-source">
+          <a class="nav-link" href="sources.html"><span class="nav-menu-label">书源与作品</span><span class="nav-menu-sub">13 个来源、OCR 状态与作品清单</span></a>
+          <a class="nav-link" href="coverage.html"><span class="nav-menu-label">覆盖报告</span><span class="nav-menu-sub">卡片量、来源分布与覆盖缺口</span></a>
+        </div>
+      </div>
+      <div class="nav-group" data-group="use">
+        <button class="nav-group-btn" type="button" aria-expanded="false" aria-controls="navMenu-use">用起来</button>
+        <div class="nav-menu" id="navMenu-use">
+          <a class="nav-link" href="guide.html"><span class="nav-menu-label">使用指南</span><span class="nav-menu-sub">5 分钟上手：三种用法、引用与导出</span></a>
+          <a class="nav-link" href="latest.html"><span class="nav-menu-label">最近更新</span><span class="nav-menu-sub">按编号倒序看最新补入的卡片</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
 <main class="wrap layer-reading">
 <article class="note-body">
 <p class="meta">归档问答</p>

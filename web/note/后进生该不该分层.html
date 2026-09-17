@@ -1,5 +1,10 @@
 <!doctype html>
 <html lang="zh-CN"><head><meta charset="UTF-8" />
+<!-- 旁挂层页面在 web/note/ 下，而站内链接一律按 **web/ 为根**来写
+     （card.html / note/xxx.html / data/…）。用 <base> 统一基准，比给每个链接手加 ../ 可靠：
+     实测第一版没加，50 个 note 页的**每一个**站内链接都指向 web/note/xxx 而 404——
+     被 scripts/check_site_links.py 的可达性判据抓到（页面还在，但点不动）。 -->
+<base href="../" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>后进生该不该分层 · 苏霍姆林斯基教育知识库</title>
 <meta name="description" content="后进生该不该分层 编者的综合与分析，不是原文。每条判断挂卡号；卡里没有、由我把两张卡接起来的，标「 编者推论 」。 答案不是&quot;要&quot;或&quot;不要&quot;——库里对 同一件事 有看似相反的两组卡，读清楚之后能落成一个 可操作的区分 。" />
@@ -15,13 +20,37 @@
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="后进生该不该分层 · 苏霍姆林斯基教育知识库" />
 <meta name="twitter:description" content="后进生该不该分层 编者的综合与分析，不是原文。每条判断挂卡号；卡里没有、由我把两张卡接起来的，标「 编者推论 」。 答案不是&quot;要&quot;或&quot;不要&quot;——库里对 同一件事 有看似相反的两组卡，读清楚之后能落成一个 可操作的区分 。" />
-<link rel="stylesheet" href="../style.css?v=20260916c" />
+<link rel="stylesheet" href="style.css?v=20260916c" />
 </head><body class="reveal">
-<header class="topnav"><div class="wrap topnav-in">
-<a class="brand" href="index.html">苏霍姆林斯基教育知识库</a>
-<nav class="nav-groups"><a class="nav-link" href="search.html">全库检索</a>
-<a class="nav-link" href="taxonomy.html">分类总图</a>
-<a class="nav-link" href="topics.html">专题长文</a></nav></div></header>
+<nav class="topnav">
+  <div class="inner">
+    <a class="brand" href="index.html">苏霍姆林斯基教育知识库</a>
+    <div class="nav-groups">
+      <div class="nav-group" data-group="find">
+        <button class="nav-group-btn" type="button" aria-expanded="false" aria-controls="navMenu-find">找材料</button>
+        <div class="nav-menu" id="navMenu-find">
+          <a class="nav-link" href="taxonomy.html"><span class="nav-menu-label">分类总图</span><span class="nav-menu-sub">主轴：这个库怎么分类 · 换一种切法</span></a>
+          <a class="nav-link" href="search.html"><span class="nav-menu-label">全库检索</span><span class="nav-menu-sub">按词找；先给成篇材料，再给卡片</span></a>
+          <a class="nav-link" href="reads.html"><span class="nav-menu-label">读本</span><span class="nav-menu-sub">12 篇长文 + 分析 / 对比 / 问答</span></a>
+        </div>
+      </div>
+      <div class="nav-group" data-group="source">
+        <button class="nav-group-btn" type="button" aria-expanded="false" aria-controls="navMenu-source">看来源</button>
+        <div class="nav-menu" id="navMenu-source">
+          <a class="nav-link" href="sources.html"><span class="nav-menu-label">书源与作品</span><span class="nav-menu-sub">13 个来源、OCR 状态与作品清单</span></a>
+          <a class="nav-link" href="coverage.html"><span class="nav-menu-label">覆盖报告</span><span class="nav-menu-sub">卡片量、来源分布与覆盖缺口</span></a>
+        </div>
+      </div>
+      <div class="nav-group" data-group="use">
+        <button class="nav-group-btn" type="button" aria-expanded="false" aria-controls="navMenu-use">用起来</button>
+        <div class="nav-menu" id="navMenu-use">
+          <a class="nav-link" href="guide.html"><span class="nav-menu-label">使用指南</span><span class="nav-menu-sub">5 分钟上手：三种用法、引用与导出</span></a>
+          <a class="nav-link" href="latest.html"><span class="nav-menu-label">最近更新</span><span class="nav-menu-sub">按编号倒序看最新补入的卡片</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
 <main class="wrap layer-reading">
 <article class="note-body">
 <p class="meta">概念页（分析）</p>
@@ -74,7 +103,7 @@
 <p><a class="wikilink" href="card.html?id=sk-0185">sk-0185</a>（被误认为懒惰的走神，实为久坐室内的新陈代谢失调）说明 <b>有些&quot;落后&quot;根本不该走教学分层这条路，而该走医学与作息</b>。这条线与分层的交界还没写。</p>
 <h3>附：这一页用了哪些卡</h3>
 <p>立场与做法：<a class="wikilink" href="card.html?id=sk-0001">sk-0001</a> · <a class="wikilink" href="card.html?id=sk-0401">sk-0401</a> · <a class="wikilink" href="card.html?id=sk-1172">sk-1172</a> · <a class="wikilink" href="card.html?id=sk-1052">sk-1052</a> · <a class="wikilink" href="card.html?id=sk-0051">sk-0051</a> · <a class="wikilink" href="card.html?id=sk-1043">sk-1043</a> · <a class="wikilink" href="card.html?id=sk-0077">sk-0077</a> 反例与边界：<a class="wikilink" href="card.html?id=sk-0048">sk-0048</a> · <a class="wikilink" href="card.html?id=sk-0815">sk-0815</a> · <a class="wikilink" href="card.html?id=sk-0886">sk-0886</a> · <a class="wikilink" href="card.html?id=sk-0836">sk-0836</a> 待并线：<a class="wikilink" href="card.html?id=sk-0005">sk-0005</a> · <a class="wikilink" href="card.html?id=sk-0185">sk-0185</a></p>
-<blockquote><p>顺着往下读：条目页 <a href="note/A18%20%E5%AD%A6%E4%B9%A0%E5%9B%B0%E9%9A%BE%E5%AD%A6%E7%94%9F.html">A18 学习困难学生</a>（复分标签，69 张打标）·</p><p>编辑专题 <a href="topic.html?slug=learning-difficulties">学习困难学生</a> · 分面 <a href="note/S16%20%E6%81%90%E6%83%A7%E4%B8%8E%E5%AE%B3%E6%80%95.html">S16 恐惧与害怕</a>（44 张）·</p><p>同题分析 <a href="note/%E5%8A%B3%E5%8A%A8%E5%88%B0%E5%BA%95%E6%98%AF%E4%B8%8D%E6%98%AF%E6%95%99%E8%82%B2%E6%89%8B%E6%AE%B5.html">劳动到底是不是教育手段</a></p></blockquote>
+<blockquote><p>顺着往下读：条目页 <a href="entry.html?code=A18">A18 学习困难学生</a>（复分标签，69 张打标）·</p><p>编辑专题 <a href="topic.html?slug=learning-difficulties">学习困难学生</a> · 分面 <a href="facet.html?code=S16">S16 恐惧与害怕</a>（44 张）·</p><p>同题分析 <a href="note/%E5%8A%B3%E5%8A%A8%E5%88%B0%E5%BA%95%E6%98%AF%E4%B8%8D%E6%98%AF%E6%95%99%E8%82%B2%E6%89%8B%E6%AE%B5.html">劳动到底是不是教育手段</a></p></blockquote>
 </article>
 <hr />
 <p class="section-sub">这一页是<b>旁挂层</b>（编者的综合与分析），不是卡片原文。

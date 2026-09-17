@@ -573,6 +573,42 @@ async function main() {
       noteRefs.n > 0 && /note\//.test(noteRefs.href || ''),
       `sk-0250 被 ${noteRefs.n} 处引用，第一条=«${noteRefs.first}» → ${noteRefs.href}`);
 
+    /* ---------- 4b. 长条目页的「本页分区」跳转要吸顶；短页不吸顶 ---------- */
+    /* 2026-09-17 加。实测 23 个条目里 12 个 >3000px、4 个 >5000px（A19 约 7300px ≈ 8 屏），
+       而那排分区跳转原本是**静态**的 —— 滚到一半就够不着，想跳去"交叉参见"得先滚回页首。
+       判据守两件**方向相反**的事，缺一条都不算对：
+         ① 长页（A19）：滚到 3000px 后仍贴在顶栏下面（rect.top ≈ --nav-h）
+         ② 短页（A17，内容最少）：**不许**吸顶 —— 装了只是占地方 */
+    await goto('web/entry.html?code=A19', `document.querySelectorAll('#entryJump .entry-jump-item').length>0`);
+    const stickyLong = await probe(`(async () => {
+      const box = document.getElementById('entryJump');
+      const nav = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--nav-h')) || 60;
+      const cls = box.classList.contains('is-sticky');
+      window.scrollTo(0, 3000);
+      await new Promise(r => setTimeout(r, 500));
+      const top = Math.round(box.getBoundingClientRect().top);
+      return { cls, top, nav, items: box.querySelectorAll('.entry-jump-item').length,
+               pageH: document.documentElement.scrollHeight };
+    })()`);
+    check('长条目页', '「本页分区」在长页上吸顶（滚到 3000px 后仍贴在顶栏下）',
+      stickyLong.cls && Math.abs(stickyLong.top - stickyLong.nav) <= 3 && stickyLong.items >= 3,
+      `A19: 吸顶类=${stickyLong.cls} 滚动后 top=${stickyLong.top}px（--nav-h=${stickyLong.nav}）` +
+      ` 分区项=${stickyLong.items} 页高=${stickyLong.pageH}px`);
+    await goto('web/entry.html?code=A17', `document.querySelectorAll('#entryJump .entry-jump-item').length>0`);
+    const stickyShort = await probe(`(() => {
+      const box = document.getElementById('entryJump');
+      const rows = document.querySelectorAll('#cardList .row').length +
+                   document.querySelectorAll('#crossList .row').length +
+                   document.querySelectorAll('#caseList .row').length;
+      return { cls: box.classList.contains('is-sticky'), rows,
+               pageH: document.documentElement.scrollHeight };
+    })()`);
+    check('长条目页', '短页**不**吸顶（内容最少的条目不该白占一栏）',
+      !stickyShort.cls,
+      `A17: 吸顶类=${stickyShort.cls} 内容行数=${stickyShort.rows} 页高=${stickyShort.pageH}px` +
+      `（门槛是**内容行数 ≥40**，不是页高——第一版拿估算的 1272px 当阈值，实测 A17 有 3265px，` +
+      `因为页高还含同角度条目、相关卡片、"关于本卡"等区）`);
+
     /* ---------- 4. 入门卡真的在首屏 ---------- */
     await cdp.send('Emulation.setDeviceMetricsOverride',
       { width: 1440, height: 900, deviceScaleFactor: 1, mobile: false }, sessionId);

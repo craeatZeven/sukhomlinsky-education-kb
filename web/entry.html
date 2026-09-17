@@ -22,7 +22,7 @@
 <meta name="twitter:description" content="一个条目的全部材料：为什么（主张）、怎么做（方法）、一个教学案例，以及主归属卡片与交叉参见。" />
 <meta name="twitter:image" content="https://craeatzeven.github.io/sukhomlinsky-education-kb/web/og.png" />
 <!-- social:end -->
-<link rel="stylesheet" href="style.css?v=20260917f" />
+<link rel="stylesheet" href="style.css?v=20260917h" />
 </head>
 <body data-theme="green">
 <nav class="topnav">
@@ -132,7 +132,7 @@
 </footer>
 
 <script src="kb.js"></script>
-<script src="theme.js?v=20260917f"></script>
+<script src="theme.js?v=20260917h"></script>
 <script>
 const PAGE_SIZE = 40;
 
@@ -230,7 +230,8 @@ document.addEventListener("DOMContentLoaded", async () => {
   }
   jump.push(`<a class="entry-jump-item" href="#siblingSection">同一角度的其他条目</a>`);
   jump.push(`<a class="entry-jump-item" href="search.html?q=${encodeURIComponent(entry.name)}">在全文里搜「${KB.esc(entry.name)}」→</a>`);
-  document.getElementById("entryJump").innerHTML = jump.join("");
+  const jumpBox = document.getElementById("entryJump");
+  jumpBox.innerHTML = jump.join("");
   /* 复分标签不持主归属，这一段的小标题与说明都要说清"下面是带标记的卡"，不能叫主归属 */
   document.getElementById("primaryTitle").textContent = info.tag ? "带此标记的卡" : "主归属";
   document.getElementById("primarySub").innerHTML = info.tag
@@ -269,6 +270,18 @@ document.addEventListener("DOMContentLoaded", async () => {
   } else {
     document.getElementById("caseSection").style.display = "none";
   }
+
+  /* 长页才吸顶（2026-09-17 加）。实测 23 个条目里 12 个超过 3000px、4 个超过 5000px
+     （A19 约 7300px ≈ 8 屏），而这排分区跳转原本是**静态**的——滚到一半就够不着，
+     想跳去"交叉参见"得先滚回页首。**短页不吸顶**：A17 只有 1272px，装了净是占地方。
+     门槛用**内容行数**（主归属 + 参见 + 案例），与页面高度的关系比像素阈值更稳。
+
+     **位置要紧**：这一段必须在 `cases` 定义**之后**。
+     第一版把它插在第一次 `jumpBox.innerHTML = …` 之后，那里 `cases` 还没定义 →
+     整段脚本抛 ReferenceError → **条目页整页渲染不出来**（A19 页高只剩 1181px、
+     入门卡 0 张）。是浏览器判据当场抓到的，不是我发现的。 */
+  const rows = cards.length + cross.length + cases.length;
+  if (rows >= 40) jumpBox.classList.add("is-sticky");
 
   /* 首屏的「从这里开始」：把编者挑的三张摆在主列表之前，
      免得读者一进来先面对几十行目录（评审 B·03：首屏偏重）。 */

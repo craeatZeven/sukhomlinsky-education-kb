@@ -1233,3 +1233,21 @@ footer p a { text-decoration: underline; text-decoration-color: currentColor; }
 
 /* ③ 工具区与列表区之间画一条界线：说清「上面是控制、下面是内容」 */
 .kb-search #docsBlock { border-top: 1px solid var(--line); margin-top: 4px; padding-top: 14px; }
+
+/* ============================================================
+   .page-head 的两种形态（2026-09-18 定，判据见 styles/archive.md）
+   ------------------------------------------------------------
+   全站 19 个页面共用 .page-head（居中封面头）。
+   判据：首屏里有没有要立刻操作的控件（input/select/textarea）
+     有 -> 工具头 .page-head--tool（左对齐、h1 26px、压缩留白）：控件要尽快出现
+     没有 -> 封面头（默认居中）：这是一段要读的东西的开头
+   实测分布（1440x900）：explore(关键词筛选) / problem(描述你的问题) / stories(搜索故事)
+   三个有控件；其余 16 页没有。taxonomy / clusters / facets 虽叫入口页，首屏无控件，保留居中。
+   ============================================================ */
+.page-head--tool { text-align: left; padding: 26px 0 12px; }
+.page-head--tool h1 { font-size: 26px; margin: 4px 0 6px; }
+.page-head--tool p { margin: 0; max-width: 760px; }
+@media (max-width: 640px) {
+  .page-head--tool { padding: 18px 0 10px; }
+  .page-head--tool h1 { font-size: 22px; }
+}

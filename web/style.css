@@ -1279,9 +1279,8 @@ body.page-home { --accent: #8B0000; --accent-soft: #f0dcd8; --accent-ink: #7a1a1
 body.page-home::before {
   content: ""; position: fixed; inset: 0; pointer-events: none; z-index: 0;
   background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxODAnIGhlaWdodD0nMTgwJz48ZmlsdGVyIGlkPSduJz48ZmVUdXJidWxlbmNlIHR5cGU9J2ZyYWN0YWxOb2lzZScgYmFzZUZyZXF1ZW5jeT0nMC44JyBudW1PY3RhdmVzPSczJyBzdGl0Y2hUaWxlcz0nc3RpdGNoJy8+PC9maWx0ZXI+PHJlY3Qgd2lkdGg9JzE4MCcgaGVpZ2h0PScxODAnIGZpbHRlcj0ndXJsKCNuKScgb3BhY2l0eT0nMC41NScvPjwvc3ZnPg==");
-  opacity: .035; mix-blend-mode: multiply;
+  opacity: .30; mix-blend-mode: multiply;   /* 实测剂量曲线：.035 等于没有(SD .49)、.15 刚可察(SD .84)、.30 看得见(SD 1.64)、.55 偏重(SD 2.93)。取 .30 */
 }
-body.page-home.tex-strong::before { opacity: .07; }
 /* 两大两小（用户拍板「甲」）：承重的 卡片数 / 做人的故事 保持大，
    书源 / 主题 压成一行等宽小字。依据：四个里只有两个是决策信息。 */
 body.page-home .stats { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 10px 30px; }

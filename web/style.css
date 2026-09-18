@@ -1251,3 +1251,35 @@ footer p a { text-decoration: underline; text-decoration-color: currentColor; }
   .page-head--tool { padding: 18px 0 10px; }
   .page-head--tool h1 { font-size: 22px; }
 }
+/* ============================================================
+   首页 · 高级感改版（2026-09-18，规格见 runs/20260918-kb-upgrade）
+   ------------------------------------------------------------
+   用户拍板：配色 C（收敛到单一暗红）· 纹理 B（代码生成纸纹）· 动效 A（只用杂志层卡原样四条）
+   实测依据：首页强调色原为 6 种角色 31 处（绿 30 + 陶土红 1），风格卡要求 ≤4 处。
+   收敛后只剩 3 种角色：刊头 / 行动链接 / 引文左边线。
+   ============================================================ */
+body.page-home { --accent: #8B0000; --accent-soft: #f0dcd8; --accent-ink: #7a1a12; }
+
+/* ① 数字用墨色：数字是事实，事实不穿彩色制服（反而更稳） */
+.page-home .stat b { color: var(--ink); }
+
+/* ② 类型标签去色：档案层卡 A7 —— 用色相下划线，不用彩色胶囊 */
+.page-home .conf-tag { color: var(--ink); background: var(--card); border-color: var(--line); }
+
+/* ③ 主题切换圆点去色：它是控件状态，不占强调色名额 */
+.page-home .dot { background: color-mix(in srgb, var(--ink) 22%, transparent); border-color: transparent; }
+.page-home .dot.active { background: var(--ink); }
+
+/* ④ 纸纹：代码生成（feTurbulence），零素材零许可。两档备选，默认弱档。 */
+body.page-home::before {
+  content: ""; position: fixed; inset: 0; pointer-events: none; z-index: 0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23n)' opacity='0.55'/%3E%3C/svg%3E");
+  opacity: .035; mix-blend-mode: multiply;
+}
+body.page-home.tex-strong::before { opacity: .07; }
+/* 两大两小（用户拍板「甲」）：承重的 卡片数 / 做人的故事 保持大，
+   书源 / 主题 压成一行等宽小字。依据：四个里只有两个是决策信息。 */
+body.page-home .stats { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 10px 30px; }
+body.page-home .stat--major b { font-family: var(--serif); font-size: 38px; line-height: 1; color: var(--ink); }
+body.page-home .stat--major span { font-size: 13px; color: var(--soft); }
+body.page-home .stat-note { flex-basis: 100%; margin: 2px 0 0; font-family: var(--mono); font-size: 12px; letter-spacing: .02em; color: var(--soft); }

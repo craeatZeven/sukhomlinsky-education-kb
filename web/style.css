@@ -1099,3 +1099,137 @@ footer p a { text-decoration: underline; text-decoration-color: currentColor; }
   .grid--index > .case-card > .ref,
   .grid--index > .source-card > .ref { text-align: left; margin-top: 4px; }
 }
+
+
+/* ============================================================
+   全库搜索 · 改版（2026-09-18）
+   ------------------------------------------------------------
+   结构规格见 runs/20260918-kb-upgrade/sop-run-log.md。三处改动：
+     ① 标题 34px → 26px 并压成一行（档案层不是封面页）
+     ② 主操作只剩一个实心「检索」；工具三件收进 ⋯
+     ③ 三个统计卡 → 一行等宽小字（档案层 A6）
+   原语：kb-head = Cluster · kb-bar__row1/facets/tools = Cluster ·
+         kb-row 内部 = Stack（主/副/尾三级）
+   ============================================================ */
+.kb-search { padding: 0 0 60px; }
+
+/* 标题行：Cluster（窄了自动堆叠，不用媒体查询） */
+.kb-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 14px; padding: 26px 0 12px; }
+.kb-head h1 { margin: 0; font-size: 26px; }
+.kb-head .meta { margin: 0; }
+
+/* 搜索条：sticky 吸顶 —— 核心功能始终可见（原版滚下去就找不着了） */
+.kb-bar {
+  position: sticky; top: var(--nav-h); z-index: 900;
+  display: grid; gap: 10px; padding: 12px 0;
+  background: var(--bg); border-bottom: 1px solid var(--line);
+}
+.kb-bar__row1, .kb-bar__facets, .kb-bar__tools { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.kb-bar__row1 .c-search { flex: 1 1 260px; }
+.kb-bar__go { padding: 10px 20px; font-size: 15px; }   /* 唯一实心主按钮 */
+.kb-sel {
+  padding: 8px 10px; font: inherit; font-size: 13px; color: var(--soft);
+  background: transparent; border: 1px solid var(--line); border-radius: var(--radius-archive);
+}
+.kb-sel:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* 计数行：一行等宽小字 */
+.kb-count { margin: 14px 0 6px; font-family: var(--mono); font-size: 12px; letter-spacing: .02em; color: var(--soft); }
+.kb-count b { color: var(--ink); font-weight: 600; }
+
+/* 结果条目：三级（主 = 摘录 / 副 = 中文名·类型·书 / 尾 = 编号） */
+.kb-row { display: block; }
+.kb-row__main { margin: 0; }
+.kb-row__sub { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px; margin: 6px 0 0; font-size: 14px; color: var(--soft); }
+.kb-row__tail { margin: 4px 0 0; font-family: var(--mono); font-size: 12px; letter-spacing: .02em; color: var(--soft); opacity: .85; }
+.kb-dot { color: var(--line); }
+@media (max-width: 640px) {
+  .kb-head { padding: 18px 0 8px; }
+  .kb-head h1 { font-size: 22px; }
+  .kb-bar__facets { overflow-x: auto; flex-wrap: nowrap; }
+}
+
+/* 分页：用组件库的 c-pager__item */
+.kb-pager { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-top: 18px; }
+
+/* [hidden] 靠 UA 的 display:none 生效，会被上面的 display:flex 覆盖 —— 实测这行不加，
+   「⋯ 工具」根本收不起来（toolsHidden 明明为 true，截图里三件还都在）。 */
+.kb-bar__tools[hidden] { display: none; }
+
+/* 成篇材料压紧：摘要 clamp 两行。原来 5 条 × 3 行把卡片结果推到 1027px（首屏 900） */
+.docs-block .doc-snip { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+
+
+/* ============================================================
+   全库搜索 · 动效（2026-09-18，B 档）
+   ------------------------------------------------------------
+   动效档 B 的边界：**每一条都在回答「发生了什么」**，没有一条在回答「炫不炫」。
+   所以它落在档案层卡的 L0~L1 档位内，不需要改卡。
+     E1 结果更新淡出→淡入（不是硬切）
+     E2 计数数字滚动到新值（让人看见「筛掉了多少」）
+     E3 结果条目逐条错峰淡入（每条差 30ms，最多前 8 条）
+     E5 首屏 h1 + 搜索条一次性入场（只跑一次）
+     E6 条目 hover 左侧浮出 2px 强调色竖线（不上浮、不加阴影）
+   全部用 no-preference 包住；reduced-motion 下等于这些规则不存在。
+   ============================================================ */
+@media (prefers-reduced-motion: no-preference) {
+  /* E5 首屏一次性入场 */
+  .kb-head { animation: kb-rise .24s ease-out both; }
+  .kb-bar  { animation: kb-rise .24s ease-out .06s both; }
+  @keyframes kb-rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+
+  /* E1 结果区：换内容时先淡出，再淡入 */
+  #results { transition: opacity .15s ease; }
+  #results.kb-in { animation: kb-fade .2s ease-out both; }
+  @keyframes kb-fade { from { opacity: 0; } to { opacity: 1; } }
+
+  /* E3 条目错峰（--i 由 JS 写在行上，最多前 8 条） */
+  #results .kb-row { animation: kb-rowin .2s ease-out both; animation-delay: calc(var(--i, 0) * 30ms); }
+  @keyframes kb-rowin { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+
+  /* E6 hover：左侧浮出竖线（档案层允许的 hover 语言） */
+  .kb-row { position: relative; padding-left: 12px; margin-left: -12px; }
+  .kb-row::before {
+    content: ""; position: absolute; left: 0; top: 4px; bottom: 4px; width: 2px;
+    background: var(--accent); opacity: 0; transition: opacity .12s ease;
+  }
+  .kb-row:hover::before, .kb-row:focus-visible::before { opacity: 1; }
+}
+@media (prefers-reduced-motion: reduce) {
+  /* 显式写出来：不是「不写就没事」，是**这两个元素本来就不该有残留动画** */
+  .kb-head, .kb-bar, #results, #results .kb-row { animation: none !important; transition: none !important; }
+}
+
+
+/* ============================================================
+   A 版 · 分区对待（2026-09-18 第二轮）
+   ------------------------------------------------------------
+   盲评给出的理由：「主操作虽突出，但**整体太素**」。
+   根因：我把档案层卡那条「零圆角零阴影 + 计数用等宽 12px」套到了**工具区**，
+   而这一区不是列表 —— 削平之后，首屏没有东西撑住重量。
+   实测对照：中位字号 21→14、圆角 29→15、阴影 32→28、盒子 383→459。
+   所以：**工具区恢复边界与份量，列表区维持目录行。**
+   ============================================================ */
+
+/* ① 工具区：给回一张卡的边界（原来被我削成全宽 + 一条 hairline） */
+.kb-bar {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+}
+
+/* ② 计数恢复份量：一个 26px 衬线数字（不是三张卡，也不是一行 12px 小字） */
+.kb-count { margin: 16px 0 8px; }
+#totalNum {
+  font-family: var(--serif);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+  margin-right: 2px;
+}
+
+/* ③ 工具区与列表区之间画一条界线：说清「上面是控制、下面是内容」 */
+.kb-search #docsBlock { border-top: 1px solid var(--line); margin-top: 4px; padding-top: 14px; }

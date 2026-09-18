@@ -1,0 +1,250 @@
+/* ============================================================
+   kit-subset.css —— 从组件库抄来的**用得到的那几节** + 知识库 token 别名
+   ------------------------------------------------------------
+   为什么只抄这几节：kit.css 自己写着「可整份复制，也可只复制用到的那几节」，
+   而这页现在总传输才 70 KB —— 整份注入（900+ 行）会让它第一个破百。
+
+   抄了：c-search / c-filters / c-btn / c-copy / c-skeleton / c-empty / c-pager
+   来源：components/kit.css（web-standard 仓库）
+
+   ⚠️ 与库的同步：库改了这三节，这边要手动跟。**改了就在这条注释上记一行日期**。
+   2026-09-18 首次抄入。
+   ============================================================ */
+
+/* 知识库 token → 组件库 token（组件只读 --c-*，不认 --bg/--line） */
+.c-scope, .kit {
+  --c-accent:     var(--accent);
+  /* ⚠️ 这条**必须有定义**：c-btn 用 var(--c-accent-ink) 而且没有兜底。
+     漏了会静默出事——文字色落到继承值（深墨 #20251f）压深绿底 #2f6b4f，
+     axe 判严重项（实测出处：Phase 6 ①-4 报 #searchBtn > .c-btn__label）。
+     上一版我用子串判断，命中的是引用不是定义，白改了一轮。 */
+  --c-accent-ink: var(--on-accent, #fff);
+  --c-paper:      var(--bg);
+  --c-paper-2:    var(--card);
+  --c-ink:        var(--ink);
+  --c-ink-2:      var(--soft);
+  --c-rule:       var(--line);
+  --c-radius:     var(--radius-archive);   /* 档案层：2px */
+  --c-radius-s:   var(--radius-archive);
+  --c-shadow:     none;                    /* 档案层：零阴影 */
+  --c-shadow-hi:  none;
+  --c-font:       var(--sans);
+  --c-serif:      var(--serif);
+  --c-mono:       var(--mono);
+  --c-ok:         #2f6b4f;
+  --c-warn:       #a8661a;
+  --c-err:        #a8342a;
+  --c-focus:      0 0 0 3px color-mix(in srgb, var(--accent) 30%, transparent);
+}
+
+/* 知识库原有的 .chip 也一起接上，免得两套按钮长得不一样 */
+.c-scope .chip, .chip { font-family: var(--sans); }
+
+/* ============================================================
+   1 · c-search  搜索框
+   APG：Combobox（仅当带建议弹层时；本库无弹层 → 就是原生 input[type=search]）
+         https://www.w3.org/WAI/ARIA/apg/patterns/combobox/
+   键盘：Tab 进入 · Esc 清空（本库实现）· 无弹层时不拦截任何键
+   需求动作：「访客能输入关键词找东西」
+   状态：默认 / 聚焦 / 有值 / 已清空 / 无结果（无结果由 c-empty 承担）
+   ============================================================ */
+.c-search {
+  display: flex; align-items: center; gap: 10px;
+  min-height: 44px; padding: 0 14px;
+  background: var(--c-paper);
+  border: 1px solid var(--c-rule);
+  border-radius: var(--c-radius-s);
+  font-family: var(--c-font);
+  transition: border-color .15s, box-shadow .15s;
+}
+.c-search:focus-within {
+  border-color: var(--c-accent);
+  box-shadow: var(--c-focus);
+}
+.c-search__icon { flex: none; width: 16px; height: 16px; color: var(--c-ink-2); }
+.c-search__input {
+  flex: 1 1 auto; min-width: 0;
+  border: 0; background: transparent; color: var(--c-ink);
+  font: inherit; font-size: 16px;   /* 16px：iOS 上小于 16 会自动放大页面 */
+  padding: 11px 0;
+}
+.c-search__input::placeholder { color: var(--c-ink-2); opacity: .7; }
+.c-search__input:focus { outline: none; }      /* 焦点环由 :focus-within 承担 */
+.c-search__kbd {
+  flex: none; font-family: var(--c-mono); font-size: 11px;
+  color: var(--c-ink-2); border: 1px solid var(--c-rule);
+  border-radius: 4px; padding: 2px 6px;
+}
+.c-search__clear {
+  /* 图标看着小，命中区要做到 40 —— 视觉尺寸和触控尺寸是两件事 */
+  flex: none; width: 40px; height: 40px; margin-right: -10px;
+  border: 0; border-radius: 50%;
+  background: transparent; color: var(--c-ink-2); cursor: pointer;
+  display: none; place-items: center; font-size: 15px; line-height: 1;
+}
+.c-search__clear:hover { background: var(--c-paper-2); color: var(--c-ink); }
+.c-search[data-filled="true"] .c-search__clear { display: grid; }
+.c-search[data-filled="true"] .c-search__kbd { display: none; }
+
+/* ============================================================
+   2 · c-filters  筛选 chips
+   APG：Button（切换按钮形态：aria-pressed，不是 aria-checked）
+         https://www.w3.org/WAI/ARIA/apg/patterns/button/
+   键盘：Tab 逐个走 · Enter / Space 切换 · 禁用项不可聚焦
+   需求动作：「访客能按分类／标签把内容收窄」
+   状态：未选 / 已选 / 悬停 / 聚焦 / 禁用 / 有计数 / 结果为零
+   注意：**必须配一个"结果计数"和一个"清除全部"**，
+        否则用户筛到 0 条会以为是页面坏了。
+   ============================================================ */
+.c-filters {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px;
+  font-family: var(--c-font);
+}
+.c-chip {
+  display: inline-flex; align-items: center; gap: 6px;
+  min-height: 40px; padding: 8px 14px;   /* 34px 实测被 AP-A11Y-01 拦下：手指点不准 */
+  background: transparent; color: var(--c-ink);
+  border: 1px solid var(--c-rule); border-radius: 999px;
+  font: inherit; font-size: 13px; cursor: pointer;
+  transition: background .15s, border-color .15s, color .15s;
+}
+.c-chip:hover { border-color: var(--c-accent); color: var(--c-accent); }
+.c-chip[aria-pressed="true"] {
+  background: var(--c-accent); border-color: var(--c-accent); color: var(--c-accent-ink);
+}
+.c-chip[aria-pressed="true"]:hover { color: var(--c-accent-ink); }
+.c-chip[disabled] { opacity: .45; cursor: not-allowed; }
+.c-chip__n {
+  font-family: var(--c-mono); font-size: 11px; opacity: .75;
+}
+.c-filters__meta {
+  display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
+  font-size: 13px; color: var(--c-ink-2);
+}
+.c-filters__count { font-family: var(--c-mono); color: var(--c-ink); }
+.c-filters__clear {
+  border: 0; background: transparent; color: var(--c-accent);
+  font: inherit; font-size: 13px; cursor: pointer; text-decoration: underline;
+  text-underline-offset: 3px; padding: 4px 2px; min-height: 28px;
+}
+
+/* ============================================================
+   9 · c-btn  按钮（含提交态机）
+   APG：Button
+         https://www.w3.org/WAI/ARIA/apg/patterns/button/
+   键盘：Enter / Space 触发；加载中加 aria-busy，且**不许把焦点移走**
+   需求动作：「访客能触发一件事」
+   状态：默认 / 悬停 / 聚焦 / 按下 / **加载中** / **成功** / **失败** / 禁用
+   为什么要状态机：表单一旦接远端，"点了没反应"就是最常见的抱怨。
+   ============================================================ */
+.c-btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  min-height: 44px; padding: 10px 20px;
+  border: 1px solid transparent; border-radius: var(--c-radius-s);
+  background: var(--c-accent); color: var(--c-accent-ink);
+  font: inherit; font-family: var(--c-font); font-size: 15px; font-weight: 600;
+  cursor: pointer; text-decoration: none;
+  transition: filter .15s, transform .1s, background .15s;
+}
+.c-btn:hover { filter: brightness(1.08); }
+.c-btn:active { transform: translateY(1px); }
+.c-btn[disabled], .c-btn[aria-disabled="true"] { opacity: .5; cursor: not-allowed; filter: none; }
+.c-btn--ghost { background: transparent; color: var(--c-ink); border-color: var(--c-rule); }
+.c-btn--ghost:hover { border-color: var(--c-accent); color: var(--c-accent); filter: none; }
+.c-btn--quiet { background: transparent; color: var(--c-accent); border: 0; padding: 10px 6px; }
+.c-btn__spin {
+  width: 14px; height: 14px; border-radius: 50%;
+  border: 2px solid currentColor; border-top-color: transparent;
+  animation: c-spin .7s linear infinite; display: none;
+}
+@keyframes c-spin { to { transform: rotate(360deg); } }
+.c-btn[data-state="loading"] .c-btn__spin { display: block; }
+.c-btn[data-state="loading"] .c-btn__label { opacity: .75; }
+.c-btn[data-state="loading"] { cursor: progress; }
+.c-btn[data-state="ok"]    { background: var(--c-ok); }
+.c-btn[data-state="error"] { background: var(--c-err); }
+
+/* ============================================================
+   10 · c-copy  复制到剪贴板
+   APG：Button + 结果播报
+   键盘：Enter / Space 触发；结果用 aria-live="polite" 播报——
+         只把按钮文字改成"已复制"是不够的，屏幕阅读器不会主动念
+   需求动作：「访客能把这串东西带走」（代码、链接、引用、邀请码）
+   状态：默认 / 已复制 / 失败（降级提示手动复制）
+   ============================================================ */
+.c-copy {
+  display: inline-flex; align-items: center; gap: 8px;
+  min-height: 40px; padding: 9px 12px;
+  background: var(--c-paper-2); border: 1px solid var(--c-rule);
+  border-radius: var(--c-radius-s); font-family: var(--c-mono); font-size: 12px;
+  color: var(--c-ink-2); cursor: pointer;
+}
+.c-copy:hover { border-color: var(--c-accent); color: var(--c-accent); }
+.c-copy[data-state="ok"] { color: var(--c-ok); border-color: var(--c-ok); }
+.c-copy[data-state="error"] { color: var(--c-err); border-color: var(--c-err); }
+
+/* ============================================================
+   13 · c-skeleton  骨架屏
+   APG：无（不是交互件）
+   无障碍：骨架本身 aria-hidden="true"；**外层容器加 aria-busy="true"**，
+           加载完再置 false——否则屏幕阅读器会去念一堆没有意义的空盒子
+   需求动作：「图片/数据还在路上时先占住位置」
+   状态：加载中 / 完成（完成就是把它换掉）
+   为什么重要：**不占位的加载会跳版**——用户正在读的文字被顶下去。
+   ============================================================ */
+.c-skel {
+  border-radius: var(--c-radius-s);
+  background: linear-gradient(90deg, var(--c-paper-2) 25%, color-mix(in srgb, var(--c-paper-2) 60%, var(--c-paper)) 37%, var(--c-paper-2) 63%);
+  background-size: 400% 100%;
+  animation: c-shimmer 1.4s ease infinite;
+}
+@keyframes c-shimmer { from { background-position: 100% 0; } to { background-position: 0 0; } }
+.c-skel--media { aspect-ratio: 16 / 9; width: 100%; }
+.c-skel--line  { height: 14px; margin: 8px 0; }
+.c-skel--line.is-short { width: 45%; }
+.c-skel--title { height: 22px; width: 70%; margin: 8px 0; }
+
+/* ============================================================
+   14 · c-empty  空态
+   APG：无；用 live region 表达
+   无障碍：普通空态 role="status"（polite）；**错误态 role="alert"**（assertive）
+           ——错误是要打断用户的，不能等他把别的话说完
+   需求动作：「这个东西现在还没有」
+   状态：空 / 空（带清除筛选的动作）
+   三条硬规矩：
+     ① 说清**为什么空**（没数据 vs 筛掉了）
+     ② 给**下一步动作**（清除筛选 / 换个词 / 稍后再来）
+     ③ 不要只画一个灰图标加"暂无数据"
+   ============================================================ */
+.c-state {
+  display: flex; flex-direction: column; align-items: center; gap: 8px;
+  padding: 40px 20px; text-align: center;
+  border: 1px dashed var(--c-rule); border-radius: var(--c-radius);
+  font-family: var(--c-font); background: var(--c-paper);
+}
+.c-state__icon { font-size: 26px; line-height: 1; color: var(--c-ink-2); }
+.c-state__title { margin: 0; font-size: 16px; font-weight: 600; color: var(--c-ink); }
+.c-state__desc { margin: 0; max-width: 34em; font-size: 13px; line-height: 1.65; color: var(--c-ink-2); }
+.c-state__actions { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; margin-top: 6px; }
+.c-state--error { border-style: solid; border-color: color-mix(in srgb, var(--c-err) 35%, transparent); }
+.c-state--error .c-state__icon { color: var(--c-err); }
+
+/* ============================================================
+   17 · c-pager  分页 / 加载更多
+   APG：无专用 pattern；Landmarks（nav + aria-label）
+   键盘：Tab + Enter；当前页写 aria-current="page"（不是加个 class 变色就算）
+   需求动作：「内容比一屏多，怎么给下一批」
+   状态：默认 / 当前页 / 禁用 / 最后一页（显示"到底了"）
+   ============================================================ */
+.c-pager { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; font-family: var(--c-font); }
+.c-pager__item {
+  min-width: 44px; min-height: 44px; padding: 8px 12px;
+  display: inline-grid; place-items: center;
+  border: 1px solid var(--c-rule); border-radius: var(--c-radius-s);
+  background: var(--c-paper); color: var(--c-ink);
+  font: inherit; font-size: 14px; cursor: pointer; text-decoration: none;
+}
+.c-pager__item:hover { border-color: var(--c-accent); color: var(--c-accent); }
+.c-pager__item[aria-current="page"] { background: var(--c-accent); border-color: var(--c-accent); color: var(--c-accent-ink); }
+.c-pager__item[disabled], .c-pager__item[aria-disabled="true"] { opacity: .45; cursor: not-allowed; }
+.c-pager__end { font-size: 13px; color: var(--c-ink-2); padding: 10px 4px; }

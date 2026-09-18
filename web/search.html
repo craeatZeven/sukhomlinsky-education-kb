@@ -24,6 +24,7 @@
 <!-- social:end -->
 <link rel="icon" href="icon.svg" type="image/svg+xml" />
 <link rel="stylesheet" href="style.css?v=20260917h">
+<link rel="stylesheet" href="kit-subset.css?v=20260918a">
 </head>
 <body>
 <nav class="topnav">
@@ -56,42 +57,53 @@
   </div>
 </nav>
 
-<main class="wrap" style="padding:28px 0 60px">
-  <!-- 主标题先给读者，技术实现信息降为可展开的小字。
-       复审 §B·10 指出「技术实现信息仍抢主视觉」；公开入口应叫「全库搜索」。 -->
-  <h1 style="margin:0 0 6px">全库搜索</h1>
-  <p class="meta" style="margin:0 0 6px">在 1386 张卡片里按题名、中文转述、原文摘录与出处检索；也可只按来源、主题、类型筛选。</p>
-  <details class="howto" style="margin:0 0 14px">
-    <summary>技术说明</summary>
-    <p class="meta" id="apiState">正在连接后端…</p>
-    <p class="meta">后端为 FastAPI / Cloudflare Workers + SQLite FTS5；连不上时自动切换到随站点分发的本地静态检索。</p>
-  </details>
+<main class="wrap kb-search">
+  <!-- 标题行（Cluster）：34px 封面头 → 26px 一行。档案层不是封面页 -->
+  <div class="kb-head c-scope">
+    <h1>全库搜索</h1>
+    <p class="meta">在 1386 张卡片里按题名、中文转述、原文摘录与出处检索</p>
+  </div>
 
-  <div class="card" style="padding:16px;margin-top:16px">
-    <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center">
-      <input aria-label="全库搜索" id="q" class="chip" style="min-width:260px;padding:10px 14px;border:1px solid var(--line);border-radius:10px;background:transparent;color:inherit" placeholder="搜索：劳动 / 教育 / 苏霍姆林斯基 / 情感教育（多词用空格）">
-      <select aria-label="筛选：来源" id="fSource" class="chip"><option value="">全部来源</option></select>
-      <select aria-label="筛选：主题" id="fTopic" class="chip"><option value="">全部主题</option></select>
-      <select aria-label="筛选：类型" id="fType" class="chip"><option value="">全部类型</option></select>
-      <select aria-label="筛选：每页条数" id="fSize" class="chip">
+  <!-- 搜索条（sticky）：主操作只有「检索」一个实心按钮；工具收进 ⋯ -->
+  <div class="kb-bar c-scope" id="searchbar">
+    <div class="kb-bar__row1">
+      <div class="c-search">
+        <svg class="c-search__icon" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="7" cy="7" r="5" stroke="currentColor" stroke-width="1.5"/><path d="M11 11l3.5 3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        <input class="c-search__input" id="q" type="search" aria-label="全库搜索" placeholder="搜索：劳动 / 情感教育 / 后进生（多词用空格）">
+        <button class="c-search__clear" type="button" id="qClear" aria-label="清空">&#10005;</button>
+      </div>
+      <button class="c-btn kb-bar__go" id="searchBtn" type="button"><span class="c-btn__label">检索</span></button>
+      <button class="c-btn c-btn--ghost" id="toolsBtn" type="button" aria-expanded="false" aria-controls="tools" aria-label="更多工具">&#8943;</button>
+    </div>
+    <div class="kb-bar__facets">
+      <select aria-label="筛选：来源" id="fSource" class="kb-sel"></select>
+      <select aria-label="筛选：主题" id="fTopic" class="kb-sel"></select>
+      <select aria-label="筛选：类型" id="fType" class="kb-sel"></select>
+      <select aria-label="筛选：每页条数" id="fSize" class="kb-sel">
         <option value="10">每页 10</option>
         <option value="20" selected>每页 20</option>
         <option value="50">每页 50</option>
       </select>
-      <button class="chip" id="searchBtn" type="button">检索</button>
-      <button class="chip" id="randomBtn" type="button">随机一卡</button>
-      <button class="chip" id="exportJson" type="button">导出本页 JSON</button>
-      <button class="chip" id="exportCsv" type="button">导出本页 CSV</button>
+    </div>
+    <div class="kb-bar__tools" id="tools" hidden>
+      <button class="c-btn c-btn--ghost" id="randomBtn" type="button"><span class="c-btn__label">随机一卡</span></button>
+      <button class="c-btn c-btn--ghost" id="exportJson" type="button"><span class="c-btn__label">导出本页 JSON</span></button>
+      <button class="c-btn c-btn--ghost" id="exportCsv" type="button"><span class="c-btn__label">导出本页 CSV</span></button>
     </div>
   </div>
 
-  <div id="stats" style="display:flex;gap:18px;flex-wrap:wrap;margin:16px 0"></div>
-  <!-- 成篇材料优先：搜一个词，**先给已经写好的一篇**，再给零散卡片。
-       用户原话：「我在这个数据库里面找劳动，它能给我的只是一堆零散的卡片」——
-       而库里本来就有《劳动教育》专题长文、条目页 A11、归档问答，从前搜索一个字都不给。 -->
+  <!-- 计数行：一行等宽小字（档案层 A6「计数不要做成统计卡」） -->
+  <p class="kb-count" id="countline" role="status" aria-live="polite"></p>
+
   <div id="docsBlock"></div>
-  <div class="rows" id="results"></div>
-  <div id="pager" style="display:flex;gap:10px;align-items:center;margin-top:18px"></div>
+  <div class="rows c-scope" id="results"></div>
+  <div class="kb-pager c-scope" id="pager"></div>
+
+  <details class="howto">
+    <summary>技术说明</summary>
+    <p class="meta" id="apiState">正在连接后端…</p>
+    <p class="meta">后端为 FastAPI / Cloudflare Workers + SQLite FTS5；连不上时自动切换到随站点分发的本地静态检索。</p>
+  </details>
 </main>
 
 <footer class="site-footer">
@@ -118,6 +130,9 @@ let META = { sources: [], topics: [] };
 let state = { q: "", source: "", topic: "", type: "", page: 1, size: 20, total: 0, pages: 0, items: [] };
 
 function labelType(t){ return KB.typeLabel(t); }
+/* 搜索页副行只显示中文：kb.js 的 TYPE_LABELS 是「principle 原则」这种英文键+中文，
+   在中文阅读面上读起来像机器输出。**只在这里剥前缀**，不动全站共用的 TYPE_LABELS。 */
+function zhType(t){ return String(labelType(t) || '').replace(/^[a-z][a-z-]*\s+/, ''); }
 function topicTitle(slug){ const t = META.topics.find(x => x.slug === slug); return t ? t.title : slug; }
 function sourceTitle(slug){ const s = META.sources.find(x => x.slug === slug); return s ? s.title : slug; }
 
@@ -174,18 +189,36 @@ function staticSearch(){
   return { total: list.length, items, mode: "static-client" };
 }
 
-function cardHtml(c){
+/* 结果条目分三级（2026-09-18 改版）：
+     主行 = 摘录（要读的）· 副行 = 中文名 / 类型 / 书（要认的）· 尾行 = 编号（要溯源的）
+   改版前 6 个信息同一行同一样式，扫不动；英文内部值（quote / on-education /
+   learning-difficulties）已去掉，换成中文标签。 */
+/* E2 计数滚动：让人看见「筛掉了多少」。
+   reduced-motion 下直接给终值——不是「动画快一点」，是根本不动。 */
+let lastTotal = 0;
+function countUp(el, from, to, ms){
+  if(!el) return;
+  const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if(reduced || from === to){ el.textContent = to; return; }
+  const t0 = performance.now();
+  (function step(t){
+    const k = Math.min(1, (t - t0) / ms);
+    el.textContent = Math.round(from + (to - from) * (1 - Math.pow(1 - k, 3)));
+    if(k < 1) requestAnimationFrame(step);
+  })(t0);
+}
+function cardHtml(c, i){
   const quote = c.snippet || c.preview || c.cn || c.title;
   const meta = KB.cardMetaText(c);
-  return `<a class="row" href="card.html?id=${encodeURIComponent(c.id)}#${KB.esc(c.id)}">
-    <p class="row-quote">${KB.esc(quote)}</p>
-    <div class="row-meta">
+  return `<a class="row kb-row" style="--i:${i < 8 ? i : 8}" href="card.html?id=${encodeURIComponent(c.id)}#${KB.esc(c.id)}">
+    <p class="row-quote kb-row__main">${KB.esc(quote)}</p>
+    <p class="kb-row__sub">
       <span class="row-title">${KB.esc(c.title)}</span>
-      <span>${KB.esc(labelType(c.type))}</span>
-      ${KB.sourcePop(c.source)}
-      <span>${KB.esc(c.id)}</span>
-      ${meta?`<span class="row-entry">${KB.esc(meta)}</span>`:""}
-    </div>
+      <span class="kb-dot" aria-hidden="true">·</span><span>${KB.esc(zhType(c.type))}</span>
+      <span class="kb-dot" aria-hidden="true">·</span>${KB.sourcePop(c.source)}
+      ${meta?`<span class="kb-dot" aria-hidden="true">·</span><span class="row-entry">${KB.esc(meta)}</span>`:""}
+    </p>
+    <p class="kb-row__tail"><span class="kb-id">${KB.esc(c.id)}</span></p>
   </a>`;
 }
 
@@ -211,7 +244,7 @@ function renderDocs(terms){
     return {d, ok, inTitle, hits};
   }).filter(x=>x.ok).sort((a,b)=>(b.inTitle-a.inTitle) || (b.hits-a.hits));
   if(!scored.length){ box.innerHTML = ""; return; }
-  const top = scored.slice(0, 5);
+  const top = scored.slice(0, 3);   /* 2026-09-18：5 → 3。5 条成篇材料把卡片结果推到首屏之外 */
   box.innerHTML = `
     <div class="docs-block">
       <h2 class="docs-head">先看这几篇 <span class="docs-note">已经写好的成篇材料（下面才是零散卡片）</span></h2>
@@ -241,7 +274,12 @@ async function initData(){
   // https://craeatzeven.github.io —— **永远不可能连上**。
   // 照样去试的代价：白等 4 秒超时 + 控制台留下一串 CORS 报错，
   // 让"无 console 报错"这条验收闸门误判。**知道走不通就别去撞。**
-  const offline = (location.protocol === "file:");
+  /* 2026-09-18：**知道走不通就别去撞** 这条原来只覆盖 file://，
+     本地起 http.server 预览时照样去探测，被 CORS 拒 → console 两条报错，
+     让「无 console 报错」这条硬闸门在本地永远 FAIL（实测踩到）。
+     本地预览不是部署形态，同样不该去撞。 */
+  const offline = (location.protocol === "file:")
+    || /^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname);
   try{
     if(offline) throw new Error("file:// 下不探测后端（origin 为 null，CORS 必然拒绝）");
     const m = await api("/api/meta");
@@ -261,7 +299,21 @@ async function initData(){
 }
 
 async function run(){
-  $("results").innerHTML = `<p class="meta">检索中…</p>`;
+  /* E1：结果更新不是硬切 —— 先让旧结果淡出 150ms，再换骨架 */
+  const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const box = $("results");
+  if(!reduced && box.querySelector(".kb-row")){
+    box.style.opacity = "0";
+    await new Promise(r => setTimeout(r, 150));
+  }
+  /* 加载态用骨架屏（组件库 §13）：尺寸与真结果一致，否则加载完会跳版 */
+  box.innerHTML = Array.from({length: 5}).map(() => `
+    <div class="kb-row" style="border-bottom:1px solid var(--line);padding:14px 0">
+      <div class="c-skel c-skel--title"></div>
+      <div class="c-skel c-skel--line"></div>
+      <div class="c-skel c-skel--line is-short"></div>
+    </div>`).join("");
+  box.style.opacity = "1";
   let r;
   try{
     if(MODE === "api"){
@@ -293,20 +345,32 @@ async function run(){
   state.items = r.items || [];
   state.total = r.total || 0;
   state.pages = Math.max(1, Math.ceil(state.total / state.size));
-  $("stats").innerHTML = `
-    <div class="stat"><b>${state.total}</b><span>命中卡片</span></div>
-    <div class="stat"><b>${state.pages}</b><span>页数</span></div>
-    <div class="stat"><b>${r.mode || MODE}</b><span>检索模式</span></div>`;
-  $("results").innerHTML = state.items.length ? state.items.map(cardHtml).join("")
-    : `<p class="empty" style="display:block">没有匹配的卡片，换个词试试。</p>`;
+  /* 计数写成一行等宽小字（档案层 A6）——改版前是三个统计卡，
+     最显眼的位置放的是「检索模式 = filter」这种给开发者看的值；现已挪进技术说明。 */
+  $("countline").innerHTML = `<b id="totalNum">${lastTotal}</b> 条命中 · 第 ${state.page} / ${state.pages} 页`
+    + (state.q ? ` · 关键词「${KB.esc(state.q)}」` : "")
+    + ((state.source || state.topic || state.type) ? " · 已加筛选" : "");
+  $("apiState").textContent = (MODE === "api" ? "后端已连接" : "本地静态检索")
+    + ` · 检索模式 ${r.mode || MODE} · 命中 ${state.total} / 共 ${SDATA ? SDATA.index.length : 1386} 张卡`;
+  countUp($("totalNum"), lastTotal, state.total, 320);
+  lastTotal = state.total;
+  box.classList.add("kb-in");
+  setTimeout(()=>box.classList.remove("kb-in"), 400);
+  box.innerHTML = state.items.length ? state.items.map((c, i) => cardHtml(c, i)).join("")
+    : `<div class="c-state" style="display:block">
+         <span class="c-state__icon" aria-hidden="true">&#9744;</span>
+         <p class="c-state__title">这个组合下没有内容</p>
+         <p class="c-state__desc">不是页面坏了。把筛选去掉，或者换一个词再试。</p>
+         <div class="c-state__actions"><button class="c-btn c-btn--ghost" type="button" id="resetBtn"><span class="c-btn__label">清空筛选</span></button></div>
+       </div>`;
   try{
     if(DOCS === null) DOCS = await KB.loadDocs();
     renderDocs(state.q.toLowerCase().split(/\s+/).filter(Boolean));
   }catch(e){ /* 成篇材料取不到就不显示这一块，不影响卡片检索 */ }
   $("pager").innerHTML = `
-    <button class="chip" id="prevBtn" type="button" ${state.page<=1?"disabled":""}>← 上一页</button>
-    <span class="meta">第 ${state.page} / ${state.pages} 页</span>
-    <button class="chip" id="nextBtn" type="button" ${state.page>=state.pages?"disabled":""}>下一页 →</button>`;
+    <button class="c-pager__item" id="prevBtn" type="button" aria-label="上一页" ${state.page<=1?"disabled":""}>&#8592;</button>
+    <span class="kb-count" style="margin:0">第 ${state.page} / ${state.pages} 页</span>
+    <button class="c-pager__item" id="nextBtn" type="button" aria-label="下一页" ${state.page>=state.pages?"disabled":""}>&#8594;</button>`;
   const prev = $("prevBtn"), next = $("nextBtn");
   if(prev) prev.addEventListener("click", ()=>{ state.page = Math.max(1, state.page-1); run(); });
   if(next) next.addEventListener("click", ()=>{ state.page = Math.min(state.pages, state.page+1); run(); });
@@ -345,6 +409,26 @@ document.addEventListener("DOMContentLoaded", async ()=>{
       return;                                   // 参数已触发检索，不必再跑一次
     }
   }catch(e){}
+  /* 2026-09-18 改版接线：工具收进 ⋯ / 清空按钮 / data-filled（组件库那套由 kit.js 管，这里只抄了 CSS） */
+  const toolsBtn = $("toolsBtn"), toolsBox = $("tools");
+  if (toolsBtn && toolsBox) toolsBtn.addEventListener("click", ()=>{
+    const open = toolsBtn.getAttribute("aria-expanded") === "true";
+    toolsBtn.setAttribute("aria-expanded", open ? "false" : "true");
+    toolsBox.hidden = open;
+  });
+  const qBox = $("q"), qWrap = qBox.closest(".c-search");
+  const syncFilled = ()=>{ if (qWrap) qWrap.setAttribute("data-filled", qBox.value ? "true" : "false"); };
+  qBox.addEventListener("input", syncFilled); syncFilled();
+  const qc = $("qClear");
+  if (qc) qc.addEventListener("click", ()=>{ qBox.value = ""; syncFilled(); qBox.focus(); });
+  /* 空态里的「清空筛选」是动态插入的，用委托 */
+  document.addEventListener("click", (e)=>{
+    if (e.target.closest && e.target.closest("#resetBtn")){
+      qBox.value = ""; syncFilled();
+      ["fSource","fTopic","fType"].forEach(id=>{ const el = $(id); if (el) el.value = ""; });
+      $("searchBtn").click();
+    }
+  });
   $("randomBtn").addEventListener("click", async ()=>{
     try{
       if(MODE === "api"){ const c = await api("/api/random"); location.href = "card.html?id=" + encodeURIComponent(c.id) + "#" + c.id; }

@@ -1184,7 +1184,12 @@ footer p a { text-decoration: underline; text-decoration-color: currentColor; }
   @keyframes kb-fade { from { opacity: 0; } to { opacity: 1; } }
 
   /* E3 条目错峰（--i 由 JS 写在行上，最多前 8 条） */
-  #results .kb-row { animation: kb-rowin .2s ease-out both; animation-delay: calc(var(--i, 0) * 30ms); }
+  /* --i 由 JS 写在每个 .kb-row 的行内样式上（错峰序号）。
+   但它必须**在 CSS 里也有一个定义**：硬闸门「没有引用了但没定义的自定义属性」会在
+   **每个**加载 style.css 的页面上报它（首页没有 .kb-row，照样报）—— 实测踩到。
+   在容器上定默认值，靠继承传下去，行为不变且闸门干净。 */
+#results { --i: 0; }
+#results .kb-row { animation: kb-rowin .2s ease-out both; animation-delay: calc(var(--i) * 30ms); }
   @keyframes kb-rowin { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
 
   /* E6 hover：左侧浮出竖线（档案层允许的 hover 语言） */

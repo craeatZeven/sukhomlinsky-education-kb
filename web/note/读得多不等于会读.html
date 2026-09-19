@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="UTF-8" />
+<!-- 旁挂层页面在 web/note/ 下，而站内链接一律按 **web/ 为根**来写
+     （card.html / note/xxx.html / data/…）。用 <base> 统一基准，比给每个链接手加 ../ 可靠：
+     实测第一版没加，50 个 note 页的**每一个**站内链接都指向 web/note/xxx 而 404——
+     被 scripts/check_site_links.py 的可达性判据抓到（页面还在，但点不动）。 -->
+<base href="../" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>读得多，不等于会读 · 苏霍姆林斯基教育知识库</title>
+<meta name="description" content="读得多，不等于会读 编者的综合与分析，不是原文。每条判断挂卡号；卡里没有、由我把两张卡接起来的，标 编者推论 。 直角引号里是逐字引文、出处节写在引文后面，由 scripts/check_quote_fidelity。" />
+<meta name="robots" content="index,follow" />
+<link rel="canonical" href="https://craeatzeven.github.io/sukhomlinsky-education-kb/web/note/%E8%AF%BB%E5%BE%97%E5%A4%9A%E4%B8%8D%E7%AD%89%E4%BA%8E%E4%BC%9A%E8%AF%BB.html" />
+<link rel="icon" href="icon.svg" type="image/svg+xml" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="读得多，不等于会读 · 苏霍姆林斯基教育知识库" />
+<meta property="og:description" content="读得多，不等于会读 编者的综合与分析，不是原文。每条判断挂卡号；卡里没有、由我把两张卡接起来的，标 编者推论 。 直角引号里是逐字引文、出处节写在引文后面，由 scripts/check_quote_fidelity。" />
+<meta property="og:url" content="https://craeatzeven.github.io/sukhomlinsky-education-kb/web/note/%E8%AF%BB%E5%BE%97%E5%A4%9A%E4%B8%8D%E7%AD%89%E4%BA%8E%E4%BC%9A%E8%AF%BB.html" />
+<meta property="og:image" content="https://craeatzeven.github.io/sukhomlinsky-education-kb/web/og.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="https://craeatzeven.github.io/sukhomlinsky-education-kb/web/og.jpg" />
+<meta name="twitter:title" content="读得多，不等于会读 · 苏霍姆林斯基教育知识库" />
+<meta name="twitter:description" content="读得多，不等于会读 编者的综合与分析，不是原文。每条判断挂卡号；卡里没有、由我把两张卡接起来的，标 编者推论 。 直角引号里是逐字引文、出处节写在引文后面，由 scripts/check_quote_fidelity。" />
+<link rel="stylesheet" href="style.css?v=20260919v16" />
+</head><body class="reveal">
+<nav class="topnav">
+  <div class="inner">
+    <a class="brand" href="index.html">苏霍姆林斯基教育知识库</a>
+    <div class="nav-groups">
+      <div class="nav-group" data-group="find">
+        <button class="nav-group-btn" type="button" aria-expanded="false" aria-controls="navMenu-find">找材料</button>
+        <div class="nav-menu" id="navMenu-find">
+          <a class="nav-link" href="taxonomy.html"><span class="nav-menu-label">分类总图</span><span class="nav-menu-sub">主轴：这个库怎么分类 · 换一种切法</span></a>
+          <a class="nav-link" href="search.html"><span class="nav-menu-label">全库检索</span><span class="nav-menu-sub">按词找；先给成篇材料，再给卡片</span></a>
+          <a class="nav-link" href="reads.html"><span class="nav-menu-label">读本</span><span class="nav-menu-sub">12 篇长文 + 分析 / 对比 / 问答</span></a>
+        </div>
+      </div>
+      <div class="nav-group" data-group="source">
+        <button class="nav-group-btn" type="button" aria-expanded="false" aria-controls="navMenu-source">看来源</button>
+        <div class="nav-menu" id="navMenu-source">
+          <a class="nav-link" href="sources.html"><span class="nav-menu-label">书源与作品</span><span class="nav-menu-sub">13 个来源、OCR 状态与作品清单</span></a>
+          <a class="nav-link" href="coverage.html"><span class="nav-menu-label">覆盖报告</span><span class="nav-menu-sub">卡片量、来源分布与覆盖缺口</span></a>
+        </div>
+      </div>
+      <div class="nav-group" data-group="use">
+        <button class="nav-group-btn" type="button" aria-expanded="false" aria-controls="navMenu-use">用起来</button>
+        <div class="nav-menu" id="navMenu-use">
+          <a class="nav-link" href="guide.html"><span class="nav-menu-label">使用指南</span><span class="nav-menu-sub">5 分钟上手：三种用法、引用与导出</span></a>
+          <a class="nav-link" href="latest.html"><span class="nav-menu-label">最近更新</span><span class="nav-menu-sub">按编号倒序看最新补入的卡片</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+<main class="wrap layer-reading">
+<article class="note-body">
+<p class="meta">概念页（分析）</p>
+<h2>读得多，不等于会读</h2>
+<blockquote><p>编者的综合与分析，不是原文。每条判断挂卡号；卡里没有、由我把两张卡接起来的，标 <b>编者推论</b>。</p><p>直角引号里是逐字引文、出处节写在引文后面，由 <code>scripts/check_quote_fidelity.py</code> 回卡核对；</p><p>英文双引号里是强调或假设，不核。</p></blockquote>
+<h3>一、先给结论（三句能被反驳的话）</h3>
+<p>1. <b>“会阅读”在他那里不是速度，是敏感</b>：对词句的含义、美感与细微差别敏感（<a class="wikilink" href="card.html?id=sk-0054" title="会阅读，是对词句含义与美感保持敏感 · sk-0054">会阅读，是对词句含义与美感保持敏感</a>）。</p>
+<p>能流利朗读但不被词句打动的孩子，按这个定义<b>还不算会读</b>。</p>
+<p>2. <b>入门靠听，不靠发书</b>：孩子第一次读之前，应当先听老师或父母朗读（<a class="wikilink" href="card.html?id=sk-0055" title="孩子第一次读之前，先听老师和父母朗读 · sk-0055">孩子第一次读之前，先听老师和父母朗读</a>）。</p>
+<p>3. <b>书要少而精，读要反复</b>：一年级就建班级藏书库，里面第一部分的每一本都读了不下 10 遍</p>
+<p>（<a class="wikilink" href="card.html?id=sk-0056" title="建班级藏书库，让孩子反复读喜爱的书 · sk-0056">建班级藏书库，让孩子反复读喜爱的书</a>）；“思考室”只放 300 本世界杰作（<a class="wikilink" href="card.html?id=sk-0058" title="“思考室”只放三百本值得反复读的世界杰作 · sk-0058">“思考室”只放三百本值得反复读的世界杰作</a>）。 ——<b>他把“读得多”和“读得少”同时写进了方案，这不是矛盾，见 §五。</b></p>
+<h3>二、“会读”是一个很高的标准</h3>
+<blockquote><p>「会阅读是指对词句的含义、美感及其细微差别很敏感。」</p><p>（<a class="wikilink" href="card.html?id=sk-0054" title="会阅读，是对词句含义与美感保持敏感 · sk-0054">会阅读，是对词句含义与美感保持敏感</a> 原文）</p></blockquote>
+<blockquote><p>「只有当学生所读的词句在他的脑海中跃然纸上、栩栩如生，</p><p>并呈现出周围世界变幻无穷的色彩和旋律时，才算得上是在“阅读”。」</p><p>（<a class="wikilink" href="card.html?id=sk-0054" title="会阅读，是对词句含义与美感保持敏感 · sk-0054">会阅读，是对词句含义与美感保持敏感</a> 原文）</p></blockquote>
+<p><b>编者推论</b>：按这条标准，“识字量”“朗读流利度”“阅读速度”这些可测的指标 恰恰都不是他说的阅读。<b>这条给了阅读教育一个很尴尬的处境</b>—— 最容易考的东西，都不是他要的东西（这一点在 §七 展开）。</p>
+<h3>三、入门：先听，再读</h3>
+<blockquote><p>「在第一次阅读之前，孩子应当听一听老师和父母是如何朗读的，感受一下艺术形象的美。」</p><p>（<a class="wikilink" href="card.html?id=sk-0055" title="孩子第一次读之前，先听老师和父母朗读 · sk-0055">孩子第一次读之前，先听老师和父母朗读</a> 原文）</p></blockquote>
+<p>同一条还给了一条常被忽略的连接：</p>
+<blockquote><p>「如果孩子在阅读书籍之后体会不到其中词句的美，他也就看不出周围世界的美好。」</p><p>（<a class="wikilink" href="card.html?id=sk-0055" title="孩子第一次读之前，先听老师和父母朗读 · sk-0055">孩子第一次读之前，先听老师和父母朗读</a> 原文）</p></blockquote>
+<p><b>编者推论</b>：朗读在这里不是“陪读”，是<b>语感的输入通道</b>。 这解释了为什么他把自然观察和阅读放在同一段里说——两件事共用同一种能力： <b>感受到细微差别</b>。</p>
+<h3>四、书少而精，读要反复</h3>
+<blockquote><p>「在一年级的时候，我们就已经建立了一座儿童藏书库……藏书库第一部分里的每一本书，</p><p>我们都读了不下10遍，但对它们的钟爱并没有因为反复阅读而稍减。」</p><p>（<a class="wikilink" href="card.html?id=sk-0056" title="建班级藏书库，让孩子反复读喜爱的书 · sk-0056">建班级藏书库，让孩子反复读喜爱的书</a> 原文）</p></blockquote>
+<p>“思考室”把“少而精”做到极致：</p>
+<blockquote><p>「It only contains three hundred books—three hundred of the finest works of world literature,</p><p>to be read and reread!」</p><p>（<a class="wikilink" href="card.html?id=sk-0058" title="“思考室”只放三百本值得反复读的世界杰作 · sk-0058">“思考室”只放三百本值得反复读的世界杰作</a> 原文）</p><p>（它只放三百本书——三百部世界文学里最好的作品，供人一读再读！）</p></blockquote>
+<p>而阅读的<b>终点</b>不在书里，在孩子的独立上：</p>
+<blockquote><p>「自我教育和个人的精神生活是从读书开始的。」</p><p>（<a class="wikilink" href="card.html?id=sk-0057" title="自我教育与精神生活，从读书开始 · sk-0057">自我教育与精神生活，从读书开始</a> 原文）</p></blockquote>
+<blockquote><p>「要培养一个人做到精神独立，就必须把他领进书的世界。」</p><p>（<a class="wikilink" href="card.html?id=sk-0057" title="自我教育与精神生活，从读书开始 · sk-0057">自我教育与精神生活，从读书开始</a> 原文）</p></blockquote>
+<p><b>编者推论</b>：这三条是同一件事的三个阶段——<b>小书库（可选）→ 反复读（读深）→ 放手（独立）</b>。 它和 <a href="note/%E5%88%86%E6%95%B0%E5%88%B0%E5%BA%95%E8%AF%A5%E4%B8%8D%E8%AF%A5%E6%9C%89.html">分数到底该不该有</a> 的结构是一样的：工具先少而准，再交还给本人。</p>
+<h3>五、<b>不干净</b>的地方：他同时要求“少而精”和“大量读”</h3>
+<p>“两个教学大纲”是他最凝练的一个框架，也是“大量读”的依据：</p>
+<blockquote><p>「我在实际工作中经常想到两个教学大纲：第一个是必须学会并记住的材料，</p><p>第二个是课外阅读以及其他知识来源。」</p><p>（<a class="wikilink" href="card.html?id=sk-1253" title="“两个教学大纲”，发展学生的思维 · sk-1253">“两个教学大纲”，发展学生的思维</a> 原文）</p></blockquote>
+<blockquote><p>「需要记住的材料愈复杂，需要记牢的概括、结论和规则愈多，</p><p>学习过程中的“智力底子”就会愈厚实。」</p><p>（<a class="wikilink" href="card.html?id=sk-1253" title="“两个教学大纲”，发展学生的思维 · sk-1253">“两个教学大纲”，发展学生的思维</a> 原文）</p></blockquote>
+<p>而 <a class="wikilink" href="card.html?id=sk-1299" title="今日的小学生 · sk-1299">今日的小学生</a> 把“大量”落成了具体数字和设备：</p>
+<blockquote><p>「假如我授课的班级有30名学生，那我个人的藏书就会有300册，供学生阅读。」</p><p>（<a class="wikilink" href="card.html?id=sk-1299" title="今日的小学生 · sk-1299">今日的小学生</a> 原文）</p></blockquote>
+<p>他的第二条大纲还定了配套的纪律——<b>读，但不做作业</b>：</p>
+<blockquote><p>「不进行课外阅读，课堂阅读就会变为死记硬背。」</p><p>（<a class="wikilink" href="card.html?id=sk-0370" title="没有课外阅读，课堂阅读就会变成死记硬背 · sk-0370">没有课外阅读，课堂阅读就会变成死记硬背</a> 原文）</p></blockquote>
+<p><b>编者推论</b>（证据中等，标出来供反驳）：这两件事不矛盾，因为它们的对象不同—— <b>“少而精”管的是书单</b>（藏书库、思考室的那 300 本：反复读、读深）， <b>“大量读”管的是每天的输入</b>（配合当天的概念读的不要求记住的材料）。 分界可以落成一句问话：<b>这本书是拿来反复读的，还是拿来垫底的？</b> 拿错位置的后果很具体——把“垫底”的书变成必读并要求交摘抄， 就把第二条大纲做成了第一条大纲的延长线，而他的原话是“读后不做摘抄、只做交流”（<a class="wikilink" href="card.html?id=sk-1301" title="“应该劳动”、“劳动艰苦”和“劳动美好”三个因素的和谐统一 · sk-1301">“应该劳动”、“劳动艰苦”和“劳动美好”三个因素的和谐统一</a> 转述段）。 <b>这条区分是我接出来的。</b></p>
+<h3>六、主动证伪：我按什么找反例，找到了什么</h3>
+<p>反例长什么样（先写下来，再去捞）：<b>主张“读完要交摘抄 / 读后感 / 以阅读量考核 / 必须精读每一本”的卡</b>。用 7 个关键词全库捞（读书量、阅读量、必读书目、 摘抄、读后感、泛读、课外阅读），命中 29 张，逐条读了其中 10 张。</p>
+<p><b>“读后交作业”这一路没有正面卡</b>；反而是 <a class="wikilink" href="card.html?id=sk-1301" title="“应该劳动”、“劳动艰苦”和“劳动美好”三个因素的和谐统一 · sk-1301">“应该劳动”、“劳动艰苦”和“劳动美好”三个因素的和谐统一</a> 的转述段写着： “当天 10 页教科书配 20—40 页课外阅读，读后不做摘抄、只做交流，让艰苦落在思维上而不是落在形式上”。 <a class="wikilink" href="card.html?id=sk-1341" title="关于学生的智力生活 · sk-1341">关于学生的智力生活</a> 里他确实要求教师<b>编书单</b>（“你要编出供学生在中学时期应阅读的书籍清单”）， 但那是给教师准备的材料，不是给学生派的作业。</p>
+<p><b>但捞出了一条限制本页结论的证据</b>：他并不轻看“量”。 <a class="wikilink" href="card.html?id=sk-1253" title="“两个教学大纲”，发展学生的思维 · sk-1253">“两个教学大纲”，发展学生的思维</a>、<a class="wikilink" href="card.html?id=sk-1299" title="今日的小学生 · sk-1299">今日的小学生</a>、<a class="wikilink" href="card.html?id=sk-1341" title="关于学生的智力生活 · sk-1341">关于学生的智力生活</a> 都在讲怎么把阅读量做上去， <b>所以本页的结论要收窄</b>：他反对的是<b>把阅读变成可验收的任务</b>，不是反对多读。 <b>方法局限</b>：关键词法不是穷举；“没读到”不等于没有。</p>
+<h3>七、缺口与边界</h3>
+<ul><li><b>阅读教育最尴尬的一处</b>：他给的标准（敏感、被打动）几乎无法用考试测；</li></ul>
+<p>而可测的东西（速度、正确率、读完几本）恰恰是他不要的。本库没有回答“那怎么评价”。</p>
+<ul><li><b>书单有时代与文化背景</b>：他的 300 本是苏联语境下的世界文学清单，</li></ul>
+<p>可迁移的是<b>“少、反复读、成人大声朗读”这三条方法</b>，不是那批书目。</p>
+<ul><li><b>屏幕时代的问题不在库里</b>：本库把阅读的对手写成“死记硬背”和“学业负担”，</li></ul>
+<p>没有面对“孩子的时间被短视频拿走”这一局面；<a class="wikilink" href="card.html?id=sk-1299" title="今日的小学生 · sk-1299">今日的小学生</a> 转述段里“让书在孩子心里压过屏幕” 是编者写的话，不是他的原文。</p>
+<ul><li><b>与 <a href="note/%E6%8A%8A%E5%AD%A9%E5%AD%90%E5%B8%A6%E8%BF%9B%E5%A4%A7%E8%87%AA%E7%84%B6%E4%BB%96%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%8D%E4%BC%9A%E5%8F%98%E8%81%AA%E6%98%8E.html">把孩子带进大自然他为什么不会变聪明</a> 的接口</b>：他让“无意记忆”长在阅读上</li></ul>
+<p>（<a class="wikilink" href="card.html?id=sk-1096" title="爱惜并发展青少年的记忆力：建立有意记忆和无意记忆的合理比例 · sk-1096">爱惜并发展青少年的记忆力：建立有意记忆和无意记忆的合理比例</a>），把阅读当成理解与记住的底子——这条线在这里用了一次，值得单独成页。</p>
+<h3>附：这一页用了哪些卡</h3>
+<p>标准与入门：<a class="wikilink" href="card.html?id=sk-0054" title="会阅读，是对词句含义与美感保持敏感 · sk-0054">会阅读，是对词句含义与美感保持敏感</a> · <a class="wikilink" href="card.html?id=sk-0055" title="孩子第一次读之前，先听老师和父母朗读 · sk-0055">孩子第一次读之前，先听老师和父母朗读</a> 少而精与反复读：<a class="wikilink" href="card.html?id=sk-0056" title="建班级藏书库，让孩子反复读喜爱的书 · sk-0056">建班级藏书库，让孩子反复读喜爱的书</a> · <a class="wikilink" href="card.html?id=sk-0058" title="“思考室”只放三百本值得反复读的世界杰作 · sk-0058">“思考室”只放三百本值得反复读的世界杰作</a> · <a class="wikilink" href="card.html?id=sk-0057" title="自我教育与精神生活，从读书开始 · sk-0057">自我教育与精神生活，从读书开始</a> 大量读那一侧（两个大纲）：<a class="wikilink" href="card.html?id=sk-1253" title="“两个教学大纲”，发展学生的思维 · sk-1253">“两个教学大纲”，发展学生的思维</a> · <a class="wikilink" href="card.html?id=sk-1299" title="今日的小学生 · sk-1299">今日的小学生</a> · <a class="wikilink" href="card.html?id=sk-0370" title="没有课外阅读，课堂阅读就会变成死记硬背 · sk-0370">没有课外阅读，课堂阅读就会变成死记硬背</a> · <a class="wikilink" href="card.html?id=sk-1341" title="关于学生的智力生活 · sk-1341">关于学生的智力生活</a> · <a class="wikilink" href="card.html?id=sk-1301" title="“应该劳动”、“劳动艰苦”和“劳动美好”三个因素的和谐统一 · sk-1301">“应该劳动”、“劳动艰苦”和“劳动美好”三个因素的和谐统一</a></p>
+<blockquote><p>顺着往下读：条目页 <a href="entry.html?code=A13">A13 阅读与书籍</a> · 编辑专题 <a href="topic.html?slug=reading-and-books">阅读与书籍</a> ·</p><p>同题分析 <a href="note/%E6%8A%8A%E5%AD%A9%E5%AD%90%E5%B8%A6%E8%BF%9B%E5%A4%A7%E8%87%AA%E7%84%B6%E4%BB%96%E4%B8%BA%E4%BB%80%E4%B9%88%E4%B8%8D%E4%BC%9A%E5%8F%98%E8%81%AA%E6%98%8E.html">把孩子带进大自然他为什么不会变聪明</a> · <a href="note/%E5%88%86%E6%95%B0%E5%88%B0%E5%BA%95%E8%AF%A5%E4%B8%8D%E8%AF%A5%E6%9C%89.html">分数到底该不该有</a> ·</p><p>分面 <a href="facet.html?code=S6">S6 自然与季节</a> · 故事 <a href="facet.html?code=S8">S8 学校</a></p></blockquote>
+</article>
+<hr />
+<div class="note-actions">
+  <button class="chip chip--primary" id="copyCite" type="button">复制引用</button>
+  <span class="meta" id="copyState"></span>
+</div>
+<p class="section-sub">这一页是<b>旁挂层</b>（编者的综合与分析），不是卡片原文。
+回到 <a href="search.html">检索</a> · <a href="entries.html">分类条目</a> ·
+<a href="topics.html">专题长文</a> · <a href="sitemap.html">网站地图</a>；
+卡片引用一律<b>直接写出卡片标题</b>，点开就是那张卡——编号收在悬停提示里，回查时仍可用。</p>
+</main>
+<script src="theme.js?v=20260919v16"></script>
+<script>
+/* 分析页也要能"复制引用"——卡片页有这个按钮，而分析页恰恰是最可能被引用的一类页面。
+   引用串里带**类型与日期**（"编者分析"而不是"原文"），避免被当成原话引用；
+   这是这个库最在意的一件事：区分「他说的」与「编者的综合」。 */
+document.getElementById("copyCite").addEventListener("click", function () {
+  var t = document.querySelector(".note-body h1").textContent.trim();
+  var cite = t + "（编者分析） // 苏霍姆林斯基教育知识库 · " + location.href;
+  var done = function () { document.getElementById("copyState").textContent = "已复制引用串"; };
+  if (navigator.clipboard) navigator.clipboard.writeText(cite).then(done, done);
+  else { var a = document.createElement("textarea"); a.value = cite; document.body.appendChild(a);
+          a.select(); document.execCommand("copy"); a.remove(); done(); }
+});
+</script>
+<script src="scene.js?v=20260919v16"></script>
+</body></html>

@@ -23,7 +23,7 @@
 <meta name="twitter:image" content="https://craeatzeven.github.io/sukhomlinsky-education-kb/web/og.jpg" />
 <!-- social:end -->
 <link rel="icon" href="icon.svg" type="image/svg+xml" />
-<link rel="stylesheet" href="style.css?v=20260919v22" />
+<link rel="stylesheet" href="style.css?v=20260920v23" />
 </head>
 <body class="page-home">
 <div class="page-scene" aria-hidden="true">
@@ -75,7 +75,9 @@
     </div>
     <div class="searchbox">
       <input aria-label="搜索卡片" id="heroSearch" type="search" placeholder="搜索卡片：后进生、说谎、劳动教育、坐不住……" />
-      <button class="chip" id="heroSearchBtn" type="button">检索</button>
+      <button class="searchbox-go" id="heroSearchBtn" type="button" aria-label="检索" title="检索">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M15.4 15.4L21 21" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
     </div>
     <p class="cv-figure" id="coverFigure">1386 张卡片 · 541 篇做人的故事 · 13 书源 · 12 主题</p>
   </div>
@@ -216,8 +218,8 @@
   </div>
 </footer>
 
-<script src="kb.js?v=20260919v22"></script>
-<script src="theme.js?v=20260919v22"></script>
+<script src="kb.js?v=20260920v23"></script>
+<script src="theme.js?v=20260920v23"></script>
 <script>
 document.addEventListener("DOMContentLoaded", () => {
   /* 首页只加载 meta（约 9 KB）+ 一张随机卡片，不再拉整库数据。 */
@@ -247,6 +249,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 </script>
-<script src="scene.js?v=20260919v22"></script>
+<script src="scene.js?v=20260920v23"></script>
 </body>
 </html>

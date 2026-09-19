@@ -272,9 +272,34 @@ a.badge--see { color: var(--soft); border-style: dashed; }
 .more-excerpts .excerpt { margin-top: 8px; }
 
 /* Search & chips */
-.searchbox { max-width: 760px; margin: 26px auto 0; display: flex; gap: 10px; flex-wrap: wrap; }
-.searchbox input { flex: 1; min-width: 220px; border: 1px solid var(--line); background: var(--card); border-radius: 999px; padding: 12px 20px; font-size: 17px; outline: none; color: var(--ink); box-shadow: var(--shadow); }
-.searchbox input:focus { border-color: var(--accent); }
+/* 搜索框（2026-09-20 第二十三版）：模仿 DeepSeek 首屏输入框的**形制** ——
+   一个圆角容器把「输入区 + 圆形实心主按钮」装在一起，输入本身无边框。
+   配色不动：容器仍是本站的玻璃（纸色 + 橄榄细边），主按钮用 --cv-olive，图标用纸色。
+   为什么把玻璃从 input 挪到容器：input 是无边框的，玻璃若挂在它身上，
+   圆形按钮就会浮在玻璃外面；挂在容器上，两者才在同一块玻璃里。 */
+.searchbox { max-width: 760px; margin: 26px auto 0; display: flex; align-items: center;
+  gap: 8px; flex-wrap: wrap; padding: 7px 7px 7px 20px; border-radius: 20px;
+  background: var(--glass); background-image: var(--sheen);
+  border: 1px solid var(--glass-line);
+  -webkit-backdrop-filter: var(--glass-blur); backdrop-filter: var(--glass-blur);
+  box-shadow: var(--glass-shadow), inset 0 1px 0 var(--glass-line);
+  transition: border-color .18s ease, box-shadow .18s ease; }
+.searchbox:focus-within { border-color: var(--cv-gold);
+  box-shadow: var(--glass-shadow), inset 0 1px 0 var(--glass-line),
+    0 0 0 3px color-mix(in srgb, var(--cv-gold) 22%, transparent); }
+.searchbox input { flex: 1 1 220px; min-width: 0; border: 0; background: transparent;
+  box-shadow: none; border-radius: 0; padding: 13px 6px; font-size: 17px;
+  outline: none; color: var(--ink); }
+/* 圆形实心主按钮：DeepSeek 那个框里最认得出的一笔 */
+.searchbox-go { flex: 0 0 auto; width: 46px; height: 46px; border-radius: 50%; border: 0;
+  padding: 0; cursor: pointer; display: grid; place-items: center;
+  background: var(--cv-olive); color: #F2E9D6;
+  box-shadow: 0 4px 14px color-mix(in srgb, var(--cv-olive) 34%, transparent);
+  transition: background .18s ease, transform .18s ease; }
+.searchbox-go svg { width: 20px; height: 20px; display: block; }
+.searchbox-go:hover { background: color-mix(in srgb, var(--cv-olive) 86%, #000); transform: translateY(-1px); }
+.searchbox-go:focus-visible { outline: 2px solid var(--cv-gold); outline-offset: 3px; }
+@media (prefers-reduced-motion: reduce) { .searchbox-go { transition: none; } }
 .chips { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-top: 12px; }
 .chip {
   border: 1px solid var(--line); background: var(--card); color: var(--soft);
@@ -819,8 +844,9 @@ footer .foot-links a:hover { text-decoration-color: var(--accent); }
   .page-head { padding: 28px 0 12px; }
   .page-head h1 { font-size: 34px; }
   .card { padding: 16px; }
-  .searchbox { flex-direction: column; align-items: stretch; }
-  .searchbox input { width: 100%; }
+  .searchbox { padding: 6px 6px 6px 16px; border-radius: 18px; }
+  .searchbox input { flex: 1 1 100%; padding: 12px 4px 8px; }
+  .searchbox-go { width: 44px; height: 44px; }
   .stats { gap: 8px; }
   .stat { padding: 10px 12px; }
   .topnav .brand { font-size: 17px; }
@@ -1431,14 +1457,7 @@ body[data-theme="dark"] .scene-cluster img{ filter:invert(1) hue-rotate(180deg) 
 
 /* 搜索：方框 + 橄榄按钮 */
 .hero.cover .searchbox{ max-width:560px; margin:34px auto 0; }
-.hero.cover .searchbox input{ border-radius:0; border-color:var(--cv-olive);
-  background:var(--cv-field); box-shadow:none; }
-.hero.cover .searchbox input:focus{ border-color:var(--cv-gold); }
-.hero.cover .searchbox .chip{ border-radius:0; background:var(--cv-olive); border-color:var(--cv-olive);
-  color:#F2E9D6; padding:12px 22px; letter-spacing:.14em; }
-.hero.cover .searchbox .chip:hover,
-.hero.cover .searchbox .chip:focus-visible{ background:color-mix(in srgb, var(--cv-olive) 86%, #000);
-  border-color:var(--cv-olive); color:#F2E9D6; }
+/* 首屏搜索框的方角橄榄框已撤（第二十三版改成 DeepSeek 式圆角容器 + 圆形主按钮） */
 
 /* 数字不做强调，只留一行等宽小字（用户："AI 味很重且没有设计感"） */
 .cv-figure{ margin:26px 0 0; text-align:center; font-family:var(--mono); font-size:12px;
@@ -1538,12 +1557,7 @@ body[data-theme="dark"]{
   border-color:var(--glass-line);
   box-shadow:var(--glass-shadow), inset 0 1px 0 var(--glass-line);
 }
-.searchbox input{
-  background:var(--glass); background-image:var(--sheen);
-  -webkit-backdrop-filter:var(--glass-blur); backdrop-filter:var(--glass-blur);
-  border-color:var(--glass-line);
-  box-shadow:var(--glass-shadow), inset 0 1px 0 var(--glass-line);
-}
+/* 玻璃已挪到 .searchbox 容器（见文件上方第二十三版的说明），这里不再重复挂 input */
 
 /* 导航 = 磨砂深 chrome（深色也透，滚动时能看见底下的花在动） */
 /* 导航：磨砂但要够深。实测 62% 透明度时，深 chrome 合成到纸色上是 [118,119,106]，
@@ -1567,16 +1581,8 @@ body[data-theme="dark"]{
   -webkit-backdrop-filter:var(--glass-blur); backdrop-filter:var(--glass-blur);
 }
 
-/* 首屏搜索框：玻璃 + 保留新艺术的橄榄细边 */
-.hero.cover .searchbox input{
-  background:var(--glass); background-image:var(--sheen);
-  border-color:color-mix(in srgb, var(--cv-olive) 40%, transparent);
-  -webkit-backdrop-filter:var(--glass-blur); backdrop-filter:var(--glass-blur);
-  box-shadow:var(--glass-shadow), inset 0 1px 0 var(--glass-line);
-}
-.hero.cover .searchbox input:focus{
-  border-color:var(--cv-gold); background:var(--glass-2);
-}
+/* 首屏搜索框：玻璃在容器上（第二十三版），这里只留尺寸 */
+.hero.cover .searchbox{ max-width:560px; margin:34px auto 0; }
 
 /* 列表：整体一张玻璃板，行与行之间仍是 hairline（档案层的读法不丢） */
 .rows--plain{ border:1px solid var(--glass-line); padding:0 22px; }

@@ -74,6 +74,12 @@ def strip_md(s: str) -> str:
     """
     s = re.sub(r'\[\[([^\]|]+?)\|([^\]]+)\]\]', r'\2', s)
     s = re.sub(r'\[\[([^\]]+)\]\]', r'\1', s)
+    # 双链洗成裸编号后仍会漏进摘要（「…（参见 sk-0024）」）。用户 2026-09-19：
+    # 「我想把 SK- 换成具体的文字，这样更清楚」——摘要里没地方放卡片标题，就整段去掉：
+    # 这种括注是给编辑用的指针，不是给读者看的字。
+    s = re.sub(r'[（(]\s*(参见|详见|另见)?\s*sk-\d{4}[^）)]*[）)]', '', s)
+    s = re.sub(r'sk-\d{4}', '', s)
+    s = re.sub(r'\s+([，。；、])', r'\1', s)
     s = re.sub(r'\[([^\]]+)\]\([^)]*\)', r'\1', s)
     s = re.sub(r'[#>*`|]', ' ', s)
     s = re.sub(r'\s+', ' ', s)
@@ -207,7 +213,7 @@ CHROME = '''<!doctype html>
 <p class="section-sub">这一页是<b>旁挂层</b>（编者的综合与分析），不是卡片原文。
 回到 <a href="search.html">检索</a> · <a href="entries.html">分类条目</a> ·
 <a href="topics.html">专题长文</a> · <a href="sitemap.html">网站地图</a>；
-卡片一律以 <code>sk-XXXX</code> 链接可回查。</p>
+卡片引用一律<b>直接写出卡片标题</b>，点开就是那张卡——编号收在悬停提示里，回查时仍可用。</p>
 </main>
 <script src="theme.js?v={ver}"></script>
 <script>
@@ -449,8 +455,13 @@ def main() -> int:
             if re.fullmatch(r'sk-\d{4}', target):
                 if target in card_ids:
                     t = card_titles.get(target, '')
-                    tip = f' title="{esc(t)}"' if t else ''
-                    return f'<a class="wikilink" href="card.html?id={target}"{tip}>{esc(text)}</a>'
+                    # 用户 2026-09-19：「我想把 SK- 换成具体的文字，这样更清楚」。
+                    # `[[sk-1301]]` 没写别名（text 就是 id）时，链接文字用**卡片标题**；
+                    # 写了 `[[sk-1301|某某]]` 就尊重作者给的别名，不覆盖。
+                    # 编号不丢：放进 title 属性 —— 文字用来读，编号用来引用。
+                    shown = text if text != target else (t or target)
+                    tip = f' title="{esc(t + " · " + target) if t else target}"'
+                    return f'<a class="wikilink" href="card.html?id={target}"{tip}>{esc(shown)}</a>'
                 return esc(text)
             tgt = by_title.get(target)
             if tgt:

@@ -181,9 +181,9 @@ function renderCard(c, error){
     ${c.cn?`<div class="cn"><b>中文转述：</b>${KB.esc(c.cn)}</div>`:""}
     ${(c.usage||"").trim()?`<section class="card-usage">
        <h2 class="section-title">教育场景 / 应用</h2>
-       <p class="section-sub">这一条在什么时候用得上。里面出现的 <code>sk-XXXX</code> 可以点开——
-       它们是同一批卡片里互相印证的线索。</p>
-       <div class="usage-body">${KB.usageHTML(c.usage)}</div>
+       <p class="section-sub">这一条在什么时候用得上。里面引到的卡片直接写着它的标题，点开就是那张卡——
+       它们是同一批卡片里互相印证的线索（悬停可见卡片编号）。</p>
+       <div class="usage-body">${KB.usageHTML(c.usage, c.refs)}</div>
      </section>`:""}
     ${(tags.length || taxTags.length)?`<div style="margin-top:12px">${
       taxTags.join("")

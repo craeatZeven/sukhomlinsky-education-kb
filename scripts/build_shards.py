@@ -252,7 +252,7 @@ def card_index_entry(card: dict, tax: Taxonomy | None = None) -> dict:
 
 
 def card_full_entry(card: dict, prev_id=None, next_id=None, related=None,
-                    tax: Taxonomy | None = None) -> dict:
+                    tax: Taxonomy | None = None, titles: dict | None = None) -> dict:
     """单卡全文 + 详情页上下文（上/下一张、相关卡片），详情页因此不必再拉整库索引。"""
     entry = {
         'id': card['id'],
@@ -270,6 +270,10 @@ def card_full_entry(card: dict, prev_id=None, next_id=None, related=None,
         # 教育场景/应用：网站从前不渲染这一节（2026-09-16 补），
         # 而它是"这库怎么用"的答案所在，也是 350 处卡对卡引用的所在地。
         'usage': card.get('usage', ''),
+        # 卡对卡引用（`[[sk-XXXX]]`，全库 350 处，全在 usage 里）在详情页要显示成**卡片标题**，
+        # 不是编号 —— 用户 2026-09-19：「我想把 SK- 换成具体的文字，这样更清楚」。
+        # 只带这张卡真正引到的那几张（平均 2 条），按卡计算成本≈0；
+        # 若把全库映射塞进 meta.json 要多 6.8 KB gzip，而 meta 是每页首屏都要拉的。
         # 「关于本卡」溯源块用
         'created': card.get('created', ''),
         'updated': card.get('updated', ''),
@@ -279,6 +283,16 @@ def card_full_entry(card: dict, prev_id=None, next_id=None, related=None,
     }
     if tax is not None:
         entry.update(tax.card_fields(card['id']))
+    # 卡对卡引用（`[[sk-XXXX]]`，全库 350 处，全在 usage 里）在详情页要显示成**卡片标题**，
+    # 不是编号 —— 用户 2026-09-19：「我想把 SK- 换成具体的文字，这样更清楚」。
+    # 只带这张卡真正引到的那几张（平均 2 条），按卡计算成本≈0；
+    # 若把全库映射塞进 meta.json 要多 6.8 KB gzip，而 meta 是每页首屏都要拉的。
+    # **空的不写**：否则 1386 个卡文件会各多一个 `"refs":{}`，纯噪音。
+    if titles:
+        _r = {i: titles[i] for i in re.findall(r'\[\[(sk-\d{4})\]\]', card.get('usage', '') or '')
+              if i in titles}
+        if _r:
+            entry['refs'] = _r
     return entry
 
 
@@ -649,6 +663,7 @@ def main() -> None:
     for old in cards_dir.glob('*.json'):
         old.unlink()
     related_map = build_related(cards, tax)
+    title_by_id = {c['id']: c.get('title', '') for c in cards}   # 卡对卡引用要显示成标题
     card_bytes = 0
     card_gz = 0
     for i, card in enumerate(cards):
@@ -656,7 +671,7 @@ def main() -> None:
         next_id = cards[i + 1]['id'] if i < len(cards) - 1 else None
         path = cards_dir / f"{card['id']}.json"
         card_bytes += dump(path, card_full_entry(card, prev_id, next_id,
-                                                 related_map.get(card['id']), tax))
+                                                 related_map.get(card['id']), tax, title_by_id))
         card_gz += gz_len(path)
     report.append((f'data/cards/<id>.json x{len(cards)}', card_bytes, card_gz))
 

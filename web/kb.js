@@ -258,7 +258,12 @@
       var a = pos < 0 ? 0 : Math.max(0, pos - 34);
       var s = text.slice(a, a + 130);
       /* 片段是从中间切的，可能把 [[sk-0026]] 切成半截 —— 半截标记比没有标记更难看 */
-      return s.replace(/\[\[[^\]]*$/, "").replace(/^[^\[]*\]\]/, "");
+      s = s.replace(/\[\[[^\]]*$/, "").replace(/^[^\[]*\]\]/, "");
+      /* 2026-09-19：整段的引用标记也别漏出来。「（参见 [[sk-0024]]）」是给编辑看的指针，
+         不是给读者看的字 —— 用户就是要「把 SK- 换成具体的文字」，片段里没地方放标题，就整段去掉。 */
+      return s.replace(/[（(]\s*(参见|详见)?\s*\[\[sk-\d{4}\]\][^）)]*[）)]/g, "")
+              .replace(/\[\[sk-\d{4}\]\]/g, "")
+              .replace(/\s+([，。；、])/g, "$1");
     },
 
     loadIds: function () {
@@ -449,9 +454,16 @@
     /* 卡片之间的引用在 Markdown 里写成 `[[sk-XXXX]]`（Obsidian 双链，2026-09-16 起）。
        网站这一端必须认它——否则页面上会直接显示方括号。
        顺序要紧：**先转义再替换**，模式本身只有 [ ] 和数字字母，不会被转义影响。 */
-    linkify: function (text) {
+    linkify: function (text, refs) {
       return KB.esc(text || "").replace(/\[\[(sk-\d{4})\]\]/g, function (_m, id) {
-        return '<a class="wikilink" href="card.html?id=' + encodeURIComponent(id) + '">' + id + '</a>';
+        /* 用户 2026-09-19：「我想把 SK- 换成具体的文字，这样更清楚」。
+           编号对读者没有信息量，卡片标题有。标题由构建期算好、按卡带过来（card.refs），
+           没带就退回编号 —— 宁可显示编号，也不要显示空白。
+           完整标题与编号一起放进 title 属性：文字用来读，编号用来引用。 */
+        var name = (refs && refs[id]) || "";
+        var tip = name ? ' title="' + KB.esc(name + " · " + id) + '"' : '';
+        return '<a class="wikilink" href="card.html?id=' + encodeURIComponent(id) + '"' + tip + '>' +
+               KB.esc(name || id) + '</a>';
       })
       /* 2026-09-19：**加粗** 也要认。专题长文的正文里到处是 **判断**：…
          只做双链不做加粗时，页面上会露出字面的 ** （用户截图报的就是这个）。 */
@@ -470,17 +482,17 @@
 
     /* 教育场景/应用：卡里有的写成散文、有的写成 `- ` 列表，按首行判断后分别渲染。
        逐行转义 + linkify，不整段塞进 innerHTML 的原始文本。 */
-    usageHTML: function (text) {
+    usageHTML: function (text, refs) {
       var lines = String(text || "").split("\n").map(function (l) { return l.trim(); })
         .filter(function (l) { return l; });
       if (!lines.length) return "";
       var isList = lines.every(function (l) { return /^[-*]\s+/.test(l); });
       if (isList) {
         return "<ul>" + lines.map(function (l) {
-          return "<li>" + KB.linkify(l.replace(/^[-*]\s+/, "")) + "</li>";
+          return "<li>" + KB.linkify(l.replace(/^[-*]\s+/, ""), refs) + "</li>";
         }).join("") + "</ul>";
       }
-      return lines.map(function (l) { return "<p>" + KB.linkify(l) + "</p>"; }).join("");
+      return lines.map(function (l) { return "<p>" + KB.linkify(l, refs) + "</p>"; }).join("");
     },
 
     /* 索引条目 + 全文语料 → 可检索文本（小写）

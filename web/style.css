@@ -661,7 +661,8 @@ button.mx-cell:hover { box-shadow: 0 0 0 2px var(--accent); }
 .usage-body li::marker { color: var(--accent); }
 /* 卡对卡双链（[[sk-XXXX]]）在网站上的样子：等宽小字 + 虚下划线，与普通链接区分 */
 .wikilink { font-family: var(--mono); font-size: 12.5px; color: var(--accent-ink);
-  text-decoration: none; border-bottom: 1px solid color-mix(in srgb, var(--accent) 45%, transparent); }
+  text-decoration: none; border-bottom: 1px solid color-mix(in srgb, var(--accent) 45%, transparent);
+  white-space: nowrap; }   /* 2026-09-19：编号会断成 "sk-" / "0024" 两行，很难看 */
 .wikilink:hover { border-bottom-color: var(--accent); }
 
 /* 没有逐字原文的卡：编者概括要**一眼看出不是引文**——

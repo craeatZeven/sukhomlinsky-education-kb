@@ -105,13 +105,16 @@ async function render(){
     return;
   }
   document.getElementById("topicTitle").textContent = topic.title;
-  document.getElementById("topicSummary").textContent = topic.summary || "";
-  document.title = topic.title + " · 苏霍姆林斯基教育知识库";
+  /* 2026-09-19：这里原来对正文用 KB.esc()，于是专题长文里的 **判断** 和 [[sk-0026]]
+     原样显示在页面上（用户截图报的）。改成 KB.linkify()：双链变链接、**加粗**变 <strong>。
+     纯文本的地方（标题/摘要/文档标题）走 KB.plain()，把记号洗掉。 */
+  document.getElementById("topicSummary").textContent = KB.plain(topic.summary || "");
+  document.title = KB.plain(topic.title) + " · 苏霍姆林斯基教育知识库";
   document.getElementById("topicBody").innerHTML = `
-    <p><b>别名：</b>${KB.esc(topic.aliases || "无")}</p>
-    <h3>核心判断</h3><ul>${(topic.core||[]).map(x=>`<li>${KB.esc(x)}</li>`).join("")}</ul>
-    <h3>可操作方法</h3><ul>${(topic.methods||[]).map(x=>`<li>${KB.esc(x)}</li>`).join("")}</ul>
-    <h3>跨书综合</h3><p>${KB.esc(topic.cross || "")}</p>`;
+    <p><b>别名：</b>${KB.plain(topic.aliases || "无")}</p>
+    <h3>核心判断</h3><ul>${(topic.core||[]).map(x=>`<li>${KB.linkify(x)}</li>`).join("")}</ul>
+    <h3>可操作方法</h3><ul>${(topic.methods||[]).map(x=>`<li>${KB.linkify(x)}</li>`).join("")}</ul>
+    <h3>跨书综合</h3><p>${KB.linkify(topic.cross || "")}</p>`;
 
   document.getElementById("cardList").innerHTML = `<p class="section-sub">正在加载该主题卡片…</p>`;
   const list = await KB.loadTopicIndex(slug);

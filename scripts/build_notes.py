@@ -98,6 +98,26 @@ def reflow(lines: list[str]) -> list[str]:
     return out
 
 
+def balance_bold(buf: list[str]) -> list[str]:
+    """引文块（blockquote）是**逐行**成一个 <p> 的，所以跨行的 **加粗** 配不上对 ——
+    成品里就留下字面的 **（实测概念页 2 处：中英文各一）。
+
+    这里按"行尾闭合、下一行行首重开"处理：加粗照样生效，又**不改变每行一个 <p> 的结构**
+    （直接把几行并成一段会吃掉原本的换行，那是另一种错）。
+    """
+    out, open_ = [], False
+    for x in buf:
+        if open_:
+            x = '**' + x
+        if x.count('**') % 2:
+            x = x + '**'
+            open_ = True
+        else:
+            open_ = False
+        out.append(x)
+    return out
+
+
 def render(md: str, resolve) -> str:
     out: list[str] = []
     lines = reflow(md.splitlines())
@@ -125,7 +145,8 @@ def render(md: str, resolve) -> str:
             while i < len(lines) and lines[i].strip().startswith('>'):
                 buf.append(lines[i].strip().lstrip('>').strip())
                 i += 1
-            out.append('<blockquote>' + ''.join(f'<p>{inline(x, resolve)}</p>' for x in buf if x) + '</blockquote>')
+            out.append('<blockquote>' + ''.join(f'<p>{inline(x, resolve)}</p>'
+                                                   for x in balance_bold([b for b in buf if b])) + '</blockquote>')
             continue
         if re.match(r'^[-*]\s+', s):
             buf = []
@@ -199,6 +220,7 @@ document.getElementById("copyCite").addEventListener("click", function () {{
           a.select(); document.execCommand("copy"); a.remove(); done(); }}
 }});
 </script>
+<script src="scene.js?v={ver}"></script>
 </body></html>
 '''
 
@@ -246,6 +268,8 @@ SITEMAP_HEAD = '''<!doctype html>
   </section>
 </main>
 <script src="theme.js?v={ver}"></script>
+<script src="scene.js?v={ver}"></script>
+<script src="scene.js?v={ver}"></script>
 </body></html>
 '''
 
@@ -351,6 +375,8 @@ HUB = '''<!doctype html>
 </div></footer>
 <script src="kb.js?v={ver}"></script>
 <script src="theme.js?v={ver}"></script>
+<script src="scene.js?v={ver}"></script>
+<script src="scene.js?v={ver}"></script>
 </body></html>
 '''
 
@@ -533,7 +559,12 @@ def main() -> int:
           f'分面 {sum(1 for c in corpus if c["kind"] == "facet")}）')
     print(f'  体积：{(DATA / "docs.json").stat().st_size / 1024:.0f} KB')
 
-    # ── 把 note 页补进 sitemap.xml ─────────────────────────────────────
+    # ── 注意（2026-09-19 巡检抓到）：本脚本**生成**的页面（note/ · reads.html · sitemap.html）
+#    必须把 <script src="scene.js"> 写进模板。当时我改输出文件加上了藤蔓花瓣，
+#    下一轮 build 一跑就全没了 —— 全站巡检（_sweep21.py）报 scene=False 才发现。
+#    **生成出来的页面，要修生成器，不是修输出。**
+#
+# ── 把 note 页补进 sitemap.xml ─────────────────────────────────────
     # 为什么在这里补：`validate_all` 的顺序是 build_site → build_shards → rebuild_nav → build_notes，
     # 而 build_site 生成 sitemap.xml 时，本轮 note 页**还没生成**（只有上一轮的）。
     # 放在这里补，保证**同一轮**就收录，不依赖"多跑一次收敛"。
@@ -552,6 +583,23 @@ def main() -> int:
         if added:
             sm_path.write_text(sm, encoding='utf-8', newline='\n')
         print(f'  sitemap.xml 新增 note 页 {added} 条')
+
+    # ── 判据：成品里不许残留 [[ 或 ** ────────────────────────────────
+    # 文件的说明里从第一版就写着"由判据兜底：残留即渲染失败"，**但这条判据一直没实现**
+    # （2026-09-19 全仓库搜 assert/残留 都没有）。于是跨行加粗那 2 处在概念页里活了很久。
+    # 现在把它真的写出来。注释 / script / style / code / pre 里允许有记号，先剥掉再查。
+    def residue(html: str) -> int:
+        t = re.sub(r'<!--.*?-->', '', html, flags=re.S)
+        t = re.sub(r'<(script|style|code|pre)\b.*?</\1>', '', t, flags=re.S | re.I)
+        t = re.sub(r'<[^>]+>', '', t)
+        return t.count('**') + t.count('[[')
+
+    targets = [WEB / 'note' / f'{d["slug"]}.html' for d in made] + [WEB / 'reads.html', WEB / 'sitemap.html']
+    bad = [(p.name, n) for p in targets if p.exists() and (n := residue(p.read_text(encoding='utf-8')))]
+    if bad:
+        print('✗ 成品里残留 Markdown 记号（[[ 或 **）：' + ' · '.join(f'{n}×{c}' for n, c in bad))
+        return 1
+    print('✓ 残留判据：成品里没有 [[ 或 **')
     return 0
 
 

@@ -255,8 +255,10 @@
         var i = low.indexOf(t);
         if (i >= 0 && (pos < 0 || i < pos)) pos = i;
       });
-      if (pos < 0) return text.slice(0, 130);
-      return text.slice(Math.max(0, pos - 34), Math.max(0, pos - 34) + 130);
+      var a = pos < 0 ? 0 : Math.max(0, pos - 34);
+      var s = text.slice(a, a + 130);
+      /* 片段是从中间切的，可能把 [[sk-0026]] 切成半截 —— 半截标记比没有标记更难看 */
+      return s.replace(/\[\[[^\]]*$/, "").replace(/^[^\[]*\]\]/, "");
     },
 
     loadIds: function () {
@@ -450,7 +452,20 @@
     linkify: function (text) {
       return KB.esc(text || "").replace(/\[\[(sk-\d{4})\]\]/g, function (_m, id) {
         return '<a class="wikilink" href="card.html?id=' + encodeURIComponent(id) + '">' + id + '</a>';
-      });
+      })
+      /* 2026-09-19：**加粗** 也要认。专题长文的正文里到处是 **判断**：…
+         只做双链不做加粗时，页面上会露出字面的 ** （用户截图报的就是这个）。 */
+      .replace(/\*\*([\s\S]+?)\*\*/g, '<strong>$1</strong>');
+    },
+
+    /* 纯文本场景（textContent / 属性）用：把记号洗掉。
+       别让 [[sk-0026]] 和 ** 出现在标题、摘要、meta 描述这类只能放纯文本的地方。 */
+    plain: function (text) {
+      return String(text == null ? "" : text)
+        .replace(/\[\[([^\]|]+?)\|([^\]]+)\]\]/g, "$2")
+        .replace(/\[\[(sk-\d{4})\]\]/g, "$1")
+        .replace(/\[\[([^\]]+)\]\]/g, "$1")
+        .replace(/\*\*/g, "");
     },
 
     /* 教育场景/应用：卡里有的写成散文、有的写成 `- ` 列表，按首行判断后分别渲染。

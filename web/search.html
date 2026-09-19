@@ -252,7 +252,7 @@ function renderDocs(terms){
         <a class="doc-row" href="${KB.esc(d.link)}">
           <span class="doc-kind">${KB.esc(docKindLabel(d))}</span>
           <span class="doc-title">${KB.esc(d.title)}</span>
-          <span class="doc-snip">${KB.esc(KB.docSnippet(d, terms))}…</span>
+          <span class="doc-snip">${KB.linkify(KB.docSnippet(d, terms))}…</span>
           <span class="doc-refs">${(d.refs||[]).length} 处卡引用</span>
         </a>`).join("")}
       ${scored.length > top.length ? `<p class="docs-more">另有 ${scored.length - top.length} 篇也提到这个词（换更专门的词能收敛）。</p>` : ""}

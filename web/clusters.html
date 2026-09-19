@@ -23,7 +23,7 @@
 <meta name="twitter:image" content="https://craeatzeven.github.io/sukhomlinsky-education-kb/web/og.jpg" />
 <!-- social:end -->
 <link rel="icon" href="icon.svg" type="image/svg+xml" />
-<link rel="stylesheet" href="style.css?v=20260920v24" />
+<link rel="stylesheet" href="style.css?v=20260920v25" />
 </head>
 <body>
 <nav class="topnav">
@@ -100,7 +100,7 @@
       </div>
     </div>
     <div id="relCardsWrap" style="display:none">
-      <h3 class="rel-cards-title" id="relCardsTitle"></h3>
+      <h3 class="rel-cards-title" id="relCardsTitle">关系卡</h3>
       <div class="rows" id="relCards"></div>
     </div>
   </section>
@@ -152,8 +152,8 @@
   </div>
 </footer>
 
-<script src="theme.js?v=20260920v24"></script>
-<script src="kb.js?v=20260920v24"></script>
+<script src="theme.js?v=20260920v25"></script>
+<script src="kb.js?v=20260920v25"></script>
 <script>
 (function () {
   var esc = function (s) { return KB.esc(s); };
@@ -167,8 +167,12 @@
         var wP = maxP ? (e.primary / maxP * 100) : 0;
         var wC = maxP ? (Math.min(e["in"], maxP) / maxP * 100) : 0;
         return '<div class="map-row">' +
-          '<a class="map-code" href="entry.html?code=' + encodeURIComponent(e.code) + '">' + esc(e.code) + '</a>' +
-          '<a class="map-name" href="entry.html?code=' + encodeURIComponent(e.code) + '">' + esc(e.name) + '</a>' +
+          /* 2026-09-20：合成**一行一个链接**。原来 code 与 name 是两个 <a> 指向同一目标，
+             于是 20 个条目产生 40 个 <40px 的触控目标（反模板 AP-A11Y-01 实测 40 个）。 */
+          '<a class="map-entry" href="entry.html?code=' + encodeURIComponent(e.code) + '">' +
+            '<span class="map-code">' + esc(e.code) + '</span>' +
+            '<span class="map-name">' + esc(e.name) + '</span>' +
+          '</a>' +
           '<div class="map-bars" title="主归属 ' + e.primary + ' 张 · 被参见 ' + e["in"] + ' 次">' +
             '<span class="bar bar-primary" style="width:' + wP.toFixed(2) + '%"></span>' +
             '<span class="bar bar-cross" style="width:' + wC.toFixed(2) + '%"></span>' +
@@ -190,8 +194,10 @@
     var tags = (map.tag_entries || []).map(function (t) {
       var w = maxP ? (t.count / maxP * 100) : 0;
       return '<div class="map-row map-row-tag">' +
-        '<a class="map-code" href="entry.html?code=' + encodeURIComponent(t.code) + '">' + esc(t.code) + '</a>' +
-        '<a class="map-name" href="entry.html?code=' + encodeURIComponent(t.code) + '">' + esc(t.name) + '</a>' +
+        '<a class="map-entry" href="entry.html?code=' + encodeURIComponent(t.code) + '">' +
+          '<span class="map-code">' + esc(t.code) + '</span>' +
+          '<span class="map-name">' + esc(t.name) + '</span>' +
+        '</a>' +
         '<div class="map-bars" title="带此标记 ' + t.count + ' 张">' +
         '<span class="bar bar-tag" style="width:' + w.toFixed(2) + '%"></span></div>' +
         '<span class="map-num"><b>' + t.count + '</b><i>带此标记</i></span>' +
@@ -450,6 +456,6 @@
   });
 })();
 </script>
-<script src="scene.js?v=20260920v24"></script>
+<script src="scene.js?v=20260920v25"></script>
 </body>
 </html>

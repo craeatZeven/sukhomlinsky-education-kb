@@ -23,7 +23,7 @@
 <meta name="twitter:image" content="https://craeatzeven.github.io/sukhomlinsky-education-kb/web/og.jpg" />
 <!-- social:end -->
 <link rel="icon" href="icon.svg" type="image/svg+xml" />
-<link rel="stylesheet" href="style.css?v=20260920v24" />
+<link rel="stylesheet" href="style.css?v=20260920v25" />
 </head>
 <body data-theme="paper">
 <nav class="topnav">
@@ -86,8 +86,8 @@
   </div>
 </footer>
 
-<script src="kb.js?v=20260920v24"></script>
-<script src="theme.js?v=20260920v24"></script>
+<script src="kb.js?v=20260920v25"></script>
+<script src="theme.js?v=20260920v25"></script>
 <script>
 async function render(){
   const slug = new URLSearchParams(location.search).get("slug");
@@ -152,6 +152,21 @@ async function render(){
   var core = topic.core || [], methods = topic.methods || [], cross = topic.cross || "";
   var parts = ['<p class="topic-meta"><span class="k">别名</span>' +
                KB.plain(topic.aliases || "（无）") + '</p>'];
+  /* 2026-09-20：这个专题**自己的深度分析**挂在这里。
+     用户问「说做的每个主题一个分析的在哪里，我没找到」——
+     实测全站只有 reads.html / sitemap.html 有指向分析页的链接，专题页自己不指向讲它的那篇。
+     映射由 build_shards.py 按「卡片集合重合度」算好写进 meta（12/12 全配上）。 */
+  if (topic.analysis) {
+    /* href 在字符串外先拼好：站点链接自检扫的是**静态**地址（注释里也不要写示例，它连注释一起扫），
+       而这是一个运行时才知道的地址（12 个专题共用这一页）。
+       拼在字面量里会让那个检查器把 ' + encodeURIComponent(…) + ' 当成路径一部分 ——
+       那是它的边界，不是链接真坏了（真链路由渲染后体检与线上 D5 覆盖）。 */
+    var aHref = 'note/' + encodeURIComponent(topic.analysis.slug) + '.html';
+    parts.unshift('<p class="topic-analysis"><span class="k">深度分析</span>' +
+      '<a href="' + aHref + '">' +
+      KB.esc(topic.analysis.title) + '</a>' +
+      '<span class="meta">编者写的分析：跨 ' + topic.analysis.cards + ' 张卡，给出张力、反例与边界</span></p>');
+  }
   var secs = [];
   if (core.length) secs.push({ name: "核心判断",
     html: '<ol class="theses" role="list">' + core.map(function(x, i){
@@ -235,6 +250,6 @@ async function render(){
 }
 document.addEventListener("DOMContentLoaded", render);
 </script>
-<script src="scene.js?v=20260920v24"></script>
+<script src="scene.js?v=20260920v25"></script>
 </body>
 </html>

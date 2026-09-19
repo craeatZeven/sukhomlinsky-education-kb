@@ -398,6 +398,33 @@ def main() -> None:
     for topic in topics:
         topic['cards'] = topic_counts.get(topic['slug'], 0)
 
+    # 每个专题指向它的**深度分析页**（2026-09-20 加）
+    # 起因：用户问「说做的每个主题一个分析的在哪里，我没找到」。实测全站只有 reads.html 与
+    # sitemap.html 有指向 note 页的链接 —— **专题页自己不指向讲它的那篇分析**，首页也没有入口。
+    # 判据用**卡片集合的重合度**，不用标题字面相似：分析页的标题是问句形式（「读得多，不等于会读」），
+    # 按字面匹配专题名必然对不上。
+    _analyses = []
+    for _d in (ROOT / 'wiki' / 'concepts', ROOT / 'wiki' / 'comparisons'):
+        for _p in sorted(_d.glob('*.md')):
+            _t = _p.read_text(encoding='utf-8')
+            _m = re.search(r'^sources:\n((?:\s+-\s+sk-\d+\n)+)', _t, re.M)
+            _tm = re.search(r'^title:\s*(.+)$', _t, re.M)
+            _src = set(re.findall(r'sk-\d{4}', _m.group(1))) if _m else set()
+            _analyses.append((_p.stem, (_tm.group(1).strip().strip('"') if _tm else _p.stem), _src))
+    _cards_of: dict[str, set] = {}
+    for _c in cards:
+        for _s in _c.get('topics', []):
+            _cards_of.setdefault(_s, set()).add(_c['id'])
+    for topic in topics:
+        _pool = _cards_of.get(topic['slug'], set())
+        _best, _bestn = None, 0
+        for _slug, _title, _src in _analyses:
+            _n = len(_src & _pool)
+            if _n > _bestn:
+                _best, _bestn = (_slug, _title), _n
+        if _best and _bestn >= 5:
+            topic['analysis'] = {'slug': _best[0], 'title': _best[1], 'cards': _bestn}
+
     # 专题正文里只有 [[sk-XXXX]] 这种 marker，前端显示出来就是「（参见 sk-0026）」——
     # 读者**没法直接对上是哪一张卡**（用户 2026-09-19 反馈）。把被引卡的标题一并带进 meta，
     # 前端才能把引用做成「依据 · <卡片标题>」。只带该专题真正引到的（每篇 5–8 张）。

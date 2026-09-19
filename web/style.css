@@ -99,6 +99,29 @@ input, button, select, textarea { font-family: inherit; }
 h2 { font-size: 26px; line-height: 1.35; }
 h3 { font-size: 21px; line-height: 1.4; }
 a { color: inherit; text-decoration: underline; text-decoration-color: var(--accent); text-underline-offset: 3px; text-decoration-thickness: 1px; }
+
+/* 正文里的链接：**不要下划线**（2026-09-20 用户：「链接换个表现形式，不要下划线」）。
+   改用什么来区分？—— axe 的 link-in-text-block 要求正文里的链接必须有「颜色之外」的区分，
+   否则闸门会拦。所以不是简单删掉下划线，而是把那个区分换成**淡色底衬**：
+   底衬比下划线安静，仍然一眼看得出可点，而且不打断中文字的腰线。
+   只作用于正文块（p / li / blockquote / 表格单元格），导航、页脚、按钮各有各的形制，不受影响。 */
+:is(p, li, blockquote, dd, td) a { text-decoration: none; border-radius: 4px;
+  /* 三种口径都试过（分析页一屏有十条行内引用，形态要轻）：
+     ① 只加 8% 底衬 → axe 报 SERIOUS（它不认底衬）
+     ② 细边小药丸 → 闸门过了，但一屏十个方框像表单，太吵
+     ③ **加粗 + 6% 底衬** → 现在这版：区分落在字重上，最轻，且过闸门 */
+  font-weight: 600;
+  background: color-mix(in srgb, var(--accent) 6%, transparent);
+  padding: 0 3px; margin: 0 -1px;
+  transition: background .15s ease, color .15s ease; }
+:is(p, li, blockquote, dd, td) a:hover { background: color-mix(in srgb, var(--accent) 15%, transparent);
+  color: var(--accent-ink); }
+/* 底衬上不要再叠 .wikilink 原来的那条下边线（否则等于换个样子的下划线） */
+:is(p, li, blockquote, dd, td) a.wikilink { border-bottom: 0; }
+/* 「依据」行是一串卡片标题（一条依据挂 2~3 个），给它底衬与内边距会**变成一排按钮** ——
+   反模板 AP-HERO-01 立刻把它读成「6 个同尺寸并列按钮」（实测）。
+   那一行只保留字重差异，不加底衬、不加内边距：可辨识，但不是控件。 */
+.refs a, .refs .ref { background: none; padding: 0; margin: 0; font-weight: 600; }
 a:hover { color: var(--accent); text-decoration-color: var(--accent); }
 .wrap { max-width: 1180px; margin: 0 auto; padding: 0 22px; }
 
@@ -371,9 +394,17 @@ a.badge--see { color: var(--soft); border-style: dashed; }
 .map-layer-n { margin-left: auto; color: var(--soft); font-size: 13px; font-variant-numeric: tabular-nums; }
 .map-layer-tag { border-top-style: dashed; }
 
-.map-row { display: grid; grid-template-columns: 42px minmax(96px, 168px) 1fr auto; align-items: center; gap: 10px; padding: 3px 0; }
+.map-row { display: grid; grid-template-columns: minmax(150px, 210px) 1fr auto; align-items: center; gap: 10px; padding: 2px 0; }
+/* 2026-09-20：原来 .map-code 与 .map-name 是**两个链接指向同一个目标**，
+   于是 20 个条目产生 40 个 <40px 的触控目标（反模板 AP-A11Y-01 实测 40 个）。
+   合成一行一个链接：命中区 ≥44px、去掉下划线（本来就是行不是字），hover 用底衬。 */
+.map-entry { display: flex; align-items: baseline; gap: 8px; text-decoration: none;
+  min-height: 40px; box-sizing: border-box; padding: 9px 10px; margin: 0 -10px;
+  border-radius: 8px; transition: background .15s ease; }
+.map-entry:hover { background: color-mix(in srgb, var(--accent) 10%, transparent); }
 .map-code { font-family: var(--mono); font-size: 12px; color: var(--soft); text-decoration: none; }
 .map-name { font-size: 14px; text-decoration: none; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.map-entry:hover .map-code, .map-entry:hover .map-name { color: var(--accent); }
 .map-bars { display: flex; flex-direction: column; gap: 2px; justify-content: center; }
 .bar { display: block; height: 8px; border-radius: 2px; min-width: 0; }
 .bar-primary { background: var(--accent); }
@@ -393,7 +424,11 @@ a.badge--see { color: var(--soft); border-style: dashed; }
 .mx-band { font-size: 11px; color: var(--soft); text-align: center; padding: 2px 0 6px;
            border-bottom: 1px solid var(--line); overflow: hidden; white-space: nowrap; }
 .mx-colhead, .mx-rowhead { font-family: var(--mono); font-size: 10px; color: var(--soft); text-decoration: none; display: flex; align-items: center; justify-content: center; }
-.mx-rowhead { padding-right: 4px; justify-content: flex-end; }
+/* 2026-09-20：矩阵的表头也是链接，原来只有 18px 高（反模板 AP-A11Y-01 里那一批）。
+   行高本来就约 49px（格子是正方形），让链接**撑满格子**即可 —— 视觉几乎无变化，
+   命中区从 49x18 变成 49x49。列头那一行显式给 40px。 */
+.mx-colhead { min-height: 40px; min-width: 40px; }
+.mx-rowhead { padding-right: 4px; justify-content: flex-end; align-self: stretch; min-width: 40px; }
 .mx-colhead:hover, .mx-rowhead:hover { color: var(--accent); }
 /* 块与块之间的分隔：不然 22 列连成一片，看不出分组 */
 .mx-bend { border-right: 3px solid color-mix(in srgb, var(--ink) 20%, transparent); }
@@ -404,8 +439,8 @@ a.badge--see { color: var(--soft); border-style: dashed; }
 .mx-self { outline: 1px dashed var(--line); outline-offset: -1px; }
 .mx-hl { box-shadow: 0 0 0 2px var(--accent); }
 @media (max-width: 680px) {
-  .map-row { grid-template-columns: 36px 1fr auto; }
-  .map-bars { grid-column: 2 / 4; }
+  .map-row { grid-template-columns: 1fr auto; }
+  .map-bars { grid-column: 1 / 3; }
   /* 数字回到第一行右侧：3 列布局下自动排布会把它塞进 36px 的第一列，
      77px 宽的数字内容只能溢出到框外、贴着行左边缘渲染。 */
   .map-num { grid-row: 1; grid-column: 3; }
@@ -1355,11 +1390,32 @@ body::before{ z-index:5; }   /* 抬到玻璃之上：否则 z-index 3 的封面�
      · reduced-motion 下动画停掉（光还在，只是不动）；reduced-transparency 下整层不出现。
    ============================================================ */
 body::after{
-  content:""; position:fixed; inset:-25% -15%; z-index:0; pointer-events:none;
+  /* inset 只留够位移的余量（位移 ±7% / 旋转 ±1.6°）—— 层越小，合成越便宜 */
+  content:""; position:fixed; inset:-12% -10%; z-index:0; pointer-events:none;
+  /* 2026-09-20 用户：「光影我想试试那个树影斑斓的，做得明显一些」。
+     从「三团大柔光」换成「**多片不规则光斑**」：
+       · 光斑用**椭圆**（radial-gradient 带两个半径）而不是圆 —— 叶子挡出来的光本来就是拉长的；
+       · 大小、角度、透明度各不相同（.78 / .62 / .5 / .34 四档），密的地方亮、疏的地方暗，
+         这就是「斑斓」；纯一团光是「亮」，不是「斑斓」；
+       · 边缘比原来硬一点（55% 才开始收），光斑才立得住，而不是化成一团雾；
+       · 底下仍留一大团暖光兜底，免得整页太平。
+     代价提醒：这一层在玻璃后面，任何位移都会让每个 backdrop-filter 玻璃重新采样背景 ——
+     所以仍由 scene.js 低频驱动（见那边），不写 CSS animation。 */
   background:
-    radial-gradient(36% 28% at 20% 16%, rgba(255,244,219,.62), transparent 68%),
-    radial-gradient(32% 24% at 80% 58%, rgba(255,236,198,.50), transparent 70%),
-    radial-gradient(30% 22% at 48% 86%, rgba(255,248,230,.42), transparent 72%);
+    /* 大团兜底暖光 */
+    radial-gradient(46% 34% at 34% 22%, rgba(255,243,214,.55), transparent 74%),
+    /* 不规则光斑：椭圆、大小不一、四档浓度 */
+    radial-gradient(17% 11% at 16% 12%, rgba(255,249,232,.78), transparent 62%),
+    radial-gradient(23% 13% at 41% 8%,  rgba(255,246,222,.62), transparent 64%),
+    radial-gradient(13% 17% at 62% 20%, rgba(255,250,236,.66), transparent 60%),
+    radial-gradient(26% 15% at 84% 13%, rgba(255,244,216,.50), transparent 66%),
+    radial-gradient(15% 12% at 27% 41%, rgba(255,248,230,.58), transparent 62%),
+    radial-gradient(21% 16% at 55% 52%, rgba(255,246,224,.44), transparent 66%),
+    radial-gradient(12% 15% at 78% 44%, rgba(255,250,238,.60), transparent 60%),
+    radial-gradient(24% 13% at 12% 66%, rgba(255,245,220,.42), transparent 68%),
+    radial-gradient(16% 18% at 46% 79%, rgba(255,249,234,.56), transparent 62%),
+    radial-gradient(19% 12% at 74% 88%, rgba(255,243,214,.34), transparent 68%),
+    radial-gradient(11% 14% at 92% 70%, rgba(255,250,240,.50), transparent 60%);
   /* **这里故意不写 animation**（2026-09-19 实测）：这一层在玻璃的后面，
      每动一次，所有 backdrop-filter 玻璃都要重新采样背景 —— 每帧更新时中位帧
      20.1ms → 29.4ms（+46%）。而它 150 秒才走完一圈，每秒更新 60 次纯属浪费。
@@ -1367,14 +1423,29 @@ body::after{
   transform:translate3d(0,0,0); will-change:transform;
   --lt: 0;
 }
-body::after{ transform:translate3d(calc(var(--ldx,0) * 1%), calc(var(--ldy,0) * 1%), 0) scale(var(--lds,1)); }
+body::after{ transform:translate3d(calc(var(--ldx,0) * 1%), calc(var(--ldy,0) * 1%), 0)
+  rotate(calc(var(--ldr,0) * 1deg)) scale(var(--lds,1)); }
 body[data-theme="dark"]::after{
-  /* 夜读：换成月光 —— 冷、更淡，且不给暖色（暖光压在暗背景上会发脏） */
+  /* 夜读：同样斑斓，但换成月光 —— 冷、更淡（暖光压在暗背景上会发脏） */
   background:
-    radial-gradient(36% 28% at 22% 14%, rgba(198,214,235,.20), transparent 68%),
-    radial-gradient(32% 24% at 78% 60%, rgba(206,220,238,.15), transparent 70%),
-    radial-gradient(30% 22% at 50% 88%, rgba(190,206,228,.12), transparent 72%);
+    radial-gradient(46% 34% at 34% 22%, rgba(196,212,236,.16), transparent 74%),
+    radial-gradient(17% 11% at 16% 12%, rgba(214,226,244,.22), transparent 62%),
+    radial-gradient(23% 13% at 41% 8%,  rgba(206,220,240,.17), transparent 64%),
+    radial-gradient(13% 17% at 62% 20%, rgba(218,230,248,.19), transparent 60%),
+    radial-gradient(26% 15% at 84% 13%, rgba(200,214,236,.14), transparent 66%),
+    radial-gradient(15% 12% at 27% 41%, rgba(210,224,242,.16), transparent 62%),
+    radial-gradient(21% 16% at 55% 52%, rgba(204,218,238,.12), transparent 66%),
+    radial-gradient(12% 15% at 78% 44%, rgba(216,228,246,.17), transparent 60%),
+    radial-gradient(24% 13% at 12% 66%, rgba(198,212,234,.11), transparent 68%),
+    radial-gradient(16% 18% at 46% 79%, rgba(212,226,244,.15), transparent 62%),
+    radial-gradient(19% 12% at 74% 88%, rgba(196,210,232,.10), transparent 68%),
+    radial-gradient(11% 14% at 92% 70%, rgba(216,228,246,.13), transparent 60%);
 }
+/* 2026-09-20：树影斑斓改用**烘焙好的 SVG**（一条高斯模糊 + 14 片椭圆）而不是 12 条实时径向渐变 ——
+   浏览器只栅格化一次，把戏都在图层合成里。上面那版渐变保留作兜底（万一 data URI 被 CSP 挡）。 */
+body::after{ background-image:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNDAwIDkwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PGRlZnM+PGZpbHRlciBpZD0iYiIgeD0iLTMwJSIgeT0iLTMwJSIgd2lkdGg9IjE2MCUiIGhlaWdodD0iMTYwJSI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iMzQiLz48L2ZpbHRlcj48L2RlZnM+PGcgZmlsdGVyPSJ1cmwoI2IpIj48ZWxsaXBzZSBjeD0iNDc2IiBjeT0iMjE2IiByeD0iNTg4IiByeT0iMzA2IiBmaWxsPSIjRkZGNkUyIiBvcGFjaXR5PSIwLjU1Ii8+PGVsbGlwc2UgY3g9IjgwOSIgY3k9IjU5OCIgcng9Ijg4IiByeT0iNTIiIHRyYW5zZm9ybT0icm90YXRlKC03IDgwOSA1OTgpIiBmaWxsPSIjRkZGNkUyIiBvcGFjaXR5PSIwLjcwIi8+PGVsbGlwc2UgY3g9IjEyNzciIGN5PSIzMTEiIHJ4PSI4OCIgcnk9IjM4IiB0cmFuc2Zvcm09InJvdGF0ZSgzMyAxMjc3IDMxMSkiIGZpbGw9IiNGRkY2RTIiIG9wYWNpdHk9IjAuNDIiLz48ZWxsaXBzZSBjeD0iMjI3IiBjeT0iMTg1IiByeD0iMTMwIiByeT0iNTIiIHRyYW5zZm9ybT0icm90YXRlKC0xIDIyNyAxODUpIiBmaWxsPSIjRkZGNkUyIiBvcGFjaXR5PSIwLjQyIi8+PGVsbGlwc2UgY3g9Ijc3NiIgY3k9IjIxMCIgcng9IjE2NyIgcnk9Ijk0IiB0cmFuc2Zvcm09InJvdGF0ZSgyNSA3NzYgMjEwKSIgZmlsbD0iI0ZGRjZFMiIgb3BhY2l0eT0iMC41NSIvPjxlbGxpcHNlIGN4PSI2NTgiIGN5PSI0NzAiIHJ4PSIxNTciIHJ5PSI1NiIgdHJhbnNmb3JtPSJyb3RhdGUoLTExIDY1OCA0NzApIiBmaWxsPSIjRkZGNkUyIiBvcGFjaXR5PSIwLjMyIi8+PGVsbGlwc2UgY3g9IjkyMiIgY3k9IjY0OSIgcng9IjgxIiByeT0iMzUiIHRyYW5zZm9ybT0icm90YXRlKC0yNiA5MjIgNjQ5KSIgZmlsbD0iI0ZGRjZFMiIgb3BhY2l0eT0iMC43MCIvPjxlbGxpcHNlIGN4PSI0NDEiIGN5PSI1NzYiIHJ4PSI4MiIgcnk9IjM0IiB0cmFuc2Zvcm09InJvdGF0ZSgzOCA0NDEgNTc2KSIgZmlsbD0iI0ZGRjZFMiIgb3BhY2l0eT0iMC41NSIvPjxlbGxpcHNlIGN4PSIxMTUiIGN5PSI1ODUiIHJ4PSIxOTgiIHJ5PSI5NiIgdHJhbnNmb3JtPSJyb3RhdGUoLTEgMTE1IDU4NSkiIGZpbGw9IiNGRkY2RTIiIG9wYWNpdHk9IjAuNDIiLz48ZWxsaXBzZSBjeD0iNjM1IiBjeT0iMTAzIiByeD0iMTY2IiByeT0iODMiIHRyYW5zZm9ybT0icm90YXRlKC0xNyA2MzUgMTAzKSIgZmlsbD0iI0ZGRjZFMiIgb3BhY2l0eT0iMC4zMiIvPjxlbGxpcHNlIGN4PSIzMjYiIGN5PSI1OTgiIHJ4PSI3OSIgcnk9IjQzIiB0cmFuc2Zvcm09InJvdGF0ZSgtMzggMzI2IDU5OCkiIGZpbGw9IiNGRkY2RTIiIG9wYWNpdHk9IjAuNzAiLz48ZWxsaXBzZSBjeD0iNjczIiBjeT0iNDMwIiByeD0iMTMyIiByeT0iNjgiIHRyYW5zZm9ybT0icm90YXRlKC0xIDY3MyA0MzApIiBmaWxsPSIjRkZGNkUyIiBvcGFjaXR5PSIwLjU1Ii8+PGVsbGlwc2UgY3g9IjExMjkiIGN5PSIxNTYiIHJ4PSIxNTciIHJ5PSI5MiIgdHJhbnNmb3JtPSJyb3RhdGUoLTMzIDExMjkgMTU2KSIgZmlsbD0iI0ZGRjZFMiIgb3BhY2l0eT0iMC40MiIvPjxlbGxpcHNlIGN4PSI1MzEiIGN5PSIzNzEiIHJ4PSI4MiIgcnk9IjQ4IiB0cmFuc2Zvcm09InJvdGF0ZSgzMyA1MzEgMzcxKSIgZmlsbD0iI0ZGRjZFMiIgb3BhY2l0eT0iMC43MCIvPjxlbGxpcHNlIGN4PSI3NjciIGN5PSIxNTAiIHJ4PSIxOTIiIHJ5PSIxMTAiIHRyYW5zZm9ybT0icm90YXRlKDM2IDc2NyAxNTApIiBmaWxsPSIjRkZGNkUyIiBvcGFjaXR5PSIwLjcwIi8+PC9nPjwvc3ZnPg=="); background-size:cover; background-position:center; }
+body[data-theme="dark"]::after{ background-image:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNDAwIDkwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PGRlZnM+PGZpbHRlciBpZD0iYiIgeD0iLTMwJSIgeT0iLTMwJSIgd2lkdGg9IjE2MCUiIGhlaWdodD0iMTYwJSI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iMzQiLz48L2ZpbHRlcj48L2RlZnM+PGcgZmlsdGVyPSJ1cmwoI2IpIj48ZWxsaXBzZSBjeD0iNDc2IiBjeT0iMjE2IiByeD0iNTg4IiByeT0iMzA2IiBmaWxsPSIjQzhENkVFIiBvcGFjaXR5PSIwLjE2Ii8+PGVsbGlwc2UgY3g9IjEyMjYiIGN5PSI2NTciIHJ4PSIxODgiIHJ5PSI4MyIgdHJhbnNmb3JtPSJyb3RhdGUoMTEgMTIyNiA2NTcpIiBmaWxsPSIjQzhENkVFIiBvcGFjaXR5PSIwLjExIi8+PGVsbGlwc2UgY3g9IjQ2MCIgY3k9IjYxNCIgcng9IjE1NiIgcnk9Ijk0IiB0cmFuc2Zvcm09InJvdGF0ZSgxNCA0NjAgNjE0KSIgZmlsbD0iI0M4RDZFRSIgb3BhY2l0eT0iMC4xNSIvPjxlbGxpcHNlIGN4PSI5NjYiIGN5PSIxMDIiIHJ4PSIyMDciIHJ5PSI3NyIgdHJhbnNmb3JtPSJyb3RhdGUoLTE3IDk2NiAxMDIpIiBmaWxsPSIjQzhENkVFIiBvcGFjaXR5PSIwLjE1Ii8+PGVsbGlwc2UgY3g9IjQ5NiIgY3k9IjM0NSIgcng9IjEwMCIgcnk9IjU1IiB0cmFuc2Zvcm09InJvdGF0ZSgtMTkgNDk2IDM0NSkiIGZpbGw9IiNDOEQ2RUUiIG9wYWNpdHk9IjAuMjQiLz48ZWxsaXBzZSBjeD0iODQ1IiBjeT0iMzg0IiByeD0iMTc1IiByeT0iMTA2IiB0cmFuc2Zvcm09InJvdGF0ZSgtMzIgODQ1IDM4NCkiIGZpbGw9IiNDOEQ2RUUiIG9wYWNpdHk9IjAuMDgiLz48ZWxsaXBzZSBjeD0iMTA0NCIgY3k9IjU5MSIgcng9IjExMSIgcnk9IjQ4IiB0cmFuc2Zvcm09InJvdGF0ZSg5IDEwNDQgNTkxKSIgZmlsbD0iI0M4RDZFRSIgb3BhY2l0eT0iMC4wOCIvPjxlbGxpcHNlIGN4PSIzMTQiIGN5PSI2OTAiIHJ4PSI5NyIgcnk9IjM5IiB0cmFuc2Zvcm09InJvdGF0ZSgxMCAzMTQgNjkwKSIgZmlsbD0iI0M4RDZFRSIgb3BhY2l0eT0iMC4wOCIvPjxlbGxpcHNlIGN4PSIxNTMiIGN5PSI3OTciIHJ4PSIxNDQiIHJ5PSI1NCIgdHJhbnNmb3JtPSJyb3RhdGUoLTM3IDE1MyA3OTcpIiBmaWxsPSIjQzhENkVFIiBvcGFjaXR5PSIwLjE1Ii8+PGVsbGlwc2UgY3g9IjExNjYiIGN5PSI1MDciIHJ4PSIxOTgiIHJ5PSI3MyIgdHJhbnNmb3JtPSJyb3RhdGUoLTUgMTE2NiA1MDcpIiBmaWxsPSIjQzhENkVFIiBvcGFjaXR5PSIwLjE1Ii8+PGVsbGlwc2UgY3g9IjUyNyIgY3k9IjMxMyIgcng9IjEwNSIgcnk9IjQ2IiB0cmFuc2Zvcm09InJvdGF0ZSgtMjQgNTI3IDMxMykiIGZpbGw9IiNDOEQ2RUUiIG9wYWNpdHk9IjAuMjQiLz48ZWxsaXBzZSBjeD0iNzE1IiBjeT0iNTE2IiByeD0iMTMwIiByeT0iNTUiIHRyYW5zZm9ybT0icm90YXRlKDM1IDcxNSA1MTYpIiBmaWxsPSIjQzhENkVFIiBvcGFjaXR5PSIwLjExIi8+PGVsbGlwc2UgY3g9IjQ1OSIgY3k9IjMyMiIgcng9IjExOCIgcnk9IjU2IiB0cmFuc2Zvcm09InJvdGF0ZSgtNCA0NTkgMzIyKSIgZmlsbD0iI0M4RDZFRSIgb3BhY2l0eT0iMC4xNSIvPjxlbGxpcHNlIGN4PSI5MDciIGN5PSIyNzQiIHJ4PSIxNjIiIHJ5PSIxMDAiIHRyYW5zZm9ybT0icm90YXRlKDUgOTA3IDI3NCkiIGZpbGw9IiNDOEQ2RUUiIG9wYWNpdHk9IjAuMTUiLz48ZWxsaXBzZSBjeD0iMzczIiBjeT0iNTk2IiByeD0iMTIzIiByeT0iNTciIHRyYW5zZm9ybT0icm90YXRlKC0xNyAzNzMgNTk2KSIgZmlsbD0iI0M4RDZFRSIgb3BhY2l0eT0iMC4xOSIvPjwvZz48L3N2Zz4="); background-size:cover; background-position:center; }
+
 
 @media (prefers-reduced-motion: reduce){ body::after{ animation:none; } }
 @media (prefers-reduced-transparency: reduce){ body::after{ display:none; } }
@@ -1775,6 +1846,18 @@ body:not(.page-home) .docs-block{
      · 跨书综合 → 阅读块：3px 左边线 + 右 > 左的退让感（阅读层卡的原话）
    顺带修掉 axe 的 heading-order 提示：原来正文从 h3 起跳（页面只有 h1），现在是 h2 → h3。
    ============================================================ */
+/* 专题页顶部那条「深度分析」入口（2026-09-20）——
+   用户问「说做的每个主题一个分析的在哪里，我没找到」：全站只有 reads/sitemap 有指向分析页的链接，
+   专题页自己不指向讲它的那篇。这条就是补上的入口（映射由 build_shards.py 算好写进 meta，12/12）。 */
+.topic-analysis{ margin:0 0 20px; padding:12px 16px; border-radius:12px;
+  background:var(--glass); background-image:var(--sheen);
+  -webkit-backdrop-filter:var(--glass-blur); backdrop-filter:var(--glass-blur);
+  border:1px solid var(--glass-line);
+  box-shadow:var(--glass-shadow), inset 0 1px 0 var(--glass-line);
+  display:flex; flex-wrap:wrap; align-items:baseline; gap:10px; }
+.topic-analysis .k{ font-family:var(--mono); font-size:11.5px; letter-spacing:.16em; color:var(--accent-ink); }
+.topic-analysis a{ font-family:var(--serif); font-size:17px; font-weight:700; }
+.topic-analysis .meta{ font-size:13px; color:var(--soft); }
 .topic-meta{ font-family:var(--mono); font-size:12px; letter-spacing:.08em; color:var(--soft);
   padding-bottom:16px; border-bottom:1px solid var(--line); margin:0 0 36px; }
 .topic-meta .k{ color:var(--accent-ink); margin-right:10px; }

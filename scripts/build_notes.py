@@ -360,7 +360,7 @@ HUB = '''<!doctype html>
   </section>
 
   <section>
-    <h2 class="section-title">分析与对比（{n_analysis} 篇）</h2>
+    <h2 class="section-title" id="analysis">分析与对比（{n_analysis} 篇）</h2>
     <p class="section-sub">跨卡片把散着的主张合成论断：指出张力、前提与边界。
     <b>编者推论</b>与<b>能反驳它的条件</b>都写在页内。</p>
     <div class="read-list">
@@ -402,7 +402,7 @@ HUB = '''<!doctype html>
 
 
 def main() -> int:
-    ver = '20260920v24'
+    ver = '20260920v25'
     NOTE.mkdir(parents=True, exist_ok=True)
 
     def read_nav() -> str:

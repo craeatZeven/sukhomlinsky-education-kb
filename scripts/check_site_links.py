@@ -45,6 +45,13 @@ def static_hrefs(text: str) -> list[str]:
         h = m.group(1)
         if '${' in h or h.startswith(('http://', 'https://', 'mailto:', 'data:', '#')):
             continue
+        # 2026-09-20：**拼接出来**的 href 也要跳过。原来只跳过 `${…}` 模板串，
+        # 于是 `href="note/' + encodeURIComponent(slug) + '.html"` 被当成一条静态路径，
+        # 报成「指向不存在的文件」。判据是：真路径里不可能出现单引号或加号。
+        # 为什么不留着报：它扫的是**静态**链接（原文档就这么写的），
+        # 运行时拼的地址归线上 D5 与渲染后体检 —— 让一个静态检查器去追它，只会制造假故障。
+        if "'" in h or '"' in h or '+' in h:
+            continue
         out.append(h)
     return out
 

@@ -268,14 +268,21 @@
      backdrop-filter 玻璃就要重新采样一次背景。实测每帧更新时中位帧 20.1 → 29.4ms（+46%）；
      而 150 秒走完的位移，每秒更新 3 次与 60 次在肉眼上无法区分。
      标签页隐藏时不更新（省电），reduced-motion 下不启动。 */
-  var lightEl = null, lightTimer = null, LIGHT_PERIOD = 150000;
+  /* 2026-09-20 用户：「做得明显一些」—— 位移从 ±2.5% 放大到 ±7%、周期 150s → 70s，
+     并加了一点旋转（树影是整片光在挪，不只是平移）。仍然每秒只更新 3 次。
+     为什么敢放大：这一层的代价不是它自己动，而是玻璃重新采样背景；
+     只要更新频率不变，位移多大都一样的贵。 */
+  var lightEl = null, lightTimer = null, LIGHT_PERIOD = 70000;
   function lightFrame() {
     if (doc.hidden) return;
     var t = (Date.now() % LIGHT_PERIOD) / LIGHT_PERIOD * Math.PI * 2;
     var el = doc.body;
-    el.style.setProperty('--ldx', (-2.5 + 2.5 * (1 - Math.cos(t))).toFixed(2));
-    el.style.setProperty('--ldy', (-1.5 + 3.0 * (1 - Math.sin(t)) / 2).toFixed(2));
-    el.style.setProperty('--lds', (1 + 0.05 * (1 - Math.cos(t)) / 2).toFixed(4));
+    el.style.setProperty('--ldx', (-7 + 7 * (1 - Math.cos(t))).toFixed(2));
+    el.style.setProperty('--ldy', (-4 + 8 * (1 - Math.sin(t)) / 2).toFixed(2));
+    /* **不缩放**（2026-09-20 实测）：这一层是「大面积 + 多渐变」，改 scale 会让浏览器
+       按新尺度重新栅格化整层，帧时间中位 23 → 37ms。平移与旋转只走合成器，不重栅格。
+       光斑的「变」靠位移与旋转已经足够 —— 树影在动，本来也不是在放大。 */
+    el.style.setProperty('--ldr', (-1.6 + 3.2 * (1 - Math.sin(t)) / 2).toFixed(3));
   }
   if (!reduced.matches) { lightFrame(); lightTimer = setInterval(lightFrame, 350); }
 

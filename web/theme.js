@@ -141,41 +141,11 @@
     window.addEventListener("resize", update);
     update();
   }
-  /* 顶栏三组下拉的开关（2026-09-14 导航重排）。
-     桌面靠 CSS 的 :hover / :focus-within 也能开，这里主要给触屏与键盘用；
-     两条路径都只是把菜单显示出来，不互相冲突。 */
-  function navGroups() {
-    var groups = Array.prototype.slice.call(
-      document.querySelectorAll(".topnav .nav-group"));
-    if (!groups.length) return;
-    function closeAll(except) {
-      groups.forEach(function (g) {
-        if (g === except) return;
-        g.classList.remove("open");
-        var b = g.querySelector(".nav-group-btn");
-        if (b) b.setAttribute("aria-expanded", "false");
-      });
-    }
-    groups.forEach(function (g) {
-      var btn = g.querySelector(".nav-group-btn");
-      if (!btn) return;
-      btn.addEventListener("click", function () {
-        var open = !g.classList.contains("open");
-        closeAll(g);
-        g.classList.toggle("open", open);
-        btn.setAttribute("aria-expanded", open ? "true" : "false");
-      });
-    });
-    /* Esc 关、点空白关。点组按钮自己不关（它在 .nav-group 里面）。 */
-    document.addEventListener("keydown", function (e) {
-      if (e.key === "Escape") closeAll(null);
-    });
-    document.addEventListener("click", function (e) {
-      var t = e.target;
-      if (t && t.closest && t.closest(".topnav .nav-group")) return;
-      closeAll(null);
-    });
-  }
+  /* 2026-09-20：**删掉 navGroups()**。它管的是顶栏那三组下拉（触屏与键盘的开关）。
+     顶栏改成平铺之后，页面里再没有 .nav-group / .nav-group-btn —— 这段成了死代码：
+     它查不到元素、直接 return，留着只会让下一个人以为还有下拉要维护。
+     平铺导航不需要脚本：七个都是普通链接。**减法要有替代物** ——
+     这里替代物就是浏览器自带的 Tab 与点击，没有别的行为要补。 */
   /* --------------------------------------------------------------------------
      资源版本守卫（2026-09-19 加，起因是一次真实的静默失败）
      --------------------------------------------------------------------------
@@ -209,7 +179,6 @@
     versionGuard();
     buildFab();
     reveal();
-    navGroups();
     searchShortcut();
     readingProgress();
   });

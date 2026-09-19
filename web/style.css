@@ -145,72 +145,47 @@ a:hover { color: var(--accent); text-decoration-color: var(--accent); }
    `主题浏览` / `教育专题` / `分类条目` 三个入口指向同一件事，首页那三组（读内容 / 看结构 /
    用起来）才是设计过的答案。现在导航跟着首页走，14 个目的地全部有位。
    详见 docs/review-disposition.md §十二。 */
+/* 2026-09-20：**顶栏改成平铺**（用户贴 B 站顶栏：「能不能做成 B 站这个这样，可以不止三个，展开一点也行」）
+   原来是三个下拉组（找材料 / 看来源 / 用起来）：七个目的地要悬停才看得见，
+   而且组名是二次抽象 —— 新读者得先猜「我的问题属于哪一组」。
+   现在一排「图标 + 文字」，七个入口全部露在外面，一次点到位。
+   图标的作用不是装饰，是**扫读时的锚点**：七个中文短词并排，眼睛靠字形轮廓找；
+   加一个图标，轮廓立刻分得开（B 站那排的意义也在这）。 */
 .topnav .nav-groups { display: flex; gap: 2px; margin-left: auto; min-width: 0; }
-.topnav .nav-group { position: relative; }
-.topnav .nav-group-btn {
-  font: inherit; font-size: 14px; line-height: 1.25; color: var(--chrome-soft);
-  background: transparent; border: 0; cursor: pointer; text-align: left;
-  padding: 6px 12px; border-radius: var(--radius-archive);
-  white-space: nowrap; box-shadow: inset 0 -2px 0 transparent;
-  transition: color .15s, box-shadow .15s, background .15s;
+.topnav .nav-item {
+  display: flex; flex-direction: column; align-items: center; gap: 1px;
+  padding: 6px 11px 5px; border-radius: 10px; text-decoration: none;
+  color: var(--nav-ink-2); font-size: 12.5px; line-height: 1.3; white-space: nowrap;
+  box-shadow: inset 0 -2px 0 transparent;
+  transition: color .15s, background .15s, box-shadow .15s;
 }
-.topnav .nav-group-btn:hover, .topnav .nav-group:focus-within .nav-group-btn,
-.topnav .nav-group.open .nav-group-btn { color: var(--chrome-ink); }
-/* 高亮**所在的组**：下拉收起时，当前页本身是看不见的，必须让组也亮起来，
-   否则读者不知道自己站在哪（平铺导航里 active 直接标在链接上，不存在这个问题）。 */
-.topnav .nav-group.active .nav-group-btn,
-.topnav .nav-group-btn[aria-expanded="true"] {
-  color: var(--chrome-ink); box-shadow: inset 0 -2px 0 var(--accent);
+.topnav .nav-item .ni-icon { display: block; width: 20px; height: 20px; opacity: .9; }
+.topnav .nav-item .ni-icon svg { display: block; width: 100%; height: 100%; }
+.topnav .nav-item .ni-label { display: block; }
+.topnav .nav-item:hover, .topnav .nav-item:focus-visible {
+  color: var(--nav-ink); background: color-mix(in srgb, var(--chrome-ink) 12%, transparent);
 }
-.topnav .nav-menu {
-  display: none; position: absolute; top: calc(100% + 8px); left: 0; z-index: 1200;
-  min-width: 268px; padding: 8px; border-radius: 10px;
-  background: var(--chrome);
-  border: 1px solid color-mix(in srgb, var(--chrome-ink) 20%, transparent);
-  box-shadow: 0 14px 32px rgba(0,0,0,.30);
+.topnav .nav-item.active { color: var(--chrome-ink); box-shadow: inset 0 -2px 0 var(--accent); }
+.topnav .nav-item.active .ni-icon { opacity: 1; }
+@media (max-width: 1000px) {
+  /* 七个入口在中等宽度放不下 —— 让它**换行成两排**，而不是塞进滚动条里：
+     横向滚动在触屏上会跟页面左右的滑动打架，而且藏起来的入口等于没有。 */
+  .topnav .nav-groups { flex-wrap: wrap; justify-content: flex-end; row-gap: 0; }
+  .topnav .nav-item { padding: 5px 9px 4px; font-size: 12px; }
 }
-.topnav .nav-group:hover .nav-menu,
-.topnav .nav-group:focus-within .nav-menu,
-.topnav .nav-group.open .nav-menu { display: block; }
-.topnav .nav-menu .nav-link {
-  display: block; padding: 7px 10px; font-size: 14px; border-radius: 6px;
-  color: var(--chrome-soft);
-}
-.topnav .nav-menu .nav-link:hover,
-.topnav .nav-menu .nav-link.active {
-  color: var(--chrome-ink); background: color-mix(in srgb, var(--chrome-ink) 14%, transparent);
-  box-shadow: none;                    /* 覆盖平铺版的下划线，下拉里改用底色 */
-}
-/* 每项一句说明——这正是"为什么分这些"要回答的，平铺导航没地方放。
-   说明**允许折行**，标签不许（判据分别断言）。 */
-.topnav .nav-menu-label { display: block; }
-.topnav .nav-menu-sub { display: block; font-size: 12px; font-weight: 400; color: var(--chrome-soft); margin-top: 2px; opacity: .78; }
-.topnav .nav-menu .nav-link:hover .nav-menu-sub,
-.topnav .nav-menu .nav-link.active .nav-menu-sub { color: var(--chrome-ink); opacity: .85; }
-/* 2026-09-13 修，保留：桌面档一律 nowrap，宁可溢出/滚动，也不要文字静默折行。 */
-.topnav .nav-group-btn { white-space: nowrap; }
-.topnav .nav-groups { overflow-x: visible; }
 @media (max-width: 680px) {
-  /* 窄屏顶栏仍是**两行**：第一行品牌 + 风格切换，第二行三组按钮占满整宽。 */
+  /* 窄屏顶栏两行：第一行品牌 + 风格切换，第二行七个入口（可横向滑，不折行 —— 折行会把顶栏吃掉一半） */
   .topnav .inner { flex-wrap: wrap; height: auto; gap: 0 8px; padding: 4px 16px 0; }
   .topnav .brand { font-size: 15px; line-height: 40px; }
   .topnav .theme-nav { margin-left: auto; }
   .topnav .nav-groups {
-    order: 3; flex-basis: 100%; margin-left: 0; gap: 2px;
+    order: 3; flex-basis: 100%; margin-left: 0; gap: 0;
     flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none;
+    justify-content: flex-start;
   }
   .topnav .nav-groups::-webkit-scrollbar { display: none; }
-  .topnav .nav-group-btn { font-size: 13px; padding: 5px 10px; white-space: nowrap; min-height: 40px; }
-  /* 窄屏下拉变成**整宽面板**贴在顶栏下方：组按钮太窄，气泡式菜单会溢出屏幕。
-     fixed 相对视口，top 用 --nav-h（窄屏 84px，就在下面那条 :root 里改）。 */
-  .topnav .nav-menu {
-    position: fixed; top: var(--nav-h); left: 0; right: 0;
-    min-width: 0; border-radius: 0; border-left: 0; border-right: 0;
-    max-height: 62vh; overflow-y: auto;
-  }
-  /* 窄屏顶栏是两行，把实际高度交给变量——锚点留白统一由 calc(var(--nav-h) + 16px) 算，
-     不再各写一条（那样会被文件后面那条同特异性的规则盖掉）。 */
-  :root { --nav-h: 84px; }
+  .topnav .nav-item { min-height: 48px; padding: 6px 12px 5px; font-size: 12px; }
+  :root { --nav-h: 100px; }
 }
 
 /* Hero / landing */

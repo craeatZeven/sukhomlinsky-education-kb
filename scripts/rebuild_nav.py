@@ -28,47 +28,62 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 WEB = ROOT / 'web'
 
-GROUPS = [
-    ('find', '找材料', [
-        ('taxonomy.html', '分类总图', '主轴：这个库怎么分类 · 换一种切法'),
-        ('search.html', '全库检索', '按词找；先给成篇材料，再给卡片'),
-        ('reads.html', '读本', '12 篇长文 + 分析 / 对比 / 问答'),
-    ]),
-    ('source', '看来源', [
-        ('sources.html', '书源与作品', '13 个来源、OCR 状态与作品清单'),
-        ('coverage.html', '覆盖报告', '卡片量、来源分布与覆盖缺口'),
-    ]),
-    ('use', '用起来', [
-        ('guide.html', '使用指南', '5 分钟上手：三种用法、引用与导出'),
-        ('latest.html', '最近更新', '按编号倒序看最新补入的卡片'),
-    ]),
+# 2026-09-20：用户贴了 B 站顶栏的图 ——「导航栏能不能做成 B 站这个这样，可以不止三个，展开一点也行」。
+# 原来是**三个下拉组**（找材料 / 看来源 / 用起来），七个目的地要悬停才看得见。
+# 现在改成**一排平铺的「图标 + 文字」**：七个入口全部露在外面，一次点到位。
+#
+# 为什么不是简单的「删掉下拉」：原来那三个组名（找材料 / 看来源 / 用起来）是**分类**，
+# 分类对熟悉站点的人有用，对新读者是二次抽象。B 站那种做法把分类丢掉、直接给入口 ——
+# 代价是丢了一层「这些页面是同一类事」的提示，收益是**零悬停成本**。用户要的就是后者。
+ITEMS = [
+    ('taxonomy.html', '分类总图', 'map',    '这个库怎么分类 · 换一种切法'),
+    ('search.html',   '全库检索', 'search', '按词找；先给成篇材料，再给卡片'),
+    ('reads.html',    '读本',     'book',   '12 篇长文 + 分析 / 对比 / 问答'),
+    ('sources.html',  '书源',     'stack',  '13 个来源、OCR 状态与作品清单'),
+    ('coverage.html', '覆盖',     'chart',  '卡片量、来源分布与覆盖缺口'),
+    ('guide.html',    '指南',     'compass','5 分钟上手：三种用法、引用与导出'),
+    ('latest.html',   '更新',     'clock',  '按编号倒序看最新补入的卡片'),
 ]
+
+# 图标：内联 SVG，20px，描边走 currentColor（不引外部图标库，零依赖）。
+# 每个都带 title 用不上 —— 可见文字就是标签，图标只是**扫读时的锚点**（B 站那排的意义也在这）。
+ICONS = {
+    'map':     '<path d="M3 6.5l6-2 6 2 6-2v13l-6 2-6-2-6 2z"/><path d="M9 4.5v13M15 6.5v13"/>',
+    'search':  '<circle cx="11" cy="11" r="6.5"/><path d="M15.8 15.8L21 21"/>',
+    'book':    '<path d="M12 6.5C10.6 5 8.6 4.2 6 4.2H4v13.6h2c2.6 0 4.6.8 6 2.3"/><path d="M12 6.5c1.4-1.5 3.4-2.3 6-2.3h2v13.6h-2c-2.6 0-4.6.8-6 2.3"/><path d="M12 6.5v13.6"/>',
+    'stack':   '<path d="M4 5.5h4v15H4zM10 5.5h4v15h-4z"/><path d="M16.4 6.6l3.4 1-3.6 13.6-3.4-1z"/>',
+    'chart':   '<path d="M4 20V11M10 20V5M16 20v-6"/><path d="M2 20h20"/>',
+    'compass': '<circle cx="12" cy="12" r="8.6"/><path d="M15.4 8.6l-2.1 4.7-4.7 2.1 2.1-4.7z"/>',
+    'clock':   '<circle cx="12" cy="12" r="8.6"/><path d="M12 7v5.3l3.6 2.1"/>',
+}
 
 # 每页高亮：(组, href)。**分类轴的下级页面统一高亮"分类总图"**——
 # 它们都是主轴上的"换一种切法"，读者仍处在"找材料"这件事里。
-ACTIVE: dict[str, tuple[str | None, str | None]] = {
-    'index.html': (None, None),
-    'taxonomy.html': ('find', 'taxonomy.html'),
-    'entries.html': ('find', 'taxonomy.html'),
-    'entry.html': ('find', 'taxonomy.html'),
-    'facets.html': ('find', 'taxonomy.html'),
-    'facet.html': ('find', 'taxonomy.html'),
-    'clusters.html': ('find', 'taxonomy.html'),
-    'explore.html': ('find', 'taxonomy.html'),
-    'search.html': ('find', 'search.html'),
-    'problem.html': ('find', 'search.html'),
-    'reads.html': ('find', 'reads.html'),
-    'topics.html': ('find', 'reads.html'),
-    'topic.html': ('find', 'reads.html'),
-    'cases.html': ('find', 'reads.html'),
-    'stories.html': ('find', 'reads.html'),
-    'sources.html': ('source', 'sources.html'),
-    'coverage.html': ('source', 'coverage.html'),
-    'guide.html': ('use', 'guide.html'),
-    'latest.html': ('use', 'latest.html'),
-    # 网站地图：导航减到 7 项之后，"想一眼看全"的入口。归到「用起来」那一组。
-    'sitemap.html': ('use', 'guide.html'),
-    'card.html': (None, None),
+# 每页高亮哪个入口。平铺之后不再需要组名，只留 href。
+# **分类轴的下级页面统一高亮「分类总图」**——它们都是主轴上的「换一种切法」，
+# 读者仍处在「找材料」这件事里。
+ACTIVE: dict[str, str | None] = {
+    'index.html': None,
+    'taxonomy.html': 'taxonomy.html',
+    'entries.html': 'taxonomy.html',
+    'entry.html': 'taxonomy.html',
+    'facets.html': 'taxonomy.html',
+    'facet.html': 'taxonomy.html',
+    'clusters.html': 'taxonomy.html',
+    'explore.html': 'taxonomy.html',
+    'search.html': 'search.html',
+    'problem.html': 'search.html',
+    'reads.html': 'reads.html',
+    'topics.html': 'reads.html',
+    'topic.html': 'reads.html',
+    'cases.html': 'reads.html',
+    'stories.html': 'reads.html',
+    'sources.html': 'sources.html',
+    'coverage.html': 'coverage.html',
+    'guide.html': 'guide.html',
+    'latest.html': 'latest.html',
+    'sitemap.html': 'guide.html',
+    'card.html': None,
 }
 
 # 一页顶栏的形状。**必须与页面里真实存在的结构一致**：
@@ -83,31 +98,27 @@ def esc(s: str) -> str:
 
 
 def build_nav(page: str) -> str:
-    act_group, act_href = ACTIVE.get(page, (None, None))
+    act = ACTIVE.get(page)
     out = ['<nav class="topnav">', '  <div class="inner">',
            '    <a class="brand" href="index.html">苏霍姆林斯基教育知识库</a>',
            '    <div class="nav-groups">']
-    for gid, glabel, items in GROUPS:
-        gcls = 'nav-group active' if gid == act_group else 'nav-group'
-        mid = f'navMenu-{gid}'
-        out.append(f'      <div class="{gcls}" data-group="{gid}">')
-        out.append(f'        <button class="nav-group-btn" type="button" '
-                   f'aria-expanded="false" aria-controls="{mid}">{esc(glabel)}</button>')
-        out.append(f'        <div class="nav-menu" id="{mid}">')
-        for href, label, sub in items:
-            cls = 'nav-link' + (' active' if act_href and href == act_href else '')
-            extra = ' aria-current="page"' if act_href and href == act_href else ''
-            out.append(f'          <a class="{cls}" href="{href}"{extra}>'
-                       f'<span class="nav-menu-label">{esc(label)}</span>'
-                       f'<span class="nav-menu-sub">{esc(sub)}</span></a>')
-        out.append('        </div>')
-        out.append('      </div>')
+    for href, label, icon, sub in ITEMS:
+        on = (href == act)
+        cls = 'nav-item active' if on else 'nav-item'
+        extra = ' aria-current="page"' if on else ''
+        # title 保留一句话说明：平铺后文字更短（书源 / 覆盖 / 指南 / 更新），
+        # 悬停能看到全称；屏幕阅读器读到的是 <span> 里的可见文字 + 这里的 title。
+        out.append(f'      <a class="{cls}" href="{href}"{extra} title="{esc(sub)}">'
+                   f'<span class="ni-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" '
+                   f'stroke="currentColor" stroke-width="1.7" stroke-linecap="round" '
+                   f'stroke-linejoin="round">{ICONS[icon]}</svg></span>'
+                   f'<span class="ni-label">{esc(label)}</span></a>')
     out += ['    </div>', '  </div>', '</nav>']
     return '\n'.join(out)
 
 
 def main() -> int:
-    want_links = sum(len(items) for _g, _l, items in GROUPS)
+    want_links = len(ITEMS)
     n_pages = 0
     for path in sorted(WEB.glob('*.html')):
         page = path.name
@@ -119,16 +130,17 @@ def main() -> int:
         if len(found) != 1:
             raise SystemExit(f'{page}: 期望恰好 1 段顶栏，实际 {len(found)} 段')
         new = NAV_RE.sub(lambda _m: build_nav(page), text, count=1)
-        n_links = len(re.findall(r'class="nav-link', new))
-        n_groups = len(re.findall(r'class="nav-group[ "]', new))
-        if n_groups != len(GROUPS) or n_links != want_links:
-            raise SystemExit(f'{page}: 组数 {n_groups}（应 {len(GROUPS)}）· '
-                             f'链接数 {n_links}（应 {want_links}）')
+        n_links = len(re.findall(r'class="nav-item', new))
+        if n_links != want_links:
+            raise SystemExit(f'{page}: 入口数 {n_links}（应 {want_links}）')
+        # 平铺之后不该再有下拉：残留 .nav-group 说明模板没换干净
+        if 'nav-group"' in new or 'nav-menu' in new:
+            raise SystemExit(f'{page}: 仍残留下拉结构')
         if new != text:
             path.write_text(new, encoding='utf-8', newline='\n')
         n_pages += 1
-        print(f'  {page:16s} {n_groups} 组 / {n_links} 项 · 高亮 {ACTIVE[page][1] or "无"}')
-    print(f'\n{n_pages} 个页面已重排（{len(GROUPS)} 组 / {want_links} 个目的地）')
+        print(f'  {page:16s} {n_links} 个平铺入口 · 高亮 {ACTIVE[page] or "无"}')
+    print(f'\n{n_pages} 个页面已重排（{want_links} 个平铺入口，无下拉）')
     return 0
 
 

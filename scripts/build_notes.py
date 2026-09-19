@@ -470,6 +470,19 @@ def main() -> int:
 
     from urllib.parse import quote
 
+    # ── 修一条"注释里写着、代码里没做"的死链 ──────────────────────────
+    # 上面第 424–429 行明写："moc（5 角度 + 23 条目 + 17 分面）不生成独立页面……
+    # 但它们仍要进 docs.json（检索语料），只是链接指向**已有页面**。"
+    # 可代码里从没给它们 link —— 于是 note 页里 [[A14 美与艺术]] 渲染成
+    # note/A14 美与艺术.html，线上 404。**2026-09-19 部署体检 D5 抓到的**（本地测不出这类）。
+    for d in docs:
+        if d.get('type') in NO_PAGE_TYPES and not d.get('link'):
+            code = d['slug'].split()[0] if d['slug'].split() else ''
+            if re.fullmatch(r'A\d+', code):
+                d['link'] = f'entry.html?code={code}'
+            elif re.fullmatch(r'S\d+', code):
+                d['link'] = f'facet.html?code={code}'
+
     made = []
     for d in docs:
         if d['path'] is None:

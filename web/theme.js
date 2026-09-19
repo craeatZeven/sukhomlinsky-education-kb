@@ -7,7 +7,7 @@
   ];
   function currentTheme() {
     var saved = localStorage.getItem("sukh-theme");
-    return saved && THEMES.some(function (t) { return t.id === saved; }) ? saved : "green";
+    return saved && THEMES.some(function (t) { return t.id === saved; }) ? saved : "paper";
   }
   function applyTheme(id) {
     document.body.setAttribute("data-theme", id);

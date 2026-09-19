@@ -1,42 +1,34 @@
 /* Sukhomlinsky KB shared style */
 :root {
-  --bg: #f6f1e7;
-  --card: #fffdf8;
-  --ink: #1c1917;
-  --soft: #6b625a;
-  --accent: #b4552d;
-  --accent-soft: #f3ddd2;
-  /* 思想地图矩阵最密档（纸本主题）：实色 + 白字，对比度 4.90:1。
-     原来用 color-mix(accent 92%, transparent) 配写死的白字，纸本档只有 4.32:1，
-     不合 WCAG AA 小字 4.5:1。每套主题各自定 --heat-3 / --heat-3-ink。 */
-  --heat-3: #b4552d;
-  --heat-3-ink: #ffffff;
-  /* 「垫在强调色实底上的文字」与「以强调色作文字色」要分开定，不能写死白色、也不能直接用 accent：
-     · --on-accent：垫在 accent 实底上的字色。夜读主题的 accent 是**浅**陶色，
-       白字实测只有 2.39:1，必须用深字；纸本/森林是深底，白字合格。
-     · --accent-ink：以 accent 作**文字色**印在页面底上时的颜色。纸本的 #b4552d
-       在纸色底上只有 4.36:1（12px 小字需 4.5），故略深一档 → 5.27:1。 */
-  --on-accent: #ffffff;
-  --accent-ink: #a24b26;
-  /* 顶栏实际高度。窄屏顶栏是两行（84px），锚点跳转的留白要跟着变。
-     **必须用变量**：早先写了两条同特异性的 scroll-margin-top（一个在媒体查询里、
-     一条在文件后面），后者在**所有宽度**都赢——于是移动端仍按 76px 留白，
-     标题被顶栏压住约 8px（第二轮复审实测）。变量在计算值阶段解析，不受源码顺序影响。 */
+  /* 2026-09-19 第六版：纸本主题换成「新艺术」调色板，并设为全站默认主题。
+     此前新艺术只长在 body.page-home 上，另外 20 个页面还是旧的绿灰调 —— 看起来像另一个站。
+     风格因此提到主题层：导航/页脚/纸纹/玻璃/藤蔓花瓣 一律走 token，全站同源。 */
+  --bg: #F0E3CA;
+  --card: #FBF3E1;
+  --ink: #2B2318;
+  --soft: #5F5342;
+  --accent: #9C5A22;
+  --accent-soft: #F0E0C8;
+  --heat-3: #9C5A22;
+  --heat-3-ink: #FFF8EC;
+  --on-accent: #FFF8EC;
+  --accent-ink: #7A3F14;   /* 比 --accent 深一档：实测 #9C5A22 作文字压在花影上只有 3.29:1 */
   --nav-h: 60px;
-  --line: rgba(28,25,23,.12);
+  --line: rgba(76,90,50,.24);
   --serif: "Noto Serif SC", "Songti SC", "SimSun", Georgia, serif;
   --sans: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
-  --shadow: 0 8px 24px rgba(0,0,0,.06);
+  --shadow: 0 8px 24px rgba(43,35,24,.08);
   --radius: 14px;
-  /* 档案层（列表 / 导航 / 页脚）：深 chrome + 近方角 */
-  --chrome: #33302b;
-  --chrome-ink: #f2ece1;
-  --chrome-soft: #b3a898;
+  --chrome: #2A231A;
+  --chrome-ink: #F0E7D4;
+  --chrome-soft: #C9BCA1;
   --radius-archive: 2px;
-  /* 阅读层：正文栏宽（约 41 中文字/行） */
   --read: 700px;
   --mono: "SFMono-Regular", "JetBrains Mono", Consolas, "Liberation Mono", Menlo, monospace;
   --quote-line: color-mix(in srgb, var(--accent) 42%, var(--bg));
+  /* 新艺术装饰色（2026-09-19 第六版）：装饰用，不占强调色名额 */
+  --cv-paper:#F0E3CA; --cv-card:#FBF3E1; --cv-field:#FBF3E1;
+  --cv-olive:#4C5A32; --cv-gold:#B08428; --cv-ochre:#9C5A22; --cv-rust:#7E3B1E;
 }
 body[data-theme="green"] {
   --bg: #f2f0e6;
@@ -56,6 +48,9 @@ body[data-theme="green"] {
      （默认的森林主题恰好合格，所以一直没暴露）。每套主题各自定，见 docs/review-disposition.md */
   --heat-3: #2f6b4f;
   --heat-3-ink: #ffffff;
+  /* 新艺术装饰色（2026-09-19 第六版）：装饰用，不占强调色名额 */
+  --cv-paper:#f2f0e6; --cv-card:#fbfaf4; --cv-field:#fbfaf4;
+  --cv-olive:#46543a; --cv-gold:#a8842c; --cv-ochre:#8f5420; --cv-rust:#7a3a1c;
 }
 body[data-theme="dark"] {
   --bg: #171512;
@@ -75,6 +70,9 @@ body[data-theme="dark"] {
      最密档就用 accent 实色 + **深色文字**（对比度 7.35:1）。 */
   --heat-3: #d99a6c;
   --heat-3-ink: #1c1917;
+  /* 新艺术装饰色（2026-09-19 第六版）：装饰用，不占强调色名额 */
+  --cv-paper:#191612; --cv-card:#221E19; --cv-field:#2A251F;
+  --cv-olive:#849a63; --cv-gold:#d3ab52; --cv-ochre:#c9814a; --cv-rust:#c87441;
 }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
@@ -1263,7 +1261,9 @@ footer p a { text-decoration: underline; text-decoration-color: currentColor; }
    实测依据：首页强调色原为 6 种角色 31 处（绿 30 + 陶土红 1），风格卡要求 ≤4 处。
    收敛后只剩 3 种角色：刊头 / 行动链接 / 引文左边线。
    ============================================================ */
-body.page-home { --accent: #8B0000; --accent-soft: #f0dcd8; --accent-ink: #7a1a12; }
+/* 2026-09-19 第六版：这条"配色 C 单一暗红"的首页覆盖已撤销 —— 整站改成新艺术调色板后，
+   它还活着的话会把首页的 --accent/--accent-ink 拉回暗红（实测卡片上的"看专题 →"变成 #7a1a12，
+   与其余 20 页的赭色不一致）。强调色现在由 :root 的 --accent / --accent-ink 统一决定。 */
 
 /* ① 数字用墨色：数字是事实，事实不穿彩色制服（反而更稳） */
 .page-home .stat b { color: var(--ink); }
@@ -1275,8 +1275,8 @@ body.page-home { --accent: #8B0000; --accent-soft: #f0dcd8; --accent-ink: #7a1a1
    2026-09-19 第五版已删，改在末尾用"亮环 + 金色 active 环"处理可见性。 */
 
 /* ④ 纸纹：代码生成（feTurbulence），零素材零许可。两档备选，默认弱档。 */
-body.page-home::before {
-  content: ""; position: fixed; inset: 0; pointer-events: none; z-index: 0;
+body::before {
+  content: ""; position: fixed; inset: 0; pointer-events: none; z-index: 5;
   background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxODAnIGhlaWdodD0nMTgwJz48ZmlsdGVyIGlkPSduJz48ZmVUdXJidWxlbmNlIHR5cGU9J2ZyYWN0YWxOb2lzZScgYmFzZUZyZXF1ZW5jeT0nMC44JyBudW1PY3RhdmVzPSczJyBzdGl0Y2hUaWxlcz0nc3RpdGNoJy8+PC9maWx0ZXI+PHJlY3Qgd2lkdGg9JzE4MCcgaGVpZ2h0PScxODAnIGZpbHRlcj0ndXJsKCNuKScgb3BhY2l0eT0nMC41NScvPjwvc3ZnPg==");
   opacity: .30; mix-blend-mode: multiply;   /* 实测剂量曲线：.035 等于没有(SD .49)、.15 刚可察(SD .84)、.30 看得见(SD 1.64)、.55 偏重(SD 2.93)。取 .30 */
 }
@@ -1298,24 +1298,24 @@ body.page-home .stat-note { flex-basis: 100%; margin: 2px 0 0; font-family: var(
    层序：page-scene(0) → petal-layer(0) → main/hero(1) → 纸纹(2) → 导航(1000)
    作用域仍只 body.page-home。
    ============================================================ */
-body.page-home{
+body{
   position:relative;
   --cv-paper:#F0E3CA; --cv-card:#FBF3E1; --cv-field:#FBF3E1;
   --cv-ink:#2B2318; --cv-soft:#6E6047;
   --cv-olive:#4C5A32; --cv-gold:#B08428; --cv-ochre:#9C5A22; --cv-rust:#7E3B1E;
   --bg: var(--cv-paper);
 }
-body[data-theme="dark"].page-home{
+body[data-theme="dark"]{
   --cv-paper:#191612; --cv-card:#221E19; --cv-field:#2A251F;
   --cv-ink:#f0e9de; --cv-soft:#b4aa9d;
   --cv-olive:#849a63; --cv-gold:#d3ab52; --cv-ochre:#c9814a; --cv-rust:#c87441;
 }
 /* 纸纹抬到 z-index:2：封面里全是 relative 的层，停在 0 会漏掉它们，
    露出"没被噪声乘过"的净色块（第一版实测过：一圈明显可见的方框） */
-body.page-home::before{ z-index:5; }   /* 抬到玻璃之上：否则 z-index 3 的封面正文会把纸纹顶掉 */
+body::before{ z-index:5; }   /* 抬到玻璃之上：否则 z-index 3 的封面正文会把纸纹顶掉 */
 /* 内容抬到场景之上；页脚也要 —— 静态元素会被 z-index:0 的场景盖住 */
-body.page-home main,
-body.page-home footer{ position:relative; z-index:1; }
+main,
+footer{ position:relative; z-index:1; }
 
 /* ---------- 场景层：铺满整页 ---------- */
 .page-scene{ position:absolute; top:0; left:0; right:0; bottom:0; z-index:0;
@@ -1410,7 +1410,7 @@ body[data-theme="dark"] .scene-cluster img{ filter:invert(1) hue-rotate(180deg) 
   background:color-mix(in srgb, var(--cv-card) 88%, #fff); }
 .grid--cover > .portal-card h3{ color:var(--cv-olive); margin:0 0 8px; }
 .grid--cover > .portal-card p{ font-size:14px; line-height:1.9; }
-.grid--cover > .portal-card .go{ color:var(--cv-ochre); font-size:13px; letter-spacing:.16em; }
+.grid--cover > .portal-card .go{ color:var(--accent-ink); font-size:13px; letter-spacing:.16em; }
 
 @media (max-width:760px){
   .hero.cover{ padding:48px 0 44px; min-height:min(80vh,600px); }
@@ -1445,9 +1445,11 @@ body[data-theme="dark"] .scene-cluster img{ filter:invert(1) hue-rotate(180deg) 
    形制仍沿用新艺术的方角 + 橄榄细边：这是"磨砂玻璃板"，不是圆角 iOS 卡。
    降级：不支持 backdrop-filter 时把玻璃调成近乎不透明，至少不会变成脏灰。
    ============================================================ */
-body.page-home{
-  --glass:rgba(255,253,246,.34);
-  --glass-2:rgba(255,253,246,.52);
+body{
+  /* .34 → .40（2026-09-19 实测）：卡片里的"看专题 →"这类强调色文字压在花影上只有 3.69:1，
+     玻璃太透底就压不住。实测提到 .40 后再配合把强调色文字换成深一档的 --accent-ink → 4.84:1。 */
+  --glass:rgba(255,253,246,.40);
+  --glass-2:rgba(255,253,246,.58);
   --glass-line:rgba(255,255,255,.58);
   --glass-shadow:0 10px 32px rgba(43,35,24,.09);
   --glass-blur:blur(12px) saturate(1.2);
@@ -1455,7 +1457,7 @@ body.page-home{
   --foot-alpha:80%;
   --nav-ink:#d8dfd8; --nav-ink-2:#cdd5cd; --foot-ink:#cfd6cf;
 }
-body[data-theme="dark"].page-home{
+body[data-theme="dark"]{
   --glass:rgba(46,42,36,.38);
   --glass-2:rgba(46,42,36,.56);
   --glass-line:rgba(255,255,255,.14);
@@ -1465,15 +1467,20 @@ body[data-theme="dark"].page-home{
   --nav-ink:#e6ebe6; --nav-ink-2:#d8ded8; --foot-ink:#d6ddd6;
 }
 @supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){
-  body.page-home{ --glass:rgba(255,253,246,.9); --glass-2:rgba(255,253,246,.94); }
-  body[data-theme="dark"].page-home{ --glass:rgba(46,42,36,.93); --glass-2:rgba(46,42,36,.96); }
+  body{ --glass:rgba(255,253,246,.9); --glass-2:rgba(255,253,246,.94); }
+  body[data-theme="dark"]{ --glass:rgba(46,42,36,.93); --glass-2:rgba(46,42,36,.96); }
 }
-body.page-home .rows--plain,
-body.page-home .source-card,
-body.page-home .conf-item,
-body.page-home .grid--cover > .portal-card{
+/* 玻璃底上的**强调色文字**要用深一档的 --accent-ink：实测 #9C5A22 直接压在花影上只有 3.69:1 */
+:is(.card, .portal-card, .source-card, .case-card, .conf-item, .filters, .rows--plain)
+  :is(.go, .row-go, .row-entry, .row-flag){ color:var(--accent-ink); }
+:is(.card, .portal-card, .source-card, .case-card, .conf-item, .filters, .rows--plain){
   background:var(--glass);
   -webkit-backdrop-filter:var(--glass-blur); backdrop-filter:var(--glass-blur);
+  border-color:var(--glass-line);
+  box-shadow:var(--glass-shadow), inset 0 1px 0 var(--glass-line);
+}
+.searchbox input{
+  background:var(--glass); -webkit-backdrop-filter:var(--glass-blur); backdrop-filter:var(--glass-blur);
   border-color:var(--glass-line);
   box-shadow:var(--glass-shadow), inset 0 1px 0 var(--glass-line);
 }
@@ -1482,39 +1489,39 @@ body.page-home .grid--cover > .portal-card{
 /* 导航：磨砂但要够深。实测 62% 透明度时，深 chrome 合成到纸色上是 [118,119,106]，
    浅字 --chrome-soft 压上去只有 **2.07:1**（远低于 4.5）—— 玻璃把对比度拖垮了。
    76% + 把导航文字提亮到 #d8dfd8，实测 4.5:1 以上（见 _contrast_glass2 的输出）。 */
-body.page-home .topnav{
+.topnav{
   background:color-mix(in srgb, var(--chrome) var(--chrome-alpha), transparent);
   -webkit-backdrop-filter:var(--glass-blur); backdrop-filter:var(--glass-blur);
   border-bottom-color:color-mix(in srgb, var(--chrome-ink) 10%, transparent);
   box-shadow:0 1px 0 rgba(0,0,0,.12);
 }
-body.page-home .topnav .nav-group-btn{ color:var(--nav-ink); }
-body.page-home .topnav .nav-group-btn:hover,
-body.page-home .topnav .nav-group:focus-within .nav-group-btn,
-body.page-home .topnav .nav-group.open .nav-group-btn,
-body.page-home .topnav .nav-group.active .nav-group-btn{ color:var(--chrome-ink); }
-body.page-home .topnav .nav-menu-sub{ color:var(--nav-ink-2); }
-body.page-home .topnav .nav-menu{
+.topnav .nav-group-btn{ color:var(--nav-ink); }
+.topnav .nav-group-btn:hover,
+.topnav .nav-group:focus-within .nav-group-btn,
+.topnav .nav-group.open .nav-group-btn,
+.topnav .nav-group.active .nav-group-btn{ color:var(--chrome-ink); }
+.topnav .nav-menu-sub{ color:var(--nav-ink-2); }
+.topnav .nav-menu{
   background:color-mix(in srgb, var(--chrome) 78%, transparent);
   -webkit-backdrop-filter:var(--glass-blur); backdrop-filter:var(--glass-blur);
 }
 
 /* 首屏搜索框：玻璃 + 保留新艺术的橄榄细边 */
-body.page-home .hero.cover .searchbox input{
+.hero.cover .searchbox input{
   background:var(--glass);
   border-color:color-mix(in srgb, var(--cv-olive) 40%, transparent);
   -webkit-backdrop-filter:var(--glass-blur); backdrop-filter:var(--glass-blur);
   box-shadow:var(--glass-shadow), inset 0 1px 0 var(--glass-line);
 }
-body.page-home .hero.cover .searchbox input:focus{
+.hero.cover .searchbox input:focus{
   border-color:var(--cv-gold); background:var(--glass-2);
 }
 
 /* 列表：整体一张玻璃板，行与行之间仍是 hairline（档案层的读法不丢） */
-body.page-home .rows--plain{ border:1px solid var(--glass-line); padding:0 22px; }
-body.page-home .rows--plain .row{ border-bottom-color:color-mix(in srgb, var(--ink) 11%, transparent); }
-body.page-home .rows--plain .row:last-child{ border-bottom:0; }
-body.page-home .rows--plain .row:hover{ background:color-mix(in srgb, #fff 22%, transparent); }
+.rows--plain{ border:1px solid var(--glass-line); padding:0 22px; }
+.rows--plain .row{ border-bottom-color:color-mix(in srgb, var(--ink) 11%, transparent); }
+.rows--plain .row:last-child{ border-bottom:0; }
+.rows--plain .row:hover{ background:color-mix(in srgb, #fff 22%, transparent); }
 
 body.page-home .grid--cover > .portal-card::before{
   border-color:color-mix(in srgb, var(--cv-gold) 28%, transparent); }
@@ -1522,7 +1529,7 @@ body.page-home .grid--cover > .portal-card:hover{
   background:var(--glass-2); border-color:color-mix(in srgb, var(--cv-olive) 50%, transparent); }
 
 /* 页脚 = 磨砂 chrome */
-body.page-home footer{
+footer{
   background:color-mix(in srgb, var(--chrome) var(--foot-alpha), transparent);
   color:var(--foot-ink);
   -webkit-backdrop-filter:var(--glass-blur); backdrop-filter:var(--glass-blur);
@@ -1536,53 +1543,52 @@ body.page-home footer{
    ============================================================ */
 
 /* ---------- ① 导航：换成新艺术那套暖深墨 + 金线，和页面同一个颜色家族 ---------- */
-body.page-home{
+body{
   --nav-bg:#2A231A;
   --nav-ink:#F0E7D4;        /* 导航文字 = 纸色偏暖，不再是绿灰 */
   --nav-ink-2:#C9BCA1;
   --nav-line:color-mix(in srgb, var(--cv-gold) 32%, transparent);
 }
-body.page-home .topnav{
+.topnav{
   background:color-mix(in srgb, var(--nav-bg) 76%, transparent);
   border-bottom:1px solid var(--nav-line);
   box-shadow:0 1px 0 rgba(0,0,0,.16), 0 12px 30px rgba(30,24,16,.10);
 }
-body.page-home .topnav .inner{ height:62px; }
-body.page-home .topnav .brand{ color:var(--nav-ink); letter-spacing:.07em; }
-body.page-home .topnav .nav-group-btn{ color:var(--nav-ink-2); letter-spacing:.1em; }
-body.page-home .topnav .nav-group-btn:hover,
-body.page-home .topnav .nav-group:focus-within .nav-group-btn,
-body.page-home .topnav .nav-group.open .nav-group-btn{ color:var(--nav-ink); }
-body.page-home .topnav .nav-group.active .nav-group-btn,
-body.page-home .topnav .nav-group-btn[aria-expanded="true"]{
+.topnav .inner{ height:62px; }
+.topnav .brand{ color:var(--nav-ink); letter-spacing:.07em; }
+.topnav .nav-group-btn{ color:var(--nav-ink-2); letter-spacing:.1em; }
+.topnav .nav-group-btn:hover,
+.topnav .nav-group:focus-within .nav-group-btn,
+.topnav .nav-group.open .nav-group-btn{ color:var(--nav-ink); }
+.topnav .nav-group.active .nav-group-btn,
+.topnav .nav-group-btn[aria-expanded="true"]{
   color:var(--nav-ink); box-shadow:inset 0 -2px 0 var(--cv-gold);
 }
-body.page-home .topnav .nav-menu{
+.topnav .nav-menu{
   background:color-mix(in srgb, var(--nav-bg) 90%, transparent);
   border:1px solid var(--nav-line);
 }
-body.page-home .topnav .nav-menu-sub{ color:var(--nav-ink-2); }
+.topnav .nav-menu-sub{ color:var(--nav-ink-2); }
 /* 主题圆点：原来 .page-home .dot 想用 --ink 去色，但 theme.js 是**内联**写 background 的，
    那条规则一直没生效（死代码，已删）。真正的问题是夜读那个点 #1c1917 画在深导航上 = 看不见。
    修法：保留每个主题自己的颜色（那是有意义的色标），给一圈亮环。 */
-body.page-home .dot{ border-color:color-mix(in srgb, var(--nav-ink) 42%, transparent); }
-body.page-home .dot.active{
+.dot{ border-color:color-mix(in srgb, var(--nav-ink) 42%, transparent); }
+.dot.active{
   border-color:var(--cv-gold);
   box-shadow:0 0 0 3px color-mix(in srgb, var(--cv-gold) 22%, transparent);
 }
-/* 强调色也归到新艺术这一支：暗红是上一版（配色 C）的遗留，现在整页是新艺术 + 玻璃 */
-body.page-home{
-  --accent:var(--cv-ochre); --accent-ink:var(--cv-ochre);
-  --accent-soft:color-mix(in srgb, var(--cv-ochre) 16%, transparent);
-}
+/* 强调色已统一到 :root（--accent #9C5A22 / --accent-ink #7A3F14）。
+   **这里不能再用 body{ --accent-ink: … } 去覆盖** —— body 与 :root 是两个元素，
+   自定义属性是继承的，写在 body 上会盖掉 html 上的值，而且比它是"权重更高"更麻烦：
+   它看起来像同一条规则，实际是遮蔽。实测就踩了：卡片上的"看专题 →"一直拿不到加深的那档。 */
 
 /* ---------- ② 视差层次：文字 1.0 / 花丛 0.20 / 藤蔓 0.10 ---------- */
-body.page-home .scene-cluster{ transform:translate3d(0,var(--py,0px),0) var(--xform,none); }
-body.page-home .scene-cluster.c1{ --xform:rotate(-7deg); }
-body.page-home .scene-cluster.c2{ --xform:rotate(6deg) scaleX(-1); }
-body.page-home .scene-cluster.c3{ --xform:rotate(-5deg) scaleX(-1); }
-body.page-home .page-vine.l{ transform:translate3d(0,var(--py,0px),0); }
-body.page-home .page-vine.r{ transform:translate3d(0,var(--py,0px),0) scaleX(-1); }
+.scene-cluster{ transform:translate3d(0,var(--py,0px),0) var(--xform,none); }
+.scene-cluster.c1{ --xform:rotate(-7deg); }
+.scene-cluster.c2{ --xform:rotate(6deg) scaleX(-1); }
+.scene-cluster.c3{ --xform:rotate(-5deg) scaleX(-1); }
+.page-vine.l{ transform:translate3d(0,var(--py,0px),0); }
+.page-vine.r{ transform:translate3d(0,var(--py,0px),0) scaleX(-1); }
 
 /* ---------- ③ 夜读：花束 invert 之后是一块棕色板（实测四个滚动位置都在）----------
    根源是 JPEG 的米色底被翻成了褐色，整块矩形一起翻。
@@ -1597,8 +1603,11 @@ body[data-theme="dark"] .cv-motif{ opacity:.58; }
 body[data-theme="dark"] .scene-cluster{ opacity:.32; }
 
 @media (prefers-reduced-transparency: reduce){
-  body.page-home{ --glass:rgba(255,253,246,.94); --glass-2:rgba(255,253,246,.97); }
-  body[data-theme="dark"].page-home{ --glass:rgba(46,42,36,.96); --glass-2:rgba(46,42,36,.98); }
-  body.page-home .topnav, body.page-home footer{ background:var(--chrome); }
+  body{ --glass:rgba(255,253,246,.94); --glass-2:rgba(255,253,246,.97); }
+  body[data-theme="dark"]{ --glass:rgba(46,42,36,.96); --glass-2:rgba(46,42,36,.98); }
+  .topnav, footer{ background:var(--chrome); }
 }
 
+/* 子页面：藤蔓更细更淡 —— 首页是封面层，其余 20 页是档案层/阅读层，装饰要退到页边 */
+body:not(.page-home) .page-vine{ width:150px; opacity:.38; }
+body:not(.page-home) .petal-layer{ opacity:.7; }

@@ -23,7 +23,7 @@
 <meta name="twitter:image" content="https://craeatzeven.github.io/sukhomlinsky-education-kb/web/og.png" />
 <!-- social:end -->
 <link rel="icon" href="icon.svg" type="image/svg+xml" />
-<link rel="stylesheet" href="style.css?v=20260919a" />
+<link rel="stylesheet" href="style.css?v=20260919b" />
 </head>
 <body class="page-home">
 <div class="page-scene" aria-hidden="true">
@@ -247,131 +247,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 </script>
-<script>
-/* 首页场景（2026-09-19 第三版：铺满整页）
-   - 花卉垫底：首屏一株 + 页面中下段两丛（低透明度、出血到页边）
-   - 藤蔓：按整页高度**程序生成** —— 不是把一张 1000 单位的路径拉长，那会把叶子拉变形
-   - 花瓣：固定在视口层，滚到哪都在落
-   全部在 prefers-reduced-motion 下让位。 */
-(function () {
-  var doc = document;
-  var scene = doc.querySelector('.page-scene');
-  if (!scene) return;
-  var reduced = window.matchMedia('(prefers-reduced-motion: reduce)');
-  var hero = doc.querySelector('.hero.cover');
-  var art  = scene.querySelector('.scene-hero');
-  var text = hero && hero.querySelector('.cv-text');
-
-  /* ---------- 花瓣 ---------- */
-  var SHAPES = [
-    '<svg viewBox="0 0 24 34" xmlns="http://www.w3.org/2000/svg"><path d="M12 0C19 8 21 19 12 34 3 19 5 8 12 0Z" fill="#9C5A22" opacity=".85"/><path d="M12 5C13.4 13 13.8 22 12 29" stroke="#F0E3CA" stroke-width=".9" fill="none" opacity=".55"/></svg>',
-    '<svg viewBox="0 0 30 22" xmlns="http://www.w3.org/2000/svg"><path d="M1 20C1 9 10 1 29 1 29 12 20 20 1 20Z" fill="#4C5A32" opacity=".8"/><path d="M3 18C10 13 18 7 27 3" stroke="#F0E3CA" stroke-width=".9" fill="none" opacity=".5"/></svg>',
-    '<svg viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg"><g fill="#B08428" opacity=".78"><ellipse cx="14" cy="6" rx="4" ry="6"/><ellipse cx="22" cy="14" rx="6" ry="4"/><ellipse cx="14" cy="22" rx="4" ry="6"/><ellipse cx="6" cy="14" rx="6" ry="4"/></g><circle cx="14" cy="14" r="3.4" fill="#9C5A22"/></svg>'
-  ];
-  var layer = doc.getElementById('petalLayer');
-  if (layer && !reduced.matches) {
-    for (var i = 0; i < 16; i++) {
-      var el = doc.createElement('span');
-      el.className = 'cv-petal';
-      el.style.setProperty('--x', (Math.random() * 96 + 2).toFixed(2) + '%');
-      el.style.setProperty('--dx', (Math.random() * 16 - 8).toFixed(1) + 'vw');
-      el.style.setProperty('--s', (0.5 + Math.random() * 0.85).toFixed(2));
-      el.style.setProperty('--d', (12 + Math.random() * 11).toFixed(1) + 's');
-      el.style.setProperty('--delay', (-Math.random() * 20).toFixed(1) + 's');
-      el.style.setProperty('--rot', Math.round(Math.random() * 760 - 380) + 'deg');
-      el.innerHTML = SHAPES[i % SHAPES.length];
-      layer.appendChild(el);
-    }
-  }
-
-  /* ---------- 藤蔓：按整页高度生成 ---------- */
-  var LEAF = 'M0,0 C9,-2 17,-11 15,-23 C2,-22 -6,-11 -4,1 Z';
-  var RIB  = 'M0,0 C4,-6 8,-15 13,-20';
-  var TEND = 'M2,-4 C14,-2 22,-10 20,-22 C19,-29 11,-30 8,-25 C6,-21 9,-18 13,-19 C16,-20 17,-23 16,-25';
-  function buildVine(svg, W, H, phase) {
-    if (!svg) return;
-    svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
-    svg.setAttribute('width', W);
-    svg.setAttribute('height', H);
-    svg.style.height = H + 'px';
-    var cx = W * 0.5, amp = W * 0.17, period = 720;
-    var top = [], bot = [], y, c, t, w;
-    for (y = 0; y <= H; y += 7) {
-      c = cx + amp * Math.sin(2 * Math.PI * y / period + phase);
-      t = (y % (period * 0.5)) / (period * 0.5);
-      w = 1.7 + 3.3 * Math.sin(Math.PI * t);
-      top.push((c - w).toFixed(1) + ',' + y);
-      bot.push((c + w).toFixed(1) + ',' + y);
-    }
-    var out = ['<path class="stem" d="M' + top.join('L') + 'L' + bot.reverse().join('L') + 'Z"/>'];
-    var k = 0;
-    for (y = 150; y < H - 120; y += 210) {
-      c = cx + amp * Math.sin(2 * Math.PI * y / period + phase);
-      var slope = amp * (2 * Math.PI / period) * Math.cos(2 * Math.PI * y / period + phase);
-      var ang = Math.atan(slope) * 180 / Math.PI;
-      var dir = (k % 2 === 0) ? 1 : -1;
-      var s = 0.85 + 0.4 * ((k % 3) / 2);
-      var xf = 'translate(' + c.toFixed(1) + ',' + y + ') rotate(' + (ang + dir * 36).toFixed(1) +
-               ') scale(' + (dir * s).toFixed(2) + ',' + s.toFixed(2) + ')';
-      out.push('<g transform="' + xf + '"><path class="leaf" d="' + LEAF + '"/><path class="rib" d="' + RIB + '"/></g>');
-      if (k % 3 === 1) {
-        out.push('<g transform="translate(' + c.toFixed(1) + ',' + (y + 96) + ') rotate(' +
-                 (-ang - dir * 20).toFixed(1) + ') scale(' + (dir * 0.9).toFixed(2) + ',0.9)"><path class="stem" opacity=".8" d="' + TEND + '"/></g>');
-      }
-      if (k % 4 === 2) {
-        out.push('<circle class="bud" cx="' + (c + dir * 13).toFixed(1) + '" cy="' + (y + 34) + '" r="4.8"/>');
-      }
-      k++;
-    }
-    svg.innerHTML = out.join('');
-  }
-
-  var H = 0;
-  function layout() {
-    var fh = (doc.querySelector('footer') || {}).offsetHeight || 0;
-    H = Math.max(doc.documentElement.scrollHeight - fh, 900);   // 藤蔓到页脚为止
-    scene.style.height = (H + fh) + 'px';
-    buildVine(scene.querySelector('.page-vine.l'), 190, H, 0);
-    buildVine(scene.querySelector('.page-vine.r'), 190, H, Math.PI);
-    if (art && hero) art.style.top = (hero.offsetTop + hero.offsetHeight / 2) + 'px';
-  }
-
-  /* ---------- 视差：文字 1.0 / 花丛 0.20 / 藤蔓 0.10 —— 三层不同速度才有层次 ---------- */
-  var PAR = [
-    [scene.querySelector('.page-vine.l'), 0.10],
-    [scene.querySelector('.page-vine.r'), 0.10],
-    [scene.querySelector('.scene-cluster.c1'), 0.20],
-    [scene.querySelector('.scene-cluster.c2'), 0.20],
-    [scene.querySelector('.scene-cluster.c3'), 0.20]
-  ];
-  var ticking = false;
-  function frame() {
-    ticking = false;
-    if (reduced.matches) return;
-    var h = (hero && hero.offsetHeight) || 1;
-    var p = Math.min(window.scrollY, h) / h;
-    if (text) {
-      text.style.transform = 'translate3d(0,' + (-p * 54).toFixed(1) + 'px,0)';
-      text.style.opacity = Math.max(0, 1 - p * 1.2).toFixed(3);
-    }
-    if (art) {
-      art.style.transform = 'translate(-50%,-50%) translate3d(0,' + (p * 82).toFixed(1) +
-                            'px,0) scale(' + (1 + p * 0.06).toFixed(3) + ')';
-    }
-    var s = window.scrollY;
-    for (var i = 0; i < PAR.length; i++) {
-      if (PAR[i][0]) PAR[i][0].style.setProperty('--py', (s * PAR[i][1]).toFixed(1) + 'px');
-    }
-  }
-  var rt;
-  window.addEventListener('resize', function () { clearTimeout(rt); rt = setTimeout(layout, 250); });
-  window.addEventListener('scroll', function () {
-    if (!ticking) { ticking = true; requestAnimationFrame(frame); }
-  }, { passive: true });
-  if (doc.fonts && doc.fonts.ready) doc.fonts.ready.then(layout);
-  layout();
-  frame();
-})();
-</script>
+<script src="scene.js?v=20260919"></script>
 </body>
 </html>

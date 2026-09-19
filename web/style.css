@@ -1551,7 +1551,12 @@ body[data-theme="dark"]{
 /* 玻璃底上的**强调色文字**要用深一档的 --accent-ink：实测 #9C5A22 直接压在花影上只有 3.69:1 */
 :is(.card, .portal-card, .source-card, .case-card, .conf-item, .filters, .rows--plain)
   :is(.go, .row-go, .row-entry, .row-flag){ color:var(--accent-ink); }
-:is(.card, .portal-card, .source-card, .case-card, .conf-item, .filters, .rows--plain){
+/* 2026-09-20 第二十四版：审计（_glass_audit.py 逐页量）挑出三块「够大却实心」的板子 ——
+   分类总图的 .tax-way、思想地图的 .rel-col、检索页的 .kb-bar。它们写的是 background:var(--card)，
+   而玻璃那张 :is(...) 名单里没有它们。**和首页入口卡是同一个病**：名单是白名单，漏一个就实心一个。
+   加进名单即可 —— 这条规则在文件末尾，同特异性下它赢。 */
+:is(.card, .portal-card, .source-card, .case-card, .conf-item, .filters, .rows--plain,
+    .tax-way, .tax-way--switch, .rel-col, .kb-bar){
   background:var(--glass); background-image:var(--sheen);
   -webkit-backdrop-filter:var(--glass-blur); backdrop-filter:var(--glass-blur);
   border-color:var(--glass-line);

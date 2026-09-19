@@ -1313,7 +1313,7 @@ body[data-theme="dark"].page-home{
 }
 /* 纸纹抬到 z-index:2：封面里全是 relative 的层，停在 0 会漏掉它们，
    露出"没被噪声乘过"的净色块（第一版实测过：一圈明显可见的方框） */
-body.page-home::before{ z-index:2; }
+body.page-home::before{ z-index:5; }   /* 抬到玻璃之上：否则 z-index 3 的封面正文会把纸纹顶掉 */
 /* 内容抬到场景之上；页脚也要 —— 静态元素会被 z-index:0 的场景盖住 */
 body.page-home main,
 body.page-home footer{ position:relative; z-index:1; }
@@ -1334,14 +1334,16 @@ body[data-theme="dark"] .cv-motif{ filter:invert(1) hue-rotate(180deg) brightnes
   opacity:.42; }
 
 /* 页面中下段的花丛：出血到页边，避开正文栏 */
-.scene-cluster{ position:absolute; width:min(620px,72vw); opacity:.2; }
+.scene-cluster{ position:absolute; width:min(620px,72vw); opacity:.3; }
 .scene-cluster img{ display:block; width:100%; height:auto;
   -webkit-mask-image:radial-gradient(ellipse 60% 56% at 50% 50%, #000 40%, transparent 80%);
           mask-image:radial-gradient(ellipse 60% 56% at 50% 50%, #000 40%, transparent 80%); }
 body[data-theme="dark"] .scene-cluster img{ filter:invert(1) hue-rotate(180deg) brightness(.9) saturate(.75); }
-.scene-cluster.c1{ left:-34%; top:36%; transform:rotate(-7deg); }
-.scene-cluster.c2{ right:-34%; top:64%; transform:rotate(6deg) scaleX(-1); }
-.scene-cluster.c3{ left:-30%; top:84%; transform:rotate(-5deg) scaleX(-1); }
+/* 位置：**要压在玻璃面板底下**，玻璃才有东西可透 —— 只贴页边等于白做（第四版实测：
+   贴边时开关 backdrop-filter 只有 6.5% 的像素变，因为玻璃后面什么都没有） */
+.scene-cluster.c1{ left:-8%; top:29%; transform:rotate(-7deg); }
+.scene-cluster.c2{ right:-8%; top:52%; transform:rotate(6deg) scaleX(-1); }
+.scene-cluster.c3{ left:-5%; top:78%; transform:rotate(-5deg) scaleX(-1); }
 
 /* 藤蔓：由脚本按整页高度生成，左右各一条 */
 .page-vine{ position:absolute; top:0; width:190px; color:var(--cv-olive);
@@ -1368,7 +1370,9 @@ body[data-theme="dark"] .scene-cluster img{ filter:invert(1) hue-rotate(180deg) 
 
 /* ---------- 封面（首屏） ---------- */
 .hero.cover{ position:relative; z-index:1; padding:64px 0; min-height:min(88vh,780px);
-  display:flex; align-items:center; overflow:hidden; isolation:isolate; }
+  display:flex; align-items:center; overflow:hidden; }
+/* 这里**不能**加 isolation:isolate —— 它会成为 backdrop root，把玻璃的取样范围切到 hero 内部，
+   于是搜索框后面什么也"看不见"（花在 hero 之外）。第四版实测过。 */
 .hero.cover .wrap{ position:relative; z-index:3; width:100%; }
 /* 文字后面的纸色柔光：花在文字正后方，柔光是量过对比度才定的 */
 .cover-veil{ position:absolute; inset:0; z-index:2; pointer-events:none;
@@ -1413,9 +1417,9 @@ body[data-theme="dark"] .scene-cluster img{ filter:invert(1) hue-rotate(180deg) 
   .hero.cover{ padding:48px 0 44px; min-height:min(80vh,600px); }
   .scene-hero{ width:min(360px,84vw); }
   .scene-cluster{ width:min(420px,88vw); opacity:.12; }
-  .scene-cluster.c1{ left:-40%; top:30%; }
-  .scene-cluster.c2{ right:-40%; top:62%; }
-  .scene-cluster.c3{ left:-38%; top:84%; }
+  .scene-cluster.c1{ left:-30%; top:28%; }
+  .scene-cluster.c2{ right:-30%; top:52%; }
+  .scene-cluster.c3{ left:-26%; top:78%; }
   .hero.cover h1{ font-size:clamp(23px,7vw,32px); }
   .cv-quote{ font-size:17px; line-height:1.85; margin-top:14px; }
   .hero.cover .searchbox{ margin-top:24px; flex-direction:row; align-items:stretch; }
@@ -1429,3 +1433,104 @@ body[data-theme="dark"] .scene-cluster img{ filter:invert(1) hue-rotate(180deg) 
   .cv-text, .scene-hero{ transform:none !important; opacity:1 !important; }
   .scene-hero{ transform:translate(-50%,-50%) !important; }
 }
+
+/* ============================================================
+   首页 · 玻璃层（2026-09-19 第四版）
+   ------------------------------------------------------------
+   用户：「整个页面要有玻璃的通透感」。
+   做法：所有「面」改成磨砂玻璃（半透明 + backdrop-filter），垫在下面的花卉从玻璃后面透出来。
+   **两个前提，缺一个玻璃就是一块灰板**：
+   ① 场景必须真的在玻璃后面（page-scene z-index:0 / 内容 1）—— 第三版已经成立；
+   ② **祖先里不能有 backdrop root**。\`.hero.cover\` 原来带 isolation:isolate，
+      它会把 backdrop-filter 的取样范围切到 hero 内部（玻璃只看得见 hero 里的透明，看不见花）→ 本版删掉。
+   形制仍沿用新艺术的方角 + 橄榄细边：这是"磨砂玻璃板"，不是圆角 iOS 卡。
+   降级：不支持 backdrop-filter 时把玻璃调成近乎不透明，至少不会变成脏灰。
+   ============================================================ */
+body.page-home{
+  --glass:rgba(255,253,246,.34);
+  --glass-2:rgba(255,253,246,.52);
+  --glass-line:rgba(255,255,255,.58);
+  --glass-shadow:0 10px 32px rgba(43,35,24,.09);
+  --glass-blur:blur(12px) saturate(1.2);
+  --chrome-alpha:76%;
+  --foot-alpha:80%;
+  --nav-ink:#d8dfd8; --nav-ink-2:#cdd5cd; --foot-ink:#cfd6cf;
+}
+body[data-theme="dark"].page-home{
+  --glass:rgba(46,42,36,.38);
+  --glass-2:rgba(46,42,36,.56);
+  --glass-line:rgba(255,255,255,.14);
+  --glass-shadow:0 10px 32px rgba(0,0,0,.38);
+  --chrome-alpha:82%;
+  --foot-alpha:84%;
+  --nav-ink:#e6ebe6; --nav-ink-2:#d8ded8; --foot-ink:#d6ddd6;
+}
+@supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){
+  body.page-home{ --glass:rgba(255,253,246,.9); --glass-2:rgba(255,253,246,.94); }
+  body[data-theme="dark"].page-home{ --glass:rgba(46,42,36,.93); --glass-2:rgba(46,42,36,.96); }
+}
+body.page-home .rows--plain,
+body.page-home .source-card,
+body.page-home .conf-item,
+body.page-home .grid--cover > .portal-card{
+  background:var(--glass);
+  -webkit-backdrop-filter:var(--glass-blur); backdrop-filter:var(--glass-blur);
+  border-color:var(--glass-line);
+  box-shadow:var(--glass-shadow), inset 0 1px 0 var(--glass-line);
+}
+
+/* 导航 = 磨砂深 chrome（深色也透，滚动时能看见底下的花在动） */
+/* 导航：磨砂但要够深。实测 62% 透明度时，深 chrome 合成到纸色上是 [118,119,106]，
+   浅字 --chrome-soft 压上去只有 **2.07:1**（远低于 4.5）—— 玻璃把对比度拖垮了。
+   76% + 把导航文字提亮到 #d8dfd8，实测 4.5:1 以上（见 _contrast_glass2 的输出）。 */
+body.page-home .topnav{
+  background:color-mix(in srgb, var(--chrome) var(--chrome-alpha), transparent);
+  -webkit-backdrop-filter:var(--glass-blur); backdrop-filter:var(--glass-blur);
+  border-bottom-color:color-mix(in srgb, var(--chrome-ink) 10%, transparent);
+  box-shadow:0 1px 0 rgba(0,0,0,.12);
+}
+body.page-home .topnav .nav-group-btn{ color:var(--nav-ink); }
+body.page-home .topnav .nav-group-btn:hover,
+body.page-home .topnav .nav-group:focus-within .nav-group-btn,
+body.page-home .topnav .nav-group.open .nav-group-btn,
+body.page-home .topnav .nav-group.active .nav-group-btn{ color:var(--chrome-ink); }
+body.page-home .topnav .nav-menu-sub{ color:var(--nav-ink-2); }
+body.page-home .topnav .nav-menu{
+  background:color-mix(in srgb, var(--chrome) 78%, transparent);
+  -webkit-backdrop-filter:var(--glass-blur); backdrop-filter:var(--glass-blur);
+}
+
+/* 首屏搜索框：玻璃 + 保留新艺术的橄榄细边 */
+body.page-home .hero.cover .searchbox input{
+  background:var(--glass);
+  border-color:color-mix(in srgb, var(--cv-olive) 40%, transparent);
+  -webkit-backdrop-filter:var(--glass-blur); backdrop-filter:var(--glass-blur);
+  box-shadow:var(--glass-shadow), inset 0 1px 0 var(--glass-line);
+}
+body.page-home .hero.cover .searchbox input:focus{
+  border-color:var(--cv-gold); background:var(--glass-2);
+}
+
+/* 列表：整体一张玻璃板，行与行之间仍是 hairline（档案层的读法不丢） */
+body.page-home .rows--plain{ border:1px solid var(--glass-line); padding:0 22px; }
+body.page-home .rows--plain .row{ border-bottom-color:color-mix(in srgb, var(--ink) 11%, transparent); }
+body.page-home .rows--plain .row:last-child{ border-bottom:0; }
+body.page-home .rows--plain .row:hover{ background:color-mix(in srgb, #fff 22%, transparent); }
+
+body.page-home .grid--cover > .portal-card::before{
+  border-color:color-mix(in srgb, var(--cv-gold) 28%, transparent); }
+body.page-home .grid--cover > .portal-card:hover{
+  background:var(--glass-2); border-color:color-mix(in srgb, var(--cv-olive) 50%, transparent); }
+
+/* 页脚 = 磨砂 chrome */
+body.page-home footer{
+  background:color-mix(in srgb, var(--chrome) var(--foot-alpha), transparent);
+  color:var(--foot-ink);
+  -webkit-backdrop-filter:var(--glass-blur); backdrop-filter:var(--glass-blur);
+}
+@media (prefers-reduced-transparency: reduce){
+  body.page-home{ --glass:rgba(255,253,246,.94); --glass-2:rgba(255,253,246,.97); }
+  body[data-theme="dark"].page-home{ --glass:rgba(46,42,36,.96); --glass-2:rgba(46,42,36,.98); }
+  body.page-home .topnav, body.page-home footer{ background:var(--chrome); }
+}
+

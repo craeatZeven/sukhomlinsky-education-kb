@@ -1365,8 +1365,16 @@ body::before{ z-index:5; }   /* 抬到玻璃之上：否则 z-index 3 的封面�
      · reduced-motion 下动画停掉（光还在，只是不动）；reduced-transparency 下整层不出现。
    ============================================================ */
 body::after{
-  /* inset 只留够位移的余量（位移 ±7% / 旋转 ±1.6°）—— 层越小，合成越便宜 */
+  /* 2026-09-20 第二版：用户贴了 latest.html 的截图 ——「光影好像有点过了，我想要的不是这种效果」。
+     实测那一版的整屏剂量 6.05：整页被冲成一片惨白，标题几乎看不见，
+     而且**玻璃反而不像玻璃了** —— 背后一片均匀的亮，玻璃没东西可透，就成了一块亮板。
+     所以这两条是一件事：**光越强，玻璃越不明显**。
+     现在：剂量砍到约 1/3（opacity 控制，烘焙图不动）。 */
   content:""; position:fixed; inset:-12% -10%; z-index:0; pointer-events:none;
+  /* 四版对照实测（_v27_light_ab.png：A 关掉 / B .16 / C .32 / D 侧光）：
+     **光越强，玻璃越不像玻璃** —— 背后一片均匀的亮，玻璃没东西可透。
+     取 .18：光还在（页面不死），但不再把标题和文字冲淡。 */
+  opacity:.18;
   /* 2026-09-20 用户：「光影我想试试那个树影斑斓的，做得明显一些」。
      从「三团大柔光」换成「**多片不规则光斑**」：
        · 光斑用**椭圆**（radial-gradient 带两个半径）而不是圆 —— 叶子挡出来的光本来就是拉长的；
@@ -1570,11 +1578,12 @@ body{
         没有它，半透明面板只是「半透明面板」。 */
   --glass:rgba(255,253,246,.30);
   --glass-2:rgba(255,253,246,.46);
-  --glass-line:rgba(255,255,255,.62);
-  --glass-shadow:0 12px 36px rgba(43,35,24,.10);
+  --glass-line:rgba(255,255,255,.78);
+  /* 玻璃要读得出来，靠的不是更透，是**边**：上沿一道亮线 + 下沿一道内阴影 + 外投影。 */
+  --glass-shadow:0 14px 40px rgba(43,35,24,.16), inset 0 -1px 0 rgba(43,35,24,.07);
   --glass-blur:blur(17px) saturate(1.35);
-  --sheen:linear-gradient(135deg, rgba(255,255,255,.34) 0%, rgba(255,255,255,.12) 24%,
-          rgba(255,255,255,0) 46%);
+  --sheen:linear-gradient(135deg, rgba(255,255,255,.44) 0%, rgba(255,255,255,.16) 22%,
+          rgba(255,255,255,0) 44%);
   --chrome-alpha:72%;
   --foot-alpha:76%;
   --nav-ink:#d8dfd8; --nav-ink-2:#cdd5cd; --foot-ink:#cfd6cf;
@@ -1582,8 +1591,8 @@ body{
 body[data-theme="dark"]{
   --glass:rgba(46,42,36,.30);
   --glass-2:rgba(46,42,36,.46);
-  --glass-line:rgba(255,255,255,.16);
-  --glass-shadow:0 12px 36px rgba(0,0,0,.40);
+  --glass-line:rgba(255,255,255,.22);
+  --glass-shadow:0 14px 40px rgba(0,0,0,.46), inset 0 -1px 0 rgba(0,0,0,.30);
   --sheen:linear-gradient(135deg, rgba(255,255,255,.16) 0%, rgba(255,255,255,.05) 24%,
           rgba(255,255,255,0) 46%);
   --chrome-alpha:82%;
@@ -1862,6 +1871,13 @@ body:not(.page-home) .docs-block{
 .reading{ border-left:3px solid var(--quote-line); padding:3px 36px 0 24px; }
 .reading p{ margin:0; font-family:var(--serif); font-size:17px; line-height:1.9; max-width:700px; }
 .reading p + p{ margin-top:12px; }
+/* 2026-09-20：`.reading` 是**引文块**的样子（左边线 + 缩进 + 衬线正文）。
+   guide.html 把它套在 <main> 上（<main class="wrap reading">），于是整页多出一条金线、
+   内容整体右移 24px —— 那是引文块的语言，不是页面的语言，别的页一个都没有。
+   那页真正要的是**阅读栏宽**（.reading > section > p 的 max-width），不是那条线：
+   所以只撤「块」的部分，宽度约束留着。
+   （第一版把这条写进了 @media 里，只在窄屏生效 —— 特异性对，位置错了，实测没生效才发现的。） */
+main.reading{ border-left:0; padding:0 22px; }
 
 @media (max-width:720px){
   .thesis{ grid-template-columns:32px minmax(0,1fr); gap:0 10px; }

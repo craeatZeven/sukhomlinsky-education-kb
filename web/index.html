@@ -57,6 +57,11 @@
 </nav>
 
 <header class="hero cover">
+  <div class="cover-scene" aria-hidden="true">
+    <div class="cover-art"><img class="cv-motif" src="motif.jpg" width="561" height="720" alt="" /></div>
+    <div class="cover-petals" id="coverPetals"></div>
+  </div>
+  <div class="cover-veil" aria-hidden="true"></div>
 <svg class="cv-vine l" viewBox="0 0 150 1000" preserveAspectRatio="none">
 <!-- 主干：三条渐细的带，起笔粗收笔尖（fill 轮廓，不是等宽 stroke） -->
 <path class="stem" d="M92,0 C92,58 62,92 60,146 C58,200 34,232 36,286 L40,286 C38,232 62,200 64,146 C66,92 96,58 96,0 Z"/>
@@ -100,23 +105,16 @@
 <path class="bud" d="M88,684 C96,684 100,690 98,698 C96,706 88,710 82,706 C76,702 78,690 88,684 Z"/>
 </svg>
   <div class="wrap">
-    <div class="cv-band"><svg width="280" height="20" viewBox="0 0 280 20">
-  <path  fill="currentColor" d="M2,10 C26,2 42,18 66,10 C90,2 106,18 130,10 C154,2 170,18 194,10 C218,2 234,18 258,10 L258,12 C234,20 218,4 194,12 C170,20 154,4 130,12 C106,20 90,4 66,12 C42,20 26,4 2,12 Z"/>
-  <path  fill="currentColor" d="M274,10 C278,6 282,6 284,10 C282,14 278,14 274,10 Z"/>
- </svg></div>
-    <img class="cv-motif" src="motif.jpg" width="252" height="323" alt="新艺术风格花束装饰：麦穗、矢车菊与雏菊" />
-    <div class="kicker">Sukhomlinsky Education KB</div>
-    <div class="cv-titleblock">
-      <svg class="cv-arch" viewBox="0 0 640 230" aria-hidden="true"><path class="stem" opacity=".9" d="M320,2 C320,34 250,38 186,74 C122,110 108,164 130,218 L136,218 C116,166 128,114 190,79 C252,44 324,42 324,4 Z"/><path class="stem" opacity=".9" d="M320,2 C320,34 390,38 454,74 C518,110 532,164 510,218 L504,218 C524,166 512,114 450,79 C388,44 316,42 316,4 Z"/><path class="leaf" opacity=".7" d="M131,214 c-15,-7 -23,-20 -20,-33 c15,5 24,18 20,33 Z"/><path class="leaf" opacity=".7" d="M509,214 c15,-7 23,-20 20,-33 c-15,5 -24,18 -20,33 Z"/><path class="leaf" opacity=".55" d="M186,74 c-3,-14 3,-25 15,-30 c4,13 -2,25 -15,30 Z"/><path class="leaf" opacity=".55" d="M454,74 c3,-14 -3,-25 -15,-30 c-4,13 2,25 15,30 Z"/></svg>
+    <div class="cv-text">
+      <div class="kicker">Sukhomlinsky Education KB</div>
       <h1>苏霍姆林斯基教育知识库</h1>
-      <blockquote class="cv-quote">一个人只有在他懂得爱的时候，才会成为真正的人。</blockquote>
+      <p class="cv-quote">一个人只有在他懂得爱的时候，才会成为真正的人。</p>
     </div>
-    <div class="searchbox" style="max-width:600px">
+    <div class="searchbox">
       <input aria-label="搜索卡片" id="heroSearch" type="search" placeholder="搜索卡片：后进生、说谎、劳动教育、坐不住……" />
       <button class="chip" id="heroSearchBtn" type="button">检索</button>
     </div>
-    <div class="stats" id="stats"></div>
-    <div class="cv-divider" aria-hidden="true"><i></i><span>&#10022;</span><i></i></div>
+    <p class="cv-figure" id="coverFigure">1386 张卡片 · 541 篇做人的故事 · 13 书源 · 12 主题</p>
   </div>
 </header>
 
@@ -262,13 +260,8 @@ document.addEventListener("DOMContentLoaded", () => {
   /* 首页只加载 meta（约 9 KB）+ 一张随机卡片，不再拉整库数据。 */
   KB.ready().then(meta => {
     const zuoren = (meta.sources.find(s => s.slug === "zuo-ren-de-gu-shi-zh") || {}).cards || 0;
-    document.getElementById("stats").innerHTML = `
-      <div class="stat stat--major"><b>${meta.counts.cards}</b><span>卡片</span></div>
-      <div class="stat stat--major"><b>${zuoren}</b><span>做人的故事</span></div>
-      <p class="stat-note">${meta.counts.sources} 书源 · ${meta.counts.topics} 主题</p>`;
-  }).catch(() => {
-    document.getElementById("stats").innerHTML =
-      '<div class="stat"><b>1386</b><span>卡片</span></div>';
+    const fig = document.getElementById("coverFigure");
+    if (fig) fig.textContent = `${meta.counts.cards} 张卡片 · ${zuoren} 篇做人的故事 · ${meta.counts.sources} 书源 · ${meta.counts.topics} 主题`;
   });
 
   const heroSearch = document.getElementById("heroSearch");
@@ -290,6 +283,60 @@ document.addEventListener("DOMContentLoaded", () => {
       '<p class="ref">随机原文暂不可用，<a href="explore.html">进入浏览页</a>。</p>';
   });
 });
+</script>
+<script>
+/* 封面场景（2026-09-19）：滚动视差 + 花叶飘落。
+   两件事都在 prefers-reduced-motion 下让位：花瓣不生成、视差不接管。 */
+(function () {
+  var hero = document.querySelector('.hero.cover');
+  if (!hero) return;
+  var scene = hero.querySelector('.cover-scene');
+  var text  = hero.querySelector('.cv-text');
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)');
+
+  /* 花叶：三种形（花瓣 / 叶片 / 小花），参数随机，用 CSS 变量喂给 keyframes */
+  var SHAPES = [
+    '<svg viewBox="0 0 24 34" xmlns="http://www.w3.org/2000/svg"><path d="M12 0C19 8 21 19 12 34 3 19 5 8 12 0Z" fill="#9C5A22" opacity=".85"/><path d="M12 5C13.4 13 13.8 22 12 29" stroke="#F0E3CA" stroke-width=".9" fill="none" opacity=".55"/></svg>',
+    '<svg viewBox="0 0 30 22" xmlns="http://www.w3.org/2000/svg"><path d="M1 20C1 9 10 1 29 1 29 12 20 20 1 20Z" fill="#4C5A32" opacity=".8"/><path d="M3 18C10 13 18 7 27 3" stroke="#F0E3CA" stroke-width=".9" fill="none" opacity=".5"/></svg>',
+    '<svg viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg"><g fill="#B08428" opacity=".78"><ellipse cx="14" cy="6" rx="4" ry="6"/><ellipse cx="22" cy="14" rx="6" ry="4"/><ellipse cx="14" cy="22" rx="4" ry="6"/><ellipse cx="6" cy="14" rx="6" ry="4"/></g><circle cx="14" cy="14" r="3.4" fill="#9C5A22"/></svg>'
+  ];
+  var host = hero.querySelector('#coverPetals');
+  if (host && !reduce.matches) {
+    for (var i = 0; i < 11; i++) {
+      var el = document.createElement('span');
+      el.className = 'cv-petal';
+      el.style.setProperty('--x', (Math.random() * 96 + 2).toFixed(2) + '%');
+      el.style.setProperty('--dx', (Math.random() * 16 - 8).toFixed(1) + 'vw');
+      el.style.setProperty('--s', (0.5 + Math.random() * 0.85).toFixed(2));
+      el.style.setProperty('--d', (12 + Math.random() * 11).toFixed(1) + 's');
+      el.style.setProperty('--delay', (-Math.random() * 20).toFixed(1) + 's');
+      el.style.setProperty('--rot', Math.round(Math.random() * 760 - 380) + 'deg');
+      el.innerHTML = SHAPES[i % SHAPES.length];
+      host.appendChild(el);
+    }
+  }
+
+  /* 滚动视差：文字往上走得更快、画面往下沉、画面同时轻微放大 —— 字浮在图上 */
+  var ticking = false;
+  function frame() {
+    ticking = false;
+    if (reduce.matches) return;
+    var h = hero.offsetHeight || 1;
+    var p = Math.min(window.scrollY, h) / h;
+    if (text) {
+      text.style.transform = 'translate3d(0,' + (-p * 54).toFixed(1) + 'px,0)';
+      text.style.opacity = Math.max(0, 1 - p * 1.2).toFixed(3);
+    }
+    if (scene) {
+      scene.style.transform = 'translate3d(0,' + (p * 82).toFixed(1) + 'px,0) scale(' + (1 + p * 0.06).toFixed(3) + ')';
+    }
+  }
+  window.addEventListener('scroll', function () {
+    if (!ticking) { ticking = true; requestAnimationFrame(frame); }
+  }, { passive: true });
+  window.addEventListener('resize', frame);
+  frame();
+})();
 </script>
 </body>
 </html>

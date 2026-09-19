@@ -167,7 +167,14 @@ def render(md: str, resolve) -> str:
         h = re.match(r'^(#{1,4})\s+(.*)$', s)
         if h:
             lvl = len(h.group(1))
-            out.append(f'<h{lvl + 1}>{inline(h.group(2), resolve)}</h{lvl + 1}>')
+            # 2026-09-19：这里原来一律降一级（`#`→h2），于是 note 页**没有 h1**：
+            #   · axe 每页报一处 page-has-heading-one（moderate，一直没修）
+            #   · 更糟的是层级错位：文档标题吃了 h2 的样式（左侧强调竖条），
+            #     真正的章节标题被挤到 h3 —— 而 CSS 里 `.note-body h1`（30px 衬线）
+            #     早就写好了，只是一直没人产出过 h1。**又是「写了但没实现」。**
+            # 现在按 Markdown 原级输出：`#`→h1、`##`→h2、`###`→h3。
+            # render() 只被 note 页调用（build_notes.py 第 509 行），改这里不影响别的页面。
+            out.append(f'<h{lvl}>{inline(h.group(2), resolve)}</h{lvl}>')
             i += 1
             continue
         out.append(f'<p>{inline(s, resolve)}</p>')

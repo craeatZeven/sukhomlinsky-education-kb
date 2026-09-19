@@ -12,7 +12,7 @@
   ② description 与 og:description **逐页不同**（同一句复制到 20 页 = 等于没有描述）
   ③ description 长度合理（20–200 字），不是占位符
   ④ og:url 是本站绝对地址，且与该页文件名对得上
-  ⑤ og:image 指向的**文件真的在仓库里**，且是 1200×630 的 PNG（读 PNG 头，不解码图片）
+  ⑤ og:image 指向的**文件真的在仓库里**，且是 1200×630 的 PNG 或 JPEG（读文件头，不解码图片）
   ⑥ 没有放不生效的 robots.txt —— 它只在源站根生效，放项目子目录会被爬虫忽略；
      若将来绑了自有域名（根 = 本站），这条要改成"必须有 robots.txt"
 """
@@ -44,11 +44,33 @@ def attr(head: str, key: str) -> str | None:
     return m.group(1) if m else None
 
 
-def png_size(path: Path) -> tuple[int, int] | None:
-    d = path.read_bytes()[:24]
-    if d[:8] != b'\x89PNG\r\n\x1a\n':
+def image_size(path: Path) -> tuple[int, int] | None:
+    """读图片头部拿尺寸，不解码整张图。
+
+    2026-09-19 扩到 JPEG：这一条原来只认 PNG，而站点在第十二版把 og.png（930 KB）
+    换成了 og.jpg（90 KB）—— 于是 28 个页面全部被判失败，而**没有任何一道别的闸门看得见它**
+    （页面照常渲染，浏览器里毫无痕迹）。判据要跟得上被它约束的东西，否则它会一直报假故障，
+    最后被人关掉 —— 那比没有判据更糟。"""
+    d = path.read_bytes()
+    if d[:8] == b'\x89PNG\r\n\x1a\n':
+        return struct.unpack('>II', d[16:24])
+    if d[:2] == b'\xff\xd8':                       # JPEG：扫到 SOFn 段
+        i = 2
+        while i < len(d) - 9:
+            if d[i] != 0xFF:
+                i += 1
+                continue
+            m = d[i + 1]
+            if m in (0xD8, 0x01) or 0xD0 <= m <= 0xD7:
+                i += 2
+                continue
+            seg = struct.unpack('>H', d[i + 2:i + 4])[0]
+            if 0xC0 <= m <= 0xCF and m not in (0xC4, 0xC8, 0xCC):
+                h, w = struct.unpack('>HH', d[i + 5:i + 9])
+                return (w, h)
+            i += 2 + seg
         return None
-    return struct.unpack('>II', d[16:24])
+    return None
 
 
 def main() -> int:
@@ -116,9 +138,9 @@ def main() -> int:
             if not f.exists():
                 fail(f'{label} og:image 指向的文件不存在：{rel}')
             else:
-                size = png_size(f)
+                size = image_size(f)
                 if size != (1200, 630):
-                    fail(f'{label} og:image 不是 1200×630 的 PNG（实测 {size}）：{rel}')
+                    fail(f'{label} og:image 不是 1200×630 的 PNG/JPEG（实测 {size}）：{rel}')
 
     if len(images) != 1:
         fail(f'og:image 不该有多个版本（当前 {len(images)} 个）：{sorted(images)}')

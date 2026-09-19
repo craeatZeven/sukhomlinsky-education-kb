@@ -272,7 +272,6 @@ SITEMAP_HEAD = '''<!doctype html>
 </main>
 <script src="theme.js?v={ver}"></script>
 <script src="scene.js?v={ver}"></script>
-<script src="scene.js?v={ver}"></script>
 </body></html>
 '''
 
@@ -378,7 +377,6 @@ HUB = '''<!doctype html>
 </div></footer>
 <script src="kb.js?v={ver}"></script>
 <script src="theme.js?v={ver}"></script>
-<script src="scene.js?v={ver}"></script>
 <script src="scene.js?v={ver}"></script>
 </body></html>
 '''

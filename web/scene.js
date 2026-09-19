@@ -10,6 +10,30 @@
   var reduced = window.matchMedia('(prefers-reduced-motion: reduce)');
   var isHome = doc.body.classList.contains('page-home');
 
+  /* ---------- 子页面的花丛：数量跟页高走，不跟"三"走
+     用户 2026-09-19：「美育和自然这些下面什么都没有了」。剂量实测（场景层开/关的
+     平均像素差，只取左右边条）：
+       首页   2.50 / 5.38 / 8.23 / 6.61                     —— 每屏都有
+       专题页 1.39 / 5.00 / 1.38 / 1.37 / 4.82 / 3.88 / 1.35 / 2.08 / 3.45
+              ↑ 峰在花丛处，谷 1.35 ≈ 只剩一条藤蔓
+     两个根因，各修一处：
+       ① **固定三丛 + 百分比布点**：同一个"三"，首页 3032px 里相隔 700px（不到一屏 = 密），
+          专题页 7696px 里相隔 2300px（2.5 屏 = 空）。数量必须由页高决定。
+       ② **位移式视差把花推走**：花丛原来跟藤蔓一样按 0.22 x scrollY 整体下移，
+          滚到 5600 时花丛已经被推到 6900 —— 正好从你正在看的那一屏里消失。
+          改成**相对视口中心的有界位移**：只有离视口中心 200px 内才让，越远越接近原位。 */
+  var clusters = [];
+  function makeCluster() {
+    var cl = doc.createElement('div');
+    cl.className = 'scene-cluster jc';
+    var im = doc.createElement('img');
+    im.src = 'motif.jpg'; im.width = 561; im.height = 720; im.alt = '';
+    cl.appendChild(im);
+    scene.appendChild(cl);
+    clusters.push(cl);
+    return cl;
+  }
+
   var scene = doc.querySelector('.page-scene');
   if (!scene) {                                   /* 子页面：脚本自己把场景层搭出来 */
     scene = doc.createElement('div');
@@ -20,12 +44,8 @@
        （第四版实测：贴边时开关 backdrop-filter 只有 6.5% 的像素变）。
        这里给子页面也铺三丛花，位置由 CSS 定在正文面板附近。 */
     if (!isHome) {
-      for (var ci = 1; ci <= 3; ci++) {
-        var cl = doc.createElement('div');
-        cl.className = 'scene-cluster c' + ci;
-        cl.innerHTML = '<img src="motif.jpg" width="561" height="720" alt="">';
-        scene.appendChild(cl);
-      }
+      /* 先铺三丛占位，真正的数量在 layout() 里按页高算 */
+      for (var ci = 1; ci <= 3; ci++) makeCluster();
     }
     doc.body.insertBefore(scene, doc.body.firstChild);
   }
@@ -154,14 +174,39 @@
      所以它的"深度"主要靠**放大**而不是位移。 */
   var PAR = [
     [scene.querySelector('.page-vine.l'), 0.34],
-    [scene.querySelector('.page-vine.r'), 0.34],
-    [scene.querySelector('.scene-cluster.c1'), 0.22],
-    [scene.querySelector('.scene-cluster.c2'), 0.22],
-    [scene.querySelector('.scene-cluster.c3'), 0.22]
+    [scene.querySelector('.page-vine.r'), 0.34]
   ];
-  var CLUSTERS = ['.scene-cluster.c1', '.scene-cluster.c2', '.scene-cluster.c3']
-    .map(function (s) { return scene.querySelector(s); });
+  /* 首页的花丛仍是 HTML 里那三丛，用老办法（位移 + 放大）—— 实测每屏 2.5~8.2，不空。
+     子页面的花丛由 layout() 按页高生成，视差走有界位移（见 frame）。 */
+  var HOME_CLUSTERS = isHome ? ['.scene-cluster.c1', '.scene-cluster.c2', '.scene-cluster.c3']
+    .map(function (s) { return scene.querySelector(s); }) : [];
   var petals = layer;
+
+  /* 子页面：一丛花盖多少像素的页高。1150px 略大于一屏（900），保证每屏至少碰到一丛。 */
+  var DENSITY = 1150, CLUSTER_H = 800;
+  var placed = [];            /* 已定位的花丛：[元素, 版面中心(页坐标)] */
+
+  function layoutClusters(H) {
+    if (isHome) return;
+    var n = Math.max(3, Math.min(12, Math.round(H / DENSITY)));
+    while (clusters.length < n) makeCluster();
+    placed = [];
+    var seg = H / n;
+    for (var i = 0; i < clusters.length; i++) {
+      var el = clusters[i];
+      if (i >= n) { el.style.display = 'none'; continue; }
+      el.style.display = '';
+      var onLeft = (i % 2 === 0);
+      /* 段落中点再往上提半丛：花心压在正文面板附近，玻璃才有东西可透 */
+      var top = i * seg + seg * 0.5 - CLUSTER_H * 0.5;
+      el.style.top = Math.max(0, Math.round(top)) + 'px';
+      el.style.left = onLeft ? '-15%' : 'auto';
+      el.style.right = onLeft ? 'auto' : '-15%';
+      el.style.setProperty('--xform', 'rotate(' + ((onLeft ? -7 : 6) + (i % 3) * 1.6).toFixed(1) +
+                            'deg)' + (onLeft ? '' : ' scaleX(-1)'));
+      placed.push([el, top + CLUSTER_H * 0.5]);
+    }
+  }
 
   function layout() {
     var f = doc.querySelector('footer');
@@ -170,6 +215,7 @@
     scene.style.height = (H + fh) + 'px';
     buildVine(scene.querySelector('.page-vine.l'), isHome ? 190 : 150, H, 0, 1);
     buildVine(scene.querySelector('.page-vine.r'), isHome ? 190 : 150, H, Math.PI, 2);
+    layoutClusters(H);
     if (art && hero) art.style.top = (hero.offsetTop + hero.offsetHeight / 2) + 'px';
   }
 
@@ -192,8 +238,25 @@
     for (var i = 0; i < PAR.length; i++) {
       if (PAR[i][0]) PAR[i][0].style.setProperty('--py', (s * PAR[i][1]).toFixed(1) + 'px');
     }
-    for (var j = 0; j < CLUSTERS.length; j++) {
-      if (CLUSTERS[j]) CLUSTERS[j].style.setProperty('--ps', (1 + s * 0.00008).toFixed(4));
+    /* 首页三丛：老办法（跟 scrollY 走 + 缓慢放大） */
+    for (var j = 0; j < HOME_CLUSTERS.length; j++) {
+      if (HOME_CLUSTERS[j]) HOME_CLUSTERS[j].style.setProperty('--ps', (1 + s * 0.00008).toFixed(4));
+    }
+    /* 子页面花丛：**相对视口中心的有界位移**。
+       原来跟藤蔓一样按 0.22 x scrollY 整体下移，于是花从「正在看的那一屏」里被推走
+       （实测：滚到 5600 时花丛已经在 6900，那一屏只剩藤蔓，剂量 1.35）。
+       现在只在离视口中心 200px 内让位，越远越回到原位 —— 深度还在（近处约 0.78 倍速），
+       但任何一屏的花都留在它该在的地方。放大也改成随距离，不再按 scrollY 一律涨到 1.6 倍。 */
+    if (placed.length) {
+      var vc = s + (window.innerHeight || 800) / 2, MAXD = 200, K = 0.22;
+      for (var q = 0; q < placed.length; q++) {
+        var d = (vc - placed[q][1]) * K;
+        if (d > MAXD) d = MAXD; else if (d < -MAXD) d = -MAXD;
+        placed[q][0].style.setProperty('--py', d.toFixed(1) + 'px');
+        var near = (vc - placed[q][1]) / ((window.innerHeight || 800) * 1.5);
+        if (near > 1) near = 1; else if (near < -1) near = -1;
+        placed[q][0].style.setProperty('--ps', (1 + near * 0.05).toFixed(4));
+      }
     }
     /* 花瓣层随滚动被"带走"一点：空气也在动，飘落就不只是它自己的事 */
     if (petals) petals.style.transform = 'translate3d(0,' + (s * 0.07).toFixed(1) + 'px,0)';

@@ -1417,7 +1417,7 @@ body[data-theme="dark"] .scene-cluster img{ filter:invert(1) hue-rotate(180deg) 
 @media (max-width:760px){
   .hero.cover{ padding:48px 0 44px; min-height:min(80vh,600px); }
   .scene-hero{ width:min(360px,84vw); }
-  .scene-cluster{ width:min(420px,88vw); opacity:.12; }
+  .scene-cluster{ width:min(520px,84vw); opacity:.20; }
   .scene-cluster.c1{ left:-30%; top:28%; }
   .scene-cluster.c2{ right:-30%; top:52%; }
   .scene-cluster.c3{ left:-26%; top:78%; }
@@ -1628,11 +1628,11 @@ body:not(.page-home) .petal-layer{ opacity:.7; }
 .page-vine .blossom ellipse{ fill:var(--cv-ochre); opacity:.9; }
 .page-vine .blossom-core{ fill:var(--cv-paper); opacity:.85; }
 
-/* 子页面的花丛：压在正文面板附近，玻璃才有东西可透 */
+/* 子页面的花丛：压在正文面板附近，玻璃才有东西可透。
+   **位置不再由 CSS 定** —— 第十五版实测「固定三丛 + 百分比布点」在长页上会拉出 2.5 屏的空档
+   （专题页剂量 5.0 → 1.35 → 1.35，谷底只剩一条藤蔓）。现在数量与位置都由 scene.js 按页高算，
+   这里只留透明度。原来那三条 c1/c2/c3 的 left/top 规则随之作废，删掉。 */
 body:not(.page-home) .scene-cluster{ opacity:.22; }
-body:not(.page-home) .scene-cluster.c1{ left:-15%; top:14%; }
-body:not(.page-home) .scene-cluster.c2{ right:-15%; top:44%; }
-body:not(.page-home) .scene-cluster.c3{ left:-13%; top:74%; }
 
 /* 子页面的玻璃面 */
 body:not(.page-home) .page-head{ padding:34px 0 14px; }

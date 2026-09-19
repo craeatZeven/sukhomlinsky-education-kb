@@ -1615,13 +1615,78 @@ body:not(.page-home) .page-vine{ width:150px; opacity:.38; }
 body:not(.page-home) .petal-layer{ opacity:.7; }
 
 
+/* ============================================================
+   第十四版：子页面玻璃 + 藤蔓层次（2026-09-19）
+   ------------------------------------------------------------
+   用户两条：①「其他的页面也做一些玻璃的质感，把背景衬托在下面」
+             ②「藤蔓能不能做得更有质感一些」
+   ① 的要点不是"再加几块玻璃"，而是**玻璃后面得有东西可透** —— 第四版的结论在这儿同样成立：
+      子页面原来一株花都没有，玻璃只是一块偏灰的板。所以 scene.js 在子页面也铺了三丛花，
+      位置按"正文面板附近"摆（不是贴页边）；玻璃面同时扩到标题带 / 列表板 / 读本行 / 成篇材料块。
+   ② 藤蔓改成三层：淡墨晕 + 渐变主干（两端淡入淡出）+ 主叶与伴生小叶 + 中脉 + 五瓣花点。
+   ============================================================ */
+.page-vine .blossom ellipse{ fill:var(--cv-ochre); opacity:.9; }
+.page-vine .blossom-core{ fill:var(--cv-paper); opacity:.85; }
+
+/* 子页面的花丛：压在正文面板附近，玻璃才有东西可透 */
+body:not(.page-home) .scene-cluster{ opacity:.22; }
+body:not(.page-home) .scene-cluster.c1{ left:-15%; top:14%; }
+body:not(.page-home) .scene-cluster.c2{ right:-15%; top:44%; }
+body:not(.page-home) .scene-cluster.c3{ left:-13%; top:74%; }
+
+/* 子页面的玻璃面 */
+body:not(.page-home) .page-head{ padding:34px 0 14px; }
+body:not(.page-home) .page-head .wrap{
+  background:var(--glass);
+  -webkit-backdrop-filter:var(--glass-blur); backdrop-filter:var(--glass-blur);
+  border:1px solid var(--glass-line); border-radius:18px;
+  box-shadow:var(--glass-shadow), inset 0 1px 0 var(--glass-line);
+  padding:26px 30px;
+}
+body:not(.page-home) .page-head--tool .wrap{ padding:22px 26px; }
+
+/* 列表容器只取"玻璃"，不取"卡"：半透明 + 模糊留着，圆角收到 6px、去掉外阴影。
+   依据是工具抓到的一条 P2（AP-LAYER-01 档案层容器里出现阴影或大圆角）——
+   档案层的语言是"零阴影 + 近方角"，而**通透感来自半透明与模糊，不来自圆角和投影**。
+   两者可以分开取，之前是我把杂志层的卡语言整套搬过来了。 */
+body:not(.page-home) .rows,
+body:not(.page-home) .read-list{
+  background:var(--glass);
+  -webkit-backdrop-filter:var(--glass-blur); backdrop-filter:var(--glass-blur);
+  border:1px solid var(--glass-line); border-radius:6px;
+  padding:0 22px;
+}
+body:not(.page-home) .rows{ border-top:1px solid var(--glass-line); }
+body:not(.page-home) .rows .row:last-child{ border-bottom:0; }
+body:not(.page-home) .read-list{ padding:4px 22px; }
+body:not(.page-home) .read-list .read-row:last-child{ border-bottom:0; }
+/* 成篇材料块保留它自己的 3px 强调色左边线，只在外面加一层玻璃 */
+body:not(.page-home) .docs-block{
+  background:var(--glass);
+  -webkit-backdrop-filter:var(--glass-blur); backdrop-filter:var(--glass-blur);
+  border-radius:0 6px 6px 0;
+  padding:16px 22px 14px 18px;
+}
+@media (max-width:760px){
+  body:not(.page-home) .page-head{ padding:22px 0 10px; }
+  body:not(.page-home) .page-head .wrap{ padding:20px 18px; border-radius:14px; }
+  body:not(.page-home) .rows,
+  body:not(.page-home) .read-list{ padding:0 14px; border-radius:6px; }
+  body:not(.page-home) .docs-block{ padding:14px 14px 12px 14px; }
+}
+
+
+
 /* 引用行：把「（参见 sk-0024）」换成一排**可读的卡片标题**
    （2026-09-19 用户：sk- 无法直接对应起来） */
 .refs{ display:flex; flex-wrap:wrap; align-items:baseline; gap:4px 8px;
   margin:11px 0 0; font-size:12px; line-height:1.7; color:var(--soft); }
 .refs .k{ font-family:var(--mono); font-size:11px; letter-spacing:.16em; color:var(--accent-ink); }
 .refs .ref{ color:var(--soft); text-decoration:none;
-  border-bottom:1px solid color-mix(in srgb, var(--soft) 34%, transparent); }
+  border-bottom:1px solid color-mix(in srgb, var(--soft) 34%, transparent);
+  /* 触控目标：链接本身只有 23px 高，低于 40px 的判据（工具 AP-A11Y-01 抓到 14 个）。
+     padding 撑开点按范围、负 margin 把版面还回去 —— 视觉完全不变。 */
+  padding:9px 2px; margin:-9px 0; }
 .refs .ref:hover{ color:var(--accent-ink); border-bottom-color:var(--accent-ink); }
 .refs .sep{ color:color-mix(in srgb, var(--soft) 45%, transparent); }
 .method > div > .refs{ margin-top:9px; }

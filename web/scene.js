@@ -16,6 +16,17 @@
     scene.className = 'page-scene';
     scene.setAttribute('aria-hidden', 'true');
     scene.innerHTML = '<svg class="page-vine l" aria-hidden="true"></svg><svg class="page-vine r" aria-hidden="true"></svg>';
+    /* 子页面也要有"可透之物"：玻璃后面没东西可透，玻璃就只是一块灰板
+       （第四版实测：贴边时开关 backdrop-filter 只有 6.5% 的像素变）。
+       这里给子页面也铺三丛花，位置由 CSS 定在正文面板附近。 */
+    if (!isHome) {
+      for (var ci = 1; ci <= 3; ci++) {
+        var cl = doc.createElement('div');
+        cl.className = 'scene-cluster c' + ci;
+        cl.innerHTML = '<img src="motif.jpg" width="561" height="720" alt="">';
+        scene.appendChild(cl);
+      }
+    }
     doc.body.insertBefore(scene, doc.body.firstChild);
   }
   var layer = doc.getElementById('petalLayer');
@@ -57,22 +68,54 @@
   var LEAF = 'M0,0 C9,-2 17,-11 15,-23 C2,-22 -6,-11 -4,1 Z';
   var RIB  = 'M0,0 C4,-6 8,-15 13,-20';
   var TEND = 'M2,-4 C14,-2 22,-10 20,-22 C19,-29 11,-30 8,-25 C6,-21 9,-18 13,-19 C16,-20 17,-23 16,-25';
-  function buildVine(svg, W, H, phase) {
+  /* 一朵五瓣小花，挂在藤上（藤蔓不能只有叶子和梗，会显得空） */
+  function blossom(x, y, r, rot) {
+    var p = ['<g class="blossom" transform="translate(' + x.toFixed(1) + ',' + y.toFixed(1) +
+             ') rotate(' + rot.toFixed(1) + ')">'];
+    for (var i = 0; i < 5; i++) {
+      p.push('<ellipse cx="0" cy="' + (-r * 0.60).toFixed(1) + '" rx="' + (r * 0.33).toFixed(1) +
+             '" ry="' + (r * 0.60).toFixed(1) + '" transform="rotate(' + (72 * i) + ')"/>');
+    }
+    p.push('<circle class="blossom-core" r="' + (r * 0.27).toFixed(1) + '"/></g>');
+    return p.join('');
+  }
+
+  /* 藤蔓：按整页高度程序生成。
+     2026-09-19 第二版 —— 用户：「藤蔓能不能做得更有质感一些」。原来只有一条等宽轮廓的带子，
+     像铁丝。现在三层 + 两处细节：
+       ① 淡墨：沿中心线画一条宽而虚的笔画（纸上的洇开）
+       ② 主干：带呼吸宽度的轮廓带，两端用 linearGradient 淡入淡出（不再"突然开始/突然断掉"）
+       ③ 叶：主叶 + 伴生小叶（一大一小才有层次），都带中脉
+       ④ 花点：每四节挂一朵五瓣小花
+     渐变用 currentColor，所以三套主题各自成立，不需要滤镜。 */
+  function buildVine(svg, W, H, phase, uid) {
     if (!svg) return;
     svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
     svg.setAttribute('width', W);
     svg.setAttribute('height', H);
     svg.style.height = H + 'px';
     var cx = W * 0.5, amp = W * 0.17, period = 720;
-    var top = [], bot = [], y, c, k, t, w, out;
+    var gid = 'vineGrad' + uid;
+    var top = [], bot = [], mid = [], y, c, k, t, w;
     for (y = 0; y <= H; y += 7) {
       c = cx + amp * Math.sin(2 * Math.PI * y / period + phase);
       t = (y % (period * 0.5)) / (period * 0.5);
       w = 1.7 + 3.3 * Math.sin(Math.PI * t);
       top.push((c - w).toFixed(1) + ',' + y);
       bot.push((c + w).toFixed(1) + ',' + y);
+      mid.push(c.toFixed(1) + ',' + y);
     }
-    out = ['<path class="stem" d="M' + top.join('L') + 'L' + bot.reverse().join('L') + 'Z"/>'];
+    var ribbon = 'M' + top.join('L') + 'L' + bot.reverse().join('L') + 'Z';
+    var centerline = 'M' + mid.join('L');
+    var grad = '<defs><linearGradient id="' + gid + '" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="' + H + '">' +
+      '<stop offset="0" stop-color="currentColor" stop-opacity="0"/>' +
+      '<stop offset="0.06" stop-color="currentColor" stop-opacity="1"/>' +
+      '<stop offset="0.94" stop-color="currentColor" stop-opacity="1"/>' +
+      '<stop offset="1" stop-color="currentColor" stop-opacity="0"/></linearGradient></defs>';
+    var out = [grad,
+      '<path class="stem-wash" d="' + centerline + '" fill="none" stroke="currentColor" stroke-width="' +
+      (W * 0.085).toFixed(1) + '" stroke-linecap="round" stroke-opacity=".16"/>',
+      '<path class="stem" style="fill:url(#' + gid + ')" d="' + ribbon + '"/>'];
     k = 0;
     for (y = 150; y < H - 120; y += 210) {
       c = cx + amp * Math.sin(2 * Math.PI * y / period + phase);
@@ -80,12 +123,20 @@
       var ang = Math.atan(slope) * 180 / Math.PI;
       var dir = (k % 2 === 0) ? 1 : -1;
       var s = 0.85 + 0.4 * ((k % 3) / 2);
+      var fill = ' style="fill:url(#' + gid + ')"';
       out.push('<g transform="translate(' + c.toFixed(1) + ',' + y + ') rotate(' + (ang + dir * 36).toFixed(1) +
-               ') scale(' + (dir * s).toFixed(2) + ',' + s.toFixed(2) + ')"><path class="leaf" d="' + LEAF +
-               '"/><path class="rib" d="' + RIB + '"/></g>');
+               ') scale(' + (dir * s).toFixed(2) + ',' + s.toFixed(2) + ')"><path class="leaf"' + fill +
+               ' d="' + LEAF + '"/><path class="rib" d="' + RIB + '"/></g>');
+      /* 伴生小叶：一大一小才有层次，单叶总像贴纸 */
+      out.push('<g opacity=".8" transform="translate(' + c.toFixed(1) + ',' + (y + 30) + ') rotate(' +
+               (ang + dir * 74).toFixed(1) + ') scale(' + (dir * s * 0.55).toFixed(2) + ',' + (s * 0.55).toFixed(2) +
+               ')"><path class="leaf"' + fill + ' d="' + LEAF + '"/></g>');
       if (k % 3 === 1) {
         out.push('<g transform="translate(' + c.toFixed(1) + ',' + (y + 96) + ') rotate(' +
-                 (-ang - dir * 20).toFixed(1) + ') scale(' + (dir * 0.9).toFixed(2) + ',0.9)"><path class="stem" opacity=".8" d="' + TEND + '"/></g>');
+                 (-ang - dir * 20).toFixed(1) + ') scale(' + (dir * 0.9).toFixed(2) + ',0.9)"><path class="stem" d="' + TEND + '"/></g>');
+      }
+      if (k % 4 === 1) {
+        out.push(blossom(c + dir * W * 0.30, y + 18, W * 0.062, dir * 18));
       }
       if (k % 4 === 2) {
         out.push('<circle class="bud" cx="' + (c + dir * 13).toFixed(1) + '" cy="' + (y + 34) + '" r="4.8"/>');
@@ -117,8 +168,8 @@
     var fh = (f && f.offsetHeight) || 0;
     var H = Math.max(doc.documentElement.scrollHeight - fh, 900);
     scene.style.height = (H + fh) + 'px';
-    buildVine(scene.querySelector('.page-vine.l'), isHome ? 190 : 150, H, 0);
-    buildVine(scene.querySelector('.page-vine.r'), isHome ? 190 : 150, H, Math.PI);
+    buildVine(scene.querySelector('.page-vine.l'), isHome ? 190 : 150, H, 0, 1);
+    buildVine(scene.querySelector('.page-vine.r'), isHome ? 190 : 150, H, Math.PI, 2);
     if (art && hero) art.style.top = (hero.offsetTop + hero.offsetHeight / 2) + 'px';
   }
 

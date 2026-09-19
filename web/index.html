@@ -336,7 +336,14 @@ document.addEventListener("DOMContentLoaded", () => {
     if (art && hero) art.style.top = (hero.offsetTop + hero.offsetHeight / 2) + 'px';
   }
 
-  /* ---------- 视差 ---------- */
+  /* ---------- 视差：文字 1.0 / 花丛 0.20 / 藤蔓 0.10 —— 三层不同速度才有层次 ---------- */
+  var PAR = [
+    [scene.querySelector('.page-vine.l'), 0.10],
+    [scene.querySelector('.page-vine.r'), 0.10],
+    [scene.querySelector('.scene-cluster.c1'), 0.20],
+    [scene.querySelector('.scene-cluster.c2'), 0.20],
+    [scene.querySelector('.scene-cluster.c3'), 0.20]
+  ];
   var ticking = false;
   function frame() {
     ticking = false;
@@ -350,6 +357,10 @@ document.addEventListener("DOMContentLoaded", () => {
     if (art) {
       art.style.transform = 'translate(-50%,-50%) translate3d(0,' + (p * 82).toFixed(1) +
                             'px,0) scale(' + (1 + p * 0.06).toFixed(3) + ')';
+    }
+    var s = window.scrollY;
+    for (var i = 0; i < PAR.length; i++) {
+      if (PAR[i][0]) PAR[i][0].style.setProperty('--py', (s * PAR[i][1]).toFixed(1) + 'px');
     }
   }
   var rt;

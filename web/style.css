@@ -1271,9 +1271,8 @@ body.page-home { --accent: #8B0000; --accent-soft: #f0dcd8; --accent-ink: #7a1a1
 /* ② 类型标签去色：档案层卡 A7 —— 用色相下划线，不用彩色胶囊 */
 .page-home .conf-tag { color: var(--ink); background: var(--card); border-color: var(--line); }
 
-/* ③ 主题切换圆点去色：它是控件状态，不占强调色名额 */
-.page-home .dot { background: color-mix(in srgb, var(--ink) 22%, transparent); border-color: transparent; }
-.page-home .dot.active { background: var(--ink); }
+/* ③ 主题切换圆点：**这两条是死代码**（theme.js 用内联 background 写色标，CSS 覆盖不掉），
+   2026-09-19 第五版已删，改在末尾用"亮环 + 金色 active 环"处理可见性。 */
 
 /* ④ 纸纹：代码生成（feTurbulence），零素材零许可。两档备选，默认弱档。 */
 body.page-home::before {
@@ -1528,6 +1527,75 @@ body.page-home footer{
   color:var(--foot-ink);
   -webkit-backdrop-filter:var(--glass-blur); backdrop-filter:var(--glass-blur);
 }
+/* ---- 第五版追加（放在降级规则之前，降级优先级最高） ---- */
+
+/* ============================================================
+   首页 · 第五版：导航统一 + 视差层次 + 夜读修正（2026-09-19）
+   ------------------------------------------------------------
+   用户三条：① 导航这块美化、统一风格；② 文字和背景滚动的速度要有层次；③ 夜读改一下。
+   ============================================================ */
+
+/* ---------- ① 导航：换成新艺术那套暖深墨 + 金线，和页面同一个颜色家族 ---------- */
+body.page-home{
+  --nav-bg:#2A231A;
+  --nav-ink:#F0E7D4;        /* 导航文字 = 纸色偏暖，不再是绿灰 */
+  --nav-ink-2:#C9BCA1;
+  --nav-line:color-mix(in srgb, var(--cv-gold) 32%, transparent);
+}
+body.page-home .topnav{
+  background:color-mix(in srgb, var(--nav-bg) 76%, transparent);
+  border-bottom:1px solid var(--nav-line);
+  box-shadow:0 1px 0 rgba(0,0,0,.16), 0 12px 30px rgba(30,24,16,.10);
+}
+body.page-home .topnav .inner{ height:62px; }
+body.page-home .topnav .brand{ color:var(--nav-ink); letter-spacing:.07em; }
+body.page-home .topnav .nav-group-btn{ color:var(--nav-ink-2); letter-spacing:.1em; }
+body.page-home .topnav .nav-group-btn:hover,
+body.page-home .topnav .nav-group:focus-within .nav-group-btn,
+body.page-home .topnav .nav-group.open .nav-group-btn{ color:var(--nav-ink); }
+body.page-home .topnav .nav-group.active .nav-group-btn,
+body.page-home .topnav .nav-group-btn[aria-expanded="true"]{
+  color:var(--nav-ink); box-shadow:inset 0 -2px 0 var(--cv-gold);
+}
+body.page-home .topnav .nav-menu{
+  background:color-mix(in srgb, var(--nav-bg) 90%, transparent);
+  border:1px solid var(--nav-line);
+}
+body.page-home .topnav .nav-menu-sub{ color:var(--nav-ink-2); }
+/* 主题圆点：原来 .page-home .dot 想用 --ink 去色，但 theme.js 是**内联**写 background 的，
+   那条规则一直没生效（死代码，已删）。真正的问题是夜读那个点 #1c1917 画在深导航上 = 看不见。
+   修法：保留每个主题自己的颜色（那是有意义的色标），给一圈亮环。 */
+body.page-home .dot{ border-color:color-mix(in srgb, var(--nav-ink) 42%, transparent); }
+body.page-home .dot.active{
+  border-color:var(--cv-gold);
+  box-shadow:0 0 0 3px color-mix(in srgb, var(--cv-gold) 22%, transparent);
+}
+/* 强调色也归到新艺术这一支：暗红是上一版（配色 C）的遗留，现在整页是新艺术 + 玻璃 */
+body.page-home{
+  --accent:var(--cv-ochre); --accent-ink:var(--cv-ochre);
+  --accent-soft:color-mix(in srgb, var(--cv-ochre) 16%, transparent);
+}
+
+/* ---------- ② 视差层次：文字 1.0 / 花丛 0.20 / 藤蔓 0.10 ---------- */
+body.page-home .scene-cluster{ transform:translate3d(0,var(--py,0px),0) var(--xform,none); }
+body.page-home .scene-cluster.c1{ --xform:rotate(-7deg); }
+body.page-home .scene-cluster.c2{ --xform:rotate(6deg) scaleX(-1); }
+body.page-home .scene-cluster.c3{ --xform:rotate(-5deg) scaleX(-1); }
+body.page-home .page-vine.l{ transform:translate3d(0,var(--py,0px),0); }
+body.page-home .page-vine.r{ transform:translate3d(0,var(--py,0px),0) scaleX(-1); }
+
+/* ---------- ③ 夜读：花束 invert 之后是一块棕色板（实测四个滚动位置都在）----------
+   根源是 JPEG 的米色底被翻成了褐色，整块矩形一起翻。
+   解法不是减透明度（那连线条一起减），是 **contrast() 把底压成纯黑**，再用 screen 混合 ——
+   screen 下纯黑等于不存在，而线条本来是亮的，一点不掉。 */
+body[data-theme="dark"] .cv-motif,
+body[data-theme="dark"] .scene-cluster img{
+  filter:invert(1) hue-rotate(180deg) contrast(2.6) brightness(1.06) saturate(.68);
+  mix-blend-mode:screen;
+}
+body[data-theme="dark"] .cv-motif{ opacity:.58; }
+body[data-theme="dark"] .scene-cluster{ opacity:.32; }
+
 @media (prefers-reduced-transparency: reduce){
   body.page-home{ --glass:rgba(255,253,246,.94); --glass-2:rgba(255,253,246,.97); }
   body[data-theme="dark"].page-home{ --glass:rgba(46,42,36,.96); --glass-2:rgba(46,42,36,.98); }

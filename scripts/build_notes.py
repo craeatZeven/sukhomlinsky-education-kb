@@ -211,7 +211,7 @@ CHROME = '''<!doctype html>
 {nav}
 <main class="wrap layer-reading">
 <article class="note-body">
-<p class="meta">{kindlabel}</p>
+<div class="eyebrow">{kindlabel}</div>
 {body}
 </article>
 <hr />
@@ -274,7 +274,7 @@ SITEMAP_HEAD = '''<!doctype html>
 {nav}
 <main class="wrap layer-archive">
   <header class="page-head">
-    <p class="meta">SITEMAP</p>
+    <div class="eyebrow">Sitemap</div>
     <h1>网站地图</h1>
     <p class="hero-note">导航里只放最常用的 7 个入口，其余都在这里。
     还有 <b>1386 张卡片详情页</b>与 <b>{n_entry} 个条目页 / {n_facet} 个分面页</b>是按内容生成的，
@@ -342,7 +342,7 @@ HUB = '''<!doctype html>
 {nav}
 <main class="wrap layer-archive">
   <header class="page-head">
-    <p class="meta">READ</p>
+    <div class="eyebrow">Read</div>
     <h1>读本</h1>
     <p class="hero-note">这个库不只是卡片。这里有 {n_topic} 篇编者长文、{n_analysis} 篇跨卡片的分析与对比、
     {n_query} 份归档问答——<b>每一句判断后面都挂着卡号</b>，点得开、可回查。</p>
@@ -402,7 +402,7 @@ HUB = '''<!doctype html>
 
 
 def main() -> int:
-    ver = '20260920v27'
+    ver = '20260920v28'
     NOTE.mkdir(parents=True, exist_ok=True)
 
     def read_nav() -> str:

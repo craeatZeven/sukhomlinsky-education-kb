@@ -23,7 +23,7 @@
 <meta name="twitter:image" content="https://craeatzeven.github.io/sukhomlinsky-education-kb/web/og.jpg" />
 <!-- social:end -->
 <link rel="icon" href="icon.svg" type="image/svg+xml" />
-<link rel="stylesheet" href="style.css?v=20260920v27" />
+<link rel="stylesheet" href="style.css?v=20260920v28" />
 </head>
 <body data-theme="paper">
 <nav class="topnav">
@@ -41,11 +41,11 @@
   </div>
 </nav>
 
-<header class="page-head page-head--tool">
+<header class="page-head">
   <div class="wrap">
     <div class="eyebrow">541 Stories</div>
     <h1>《做人的故事》541 篇</h1>
-    <p>按原书 OCR 页码顺序浏览全部故事卡：每篇都是短原文摘录 + 中文转述 + 教育应用 + 出处核对。</p>
+    <p>按原书页码排的 541 篇。每篇有短原文、中文转述，以及出处。</p>
     <div class="searchbox">
       <input aria-label="搜索故事" id="q" type="search" placeholder="搜索故事名、关键词或页码，如：奶奶、p150、夜莺……" />
       <button class="chip" id="randomBtn" type="button">随机一篇</button>
@@ -70,8 +70,8 @@
   </div>
 </footer>
 
-<script src="kb.js?v=20260920v27"></script>
-<script src="theme.js?v=20260920v27"></script>
+<script src="kb.js?v=20260920v28"></script>
+<script src="theme.js?v=20260920v28"></script>
 <script>
 const ZUOREN_SOURCE = "zuo-ren-de-gu-shi-zh";
 let STORIES = [];
@@ -150,6 +150,6 @@ document.addEventListener("DOMContentLoaded", async () => {
   document.getElementById("loadMore").addEventListener("click", () => { visibleCount += 80; render(!!CORPUS); });
 });
 </script>
-<script src="scene.js?v=20260920v27"></script>
+<script src="scene.js?v=20260920v28"></script>
 </body>
 </html>

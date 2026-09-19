@@ -1287,13 +1287,12 @@ footer p a { text-decoration: underline; text-decoration-color: currentColor; }
    实测分布（1440x900）：explore(关键词筛选) / problem(描述你的问题) / stories(搜索故事)
    三个有控件；其余 16 页没有。taxonomy / clusters / facets 虽叫入口页，首屏无控件，保留居中。
    ============================================================ */
-.page-head--tool { text-align: left; padding: 26px 0 12px; }
-.page-head--tool h1 { font-size: 26px; margin: 4px 0 6px; }
-.page-head--tool p { margin: 0; max-width: 760px; }
-@media (max-width: 640px) {
-  .page-head--tool { padding: 18px 0 10px; }
-  .page-head--tool h1 { font-size: 22px; }
-}
+/* 2026-09-20：**工具头已撤**（用户：「都改成这个样子」——指 taxonomy 那个居中封面头）。
+   原来按「首屏有没有控件」分两种头：有控件的页用左对齐 + 26px 工具头，让控件尽快出现。
+   这个判据本身有理，但代价是**四个页看起来像另一个站**（explore / problem / search / stories），
+   而它们恰恰是读者最容易连着点开的几个入口。
+   统一到一个头之后，「控件尽快出现」靠压缩 padding 实现，不再靠换一套版式。 */
+.page-head--tool { text-align: center; padding: 40px 0 14px; }
 /* ============================================================
    首页 · 高级感改版（2026-09-18，规格见 runs/20260918-kb-upgrade）
    ------------------------------------------------------------
@@ -1768,7 +1767,7 @@ body:not(.page-home) .page-head .wrap{
   box-shadow:var(--glass-shadow), inset 0 1px 0 var(--glass-line);
   padding:26px 30px;
 }
-body:not(.page-home) .page-head--tool .wrap{ padding:22px 26px; }
+/* 工具头已并入标准头（2026-09-20），这条随之作废 */
 
 /* 列表容器只取"玻璃"，不取"卡"：半透明 + 模糊留着，圆角收到 6px、去掉外阴影。
    依据是工具抓到的一条 P2（AP-LAYER-01 档案层容器里出现阴影或大圆角）——

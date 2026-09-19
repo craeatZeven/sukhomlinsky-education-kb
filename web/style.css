@@ -1287,3 +1287,135 @@ body.page-home .stats { display: flex; flex-wrap: wrap; align-items: flex-end; g
 body.page-home .stat--major b { font-family: var(--serif); font-size: 38px; line-height: 1; color: var(--ink); }
 body.page-home .stat--major span { font-size: 13px; color: var(--soft); }
 body.page-home .stat-note { flex-basis: 100%; margin: 2px 0 0; font-family: var(--mono); font-size: 12px; letter-spacing: .02em; color: var(--soft); }
+
+/* ============================================================
+   首页 · 新艺术封面层（2026-09-19 落地）
+   样张：runs/20260918-kb-upgrade/cover-nouveau7.html（v7）
+   ------------------------------------------------------------
+   用户拍板：首页封面改新艺术风格。新艺术是**装饰语言**，只属于封面层 ——
+   档案层（检索结果）与阅读层的底线是「能被检索」，不是「能被赞叹」，故一行未动。
+   作用域：body.page-home 的 .hero.cover 与 .grid--cover 四张门户卡；其它页面零影响。
+
+   落地时改掉样张里量到的两处硬伤：
+   ① 花框弧线下端比搜索框上沿低 30px（ink bottom 682.4 / search top 652.5），
+      右尾正落在「检索」按钮上 —— 现收窄到 600px 并把搜索框上边距放到 64px。
+   ② 样张 .page{padding:66px 150px} 是写死的，390px 视口下正文只剩 90px 宽
+      （h1 高度 270px）—— 现改流体宽度 + 900/760 两个断点。
+
+   配色：--cv-* 是封面自己的 token，不占用全站强调色名额（暗红仍是全站唯一强调色）。
+   --cv-paper 必须等于 motif.jpg 实测底色 (240,227,202)，否则图片会露出方框。
+   ============================================================ */
+body.page-home{
+  --cv-paper:#F0E3CA; --cv-card:#FBF3E1; --cv-field:#FBF3E1;
+  --cv-ink:#2B2318; --cv-soft:#6E6047;
+  --cv-olive:#4C5A32; --cv-gold:#B08428; --cv-ochre:#9C5A22; --cv-rust:#7E3B1E;
+  --bg: var(--cv-paper);
+}
+body[data-theme="dark"].page-home{
+  --cv-paper:#191612; --cv-card:#221E19; --cv-field:#2A251F;
+  --cv-ink:#f0e9de; --cv-soft:#b4aa9d;
+  --cv-olive:#849a63; --cv-gold:#d3ab52; --cv-ochre:#c9814a; --cv-rust:#c87441;
+}
+
+/* 纸纹层抬到 z-index:2：封面里有 position:relative 的内容（藤蔓 0 / 正文 1），
+   纸纹停在 0 就盖不到它们 —— 后果是母题图片那一块**没被噪声乘过**，
+   即使底色已调成 motif.jpg 的实测底色，仍会露出一个比周围更干净的方框。
+   抬到 2 之后纸纹对首页所有内容一视同仁（导航在 1000，菜单 1200，不受影响）。 */
+body.page-home::before{ z-index:2; }
+
+/* ---- 侧藤蔓：只在封面层、只在大屏（各占 150px，窄屏会把正文挤没） ---- */
+.cv-vine{ position:absolute; top:0; height:100%; width:150px; color:var(--cv-olive); opacity:.78; pointer-events:none; z-index:0; }
+.cv-vine.l{ left:0; }
+.cv-vine.r{ right:0; transform:scaleX(-1); }
+.cv-vine .stem{ fill:currentColor; }
+.cv-vine .leaf{ fill:currentColor; opacity:.72; }
+.cv-vine .rib{ stroke:var(--cv-paper); stroke-width:.7; fill:none; opacity:.55; }
+.cv-vine .bud{ fill:var(--cv-ochre); }
+@media (max-width:900px){ .cv-vine{ display:none; } }
+@media (prefers-reduced-motion: no-preference){
+  .cv-vine{ animation:cv-fade 1.6s ease-out both; }
+  @keyframes cv-fade{ from{ opacity:0; transform:translateY(10px); } to{ opacity:.78; transform:none; } }
+  .cv-vine.r{ animation-name:cv-fade-r; }
+  @keyframes cv-fade-r{ from{ opacity:0; transform:scaleX(-1) translateY(10px); } to{ opacity:.78; transform:scaleX(-1); } }
+  /* 关键帧的 to 值必须跟着 .cv-vine 的 opacity 走 —— 动画 fill:both 会盖掉普通声明 */
+}
+
+/* ---- 封面本体 ---- */
+.hero.cover{ position:relative; padding:52px 0 10px; }
+.hero.cover .wrap{ position:relative; z-index:1; }
+.cv-band{ display:flex; justify-content:center; color:var(--cv-gold); margin:0 0 4px; }
+.cv-motif{ display:block; margin:0 auto 12px; width:min(252px,42vw); height:auto; }
+/* 母题是"深色线条 + 米色底"的位图。浅色主题下米色底就等于纸色，看不见边（实测 ΔRGB ≈ 4）。
+   夜读主题下它就是一块白方块（实测 ΔRGB +203）—— 去背 PNG 试过：504px 宽要 598 KB，
+   JPEG 只有 91 KB，五倍代价换"看不见的边"，不值。改用滤镜把明度翻过来，线条变浅、底变深。 */
+body[data-theme="dark"] .cv-motif{ filter: invert(1) hue-rotate(180deg) brightness(.94) saturate(.85);
+}
+/* 试过 screen / lighten 想把夜读下那块"翻过来的底色"混掉 —— 实测**数字一动不动**
+   （ΔRGB 13.6/5.4/-11.5 两次完全相同）：.hero.cover .wrap 带 z-index:1 已自成层叠上下文，
+   混合被隔离在里面，没有页面底可混。要让它生效得拆掉 z-index，代价是藤蔓会盖住正文。
+   权衡后保留滤镜、不保留混合：夜读下的方块是一层"暗色花板"，可见但不刺眼（浅色主题 ΔRGB ≈ 4，看不见）。 */
+.hero.cover .kicker{ color:var(--cv-ochre); }
+.hero.cover .kicker::before, .hero.cover .kicker::after{ background:var(--cv-ochre); opacity:.5; }
+
+/* 标题 + 花框：标题进围合，弧线下端停在搜索框上方（实测留白 28px+） */
+.cv-titleblock{ position:relative; padding:24px 0 4px; }
+.cv-arch{ position:absolute; left:50%; top:-8px; transform:translateX(-50%);
+  width:min(600px,92%); height:auto; pointer-events:none; color:var(--cv-olive); }
+.cv-arch .stem, .cv-arch .leaf{ fill:currentColor; }
+.cv-titleblock h1, .cv-titleblock .cv-quote{ position:relative; z-index:1; }
+.hero.cover h1{ font-size:clamp(30px,4.6vw,46px); line-height:1.22; letter-spacing:.03em;
+  margin:6px 0 0; color:var(--cv-ink); }
+.hero.cover h1::after{ content:none; }   /* 渐变下划线撤掉：花框已经承担「收住标题」 */
+.cv-quote{ margin:24px auto 0; padding:0; border:0; max-width:520px; text-align:center;
+  font-family:var(--serif); font-size:21px; line-height:1.95; color:var(--cv-ink); }
+
+/* 搜索：方框 + 橄榄按钮（v7 的形制），但双线框只留外框 —— input 上挂 ::after 会盖住光标 */
+.hero.cover .searchbox{ margin-top:64px; }
+.hero.cover .searchbox input{ border-radius:0; border-color:var(--cv-olive);
+  background:var(--cv-field); box-shadow:none; }
+.hero.cover .searchbox input:focus{ border-color:var(--cv-gold); }
+.hero.cover .searchbox .chip{ border-radius:0; background:var(--cv-olive); border-color:var(--cv-olive);
+  color:#F2E9D6; padding:12px 22px; letter-spacing:.14em; }
+.hero.cover .searchbox .chip:hover,
+.hero.cover .searchbox .chip:focus-visible{ background:color-mix(in srgb, var(--cv-olive) 86%, #000);
+  border-color:var(--cv-olive); color:#F2E9D6; }
+
+/* 数字：留墨色（2026-09-18 拍板「数字是事实，事实不穿彩色制服」），封面不破这条 */
+.hero.cover .stats{ justify-content:center; gap:6px 46px; margin-top:26px; }
+.hero.cover .stat{ background:none; border:0; box-shadow:none; padding:0; }
+.hero.cover .stat--major b{ font-size:42px; color:var(--cv-ink); }
+.hero.cover .stat--major span{ font-size:12px; letter-spacing:.3em; color:var(--cv-ochre); }
+.hero.cover .stat-note{ font-size:12px; letter-spacing:.14em; color:var(--cv-soft); }
+.cv-divider{ display:flex; align-items:center; justify-content:center; gap:14px;
+  color:var(--cv-gold); margin:22px 0 0; }
+.cv-divider i{ display:block; height:1px; width:min(220px,26vw);
+  background:linear-gradient(90deg,transparent,var(--cv-gold)); }
+.cv-divider i + i{ background:linear-gradient(90deg,var(--cv-gold),transparent); }
+
+/* ---- 四张门户卡：新艺术双线框（方角、零阴影，与封面同一套语言） ---- */
+.grid--cover > .portal-card{ position:relative; border-radius:0; box-shadow:none; padding:22px 24px;
+  border:1px solid color-mix(in srgb, var(--cv-olive) 42%, transparent); background:var(--cv-card); }
+.grid--cover > .portal-card::before{ content:""; position:absolute; inset:5px; pointer-events:none;
+  border:1px solid color-mix(in srgb, var(--cv-gold) 34%, transparent); }
+.grid--cover > .portal-card:hover{ transform:none; box-shadow:none; border-color:var(--cv-olive);
+  background:color-mix(in srgb, var(--cv-card) 88%, #fff); }
+.grid--cover > .portal-card h3{ color:var(--cv-olive); margin:0 0 8px; }
+.grid--cover > .portal-card p{ font-size:14px; line-height:1.9; }
+.grid--cover > .portal-card .go{ color:var(--cv-ochre); font-size:13px; letter-spacing:.16em; }
+
+@media (max-width:760px){
+  .hero.cover{ padding:26px 0 6px; }
+  .cv-motif{ width:min(170px,46vw); margin-bottom:8px; }
+  .cv-titleblock{ padding:16px 0 2px; }
+  /* 花框在窄屏收起：弧线高度只跟宽度走（h = w×230/640），要让它停在标题下方
+     得把宽度压到 208px —— 那会横切标题。与其挤，不如让母题单独承担装饰。 */
+  .cv-arch{ display:none; }
+  .hero.cover .searchbox{ flex-direction:row; align-items:stretch; }
+  .hero.cover .searchbox input{ width:auto; min-width:0; flex:1; }
+  .hero.cover h1{ font-size:clamp(23px,7vw,32px); }
+  .cv-quote{ font-size:17px; line-height:1.9; margin-top:14px; }
+  .hero.cover .searchbox{ margin-top:30px; }
+  .hero.cover .stats{ gap:4px 28px; margin-top:20px; }
+  .hero.cover .stat--major b{ font-size:34px; }
+  .grid--cover > .portal-card{ padding:18px; }
+}

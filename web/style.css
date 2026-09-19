@@ -1320,7 +1320,8 @@ footer{ position:relative; z-index:1; }
 /* ---------- 场景层：铺满整页 ---------- */
 .page-scene{ position:absolute; top:0; left:0; right:0; bottom:0; z-index:0;
   overflow:hidden; pointer-events:none; }
-.petal-layer{ position:fixed; inset:0; z-index:0; overflow:hidden; pointer-events:none; }
+.petal-layer{ position:fixed; inset:0; z-index:0; overflow:hidden; pointer-events:none;
+  will-change:transform; }
 
 /* 首屏那株花：位置由脚本按 hero 的中线摆 */
 .scene-hero{ position:absolute; left:50%; top:50%; width:min(560px,72vw);
@@ -1340,9 +1341,12 @@ body[data-theme="dark"] .cv-motif{ filter:invert(1) hue-rotate(180deg) brightnes
 body[data-theme="dark"] .scene-cluster img{ filter:invert(1) hue-rotate(180deg) brightness(.9) saturate(.75); }
 /* 位置：**要压在玻璃面板底下**，玻璃才有东西可透 —— 只贴页边等于白做（第四版实测：
    贴边时开关 backdrop-filter 只有 6.5% 的像素变，因为玻璃后面什么都没有） */
-.scene-cluster.c1{ left:-8%; top:29%; transform:rotate(-7deg); }
-.scene-cluster.c2{ right:-8%; top:52%; transform:rotate(6deg) scaleX(-1); }
-.scene-cluster.c3{ left:-5%; top:78%; transform:rotate(-5deg) scaleX(-1); }
+/* 只留定位 —— transform 归下面的 --py/--xform/--ps 组合管。
+   原来这里各写了一条 transform:rotate(...)，特异性(0,2,0) 压过 .scene-cluster(0,1,0)，
+   于是视差变量怎么设都不生效（实测花丛在滚动时纹丝不动，藤蔓却正常）。 */
+.scene-cluster.c1{ left:-8%; top:29%; --xform:rotate(-7deg); }
+.scene-cluster.c2{ right:-8%; top:52%; --xform:rotate(6deg) scaleX(-1); }
+.scene-cluster.c3{ left:-5%; top:78%; --xform:rotate(-5deg) scaleX(-1); }
 
 /* 藤蔓：由脚本按整页高度生成，左右各一条 */
 .page-vine{ position:absolute; top:0; width:190px; color:var(--cv-olive);
@@ -1583,10 +1587,10 @@ body{
    它看起来像同一条规则，实际是遮蔽。实测就踩了：卡片上的"看专题 →"一直拿不到加深的那档。 */
 
 /* ---------- ② 视差层次：文字 1.0 / 花丛 0.20 / 藤蔓 0.10 ---------- */
-.scene-cluster{ transform:translate3d(0,var(--py,0px),0) var(--xform,none); }
-.scene-cluster.c1{ --xform:rotate(-7deg); }
-.scene-cluster.c2{ --xform:rotate(6deg) scaleX(-1); }
-.scene-cluster.c3{ --xform:rotate(-5deg) scaleX(-1); }
+/* 花丛的视差**不用位移主力**：它被摆在玻璃面板底下，位移越大就越会从面板后面漂走，
+   玻璃就又没东西可透了。改走「缓慢放大」—— 在面板底下长大，位置基本不动，深度照样出来。 */
+.scene-cluster{ transform:translate3d(0,var(--py,0px),0) var(--xform,none) scale(var(--ps,1)); }
+/* --xform 已在上面和定位合并定义（重复定义会让"改一处"变成"改两处"） */
 .page-vine.l{ transform:translate3d(0,var(--py,0px),0); }
 .page-vine.r{ transform:translate3d(0,var(--py,0px),0) scaleX(-1); }
 

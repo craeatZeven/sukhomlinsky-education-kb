@@ -95,14 +95,22 @@
     svg.innerHTML = out.join('');
   }
 
-  /* ---------- 视差：正文 1.0 / 花丛 0.20 / 藤蔓 0.10 ---------- */
+  /* ---------- 视差：四层各走各的速率 ----------
+     用户反馈："背景和文字的速度差还可以再强一些"。于是：
+       正文 1.00 ｜ 花瓣层 1.00 + 滚动牵引 ｜ 花丛 0.22（外加缓慢放大）｜ 藤蔓 0.34
+     藤蔓能拉到 0.34 是因为它是**程序生成的连续花纹**，往下拖多少都不会露空；
+     花丛不行 —— 它被摆在玻璃面板底下，位移大了就从面板后面漂走，玻璃又没东西可透，
+     所以它的"深度"主要靠**放大**而不是位移。 */
   var PAR = [
-    [scene.querySelector('.page-vine.l'), 0.10],
-    [scene.querySelector('.page-vine.r'), 0.10],
-    [scene.querySelector('.scene-cluster.c1'), 0.20],
-    [scene.querySelector('.scene-cluster.c2'), 0.20],
-    [scene.querySelector('.scene-cluster.c3'), 0.20]
+    [scene.querySelector('.page-vine.l'), 0.34],
+    [scene.querySelector('.page-vine.r'), 0.34],
+    [scene.querySelector('.scene-cluster.c1'), 0.22],
+    [scene.querySelector('.scene-cluster.c2'), 0.22],
+    [scene.querySelector('.scene-cluster.c3'), 0.22]
   ];
+  var CLUSTERS = ['.scene-cluster.c1', '.scene-cluster.c2', '.scene-cluster.c3']
+    .map(function (s) { return scene.querySelector(s); });
+  var petals = layer;
 
   function layout() {
     var f = doc.querySelector('footer');
@@ -122,17 +130,22 @@
     if (hero) {
       var p = Math.min(s, hero.offsetHeight) / (hero.offsetHeight || 1);
       if (text) {
-        text.style.transform = 'translate3d(0,' + (-p * 54).toFixed(1) + 'px,0)';
+        text.style.transform = 'translate3d(0,' + (-p * 92).toFixed(1) + 'px,0)';
         text.style.opacity = Math.max(0, 1 - p * 1.2).toFixed(3);
       }
       if (art) {
-        art.style.transform = 'translate(-50%,-50%) translate3d(0,' + (p * 82).toFixed(1) +
-                              'px,0) scale(' + (1 + p * 0.06).toFixed(3) + ')';
+        art.style.transform = 'translate(-50%,-50%) translate3d(0,' + (p * 132).toFixed(1) +
+                              'px,0) scale(' + (1 + p * 0.11).toFixed(3) + ')';
       }
     }
     for (var i = 0; i < PAR.length; i++) {
       if (PAR[i][0]) PAR[i][0].style.setProperty('--py', (s * PAR[i][1]).toFixed(1) + 'px');
     }
+    for (var j = 0; j < CLUSTERS.length; j++) {
+      if (CLUSTERS[j]) CLUSTERS[j].style.setProperty('--ps', (1 + s * 0.00008).toFixed(4));
+    }
+    /* 花瓣层随滚动被"带走"一点：空气也在动，飘落就不只是它自己的事 */
+    if (petals) petals.style.transform = 'translate3d(0,' + (s * 0.07).toFixed(1) + 'px,0)';
   }
 
   var rt;

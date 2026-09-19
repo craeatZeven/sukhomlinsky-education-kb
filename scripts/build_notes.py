@@ -187,14 +187,16 @@ CHROME = '''<!doctype html>
 <meta name="description" content="{desc}" />
 <meta name="robots" content="index,follow" />
 <link rel="canonical" href="{site}/web/note/{slug}.html" />
+<link rel="icon" href="icon.svg" type="image/svg+xml" />
 <meta property="og:type" content="article" />
 <meta property="og:title" content="{title} · 苏霍姆林斯基教育知识库" />
 <meta property="og:description" content="{desc}" />
 <meta property="og:url" content="{site}/web/note/{slug}.html" />
-<meta property="og:image" content="{site}/web/og.png" />
+<meta property="og:image" content="{site}/web/og.jpg" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
 <meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="{site}/web/og.jpg" />
 <meta name="twitter:title" content="{title} · 苏霍姆林斯基教育知识库" />
 <meta name="twitter:description" content="{desc}" />
 <link rel="stylesheet" href="style.css?v={ver}" />
@@ -248,14 +250,16 @@ SITEMAP_HEAD = '''<!doctype html>
 <meta name="description" content="这个站的全部页面一览：找材料、读成篇材料、看来源、用起来四条路，每一页各自回答什么问题。" />
 <meta name="robots" content="index,follow" />
 <link rel="canonical" href="{site}/web/sitemap.html" />
+<link rel="icon" href="icon.svg" type="image/svg+xml" />
 <meta property="og:type" content="website" />
 <meta property="og:title" content="网站地图 · 苏霍姆林斯基教育知识库" />
 <meta property="og:description" content="这个站的全部页面一览：找材料、读成篇材料、看来源、用起来四条路，每一页各自回答什么问题。" />
 <meta property="og:url" content="{site}/web/sitemap.html" />
-<meta property="og:image" content="{site}/web/og.png" />
+<meta property="og:image" content="{site}/web/og.jpg" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
 <meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="{site}/web/og.jpg" />
 <meta name="twitter:title" content="网站地图 · 苏霍姆林斯基教育知识库" />
 <meta name="twitter:description" content="这个站的全部页面一览：找材料、读成篇材料、看来源、用起来四条路，每一页各自回答什么问题。" />
 <link rel="stylesheet" href="style.css?v={ver}" />
@@ -314,14 +318,16 @@ HUB = '''<!doctype html>
 <meta name="description" content="已经写好的一篇篇文章：12 篇编者长文、跨卡片的分析页、两条主张的对比页与归档问答，每句判断后面都挂着卡号、可回查出处。" />
 <meta name="robots" content="index,follow" />
 <link rel="canonical" href="{site}/web/reads.html" />
+<link rel="icon" href="icon.svg" type="image/svg+xml" />
 <meta property="og:type" content="website" />
 <meta property="og:title" content="读本 · 苏霍姆林斯基教育知识库" />
 <meta property="og:description" content="已经写好的一篇篇文章：12 篇编者长文、跨卡片的分析页、两条主张的对比页与归档问答，每句判断后面都挂着卡号、可回查出处。" />
 <meta property="og:url" content="{site}/web/reads.html" />
-<meta property="og:image" content="{site}/web/og.png" />
+<meta property="og:image" content="{site}/web/og.jpg" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
 <meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="{site}/web/og.jpg" />
 <meta name="twitter:title" content="读本 · 苏霍姆林斯基教育知识库" />
 <meta name="twitter:description" content="已经写好的一篇篇文章：12 篇编者长文、跨卡片的分析页、两条主张的对比页与归档问答，每句判断后面都挂着卡号、可回查出处。" />
 <link rel="stylesheet" href="style.css?v={ver}" />

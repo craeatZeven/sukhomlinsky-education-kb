@@ -262,6 +262,23 @@
     if (petals) petals.style.transform = 'translate3d(0,' + (s * 0.07).toFixed(1) + 'px,0)';
   }
 
+  /* ---------- 光影层：150 秒一圈，但每 350ms 才更新一次 ----------
+     用户 2026-09-19：「整体再加一些光影变幻」。三团暖光在页面背后极慢地平移。
+     **为什么不用 CSS animation**：这一层在玻璃后面，它每动一帧，页面上每个
+     backdrop-filter 玻璃就要重新采样一次背景。实测每帧更新时中位帧 20.1 → 29.4ms（+46%）；
+     而 150 秒走完的位移，每秒更新 3 次与 60 次在肉眼上无法区分。
+     标签页隐藏时不更新（省电），reduced-motion 下不启动。 */
+  var lightEl = null, lightTimer = null, LIGHT_PERIOD = 150000;
+  function lightFrame() {
+    if (doc.hidden) return;
+    var t = (Date.now() % LIGHT_PERIOD) / LIGHT_PERIOD * Math.PI * 2;
+    var el = doc.body;
+    el.style.setProperty('--ldx', (-2.5 + 2.5 * (1 - Math.cos(t))).toFixed(2));
+    el.style.setProperty('--ldy', (-1.5 + 3.0 * (1 - Math.sin(t)) / 2).toFixed(2));
+    el.style.setProperty('--lds', (1 + 0.05 * (1 - Math.cos(t)) / 2).toFixed(4));
+  }
+  if (!reduced.matches) { lightFrame(); lightTimer = setInterval(lightFrame, 350); }
+
   var rt;
   window.addEventListener('resize', function () { clearTimeout(rt); rt = setTimeout(layout, 250); });
   /* 页高会变：搜索/浏览页的结果是异步灌进来的（实测 search.html 首屏藤蔓只到 900px，

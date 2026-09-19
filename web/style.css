@@ -1314,6 +1314,44 @@ body[data-theme="dark"]{
 /* 纸纹抬到 z-index:2：封面里全是 relative 的层，停在 0 会漏掉它们，
    露出"没被噪声乘过"的净色块（第一版实测过：一圈明显可见的方框） */
 body::before{ z-index:5; }   /* 抬到玻璃之上：否则 z-index 3 的封面正文会把纸纹顶掉 */
+
+/* ============================================================
+   光影层（2026-09-19 第二十二版，用户：「整体再加一些光影变幻」）
+   ------------------------------------------------------------
+   三团巨大的暖色柔光（左上、右中、下中），以 150s 的周期极慢地平移 + 轻微放大。
+   几处刻意的选择：
+     · **层在 z-index:0、内容在 1** —— 光只落在背景与藤蔓上，玻璃通过 backdrop-filter
+       把光**透**上来，而文字永远压在最上面。光影不该拿可读性去换。
+     · **只用 transform 动画**（合成层，不触发重排重绘）。改 background-position 或
+       opacity 会让这一整层每帧重画 —— 那正是上一版实测里 backdrop-filter 之外最贵的东西。
+     · **不用 mix-blend-mode**：固定层 + 混合模式会让浏览器每帧重算背景混合。
+       暖白叠在纸色上本来就够，纯属白花性能。
+     · reduced-motion 下动画停掉（光还在，只是不动）；reduced-transparency 下整层不出现。
+   ============================================================ */
+body::after{
+  content:""; position:fixed; inset:-25% -15%; z-index:0; pointer-events:none;
+  background:
+    radial-gradient(36% 28% at 20% 16%, rgba(255,244,219,.62), transparent 68%),
+    radial-gradient(32% 24% at 80% 58%, rgba(255,236,198,.50), transparent 70%),
+    radial-gradient(30% 22% at 48% 86%, rgba(255,248,230,.42), transparent 72%);
+  /* **这里故意不写 animation**（2026-09-19 实测）：这一层在玻璃的后面，
+     每动一次，所有 backdrop-filter 玻璃都要重新采样背景 —— 每帧更新时中位帧
+     20.1ms → 29.4ms（+46%）。而它 150 秒才走完一圈，每秒更新 60 次纯属浪费。
+     改由 scene.js 以 ~3 次/秒驱动 transform：同样的观感，代价回到噪声内。 */
+  transform:translate3d(0,0,0); will-change:transform;
+  --lt: 0;
+}
+body::after{ transform:translate3d(calc(var(--ldx,0) * 1%), calc(var(--ldy,0) * 1%), 0) scale(var(--lds,1)); }
+body[data-theme="dark"]::after{
+  /* 夜读：换成月光 —— 冷、更淡，且不给暖色（暖光压在暗背景上会发脏） */
+  background:
+    radial-gradient(36% 28% at 22% 14%, rgba(198,214,235,.20), transparent 68%),
+    radial-gradient(32% 24% at 78% 60%, rgba(206,220,238,.15), transparent 70%),
+    radial-gradient(30% 22% at 50% 88%, rgba(190,206,228,.12), transparent 72%);
+}
+
+@media (prefers-reduced-motion: reduce){ body::after{ animation:none; } }
+@media (prefers-reduced-transparency: reduce){ body::after{ display:none; } }
 /* 内容抬到场景之上；页脚也要 —— 静态元素会被 z-index:0 的场景盖住 */
 main,
 footer{ position:relative; z-index:1; }
@@ -1408,11 +1446,16 @@ body[data-theme="dark"] .scene-cluster img{ filter:invert(1) hue-rotate(180deg) 
 
 /* ---------- 四张门户卡：新艺术双线框 ---------- */
 .grid--cover > .portal-card{ position:relative; border-radius:0; box-shadow:none; padding:22px 24px;
-  border:1px solid color-mix(in srgb, var(--cv-olive) 42%, transparent); background:var(--cv-card); }
+  /* 2026-09-19：这里原来是 background:var(--cv-card) —— **不透明**，而它的特异性(0,2,0)
+     压过下面 `:is(.card,.portal-card,…)` 的玻璃规则(0,1,0)。于是首页四张最大的入口卡
+     一直在跑 backdrop-filter、**再拿一层不透明底色盖住它** —— 模糊白算了，看起来是块木板。
+     用户说「所有的页面玻璃质感还不够强」，指的多半就是它们。改成和全站同一套玻璃。 */
+  border:1px solid color-mix(in srgb, var(--cv-olive) 42%, transparent);
+  background:var(--glass); background-image:var(--sheen); }
 .grid--cover > .portal-card::before{ content:""; position:absolute; inset:5px; pointer-events:none;
   border:1px solid color-mix(in srgb, var(--cv-gold) 34%, transparent); }
 .grid--cover > .portal-card:hover{ transform:none; box-shadow:none; border-color:var(--cv-olive);
-  background:color-mix(in srgb, var(--cv-card) 88%, #fff); }
+  background:var(--glass-2); background-image:var(--sheen); }
 .grid--cover > .portal-card h3{ color:var(--cv-olive); margin:0 0 8px; }
 .grid--cover > .portal-card p{ font-size:14px; line-height:1.9; }
 .grid--cover > .portal-card .go{ color:var(--accent-ink); font-size:13px; letter-spacing:.16em; }
@@ -1453,20 +1496,31 @@ body[data-theme="dark"] .scene-cluster img{ filter:invert(1) hue-rotate(180deg) 
 body{
   /* .34 → .40（2026-09-19 实测）：卡片里的"看专题 →"这类强调色文字压在花影上只有 3.69:1，
      玻璃太透底就压不住。实测提到 .40 后再配合把强调色文字换成深一档的 --accent-ink → 4.84:1。 */
-  --glass:rgba(255,253,246,.40);
-  --glass-2:rgba(255,253,246,.58);
-  --glass-line:rgba(255,255,255,.58);
-  --glass-shadow:0 10px 32px rgba(43,35,24,.09);
-  --glass-blur:blur(12px) saturate(1.2);
-  --chrome-alpha:76%;
-  --foot-alpha:80%;
+  /* 2026-09-19 第二十二版：用户「玻璃质感还不够强，可以再透一点试试看？整体再加一些光影变幻」
+     ① 透明度 .40 → .30、.58 → .46；**同时把模糊 12px → 17px、饱和度 1.2 → 1.35**。
+        为什么「更透」必须配「更模糊」：透明度决定你看见下面**多少东西**，模糊决定你看见的
+        是**形状还是色块**。只降透明度不加模糊，玻璃下面的花会变成干扰线条；加了模糊，
+        花变成色晕 —— 透而不乱，这才是玻璃。
+     ② --sheen：一道左上→右下的斜向高光。**这是玻璃之所以像玻璃的那一笔** ——
+        没有它，半透明面板只是「半透明面板」。 */
+  --glass:rgba(255,253,246,.30);
+  --glass-2:rgba(255,253,246,.46);
+  --glass-line:rgba(255,255,255,.62);
+  --glass-shadow:0 12px 36px rgba(43,35,24,.10);
+  --glass-blur:blur(17px) saturate(1.35);
+  --sheen:linear-gradient(135deg, rgba(255,255,255,.34) 0%, rgba(255,255,255,.12) 24%,
+          rgba(255,255,255,0) 46%);
+  --chrome-alpha:72%;
+  --foot-alpha:76%;
   --nav-ink:#d8dfd8; --nav-ink-2:#cdd5cd; --foot-ink:#cfd6cf;
 }
 body[data-theme="dark"]{
-  --glass:rgba(46,42,36,.38);
-  --glass-2:rgba(46,42,36,.56);
-  --glass-line:rgba(255,255,255,.14);
-  --glass-shadow:0 10px 32px rgba(0,0,0,.38);
+  --glass:rgba(46,42,36,.30);
+  --glass-2:rgba(46,42,36,.46);
+  --glass-line:rgba(255,255,255,.16);
+  --glass-shadow:0 12px 36px rgba(0,0,0,.40);
+  --sheen:linear-gradient(135deg, rgba(255,255,255,.16) 0%, rgba(255,255,255,.05) 24%,
+          rgba(255,255,255,0) 46%);
   --chrome-alpha:82%;
   --foot-alpha:84%;
   --nav-ink:#e6ebe6; --nav-ink-2:#d8ded8; --foot-ink:#d6ddd6;
@@ -1479,13 +1533,14 @@ body[data-theme="dark"]{
 :is(.card, .portal-card, .source-card, .case-card, .conf-item, .filters, .rows--plain)
   :is(.go, .row-go, .row-entry, .row-flag){ color:var(--accent-ink); }
 :is(.card, .portal-card, .source-card, .case-card, .conf-item, .filters, .rows--plain){
-  background:var(--glass);
+  background:var(--glass); background-image:var(--sheen);
   -webkit-backdrop-filter:var(--glass-blur); backdrop-filter:var(--glass-blur);
   border-color:var(--glass-line);
   box-shadow:var(--glass-shadow), inset 0 1px 0 var(--glass-line);
 }
 .searchbox input{
-  background:var(--glass); -webkit-backdrop-filter:var(--glass-blur); backdrop-filter:var(--glass-blur);
+  background:var(--glass); background-image:var(--sheen);
+  -webkit-backdrop-filter:var(--glass-blur); backdrop-filter:var(--glass-blur);
   border-color:var(--glass-line);
   box-shadow:var(--glass-shadow), inset 0 1px 0 var(--glass-line);
 }
@@ -1507,13 +1562,14 @@ body[data-theme="dark"]{
 .topnav .nav-group.active .nav-group-btn{ color:var(--chrome-ink); }
 .topnav .nav-menu-sub{ color:var(--nav-ink-2); }
 .topnav .nav-menu{
-  background:color-mix(in srgb, var(--chrome) 78%, transparent);
+  background:color-mix(in srgb, var(--chrome) 74%, transparent);
+  background-image:var(--sheen);
   -webkit-backdrop-filter:var(--glass-blur); backdrop-filter:var(--glass-blur);
 }
 
 /* 首屏搜索框：玻璃 + 保留新艺术的橄榄细边 */
 .hero.cover .searchbox input{
-  background:var(--glass);
+  background:var(--glass); background-image:var(--sheen);
   border-color:color-mix(in srgb, var(--cv-olive) 40%, transparent);
   -webkit-backdrop-filter:var(--glass-blur); backdrop-filter:var(--glass-blur);
   box-shadow:var(--glass-shadow), inset 0 1px 0 var(--glass-line);

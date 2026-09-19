@@ -26,6 +26,15 @@
 <link rel="stylesheet" href="style.css?v=20260919a" />
 </head>
 <body class="page-home">
+<div class="page-scene" aria-hidden="true">
+  <div class="scene-hero"><img class="cv-motif" src="motif.jpg" width="561" height="720" alt="" /></div>
+  <div class="scene-cluster c1"><img src="motif.jpg" width="561" height="720" alt="" /></div>
+  <div class="scene-cluster c2"><img src="motif.jpg" width="561" height="720" alt="" /></div>
+  <div class="scene-cluster c3"><img src="motif.jpg" width="561" height="720" alt="" /></div>
+  <svg class="page-vine l" aria-hidden="true"></svg>
+  <svg class="page-vine r" aria-hidden="true"></svg>
+</div>
+<div class="petal-layer" id="petalLayer" aria-hidden="true"></div>
 <nav class="topnav">
   <div class="inner">
     <a class="brand" href="index.html">苏霍姆林斯基教育知识库</a>
@@ -57,53 +66,7 @@
 </nav>
 
 <header class="hero cover">
-  <div class="cover-scene" aria-hidden="true">
-    <div class="cover-art"><img class="cv-motif" src="motif.jpg" width="561" height="720" alt="" /></div>
-    <div class="cover-petals" id="coverPetals"></div>
-  </div>
   <div class="cover-veil" aria-hidden="true"></div>
-<svg class="cv-vine l" viewBox="0 0 150 1000" preserveAspectRatio="none">
-<!-- 主干：三条渐细的带，起笔粗收笔尖（fill 轮廓，不是等宽 stroke） -->
-<path class="stem" d="M92,0 C92,58 62,92 60,146 C58,200 34,232 36,286 L40,286 C38,232 62,200 64,146 C66,92 96,58 96,0 Z"/>
-<path class="stem" d="M38,282 C40,336 70,368 68,422 C66,476 92,508 90,562 L86,562 C88,508 62,476 64,422 C66,368 36,336 34,282 Z"/>
-<path class="stem" d="M88,558 C90,612 62,644 64,698 C66,752 40,784 42,838 L46,838 C44,784 70,752 68,698 C66,644 94,612 92,558 Z"/>
-<path class="stem" d="M44,834 C46,888 74,918 72,972 L68,972 C70,918 42,888 40,834 Z"/>
-<!-- 卷须（细，带尖） -->
-<path class="stem" d="M96,44 C120,52 132,72 128,96 C126,110 114,116 106,110 C100,105 100,96 106,93 C110,91 114,94 113,99 C120,100 126,92 124,80 C122,64 110,52 94,48 Z" opacity=".85"/>
-<path class="stem" d="M34,326 C10,334 -2,354 2,378 C4,392 16,398 24,392 C30,387 30,378 24,375 C20,373 16,376 17,381 C10,382 4,374 6,362 C8,346 20,334 36,330 Z" opacity=".8"/>
-<path class="stem" d="M92,602 C116,610 128,630 124,654 C122,668 110,674 102,668 C96,663 96,654 102,651 C106,649 110,652 109,657 C116,658 122,650 120,638 C118,622 106,610 90,606 Z" opacity=".8"/>
-<path class="stem" opacity=".55" d="M126,120 C126,182 100,214 102,268 C104,322 84,352 86,406 L88,406 C86,352 106,322 104,268 C102,214 128,182 128,120 Z"/>
-<path class="leaf" opacity=".45" d="M128,196 C116,190 106,178 108,164 C124,168 134,180 131,196 Z"/>
-<path class="leaf" opacity=".45" d="M86,466 C98,460 108,448 106,434 C90,438 80,450 83,466 Z"/>
-<!-- 叶：带中脉 -->
-<path class="leaf" d="M96,96 C82,88 70,74 72,56 C92,60 104,76 100,96 Z"/>
-<path class="rib" d="M98,94 C90,84 82,72 73,57"/>
-<path class="leaf" d="M34,378 C48,370 60,356 58,338 C38,342 26,358 30,378 Z"/>
-<path class="rib" d="M32,376 C40,366 48,354 57,339"/>
-<path class="leaf" d="M92,654 C78,646 66,632 68,614 C88,618 100,634 96,654 Z"/>
-<path class="rib" d="M94,652 C86,642 78,630 69,615"/>
-<path class="leaf" d="M46,900 C60,892 72,878 70,860 C50,864 38,880 42,900 Z"/>
-<path class="rib" d="M44,898 C52,888 60,876 69,861"/>
-<!-- 花蕾 -->
-<path class="bud" d="M100,120 C108,120 112,126 110,134 C108,142 100,146 94,142 C88,138 90,126 100,120 Z"/>
-<path class="bud" d="M30,402 C22,402 18,408 20,416 C22,424 30,428 36,424 C42,420 40,408 30,402 Z"/>
-<path class="bud" d="M88,678 C96,678 100,684 98,692 C96,700 88,704 82,700 C76,696 78,684 88,678 Z"/>
-</svg>
-<svg class="cv-vine r" viewBox="0 0 150 1000" preserveAspectRatio="none">
-<path class="stem" d="M92,0 C92,58 62,92 60,146 C58,200 34,232 36,286 L40,286 C38,232 62,200 64,146 C66,92 96,58 96,0 Z"/>
-<path class="stem" d="M38,282 C40,336 70,368 68,422 C66,476 92,508 90,562 L86,562 C88,508 62,476 64,422 C66,368 36,336 34,282 Z"/>
-<path class="stem" d="M88,558 C90,612 62,644 64,698 C66,752 40,784 42,838 L46,838 C44,784 70,752 68,698 C66,644 94,612 92,558 Z"/>
-<path class="stem" d="M96,60 C120,68 132,88 128,112 C126,126 114,132 106,126 C100,121 100,112 106,109 C110,107 114,110 113,115 C120,116 126,108 124,96 C122,80 110,68 94,64 Z" opacity=".85"/>
-<path class="stem" d="M34,336 C10,344 -2,364 2,388 C4,402 16,408 24,402 C30,397 30,388 24,385 C20,383 16,386 17,391 C10,392 4,384 6,372 C8,356 20,344 36,340 Z" opacity=".8"/>
-<path class="leaf" d="M96,96 C82,88 70,74 72,56 C92,60 104,76 100,96 Z"/>
-<path class="rib" d="M98,94 C90,84 82,72 73,57"/>
-<path class="leaf" d="M34,388 C48,380 60,366 58,348 C38,352 26,368 30,388 Z"/>
-<path class="rib" d="M32,386 C40,376 48,364 57,349"/>
-<path class="leaf" d="M92,660 C78,652 66,638 68,620 C88,624 100,640 96,660 Z"/>
-<path class="rib" d="M94,658 C86,648 78,636 69,621"/>
-<path class="bud" d="M100,132 C108,132 112,138 110,146 C108,154 100,158 94,154 C88,150 90,138 100,132 Z"/>
-<path class="bud" d="M88,684 C96,684 100,690 98,698 C96,706 88,710 82,706 C76,702 78,690 88,684 Z"/>
-</svg>
   <div class="wrap">
     <div class="cv-text">
       <div class="kicker">Sukhomlinsky Education KB</div>
@@ -285,25 +248,30 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 </script>
 <script>
-/* 封面场景（2026-09-19）：滚动视差 + 花叶飘落。
-   两件事都在 prefers-reduced-motion 下让位：花瓣不生成、视差不接管。 */
+/* 首页场景（2026-09-19 第三版：铺满整页）
+   - 花卉垫底：首屏一株 + 页面中下段两丛（低透明度、出血到页边）
+   - 藤蔓：按整页高度**程序生成** —— 不是把一张 1000 单位的路径拉长，那会把叶子拉变形
+   - 花瓣：固定在视口层，滚到哪都在落
+   全部在 prefers-reduced-motion 下让位。 */
 (function () {
-  var hero = document.querySelector('.hero.cover');
-  if (!hero) return;
-  var scene = hero.querySelector('.cover-scene');
-  var text  = hero.querySelector('.cv-text');
-  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)');
+  var doc = document;
+  var scene = doc.querySelector('.page-scene');
+  if (!scene) return;
+  var reduced = window.matchMedia('(prefers-reduced-motion: reduce)');
+  var hero = doc.querySelector('.hero.cover');
+  var art  = scene.querySelector('.scene-hero');
+  var text = hero && hero.querySelector('.cv-text');
 
-  /* 花叶：三种形（花瓣 / 叶片 / 小花），参数随机，用 CSS 变量喂给 keyframes */
+  /* ---------- 花瓣 ---------- */
   var SHAPES = [
     '<svg viewBox="0 0 24 34" xmlns="http://www.w3.org/2000/svg"><path d="M12 0C19 8 21 19 12 34 3 19 5 8 12 0Z" fill="#9C5A22" opacity=".85"/><path d="M12 5C13.4 13 13.8 22 12 29" stroke="#F0E3CA" stroke-width=".9" fill="none" opacity=".55"/></svg>',
     '<svg viewBox="0 0 30 22" xmlns="http://www.w3.org/2000/svg"><path d="M1 20C1 9 10 1 29 1 29 12 20 20 1 20Z" fill="#4C5A32" opacity=".8"/><path d="M3 18C10 13 18 7 27 3" stroke="#F0E3CA" stroke-width=".9" fill="none" opacity=".5"/></svg>',
     '<svg viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg"><g fill="#B08428" opacity=".78"><ellipse cx="14" cy="6" rx="4" ry="6"/><ellipse cx="22" cy="14" rx="6" ry="4"/><ellipse cx="14" cy="22" rx="4" ry="6"/><ellipse cx="6" cy="14" rx="6" ry="4"/></g><circle cx="14" cy="14" r="3.4" fill="#9C5A22"/></svg>'
   ];
-  var host = hero.querySelector('#coverPetals');
-  if (host && !reduce.matches) {
-    for (var i = 0; i < 11; i++) {
-      var el = document.createElement('span');
+  var layer = doc.getElementById('petalLayer');
+  if (layer && !reduced.matches) {
+    for (var i = 0; i < 16; i++) {
+      var el = doc.createElement('span');
       el.className = 'cv-petal';
       el.style.setProperty('--x', (Math.random() * 96 + 2).toFixed(2) + '%');
       el.style.setProperty('--dx', (Math.random() * 16 - 8).toFixed(1) + 'vw');
@@ -312,29 +280,85 @@ document.addEventListener("DOMContentLoaded", () => {
       el.style.setProperty('--delay', (-Math.random() * 20).toFixed(1) + 's');
       el.style.setProperty('--rot', Math.round(Math.random() * 760 - 380) + 'deg');
       el.innerHTML = SHAPES[i % SHAPES.length];
-      host.appendChild(el);
+      layer.appendChild(el);
     }
   }
 
-  /* 滚动视差：文字往上走得更快、画面往下沉、画面同时轻微放大 —— 字浮在图上 */
+  /* ---------- 藤蔓：按整页高度生成 ---------- */
+  var LEAF = 'M0,0 C9,-2 17,-11 15,-23 C2,-22 -6,-11 -4,1 Z';
+  var RIB  = 'M0,0 C4,-6 8,-15 13,-20';
+  var TEND = 'M2,-4 C14,-2 22,-10 20,-22 C19,-29 11,-30 8,-25 C6,-21 9,-18 13,-19 C16,-20 17,-23 16,-25';
+  function buildVine(svg, W, H, phase) {
+    if (!svg) return;
+    svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
+    svg.setAttribute('width', W);
+    svg.setAttribute('height', H);
+    svg.style.height = H + 'px';
+    var cx = W * 0.5, amp = W * 0.17, period = 720;
+    var top = [], bot = [], y, c, t, w;
+    for (y = 0; y <= H; y += 7) {
+      c = cx + amp * Math.sin(2 * Math.PI * y / period + phase);
+      t = (y % (period * 0.5)) / (period * 0.5);
+      w = 1.7 + 3.3 * Math.sin(Math.PI * t);
+      top.push((c - w).toFixed(1) + ',' + y);
+      bot.push((c + w).toFixed(1) + ',' + y);
+    }
+    var out = ['<path class="stem" d="M' + top.join('L') + 'L' + bot.reverse().join('L') + 'Z"/>'];
+    var k = 0;
+    for (y = 150; y < H - 120; y += 210) {
+      c = cx + amp * Math.sin(2 * Math.PI * y / period + phase);
+      var slope = amp * (2 * Math.PI / period) * Math.cos(2 * Math.PI * y / period + phase);
+      var ang = Math.atan(slope) * 180 / Math.PI;
+      var dir = (k % 2 === 0) ? 1 : -1;
+      var s = 0.85 + 0.4 * ((k % 3) / 2);
+      var xf = 'translate(' + c.toFixed(1) + ',' + y + ') rotate(' + (ang + dir * 36).toFixed(1) +
+               ') scale(' + (dir * s).toFixed(2) + ',' + s.toFixed(2) + ')';
+      out.push('<g transform="' + xf + '"><path class="leaf" d="' + LEAF + '"/><path class="rib" d="' + RIB + '"/></g>');
+      if (k % 3 === 1) {
+        out.push('<g transform="translate(' + c.toFixed(1) + ',' + (y + 96) + ') rotate(' +
+                 (-ang - dir * 20).toFixed(1) + ') scale(' + (dir * 0.9).toFixed(2) + ',0.9)"><path class="stem" opacity=".8" d="' + TEND + '"/></g>');
+      }
+      if (k % 4 === 2) {
+        out.push('<circle class="bud" cx="' + (c + dir * 13).toFixed(1) + '" cy="' + (y + 34) + '" r="4.8"/>');
+      }
+      k++;
+    }
+    svg.innerHTML = out.join('');
+  }
+
+  var H = 0;
+  function layout() {
+    var fh = (doc.querySelector('footer') || {}).offsetHeight || 0;
+    H = Math.max(doc.documentElement.scrollHeight - fh, 900);   // 藤蔓到页脚为止
+    scene.style.height = (H + fh) + 'px';
+    buildVine(scene.querySelector('.page-vine.l'), 190, H, 0);
+    buildVine(scene.querySelector('.page-vine.r'), 190, H, Math.PI);
+    if (art && hero) art.style.top = (hero.offsetTop + hero.offsetHeight / 2) + 'px';
+  }
+
+  /* ---------- 视差 ---------- */
   var ticking = false;
   function frame() {
     ticking = false;
-    if (reduce.matches) return;
-    var h = hero.offsetHeight || 1;
+    if (reduced.matches) return;
+    var h = (hero && hero.offsetHeight) || 1;
     var p = Math.min(window.scrollY, h) / h;
     if (text) {
       text.style.transform = 'translate3d(0,' + (-p * 54).toFixed(1) + 'px,0)';
       text.style.opacity = Math.max(0, 1 - p * 1.2).toFixed(3);
     }
-    if (scene) {
-      scene.style.transform = 'translate3d(0,' + (p * 82).toFixed(1) + 'px,0) scale(' + (1 + p * 0.06).toFixed(3) + ')';
+    if (art) {
+      art.style.transform = 'translate(-50%,-50%) translate3d(0,' + (p * 82).toFixed(1) +
+                            'px,0) scale(' + (1 + p * 0.06).toFixed(3) + ')';
     }
   }
+  var rt;
+  window.addEventListener('resize', function () { clearTimeout(rt); rt = setTimeout(layout, 250); });
   window.addEventListener('scroll', function () {
     if (!ticking) { ticking = true; requestAnimationFrame(frame); }
   }, { passive: true });
-  window.addEventListener('resize', frame);
+  if (doc.fonts && doc.fonts.ready) doc.fonts.ready.then(layout);
+  layout();
   frame();
 })();
 </script>

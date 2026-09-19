@@ -1289,18 +1289,18 @@ body.page-home .stat--major span { font-size: 13px; color: var(--soft); }
 body.page-home .stat-note { flex-basis: 100%; margin: 2px 0 0; font-family: var(--mono); font-size: 12px; letter-spacing: .02em; color: var(--soft); }
 
 /* ============================================================
-   首页 · 新艺术封面（2026-09-19 第二版：从「画框」改成「场景」）
+   首页 · 新艺术封面（2026-09-19 第三版：铺满整页）
    ------------------------------------------------------------
-   第一版把 v7 样张原样落地。量出来两条弧线穿过标题（x 507–773 vs 字形 379–901）
-   与引文（453–827 vs 398–882）—— **任何从正上方中心出发、向下张开的弧线，
-   只要上方还有居中文字，就一定会穿字**：文字宽 356~521px，弧线要从中心走到
-   文字外沿，只有几十像素的垂直距离可走。调参救不了，换做法。
-
-   第二版按用户方案重做：花卉垫底 → 文字浮在上面 → 滚动时视差错开 → 花叶自然飘落。
-   数字不再做强调（用户："AI 味很重且没有设计感"），只留一行等宽小字。
-   作用域不变：只 body.page-home；档案层/阅读层一行未动。
+   第二版把场景做在 .hero 里 —— 用户指出「藤蔓短了」「垫在下面和树叶花瓣飘落
+   制作了一部分，没有做全页面」。第三版把场景提到**页面级**：
+     ① 藤蔓按整页高度程序生成（不是把 1000 单位的路径拉长 —— 那会把叶子拉变形）
+     ② 花卉垫底：首屏一株 + 页面中下段两丛，出血到页边、低透明度
+     ③ 花瓣改成 fixed 视口层，滚到哪都在落
+   层序：page-scene(0) → petal-layer(0) → main/hero(1) → 纸纹(2) → 导航(1000)
+   作用域仍只 body.page-home。
    ============================================================ */
 body.page-home{
+  position:relative;
   --cv-paper:#F0E3CA; --cv-card:#FBF3E1; --cv-field:#FBF3E1;
   --cv-ink:#2B2318; --cv-soft:#6E6047;
   --cv-olive:#4C5A32; --cv-gold:#B08428; --cv-ochre:#9C5A22; --cv-rust:#7E3B1E;
@@ -1312,49 +1312,51 @@ body[data-theme="dark"].page-home{
   --cv-olive:#849a63; --cv-gold:#d3ab52; --cv-ochre:#c9814a; --cv-rust:#c87441;
 }
 /* 纸纹抬到 z-index:2：封面里全是 relative 的层，停在 0 会漏掉它们，
-   露出"没被噪声乘过"的净色块（第一版实测过：ΔRGB 明显可见的一圈方框） */
+   露出"没被噪声乘过"的净色块（第一版实测过：一圈明显可见的方框） */
 body.page-home::before{ z-index:2; }
+/* 内容抬到场景之上；页脚也要 —— 静态元素会被 z-index:0 的场景盖住 */
+body.page-home main,
+body.page-home footer{ position:relative; z-index:1; }
 
-/* ---------- 封面本体 ---------- */
-.hero.cover{ position:relative; padding:64px 0; min-height:min(88vh,780px);
-  display:flex; align-items:center; overflow:hidden; isolation:isolate; }
-.hero.cover .wrap{ position:relative; z-index:3; width:100%; }   /* flex 行容器里 flex 项会缩成内容宽，这里要它撑满 */
+/* ---------- 场景层：铺满整页 ---------- */
+.page-scene{ position:absolute; top:0; left:0; right:0; bottom:0; z-index:0;
+  overflow:hidden; pointer-events:none; }
+.petal-layer{ position:fixed; inset:0; z-index:0; overflow:hidden; pointer-events:none; }
 
-/* 背景层：花卉垫在下面 */
-.cover-scene{ position:absolute; inset:0; z-index:1; overflow:hidden; pointer-events:none;
-  will-change:transform; }
-.cover-art{ position:absolute; left:50%; top:50%; width:min(560px,72vw);
-  transform:translate(-50%,-50%); }
+/* 首屏那株花：位置由脚本按 hero 的中线摆 */
+.scene-hero{ position:absolute; left:50%; top:50%; width:min(560px,72vw);
+  transform:translate(-50%,-50%); will-change:transform; }
 .cv-motif{ display:block; width:100%; height:auto; opacity:.62;
   filter:saturate(.9) contrast(.96);
   -webkit-mask-image:radial-gradient(ellipse 62% 58% at 50% 50%, #000 42%, transparent 82%);
           mask-image:radial-gradient(ellipse 62% 58% at 50% 50%, #000 42%, transparent 82%); }
-/* 夜读主题：母题是"深线 + 米底"的位图，底色会变成一块白方块（实测 ΔRGB +203）。
-   去背 PNG 试过：504px 宽要 463KB，JPEG 才 91KB —— 改用滤镜把明度翻过来。 */
 body[data-theme="dark"] .cv-motif{ filter:invert(1) hue-rotate(180deg) brightness(.9) saturate(.8);
   opacity:.42; }
 
-/* 文字后面的纸色柔光：背景是画，文字必须还读得出来（对比度不是感觉，是闸门） */
-.cover-veil{ position:absolute; inset:0; z-index:2; pointer-events:none;
-  background:radial-gradient(50% 34% at 50% 55%,
-    var(--cv-paper) 0%, color-mix(in srgb, var(--cv-paper) 82%, transparent) 44%, transparent 100%); }
+/* 页面中下段的花丛：出血到页边，避开正文栏 */
+.scene-cluster{ position:absolute; width:min(620px,72vw); opacity:.2; }
+.scene-cluster img{ display:block; width:100%; height:auto;
+  -webkit-mask-image:radial-gradient(ellipse 60% 56% at 50% 50%, #000 40%, transparent 80%);
+          mask-image:radial-gradient(ellipse 60% 56% at 50% 50%, #000 40%, transparent 80%); }
+body[data-theme="dark"] .scene-cluster img{ filter:invert(1) hue-rotate(180deg) brightness(.9) saturate(.75); }
+.scene-cluster.c1{ left:-34%; top:36%; transform:rotate(-7deg); }
+.scene-cluster.c2{ right:-34%; top:64%; transform:rotate(6deg) scaleX(-1); }
+.scene-cluster.c3{ left:-30%; top:84%; transform:rotate(-5deg) scaleX(-1); }
 
-/* 侧藤蔓：垫在柔光之下、花卉之上，只在大屏 */
-.cv-vine{ position:absolute; top:0; height:100%; width:170px; color:var(--cv-olive);
-  opacity:.5; pointer-events:none; z-index:2; }
-.cv-vine.l{ left:0; }
-.cv-vine.r{ right:0; transform:scaleX(-1); }
-.cv-vine .stem{ fill:currentColor; }
-.cv-vine .leaf{ fill:currentColor; opacity:.72; }
-.cv-vine .rib{ stroke:var(--cv-paper); stroke-width:.7; fill:none; opacity:.55; }
-.cv-vine .bud{ fill:var(--cv-ochre); }
-@media (max-width:900px){ .cv-vine{ display:none; } }
+/* 藤蔓：由脚本按整页高度生成，左右各一条 */
+.page-vine{ position:absolute; top:0; width:190px; color:var(--cv-olive);
+  opacity:.5; pointer-events:none; }
+.page-vine.l{ left:0; }
+.page-vine.r{ right:0; transform:scaleX(-1); }
+.page-vine .stem{ fill:currentColor; }
+.page-vine .leaf{ fill:currentColor; opacity:.74; }
+.page-vine .rib{ stroke:var(--cv-paper); stroke-width:.7; fill:none; opacity:.55; }
+.page-vine .bud{ fill:var(--cv-ochre); }
+@media (max-width:1000px){ .page-vine{ display:none; } }
 
-/* 花叶飘落：JS 生成，参数随机；reduced-motion 下整层不生成 */
-.cover-petals{ position:absolute; inset:0; overflow:hidden; }
+/* 花瓣：随机参数由脚本喂进 CSS 变量 */
 .cv-petal{ position:absolute; top:-10%; left:var(--x); width:calc(26px * var(--s)); height:auto;
-  opacity:0; will-change:transform;
-  animation:cv-fall var(--d) linear var(--delay) infinite; }
+  opacity:0; will-change:transform; animation:cv-fall var(--d) linear var(--delay) infinite; }
 .cv-petal svg{ display:block; width:100%; height:auto; }
 @keyframes cv-fall{
   0%   { transform:translate3d(0,0,0) rotate(0deg); opacity:0; }
@@ -1362,9 +1364,16 @@ body[data-theme="dark"] .cv-motif{ filter:invert(1) hue-rotate(180deg) brightnes
   88%  { opacity:.42; }
   100% { transform:translate3d(var(--dx), 118vh, 0) rotate(var(--rot)); opacity:0; }
 }
-@media (prefers-reduced-motion: reduce){ .cover-petals{ display:none; } }
+@media (prefers-reduced-motion: reduce){ .petal-layer{ display:none; } }
 
-/* ---------- 文字层：浮在画上面 ---------- */
+/* ---------- 封面（首屏） ---------- */
+.hero.cover{ position:relative; z-index:1; padding:64px 0; min-height:min(88vh,780px);
+  display:flex; align-items:center; overflow:hidden; isolation:isolate; }
+.hero.cover .wrap{ position:relative; z-index:3; width:100%; }
+/* 文字后面的纸色柔光：花在文字正后方，柔光是量过对比度才定的 */
+.cover-veil{ position:absolute; inset:0; z-index:2; pointer-events:none;
+  background:radial-gradient(50% 34% at 50% 55%,
+    var(--cv-paper) 0%, color-mix(in srgb, var(--cv-paper) 82%, transparent) 44%, transparent 100%); }
 .cv-text{ will-change:transform, opacity; }
 .hero.cover .kicker{ color:var(--cv-ochre); }
 .hero.cover .kicker::before, .hero.cover .kicker::after{ background:var(--cv-ochre); opacity:.5; }
@@ -1372,8 +1381,7 @@ body[data-theme="dark"] .cv-motif{ filter:invert(1) hue-rotate(180deg) brightnes
   margin:14px 0 0; color:var(--cv-ink); }
 .hero.cover h1::after{ content:none; }
 .cv-quote{ margin:20px auto 0; padding:0; border:0; max-width:560px; text-align:center;
-  font-family:var(--serif); font-size:21px; line-height:1.9; color:var(--cv-ink);
-  text-wrap:balance; }
+  font-family:var(--serif); font-size:21px; line-height:1.9; color:var(--cv-ink); text-wrap:balance; }
 
 /* 搜索：方框 + 橄榄按钮 */
 .hero.cover .searchbox{ max-width:560px; margin:34px auto 0; }
@@ -1386,11 +1394,11 @@ body[data-theme="dark"] .cv-motif{ filter:invert(1) hue-rotate(180deg) brightnes
 .hero.cover .searchbox .chip:focus-visible{ background:color-mix(in srgb, var(--cv-olive) 86%, #000);
   border-color:var(--cv-olive); color:#F2E9D6; }
 
-/* 数字不再做强调，只留一行等宽小字：(用户原话) "首页可以不放那些数字什么的强调" */
+/* 数字不做强调，只留一行等宽小字（用户："AI 味很重且没有设计感"） */
 .cv-figure{ margin:26px 0 0; text-align:center; font-family:var(--mono); font-size:12px;
   letter-spacing:.16em; color:var(--cv-soft); }
 
-/* ---------- 四张门户卡：新艺术双线框（方角、零阴影） ---------- */
+/* ---------- 四张门户卡：新艺术双线框 ---------- */
 .grid--cover > .portal-card{ position:relative; border-radius:0; box-shadow:none; padding:22px 24px;
   border:1px solid color-mix(in srgb, var(--cv-olive) 42%, transparent); background:var(--cv-card); }
 .grid--cover > .portal-card::before{ content:""; position:absolute; inset:5px; pointer-events:none;
@@ -1403,7 +1411,11 @@ body[data-theme="dark"] .cv-motif{ filter:invert(1) hue-rotate(180deg) brightnes
 
 @media (max-width:760px){
   .hero.cover{ padding:48px 0 44px; min-height:min(80vh,600px); }
-  .cover-art{ width:min(360px,84vw); }
+  .scene-hero{ width:min(360px,84vw); }
+  .scene-cluster{ width:min(420px,88vw); opacity:.12; }
+  .scene-cluster.c1{ left:-40%; top:30%; }
+  .scene-cluster.c2{ right:-40%; top:62%; }
+  .scene-cluster.c3{ left:-38%; top:84%; }
   .hero.cover h1{ font-size:clamp(23px,7vw,32px); }
   .cv-quote{ font-size:17px; line-height:1.85; margin-top:14px; }
   .hero.cover .searchbox{ margin-top:24px; flex-direction:row; align-items:stretch; }
@@ -1414,5 +1426,6 @@ body[data-theme="dark"] .cv-motif{ filter:invert(1) hue-rotate(180deg) brightnes
   .grid--cover > .portal-card{ padding:18px; }
 }
 @media (prefers-reduced-motion: reduce){
-  .cv-text, .cover-scene{ transform:none !important; opacity:1 !important; }
+  .cv-text, .scene-hero{ transform:none !important; opacity:1 !important; }
+  .scene-hero{ transform:translate(-50%,-50%) !important; }
 }

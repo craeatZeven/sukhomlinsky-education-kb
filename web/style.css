@@ -1616,6 +1616,57 @@ body:not(.page-home) .petal-layer{ opacity:.7; }
 
 
 /* ============================================================
+   专题长文版式（2026-09-19 第十二版）
+   ------------------------------------------------------------
+   用户：「这样有点丑，不要用这种列表的模式，换一些高级的呈现方式」。
+   病灶：\`<h3>核心判断</h3><ul><li>…\` —— 项目符号 + 默认缩进，是**文档**的样子，
+   不是**编辑过的页面**的样子。而这一页在站点的分层里属于**阅读层**。
+   改法（三段各换一种结构，共同点是都不要项目符号）：
+     · 核心判断 → 悬挂编号的论纲（01/02/…），条目之间用细线分节，不缩进成子弹
+     · 可操作方法 → 左名右释（Sidebar 原语：一边定宽一边弹性，窄屏自动堆叠）
+     · 跨书综合 → 阅读块：3px 左边线 + 右 > 左的退让感（阅读层卡的原话）
+   顺带修掉 axe 的 heading-order 提示：原来正文从 h3 起跳（页面只有 h1），现在是 h2 → h3。
+   ============================================================ */
+.topic-meta{ font-family:var(--mono); font-size:12px; letter-spacing:.08em; color:var(--soft);
+  padding-bottom:16px; border-bottom:1px solid var(--line); margin:0 0 36px; }
+.topic-meta .k{ color:var(--accent-ink); margin-right:10px; }
+
+.tblock{ margin:0 0 46px; }
+.tblock-h{ display:flex; align-items:baseline; gap:12px; font-family:var(--serif);
+  font-size:20px; letter-spacing:.04em; margin:0 0 6px; }
+.tblock-h .tblock-n{ font-family:var(--mono); font-size:11.5px; letter-spacing:.16em;
+  color:var(--accent-ink); }
+
+.theses{ list-style:none; margin:0; padding:0; }
+.thesis{ display:grid; grid-template-columns:46px minmax(0,1fr); gap:0 16px;
+  padding:16px 0 18px; border-top:1px solid var(--line); }
+.thesis:first-child{ border-top:0; padding-top:10px; }
+.thesis-n{ font-family:var(--mono); font-size:12px; letter-spacing:.1em; color:var(--accent-ink);
+  padding-top:5px; }
+.thesis-t{ font-size:17px; line-height:1.92; max-width:38em; }
+
+.methods{ display:flex; flex-direction:column; }
+.method{ display:grid; grid-template-columns:minmax(0,224px) minmax(0,1fr); gap:6px 30px;
+  padding:18px 0 20px; border-top:1px solid var(--line); }
+.method:first-child{ border-top:0; padding-top:10px; }
+.method h3{ margin:0; font-family:var(--serif); font-size:16.5px; line-height:1.62;
+  color:var(--accent-ink); letter-spacing:.02em; }
+.method p{ margin:0; font-size:15.5px; line-height:1.92; max-width:34em; }
+
+.reading{ border-left:3px solid var(--quote-line); padding:3px 36px 0 24px; }
+.reading p{ margin:0; font-family:var(--serif); font-size:17px; line-height:1.9; max-width:700px; }
+.reading p + p{ margin-top:12px; }
+
+@media (max-width:720px){
+  .thesis{ grid-template-columns:32px minmax(0,1fr); gap:0 10px; }
+  .method{ grid-template-columns:minmax(0,1fr); gap:4px; padding:16px 0; }
+  .reading{ padding:3px 12px 0 16px; }
+  .reading p{ font-size:16px; }
+}
+
+
+
+/* ============================================================
    导航悬停不断档（2026-09-19 第十版）
    ------------------------------------------------------------
    用户："能不能导航栏浮动在上面就可以选，现在点了才可以选择"。

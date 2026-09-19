@@ -25,7 +25,7 @@
 <link rel="icon" href="icon.svg" type="image/svg+xml" />
 <link rel="stylesheet" href="style.css?v=20260919b" />
 </head>
-<body data-theme="green">
+<body data-theme="paper">
 <nav class="topnav">
   <div class="inner">
     <a class="brand" href="index.html">苏霍姆林斯基教育知识库</a>
@@ -110,11 +110,50 @@ async function render(){
      纯文本的地方（标题/摘要/文档标题）走 KB.plain()，把记号洗掉。 */
   document.getElementById("topicSummary").textContent = KB.plain(topic.summary || "");
   document.title = KB.plain(topic.title) + " · 苏霍姆林斯基教育知识库";
-  document.getElementById("topicBody").innerHTML = `
-    <p><b>别名：</b>${KB.plain(topic.aliases || "无")}</p>
-    <h3>核心判断</h3><ul>${(topic.core||[]).map(x=>`<li>${KB.linkify(x)}</li>`).join("")}</ul>
-    <h3>可操作方法</h3><ul>${(topic.methods||[]).map(x=>`<li>${KB.linkify(x)}</li>`).join("")}</ul>
-    <h3>跨书综合</h3><p>${KB.linkify(topic.cross || "")}</p>`;
+  /* 2026-09-19：这一块原来两个毛病 ——
+     ① 正文用 KB.esc()，于是 **加粗** 与 [[sk-0026]] 原样显示（用户截图报的）；
+     ② 三节都是 <h3>…</h3><ul><li>…：项目符号 + 默认缩进，是"文档"的样子，
+        不是"编辑过的页面"的样子。而这一页在站点分层里属于**阅读层**。
+     现在：行内走 KB.linkify（加粗 + 双链），结构换成编辑版式——
+     编号论纲 / 左名右释 / 左边线阅读块。顺带把正文标题从 h3 提到 h2：
+     页面只有 h1，原来正文直接跳 h3，axe 一直报 heading-order。 */
+  function pad(n){ return (n < 10 ? "0" : "") + n; }
+  /* 「**动作名**：解释」拆成标题 + 正文；没有加粗前缀的整条当正文 */
+  function splitLead(html){
+    var m = /^<strong>([\s\S]+?)<\/strong>\s*[：:]\s*([\s\S]*)$/.exec(html);
+    return m ? { lead: m[1], body: m[2] } : { lead: "", body: html };
+  }
+  var core = topic.core || [], methods = topic.methods || [], cross = topic.cross || "";
+  var parts = ['<p class="topic-meta"><span class="k">别名</span>' +
+               KB.plain(topic.aliases || "（无）") + '</p>'];
+  var secs = [];
+  if (core.length) secs.push({ name: "核心判断",
+    html: '<ol class="theses" role="list">' + core.map(function(x, i){
+      return '<li class="thesis"><span class="thesis-n">' + pad(i + 1) +
+             '</span><div class="thesis-t">' + KB.linkify(x) + '</div></li>';
+    }).join("") + '</ol>' });
+  if (methods.length) secs.push({ name: "可操作方法",
+    html: '<div class="methods">' + methods.map(function(x){
+      var s = splitLead(KB.linkify(x));
+      return '<article class="method">' + (s.lead ? '<h3>' + s.lead + '</h3>' : "") +
+             '<p>' + s.body + '</p></article>';
+    }).join("") + '</div>' });
+  /* cross 在数据里是**带列表标记**的（每条都以 "- " 开头，12 个专题全是），
+     直接塞进 <p> 会渲染出一个多余的短横。逐行剥掉标记，一行一段。 */
+  if (cross) {
+    var crossLines = String(cross).split("\n").map(function(l){
+      return l.replace(/^\s*[-*]\s+/, "").trim();
+    }).filter(function(l){ return l; });
+    secs.push({ name: "跨书综合",
+      html: '<div class="reading">' + crossLines.map(function(l){
+        return '<p>' + KB.linkify(l) + '</p>';
+      }).join("") + '</div>' });
+  }
+  parts.push(secs.map(function(s, i){
+    return '<section class="tblock"><h2 class="tblock-h"><span class="tblock-n">' +
+           pad(i + 1) + '</span>' + s.name + '</h2>' + s.html + '</section>';
+  }).join(""));
+  document.getElementById("topicBody").innerHTML = parts.join("");
 
   document.getElementById("cardList").innerHTML = `<p class="section-sub">正在加载该主题卡片…</p>`;
   const list = await KB.loadTopicIndex(slug);

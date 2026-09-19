@@ -1611,3 +1611,57 @@ body[data-theme="dark"] .scene-cluster{ opacity:.32; }
 /* 子页面：藤蔓更细更淡 —— 首页是封面层，其余 20 页是档案层/阅读层，装饰要退到页边 */
 body:not(.page-home) .page-vine{ width:150px; opacity:.38; }
 body:not(.page-home) .petal-layer{ opacity:.7; }
+
+
+/* ============================================================
+   下拉菜单美化（2026-09-19 第七版）
+   ------------------------------------------------------------
+   用户："这个还是有点丑"。丑在三处：
+   ① 全局 a{text-decoration:underline} 漏了进来，三个菜单项**全带下划线** —— 看着像正文里的链接；
+   ② 只有 display:block + 一块底色，没有内边距节奏、没有悬停的层次；
+   ③ 面板与导航同色同边，看不出是"浮起来的一层"。
+   ============================================================ */
+.topnav .nav-menu{
+  min-width:292px; padding:10px; border-radius:14px;
+  background:color-mix(in srgb, var(--nav-bg, var(--chrome)) 92%, transparent);
+  border:1px solid var(--nav-line, color-mix(in srgb, var(--cv-gold) 32%, transparent));
+  -webkit-backdrop-filter:blur(14px) saturate(1.2); backdrop-filter:blur(14px) saturate(1.2);
+  box-shadow:0 20px 46px rgba(20,16,10,.30), inset 0 1px 0 rgba(255,255,255,.07);
+}
+/* 指向触发器的小三角：让它和按钮"连"起来，而不是飘在下面 */
+.topnav .nav-menu::before{
+  content:""; position:absolute; left:24px; top:-5px; width:10px; height:10px;
+  background:inherit; border-left:1px solid var(--nav-line, transparent);
+  border-top:1px solid var(--nav-line, transparent); transform:rotate(45deg);
+}
+.topnav .nav-menu .nav-link{
+  display:block; padding:10px 12px 10px 16px; border-radius:9px;
+  text-decoration:none;                     /* ← 就是这一条：菜单项不是正文里的链接 */
+  position:relative; font-size:14px;
+  transition:background .16s ease, color .16s ease;
+}
+.topnav .nav-menu .nav-link + .nav-link{ margin-top:2px; }
+/* 悬停 / 当前：底色提亮 + 左侧一道金线（金线从中间长出来，不是硬切） */
+.topnav .nav-menu .nav-link::before{
+  content:""; position:absolute; left:5px; top:11px; bottom:11px; width:2px; border-radius:2px;
+  background:var(--cv-gold, #B08428); opacity:0; transform:scaleY(.35);
+  transition:opacity .16s ease, transform .16s ease;
+}
+.topnav .nav-menu .nav-link:hover,
+.topnav .nav-menu .nav-link:focus-visible,
+.topnav .nav-menu .nav-link.active{
+  text-decoration:none; color:var(--nav-ink, var(--chrome-ink));
+  background:color-mix(in srgb, var(--nav-ink, #F0E7D4) 9%, transparent);
+}
+.topnav .nav-menu .nav-link:hover::before,
+.topnav .nav-menu .nav-link:focus-visible::before,
+.topnav .nav-menu .nav-link.active::before{ opacity:1; transform:none; }
+.topnav .nav-menu-label{ font-family:var(--serif); font-size:15px; letter-spacing:.05em; }
+.topnav .nav-menu-sub{ font-size:12px; line-height:1.55; margin-top:3px; opacity:.8; }
+@media (prefers-reduced-motion: no-preference){
+  .topnav .nav-group:hover .nav-menu,
+  .topnav .nav-group:focus-within .nav-menu,
+  .topnav .nav-group.open .nav-menu{ animation:navDrop .18s ease-out both; }
+  @keyframes navDrop{ from{ opacity:0; transform:translateY(-6px); } to{ opacity:1; transform:none; } }
+}
+

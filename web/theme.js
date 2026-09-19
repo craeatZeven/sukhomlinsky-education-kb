@@ -1,7 +1,7 @@
 /* Shared theme switcher + scroll reveal */
 (function () {
   var THEMES = [
-    { id: "paper", label: "纸本", dot: "#b4552d" },
+    { id: "paper", label: "纸本", dot: "#9C5A22" },
     { id: "green", label: "森林", dot: "#2f6b4f" },
     { id: "dark", label: "夜读", dot: "#1c1917" }
   ];

@@ -176,7 +176,37 @@
       closeAll(null);
     });
   }
+  /* --------------------------------------------------------------------------
+     资源版本守卫（2026-09-19 加，起因是一次真实的静默失败）
+     --------------------------------------------------------------------------
+     现象：用户看到「美育与自然」页面标题在、下面全空。新无痕窗口永远复现不出来。
+     根因：15 个 JS 渲染页把脚本写成 <script src="kb.js">（没有 ?v=），浏览器交回旧缓存，
+           页面里的新渲染器调用旧 kb.js 里不存在的 API（实测 KB.plain is not a function），
+           抛在 document.getElementById("topicBody").innerHTML = ... **之前** ——
+           于是 h1 设好了、其余全空，而且**控制台之外没有任何提示**。
+     做法：所有资源统一 ?v=；再加这道核对 —— 对不上就把话说在页面上，不再静默。 */
+  var ASSET_V = "20260919v16";
+  function versionGuard() {
+    /* 只在「页面确实加载了 kb.js、但拿到的是别的版本」时报警。
+       8 个页面（cases/coverage/guide/sitemap/4 个 note 页）本来就不加载 kb.js，
+       在它们上面 KB 必然不存在 —— 那不是版本不一致，不能误报。 */
+    var bad = window.KB && window.KB.V !== ASSET_V;
+    if (!bad) return;
+    if (document.getElementById("assetMismatch")) return;
+    var box = document.createElement("div");
+    box.id = "assetMismatch";
+    box.setAttribute("role", "alert");
+    box.style.cssText = "position:fixed;left:0;right:0;bottom:0;z-index:2000;" +
+      "padding:10px 16px;background:#7A3F14;color:#FBF3E1;font:14px/1.5 system-ui,sans-serif;" +
+      "text-align:center";
+    box.innerHTML = "页面脚本版本不一致 —— 浏览器用了**旧缓存**的 " +
+      "<code>kb.js</code>（当前 " + (window.KB.V || "无版本戳") +
+      "，页面要 " + ASSET_V + "）。请按 <b>Ctrl+Shift+R</b>（Mac：⌘+Shift+R）强制刷新。";
+    document.body.appendChild(box);
+  }
+
   document.addEventListener("DOMContentLoaded", function () {
+    versionGuard();
     buildFab();
     reveal();
     navGroups();

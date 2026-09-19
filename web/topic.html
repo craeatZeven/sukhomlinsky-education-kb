@@ -123,20 +123,48 @@ async function render(){
     var m = /^<strong>([\s\S]+?)<\/strong>\s*[：:]\s*([\s\S]*)$/.exec(html);
     return m ? { lead: m[1], body: m[2] } : { lead: "", body: html };
   }
+  /* 引用括注摘出来单独成行。
+     用户 2026-09-19：「能不能不用 sk-，这样无法直接对应起来」——
+     句子里只剩一个 sk-0026，读者对不上是哪张卡。现在引用行直接显示**卡片标题**，
+     点进去才是卡片页；标题超过 18 字截断，完整标题放 title 属性。 */
+  var REF_MAP = topic.refs || {};
+  var REF_RE = /\[\[(sk-\d{4})\]\]/g;
+  function splitRefs(text){
+    var ids = [], m;
+    REF_RE.lastIndex = 0;
+    while ((m = REF_RE.exec(text)) !== null) {
+      if (ids.indexOf(m[1]) < 0) ids.push(m[1]);
+    }
+    var body = String(text)
+      .replace(/[（(][^（）()]*\[\[sk-\d{4}\]\][^（）()]*[）)]/g, "")
+      .replace(/\s+([，。；、])/g, "$1").trim();
+    return { ids: ids, body: body };
+  }
+  function refLine(ids){
+    if (!ids.length) return "";
+    return '<p class="refs"><span class="k">依据</span>' + ids.map(function(id){
+      var full = REF_MAP[id] || id;
+      var shown = full.length > 18 ? full.slice(0, 18) + "…" : full;
+      return '<a class="ref" href="card.html?id=' + encodeURIComponent(id) + '" title="' +
+             full.replace(/"/g, "&quot;") + '">' + shown + '</a>';
+    }).join('<span class="sep">·</span>') + '</p>';
+  }
   var core = topic.core || [], methods = topic.methods || [], cross = topic.cross || "";
   var parts = ['<p class="topic-meta"><span class="k">别名</span>' +
                KB.plain(topic.aliases || "（无）") + '</p>'];
   var secs = [];
   if (core.length) secs.push({ name: "核心判断",
     html: '<ol class="theses" role="list">' + core.map(function(x, i){
+      var r = splitRefs(x);
       return '<li class="thesis"><span class="thesis-n">' + pad(i + 1) +
-             '</span><div class="thesis-t">' + KB.linkify(x) + '</div></li>';
+             '</span><div class="thesis-t">' + KB.linkify(r.body) + refLine(r.ids) + '</div></li>';
     }).join("") + '</ol>' });
   if (methods.length) secs.push({ name: "可操作方法",
     html: '<div class="methods">' + methods.map(function(x){
-      var s = splitLead(KB.linkify(x));
+      var r = splitRefs(x);
+      var s = splitLead(KB.linkify(r.body));
       return '<article class="method">' + (s.lead ? '<h3>' + s.lead + '</h3>' : "") +
-             '<p>' + s.body + '</p></article>';
+             '<div><p>' + s.body + '</p>' + refLine(r.ids) + '</div></article>';
     }).join("") + '</div>' });
   /* cross 在数据里是**带列表标记**的（每条都以 "- " 开头，12 个专题全是），
      直接塞进 <p> 会渲染出一个多余的短横。逐行剥掉标记，一行一段。 */
@@ -144,10 +172,14 @@ async function render(){
     var crossLines = String(cross).split("\n").map(function(l){
       return l.replace(/^\s*[-*]\s+/, "").trim();
     }).filter(function(l){ return l; });
+    var crossIds = [];
+    var crossHtml = crossLines.map(function(l){
+      var r = splitRefs(l);
+      r.ids.forEach(function(id){ if (crossIds.indexOf(id) < 0) crossIds.push(id); });
+      return '<p>' + KB.linkify(r.body) + '</p>';
+    }).join("");
     secs.push({ name: "跨书综合",
-      html: '<div class="reading">' + crossLines.map(function(l){
-        return '<p>' + KB.linkify(l) + '</p>';
-      }).join("") + '</div>' });
+      html: '<div class="reading">' + crossHtml + '</div>' + refLine(crossIds) });
   }
   parts.push(secs.map(function(s, i){
     return '<section class="tblock"><h2 class="tblock-h"><span class="tblock-n">' +

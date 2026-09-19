@@ -384,6 +384,20 @@ def main() -> None:
     for topic in topics:
         topic['cards'] = topic_counts.get(topic['slug'], 0)
 
+    # 专题正文里只有 [[sk-XXXX]] 这种 marker，前端显示出来就是「（参见 sk-0026）」——
+    # 读者**没法直接对上是哪一张卡**（用户 2026-09-19 反馈）。把被引卡的标题一并带进 meta，
+    # 前端才能把引用做成「依据 · <卡片标题>」。只带该专题真正引到的（每篇 5–8 张）。
+    title_of = {c['id']: c.get('title', '') for c in cards}
+    for topic in topics:
+        seen: dict[str, str] = {}
+        for field in ('core', 'methods'):
+            for x in topic.get(field) or []:
+                for cid in re.findall(r'\[\[(sk-\d{4})\]\]', x):
+                    seen.setdefault(cid, title_of.get(cid, ''))
+        for cid in re.findall(r'\[\[(sk-\d{4})\]\]', topic.get('cross') or ''):
+            seen.setdefault(cid, title_of.get(cid, ''))
+        topic['refs'] = seen
+
     entry_meta = tax.entry_meta()
     layer_blocks = tax.layer_meta()
     facet_meta = tax.facet_meta()

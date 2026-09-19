@@ -26,6 +26,9 @@ import re
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import build_site  # noqa: E402  (复用卡片解析器，取 id → 标题)
+
 ROOT = Path(__file__).resolve().parent.parent
 WEB = ROOT / 'web'
 NOTE = WEB / 'note'
@@ -399,6 +402,9 @@ def main() -> int:
         except Exception:
             return ''
     card_ids = {p.stem.split('-')[0] + '-' + p.stem.split('-')[1] for p in (ROOT / 'cards').glob('sk-*.md')}
+    # id → 标题。note 页正文里的双链只显示 sk-XXXX，读者对不上是哪张卡；
+    # 挂个 title 属性，鼠标一停就能看到（用户 2026-09-19 反馈）。
+    card_titles = {c['id']: c.get('title', '') for c in build_site.parse_cards()}
 
     # 先收集所有"成篇材料"，才能让 [[跨页链接]] 互相解析
     docs: list[dict] = []
@@ -444,7 +450,9 @@ def main() -> int:
         def resolve(target: str, text: str) -> str:
             if re.fullmatch(r'sk-\d{4}', target):
                 if target in card_ids:
-                    return f'<a class="wikilink" href="card.html?id={target}">{esc(text)}</a>'
+                    t = card_titles.get(target, '')
+                    tip = f' title="{esc(t)}"' if t else ''
+                    return f'<a class="wikilink" href="card.html?id={target}"{tip}>{esc(text)}</a>'
                 return esc(text)
             tgt = by_title.get(target)
             if tgt:

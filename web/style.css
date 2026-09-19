@@ -1615,6 +1615,19 @@ body:not(.page-home) .page-vine{ width:150px; opacity:.38; }
 body:not(.page-home) .petal-layer{ opacity:.7; }
 
 
+/* 引用行：把「（参见 sk-0024）」换成一排**可读的卡片标题**
+   （2026-09-19 用户：sk- 无法直接对应起来） */
+.refs{ display:flex; flex-wrap:wrap; align-items:baseline; gap:4px 8px;
+  margin:11px 0 0; font-size:12px; line-height:1.7; color:var(--soft); }
+.refs .k{ font-family:var(--mono); font-size:11px; letter-spacing:.16em; color:var(--accent-ink); }
+.refs .ref{ color:var(--soft); text-decoration:none;
+  border-bottom:1px solid color-mix(in srgb, var(--soft) 34%, transparent); }
+.refs .ref:hover{ color:var(--accent-ink); border-bottom-color:var(--accent-ink); }
+.refs .sep{ color:color-mix(in srgb, var(--soft) 45%, transparent); }
+.method > div > .refs{ margin-top:9px; }
+
+
+
 /* ============================================================
    专题长文版式（2026-09-19 第十二版）
    ------------------------------------------------------------

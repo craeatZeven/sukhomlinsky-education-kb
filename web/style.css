@@ -1266,7 +1266,7 @@ footer p a { text-decoration: underline; text-decoration-color: currentColor; }
    与其余 20 页的赭色不一致）。强调色现在由 :root 的 --accent / --accent-ink 统一决定。 */
 
 /* ① 数字用墨色：数字是事实，事实不穿彩色制服（反而更稳） */
-.page-home .stat b { color: var(--ink); }
+/* 2026-09-19：首页已无 .stat 元素（#stats 在第二版删掉），这条是空转的 */
 
 /* ② 类型标签去色：档案层卡 A7 —— 用色相下划线，不用彩色胶囊 */
 .page-home .conf-tag { color: var(--ink); background: var(--card); border-color: var(--line); }
@@ -1280,12 +1280,9 @@ body::before {
   background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxODAnIGhlaWdodD0nMTgwJz48ZmlsdGVyIGlkPSduJz48ZmVUdXJidWxlbmNlIHR5cGU9J2ZyYWN0YWxOb2lzZScgYmFzZUZyZXF1ZW5jeT0nMC44JyBudW1PY3RhdmVzPSczJyBzdGl0Y2hUaWxlcz0nc3RpdGNoJy8+PC9maWx0ZXI+PHJlY3Qgd2lkdGg9JzE4MCcgaGVpZ2h0PScxODAnIGZpbHRlcj0ndXJsKCNuKScgb3BhY2l0eT0nMC41NScvPjwvc3ZnPg==");
   opacity: .30; mix-blend-mode: multiply;   /* 实测剂量曲线：.035 等于没有(SD .49)、.15 刚可察(SD .84)、.30 看得见(SD 1.64)、.55 偏重(SD 2.93)。取 .30 */
 }
-/* 两大两小（用户拍板「甲」）：承重的 卡片数 / 做人的故事 保持大，
-   书源 / 主题 压成一行等宽小字。依据：四个里只有两个是决策信息。 */
-body.page-home .stats { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 10px 30px; }
-body.page-home .stat--major b { font-family: var(--serif); font-size: 38px; line-height: 1; color: var(--ink); }
-body.page-home .stat--major span { font-size: 13px; color: var(--soft); }
-body.page-home .stat-note { flex-basis: 100%; margin: 2px 0 0; font-family: var(--mono); font-size: 12px; letter-spacing: .02em; color: var(--soft); }
+/* 2026-09-19 第八版删除：首页的数字卡（.stats / .stat--major / .stat-note）已不存在 ——
+   用户第二轮改成「不做强调」后，那一块换成了一行等宽小字 .cv-figure。
+   死选择器审计（_dead_css2.py）实测这几个类名在全部 1595 个 web 文件里只出现在 style.css 自身。 */
 
 /* ============================================================
    首页 · 新艺术封面（2026-09-19 第三版：铺满整页）

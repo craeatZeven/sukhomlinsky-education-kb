@@ -242,7 +242,10 @@ def load_locators() -> dict[str, dict]:
             #   high 29/30 = 97% · medium≥0.70 21/25 = 84%
             #   medium 0.60-0.70 60% · medium 0.50-0.60 44% · low 8/30 = 27%
             # 后三档一概不发 —— 标了「存疑」，错的页码仍然摆在读者面前。宁可未标，不能标错。
-            if d.get('card') and (d.get('confidence') == 'high'
+            # 「multi-part」= 摘录由书里相隔很远的好几段拼成（卡里写作 a……b……c），
+            # 逐段定位后要求「全部找到 + 位置严格递增」，锚在第一段。
+            # 独立验证（每段取 3 个窗回原始池，40 张样本）**零落位错误**，故一并发布。
+            if d.get('card') and (d.get('confidence') in ('high', 'multi-part')
                                   or (d.get('confidence') == 'medium' and d.get('match', 0) >= 0.70)):
                 out[d['card']] = {'book': d.get('book', ''), 'page': d.get('page'),
                                   'section': d.get('section', ''),

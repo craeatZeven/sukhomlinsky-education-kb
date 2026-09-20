@@ -51,6 +51,9 @@ HEADS = [
     "苏徂姆林斯", "苏霍", "选集", "五卷本",
 ]
 CJK = re.compile(r"[\u4e00-\u9fff]")
+# 译者注不是正文。语料里它作为独立 unit 夹在句子中间（实测：一句跨页的话被
+# ①尼古拉·基巴利契奇…②伊万·巴布什金… 两条注释劈开），照直拼接就永远对不上。
+FOOTNOTE = re.compile(r"^[\u2460-\u2473]|译者$")
 
 
 def cjk_only(s):
@@ -75,7 +78,8 @@ def load_corpus():
 
     def blob(where):
         rows = conn.execute("SELECT text FROM units " + where).fetchall()
-        return strip_heads(cjk_only("\n".join(r[0] for r in rows)))
+        keep = [r[0] for r in rows if not FOOTNOTE.search(r[0].strip())]
+        return strip_heads(cjk_only("\n".join(keep)))
 
     by_vol = {}
     for volname, txt in conn.execute(
@@ -85,7 +89,9 @@ def load_corpus():
         # 不是卷号。直接拿它当键、再用 ref 里的「第4卷」去查，永远查不到，
         # 于是每次都退回全书做错位对齐 —— 全表看起来「对不上」，其实是尺子没接上。
         m = re.search(r"第([0-9一二三四五])卷", str(volname))
-        by_vol[m.group(1) if m else str(volname)] = strip_heads(cjk_only(txt))
+        # 按行剔除译者注（这里拿到的是 group_concat 的结果）
+        keep = [ln for ln in str(txt).split(chr(10)) if not FOOTNOTE.search(ln.strip())]
+        by_vol[m.group(1) if m else str(volname)] = strip_heads(cjk_only(chr(10).join(keep)))
     return by_vol, blob("WHERE book LIKE '%选集%'"), blob("WHERE book NOT LIKE '%选集%'")
 
 

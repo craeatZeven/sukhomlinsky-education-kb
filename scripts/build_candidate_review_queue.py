@@ -25,9 +25,13 @@ CAND_ROOT = os.path.join(ROOT, "local_working_copy", "card-candidates")
 NEED = ["status", "type", "title", "source", "primary", "topics", "ref", "origin", "todo"]
 SEC = re.compile(r"## 原文（[^）]*）[ \t]*\n+([\s\S]*?)(?=\n#{1,2}[ \t]|\s*$)")
 
+# 人工要看的（按该先看谁排序）
 ORDER = [("字段缺失", 1), ("删掉正文（FAIL）", 2), ("对不上选集（WARN）", 3),
          ("书里有而卡里没有（GAP）", 4), ("只在选本里对上（自证）", 5),
          ("起点需人工判断（长悬挂）", 6), ("起点与书不一致", 7), ("起点定位不到", 8)]
+# 已自动归因的：只当摘要，不占人工清单
+AUTO = [("起点处改过字、反推后与书对得上", "explained"),
+        ("开头用选本节缩措辞（选集里对不上属正常）", "from_anthology")]
 RANK = dict(ORDER)
 
 
@@ -83,6 +87,7 @@ def main():
         for cid in sta.get("unlocated", []):
             add(cid, "起点定位不到", "卡文开头 20 字在选集里找不到（多因该处已改字或选集自身残缺）")
 
+        auto_cnt = [(label, len(sta.get(key, []))) for label, key in AUTO]
         rows.sort(key=lambda r: (RANK.get(r[1], 99), r[0]))
         cnt = Counter(r[1] for r in rows)
         out = ["# 候选卡人工复核清单", "",
@@ -93,6 +98,12 @@ def main():
             if cnt.get(kind):
                 out.append("| %s | %d |" % (kind, cnt[kind]))
         out += ["", "---", ""]
+        if any(c for _, c in auto_cnt):
+            out += ["## 已自动归因（不必人工看，仅备查）", ""]
+            for label, c in auto_cnt:
+                if c:
+                    out.append("- %s：%d 张" % (label, c))
+            out.append("")
         for kind, _ in sorted(ORDER, key=lambda x: x[1]):
             sub = [r for r in rows if r[1] == kind]
             if not sub:
@@ -114,6 +125,9 @@ def main():
         for kind, _ in sorted(ORDER, key=lambda x: x[1]):
             if cnt.get(kind):
                 print("    %-22s %d" % (kind, cnt[kind]))
+        for label, c in auto_cnt:
+            if c:
+                print("    （自动归因）%-18s %d" % (label[:18], c))
 
 
 if __name__ == "__main__":

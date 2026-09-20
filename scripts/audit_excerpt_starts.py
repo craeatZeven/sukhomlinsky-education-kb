@@ -36,7 +36,8 @@ CAND_ROOT = os.path.join(ROOT, "local_working_copy", "card-candidates")
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from check_candidate_fidelity import (CJK, cjk_only, strip_heads, FOOTNOTE,
-                                      read_origin, HEADS)  # noqa: E402
+                                      read_origin, HEADS,
+                                      declared_pairs, revert_declared)  # noqa: E402
 
 SENT_END = set("。！？!?…；;：:｡") | {"."}   # 句点也算句末（版本号/编号项会用到）
 CLOSERS = set("」』“”‘’）】》〉〕］") | {chr(34), chr(39)}
@@ -104,6 +105,10 @@ def main():
         d for d in glob.glob(os.path.join(CAND_ROOT, "*")) if os.path.isdir(d))
     conn = sqlite3.connect(DB)
     hay_all, idx_all = build_hay(conn, "WHERE book LIKE '%选集%'")
+    # 选本通道：候选卡来自《教育箴言》，选本对原句做过节缩 —— 开头若用选本措辞，
+    # 在选集里当然对不上。分出来，人工就不必逐个去读。
+    hay_zw, idx_zw = build_hay(conn, "WHERE book LIKE '%jiao-yu-zhen-yan%'")
+    cjk_zw = "".join(hay_zw[i] for i in idx_zw)
     per_vol = {}
     for (volname,) in conn.execute(
             "SELECT DISTINCT volume FROM units WHERE book LIKE '%选集%'"):
@@ -111,7 +116,7 @@ def main():
         if m:
             per_vol[m.group(1)] = build_hay(
                 conn, "WHERE book LIKE '%%选集%%' AND volume = '%s'" % volname)
-    clean, noted, suspect, manual, unlocated, shifted, total = [], [], [], [], [], [], 0
+    clean, noted, suspect, manual, unlocated, shifted, explained_list, from_zw, total = [], [], [], [], [], [], [], [], 0
     for d in dirs:
         for f in sorted(glob.glob(os.path.join(d, "cand-*.md"))):
             raw = io.open(f, encoding="utf-8").read()
@@ -126,11 +131,30 @@ def main():
             pos, off = locate(n, hay, idx)
             if pos is None:
                 pos, off = locate(n, hay_all, idx_all)
+            explained = False
+            if pos is None or off:   # 完全找不到，或只在开头第 N 字之后才对上 —— 两条路都要试反推
+                # 起点整段对不上时，先把声明过的逐字修法**反推回去**再试一次。
+                # 卡片开头若改过字，反推后能对回书里 —— 那是「我改过」，不是「起点有问题」，
+                # 不该占人工复核的位置（这一层归因之前，「定位不到」16 条里绝大多数是这类）。
+                n_r = revert_declared(n, declared_pairs(raw))
+                if n_r != n:
+                    pos2, off2 = locate(n_r, hay, idx)
+                    if pos2 is None:
+                        pos2, off2 = locate(n_r, hay_all, idx_all)
+                    if pos2 is not None and not off2:
+                        # 反推后能在开头第 0 字对上 ⇒ 起点本身没问题，差额全由我声明的修字解释
+                        explained, n, pos, off = True, n_r, pos2, off2
             if pos is None:
-                if off:
+                # 最后一道归因：开头是不是用了选本的节缩措辞
+                if len(n) >= 20 and n[:20] in cjk_zw:
+                    from_zw.append(cid)
+                elif off:
                     shifted.append((cid, off))
                 else:
                     unlocated.append(cid)
+                continue
+            if explained:
+                explained_list.append(cid)
                 continue
             dl, cut = dangle(hay, pos)
             if dl == 0:
@@ -151,6 +175,8 @@ def main():
     print("  长悬挂（选本有意摘引，需人工判断）：%d" % len(manual))
     for cid, dl, tail in manual:
         print("     %s  悬挂 %d 字  …%s" % (cid, dl, tail))
+    print("  ★ 起点处改过字、反推后能对回书里（正常，不必人工看）：%d" % len(explained_list))
+    print("  ★ 开头用选本节缩措辞（在选集里对不上属正常）：%d %s" % (len(from_zw), [c.split(chr(47))[-1] for c in from_zw][:12]))
     print("  起点对不上（卡文开头与书不一致，多为已修过 OCR 的卡）：%d" % len(shifted))
     for cid, off in shifted[:12]:
         print("     %s  开头第 %d 字才与书对上" % (cid, off))
@@ -158,7 +184,9 @@ def main():
     if args.json:
         io.open(args.json, "w", encoding="utf-8").write(json.dumps(
             {"clean": len(clean), "noted": noted, "suspect": suspect, "manual": manual,
-             "shifted": shifted, "unlocated": unlocated, "total": total},
+             "explained": explained_list, "from_anthology": from_zw,
+             "shifted": shifted, "unlocated": unlocated,
+             "total": total},
             ensure_ascii=False, indent=1))
 
 

@@ -23,7 +23,7 @@
 <meta name="twitter:image" content="https://craeatzeven.github.io/sukhomlinsky-education-kb/web/og.jpg" />
 <!-- social:end -->
 <link rel="icon" href="icon.svg" type="image/svg+xml" />
-<link rel="stylesheet" href="style.css?v=20260920v30" />
+<link rel="stylesheet" href="style.css?v=20260920v31" />
 </head>
 <body data-theme="paper">
 <nav class="topnav">
@@ -69,8 +69,8 @@
   </div>
 </footer>
 
-<script src="kb.js?v=20260920v30"></script>
-<script src="theme.js?v=20260920v30"></script>
+<script src="kb.js?v=20260920v31"></script>
+<script src="theme.js?v=20260920v31"></script>
 <script>
 function getParam(){ return new URLSearchParams(location.search).get("id") || location.hash.replace("#",""); }
 function cardLink(c){ return `card.html?id=${encodeURIComponent(c.id)}#${KB.esc(c.id)}`; }
@@ -149,7 +149,19 @@ function renderCard(c, error){
   });
   const ref = KB.refText(c.ref);
   const citation = `${c.title} // 苏霍姆林斯基教育知识库 ${c.id} · ${KB.sourceTitle(c.source)} · ${ref}`;
-  document.getElementById("cardMeta").textContent = c.id + " · " + KB.sourceTitle(c.source);
+  /* 全文定位（2026-09-20 加）：这张卡的原文在书里的哪一卷哪一页、属于哪一小节。
+     数据来自 web/data/locators.json（由 scripts/build_shards.py 从本地全文层生成）。
+     置信度 low 的加一句「定位存疑」——**宁可让读者看到不确定，也不要把错的页码当真。** */
+  let metaLine = c.id + " · " + KB.sourceTitle(c.source);
+  if (c.loc) {
+    const bits = [];
+    if (c.loc.book && c.loc.book !== c.source) bits.push(KB.sourceTitle(c.loc.book));
+    if (c.loc.page !== null && c.loc.page !== undefined) bits.push("第 " + c.loc.page + " 页");
+    if (c.loc.section) bits.push("小节《" + c.loc.section + "》");
+    if (bits.length) metaLine += " · 原文在 " + bits.join(" · ");
+    if (c.loc.confidence === "low") metaLine += "（定位存疑）";
+  }
+  document.getElementById("cardMeta").textContent = metaLine;
   document.getElementById("cardMain").innerHTML = `
     <div class="card-top">
       <span class="badge">${KB.esc(KB.typeLabel(c.type))}</span>
@@ -255,6 +267,6 @@ document.addEventListener("DOMContentLoaded", async ()=>{
   }
 });
 </script>
-<script src="scene.js?v=20260920v30"></script>
+<script src="scene.js?v=20260920v31"></script>
 </body>
 </html>

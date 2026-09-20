@@ -219,6 +219,31 @@ class Taxonomy:
                    for rec in self.cls.values() if rec.get('type') == 'case')
 
 
+# ── 全文定位（2026-09-20 加）─────────────────────────────────────────
+# 每张卡在书全文里的位置（书 / PDF 页序 / 小节），来自
+#   local_working_copy/fulltext/card-locators.jsonl（生成方式见该目录的 README）
+# 为什么是**旁挂**、不写进卡片：AGENTS.md 规定 cards/ 只有人能改，
+# AI 改一个字，出处链就断。所以定位随分片发布，卡片本身不动。
+# 那份 jsonl 在 local_working_copy/ 里（不入 git），所以在别的机器上重建时 loc 会缺——
+# 这是**有意的降级**：宁可没有定位，也不要写出错的定位。
+LOCATORS: dict[str, dict] = {}
+
+
+def load_locators() -> dict[str, dict]:
+    p = ROOT / 'local_working_copy' / 'fulltext' / 'card-locators.jsonl'
+    out: dict[str, dict] = {}
+    if p.exists():
+        for line in p.read_text(encoding='utf-8').splitlines():
+            if not line.strip():
+                continue
+            d = json.loads(line)
+            if d.get('card'):
+                out[d['card']] = {'book': d.get('book', ''), 'page': d.get('page'),
+                                  'section': d.get('section', ''),
+                                  'confidence': d.get('confidence', '')}
+    return out
+
+
 def card_index_entry(card: dict, tax: Taxonomy | None = None) -> dict:
     excerpts = card.get('excerpts') or ([card['excerpt']] if card.get('excerpt') else [])
     ref = card.get('ref', '')
@@ -270,6 +295,9 @@ def card_full_entry(card: dict, prev_id=None, next_id=None, related=None,
         # 教育场景/应用：网站从前不渲染这一节（2026-09-16 补），
         # 而它是"这库怎么用"的答案所在，也是 350 处卡对卡引用的所在地。
         'usage': card.get('usage', ''),
+        # 全文定位（2026-09-20）：详情页据此显示「第几卷 第几页 · 小节《…》」。
+        # 这份 jsonl 在本机才有 → 缺的时候整个字段不出现，前端自然降级。
+        **({'loc': LOCATORS[card['id']]} if card['id'] in LOCATORS else {}),
         # 卡对卡引用（`[[sk-XXXX]]`，全库 350 处，全在 usage 里）在详情页要显示成**卡片标题**，
         # 不是编号 —— 用户 2026-09-19：「我想把 SK- 换成具体的文字，这样更清楚」。
         # 只带这张卡真正引到的那几张（平均 2 条），按卡计算成本≈0；
@@ -379,6 +407,13 @@ def main() -> None:
     topics = build_site.parse_topics()
     cards = build_site.parse_cards()
     tax = Taxonomy(load_classification(), T.load_spec())
+
+    # 全文定位：本地有就带上，没有就整体降级（不报错——别的机器上重建时本来就没有）
+    LOCATORS.update(load_locators())
+    if LOCATORS:
+        (DATA / 'locators.json').write_text(
+            json.dumps(LOCATORS, ensure_ascii=False, sort_keys=True), encoding='utf-8')
+    print(f'全文定位：{len(LOCATORS)} 张卡（源文件不存在时为 0，前端自然降级）')
 
     DATA.mkdir(parents=True, exist_ok=True)
     report: list[tuple[str, int, int]] = []

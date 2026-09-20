@@ -33,7 +33,10 @@ CAND_ROOT = os.path.join(ROOT, "local_working_copy", "card-candidates")
 HEADS = [
     "苏霍姆林斯基选集五卷本", "苏霍姆林选集五卷本", "苏霍姆林斯基选集", "苏霍姆林选集",
     "公民的诞生", "帕夫雷什中学", "帕夫需什中学", "把心给了孩子们", "把心献给孩子",
-    "快乐学校", "给教师的建议", "我的教育信条", "和青年校长的谈话",
+    "快乐学校", "给教师的建议", "和青年校长的谈话",
+    # 书眉的 OCR 变体：实测「我的教育信条」被 OCR 成「我的教育信急」，
+    # 漏了它，跨页拼接的句子就会被误判成「对不上选集」。
+    "我的教育信条", "我的教育信急", "我的教育信念",
     "苏霍姆林斯基", "霍姆林斯基", "姆林斯基", "苏雷姆杯斯基选集", "孫雀姆林亚基",
     "苏徂姆林斯", "苏霍", "选集", "五卷本",
 ]
@@ -51,18 +54,26 @@ def strip_heads(s):
 
 
 def load_corpus():
+    """返回 (按卷的选集文本, 选集全文, 非选集文本)，都是汉字串且已剥书眉。
+
+    选集与非选集必须分开：候选卡的出处写的是《选集》第 N 卷，如果只在
+    《教育箴言》选本里对上，那是拿卡片的来源验卡片，等于没验。
+    """
     if not os.path.exists(DB):
         sys.exit("找不到语料库：%s" % DB)
     conn = sqlite3.connect(DB)
+    def blob(where):
+        rows = conn.execute(
+            "SELECT text FROM units " + where).fetchall()
+        return strip_heads(cjk_only("\n".join(r[0] for r in rows)))
     by_vol = {}
     for vol, txt in conn.execute(
             "SELECT volume, group_concat(text, char(10)) FROM units "
             "WHERE book LIKE '%选集%' GROUP BY volume"):
-        by_vol[str(vol)] = cjk_only(txt)
-    whole = cjk_only("\n".join(r[0] for r in conn.execute("SELECT text FROM units")))
-    # 跨页拼接的卡片：书里那张页的书眉夹在句子中间，整段当然对不上。
-    # 所以再备一份「把书眉从书里也剥掉」的副本 —— 两边都不含书眉，才谈得上逐字比对。
-    return by_vol, whole, strip_heads(whole)
+        by_vol[str(vol)] = strip_heads(cjk_only(txt))
+    xuanji = blob("WHERE book LIKE '%选集%'")
+    other = blob("WHERE book NOT LIKE '%选集%'")
+    return by_vol, xuanji, other
 
 
 def read_origin(path):
@@ -113,8 +124,8 @@ def main():
     args = ap.parse_args()
     dirs = [args.dir] if args.dir else sorted(
         d for d in glob.glob(os.path.join(CAND_ROOT, "*")) if os.path.isdir(d))
-    by_vol, whole, whole_clean = load_corpus()
-    ok, warn, fail, total = 0, [], [], 0
+    by_vol, xuanji, other = load_corpus()
+    ok, warn, fail, circular, total = 0, [], [], [], 0
     for d in dirs:
         for f in sorted(glob.glob(os.path.join(d, "cand-*.md"))):
             text, vol = read_origin(f)
@@ -126,30 +137,41 @@ def main():
             if not n:
                 fail.append((cid, "正文为空"))
                 continue
-            if n in whole or n in whole_clean or n in by_vol.get(str(vol), ""):
+            if n in by_vol.get(str(vol), "") or n in xuanji:
                 ok += 1
                 continue
-            r, missing = local_align(n, whole_clean)
-            # 关键：相似度低时这段对齐是错位的（卡片抄的是选本、不在选集里），
-            # 这种「缺字」是尺子自己的幻觉，不能拿去判人家的文本。
-            if r is None or r < 0.90:
-                warn.append((cid, "未能逐字对回选集（r=%s）—— 多半抄自选本原文，非删除"
-                             % ("-" if r is None else "%.2f" % r)))
-            elif missing:
-                fail.append((cid, "r=%.2f 书里有而卡里缺：%s" % (r, "｜".join(missing)[:120])))
+            # 先跟《选集》对，再判「是不是只在选本里对上」——
+            # 顺序反了会冤枉卡片：去标点后选集原文与选本常逐字相同。
+            r, missing = local_align(n, xuanji)
+            if r is not None and r >= 0.90:
+                if missing:
+                    fail.append((cid, "r=%.2f 书里有而卡里缺：%s"
+                                 % (r, "｜".join(missing)[:120])))
+                else:
+                    ok += 1
+            elif n in other:
+                # 卡片本来抄自选本，在选本里对上说明不了任何事
+                circular.append((cid, "r=%s 只在非选集文本里对上（选本/译本），不算验过"
+                                 % ("-" if r is None else "%.2f" % r)))
             else:
-                ok += 1
+                # 相似度低时这段对齐是错位的，这种「缺字」是尺子自己的幻觉
+                warn.append((cid, "未能逐字对回选集（r=%s）"
+                             % ("-" if r is None else "%.2f" % r)))
     print("对账候选卡：%d 张" % total)
-    print("  逐字对回书全文（含剥书眉后对上）：%d" % ok)
+    print("  逐字对回《选集》（含剥书眉后对上）：%d" % ok)
     print("  WARN（对不上，不判失败）：%d" % len(warn))
     for cid, why in warn:
         print("     - %s %s" % (cid, why))
+    print("  只在非选集文本里对上（自证，不算验过）：%d" % len(circular))
+    for cid, why in circular:
+        print("     ~ %s %s" % (cid, why))
     print("  FAIL（高相似度对齐下，书里有而卡里没有 = 被吃掉的正文）：%d" % len(fail))
     for cid, why in fail:
         print("     ! %s %s" % (cid, why))
     if args.json:
         io.open(args.json, "w", encoding="utf-8").write(json.dumps(
             {"ok": ok, "warn": [list(x) for x in warn],
+             "circular": [list(x) for x in circular],
              "fail": [list(x) for x in fail], "total": total},
             ensure_ascii=False, indent=1))
     print("结论：%s" % ("PASS" if not fail else "FAIL"))

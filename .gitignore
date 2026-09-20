@@ -38,6 +38,9 @@ cloudflare/coverage.json
 # codex/playwright 工具产生的临时截图与控制台日志（不是项目产物）
 .playwright-mcp/
 
+# 批量核查的中间产物（分片、批处理稿）——可再生产，不是项目产物
+runs/
+
 # 浏览器回归脚本的运行产物（脚本本身在 tools/web-audit/，是要提交的）
 tools/web-audit/out/
 

@@ -23,7 +23,7 @@
 <meta name="twitter:image" content="https://craeatzeven.github.io/sukhomlinsky-education-kb/web/og.jpg" />
 <!-- social:end -->
 <link rel="icon" href="icon.svg" type="image/svg+xml" />
-<link rel="stylesheet" href="style.css?v=20260920v37">
+<link rel="stylesheet" href="style.css?v=20260920v38">
 <link rel="stylesheet" href="kit-subset.css?v=20260918a">
 </head>
 <body>
@@ -92,6 +92,22 @@
   <div class="rows c-scope" id="results"></div>
   <div class="kb-pager c-scope" id="pager"></div>
 
+  <!-- 全文检索（C 方案，2026-09-20）：书全文（616 万字）只在本机，接口只回**命中片段**。
+       连不上本机 API 时整块降级为一句说明，上面的卡片检索不受影响。 -->
+  <section class="ft-block" id="ftBlock">
+    <h2 class="section-title">全文检索：书全文</h2>
+    <p class="section-sub" id="ftState">正在检测本机全文接口…</p>
+    <form class="searchbox" id="ftForm" hidden>
+      <input id="ftQ" type="search" aria-label="全文检索"
+             placeholder="在 616 万字书全文里找一句，如：集体舆论 / 自己对自己下命令" />
+      <button class="searchbox-go" type="submit" aria-label="全文检索" title="全文检索">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M15.4 15.4L21 21" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+    </form>
+    <div class="rows c-scope" id="ftResults"></div>
+    <p class="meta" id="ftNote" hidden>全文只在本机（版权原因，不进公开仓库）。这里只显示**命中片段**与「第几卷第几页」；想通读请用纸本。</p>
+  </section>
+
   <details class="howto">
     <summary>技术说明</summary>
     <p class="meta" id="apiState">正在连接后端…</p>
@@ -106,9 +122,65 @@
   </div>
 </footer>
 
-<script src="config.js?v=20260917h"></script>
-<script src="kb.js?v=20260920v37"></script>
-<script src="theme.js?v=20260920v37"></script>
+<script src="config.js?v=20260920v38"></script>
+<script>
+/* 全文检索（C 方案，2026-09-20）：接本机全文 API。
+   三条刻意的设计：
+   ① **基址可配置** —— config.js 的 fulltextBase，也可用 ?ft= 临时覆盖；
+   ② **优雅降级** —— 连不上就只显示一句「需在本机运行 API」，卡片检索不受影响；
+   ③ **只显示片段** —— 接口本来就不返回整段，页面上再说明一次「全文在本机」。 */
+(function () {
+  var el = document.getElementById("ftBlock");
+  if (!el) return;
+  var qs = new URLSearchParams(location.search);
+  var BASE = (qs.get("ft") || (window.KB_CONFIG && window.KB_CONFIG.fulltextBase) || "").replace(/\/$/, "");
+  var state = document.getElementById("ftState");
+  var form = document.getElementById("ftForm");
+  var input = document.getElementById("ftQ");
+  var out = document.getElementById("ftResults");
+  var note = document.getElementById("ftNote");
+  if (!BASE) { state.textContent = "未配置全文接口地址（config.js 的 fulltextBase）。"; return; }
+  function api(path) {
+    var ctl = new AbortController();
+    var timer = setTimeout(function () { ctl.abort(); }, 6000);
+    return fetch(BASE + path, { headers: { "Accept": "application/json" }, signal: ctl.signal })
+      .then(function (r) { clearTimeout(timer); if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); });
+  }
+  api("/api/fulltext/health").then(function (h) {
+    if (!h || !h.ok) throw new Error("health 不 ok");
+    state.textContent = "已连上本机全文层：" + h.units.toLocaleString() + " 个段落 · " +
+      (h.chars / 10000).toFixed(0) + " 万字 · " + h.books.length + " 本书。" +
+      "全文不进公开仓库，这里只回命中片段。";
+    form.hidden = false;
+    note.hidden = false;
+  }).catch(function () {
+    state.textContent = "全文接口没连上 —— 这是正常的：书全文（616 万字）只在本机（版权原因不进公开仓库）。" +
+      "想在浏览器里用，先在本机起服务：uvicorn api.main:app --host 127.0.0.1 --port 8787，" +
+      "刷新本页即可。上面的卡片检索不受影响，照常可用。";
+  });
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    var q = (input.value || "").trim();
+    if (q.length < 2) { out.innerHTML = '<p class="meta">至少输入 2 个字。</p>'; return; }
+    out.innerHTML = '<p class="meta">检索中…</p>';
+    api("/api/fulltext/search?limit=20&q=" + encodeURIComponent(q)).then(function (d) {
+      if (!d.hits || !d.hits.length) { out.innerHTML = '<p class="meta">没有命中。</p>'; return; }
+      var html = '<p class="meta">命中 ' + d.total + " 处，显示前 " + d.hits.length + " 条（每页最多 5 页）：</p>";
+      d.hits.forEach(function (h) {
+        var where = KB.esc(h.book || h.slug) + (h.page !== null && h.page !== undefined ? " · 第 " + h.page + " 页" : "") +
+          (h.section ? " · 小节《" + KB.esc(h.section) + "》" : "");
+        html += '<div class="row"><span class="row-title">' + where + '</span>' +
+          '<span class="row-desc">' + KB.esc(h.snippet) + '</span></div>';
+      });
+      out.innerHTML = html;
+    }).catch(function (err) {
+      out.innerHTML = '<p class="meta">检索失败：' + KB.esc(String(err.message || err)) + '</p>';
+    });
+  });
+})();
+</script>
+<script src="kb.js?v=20260920v38"></script>
+<script src="theme.js?v=20260920v38"></script>
 <script>
 /* 双模式检索：
  *   1) 后端可用（config.js 的 apiBase 指向 FastAPI / Cloudflare Worker）→ 服务端 FTS5 检索 + 分页 + 聚合
@@ -440,6 +512,6 @@ document.addEventListener("DOMContentLoaded", async ()=>{
   run();
 });
 </script>
-<script src="scene.js?v=20260920v37"></script>
+<script src="scene.js?v=20260920v38"></script>
 </body>
 </html>

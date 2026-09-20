@@ -787,6 +787,16 @@ button.mx-cell:hover { box-shadow: 0 0 0 2px var(--accent); }
 }
 
 /* 条目总览页：规则折叠在目录之后（复审 §B·02「先解释规则再给目录，首屏过重」） */
+/* 全文检索区块（2026-09-20 加，C 方案）：与上面的卡片检索分开，视觉上是一条新段落。
+   降级态只留一句说明，别让它看起来像坏了。 */
+/* 全文检索区块（2026-09-20 加，C 方案）：与上面的卡片检索分开，视觉上是一条新段落。
+   降级态只留一句说明，别让它看起来像坏了。
+   **注意这条 `[hidden]` 规则不是多余的**：`.searchbox` 带 display:flex，
+   它的特异性(0,1,0) 盖过 UA 的 `[hidden]{display:none}`，于是设了 hidden 仍然显示 —— 实测踩到过。 */
+.ft-block { margin: 44px 0 0; padding-top: 28px; border-top: 1px solid var(--line); }
+.ft-block .section-sub { max-width: 62ch; }
+.ft-block #ftForm[hidden], .ft-block #ftNote[hidden] { display: none; }
+
 .howto { margin: 34px 0 0; }
 .howto > summary {
   cursor: pointer; color: var(--soft); font-size: 14px;

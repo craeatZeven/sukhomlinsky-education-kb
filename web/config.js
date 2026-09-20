@@ -10,6 +10,14 @@
  *   因此这个地址在国内打不开也不会让页面失效。
  * 若日后绑定自定义域名（cloudflare/wrangler.toml 的 routes），把这里换成自定义域名即可。
  */
+/* fulltextBase：**全文检索**接口的地址（2026-09-20 加，C 方案）。
+ *   全文层（616 万字）只在本机，不入 git（版权，见 NOTICE.md），
+ *   所以这个地址默认指向本机 —— 公开站点上它**连不上是正常的**，
+ *   页面会显示「需在本机运行 API」，并保留上面的卡片检索照常可用。
+ *   本机起服务： uvicorn api.main:app --host 127.0.0.1 --port 8787
+ *   想把全文服务放到别处，就改这一行（或用 ?ft= 参数临时覆盖）。
+ */
 window.KB_CONFIG = {
-  apiBase: "https://suk-kb-api.suk-kb.workers.dev"
+  apiBase: "https://suk-kb-api.suk-kb.workers.dev",
+  fulltextBase: "http://127.0.0.1:8787"
 };

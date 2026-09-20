@@ -124,7 +124,11 @@ def main():
             if text is None:
                 continue
             total += 1
-            noted_flag = "excerpt_note:" in raw
+            # 把所有声明行拼起来看 —— 只取第一条会漏：卡片里 ocr_fixes 常排在 excerpt_note 前面，
+            # 而「起点相关」的判断要看的是后者（实测因此漏掉两张已声明的卡）。
+            note_text = " ".join(m.group(1) for m in re.finditer(
+                r"^(?:excerpt_note|ocr_note|ocr_fixes): (.+)$", raw, re.M))
+            noted_flag = ("excerpt_note:" in raw) or bool(re.search(r"起点|句首", note_text))
             cid = "%s/%s" % (os.path.basename(d), os.path.basename(f)[:-3])
             n = cjk_only(text)
             hay, idx = per_vol.get(str(vol), (hay_all, idx_all))
@@ -145,9 +149,12 @@ def main():
                         # 反推后能在开头第 0 字对上 ⇒ 起点本身没问题，差额全由我声明的修字解释
                         explained, n, pos, off = True, n_r, pos2, off2
             if pos is None:
-                # 最后一道归因：开头是不是用了选本的节缩措辞
+                # 最后两道归因：开头是不是用了选本的节缩措辞；或卡片自己声明过起点处理。
+                # 声明必须是**起点相关**的（含「起点」或「句首」），不然随便一条备注就能豁免。
                 if len(n) >= 20 and n[:20] in cjk_zw:
                     from_zw.append(cid)
+                elif noted_flag and re.search(r"起点|句首", note_text):
+                    noted.append((cid, 0, note_text[:48]))
                 elif off:
                     shifted.append((cid, off))
                 else:
@@ -165,7 +172,13 @@ def main():
             elif dl <= 12:
                 suspect.append((cid, dl, cut))
             else:
-                manual.append((cid, dl, cut[-24:]))
+                # 长悬挂（起点前还挂着 >12 字）：看**选本**是不是也从同一处起引。
+                # 选本自己就从句子中间摘，那是编者的选择，不是提取截断 —— 归此类的自动出清。
+                kz = cjk_zw.find(n[:16]) if len(n) >= 16 else -1
+                if kz > 0 and hay_zw[idx_zw[kz] - 1] not in SENT_END:
+                    from_zw.append(cid)
+                else:
+                    manual.append((cid, dl, cut[-24:]))
     print("审了候选卡：%d 张" % total)
     print("  起点在句首（正常）：%d" % len(clean))
     print("  ★ 可疑截断（悬挂 1~12 字）：%d" % len(suspect))

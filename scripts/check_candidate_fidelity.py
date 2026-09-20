@@ -189,6 +189,26 @@ def revert_declared(n, pairs):
             out = out.replace(fixed, wrong)
     return out
 
+
+
+REMOVE_WORDS = ("删", "剔除", "去掉", "多一个", "只保留一处", "夹入", "残片")
+QUOTED = re.compile(r"[「（(]([^」）)]+)[」）)]")
+
+
+def declared_removals(text):
+    """取出卡片**自己声明删过的东西**，用来判断 GAP 里缺的那几个字是不是我删的。
+
+    只认带删除语义的子句（含 删/剔除/去掉/夹入/残片… 的那一小段），
+    把该子句里的引用串（「」或（））都收进来。
+    宁可宽一点也没关系 —— 命中时会把对应的记录原文一起打印出来，供人工复核。
+    """
+    out = []
+    for line in re.findall(r"^(?:ocr_fixes|excerpt_note|ocr_note): (.+)$", text, re.M):
+        for clause in re.split(r"[；;]", line):
+            if any(w in clause for w in REMOVE_WORDS):
+                out += QUOTED.findall(clause)
+    return out
+
 def recorded_deletions(text):
     """从 ocr_fixes 里取出被删掉的串，以及该条是否已回补。
 
@@ -214,6 +234,7 @@ def main():
         d for d in glob.glob(os.path.join(CAND_ROOT, "*")) if os.path.isdir(d))
     by_vol, xuanji, other = load_corpus()
     ok, gap, fail, warn, circular, total, repaired, reverted = 0, [], [], [], [], 0, 0, 0
+    gap_explained = []
     for d in dirs:
         for f in sorted(glob.glob(os.path.join(d, "cand-*.md"))):
             raw = io.open(f, encoding="utf-8").read()
@@ -258,8 +279,32 @@ def main():
                     r, missing, seg = r2, m2, seg2
             if r is not None and r >= args.gap_threshold:
                 if missing:
-                    gap.append((cid, "r=%.2f 书里有而卡里没有：%s"
-                                % (r, "｜".join(missing)[:110])))
+                    # GAP 自证：书里有、卡里没有的那几段，是不是卡片自己声明删过的东西？
+                    # 每条都要求「缺的那段」被某个声明串包含（或反过来包含），
+                    # 命中不了的才留在 GAP 里交人工。
+                    # 两类声明都算数：
+                    #   ①「删……「X」」这种删除声明；
+                    #   ②「A→B」里的 A 侧 —— A 是**书里的原样**，卡片与书的差若正好是它，
+                    #     那也是我声明过的改动（实测漏掉 A 侧会误判成「未能自证」）。
+                    rems = [cjk_only(x) for x in declared_removals(raw)]
+                    rems += [cjk_only(a) for a, b in declared_pairs(raw)]
+                    unexplained, matched = [], []
+                    for span in missing:
+                        cs = cjk_only(span)
+                        # 比三档：原样包含、互相包含、把书眉词剥掉后再包含。
+                        # 第三档是必要的 —— 声明里写的书眉串带「姆林斯基选集」这类词，
+                        # 而书里的那段字被这些词隔开，直接做子串当然匹配不上。
+                        hit = [x for x in rems if x and (cs in x or x in cs)]
+                        if not hit:
+                            hit = [x for x in rems
+                                   if x and cs in strip_heads(x)]
+                        (matched if hit else unexplained).append((span, hit[0]) if hit else span)
+                    if unexplained:
+                        gap.append((cid, "r=%.2f 书里有而卡里没有（未能自证）：%s"
+                                    % (r, "｜".join(unexplained)[:110])))
+                    else:
+                        gap_explained.append((cid, "r=%.2f 缺的字都在声明里：%s"
+                                              % (r, "｜".join("%s←%s" % (s, m) for s, m in matched)[:110])))
                 else:
                     ok += 1
             elif n in other:
@@ -281,12 +326,17 @@ def main():
     for cid, why in circular:
         print("     ~ %s %s" % (cid, why))
     print("  已回补 记录里声明删过、并已修回的字：%d 处" % repaired)
+    print("  ★ GAP 已自证（缺的字都在卡片自己的声明里）：%d" % len(gap_explained))
+    for cid, why in gap_explained:
+        print("     = %s %s" % (cid, why))
     print("  FAIL 有删掉正文的证据：%d" % len(fail))
     for cid, why in fail:
         print("     ! %s %s" % (cid, why))
     if args.json:
         io.open(args.json, "w", encoding="utf-8").write(json.dumps(
-            {"ok": ok, "gap": [list(x) for x in gap], "warn": [list(x) for x in warn],
+            {"ok": ok, "gap": [list(x) for x in gap],
+             "gap_explained": [list(x) for x in gap_explained],
+             "warn": [list(x) for x in warn],
              "circular": [list(x) for x in circular], "fail": [list(x) for x in fail],
              "total": total}, ensure_ascii=False, indent=1))
     print("结论：%s" % ("PASS" if not fail else "FAIL"))

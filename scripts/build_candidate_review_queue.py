@@ -32,6 +32,8 @@ ORDER = [("字段缺失", 1), ("删掉正文（FAIL）", 2), ("对不上选集�
 # 已自动归因的：只当摘要，不占人工清单
 AUTO = [("起点处改过字、反推后与书对得上", "explained"),
         ("开头用选本节缩措辞（选集里对不上属正常）", "from_anthology")]
+# 来自对账闸门的自动归因（字段名相同）
+AUTO_FID = [("GAP 里缺的字都在卡片自己的声明里（已自证）", "gap_explained")]
 RANK = dict(ORDER)
 
 
@@ -55,7 +57,7 @@ def main():
             return {}
 
         fid, sta = find_json("fidelity.json"), find_json("start-audit.json")
-        rows, opening, total = [], {}, 0
+        rows, opening, notes, total = [], {}, {}, 0
 
         def add(cid, kind, why):
             rows.append((short(cid), kind, why))
@@ -69,6 +71,8 @@ def main():
             miss = [k for k in NEED if k not in keys]
             m = SEC.search(t)
             opening[cid] = re.sub(r"\s+", "", m.group(1))[:46] if m else "（取不到原文）"
+            fx = re.search(r"^(?:ocr_fixes|excerpt_note|ocr_note): (.+)$", t, re.M)
+            notes[cid] = fx.group(1)[:160] if fx else "（这张卡没有修法/备注字段）"
             if miss:
                 add(cid, "字段缺失", "缺 " + "、".join(miss))
 
@@ -88,6 +92,7 @@ def main():
             add(cid, "起点定位不到", "卡文开头 20 字在选集里找不到（多因该处已改字或选集自身残缺）")
 
         auto_cnt = [(label, len(sta.get(key, []))) for label, key in AUTO]
+        auto_cnt += [(label, len(fid.get(key, []))) for label, key in AUTO_FID]
         rows.sort(key=lambda r: (RANK.get(r[1], 99), r[0]))
         cnt = Counter(r[1] for r in rows)
         out = ["# 候选卡人工复核清单", "",
@@ -112,6 +117,7 @@ def main():
             for cid, _, why in sub:
                 out.append("- **%s** — %s" % (cid, why))
                 out.append("  - 卡文开头：%s" % opening.get(cid, ""))
+                out.append("  - 卡片自己的记录：%s" % notes.get(cid, ""))
             out.append("")
         out += ["---", "", "## 全部卡文开头（便于对照）", ""]
         for cid in sorted(opening):

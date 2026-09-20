@@ -251,7 +251,10 @@ def load_locators() -> dict[str, dict]:
                                   or (d.get('confidence') == 'medium' and d.get('match', 0) >= 0.70)):
                 out[d['card']] = {'book': d.get('book', ''), 'page': d.get('page'),
                                   'section': d.get('section', ''),
-                                  'confidence': d.get('confidence', '')}
+                                  'confidence': d.get('confidence', ''),
+                                  # unit 是全文层的段落号，卡片页靠它拉「这段的上下文」。
+                                  # 2026-09-20 补：第一版漏了它，于是卡片页那块点不动（实测发现）。
+                                  'unit': d.get('unit', '')}
     return out
 
 

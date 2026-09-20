@@ -23,7 +23,7 @@
 <meta name="twitter:image" content="https://craeatzeven.github.io/sukhomlinsky-education-kb/web/og.jpg" />
 <!-- social:end -->
 <link rel="icon" href="icon.svg" type="image/svg+xml" />
-<link rel="stylesheet" href="style.css?v=20260920v38" />
+<link rel="stylesheet" href="style.css?v=20260920v39" />
 </head>
 <body data-theme="paper">
 <nav class="topnav">
@@ -69,8 +69,9 @@
   </div>
 </footer>
 
-<script src="kb.js?v=20260920v38"></script>
-<script src="theme.js?v=20260920v38"></script>
+<script src="config.js?v=20260920v39"></script>
+<script src="kb.js?v=20260920v39"></script>
+<script src="theme.js?v=20260920v39"></script>
 <script>
 function getParam(){ return new URLSearchParams(location.search).get("id") || location.hash.replace("#",""); }
 function cardLink(c){ return `card.html?id=${encodeURIComponent(c.id)}#${KB.esc(c.id)}`; }
@@ -270,6 +271,55 @@ document.addEventListener("DOMContentLoaded", async ()=>{
   }
 });
 </script>
-<script src="scene.js?v=20260920v38"></script>
+<script>
+/* 卡片页的全文上下文（C 方案第二步，2026-09-20）。
+   独立于 KB 的渲染逻辑：自己读 data/cards/<id>.json 里的 loc 字段（那是 build_shards 灌进去的定位），
+   在卡片下方插一块「这段原文在书里」。
+   为什么独立：卡片页的 renderCard 是个大模板，动它风险大；这一块只需要 loc，读到就显示。
+   连不上本机全文 API 时给一句说明，不影响卡片本身。 */
+(function () {
+  var id = new URLSearchParams(location.search).get("id");
+  if (!id) return;
+  var BASE = (new URLSearchParams(location.search).get("ft") || (window.KB_CONFIG && window.KB_CONFIG.fulltextBase) || "").replace(/\/$/, "");
+  if (!BASE) return;
+  function api(path) {
+    var ctl = new AbortController();
+    var t = setTimeout(function () { ctl.abort(); }, 6000);
+    return fetch(BASE + path, { headers: { "Accept": "application/json" }, signal: ctl.signal })
+      .then(function (r) { clearTimeout(t); if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); });
+  }
+  fetch("data/cards/" + encodeURIComponent(id) + ".json").then(function (r) { return r.json(); }).then(function (c) {
+    if (!c || !c.loc || !c.loc.unit) return;
+    var host = document.getElementById("cardMain");
+    if (!host || !host.parentNode) return;
+    var bits = [];
+    if (c.loc.book) bits.push(KB.esc(c.loc.book));
+    if (c.loc.page !== null && c.loc.page !== undefined) bits.push("第 " + c.loc.page + " 页");
+    if (c.loc.section) bits.push("小节《" + KB.esc(c.loc.section) + "》");
+    var box = document.createElement("section");
+    box.className = "ft-ctx";
+    box.innerHTML = '<h2 class="section-title">这段原文在书里</h2>' +
+      '<p class="meta">' + (bits.join(" · ") || "（本书未标卷页）") +
+      (c.loc.confidence === "medium" ? "（定位待核）" : "") + '</p>' +
+      '<p><button class="chip" type="button" id="ftCtxBtn">看上下文（本机全文层）</button></p>' +
+      '<p class="meta" id="ftCtxState">全文只在本机（版权原因不进公开仓库）。点了才知道能不能连上。</p>' +
+      '<p id="ftCtxOut"></p>';
+    host.parentNode.insertBefore(box, host.nextSibling);
+    document.getElementById("ftCtxBtn").addEventListener("click", function () {
+      var st = document.getElementById("ftCtxState");
+      var out = document.getElementById("ftCtxOut");
+      st.textContent = "正在取…";
+      api("/api/fulltext/context?unit=" + encodeURIComponent(c.loc.unit)).then(function (d) {
+        st.textContent = "以下是从书里取回的上下文（上限 420 字，全文在本地）：";
+        out.innerHTML = '<p class="excerpt">' + KB.esc(d.snippet) + '</p>';
+      }).catch(function () {
+        st.textContent = "连不上本机全文层。想在浏览器里看上下文，先起服务：" +
+          "uvicorn api.main:app --host 127.0.0.1 --port 8787，刷新本页即可。卡片本身不受影响。";
+      });
+    });
+  }).catch(function () {});
+})();
+</script>
+<script src="scene.js?v=20260920v39"></script>
 </body>
 </html>

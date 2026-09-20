@@ -49,6 +49,9 @@ HEADS = [
     "我的教育信条", "我的教育信急", "我的教育信念",
     "苏霍姆林斯基", "霍姆林斯基", "姆林斯基", "苏雷姆杯斯基选集", "孫雀姆林亚基",
     "苏徂姆林斯", "苏霍", "选集", "五卷本",
+    # 书眉的又一批 OCR 变体（基→墓、五→万 等，逐页不同）
+    "苏霍姆林斯墓选集", "霍姆林斯墓选集", "姆林斯墓选集", "苏霍姆林斯墓",
+    "苏霍姆林斯基选集万卷本", "办霍姆林斯基选集", "苏霍姆林斯墓迭集",
 ]
 CJK = re.compile(r"[\u4e00-\u9fff]")
 # 译者注不是正文。语料里它作为独立 unit 夹在句子中间（实测：一句跨页的话被
@@ -152,6 +155,33 @@ def local_align(n, hay, gap_threshold=0.90):
     return r, missing, seg
 
 
+def declared_pairs(text):
+    """从 ocr_fixes 里取出「A→B」这类逐字修法（位置无关，所以可以反推回去）。
+
+    「删…「X」」那类不行 —— 删掉的位置无从得知，无法反推。
+    返回 [(改后, 改前)]，用于把卡片正文还原成书里的原样。
+    """
+    pairs = []
+    for line in re.findall(r"^ocr_fixes: (.+)$", text, re.M):
+        # 冒号与空白都要排除：否则「ocr_fixes: 教帅→教师」会把整段前缀当成「改后」
+        for a, b in re.findall(r"([^\s；：:→（）()]+)→([^\s；：:→（）()]+)", line):
+            if a and b and "删" not in a:
+                pairs.append((a, b))
+    return pairs
+
+
+def revert_declared(n, pairs):
+    """按声明的修法反推，还原成书里的样子。
+
+    pairs 里的每一项是 (书里的原样, 我改成的新字) —— 记录写成「A→B」时
+    A 是书/选集的错字，B 是我改对的字。所以反推要拿 B 换回 A（写反了会一个都命中不了）。
+    """
+    out = n
+    for wrong, fixed in reversed(pairs):
+        if fixed in out:
+            out = out.replace(fixed, wrong)
+    return out
+
 def recorded_deletions(text):
     """从 ocr_fixes 里取出被删掉的串，以及该条是否已回补。
 
@@ -176,7 +206,7 @@ def main():
     dirs = [args.dir] if args.dir else sorted(
         d for d in glob.glob(os.path.join(CAND_ROOT, "*")) if os.path.isdir(d))
     by_vol, xuanji, other = load_corpus()
-    ok, gap, fail, warn, circular, total, repaired = 0, [], [], [], [], 0, 0
+    ok, gap, fail, warn, circular, total, repaired, reverted = 0, [], [], [], [], 0, 0, 0
     for d in dirs:
         for f in sorted(glob.glob(os.path.join(d, "cand-*.md"))):
             raw = io.open(f, encoding="utf-8").read()
@@ -200,6 +230,15 @@ def main():
             if n in by_vol.get(str(vol), "") or n in xuanji:
                 ok += 1
                 continue
+            # ②b 把我声明过的逐字修法反推回去再验一次：
+            #     还原后能逐字命中，说明「与书不一致」的部分**完全由声明解释**，
+            #     那不是吃字，是修字。目标仍然是书，所以这不是自证。
+            pairs = declared_pairs(raw)
+            n_rev = revert_declared(n, pairs)
+            if n_rev != n and (n_rev in by_vol.get(str(vol), "") or n_rev in xuanji):
+                ok += 1
+                reverted += 1
+                continue
             # ③ 先跟《选集》对齐，再判「是不是只在选本里对上」——
             #    顺序反了会冤枉卡片：去标点后选集原文与选本常逐字相同。
             hay = by_vol.get(str(vol)) or xuanji
@@ -222,6 +261,7 @@ def main():
                              % ("-" if r is None else "%.2f" % r)))
     print("对账候选卡：%d 张" % total)
     print("  OK   逐字对回《选集》（含剥书眉后对上）：%d" % ok)
+    print("       其中靠「反推声明的 ocr_fixes 后命中」计入：%d" % reverted)
     print("  GAP  高度一致但书里有几处卡里没有（待人工确认，选本节缩也会有此现象）：%d" % len(gap))
     for cid, why in gap:
         print("     ? %s %s" % (cid, why))

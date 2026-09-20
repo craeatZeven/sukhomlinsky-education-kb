@@ -402,7 +402,7 @@ HUB = '''<!doctype html>
 
 
 def main() -> int:
-    ver = '20260920v36'
+    ver = '20260920v37'
     NOTE.mkdir(parents=True, exist_ok=True)
 
     def read_nav() -> str:

@@ -1364,72 +1364,21 @@ body::before{ z-index:5; }   /* 抬到玻璃之上：否则 z-index 3 的封面�
      · reduced-motion 下动画停掉（光还在，只是不动）；reduced-transparency 下整层不出现。
    ============================================================ */
 body::after{
-  /* 2026-09-20 第二版：用户贴了 latest.html 的截图 ——「光影好像有点过了，我想要的不是这种效果」。
-     实测那一版的整屏剂量 6.05：整页被冲成一片惨白，标题几乎看不见，
-     而且**玻璃反而不像玻璃了** —— 背后一片均匀的亮，玻璃没东西可透，就成了一块亮板。
-     所以这两条是一件事：**光越强，玻璃越不明显**。
-     现在：剂量砍到约 1/3（opacity 控制，烘焙图不动）。 */
-  content:""; position:fixed; inset:-12% -10%; z-index:0; pointer-events:none;
-  /* 四版对照实测（_v27_light_ab.png：A 关掉 / B .16 / C .32 / D 侧光）：
-     **光越强，玻璃越不像玻璃** —— 背后一片均匀的亮，玻璃没东西可透。
-     取 .18：光还在（页面不死），但不再把标题和文字冲淡。 */
-  opacity:.18;
-  /* 2026-09-20 用户：「光影我想试试那个树影斑斓的，做得明显一些」。
-     从「三团大柔光」换成「**多片不规则光斑**」：
-       · 光斑用**椭圆**（radial-gradient 带两个半径）而不是圆 —— 叶子挡出来的光本来就是拉长的；
-       · 大小、角度、透明度各不相同（.78 / .62 / .5 / .34 四档），密的地方亮、疏的地方暗，
-         这就是「斑斓」；纯一团光是「亮」，不是「斑斓」；
-       · 边缘比原来硬一点（55% 才开始收），光斑才立得住，而不是化成一团雾；
-       · 底下仍留一大团暖光兜底，免得整页太平。
-     代价提醒：这一层在玻璃后面，任何位移都会让每个 backdrop-filter 玻璃重新采样背景 ——
-     所以仍由 scene.js 低频驱动（见那边），不写 CSS animation。 */
-  background:
-    /* 大团兜底暖光 */
-    radial-gradient(46% 34% at 34% 22%, rgba(255,243,214,.55), transparent 74%),
-    /* 不规则光斑：椭圆、大小不一、四档浓度 */
-    radial-gradient(17% 11% at 16% 12%, rgba(255,249,232,.78), transparent 62%),
-    radial-gradient(23% 13% at 41% 8%,  rgba(255,246,222,.62), transparent 64%),
-    radial-gradient(13% 17% at 62% 20%, rgba(255,250,236,.66), transparent 60%),
-    radial-gradient(26% 15% at 84% 13%, rgba(255,244,216,.50), transparent 66%),
-    radial-gradient(15% 12% at 27% 41%, rgba(255,248,230,.58), transparent 62%),
-    radial-gradient(21% 16% at 55% 52%, rgba(255,246,224,.44), transparent 66%),
-    radial-gradient(12% 15% at 78% 44%, rgba(255,250,238,.60), transparent 60%),
-    radial-gradient(24% 13% at 12% 66%, rgba(255,245,220,.42), transparent 68%),
-    radial-gradient(16% 18% at 46% 79%, rgba(255,249,234,.56), transparent 62%),
-    radial-gradient(19% 12% at 74% 88%, rgba(255,243,214,.34), transparent 68%),
-    radial-gradient(11% 14% at 92% 70%, rgba(255,250,240,.50), transparent 60%);
-  /* **这里故意不写 animation**（2026-09-19 实测）：这一层在玻璃的后面，
-     每动一次，所有 backdrop-filter 玻璃都要重新采样背景 —— 每帧更新时中位帧
-     20.1ms → 29.4ms（+46%）。而它 150 秒才走完一圈，每秒更新 60 次纯属浪费。
-     改由 scene.js 以 ~3 次/秒驱动 transform：同样的观感，代价回到噪声内。 */
-  transform:translate3d(0,0,0); will-change:transform;
-  --lt: 0;
+  /* 2026-09-20 用户选定 **D 侧光**（四版对照 _v27_light_ab.png：A 关掉 / B 极弱树影 / C 弱树影 / D 侧光）。
+     为什么它比树影更适合这个站：树影是点状的亮，落在文字区会变成一块块斑；
+     侧光只有方向、没有斑，纸面看起来像被一扇窗的光斜着照到。
+     **光越强，玻璃越不像玻璃** —— 背后一片均匀的亮，玻璃就没东西可透，会变成一块亮板。
+     这一版是静态光：没有动画，也不需要 scene.js 的低频驱动，代价归零。 */
+  content:""; position:fixed; inset:-6% -4%; z-index:0; pointer-events:none;
+  background:linear-gradient(112deg,
+    rgba(255,244,214,.55) 0%, rgba(255,248,230,.30) 34%, rgba(255,255,255,0) 62%);
+  opacity:.62;
 }
-body::after{ transform:translate3d(calc(var(--ldx,0) * 1%), calc(var(--ldy,0) * 1%), 0)
-  rotate(calc(var(--ldr,0) * 1deg)) scale(var(--lds,1)); }
 body[data-theme="dark"]::after{
-  /* 夜读：同样斑斓，但换成月光 —— 冷、更淡（暖光压在暗背景上会发脏） */
-  background:
-    radial-gradient(46% 34% at 34% 22%, rgba(196,212,236,.16), transparent 74%),
-    radial-gradient(17% 11% at 16% 12%, rgba(214,226,244,.22), transparent 62%),
-    radial-gradient(23% 13% at 41% 8%,  rgba(206,220,240,.17), transparent 64%),
-    radial-gradient(13% 17% at 62% 20%, rgba(218,230,248,.19), transparent 60%),
-    radial-gradient(26% 15% at 84% 13%, rgba(200,214,236,.14), transparent 66%),
-    radial-gradient(15% 12% at 27% 41%, rgba(210,224,242,.16), transparent 62%),
-    radial-gradient(21% 16% at 55% 52%, rgba(204,218,238,.12), transparent 66%),
-    radial-gradient(12% 15% at 78% 44%, rgba(216,228,246,.17), transparent 60%),
-    radial-gradient(24% 13% at 12% 66%, rgba(198,212,234,.11), transparent 68%),
-    radial-gradient(16% 18% at 46% 79%, rgba(212,226,244,.15), transparent 62%),
-    radial-gradient(19% 12% at 74% 88%, rgba(196,210,232,.10), transparent 68%),
-    radial-gradient(11% 14% at 92% 70%, rgba(216,228,246,.13), transparent 60%);
+  /* 夜读：同一束光换成月光 —— 冷、更淡（暖光压在暗背景上会发脏） */
+  background:linear-gradient(112deg,
+    rgba(200,216,240,.30) 0%, rgba(190,206,232,.14) 36%, rgba(255,255,255,0) 64%);
 }
-/* 2026-09-20：树影斑斓改用**烘焙好的 SVG**（一条高斯模糊 + 14 片椭圆）而不是 12 条实时径向渐变 ——
-   浏览器只栅格化一次，把戏都在图层合成里。上面那版渐变保留作兜底（万一 data URI 被 CSP 挡）。 */
-body::after{ background-image:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNDAwIDkwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PGRlZnM+PGZpbHRlciBpZD0iYiIgeD0iLTMwJSIgeT0iLTMwJSIgd2lkdGg9IjE2MCUiIGhlaWdodD0iMTYwJSI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iMzQiLz48L2ZpbHRlcj48L2RlZnM+PGcgZmlsdGVyPSJ1cmwoI2IpIj48ZWxsaXBzZSBjeD0iNDc2IiBjeT0iMjE2IiByeD0iNTg4IiByeT0iMzA2IiBmaWxsPSIjRkZGNkUyIiBvcGFjaXR5PSIwLjU1Ii8+PGVsbGlwc2UgY3g9IjgwOSIgY3k9IjU5OCIgcng9Ijg4IiByeT0iNTIiIHRyYW5zZm9ybT0icm90YXRlKC03IDgwOSA1OTgpIiBmaWxsPSIjRkZGNkUyIiBvcGFjaXR5PSIwLjcwIi8+PGVsbGlwc2UgY3g9IjEyNzciIGN5PSIzMTEiIHJ4PSI4OCIgcnk9IjM4IiB0cmFuc2Zvcm09InJvdGF0ZSgzMyAxMjc3IDMxMSkiIGZpbGw9IiNGRkY2RTIiIG9wYWNpdHk9IjAuNDIiLz48ZWxsaXBzZSBjeD0iMjI3IiBjeT0iMTg1IiByeD0iMTMwIiByeT0iNTIiIHRyYW5zZm9ybT0icm90YXRlKC0xIDIyNyAxODUpIiBmaWxsPSIjRkZGNkUyIiBvcGFjaXR5PSIwLjQyIi8+PGVsbGlwc2UgY3g9Ijc3NiIgY3k9IjIxMCIgcng9IjE2NyIgcnk9Ijk0IiB0cmFuc2Zvcm09InJvdGF0ZSgyNSA3NzYgMjEwKSIgZmlsbD0iI0ZGRjZFMiIgb3BhY2l0eT0iMC41NSIvPjxlbGxpcHNlIGN4PSI2NTgiIGN5PSI0NzAiIHJ4PSIxNTciIHJ5PSI1NiIgdHJhbnNmb3JtPSJyb3RhdGUoLTExIDY1OCA0NzApIiBmaWxsPSIjRkZGNkUyIiBvcGFjaXR5PSIwLjMyIi8+PGVsbGlwc2UgY3g9IjkyMiIgY3k9IjY0OSIgcng9IjgxIiByeT0iMzUiIHRyYW5zZm9ybT0icm90YXRlKC0yNiA5MjIgNjQ5KSIgZmlsbD0iI0ZGRjZFMiIgb3BhY2l0eT0iMC43MCIvPjxlbGxpcHNlIGN4PSI0NDEiIGN5PSI1NzYiIHJ4PSI4MiIgcnk9IjM0IiB0cmFuc2Zvcm09InJvdGF0ZSgzOCA0NDEgNTc2KSIgZmlsbD0iI0ZGRjZFMiIgb3BhY2l0eT0iMC41NSIvPjxlbGxpcHNlIGN4PSIxMTUiIGN5PSI1ODUiIHJ4PSIxOTgiIHJ5PSI5NiIgdHJhbnNmb3JtPSJyb3RhdGUoLTEgMTE1IDU4NSkiIGZpbGw9IiNGRkY2RTIiIG9wYWNpdHk9IjAuNDIiLz48ZWxsaXBzZSBjeD0iNjM1IiBjeT0iMTAzIiByeD0iMTY2IiByeT0iODMiIHRyYW5zZm9ybT0icm90YXRlKC0xNyA2MzUgMTAzKSIgZmlsbD0iI0ZGRjZFMiIgb3BhY2l0eT0iMC4zMiIvPjxlbGxpcHNlIGN4PSIzMjYiIGN5PSI1OTgiIHJ4PSI3OSIgcnk9IjQzIiB0cmFuc2Zvcm09InJvdGF0ZSgtMzggMzI2IDU5OCkiIGZpbGw9IiNGRkY2RTIiIG9wYWNpdHk9IjAuNzAiLz48ZWxsaXBzZSBjeD0iNjczIiBjeT0iNDMwIiByeD0iMTMyIiByeT0iNjgiIHRyYW5zZm9ybT0icm90YXRlKC0xIDY3MyA0MzApIiBmaWxsPSIjRkZGNkUyIiBvcGFjaXR5PSIwLjU1Ii8+PGVsbGlwc2UgY3g9IjExMjkiIGN5PSIxNTYiIHJ4PSIxNTciIHJ5PSI5MiIgdHJhbnNmb3JtPSJyb3RhdGUoLTMzIDExMjkgMTU2KSIgZmlsbD0iI0ZGRjZFMiIgb3BhY2l0eT0iMC40MiIvPjxlbGxpcHNlIGN4PSI1MzEiIGN5PSIzNzEiIHJ4PSI4MiIgcnk9IjQ4IiB0cmFuc2Zvcm09InJvdGF0ZSgzMyA1MzEgMzcxKSIgZmlsbD0iI0ZGRjZFMiIgb3BhY2l0eT0iMC43MCIvPjxlbGxpcHNlIGN4PSI3NjciIGN5PSIxNTAiIHJ4PSIxOTIiIHJ5PSIxMTAiIHRyYW5zZm9ybT0icm90YXRlKDM2IDc2NyAxNTApIiBmaWxsPSIjRkZGNkUyIiBvcGFjaXR5PSIwLjcwIi8+PC9nPjwvc3ZnPg=="); background-size:cover; background-position:center; }
-body[data-theme="dark"]::after{ background-image:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNDAwIDkwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+PGRlZnM+PGZpbHRlciBpZD0iYiIgeD0iLTMwJSIgeT0iLTMwJSIgd2lkdGg9IjE2MCUiIGhlaWdodD0iMTYwJSI+PGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iMzQiLz48L2ZpbHRlcj48L2RlZnM+PGcgZmlsdGVyPSJ1cmwoI2IpIj48ZWxsaXBzZSBjeD0iNDc2IiBjeT0iMjE2IiByeD0iNTg4IiByeT0iMzA2IiBmaWxsPSIjQzhENkVFIiBvcGFjaXR5PSIwLjE2Ii8+PGVsbGlwc2UgY3g9IjEyMjYiIGN5PSI2NTciIHJ4PSIxODgiIHJ5PSI4MyIgdHJhbnNmb3JtPSJyb3RhdGUoMTEgMTIyNiA2NTcpIiBmaWxsPSIjQzhENkVFIiBvcGFjaXR5PSIwLjExIi8+PGVsbGlwc2UgY3g9IjQ2MCIgY3k9IjYxNCIgcng9IjE1NiIgcnk9Ijk0IiB0cmFuc2Zvcm09InJvdGF0ZSgxNCA0NjAgNjE0KSIgZmlsbD0iI0M4RDZFRSIgb3BhY2l0eT0iMC4xNSIvPjxlbGxpcHNlIGN4PSI5NjYiIGN5PSIxMDIiIHJ4PSIyMDciIHJ5PSI3NyIgdHJhbnNmb3JtPSJyb3RhdGUoLTE3IDk2NiAxMDIpIiBmaWxsPSIjQzhENkVFIiBvcGFjaXR5PSIwLjE1Ii8+PGVsbGlwc2UgY3g9IjQ5NiIgY3k9IjM0NSIgcng9IjEwMCIgcnk9IjU1IiB0cmFuc2Zvcm09InJvdGF0ZSgtMTkgNDk2IDM0NSkiIGZpbGw9IiNDOEQ2RUUiIG9wYWNpdHk9IjAuMjQiLz48ZWxsaXBzZSBjeD0iODQ1IiBjeT0iMzg0IiByeD0iMTc1IiByeT0iMTA2IiB0cmFuc2Zvcm09InJvdGF0ZSgtMzIgODQ1IDM4NCkiIGZpbGw9IiNDOEQ2RUUiIG9wYWNpdHk9IjAuMDgiLz48ZWxsaXBzZSBjeD0iMTA0NCIgY3k9IjU5MSIgcng9IjExMSIgcnk9IjQ4IiB0cmFuc2Zvcm09InJvdGF0ZSg5IDEwNDQgNTkxKSIgZmlsbD0iI0M4RDZFRSIgb3BhY2l0eT0iMC4wOCIvPjxlbGxpcHNlIGN4PSIzMTQiIGN5PSI2OTAiIHJ4PSI5NyIgcnk9IjM5IiB0cmFuc2Zvcm09InJvdGF0ZSgxMCAzMTQgNjkwKSIgZmlsbD0iI0M4RDZFRSIgb3BhY2l0eT0iMC4wOCIvPjxlbGxpcHNlIGN4PSIxNTMiIGN5PSI3OTciIHJ4PSIxNDQiIHJ5PSI1NCIgdHJhbnNmb3JtPSJyb3RhdGUoLTM3IDE1MyA3OTcpIiBmaWxsPSIjQzhENkVFIiBvcGFjaXR5PSIwLjE1Ii8+PGVsbGlwc2UgY3g9IjExNjYiIGN5PSI1MDciIHJ4PSIxOTgiIHJ5PSI3MyIgdHJhbnNmb3JtPSJyb3RhdGUoLTUgMTE2NiA1MDcpIiBmaWxsPSIjQzhENkVFIiBvcGFjaXR5PSIwLjE1Ii8+PGVsbGlwc2UgY3g9IjUyNyIgY3k9IjMxMyIgcng9IjEwNSIgcnk9IjQ2IiB0cmFuc2Zvcm09InJvdGF0ZSgtMjQgNTI3IDMxMykiIGZpbGw9IiNDOEQ2RUUiIG9wYWNpdHk9IjAuMjQiLz48ZWxsaXBzZSBjeD0iNzE1IiBjeT0iNTE2IiByeD0iMTMwIiByeT0iNTUiIHRyYW5zZm9ybT0icm90YXRlKDM1IDcxNSA1MTYpIiBmaWxsPSIjQzhENkVFIiBvcGFjaXR5PSIwLjExIi8+PGVsbGlwc2UgY3g9IjQ1OSIgY3k9IjMyMiIgcng9IjExOCIgcnk9IjU2IiB0cmFuc2Zvcm09InJvdGF0ZSgtNCA0NTkgMzIyKSIgZmlsbD0iI0M4RDZFRSIgb3BhY2l0eT0iMC4xNSIvPjxlbGxpcHNlIGN4PSI5MDciIGN5PSIyNzQiIHJ4PSIxNjIiIHJ5PSIxMDAiIHRyYW5zZm9ybT0icm90YXRlKDUgOTA3IDI3NCkiIGZpbGw9IiNDOEQ2RUUiIG9wYWNpdHk9IjAuMTUiLz48ZWxsaXBzZSBjeD0iMzczIiBjeT0iNTk2IiByeD0iMTIzIiByeT0iNTciIHRyYW5zZm9ybT0icm90YXRlKC0xNyAzNzMgNTk2KSIgZmlsbD0iI0M4RDZFRSIgb3BhY2l0eT0iMC4xOSIvPjwvZz48L3N2Zz4="); background-size:cover; background-position:center; }
-
-
-@media (prefers-reduced-motion: reduce){ body::after{ animation:none; } }
 @media (prefers-reduced-transparency: reduce){ body::after{ display:none; } }
 /* 内容抬到场景之上；页脚也要 —— 静态元素会被 z-index:0 的场景盖住 */
 main,

@@ -262,29 +262,9 @@
     if (petals) petals.style.transform = 'translate3d(0,' + (s * 0.07).toFixed(1) + 'px,0)';
   }
 
-  /* ---------- 光影层：150 秒一圈，但每 350ms 才更新一次 ----------
-     用户 2026-09-19：「整体再加一些光影变幻」。三团暖光在页面背后极慢地平移。
-     **为什么不用 CSS animation**：这一层在玻璃后面，它每动一帧，页面上每个
-     backdrop-filter 玻璃就要重新采样一次背景。实测每帧更新时中位帧 20.1 → 29.4ms（+46%）；
-     而 150 秒走完的位移，每秒更新 3 次与 60 次在肉眼上无法区分。
-     标签页隐藏时不更新（省电），reduced-motion 下不启动。 */
-  /* 2026-09-20 用户：「做得明显一些」—— 位移从 ±2.5% 放大到 ±7%、周期 150s → 70s，
-     并加了一点旋转（树影是整片光在挪，不只是平移）。仍然每秒只更新 3 次。
-     为什么敢放大：这一层的代价不是它自己动，而是玻璃重新采样背景；
-     只要更新频率不变，位移多大都一样的贵。 */
-  var lightEl = null, lightTimer = null, LIGHT_PERIOD = 70000;
-  function lightFrame() {
-    if (doc.hidden) return;
-    var t = (Date.now() % LIGHT_PERIOD) / LIGHT_PERIOD * Math.PI * 2;
-    var el = doc.body;
-    el.style.setProperty('--ldx', (-7 + 7 * (1 - Math.cos(t))).toFixed(2));
-    el.style.setProperty('--ldy', (-4 + 8 * (1 - Math.sin(t)) / 2).toFixed(2));
-    /* **不缩放**（2026-09-20 实测）：这一层是「大面积 + 多渐变」，改 scale 会让浏览器
-       按新尺度重新栅格化整层，帧时间中位 23 → 37ms。平移与旋转只走合成器，不重栅格。
-       光斑的「变」靠位移与旋转已经足够 —— 树影在动，本来也不是在放大。 */
-    el.style.setProperty('--ldr', (-1.6 + 3.2 * (1 - Math.sin(t)) / 2).toFixed(3));
-  }
-  if (!reduced.matches) { lightFrame(); lightTimer = setInterval(lightFrame, 350); }
+  /* 光影层已改为**静态侧光**（2026-09-20 用户选 D 侧光），这一段驱动随之删掉：
+     树影版曾以 ~3 次/秒驱动 transform（因为它在玻璃后面，每动一次所有 backdrop-filter
+     都要重新采样背景）；侧光没有位移，没有东西要驱动，代价归零。 */
 
   var rt;
   window.addEventListener('resize', function () { clearTimeout(rt); rt = setTimeout(layout, 250); });

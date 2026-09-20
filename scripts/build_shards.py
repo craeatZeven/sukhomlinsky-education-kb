@@ -245,7 +245,9 @@ def load_locators() -> dict[str, dict]:
             # 「multi-part」= 摘录由书里相隔很远的好几段拼成（卡里写作 a……b……c），
             # 逐段定位后要求「全部找到 + 位置严格递增」，锚在第一段。
             # 独立验证（每段取 3 个窗回原始池，40 张样本）**零落位错误**，故一并发布。
-            if d.get('card') and (d.get('confidence') in ('high', 'multi-part')
+            # 「short-exact」= 短摘录（20–60 字）：一条 ≥22 字的逐字命中即可锚定
+            #   （616 万字里 22 字重合几乎不可能是巧合），独立复核 39/39 = 100%。
+            if d.get('card') and (d.get('confidence') in ('high', 'multi-part', 'short-exact')
                                   or (d.get('confidence') == 'medium' and d.get('match', 0) >= 0.70)):
                 out[d['card']] = {'book': d.get('book', ''), 'page': d.get('page'),
                                   'section': d.get('section', ''),

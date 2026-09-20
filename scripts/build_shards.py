@@ -237,10 +237,13 @@ def load_locators() -> dict[str, dict]:
             if not line.strip():
                 continue
             d = json.loads(line)
-            # 只收 high / medium。low 一律丢弃：2026-09-20 独立验证（每种抽 15 张，
-            # 用摘录中部窗口回全书定位、看是否落在同一页块）high 15/15、medium 11/15、
-            # **low 只有 2/15**。87% 是错的页码，标「存疑」也不该发 —— 宁可未标，不能标错。
-            if d.get('card') and d.get('confidence') in ('high', 'medium'):
+            # 只收「抽验达标」的：high 全要；medium 只留命中率 ≥0.70 的。
+            # 数据来源是本地独立验证（_locate9b.py / _medium_bands.py，2026-09-20）：
+            #   high 29/30 = 97% · medium≥0.70 21/25 = 84%
+            #   medium 0.60-0.70 60% · medium 0.50-0.60 44% · low 8/30 = 27%
+            # 后三档一概不发 —— 标了「存疑」，错的页码仍然摆在读者面前。宁可未标，不能标错。
+            if d.get('card') and (d.get('confidence') == 'high'
+                                  or (d.get('confidence') == 'medium' and d.get('match', 0) >= 0.70)):
                 out[d['card']] = {'book': d.get('book', ''), 'page': d.get('page'),
                                   'section': d.get('section', ''),
                                   'confidence': d.get('confidence', '')}

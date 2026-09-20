@@ -56,6 +56,9 @@ HEADS = [
     # 书眉的又一批 OCR 变体（基→墓、五→万 等，逐页不同）
     "苏霍姆林斯墓选集", "霍姆林斯墓选集", "姆林斯墓选集", "苏霍姆林斯墓",
     "苏霍姆林斯基选集万卷本", "办霍姆林斯基选集", "苏霍姆林斯墓迭集",
+    # 复核清单里实测出现的变体（补上它们，GAP 才不会把「已删的书眉」当成缺字）
+    "苏雷姆林斯基选集", "姆林斯基洗集", "霍姆林斯基洗集", "苏霍姆林斯基洗集",
+    "万卷本", "洗集",
 ]
 CJK = re.compile(r"[\u4e00-\u9fff]")
 # 译者注不是正文。语料里它作为独立 unit 夹在句子中间（实测：一句跨页的话被
@@ -245,10 +248,12 @@ def main():
                 continue
             # ③ 先跟《选集》对齐，再判「是不是只在选本里对上」——
             #    顺序反了会冤枉卡片：去标点后选集原文与选本常逐字相同。
+            #    对齐用的是**反推声明修法之后**的文本：否则「只差我改过的那些字」
+            #    的卡会被算成「书里有而卡里没有」，GAP 一栏全是假阳性（实测 12 条里 10 条是）。
             hay = by_vol.get(str(vol)) or xuanji
-            r, missing, seg = local_align(n, hay, args.gap_threshold)
+            r, missing, seg = local_align(n_rev, hay, args.gap_threshold)
             if (r is None or r < args.gap_threshold) and hay is not xuanji:
-                r2, m2, seg2 = local_align(n, xuanji, args.gap_threshold)
+                r2, m2, seg2 = local_align(n_rev, xuanji, args.gap_threshold)
                 if r2 is not None and (r is None or r2 > r):
                     r, missing, seg = r2, m2, seg2
             if r is not None and r >= args.gap_threshold:

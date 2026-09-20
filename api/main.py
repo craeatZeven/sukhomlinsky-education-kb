@@ -344,7 +344,11 @@ def coverage() -> JSONResponse:
     if not p.exists():
         raise HTTPException(404, 'web/coverage.json 不存在，请先运行 scripts/coverage_report.py')
     return JSONResponse(json.loads(p.read_text(encoding='utf-8')))
+# 全文检索（C 方案，2026-09-20 加）：书全文的原子层检索，**只给命中片段**。
+# 版权边界与接口说明写在 api/fulltext.py 顶部；corpus.db 不在本机时该路由整体 503。
+from api.fulltext import router as fulltext_router  # noqa: E402
 
+app.include_router(fulltext_router)
 
 # 静态站（可选）：把 web/ 挂在根路径，一个进程同时提供前端与 API。
 if WEB_DIR.exists():

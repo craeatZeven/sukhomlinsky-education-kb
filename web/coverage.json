@@ -1,5 +1,5 @@
 {
-  "total_cards": 1386,
+  "total_cards": 1588,
   "source_count": 12,
   "topic_count": 12,
   "zuoren_cards": 541,
@@ -14,31 +14,31 @@
     {
       "slug": "xuan-ji-zh-vol2",
       "title": "苏霍姆林斯基选集（五卷本）第2卷",
-      "cards": 287,
+      "cards": 305,
       "page_refs": 45
     },
     {
       "slug": "xuan-ji-zh-vol5",
       "title": "苏霍姆林斯基选集（五卷本）第5卷",
-      "cards": 167,
+      "cards": 200,
       "page_refs": 109
     },
     {
       "slug": "xuan-ji-zh-vol3",
       "title": "苏霍姆林斯基选集（五卷本）第3卷",
-      "cards": 97,
+      "cards": 162,
       "page_refs": 51
     },
     {
       "slug": "xuan-ji-zh-vol4",
       "title": "苏霍姆林斯基选集（五卷本）第4卷",
-      "cards": 77,
+      "cards": 159,
       "page_refs": 41
     },
     {
       "slug": "xuan-ji-zh-vol1",
       "title": "苏霍姆林斯基选集（五卷本）第1卷",
-      "cards": 67,
+      "cards": 71,
       "page_refs": 36
     },
     {
@@ -85,7 +85,7 @@
     },
     {
       "type": "quote",
-      "cards": 259
+      "cards": 461
     },
     {
       "type": "principle",
@@ -104,57 +104,57 @@
     {
       "slug": "love-education",
       "title": "爱的教育",
-      "cards": 581
+      "cards": 602
     },
     {
       "slug": "child-study",
       "title": "儿童研究",
-      "cards": 455
-    },
-    {
-      "slug": "family-school",
-      "title": "家校合作",
-      "cards": 326
-    },
-    {
-      "slug": "collective-education",
-      "title": "集体教育",
-      "cards": 305
+      "cards": 602
     },
     {
       "slug": "teacher-growth",
       "title": "教师成长",
-      "cards": 295
+      "cards": 385
+    },
+    {
+      "slug": "family-school",
+      "title": "家校合作",
+      "cards": 343
+    },
+    {
+      "slug": "collective-education",
+      "title": "集体教育",
+      "cards": 312
     },
     {
       "slug": "aesthetic-nature-education",
       "title": "美育与自然",
-      "cards": 266
+      "cards": 281
     },
     {
       "slug": "labor-education",
       "title": "劳动教育",
-      "cards": 225
+      "cards": 252
     },
     {
       "slug": "thinking-and-nature",
       "title": "思维课与大自然",
-      "cards": 186
+      "cards": 210
     },
     {
       "slug": "learning-difficulties",
       "title": "学习困难学生",
-      "cards": 128
+      "cards": 156
     },
     {
       "slug": "reading-and-books",
       "title": "阅读与书籍",
-      "cards": 94
+      "cards": 101
     },
     {
       "slug": "health-first",
       "title": "健康第一",
-      "cards": 61
+      "cards": 81
     },
     {
       "slug": "assessment-grading",

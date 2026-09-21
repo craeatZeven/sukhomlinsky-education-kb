@@ -90,7 +90,7 @@ def locate(idx, vol, needle):
     return None
 
 
-def make_card(row, fm, body, quote, policy_notes):
+def make_card(row, fm, body, quote, policy_notes, reviewed_by):
     ka = row["aliases"]
     lines = [
         "---",
@@ -118,7 +118,7 @@ def make_card(row, fm, body, quote, policy_notes):
         "status: reviewed",
         'created: "2026-09-21"',
         'updated: "2026-09-21"',
-        'reviewed_by: "maintainer (source-checked)"',
+        'reviewed_by: "%s"' % reviewed_by,
         "---",
         "",
         "# Card %s — %s" % (row["proposed_id"], row["title_short"] or ""),
@@ -161,11 +161,22 @@ def make_card(row, fm, body, quote, policy_notes):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dir", default=None)
-    ap.add_argument("--dry-run", action="store_true", default=True)
+    ap.add_argument("--apply", action="store_true",
+                    help="真的写进 cards/（默认只写临时目录）")
     ap.add_argument("--ocr-policy", choices=("fix", "keep"), default="fix")
     ap.add_argument("--out", default=None)
+    ap.add_argument("--reviewed-by", default="agent-checked (3 gates); paper check pending",
+                    help="写进 reviewed_by 的值 —— 默认写实情，不冒充 source-checked")
     args = ap.parse_args()
     d = args.dir or os.path.join(CAND_ROOT, "jiao-yu-zhen-yan-2026-09-20")
+    # 注意：这里**只能解析一次**参数。先前留了一处重复的 parse_args()，
+    # 它把 args.out 又冲回 None —— 表现是「--apply 跑了，文件却没进 cards/」。
+    if args.apply:
+        args.out = CARDS
+        _prop0 = [json.loads(x) for x in io.open(os.path.join(d, "promotion-proposal.jsonl"), encoding="utf-8") if x.strip()]
+        _clash = [r["filename"] for r in _prop0 if os.path.exists(os.path.join(CARDS, r["filename"]))]
+        if _clash:
+            raise SystemExit("拒绝落盘：%d 个目标文件已存在，例如 %s" % (len(_clash), _clash[:3]))
     prop = {}
     for ln in io.open(os.path.join(d, "promotion-proposal.jsonl"), encoding="utf-8"):
         if ln.strip():
@@ -232,9 +243,13 @@ def main():
                 quote = rev
                 notes = {"head": "按 OCR 原样保留，未校勘", "items": ["（--ocr-policy keep：已把 %d 条逐字修法反推回原样）" % len(pairs)], "shown_raw": True}
         path = os.path.join(out, row["filename"])
-        io.open(path, "w", encoding="utf-8", newline=chr(10)).write(make_card(row, fm, body, quote, notes or {}))
+        io.open(path, "w", encoding="utf-8", newline=chr(10)).write(
+            make_card(row, fm, body, quote, notes or {}, args.reviewed_by))
         report.append((cid, row["filename"], row["title_short"], row["locator_text"]))
-    io.open(os.path.join(out, "card-locators.candidates.jsonl"), "w", encoding="utf-8", newline=chr(10)).write(
+    # 报告与定位清单**永远写到候选目录** —— 早先跟着 out 走，--apply 时把
+    # DRYRUN-REPORT.md 也写进了 cards/，被 check_kb 抓出来（cards/ 只该有卡）。
+    side = d
+    io.open(os.path.join(side, "card-locators.candidates.jsonl"), "w", encoding="utf-8", newline=chr(10)).write(
         chr(10).join(json.dumps(x, ensure_ascii=False) for x in locators) + chr(10))
     rp = ["# 晋升试运行报告", "",
           "由 scripts/promote_candidates.py 生成（**只写到本目录，未碰 cards/**）。", "",
@@ -245,8 +260,8 @@ def main():
           "| 候选 | 拟文件名 | 短标题 | 定位 |", "|---|---|---|---|"]
     for cid, fn, ti, lo in report:
         rp.append("| %s | %s | %s | %s |" % (cid, fn, ti, lo))
-    io.open(os.path.join(out, "DRYRUN-REPORT.md"), "w", encoding="utf-8", newline=chr(10)).write(chr(10).join(rp))
-    print("试运行目录：%s" % out)
+    io.open(os.path.join(side, "DRYRUN-REPORT.md"), "w", encoding="utf-8", newline=chr(10)).write(chr(10).join(rp))
+    print("%s：%s" % ("已落盘到 cards/" if args.apply else "试运行目录", out))
     print("  生成卡片 %d 张 · 定位成功 %d 张 · 未定位 %d 张" % (len(report), len(locators), len(no_loc)))
     print("  OCR 政策：%s" % args.ocr_policy)
 

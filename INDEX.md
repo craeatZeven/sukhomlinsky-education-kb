@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 128 |
-| [family-school](topics/family-school.md) | 家校合作 | 326 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 225 |
-| [health-first](topics/health-first.md) | 健康第一 | 61 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 266 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 305 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 295 |
-| [love-education](topics/love-education.md) | 爱的教育 | 581 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 156 |
+| [family-school](topics/family-school.md) | 家校合作 | 342 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 252 |
+| [health-first](topics/health-first.md) | 健康第一 | 81 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 281 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 312 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 385 |
+| [love-education](topics/love-education.md) | 爱的教育 | 601 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 48 |
-| [child-study](topics/child-study.md) | 儿童研究 | 455 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 94 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 186 |
+| [child-study](topics/child-study.md) | 儿童研究 | 601 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 101 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 210 |
 
 ## 来源 Sources
 
@@ -1122,11 +1122,11 @@
 | [sk-1086](cards/sk-1086-mitya-matchbox-beetle.md) | case | child-study / teacher-growth / thinking-and-nature | xuan-ji-zh-vol1 | 米佳的火柴盒甲虫 |
 | [sk-1087](cards/sk-1087-why-grandpa-grandma-cried.md) | case | love-education / family-school / child-study | xuan-ji-zh-vol3 | 为什么爷爷和奶奶掉眼泪？ |
 | [sk-1088](cards/sk-1088-is-our-grandma-a-child.md) | case | love-education / family-school / child-study | xuan-ji-zh-vol3 | 难道我们的奶奶是个孩子吗？ |
-| [sk-1089](cards/sk-1089-song-of-the-lark.md) | quote | aesthetic-nature-education / thinking-and-nature / love-education | xuan-ji-zh-vol3 | 百灵鸟之歌 |
-| [sk-1090](cards/sk-1090-autumn.md) | practice | aesthetic-nature-education / thinking-and-nature / teacher-growth | xuan-ji-zh-vol4 | 秋 |
-| [sk-1091](cards/sk-1091-sunrise.md) | practice | aesthetic-nature-education / thinking-and-nature / teacher-growth | xuan-ji-zh-vol4 | 日出 |
-| [sk-1092](cards/sk-1092-dusk.md) | practice | aesthetic-nature-education / thinking-and-nature / child-study | xuan-ji-zh-vol4 | 黄昏 |
-| [sk-1093](cards/sk-1093-when-sun-hid-in-cloud.md) | practice | aesthetic-nature-education / thinking-and-nature / love-education | xuan-ji-zh-vol4 | 当太阳没入乌云的时候 |
+| [sk-1089](cards/sk-1089-song-of-the-lark.md) | case | aesthetic-nature-education / thinking-and-nature / love-education | xuan-ji-zh-vol3 | 百灵鸟之歌 |
+| [sk-1090](cards/sk-1090-autumn.md) | case | aesthetic-nature-education / thinking-and-nature / teacher-growth | xuan-ji-zh-vol4 | 秋 |
+| [sk-1091](cards/sk-1091-sunrise.md) | case | aesthetic-nature-education / thinking-and-nature / teacher-growth | xuan-ji-zh-vol4 | 日出 |
+| [sk-1092](cards/sk-1092-dusk.md) | case | aesthetic-nature-education / thinking-and-nature / child-study | xuan-ji-zh-vol4 | 黄昏 |
+| [sk-1093](cards/sk-1093-when-sun-hid-in-cloud.md) | case | aesthetic-nature-education / thinking-and-nature / love-education | xuan-ji-zh-vol4 | 当太阳没入乌云的时候 |
 | [sk-1094](cards/sk-1094-advice-on-keeping-educational-diary.md) | method | teacher-growth / child-study | xuan-ji-zh-vol2 | 关于写教育日记的建议 |
 | [sk-1095](cards/sk-1095-deepen-parent-education-as-child-grows.md) | method | family-school / teacher-growth / labor-education | xuan-ji-zh-vol2 | 怎样随着儿童的成长和发展而加深对家长的教育工作 |
 | [sk-1096](cards/sk-1096-cherish-and-develop-adolescent-memory.md) | method | learning-difficulties / reading-and-books / child-study | xuan-ji-zh-vol2 | 爱惜并发展青少年的记忆力：建立有意记忆和无意记忆的合理比例 |
@@ -1424,3 +1424,205 @@
 | [sk-1389](cards/sk-1389-vol2-respect-grandparents-case.md) | case | family-school / love-education / child-study | xuan-ji-zh-vol2 | 培养尊敬爷爷奶奶的情感 |
 | [sk-1390](cards/sk-1390-vol2-birthday-congratulations-case.md) | case | family-school / love-education / child-study | xuan-ji-zh-vol2 | 怎样祝贺亲人的生日 |
 | [sk-1391](cards/sk-1391-vol2-connecting-should-difficult-good-case.md) | case | love-education / child-study / collective-education | xuan-ji-zh-vol2 | 怎样把孩子行为中的“应当”、“困难”和“好”连接起来 |
+| [sk-1392](cards/sk-1392-teacher-who-does-not-love-is-voiceless.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol5 | 不爱学生的教师如同失声的歌手 |
+| [sk-1393](cards/sk-1393-good-teacher-means-loving-children.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol4 | 好教师首先意味着爱孩子 |
+| [sk-1394](cards/sk-1394-first-an-educator-not-subject-teacher.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol5 | 进校门起，您首先是教育者 |
+| [sk-1395](cards/sk-1395-wisdom-is-keeping-the-child-confident.md) | quote | health-first / child-study | xuan-ji-zh-vol3 | 教育上的英明是不让孩子失掉信心 |
+| [sk-1396](cards/sk-1396-self-esteem-is-the-tenderest-corner.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol4 | 自尊心是心灵中最娇嫩的角落 |
+| [sk-1397](cards/sk-1397-language-is-the-subtlest-tool.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol3 | 教师手里最巧妙的工具是语言 |
+| [sk-1398](cards/sk-1398-no-failing-marks-but-the-wish-to-be-good.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol4 | 真正的教育智慧是不打2分 |
+| [sk-1399](cards/sk-1399-the-saddest-fate-nobody-remembers-the-teacher.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol4 | 教师最痛心的结局是没人追忆他 |
+| [sk-1400](cards/sk-1400-confidence-and-intolerance-of-evil.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol4 | 激发信心，同时对丑恶毫不妥协 |
+| [sk-1401](cards/sk-1401-childhood-is-very-fragile.md) | quote | labor-education / child-study | xuan-ji-zh-vol5 | 童年是十分柔弱的 |
+| [sk-1402](cards/sk-1402-words-teach-only-when-deeds-agree.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol3 | 言语的教育力量在于言行一致 |
+| [sk-1403](cards/sk-1403-beyond-the-teachers-desk.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol4 | 只在讲台上看学生是不够的 |
+| [sk-1404](cards/sk-1404-creativity-is-foresight-not-whim.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol4 | 教育创造不是不可捉摸的灵感 |
+| [sk-1405](cards/sk-1405-difficult-children-and-broken-homes.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol4 | 难教儿童常出自不良的家庭环境 |
+| [sk-1406](cards/sk-1406-talk-with-teenagers-not-orders.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol3 | 与少年谈话不是下命令 |
+| [sk-1407](cards/sk-1407-same-knowledge-different-teacher.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol4 | 同样的知识课，不同的教育效果 |
+| [sk-1408](cards/sk-1408-dont-panic-over-childish-mischief.md) | quote | love-education / family-school | xuan-ji-zh-vol2 | 别为孩子的淘气动用消防措施 |
+| [sk-1409](cards/sk-1409-protect-and-grow-self-esteem.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol4 | 爱护并发展孩子的自尊感 |
+| [sk-1410](cards/sk-1410-sensitive-understanding-of-the-childs-world.md) | quote |  | xuan-ji-zh-vol4 | 敏锐理解学生的精神世界 |
+| [sk-1411](cards/sk-1411-the-educator-is-rich-in-feeling.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol4 | 真正的教育者情感丰富 |
+| [sk-1412](cards/sk-1412-the-teachers-word-is-irreplaceable.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol5 | 教师的语言不可取代 |
+| [sk-1413](cards/sk-1413-kindness-begins-with-noticing-the-smallest-things.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol4 | 善良的第一步是觉察最细微的内心活动 |
+| [sk-1414](cards/sk-1414-build-the-teachers-collective-first.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol1 | 要培养集体，先培养教师集体 |
+| [sk-1415](cards/sk-1415-beware-of-double-mindedness.md) | quote | health-first / child-study | xuan-ji-zh-vol4 | 切忌心灵的双重化 |
+| [sk-1416](cards/sk-1416-two-conditions-of-real-education.md) | quote | child-study / teacher-growth | xuan-ji-zh-vol5 | 真教育的两个条件：关怀与洞察 |
+| [sk-1417](cards/sk-1417-art-of-education-is-seeing-the-individual.md) | quote | child-study / teacher-growth | xuan-ji-zh-vol5 | 教育艺术在于感觉到个性 |
+| [sk-1418](cards/sk-1418-a-golden-key-for-every-young-heart.md) | quote | labor-education / child-study | xuan-ji-zh-vol5 | 为每一颗年轻的心找一把金钥匙 |
+| [sk-1419](cards/sk-1419-to-make-the-child-want-to-be-good.md) | quote | love-education / family-school | xuan-ji-zh-vol2 | 教育者的使命是让孩子自愿变好 |
+| [sk-1420](cards/sk-1420-no-unhappy-children-behind-school-doors.md) | quote | labor-education / child-study | xuan-ji-zh-vol4 | 校门里不应当培养不幸的人 |
+| [sk-1421](cards/sk-1421-faith-in-the-power-of-education.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol1 | 相信教育的力量 |
+| [sk-1422](cards/sk-1422-marks-are-not-a-verdict-on-the-child.md) | quote | family-school / love-education | xuan-ji-zh-vol2 | 分数不是对人的评定 |
+| [sk-1423](cards/sk-1423-potential-is-inexhaustible-insight-will-come.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol5 | 潜能无穷，顿悟会来 |
+| [sk-1424](cards/sk-1424-no-student-without-any-interest.md) | quote | labor-education / child-study | xuan-ji-zh-vol4 | 学校里不应有对什么都不感兴趣的学生 |
+| [sk-1425](cards/sk-1425-science-is-knowing-when-to-change-the-plan.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol4 | 教育工作的科学性在于善于变动计划 |
+| [sk-1426](cards/sk-1426-first-effect-of-education-self-examination.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol5 | 教育的第一效果是孩子开始思考自己 |
+| [sk-1427](cards/sk-1427-do-not-melt-the-ice-by-lightning.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol4 | 不要用闪电式措施融化孩子心里的冰 |
+| [sk-1428](cards/sk-1428-trust-is-the-ground-of-education.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol4 | 相信孩子，教育才有力量 |
+| [sk-1429](cards/sk-1429-protect-personality-do-not-break-the-will.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol4 | 保护人格，不压制意志 |
+| [sk-1430](cards/sk-1430-childhood-is-life-not-preparation.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol3 | 童年不是准备期，它本身就是生活 |
+| [sk-1431](cards/sk-1431-the-goal-is-personal-happiness.md) | quote | labor-education / child-study | xuan-ji-zh-vol5 | 教育的总目标是个人幸福 |
+| [sk-1432](cards/sk-1432-school-is-a-lighthouse-not-a-storeroom.md) | quote | family-school / love-education | xuan-ji-zh-vol5 | 学校不是仓库，是灯塔 |
+| [sk-1433](cards/sk-1433-leadership-begins-with-educational-ideas.md) | quote | labor-education / child-study | xuan-ji-zh-vol4 | 领导学校首先是教育思想的领导 |
+| [sk-1434](cards/sk-1434-the-school-i-have-in-mind.md) | quote | child-study / teacher-growth | xuan-ji-zh-vol5 | 我心目中的学校 |
+| [sk-1435](cards/sk-1435-start-with-psychology-and-defectology.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol4 | 把学校领导建立在科学上：从心理学与缺陷学入手 |
+| [sk-1436](cards/sk-1436-teach-children-to-use-knowledge.md) | quote | learning-difficulties / thinking-and-nature | xuan-ji-zh-vol3 | 教会学生使用知识 |
+| [sk-1437](cards/sk-1437-the-headmaster-must-know-more-than-the-syllabus.md) | quote | labor-education / child-study | xuan-ji-zh-vol4 | 校长要懂得比大纲多得多 |
+| [sk-1438](cards/sk-1438-grow-daily-to-become-a-teachers-teacher.md) | quote | labor-education / child-study | xuan-ji-zh-vol4 | 校长的成长：每天提高教学技巧 |
+| [sk-1439](cards/sk-1439-without-understanding-care-is-empty-talk.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol4 | 不了解儿童的心灵，关心就是空谈 |
+| [sk-1440](cards/sk-1440-do-not-put-marks-above-everything.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol5 | 不追求分数，不搞分数挂帅 |
+| [sk-1441](cards/sk-1441-the-headmaster-as-conductor-of-hearts.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol4 | 校长是心灵乐队的指挥 |
+| [sk-1442](cards/sk-1442-the-headmasters-job-is-growing-good-practice.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol3 | 学校领导的实质是让好经验扎根 |
+| [sk-1443](cards/sk-1443-make-teachers-want-to-analyse-their-work.md) | quote | labor-education / child-study | xuan-ji-zh-vol4 | 领导的秘诀是让教师愿意分析自己的工作 |
+| [sk-1444](cards/sk-1444-kindness-is-the-minimum-goal.md) | quote | health-first / child-study | xuan-ji-zh-vol4 | 善良与同情心是学校教育的起码目标 |
+| [sk-1445](cards/sk-1445-misarranged-schooling-breeds-defeat.md) | quote | family-school / love-education | xuan-ji-zh-vol5 | 教育安排不当会造出丧失自信的孩子 |
+| [sk-1446](cards/sk-1446-school-as-hallowed-ground.md) | quote | love-education / family-school | xuan-ji-zh-vol2 | 校园里只应有诚实、坚定、勇敢的话语 |
+| [sk-1447](cards/sk-1447-a-real-school-is-a-rich-spiritual-life.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol3 | 真正的学校是丰富多彩的精神生活 |
+| [sk-1448](cards/sk-1448-school-must-give-personal-happiness.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol4 | 学校要给每个人个人精神生活的幸福 |
+| [sk-1449](cards/sk-1449-to-lead-well-know-both-science-and-art.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol4 | 领导好学校要科学与艺术两样 |
+| [sk-1450](cards/sk-1450-unite-teachers-by-one-educational-faith.md) | quote | labor-education / child-study | xuan-ji-zh-vol4 | 用统一的教育信念把各年级教师团结起来 |
+| [sk-1451](cards/sk-1451-the-firm-psychological-ground-of-learning.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol5 | 学习的牢固精神心理基础 |
+| [sk-1452](cards/sk-1452-make-reading-a-passionate-desire.md) | quote | love-education / family-school | xuan-ji-zh-vol2 | 让读书成为孩子最强烈的欲望 |
+| [sk-1453](cards/sk-1453-the-misfortune-of-missing-real-reading.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol4 | 缺少真正的阅读是很大的不幸 |
+| [sk-1454](cards/sk-1454-the-air-of-loving-books.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol4 | 热爱书的气氛是学校教育的实质 |
+| [sk-1455](cards/sk-1455-find-the-book-that-turns-a-life.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol5 | 少年要找到成为人生转折点的那本书 |
+| [sk-1456](cards/sk-1456-watch-what-teachers-read-and-give-them-time.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol4 | 别忘关注教师读什么书，也要给他时间 |
+| [sk-1457](cards/sk-1457-reading-reveals-the-world-and-oneself.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol4 | 读书让人认识世界也认识自己 |
+| [sk-1458](cards/sk-1458-the-library-as-the-centre-of-school-life.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol4 | 图书馆是学校精神生活的中心 |
+| [sk-1459](cards/sk-1459-books-about-great-people-are-priceless.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol5 | 写楷模人物的书是无价之宝 |
+| [sk-1460](cards/sk-1460-interest-driven-reading-eases-study.md) | quote | learning-difficulties / thinking-and-nature | xuan-ji-zh-vol4 | 出于兴趣读得越多，功课越轻松 |
+| [sk-1461](cards/sk-1461-real-reading-engages-mind-and-heart.md) | quote | aesthetic-nature-education / child-study | xuan-ji-zh-vol3 | 真正地读书是吸引智慧和心灵的过程 |
+| [sk-1462](cards/sk-1462-free-reading-leads-to-textbook-reading.md) | quote | learning-difficulties / thinking-and-nature | xuan-ji-zh-vol4 | 爱读不考的书，才会爱读教科书 |
+| [sk-1463](cards/sk-1463-two-hundred-hours-aloud-two-thousand-silent.md) | quote | learning-difficulties / thinking-and-nature | xuan-ji-zh-vol4 | 朗读200小时，默读2000小时 |
+| [sk-1464](cards/sk-1464-intellectual-growth-depends-on-reading-well.md) | quote | collective-education / love-education | xuan-ji-zh-vol2 | 智力发展取决于会不会读 |
+| [sk-1465](cards/sk-1465-outside-reading-makes-lessons-necessary.md) | quote | learning-difficulties / thinking-and-nature | xuan-ji-zh-vol2 | 课外阅读让课堂知识变得必要 |
+| [sk-1466](cards/sk-1466-build-collections-and-go-to-the-library.md) | quote | learning-difficulties / thinking-and-nature | xuan-ji-zh-vol2 | 从低年级开始藏书，并带学生去图书馆 |
+| [sk-1467](cards/sk-1467-every-family-should-own-books.md) | quote | learning-difficulties / thinking-and-nature | xuan-ji-zh-vol3 | 让每个家庭都有藏书 |
+| [sk-1468](cards/sk-1468-two-thousand-books-in-a-lifetime-choose-well.md) | quote | aesthetic-nature-education / child-study | xuan-ji-zh-vol3 | 一生读不完两千本，所以要严选 |
+| [sk-1469](cards/sk-1469-reading-is-the-source-of-thinking.md) | quote | health-first / child-study | xuan-ji-zh-vol3 | 阅读是思维和智力发展的渊源 |
+| [sk-1470](cards/sk-1470-reading-before-seven.md) | quote | health-first / child-study | xuan-ji-zh-vol3 | 七岁前学会阅读的特别之处 |
+| [sk-1471](cards/sk-1471-let-book-lovers-become-a-common-sight.md) | quote | aesthetic-nature-education / child-study | xuan-ji-zh-vol3 | 让迷恋书本成为一种气氛 |
+| [sk-1472](cards/sk-1472-without-fairy-tales-a-child-cannot-live.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol3 | 没有童话，孩子无法生活 |
+| [sk-1473](cards/sk-1473-spend-lesson-time-on-books.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol4 | 不要吝惜几节课让学生接触书籍 |
+| [sk-1474](cards/sk-1474-talking-about-books-together.md) | quote | child-study / teacher-growth | xuan-ji-zh-vol5 | 谈书的时刻是师生精神交流的顶点 |
+| [sk-1475](cards/sk-1475-independent-reading-and-choosing-a-path.md) | quote | aesthetic-nature-education / child-study | xuan-ji-zh-vol3 | 没有独立阅读，就不能自觉选择生活道路 |
+| [sk-1476](cards/sk-1476-a-lasting-love-of-reading.md) | quote | child-study / teacher-growth | xuan-ji-zh-vol5 | 让迷恋阅读成为坚定不移的感情 |
+| [sk-1477](cards/sk-1477-reading-aloud-to-one-class-only.md) | quote | aesthetic-nature-education / child-study | xuan-ji-zh-vol3 | 表情朗读的听众不超过一个班 |
+| [sk-1478](cards/sk-1478-keep-bad-books-out-of-childrens-hands.md) | quote | learning-difficulties / thinking-and-nature | xuan-ji-zh-vol3 | 不让一本坏书落到孩子手中 |
+| [sk-1479](cards/sk-1479-a-fairy-tale-is-a-whole-world.md) | quote | thinking-and-nature / aesthetic-nature-education | xuan-ji-zh-vol3 | 童话是一个完整的世界 |
+| [sk-1480](cards/sk-1480-emotional-lift-carries-heavy-knowledge.md) | quote | aesthetic-nature-education / child-study | xuan-ji-zh-vol3 | 情绪高涨能举起很重的知识 |
+| [sk-1481](cards/sk-1481-the-greatest-joy-comes-from-caring.md) | quote | reading-and-books / learning-difficulties | xuan-ji-zh-vol3 | 最大的快乐来自关心别人 |
+| [sk-1482](cards/sk-1482-grow-noble-feelings-prevent-base-ones.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol3 | 发展高尚感情，预防卑鄙的感情 |
+| [sk-1483](cards/sk-1483-without-feeling-morality-is-empty-words.md) | quote | health-first / child-study | xuan-ji-zh-vol4 | 没有情感，道德就是空话 |
+| [sk-1484](cards/sk-1484-the-highest-goal-of-education.md) | quote | health-first / child-study | xuan-ji-zh-vol3 | 教育工作的最高目标 |
+| [sk-1485](cards/sk-1485-from-plants-and-birds-to-people.md) | quote | health-first / child-study | xuan-ji-zh-vol4 | 从关心花草开始，学会关心人 |
+| [sk-1486](cards/sk-1486-share-the-childs-indignation.md) | quote | health-first / child-study | xuan-ji-zh-vol4 | 与孩子一起恼怒，就是在培育道德情感 |
+| [sk-1487](cards/sk-1487-how-your-student-sees-others.md) | quote | love-education / family-school | xuan-ji-zh-vol2 | 学生怎样看待别人，比作业重要百倍 |
+| [sk-1488](cards/sk-1488-punishment-cannot-awaken-self-education.md) | quote | reading-and-books / learning-difficulties | xuan-ji-zh-vol5 | 惩罚不能唤起自我教育 |
+| [sk-1489](cards/sk-1489-childrens-indifference-is-terrible.md) | quote | reading-and-books / learning-difficulties | xuan-ji-zh-vol3 | 孩子们的冷漠是可怕的 |
+| [sk-1490](cards/sk-1490-the-less-the-child-notices-the-intent.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol4 | 孩子越少感到教育意图，效果越大 |
+| [sk-1491](cards/sk-1491-keep-a-childs-faults-quiet.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol5 | 孩子的毛病，知道的人越少越好 |
+| [sk-1492](cards/sk-1492-a-childs-heart-is-easily-hurt.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol4 | 儿童的心灵是易受伤害的 |
+| [sk-1493](cards/sk-1493-restore-trust-in-goodness-and-justice.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol3 | 先恢复孩子对善意和公正的信任 |
+| [sk-1494](cards/sk-1494-self-respect-comes-before-self-education.md) | quote | collective-education / teacher-growth | xuan-ji-zh-vol2 | 自我尊重是自我教育的前提 |
+| [sk-1495](cards/sk-1495-without-shared-spiritual-life-no-education.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol3 | 没有共同的精神生活，就没有教育 |
+| [sk-1496](cards/sk-1496-self-reproach-is-a-great-power.md) | quote | child-study / teacher-growth | xuan-ji-zh-vol3 | 自我谴责是一股很大的力量 |
+| [sk-1497](cards/sk-1497-today-a-child-tomorrow-not.md) | quote | collective-education / love-education | xuan-ji-zh-vol3 | 现在是儿童，将来就不是儿童了 |
+| [sk-1498](cards/sk-1498-the-danger-of-praise-only.md) | quote | collective-education / love-education | xuan-ji-zh-vol3 | 只有表扬能带来欢乐，就潜伏着危险 |
+| [sk-1499](cards/sk-1499-the-sleep-of-feeling.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol3 | 少年教育最大的危险是感情沉睡 |
+| [sk-1500](cards/sk-1500-turn-a-hobby-into-a-calling.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol3 | 让一个爱好成为自觉的志向 |
+| [sk-1501](cards/sk-1501-read-a-mood-in-the-eyes.md) | quote | health-first / child-study | xuan-ji-zh-vol3 | 教会孩子从眼神里看出心情 |
+| [sk-1502](cards/sk-1502-do-not-hide-the-dark-side-of-life.md) | quote | health-first / child-study | xuan-ji-zh-vol3 | 不要引导孩子回避生活的阴暗面 |
+| [sk-1503](cards/sk-1503-do-not-teach-words-they-cannot-feel.md) | quote | reading-and-books / learning-difficulties | xuan-ji-zh-vol3 | 别教孩子说他们还不理解的词 |
+| [sk-1504](cards/sk-1504-put-the-child-in-the-others-place.md) | quote | reading-and-books / learning-difficulties | xuan-ji-zh-vol3 | 把学生放到需要同情的人的位置上 |
+| [sk-1505](cards/sk-1505-a-good-collective-is-a-mirror.md) | quote | child-study / teacher-growth | xuan-ji-zh-vol3 | 好的集体是一面镜子 |
+| [sk-1506](cards/sk-1506-keep-a-teenagers-secrets.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol3 | 善于替少年保守秘密 |
+| [sk-1507](cards/sk-1507-teach-the-child-self-punishment.md) | quote | reading-and-books / learning-difficulties | xuan-ji-zh-vol5 | 教育的奥妙在于教会人自我惩罚 |
+| [sk-1508](cards/sk-1508-do-not-stage-childrens-feelings.md) | quote | health-first / child-study | xuan-ji-zh-vol4 | 不要安排孩子去表露感情 |
+| [sk-1509](cards/sk-1509-sudden-correction-breaks-trust.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol1 | 骤然改变缺点，会失去孩子的信任 |
+| [sk-1510](cards/sk-1510-unity-of-knowledge-and-skill.md) | quote | learning-difficulties / thinking-and-nature | xuan-ji-zh-vol4 | 知识与技能的统一是智力发展的条件 |
+| [sk-1511](cards/sk-1511-favourite-subject-beyond-the-syllabus.md) | quote | learning-difficulties / thinking-and-nature | xuan-ji-zh-vol2 | 喜爱的课程要超出大纲一二十倍 |
+| [sk-1512](cards/sk-1512-without-self-education-talk-is-empty.md) | quote | aesthetic-nature-education / child-study | xuan-ji-zh-vol3 | 自我教育没占够比例，一切都是空谈 |
+| [sk-1513](cards/sk-1513-the-real-drives-of-learning.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol4 | 促使孩子学习的主要动力 |
+| [sk-1514](cards/sk-1514-enter-the-classroom-with-a-surprise.md) | quote | child-study / teacher-growth | xuan-ji-zh-vol5 | 带着思想进课堂就是让学生惊讶 |
+| [sk-1515](cards/sk-1515-cherish-the-spark-of-curiosity.md) | quote | thinking-and-nature / aesthetic-nature-education | xuan-ji-zh-vol3 | 珍惜好奇心的火花，别滥用分数 |
+| [sk-1516](cards/sk-1516-success-is-the-air-the-spark-needs.md) | quote | learning-difficulties / thinking-and-nature | xuan-ji-zh-vol3 | 成绩是求知火花的空气 |
+| [sk-1517](cards/sk-1517-the-chain-reaction-of-rote-learning.md) | quote | love-education / family-school | xuan-ji-zh-vol2 | 死记硬背的连锁反应 |
+| [sk-1518](cards/sk-1518-two-tasks-of-every-lesson.md) | quote | aesthetic-nature-education / child-study | xuan-ji-zh-vol3 | 一堂课有两项教育任务 |
+| [sk-1519](cards/sk-1519-the-more-you-know-the-poorer-you-feel.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol3 | 知道得愈多，愈感到自己贫乏 |
+| [sk-1520](cards/sk-1520-the-moment-of-wonder.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol4 | 惊异的时刻学得最积极 |
+| [sk-1521](cards/sk-1521-teach-the-young-to-observe-first.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol4 | 教小学儿童，首先是教他们观察 |
+| [sk-1522](cards/sk-1522-every-child-has-his-own-gift.md) | quote | learning-difficulties / thinking-and-nature | xuan-ji-zh-vol4 | 每个孩子各有自己的聪明才智 |
+| [sk-1523](cards/sk-1523-never-hold-a-gifted-child-back.md) | quote | learning-difficulties / thinking-and-nature | xuan-ji-zh-vol4 | 不让有天赋的孩子低就 |
+| [sk-1524](cards/sk-1524-understanding-together-with-memorising.md) | quote | learning-difficulties / thinking-and-nature | xuan-ji-zh-vol2 | 理解和熟记结合得越好，学得越自觉 |
+| [sk-1525](cards/sk-1525-overload-comes-from-one-sided-work.md) | quote | learning-difficulties / thinking-and-nature | xuan-ji-zh-vol4 | 负担过重来自智力劳动的片面性 |
+| [sk-1526](cards/sk-1526-joy-must-come-before-interest.md) | quote | learning-difficulties / thinking-and-nature | xuan-ji-zh-vol3 | 没有欢欣鼓舞，学习就是负担 |
+| [sk-1527](cards/sk-1527-no-marks-before-the-first-success.md) | quote | learning-difficulties / thinking-and-nature | xuan-ji-zh-vol3 | 在他尝到成绩的欢乐前，不打分 |
+| [sk-1528](cards/sk-1528-nature-is-a-book-a-cradle-of-thought.md) | quote | child-study / teacher-growth | xuan-ji-zh-vol5 | 大自然是一本书，是思维的摇篮 |
+| [sk-1529](cards/sk-1529-lessons-alone-are-not-enough.md) | quote | aesthetic-nature-education / child-study | xuan-ji-zh-vol3 | 只有课堂，少年不会满足 |
+| [sk-1530](cards/sk-1530-not-abolish-marks-but-time-them.md) | quote | health-first / child-study | xuan-ji-zh-vol3 | 不是取消分数，而是选对时机 |
+| [sk-1531](cards/sk-1531-marks-should-reward-effort.md) | quote | health-first / child-study | xuan-ji-zh-vol3 | 分数应当是奖励勤奋的 |
+| [sk-1532](cards/sk-1532-truth-should-be-a-vivid-picture.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol3 | 让真理成为一幅色彩鲜明的图画 |
+| [sk-1533](cards/sk-1533-every-teenager-needs-one-real-achievement.md) | quote | aesthetic-nature-education / child-study | xuan-ji-zh-vol3 | 每个少年都该在某一方面有可观的成就 |
+| [sk-1534](cards/sk-1534-creation-begins-with-speech.md) | quote | labor-education / child-study | xuan-ji-zh-vol3 | 创作的本源是言语 |
+| [sk-1535](cards/sk-1535-the-main-task-is-teaching-how-to-learn.md) | quote | labor-education / child-study | xuan-ji-zh-vol4 | 低年级的主要任务是教会儿童学习 |
+| [sk-1536](cards/sk-1536-no-teaching-without-education.md) | quote | labor-education / child-study | xuan-ji-zh-vol5 | 没有与教育毫不相干的教学 |
+| [sk-1537](cards/sk-1537-what-intellectual-education-depends-on.md) | quote | child-study / teacher-growth | xuan-ji-zh-vol4 | 智育成效取决于什么 |
+| [sk-1538](cards/sk-1538-sport-rests-on-care-for-health.md) | quote | health-first / child-study | xuan-ji-zh-vol4 | 体育的前提是关爱健康 |
+| [sk-1539](cards/sk-1539-exercise-builds-body-and-will.md) | quote | health-first / child-study | xuan-ji-zh-vol4 | 锻炼既健美身体，也锻炼意志 |
+| [sk-1540](cards/sk-1540-compete-for-grace-not-speed.md) | quote | love-education / family-school | xuan-ji-zh-vol1 | 比赛就比谁的动作最优美 |
+| [sk-1541](cards/sk-1541-no-four-hour-homework.md) | quote | health-first / child-study | xuan-ji-zh-vol4 | 不许让少年每天做四五小时作业 |
+| [sk-1542](cards/sk-1542-sport-means-health-first.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol3 | 体育首先是注意健康 |
+| [sk-1543](cards/sk-1543-no-records-no-trophies.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol4 | 不追求个人纪录和运动成绩 |
+| [sk-1544](cards/sk-1544-diet-matters-and-habits-start-early.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol3 | 正确安排饮食，从童年养成习惯 |
+| [sk-1545](cards/sk-1545-beauty-is-the-source-of-moral-wealth.md) | quote | labor-education / child-study | xuan-ji-zh-vol4 | 美是人的道德财富的源泉 |
+| [sk-1546](cards/sk-1546-turn-beauty-into-inner-wealth.md) | quote | labor-education / child-study | xuan-ji-zh-vol4 | 把美变为每个人心灵的财富 |
+| [sk-1547](cards/sk-1547-beauty-is-the-mother-of-kindness.md) | quote | labor-education / child-study | xuan-ji-zh-vol4 | 美是善良和热忱之母 |
+| [sk-1548](cards/sk-1548-sense-of-beauty-and-vocabulary.md) | quote | learning-difficulties / thinking-and-nature | xuan-ji-zh-vol3 | 美感和词汇量之间有直接联系 |
+| [sk-1549](cards/sk-1549-art-is-a-source-for-everyone.md) | quote | labor-education / child-study | xuan-ji-zh-vol4 | 不论学什么专业，艺术都是经常源泉 |
+| [sk-1550](cards/sk-1550-childhood-is-the-most-sensitive-to-beauty.md) | quote | learning-difficulties / thinking-and-nature | xuan-ji-zh-vol3 | 儿童时代对美最敏感 |
+| [sk-1551](cards/sk-1551-art-straightens-the-soul.md) | quote | aesthetic-nature-education / child-study | xuan-ji-zh-vol3 | 艺术能使心灵舒展 |
+| [sk-1552](cards/sk-1552-drawing-is-part-of-a-childs-inner-life.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol3 | 画画是孩子精神生活的一部分 |
+| [sk-1553](cards/sk-1553-every-student-needs-his-own-treasure.md) | quote | aesthetic-nature-education / child-study | xuan-ji-zh-vol3 | 每个学生都要找到属于自己的东西 |
+| [sk-1554](cards/sk-1554-make-care-a-habit.md) | quote | labor-education / child-study | xuan-ji-zh-vol4 | 让关怀爱护之心变为习惯 |
+| [sk-1555](cards/sk-1555-the-power-of-the-word.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol4 | 语言的美是其他东西无法取代的手段 |
+| [sk-1556](cards/sk-1556-not-musicians-but-harmonious-people.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol4 | 音乐教育不是培养音乐家，而是和谐的人 |
+| [sk-1557](cards/sk-1557-from-music-to-creation.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol3 | 音乐——想像——幻想——童话——创作 |
+| [sk-1558](cards/sk-1558-intellectual-depth-feeds-aesthetic-need.md) | quote | labor-education / child-study | xuan-ji-zh-vol4 | 智力上的深入发展是审美需求的条件 |
+| [sk-1559](cards/sk-1559-play-tales-music-fantasy-creation.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol3 | 五样东西让精神生活充分 |
+| [sk-1560](cards/sk-1560-the-first-window-onto-beauty.md) | quote | labor-education / child-study | xuan-ji-zh-vol4 | 观察倾听体验是通向美的第一个窗口 |
+| [sk-1561](cards/sk-1561-music-brings-teacher-and-child-together.md) | quote | health-first / child-study | xuan-ji-zh-vol3 | 音乐是师生精神一致的最好基础 |
+| [sk-1562](cards/sk-1562-without-beauty-no-noble-heart.md) | quote | thinking-and-nature / aesthetic-nature-education | xuan-ji-zh-vol3 | 没有美感，就没有高尚的心灵 |
+| [sk-1563](cards/sk-1563-music-alternates-with-the-music-of-nature.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol3 | 让音乐与大自然的音乐交替 |
+| [sk-1564](cards/sk-1564-labour-is-the-ground-of-all-round-growth.md) | quote | labor-education / child-study | xuan-ji-zh-vol5 | 劳动是全面发展的基础 |
+| [sk-1565](cards/sk-1565-more-culture-more-ennobling-labour.md) | quote | labor-education / child-study | xuan-ji-zh-vol4 | 文化源泉越多，劳动越能使人高尚 |
+| [sk-1566](cards/sk-1566-study-is-your-first-labour.md) | quote | health-first / child-study | xuan-ji-zh-vol4 | 学习就是你的首要劳动 |
+| [sk-1567](cards/sk-1567-labour-becomes-creation-when-you-create.md) | quote | labor-education / child-study | xuan-ji-zh-vol4 | 能当创造者的劳动才算精神创造 |
+| [sk-1568](cards/sk-1568-the-joy-of-labour-is-in-the-result.md) | quote | collective-education / teacher-growth | xuan-ji-zh-vol2 | 劳动的趣味来自成果，不来自好玩 |
+| [sk-1569](cards/sk-1569-self-education-in-labour-needs-reading.md) | quote | collective-education / teacher-growth | xuan-ji-zh-vol2 | 不超出大纲，劳动中就没有自我教育 |
+| [sk-1570](cards/sk-1570-labour-must-be-constant.md) | quote | labor-education / child-study | xuan-ji-zh-vol4 | 劳动不可集中在某个季节 |
+| [sk-1571](cards/sk-1571-meaning-drives-interest-in-plain-work.md) | quote | labor-education / child-study | xuan-ji-zh-vol4 | 意义越重大，平凡劳动越有吸引力 |
+| [sk-1572](cards/sk-1572-self-education-in-labour-cures-idleness.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol5 | 劳动中的自我教育是治消磨时间的药 |
+| [sk-1573](cards/sk-1573-labour-must-become-a-spiritual-need.md) | quote | reading-and-books / learning-difficulties | xuan-ji-zh-vol3 | 劳动要成为学生精神生活的需要 |
+| [sk-1574](cards/sk-1574-create-an-environment-of-intelligent-labour.md) | quote | labor-education / child-study | xuan-ji-zh-vol5 | 营造智慧型体力劳动的环境 |
+| [sk-1575](cards/sk-1575-when-labour-becomes-an-educational-force.md) | quote | learning-difficulties / thinking-and-nature | xuan-ji-zh-vol4 | 劳动何时才成为教育力量 |
+| [sk-1576](cards/sk-1576-everyone-becomes-a-parent.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol4 | 不是人人都当物理学家，但人人要当父母 |
+| [sk-1577](cards/sk-1577-teach-parenthood-at-school.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol4 | 在学校里就教做夫妻、做父母 |
+| [sk-1578](cards/sk-1578-provision-without-love.md) | quote | love-education / family-school | xuan-ji-zh-vol2 | 最可怕的是供养与心灵空虚并存 |
+| [sk-1579](cards/sk-1579-a-bad-home-cancels-the-school.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol4 | 不良家庭会抵消学校的一切 |
+| [sk-1580](cards/sk-1580-quarrelsome-homes-difficult-children.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol4 | 家里吵吵嚷嚷，就出难教育的孩子 |
+| [sk-1581](cards/sk-1581-no-books-in-the-homes-of-offenders.md) | quote | collective-education / love-education | xuan-ji-zh-vol3 | 犯罪少年的家里没有藏书 |
+| [sk-1582](cards/sk-1582-the-belt-breaks-the-connection.md) | quote | learning-difficulties / thinking-and-nature | xuan-ji-zh-vol5 | 皮带殴打会切断心灵上的沟通 |
+| [sk-1583](cards/sk-1583-school-plus-family-is-complete-education.md) | quote |  | xuan-ji-zh-vol4 | 学校—家庭教育是最完备的社会教育 |
+| [sk-1584](cards/sk-1584-nothing-can-replace-the-family.md) | quote | health-first / child-study | xuan-ji-zh-vol4 | 什么都不可能取代家庭 |
+| [sk-1585](cards/sk-1585-a-mothers-gentle-look.md) | quote | family-school / love-education | xuan-ji-zh-vol5 | 母亲的目光照亮儿童的心灵 |
+| [sk-1586](cards/sk-1586-corporal-punishment-breeds-fear-and-falsehood.md) | quote | family-school / love-education | xuan-ji-zh-vol5 | 体罚摧残心灵，也逼出怯懦与虚伪 |
+| [sk-1587](cards/sk-1587-the-fever-for-good-marks.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol3 | 追求好分数的狂热会摧残心灵 |
+| [sk-1588](cards/sk-1588-mother-love-is-an-uncultivated-field.md) | quote | labor-education / child-study | xuan-ji-zh-vol5 | 母爱教育是一片未开垦的处女地 |
+| [sk-1589](cards/sk-1589-the-stove-of-childhood-happiness.md) | quote | family-school / love-education | xuan-ji-zh-vol5 | 童年的幸福之火，看你怎么管 |
+| [sk-1590](cards/sk-1590-love-that-only-pays.md) | quote | family-school / love-education | xuan-ji-zh-vol2 | 只管花钱的爱不是爱 |
+| [sk-1591](cards/sk-1591-parents-as-the-first-teachers.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol4 | 让家长成为孩子最早的教育者 |
+| [sk-1592](cards/sk-1592-people-first-professionals-second.md) | quote | love-education / family-school | xuan-ji-zh-vol2 | 先培养真正的人，再培养工程师 |
+| [sk-1593](cards/sk-1593-overcome-the-evil-of-the-home-with-good.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol4 | 用学校里的善战胜家庭里的恶 |

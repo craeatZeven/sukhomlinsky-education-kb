@@ -40,7 +40,7 @@ reviewed_by: "maintainer (source-checked)"
 
 ## 出处核对
 
-- 定位：做人的故事 · 扫描件第 3 页（1 基） · 小节《公鸡为什么有鸡冠》
+- 定位：zuo-ren-de-gu-shi-zh · 扫描件第 3 页（1 基） · 小节《公鸡为什么有鸡冠》
 
 - source: zuo-ren-de-gu-shi-zh
 - ref: 《做人的故事》人民教育出版社 2015，《公鸡为什么有鸡冠》，OCR 图像版 p1

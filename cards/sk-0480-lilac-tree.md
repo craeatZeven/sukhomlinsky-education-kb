@@ -41,7 +41,7 @@ reviewed_by: "maintainer (source-checked)"
 
 ## 出处核对
 
-- 定位：做人的故事 · 扫描件第 19 页（1 基） · 小节《丁香树》 · **该页为相邻单元推断**（原语料此段缺页）
+- 定位：zuo-ren-de-gu-shi-zh · 扫描件第 19 页（1 基） · 小节《丁香树》 · **该页为相邻单元推断**（原语料此段缺页）
 
 - source: zuo-ren-de-gu-shi-zh
 - ref: 《做人的故事》人民教育出版社 2015，《丁香树》，OCR 图像版 p17

@@ -38,7 +38,7 @@ reviewed_by: "maintainer (source-checked)"
 
 ## 出处核对
 
-- 定位：该书（把心献给孩子）未入库，暂无法给出页码
+- 定位：ba-xin-xian-gei-hai-zi-zh · 小节《劳动是崇高的》（**中文电子版，无印刷页码**，故只到章节）
 
 - source: ba-xin-xian-gei-hai-zi-zh
 - ref: 把心献给孩子（中文），《劳动是崇高的》

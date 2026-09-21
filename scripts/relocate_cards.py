@@ -41,7 +41,9 @@ ALIASES = {
     "singing-feather": ["The Singing Feather"],
     "on-education": ["on-education"],
     "each-one-must-shine": ["each-one-must-shine"],
-    "ba-xin-xian-gei-hai-zi-zh": [],       # 语料里**没有**这本书（实测），故留空
+    # 这本书原来不在语料里（35 张卡因此无法定位）。2026-09-21 用中文 EPUB（孙颖译，开明 2022）
+    # 灌进语料：page 全为 NULL（电子版无印刷页），section 记章节名。
+    "ba-xin-xian-gei-hai-zi-zh": ["ba-xin-xian-gei-hai-zi-zh"],
 }
 SECQ = re.compile(r"## 原文/Excerpt[ \t]*\n+([\s\S]*?)(?=\n## |\s*$)")
 
@@ -53,6 +55,9 @@ def norm(s, latin=False):
 
 
 def is_latin_book(name):
+    """**不要用书名判断语言**——`ba-xin-xian-gei-hai-zi-zh` 这个 slug 是拉丁字母，
+    内容是中文；按名字判断会把它当英文书、规范化成空串（2026-09-21 实测踩到）。
+    真正的判据在 build_index 里按**内容**算（见 latin_book）。这里只作兜底。"""
     return bool(re.search(r"[A-Za-z]", name)) and not re.search(r"[\u4e00-\u9fff]", name)
 
 
@@ -63,10 +68,16 @@ def build_index(conn):
     而实测 128 张卡正好落在这些单元里 —— 正文在语料里，却因为缺页而"定位不到"。
     邻居页是唯一能从现有数据里恢复的依据，且必须标明是**推断值**。
     """
+    # 先按**内容**判每本书的语言：汉字总数 > 0 就是中文书。
+    rows = list(conn.execute("SELECT book, unit_id, page, section, text FROM units"))
+    han = {}
+    for r in rows:
+        han[r["book"]] = han.get(r["book"], 0) + len(norm(r["text"], False))
+    latin_book = {bk: (n == 0) for bk, n in han.items()}
     idx, order = {}, {}
-    for r in conn.execute("SELECT book, unit_id, page, section, text FROM units"):
+    for r in rows:
         bk = r["book"]
-        latin = is_latin_book(bk)
+        latin = latin_book.get(bk, is_latin_book(bk))
         b = idx.setdefault(bk, {"txt": "", "spans": [], "latin": latin, "neighbor": {}})
         s = norm(r["text"], latin)
         b["spans"].append((len(b["txt"]), len(b["txt"]) + len(s), r["page"], r["section"], r["unit_id"]))
@@ -86,10 +97,14 @@ def build_index(conn):
     return idx
 
 
-def locate(idx, book, excerpt, latin):
+def locate(idx, book, excerpt, latin=False):
     b = idx.get(book)
     if not b or not b["txt"]:
         return None
+    # **以索引里的实际语言为准**，不用调用方传的标志 —— 那个标志过去是按书名算的，
+    # 而 `ba-xin-xian-gei-hai-zi-zh` 这种「拉丁 slug + 中文内容」会把摘录规范化成空串，
+    # 于是明明有大量重叠却报「找不到」（2026-09-21 实测踩到）。
+    latin = b.get("latin", latin)
     q = norm(excerpt, latin)
     if len(q) < 16:
         return None

@@ -98,6 +98,15 @@ def main() -> int:
             PROBLEMS.append(f'{cid} 缺少 primary 字段（镜像没写全）')
         if got['primary'] and got['primary'] not in entry_codes:
             PROBLEMS.append(f'{cid} 的 primary={got["primary"]} 不是真实条目码')
+        # seealso 是**条目域**（这张卡还该看哪些相关条目），**不是卡片域**。
+        # 2026-09-21 实测踩过：把 seealso 当"卡对卡双链"往里塞 sk-id ——
+        # 站点那端是 KB.entryBadge(code, {{kind:'see'}}) 渲染的，塞 sk-id 会让徽章失效，
+        # 而且整块替换会把已有的跨条目引用**删掉**（全库 399 张卡本来就在用它）。
+        # 卡片之间的链接写在正文里，形式是 [[sk-XXXX]]（见 web/kb.js 的 linkify）。
+        for code in sorted(set(got['seealso']) | set(want['seealso'])):
+            if code not in entry_codes:
+                PROBLEMS.append(
+                    f'{cid} 的 seealso={code} 不是条目码（卡片互链请写进正文的 [[sk-XXXX]]，别放 seealso）')
         for k in want:
             if want[k] != got[k]:
                 PROBLEMS.append(f'{cid} 的 {k} 不一致：卡片={got[k]} 中心表={want[k]}')

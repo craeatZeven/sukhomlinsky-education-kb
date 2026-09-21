@@ -46,5 +46,5 @@ reviewed_by: "agent-checked (3 gates); paper check pending"
 
 - source: xuan-ji-zh-vol4
 - ref: "《苏霍姆林斯基教育箴言》（朱永新 编，教育科学出版社 2016）第 71 页；原出处《苏霍姆林斯基选集》第4卷 第608页（PDF 页序）"
-- 定位：未定位（选集里找不到对应段）
+- 定位：选集(五卷本)第4卷 · 扫描件第 636 页（1 基）；小节《教师讲新教材时，学生头脑中在发生什么变化》
 - 三道闸门：只在选本里对上（见 REVIEW-QUEUE.md）

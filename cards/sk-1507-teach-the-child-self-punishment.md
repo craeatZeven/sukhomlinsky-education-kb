@@ -15,7 +15,7 @@ topics:
   - reading-and-books
   - learning-difficulties
 source: xuan-ji-zh-vol5
-ref: "《苏霍姆林斯基教育箴言》（朱永新 编，教育科学出版社 2016）第 178 页；原出处《苏霍姆林斯基选集》第5卷 第716页（PDF 页序）"
+ref: "《苏霍姆林斯基教育箴言》（朱永新 编，教育科学出版社 2016）第 178 页；原出处《苏霍姆林斯基选集》第5卷 · 扫描件第 742 页（1 基）· 小节《认识自己》；选本引作纸本第 716 页"
 url: ""
 status: reviewed
 created: "2026-09-21"

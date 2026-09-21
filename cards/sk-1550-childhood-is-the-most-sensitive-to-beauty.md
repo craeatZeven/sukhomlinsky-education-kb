@@ -15,7 +15,7 @@ topics:
   - learning-difficulties
   - thinking-and-nature
 source: xuan-ji-zh-vol3
-ref: "《苏霍姆林斯基教育箴言》（朱永新 编，教育科学出版社 2016）第 254 页；原出处《苏霍姆林斯基选集》第3卷 第264页（PDF 页序）"
+ref: "《苏霍姆林斯基教育箴言》（朱永新 编，教育科学出版社 2016）第 254 页；原出处《苏霍姆林斯基选集》第3卷 · 扫描件第 293 页（1 基）· 小节《歌曲为孩子们展现了美的世界》；选本引作纸本第 264 页"
 url: ""
 status: reviewed
 created: "2026-09-21"

@@ -15,7 +15,7 @@ topics:
   - reading-and-books
   - learning-difficulties
 source: xuan-ji-zh-vol3
-ref: "《苏霍姆林斯基教育箴言》（朱永新 编，教育科学出版社 2016）第 285 页；原出处《苏霍姆林斯基选集》第3卷 第331页（PDF 页序）"
+ref: "《苏霍姆林斯基教育箴言》（朱永新 编，教育科学出版社 2016）第 285 页；原出处《苏霍姆林斯基选集》第3卷 · 扫描件第 360 页（1 基）· 小节《充满崇高情感的劳动》；选本引作纸本第 331 页"
 url: ""
 status: reviewed
 created: "2026-09-21"

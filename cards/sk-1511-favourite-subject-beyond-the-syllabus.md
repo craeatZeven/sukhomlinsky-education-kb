@@ -15,7 +15,7 @@ topics:
   - learning-difficulties
   - thinking-and-nature
 source: xuan-ji-zh-vol2
-ref: "《苏霍姆林斯基教育箴言》（朱永新 编，教育科学出版社 2016）第 190 页；原出处《苏霍姆林斯基选集》第2卷 第617页（PDF 页序）"
+ref: "《苏霍姆林斯基教育箴言》（朱永新 编，教育科学出版社 2016）第 190 页；原出处《苏霍姆林斯基选集》第2卷 · 扫描件第 647 页（1 基）· 小节《6要赢得学生的思想和心灵》；选本引作纸本第 617 页"
 url: ""
 status: reviewed
 created: "2026-09-21"

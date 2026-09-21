@@ -15,7 +15,7 @@ topics:
   - learning-difficulties
   - thinking-and-nature
 source: xuan-ji-zh-vol4
-ref: "《苏霍姆林斯基教育箴言》（朱永新 编，教育科学出版社 2016）第 118 页；原出处《苏霍姆林斯基选集》第4卷 第423页（PDF 页序）"
+ref: "《苏霍姆林斯基教育箴言》（朱永新 编，教育科学出版社 2016）第 118 页；原出处《苏霍姆林斯基选集》第4卷 · 扫描件第 451 页（1 基）· 小节《智育与教学法问题》；选本引作纸本第 423 页"
 url: ""
 status: reviewed
 created: "2026-09-21"

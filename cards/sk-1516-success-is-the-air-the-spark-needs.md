@@ -15,7 +15,7 @@ topics:
   - learning-difficulties
   - thinking-and-nature
 source: xuan-ji-zh-vol3
-ref: "《苏霍姆林斯基教育箴言》（朱永新 编，教育科学出版社 2016）第 197 页；原出处《苏霍姆林斯基选集》第3卷 第222页（PDF 页序）"
+ref: "《苏霍姆林斯基教育箴言》（朱永新 编，教育科学出版社 2016）第 197 页；原出处《苏霍姆林斯基选集》第3卷 · 扫描件第 251 页（1 基）· 小节《让孩子体验脑力劳动的快乐和取得学习成绩的快乐》；选本引作纸本第 222 页"
 url: ""
 status: reviewed
 created: "2026-09-21"

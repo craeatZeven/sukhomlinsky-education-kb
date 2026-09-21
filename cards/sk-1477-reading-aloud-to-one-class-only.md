@@ -15,7 +15,7 @@ topics:
   - aesthetic-nature-education
   - child-study
 source: xuan-ji-zh-vol3
-ref: "《苏霍姆林斯基教育箴言》（朱永新 编，教育科学出版社 2016）第 137 页；原出处《苏霍姆林斯基选集》第3卷 第590页（PDF 页序）"
+ref: "《苏霍姆林斯基教育箴言》（朱永新 编，教育科学出版社 2016）第 137 页；原出处《苏霍姆林斯基选集》第3卷 · 扫描件第 618 页（1 基）· 小节《“思想教育室”》；选本引作纸本第 590 页"
 url: ""
 status: reviewed
 created: "2026-09-21"

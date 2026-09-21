@@ -28,6 +28,11 @@ CARDS = os.path.join(ROOT, "cards")
 LOC = os.path.join(ROOT, "local_working_copy", "fulltext", "card-locators.jsonl")
 LOC_LINE = re.compile(r"^- 定位：(.+)$", re.M)
 PAGE_IN_LINE = re.compile(r"扫描件第\s*(\d+)\s*页")
+# ref（出处行）里也会写页码 —— **它和「- 定位：」行一样必须与数据对得上**。
+# 2026-09-21 实测：202 张新卡的 ref 里写着「原出处《选集》第5卷 第423页（PDF 页序）」，
+# 而 423 是选本引的**纸本**页（还指向文章起始页），实测扫描件是 449 —— 标签错、数也错，199 张。
+REF_LINE = re.compile(r'^ref:\s*"(.*)"$', re.M)
+REF_MISLABEL = re.compile(r"（PDF 页序）")
 
 PROBLEMS, WARNS = [], []
 
@@ -65,6 +70,24 @@ def main():
             d = json.loads(ln)
             rows[d["card"]] = d
 
+    # 规矩 6：ref 里的页码声明也必须与数据一致；且不许用含糊的「（PDF 页序）」
+    n_ref = 0
+    for cid, t in cards.items():
+        m = REF_LINE.search(t)
+        if not m:
+            continue
+        ref = m.group(1)
+        if REF_MISLABEL.search(ref):
+            PROBLEMS.append("%s 的 ref 用了含糊的「（PDF 页序）」——页码只有两种合法标注："
+                            "「扫描件第 N 页（1 基）」与「纸本第 N 页」" % cid)
+        for num in PAGE_IN_LINE.findall(ref):
+            n_ref += 1
+            r = rows.get(cid)
+            if not r or r.get("page") is None:
+                PROBLEMS.append("%s 的 ref 声称扫描件第 %s 页，但定位数据没有页" % (cid, num))
+            elif int(num) != r["page"]:
+                PROBLEMS.append("%s 的 ref 写扫描件第 %s 页，定位数据是第 %s 页" % (cid, num, r["page"]))
+
     n_page, n_none = 0, 0
     for cid, line in loc_lines.items():
         r = rows.get(cid)
@@ -88,8 +111,8 @@ def main():
         if r.get("page") is None and r.get("page_inferred"):
             PROBLEMS.append("%s 的定位 page 为空却标了 page_inferred" % cid)
 
-    print("卡片 %d｜写了「- 定位：」的 %d（其中有页 %d · 无页 %d）｜定位数据 %d 条｜双链 %d 处"
-          % (len(cards), len(loc_lines), n_page, n_none, len(rows), len(links)))
+    print("卡片 %d｜写了「- 定位：」的 %d（其中有页 %d · 无页 %d）｜定位数据 %d 条｜双链 %d 处｜ref 里的扫描件页声明 %d 处"
+          % (len(cards), len(loc_lines), n_page, n_none, len(rows), len(links), n_ref))
     if PROBLEMS:
         print("定位一致性：**%d 处问题**" % len(PROBLEMS))
         for p in PROBLEMS[:20]:

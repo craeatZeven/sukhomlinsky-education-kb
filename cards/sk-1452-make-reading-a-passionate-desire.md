@@ -45,5 +45,5 @@ reviewed_by: "agent-checked (3 gates); paper check pending"
 
 - source: xuan-ji-zh-vol2
 - ref: "《苏霍姆林斯基教育箴言》（朱永新 编，教育科学出版社 2016）第 99 页；原出处《苏霍姆林斯基选集》第2卷 第312页（PDF 页序）"
-- 定位：xuan-ji-zh-vol2 · 扫描件第 343 页（1 基）；小节《怎样使学生们具有知识的欢乐》；选本另标注纸本第 99 页
+- 定位：xuan-ji-zh-vol2 · 扫描件第 343 页（1 基） · 小节《怎样使学生们具有知识的欢乐》
 - 三道闸门：逐字对回选集；起点正常

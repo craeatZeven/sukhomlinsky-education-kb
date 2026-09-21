@@ -48,7 +48,7 @@ reviewed_by: "maintainer (source-checked)"
 
 ## 出处核对
 
-- 定位：正文与语料差异较大，未能在书中逐字定位
+- 定位：zuo-ren-de-gu-shi-zh · 小节《柳条》
 
 - source: zuo-ren-de-gu-shi-zh
 - ref: 《做人的故事》人民教育出版社 2015，《柳条》，OCR 图像版 p227

@@ -49,5 +49,5 @@ reviewed_by: "agent-checked (3 gates); paper check pending"
 
 - source: xuan-ji-zh-vol1
 - ref: "《苏霍姆林斯基教育箴言》（朱永新 编，教育科学出版社 2016）第 52 页；原出处《苏霍姆林斯基选集》第1卷 第796页（PDF 页序）"
-- 定位：xuan-ji-zh-vol1 · 扫描件第 804 页（1 基）；小节《(2) 教师集体和学生集体》；选本另标注纸本第 52 页
+- 定位：xuan-ji-zh-vol1 · 扫描件第 804 页（1 基） · 小节《(2) 教师集体和学生集体》
 - 三道闸门：逐字对回选集；起点正常

@@ -43,7 +43,7 @@ reviewed_by: "maintainer (source-checked)"
 
 ## 出处核对
 
-- 定位：该书语料无页序（原版无页码），无法给出页码
+- 定位：on-education
 
 - source: on-education
 - ref: On Education (1977), Part II, “Children Should Live in a World of Creativity,” OCR 约 pp. 148–155（待纸本核）

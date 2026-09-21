@@ -39,7 +39,7 @@ reviewed_by: "maintainer (source-checked)"
 
 ## 出处核对
 
-- 定位：该书语料无页序（原版无页码），无法给出页码
+- 定位：on-education
 
 - source: on-education
 - ref: On Education (1977), Part I, “The Need to Understand the Workings of the Child’s Heart,” 约 p. 64（待纸本核）

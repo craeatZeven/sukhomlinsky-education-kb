@@ -38,7 +38,7 @@ reviewed_by: "maintainer (source-checked)"
 
 ## 出处核对
 
-- 定位：该书语料无页序（原版无页码），无法给出页码
+- 定位：on-education
 
 - source: on-education
 - ref: On Education (1977, Progress Publishers), Part VI 'Morals and Convictions', p. 300 (local ocr line 1207)

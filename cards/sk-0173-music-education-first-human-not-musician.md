@@ -37,7 +37,7 @@ reviewed_by: "maintainer (source-checked)"
 
 ## 出处核对
 
-- 定位：该书语料无页序（原版无页码），无法给出页码
+- 定位：each-one-must-shine
 
 - source: each-one-must-shine
 - ref: Cockerill, Each One Must Shine, Chapter 4, local OCR lines 5462–5464（同书 Chapter 5 亦有转述，见 lines 6178–6180）

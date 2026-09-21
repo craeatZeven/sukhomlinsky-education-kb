@@ -41,5 +41,5 @@ reviewed_by: "agent-checked (3 gates); paper check pending"
 
 - source: xuan-ji-zh-vol1
 - ref: "《苏霍姆林斯基教育箴言》（朱永新 编，教育科学出版社 2016）第 238 页；原出处《苏霍姆林斯基选集》第1卷 第267页（PDF 页序）"
-- 定位：xuan-ji-zh-vol1 · 扫描件第 274 页（1 基）；小节《关心年轻一代的健康与体育》；选本另标注纸本第 238 页
+- 定位：xuan-ji-zh-vol1 · 扫描件第 274 页（1 基） · 小节《关心年轻一代的健康与体育》
 - 三道闸门：逐字对回选集；起点正常

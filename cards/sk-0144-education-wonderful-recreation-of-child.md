@@ -37,7 +37,7 @@ reviewed_by: "maintainer (source-checked)"
 
 ## 出处核对
 
-- 定位：该书语料无页序（原版无页码），无法给出页码
+- 定位：on-education
 
 - source: on-education
 - ref: On Education (1977), Part I, “I Am a Firm Believer in the Great Power of Education,” 约 p. 51（待纸本核）

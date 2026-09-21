@@ -46,5 +46,5 @@ reviewed_by: "agent-checked (3 gates); paper check pending"
 
 - source: xuan-ji-zh-vol4
 - ref: "《苏霍姆林斯基教育箴言》（朱永新 编，教育科学出版社 2016）第 156 页；原出处《苏霍姆林斯基选集》第4卷 第19页（PDF 页序）"
-- 定位：xuan-ji-zh-vol4 · 扫描件第 47 页（1 基）；小节《前 言》；选本另标注纸本第 156 页
+- 定位：xuan-ji-zh-vol4 · 扫描件第 47 页（1 基） · 小节《前 言》
 - 三道闸门：逐字对回选集；起点正常

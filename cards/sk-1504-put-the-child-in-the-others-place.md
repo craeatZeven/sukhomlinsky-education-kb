@@ -41,5 +41,5 @@ reviewed_by: "agent-checked (3 gates); paper check pending"
 
 - source: xuan-ji-zh-vol3
 - ref: "《苏霍姆林斯基教育箴言》（朱永新 编，教育科学出版社 2016）第 175 页；原出处《苏霍姆林斯基选集》第3卷 第318页（PDF 页序）"
-- 定位：xuan-ji-zh-vol3 · 扫描件第 347 页（1 基）；小节《活着要天天关心人》；选本另标注纸本第 175 页
+- 定位：xuan-ji-zh-vol3 · 扫描件第 347 页（1 基） · 小节《活着要天天关心人》
 - 三道闸门：逐字对回选集；起点正常

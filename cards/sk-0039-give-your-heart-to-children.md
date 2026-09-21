@@ -37,7 +37,7 @@ reviewed_by: "maintainer (source-checked)"
 
 ## 出处核对
 
-- 定位：ba-xin-xian-gei-hai-zi-zh · 小节《学校校长》（**中文电子版，无印刷页码**，故只到章节）
+- 定位：ba-xin-xian-gei-hai-zi-zh · 小节《学校校长》
 
 - source: ba-xin-xian-gei-hai-zi-zh
 - ref: 把心献给孩子（中文），序言

@@ -32,7 +32,6 @@ reviewed_by: "agent-checked (3 gates); paper check pending"
 
 - 起点回补「创设那种能激」（原提取窗口把一个词切成「激|发」）
 
-- **截断说明**：原文开头被截（疑似缺「启」字），核对时需向前补
 
 ## 中文转述/说明
 

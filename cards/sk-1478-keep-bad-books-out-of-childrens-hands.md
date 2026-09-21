@@ -48,5 +48,5 @@ reviewed_by: "agent-checked (3 gates); paper check pending"
 
 - source: xuan-ji-zh-vol3
 - ref: "《苏霍姆林斯基教育箴言》（朱永新 编，教育科学出版社 2016）第 139 页；原出处《苏霍姆林斯基选集》第3卷 第269页（PDF 页序）"
-- 定位：xuan-ji-zh-vol3 第 296 页，小节《书和儿童的精神生活》（选本标注第 139 页，为纸本页序；语料实测为 PDF 页序，故不同）
+- 定位：xuan-ji-zh-vol3 · 扫描件第 297 页（1 基）；小节《书和儿童的精神生活》；选本另标注纸本第 139 页
 - 三道闸门：GAP（见 REVIEW-QUEUE.md）

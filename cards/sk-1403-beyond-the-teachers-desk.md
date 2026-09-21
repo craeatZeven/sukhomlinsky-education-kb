@@ -45,5 +45,5 @@ reviewed_by: "agent-checked (3 gates); paper check pending"
 
 - source: xuan-ji-zh-vol4
 - ref: "《苏霍姆林斯基教育箴言》（朱永新 编，教育科学出版社 2016）第 27 页；原出处《苏霍姆林斯基选集》第4卷 第47页（PDF 页序）"
-- 定位：xuan-ji-zh-vol4 第 74 页，小节《深思如何领导好学校》（选本标注第 27 页，为纸本页序；语料实测为 PDF 页序，故不同）
+- 定位：xuan-ji-zh-vol4 · 扫描件第 75 页（1 基）；小节《深思如何领导好学校》；选本另标注纸本第 27 页
 - 三道闸门：逐字对回选集；起点正常

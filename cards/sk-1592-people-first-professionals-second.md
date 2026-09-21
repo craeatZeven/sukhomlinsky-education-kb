@@ -46,5 +46,5 @@ reviewed_by: "agent-checked (3 gates); paper check pending"
 
 - source: xuan-ji-zh-vol2
 - ref: "《苏霍姆林斯基教育箴言》（朱永新 编，教育科学出版社 2016）第 314 页；原出处《苏霍姆林斯基选集》第2卷 第295页（PDF 页序）"
-- 定位：xuan-ji-zh-vol2 第 324 页，小节《。怎样教学生们成为好子女》（选本标注第 314 页，为纸本页序；语料实测为 PDF 页序，故不同）
+- 定位：xuan-ji-zh-vol2 · 扫描件第 325 页（1 基）；小节《。怎样教学生们成为好子女》；选本另标注纸本第 314 页
 - 三道闸门：GAP（见 REVIEW-QUEUE.md）

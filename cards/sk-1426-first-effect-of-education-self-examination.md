@@ -46,5 +46,5 @@ reviewed_by: "agent-checked (3 gates); paper check pending"
 
 - source: xuan-ji-zh-vol5
 - ref: "《苏霍姆林斯基教育箴言》（朱永新 编，教育科学出版社 2016）第 59 页；原出处《苏霍姆林斯基选集》第5卷 第579页（PDF 页序）"
-- 定位：xuan-ji-zh-vol5 第 603 页（选本标注第 59 页，为纸本页序；语料实测为 PDF 页序，故不同）
+- 定位：xuan-ji-zh-vol5 · 扫描件第 604 页（1 基）；选本另标注纸本第 59 页
 - 三道闸门：逐字对回选集；起点正常

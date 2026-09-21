@@ -157,7 +157,10 @@ function renderCard(c, error){
   if (c.loc) {
     const bits = [];
     if (c.loc.book && c.loc.book !== c.source) bits.push(KB.sourceTitle(c.loc.book));
-    if (c.loc.page !== null && c.loc.page !== undefined) bits.push("第 " + c.loc.page + " 页");
+    /* 页码口径：**扫描件第 N 页（1 基）**。语料 page 是 0 基（块起始 + 块内页号），
+       早先直接显示 → 全站少 1。2026-09-21 渲染页图验到：语料 page=448 的那句引文
+       在扫描件 1 基第 449 页上。纸本页码另计（页脚印的号），每卷偏移不同，不在此声称。 */
+    if (c.loc.page !== null && c.loc.page !== undefined) bits.push("扫描件第 " + c.loc.page + " 页");
     if (c.loc.section) bits.push("小节《" + c.loc.section + "》");
     if (bits.length) metaLine += " · 原文在 " + bits.join(" · ");
     /* low 已在构建时整体丢弃：独立验证（每种抽 15 张，用摘录中部窗口回全书定位、
@@ -294,7 +297,10 @@ document.addEventListener("DOMContentLoaded", async ()=>{
     if (!host || !host.parentNode) return;
     var bits = [];
     if (c.loc.book) bits.push(KB.esc(c.loc.book));
-    if (c.loc.page !== null && c.loc.page !== undefined) bits.push("第 " + c.loc.page + " 页");
+    /* 页码口径：**扫描件第 N 页（1 基）**。语料 page 是 0 基（块起始 + 块内页号），
+       早先直接显示 → 全站少 1。2026-09-21 渲染页图验到：语料 page=448 的那句引文
+       在扫描件 1 基第 449 页上。纸本页码另计（页脚印的号），每卷偏移不同，不在此声称。 */
+    if (c.loc.page !== null && c.loc.page !== undefined) bits.push("扫描件第 " + c.loc.page + " 页");
     if (c.loc.section) bits.push("小节《" + KB.esc(c.loc.section) + "》");
     var box = document.createElement("section");
     box.className = "ft-ctx";

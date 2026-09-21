@@ -39,6 +39,8 @@ reviewed_by: "maintainer (source-checked)"
 
 ## 出处核对
 
+- 定位：该书（把心献给孩子）未入库，暂无法给出页码
+
 - source: ba-xin-xian-gei-hai-zi-zh
 - ref: 把心献给孩子（中文），《健康，健康，还是健康》
 - 已核对原文：是（本地中文 EPUB 纯文本）

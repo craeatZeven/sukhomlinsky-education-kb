@@ -38,6 +38,8 @@ reviewed_by: "maintainer (source-checked)"
 
 ## 出处核对
 
+- 定位：正文与语料差异较大，未能在书中逐字定位
+
 - source: xuan-ji-zh-vol2
 - ref: 《年轻一代共产主义信念的形成》 / 世界观、道德意识和道德行为的统一 / <!-- OCR 原PDF页段: p0100-0199 (0-based) -->
 - 是否已核对原文：是（已对照本地OCR文本；OCR字误保留待校注）

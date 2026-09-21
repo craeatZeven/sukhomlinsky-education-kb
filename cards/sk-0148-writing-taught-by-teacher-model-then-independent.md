@@ -38,6 +38,8 @@ reviewed_by: "maintainer (source-checked)"
 
 ## 出处核对
 
+- 定位：该书语料无页序（原版无页码），无法给出页码
+
 - source: on-education
 - ref: On Education (1977), Part IV, “School Means First and Foremost Books,” 写作教学段落，OCR 约 pp. 256–258（待纸本核）
 - 是否已核对原文：是（已对照本地全文；OCR/Extraction 细节保留待校注）

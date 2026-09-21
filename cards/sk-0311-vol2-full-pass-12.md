@@ -39,6 +39,8 @@ reviewed_by: "maintainer (source-checked)"
 
 ## 出处核对
 
+- 定位：正文与语料差异较大，未能在书中逐字定位
+
 - source: xuan-ji-zh-vol2
 - ref: 《给教师的100条建议》 / 怎样爱惜儿童的信任 / <!-- OCR 原PDF页段: p0800-0889 (0-based) -->
 - 是否已核对原文：是（已对照本地OCR文本；OCR字误保留待校注）

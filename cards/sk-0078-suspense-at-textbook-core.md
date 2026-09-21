@@ -40,6 +40,8 @@ reviewed_by: "maintainer (source-checked)"
 
 ## 出处核对
 
+- 定位：本卡无逐字原文（是编者对该段的转述），因此没有逐字定位
+
 - source: xuan-ji-zh-vol5
 - ref: 《苏霍姆林斯基选集（五卷本）第5卷》，论文《课堂教学与知识》，OCR页码段 p0500-0599
 - 是否已核对原文：是（已对照本地OCR文本；OCR字误保留待校注）

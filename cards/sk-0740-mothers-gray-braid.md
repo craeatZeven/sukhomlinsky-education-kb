@@ -45,6 +45,8 @@ reviewed_by: "maintainer (source-checked)"
 
 ## 出处核对
 
+- 定位：正文与语料差异较大，未能在书中逐字定位
+
 - source: zuo-ren-de-gu-shi-zh
 - ref: 《做人的故事》人民教育出版社 2015，《母亲灰白色的辫子》，OCR 图像版 p226–227
 - 是否已核对原文：是（已对照 OCR 图像版正文实际位置）

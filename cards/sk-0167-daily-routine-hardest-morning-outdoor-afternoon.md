@@ -41,6 +41,8 @@ reviewed_by: "maintainer (source-checked)"
 
 ## 出处核对
 
+- 定位：本卡无逐字原文（是编者对该段的转述），因此没有逐字定位
+
 - source: xuan-ji-zh-vol1
 - ref: 《全面发展的人的培养问题》“关心年轻一代的健康与体育”章；OCR 原PDF页段 p0200-0299
 - 是否已核对原文：是（已对照本地OCR文本；OCR字误保留待校注）

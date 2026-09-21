@@ -38,6 +38,8 @@ reviewed_by: "maintainer (source-checked)"
 
 ## 出处核对
 
+- 定位：该书语料无页序（原版无页码），无法给出页码
+
 - source: each-one-must-shine
 - ref: Cockerill, Each One Must Shine, Chapter 2, local OCR lines 1669–1674
 - 是否已核对原文：是（已对照本地OCR文本；OCR页眉/行断已注明）

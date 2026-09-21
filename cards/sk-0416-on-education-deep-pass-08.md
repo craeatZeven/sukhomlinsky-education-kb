@@ -39,6 +39,8 @@ reviewed_by: "maintainer (source-checked)"
 
 ## 出处核对
 
+- 定位：该书语料无页序（原版无页码），无法给出页码
+
 - source: on-education
 - ref: On Education (1977, Progress Publishers), Part VI 'Morals and Convictions / The World of Ideas Unfolds to Children after They Enter Their Teens', p. 319 (local ocr line 1287)
 - 是否已核对原文：是（已对照本地全文；OCR/Extraction 细节保留待校注）

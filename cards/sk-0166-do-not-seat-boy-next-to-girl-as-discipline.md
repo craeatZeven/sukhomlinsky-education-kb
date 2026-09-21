@@ -43,6 +43,8 @@ reviewed_by: "maintainer (source-checked)"
 
 ## 出处核对
 
+- 定位：本卡无逐字原文（是编者对该段的转述），因此没有逐字定位
+
 - source: xuan-ji-zh-vol1
 - ref: 《学生的精神世界》“少年时期”章“(9) 少年的友谊”节；OCR 原PDF页段 p0400-0499
 - 是否已核对原文：是（已对照本地OCR文本；OCR字误保留待校注）

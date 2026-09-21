@@ -38,6 +38,8 @@ reviewed_by: "maintainer (source-checked)"
 
 ## 出处核对
 
+- 定位：该书语料无页序（原版无页码），无法给出页码
+
 - source: on-education
 - ref: On Education (1977), p. 114
 - 已核对原文：是（Archive.org 英文 OCR 文本）

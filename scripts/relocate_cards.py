@@ -57,14 +57,32 @@ def is_latin_book(name):
 
 
 def build_index(conn):
-    idx = {}
+    """把每本书的 unit 串成一个大串，并**按 unit_id 顺序**记下缺页单元的邻居页。
+
+    为什么要邻居页：`做人的故事` 1,648 条里有 126 条 `page` 为 NULL（导入时丢的），
+    而实测 128 张卡正好落在这些单元里 —— 正文在语料里，却因为缺页而"定位不到"。
+    邻居页是唯一能从现有数据里恢复的依据，且必须标明是**推断值**。
+    """
+    idx, order = {}, {}
     for r in conn.execute("SELECT book, unit_id, page, section, text FROM units"):
         bk = r["book"]
         latin = is_latin_book(bk)
-        b = idx.setdefault(bk, {"txt": "", "spans": [], "latin": latin})
+        b = idx.setdefault(bk, {"txt": "", "spans": [], "latin": latin, "neighbor": {}})
         s = norm(r["text"], latin)
         b["spans"].append((len(b["txt"]), len(b["txt"]) + len(s), r["page"], r["section"], r["unit_id"]))
         b["txt"] += s
+        order.setdefault(bk, []).append((r["unit_id"], r["page"]))
+    for bk, seq in order.items():
+        seq.sort()
+        for i, (uid, page) in enumerate(seq):
+            if page is not None:
+                continue
+            prev_p = next((seq[j][1] for j in range(i - 1, -1, -1) if seq[j][1] is not None), None)
+            next_p = next((seq[j][1] for j in range(i + 1, len(seq)) if seq[j][1] is not None), None)
+            if prev_p is not None and next_p is not None and next_p - prev_p <= 2:
+                idx[bk]["neighbor"][uid] = prev_p if prev_p == next_p else next_p
+            elif prev_p is not None:
+                idx[bk]["neighbor"][uid] = prev_p
     return idx
 
 
@@ -95,11 +113,16 @@ def locate(idx, book, excerpt, latin):
     if not votes:
         return None
     (page, section, uid), n = votes.most_common(1)[0]
+    inferred = False
+    if page is None:
+        nb = b.get("neighbor", {}).get(uid)
+        if nb is not None:
+            page, inferred = nb, True
     # 语料的 page 是 **0 基**（_ingest.py: page = 块起始 + 块内页号），
     # 而定位表存的是**人看的 1 基扫描件页**（2026-09-21 全局 +1 过）。
     # 所以这里 +1 —— 实测对照 1274 条存量定位，差值几乎全是 -1，即两法逐条吻合、只差基准。
     return {"page": (page + 1) if page is not None else None, "section": section, "unit": uid,
-            "votes": n, "confidence": "high" if n >= 2 else "medium"}
+            "votes": n, "confidence": "high" if n >= 2 else "medium", "page_inferred": inferred}
 
 
 def card_excerpts():
@@ -152,17 +175,21 @@ def main():
                 still += 1
                 why["正文在语料里找不到：%s" % (books[0] if books else src)] += 1
             continue
+        # 页码若来自「相邻单元推断」，必须留痕 —— 它和逐字命中的页不是一回事。
+        infer = {"page_inferred": True} if hit.get("page_inferred") else {}
         if r is None:
             r = {"card": cid, "source": src, "book": hit["book"], "page": hit["page"],
                  "section": hit["section"] or "", "unit": hit["unit"],
                  "confidence": hit["confidence"], "page_base": "1-based scan page",
                  "method": "relocate_cards.py 多 seed 投票（2026-09-21）"}
+            r.update(infer)
             rows.append(r); added += 1
         elif r.get("page") is None:
             r.update({"book": hit["book"], "page": hit["page"], "section": hit["section"] or "",
                       "unit": hit["unit"], "confidence": hit["confidence"],
                       "page_base": "1-based scan page",
                       "method": "relocate_cards.py 多 seed 投票补页（2026-09-21）"})
+            r.update(infer)
             filled += 1
     print("新增定位：%d 张｜补上页码：%d 张｜仍无定位：%d 张" % (added, filled, still))
     for k, v in why.most_common(8):

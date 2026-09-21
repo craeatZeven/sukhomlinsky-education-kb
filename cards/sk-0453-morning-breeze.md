@@ -41,6 +41,8 @@ reviewed_by: "maintainer (source-checked)"
 
 ## 出处核对
 
+- 定位：做人的故事 · 扫描件第 5 页（1 基）；小节《晨风》；**该页为相邻单元推断**（原语料此段缺页）
+
 - source: zuo-ren-de-gu-shi-zh
 - ref: 《做人的故事》人民教育出版社 2015，《晨风》，OCR 图像版 p3
 - 是否已核对原文：是（已对照 BIT 读秀图像版 OCR）

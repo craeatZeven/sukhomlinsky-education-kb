@@ -38,6 +38,8 @@ reviewed_by: "maintainer (source-checked)"
 
 ## 出处核对
 
+- 定位：该书（把心献给孩子）未入库，暂无法给出页码
+
 - source: ba-xin-xian-gei-hai-zi-zh
 - ref: 把心献给孩子（中文），《我们的集体是一个友爱的大家庭》
 - 已核对原文：是（本地中文 EPUB 纯文本）

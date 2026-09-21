@@ -39,6 +39,8 @@ reviewed_by: "maintainer (source-checked)"
 
 ## 出处核对
 
+- 定位：本卡无逐字原文（是编者对该段的转述），因此没有逐字定位
+
 - source: xuan-ji-zh-vol2
 - ref: 见 frontmatter
 - 是否已核对原文：是（已对照本地OCR文本；OCR字误保留待校注）

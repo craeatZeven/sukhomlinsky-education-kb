@@ -31,7 +31,7 @@ reviewed_by: "agent-checked (3 gates); paper check pending"
 
 校勘记录（已校勘 1 处，改前→改后）：
 
-- 在子→在于（选集同错，选本作「在于」）
+- 在子→在于（OCR 误读，选本作「在于」）
 
 ## 中文转述/说明
 

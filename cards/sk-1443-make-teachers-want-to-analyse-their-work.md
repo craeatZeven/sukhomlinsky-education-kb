@@ -32,7 +32,7 @@ reviewed_by: "agent-checked (3 gates); paper check pending"
 校勘记录（已校勘 2 处，改前→改后）：
 
 - 1作→工作
-- -半→一半（选集同错，选本作「工作」「一半」）
+- -半→一半（OCR 误读，选本作「工作」「一半」）
 
 ## 中文转述/说明
 

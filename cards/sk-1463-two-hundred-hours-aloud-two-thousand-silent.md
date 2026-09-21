@@ -31,7 +31,7 @@ reviewed_by: "agent-checked (3 gates); paper check pending"
 
 校勘记录（已校勘 1 处，改前→改后）：
 
-- 到少→至少（选集同错）
+- 到少→至少（OCR 误读；2026-09-21 页图抽验：书上作正字）
 
 ## 中文转述/说明
 

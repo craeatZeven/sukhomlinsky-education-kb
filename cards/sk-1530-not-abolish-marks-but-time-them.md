@@ -33,7 +33,7 @@ reviewed_by: "agent-checked (3 gates); paper check pending"
 
 - 面是要等到→而是要等到
 - 己经→已经
-- 付山→付出（选集同错）
+- 付山→付出（OCR 误读；2026-09-21 页图抽验：书上作正字）
 
 ## 中文转述/说明
 

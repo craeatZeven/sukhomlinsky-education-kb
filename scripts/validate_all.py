@@ -66,9 +66,24 @@ SCRIPTS = [
     'check_quote_fidelity.py',
 ]
 
+# ── 渲染层（浏览器里才看得到的那一层）
+# 与上面不同：它要起本地静态服务、开浏览器跑 axe，**慢**（数十秒到两分钟），
+# 而且依赖 D:\Git\tools\web-standard 的工具链（缺了会自动跳过并说明）。
+# 2026-09-22 加它的理由：这一层抓到的都是**肉眼与静帧都看不出来**的错——
+# 首跑就抓到 entry.html 两个 nav 之一没有可访问名、以及 .start-role 对比度 3.29:1
+# （12px 小字要求 ≥4.5:1）。**带参页面必须带真参数**跑，否则测的是错误态。
+# 想省时间用 `--no-rendering` 跳过。
+RENDERING = ['check_rendering.py']
+
 
 def main() -> int:
-    for name in SCRIPTS:
+    args = sys.argv[1:]
+    names = list(SCRIPTS)
+    if '--no-rendering' not in args:
+        names += RENDERING
+    else:
+        print('（--no-rendering：跳过渲染层闸门）')
+    for name in names:
         path = ROOT / 'scripts' / name
         print(f'\n=== {name} ===')
         result = subprocess.run([sys.executable, str(path)], cwd=str(ROOT))

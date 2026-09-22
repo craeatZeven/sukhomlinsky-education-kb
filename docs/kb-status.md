@@ -121,7 +121,14 @@
 - **后端 API（档位 B）已实现可运行原型**（2026-09-09）：`scripts/build_db.py` → `api/kb.db`（SQLite + FTS5 trigram），`api/main.py`（FastAPI 11 个端点，同时托管 `web/`），配套前端页 `web/search.html` + `web/config.js`，容器化文件 `Dockerfile` / `docker-compose.yml`，说明见 `api/README.md`。本地实测 1386 张卡检索正常；**尚未部署到公网**。
 - **Cloudflare 免运维变体（2026-09-09 已上线）**：`cloudflare/`（Workers + D1），SQL 由 `scripts/build_d1_sql.py` 生成。线上地址 **https://suk-kb-api.suk-kb.workers.dev**（D1 `suk-kb`，1386 卡 + FTS5；`/api/search?q=苏霍姆林斯基` 走 FTS5 771 命中、`q=劳动` 走 LIKE 372 命中；GitHub Pages 的 `search.html` 已连上）。CORS 已收紧为站点域名。**注意**：`*.workers.dev` 在国内网络被 DNS 污染（脚本类客户端不可达、浏览器可访问），主要受众在大陆时需绑自定义域名；`search.html` 在后端不可达时会自动回退到本地静态检索。
 - 已完成：档位 A 静态分片（`web/data/` + `web/kb.js`，见 `docs/web-performance-sharding.md`）。
-- **渲染层闸门首次跑通（2026-09-22）**——离线链看不到的那一层：
+- **渲染层闸门已进主链（2026-09-22）**：`scripts/check_rendering.py` 已是 `validate_all.py` 的最后一步
+  （`--no-rendering` 可跳过）。它**自己起本地静态服务、带真参数**跑：`card.html?id=sk-0001`、
+  `entry.html?code=A5`、`facet.html?code=S1`、`topic.html?slug=…`（slug 从 meta 现取）。
+  **不带参数跑等于测错误态**——首版就是这么漏掉 entry.html 的。
+  它抓到的两处真错：① entry.html 两个 `<nav>` 之一没有可访问名（改在生成器里）；
+  ② `.start-role` 用 `--accent` 压在 `--accent-soft` 上只有 3.29:1（12px 小字需 ≥4.5:1）
+  → 改用为此准备的 `--accent-ink`，实测 **6.36:1** ✓。**这两处静帧与肉眼都看不出来。**
+- **渲染层闸门首跑（2026-09-22）**——离线链看不到的那一层：
   - `check_markup.py`（html-validate，仓库自带配置）：**21 个根页全干净**。首跑抓到 `entry.html` 一处 error
     （该页有两个 `<nav>`，顶栏那个没有可访问名）→ 修在**生成器**里（`rebuild_nav.py` 同时改「生成的标记」与
     「用来查找旧导航的正则」，只改前者下次就跑不到），21 页现已全部带 `aria-label="主导航"`。

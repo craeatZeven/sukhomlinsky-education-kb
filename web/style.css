@@ -765,7 +765,10 @@ button.mx-cell:hover { box-shadow: 0 0 0 2px var(--accent); }
    序号只说明顺序，不说明用途（第二轮复审 §B·1）。 */
 .start-role {
   flex: none; align-self: flex-start;
-  background: var(--accent-soft); color: var(--accent);
+  /* 2026-09-22：`--accent` 压在 `--accent-soft` 上只有 3.29:1（12px 小字要求 ≥4.5:1），
+     改用**为这种场合准备的深一档令牌** `--accent-ink`：实测 #7A3F14 on #F0E0C8 = **6.36:1** ✓。
+     发现它的不是静帧，是渲染层闸门（check_rendering.py 带 ?code=A5 跑 entry.html）。 */
+  background: var(--accent-soft); color: var(--accent-ink);
   font-size: 12px; font-weight: 700; letter-spacing: .04em;
   border-radius: var(--radius-archive); padding: 3px 9px; white-space: nowrap;
 }

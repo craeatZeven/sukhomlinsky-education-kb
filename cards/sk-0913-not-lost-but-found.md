@@ -46,7 +46,7 @@ reviewed_by: "maintainer (source-checked)"
 
 ## 出处核对
 
-- 定位：zuo-ren-de-gu-shi-zh · 扫描件第 390 页（1 基） · 小节《没有失去，而是找到了》
+- 定位：zuo-ren-de-gu-shi-zh · 扫描件第 390 页（1 基） · 小节《没有失去而是找到了》
 
 - source: zuo-ren-de-gu-shi-zh
 - ref: 《做人的故事》人民教育出版社 2015，《没有失去，而是找到了》，OCR 图像版 p388

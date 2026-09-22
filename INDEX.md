@@ -5,17 +5,17 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 156 |
-| [family-school](topics/family-school.md) | 家校合作 | 343 |
+| [family-school](topics/family-school.md) | 家校合作 | 344 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 254 |
 | [health-first](topics/health-first.md) | 健康第一 | 81 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 281 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 282 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 313 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 385 |
-| [love-education](topics/love-education.md) | 爱的教育 | 603 |
+| [love-education](topics/love-education.md) | 爱的教育 | 604 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 48 |
-| [child-study](topics/child-study.md) | 儿童研究 | 602 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 101 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 210 |
+| [child-study](topics/child-study.md) | 儿童研究 | 603 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 102 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 211 |
 
 ## 来源 Sources
 
@@ -1629,3 +1629,6 @@
 | [sk-1594](cards/sk-1594-life-belongs-to-man-not-god.md) | quote | labor-education / love-education | xuan-ji-zh-vol5 | 生活的主人是人，而不是上帝 |
 | [sk-1595](cards/sk-1595-raise-pride-in-overcoming-difficulty.md) | quote | labor-education | xuan-ji-zh-vol5 | 在心灵中激起克服困难的自豪感 |
 | [sk-1596](cards/sk-1596-mere-talk-is-not-enough-merge-life-into-collective.md) | quote | collective-education | xuan-ji-zh-vol5 | 仅凭讲是不够的：把生活融入集体利益 |
+| [sk-1597](cards/sk-1597-dont-hurt-childs-love-for-mother.md) | quote | family-school / love-education | xuan-ji-zh-vol5 | 不能伤害孩子对母亲的爱 |
+| [sk-1598](cards/sk-1598-awakened-intelligence-asks-questions.md) | quote | thinking-and-nature / child-study | xuan-ji-zh-vol5 | 智慧一旦觉醒，就会提出问题 |
+| [sk-1599](cards/sk-1599-we-lack-books-written-for-children.md) | quote | reading-and-books / aesthetic-nature-education | xuan-ji-zh-vol5 | 我们缺少用庄严语言为孩子写的书 |

@@ -27516,5 +27516,59 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长试点 2026-09-22（vol5《情感教育》逐字定位）"
+ },
+ "sk-1597": {
+  "primary": "A8",
+  "seealso": [],
+  "facets": [],
+  "claim": "改变看法可以，但代价不能是让孩子失去对亲人的爱——找一个突破口，让他在活动中自己得出答案。",
+  "evidence": "孩子深爱自己的母亲，不能伤害他的这种感情。……应该在这个孩子身上找到一个突破口，让他在积极参加各种活动的过程中，在学习和劳动的过程中，很自然地认识到宗教信条的欺骗性和教派说教的伪善性。",
+  "title": "不能伤害孩子对母亲的爱",
+  "old_topics": [
+   "family-school",
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A8"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长批次 2（2026-09-22，vol5《情感教育》）"
+ },
+ "sk-1598": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "孩子为自己的智慧力量感到惊喜时，才会产生「怎么样」「为什么」——智力的觉醒靠的是让他体验到自己能想。",
+  "evidence": "她发现，她的孩子正在为自己的智慧力量而感到惊喜，这种感情已经让他产生了诸如「怎么样」、「为什么」之类的问题。",
+  "title": "智慧觉醒就会提出问题",
+  "old_topics": [
+   "thinking-and-nature",
+   "child-study"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长批次 2（2026-09-22，vol5《情感教育》）"
+ },
+ "sk-1599": {
+  "primary": "A13",
+  "seealso": [],
+  "facets": [],
+  "claim": "为孩子写的书，语言本身就是教育的一部分：缺少用激情与庄严语言写的书，是阅读教育最大的缺口。",
+  "evidence": "我们应该考虑一下这样一个问题：为什么我们就缺少那些用充满激情、令人振奋的庄严语言为孩子们和少年们写出来的关于人类、大自然和周围世界的书籍呢？",
+  "title": "缺少为孩子写的书",
+  "old_topics": [
+   "reading-and-books",
+   "aesthetic-nature-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A13"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长批次 2（2026-09-22，vol5《情感教育》）"
  }
 }

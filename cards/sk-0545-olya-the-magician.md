@@ -44,7 +44,7 @@ reviewed_by: "maintainer (source-checked)"
 
 ## 出处核对
 
-- 定位：zuo-ren-de-gu-shi-zh · 扫描件第 57 页（1 基） · 小节《奥莉娅女魔术师》
+- 定位：zuo-ren-de-gu-shi-zh · 扫描件第 57 页（1 基） · 小节《奥莉娅，女魔术师》
 
 - source: zuo-ren-de-gu-shi-zh
 - ref: 《做人的故事》人民教育出版社 2015，《奥莉娅，女魔术师》，OCR 图像版 p55

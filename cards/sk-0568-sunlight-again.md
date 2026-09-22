@@ -43,7 +43,7 @@ reviewed_by: "maintainer (source-checked)"
 
 ## 出处核对
 
-- 定位：zuo-ren-de-gu-shi-zh · 扫描件第 75 页（1 基） · 小节《我再次见到了你太阳光》
+- 定位：zuo-ren-de-gu-shi-zh · 扫描件第 75 页（1 基） · 小节《我再次见到了你，太阳光》
 
 - source: zuo-ren-de-gu-shi-zh
 - ref: 《做人的故事》人民教育出版社 2015，《我再次见到了你，太阳光》，OCR 图像版 p73

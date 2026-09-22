@@ -40,6 +40,7 @@ reviewed_by: "agent-checked (3 gates); paper check pending"
 ## 教育场景/应用
 
 所以「难受」不是要立刻消除的东西，它是道德感的原材料。
+- 与 [[sk-1103]] 连读：同一机制的桥梁：道德习惯把道德观念变成道德信念。
 
 ## 出处核对
 

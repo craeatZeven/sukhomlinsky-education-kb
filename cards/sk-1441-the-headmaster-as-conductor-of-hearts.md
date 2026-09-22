@@ -41,6 +41,7 @@ reviewed_by: "agent-checked (3 gates); paper check pending"
 ## 教育场景/应用
 
 听完一节课，能不能说出这位老师在孩子心里留下了什么。
+- 与 [[sk-1399]] 连读：同一判据：教师最痛心的结局是没人追忆他。
 
 ## 出处核对
 

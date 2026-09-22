@@ -5,15 +5,15 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 156 |
-| [family-school](topics/family-school.md) | 家校合作 | 342 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 252 |
+| [family-school](topics/family-school.md) | 家校合作 | 343 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 254 |
 | [health-first](topics/health-first.md) | 健康第一 | 81 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 281 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 312 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 313 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 385 |
-| [love-education](topics/love-education.md) | 爱的教育 | 601 |
+| [love-education](topics/love-education.md) | 爱的教育 | 603 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 48 |
-| [child-study](topics/child-study.md) | 儿童研究 | 601 |
+| [child-study](topics/child-study.md) | 儿童研究 | 602 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 101 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 210 |
 
@@ -1442,7 +1442,7 @@
 | [sk-1407](cards/sk-1407-same-knowledge-different-teacher.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol4 | 同样的知识课，不同的教育效果 |
 | [sk-1408](cards/sk-1408-dont-panic-over-childish-mischief.md) | quote | love-education / family-school | xuan-ji-zh-vol2 | 别为孩子的淘气动用消防措施 |
 | [sk-1409](cards/sk-1409-protect-and-grow-self-esteem.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol4 | 爱护并发展孩子的自尊感 |
-| [sk-1410](cards/sk-1410-sensitive-understanding-of-the-childs-world.md) | quote |  | xuan-ji-zh-vol4 | 敏锐理解学生的精神世界 |
+| [sk-1410](cards/sk-1410-sensitive-understanding-of-the-childs-world.md) | quote | child-study | xuan-ji-zh-vol4 | 敏锐理解学生的精神世界 |
 | [sk-1411](cards/sk-1411-the-educator-is-rich-in-feeling.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol4 | 真正的教育者情感丰富 |
 | [sk-1412](cards/sk-1412-the-teachers-word-is-irreplaceable.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol5 | 教师的语言不可取代 |
 | [sk-1413](cards/sk-1413-kindness-begins-with-noticing-the-smallest-things.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol4 | 善良的第一步是觉察最细微的内心活动 |
@@ -1615,7 +1615,7 @@
 | [sk-1580](cards/sk-1580-quarrelsome-homes-difficult-children.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol4 | 家里吵吵嚷嚷，就出难教育的孩子 |
 | [sk-1581](cards/sk-1581-no-books-in-the-homes-of-offenders.md) | quote | collective-education / love-education | xuan-ji-zh-vol3 | 犯罪少年的家里没有藏书 |
 | [sk-1582](cards/sk-1582-the-belt-breaks-the-connection.md) | quote | learning-difficulties / thinking-and-nature | xuan-ji-zh-vol5 | 皮带殴打会切断心灵上的沟通 |
-| [sk-1583](cards/sk-1583-school-plus-family-is-complete-education.md) | quote |  | xuan-ji-zh-vol4 | 学校—家庭教育是最完备的社会教育 |
+| [sk-1583](cards/sk-1583-school-plus-family-is-complete-education.md) | quote | family-school / love-education | xuan-ji-zh-vol4 | 学校—家庭教育是最完备的社会教育 |
 | [sk-1584](cards/sk-1584-nothing-can-replace-the-family.md) | quote | health-first / child-study | xuan-ji-zh-vol4 | 什么都不可能取代家庭 |
 | [sk-1585](cards/sk-1585-a-mothers-gentle-look.md) | quote | family-school / love-education | xuan-ji-zh-vol5 | 母亲的目光照亮儿童的心灵 |
 | [sk-1586](cards/sk-1586-corporal-punishment-breeds-fear-and-falsehood.md) | quote | family-school / love-education | xuan-ji-zh-vol5 | 体罚摧残心灵，也逼出怯懦与虚伪 |
@@ -1626,3 +1626,6 @@
 | [sk-1591](cards/sk-1591-parents-as-the-first-teachers.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol4 | 让家长成为孩子最早的教育者 |
 | [sk-1592](cards/sk-1592-people-first-professionals-second.md) | quote | love-education / family-school | xuan-ji-zh-vol2 | 先培养真正的人，再培养工程师 |
 | [sk-1593](cards/sk-1593-overcome-the-evil-of-the-home-with-good.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol4 | 用学校里的善战胜家庭里的恶 |
+| [sk-1594](cards/sk-1594-life-belongs-to-man-not-god.md) | quote | labor-education / love-education | xuan-ji-zh-vol5 | 生活的主人是人，而不是上帝 |
+| [sk-1595](cards/sk-1595-raise-pride-in-overcoming-difficulty.md) | quote | labor-education | xuan-ji-zh-vol5 | 在心灵中激起克服困难的自豪感 |
+| [sk-1596](cards/sk-1596-mere-talk-is-not-enough-merge-life-into-collective.md) | quote | collective-education | xuan-ji-zh-vol5 | 仅凭讲是不够的：把生活融入集体利益 |

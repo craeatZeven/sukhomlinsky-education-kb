@@ -27464,5 +27464,57 @@
   ],
   "evidence_unverified": false,
   "provenance": "promote_candidates.py 2026-09-21（《教育箴言》候选卡晋升；claim 取自卡内中文转述首句，evidence 取自原文首段）"
+ },
+ "sk-1594": {
+  "primary": "A3",
+  "seealso": [],
+  "facets": [],
+  "claim": "幸福不在听天由命里，而在生活、劳动与创造之中——这是要让孩子确信的第一件事。",
+  "evidence": "首先应该提示孩子，让他确信，生活的主人是人，而不是上帝，真正的幸福并不存在于听从命运的安排，也不存在于“痛苦和叹息”之中，而是存在于生活的欢乐之中，存在于劳动之中，存在于创造之中。",
+  "title": "生活的主人是人而不是上帝",
+  "old_topics": [
+   "labor-education",
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A3"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长试点 2026-09-22（vol5《情感教育》逐字定位）"
+ },
+ "sk-1595": {
+  "primary": "A11",
+  "seealso": [],
+  "facets": [],
+  "claim": "克服困难的自豪感要被「激起」：给他一件饶有兴致的劳动，让他为自己的聪明才智感到惊奇。",
+  "evidence": "就习惯于劳动了。但是他的这种劳动，只是盲月地听从命运的安排。我们应该在孩子的心灵中激起他勇于面对困难，善于克服困难的自豪感。应该让他着手从事一些饶有兴致的劳动，使这种劳动的成果引起他的兴趣，让他为自己的聪明才智而感到惊奇。",
+  "title": "激起克服困难的自豪感",
+  "old_topics": [
+   "labor-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A11"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长试点 2026-09-22（vol5《情感教育》逐字定位）"
+ },
+ "sk-1596": {
+  "primary": "A9",
+  "seealso": [],
+  "facets": [],
+  "claim": "讲道理不能代替经历：让孩子把自己的生活融入集体利益，才有真实的感受。",
+  "evidence": "……入队的庄严日子到来了。我们看得出来，萨穆伊尔对这件事并没有充分的思想准备，飘扬在胸前的红领巾也并没有激起他内心的任何感受。他来我们学校的时间太短，而且他母亲对他的影响也太深了。当给孩子们讲为实现共产主义理想献出生命的英雄们的事迹的时候，",
+  "title": "仅凭讲是不够的",
+  "old_topics": [
+   "collective-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A9"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长试点 2026-09-22（vol5《情感教育》逐字定位）"
  }
 }

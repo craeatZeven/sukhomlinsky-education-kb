@@ -1,6 +1,7 @@
 # 知识库状态总表（KB Status）
 
-> **时点**：2026-09-11（分类体系改版后）。本文件是「一眼看全库」的总入口；各专项细节见文末文档索引。
+> **时点**：2026-09-22（分类改版 09-11 之后又经：202 张候选卡晋升、全库校勘统一、四轮定位修复、语义互链）。
+> 本文件是「一眼看全库」的总入口；各专项细节见文末文档索引。
 > **用途**：新会话/新协作者先读本文件，再按需进入专项文档。
 > **分类的唯一真源是 [`taxonomy.md`](../taxonomy.md)**；本文件只报规模与状态，不复述分类规则。
 
@@ -10,7 +11,10 @@
 
 | 项 | 数值 |
 |---|---|
-| 卡片总数 | **1386**（本文件随批次更新；实时值以 `cards/` 与 `docs/coverage-dashboard.md` 为准） |
+| 卡片总数 | **1588**（1386 存量 + 202 张由《教育箴言》候选卡晋升；实时值以 `cards/` 与 `docs/coverage-dashboard.md` 为准） |
+| 原文定位 | **1559 条**定位数据（92.3% 有页码；124 条为**相邻单元推断**、已标 `page_inferred`；29 张如实写明「无法定位」的原因） |
+| 校勘 | 全库统一 A 政策：**引文用校勘后的正字 + 卡内留校勘记录**（新 202 张 + 存量 122 张，累计纠正 300+ 处 OCR 误读） |
+| 卡对卡互链 | **405 处** `[[sk-XXXX]]`（2026-09-22 起按语义判断逐批判定，判据与理由见 `local_working_copy/link-candidates/link-judgments.md`） |
 | ├ 论述卡 | **713**（quote 259 / principle 194 / method 164 / practice 96，各自有主归属条目） |
 | └ 故事卡 | **673**（全部 `type: case`，不占主归属；靠分面与挂靠条目检索） |
 | 分类轴线 | **5 个观察角度 × 23 个条目（A1–A23，其中 A18 是复分标签不持卡）+ 17 个分面（S1–S17）**，见 [`taxonomy.md`](../taxonomy.md) |
@@ -117,6 +121,19 @@
 - **后端 API（档位 B）已实现可运行原型**（2026-09-09）：`scripts/build_db.py` → `api/kb.db`（SQLite + FTS5 trigram），`api/main.py`（FastAPI 11 个端点，同时托管 `web/`），配套前端页 `web/search.html` + `web/config.js`，容器化文件 `Dockerfile` / `docker-compose.yml`，说明见 `api/README.md`。本地实测 1386 张卡检索正常；**尚未部署到公网**。
 - **Cloudflare 免运维变体（2026-09-09 已上线）**：`cloudflare/`（Workers + D1），SQL 由 `scripts/build_d1_sql.py` 生成。线上地址 **https://suk-kb-api.suk-kb.workers.dev**（D1 `suk-kb`，1386 卡 + FTS5；`/api/search?q=苏霍姆林斯基` 走 FTS5 771 命中、`q=劳动` 走 LIKE 372 命中；GitHub Pages 的 `search.html` 已连上）。CORS 已收紧为站点域名。**注意**：`*.workers.dev` 在国内网络被 DNS 污染（脚本类客户端不可达、浏览器可访问），主要受众在大陆时需绑自定义域名；`search.html` 在后端不可达时会自动回退到本地静态检索。
 - 已完成：档位 A 静态分片（`web/data/` + `web/kb.js`，见 `docs/web-performance-sharding.md`）。
+- **渲染层闸门首次跑通（2026-09-22）**——离线链看不到的那一层：
+  - `check_markup.py`（html-validate，仓库自带配置）：**21 个根页全干净**。首跑抓到 `entry.html` 一处 error
+    （该页有两个 `<nav>`，顶栏那个没有可访问名）→ 修在**生成器**里（`rebuild_nav.py` 同时改「生成的标记」与
+    「用来查找旧导航的正则」，只改前者下次就跑不到），21 页现已全部带 `aria-label="主导航"`。
+  - `check_a11y.py`（axe-core）：index / card / search **三页全干净**（对比度、标签关联、landmark、标题顺序、链接可辨识）。
+  - `check_deploy.py`（线上 URL）：**8/8 PASS**。
+- **页面清单现状**：根页 **21** 个 + `web/note/` 旁挂层 **14** 个；`web/data/` 分片 1,765 个文件 / 40.2 MB（按需加载，
+  首页只取 meta 与所看卡的 shard）；`style.css` 117.8 KB、`kb.js` 30.3 KB、`theme.js` 9.6 KB、`scene.js` 15.7 KB。
+- **设计层四层都在**（同一份 `style.css` 内实现，未走外部注入）：杂志层（14px 圆角 / 柔和阴影）· 档案层（2px 圆角 / hairline）·
+  吸顶导航 · 阅读进度条 · 返回顶部 · `@media print`（卡片可打印）· 响应式断点。
+- **未做的流程产物**：本仓没有 `_refs/`（现找参考站截图）也没有 `DESIGN.md`——即「五源 SOP」里
+  「现找参考站 → 截图存证 → 回写风格卡」那一段在**这个站上没留下证据**（站是自己一套 `style.css`，不是注入式）。
+  功能与无障碍是实测干净的，缺的是**过程证据**。
 - **版式分而治之（2026-09-10）**：调研 24 个同类高级感站点后定版——列表页走档案版式（目录行 / 零圆角 / hairline / 深色 chrome 层），详情页保留杂志阅读（衬线大引文 + 纸感 + **700px 阅读栏宽**）；砖红限量到 4 处；详情页新增「关于本卡」溯源块。实测与验收见 `docs/web-archive-layout.md`。
 
 ---

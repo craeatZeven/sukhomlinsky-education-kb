@@ -90,7 +90,10 @@ ACTIVE: dict[str, str | None] = {
 # 实测真实结构是 `<nav class="topnav"><div class="inner"><div class="nav-groups">…`；
 # 我第一版新工具按 `<header class="topnav">` 写，一跑就 SystemExit
 # ——工具与产物脱节是"同源被逐页写死"的另一种表现，同样要防。
-NAV_RE = re.compile(r'<nav class="topnav">.*?</nav>', re.S)
+# **名字要一起改**：2026-09-22 给顶栏加 aria-label（entry.html 有两个 nav，
+# 无名的那个被 HTML 合法性闸门判定为「landmark 没有唯一可访问名」）。
+# 如果只改生成的那一行、不改这个查找正则，下一次跑就**找不到旧导航**、整块替换失败。
+NAV_RE = re.compile(r'<nav class="topnav"[^>]*>.*?</nav>', re.S)
 
 
 def esc(s: str) -> str:
@@ -99,7 +102,7 @@ def esc(s: str) -> str:
 
 def build_nav(page: str) -> str:
     act = ACTIVE.get(page)
-    out = ['<nav class="topnav">', '  <div class="inner">',
+    out = ['<nav class="topnav" aria-label="主导航">', '  <div class="inner">',
            '    <a class="brand" href="index.html">苏霍姆林斯基教育知识库</a>',
            '    <div class="nav-groups">']
     for href, label, icon, sub in ITEMS:

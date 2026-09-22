@@ -414,7 +414,7 @@ def main() -> int:
         """
         try:
             t = (WEB / 'index.html').read_text(encoding='utf-8')
-            m = re.search(r'<nav class="topnav">.*?</nav>', t, re.S)
+            m = re.search(r'<nav class="topnav"[^>]*>.*?</nav>', t, re.S)
             return m.group(0) if m else ''
         except Exception:
             return ''

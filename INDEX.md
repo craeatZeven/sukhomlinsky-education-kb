@@ -6,12 +6,12 @@
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 156 |
 | [family-school](topics/family-school.md) | 家校合作 | 344 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 254 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 255 |
 | [health-first](topics/health-first.md) | 健康第一 | 81 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 282 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 313 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 387 |
-| [love-education](topics/love-education.md) | 爱的教育 | 604 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 314 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 390 |
+| [love-education](topics/love-education.md) | 爱的教育 | 605 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 49 |
 | [child-study](topics/child-study.md) | 儿童研究 | 604 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 104 |
@@ -1635,3 +1635,6 @@
 | [sk-1600](cards/sk-1600-good-teacher-knows-far-more-than-syllabus.md) | quote | teacher-growth / reading-and-books | xuan-ji-zh-vol4 | 好教师的知识要比教学大纲多许多倍 |
 | [sk-1601](cards/sk-1601-a-school-without-books-is-not-a-school.md) | quote | reading-and-books / teacher-growth | xuan-ji-zh-vol4 | 有书，就足以称得上是学校 |
 | [sk-1602](cards/sk-1602-the-biggest-reef-knowing-what-a-child-can-do.md) | quote | child-study / assessment-grading | xuan-ji-zh-vol4 | 教育最大的暗礁：判断什么是儿童力所能及的 |
+| [sk-1603](cards/sk-1603-a-good-teacher-masters-a-labor-skill.md) | quote | teacher-growth / labor-education | xuan-ji-zh-vol4 | 好教师要精通某项劳动技能 |
+| [sk-1604](cards/sk-1604-teacher-is-source-of-knowledge-and-model.md) | quote | teacher-growth / collective-education | xuan-ji-zh-vol4 | 教师是知识之源，是热爱科学的榜样 |
+| [sk-1605](cards/sk-1605-the-child-learns-so-as-not-to-sadden-the-teacher.md) | quote | love-education / teacher-growth | xuan-ji-zh-vol4 | 孩子肯学，首先因为不愿让老师难过 |

@@ -1,5 +1,5 @@
 {
-  "total_cards": 1597,
+  "total_cards": 1600,
   "source_count": 12,
   "topic_count": 12,
   "zuoren_cards": 541,
@@ -26,7 +26,7 @@
     {
       "slug": "xuan-ji-zh-vol4",
       "title": "苏霍姆林斯基选集（五卷本）第4卷",
-      "cards": 162,
+      "cards": 165,
       "page_refs": 41
     },
     {
@@ -85,7 +85,7 @@
     },
     {
       "type": "quote",
-      "cards": 470
+      "cards": 473
     },
     {
       "type": "principle",
@@ -104,7 +104,7 @@
     {
       "slug": "love-education",
       "title": "爱的教育",
-      "cards": 604
+      "cards": 605
     },
     {
       "slug": "child-study",
@@ -114,7 +114,7 @@
     {
       "slug": "teacher-growth",
       "title": "教师成长",
-      "cards": 387
+      "cards": 390
     },
     {
       "slug": "family-school",
@@ -124,7 +124,7 @@
     {
       "slug": "collective-education",
       "title": "集体教育",
-      "cards": 313
+      "cards": 314
     },
     {
       "slug": "aesthetic-nature-education",
@@ -134,7 +134,7 @@
     {
       "slug": "labor-education",
       "title": "劳动教育",
-      "cards": 254
+      "cards": 255
     },
     {
       "slug": "thinking-and-nature",

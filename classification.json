@@ -27678,5 +27678,59 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长批次 4（2026-09-22）"
+ },
+ "sk-1606": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "用记忆替代思考、用背诵替代对本质的理解与观察，是一大陋习——它使孩子迟钝。",
+  "evidence": "用记忆替代思考，用背诵替代对现象本质的清晰理解和观察是一大陋习，能使孩子变得迟钝。",
+  "title": "记忆替代思考是一大陋习",
+  "old_topics": [
+   "thinking-and-nature",
+   "learning-difficulties"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长批次 5（2026-09-22）"
+ },
+ "sk-1607": {
+  "primary": "A6",
+  "seealso": [],
+  "facets": [],
+  "claim": "不了解孩子，教育就是盲目的，因此也就是没有意义的。",
+  "evidence": "教育的任务首先是了解孩子，而为了了解孩子，就应该不断地观察、研究。不了解孩子，不深刻注意发生在他们内心深处的复杂活动，我们的教育就是盲目的，因此也就是没有意义的。",
+  "title": "教育的任务首先是了解孩子",
+  "old_topics": [
+   "child-study",
+   "teacher-growth"
+  ],
+  "type": "quote",
+  "tags": [
+   "A6"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长批次 5（2026-09-22）"
+ },
+ "sk-1608": {
+  "primary": "A6",
+  "seealso": [],
+  "facets": [],
+  "claim": "我们对刚入学的孩子几乎一无所知——像一本只见封面的书，而封面远不能揭示内容。",
+  "evidence": "我和其他老师们总是苦于我们对刚刚踏进学校门槛成为小学生的孩子们了解得太少了。实质上，我们对他们几乎是一无所知，他们对我们来讲就像是一本充满奥秘的书，我们只能看到这本书的封面，而封面是远远不能揭示内容的。",
+  "title": "只看到书的封面",
+  "old_topics": [
+   "child-study",
+   "family-school"
+  ],
+  "type": "quote",
+  "tags": [
+   "A6"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长批次 5（2026-09-22）"
  }
 }

@@ -1,5 +1,5 @@
 {
-  "total_cards": 1594,
+  "total_cards": 1597,
   "source_count": 12,
   "topic_count": 12,
   "zuoren_cards": 541,
@@ -24,16 +24,16 @@
       "page_refs": 109
     },
     {
+      "slug": "xuan-ji-zh-vol4",
+      "title": "苏霍姆林斯基选集（五卷本）第4卷",
+      "cards": 162,
+      "page_refs": 41
+    },
+    {
       "slug": "xuan-ji-zh-vol3",
       "title": "苏霍姆林斯基选集（五卷本）第3卷",
       "cards": 162,
       "page_refs": 51
-    },
-    {
-      "slug": "xuan-ji-zh-vol4",
-      "title": "苏霍姆林斯基选集（五卷本）第4卷",
-      "cards": 159,
-      "page_refs": 41
     },
     {
       "slug": "xuan-ji-zh-vol1",
@@ -85,7 +85,7 @@
     },
     {
       "type": "quote",
-      "cards": 467
+      "cards": 470
     },
     {
       "type": "principle",
@@ -109,12 +109,12 @@
     {
       "slug": "child-study",
       "title": "儿童研究",
-      "cards": 603
+      "cards": 604
     },
     {
       "slug": "teacher-growth",
       "title": "教师成长",
-      "cards": 385
+      "cards": 387
     },
     {
       "slug": "family-school",
@@ -149,7 +149,7 @@
     {
       "slug": "reading-and-books",
       "title": "阅读与书籍",
-      "cards": 102
+      "cards": 104
     },
     {
       "slug": "health-first",
@@ -159,7 +159,7 @@
     {
       "slug": "assessment-grading",
       "title": "评价与分数",
-      "cards": 48
+      "cards": 49
     }
   ]
 }

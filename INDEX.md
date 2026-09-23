@@ -10,11 +10,11 @@
 | [health-first](topics/health-first.md) | 健康第一 | 81 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 282 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 313 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 385 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 387 |
 | [love-education](topics/love-education.md) | 爱的教育 | 604 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 48 |
-| [child-study](topics/child-study.md) | 儿童研究 | 603 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 102 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 49 |
+| [child-study](topics/child-study.md) | 儿童研究 | 604 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 104 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 211 |
 
 ## 来源 Sources
@@ -1632,3 +1632,6 @@
 | [sk-1597](cards/sk-1597-dont-hurt-childs-love-for-mother.md) | quote | family-school / love-education | xuan-ji-zh-vol5 | 不能伤害孩子对母亲的爱 |
 | [sk-1598](cards/sk-1598-awakened-intelligence-asks-questions.md) | quote | thinking-and-nature / child-study | xuan-ji-zh-vol5 | 智慧一旦觉醒，就会提出问题 |
 | [sk-1599](cards/sk-1599-we-lack-books-written-for-children.md) | quote | reading-and-books / aesthetic-nature-education | xuan-ji-zh-vol5 | 我们缺少用庄严语言为孩子写的书 |
+| [sk-1600](cards/sk-1600-good-teacher-knows-far-more-than-syllabus.md) | quote | teacher-growth / reading-and-books | xuan-ji-zh-vol4 | 好教师的知识要比教学大纲多许多倍 |
+| [sk-1601](cards/sk-1601-a-school-without-books-is-not-a-school.md) | quote | reading-and-books / teacher-growth | xuan-ji-zh-vol4 | 有书，就足以称得上是学校 |
+| [sk-1602](cards/sk-1602-the-biggest-reef-knowing-what-a-child-can-do.md) | quote | child-study / assessment-grading | xuan-ji-zh-vol4 | 教育最大的暗礁：判断什么是儿童力所能及的 |

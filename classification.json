@@ -27786,5 +27786,59 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长批次 6（2026-09-23）"
+ },
+ "sk-1612": {
+  "primary": "A22",
+  "seealso": [],
+  "facets": [],
+  "claim": "教育艺术的全部复杂性，在于善于感觉到一个人身上那种纯属个性的东西。",
+  "evidence": "我坚信，教育不仅是一门科学，而且是一种艺术，而教育艺术的全部复杂性，是要善于感觉到一个人身上那种纯属个性的东西。",
+  "title": "教育是科学也是艺术",
+  "old_topics": [
+   "teacher-growth",
+   "child-study"
+  ],
+  "type": "quote",
+  "tags": [
+   "A22"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长批次 7（2026-09-23）"
+ },
+ "sk-1614": {
+  "primary": "A5",
+  "seealso": [],
+  "facets": [],
+  "claim": "对信教的人，不能视为社会罪恶的体现或某种敌对势力——立场不同不等于人可敌。",
+  "evidence": "不能把信教的人视为社会罪恶的活的体现和某种敌对势力。",
+  "title": "不把信教的人当敌人",
+  "old_topics": [
+   "love-education",
+   "family-school"
+  ],
+  "type": "quote",
+  "tags": [
+   "A5"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长批次 7（2026-09-23）"
+ },
+ "sk-1613": {
+  "primary": "A18",
+  "seealso": [],
+  "facets": [],
+  "claim": "一个孩子被写成「思维迟钝」，靠的是教师在一种场合里的观察记录——而这张记录后来被推翻。",
+  "evidence": "他对自然景物和自然现象都无动于衷，不善于思考、比较和对比。对他必须是教了一遍又一遍。比在别的孩子身上花费的时间要多两二倍。一道习题，甚至最简单的一个从属关系，他都要考虑半天。",
+  "title": "标签是怎么形成的",
+  "old_topics": [
+   "learning-difficulties",
+   "child-study"
+  ],
+  "type": "quote",
+  "tags": [
+   "A18"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长批次 7（2026-09-23）"
  }
 }

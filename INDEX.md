@@ -4,16 +4,16 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 159 |
-| [family-school](topics/family-school.md) | 家校合作 | 345 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 160 |
+| [family-school](topics/family-school.md) | 家校合作 | 346 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 256 |
 | [health-first](topics/health-first.md) | 健康第一 | 81 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 282 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 314 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 391 |
-| [love-education](topics/love-education.md) | 爱的教育 | 606 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 392 |
+| [love-education](topics/love-education.md) | 爱的教育 | 607 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 49 |
-| [child-study](topics/child-study.md) | 儿童研究 | 608 |
+| [child-study](topics/child-study.md) | 儿童研究 | 610 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 104 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 212 |
 
@@ -1644,3 +1644,6 @@
 | [sk-1609](cards/sk-1609-not-a-slow-child-dont-bind-intelligence.md) | quote | learning-difficulties / child-study | xuan-ji-zh-vol5 | 不能用音节和习题束缚孩子的智力 |
 | [sk-1610](cards/sk-1610-indifference-means-we-havent-found-the-form.md) | quote | labor-education / learning-difficulties | xuan-ji-zh-vol5 | 对劳动的冷漠，只说明还没找到开发他的形式 |
 | [sk-1611](cards/sk-1611-respect-as-a-person-means-developing-uniqueness.md) | quote | love-education / child-study | xuan-ji-zh-vol5 | 尊重一个人，就要开发出他各不相同的特性 |
+| [sk-1612](cards/sk-1612-education-is-science-and-art.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol5 | 教育不仅是一门科学，而且是一种艺术 |
+| [sk-1613](cards/sk-1613-how-a-label-is-made-the-pavlik-case.md) | quote | learning-difficulties / child-study | xuan-ji-zh-vol5 | 一张标签是怎么形成的：教师会议上的巴甫利克 |
+| [sk-1614](cards/sk-1614-dont-treat-believers-as-enemies.md) | quote | love-education / family-school | xuan-ji-zh-vol5 | 不能把信教的人视为敌对势力 |

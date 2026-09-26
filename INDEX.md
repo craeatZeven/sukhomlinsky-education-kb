@@ -4,16 +4,16 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 160 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 161 |
 | [family-school](topics/family-school.md) | 家校合作 | 346 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 259 |
 | [health-first](topics/health-first.md) | 健康第一 | 81 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 283 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 314 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 392 |
-| [love-education](topics/love-education.md) | 爱的教育 | 609 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 49 |
-| [child-study](topics/child-study.md) | 儿童研究 | 610 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 393 |
+| [love-education](topics/love-education.md) | 爱的教育 | 611 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 52 |
+| [child-study](topics/child-study.md) | 儿童研究 | 611 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 104 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 212 |
 
@@ -1650,3 +1650,7 @@
 | [sk-1615](cards/sk-1615-labor-must-become-a-need-of-spiritual-life.md) | quote | labor-education / love-education | xuan-ji-zh-vol3 | 劳动成为教育力量的条件：成为精神生活的需要 |
 | [sk-1616](cards/sk-1616-love-of-labor-belongs-to-emotional-life.md) | quote | labor-education / love-education | xuan-ji-zh-vol3 | 热爱劳动，首先属于孩子情感生活的范畴 |
 | [sk-1617](cards/sk-1617-joy-of-labor-is-inseparable-from-beauty.md) | quote | labor-education / aesthetic-nature-education | xuan-ji-zh-vol3 | 劳动之乐如果没有美的感受是不可思议的 |
+| [sk-1618](cards/sk-1618-success-is-the-only-source-of-inner-strength.md) | quote | assessment-grading / love-education | xuan-ji-zh-vol3 | 成绩的快乐是孩子愿意克服困难的惟一源泉 |
+| [sk-1619](cards/sk-1619-no-grades-before-child-knows-good.md) | quote | assessment-grading / child-study | xuan-ji-zh-vol3 | 孩子还没有好坏概念时，凭什么给他打分数 |
+| [sk-1620](cards/sk-1620-grade-only-when-the-child-can-redo-it-well.md) | quote | assessment-grading / learning-difficulties | xuan-ji-zh-vol3 | 只在其能重做好作业时才开始打分 |
+| [sk-1621](cards/sk-1621-teaching-is-a-relation-between-people.md) | quote | love-education / teacher-growth | xuan-ji-zh-vol3 | 教学首先是人与人之间的关系 |

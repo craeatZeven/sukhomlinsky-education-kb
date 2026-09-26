@@ -1,5 +1,5 @@
 {
-  "total_cards": 1603,
+  "total_cards": 1606,
   "source_count": 12,
   "topic_count": 12,
   "zuoren_cards": 541,
@@ -20,7 +20,7 @@
     {
       "slug": "xuan-ji-zh-vol5",
       "title": "苏霍姆林斯基选集（五卷本）第5卷",
-      "cards": 208,
+      "cards": 211,
       "page_refs": 109
     },
     {
@@ -85,7 +85,7 @@
     },
     {
       "type": "quote",
-      "cards": 476
+      "cards": 479
     },
     {
       "type": "principle",
@@ -104,12 +104,12 @@
     {
       "slug": "child-study",
       "title": "儿童研究",
-      "cards": 606
+      "cards": 608
     },
     {
       "slug": "love-education",
       "title": "爱的教育",
-      "cards": 605
+      "cards": 606
     },
     {
       "slug": "teacher-growth",
@@ -134,7 +134,7 @@
     {
       "slug": "labor-education",
       "title": "劳动教育",
-      "cards": 255
+      "cards": 256
     },
     {
       "slug": "thinking-and-nature",
@@ -144,7 +144,7 @@
     {
       "slug": "learning-difficulties",
       "title": "学习困难学生",
-      "cards": 157
+      "cards": 159
     },
     {
       "slug": "reading-and-books",

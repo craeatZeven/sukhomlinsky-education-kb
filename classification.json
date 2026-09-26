@@ -27732,5 +27732,59 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长批次 5（2026-09-22）"
+ },
+ "sk-1610": {
+  "primary": "A11",
+  "seealso": [],
+  "facets": [],
+  "claim": "学生对什么劳动都无所谓，不代表他没有天赋——只说明我们还没找到开发他创造力的形式。",
+  "evidence": "但是，不管这种“冷漠”的时间持续多长，这都不意味着他没有任何天赋和能力。这只能说明我们还没有找到开发他创造力的形式，没有为他营造出一种把自己的智慧表现为动手能力的环境。",
+  "title": "冷漠只说明没找到形式",
+  "old_topics": [
+   "labor-education",
+   "learning-difficulties"
+  ],
+  "type": "quote",
+  "tags": [
+   "A11"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长批次 6（2026-09-23，vol5《开发出每个学生独特的人格之美》）"
+ },
+ "sk-1611": {
+  "primary": "A1",
+  "seealso": [],
+  "facets": [],
+  "claim": "把人当人尊重，落到实处就是从每个人身上开发出各不相同的特性——人的独特本身就是教育的出发点。",
+  "evidence": "都作为一个人来尊重他们，以仁爱之心来对待他们，这就意味着首先要从他们身上开发出每个人各不相同的特性来。我们的劳动教育体系和道德教育体系的出发点恰恰在于：认识到人是独特的，应当让每个人都发挥出自己的活力；这种活力塑造着他的个性特点，这种活力把",
+  "title": "开发各不相同的特性",
+  "old_topics": [
+   "love-education",
+   "child-study"
+  ],
+  "type": "quote",
+  "tags": [
+   "A1"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长批次 6（2026-09-23，vol5《开发出每个学生独特的人格之美》）"
+ },
+ "sk-1609": {
+  "primary": "A18",
+  "seealso": [],
+  "facets": [],
+  "claim": "被判定「思维迟钝」的孩子，在田野里能一眼看出事物之间无形的联系——不能用音节和习题束缚他的智力。",
+  "evidence": "不，巴甫利克不可能是后进生，”后来我对他的那位女老师讲，“不能用一些音节和习题来束缚这个孩子的智力。",
+  "title": "不能束缚孩子的智力",
+  "old_topics": [
+   "learning-difficulties",
+   "child-study"
+  ],
+  "type": "quote",
+  "tags": [
+   "A18"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长批次 6（2026-09-23）"
  }
 }

@@ -4,16 +4,16 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 157 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 159 |
 | [family-school](topics/family-school.md) | 家校合作 | 345 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 255 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 256 |
 | [health-first](topics/health-first.md) | 健康第一 | 81 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 282 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 314 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 391 |
-| [love-education](topics/love-education.md) | 爱的教育 | 605 |
+| [love-education](topics/love-education.md) | 爱的教育 | 606 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 49 |
-| [child-study](topics/child-study.md) | 儿童研究 | 606 |
+| [child-study](topics/child-study.md) | 儿童研究 | 608 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 104 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 212 |
 
@@ -1641,3 +1641,6 @@
 | [sk-1606](cards/sk-1606-memory-instead-of-thinking-is-a-bad-habit.md) | quote | thinking-and-nature / learning-difficulties | xuan-ji-zh-vol3 | 用记忆替代思考是一大陋习 |
 | [sk-1607](cards/sk-1607-the-first-task-of-education-is-to-know-the-child.md) | quote | child-study / teacher-growth | xuan-ji-zh-vol5 | 教育的任务首先是了解孩子 |
 | [sk-1608](cards/sk-1608-we-only-see-the-cover-of-the-child.md) | quote | child-study / family-school | xuan-ji-zh-vol5 | 我们常常只看到孩子这本书的封面 |
+| [sk-1609](cards/sk-1609-not-a-slow-child-dont-bind-intelligence.md) | quote | learning-difficulties / child-study | xuan-ji-zh-vol5 | 不能用音节和习题束缚孩子的智力 |
+| [sk-1610](cards/sk-1610-indifference-means-we-havent-found-the-form.md) | quote | labor-education / learning-difficulties | xuan-ji-zh-vol5 | 对劳动的冷漠，只说明还没找到开发他的形式 |
+| [sk-1611](cards/sk-1611-respect-as-a-person-means-developing-uniqueness.md) | quote | love-education / child-study | xuan-ji-zh-vol5 | 尊重一个人，就要开发出他各不相同的特性 |

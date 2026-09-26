@@ -27840,5 +27840,59 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长批次 7（2026-09-23）"
+ },
+ "sk-1615": {
+  "primary": "A11",
+  "seealso": [],
+  "facets": [],
+  "claim": "劳动要成为大的教育力量，前提是它成为学生精神生活的需要，而不是被安排的任务。",
+  "evidence": "劳动要成为一种大的教育力量，就必须成为我们的学生精神生活的需要：能给他们带来团结友爱的快乐；能促进钻研精神和求知欲的发展；能在克服困难之后，产生激动人心的欢乐；能在周围世界里不断发现新的美好事物；能唤起初步的公民义务感—人类生活必不可缺的物",
+  "title": "劳动要成为精神生活的需要",
+  "old_topics": [
+   "labor-education",
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A11"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长批次 8（2026-09-23，vol3《充满崇高情感的劳动》）"
+ },
+ "sk-1616": {
+  "primary": "A11",
+  "seealso": [],
+  "facets": [],
+  "claim": "连「懒汉」在适当的劳动里也会判若两人——问题主要在于情感，在于必须用崇高的目的去鼓舞他。",
+  "evidence": "问题主要在于情感，在于必须用崇高的目的去鼓舞他。热爱劳动—这首先属于孩子情感生活的范畴。",
+  "title": "热爱劳动属于情感生活",
+  "old_topics": [
+   "labor-education",
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A11"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长批次 8（2026-09-23，vol3《充满崇高情感的劳动》）"
+ },
+ "sk-1617": {
+  "primary": "A14",
+  "seealso": [],
+  "facets": [],
+  "claim": "劳动之乐如果离开了美的感受，是不可思议的——这种美首先在于孩子在创造。",
+  "evidence": "劳动之乐是任何其他快乐所无法比拟的。这种快乐如果没有美的感受是不可思议的。不过这里的美，并不只在于孩子有所获，而首先在于他在创造。劳动之乐是生活的美，认识到这种美，孩子就会有自尊感和克服困难后的自豪感。",
+  "title": "劳动之乐离不开美",
+  "old_topics": [
+   "labor-education",
+   "aesthetic-nature-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A14"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长批次 8（2026-09-23，vol3《充满崇高情感的劳动》）"
  }
 }

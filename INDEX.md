@@ -6,12 +6,12 @@
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 160 |
 | [family-school](topics/family-school.md) | 家校合作 | 346 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 256 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 259 |
 | [health-first](topics/health-first.md) | 健康第一 | 81 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 282 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 283 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 314 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 392 |
-| [love-education](topics/love-education.md) | 爱的教育 | 607 |
+| [love-education](topics/love-education.md) | 爱的教育 | 609 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 49 |
 | [child-study](topics/child-study.md) | 儿童研究 | 610 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 104 |
@@ -1647,3 +1647,6 @@
 | [sk-1612](cards/sk-1612-education-is-science-and-art.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol5 | 教育不仅是一门科学，而且是一种艺术 |
 | [sk-1613](cards/sk-1613-how-a-label-is-made-the-pavlik-case.md) | quote | learning-difficulties / child-study | xuan-ji-zh-vol5 | 一张标签是怎么形成的：教师会议上的巴甫利克 |
 | [sk-1614](cards/sk-1614-dont-treat-believers-as-enemies.md) | quote | love-education / family-school | xuan-ji-zh-vol5 | 不能把信教的人视为敌对势力 |
+| [sk-1615](cards/sk-1615-labor-must-become-a-need-of-spiritual-life.md) | quote | labor-education / love-education | xuan-ji-zh-vol3 | 劳动成为教育力量的条件：成为精神生活的需要 |
+| [sk-1616](cards/sk-1616-love-of-labor-belongs-to-emotional-life.md) | quote | labor-education / love-education | xuan-ji-zh-vol3 | 热爱劳动，首先属于孩子情感生活的范畴 |
+| [sk-1617](cards/sk-1617-joy-of-labor-is-inseparable-from-beauty.md) | quote | labor-education / aesthetic-nature-education | xuan-ji-zh-vol3 | 劳动之乐如果没有美的感受是不可思议的 |

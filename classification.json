@@ -27966,5 +27966,41 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长批次 9（2026-09-23）"
+ },
+ "sk-1622": {
+  "primary": "A11",
+  "seealso": [],
+  "facets": [],
+  "claim": "低年级的手工材料加工是劳动教学的第一步——它发展目测力、耐心，并培养美感。",
+  "evidence": "低年级学生进行各种简单的手工材料加工活动，是劳动教学的第一步，然而是很重要的一步。在手工劳动课上所获得的技能和技巧，是形成和发展要在学龄中期和晚期获得更复杂的其他技能和技巧的一个条件。使用细木工锯或剪纸，是为在虎钳上做工、用锉刀和车床加工金",
+  "title": "手工劳动是第一步",
+  "old_topics": [
+   "labor-education",
+   "thinking-and-nature"
+  ],
+  "type": "quote",
+  "tags": [
+   "A11"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1623": {
+  "primary": "A22",
+  "seealso": [],
+  "facets": [],
+  "claim": "专门对人施加影响的那种方法，其基础是注意人的个性——这一点教师常常估计不足。",
+  "evidence": "我们的教师对宗教世界观和宗教道德的危害性常常估计不足，还因为我们没有深思细想过为上帝执言的人们所特有的施影响于他人的方法。这种方法，这种独具匠心的传授手段，其基础就是注意人的个性。",
+  "title": "说服的基础是个性",
+  "old_topics": [
+   "teacher-growth",
+   "child-study"
+  ],
+  "type": "quote",
+  "tags": [
+   "A22"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

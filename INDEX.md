@@ -6,16 +6,16 @@
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 161 |
 | [family-school](topics/family-school.md) | 家校合作 | 346 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 259 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 260 |
 | [health-first](topics/health-first.md) | 健康第一 | 81 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 283 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 314 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 393 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 394 |
 | [love-education](topics/love-education.md) | 爱的教育 | 611 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 52 |
-| [child-study](topics/child-study.md) | 儿童研究 | 611 |
+| [child-study](topics/child-study.md) | 儿童研究 | 612 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 104 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 212 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 213 |
 
 ## 来源 Sources
 
@@ -1654,3 +1654,5 @@
 | [sk-1619](cards/sk-1619-no-grades-before-child-knows-good.md) | quote | assessment-grading / child-study | xuan-ji-zh-vol3 | 孩子还没有好坏概念时，凭什么给他打分数 |
 | [sk-1620](cards/sk-1620-grade-only-when-the-child-can-redo-it-well.md) | quote | assessment-grading / learning-difficulties | xuan-ji-zh-vol3 | 只在其能重做好作业时才开始打分 |
 | [sk-1621](cards/sk-1621-teaching-is-a-relation-between-people.md) | quote | love-education / teacher-growth | xuan-ji-zh-vol3 | 教学首先是人与人之间的关系 |
+| [sk-1622](cards/sk-1622-first-step-of-labor-teaching-handwork.md) | quote | labor-education / thinking-and-nature | xuan-ji-zh-vol4 | 手工劳动是劳动教学的第一步 |
+| [sk-1623](cards/sk-1623-persuasion-rests-on-attention-to-personality.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol5 | 说服人的方法，其基础是注意人的个性 |

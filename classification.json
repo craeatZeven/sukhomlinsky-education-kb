@@ -28722,5 +28722,95 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1664": {
+  "primary": "A12",
+  "seealso": [],
+  "facets": [],
+  "claim": "一周两次到大自然中去，不是观察而是学习思索——这是上思维课，不是散步。",
+  "evidence": "就这样产生了这一部300页的《大自然的书》。这是300次观察，300幅深深铭刻在孩子们意识中的鲜明图画。我们一周两次到大自然中去学习思索。不仅是观察，而是学习思索。实际上，这是上思维课。不是有趣的散步，而恰恰就是上课。",
+  "title": "是思维课不是散步",
+  "old_topics": [
+   "thinking-and-nature",
+   "child-study"
+  ],
+  "type": "quote",
+  "tags": [
+   "A12"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1665": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "对大自然奥秘的真正惊异，是促使思想如滔滔急流的动力。",
+  "evidence": "对揭示出来的大自然奥秘所感到的真正惊异是促使思想如滔滔急流的动力。",
+  "title": "惊异是思想的动力",
+  "old_topics": [
+   "thinking-and-nature",
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1666": {
+  "primary": "A12",
+  "seealso": [],
+  "facets": [],
+  "claim": "教师规定《大自然的书》的内容，依据的是科学地认识世界的辩证法，而不是个别孩子的兴趣。",
+  "evidence": "教师并不是从满足每个孩子个人的兴趣，而是从科学地认识世界的辩证法出发来规定《大自然的书》的内容的。",
+  "title": "内容由科学逻辑决定",
+  "old_topics": [
+   "thinking-and-nature",
+   "teacher-growth"
+  ],
+  "type": "quote",
+  "tags": [
+   "A12"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1667": {
+  "primary": "A6",
+  "seealso": [],
+  "facets": [],
+  "claim": "看似智力迟缓的孩子，双眸里能感觉出被内在力量抑制着的思想——先别下结论。",
+  "evidence": "还有一个女孩子柳达，她的思维对我来说暂时还是一个隐藏得严严实实的秘密。一开始我想，无非是她的智力发展有些迟缓，其他孩子很容易明白的事物，她理解起来就困难。然而在小姑娘生气勃勃和敏感的双眸中，可以感觉出被某种内在的力量抑制着的思想",
+  "title": "柳达的秘密思维",
+  "old_topics": [
+   "child-study",
+   "learning-difficulties"
+  ],
+  "type": "quote",
+  "tags": [
+   "A6"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1668": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "每个孩子的思想像小溪各自流去，汇到一起之后，理解才变得清楚。",
+  "evidence": "孩子们的思想就这样，像条条小溪似地向四处流去，然后，这些溪流汇合到-一起，孩子们就更加清楚了。",
+  "title": "思想像小溪汇合",
+  "old_topics": [
+   "thinking-and-nature",
+   "collective-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

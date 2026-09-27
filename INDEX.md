@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 161 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 162 |
 | [family-school](topics/family-school.md) | 家校合作 | 351 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 262 |
 | [health-first](topics/health-first.md) | 健康第一 | 82 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 286 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 321 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 402 |
-| [love-education](topics/love-education.md) | 爱的教育 | 643 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 322 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 403 |
+| [love-education](topics/love-education.md) | 爱的教育 | 644 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 56 |
-| [child-study](topics/child-study.md) | 儿童研究 | 625 |
+| [child-study](topics/child-study.md) | 儿童研究 | 627 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 105 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 217 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 221 |
 
 ## 来源 Sources
 
@@ -1696,3 +1696,8 @@
 | [sk-1661](cards/sk-1661-no-whining-no-offloading-difficulty.md) | quote | love-education / child-study | xuan-ji-zh-vol1 | 不懦弱、不叫苦、不把该克服的困难推给别人 |
 | [sk-1662](cards/sk-1662-stamina-deepens-moral-sensitivity.md) | quote | health-first / love-education | xuan-ji-zh-vol1 | 体力和精力越旺盛，对恶劣行为越不能容忍 |
 | [sk-1663](cards/sk-1663-collective-struggle-is-the-setting-of-honor.md) | quote | collective-education / love-education | xuan-ji-zh-vol1 | 为集体胜利而斗争，最能让人体验荣誉感 |
+| [sk-1664](cards/sk-1664-nature-book-is-a-lesson-in-thinking-not-a-walk.md) | quote | thinking-and-nature / child-study | xuan-ji-zh-vol3 | 到大自然去是上思维课，不是有趣的散步 |
+| [sk-1665](cards/sk-1665-thinking-begins-with-wonder.md) | quote | thinking-and-nature / love-education | xuan-ji-zh-vol3 | 真正的惊异，是促使思想奔流的动力 |
+| [sk-1666](cards/sk-1666-content-chosen-by-scientific-knowledge-not-by-interest.md) | quote | thinking-and-nature / teacher-growth | xuan-ji-zh-vol3 | 教材内容由科学认识的逻辑决定，不是由个别兴趣决定 |
+| [sk-1667](cards/sk-1667-lyuda-the-hidden-thought.md) | quote | child-study / learning-difficulties | xuan-ji-zh-vol3 | 柳达的思维，是一个藏得很严的秘密 |
+| [sk-1668](cards/sk-1668-thoughts-flow-like-streams-and-converge.md) | quote | thinking-and-nature / collective-education | xuan-ji-zh-vol3 | 孩子们的思想像小溪，汇合之后就清楚了 |

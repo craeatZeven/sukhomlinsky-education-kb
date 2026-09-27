@@ -28416,5 +28416,113 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1647": {
+  "primary": "A2",
+  "seealso": [],
+  "facets": [],
+  "claim": "混淆义务与功勋会产生许多曲解；坐在课桌旁学习就以为对得起社会，是这种混淆的结果。",
+  "evidence": "此外，我们感到下面一点也有疑问：一个人平平常常地履行了自己应尽的义务，是否这也可以称为功勋、忘我精神或英雄主义呢？如果混淆了这些概念，就会产生许多曲解。你作为祖国的儿子，在这里生活得很好，呼吸着清新的空气，能吃饱穿暖，晚上安宁地睡觉，这是因",
+  "title": "别把平常义务当功勋",
+  "old_topics": [
+   "love-education",
+   "family-school"
+  ],
+  "type": "quote",
+  "tags": [
+   "A2"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1648": {
+  "primary": "A2",
+  "seealso": [],
+  "facets": [],
+  "claim": "爱国教育的第一步，是让人的心灵里有一个内容丰富的、难忘的童年与亲切的家乡景物。",
+  "evidence": "爱国主义教育的第一步在于使人的心灵中有一个生活内容丰富的、绚丽的和难忘的童年，使家乡的自然景物在儿童的脑海中留下深刻的印象，这种印象使他一辈子受到鼓舞。",
+  "title": "第一步是难忘的童年",
+  "old_topics": [
+   "love-education",
+   "aesthetic-nature-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A2"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1649": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "语言运用是爱国教育中最细致、最困难的问题之一；祖国语言的词汇应该活在儿童的创作中。",
+  "evidence": "这里，我们遇到了在爱国主义教育中最细致、最困难的问题之一，这就是语言的运用。祖国语言的词汇应该活在儿童的创作中。语言活用课可以称为走向语言的源泉、通往祖国大自然的旅行，祖国大自然的美景吸引着人们到祖国语言的宝库中去寻找那些闪耀着思想光芒的词",
+  "title": "词汇要活在儿童创作中",
+  "old_topics": [
+   "thinking-and-nature",
+   "reading-and-books"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1650": {
+  "primary": "A8",
+  "seealso": [],
+  "facets": [],
+  "claim": "父母与子女间的爱与相互忠诚，是爱国情感不可替代的源泉，也是公民意识的最初摇篮。",
+  "evidence": "子女对父母的爱和父母对子女的爱，他们之间那种可为家庭和家庭获得荣誉的相互忠诚，乃是爱国主义情感和信念的长流不息的和不可替代的源泉。祖先的荣誉，对自己家庭道德财富的自豪感，这些都是培养一个人思想、道德和公民意识的源泉，都是培养公民意识的最初摇",
+  "title": "家庭的爱是公民意识摇篮",
+  "old_topics": [
+   "family-school",
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A8"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1651": {
+  "primary": "A8",
+  "seealso": [],
+  "facets": [],
+  "claim": "从爱母亲、尊敬母亲出发，到准备把自己的生命献给祖国，是一条培养爱国精神的道路。",
+  "evidence": "从爱母亲、尊敬母亲出发，到下定神圣的决心准备把自己的生命献给祖国，这是一条培养爱国精神的光辉道路，顺着这条道路，一个人可以形成爱国主义世界观，进行爱国主义劳动和度过爱国的一生。",
+  "title": "从爱母亲出发",
+  "old_topics": [
+   "family-school",
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A8"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1652": {
+  "primary": "A2",
+  "seealso": [],
+  "facets": [],
+  "claim": "衡量爱国教育程度的标准，是这个人在极端处境下会如何表现。",
+  "evidence": "所以，我们做教育工作的必须按照这样的标准来衡量自己学生的爱国主义教育程度：这个人要是在战场上会表现如何？要是他被关在敌人的刑室里，面临着一种抉择：是叛变以保住生命呢，还是保持爱国者的气节而被折磨死去，他会怎样表现自己呢？",
+  "title": "用什么衡量爱国教育",
+  "old_topics": [
+   "love-education",
+   "assessment-grading"
+  ],
+  "type": "quote",
+  "tags": [
+   "A2"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

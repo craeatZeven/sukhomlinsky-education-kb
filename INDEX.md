@@ -5,17 +5,17 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 161 |
-| [family-school](topics/family-school.md) | 家校合作 | 348 |
+| [family-school](topics/family-school.md) | 家校合作 | 351 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 262 |
 | [health-first](topics/health-first.md) | 健康第一 | 81 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 285 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 286 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 318 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 400 |
-| [love-education](topics/love-education.md) | 爱的教育 | 628 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 54 |
+| [love-education](topics/love-education.md) | 爱的教育 | 633 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 55 |
 | [child-study](topics/child-study.md) | 儿童研究 | 620 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 104 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 216 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 105 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 217 |
 
 ## 来源 Sources
 
@@ -1679,3 +1679,9 @@
 | [sk-1644](cards/sk-1644-find-a-path-to-the-adolescent-heart.md) | quote | teacher-growth / love-education | xuan-ji-zh-vol3 | 找一条通向少年心灵的途径 |
 | [sk-1645](cards/sk-1645-lofty-words-must-live-deep-in-the-heart.md) | quote | love-education / family-school | xuan-ji-zh-vol3 | 崇高的言词要埋在心灵深处才激动人心 |
 | [sk-1646](cards/sk-1646-telling-hero-stories-to-trigger-self-reflection.md) | quote | love-education / child-study | xuan-ji-zh-vol3 | 讲英雄故事的目的，是让每个学生自我反省 |
+| [sk-1647](cards/sk-1647-dont-confuse-ordinary-duty-with-heroism.md) | quote | love-education / family-school | xuan-ji-zh-vol1 | 别把平常的义务称作功勋 |
+| [sk-1648](cards/sk-1648-patriotism-begins-with-an-unforgettable-childhood.md) | quote | love-education / aesthetic-nature-education | xuan-ji-zh-vol1 | 爱国主义教育的第一步是难忘的童年 |
+| [sk-1649](cards/sk-1649-the-language-of-the-homeland-must-live-in-childrens-writing.md) | quote | thinking-and-nature / reading-and-books | xuan-ji-zh-vol1 | 祖国语言的词汇，应该活在儿童的创作中 |
+| [sk-1650](cards/sk-1650-love-between-parents-and-children-is-the-cradle-of-civic-feeling.md) | quote | family-school / love-education | xuan-ji-zh-vol1 | 家庭里的爱，是公民意识的最初摇篮 |
+| [sk-1651](cards/sk-1651-from-loving-mother-to-lifelong-devotion.md) | quote | family-school / love-education | xuan-ji-zh-vol1 | 从爱母亲出发，到把一生献给祖国 |
+| [sk-1652](cards/sk-1652-how-do-we-measure-patriotic-education.md) | quote | love-education / assessment-grading | xuan-ji-zh-vol1 | 用什么衡量爱国主义教育的程度 |

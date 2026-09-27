@@ -28110,5 +28110,95 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1630": {
+  "primary": "A10",
+  "seealso": [],
+  "facets": [],
+  "claim": "学生首先不是靠方法或手段受影响，而是靠教师本人即人格的影响。",
+  "evidence": "学生首先不是靠某种方法或手段，而是靠本人即人格的影响。没有教师的真实思想和热情的鼓舞，方法往往会成为一种死板的公式。",
+  "title": "靠人格不是靠方法",
+  "old_topics": [
+   "teacher-growth",
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A10"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1631": {
+  "primary": "A9",
+  "seealso": [],
+  "facets": [],
+  "claim": "集体像灵敏的乐器，能否调准音调靠的是教育者的个性与精神生活的财富。",
+  "evidence": "集体如同一种非常灵敏的乐器，只有在调好音调的情况下，它才能奏出影响每个受教育者心灵所必需的、具有教育意义的音乐。要调准音调只有依靠教师即教育者的个性，更确切地说，就是要靠受教育者是否把教师当做人看待以及他们在教育者身上所观察和发现到的东西。",
+  "title": "集体要靠教师个性调音",
+  "old_topics": [
+   "collective-education",
+   "teacher-growth"
+  ],
+  "type": "quote",
+  "tags": [
+   "A9"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1632": {
+  "primary": "A9",
+  "seealso": [],
+  "facets": [],
+  "claim": "对人对己的态度只有在集体中才显露；教师的理想状态是每个学生都在集体中真实地自我表现。",
+  "evidence": "在集体中，根据对人对己的态度，可以看出一个学生的为人。对于教师来说，下述状况是最理想的，也就是说每个学生都能表现出是一个具有共产主义坚强信念的人；对己对人都讲原则；诚实可靠、严于律己；既善于维护好的东西，也善于主动憎恨邪恶的东西。",
+  "title": "在集体中才看得出为人",
+  "old_topics": [
+   "collective-education",
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A9"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1633": {
+  "primary": "A10",
+  "seealso": [],
+  "facets": [],
+  "claim": "孩子从教育者的所作所为与自我表现中，得出「人大体上是怎样的」这类根本结论。",
+  "evidence": "他们从你的所作所为，特别是你对别人首先是对他们这些受教育者的态度中，从你的自我表现中，得出如下的结论：人大体上是怎样的；有没有善良，善良是什么样的；什么是理想，等等。",
+  "title": "孩子通过教育者认识人",
+  "old_topics": [
+   "teacher-growth",
+   "family-school"
+  ],
+  "type": "quote",
+  "tags": [
+   "A10"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1634": {
+  "primary": "A1",
+  "seealso": [],
+  "facets": [],
+  "claim": "人是以别人来反映自己的——教育者因此得以解释教育过程中许多极其复杂的现象。",
+  "evidence": "人起初是以别人来反映自己的。名叫彼得的人把自己当做人，只是由于他把名叫保罗的人看做是和自己相同的",
+  "title": "人以别人来反映自己",
+  "old_topics": [
+   "child-study",
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A1"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

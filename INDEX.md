@@ -5,15 +5,15 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 161 |
-| [family-school](topics/family-school.md) | 家校合作 | 346 |
+| [family-school](topics/family-school.md) | 家校合作 | 347 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 262 |
 | [health-first](topics/health-first.md) | 健康第一 | 81 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 283 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 316 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 396 |
-| [love-education](topics/love-education.md) | 爱的教育 | 613 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 318 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 399 |
+| [love-education](topics/love-education.md) | 爱的教育 | 616 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 53 |
-| [child-study](topics/child-study.md) | 儿童研究 | 612 |
+| [child-study](topics/child-study.md) | 儿童研究 | 613 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 104 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 216 |
 
@@ -1662,3 +1662,8 @@
 | [sk-1627](cards/sk-1627-teaching-enriches-the-collective-spiritual-life.md) | quote | collective-education / teacher-growth | xuan-ji-zh-vol1 | 每堂课都在丰富集体的精神生活 |
 | [sk-1628](cards/sk-1628-teaching-should-cultivate-views-and-self-evaluation.md) | quote | teacher-growth / assessment-grading | xuan-ji-zh-vol1 | 教师的使命是让教学成为培养观点的过程 |
 | [sk-1629](cards/sk-1629-cultivate-attitude-to-what-they-know.md) | quote | love-education / thinking-and-nature | xuan-ji-zh-vol1 | 培养孩子对待所知事物的态度，是中心问题 |
+| [sk-1630](cards/sk-1630-students-are-influenced-by-personality-not-method.md) | quote | teacher-growth / love-education | xuan-ji-zh-vol1 | 学生首先靠人格的影响，不是靠方法 |
+| [sk-1631](cards/sk-1631-the-collective-is-an-instrument-tuned-by-the-teacher.md) | quote | collective-education / teacher-growth | xuan-ji-zh-vol1 | 集体是灵敏的乐器，靠教师的个性调音 |
+| [sk-1632](cards/sk-1632-one-sees-a-student-through-the-collective.md) | quote | collective-education / love-education | xuan-ji-zh-vol1 | 在集体中才看得出一个学生的为人 |
+| [sk-1633](cards/sk-1633-children-learn-what-people-are-through-the-educator.md) | quote | teacher-growth / family-school | xuan-ji-zh-vol1 | 孩子是通过教育者来认识人的 |
+| [sk-1634](cards/sk-1634-a-person-sees-himself-through-others.md) | quote | child-study / love-education | xuan-ji-zh-vol1 | 人起初是以别人来反映自己的 |

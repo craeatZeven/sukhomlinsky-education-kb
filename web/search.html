@@ -457,7 +457,18 @@ document.addEventListener("DOMContentLoaded", async ()=>{
     state.topic = $("fTopic").value; state.type = $("fType").value;
     state.size = parseInt($("fSize").value, 10) || 20; state.page = 1; run();
   });
-  $("q").addEventListener("keydown", e=>{ if(e.key === "Enter") $("searchBtn").click(); });
+  /* 中文输入法：组合期那次 Enter 是「选字」，不是「提交」（2026-09-26 加）。
+     依据 recipes/cjk-input-and-search.md §1 —— 只信 isComposing 不够：
+     W3C issue #360 记录 Safari 的 compositionstart 在 keydown 之前、Firefox 起始 keydown 的 key 是 "Process"。
+     也不能改到 keyup：那时 isComposing 已回到 false，两次回车都会提交。 */
+  let imeActive = false;
+  $("q").addEventListener("compositionstart", ()=>{ imeActive = true;  });
+  $("q").addEventListener("compositionend",   ()=>{ imeActive = false; });
+  $("q").addEventListener("keydown", e=>{
+    if(e.key !== "Enter") return;
+    if(e.isComposing || e.keyCode === 229 || e.key === "Process" || imeActive) return;
+    $("searchBtn").click();
+  });
   ["fSource","fTopic","fType","fSize"].forEach(id=>$(id).addEventListener("change", ()=>$("searchBtn").click()));
   /* URL 参数（?q=劳动&source=…）→ 填进筛选器并检索。
      两个理由：① 检索结果**可以分享**了（此前只能让人自己再敲一遍）；

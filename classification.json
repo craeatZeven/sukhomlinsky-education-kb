@@ -28308,5 +28308,113 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1641": {
+  "primary": "A21",
+  "seealso": [],
+  "facets": [],
+  "claim": "少年一旦意识到自己与成年人一样，就会把周围一切划分为善与恶，评价直率而充满激情。",
+  "evidence": "少年会像有了一个新的发现那样，产生一种想法：“我是一个像我父亲、母亲、教师以及任何一个成年人一样的人。”这种想法往往会在少年的头脑中产生大量激烈的矛盾。少年把周围的一切事物以及所有他们在生活中所遇到的人明显地划分为善的与恶的。少年还不善于深",
+  "title": "少年发现他和成年人一样",
+  "old_topics": [
+   "child-study",
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A21"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1642": {
+  "primary": "A21",
+  "seealso": [],
+  "facets": [],
+  "claim": "少年期精神发展的矛盾：对邪恶毫不妥协，却又不善于理解生活中的复杂现象。",
+  "evidence": "一方面对邪恶和说假话毫不妥协并准备与那种稍微偏离真理的现象作斗争，而另一方面却又不善于理解生活中的一些复杂现象。",
+  "title": "少年期的矛盾",
+  "old_topics": [
+   "child-study",
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A21"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1643": {
+  "primary": "A5",
+  "seealso": [],
+  "facets": [],
+  "claim": "若教师扑灭少年战胜邪恶的情感火花，就会养成冷漠与伪善；冷静审视只能造出胆小鬼和庸人。",
+  "evidence": "如果教师力图扑灭那种希望战胜邪恶而点燃的情感的火花，就会使少年养成冷漠和伪善的性格。一个孩子或。个少年，当他看到邪恶与欺诈行为后，无动于衷地瞧上一眼，然后走来向您请教，他该做什么？如果这样的话，那么，但愿您不要以为，您在教育的田地里培育出了",
+  "title": "别扑灭战胜邪恶的火花",
+  "old_topics": [
+   "love-education",
+   "child-study"
+  ],
+  "type": "quote",
+  "tags": [
+   "A5"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1644": {
+  "primary": "A22",
+  "seealso": [],
+  "facets": [],
+  "claim": "要让少年的心对道德美的榜样倾羡、惊叹，道德原则才会变成他个人思想上的收获。",
+  "evidence": "您应该找到一条通向少年心灵的途径，使少年的心对真正的道德美的榜样倾羡不已，并产生一种惊叹和景仰的感情。如果少年有了这种感情，那么概括道德原则的思想就会成为一种个人思想上的收获与个人所获得的精神力量。",
+  "title": "通向少年心灵的途径",
+  "old_topics": [
+   "teacher-growth",
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A22"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1645": {
+  "primary": "A2",
+  "seealso": [],
+  "facets": [],
+  "claim": "谈对祖国的爱时，教育中赤裸裸的偏见尤其不能容忍，只有埋在心灵深处的言词才激动人心。",
+  "evidence": "在谈到我们心中最珍贵的东西——对祖国的爱和准备为祖国的荣誉、光荣与强大而献身时，教育中那种赤裸裸的偏见尤其不能容忍。崇高的言词只有当它们埋藏在心灵深处不受侵犯的时候，只有当个人的思想渗透到自己最珍惜的领域中去进行自我反省并提出问题：“我为什",
+  "title": "崇高言词要埋在心灵深处",
+  "old_topics": [
+   "love-education",
+   "family-school"
+  ],
+  "type": "quote",
+  "tags": [
+   "A2"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1646": {
+  "primary": "A2",
+  "seealso": [],
+  "facets": [],
+  "claim": "讲英雄故事的主要目的，是让人人都能自我反省，把自己的命运看成祖国的一小部分。",
+  "evidence": "我对少年们讲述有关谢尔盖·拉佐的故事，我的主要目的是要使我的学生，人人都能作自我反省，把自己的力量，自己的命运和自己想做好事与建立功勋的意愿看做是祖国的一个小小的组成部分。",
+  "title": "讲英雄故事为了自我反省",
+  "old_topics": [
+   "love-education",
+   "child-study"
+  ],
+  "type": "quote",
+  "tags": [
+   "A2"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

@@ -5,15 +5,15 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 161 |
-| [family-school](topics/family-school.md) | 家校合作 | 347 |
+| [family-school](topics/family-school.md) | 家校合作 | 348 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 262 |
 | [health-first](topics/health-first.md) | 健康第一 | 81 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 285 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 318 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 399 |
-| [love-education](topics/love-education.md) | 爱的教育 | 622 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 400 |
+| [love-education](topics/love-education.md) | 爱的教育 | 628 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 54 |
-| [child-study](topics/child-study.md) | 儿童研究 | 616 |
+| [child-study](topics/child-study.md) | 儿童研究 | 620 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 104 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 216 |
 
@@ -1673,3 +1673,9 @@
 | [sk-1638](cards/sk-1638-moral-beauty-is-the-basis-of-personal-happiness.md) | quote | love-education / aesthetic-nature-education | xuan-ji-zh-vol1 | 道德美不是要人放弃幸福，而是个人幸福的基础 |
 | [sk-1639](cards/sk-1639-a-moral-person-is-first-of-all-a-happy-person.md) | quote | love-education / aesthetic-nature-education | xuan-ji-zh-vol1 | 道德美的人，首先是幸福的人 |
 | [sk-1640](cards/sk-1640-do-not-blame-children-for-moral-beauty.md) | quote | assessment-grading / love-education | xuan-ji-zh-vol1 | 不要指责儿童：指责会使他们忽视道德美 |
+| [sk-1641](cards/sk-1641-adolescent-realizes-he-is-like-adults.md) | quote | child-study / love-education | xuan-ji-zh-vol3 | 少年发现「我和成年人一样」，由此生出大量矛盾 |
+| [sk-1642](cards/sk-1642-the-contradiction-of-adolescence.md) | quote | child-study / love-education | xuan-ji-zh-vol3 | 少年期的矛盾：痛恨邪恶，却看不懂复杂 |
+| [sk-1643](cards/sk-1643-do-not-put-out-the-spark-of-fighting-evil.md) | quote | love-education / child-study | xuan-ji-zh-vol3 | 扑灭少年心中战胜邪恶的火花，会养成冷漠与伪善 |
+| [sk-1644](cards/sk-1644-find-a-path-to-the-adolescent-heart.md) | quote | teacher-growth / love-education | xuan-ji-zh-vol3 | 找一条通向少年心灵的途径 |
+| [sk-1645](cards/sk-1645-lofty-words-must-live-deep-in-the-heart.md) | quote | love-education / family-school | xuan-ji-zh-vol3 | 崇高的言词要埋在心灵深处才激动人心 |
+| [sk-1646](cards/sk-1646-telling-hero-stories-to-trigger-self-reflection.md) | quote | love-education / child-study | xuan-ji-zh-vol3 | 讲英雄故事的目的，是让每个学生自我反省 |

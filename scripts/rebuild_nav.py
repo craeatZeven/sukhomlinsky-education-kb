@@ -95,6 +95,52 @@ ACTIVE: dict[str, str | None] = {
 # 如果只改生成的那一行、不改这个查找正则，下一次跑就**找不到旧导航**、整块替换失败。
 NAV_RE = re.compile(r'<nav class="topnav"[^>]*>.*?</nav>', re.S)
 
+# ── 跳到主要内容（2026-09-27 加）──────────────────────────────────────
+# 依据 recipes/keyboard-walkthrough.md 的 K3：键盘走查实测，没有快捷跳转时
+# **要按 10 次 Tab 才到检索框**（站名 + 7 个导航项 + 主题按钮）；
+# 而作品集第一个 Tab 停靠就是 skip 链接 —— 同一个项目里两种做法，取好的那种。
+#
+# 目标解析：优先用 <main> 上已有的 id；没有才补 id="main"。
+# （21 页里 20 页的 <main> 没有 id，1 页是 id="mapMain" —— 后者不能改名，
+#   改了会断掉页面内部对它的引用，所以让 skip 链接指向它。）
+#
+# 幂等：每次先把已有的 skip 链接删掉再插一条，跑几遍结果都一样。
+BODY_RE = re.compile(r"(<body\b[^>]*>)")
+MAIN_ANY_RE = re.compile(r"<main\b([^>]*)>")
+SKIP_RE = re.compile(r"\n?<a class=\"skip\" href=\"#[^\"]+\">.*?</a>", re.S)
+
+
+# ⚠️ 2026-09-27 实测踩到：**注释里也有 `<main`**。
+#   search.html 有一句说明文字 `<!-- …标题从 <main id="main"> 里挪出来… -->`，
+#   于是正则「以为页面已经有 id=main」，**没给真的 <main> 补 id**，
+#   而 skip 链接照样指向 #main —— 指向一个不存在的锚点。
+#   **更糟的是我的验证脚本用同样的文本正则在查，于是报了 PASS。**
+#   规矩：找 DOM 结构必须**先屏蔽注释**；验证必须查**渲染后的 DOM**，不能查源码文本。
+NOCOMMENT_RE = re.compile(r"<!--.*?-->", re.S)
+
+
+def _masked(text: str) -> str:
+    """把注释替换成等长空格 —— 保留偏移量，可以直接用来定位。"""
+    return NOCOMMENT_RE.sub(lambda m: " " * len(m.group(0)), text)
+
+
+def find_real_main(text: str):
+    """返回 (start, end, attrs) —— 跳过 HTML 注释里的 <main>。找不到返回 (None, None, None)。"""
+    for m in MAIN_ANY_RE.finditer(_masked(text)):
+        return m.start(), m.end(), m.group(1)
+    return None, None, None
+
+
+def resolve_main_target(text: str) -> tuple[str | None, bool]:
+    """返回 (跳转目标 id, 是否需要补 id)。找不到真 <main> 返回 (None, False)。"""
+    start, end, attrs = find_real_main(text)
+    if start is None:
+        return None, False
+    idm = re.search(r'\bid="([^"]+)"', attrs)
+    if idm:
+        return idm.group(1), False
+    return "main", True
+
 
 def esc(s: str) -> str:
     return s.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
@@ -139,10 +185,31 @@ def main() -> int:
         # 平铺之后不该再有下拉：残留 .nav-group 说明模板没换干净
         if 'nav-group"' in new or 'nav-menu' in new:
             raise SystemExit(f'{page}: 仍残留下拉结构')
+
+        # ── 跳到主要内容 ──────────────────────────────────────────────
+        target, need_id = resolve_main_target(new)
+        if target is None:
+            raise SystemExit(f'{page}: 找不到 <main>，跳转目标无着落')
+        if need_id:
+            # 给 <main> 补 id="main"。只补不加 id 的那一个，所以要先断言页面里
+            # 没有别的 id="main"（否则会出现两个同 id，HTML 合法性闸门会报）。
+            start, end, attrs = find_real_main(new)
+            if start is None:
+                raise SystemExit(f'{page}: 找不到真 <main>（注释里的不算）')
+            # 按**位置**插入，不能用 re.sub —— 否则注释里的 <main 也会被打到
+            new = new[:end - 1] + ' id="main">' + new[end:]
+        skip_html = f'<a class="skip" href="#{target}">跳到主要内容</a>'
+        new = SKIP_RE.sub('', new)          # 幂等：先清掉上一轮插的
+        if not BODY_RE.search(new):
+            raise SystemExit(f'{page}: 找不到 <body>')
+        new = BODY_RE.sub(lambda m: m.group(1) + '\n' + skip_html, new, count=1)
+        if new.count('class="skip"') != 1:
+            raise SystemExit(f'{page}: skip 链接不是恰好 1 个')
+
         if new != text:
             path.write_text(new, encoding='utf-8', newline='\n')
         n_pages += 1
-        print(f'  {page:16s} {n_links} 个平铺入口 · 高亮 {ACTIVE[page] or "无"}')
+        print(f'  {page:16s} {n_links} 个平铺入口 · 高亮 {ACTIVE[page] or "无"} · skip -> #{target}')
     print(f'\n{n_pages} 个页面已重排（{want_links} 个平铺入口，无下拉）')
     return 0
 

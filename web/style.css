@@ -144,6 +144,21 @@ a:hover { color: var(--accent); text-decoration-color: var(--accent); }
    这次进来之前先防。 */
 html { scroll-padding-top: 72px; }
 
+/* ── 打印分页（2026-09-27 加）────────────────────────────────────────
+   实测：改前全站**没有一条** break-inside 声明（探针扫了 4 个页面）。
+   内容不会丢（包含性判据：页面每个文字段在 PDF 里都找得到），
+   但引文块 / 表格 / 图注**可能被跨页切断**。
+   只对「切开就废」的声明 avoid，长段落不 avoid —— 它本来就该跨页。 */
+@media print {
+  main :is(blockquote, figure, figcaption, table, pre) {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  main :is(h1, h2, h3, h4) { break-after: avoid; page-break-after: avoid; }
+  /* 跳转链接在纸上没有意义 */
+  .skip { display: none !important; }
+}
+
 /* Sticky top nav */
 .topnav {
   position: sticky; top: 0; z-index: 1000;
@@ -393,7 +408,11 @@ a.badge--see { color: var(--soft); border-style: dashed; }
 .map-layer-n { margin-left: auto; color: var(--soft); font-size: 13px; font-variant-numeric: tabular-nums; }
 .map-layer-tag { border-top-style: dashed; }
 
-.map-row { display: grid; grid-template-columns: minmax(150px, 210px) 1fr auto; align-items: center; gap: 10px; padding: 2px 0; }
+/* 2026-09-27：`1fr` 改成 `minmax(0, 1fr)`，并给数字列 min-width:0。
+   `1fr` 的实际下限是 min-content，不是 0 —— 窄屏 + 大字号时中间列不肯收缩，
+   把 `.map-num`（white-space:nowrap）挤出视口 161px。 */
+.map-row { display: grid; grid-template-columns: minmax(150px, 210px) minmax(0, 1fr) minmax(0, auto); align-items: center; gap: 10px; padding: 2px 0; min-width: 0; }
+.map-row > * { min-width: 0; }
 /* 2026-09-20：原来 .map-code 与 .map-name 是**两个链接指向同一个目标**，
    于是 20 个条目产生 40 个 <40px 的触控目标（反模板 AP-A11Y-01 实测 40 个）。
    合成一行一个链接：命中区 ≥44px、去掉下划线（本来就是行不是字），hover 用底衬。 */
@@ -838,6 +857,11 @@ button.mx-cell:hover { box-shadow: 0 0 0 2px var(--accent); }
 /* Footer */
 footer { margin-top: 70px; border-top: 1px solid var(--line); padding: 28px 0 60px; color: var(--soft); font-size: 14px; text-align: center; }
 footer a { color: var(--accent); text-decoration: none; }
+/* 2026-09-27：长不可断串（文件名 / URL / 代码）在窄屏撑破页脚 ——
+   实测 320px + 文字 200% 时 footer 里 `cloudflare/README.md` 这条链接占 327px，整页溢出 22px。
+   这与 zoom-and-complex-content.md §3「长英文串不换行」是同一类，只是发生在页脚。
+   用 overflow-wrap 而不是 word-break:break-all —— 后者会在任何位置断，把正常单词也切碎。 */
+footer, footer a, footer p, footer li { overflow-wrap: break-word; }
 /* 次级入口：工具/元信息页。顶栏只放读者目的地（10 项），
    案例 Review / 覆盖报告 / 使用指南 / 最近更新 放在这里，从任何一页都到得了。 */
 footer .foot-links { margin: 0 0 12px; letter-spacing: .02em; }
@@ -1202,7 +1226,12 @@ footer p a { text-decoration: underline; text-decoration-color: currentColor; }
   display: grid; gap: 10px; padding: 12px 0;
   background: var(--bg); border-bottom: 1px solid var(--line);
 }
-.kb-bar__row1, .kb-bar__facets, .kb-bar__tools { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+/* 2026-09-27：加 min-width:0。
+   flex 子项的 min-width 默认是 auto（= min-content），所以「能换行」不等于「会收缩」——
+   实测 320px 视口 + 文字 200% 时这一行被撑到 485px，整页横向溢出 182px。
+   子项也要 min-width:0，否则收缩在下一层被挡住。 */
+.kb-bar__row1, .kb-bar__facets, .kb-bar__tools { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; min-width: 0; }
+.kb-bar__row1 > *, .kb-bar__facets > *, .kb-bar__tools > * { min-width: 0; }
 .kb-bar__row1 .c-search { flex: 1 1 260px; }
 .kb-bar__go { padding: 10px 20px; font-size: 15px; }   /* 唯一实心主按钮 */
 .kb-sel {

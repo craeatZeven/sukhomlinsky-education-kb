@@ -28632,5 +28632,95 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1659": {
+  "primary": "A2",
+  "seealso": [],
+  "facets": [],
+  "claim": "性别教育不始于性别规范，而始于「个人的公民精神」这个核心。",
+  "evidence": "培养真正的男子和真正的女子要从培养个人的公民精神这个核心开始。",
+  "title": "从公民精神开始",
+  "old_topics": [
+   "love-education",
+   "collective-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A2"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1660": {
+  "primary": "A2",
+  "seealso": [],
+  "facets": [],
+  "claim": "在男孩身上要培养三种感情：男子的义务、男子的责任和男子的尊严。",
+  "evidence": "需要在男孩和男青年身上培养起男子的义务、男子的责任和男子的尊严这3种感情。",
+  "title": "义务 责任 尊严",
+  "old_topics": [
+   "love-education",
+   "child-study"
+  ],
+  "type": "quote",
+  "tags": [
+   "A2"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1661": {
+  "primary": "A4",
+  "seealso": [],
+  "facets": [],
+  "claim": "不懦弱、不叫苦、不把该自己克服的困难推给别人——这是培养男子汉（也是培养意志）的必要条件。",
+  "evidence": "不懦弱、不叫苦、不把自己应该克服的困难推给别人，这就是培养真正的男子汉所必须的条件。",
+  "title": "不叫苦不推困难",
+  "old_topics": [
+   "love-education",
+   "child-study"
+  ],
+  "type": "quote",
+  "tags": [
+   "A4"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1662": {
+  "primary": "A7",
+  "seealso": [],
+  "facets": [],
+  "claim": "体力与精力的持久度，与尊严感的深度和对恶劣行为的容忍度直接相关。",
+  "evidence": "男孩和男青年的体力和精力越旺盛，越持久，他们对男子的尊严感就感受得越深刻，对待女孩、姑娘和妇女的态度就越敏感、越大方；对卑鄙行径、下流勾当、恬不知耻等恶劣行为就越不能容忍。",
+  "title": "体力越旺道德感越敏",
+  "old_topics": [
+   "health-first",
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A7"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1663": {
+  "primary": "A9",
+  "seealso": [],
+  "facets": [],
+  "claim": "为集体胜利而斗争，最能让人在众目睽睽之下产生羞愧感与深远的荣誉感。",
+  "evidence": "任何情况都不能像为争取集体胜利而斗争的场合那样，使人体验到如此含义深远的荣誉感，而军事游戏正是这种斗争的场合。",
+  "title": "集体斗争场里长荣誉感",
+  "old_topics": [
+   "collective-education",
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A9"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

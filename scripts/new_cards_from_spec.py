@@ -45,6 +45,15 @@ LOC = os.path.join(ROOT, "local_working_copy", "fulltext", "card-locators.jsonl"
 DB = os.path.join(ROOT, "local_working_copy", "fulltext", "corpus.db")
 BAN = set('"\'\u201c\u201d\u2018\u2019\u300c\u300d\u300e\u300f')
 
+# 策展的专题白名单 —— **不许新造轴**。
+# 2026-09-23 我连踩两次（self-education 用了两回），每次都是 rebuild_index 报「13 topics」才发现；
+# 既然机器能发现，就该在**写卡之前**发现。改专题体系时同步改这里。
+CURATED_TOPICS = [
+    'aesthetic-nature-education', 'assessment-grading', 'child-study', 'collective-education',
+    'family-school', 'health-first', 'labor-education', 'learning-difficulties',
+    'love-education', 'reading-and-books', 'teacher-growth', 'thinking-and-nature',
+]
+
 
 def check_anchor(name, s):
     """锚点前置校验：① 非空 ② 不含引号字符（今天两次静默失败的根因）。"""
@@ -73,6 +82,10 @@ def main():
         for k in ("id", "slug", "primary", "title", "title_short", "topics", "tags", "source", "relay", "scene", "claim"):
             if not d.get(k):
                 raise SystemExit("%s 缺字段 %s" % (d.get("id", "?"), k))
+        bad = [x for x in d["topics"] if x not in CURATED_TOPICS]
+        if bad:
+            raise SystemExit("%s 用了不在策展清单里的专题 %s —— **不许造轴**；"
+                             "现有 %d 个见 CURATED_TOPICS。" % (d["id"], bad, len(CURATED_TOPICS)))
         if d.get("quote_from"):
             check_anchor("quote_from", d["quote_from"])
         if d.get("quote_to"):

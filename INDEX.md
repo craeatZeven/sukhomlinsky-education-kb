@@ -7,13 +7,13 @@
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 161 |
 | [family-school](topics/family-school.md) | 家校合作 | 351 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 262 |
-| [health-first](topics/health-first.md) | 健康第一 | 81 |
+| [health-first](topics/health-first.md) | 健康第一 | 82 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 286 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 319 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 321 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 402 |
-| [love-education](topics/love-education.md) | 爱的教育 | 638 |
+| [love-education](topics/love-education.md) | 爱的教育 | 643 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 56 |
-| [child-study](topics/child-study.md) | 儿童研究 | 623 |
+| [child-study](topics/child-study.md) | 儿童研究 | 625 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 105 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 217 |
 
@@ -1691,3 +1691,8 @@
 | [sk-1656](cards/sk-1656-to-have-authority-become-a-child-somewhat.md) | quote | love-education / child-study | xuan-ji-zh-vol1 | 要享有对儿童的合理权力，就得在某种程度上成为儿童 |
 | [sk-1657](cards/sk-1657-do-not-hand-childish-mischief-to-the-collective.md) | quote | assessment-grading / collective-education | xuan-ji-zh-vol1 | 别轻易把儿童的淘气交由集体谴责 |
 | [sk-1658](cards/sk-1658-the-diligent-teacher-whom-children-disliked.md) | quote | teacher-growth / love-education | xuan-ji-zh-vol1 | 一个勤奋认真、学生成绩也好的教师，孩子却不喜欢他 |
+| [sk-1659](cards/sk-1659-gender-education-starts-from-civic-spirit.md) | quote | love-education / collective-education | xuan-ji-zh-vol1 | 培养真正的男子和女子，从公民精神这个核心开始 |
+| [sk-1660](cards/sk-1660-three-feelings-of-obligation-responsibility-dignity.md) | quote | love-education / child-study | xuan-ji-zh-vol1 | 要培养三种感情：义务、责任、尊严 |
+| [sk-1661](cards/sk-1661-no-whining-no-offloading-difficulty.md) | quote | love-education / child-study | xuan-ji-zh-vol1 | 不懦弱、不叫苦、不把该克服的困难推给别人 |
+| [sk-1662](cards/sk-1662-stamina-deepens-moral-sensitivity.md) | quote | health-first / love-education | xuan-ji-zh-vol1 | 体力和精力越旺盛，对恶劣行为越不能容忍 |
+| [sk-1663](cards/sk-1663-collective-struggle-is-the-setting-of-honor.md) | quote | collective-education / love-education | xuan-ji-zh-vol1 | 为集体胜利而斗争，最能让人体验荣誉感 |

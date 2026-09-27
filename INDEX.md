@@ -6,16 +6,16 @@
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 161 |
 | [family-school](topics/family-school.md) | 家校合作 | 346 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 260 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 262 |
 | [health-first](topics/health-first.md) | 健康第一 | 81 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 283 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 314 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 394 |
-| [love-education](topics/love-education.md) | 爱的教育 | 611 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 52 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 316 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 396 |
+| [love-education](topics/love-education.md) | 爱的教育 | 613 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 53 |
 | [child-study](topics/child-study.md) | 儿童研究 | 612 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 104 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 213 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 216 |
 
 ## 来源 Sources
 
@@ -1656,3 +1656,9 @@
 | [sk-1621](cards/sk-1621-teaching-is-a-relation-between-people.md) | quote | love-education / teacher-growth | xuan-ji-zh-vol3 | 教学首先是人与人之间的关系 |
 | [sk-1622](cards/sk-1622-first-step-of-labor-teaching-handwork.md) | quote | labor-education / thinking-and-nature | xuan-ji-zh-vol4 | 手工劳动是劳动教学的第一步 |
 | [sk-1623](cards/sk-1623-persuasion-rests-on-attention-to-personality.md) | quote | teacher-growth / child-study | xuan-ji-zh-vol5 | 说服人的方法，其基础是注意人的个性 |
+| [sk-1624](cards/sk-1624-a-collective-needs-rich-spiritual-life.md) | quote | collective-education / love-education | xuan-ji-zh-vol1 | 精神生活空虚的一群人成不了集体 |
+| [sk-1625](cards/sk-1625-labor-makes-people-thoughtful.md) | quote | labor-education / thinking-and-nature | xuan-ji-zh-vol1 | 劳动能使人聪明、变得高尚 |
+| [sk-1626](cards/sk-1626-pedagogical-creativity-means-knowing-oneself.md) | quote | thinking-and-nature / labor-education | xuan-ji-zh-vol1 | 教育学中的创造性，是帮人了解自己的智力 |
+| [sk-1627](cards/sk-1627-teaching-enriches-the-collective-spiritual-life.md) | quote | collective-education / teacher-growth | xuan-ji-zh-vol1 | 每堂课都在丰富集体的精神生活 |
+| [sk-1628](cards/sk-1628-teaching-should-cultivate-views-and-self-evaluation.md) | quote | teacher-growth / assessment-grading | xuan-ji-zh-vol1 | 教师的使命是让教学成为培养观点的过程 |
+| [sk-1629](cards/sk-1629-cultivate-attitude-to-what-they-know.md) | quote | love-education / thinking-and-nature | xuan-ji-zh-vol1 | 培养孩子对待所知事物的态度，是中心问题 |

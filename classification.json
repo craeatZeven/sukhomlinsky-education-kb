@@ -28002,5 +28002,113 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1624": {
+  "primary": "A9",
+  "seealso": [],
+  "facets": [],
+  "claim": "一群人成不了集体，原因是个人和整体都缺少丰富的精神生活。",
+  "evidence": "所以不能成为一个集体，正是因为个人和由他们组成的整体都缺少丰富的精神生活，对各种事物、现象、思想和问题缺乏敏感性，不能兴致勃勃地深入其中。如果一群学生中每个人的精神生活既空虚又狭窄，那么他们就不可能成为一个真正的集体。",
+  "title": "精神生活空虚成不了集体",
+  "old_topics": [
+   "collective-education",
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A9"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1625": {
+  "primary": "A11",
+  "seealso": [],
+  "facets": [],
+  "claim": "劳动赋予个人和集体丰富的精神生活与思维的欢乐——不能认为劳动教育同思想和教学无关。",
+  "evidence": "劳动能教育人们成为真正有思想的人，赋予个人和集体以丰富的精神生活，给予他们思维的欢乐。不能认为劳动教育同思想和教学无关。劳动能使人聪明、使人具有创造精神，使人变得高尚。",
+  "title": "劳动能使人聪明",
+  "old_topics": [
+   "labor-education",
+   "thinking-and-nature"
+  ],
+  "type": "quote",
+  "tags": [
+   "A11"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1626": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "孩子重复别人做过的事，只要是他自己动脑筋的结果，他就是创造者。",
+  "evidence": "教育学中的创造性指的是帮助人了解自己的内心世界，首先是了解自己的智力的一种能力，是帮助人开动脑筋，教会他认识什么是美，如何用自己的劳动并通过自己的努力去创造美的一种能力。让小孩重复别人已经做过的事，制作别人业已制成的东西。如果这一行动是他自",
+  "title": "创造性是了解自己的智力",
+  "old_topics": [
+   "thinking-and-nature",
+   "labor-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1627": {
+  "primary": "A9",
+  "seealso": [],
+  "facets": [],
+  "claim": "教育者在讲课时不仅在传授知识，也在丰富集体的精神生活——教育过程本身就是培养集体的主要因素。",
+  "evidence": "真正的教育者在课堂上讲述社会生活中的各种现象、自然界或人类，讲解道德或审美的重要意义时，决不会忘记，他不仅在传授知识，而且在用某些东西丰富集体的精神生活，启发学生的思想，培养他们对知识、对科学、对文化、对人的积极态度。在这个意义上说，教育过",
+  "title": "每堂课都在丰富集体",
+  "old_topics": [
+   "collective-education",
+   "teacher-growth"
+  ],
+  "type": "quote",
+  "tags": [
+   "A9"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1628": {
+  "primary": "A22",
+  "seealso": [],
+  "facets": [],
+  "claim": "教师的使命是使教学自始至终成为培养观点、情感、志向、评价和自我评价的过程。",
+  "evidence": "我认为教师的使命是要使教学自始至终成为培养观点、情感、志向、评价和自我评价的过程。",
+  "title": "教学要成为培养观点的过程",
+  "old_topics": [
+   "teacher-growth",
+   "assessment-grading"
+  ],
+  "type": "quote",
+  "tags": [
+   "A22"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1629": {
+  "primary": "A1",
+  "seealso": [],
+  "facets": [],
+  "claim": "培养孩子如何对待他们所了解、所认识并成为其劳动成果的一切事物，是教育理论与实践的中心问题。",
+  "evidence": "培养我们的教育对象如何对待他们所了解的、所认识的并成为他们劳动成果的一切事物，这是共产主义教育理论和实践中的一个中心问题。",
+  "title": "培养对待所知事物的态度",
+  "old_topics": [
+   "love-education",
+   "thinking-and-nature"
+  ],
+  "type": "quote",
+  "tags": [
+   "A1"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

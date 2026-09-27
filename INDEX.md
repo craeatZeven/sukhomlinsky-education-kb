@@ -8,12 +8,12 @@
 | [family-school](topics/family-school.md) | 家校合作 | 347 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 262 |
 | [health-first](topics/health-first.md) | 健康第一 | 81 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 283 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 285 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 318 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 399 |
-| [love-education](topics/love-education.md) | 爱的教育 | 616 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 53 |
-| [child-study](topics/child-study.md) | 儿童研究 | 613 |
+| [love-education](topics/love-education.md) | 爱的教育 | 622 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 54 |
+| [child-study](topics/child-study.md) | 儿童研究 | 616 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 104 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 216 |
 
@@ -1667,3 +1667,9 @@
 | [sk-1632](cards/sk-1632-one-sees-a-student-through-the-collective.md) | quote | collective-education / love-education | xuan-ji-zh-vol1 | 在集体中才看得出一个学生的为人 |
 | [sk-1633](cards/sk-1633-children-learn-what-people-are-through-the-educator.md) | quote | teacher-growth / family-school | xuan-ji-zh-vol1 | 孩子是通过教育者来认识人的 |
 | [sk-1634](cards/sk-1634-a-person-sees-himself-through-others.md) | quote | child-study / love-education | xuan-ji-zh-vol1 | 人起初是以别人来反映自己的 |
+| [sk-1635](cards/sk-1635-hardest-task-forming-a-moral-core.md) | quote | love-education / child-study | xuan-ji-zh-vol1 | 教育者最困难的任务：形成坚不可摧的道德核心 |
+| [sk-1636](cards/sk-1636-who-never-educates-anyone-cannot-be-educated.md) | quote | love-education / child-study | xuan-ji-zh-vol1 | 不关心任何人的人，自己也不可能被教育好 |
+| [sk-1637](cards/sk-1637-no-moral-striving-no-personality.md) | quote | love-education / child-study | xuan-ji-zh-vol1 | 没有道德追求的人，就是没有个性的人 |
+| [sk-1638](cards/sk-1638-moral-beauty-is-the-basis-of-personal-happiness.md) | quote | love-education / aesthetic-nature-education | xuan-ji-zh-vol1 | 道德美不是要人放弃幸福，而是个人幸福的基础 |
+| [sk-1639](cards/sk-1639-a-moral-person-is-first-of-all-a-happy-person.md) | quote | love-education / aesthetic-nature-education | xuan-ji-zh-vol1 | 道德美的人，首先是幸福的人 |
+| [sk-1640](cards/sk-1640-do-not-blame-children-for-moral-beauty.md) | quote | assessment-grading / love-education | xuan-ji-zh-vol1 | 不要指责儿童：指责会使他们忽视道德美 |

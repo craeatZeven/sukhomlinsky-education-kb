@@ -9,11 +9,11 @@
 | [labor-education](topics/labor-education.md) | 劳动教育 | 262 |
 | [health-first](topics/health-first.md) | 健康第一 | 81 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 286 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 318 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 400 |
-| [love-education](topics/love-education.md) | 爱的教育 | 633 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 55 |
-| [child-study](topics/child-study.md) | 儿童研究 | 620 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 319 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 402 |
+| [love-education](topics/love-education.md) | 爱的教育 | 638 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 56 |
+| [child-study](topics/child-study.md) | 儿童研究 | 623 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 105 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 217 |
 
@@ -1685,3 +1685,9 @@
 | [sk-1650](cards/sk-1650-love-between-parents-and-children-is-the-cradle-of-civic-feeling.md) | quote | family-school / love-education | xuan-ji-zh-vol1 | 家庭里的爱，是公民意识的最初摇篮 |
 | [sk-1651](cards/sk-1651-from-loving-mother-to-lifelong-devotion.md) | quote | family-school / love-education | xuan-ji-zh-vol1 | 从爱母亲出发，到把一生献给祖国 |
 | [sk-1652](cards/sk-1652-how-do-we-measure-patriotic-education.md) | quote | love-education / assessment-grading | xuan-ji-zh-vol1 | 用什么衡量爱国主义教育的程度 |
+| [sk-1653](cards/sk-1653-dont-decide-in-a-flash-of-anger.md) | quote | teacher-growth / love-education | xuan-ji-zh-vol1 | 不要仓促地、不假思索地作出对学生的处理决定 |
+| [sk-1654](cards/sk-1654-take-the-childs-inner-world-as-your-compass.md) | quote | child-study / love-education | xuan-ji-zh-vol1 | 像航海家依据指南针那样，依据「儿童」这个事实 |
+| [sk-1655](cards/sk-1655-childish-notions-are-seedlings-not-baby-teeth.md) | quote | child-study / love-education | xuan-ji-zh-vol1 | 儿童幼稚的观念不是乳牙，是树苗 |
+| [sk-1656](cards/sk-1656-to-have-authority-become-a-child-somewhat.md) | quote | love-education / child-study | xuan-ji-zh-vol1 | 要享有对儿童的合理权力，就得在某种程度上成为儿童 |
+| [sk-1657](cards/sk-1657-do-not-hand-childish-mischief-to-the-collective.md) | quote | assessment-grading / collective-education | xuan-ji-zh-vol1 | 别轻易把儿童的淘气交由集体谴责 |
+| [sk-1658](cards/sk-1658-the-diligent-teacher-whom-children-disliked.md) | quote | teacher-growth / love-education | xuan-ji-zh-vol1 | 一个勤奋认真、学生成绩也好的教师，孩子却不喜欢他 |

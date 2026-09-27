@@ -125,6 +125,25 @@ a { color: inherit; text-decoration: underline; text-decoration-color: var(--acc
 a:hover { color: var(--accent); text-decoration-color: var(--accent); }
 .wrap { max-width: 1180px; margin: 0 auto; padding: 0 22px; }
 
+/* 跳到主要内容（2026-09-27 加）。
+   依据 recipes/keyboard-walkthrough.md K3：键盘走查实测，
+   没有快捷跳转时要按 **10 次 Tab** 才到检索框（站名 + 7 个导航项 + 主题按钮）。
+   平时视觉隐藏（负 top，不用 clip 技巧 —— 它要被真的看见），聚焦时滑入。
+   z-index 高于 .topnav 的 1000，保证聚焦时不被顶栏压住。 */
+.skip {
+  position: fixed; left: 12px; top: -80px; z-index: 2000;
+  padding: 10px 16px; border-radius: 0 0 10px 10px;
+  background: var(--chrome-ink); color: var(--chrome);
+  font-size: 14px; text-decoration: none;
+  transition: top .15s;
+}
+.skip:focus { top: 0; }
+
+/* 顶栏是 position:sticky（高 60px），所以跳到 #main 时必须给它让位 ——
+   否则目标顶部会被顶栏盖住。**这个坑 2026-09-26 刚在作品集上踩过一次**（被盖 60px），
+   这次进来之前先防。 */
+html { scroll-padding-top: 72px; }
+
 /* Sticky top nav */
 .topnav {
   position: sticky; top: 0; z-index: 1000;
@@ -136,7 +155,12 @@ a:hover { color: var(--accent); text-decoration-color: var(--accent); }
   max-width: 1180px; margin: 0 auto; padding: 0 22px;
   display: flex; align-items: center; gap: 18px; height: 60px;
 }
-.topnav .brand { font-family: var(--serif); font-weight: 900; letter-spacing: .04em; color: var(--chrome-ink); text-decoration: none; white-space: nowrap; }
+/* 2026-09-27：原来只有 `white-space:nowrap`、**没有任何收缩余地** ——
+   实测 320px 视口 + 文字 200% 时站名占 400px，整页横向溢出 96px（内容页三条全中）。
+   加 min-width:0 让它在 flex 里能收缩，超出用省略号截断
+   （60px 的吸顶栏不适合让站名换行）。
+   出处 recipes/zoom-and-complex-content.md「组合最严条件」。 */
+.topnav .brand { font-family: var(--serif); font-weight: 900; letter-spacing: .04em; color: var(--chrome-ink); text-decoration: none; white-space: nowrap; min-width: 0; overflow: hidden; text-overflow: ellipsis; }
 
 /* ── 顶栏导航：三组下拉（2026-09-14 重排）────────────────────────────────
    为什么重排：原来 10 项平铺**没有依据**——查过 git，那 10 项是分 9 天、至少 8 个提交

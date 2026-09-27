@@ -28524,5 +28524,113 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1653": {
+  "primary": "A10",
+  "seealso": [],
+  "facets": [],
+  "claim": "教育技能中最容易干涸的一条支流，就是在情绪冲动下仓促处理学生。",
+  "evidence": "朋友们，当我们跨进学校大门，决心献身于塑造真正的人这一崇高的事业时，让我们记住我们面前潜伏着一种很大的危险——这就是容易冲动，容易受突然爆发的任性情绪所控制。要想成为一条使热烈的心和冷静的理智汇合在一起的河流，那就不能仓促地、不假思索地作出",
+  "title": "不要仓促处理学生",
+  "old_topics": [
+   "teacher-growth",
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A10"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1654": {
+  "primary": "A6",
+  "seealso": [],
+  "facets": [],
+  "claim": "一切工作的依据是「我们与之打交道的是儿童」这个事实，儿童时代的世界是一种特殊的世界。",
+  "evidence": "生活使我相信，在这十分敏感的教育领域中，最重要的是深刻理解和满腔热情地去感触儿童的内心世界，去感触儿童时代的特征。我们应该像航海家依据指南针那样，把我们与之打交道的是儿童这个客观事实作为一切工作的依据。儿童时代的世界，是一种特殊的世界。",
+  "title": "以儿童为指南针",
+  "old_topics": [
+   "child-study",
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A6"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1655": {
+  "primary": "A21",
+  "seealso": [],
+  "facets": [],
+  "claim": "儿童的幼稚观念不是迟早脱落的乳牙，而应当成为将来能长成大树的树苗。",
+  "evidence": "当你断定这是一些幼稚的东西时，绝不能忘记，你的学生明天就不再是儿童了。因此这些幼稚的观念、标准和观点并非像你的学生将要脱落的乳牙那种暂时存在的东西。儿童心目中需要树立起一些幼稚的但却是永久性的东西。幼稚的观念、标准、观点和信念，应当成为将来",
+  "title": "幼稚观念是树苗不是乳牙",
+  "old_topics": [
+   "child-study",
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A21"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1656": {
+  "primary": "A5",
+  "seealso": [],
+  "facets": [],
+  "claim": "取得进入童年宫殿的通行证，要靠教师自己在某种程度上成为儿童、再现儿童的本色。",
+  "evidence": "为了取得进入名为童年的这座奇异宫殿的通行证，我们应该使自己在某种程度上成为儿童，再现儿童的本色。只有在这种情况下，我们才能享有对儿童的合理权力。",
+  "title": "成为儿童才享有合理权力",
+  "old_topics": [
+   "love-education",
+   "child-study"
+  ],
+  "type": "quote",
+  "tags": [
+   "A5"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1657": {
+  "primary": "A16",
+  "seealso": [],
+  "facets": [],
+  "claim": "儿童的淘气不是故意作恶；除非万不得已，不要滥用集体的谴责。",
+  "evidence": "必须十分明智和谨慎地对待儿童各种并非故意作恶，而是一时淘气而犯下的错误。如果儿童正在努力向教师寻求保护，他本人便能尖锐地感觉到这种错误，或者正在为此感到内疚（如果儿童尚末具备这种能力，那就一定要培养他具有这种能力）。在这种情况下，不要轻率地",
+  "title": "别把淘气交给集体谴责",
+  "old_topics": [
+   "assessment-grading",
+   "collective-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A16"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1658": {
+  "primary": "A10",
+  "seealso": [],
+  "facets": [],
+  "claim": "学生成绩好、纪律好、教师勤奋，但孩子们不喜欢他——这是需要解释的现象，而不是无需解释的例外。",
+  "evidence": "我认得一位有30年左右教龄的教师伊万·科尔涅耶维奇。他在学校里和在区里一一向被认为是一位勤奋认真的教师。校长对他的评价是：“他努力使孩子们好好学习，不能容忍闲散的现象。最懒的学生在他班上也会变得勤奋。他不允许学生有不懂礼貌的行为。但是，奇怪",
+  "title": "勤奋却不被喜欢的教师",
+  "old_topics": [
+   "teacher-growth",
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A10"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

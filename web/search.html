@@ -52,7 +52,7 @@
   <div class="wrap">
     <div class="eyebrow">Search</div>
     <h1>全库搜索</h1>
-    <p>在 1675 张卡片里按题名、中文转述、原文摘录与出处检索</p>
+    <p>在 1687 张卡片里按题名、中文转述、原文摘录与出处检索</p>
   </div>
 </header>
 
@@ -417,7 +417,9 @@ async function run(){
     + (state.q ? ` · 关键词「${KB.esc(state.q)}」` : "")
     + ((state.source || state.topic || state.type) ? " · 已加筛选" : "");
   $("apiState").textContent = (MODE === "api" ? "后端已连接" : "本地静态检索")
-    + ` · 检索模式 ${r.mode || MODE} · 命中 ${state.total} / 共 ${SDATA ? SDATA.index.length : 1386} 张卡`;
+    // 兜底默认值不再写死卡片数（2026-09-27）：数据没载入时宁可不显示总数，
+    // 也不要显示一个会过期的数字（此前是 1386，实际已 1675+）。
+    + ` · 检索模式 ${r.mode || MODE} · 命中 ${state.total}` + (SDATA ? ` / 共 ${SDATA.index.length} 张卡` : "");
   countUp($("totalNum"), lastTotal, state.total, 320);
   lastTotal = state.total;
   box.classList.add("kb-in");

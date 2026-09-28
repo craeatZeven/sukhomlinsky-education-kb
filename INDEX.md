@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 162 |
-| [family-school](topics/family-school.md) | 家校合作 | 353 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 264 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 163 |
+| [family-school](topics/family-school.md) | 家校合作 | 354 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 266 |
 | [health-first](topics/health-first.md) | 健康第一 | 82 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 287 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 323 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 405 |
-| [love-education](topics/love-education.md) | 爱的教育 | 646 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 57 |
-| [child-study](topics/child-study.md) | 儿童研究 | 628 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 406 |
+| [love-education](topics/love-education.md) | 爱的教育 | 649 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 58 |
+| [child-study](topics/child-study.md) | 儿童研究 | 630 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 105 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 221 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 222 |
 
 ## 来源 Sources
 
@@ -1713,3 +1713,15 @@
 | [sk-1678](cards/sk-1678-nature-is-the-richest-source-of-feeling.md) | quote | aesthetic-nature-education | xuan-ji-zh-vol5 | 自然界是最丰富的情感源泉 |
 | [sk-1679](cards/sk-1679-spiritual-loneliness-is-the-worst-wound.md) | quote | family-school | xuan-ji-zh-vol5 | 最危险的创伤是儿童感到谁也不需要他 |
 | [sk-1680](cards/sk-1680-empathy-is-the-first-step.md) | quote | love-education | xuan-ji-zh-vol5 | 感同身受是用心灵去体察人的第一步 |
+| [sk-1681](cards/sk-1681-do-not-let-inequality-become-misfortune.md) | quote | child-study | gei-jiao-shi-de-jian-yi-zh | 不要让智力上的不平等成为某些孩子的不幸 |
+| [sk-1682](cards/sk-1682-evaluation-is-a-tool-not-a-punishment.md) | quote | assessment-grading | gei-jiao-shi-de-jian-yi-zh | 评价是教师手里的一种教育工具，而不是惩罚 |
+| [sk-1683](cards/sk-1683-keep-slow-learners-in-ordinary-school.md) | quote | learning-difficulties | gei-jiao-shi-de-jian-yi-zh | 学习能力较低的孩子要留在普通学校里个别对待 |
+| [sk-1684](cards/sk-1684-the-real-link-between-labor-and-knowledge.md) | quote | labor-education | gei-jiao-shi-de-jian-yi-zh | 劳动与知识的真正联系在于劳动是创造 |
+| [sk-1685](cards/sk-1685-education-improves-by-strengthening-family.md) | quote | family-school | gei-jiao-shi-de-jian-yi-zh | 教育的完善不是削弱家庭的作用，而是加强它 |
+| [sk-1686](cards/sk-1686-moral-maturity-needs-thinking-maturity.md) | quote | thinking-and-nature | gei-jiao-shi-de-jian-yi-zh | 道德成熟性跟思考成熟性不可分割 |
+| [sk-1687](cards/sk-1687-beliefs-are-formed-every-hour.md) | quote | love-education | xuan-ji-zh-vol1 | 信念随时随地都在形成，思想教育是学校最重要的领域 |
+| [sk-1688](cards/sk-1688-children-are-not-a-blank-sheet.md) | quote | child-study | xuan-ji-zh-vol1 | 儿童不是一张可以任意书写的白纸 |
+| [sk-1689](cards/sk-1689-only-the-frank-can-hold-firm-beliefs.md) | quote | love-education | xuan-ji-zh-vol1 | 只有襟怀坦白的人才能是有坚定信念的人 |
+| [sk-1690](cards/sk-1690-beliefs-must-live-in-real-relations.md) | quote | love-education | xuan-ji-zh-vol1 | 知识要变成信念，就必须在学校里实际体现出来 |
+| [sk-1691](cards/sk-1691-beliefs-take-root-in-hard-labor.md) | quote | labor-education | xuan-ji-zh-vol1 | 信念在日常的、花费心血的劳动中扎根 |
+| [sk-1692](cards/sk-1692-words-must-reach-thought-and-conscience.md) | quote | teacher-growth | xuan-ji-zh-vol1 | 教师的话要打动学生的思想和良心，而不只是叙述教材 |

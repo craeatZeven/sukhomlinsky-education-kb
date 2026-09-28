@@ -730,6 +730,18 @@ button.mx-cell:hover { box-shadow: 0 0 0 2px var(--accent); }
    2026-09-16 补。它回答"这一条什么时候用得上"，是读者最需要的一段；
    350 处卡对卡引用也全在这里。走阅读层语言（栏宽内的正文 + 左侧细线列表），
    不在卡片里再套卡片。 */
+/* 校勘记录 + 说明（2026-09-27 加）：296 张卡的 OCR 勘正留痕此前到不了站上；
+   6 张卡的「说明」此前被并进引文当原文显示。两者都按「读者要能复核」排：证据在前、解释在后。 */
+.excerpt-note { margin: 10px 0 0; font-size: 13px; line-height: 1.7; color: var(--soft);
+  padding-left: 14px; border-left: 2px solid var(--line); }
+.card-fix { margin: 12px 0 0; border: 1px solid var(--line); border-radius: var(--radius-archive); }
+.card-fix > summary { cursor: pointer; padding: 8px 12px; font-size: 13px; font-weight: 700;
+  color: var(--accent-ink); letter-spacing: .02em; }
+.card-fix > summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.card-fix ul { margin: 0; padding: 4px 12px 10px 28px; font-size: 13px; line-height: 1.75; color: var(--ink); }
+.card-fix li { font-family: var(--mono); font-size: 12.5px; }
+.card-fix .fix-why { margin: 0; padding: 8px 12px 10px; font-size: 12.5px; color: var(--soft);
+  border-top: 1px solid var(--line); line-height: 1.7; }
 .card-usage { margin-top: 26px; padding-top: 18px; border-top: 1px solid var(--line); }
 .card-usage .section-sub { margin-bottom: 10px; }
 .card-usage code { font-family: var(--mono); font-size: 12px; }

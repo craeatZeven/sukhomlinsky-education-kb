@@ -160,11 +160,18 @@ def parse_cards() -> list[dict]:
             continue
         excerpt_section = section(text, '原文/Excerpt')
         excerpts: list[str] = []
+        note = ''
         current: list[str] = []
         for line in excerpt_section.splitlines():
             if not line.startswith('>'):
                 continue
             content = line.lstrip('>').strip()
+            # 「> 说明：…」是**注解**，不是原文（2026-09-27 修）：
+            # 此前它被当成又一段引文渲染 —— 注解混进引文＝把编者的话冒充作者的话。
+            # 实测 6 张卡中招（案例卡的「引文为人物语言，非作者论断」这类说明就在此列）。
+            if content.startswith('说明：'):
+                note = content[len('说明：'):].strip()
+                continue
             if content == '':
                 if current:
                     excerpts.append(' '.join(current))
@@ -182,6 +189,14 @@ def parse_cards() -> list[dict]:
                     continue
                 excerpts.append(line)
         excerpt = ' '.join(excerpts)
+        # 校勘记录：「引文用勘正后的字 + 卡内留痕」是全库 A 政策的要件。它是紧跟引文的
+        # **普通行**（不是 `>` 引用），此前被解析器整个丢掉 —— **296 张卡**的校勘留痕
+        # 在网站上完全不可见。2026-09-27 修：抽出来进分片，详情页单列一块。
+        corrections: list[str] = []
+        m_fix = re.search(r'校勘记录（已校勘[^）]*）：\s*\n((?:[-*]\s*.*\n?)+)', excerpt_section)
+        if m_fix:
+            corrections = [re.sub(r'^[-*]\s*', '', x).strip()
+                           for x in m_fix.group(1).splitlines() if x.strip()]
         cn_section = section(text, '中文转述/说明')
         cn = first_para(cn_section)
         # 编者概括：当一张卡**没有逐字原文可用**时，把概括放在这个独立小节，
@@ -222,6 +237,8 @@ def parse_cards() -> list[dict]:
             'excerpts': excerpts,
             'excerpt_status': excerpt_status,
             'editor_summary': editor_summary,
+            'corrections': corrections,
+            'note': note,
             'usage': usage,
             'cn': cn,
             'ref': fm.get('ref', ''),

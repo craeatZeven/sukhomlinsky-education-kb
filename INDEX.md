@@ -5,15 +5,15 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 162 |
-| [family-school](topics/family-school.md) | 家校合作 | 351 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 262 |
+| [family-school](topics/family-school.md) | 家校合作 | 353 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 264 |
 | [health-first](topics/health-first.md) | 健康第一 | 82 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 286 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 322 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 403 |
-| [love-education](topics/love-education.md) | 爱的教育 | 644 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 56 |
-| [child-study](topics/child-study.md) | 儿童研究 | 627 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 287 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 323 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 405 |
+| [love-education](topics/love-education.md) | 爱的教育 | 646 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 57 |
+| [child-study](topics/child-study.md) | 儿童研究 | 628 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 105 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 221 |
 
@@ -1701,3 +1701,15 @@
 | [sk-1666](cards/sk-1666-content-chosen-by-scientific-knowledge-not-by-interest.md) | quote | thinking-and-nature / teacher-growth | xuan-ji-zh-vol3 | 教材内容由科学认识的逻辑决定，不是由个别兴趣决定 |
 | [sk-1667](cards/sk-1667-lyuda-the-hidden-thought.md) | quote | child-study / learning-difficulties | xuan-ji-zh-vol3 | 柳达的思维，是一个藏得很严的秘密 |
 | [sk-1668](cards/sk-1668-thoughts-flow-like-streams-and-converge.md) | quote | thinking-and-nature / collective-education | xuan-ji-zh-vol3 | 孩子们的思想像小溪，汇合之后就清楚了 |
+| [sk-1669](cards/sk-1669-student-as-active-force-on-peers.md) | quote | collective-education | xuan-ji-zh-vol2 | 学生不只是教育的客体，也是影响同学的积极力量 |
+| [sk-1670](cards/sk-1670-public-service-labor-is-objective-environment.md) | quote | labor-education | xuan-ji-zh-vol2 | 先进的社会公益活动是影响意识的客观环境 |
+| [sk-1671](cards/sk-1671-truth-must-be-verified-in-the-childs-world.md) | quote | teacher-growth | xuan-ji-zh-vol2 | 真理要在孩子身边的小小世界里得到验证 |
+| [sk-1672](cards/sk-1672-labor-success-before-wage.md) | quote | labor-education | xuan-ji-zh-vol2 | 在获得劳动报酬之前，就该在劳动中取得重大成功 |
+| [sk-1673](cards/sk-1673-stronger-resistance-to-a-bad-home.md) | quote | family-school | xuan-ji-zh-vol2 | 家庭的不良影响越大，孩子的抵制力就应当越强 |
+| [sk-1674](cards/sk-1674-highest-reward-is-self-satisfaction.md) | quote | assessment-grading | xuan-ji-zh-vol2 | 对高尚行为的最高奖赏不是赞扬，而是自我满足感 |
+| [sk-1675](cards/sk-1675-rational-humane-love-for-children.md) | quote | love-education | xuan-ji-zh-vol5 | 这里讲的是理智的人道的爱 |
+| [sk-1676](cards/sk-1676-knowing-each-child-deepens-love.md) | quote | child-study | xuan-ji-zh-vol5 | 越了解儿童感知世界的微妙之处，就越会爱每一个儿童 |
+| [sk-1677](cards/sk-1677-two-thirds-of-time-in-friendly-intercourse.md) | quote | teacher-growth | xuan-ji-zh-vol5 | 师生相处时间的2/3应是同志式的友好交往 |
+| [sk-1678](cards/sk-1678-nature-is-the-richest-source-of-feeling.md) | quote | aesthetic-nature-education | xuan-ji-zh-vol5 | 自然界是最丰富的情感源泉 |
+| [sk-1679](cards/sk-1679-spiritual-loneliness-is-the-worst-wound.md) | quote | family-school | xuan-ji-zh-vol5 | 最危险的创伤是儿童感到谁也不需要他 |
+| [sk-1680](cards/sk-1680-empathy-is-the-first-step.md) | quote | love-education | xuan-ji-zh-vol5 | 感同身受是用心灵去体察人的第一步 |

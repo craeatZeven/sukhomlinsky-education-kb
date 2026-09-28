@@ -28812,5 +28812,209 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1669": {
+  "primary": "A9",
+  "seealso": [],
+  "facets": [],
+  "claim": "道德教育最可操作的准则之一，是把少年儿童从教育的客体变为影响同伴的积极力量。",
+  "evidence": "可付诸实践的最主要的道德教育准则之一，我们认为，就是个人在少年和青年早期应不仅仅是教育的客体，而且是影响同学的积极力量。当然这不是口头宣言，而是一项实实在在的任务，尤其，如果指的是儿童社会组织的话，它们应把这项任务作为自己的重要活动。",
+  "title": "学生是影响同学的积极力量",
+  "old_topics": [
+   "collective-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A9"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1670": {
+  "primary": "A11",
+  "seealso": [],
+  "facets": [],
+  "claim": "只有把学生直接引入先进的社会公益活动，劳动的客观教育作用才会真正发生。",
+  "evidence": "先进的社会公益活动是一种良好的环境，它作为客观因素影响到年轻一代的意识，在他们的意识里巩固着学校里所形成的思想和观点，教育教学紧密联系生活这一思想得以实现的条件之一，就是直接地而非间接地把受教育者引入这种实践。",
+  "title": "公益劳动是客观的教育环境",
+  "old_topics": [
+   "labor-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A11"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1671": {
+  "primary": "A22",
+  "seealso": [],
+  "facets": [],
+  "claim": "道德原则只有被孩子在身边的现实里验证过，才会变成信念。",
+  "evidence": "成长中的人确立的道德原则是否符合真理的标准，应当在周围现实中得到验证。我们指的现实，是在孩子身边所发生的现实情况。教育者告诉学生的那些崇高原则，应当在学生所能接触的小小世界里鲜明地获得反映。这对于形成坚定的信念，以及在人的心灵中确立那种无可",
+  "title": "真理要经现实验证",
+  "old_topics": [
+   "teacher-growth"
+  ],
+  "type": "quote",
+  "tags": [
+   "A22"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1672": {
+  "primary": "A11",
+  "seealso": [],
+  "facets": [],
+  "claim": "劳动教育要先让孩子在劳动中取得真实成功，报酬与评价必须后置。",
+  "evidence": "一个人在成为有劳动能力的人之前，就应当在劳动中取得重大成功。在一个人能够获得劳动报酬之前，延迟他开始劳动生活的时间，就意味着人为地压制其精神力量，限制其参与社会公益活动。学龄早期的学生在智力、崇高思想、意志等方面的活动，能促进少年时期道德的",
+  "title": "先有劳动成功再有报酬",
+  "old_topics": [
+   "labor-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A11"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1673": {
+  "primary": "A8",
+  "seealso": [],
+  "facets": [],
+  "claim": "面对家庭的不良影响，学校应增强孩子的道德抵制力，而不是把他隔离于冲突之外。",
+  "evidence": "对于个别家庭对孩子施加的不良影响，也应以此观点去解决。这种不良影响越大，成长中的人的抵制力就应当越强。精神坚毅、道德坚定的人，他们不逃避在实现共产主义道德原则斗争中出现的冲突，相反，他们有准备地参与这场斗争。这是合乎规律的，因为相信自己是正",
+  "title": "以抵制力回应家庭不良影响",
+  "old_topics": [
+   "family-school"
+  ],
+  "type": "quote",
+  "tags": [
+   "A8"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1674": {
+  "primary": "A16",
+  "seealso": [],
+  "facets": [],
+  "claim": "以自我满足感而非赞扬作为最高奖赏，才能避免道德行为变成换取表扬的手段。",
+  "evidence": "对高尚行为的最高奖赏不应是赞扬和其他鼓励，而是对做完事情之后的自我满足感。这样，伊万救人的行为，他就认为不是什么功劳，而是平常的举动，是类同干给老人或妇女让坐位那样的行为规范。源于社会主义共同生活准则的行为，应当被孩子看成是一种自然的、平常",
+  "title": "最高奖赏是自我满足感",
+  "old_topics": [
+   "assessment-grading"
+  ],
+  "type": "quote",
+  "tags": [
+   "A16"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1675": {
+  "primary": "A5",
+  "seealso": [],
+  "facets": [],
+  "claim": "教师对学生的爱应是理智而人道的，它以对人性与个性的深刻认识为前提。",
+  "evidence": "这里讲的不是本能的爱——它缺乏生活哲理，它有时会给儿童带来很大害处。这里讲的是理智的人道的爱——它因对人性的深刻认识和对个性一切长短的深刻理解而充满崇高精神，它能防止非理性行为与激励诚实和高尚行为。这种爱是教导人生活的爱，这种爱不是轻浮的爱",
+  "title": "理智的人道的爱",
+  "old_topics": [
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A5"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1676": {
+  "primary": "A6",
+  "seealso": [],
+  "facets": [],
+  "claim": "对儿童个体差异的具体认识，是教师之爱得以产生的前提条件。",
+  "evidence": "对儿童感知世界的这些微妙之处越是了解，便越会爱每一个儿童。如果我不了解儿童身上人性的多面性，如果每天没有每个儿童的某种新东西展现在我面前，一切儿童的模样儿都差不多，那么，我就不能说已经看清了儿童的真面目，而看不清儿童真面目的人是不可能爱儿童",
+  "title": "了解越多爱得越深",
+  "old_topics": [
+   "child-study"
+  ],
+  "type": "quote",
+  "tags": [
+   "A6"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1677": {
+  "primary": "A10",
+  "seealso": [],
+  "facets": [],
+  "claim": "师生相处时间的三分之二应当是脱离教学与评分的同志式交往，这是爱得以传递的通道。",
+  "evidence": "在这里应该记住一条非常重要的教育规律，如果你忘记它，不管你多么热爱儿童，儿童也不会热爱你。这条规律可以表述如下：如果把教师跟自己学生相处在一起的全部时间视为一个整体，那么，它的2/3应当是自愿的、同志式的、友好的交往。在这时，儿童会忘记自己",
+  "title": "三分之二时间用于友好交往",
+  "old_topics": [
+   "teacher-growth"
+  ],
+  "type": "quote",
+  "tags": [
+   "A10"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1678": {
+  "primary": "A12",
+  "seealso": [],
+  "facets": [],
+  "claim": "与大自然接触是情感与理智发展的源头，也是教师重新看见儿童真面目的途径。",
+  "evidence": "自然界是最丰富的情感源泉，正是由于大自然对感情的直接陶冶，促进了理智的发展，并把儿童用来观察世界的小窗口变得宽敞、明净、光亮起来。对美的认识，将使心灵高尚，使儿童美好，而你在别的情况下看惯了的儿童似乎是第一次出现在你面前。",
+  "title": "自然是情感源泉",
+  "old_topics": [
+   "aesthetic-nature-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A12"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1679": {
+  "primary": "A8",
+  "seealso": [],
+  "facets": [],
+  "claim": "最危险的儿童创伤是精神孤独，它常常隐藏在外表正常的家庭之中。",
+  "evidence": "依我之见，最危险的创伤是儿童知道并感到谁也不需要他的孤独(之所以危险，是因为在乍一看来堪称良好的许多家庭里，儿童的心也受到伤害)。这里说的不是父母对孩子弃而不顾，听其自然。这种罕见的情况自当别论。我们讲的是复杂得多的精神孤独现象。",
+  "title": "精神孤独是最危险的创伤",
+  "old_topics": [
+   "family-school"
+  ],
+  "type": "quote",
+  "tags": [
+   "A8"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1680": {
+  "primary": "A5",
+  "seealso": [],
+  "facets": [],
+  "claim": "唤起儿童对他人的感同身受，是防止精神孤独、培养爱人之心的第一步。",
+  "evidence": "亲近他人，教师要从教孤独儿童学会感同身受做起：教师打算让学生亲近某人，就要向他讲讲这个人所经受的不幸和灾难。感同身受——这是用心灵去体察人的第一步。由于某种原因在家庭里对最亲近的人、对最可爱的生灵未能领略到爱心的孩子，我就教导他要把别人的不",
+  "title": "感同身受是第一步",
+  "old_topics": [
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A5"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

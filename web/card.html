@@ -183,6 +183,12 @@ function renderCard(c, error){
     </dl>
     <div id="noteRefs"></div>
     ${excerptsHtml}
+    ${(c.note||"").trim()?`<p class="excerpt-note"><b>说明：</b>${KB.esc(c.note)}</p>`:""}
+    ${(c.corrections&&c.corrections.length)?`<details class="card-fix">
+      <summary>校勘记录（已勘正 ${c.corrections.length} 处 OCR 误读）</summary>
+      <ul>${c.corrections.map(x=>`<li>${KB.esc(x)}</li>`).join("")}</ul>
+      <p class="fix-why">引文按勘正后的字排印；此表保留「改前→改后」，便于对照扫描件复核。</p>
+    </details>`:""}
     ${paraphraseBlock}
     ${c.cn?`<div class="cn"><b>中文转述：</b>${KB.esc(c.cn)}</div>`:""}
     ${(c.usage||"").trim()?`<section class="card-usage">

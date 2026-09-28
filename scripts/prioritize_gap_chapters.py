@@ -19,6 +19,15 @@ cited = collections.defaultdict(set)
 for r in loc:
     if r.get("unit"): cited[str(r.get("book"))].add(r["unit"])
 NONCONTENT = re.compile(r"注释|前 ?言|目录|目 ?次|附录|编后|译后|版权|书名|扉页|序 ?言|出版说明")
+# **实测不可成卡的章**（不是靠印象，是子代理逐 unit 数过之后回报的）。
+# 判据：该章绝大多数 unit 是图窗说明 / 陈列清单 / 标语牌文字，作者本人的论断句极少。
+# 放进这里，是为了让后续批次**不再把配额浪费在这些章上**。
+NOT_CARDABLE = {
+    "校舍内部陈设的教育作用":
+        "260 unit 里 225 个 <90 字（主体是图窗说明/陈列清单/标语牌）；≥90 字的 35 个里 32 个是叙事/清单/标语，"
+        "真论断仅 2 条（2026-09-27 子代理实测，该批实出 2 张、拒绝凑数）",
+    "苏联杰出的教育家": "他人评述（署名行「阿·泽韦林著」）",
+}
 CLAIM = re.compile(r"我认为|我坚信|我深信|应该|必须|不能|正是|意味着|首先|教育者|教师应")
 AUTHORSIGN = re.compile(r"著$|著[，,。]|（著）|编著")
 rows = []
@@ -32,7 +41,10 @@ for slug, book in ALIAS.items():
         if len(lst) < 30: continue
         h = sum(1 for u in lst if u["unit_id"] in hit)
         if h > max(1, len(lst)//20): continue
-        reason = None
+        reason = NOT_CARDABLE.get(sec)
+        if reason:
+            rows.append((len(lst) - h, 0.0, book, sec, len(lst), h, "实测不可成卡：" + reason[:28]))
+            continue
         if NONCONTENT.search(sec): reason = "非正文"
         else:
             head = [re.sub(r"\s+","",u["text"] or "") for u in lst[:3]]

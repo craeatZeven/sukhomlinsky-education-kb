@@ -216,6 +216,20 @@
       });
     },
 
+    /* 分页索引（2026-09-27 加，B 评审）：
+     * explore 这类"浏览全部"的页面，先前为了显示 60 行要下完 1,687 行的全库索引（383 KB gzip）。
+     * 现在可以只取当前页。**调用方要自己保证筛选语义**——只载一部分行去做筛选，
+     * 会得到"筛出来的不是全部"，那比慢更糟（所以这一步先只提供能力，不改任何页面行为）。
+     * 返回 {cards, page, pages, count}。
+     */
+    loadIndexPage: function (n) {
+      var num = String(n || 1);
+      if (num.length < 2) num = "0" + num;
+      return KB.ready().then(function () {
+        return getJSON("index-p/" + num + ".json");
+      });
+    },
+
     loadIndexFor: function (slug) {
       return KB.ready().then(function () {
         return getJSON("index/" + encodeURIComponent(slug) + ".json")

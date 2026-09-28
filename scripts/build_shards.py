@@ -545,6 +545,21 @@ def main() -> None:
                    dump(DATA / 'index.json', {'count': len(index_cards), 'cards': index_cards}),
                    gz_len(DATA / 'index.json')))
 
+    # 2-b) **分页切片**（2026-09-27 加，B 评审：explore 首屏要下 383 KB 的全库索引）
+    #     列表页只需要"当前这一屏要显示的行"，不必为了显示 60 行而下完 1,687 行。
+    #     详情页早已按需分片，这是同一原则延伸到列表页。
+    #     **纯增量**：index.json 仍然生成（其余 5 个页面与检索回退继续用它），不破坏任何现有消费方。
+    PAGE_ROWS = 150
+    pages = [index_cards[i:i + PAGE_ROWS] for i in range(0, len(index_cards), PAGE_ROWS)]
+    for n, chunk in enumerate(pages, 1):
+        rel = 'data/index-p/%02d.json' % n
+        report.append((rel,
+                       dump(DATA / 'index-p' / ('%02d.json' % n),
+                            {'page': n, 'per': PAGE_ROWS, 'pages': len(pages),
+                             'count': len(index_cards), 'cards': chunk}),
+                       gz_len(DATA / 'index-p' / ('%02d.json' % n))))
+    print('分页切片：%d 页 × %d 行（index.json 保留，供检索回退与其余页面使用）' % (len(pages), PAGE_ROWS))
+
     # 3) 按来源切分的索引
     by_source: dict[str, list[dict]] = {}
     for entry, card in zip(index_cards, cards):

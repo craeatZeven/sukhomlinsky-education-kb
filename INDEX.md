@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 163 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 164 |
 | [family-school](topics/family-school.md) | 家校合作 | 356 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 273 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 274 |
 | [health-first](topics/health-first.md) | 健康第一 | 82 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 288 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 289 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 326 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 408 |
-| [love-education](topics/love-education.md) | 爱的教育 | 651 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 410 |
+| [love-education](topics/love-education.md) | 爱的教育 | 655 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 58 |
-| [child-study](topics/child-study.md) | 儿童研究 | 634 |
+| [child-study](topics/child-study.md) | 儿童研究 | 636 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 105 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 228 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 229 |
 
 ## 来源 Sources
 
@@ -1745,3 +1745,15 @@
 | [sk-1710](cards/sk-1710-a-teacher-must-know-people.md) | quote | teacher-growth / family-school | xuan-ji-zh-vol5 | 如果你想做一名真正的教师，就应该了解人 |
 | [sk-1711](cards/sk-1711-wonder-is-the-beginning-of-thought.md) | quote | thinking-and-nature / child-study | xuan-ji-zh-vol4 | 这种新奇和惊讶之感便是思考的开端 |
 | [sk-1712](cards/sk-1712-words-must-meet-the-collective-concern.md) | quote | collective-education / teacher-growth | xuan-ji-zh-vol4 | 言词只有与集体关心的问题相联，才能触动思想和心火 |
+| [sk-1713](cards/sk-1713-vol1-open-the-domain-of-spiritual-growth.md) | quote | learning-difficulties | xuan-ji-zh-vol1 | 培养全面发展的人的技巧，在于为每个学生打开他精神发展的领域 |
+| [sk-1714](cards/sk-1714-vol1-essence-of-intellectual-education.md) | quote | thinking-and-nature | xuan-ji-zh-vol1 | 有教学而没有智育，是儿童知识肤浅的主要原因 |
+| [sk-1715](cards/sk-1715-vol1-every-teacher-a-cultivator-of-wisdom.md) | quote | teacher-growth | xuan-ji-zh-vol1 | 每一个教师同时成为智慧的培育者 |
+| [sk-1716](cards/sk-1716-vol1-knowledge-as-means-of-knowing-labor.md) | quote | labor-education | xuan-ji-zh-vol1 | 要使知识成为认识劳动的手段，而不是让劳动以原始性工作的形式出现 |
+| [sk-1717](cards/sk-1717-vol1-first-lesson-of-preparing-to-be-parents.md) | quote | love-education | xuan-ji-zh-vol1 | 从道德上准备做父母的第一课，是教人做人而不是做情感的奴隶 |
+| [sk-1718](cards/sk-1718-vol1-maturity-does-not-arrive-suddenly.md) | quote | child-study | xuan-ji-zh-vol1 | 培养道德的成熟性：一个人的成熟不是突然到来的 |
+| [sk-1719](cards/sk-1719-vol2-feeling-for-beauty.md) | quote | aesthetic-nature-education | xuan-ji-zh-vol2 | 对美的东西的感受能使人刚毅果敢、心地善良 |
+| [sk-1720](cards/sk-1720-vol2-word-as-tool-of-moral-education.md) | quote | teacher-growth | xuan-ji-zh-vol2 | 只有当话语里蕴藏着追求道德理想的种子时，它才能成为道德教育的工具 |
+| [sk-1721](cards/sk-1721-vol2-education-protects-joy.md) | quote | love-education | xuan-ji-zh-vol2 | 教育必须保护孩子心灵中欢乐和幸福这份精神财富 |
+| [sk-1722](cards/sk-1722-vol2-emotional-refinement.md) | quote | love-education | xuan-ji-zh-vol2 | 情感的素养：心灵不平静、柔弱、富于同情感，才会成为有教养的人 |
+| [sk-1723](cards/sk-1723-vol2-teenagers-are-still-children.md) | quote | child-study | xuan-ji-zh-vol2 | 甚至十六七岁的人，对我们教育者来说多半还是个孩子 |
+| [sk-1724](cards/sk-1724-vol2-thirst-for-spiritual-wealth.md) | quote | love-education | xuan-ji-zh-vol2 | 对精神财富的渴望，只有在人知道什么是高尚时才会产生 |

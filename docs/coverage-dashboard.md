@@ -5,7 +5,7 @@
 
 ## 总览
 
-- 卡片总数：**1658**
+- 卡片总数：**1719**
 - 来源数：**12**
 - 主题数：**12**
 - 《做人的故事》：**541 张卡 / 540 个目录标题**
@@ -15,14 +15,14 @@
 | 来源 | 卡片数 | 含印刷页码 ref |
 |---|---:|---:|
 | 做人的故事（`zuo-ren-de-gu-shi-zh`） | 541 | 541/541 |
-| 苏霍姆林斯基选集（五卷本）第2卷（`xuan-ji-zh-vol2`） | 305 | 45/305 |
-| 苏霍姆林斯基选集（五卷本）第5卷（`xuan-ji-zh-vol5`） | 215 | 109/215 |
-| 苏霍姆林斯基选集（五卷本）第3卷（`xuan-ji-zh-vol3`） | 176 | 51/176 |
-| 苏霍姆林斯基选集（五卷本）第4卷（`xuan-ji-zh-vol4`） | 166 | 41/166 |
-| 苏霍姆林斯基选集（五卷本）第1卷（`xuan-ji-zh-vol1`） | 105 | 36/105 |
+| 苏霍姆林斯基选集（五卷本）第2卷（`xuan-ji-zh-vol2`） | 317 | 45/317 |
+| 苏霍姆林斯基选集（五卷本）第5卷（`xuan-ji-zh-vol5`） | 239 | 109/239 |
+| 苏霍姆林斯基选集（五卷本）第3卷（`xuan-ji-zh-vol3`） | 181 | 51/181 |
+| 苏霍姆林斯基选集（五卷本）第4卷（`xuan-ji-zh-vol4`） | 168 | 41/168 |
+| 苏霍姆林斯基选集（五卷本）第1卷（`xuan-ji-zh-vol1`） | 117 | 36/117 |
 | On Education（`on-education`） | 41 | 0/41 |
 | 把心献给孩子（`ba-xin-xian-gei-hai-zi-zh`） | 35 | 0/35 |
-| 给教师的建议（`gei-jiao-shi-de-jian-yi-zh`） | 24 | 23/24 |
+| 给教师的建议（`gei-jiao-shi-de-jian-yi-zh`） | 30 | 23/30 |
 | To Children I Give My Heart（`to-children-i-give-my-heart`） | 22 | 0/22 |
 | Each One Must Shine: The Educational Legacy of V. A. Sukhomlinsky（`each-one-must-shine`） | 16 | 0/16 |
 | The Singing Feather (会唱歌的羽毛)（`singing-feather`） | 12 | 0/12 |
@@ -32,7 +32,7 @@
 | 类型 | 数量 |
 |---|---:|
 | `case` | 673 |
-| `quote` | 531 |
+| `quote` | 592 |
 | `principle` | 194 |
 | `method` | 164 |
 | `practice` | 96 |
@@ -41,18 +41,18 @@
 
 | 主题 | 卡片数 |
 |---|---:|
-| 爱的教育（`love-education`） | 643 |
-| 儿童研究（`child-study`） | 625 |
-| 教师成长（`teacher-growth`） | 402 |
-| 家校合作（`family-school`） | 351 |
-| 集体教育（`collective-education`） | 321 |
-| 美育与自然（`aesthetic-nature-education`） | 286 |
-| 劳动教育（`labor-education`） | 262 |
-| 思维课与大自然（`thinking-and-nature`） | 217 |
-| 学习困难学生（`learning-difficulties`） | 161 |
+| 爱的教育（`love-education`） | 655 |
+| 儿童研究（`child-study`） | 636 |
+| 教师成长（`teacher-growth`） | 410 |
+| 家校合作（`family-school`） | 356 |
+| 集体教育（`collective-education`） | 326 |
+| 美育与自然（`aesthetic-nature-education`） | 289 |
+| 劳动教育（`labor-education`） | 274 |
+| 思维课与大自然（`thinking-and-nature`） | 229 |
+| 学习困难学生（`learning-difficulties`） | 164 |
 | 阅读与书籍（`reading-and-books`） | 105 |
 | 健康第一（`health-first`） | 82 |
-| 评价与分数（`assessment-grading`） | 56 |
+| 评价与分数（`assessment-grading`） | 58 |
 
 ## 当前已知缺口
 

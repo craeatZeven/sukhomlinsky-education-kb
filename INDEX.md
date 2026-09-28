@@ -5,17 +5,17 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 163 |
-| [family-school](topics/family-school.md) | 家校合作 | 354 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 266 |
+| [family-school](topics/family-school.md) | 家校合作 | 355 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 273 |
 | [health-first](topics/health-first.md) | 健康第一 | 82 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 287 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 323 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 325 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 406 |
-| [love-education](topics/love-education.md) | 爱的教育 | 649 |
+| [love-education](topics/love-education.md) | 爱的教育 | 651 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 58 |
 | [child-study](topics/child-study.md) | 儿童研究 | 630 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 105 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 222 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 224 |
 
 ## 来源 Sources
 
@@ -1725,3 +1725,15 @@
 | [sk-1690](cards/sk-1690-beliefs-must-live-in-real-relations.md) | quote | love-education | xuan-ji-zh-vol1 | 知识要变成信念，就必须在学校里实际体现出来 |
 | [sk-1691](cards/sk-1691-beliefs-take-root-in-hard-labor.md) | quote | labor-education | xuan-ji-zh-vol1 | 信念在日常的、花费心血的劳动中扎根 |
 | [sk-1692](cards/sk-1692-words-must-reach-thought-and-conscience.md) | quote | teacher-growth | xuan-ji-zh-vol1 | 教师的话要打动学生的思想和良心，而不只是叙述教材 |
+| [sk-1693](cards/sk-1693-duty-is-the-root-of-personality.md) | quote | collective-education | xuan-ji-zh-vol5 | 义务是道德的焦点、精神的核心 |
+| [sk-1694](cards/sk-1694-sense-of-duty-drives-conscience.md) | quote | love-education | xuan-ji-zh-vol5 | 义务感是良心的动因 |
+| [sk-1695](cards/sk-1695-cherishing-others-precedes-being-educated.md) | quote | love-education | xuan-ji-zh-vol5 | 不善于珍爱他人的人不会接受教导 |
+| [sk-1696](cards/sk-1696-childrens-happiness-root-of-pedagogical-wisdom.md) | quote | family-school | xuan-ji-zh-vol5 | 儿童的幸福是教育智慧最主要的根源 |
+| [sk-1697](cards/sk-1697-labor-guards-conscience-and-duty.md) | quote | labor-education | xuan-ji-zh-vol5 | 劳动是良心和义务最好和最诚实的守卫者 |
+| [sk-1698](cards/sk-1698-childhood-stage-of-first-civic-wishes.md) | quote | collective-education | xuan-ji-zh-vol5 | 童年与少年是感受最初公民愿望的阶段 |
+| [sk-1699](cards/sk-1699-labor-is-not-labor-education.md) | quote | labor-education | xuan-ji-zh-vol5 | 劳动和劳动教育不是一回事 |
+| [sk-1700](cards/sk-1700-labor-must-create-wealth.md) | quote | labor-education | xuan-ji-zh-vol5 | 劳动不创造物质财富就只是单调的负担 |
+| [sk-1701](cards/sk-1701-labor-lifts-thinking-to-abstraction.md) | quote | thinking-and-nature / labor-education | xuan-ji-zh-vol5 | 积极的劳动把思维从具体水平带向抽象 |
+| [sk-1702](cards/sk-1702-experimental-labor-builds-critical-thinking.md) | quote | thinking-and-nature / labor-education | xuan-ji-zh-vol5 | 实验研究的劳动培养智力批判性 |
+| [sk-1703](cards/sk-1703-head-hand-union-or-inertia.md) | quote | labor-education | xuan-ji-zh-vol5 | 手脑脱节的劳动带来思维惰性 |
+| [sk-1704](cards/sk-1704-labor-education-needs-independent-space.md) | quote | labor-education | xuan-ji-zh-vol5 | 劳动教育的价值取决于独立完成任务的空间 |

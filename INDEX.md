@@ -4,17 +4,17 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 164 |
-| [family-school](topics/family-school.md) | 家校合作 | 356 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 274 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 165 |
+| [family-school](topics/family-school.md) | 家校合作 | 357 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 276 |
 | [health-first](topics/health-first.md) | 健康第一 | 82 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 289 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 326 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 410 |
-| [love-education](topics/love-education.md) | 爱的教育 | 655 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 58 |
-| [child-study](topics/child-study.md) | 儿童研究 | 636 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 105 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 328 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 412 |
+| [love-education](topics/love-education.md) | 爱的教育 | 656 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 59 |
+| [child-study](topics/child-study.md) | 儿童研究 | 637 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 106 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 229 |
 
 ## 来源 Sources
@@ -1757,3 +1757,15 @@
 | [sk-1722](cards/sk-1722-vol2-emotional-refinement.md) | quote | love-education | xuan-ji-zh-vol2 | 情感的素养：心灵不平静、柔弱、富于同情感，才会成为有教养的人 |
 | [sk-1723](cards/sk-1723-vol2-teenagers-are-still-children.md) | quote | child-study | xuan-ji-zh-vol2 | 甚至十六七岁的人，对我们教育者来说多半还是个孩子 |
 | [sk-1724](cards/sk-1724-vol2-thirst-for-spiritual-wealth.md) | quote | love-education | xuan-ji-zh-vol2 | 对精神财富的渴望，只有在人知道什么是高尚时才会产生 |
+| [sk-1725](cards/sk-1725-vol3-comparison-in-testing-hardens-the-heart.md) | quote | assessment-grading | xuan-ji-zh-vol3 | 在教学过程中经常进行考查和成绩比较，隐藏着使少年心灵粗野的危险 |
+| [sk-1726](cards/sk-1726-vol3-distrust-numbs-the-adolescent-heart.md) | quote | love-education | xuan-ji-zh-vol3 | 对少年不信任，就会使他的心变得麻木不仁 |
+| [sk-1727](cards/sk-1727-vol3-moral-meaning-of-labor-is-creative-joy.md) | quote | labor-education | xuan-ji-zh-vol3 | 劳动的道德意义在于人从劳动中获得创造的乐趣 |
+| [sk-1728](cards/sk-1728-vol3-collective-must-not-be-faceless.md) | quote | collective-education | xuan-ji-zh-vol3 | 集体中不应当没有个性：劳动使每个人在自己的成果里看见自己 |
+| [sk-1729](cards/sk-1729-vol3-know-the-student-or-no-atheist.md) | quote | child-study | xuan-ji-zh-vol3 | 不了解学生的精神世界，就不可能把他培养成无神论者 |
+| [sk-1730](cards/sk-1730-vol3-moral-culture-not-by-external-means.md) | quote | teacher-growth | xuan-ji-zh-vol3 | 道德素养不能用外来的手段去教，它取决于精神生活本身的深度 |
+| [sk-1731](cards/sk-1731-vol5-name-of-peoples-teacher.md) | quote | teacher-growth | xuan-ji-zh-vol5 | 当一名人民教师，意味着把劳动人民创造的一切汇集承接、代代相传 |
+| [sk-1732](cards/sk-1732-vol5-civic-education-core-and-first-duty.md) | quote | collective-education | xuan-ji-zh-vol5 | 公民教育的核心，和人民教师的第一项职责 |
+| [sk-1733](cards/sk-1733-vol5-common-labor-reinforces-red-thread.md) | quote | labor-education | xuan-ji-zh-vol5 | 用世世代代人的共同劳动，加固联系祖辈、父辈和子辈的红线 |
+| [sk-1734](cards/sk-1734-vol5-schools-lack-reading-atmosphere.md) | quote | reading-and-books | xuan-ji-zh-vol5 | 学校颇具危险性的通病是缺乏读书气氛，缺少阅览室和书库 |
+| [sk-1735](cards/sk-1735-vol5-family-is-school-of-warm-heartedness.md) | quote | family-school | xuan-ji-zh-vol5 | 家庭是儿童学习热情待人的学校 |
+| [sk-1736](cards/sk-1736-vol5-no-failure-no-incompetent-person.md) | quote | learning-difficulties | xuan-ji-zh-vol5 | 人民教师的努力，应使生活中没有一个失败者、一个学无所成的人 |

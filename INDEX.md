@@ -5,17 +5,17 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 163 |
-| [family-school](topics/family-school.md) | 家校合作 | 355 |
+| [family-school](topics/family-school.md) | 家校合作 | 356 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 273 |
 | [health-first](topics/health-first.md) | 健康第一 | 82 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 287 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 325 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 406 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 288 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 326 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 408 |
 | [love-education](topics/love-education.md) | 爱的教育 | 651 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 58 |
-| [child-study](topics/child-study.md) | 儿童研究 | 630 |
+| [child-study](topics/child-study.md) | 儿童研究 | 634 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 105 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 224 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 228 |
 
 ## 来源 Sources
 
@@ -1737,3 +1737,11 @@
 | [sk-1702](cards/sk-1702-experimental-labor-builds-critical-thinking.md) | quote | thinking-and-nature / labor-education | xuan-ji-zh-vol5 | 实验研究的劳动培养智力批判性 |
 | [sk-1703](cards/sk-1703-head-hand-union-or-inertia.md) | quote | labor-education | xuan-ji-zh-vol5 | 手脑脱节的劳动带来思维惰性 |
 | [sk-1704](cards/sk-1704-labor-education-needs-independent-space.md) | quote | labor-education | xuan-ji-zh-vol5 | 劳动教育的价值取决于独立完成任务的空间 |
+| [sk-1705](cards/sk-1705-no-knowing-the-child-no-education.md) | quote | child-study | xuan-ji-zh-vol5 | 没有对孩子的了解，成功的教育也就无从谈起 |
+| [sk-1706](cards/sk-1706-every-child-is-a-unique-world.md) | quote | child-study | xuan-ji-zh-vol5 | 每个孩子都是一个独特的世界，了解它才谈得上培养个性 |
+| [sk-1707](cards/sk-1707-teaching-does-not-start-at-the-desk.md) | quote | thinking-and-nature / child-study | xuan-ji-zh-vol5 | 教与学不能从孩子坐上课桌的那一刻才开始 |
+| [sk-1708](cards/sk-1708-amazement-is-the-engine-of-thought.md) | quote | thinking-and-nature | xuan-ji-zh-vol5 | 惊异是思维的原动力 |
+| [sk-1709](cards/sk-1709-nature-and-beauty-feed-the-mind.md) | quote | aesthetic-nature-education / thinking-and-nature | xuan-ji-zh-vol5 | 自然与美是智慧取之不尽的源泉 |
+| [sk-1710](cards/sk-1710-a-teacher-must-know-people.md) | quote | teacher-growth / family-school | xuan-ji-zh-vol5 | 如果你想做一名真正的教师，就应该了解人 |
+| [sk-1711](cards/sk-1711-wonder-is-the-beginning-of-thought.md) | quote | thinking-and-nature / child-study | xuan-ji-zh-vol4 | 这种新奇和惊讶之感便是思考的开端 |
+| [sk-1712](cards/sk-1712-words-must-meet-the-collective-concern.md) | quote | collective-education / teacher-growth | xuan-ji-zh-vol4 | 言词只有与集体关心的问题相联，才能触动思想和心火 |

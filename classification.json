@@ -29426,5 +29426,146 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1705": {
+  "primary": "A6",
+  "seealso": [],
+  "facets": [],
+  "claim": "了解孩子是教育的前提：这项工作一天也不能停止，没有它成功的教育无从谈起。",
+  "evidence": "这几周对孩子们的教育工作是充满情趣的，我们称之为“蓝天下的学校”。这段时间的主要任务，就是获得对每个孩子个性特点的最初认识，开始了解孩子。这项工作任何一个聪明敏锐的教师一天也不会停止。如果没有这项工作，成功的教育也就无从谈起。",
+  "title": "了解孩子是教育前提",
+  "old_topics": [
+   "child-study"
+  ],
+  "type": "quote",
+  "tags": [
+   "A6"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1706": {
+  "primary": "A1",
+  "seealso": [],
+  "facets": [],
+  "claim": "没有完全相同的孩子，每个孩子都是一个独特的世界；了解这个世界是培养个性的前提。",
+  "evidence": "在思想、对周围世界的理解以及在智慧、意志和性格的个性特点方面，没有完全相同的孩子。每个孩子都是一个独特的“世界”。只有在了解了这个“世界”，了解了它的全部奥秘以后，培养个性，形成人的精神风貌才会成为可能。",
+  "title": "每个孩子都是独特世界",
+  "old_topics": [
+   "child-study"
+  ],
+  "type": "quote",
+  "tags": [
+   "A1"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1707": {
+  "primary": "A12",
+  "seealso": [],
+  "facets": [],
+  "claim": "教与学不能从孩子坐上课桌那一刻才开始；要把孩子尽可能多地放回他们熟悉的环境里。",
+  "evidence": "教与学无论如何不能从孩子们已经坐在课桌前的那个时候开始。在孩子们还没有坐在课桌前的很长一段时间，学校的教师和校长就应该和他们一起到田野去、到森林去、到河岸去。即使学校的教育教学过程已经开始以后，也不能仅仅局限于书本、教室和课堂。应该让孩子们",
+  "title": "教与学不从课桌开始",
+  "old_topics": [
+   "thinking-and-nature",
+   "child-study"
+  ],
+  "type": "quote",
+  "tags": [
+   "A12"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1708": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "惊异是思维的原动力：想让孩子思维，就要善于让他感到惊异。",
+  "evidence": "我们已经打开了一扇窗，孩子们可以透过这扇窗看到外面的世界。这扇窗就是孩子们那种惊异的感情。你想让孩子们很好的思维，就要善于让孩子们感到惊异。惊异是一种原动力，它能激发最懒惰、最消极的人去积极思维…",
+  "title": "惊异是思维原动力",
+  "old_topics": [
+   "thinking-and-nature"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1709": {
+  "primary": "A14",
+  "seealso": [],
+  "facets": [],
+  "claim": "自然与美是智慧取之不尽的源泉；不把孩子带到那里去，就不可能有丰富的精神生活。",
+  "evidence": "思想一旦转化为诗的语言，而且在这些语言中还闪现着花的柔美，散发着草的芳香，流淌着忽明忽暗、神秘朦胧的林中雾霭，这就意味着，孩子们的思维已经活跃起来了，意味着他们的智慧已经从生活和认识的取之不尽的源泉—自然与美中汲取了生机勃勃的力量。带着你的",
+  "title": "自然与美是源泉",
+  "old_topics": [
+   "aesthetic-nature-education",
+   "thinking-and-nature"
+  ],
+  "type": "quote",
+  "tags": [
+   "A14"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1710": {
+  "primary": "A10",
+  "seealso": [],
+  "facets": [],
+  "claim": "教师负责的是人，因此必须了解那些连母亲都未必了解的东西——了解人。",
+  "evidence": "我们所负责的是世界上最宝贵的东西—人。母亲用爱抚的目光把自己的孩子送到学校里来的时候，她相信，老师肯定比她这个做母亲的知道得要多。所以，如果你想做一名真正的教师，你就应该了解那些远不是每一个母亲都了解的东西。你应该了解人。",
+  "title": "教师应该了解人",
+  "old_topics": [
+   "teacher-growth",
+   "family-school"
+  ],
+  "type": "quote",
+  "tags": [
+   "A10"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1711": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "孩子越年幼越会为新奇的事物感到惊讶，而这种新奇和惊讶之感正是思考的开端。",
+  "evidence": "孩子的年龄越小，他们对于图片上所看到的、对于为扩大他们关于周围世界的认识而介绍给他们的事物就越感到新奇，也越会为之惊讶。这种新奇和惊讶之感便是思考的开端。我们展出的图片激发着孩子们对周围世界的兴趣，并唤起他们好学和探求的精神。",
+  "title": "新奇与惊讶是思考开端",
+  "old_topics": [
+   "thinking-and-nature",
+   "child-study"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1712": {
+  "primary": "A22",
+  "seealso": [],
+  "facets": [],
+  "claim": "言词只有在与集体关心的问题相联时，才可能触动学生的思想和心火。",
+  "evidence": "我们深信言词力量的强大，深信直接针对人的精神世界去讲话的作用。但是，我们同时也没有忘记这种讲话只有当听话的人在努力探索他所关注问题的答案，希望学会如何生活，企求认识真理，而这种探索，希望和企求又为整个集体的生活内容以及集体中激励每个人的理想",
+  "title": "言词要触动心火",
+  "old_topics": [
+   "collective-education",
+   "teacher-growth"
+  ],
+  "type": "quote",
+  "tags": [
+   "A22"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

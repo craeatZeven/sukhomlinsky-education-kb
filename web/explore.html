@@ -243,34 +243,12 @@ document.addEventListener("DOMContentLoaded", async ()=>{
   if(qParam) $("search").value = qParam;
 
   $("stats").innerHTML = `<div class="stat"><b>…</b><span>正在加载卡片索引</span></div>`;
-  /* 首屏只取第 1 页（150 行 / 约 39 KB gzip），不再为了显示 60 行而下完整个全库索引（383 KB）。
-   * 其余页**在首屏渲染之后**补齐 —— 补的是数据、不改任何筛选与计数语义（补齐后重跑一次 applyFilter）。
-   * 2026-09-27 B 评审的处置；「永不载全」的真分页需要同时改 renderStats 与过滤逻辑，留作下一步。 */
-  let _restP = null;
   try{
-    const _p1 = await KB.loadIndexPage(1);
-    CARDS = _p1.cards || [];
-    const _total = _p1.count || CARDS.length;
-    const _pages = _p1.pages || Math.ceil(_total / 150);
-    _restP = (async function(){
-      const more = [];
-      for(let n = 2; n <= _pages; n++){
-        try{ const p = await KB.loadIndexPage(n); more.push.apply(more, p.cards || []); }catch(e){ break; }
-      }
-      return more;
-    })();
+    CARDS = await KB.loadIndex();
   }catch(e){
     $("stats").innerHTML = `<div class="stat"><b>0</b><span>数据加载失败：${KB.esc(e.message)}</span></div>`;
     $("empty").style.display = "block";
     return;
-  }
-  /* 首屏已经用第 1 页渲染；后台补齐其余页后重跑一次当前筛选（语义与「一次载全」完全一致） */
-  if(_restP){
-    _restP.then(function(more){
-      if(!more || !more.length) return;
-      CARDS = CARDS.concat(more);
-      applyFilter();
-    });
   }
   if(activeTopic!=="all" && !KB.meta.topics.some(x=>x.slug===activeTopic)) activeTopic = "all";
   if(activeSource!=="all" && !KB.meta.sources.some(x=>x.slug===activeSource)) activeSource = "all";

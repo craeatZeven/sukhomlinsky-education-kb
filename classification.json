@@ -29975,5 +29975,209 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1737": {
+  "primary": "A9",
+  "seealso": [],
+  "facets": [],
+  "claim": "集体敏锐而深刻的情感是集体教育力量的根源，教师应在建立集体的最初阶段就着手培养。",
+  "evidence": "集体中的丰富思想、各种志向和多种关系、互相之间提出的评价和要求——所有这一切，像一条条纤细的幼根，滋养着集体敏锐的情感。这种情感越深，集体作为影响个人的工具所起的作用就越大，个别学生所带来的漠不关心、冷酷、无情的危险也就越小。教师最复杂的任",
+  "title": "集体情感是教育力量的幼根",
+  "old_topics": [
+   "collective-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A9"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1738": {
+  "primary": "A14",
+  "seealso": [],
+  "facets": [],
+  "claim": "传授科学知识不得破坏儿童情感、理智与美感的和谐，必须同时保住美与丑的判断。",
+  "evidence": "毋庸赘述，教师必须考虑如何向儿童揭示科学真理的实质。把科学知识传授给儿童时，切切不可破坏儿童的情感、理智和美感等领域之间的和谐，务必使儿童明白，除了有益与有害的概念之外，还存在着美与丑的概念。",
+  "title": "别用科学真理踩碎儿童的审美",
+  "old_topics": [
+   "aesthetic-nature-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A14"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1739": {
+  "primary": "A5",
+  "seealso": [],
+  "facets": [],
+  "claim": "教师自身敏感而坦率的心，是使同伴间的细小接触创造美而非带来痛苦的前提。",
+  "evidence": "学生们时刻相互接触的心将变成什么样子，是变得温柔、敏感，还是冷酷无情，最终将取决于把他们领上道德完善和自我完善的道路的人。教师要想看到、感觉到、理解到学生彼此间千万次最温情的接触，要想使这种接触给人创造美，而不是给人带来痛苦，那他就必须具有",
+  "title": "教师要有敏感而坦率的心",
+  "old_topics": [
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A5"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1740": {
+  "primary": "A4",
+  "seealso": [],
+  "facets": [],
+  "claim": "自觉服从社会合理要求的能力，建立在尊重自己与自我约束的意志力之上，而自尊又需通过把他培养成集体主义者来实现。",
+  "evidence": "换句话说，这条最重要的教育规律就是：为了服从社会向个人提出的合理的强制要求，每个人应该控制自己的情感，应该具备能够对自己发号施令和约束自己行为的意志力。为了听从自己的意志、培养自己成为自己的主人，就必须十分尊重自己。而要使学生尊重自己，我们",
+  "title": "自觉服从源于自尊与意志力",
+  "old_topics": [
+   "collective-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A4"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1741": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "探索、发现和惊叹是学校生活不可缺少的情感状态；忘记它，教师的劳动就会变得沉重单调。",
+  "evidence": "现在我们来阐述一种最重要的、无论是集体或者是师生的完美精神生活都不可缺少的情感状态。这种状态可以称之为探索和寻找结论，发现和惊叹。我再补充一句：如果学校忘记把这种情感状态作为整个学校生活的基础，那么教师的劳动就会变得沉重、单调，只是履行令人",
+  "title": "探索与惊叹是学校生活的基础",
+  "old_topics": [
+   "thinking-and-nature"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1742": {
+  "primary": "A19",
+  "seealso": [],
+  "facets": [],
+  "claim": "儿童的善良禀赋需要塑造和培养才能成为崇高的思想品质，集体中的情感状态是教师必须有意经营的特殊领域。",
+  "evidence": "孩子们都爱美，喜欢道德高尚的行为，热心于帮助弱小的生物。他们都很想成为一个慷慨宽容的人。他们都能与别人同甘共苦。但是崇高的思想品质需要塑造和培养。在集体精神生活中有一个特殊的领域，这个领域可以称之为情感状态（情景及相互关系）。",
+  "title": "高尚品质靠塑造而非天生",
+  "old_topics": [
+   "child-study"
+  ],
+  "type": "quote",
+  "tags": [
+   "A19"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1743": {
+  "primary": "A11",
+  "seealso": [],
+  "facets": [],
+  "claim": "普通中学的道德教育与学校弊端的预防，首先要通过真正的劳动教育才能实现。",
+  "evidence": "要在普通中学开展道德教育，要预防目前我们学校工作中出现的种种弊端，这首先要通过劳动教育而获得。在学校真正的劳动教育没有落实之前，还会出现已到五六年级还要逃课的万尼亚和阿廖沙们，还会出现以不上学为要挟向母亲索要时装、好表的青年，还会出现青少年",
+  "title": "劳动教育是道德教育的前提",
+  "old_topics": [
+   "labor-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A11"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1744": {
+  "primary": "A23",
+  "seealso": [],
+  "facets": [],
+  "claim": "阅读基本功是从事脑力劳动的前提，只有学会边读书边思考，思维才能成为所盼望的劳动。",
+  "evidence": "思维作为劳动的另一个问题，就是做到善于学习，我们设想一下，一个木工正在手持刨子忙个不停，这时人们又给他拿来一件又一件的活儿堆给他干。这时他手中的工具也会不听使唤了，活儿也不会干好。学生也是这样：教师要他背一大堆功课，可他连阅读的基本功也没有",
+  "title": "阅读技能是脑力劳动的前提",
+  "old_topics": [
+   "reading-and-books"
+  ],
+  "type": "quote",
+  "tags": [
+   "A23"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1745": {
+  "primary": "A11",
+  "seealso": [],
+  "facets": [],
+  "claim": "教师应通过劳动让儿童认识自己并为自己感到骄傲，心灰意懒与自暴自弃是最危险的状态。",
+  "evidence": "儿童有种渴求独立的天性。他们什么事情都愿亲自动手，这就是他们想成为优秀者的根源，在劳动中人得以展示自己，展示自己的精神内涵，得以洞察自己，产生自豪感。教师的一项细致的工作，就是教育儿童通过劳动认识自己，并经常为自己感到骄傲。心灰意懒，自暴自",
+  "title": "在劳动中认识自己、为自己骄傲",
+  "old_topics": [
+   "labor-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A11"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1746": {
+  "primary": "A8",
+  "seealso": [],
+  "facets": [],
+  "claim": "家庭是诞生人类之美的地方；若家庭不产生这种力量，学校的功能就只能归结为再教育。",
+  "evidence": "其实，他们谈的是再教育问题。这些文章当然是有益的：可以使许多家长避免家庭教育的失误。但是如果学校和家长的关系和家庭教育能走上更为健康和宽广的航道，能绕过种种暗礁，那就更好了。我深信，营造理想的家庭，建立父母间和家长同子女间理想关系的时机已经",
+  "title": "家庭不生美，学校就只能再教育",
+  "old_topics": [
+   "family-school"
+  ],
+  "type": "quote",
+  "tags": [
+   "A8"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1747": {
+  "primary": "A22",
+  "seealso": [],
+  "facets": [],
+  "claim": "教师表达否定和批评时，应以让学生敞开心扉为目标；教学生正确对待教师的否定和批评是教师最能征服人的秘诀。",
+  "evidence": "建立教育者和受教育者的正确关系，永远是教育的一个重要问题。正确地接受长者的逆耳忠言，不是件容易的事，应长期不懈地进行这种教育。最最糟糕的是，教师同儿童少年谈话时往往带有情绪一—大发脾气，怒气冲天，没有一点儿耐心。我们做教师的，当然要表达种种",
+  "title": "批评要让学生敞开心扉",
+  "old_topics": [
+   "teacher-growth"
+  ],
+  "type": "quote",
+  "tags": [
+   "A22"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1748": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "求知与探索的火种本在每个少年心中，只有善于思维的教师才能用思维之火把它点燃。",
+  "evidence": "好奇、探索和求知的火种就在每个少年的心中，只待教师用思维之火去点燃。思维之本，就是教师点燃的好学之火。能够担当向儿童展示思维之美妙绚丽角色者，惟有教师。但他们只充任思维的载体和思维者，以思维统帅、征服和感染人的时候，才能成为学生心灵的主宰者",
+  "title": "教师用思维之火点燃求知",
+  "old_topics": [
+   "thinking-and-nature"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

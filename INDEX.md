@@ -5,17 +5,17 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 165 |
-| [family-school](topics/family-school.md) | 家校合作 | 357 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 276 |
+| [family-school](topics/family-school.md) | 家校合作 | 358 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 278 |
 | [health-first](topics/health-first.md) | 健康第一 | 82 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 289 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 328 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 412 |
-| [love-education](topics/love-education.md) | 爱的教育 | 656 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 290 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 330 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 413 |
+| [love-education](topics/love-education.md) | 爱的教育 | 657 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 59 |
-| [child-study](topics/child-study.md) | 儿童研究 | 637 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 106 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 229 |
+| [child-study](topics/child-study.md) | 儿童研究 | 638 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 107 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 231 |
 
 ## 来源 Sources
 
@@ -1769,3 +1769,15 @@
 | [sk-1734](cards/sk-1734-vol5-schools-lack-reading-atmosphere.md) | quote | reading-and-books | xuan-ji-zh-vol5 | 学校颇具危险性的通病是缺乏读书气氛，缺少阅览室和书库 |
 | [sk-1735](cards/sk-1735-vol5-family-is-school-of-warm-heartedness.md) | quote | family-school | xuan-ji-zh-vol5 | 家庭是儿童学习热情待人的学校 |
 | [sk-1736](cards/sk-1736-vol5-no-failure-no-incompetent-person.md) | quote | learning-difficulties | xuan-ji-zh-vol5 | 人民教师的努力，应使生活中没有一个失败者、一个学无所成的人 |
+| [sk-1737](cards/sk-1737-collective-feeling-nourishes-education.md) | quote | collective-education | xuan-ji-zh-vol1 | 集体敏锐的情感，是集体教育力量的幼根 |
+| [sk-1738](cards/sk-1738-do-not-break-emotion-intellect-aesthetic-harmony.md) | quote | aesthetic-nature-education | xuan-ji-zh-vol1 | 传授科学真理，不可破坏情感、理智与美感的和谐 |
+| [sk-1739](cards/sk-1739-teacher-needs-sensitive-and-open-heart.md) | quote | love-education | xuan-ji-zh-vol1 | 教师必须有一颗十分敏感和坦率的心 |
+| [sk-1740](cards/sk-1740-self-respect-and-will-for-self-mastery.md) | quote | collective-education | xuan-ji-zh-vol1 | 为了听从自己的意志、成为自己的主人，就必须十分尊重自己 |
+| [sk-1741](cards/sk-1741-exploration-and-wonder-as-school-foundation.md) | quote | thinking-and-nature | xuan-ji-zh-vol1 | 探索、发现和惊叹，是学校生活不可缺少的情感状态 |
+| [sk-1742](cards/sk-1742-noble-qualities-must-be-cultivated.md) | quote | child-study | xuan-ji-zh-vol1 | 崇高的思想品质需要塑造和培养 |
+| [sk-1743](cards/sk-1743-moral-education-rests-on-real-labor-education.md) | quote | labor-education | xuan-ji-zh-vol5 | 没有真正的劳动教育，道德教育与预防弊端都无从谈起 |
+| [sk-1744](cards/sk-1744-reading-skill-is-a-precondition-of-mental-labor.md) | quote | reading-and-books | xuan-ji-zh-vol5 | 不会边读书边思考，思维就成不了所盼望的劳动 |
+| [sk-1745](cards/sk-1745-know-yourself-through-labor-and-be-proud.md) | quote | labor-education | xuan-ji-zh-vol5 | 教育儿童通过劳动认识自己，并经常为自己感到骄傲 |
+| [sk-1746](cards/sk-1746-family-is-where-human-beauty-is-born.md) | quote | family-school | xuan-ji-zh-vol5 | 家庭是诞生人类之美的地方，否则学校只能做再教育 |
+| [sk-1747](cards/sk-1747-the-secret-is-teaching-students-to-take-criticism.md) | quote | teacher-growth | xuan-ji-zh-vol5 | 教师最能征服人的秘诀，是教学生正确对待自己的否定和批评 |
+| [sk-1748](cards/sk-1748-teacher-kindles-the-fire-of-inquiry.md) | quote | thinking-and-nature | xuan-ji-zh-vol5 | 教师用思维之火，点燃少年心中求知与探索的火种 |

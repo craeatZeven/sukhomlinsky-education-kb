@@ -109,3 +109,16 @@
 **对"还差多少"的影响（重要）**：缺口清单按章节计数，**没有扣除这层同源重复**。
 所以"剩余 ~113 章"是**上限**，实际独立内容明显更少 —— 后续若要给出可信的剩余量，
 需要按"篇名/准则"而不是按"章节"去重（这是一项独立的审计工作）。
+
+## 二之三、工作区路径（2026-09-29 又搬了一次）
+
+| 用途 | 现在 | 曾经 |
+|---|---|---|
+| 仓库 | `D:\Work\sukhomlinsky-education-kb` | `D:\Git\sukhomlinsky-education-kb` |
+| 账本 | `D:\Work\session-handoff.md` | `D:\Git\session-handoff.md` |
+| 快照脚本 | `D:\Work\content\handoff\snapshot_handoff.py` | `D:\Git\content\handoff\...` |
+| git | `D:\Dev\Git\cmd\git.exe`（不在 PATH） | 曾在 `D:\Git\Git\cmd\git.exe` |
+| python | `D:\python\python.exe` | 不变 |
+
+**判据（已经因此栽过两次）**：任何绝对路径写进脚本前先 `Test-Path`；
+**批次最后一步（推送 + 线上验收）失败时，先确认 git 路径、仓库路径与凭据，再怀疑代码。**

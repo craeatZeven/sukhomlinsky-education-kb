@@ -9,7 +9,9 @@
 其余按「未被引用的 unit 数 × 论断密度」排序。
 """
 import sqlite3, io, json, os, re, collections
-ROOT = r"D:\Git\sukhomlinsky-education-kb"
+# 2026-10-01：原来写死 D:\Git\sukhomlinsky-education-kb，仓库搬到 D:\Work 后整脚本报
+# 「unable to open database file」（会被误判成"数据库丢了"）。改成从 __file__ 推，搬目录不再失效。
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 c = sqlite3.connect(os.path.join(ROOT, "local_working_copy", "fulltext", "corpus.db")); c.row_factory = sqlite3.Row
 loc = [json.loads(x) for x in io.open(os.path.join(ROOT, "local_working_copy", "fulltext", "card-locators.jsonl"), encoding="utf-8") if x.strip()]
 ALIAS = {"xuan-ji-zh-vol1":"选集（五卷本）第1卷","xuan-ji-zh-vol2":"选集(五卷本)第2卷","xuan-ji-zh-vol3":"选集（五卷本）第3卷",

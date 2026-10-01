@@ -1,5 +1,5 @@
 {
-  "total_cards": 1767,
+  "total_cards": 1785,
   "source_count": 12,
   "topic_count": 12,
   "zuoren_cards": 541,
@@ -14,7 +14,7 @@
     {
       "slug": "xuan-ji-zh-vol2",
       "title": "苏霍姆林斯基选集（五卷本）第2卷",
-      "cards": 317,
+      "cards": 323,
       "page_refs": 45
     },
     {
@@ -26,13 +26,13 @@
     {
       "slug": "xuan-ji-zh-vol3",
       "title": "苏霍姆林斯基选集（五卷本）第3卷",
-      "cards": 193,
+      "cards": 199,
       "page_refs": 51
     },
     {
       "slug": "xuan-ji-zh-vol4",
       "title": "苏霍姆林斯基选集（五卷本）第4卷",
-      "cards": 168,
+      "cards": 174,
       "page_refs": 41
     },
     {
@@ -85,7 +85,7 @@
     },
     {
       "type": "quote",
-      "cards": 640
+      "cards": 658
     },
     {
       "type": "principle",
@@ -104,7 +104,7 @@
     {
       "slug": "love-education",
       "title": "爱的教育",
-      "cards": 660
+      "cards": 665
     },
     {
       "slug": "child-study",
@@ -114,17 +114,17 @@
     {
       "slug": "teacher-growth",
       "title": "教师成长",
-      "cards": 414
+      "cards": 416
     },
     {
       "slug": "family-school",
       "title": "家校合作",
-      "cards": 360
+      "cards": 362
     },
     {
       "slug": "collective-education",
       "title": "集体教育",
-      "cards": 340
+      "cards": 346
     },
     {
       "slug": "aesthetic-nature-education",
@@ -134,17 +134,17 @@
     {
       "slug": "labor-education",
       "title": "劳动教育",
-      "cards": 281
+      "cards": 283
     },
     {
       "slug": "thinking-and-nature",
       "title": "思维课与大自然",
-      "cards": 231
+      "cards": 232
     },
     {
       "slug": "learning-difficulties",
       "title": "学习困难学生",
-      "cards": 165
+      "cards": 166
     },
     {
       "slug": "reading-and-books",

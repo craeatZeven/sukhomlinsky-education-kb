@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 165 |
-| [family-school](topics/family-school.md) | 家校合作 | 360 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 281 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 166 |
+| [family-school](topics/family-school.md) | 家校合作 | 362 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 283 |
 | [health-first](topics/health-first.md) | 健康第一 | 84 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 292 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 340 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 414 |
-| [love-education](topics/love-education.md) | 爱的教育 | 660 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 346 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 416 |
+| [love-education](topics/love-education.md) | 爱的教育 | 665 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 59 |
 | [child-study](topics/child-study.md) | 儿童研究 | 641 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 107 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 231 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 232 |
 
 ## 来源 Sources
 
@@ -1805,3 +1805,21 @@
 | [sk-1770](cards/sk-1770-monotonous-rough-actions-brand-all-development.md) | quote | labor-education | xuan-ji-zh-vol3 | 少年期单调粗野的动作占优势，会给体格、智力、情感和美感的发展打上烙印 |
 | [sk-1771](cards/sk-1771-awkward-actions-are-typical-of-adolescence.md) | quote | child-study | xuan-ji-zh-vol3 | 动作笨拙而又生硬是少年时期的典型特征，让细腻动作与体力配合十分重要 |
 | [sk-1772](cards/sk-1772-woodcut-is-artistic-creation-revealing-design.md) | quote | aesthetic-nature-education | xuan-ji-zh-vol3 | 木刻是艺术创作，每个人的思维与创作构思的特点正是在这种创作中展示出来 |
+| [sk-1773](cards/sk-1773-joyless-collective-breeds-superstition.md) | quote | collective-education | xuan-ji-zh-vol4 | 在缺乏乐观目的性的集体里，连唯物主义观点也会压抑想像力 |
+| [sk-1774](cards/sk-1774-learning-difficulties-need-inner-attention.md) | quote | learning-difficulties | xuan-ji-zh-vol4 | 对学习困难学生的内部精神世界要特别关注：冷淡会把他们推向说教 |
+| [sk-1775](cards/sk-1775-labor-faith-in-creativity-replaces-apathy.md) | quote | labor-education / family-school | xuan-ji-zh-vol4 | 劳动使孩子崇信自己的创造力，这比任何宣传更能影响信教的父母 |
+| [sk-1776](cards/sk-1776-do-not-hand-students-ready-made-conclusions.md) | quote | teacher-growth | xuan-ji-zh-vol4 | 不要把现成的结论摆在学生面前：道理要由他自己思索出来 |
+| [sk-1777](cards/sk-1777-family-religious-pressure-handle-with-care.md) | quote | family-school | xuan-ji-zh-vol4 | 学生处在家庭宗教压力下时，先揭示事实，再谈父母的不是 |
+| [sk-1778](cards/sk-1778-man-is-part-of-nature-questions-follow.md) | quote | thinking-and-nature | xuan-ji-zh-vol4 | 让学生懂得人是自然的一部分，他的追问才刚开始 |
+| [sk-1779](cards/sk-1779-moral-concepts-form-through-serving-the-people.md) | quote | love-education | xuan-ji-zh-vol2 | 好与坏的道德概念，是从人民和祖国的利益这个角度形成的 |
+| [sk-1780](cards/sk-1780-moral-feeling-needs-personal-experience.md) | quote | love-education | xuan-ji-zh-vol2 | 道德情感只能靠亲身经验激发：为祖国做成的事越多，人民利益才越成为切身利益 |
+| [sk-1781](cards/sk-1781-norms-become-beliefs-only-through-action.md) | quote | love-education | xuan-ji-zh-vol2 | 道德原则只有在具体行动中被认同，才会变成信念 |
+| [sk-1782](cards/sk-1782-moral-behavior-requires-quick-response-in-life.md) | quote | love-education | xuan-ji-zh-vol2 | 道德高尚的行为，要看人进入社会生活后敢不敢行动 |
+| [sk-1783](cards/sk-1783-discipline-grows-from-serving-society-not-supervision.md) | quote | collective-education | xuan-ji-zh-vol2 | 自觉的纪律首先是积极性，不是被监管出来的服从 |
+| [sk-1784](cards/sk-1784-hidden-guidance-art-of-youth-organizations.md) | quote | collective-education | xuan-ji-zh-vol2 | 教育指导的艺术，在于让少先队员看不出这种指导 |
+| [sk-1785](cards/sk-1785-romanticism-is-richness-of-ideological-life.md) | quote | collective-education | xuan-ji-zh-vol3 | 浪漫主义精神不是会场的布置，而是思想生活的丰富多彩 |
+| [sk-1786](cards/sk-1786-romanticism-essence-is-happiness-in-socially-needed-work.md) | quote | love-education | xuan-ji-zh-vol3 | 浪漫主义精神的实质，是孩子在做社会必需之事时感到幸福 |
+| [sk-1787](cards/sk-1787-common-struggle-with-nature-yields-collective-honor.md) | quote | collective-education | xuan-ji-zh-vol3 | 跟大自然较劲的劳动，长出的是集体的荣誉感和责任感 |
+| [sk-1788](cards/sk-1788-deeper-labor-purer-personal-aspirations.md) | quote | labor-education | xuan-ji-zh-vol3 | 为人们劳动越投入，个人的愿望、志向和热情就越纯洁 |
+| [sk-1789](cards/sk-1789-story-unrelated-to-labor-links-spirit-and-work.md) | quote | teacher-growth | xuan-ji-zh-vol3 | 故事要讲得与劳动无关，才能在心灵深处把精神与劳动连起来 |
+| [sk-1790](cards/sk-1790-friendship-beauty-precedes-loyalty.md) | quote | collective-education | xuan-ji-zh-vol3 | 不让少年体验友谊的美，他的心就会对忠诚无动于衷 |

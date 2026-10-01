@@ -5,15 +5,15 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 165 |
-| [family-school](topics/family-school.md) | 家校合作 | 359 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 278 |
+| [family-school](topics/family-school.md) | 家校合作 | 360 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 279 |
 | [health-first](topics/health-first.md) | 健康第一 | 82 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 290 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 335 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 413 |
-| [love-education](topics/love-education.md) | 爱的教育 | 658 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 291 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 340 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 414 |
+| [love-education](topics/love-education.md) | 爱的教育 | 660 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 59 |
-| [child-study](topics/child-study.md) | 儿童研究 | 638 |
+| [child-study](topics/child-study.md) | 儿童研究 | 640 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 107 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 231 |
 
@@ -1787,3 +1787,15 @@
 | [sk-1752](cards/sk-1752-true-love-is-hard-labor.md) | quote | family-school / love-education | xuan-ji-zh-vol1 | 对人的真正的爱，是一种艰辛的劳动 |
 | [sk-1753](cards/sk-1753-collective-needs-rich-spiritual-life.md) | quote | collective-education | xuan-ji-zh-vol1 | 集体要有明显表现出来的、内容丰富的精神生活 |
 | [sk-1754](cards/sk-1754-collective-power-depends-on-harmony-of-needs.md) | quote | collective-education | xuan-ji-zh-vol1 | 集体的教育力量取决于兴趣、需要和愿望是否和谐 |
+| [sk-1755](cards/sk-1755-collective-influence-must-be-indirect.md) | quote | collective-education | xuan-ji-zh-vol1 | 集体对个人的影响应当是含蓄的，落脚在让学生对自己负责 |
+| [sk-1756](cards/sk-1756-educability-forms-in-early-school-age.md) | quote | child-study / family-school | xuan-ji-zh-vol1 | 接受教育影响的能力，是在学龄初期逐步形成的 |
+| [sk-1757](cards/sk-1757-no-formalistic-civic-talks.md) | quote | teacher-growth | xuan-ji-zh-vol1 | 公民精神谈话不能因为「时间到了」就搞成形式主义 |
+| [sk-1758](cards/sk-1758-sensitivity-to-the-word-grown-in-beautiful-surroundings.md) | quote | aesthetic-nature-education | xuan-ji-zh-vol1 | 对教师话语的敏感，首先由谈话时所处的美的环境培养 |
+| [sk-1759](cards/sk-1759-admiration-of-beauty-awakens-the-wish-to-be-good.md) | quote | love-education | xuan-ji-zh-vol1 | 对美和高尚的赞叹，是点燃「要成为好人」这一愿望的火花 |
+| [sk-1760](cards/sk-1760-civic-ideal-is-not-remote-it-lives-in-people-around.md) | quote | collective-education | xuan-ji-zh-vol1 | 忠诚为人民服务的理想并不遥远：它活在周围人身上 |
+| [sk-1761](cards/sk-1761-happiness-is-not-in-calm-and-comfort.md) | quote | love-education | xuan-ji-zh-vol1 | 真正的幸福不在平静和安逸之中，而在战胜忧虑与挫折时认清精神生活的丰富 |
+| [sk-1762](cards/sk-1762-collective-concept-must-widen-to-homeland.md) | quote | collective-education | xuan-ji-zh-vol1 | 集体的概念扩大到全体人民和整个祖国，学生才学会批判地评价集体 |
+| [sk-1763](cards/sk-1763-right-to-the-title-is-moral-activity.md) | quote | collective-education | xuan-ji-zh-vol1 | 帮助学生在劳动人民与祖国生活中认清自己的地位和作用，才是崇高的道德活动 |
+| [sk-1764](cards/sk-1764-moral-evaluation-is-a-mark-of-adolescence.md) | quote | child-study | xuan-ji-zh-vol1 | 对周围生活现象进行道德评价的要求，是少年时期精神生活的突出特征 |
+| [sk-1765](cards/sk-1765-understanding-labor-removes-the-need-for-supervision.md) | quote | labor-education | xuan-ji-zh-vol1 | 学生越认清劳动的崇高意义，就越不需要监督，良心成为积极劳动的动力 |
+| [sk-1766](cards/sk-1766-fighting-harm-elevates-the-person.md) | quote | collective-education | xuan-ji-zh-vol1 | 同危害作斗争需要动员精神的力量，这样就会使人变得更加高尚起来 |

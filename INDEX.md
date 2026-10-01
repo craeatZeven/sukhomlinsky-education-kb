@@ -5,13 +5,13 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 165 |
-| [family-school](topics/family-school.md) | 家校合作 | 358 |
+| [family-school](topics/family-school.md) | 家校合作 | 359 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 278 |
 | [health-first](topics/health-first.md) | 健康第一 | 82 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 290 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 330 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 335 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 413 |
-| [love-education](topics/love-education.md) | 爱的教育 | 657 |
+| [love-education](topics/love-education.md) | 爱的教育 | 658 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 59 |
 | [child-study](topics/child-study.md) | 儿童研究 | 638 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 107 |
@@ -1781,3 +1781,9 @@
 | [sk-1746](cards/sk-1746-family-is-where-human-beauty-is-born.md) | quote | family-school | xuan-ji-zh-vol5 | 家庭是诞生人类之美的地方，否则学校只能做再教育 |
 | [sk-1747](cards/sk-1747-the-secret-is-teaching-students-to-take-criticism.md) | quote | teacher-growth | xuan-ji-zh-vol5 | 教师最能征服人的秘诀，是教学生正确对待自己的否定和批评 |
 | [sk-1748](cards/sk-1748-teacher-kindles-the-fire-of-inquiry.md) | quote | thinking-and-nature | xuan-ji-zh-vol5 | 教师用思维之火，点燃少年心中求知与探索的火种 |
+| [sk-1749](cards/sk-1749-collectivism-is-both-result-and-process.md) | quote | collective-education | xuan-ji-zh-vol1 | 集体主义既是教育的结果，也是一个教育的过程 |
+| [sk-1750](cards/sk-1750-responsibility-and-freedom-must-be-in-harmony.md) | quote | collective-education | xuan-ji-zh-vol1 | 教育者的双重任务：让接触有利成长，并培养个人的尽责能力 |
+| [sk-1751](cards/sk-1751-collectivism-starts-from-true-idea-of-freedom.md) | quote | collective-education | xuan-ji-zh-vol1 | 集体主义教育从确立真正的自由和幸福观念开始 |
+| [sk-1752](cards/sk-1752-true-love-is-hard-labor.md) | quote | family-school / love-education | xuan-ji-zh-vol1 | 对人的真正的爱，是一种艰辛的劳动 |
+| [sk-1753](cards/sk-1753-collective-needs-rich-spiritual-life.md) | quote | collective-education | xuan-ji-zh-vol1 | 集体要有明显表现出来的、内容丰富的精神生活 |
+| [sk-1754](cards/sk-1754-collective-power-depends-on-harmony-of-needs.md) | quote | collective-education | xuan-ji-zh-vol1 | 集体的教育力量取决于兴趣、需要和愿望是否和谐 |

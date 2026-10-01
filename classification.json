@@ -30179,5 +30179,108 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1749": {
+  "primary": "A9",
+  "seealso": [],
+  "facets": [],
+  "claim": "集体主义不只是教育的结果，它本身就是一个教育过程，是形成意识、观点、信念和行为的各种手段的总和；在集体中生活和劳动，是形成个人几乎所有特征的学校。",
+  "evidence": "集体主义不仅是教育的结果，而且是一个教育的过程，是形成人的意识、观点、信念和行为的许多手段的总体。在集体中生活和劳动，是形成个人的几乎所有特征(这些特征统一地构成共产主义教育的理想）的一所学校。",
+  "title": "集体主义既是结果也是过程",
+  "old_topics": [
+   "collective-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A9"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1750": {
+  "primary": "A9",
+  "seealso": [],
+  "facets": [],
+  "claim": "教育者的双重任务是：使人与人的接触成为对个人成长最有利的条件，并培养每个人对集体和社会负责的能力；缺少尽责能力，对自由的追求就会转变为放荡不羁。",
+  "evidence": "教育者的任务就在于，一方面要使这些接触成为对个人成长最有利的条件，另一方面，又要培养每个人具有一种深刻的个人尽责能力，即对集体和社会负起责任的能力，如果没有这种能力及其随时随地的具体表现，没有由这种能力产生的习惯与传统，个人要得到真正的自由",
+  "title": "责任与自由必须和谐",
+  "old_topics": [
+   "collective-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A9"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1751": {
+  "primary": "A2",
+  "seealso": [],
+  "facets": [],
+  "claim": "集体主义教育要从确立真正的自由和幸福观念开始——把自由和幸福理解为对社会的义务和责任；真正的自由和独立性首先指关心公共利益、对他人抱同情和关心的态度。",
+  "evidence": "集体主义教育是从确立真正的、惟一正确的关于自由和幸福的观念开始的，这样的观念把自由和幸福看做对社会的一种义务和责任。从儿童幼年起就要教导他们确信，真正的自由和独立性，首先是指关心公共的利益，是指对他人—首先是亲属和亲近的人，而后对关系较“远",
+  "title": "自由首先是关心公共利益",
+  "old_topics": [
+   "collective-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A2"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1752": {
+  "primary": "A8",
+  "seealso": [],
+  "facets": [],
+  "claim": "对人的真正的爱是一种艰辛的劳动（爱的劳动）；出于爱而进行的劳动是人的责任感和义务感的基础，把精神力量给予他人的人，自己也会得到非常宝贵的东西。",
+  "evidence": "对人的真正的爱，是一种艰辛的劳动。出于爱而进行的劳动是人的责任感和义务感的基础。爱的劳动在于一个人可以把自己的精神力量给予他人，而在这样做的时候他可以得到一种对他自己非常宝贵的东西。",
+  "title": "爱是一种艰辛的劳动",
+  "old_topics": [
+   "family-school",
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A8"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1753": {
+  "primary": "A9",
+  "seealso": [],
+  "facets": [],
+  "claim": "只有当教师和学生丰富的精神生活情趣在集体中多方面交织、相互促进时，个人才会处在集体的良好教育影响之下；忘了学生也在学校里生活这条真理，学习就会变成沉重负担，也就没有集体。",
+  "evidence": "只有当教师和学生的丰富的精神生活情趣，在集体中多方面地交织在一起而相互促进和完善起来的时候，个人才会处于集体的良好的教育影响之下。儿童、少年和青年在学校里不仅学知识，他们还在学校里生活。凡是忘记了这条真理的地方，学习就会成为学生的沉重负担，",
+  "title": "集体要有丰富的精神生活",
+  "old_topics": [
+   "collective-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A9"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1754": {
+  "primary": "A3",
+  "seealso": [],
+  "facets": [],
+  "claim": "集体的教育力量取决于受教育者形成哪些兴趣和需要，以及它们同愿望、爱好是否协调；兴趣和需要的满足若能造福社会，个人就是真正幸福的，而和谐一旦被破坏，集体就会陷入精神空虚。",
+  "evidence": "集体的教育力量取决于受教育者形成哪些兴趣和需要，以及兴趣、需要同愿望、爱好是怎样协调的。如果个人的兴趣和需要的满足能给社会造福，那么个人就是真正幸福的。当愿望是在高尚的道德需要的基础上产生和加强的时候，上述的那种和谐状态才能达到。如果需要和",
+  "title": "需要与愿望的和谐决定集体力量",
+  "old_topics": [
+   "collective-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A3"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

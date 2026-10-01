@@ -1,5 +1,5 @@
 {
-  "total_cards": 1743,
+  "total_cards": 1749,
   "source_count": 12,
   "topic_count": 12,
   "zuoren_cards": 541,
@@ -38,7 +38,7 @@
     {
       "slug": "xuan-ji-zh-vol1",
       "title": "苏霍姆林斯基选集（五卷本）第1卷",
-      "cards": 123,
+      "cards": 129,
       "page_refs": 36
     },
     {
@@ -85,7 +85,7 @@
     },
     {
       "type": "quote",
-      "cards": 616
+      "cards": 622
     },
     {
       "type": "principle",
@@ -104,7 +104,7 @@
     {
       "slug": "love-education",
       "title": "爱的教育",
-      "cards": 657
+      "cards": 658
     },
     {
       "slug": "child-study",
@@ -119,12 +119,12 @@
     {
       "slug": "family-school",
       "title": "家校合作",
-      "cards": 358
+      "cards": 359
     },
     {
       "slug": "collective-education",
       "title": "集体教育",
-      "cards": 330
+      "cards": 335
     },
     {
       "slug": "aesthetic-nature-education",

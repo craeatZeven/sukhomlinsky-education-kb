@@ -5,7 +5,7 @@
 
 ## 总览
 
-- 卡片总数：**1785**
+- 卡片总数：**1791**
 - 来源数：**12**
 - 主题数：**12**
 - 《做人的故事》：**541 张卡 / 540 个目录标题**
@@ -21,8 +21,8 @@
 | 苏霍姆林斯基选集（五卷本）第4卷（`xuan-ji-zh-vol4`） | 174 | 41/174 |
 | 苏霍姆林斯基选集（五卷本）第1卷（`xuan-ji-zh-vol1`） | 141 | 36/141 |
 | On Education（`on-education`） | 41 | 0/41 |
+| 给教师的建议（`gei-jiao-shi-de-jian-yi-zh`） | 36 | 23/36 |
 | 把心献给孩子（`ba-xin-xian-gei-hai-zi-zh`） | 35 | 0/35 |
-| 给教师的建议（`gei-jiao-shi-de-jian-yi-zh`） | 30 | 23/30 |
 | To Children I Give My Heart（`to-children-i-give-my-heart`） | 22 | 0/22 |
 | Each One Must Shine: The Educational Legacy of V. A. Sukhomlinsky（`each-one-must-shine`） | 16 | 0/16 |
 | The Singing Feather (会唱歌的羽毛)（`singing-feather`） | 12 | 0/12 |
@@ -32,7 +32,7 @@
 | 类型 | 数量 |
 |---|---:|
 | `case` | 673 |
-| `quote` | 658 |
+| `quote` | 664 |
 | `principle` | 194 |
 | `method` | 164 |
 | `practice` | 96 |
@@ -42,17 +42,17 @@
 | 主题 | 卡片数 |
 |---|---:|
 | 爱的教育（`love-education`） | 665 |
-| 儿童研究（`child-study`） | 641 |
+| 儿童研究（`child-study`） | 642 |
 | 教师成长（`teacher-growth`） | 416 |
 | 家校合作（`family-school`） | 362 |
-| 集体教育（`collective-education`） | 346 |
+| 集体教育（`collective-education`） | 347 |
 | 美育与自然（`aesthetic-nature-education`） | 292 |
-| 劳动教育（`labor-education`） | 283 |
-| 思维课与大自然（`thinking-and-nature`） | 232 |
-| 学习困难学生（`learning-difficulties`） | 166 |
+| 劳动教育（`labor-education`） | 284 |
+| 思维课与大自然（`thinking-and-nature`） | 233 |
+| 学习困难学生（`learning-difficulties`） | 167 |
 | 阅读与书籍（`reading-and-books`） | 107 |
 | 健康第一（`health-first`） | 84 |
-| 评价与分数（`assessment-grading`） | 59 |
+| 评价与分数（`assessment-grading`） | 60 |
 
 ## 当前已知缺口
 

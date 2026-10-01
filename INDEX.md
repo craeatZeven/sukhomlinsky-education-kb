@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 166 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 167 |
 | [family-school](topics/family-school.md) | 家校合作 | 362 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 283 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 284 |
 | [health-first](topics/health-first.md) | 健康第一 | 84 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 292 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 346 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 347 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 416 |
 | [love-education](topics/love-education.md) | 爱的教育 | 665 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 59 |
-| [child-study](topics/child-study.md) | 儿童研究 | 641 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 60 |
+| [child-study](topics/child-study.md) | 儿童研究 | 642 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 107 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 232 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 233 |
 
 ## 来源 Sources
 
@@ -1823,3 +1823,9 @@
 | [sk-1788](cards/sk-1788-deeper-labor-purer-personal-aspirations.md) | quote | labor-education | xuan-ji-zh-vol3 | 为人们劳动越投入，个人的愿望、志向和热情就越纯洁 |
 | [sk-1789](cards/sk-1789-story-unrelated-to-labor-links-spirit-and-work.md) | quote | teacher-growth | xuan-ji-zh-vol3 | 故事要讲得与劳动无关，才能在心灵深处把精神与劳动连起来 |
 | [sk-1790](cards/sk-1790-friendship-beauty-precedes-loyalty.md) | quote | collective-education | xuan-ji-zh-vol3 | 不让少年体验友谊的美，他的心就会对忠诚无动于衷 |
+| [sk-1791](cards/sk-1791-collective-is-river-of-individuals.md) | quote | collective-education | gei-jiao-shi-de-jian-yi-zh | 集体不是抽象的大河：个人自我贬低就污染了整条河 |
+| [sk-1792](cards/sk-1792-grading-is-only-one-field-of-self-expression.md) | quote | assessment-grading | gei-jiao-shi-de-jian-yi-zh | 人的表现若只剩分数这一个领域，好分数就等于好人 |
+| [sk-1793](cards/sk-1793-knowledge-first-for-a-workers-rich-spiritual-life.md) | quote | thinking-and-nature | gei-jiao-shi-de-jian-yi-zh | 知识之所以必不可少，首先是为了让劳动者享有丰富的精神生活 |
+| [sk-1794](cards/sk-1794-no-child-may-be-called-good-for-nothing.md) | quote | child-study | gei-jiao-shi-de-jian-yi-zh | 没有哪个孩子可以被称为「无论干什么都不行」的人 |
+| [sk-1795](cards/sk-1795-educability-as-basic-concept-of-pedagogy.md) | quote | learning-difficulties | gei-jiao-shi-de-jian-yi-zh | 「可教育性」应当成为教育学的基本概念之一 |
+| [sk-1796](cards/sk-1796-self-discovery-in-labor-makes-a-child-educable.md) | quote | labor-education | gei-jiao-shi-de-jian-yi-zh | 只有在劳动中发现并看见了自己的学生，才真正可教 |

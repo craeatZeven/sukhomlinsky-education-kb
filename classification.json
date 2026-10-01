@@ -30896,5 +30896,107 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1791": {
+  "primary": "A9",
+  "seealso": [],
+  "facets": [],
+  "claim": "把青少年缺乏教育归因于集体没起作用或教师不会通过集体影响个性，是把方向指错；个人在集体面前的自我贬低才会败坏集体，因为集体这条大河由每一滴水汇成。",
+  "evidence": "教育学的理论家们，当谈到集体对人的个性的巨大影响时，经常是这么来解释某些青少年缺乏教育的原因的：既然如此，那就是说，集体没有起到好的作用，对学生的教育不够，而教师呢，据说是不善于通过集体来影响个性。这是一种多么幼稚可笑而又软弱无力的辩解啊！",
+  "title": "集体由个人汇成",
+  "old_topics": [
+   "collective-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A9"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1792": {
+  "primary": "A16",
+  "seealso": [],
+  "facets": [],
+  "claim": "人的自我表现若只剩知识评分这一个领域，就会形成「好分数即好人、坏分数即没出息」的牢固偏见；分数只是人的精神生活的一个局部。",
+  "evidence": "现在我们的许多弊病，其根源就在于人的表现的片面性、畸形的单方面性。如果说在许多学校里（也许可以说在绝大多数学校里)，人的表现的唯一领域就是知识的评分，就是他能达到学校所规定的那个最高点的程度，那末这样说恐怕并未远离事实。形成了一种习惯的、牢",
+  "title": "别只剩分数一个领域",
+  "old_topics": [
+   "assessment-grading"
+  ],
+  "type": "quote",
+  "tags": [
+   "A16"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1793": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "掌握知识的首要理由不是职业或升学，而是让一个人成为有丰富精神生活的劳动者，并成为自己子女的明智而精神丰富的教育者。",
+  "evidence": "对我这个教育者来说，一件必须的、复杂的、极其困难的工作，就是使年轻人深信：知识对你来说之所以必不可少，并不单单是为了你将来的职业，并不单单是为了你毕业以后考上大学，而首先是为了你能享受一个劳动者的丰富的精神生活；不管你是当教师还是当拖拉机手",
+  "title": "知识为精神生活",
+  "old_topics": [
+   "thinking-and-nature"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1794": {
+  "primary": "A1",
+  "seealso": [],
+  "facets": [],
+  "claim": "人的天赋、可能性、能力与爱好没有限量且各不相同，不存在「无论干什么都不行」的孩子；教育就是替每个人找到那独一无二的创造性劳动源泉。",
+  "evidence": "我在学校里对儿童、少年和青年进行的几十年工作，使我得到一条深刻的信念：人的天赋、可能性、能力和爱好确实是无可限量的，而每一个人在这些方面的表现又都是独一无二的。自然界里没有一个这样的人，我们有权利说他是“无论干什么都不行”的人。共产主义教育",
+  "title": "没有干不行的人",
+  "old_topics": [
+   "child-study"
+  ],
+  "type": "quote",
+  "tags": [
+   "A1"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1795": {
+  "primary": "A4",
+  "seealso": [],
+  "facets": [],
+  "claim": "教育首先要形成「可受教育的能力」——让人对自己的成就和挫折非常关心；丧失这种能力的学生，集体对他不再起教育作用。",
+  "evidence": "应当使人成为“可教育的”，也就是说，使他能够接受教师的特别是集体的教育影响。如果一个十三岁或十六岁的人(是的，让我们不使用“学生”，而使用“人”这个字眼吧)说：“得两个‘两分’也行啊”，那末这就意味着他丧失了“成为可教育的人”这种能力。而这",
+  "title": "可教育性",
+  "old_topics": [
+   "learning-difficulties"
+  ],
+  "type": "quote",
+  "tags": [
+   "A4"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1796": {
+  "primary": "A11",
+  "seealso": [],
+  "facets": [],
+  "claim": "只有在亲身劳动中发现并看见了自己的学生才真正可教，才能敏锐感受长辈与集体的影响；劳动教育正是发掘这一心灵源泉的途径。",
+  "evidence": "我坚定地相信，只有那种在亲身的劳动中发现、显示和看到了自己的人，才能真正成为可教育的人，才能敏锐地感受到长辈(父亲、母亲、教师)的道德力量的影响，特别是敏锐地感受到集体的影响。应当通过劳动教育来发掘一个人的心灵，发掘每一个人身上所蕴藏的那个",
+  "title": "劳动中发现自己",
+  "old_topics": [
+   "labor-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A11"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

@@ -1,5 +1,5 @@
 {
-  "total_cards": 1785,
+  "total_cards": 1791,
   "source_count": 12,
   "topic_count": 12,
   "zuoren_cards": 541,
@@ -48,16 +48,16 @@
       "page_refs": 0
     },
     {
+      "slug": "gei-jiao-shi-de-jian-yi-zh",
+      "title": "给教师的建议",
+      "cards": 36,
+      "page_refs": 23
+    },
+    {
       "slug": "ba-xin-xian-gei-hai-zi-zh",
       "title": "把心献给孩子",
       "cards": 35,
       "page_refs": 0
-    },
-    {
-      "slug": "gei-jiao-shi-de-jian-yi-zh",
-      "title": "给教师的建议",
-      "cards": 30,
-      "page_refs": 23
     },
     {
       "slug": "to-children-i-give-my-heart",
@@ -85,7 +85,7 @@
     },
     {
       "type": "quote",
-      "cards": 658
+      "cards": 664
     },
     {
       "type": "principle",
@@ -109,7 +109,7 @@
     {
       "slug": "child-study",
       "title": "儿童研究",
-      "cards": 641
+      "cards": 642
     },
     {
       "slug": "teacher-growth",
@@ -124,7 +124,7 @@
     {
       "slug": "collective-education",
       "title": "集体教育",
-      "cards": 346
+      "cards": 347
     },
     {
       "slug": "aesthetic-nature-education",
@@ -134,17 +134,17 @@
     {
       "slug": "labor-education",
       "title": "劳动教育",
-      "cards": 283
+      "cards": 284
     },
     {
       "slug": "thinking-and-nature",
       "title": "思维课与大自然",
-      "cards": 232
+      "cards": 233
     },
     {
       "slug": "learning-difficulties",
       "title": "学习困难学生",
-      "cards": 166
+      "cards": 167
     },
     {
       "slug": "reading-and-books",
@@ -159,7 +159,7 @@
     {
       "slug": "assessment-grading",
       "title": "评价与分数",
-      "cards": 59
+      "cards": 60
     }
   ]
 }

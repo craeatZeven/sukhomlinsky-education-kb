@@ -103,13 +103,22 @@ def main():
             if len(hits) != 1:
                 raise SystemExit("%s 的 marker 命中 %d 个 unit（须唯一）：%s" % (d["id"], len(hits), d["marker"]))
             r = hits[0]
+        # 必备字段体检：缺任何一个都说明这条规格是残件，早报早改（不要跑到一半 KeyError）
+        _need = ("id", "title", "primary", "topics", "tags", "book", "source", "section", "marker", "relay", "scene")
+        _miss = [k for k in _need if k not in d]
+        if _miss:
+            raise SystemExit("%s：规格缺字段 %s —— 残件，改完再跑。" % (d.get("id", "?"), ", ".join(_miss)))
         t = re.sub(r"\s+", "", r["text"] or "")
         # 切片
         if d.get("quote_from"):
             i = t.find(d["quote_from"])
             if i < 0:
                 raise SystemExit("%s：quote_from 在源文里找不到（锚点要用 OCR 原字）：%s" % (d["id"], d["quote_from"]))
-            j = t.find(d["quote_to"], i) if d.get("quote_to") else len(t)
+            # 2026-10-01：缺 quote_to 时不能退化成"切到 unit 末尾"——那会悄悄改掉引文范围。
+            # 自动化跑起来后残件会反复出现（写到一半崩掉），一律**拒收 + 说人话**，不要抛堆栈。
+            if not d.get("quote_to"):
+                raise SystemExit("%s：规格有 quote_from 但**缺 quote_to** —— 这是残件（多半是写到一半崩了），整批复核后再跑。" % d.get("id", "?"))
+            j = t.find(d["quote_to"], i)
             if j < 0:
                 raise SystemExit("%s：quote_to 在 quote_from 之后找不到：%s" % (d["id"], d["quote_to"]))
             q = t[i:j + len(d["quote_to"] or "")]

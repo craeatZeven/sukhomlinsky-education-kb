@@ -6,14 +6,14 @@
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 165 |
 | [family-school](topics/family-school.md) | 家校合作 | 360 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 279 |
-| [health-first](topics/health-first.md) | 健康第一 | 82 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 291 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 281 |
+| [health-first](topics/health-first.md) | 健康第一 | 84 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 292 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 340 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 414 |
 | [love-education](topics/love-education.md) | 爱的教育 | 660 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 59 |
-| [child-study](topics/child-study.md) | 儿童研究 | 640 |
+| [child-study](topics/child-study.md) | 儿童研究 | 641 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 107 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 231 |
 
@@ -1799,3 +1799,9 @@
 | [sk-1764](cards/sk-1764-moral-evaluation-is-a-mark-of-adolescence.md) | quote | child-study | xuan-ji-zh-vol1 | 对周围生活现象进行道德评价的要求，是少年时期精神生活的突出特征 |
 | [sk-1765](cards/sk-1765-understanding-labor-removes-the-need-for-supervision.md) | quote | labor-education | xuan-ji-zh-vol1 | 学生越认清劳动的崇高意义，就越不需要监督，良心成为积极劳动的动力 |
 | [sk-1766](cards/sk-1766-fighting-harm-elevates-the-person.md) | quote | collective-education | xuan-ji-zh-vol1 | 同危害作斗争需要动员精神的力量，这样就会使人变得更加高尚起来 |
+| [sk-1767](cards/sk-1767-winter-labor-and-rest-harmonize-body-and-spirit.md) | quote | health-first | xuan-ji-zh-vol3 | 冬季的劳动与休息是使体力与精神协调的源泉，护心要从少年时代做起 |
+| [sk-1768](cards/sk-1768-sport-is-judged-by-coordination-and-grace.md) | quote | health-first | xuan-ji-zh-vol3 | 骑自行车、溜冰、滑雪、游泳这些本领，训练的是动作的协调、轻巧与优美 |
+| [sk-1769](cards/sk-1769-hands-become-tools-linked-with-the-brain.md) | quote | labor-education | xuan-ji-zh-vol3 | 训练动作的灵活、轻巧与优美，是把少年的双手变成与大脑相联系的劳动工具 |
+| [sk-1770](cards/sk-1770-monotonous-rough-actions-brand-all-development.md) | quote | labor-education | xuan-ji-zh-vol3 | 少年期单调粗野的动作占优势，会给体格、智力、情感和美感的发展打上烙印 |
+| [sk-1771](cards/sk-1771-awkward-actions-are-typical-of-adolescence.md) | quote | child-study | xuan-ji-zh-vol3 | 动作笨拙而又生硬是少年时期的典型特征，让细腻动作与体力配合十分重要 |
+| [sk-1772](cards/sk-1772-woodcut-is-artistic-creation-revealing-design.md) | quote | aesthetic-nature-education | xuan-ji-zh-vol3 | 木刻是艺术创作，每个人的思维与创作构思的特点正是在这种创作中展示出来 |

@@ -1,5 +1,5 @@
 {
-  "total_cards": 1761,
+  "total_cards": 1767,
   "source_count": 12,
   "topic_count": 12,
   "zuoren_cards": 541,
@@ -26,7 +26,7 @@
     {
       "slug": "xuan-ji-zh-vol3",
       "title": "苏霍姆林斯基选集（五卷本）第3卷",
-      "cards": 187,
+      "cards": 193,
       "page_refs": 51
     },
     {
@@ -85,7 +85,7 @@
     },
     {
       "type": "quote",
-      "cards": 634
+      "cards": 640
     },
     {
       "type": "principle",
@@ -109,7 +109,7 @@
     {
       "slug": "child-study",
       "title": "儿童研究",
-      "cards": 640
+      "cards": 641
     },
     {
       "slug": "teacher-growth",
@@ -129,12 +129,12 @@
     {
       "slug": "aesthetic-nature-education",
       "title": "美育与自然",
-      "cards": 291
+      "cards": 292
     },
     {
       "slug": "labor-education",
       "title": "劳动教育",
-      "cards": 279
+      "cards": 281
     },
     {
       "slug": "thinking-and-nature",
@@ -154,7 +154,7 @@
     {
       "slug": "health-first",
       "title": "健康第一",
-      "cards": 82
+      "cards": 84
     },
     {
       "slug": "assessment-grading",

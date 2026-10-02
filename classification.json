@@ -31903,5 +31903,107 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1850": {
+  "primary": "A12",
+  "seealso": [],
+  "facets": [],
+  "claim": "教育的重要任务是让学生与大自然的关系进入其精神生活，并与劳动人民息息相通。",
+  "evidence": "我们学校的学生就生活在大自然之中。学校的百步之外是集体农庄的大田，那里有结着沉甸甸穗子的小麦，正在灌浆的向日葵和正在扬花的荞麦。教室的窗外挂满一串串琥珀色的葡萄。假如儿童们漫不经心的话，那么他们就会，因司空见惯而无动于衷。我们认为，教育的一",
+  "title": "自然关系进入精神生活",
+  "old_topics": [
+   "aesthetic-nature-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A12"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1851": {
+  "primary": "A2",
+  "seealso": [],
+  "facets": [],
+  "claim": "自然财富是人民代代相传的财富，保护它是道德教育、公民教育和爱国主义教育的一条红线。",
+  "evidence": "我们教育学生把大自然视为人民代代相传的财富，它是一种无价之宝，其价值无与伦比。我们的教育集体认为，特别重要的是使儿童从初谙世事开始，就善待他们脚下这片不可等闲视之的沃土，就像潜水员爱护自己的潜水船一样：他的生命就系在这条船上，船在命在，船毁",
+  "title": "自然是人民的财富",
+  "old_topics": [
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A2"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1852": {
+  "primary": "A19",
+  "seealso": [],
+  "facets": [],
+  "claim": "一个人的道德水准取决于他童年、少年时代能否为他人、为社会的福利而操劳。",
+  "evidence": "我们教师念念不忘教育儿童，不要对自然财富，尤其是对天下财富之源的土地漠不关心。每个儿童恰恰应持迥然不同的态度，把全民的财产视为自己的，关心人民及其家庭利益的财产。应当教他们这样做人：把全民的财产视为自己的心肝宝贝，使他们首先为别人而工作，而",
+  "title": "道德水准看为谁操劳",
+  "old_topics": [
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A19"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1853": {
+  "primary": "A11",
+  "seealso": [],
+  "facets": [],
+  "claim": "大自然成为强有力的教育因素的前提，是学生通过自己的劳动看到周围世界变得更富饶、更美丽。",
+  "evidence": "大自然成为一种强有力的教育因素的前提是：使学生在校学习三四之后能惊喜地发现，通过自己的努力、自己的劳动，周围的世界变得更富饶了、更美丽了。几十年过去了，这条划开土地躯体的沟壑已经橡树成荫，大地的创伤似乎愈合了、消失了，那一带的沃土也再无流失",
+  "title": "自然成为教育因素的前提",
+  "old_topics": [
+   "labor-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A11"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1854": {
+  "primary": "A11",
+  "seealso": [],
+  "facets": [],
+  "claim": "劳动生活是各方面素质的有机融合；儿童若从小不勤于思维，劳动教育就无从谈起。",
+  "evidence": "农村学校组织学生投身于大自然的活动，为学生尽早地开始劳动生活创造了良好的条件。这其实比偶尔委派某项劳动任务或上教学大纲规定的实践课要重要得多。劳动生活是人各方面素质的有机融合(这要从童年、少年时代做起)，要求人具有思想者、创造者、勤于思维者",
+  "title": "劳动与思维的统一",
+  "old_topics": [
+   "labor-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A11"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1855": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "把田间劳动当作简单操作是错的；学生的思维和心智应延伸到土地与动植物上。",
+  "evidence": "学校的一项重要任务，是使少年儿童在田间和大自然的劳动中体会到乐趣和兴味，正是这种乐趣和兴味使他们的精神生活变得丰富、充实。有些教师认为儿童可以跟他们的父辈学会农活，田间的活计很简单，熟能生巧。我认为他们错了。现在的学校，其教育不能停留在民以",
+  "title": "思维延伸到土地上",
+  "old_topics": [
+   "thinking-and-nature"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

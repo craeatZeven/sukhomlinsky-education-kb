@@ -6,16 +6,16 @@
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 167 |
 | [family-school](topics/family-school.md) | 家校合作 | 365 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 294 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 296 |
 | [health-first](topics/health-first.md) | 健康第一 | 84 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 298 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 299 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 355 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 420 |
-| [love-education](topics/love-education.md) | 爱的教育 | 676 |
+| [love-education](topics/love-education.md) | 爱的教育 | 678 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 62 |
 | [child-study](topics/child-study.md) | 儿童研究 | 644 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 110 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 241 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 242 |
 
 ## 来源 Sources
 
@@ -1882,3 +1882,9 @@
 | [sk-1847](cards/sk-1847-adolescent-asks-what-heroes-believed.md) | quote | love-education | xuan-ji-zh-vol1 | 少年不再只赞叹英雄事迹，而开始追问英雄的信念 |
 | [sk-1848](cards/sk-1848-collective-activity-must-carry-an-idea.md) | quote | collective-education | xuan-ji-zh-vol1 | 儿童应把自己的行为同高尚思想相对照，这取决于集体活动的性质 |
 | [sk-1849](cards/sk-1849-reading-about-heroes-shapes-moral-feeling.md) | quote | reading-and-books | xuan-ji-zh-vol1 | 读英雄事迹的作品，把少年的赞叹变成对牺牲意义的认识 |
+| [sk-1850](cards/sk-1850-nature-relationship-enters-spiritual-life.md) | quote | aesthetic-nature-education | xuan-ji-zh-vol5 | 让学生与大自然的关系进入精神生活 |
+| [sk-1851](cards/sk-1851-nature-is-the-peoples-inherited-wealth.md) | quote | love-education | xuan-ji-zh-vol5 | 自然是人民代代相传的财富 |
+| [sk-1852](cards/sk-1852-moral-level-depends-on-working-for-others.md) | quote | love-education | xuan-ji-zh-vol5 | 道德水准取决于童年为谁操劳 |
+| [sk-1853](cards/sk-1853-nature-becomes-educational-factor-through-labor.md) | quote | labor-education | xuan-ji-zh-vol5 | 大自然成为教育因素的前提 |
+| [sk-1854](cards/sk-1854-labor-life-unity-of-hand-and-thought.md) | quote | labor-education | xuan-ji-zh-vol5 | 劳动生活与思维的统一 |
+| [sk-1855](cards/sk-1855-thinking-must-extend-to-land-and-labor.md) | quote | thinking-and-nature | xuan-ji-zh-vol5 | 学生的思维应延伸到土地上 |

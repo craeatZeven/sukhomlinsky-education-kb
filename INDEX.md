@@ -10,12 +10,12 @@
 | [health-first](topics/health-first.md) | 健康第一 | 84 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 298 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 353 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 418 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 420 |
 | [love-education](topics/love-education.md) | 爱的教育 | 672 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 60 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 61 |
 | [child-study](topics/child-study.md) | 儿童研究 | 643 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 109 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 237 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 240 |
 
 ## 来源 Sources
 
@@ -1864,3 +1864,9 @@
 | [sk-1829](cards/sk-1829-lack-of-real-reading-empties-the-teen-soul.md) | quote | reading-and-books | gei-jiao-shi-de-jian-yi-zh | 青少年精神空虚的原因之一，就是缺乏真正的阅读 |
 | [sk-1830](cards/sk-1830-labor-educates-only-when-it-builds-confidence.md) | quote | labor-education | gei-jiao-shi-de-jian-yi-zh | 劳动只有在人于其中确立了自己的信心时，才成为教育力量 |
 | [sk-1831](cards/sk-1831-do-not-stage-education-for-the-sake-of-appearing-to-educate.md) | quote | teacher-growth | gei-jiao-shi-de-jian-yi-zh | 要防止故意地、人为地做出教育别人的样子 |
+| [sk-1832](cards/sk-1832-clear-lecture-logic-holds-attention.md) | quote | teacher-growth | gei-jiao-shi-de-jian-yi-zh | 讲课的思路越清晰，少年越能注意听讲 |
+| [sk-1833](cards/sk-1833-concepts-must-become-thinking-tools.md) | quote | thinking-and-nature | gei-jiao-shi-de-jian-yi-zh | 概念是思维的一砖一瓦，要让它成为学生自己的工具 |
+| [sk-1834](cards/sk-1834-over-stimulation-kills-interest.md) | quote | thinking-and-nature | gei-jiao-shi-de-jian-yi-zh | 把「情绪区域」一直点着，兴趣反而会烧掉 |
+| [sk-1835](cards/sk-1835-interest-lies-in-the-subject-matter.md) | quote | thinking-and-nature | gei-jiao-shi-de-jian-yi-zh | 兴趣不该外加：教材的实质本身就够让人惊奇 |
+| [sk-1836](cards/sk-1836-hold-students-on-your-line-of-thought.md) | quote | teacher-growth | gei-jiao-shi-de-jian-yi-zh | 教育技巧的一个标志：把少年拴在你的思路上 |
+| [sk-1837](cards/sk-1837-do-not-rechew-what-is-already-known.md) | quote | assessment-grading | gei-jiao-shi-de-jian-yi-zh | 已经掌握的东西不必再「反复咀嚼」 |

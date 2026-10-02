@@ -6,15 +6,15 @@
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 167 |
 | [family-school](topics/family-school.md) | 家校合作 | 365 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 291 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 292 |
 | [health-first](topics/health-first.md) | 健康第一 | 84 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 298 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 351 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 416 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 353 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 418 |
 | [love-education](topics/love-education.md) | 爱的教育 | 672 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 60 |
 | [child-study](topics/child-study.md) | 儿童研究 | 643 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 108 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 109 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 237 |
 
 ## 来源 Sources
@@ -1858,3 +1858,9 @@
 | [sk-1823](cards/sk-1823-spiritual-bond-with-family-is-the-source-of-duty.md) | quote | family-school | gei-jiao-shi-de-jian-yi-zh | 与亲人的精神联系是义务感的源泉，犯罪常始于对身边人的关心漠不关心 |
 | [sk-1824](cards/sk-1824-teach-children-to-love-not-to-talk-about-love.md) | quote | love-education | gei-jiao-shi-de-jian-yi-zh | 应当教会儿童去爱，而不是教他们去谈论爱 |
 | [sk-1825](cards/sk-1825-shamelessness-grows-from-unkept-promises.md) | quote | love-education | gei-jiao-shi-de-jian-yi-zh | 不知羞耻是由不肯履行自己的诺言产生出来的 |
+| [sk-1826](cards/sk-1826-only-education-that-awakens-self-education-is-real.md) | quote | teacher-growth | gei-jiao-shi-de-jian-yi-zh | 只有能够激发学生去进行自我教育的教育，才是真正的教育 |
+| [sk-1827](cards/sk-1827-self-education-begins-with-caring-for-another.md) | quote | collective-education | gei-jiao-shi-de-jian-yi-zh | 自我教育从让一个人去关心另一个人开始 |
+| [sk-1828](cards/sk-1828-collective-public-evaluation-gives-self-knowledge.md) | quote | collective-education | gei-jiao-shi-de-jian-yi-zh | 集体的严格要求和公众评价是少年认识自己的条件 |
+| [sk-1829](cards/sk-1829-lack-of-real-reading-empties-the-teen-soul.md) | quote | reading-and-books | gei-jiao-shi-de-jian-yi-zh | 青少年精神空虚的原因之一，就是缺乏真正的阅读 |
+| [sk-1830](cards/sk-1830-labor-educates-only-when-it-builds-confidence.md) | quote | labor-education | gei-jiao-shi-de-jian-yi-zh | 劳动只有在人于其中确立了自己的信心时，才成为教育力量 |
+| [sk-1831](cards/sk-1831-do-not-stage-education-for-the-sake-of-appearing-to-educate.md) | quote | teacher-growth | gei-jiao-shi-de-jian-yi-zh | 要防止故意地、人为地做出教育别人的样子 |

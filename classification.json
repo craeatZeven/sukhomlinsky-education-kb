@@ -31495,5 +31495,107 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1826": {
+  "primary": "A4",
+  "seealso": [],
+  "facets": [],
+  "claim": "只有能够激发学生去进行自我教育的教育才是真正的教育；教给学生自我教育远比替他安排时间、看住他困难得多。",
+  "evidence": "我深信，只有能够激发学生去进行自我教育的教育，才是真正的教育。教给学生自我教育要比安排他怎样度过星期天困难得多，要比抓住他的手不放，直到他走出校门，一下子被摆脱了各种校规和限制的自由空气陶醉得不知所措，那要困难和复杂得多。只有能够激发学生去",
+  "title": "能激发自我教育的才是真教育",
+  "old_topics": [
+   "teacher-growth"
+  ],
+  "type": "quote",
+  "tags": [
+   "A4"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1827": {
+  "primary": "A4",
+  "seealso": [],
+  "facets": [],
+  "claim": "让少年去当低年级同学的教育者是道德教育中最复杂也最重要的任务之一；自我教育从关心另一个人、从在别人身上看到自己身上好的东西开始。",
+  "evidence": "我坚决相信，让少年去当低年级同学的教育者，是道德教育中最复杂、最不容易而又最重要的任务之一。严格地说，自我教育就是从这里开始的：让一个人去关心另一个人，力求看到自己身上的好的东西在另一个人的身上表现出来。",
+  "title": "自我教育始于关心他人",
+  "old_topics": [
+   "collective-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A4"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1828": {
+  "primary": "A9",
+  "seealso": [],
+  "facets": [],
+  "claim": "少年通过集体对他的道德评价学会用别人的眼光看自己；集体里若没有严格要求和公众评价，就谈不上让少年认识自己。",
+  "evidence": "如果有人在某一段时间里偷懒不干，同学们就会当面喊他是懒汉和游手好闲的人。他们谴责和嘲笑的不仅是懒惰本身，而且是意志薄弱、不想克服自己的弱点，不能管住自己的现象。少年对于别人给予自己人格的这种道德评价是非常敏感的：他好象能用别人的眼光来看自己",
+  "title": "公众评价换来自我认识",
+  "old_topics": [
+   "collective-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A9"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1829": {
+  "primary": "A13",
+  "seealso": [],
+  "facets": [],
+  "claim": "少年读不进有价值的书，是因为没人教他们真正的阅读；缺乏真正的阅读是青少年精神空虚的原因之一——这种阅读要占据整个理智和心灵，迫使人思考世界与自己。",
+  "evidence": "后来我才明白，少年们往往不懂得什么是真正的阅读，不善于深入思考所读的东西的含义，没有开动智慧的力量，不会欣赏作品的艺术价值。青少年精神空虚的原因之一，就是缺乏真正的阅读。这种阅读应当占据人的整个理智和心灵，引起他去深入思考周围世界和自己本身",
+  "title": "精神空虚因缺乏真阅读",
+  "old_topics": [
+   "reading-and-books"
+  ],
+  "type": "quote",
+  "tags": [
+   "A13"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1830": {
+  "primary": "A11",
+  "seealso": [],
+  "facets": [],
+  "claim": "劳动只有在人于其中确立了自己的信心、认识到自己的力量与天赋时才成为强大的教育力量；少年期的任务正是让每个学生从多种劳动中找到能给他幸福的那条路。",
+  "evidence": "但是只有在这样的条件下，即人在劳动中确立了自己的信心，认识到自己的力量、才能和天赋时，劳动才能成为强大的教育力量。只有当一个人热爱劳动时，劳动才能成为真正的教育者。因此，在少年期，使每个学生从许多种劳动中找到他能够获得幸福的那条道路是非常重",
+  "title": "劳动成为教育者的条件",
+  "old_topics": [
+   "labor-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A11"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1831": {
+  "primary": "A22",
+  "seealso": [],
+  "facets": [],
+  "claim": "指导自我教育时最主要的困难是教师故意、人为地做出教育别人的样子；要使青少年感觉不到自己被有目的地引向某处，办法是给他一项需要长期完成、由他自己独立做完的劳动任务。",
+  "evidence": "在指导学生的自我教育的过程中，我想劝告青年教师和学校领导者们防止一种最主要的困难，那就是故意地、人为地做出教育别人的样子。我们不得不花费巨大的努力，使青少年不致感到他是被别人有目的地引到什么地方去。在每一个教学工厂里，操作室里，在温室和学校",
+  "title": "不要演出教育的样子",
+  "old_topics": [
+   "teacher-growth"
+  ],
+  "type": "quote",
+  "tags": [
+   "A22"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

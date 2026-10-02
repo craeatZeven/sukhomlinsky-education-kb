@@ -31801,5 +31801,107 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1844": {
+  "primary": "A21",
+  "seealso": [],
+  "facets": [],
+  "claim": "少年对别人评价他智力活动极为敏感，其智力自尊心来自独立克服困难的体验，因此教师要先给成功体验再谈纪律。",
+  "evidence": "如果说低年级学生还不大关心别人对他的思维能力的评价，那么，少年对于别人对他智力活动的评价则非常敏感。如果他在完成智力性质的任务时遇到困难，甚至感到无能为力，那么他会十分难过。无论积极的或消极的精神情感，都复杂地反映在他的精神生活中。少年从克",
+  "title": "少年对智力评价格外敏感",
+  "old_topics": [
+   "child-study"
+  ],
+  "type": "quote",
+  "tags": [
+   "A21"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1845": {
+  "primary": "A16",
+  "seealso": [],
+  "facets": [],
+  "claim": "对虚假成绩的沾沾自喜来自教师没有讲明提高的无限可能，它削弱精神力量并使少年在挫折时走向另一极端。",
+  "evidence": "少年的情感过于激动，往往同他对自己成功和失败的态度有关。我们见过这种情况：些少年在学习和劳动中取得成绩便产生骄傲自满情绪。产生过高估计自己能力的原因，主要是由于教师没有向少年讲明提高工作质量、改善技艺的无限可能性。对虚假的成绩盲目地沾沾自喜",
+  "title": "虚假成绩削弱精神力量",
+  "old_topics": [
+   "assessment-grading"
+  ],
+  "type": "quote",
+  "tags": [
+   "A16"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1846": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "少年在智力困难面前退缩会逐渐对智力活动失去兴趣；死记硬背记下的知识不能促进思维，真正使人落后的是「我脑子不好使」这种思想状况。",
+  "evidence": "由此可见，注意这一年龄期儿童的个人智能是多么重要。少年如果在智力困难面前退缩，表现软弱无力，就不仅会在知识水平方面落后于同年龄的学生，而且，特别危险的是，会逐渐对智力活动失去兴趣。他可能知道许多实例、公式、定义，但因没有经过充分思考，只是死",
+  "title": "智力退缩比无知更危险",
+  "old_topics": [
+   "thinking-and-nature"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1847": {
+  "primary": "A2",
+  "seealso": [],
+  "facets": [],
+  "claim": "少年期高尚道德情感增强的标志，是不再停留在情感冲动，而开始思索英雄人物的观点和信仰的本质。",
+  "evidence": "在这一时期学生的情感生活中，高尚道德情感的作用不断增强。少年开始认识到为祖国的自由和独立进行英勇斗争，救人于危难，同情弱小无援者等行为的高尚性质。特别是在这一年龄期，认识到了产生勇敢、坚韧和献身精神的思想基础。如果说低年级学生只感受到忠于自",
+  "title": "少年开始追问英雄的信念",
+  "old_topics": [
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A2"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1848": {
+  "primary": "A9",
+  "seealso": [],
+  "facets": [],
+  "claim": "情感与道德的发展产生了教育工作的新规律：儿童应把自己的行为、集体中的相互关系同高尚思想和道德标准相对照，而能否做到取决于集体活动的性质及其思想基础。",
+  "evidence": "情感中精神道德因素的增强、高尚道德情感的巩固、对崇高思想的认识——所有这一切对这一年龄期的儿童集体组织，对学生之间的相互关系，对他们参加社会政治生活都具有深刻的影响。由此产生了教育工作过程的新的规律。依我们看，其中最重要的规律是：儿童应该将",
+  "title": "对照高尚思想取决于集体活动",
+  "old_topics": [
+   "collective-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A9"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1849": {
+  "primary": "A13",
+  "seealso": [],
+  "facets": [],
+  "claim": "阅读英雄题材的作品能激发少年的审美感受，并使他们从同情眼泪走向「为了人民的利益应当不惜牺牲一切」的认识。",
+  "evidence": "在这一年龄期，由于情感中道德因素的增强，产生了英雄感并不断得到巩固。阅读有关伟人卫国战争中英雄（特别是青少年英雄）的业绩、有关战士们为人民事业奋不顾身的人无畏精神和视死如归的英雄气概的作品，更能激动少年们的心弦，使他们得到美的感受。如果说在",
+  "title": "读英雄作品塑造道德情感",
+  "old_topics": [
+   "reading-and-books"
+  ],
+  "type": "quote",
+  "tags": [
+   "A13"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

@@ -9,13 +9,13 @@
 | [labor-education](topics/labor-education.md) | 劳动教育 | 294 |
 | [health-first](topics/health-first.md) | 健康第一 | 84 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 298 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 354 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 355 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 420 |
-| [love-education](topics/love-education.md) | 爱的教育 | 675 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 61 |
-| [child-study](topics/child-study.md) | 儿童研究 | 643 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 109 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 240 |
+| [love-education](topics/love-education.md) | 爱的教育 | 676 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 62 |
+| [child-study](topics/child-study.md) | 儿童研究 | 644 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 110 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 241 |
 
 ## 来源 Sources
 
@@ -1876,3 +1876,9 @@
 | [sk-1841](cards/sk-1841-educate-for-the-features-of-the-future-person.md) | quote | love-education | xuan-ji-zh-vol2 | 教育要培养的人，应当具有未来人所固有的特征 |
 | [sk-1842](cards/sk-1842-noble-moral-feeling-through-value-for-others.md) | quote | love-education | xuan-ji-zh-vol2 | 要让年轻一代确立使千万劳动者受益的高尚道德感 |
 | [sk-1843](cards/sk-1843-personal-concern-for-public-wealth.md) | quote | labor-education | xuan-ji-zh-vol2 | 对社会财富的个人关切，是最重要最迫切的教育问题 |
+| [sk-1844](cards/sk-1844-teen-sensitive-to-judgments-of-his-intellect.md) | quote | child-study | xuan-ji-zh-vol1 | 少年对别人如何评价他的智力格外敏感 |
+| [sk-1845](cards/sk-1845-false-success-feeds-conceit-then-despair.md) | quote | assessment-grading | xuan-ji-zh-vol1 | 对虚假成绩的沾沾自喜会削弱少年的精神力量 |
+| [sk-1846](cards/sk-1846-intellectual-retreat-kills-interest.md) | quote | thinking-and-nature | xuan-ji-zh-vol1 | 在智力困难面前退缩，比无知更危险 |
+| [sk-1847](cards/sk-1847-adolescent-asks-what-heroes-believed.md) | quote | love-education | xuan-ji-zh-vol1 | 少年不再只赞叹英雄事迹，而开始追问英雄的信念 |
+| [sk-1848](cards/sk-1848-collective-activity-must-carry-an-idea.md) | quote | collective-education | xuan-ji-zh-vol1 | 儿童应把自己的行为同高尚思想相对照，这取决于集体活动的性质 |
+| [sk-1849](cards/sk-1849-reading-about-heroes-shapes-moral-feeling.md) | quote | reading-and-books | xuan-ji-zh-vol1 | 读英雄事迹的作品，把少年的赞叹变成对牺牲意义的认识 |

@@ -5,13 +5,13 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 167 |
-| [family-school](topics/family-school.md) | 家校合作 | 362 |
+| [family-school](topics/family-school.md) | 家校合作 | 364 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 291 |
 | [health-first](topics/health-first.md) | 健康第一 | 84 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 297 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 347 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 298 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 351 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 416 |
-| [love-education](topics/love-education.md) | 爱的教育 | 665 |
+| [love-education](topics/love-education.md) | 爱的教育 | 668 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 60 |
 | [child-study](topics/child-study.md) | 儿童研究 | 642 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 108 |
@@ -1846,3 +1846,9 @@
 | [sk-1811](cards/sk-1811-history-second-syllabus-widest-intellectual-background.md) | quote | thinking-and-nature | xuan-ji-zh-vol4 | 历史课的非必修“第二套大纲”比任何科目都广阔 |
 | [sk-1812](cards/sk-1812-reading-aloud-literature-is-a-creative-process.md) | quote | reading-and-books | xuan-ji-zh-vol4 | 朗读和赏听文艺作品是一种特殊的创造过程 |
 | [sk-1813](cards/sk-1813-foreign-language-must-live-in-thought-not-translation.md) | quote | thinking-and-nature | xuan-ji-zh-vol4 | 外语的教育作用在于让别国人民的语言活在儿童的思想中 |
+| [sk-1814](cards/sk-1814-cherishing-life-is-root-of-thoughtfulness.md) | quote | love-education / aesthetic-nature-education | xuan-ji-zh-vol1 | 珍惜有生命的东西的能力，是一切思想的幼根 |
+| [sk-1815](cards/sk-1815-a-beloved-person-is-the-cornerstone-of-collectivism.md) | quote | collective-education / love-education | xuan-ji-zh-vol1 | 让孩子有自己亲爱的人，是接受集体教育的先决条件 |
+| [sk-1816](cards/sk-1816-conscience-is-trained-in-shared-sorrow.md) | quote | collective-education | xuan-ji-zh-vol1 | 良心是在为同学难受的眼泪里磨炼出来的 |
+| [sk-1817](cards/sk-1817-sharing-joy-builds-conscience.md) | quote | collective-education / family-school | xuan-ji-zh-vol1 | 善于分享别人的欢乐，是培养良心的积极因素 |
+| [sk-1818](cards/sk-1818-family-is-where-good-deeds-are-learned.md) | quote | family-school | xuan-ji-zh-vol1 | 家庭是孩子学习做好事的起源之地 |
+| [sk-1819](cards/sk-1819-constant-care-is-the-activity-that-ennobles-collective.md) | quote | collective-education / love-education | xuan-ji-zh-vol1 | 经常关心人，才是集体获得崇高精神鼓舞的最重要活动 |

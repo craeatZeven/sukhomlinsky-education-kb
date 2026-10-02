@@ -31699,5 +31699,107 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1838": {
+  "primary": "A2",
+  "seealso": [],
+  "facets": [],
+  "claim": "学校要让新一代的精神面貌不只符合已达到的社会关系水平，还要含有刚产生的新因素。",
+  "evidence": "为确立共产主义并因此站在为社会进步而奋斗的先进行列中，学校应当首先在成长中的一代的意识中确立能为新事物和进步事业而奋斗的信念。他们的精神面貌，应当不仅符合已达到的社会公共关系的水平，而且具有今天刚产生的新因素。",
+  "title": "信念要有未来的新因素",
+  "old_topics": [
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A2"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1839": {
+  "primary": "A11",
+  "seealso": [],
+  "facets": [],
+  "claim": "只有当劳动进入个人的精神范围，珍惜社会财富的态度才可能形成。",
+  "evidence": "形成珍惜地、关切地对待共产主义社会物质财富态度的条件，就是把劳动有机地纳入个人的精神范围之内。生活本身正在表明应当如何达到这一目标。在我们社会中曾经有、现在仍有成千上万的劳动者，他们通过个人的亲自努力，创造着具有重大社会意义的价值。这些人丰",
+  "title": "劳动进入精神生活才懂珍惜",
+  "old_topics": [
+   "labor-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A11"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1840": {
+  "primary": "A9",
+  "seealso": [],
+  "facets": [],
+  "claim": "集体劳动能增强新的劳动品质，因为劳动者珍重劳动集体成员对自己的信任。",
+  "evidence": "通过集体劳动，为成千成万的人创造物质财富的地方，会增强劳动品质新因素的作用。这包括工人自己的良知及信念，他们深信：他为远方的人们生产物质财富，他们对他来说像自己劳动集体中的成员，像亲人和亲戚那样，是同志，是兄弟，他珍重这些人对自己的信任。",
+  "title": "共同劳动靠信任教育人",
+  "old_topics": [
+   "collective-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A9"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1841": {
+  "primary": "A2",
+  "seealso": [],
+  "facets": [],
+  "claim": "意识不应落后于存在，学校要培养的人应具有未来人所固有的特征。",
+  "evidence": "意识不落后于存在，就应当培养我们的人具有未来人所固有的特征，这是年轻一代对生活做好心理准备的条件之一。解决这项重大任务，就要经常地、深刻地分析生产关系中的变化(有时乍看起来似乎不甚明显)，以及人们在意识上、意向上、兴趣上的变化。",
+  "title": "培养未来人所固有的特征",
+  "old_topics": [
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A2"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1842": {
+  "primary": "A19",
+  "seealso": [],
+  "facets": [],
+  "claim": "道德教育要让年轻一代形成用自己创造的价值使众多劳动者受益的高尚道德感。",
+  "evidence": "要使成长中的一代确立用自己创造的价值使成千上万劳动者受益的高尚道德感。要使小伙子和姑娘们从精神上准备好投入共产主义社会的劳动，改造生产关系，这种改造必定会在集体农庄的乡村里得到实现。",
+  "title": "道德感落在为他人创造的价值上",
+  "old_topics": [
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A19"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1843": {
+  "primary": "A11",
+  "seealso": [],
+  "facets": [],
+  "claim": "培养个人对社会公共财产的关切、爱护与珍惜，是塑造精神面貌最重要最迫切的问题之一。",
+  "evidence": "个人深切地关心、保护、增加、珍惜社会公共财产，这是培养人的精神面貌的个最重要、最迫切的问题。共产主义建设的成就，包括新社会物质技术基础的进一步巩固，都取决于每个劳动者的个人观点和信念在多大程度上适应生产力和生产关系的进一步发展，尤其是适应社",
+  "title": "关心公共财产是最迫切的问题",
+  "old_topics": [
+   "labor-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A11"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

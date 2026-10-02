@@ -6,12 +6,12 @@
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 167 |
 | [family-school](topics/family-school.md) | 家校合作 | 365 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 292 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 294 |
 | [health-first](topics/health-first.md) | 健康第一 | 84 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 298 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 353 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 354 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 420 |
-| [love-education](topics/love-education.md) | 爱的教育 | 672 |
+| [love-education](topics/love-education.md) | 爱的教育 | 675 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 61 |
 | [child-study](topics/child-study.md) | 儿童研究 | 643 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 109 |
@@ -1870,3 +1870,9 @@
 | [sk-1835](cards/sk-1835-interest-lies-in-the-subject-matter.md) | quote | thinking-and-nature | gei-jiao-shi-de-jian-yi-zh | 兴趣不该外加：教材的实质本身就够让人惊奇 |
 | [sk-1836](cards/sk-1836-hold-students-on-your-line-of-thought.md) | quote | teacher-growth | gei-jiao-shi-de-jian-yi-zh | 教育技巧的一个标志：把少年拴在你的思路上 |
 | [sk-1837](cards/sk-1837-do-not-rechew-what-is-already-known.md) | quote | assessment-grading | gei-jiao-shi-de-jian-yi-zh | 已经掌握的东西不必再「反复咀嚼」 |
+| [sk-1838](cards/sk-1838-beliefs-must-carry-todays-new-elements.md) | quote | love-education | xuan-ji-zh-vol2 | 学校所确立的信念，应当含有今天刚产生的新因素 |
+| [sk-1839](cards/sk-1839-cherishing-public-wealth-comes-from-labor-in-spiritual-life.md) | quote | labor-education | xuan-ji-zh-vol2 | 珍惜社会财富的态度，来自把劳动纳入个人的精神生活 |
+| [sk-1840](cards/sk-1840-shared-labor-educates-through-trust.md) | quote | collective-education | xuan-ji-zh-vol2 | 共同劳动之所以能教育人，靠的是劳动集体里的信任 |
+| [sk-1841](cards/sk-1841-educate-for-the-features-of-the-future-person.md) | quote | love-education | xuan-ji-zh-vol2 | 教育要培养的人，应当具有未来人所固有的特征 |
+| [sk-1842](cards/sk-1842-noble-moral-feeling-through-value-for-others.md) | quote | love-education | xuan-ji-zh-vol2 | 要让年轻一代确立使千万劳动者受益的高尚道德感 |
+| [sk-1843](cards/sk-1843-personal-concern-for-public-wealth.md) | quote | labor-education | xuan-ji-zh-vol2 | 对社会财富的个人关切，是最重要最迫切的教育问题 |

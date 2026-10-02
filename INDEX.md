@@ -5,15 +5,15 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 167 |
-| [family-school](topics/family-school.md) | 家校合作 | 364 |
+| [family-school](topics/family-school.md) | 家校合作 | 365 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 291 |
 | [health-first](topics/health-first.md) | 健康第一 | 84 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 298 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 351 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 416 |
-| [love-education](topics/love-education.md) | 爱的教育 | 668 |
+| [love-education](topics/love-education.md) | 爱的教育 | 672 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 60 |
-| [child-study](topics/child-study.md) | 儿童研究 | 642 |
+| [child-study](topics/child-study.md) | 儿童研究 | 643 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 108 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 237 |
 
@@ -1852,3 +1852,9 @@
 | [sk-1817](cards/sk-1817-sharing-joy-builds-conscience.md) | quote | collective-education / family-school | xuan-ji-zh-vol1 | 善于分享别人的欢乐，是培养良心的积极因素 |
 | [sk-1818](cards/sk-1818-family-is-where-good-deeds-are-learned.md) | quote | family-school | xuan-ji-zh-vol1 | 家庭是孩子学习做好事的起源之地 |
 | [sk-1819](cards/sk-1819-constant-care-is-the-activity-that-ennobles-collective.md) | quote | collective-education / love-education | xuan-ji-zh-vol1 | 经常关心人，才是集体获得崇高精神鼓舞的最重要活动 |
+| [sk-1820](cards/sk-1820-keep-the-source-you-drink-from-clean.md) | quote | love-education | gei-jiao-shi-de-jian-yi-zh | 从这个水源里取水吃，就要永远保持这个水源的清洁 |
+| [sk-1821](cards/sk-1821-childhood-is-the-window-for-moral-indignation.md) | quote | child-study | gei-jiao-shi-de-jian-yi-zh | 让儿童成百上千次体验正义的胜利，错过童年期就补不回来 |
+| [sk-1822](cards/sk-1822-life-is-both-wealth-and-fragile-treasure.md) | quote | love-education | gei-jiao-shi-de-jian-yi-zh | 道德教育的重要任务，是让孩子懂得生命既是财富又是极易损伤的珍品 |
+| [sk-1823](cards/sk-1823-spiritual-bond-with-family-is-the-source-of-duty.md) | quote | family-school | gei-jiao-shi-de-jian-yi-zh | 与亲人的精神联系是义务感的源泉，犯罪常始于对身边人的关心漠不关心 |
+| [sk-1824](cards/sk-1824-teach-children-to-love-not-to-talk-about-love.md) | quote | love-education | gei-jiao-shi-de-jian-yi-zh | 应当教会儿童去爱，而不是教他们去谈论爱 |
+| [sk-1825](cards/sk-1825-shamelessness-grows-from-unkept-promises.md) | quote | love-education | gei-jiao-shi-de-jian-yi-zh | 不知羞耻是由不肯履行自己的诺言产生出来的 |

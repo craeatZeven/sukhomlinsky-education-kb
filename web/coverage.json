@@ -1,5 +1,5 @@
 {
-  "total_cards": 1814,
+  "total_cards": 1820,
   "source_count": 12,
   "topic_count": 12,
   "zuoren_cards": 541,
@@ -44,7 +44,7 @@
     {
       "slug": "gei-jiao-shi-de-jian-yi-zh",
       "title": "给教师的建议",
-      "cards": 42,
+      "cards": 48,
       "page_refs": 23
     },
     {
@@ -81,7 +81,7 @@
   "types": [
     {
       "type": "quote",
-      "cards": 687
+      "cards": 693
     },
     {
       "type": "case",
@@ -104,12 +104,12 @@
     {
       "slug": "love-education",
       "title": "爱的教育",
-      "cards": 668
+      "cards": 672
     },
     {
       "slug": "child-study",
       "title": "儿童研究",
-      "cards": 642
+      "cards": 643
     },
     {
       "slug": "teacher-growth",
@@ -119,7 +119,7 @@
     {
       "slug": "family-school",
       "title": "家校合作",
-      "cards": 364
+      "cards": 365
     },
     {
       "slug": "collective-education",

@@ -1,5 +1,5 @@
 {
-  "total_cards": 1796,
+  "total_cards": 1802,
   "source_count": 12,
   "topic_count": 12,
   "zuoren_cards": 541,
@@ -42,16 +42,16 @@
       "page_refs": 36
     },
     {
+      "slug": "gei-jiao-shi-de-jian-yi-zh",
+      "title": "给教师的建议",
+      "cards": 42,
+      "page_refs": 23
+    },
+    {
       "slug": "on-education",
       "title": "On Education",
       "cards": 41,
       "page_refs": 0
-    },
-    {
-      "slug": "gei-jiao-shi-de-jian-yi-zh",
-      "title": "给教师的建议",
-      "cards": 36,
-      "page_refs": 23
     },
     {
       "slug": "ba-xin-xian-gei-hai-zi-zh",
@@ -80,12 +80,12 @@
   ],
   "types": [
     {
-      "type": "case",
-      "cards": 673
+      "type": "quote",
+      "cards": 675
     },
     {
-      "type": "quote",
-      "cards": 669
+      "type": "case",
+      "cards": 673
     },
     {
       "type": "principle",
@@ -134,7 +134,7 @@
     {
       "slug": "labor-education",
       "title": "劳动教育",
-      "cards": 284
+      "cards": 290
     },
     {
       "slug": "thinking-and-nature",

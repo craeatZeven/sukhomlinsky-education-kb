@@ -6,7 +6,7 @@
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 167 |
 | [family-school](topics/family-school.md) | 家校合作 | 362 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 284 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 290 |
 | [health-first](topics/health-first.md) | 健康第一 | 84 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 297 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 347 |
@@ -1834,3 +1834,9 @@
 | [sk-1799](cards/sk-1799-portrait-teaches-reading-the-eyes.md) | quote | aesthetic-nature-education | xuan-ji-zh-vol3 | 肖像画是教学生“用自己的心感觉别人”的有力手段 |
 | [sk-1800](cards/sk-1800-feeling-beauty-cannot-be-told-only.md) | quote | aesthetic-nature-education | xuan-ji-zh-vol3 | 对人的认识必须在感情积极颤动的情况下进行 |
 | [sk-1801](cards/sk-1801-nature-experience-grounds-art-appreciation.md) | quote | aesthetic-nature-education | xuan-ji-zh-vol3 | 反复观赏绘画以与自然接触中得来的情感财富为基础 |
+| [sk-1802](cards/sk-1802-success-and-new-ideas-make-heavy-labor-attractive.md) | quote | labor-education | gei-jiao-shi-de-jian-yi-zh | 成功带来的振奋会产生新设想，使繁重的劳动不再可厌 |
+| [sk-1803](cards/sk-1803-open-natures-book-to-make-labor-loved.md) | quote | labor-education | gei-jiao-shi-de-jian-yi-zh | 要让学生热爱最平凡的劳动，就得在他们面前揭开大自然这本书的新一页 |
+| [sk-1804](cards/sk-1804-dirty-work-becomes-discovery-of-nature.md) | quote | labor-education | gei-jiao-shi-de-jian-yi-zh | 劳动是否有趣，取决于孩子是在重复还是在发现 |
+| [sk-1805](cards/sk-1805-childhood-labor-becomes-means-to-ideal.md) | quote | labor-education | gei-jiao-shi-de-jian-yi-zh | 童年少年期不愉快的劳动，一旦成为实现理想的手段就会被人终身眷恋 |
+| [sk-1806](cards/sk-1806-labor-enters-spiritual-life-as-creation.md) | quote | labor-education | gei-jiao-shi-de-jian-yi-zh | 使普通劳动变成生活理想的条件，是它早早作为一种创造活动进入精神生活 |
+| [sk-1807](cards/sk-1807-labor-becomes-a-need-like-books-and-music.md) | quote | labor-education | gei-jiao-shi-de-jian-yi-zh | 劳动要成为像读书、欣赏音乐、与朋友相聚一样的需要 |

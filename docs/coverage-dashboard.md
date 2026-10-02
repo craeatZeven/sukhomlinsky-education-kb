@@ -5,7 +5,7 @@
 
 ## 总览
 
-- 卡片总数：**1796**
+- 卡片总数：**1802**
 - 来源数：**12**
 - 主题数：**12**
 - 《做人的故事》：**541 张卡 / 540 个目录标题**
@@ -20,8 +20,8 @@
 | 苏霍姆林斯基选集（五卷本）第3卷（`xuan-ji-zh-vol3`） | 204 | 51/204 |
 | 苏霍姆林斯基选集（五卷本）第4卷（`xuan-ji-zh-vol4`） | 174 | 41/174 |
 | 苏霍姆林斯基选集（五卷本）第1卷（`xuan-ji-zh-vol1`） | 141 | 36/141 |
+| 给教师的建议（`gei-jiao-shi-de-jian-yi-zh`） | 42 | 23/42 |
 | On Education（`on-education`） | 41 | 0/41 |
-| 给教师的建议（`gei-jiao-shi-de-jian-yi-zh`） | 36 | 23/36 |
 | 把心献给孩子（`ba-xin-xian-gei-hai-zi-zh`） | 35 | 0/35 |
 | To Children I Give My Heart（`to-children-i-give-my-heart`） | 22 | 0/22 |
 | Each One Must Shine: The Educational Legacy of V. A. Sukhomlinsky（`each-one-must-shine`） | 16 | 0/16 |
@@ -31,8 +31,8 @@
 
 | 类型 | 数量 |
 |---|---:|
+| `quote` | 675 |
 | `case` | 673 |
-| `quote` | 669 |
 | `principle` | 194 |
 | `method` | 164 |
 | `practice` | 96 |
@@ -47,7 +47,7 @@
 | 家校合作（`family-school`） | 362 |
 | 集体教育（`collective-education`） | 347 |
 | 美育与自然（`aesthetic-nature-education`） | 297 |
-| 劳动教育（`labor-education`） | 284 |
+| 劳动教育（`labor-education`） | 290 |
 | 思维课与大自然（`thinking-and-nature`） | 233 |
 | 学习困难学生（`learning-difficulties`） | 167 |
 | 阅读与书籍（`reading-and-books`） | 107 |

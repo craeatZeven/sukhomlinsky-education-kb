@@ -31185,5 +31185,107 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1808": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "智育的实质是让人类智力财富成为学生自己的财富，未列入教学计划的科学基础知识同样不可缺少。",
+  "evidence": "只有当人类最有价值的智力财富成为学生的财富时，才能实现真正的智育。学校的实际任务就是要做到，使得关于自然和劳动、关于人的机体和思维、关于社会和人的精神生活以及关于艺术等科学的基础知识在学生的智力发展中占据应有的地位。尽管地质学、矿物学、生物",
+  "title": "智育的判据是智力财富的转移",
+  "old_topics": [
+   "thinking-and-nature"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1809": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "数学课的教育意义在于养成首创精神、认真精确的作风与批判性态度，一题多解的选择过程即是教育刺激。",
+  "evidence": "我们认为，数学在培养首创精神、勤勉劳动的品质、认真精确的作风和批判性态度等，都具有重大意义。例如，每个数学教师都备有一套能用各种方法解算的习题，而方法的选择正是一种起教育作用的刺激因素。",
+  "title": "数学的教养作用落在品格上",
+  "old_topics": [
+   "thinking-and-nature"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1810": {
+  "primary": "A11",
+  "seealso": [],
+  "facets": [],
+  "claim": "劳动的教育力量主要来自实验赋予它的智力含量，学生探究生命奥秘的兴趣本身就是教育成绩。",
+  "evidence": "学校里的实验，是丰富劳动的智力含量，实现劳动同思维、分析相结合的不可取代的手段。我们认为，许多青少年“患”上了一种与深入了解植物、动物和土壤的生命奥秘相关联的“幻想病”，这是教育工作的很大成绩。高年级学生研究的一些问题是：粮食蛋白质含量的提",
+  "title": "实验让劳动带上智力含量",
+  "old_topics": [
+   "labor-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A11"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1811": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "历史课的智育效果取决于非必修背景的广阔程度，早期故事讲读是形成历史信念与个人态度的落点。",
+  "evidence": "如果拿历史课程跟其他科目相比，那么，历史课程为智力和道德发展创造背景的那个非必修的第二套大纲，要比任何其他科目的广阔得多。我们对学龄早期儿童就要介绍许多历史事件。为他们举办历史故事讲读会，给他们讲有关人类的过去，有关过去和现在反对社会邪恶的",
+  "title": "历史课的智力背景最广阔",
+  "old_topics": [
+   "thinking-and-nature"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1812": {
+  "primary": "A13",
+  "seealso": [],
+  "facets": [],
+  "claim": "文学作品的教育力来自朗读与感受，教师既要教学生读，也要教他感受。",
+  "evidence": "文学作品之所以能教人如何生活，成为生活教科书，是因为对艺术形象的感受能一致地同时激发美感和道德感。朗读和赏听文艺作品，是一种特殊的创造过程：学生在朗读文艺作品时，使语言充满发自内心的热烈情感，他或者赞赏美好事物、高尚情操，崇高道德，或者满怀",
+  "title": "朗读是感受艺术形象的第一步",
+  "old_topics": [
+   "reading-and-books"
+  ],
+  "type": "quote",
+  "tags": [
+   "A13"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1813": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "外语的智育作用在于让别国人民的语言直接活在儿童的思想中，手段是生活交往而非翻译。",
+  "evidence": "外语在智育中占有相当重要的地位。我们的目标是，要让学生领会外语中的活语言，让他们能赋予所学的词汇和词组以人民所赋予他们的那些概念、情感和思想。我们认为，外语的教育作用在于能使别国人民的语言活在儿童的思想中，能使读到或听到的外语不总是要通过翻",
+  "title": "学外语要让语言活在思想里",
+  "old_topics": [
+   "thinking-and-nature"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

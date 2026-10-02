@@ -6,7 +6,7 @@
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 167 |
 | [family-school](topics/family-school.md) | 家校合作 | 362 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 290 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 291 |
 | [health-first](topics/health-first.md) | 健康第一 | 84 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 297 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 347 |
@@ -14,8 +14,8 @@
 | [love-education](topics/love-education.md) | 爱的教育 | 665 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 60 |
 | [child-study](topics/child-study.md) | 儿童研究 | 642 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 107 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 233 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 108 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 237 |
 
 ## 来源 Sources
 
@@ -1840,3 +1840,9 @@
 | [sk-1805](cards/sk-1805-childhood-labor-becomes-means-to-ideal.md) | quote | labor-education | gei-jiao-shi-de-jian-yi-zh | 童年少年期不愉快的劳动，一旦成为实现理想的手段就会被人终身眷恋 |
 | [sk-1806](cards/sk-1806-labor-enters-spiritual-life-as-creation.md) | quote | labor-education | gei-jiao-shi-de-jian-yi-zh | 使普通劳动变成生活理想的条件，是它早早作为一种创造活动进入精神生活 |
 | [sk-1807](cards/sk-1807-labor-becomes-a-need-like-books-and-music.md) | quote | labor-education | gei-jiao-shi-de-jian-yi-zh | 劳动要成为像读书、欣赏音乐、与朋友相聚一样的需要 |
+| [sk-1808](cards/sk-1808-intellectual-wealth-must-become-students-own.md) | quote | thinking-and-nature | xuan-ji-zh-vol4 | 真正的智育是把人类智力财富变成学生自己的财富 |
+| [sk-1809](cards/sk-1809-mathematics-forms-courage-and-precision.md) | quote | thinking-and-nature | xuan-ji-zh-vol4 | 数学在培养首创精神与认真精确的作风上具有重大意义 |
+| [sk-1810](cards/sk-1810-school-experiments-add-intellectual-content-to-labor.md) | quote | labor-education | xuan-ji-zh-vol4 | 学校里的实验是丰富劳动智力含量的不可取代手段 |
+| [sk-1811](cards/sk-1811-history-second-syllabus-widest-intellectual-background.md) | quote | thinking-and-nature | xuan-ji-zh-vol4 | 历史课的非必修“第二套大纲”比任何科目都广阔 |
+| [sk-1812](cards/sk-1812-reading-aloud-literature-is-a-creative-process.md) | quote | reading-and-books | xuan-ji-zh-vol4 | 朗读和赏听文艺作品是一种特殊的创造过程 |
+| [sk-1813](cards/sk-1813-foreign-language-must-live-in-thought-not-translation.md) | quote | thinking-and-nature | xuan-ji-zh-vol4 | 外语的教育作用在于让别国人民的语言活在儿童的思想中 |

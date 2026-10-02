@@ -1,5 +1,5 @@
 {
-  "total_cards": 1802,
+  "total_cards": 1808,
   "source_count": 12,
   "topic_count": 12,
   "zuoren_cards": 541,
@@ -32,7 +32,7 @@
     {
       "slug": "xuan-ji-zh-vol4",
       "title": "苏霍姆林斯基选集（五卷本）第4卷",
-      "cards": 174,
+      "cards": 180,
       "page_refs": 41
     },
     {
@@ -81,7 +81,7 @@
   "types": [
     {
       "type": "quote",
-      "cards": 675
+      "cards": 681
     },
     {
       "type": "case",
@@ -134,12 +134,12 @@
     {
       "slug": "labor-education",
       "title": "劳动教育",
-      "cards": 290
+      "cards": 291
     },
     {
       "slug": "thinking-and-nature",
       "title": "思维课与大自然",
-      "cards": 233
+      "cards": 237
     },
     {
       "slug": "learning-difficulties",
@@ -149,7 +149,7 @@
     {
       "slug": "reading-and-books",
       "title": "阅读与书籍",
-      "cards": 107
+      "cards": 108
     },
     {
       "slug": "health-first",

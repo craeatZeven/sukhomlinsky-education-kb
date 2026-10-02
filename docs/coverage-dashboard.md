@@ -5,7 +5,7 @@
 
 ## 总览
 
-- 卡片总数：**1802**
+- 卡片总数：**1808**
 - 来源数：**12**
 - 主题数：**12**
 - 《做人的故事》：**541 张卡 / 540 个目录标题**
@@ -18,7 +18,7 @@
 | 苏霍姆林斯基选集（五卷本）第2卷（`xuan-ji-zh-vol2`） | 323 | 45/323 |
 | 苏霍姆林斯基选集（五卷本）第5卷（`xuan-ji-zh-vol5`） | 251 | 109/251 |
 | 苏霍姆林斯基选集（五卷本）第3卷（`xuan-ji-zh-vol3`） | 204 | 51/204 |
-| 苏霍姆林斯基选集（五卷本）第4卷（`xuan-ji-zh-vol4`） | 174 | 41/174 |
+| 苏霍姆林斯基选集（五卷本）第4卷（`xuan-ji-zh-vol4`） | 180 | 41/180 |
 | 苏霍姆林斯基选集（五卷本）第1卷（`xuan-ji-zh-vol1`） | 141 | 36/141 |
 | 给教师的建议（`gei-jiao-shi-de-jian-yi-zh`） | 42 | 23/42 |
 | On Education（`on-education`） | 41 | 0/41 |
@@ -31,7 +31,7 @@
 
 | 类型 | 数量 |
 |---|---:|
-| `quote` | 675 |
+| `quote` | 681 |
 | `case` | 673 |
 | `principle` | 194 |
 | `method` | 164 |
@@ -47,10 +47,10 @@
 | 家校合作（`family-school`） | 362 |
 | 集体教育（`collective-education`） | 347 |
 | 美育与自然（`aesthetic-nature-education`） | 297 |
-| 劳动教育（`labor-education`） | 290 |
-| 思维课与大自然（`thinking-and-nature`） | 233 |
+| 劳动教育（`labor-education`） | 291 |
+| 思维课与大自然（`thinking-and-nature`） | 237 |
 | 学习困难学生（`learning-difficulties`） | 167 |
-| 阅读与书籍（`reading-and-books`） | 107 |
+| 阅读与书籍（`reading-and-books`） | 108 |
 | 健康第一（`health-first`） | 84 |
 | 评价与分数（`assessment-grading`） | 60 |
 

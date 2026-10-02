@@ -1,5 +1,5 @@
 {
-  "total_cards": 1791,
+  "total_cards": 1796,
   "source_count": 12,
   "topic_count": 12,
   "zuoren_cards": 541,
@@ -26,7 +26,7 @@
     {
       "slug": "xuan-ji-zh-vol3",
       "title": "苏霍姆林斯基选集（五卷本）第3卷",
-      "cards": 199,
+      "cards": 204,
       "page_refs": 51
     },
     {
@@ -85,7 +85,7 @@
     },
     {
       "type": "quote",
-      "cards": 664
+      "cards": 669
     },
     {
       "type": "principle",
@@ -129,7 +129,7 @@
     {
       "slug": "aesthetic-nature-education",
       "title": "美育与自然",
-      "cards": 292
+      "cards": 297
     },
     {
       "slug": "labor-education",

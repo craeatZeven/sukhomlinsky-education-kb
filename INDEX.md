@@ -8,7 +8,7 @@
 | [family-school](topics/family-school.md) | 家校合作 | 362 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 284 |
 | [health-first](topics/health-first.md) | 健康第一 | 84 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 292 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 297 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 347 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 416 |
 | [love-education](topics/love-education.md) | 爱的教育 | 665 |
@@ -1829,3 +1829,8 @@
 | [sk-1794](cards/sk-1794-no-child-may-be-called-good-for-nothing.md) | quote | child-study | gei-jiao-shi-de-jian-yi-zh | 没有哪个孩子可以被称为「无论干什么都不行」的人 |
 | [sk-1795](cards/sk-1795-educability-as-basic-concept-of-pedagogy.md) | quote | learning-difficulties | gei-jiao-shi-de-jian-yi-zh | 「可教育性」应当成为教育学的基本概念之一 |
 | [sk-1796](cards/sk-1796-self-discovery-in-labor-makes-a-child-educable.md) | quote | labor-education | gei-jiao-shi-de-jian-yi-zh | 只有在劳动中发现并看见了自己的学生，才真正可教 |
+| [sk-1797](cards/sk-1797-viewing-art-deepens-with-repetition.md) | quote | aesthetic-nature-education | xuan-ji-zh-vol3 | 反复观赏同一幅画，每次都能发现新的东西 |
+| [sk-1798](cards/sk-1798-art-is-source-of-feeling-not-chronology.md) | quote | aesthetic-nature-education | xuan-ji-zh-vol3 | 艺术是认识感情世界的源泉，讲解要超出对儿童的要求 |
+| [sk-1799](cards/sk-1799-portrait-teaches-reading-the-eyes.md) | quote | aesthetic-nature-education | xuan-ji-zh-vol3 | 肖像画是教学生“用自己的心感觉别人”的有力手段 |
+| [sk-1800](cards/sk-1800-feeling-beauty-cannot-be-told-only.md) | quote | aesthetic-nature-education | xuan-ji-zh-vol3 | 对人的认识必须在感情积极颤动的情况下进行 |
+| [sk-1801](cards/sk-1801-nature-experience-grounds-art-appreciation.md) | quote | aesthetic-nature-education | xuan-ji-zh-vol3 | 反复观赏绘画以与自然接触中得来的情感财富为基础 |

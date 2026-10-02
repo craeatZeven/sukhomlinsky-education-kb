@@ -1,5 +1,5 @@
 {
-  "total_cards": 1850,
+  "total_cards": 1856,
   "source_count": 12,
   "topic_count": 12,
   "zuoren_cards": 541,
@@ -44,7 +44,7 @@
     {
       "slug": "gei-jiao-shi-de-jian-yi-zh",
       "title": "给教师的建议",
-      "cards": 60,
+      "cards": 66,
       "page_refs": 23
     },
     {
@@ -81,7 +81,7 @@
   "types": [
     {
       "type": "quote",
-      "cards": 723
+      "cards": 729
     },
     {
       "type": "case",
@@ -109,7 +109,7 @@
     {
       "slug": "child-study",
       "title": "儿童研究",
-      "cards": 644
+      "cards": 647
     },
     {
       "slug": "teacher-growth",
@@ -127,14 +127,14 @@
       "cards": 355
     },
     {
-      "slug": "aesthetic-nature-education",
-      "title": "美育与自然",
+      "slug": "labor-education",
+      "title": "劳动教育",
       "cards": 299
     },
     {
-      "slug": "labor-education",
-      "title": "劳动教育",
-      "cards": 296
+      "slug": "aesthetic-nature-education",
+      "title": "美育与自然",
+      "cards": 299
     },
     {
       "slug": "thinking-and-nature",

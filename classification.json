@@ -32005,5 +32005,107 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1856": {
+  "primary": "A6",
+  "seealso": [],
+  "facets": [],
+  "claim": "培养全面发展的人、发挥每一个学生的个人才能、及时地了解每一个人的志趣，是当前教学和教育工作中要抓的一件主要的事。",
+  "evidence": "在苏维埃社会生活的现阶段，培养全面发展的人，发挥每一个学生的个人才能，是一项重要的教育学任务。及时地发现、培养和发展我们学生的才能和素质，及时地了解每一个人的志趣，这一点正是当前教学和教育工作中要抓的一件主要的事。",
+  "title": "发现并发展每个学生的才能",
+  "old_topics": [
+   "child-study"
+  ],
+  "type": "quote",
+  "tags": [
+   "A6"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1857": {
+  "primary": "A1",
+  "seealso": [],
+  "facets": [],
+  "claim": "学校不应当有任何一个毫无个性的学生；应当使每一个学生从入学最初几天起就着迷于某样东西，形成一定的生活志趣。",
+  "evidence": "我们全体教师向自己提出了这样的目标：学校里不应当有任何一个毫无个性的学生，即对任何事都不感兴趣，没有任何东西能使他激动和向往，学习数学公式也好，学习抒情诗也好，都带着同样冷淡的态度的学生。我们努力使我们的每一个学生，从入学后的最初几天起，就",
+  "title": "不应当有毫无个性的学生",
+  "old_topics": [
+   "child-study"
+  ],
+  "type": "quote",
+  "tags": [
+   "A1"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1858": {
+  "primary": "A11",
+  "seealso": [],
+  "facets": [],
+  "claim": "要培养学生的个人才能，应对电子学和自动学一类专用教室给予特殊地位：成套材料让学生把原理做成活动模型，经验表明每班都会因此显现两三名学生的创造性才能。",
+  "evidence": "在培养学生的个人才能方面，我们对电子学和自动学专用教室给予特殊的地位。这里备有整套的材料和零件，供学生根据自动学和遥控技术的原理设计活动模型和装置。多年的经验告诉我们，在每一个班级里，都会发现二、三名学生，他们由于在技术小组里参加活动，逐渐",
+  "title": "专用教室让才能显出来",
+  "old_topics": [
+   "labor-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A11"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1859": {
+  "primary": "A11",
+  "seealso": [],
+  "facets": [],
+  "claim": "掌握技艺是推动学生从事心爱劳动的主要刺激物；只有在一件事上取得超出同年龄要求的突出成绩，劳动才会成为心爱而令人入迷的事情。",
+  "evidence": "掌握技艺是推动学生从事心爱劳动的主要刺激物。因此，我们努力使每一个学生在上学的年份里都要在一个选定的领域里取得突出的成绩。只有这样才能培养出热爱劳动的精神：一个人热爱一样事，为它而入迷，离了它就不能生活。通往成功的道路通常是要经历长期的反复",
+  "title": "做到超出同龄人才会入迷",
+  "old_topics": [
+   "labor-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A11"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1860": {
+  "primary": "A11",
+  "seealso": [],
+  "facets": [],
+  "claim": "要教会学生把双手和智慧的努力结合起来；当学生把体力劳动看成达到创造性目的的手段时，他才算克服了懒惰、真正热爱劳动。",
+  "evidence": "要迫使一个学生参加一点体力劳动是容易的，然而要教会他把双手和智慧的努力结合起来却要困难得多。然而正是在这种结合中，才能找到培养学生(哪怕是最消极的学生)对劳动的兴趣和热爱的真正有效的钥匙。对于这些消极的学生，我们起初先迫使他们完成一定的体力",
+  "title": "双手与智慧结合的钥匙",
+  "old_topics": [
+   "labor-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A11"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1861": {
+  "primary": "A6",
+  "seealso": [],
+  "facets": [],
+  "claim": "每一个学生都应当在学校里找到一种最大限度地适合自己天资和才能的劳动种类，而且寻找的过程应当尽早开始。",
+  "evidence": "我们认为现在已经应当严肃地讨论一下这个问题：每一个学生在学校里就应当找到一种最大限度地适合于他的天资和才能的劳动种类。寻找这种劳动种类的过程应当尽早地开始。这里最重要的一点是：要使学生对自己的活动爱得入迷，并且要努力使实际活动跟掌握理论知识",
+  "title": "找到最适合自己的劳动种类",
+  "old_topics": [
+   "child-study"
+  ],
+  "type": "quote",
+  "tags": [
+   "A6"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

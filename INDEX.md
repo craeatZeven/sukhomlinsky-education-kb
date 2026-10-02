@@ -6,14 +6,14 @@
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 167 |
 | [family-school](topics/family-school.md) | 家校合作 | 365 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 296 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 299 |
 | [health-first](topics/health-first.md) | 健康第一 | 84 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 299 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 355 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 420 |
 | [love-education](topics/love-education.md) | 爱的教育 | 678 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 62 |
-| [child-study](topics/child-study.md) | 儿童研究 | 644 |
+| [child-study](topics/child-study.md) | 儿童研究 | 647 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 110 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 242 |
 
@@ -1888,3 +1888,9 @@
 | [sk-1853](cards/sk-1853-nature-becomes-educational-factor-through-labor.md) | quote | labor-education | xuan-ji-zh-vol5 | 大自然成为教育因素的前提 |
 | [sk-1854](cards/sk-1854-labor-life-unity-of-hand-and-thought.md) | quote | labor-education | xuan-ji-zh-vol5 | 劳动生活与思维的统一 |
 | [sk-1855](cards/sk-1855-thinking-must-extend-to-land-and-labor.md) | quote | thinking-and-nature | xuan-ji-zh-vol5 | 学生的思维应延伸到土地上 |
+| [sk-1856](cards/sk-1856-discover-and-develop-each-students-abilities.md) | quote | child-study | gei-jiao-shi-de-jian-yi-zh | 发现并发展每个学生的才能是主要任务 |
+| [sk-1857](cards/sk-1857-no-colorless-student-in-school.md) | quote | child-study | gei-jiao-shi-de-jian-yi-zh | 学校里不应当有毫无个性的学生 |
+| [sk-1858](cards/sk-1858-special-rooms-let-talent-surface.md) | quote | labor-education | gei-jiao-shi-de-jian-yi-zh | 专用教室让每个班的才能显出来 |
+| [sk-1859](cards/sk-1859-mastery-is-the-main-stimulus-to-love-labor.md) | quote | labor-education | gei-jiao-shi-de-jian-yi-zh | 把一件事做到超过同龄人才会真的爱上劳动 |
+| [sk-1860](cards/sk-1860-join-hand-and-mind-to-love-labor.md) | quote | labor-education | gei-jiao-shi-de-jian-yi-zh | 双手与智慧结合才是热爱劳动的钥匙 |
+| [sk-1861](cards/sk-1861-each-student-finds-his-own-kind-of-labor.md) | quote | child-study | gei-jiao-shi-de-jian-yi-zh | 每个学生都应当找到最适合自己的劳动种类 |

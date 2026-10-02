@@ -58,6 +58,59 @@ for slug, book in ALIAS.items():
 good = [r for r in rows if not r[6]]
 bad = [r for r in rows if r[6]]
 good.sort(key=lambda r: -r[0]*r[1])
+
+# --- 排除「已产卡」的章（2026-10-02 加）---
+# 问题：优先级表包含已产过卡的章（如 vol1《(4)集体和个人的精神生活》缺口 108 但其实已有卡），
+# 规格段只能每次自己再筛，结果就是连续多批落到同一本书上（实测连续 3 批《给教师的建议》）。
+# 做法：从 card-locators.jsonl 取「已产卡的 (book, section)」，直接从清单里去掉，让 Top 列表 = 真正还没做的。
+CARDED = set()
+for _r in loc:
+    if _r.get("section"):
+        CARDED.add((str(_r.get("book")), str(_r.get("section"))))
+_done = [r for r in good if (r[2], r[3]) in CARDED]
+good = [r for r in good if (r[2], r[3]) not in CARDED]
+print("=== 已产卡过滤：剔除 %d 个已产过卡的章，剩 %d 个真·待补章" % (len(_done), len(good)))
+print()
+# --- 选章轮换约束（2026-10-02 加，用户要求）---
+# 问题：按优先级纯排序会「偏食」——实测连续 4 批都在做《给教师的建议》。
+# 做法：看最近几批规格用的哪本书；若最近 2 批同书，就把「换一本、且优先级最高」的章提到最前。
+# 生效方式：规格段每次都读本脚本的输出，所以约束自动作用于它的选章，不必改卡 prompt（卡执行后已冻结）。
+SPEC_DIR = os.path.join(ROOT, "local_working_copy", "subagent-specs")
+def _recent_books(n=4):
+    items = []
+    for sub in ("_landed", "_void"):
+        d = os.path.join(SPEC_DIR, sub)
+        if not os.path.isdir(d): continue
+        for fn in os.listdir(d):
+            if fn.endswith(".json"):
+                p = os.path.join(d, fn)
+                items.append((os.path.getmtime(p), p))
+    items.sort(reverse=True)
+    out = []
+    for _, p in items[:n]:
+        try:
+            it = json.load(io.open(p, encoding="utf-8"))
+            if isinstance(it, list) and it: out.append(str(it[0].get("book")))
+        except Exception: pass
+    return out
+_rb = _recent_books()
+_b, _streak = None, 0
+for _x in _rb:
+    if _b is None: _b, _streak = _x, 1
+    elif _x == _b: _streak += 1
+    else: break
+_switched = ""
+if _streak >= 2:
+    for _i, _row in enumerate(good):
+        if _row[2] != _b:
+            good.insert(0, good.pop(_i)); _switched = _row[2] + " / " + _row[3]; break
+print("=== 轮换约束：最近 %d 批的书 = %s" % (len(_rb), "｜".join(x[:14] for x in _rb)))
+if _streak >= 2:
+    print("   连续 %d 批同一本（%s）→ 本轮把「换书且优先级最高」的章提到最前" % (_streak, _b[:16]))
+    print("   ★ 本轮建议：%s" % _switched)
+else:
+    print("   未触发（最近连续同书 %d 批 < 2）→ 仍按优先级排序" % _streak)
+print()
 print("可补章（值得成卡）：%d｜不值得：%d｜合计 %d" % (len(good), len(bad), len(rows)))
 print()
 print("=== 优先级 Top 24（缺口 × 论断密度）")

@@ -6,16 +6,16 @@
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 169 |
 | [family-school](topics/family-school.md) | 家校合作 | 367 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 302 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 303 |
 | [health-first](topics/health-first.md) | 健康第一 | 85 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 299 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 358 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 424 |
-| [love-education](topics/love-education.md) | 爱的教育 | 690 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 300 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 359 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 425 |
+| [love-education](topics/love-education.md) | 爱的教育 | 691 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 64 |
 | [child-study](topics/child-study.md) | 儿童研究 | 652 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 110 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 244 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 245 |
 
 ## 来源 Sources
 
@@ -1930,3 +1930,9 @@
 | [sk-1895](cards/sk-1895-petty-activities-weaken-moral-concepts.md) | quote | love-education | xuan-ji-zh-vol2 | 给高年级学生的活动太平庸，道德概念就会失去神圣性 |
 | [sk-1896](cards/sk-1896-social-activity-meaningful-for-moral-maturity.md) | quote | collective-education | xuan-ji-zh-vol2 | 社会活动越有意义，青年越容易道德成熟 |
 | [sk-1897](cards/sk-1897-no-work-no-food-as-moral-standard.md) | quote | labor-education | xuan-ji-zh-vol2 | 不劳动者不得食应成为道德评价的主要标准 |
+| [sk-1898](cards/sk-1898-labor-education-not-an-appendage-to-intellectual-and-moral-education.md) | quote | labor-education | xuan-ji-zh-vol4 | 劳动教育不是智育和德育的附加品，它是世界观、创造性智慧和道德信念的源泉之所在 |
+| [sk-1899](cards/sk-1899-summary-report-is-collective-thought-and-new-years-starting-point.md) | quote | teacher-growth | xuan-ji-zh-vol4 | 总结报告是集体思想的概括和集体的创造，也是全体教师新学年工作的起点与方向 |
+| [sk-1900](cards/sk-1900-which-education-is-needed-to-be-able-to-know-beauty.md) | quote | aesthetic-nature-education | xuan-ji-zh-vol4 | 为了能够认识美，每个人在童年、少年和青年时代应当受到哪些教育——这个课题还是研究的空白点 |
+| [sk-1901](cards/sk-1901-formalism-in-talks-breeds-hypocrisy.md) | quote | love-education | xuan-ji-zh-vol4 | 谈话若只为完成任务，孩子能感觉出说话的人精神上是空虚的，做表面文章只会养成虚伪习气 |
+| [sk-1902](cards/sk-1902-moral-wealth-of-working-people-and-collective-relations-become-feelings.md) | quote | collective-education | xuan-ji-zh-vol4 | 让高尚的道德品质成为儿童的精神财富，让集体关系转化为情感关系 |
+| [sk-1903](cards/sk-1903-school-workshops-and-greenhouses-are-sources-of-thinking-not-anti-idleness-devices.md) | quote | thinking-and-nature | xuan-ji-zh-vol4 | 教学工厂、温室、实验园地这些设施不是防闲的设施，而是学生思维发展的源泉 |

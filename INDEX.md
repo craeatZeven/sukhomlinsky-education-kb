@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 168 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 169 |
 | [family-school](topics/family-school.md) | 家校合作 | 367 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 300 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 301 |
 | [health-first](topics/health-first.md) | 健康第一 | 85 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 299 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 357 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 422 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 423 |
 | [love-education](topics/love-education.md) | 爱的教育 | 687 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 63 |
-| [child-study](topics/child-study.md) | 儿童研究 | 651 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 64 |
+| [child-study](topics/child-study.md) | 儿童研究 | 652 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 110 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 243 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 244 |
 
 ## 来源 Sources
 
@@ -1918,3 +1918,9 @@
 | [sk-1883](cards/sk-1883-labors-educational-power-lies-in-reflection.md) | quote | labor-education | xuan-ji-zh-vol1 | 劳动的教育作用不在劳动本身，而在它怎样反映到精神生活里 |
 | [sk-1884](cards/sk-1884-thinking-in-learning-builds-conviction.md) | quote | thinking-and-nature | xuan-ji-zh-vol1 | 在学习里善于思索，信念才立得住 |
 | [sk-1885](cards/sk-1885-nurture-thinker-who-works-with-hands.md) | quote | child-study | xuan-ji-zh-vol1 | 要造就的人：会劳动，也会深刻思考 |
+| [sk-1886](cards/sk-1886-give-facts-sparingly-summaries.md) | quote | teacher-growth | gei-jiao-shi-de-jian-yi-zh | 讲课时要慷慨地给事实，吝啬地给概括 |
+| [sk-1887](cards/sk-1887-more-to-remember-more-generalizing.md) | quote | thinking-and-nature | gei-jiao-shi-de-jian-yi-zh | 要记的东西越多，越需要概括和推论 |
+| [sk-1888](cards/sk-1888-guide-slow-learners-to-discover-truth.md) | quote | learning-difficulties | gei-jiao-shi-de-jian-yi-zh | 对理解力差的学生，别责备，引他自己发现一次真理 |
+| [sk-1889](cards/sk-1889-mindless-manual-labor-harms-intellect.md) | quote | labor-education | gei-jiao-shi-de-jian-yi-zh | 不动脑的体力劳动，和缺少劳动一样有害 |
+| [sk-1890](cards/sk-1890-exams-without-recall-questions.md) | quote | assessment-grading | gei-jiao-shi-de-jian-yi-zh | 检查知识不出复述题，让学生引经据典论证 |
+| [sk-1891](cards/sk-1891-hide-tracking-use-different-tasks.md) | quote | child-study | gei-jiao-shi-de-jian-yi-zh | 不让学生知道分档内情，只用不同作业让他发展 |

@@ -6,12 +6,12 @@
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 169 |
 | [family-school](topics/family-school.md) | 家校合作 | 367 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 301 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 302 |
 | [health-first](topics/health-first.md) | 健康第一 | 85 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 299 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 357 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 423 |
-| [love-education](topics/love-education.md) | 爱的教育 | 687 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 358 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 424 |
+| [love-education](topics/love-education.md) | 爱的教育 | 690 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 64 |
 | [child-study](topics/child-study.md) | 儿童研究 | 652 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 110 |
@@ -1924,3 +1924,9 @@
 | [sk-1889](cards/sk-1889-mindless-manual-labor-harms-intellect.md) | quote | labor-education | gei-jiao-shi-de-jian-yi-zh | 不动脑的体力劳动，和缺少劳动一样有害 |
 | [sk-1890](cards/sk-1890-exams-without-recall-questions.md) | quote | assessment-grading | gei-jiao-shi-de-jian-yi-zh | 检查知识不出复述题，让学生引经据典论证 |
 | [sk-1891](cards/sk-1891-hide-tracking-use-different-tasks.md) | quote | child-study | gei-jiao-shi-de-jian-yi-zh | 不让学生知道分档内情，只用不同作业让他发展 |
+| [sk-1892](cards/sk-1892-belief-from-first-day-of-school.md) | quote | love-education | xuan-ji-zh-vol2 | 信念要从孩子一上学就培养，并同意识与行为联系起来 |
+| [sk-1893](cards/sk-1893-knowledge-into-social-life-or-burden.md) | quote | love-education | xuan-ji-zh-vol2 | 知识若不促使年轻人投入社会活动，就只会变成负担 |
+| [sk-1894](cards/sk-1894-adolescent-nature-is-not-the-cause.md) | quote | teacher-growth | xuan-ji-zh-vol2 | 把言行不一归因于青少年特性，是错误的观点 |
+| [sk-1895](cards/sk-1895-petty-activities-weaken-moral-concepts.md) | quote | love-education | xuan-ji-zh-vol2 | 给高年级学生的活动太平庸，道德概念就会失去神圣性 |
+| [sk-1896](cards/sk-1896-social-activity-meaningful-for-moral-maturity.md) | quote | collective-education | xuan-ji-zh-vol2 | 社会活动越有意义，青年越容易道德成熟 |
+| [sk-1897](cards/sk-1897-no-work-no-food-as-moral-standard.md) | quote | labor-education | xuan-ji-zh-vol2 | 不劳动者不得食应成为道德评价的主要标准 |

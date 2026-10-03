@@ -274,3 +274,28 @@ icacls D:\Work /grant 王思涵:(OI)(CI)F /t /c
 
 **兜底（已生效）**：检查点每 2 小时会 ①`settle` 挂住的执行 ②`nextRunAt` 冻结就重新武装 ③缺周期就手动补跑。
 所以挂死只损失一个周期，不会累积。
+
+### ✅ 修复已执行并验证（2026-10-03 20:49）
+
+**做的人**：用户（UAC 提权点「是」）；**脚本**：`D:\Work\_acl-fix.ps1`（纯 ASCII，用 SID 而非中文用户名以避开 PS 5.1 编码坑）；**日志**：`D:\Work\_acl-fix-log.txt`。
+
+**关键：全程不用 `/t` 递归** —— `D:\Work` 下有大量 junction（skills 目录等），`icacls /t` 会穿过链接改到目标树
+（与 2026-09-13 那次 `Remove-Item` 连带删除同源）。改用**非递归 + `(OI)(CI)` 继承**。
+
+| 步骤 | 结果 |
+|---|---|
+| `icacls D:\Work /save D:\Work\_acl-backup-20261003` | ✓ 备份（回滚用） |
+| `takeown /f D:\Work`（提权）| ✓ 成功，所有者 → `LAPTOP-P67BVAAL\王思涵` |
+| `icacls D:\Work /grant 王思涵:(OI)(CI)F` | ✓ 改前 `Access is denied (exit 5)` → 改后成功 |
+| `icacls <repo> /setowner 王思涵`（非递归）| ✓ 仓库所有者同样修正 |
+
+**修前后对照（同一条命令）**：
+
+```
+改前: takeown -> ERROR: does not have ownership privileges ; icacls /grant -> Access is denied (exit 5)
+改后: takeown exit=0 ; icacls /grant -> Successfully processed 1 files, Failed 0
+```
+
+**回滚方法**（如需）：`icacls D:\Work /restore D:\Work\_acl-backup-20261003`（仓库另有 `_acl-backup-repo-20261003`）。
+
+**待观察**：下一次调度执行（22:00）应不再出现 `grantWrite Win32 5`；检查点会在 22:20 核对它的执行结果与转录。

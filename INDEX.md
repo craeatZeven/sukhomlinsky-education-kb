@@ -4,16 +4,16 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 167 |
-| [family-school](topics/family-school.md) | 家校合作 | 365 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 168 |
+| [family-school](topics/family-school.md) | 家校合作 | 367 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 299 |
-| [health-first](topics/health-first.md) | 健康第一 | 84 |
+| [health-first](topics/health-first.md) | 健康第一 | 85 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 299 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 356 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 421 |
 | [love-education](topics/love-education.md) | 爱的教育 | 680 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 62 |
-| [child-study](topics/child-study.md) | 儿童研究 | 649 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 63 |
+| [child-study](topics/child-study.md) | 儿童研究 | 650 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 110 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 242 |
 
@@ -1900,3 +1900,9 @@
 | [sk-1865](cards/sk-1865-adolescent-mind-outgrows-the-syllabus.md) | quote | child-study | gei-jiao-shi-de-jian-yi-zh | 少年的智力视野一年比一年超出教学大纲 |
 | [sk-1866](cards/sk-1866-intellectual-life-shows-in-collective-relations.md) | quote | collective-education | gei-jiao-shi-de-jian-yi-zh | 少年智力生活的发展反映在集体关系上 |
 | [sk-1867](cards/sk-1867-math-teaching-shapes-intellectual-interest.md) | quote | teacher-growth | gei-jiao-shi-de-jian-yi-zh | 数学的教学水平影响着少年的脑力兴趣和精神面貌 |
+| [sk-1868](cards/sk-1868-grades-become-moral-verdicts.md) | quote | assessment-grading | xuan-ji-zh-vol4 | 把分数当成道德判决：教师凭分数给学生的道德面貌下结论 |
+| [sk-1869](cards/sk-1869-no-knowledge-of-child-no-school.md) | quote | child-study | xuan-ji-zh-vol4 | 没有对儿童的了解，就没有学校，也没有真正的教师集体 |
+| [sk-1870](cards/sk-1870-family-infant-moral-foundation-decisive.md) | quote | family-school | xuan-ji-zh-vol4 | 道德面貌的决定性因素在家里：幼年已成习惯的那些行为 |
+| [sk-1871](cards/sk-1871-latent-illness-surfaces-under-mental-strain.md) | quote | health-first | xuan-ji-zh-vol4 | 潜伏的毛病在满堂紧张的脑力劳动里才显形 |
+| [sk-1872](cards/sk-1872-school-moral-climate-judged-by-slow-learners.md) | quote | learning-difficulties | xuan-ji-zh-vol4 | 学校的道德气氛，看它怎样对待智力发展不正常的孩子 |
+| [sk-1873](cards/sk-1873-no-work-with-parents-nothing-succeeds.md) | quote | family-school | xuan-ji-zh-vol4 | 不做家长的工作，我们就会一事无成 |

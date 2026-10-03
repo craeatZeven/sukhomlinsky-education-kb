@@ -9,11 +9,11 @@
 | [labor-education](topics/labor-education.md) | 劳动教育 | 299 |
 | [health-first](topics/health-first.md) | 健康第一 | 84 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 299 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 355 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 420 |
-| [love-education](topics/love-education.md) | 爱的教育 | 678 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 356 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 421 |
+| [love-education](topics/love-education.md) | 爱的教育 | 680 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 62 |
-| [child-study](topics/child-study.md) | 儿童研究 | 647 |
+| [child-study](topics/child-study.md) | 儿童研究 | 649 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 110 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 242 |
 
@@ -1894,3 +1894,9 @@
 | [sk-1859](cards/sk-1859-mastery-is-the-main-stimulus-to-love-labor.md) | quote | labor-education | gei-jiao-shi-de-jian-yi-zh | 把一件事做到超过同龄人才会真的爱上劳动 |
 | [sk-1860](cards/sk-1860-join-hand-and-mind-to-love-labor.md) | quote | labor-education | gei-jiao-shi-de-jian-yi-zh | 双手与智慧结合才是热爱劳动的钥匙 |
 | [sk-1861](cards/sk-1861-each-student-finds-his-own-kind-of-labor.md) | quote | child-study | gei-jiao-shi-de-jian-yi-zh | 每个学生都应当找到最适合自己的劳动种类 |
+| [sk-1862](cards/sk-1862-adolescent-absoluteness-masks-doubt.md) | quote | child-study | gei-jiao-shi-de-jian-yi-zh | 少年的绝对性不是自信，是他断定自己思想是否正确的手段 |
+| [sk-1863](cards/sk-1863-stubbornness-is-thinking-not-refusal.md) | quote | love-education | gei-jiao-shi-de-jian-yi-zh | 少年的倔强不是不肯认错，而是正在加紧寻找答案 |
+| [sk-1864](cards/sk-1864-quest-for-consistency-in-word-and-deed.md) | quote | love-education | gei-jiao-shi-de-jian-yi-zh | 内心确信使少年对言行一致的要求越来越高 |
+| [sk-1865](cards/sk-1865-adolescent-mind-outgrows-the-syllabus.md) | quote | child-study | gei-jiao-shi-de-jian-yi-zh | 少年的智力视野一年比一年超出教学大纲 |
+| [sk-1866](cards/sk-1866-intellectual-life-shows-in-collective-relations.md) | quote | collective-education | gei-jiao-shi-de-jian-yi-zh | 少年智力生活的发展反映在集体关系上 |
+| [sk-1867](cards/sk-1867-math-teaching-shapes-intellectual-interest.md) | quote | teacher-growth | gei-jiao-shi-de-jian-yi-zh | 数学的教学水平影响着少年的脑力兴趣和精神面貌 |

@@ -51,7 +51,28 @@ def move_to(sub, *paths):
             os.replace(p, os.path.join(d, os.path.basename(p)))
 
 
+def try_push(tries=3):
+    """推送（带重试）。返回 (成功?, 未推送提交数, 最后错误)。"""
+    err = ""
+    for _ in range(tries):
+        code, out = sh([GIT, "push"])
+        if code == 0:
+            break
+        err = out.strip().splitlines()[-1][:160] if out.strip() else "push 失败"
+        time.sleep(10)
+    code, out = sh([GIT, "log", "--oneline", "origin/master..HEAD"])
+    n = len([l for l in out.splitlines() if l.strip()])
+    return (n == 0), n, err
+
+
 def main():
+    # 0) 先补推：上轮可能因网络失败留下未推送提交（实测 2026-10-03 TLS 断链）
+    ok, n, err = try_push()
+    if n:
+        print("!! 仍有 %d 个未推送提交（push 失败：%s）" % (n, err))
+        print("   -> 本地提交安全，但线上未更新。**请检查代理/VPN**（到 github.com 的 TLS 不通）。")
+    elif ok:
+        print("(无未推送提交或已补推成功)")
     pend = sorted([f for f in os.listdir(S) if f.endswith(".json") and f.startswith("batch")])
     print("待处理规格：%d 个" % len(pend))
     if not pend:
@@ -119,20 +140,34 @@ def main():
     code, out = sh([GIT, "-c", "i18n.commitEncoding=utf-8", "commit", "-q", "-m", msg])
     code, out = sh([GIT, "log", "--oneline", "-1"])
     print("  提交：" + out.strip()[:90])
-    code, out = sh([GIT, "push"])
-    print("  push exit=%d" % code)
+    ok, n, err = try_push()
+    if not ok:
+        print("  **PUSH FAILED**：未推送 %d 个提交｜%s" % (n, err))
+        print("  本地提交已生成（不会丢），但**线上未更新**；下次检查点会自动补推。")
+    else:
+        print("  push ok")
     for fn, p, items in ready:
         move_to("_landed", p, p.replace(".json", ".NOTE.md"))
     print("  已归档 _landed/")
     # 线上验收
     time.sleep(110)
-    try:
-        base = "https://craeatzeven.github.io/sukhomlinsky-education-kb/web/data/"
-        ids = json.loads(urllib.request.urlopen(base + "ids.json", timeout=30).read().decode("utf-8"))
-        print("  线上 ids：%d" % len(ids))
-    except Exception as e:
-        print("  线上取不到：" + str(e)[:80])
-    return 0
+    base = "https://craeatzeven.github.io/sukhomlinsky-education-kb/web/data/"
+    live = None
+    for _ in range(3):
+        try:
+            ids = json.loads(urllib.request.urlopen(base + "ids.json", timeout=40).read().decode("utf-8"))
+            live = len(ids)
+            break
+        except Exception as e:
+            err = str(e)[:90]
+            time.sleep(12)
+    if live is None:
+        print("  **线上验收失败**（网络）：%s —— 与推送失败同源，**不是站点问题**。" % err)
+        return 1
+    print("  线上 ids：%d" % live)
+    local = len([f for f in os.listdir(os.path.join(W, "cards")) if re.match(r"^sk-.*\.md$", f)])
+    print("  本地卡数：%d｜一致：%s" % (local, live == local))
+    return 0 if live == local else 1
 
 
 if __name__ == "__main__":

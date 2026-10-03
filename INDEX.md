@@ -11,7 +11,7 @@
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 299 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 356 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 421 |
-| [love-education](topics/love-education.md) | 爱的教育 | 680 |
+| [love-education](topics/love-education.md) | 爱的教育 | 686 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 63 |
 | [child-study](topics/child-study.md) | 儿童研究 | 650 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 110 |
@@ -1906,3 +1906,9 @@
 | [sk-1871](cards/sk-1871-latent-illness-surfaces-under-mental-strain.md) | quote | health-first | xuan-ji-zh-vol4 | 潜伏的毛病在满堂紧张的脑力劳动里才显形 |
 | [sk-1872](cards/sk-1872-school-moral-climate-judged-by-slow-learners.md) | quote | learning-difficulties | xuan-ji-zh-vol4 | 学校的道德气氛，看它怎样对待智力发展不正常的孩子 |
 | [sk-1873](cards/sk-1873-no-work-with-parents-nothing-succeeds.md) | quote | family-school | xuan-ji-zh-vol4 | 不做家长的工作，我们就会一事无成 |
+| [sk-1874](cards/sk-1874-admiration-is-not-yet-moral-feeling.md) | quote | love-education | xuan-ji-zh-vol1 | 赞叹不能代替道德感的确立 |
+| [sk-1875](cards/sk-1875-sense-of-social-meaning-creates-duty.md) | quote | love-education | xuan-ji-zh-vol1 | 孩子对社会意义的感受会立起一种责任 |
+| [sk-1876](cards/sk-1876-firmness-misread-becomes-stubbornness.md) | quote | love-education | xuan-ji-zh-vol1 | 没读懂英雄的坚定，孩子就把它演成执拗 |
+| [sk-1877](cards/sk-1877-everyday-facts-take-on-feeling.md) | quote | love-education | xuan-ji-zh-vol1 | 日常的平凡事也能长出情感色彩 |
+| [sk-1878](cards/sk-1878-sympathy-grows-with-sense-of-effect.md) | quote | love-education | xuan-ji-zh-vol1 | 孩子越懂得自己能影响事情，同情心越鲜明 |
+| [sk-1879](cards/sk-1879-social-outlook-deepens-moral-self-awareness.md) | quote | love-education | xuan-ji-zh-vol1 | 进步的社会观点越深入，道德自我意识越顺 |

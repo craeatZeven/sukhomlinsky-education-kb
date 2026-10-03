@@ -6,16 +6,16 @@
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 168 |
 | [family-school](topics/family-school.md) | 家校合作 | 367 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 299 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 300 |
 | [health-first](topics/health-first.md) | 健康第一 | 85 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 299 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 356 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 421 |
-| [love-education](topics/love-education.md) | 爱的教育 | 686 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 357 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 422 |
+| [love-education](topics/love-education.md) | 爱的教育 | 687 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 63 |
-| [child-study](topics/child-study.md) | 儿童研究 | 650 |
+| [child-study](topics/child-study.md) | 儿童研究 | 651 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 110 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 242 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 243 |
 
 ## 来源 Sources
 
@@ -1912,3 +1912,9 @@
 | [sk-1877](cards/sk-1877-everyday-facts-take-on-feeling.md) | quote | love-education | xuan-ji-zh-vol1 | 日常的平凡事也能长出情感色彩 |
 | [sk-1878](cards/sk-1878-sympathy-grows-with-sense-of-effect.md) | quote | love-education | xuan-ji-zh-vol1 | 孩子越懂得自己能影响事情，同情心越鲜明 |
 | [sk-1879](cards/sk-1879-social-outlook-deepens-moral-self-awareness.md) | quote | love-education | xuan-ji-zh-vol1 | 进步的社会观点越深入，道德自我意识越顺 |
+| [sk-1880](cards/sk-1880-noble-ideas-bind-person-to-collective.md) | quote | love-education | xuan-ji-zh-vol1 | 崇高思想的可贵在于把个人与集体结合起来 |
+| [sk-1881](cards/sk-1881-arouse-feeling-first-then-moral-idea.md) | quote | teacher-growth | xuan-ji-zh-vol1 | 对小学生讲道德思想，先要把情感点起来 |
+| [sk-1882](cards/sk-1882-collective-spirit-needs-shared-purpose.md) | quote | collective-education | xuan-ji-zh-vol1 | 集体的精神生活取决于它有没有共同目的 |
+| [sk-1883](cards/sk-1883-labors-educational-power-lies-in-reflection.md) | quote | labor-education | xuan-ji-zh-vol1 | 劳动的教育作用不在劳动本身，而在它怎样反映到精神生活里 |
+| [sk-1884](cards/sk-1884-thinking-in-learning-builds-conviction.md) | quote | thinking-and-nature | xuan-ji-zh-vol1 | 在学习里善于思索，信念才立得住 |
+| [sk-1885](cards/sk-1885-nurture-thinker-who-works-with-hands.md) | quote | child-study | xuan-ji-zh-vol1 | 要造就的人：会劳动，也会深刻思考 |

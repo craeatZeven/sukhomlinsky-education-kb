@@ -32413,5 +32413,107 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1880": {
+  "primary": "A19",
+  "seealso": [],
+  "facets": [],
+  "claim": "应当按学生的年龄、能力和条件把高尚的思想灌输进他们的意识；这类思想的可贵在于它把个人与集体、个人与社会结合在一起，而这种结合正是道德教育的重要条件。",
+  "evidence": "应当根据学生的年龄、能力和条件把这些高尚而纯洁的思想灌输到他们的意识中去。从教育角度来看，崇高思想之所以可贵，是因为它们把个人与集体、个人与社会结合在一起。这种结合是进行道德教育的极其重要的一个条件。如果学生从小因参加人民的共同事业而产生了",
+  "title": "崇高思想联结个人与集体",
+  "old_topics": [
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A19"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1881": {
+  "primary": "A22",
+  "seealso": [],
+  "facets": [],
+  "claim": "教育小学生的方法特点在于：要灌输有社会意义的道德思想，首先必须激发他们的情感，而表现社会现象本质的生动情景能触动幼小心灵的深处。",
+  "evidence": "由此也就决定了教育小学生的方法的特点：要向他们灌输具有重要社会意义的道德思想，为鼓励他们积极表现思想和道德情感，首先必须激发他们的情感。那些表现社会现象本质的、反映道德思想的生动情景能触动孩子幼小心灵的深处。",
+  "title": "先点情感再讲道理",
+  "old_topics": [
+   "teacher-growth"
+  ],
+  "type": "quote",
+  "tags": [
+   "A22"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1882": {
+  "primary": "A9",
+  "seealso": [],
+  "facets": [],
+  "claim": "学生认识到并切身感受到本人与集体在精神上的一致，是他们坚信自己所做事情正确、并坚持自己信念的主要原因。",
+  "evidence": "通过观察许多班级的学生在劳动和休息中的相互关系，我们力图弄清楚是什么力量使学生坚信自己所做的事情是正确的，并坚持自己的信念。我们得出的结论是，学生认识到并切身感受到本人和集体精神上的一致是一个主要原因。",
+  "title": "集体精神生活靠共同目的",
+  "old_topics": [
+   "collective-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A9"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1883": {
+  "primary": "A11",
+  "seealso": [],
+  "facets": [],
+  "claim": "不能把能使学生积极表现智力与感情力量的活动仅限于体力劳动；劳动的教育作用取决于它在精神生活中如何反映、在思想感情上如何反映、使意志力得到多大磨炼。",
+  "evidence": "对形成学生精神世界，对保证集体的精神上的一致性方面具有重大意义的是正确理解能使学生积极表现智力和感情力量的那种活动的实质是什么。不能把这种活动仅限于体力劳动，仅限于用手干活，-——这是对精神生活的简单化的、浮浅的看法。有人认为，似乎从事繁重",
+  "title": "劳动作用看精神反映",
+  "old_topics": [
+   "labor-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A11"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1884": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "在获取知识、认识周围现象、克服智力困难的过程中，善于思索对形成信念具有重大意义；脑力劳动的性质决定智力的活跃程度，从而决定学生整个精神生活的活跃程度。",
+  "evidence": "在获取知识、认识周围现象、克服智力方面困难的过程中，善于思索对于形成信念具有重大意义。在学习过程中，脑力劳动的性质决定着智力的活跃程度，因而也就决定着整个学生的精神生活的活跃程度(在这里教学与教育最紧密地联系在一起)。",
+  "title": "思索才能立信念",
+  "old_topics": [
+   "thinking-and-nature"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1885": {
+  "primary": "A1",
+  "seealso": [],
+  "facets": [],
+  "claim": "我们要造就的人不仅能劳动、能操纵机器，还应是聪明的、能深刻思考、情感细腻的劳动创造者；活跃的智慧在体力劳动中起主导作用。",
+  "evidence": "我们所要造就的人，不仅能劳动，能操纵机器，而且还应该是一个聪明的、能深刻思考问题、情感细腻的劳动创造者。体力劳动的创造，在共产主义社会中将被认为是人的最崇高的精神财富。生气勃勃的、活跃的智慧在建设事业，在情趣盎然的、充满理智的体力劳动中起着",
+  "title": "会劳动也会思考",
+  "old_topics": [
+   "child-study"
+  ],
+  "type": "quote",
+  "tags": [
+   "A1"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

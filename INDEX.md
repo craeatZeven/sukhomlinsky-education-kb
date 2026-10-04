@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 169 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 175 |
 | [family-school](topics/family-school.md) | 家校合作 | 367 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 305 |
-| [health-first](topics/health-first.md) | 健康第一 | 85 |
+| [health-first](topics/health-first.md) | 健康第一 | 87 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 300 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 360 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 425 |
 | [love-education](topics/love-education.md) | 爱的教育 | 691 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 64 |
-| [child-study](topics/child-study.md) | 儿童研究 | 653 |
+| [child-study](topics/child-study.md) | 儿童研究 | 654 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 111 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 246 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 249 |
 
 ## 来源 Sources
 
@@ -1942,3 +1942,9 @@
 | [sk-1907](cards/sk-1907-every-club-is-a-center-of-creative-labor-and-intellectual-life.md) | quote | collective-education | xuan-ji-zh-vol3 | 每一个小组就是一个进行创造性劳动和生气勃勃的智力生活的中心 |
 | [sk-1908](cards/sk-1908-do-not-rush-do-not-fix-the-teenager-in-one-club.md) | quote | labor-education | xuan-ji-zh-vol3 | 不要性急，不能把少年固定在某个小组里，而要在每一个心灵里点燃热爱劳动之火 |
 | [sk-1909](cards/sk-1909-observe-whether-a-student-links-new-knowledge-to-what-he-knows.md) | quote | child-study | xuan-ji-zh-vol3 | 观察学生的思维特点：他是否在已获得的知识中寻找与新知识的联系 |
+| [sk-1910](cards/sk-1910-developmental-delay-is-multi-causal.md) | quote | learning-difficulties / thinking-and-nature | gei-jiao-shi-de-jian-yi-zh | 发展落后不是单一原因造成的 |
+| [sk-1911](cards/sk-1911-keep-the-slow-child-in-ordinary-school.md) | quote | learning-difficulties / child-study | gei-jiao-shi-de-jian-yi-zh | 学习最差的学生应当留在普通学校 |
+| [sk-1912](cards/sk-1912-memory-is-not-the-root-of-intelligence.md) | quote | learning-difficulties / thinking-and-nature | gei-jiao-shi-de-jian-yi-zh | 不能先训练记忆再造智力 |
+| [sk-1913](cards/sk-1913-chemical-shortcuts-to-memory-are-unacceptable.md) | quote | learning-difficulties / health-first | gei-jiao-shi-de-jian-yi-zh | 用化学手段干预思维是危险的 |
+| [sk-1914](cards/sk-1914-development-needs-whole-person-harmony.md) | quote | thinking-and-nature / learning-difficulties | gei-jiao-shi-de-jian-yi-zh | 发展离开对整个精神生活的和谐影响是不可能的 |
+| [sk-1915](cards/sk-1915-forcing-memory-training-harms-the-child.md) | quote | learning-difficulties / health-first | gei-jiao-shi-de-jian-yi-zh | 能力差的学生不只是记性差 |

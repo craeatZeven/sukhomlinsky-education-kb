@@ -32923,5 +32923,113 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1910": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "学习最差学生的成因是多层叠加的，教师的任务是先诊断发展史，而不是归因于单一因素。",
+  "evidence": "从我参加教育工作的最初时刻起，就有一个解不开的谜始终折磨着我：究竟那些在发展上落后于正常情况的儿童是怎么一回事？究竟这种不幸在多大程度上是由于遗传决定的，而又在多大程度上是由于儿童在最幼小的时候所处的环境决定的？当我，教师，在教室里用尽全力",
+  "title": "发展落后的成因",
+  "old_topics": [
+   "learning-difficulties",
+   "thinking-and-nature"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1911": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "把发展暂时受阻的儿童留在普通学校，是拯救他们最重要的条件之一。",
+  "evidence": "可以说，这些儿童是处于智力落后的边缘上。心理学家们把他们称作“发展暂时受阻的儿童”，并且建议送他们进特殊学校去学习。但我坚决认为：应当在普通学校里对这些儿童进行教学和教育，因为有一个完满的、在智力方面不断地丰富着的环境，这是拯救这些孩子的最",
+  "title": "留在普通学校",
+  "old_topics": [
+   "learning-difficulties",
+   "child-study"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1912": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "把记忆当作智力的先决条件、先训练记忆再发展智力，是一个必须分开验证的假设，而不是已知事实。",
+  "evidence": "我在课堂上研究过落后儿童的脑力劳动情况，并且同时对天赋好的儿童进行观察。毫无疑问，儿童劳动的效率在很大程度上取决于记忆。但是，能不能做出结论说首先训练记忆，然后发展智力呢？能不能说记忆是条件，而脑的完善的机能性活动是结果呢？换句话说，能不能",
+  "title": "记忆不是智力的根",
+  "old_topics": [
+   "learning-difficulties",
+   "thinking-and-nature"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1913": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "以化学手段干预思维这个人体最精细的领域，是危险的，在道义上也是不可取的。",
+  "evidence": "用这些刺激性的手段在我身上试验的结果表明：它们可以使识记过程大大加速，但是在这种轻松的脑力劳动(毕竟这是很奇特的、异乎寻常的现象)过后几小时，又会出现那种受抑制、头脑麻木的状态。譬如，你正当三十至三十五岁之间的年龄，你会突然忘记原来记得很清",
+  "title": "化学手段不可取",
+  "old_topics": [
+   "learning-difficulties",
+   "health-first"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1914": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "离开对人的整个心理的、精神生活的和谐影响，发展就是不可能的。",
+  "evidence": "但主要之点尚不在此。我直到后来才弄明白：以人为的手段来促使记忆积极化，并不能保证脑的完善的机能性活动。离开对人的整个心理的、精神生活的和谐影响，发展就是不可能的——这才是主要的结论。",
+  "title": "整全的和谐影响",
+  "old_topics": [
+   "thinking-and-nature",
+   "learning-difficulties"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-1915": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "能力差的学生并非只是记忆力降低；直接对记忆施加影响的做法在作者的实验中全部失败。",
+  "evidence": "生活随时随地告诉我们，能力差的学生，并不单纯就是记忆力降低的儿童。这些儿童的思维处于一种受抑制的、静止不动的、“僵化的”状态之中。也有过这样的时候：我尝试用直接对记忆施加影响的办法来改善他们的思维能力。但是这些尝试都完全归于失败了。",
+  "title": "强迫背诵有害",
+  "old_topics": [
+   "learning-difficulties",
+   "health-first"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

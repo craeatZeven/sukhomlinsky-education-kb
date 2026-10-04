@@ -6,16 +6,16 @@
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 169 |
 | [family-school](topics/family-school.md) | 家校合作 | 367 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 303 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 305 |
 | [health-first](topics/health-first.md) | 健康第一 | 85 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 300 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 359 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 360 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 425 |
 | [love-education](topics/love-education.md) | 爱的教育 | 691 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 64 |
-| [child-study](topics/child-study.md) | 儿童研究 | 652 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 110 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 245 |
+| [child-study](topics/child-study.md) | 儿童研究 | 653 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 111 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 246 |
 
 ## 来源 Sources
 
@@ -1936,3 +1936,9 @@
 | [sk-1901](cards/sk-1901-formalism-in-talks-breeds-hypocrisy.md) | quote | love-education | xuan-ji-zh-vol4 | 谈话若只为完成任务，孩子能感觉出说话的人精神上是空虚的，做表面文章只会养成虚伪习气 |
 | [sk-1902](cards/sk-1902-moral-wealth-of-working-people-and-collective-relations-become-feelings.md) | quote | collective-education | xuan-ji-zh-vol4 | 让高尚的道德品质成为儿童的精神财富，让集体关系转化为情感关系 |
 | [sk-1903](cards/sk-1903-school-workshops-and-greenhouses-are-sources-of-thinking-not-anti-idleness-devices.md) | quote | thinking-and-nature | xuan-ji-zh-vol4 | 教学工厂、温室、实验园地这些设施不是防闲的设施，而是学生思维发展的源泉 |
+| [sk-1904](cards/sk-1904-labor-education-requires-free-time-and-self-chosen-work.md) | quote | labor-education | xuan-ji-zh-vol3 | 劳动教育首先要有空余的时间——少年只能在显示自己才能和素质的劳动中表现自己 |
+| [sk-1905](cards/sk-1905-intellectual-wealth-depends-on-union-of-mental-and-manual-labor.md) | quote | thinking-and-nature | xuan-ji-zh-vol3 | 学校生活的智力财富，取决于智力生活和体力劳动密切结合的程度 |
+| [sk-1906](cards/sk-1906-reading-shapes-the-style-of-mental-labor-rote-memorization-means-empty-labor.md) | quote | reading-and-books | xuan-ji-zh-vol3 | 读书的作用在于形成脑力劳动的风格——酷爱创造性劳动的人永远不会死记硬背 |
+| [sk-1907](cards/sk-1907-every-club-is-a-center-of-creative-labor-and-intellectual-life.md) | quote | collective-education | xuan-ji-zh-vol3 | 每一个小组就是一个进行创造性劳动和生气勃勃的智力生活的中心 |
+| [sk-1908](cards/sk-1908-do-not-rush-do-not-fix-the-teenager-in-one-club.md) | quote | labor-education | xuan-ji-zh-vol3 | 不要性急，不能把少年固定在某个小组里，而要在每一个心灵里点燃热爱劳动之火 |
+| [sk-1909](cards/sk-1909-observe-whether-a-student-links-new-knowledge-to-what-he-knows.md) | quote | child-study | xuan-ji-zh-vol3 | 观察学生的思维特点：他是否在已获得的知识中寻找与新知识的联系 |

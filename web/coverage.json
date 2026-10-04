@@ -1,5 +1,5 @@
 {
-  "total_cards": 1916,
+  "total_cards": 1922,
   "source_count": 12,
   "topic_count": 12,
   "zuoren_cards": 541,
@@ -32,7 +32,7 @@
     {
       "slug": "xuan-ji-zh-vol4",
       "title": "苏霍姆林斯基选集（五卷本）第4卷",
-      "cards": 192,
+      "cards": 198,
       "page_refs": 41
     },
     {
@@ -81,7 +81,7 @@
   "types": [
     {
       "type": "quote",
-      "cards": 789
+      "cards": 795
     },
     {
       "type": "case",
@@ -114,7 +114,7 @@
     {
       "slug": "teacher-growth",
       "title": "教师成长",
-      "cards": 425
+      "cards": 426
     },
     {
       "slug": "family-school",
@@ -129,7 +129,7 @@
     {
       "slug": "labor-education",
       "title": "劳动教育",
-      "cards": 306
+      "cards": 310
     },
     {
       "slug": "aesthetic-nature-education",
@@ -139,7 +139,7 @@
     {
       "slug": "thinking-and-nature",
       "title": "思维课与大自然",
-      "cards": 249
+      "cards": 250
     },
     {
       "slug": "learning-difficulties",

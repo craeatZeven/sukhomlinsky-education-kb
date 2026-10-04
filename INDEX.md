@@ -6,16 +6,16 @@
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 175 |
 | [family-school](topics/family-school.md) | 家校合作 | 367 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 306 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 310 |
 | [health-first](topics/health-first.md) | 健康第一 | 87 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 301 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 361 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 425 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 426 |
 | [love-education](topics/love-education.md) | 爱的教育 | 693 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 65 |
 | [child-study](topics/child-study.md) | 儿童研究 | 654 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 111 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 249 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 250 |
 
 ## 来源 Sources
 
@@ -1954,3 +1954,9 @@
 | [sk-1919](cards/sk-1919-what-matters-is-what-the-tree-means-to-the-child.md) | quote | labor-education | xuan-ji-zh-vol3 | 重要的不是每个孩子种了几棵树，而是他种的树在他心目中的地位 |
 | [sk-1920](cards/sk-1920-music-enriches-emotional-memory.md) | quote | aesthetic-nature-education | xuan-ji-zh-vol3 | 音乐是丰富情感记忆的源泉——要使儿童对旋律的知觉同纯洁高尚的情感联系起来 |
 | [sk-1921](cards/sk-1921-children-need-to-give-their-heart-to-people.md) | quote | love-education | xuan-ji-zh-vol3 | 儿童和少年需要把自己的心灵献给人们，否则不可能有充实的精神生活 |
+| [sk-1922](cards/sk-1922-labor-must-become-application-of-science.md) | quote | labor-education | xuan-ji-zh-vol4 | 我们力求使学生的劳动具有创造性，使它成为科学技术成就在生产中的应用 |
+| [sk-1923](cards/sk-1923-love-of-farm-work-grows-from-machines.md) | quote | labor-education | xuan-ji-zh-vol4 | 只有用机器替换过手工劳动，才可能培养出对农业劳动的热爱 |
+| [sk-1924](cards/sk-1924-training-for-farm-work-is-not-love-of-shovel.md) | quote | labor-education | xuan-ji-zh-vol4 | 培养新一代参加农业劳动，绝不意味着培养他们热爱铁锹和叉子 |
+| [sk-1925](cards/sk-1925-driving-machines-requires-designers-thinking.md) | quote | thinking-and-nature | xuan-ji-zh-vol4 | 驾驶机器要求机械师具备设计者的思维，这种思维要在学生时期就发展 |
+| [sk-1926](cards/sk-1926-even-simple-machines-need-creative-use.md) | quote | labor-education | xuan-ji-zh-vol4 | 甚至像中耕机那样不复杂的机械，也必须采取创造性的方式使用 |
+| [sk-1927](cards/sk-1927-pupils-meeting-producers-is-best-link.md) | quote | teacher-growth | xuan-ji-zh-vol4 | 学生与生产工作者的交往，是学校与生产联系的最好组织形式 |

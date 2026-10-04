@@ -6,13 +6,13 @@
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 175 |
 | [family-school](topics/family-school.md) | 家校合作 | 367 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 305 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 306 |
 | [health-first](topics/health-first.md) | 健康第一 | 87 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 300 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 360 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 301 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 361 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 425 |
-| [love-education](topics/love-education.md) | 爱的教育 | 691 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 64 |
+| [love-education](topics/love-education.md) | 爱的教育 | 693 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 65 |
 | [child-study](topics/child-study.md) | 儿童研究 | 654 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 111 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 249 |
@@ -1948,3 +1948,9 @@
 | [sk-1913](cards/sk-1913-chemical-shortcuts-to-memory-are-unacceptable.md) | quote | learning-difficulties / health-first | gei-jiao-shi-de-jian-yi-zh | 用化学手段干预思维是危险的 |
 | [sk-1914](cards/sk-1914-development-needs-whole-person-harmony.md) | quote | thinking-and-nature / learning-difficulties | gei-jiao-shi-de-jian-yi-zh | 发展离开对整个精神生活的和谐影响是不可能的 |
 | [sk-1915](cards/sk-1915-forcing-memory-training-harms-the-child.md) | quote | learning-difficulties / health-first | gei-jiao-shi-de-jian-yi-zh | 能力差的学生不只是记性差 |
+| [sk-1916](cards/sk-1916-dignity-of-the-citizen-is-the-subtlest-domain.md) | quote | collective-education | xuan-ji-zh-vol3 | 培养公民个人的尊严感，是影响少年精神世界最细腻的领域之一 |
+| [sk-1917](cards/sk-1917-nothing-compares-with-freedom-and-dignity-of-the-motherland.md) | quote | love-education | xuan-ji-zh-vol3 | 在人的生活中有一些东西不能相提并论——这就是祖国的自由与独立、荣誉与尊严 |
+| [sk-1918](cards/sk-1918-formalism-slides-on-the-surface-of-consciousness.md) | quote | assessment-grading | xuan-ji-zh-vol3 | 形式主义给教育工作带来极大的危害——它只在意识的表面上爬行 |
+| [sk-1919](cards/sk-1919-what-matters-is-what-the-tree-means-to-the-child.md) | quote | labor-education | xuan-ji-zh-vol3 | 重要的不是每个孩子种了几棵树，而是他种的树在他心目中的地位 |
+| [sk-1920](cards/sk-1920-music-enriches-emotional-memory.md) | quote | aesthetic-nature-education | xuan-ji-zh-vol3 | 音乐是丰富情感记忆的源泉——要使儿童对旋律的知觉同纯洁高尚的情感联系起来 |
+| [sk-1921](cards/sk-1921-children-need-to-give-their-heart-to-people.md) | quote | love-education | xuan-ji-zh-vol3 | 儿童和少年需要把自己的心灵献给人们，否则不可能有充实的精神生活 |

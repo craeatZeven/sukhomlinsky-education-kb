@@ -5,13 +5,13 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 175 |
-| [family-school](topics/family-school.md) | 家校合作 | 367 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 310 |
+| [family-school](topics/family-school.md) | 家校合作 | 369 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 311 |
 | [health-first](topics/health-first.md) | 健康第一 | 87 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 301 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 361 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 426 |
-| [love-education](topics/love-education.md) | 爱的教育 | 694 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 302 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 364 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 428 |
+| [love-education](topics/love-education.md) | 爱的教育 | 701 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 65 |
 | [child-study](topics/child-study.md) | 儿童研究 | 656 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 112 |
@@ -1966,3 +1966,15 @@
 | [sk-1931](cards/sk-1931-youth-digs-materials-from-memory.md) | quote | thinking-and-nature | gei-jiao-shi-de-jian-yi-zh | 青年能从记忆里挖材料，把已知与新知接上 |
 | [sk-1932](cards/sk-1932-middle-school-duty-for-later-mental-growth.md) | quote | thinking-and-nature | gei-jiao-shi-de-jian-yi-zh | 中学的重大职责：为日后的精神发展打底 |
 | [sk-1933](cards/sk-1933-youth-sees-unprincipled-as-immoral.md) | quote | love-education | gei-jiao-shi-de-jian-yi-zh | 青年把「不会思考」看作道德上的毛病 |
+| [sk-1934](cards/sk-1934-love-education-before-parenthood.md) | quote | love-education / family-school | xuan-ji-zh-vol4 | 爱情教育要趁早：在新生命的能力形成之前 |
+| [sk-1935](cards/sk-1935-moral-education-not-sex-instruction.md) | quote | love-education / family-school | xuan-ji-zh-vol4 | 品德教育不是讲解两性关系，而是让全部生活形成信念 |
+| [sk-1936](cards/sk-1936-humane-stories-against-self-indulgence.md) | quote | love-education | xuan-ji-zh-vol4 | 用人道故事唤起同情，同时挡住对自己的姑息 |
+| [sk-1937](cards/sk-1937-respect-for-women-as-start-of-humanism.md) | quote | love-education | xuan-ji-zh-vol4 | 对人的尊重，从尊重妇女做起 |
+| [sk-1938](cards/sk-1938-hidden-competition-between-boys-and-girls.md) | quote | collective-education / labor-education | xuan-ji-zh-vol4 | 男女青少年之间那场看不见的竞赛 |
+| [sk-1939](cards/sk-1939-arts-raise-young-love.md) | quote | aesthetic-nature-education / collective-education | xuan-ji-zh-vol4 | 合唱、乐队与戏剧，让爱慕之情高尚起来 |
+| [sk-1940](cards/sk-1940-emotional-contagion-through-explaining-truth.md) | quote | love-education | xuan-ji-zh-vol3 | 情感感染的功夫不在慷慨激昂，而在把道理讲透 |
+| [sk-1941](cards/sk-1941-worldview-truth-must-be-felt.md) | quote | love-education | xuan-ji-zh-vol3 | 世界观真理要被感受到，才成为信念 |
+| [sk-1942](cards/sk-1942-no-moral-education-without-feeling.md) | quote | love-education | xuan-ji-zh-vol3 | 没有情感教育，就没有真正的道德教育 |
+| [sk-1943](cards/sk-1943-moral-idea-is-political-idea-civic-life.md) | quote | collective-education | xuan-ji-zh-vol3 | 把道德观念当作政治观念，把少年引进公民生活 |
+| [sk-1944](cards/sk-1944-feelings-cannot-be-commanded-need-environment.md) | quote | teacher-growth | xuan-ji-zh-vol3 | 情感不能命令，只能靠环境引发 |
+| [sk-1945](cards/sk-1945-teacher-knows-world-with-mind-and-heart.md) | quote | teacher-growth | xuan-ji-zh-vol3 | 教师是细致而敏感地用理智和心灵认识世界的人 |

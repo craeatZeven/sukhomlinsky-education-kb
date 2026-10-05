@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 177 |
-| [family-school](topics/family-school.md) | 家校合作 | 369 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 178 |
+| [family-school](topics/family-school.md) | 家校合作 | 370 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 311 |
 | [health-first](topics/health-first.md) | 健康第一 | 87 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 302 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 365 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 430 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 370 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 432 |
 | [love-education](topics/love-education.md) | 爱的教育 | 701 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 66 |
-| [child-study](topics/child-study.md) | 儿童研究 | 656 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 112 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 252 |
+| [child-study](topics/child-study.md) | 儿童研究 | 657 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 113 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 253 |
 
 ## 来源 Sources
 
@@ -1984,3 +1984,15 @@
 | [sk-1949](cards/sk-1949-enthusiasm-comes-from-organizing-work.md) | quote | teacher-growth | gei-jiao-shi-de-jian-yi-zh | 热情不是动员出来的，是组织出来的 |
 | [sk-1950](cards/sk-1950-desire-to-learn-grows-in-collective.md) | quote | collective-education | gei-jiao-shi-de-jian-yi-zh | 学习愿望是一种道义满足，只能在集体里长成 |
 | [sk-1951](cards/sk-1951-classroom-mood-teacher-coldness.md) | quote | teacher-growth | gei-jiao-shi-de-jian-yi-zh | 课的情调：教师的冷淡先传给教材，再传给学生 |
+| [sk-1952](cards/sk-1952-every-teacher-is-educator-not-just-instructor.md) | quote | teacher-growth | gei-jiao-shi-de-jian-yi-zh | 每一位教师不仅是教书者，而且是教育者 |
+| [sk-1953](cards/sk-1953-agreement-on-faith-frees-individual-creativity.md) | quote | teacher-growth | gei-jiao-shi-de-jian-yi-zh | 观点一致，才放得出教师的个人创造性 |
+| [sk-1954](cards/sk-1954-teacher-is-source-of-collective-intellectual-life.md) | quote | thinking-and-nature | gei-jiao-shi-de-jian-yi-zh | 集体智力生活的源头仍是一位一位教师 |
+| [sk-1955](cards/sk-1955-intellectual-life-prevents-spiritual-emptiness.md) | quote | collective-education | gei-jiao-shi-de-jian-yi-zh | 少年精神空虚这个祸害，要靠丰富的智力生活来防 |
+| [sk-1956](cards/sk-1956-prevent-failure-by-inviting-into-intellectual-life.md) | quote | learning-difficulties | gei-jiao-shi-de-jian-yi-zh | 防学业落后不是催赶，而是把他引进智力生活 |
+| [sk-1957](cards/sk-1957-knowledge-decays-teach-need-for-self-study.md) | quote | reading-and-books | gei-jiao-shi-de-jian-yi-zh | 知识会过时，所以要培养自学的内心需要 |
+| [sk-1958](cards/sk-1958-friendship-is-a-spiritual-need.md) | quote | collective-education | xuan-ji-zh-vol1 | 少年寻找朋友，是正在成长的人的一种精神需要 |
+| [sk-1959](cards/sk-1959-friendship-depends-on-collective-life.md) | quote | collective-education | xuan-ji-zh-vol1 | 友谊的内容与作用，取决于集体的精神生活是否丰富多彩 |
+| [sk-1960](cards/sk-1960-friendship-rests-on-rich-interests-and-morality.md) | quote | collective-education | xuan-ji-zh-vol1 | 友谊的基础首先是兴趣的丰富和道德观点的高尚 |
+| [sk-1961](cards/sk-1961-parents-shape-youths-beliefs-about-love.md) | quote | family-school | xuan-ji-zh-vol1 | 少年对爱情与友谊的道德信念，源头在父母之间的关系 |
+| [sk-1962](cards/sk-1962-puberty-shapes-spiritual-life.md) | quote | child-study | xuan-ji-zh-vol1 | 性成熟的萌发，是影响少年精神生活的一个因素 |
+| [sk-1963](cards/sk-1963-purity-of-youth-relations-decides-spiritual-life.md) | quote | collective-education | xuan-ji-zh-vol1 | 少年集体中男女关系是否纯洁高尚，决定精神生活是否充实 |

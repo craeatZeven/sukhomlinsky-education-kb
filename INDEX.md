@@ -4,15 +4,15 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 175 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 177 |
 | [family-school](topics/family-school.md) | 家校合作 | 369 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 311 |
 | [health-first](topics/health-first.md) | 健康第一 | 87 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 302 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 364 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 428 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 365 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 430 |
 | [love-education](topics/love-education.md) | 爱的教育 | 701 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 65 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 66 |
 | [child-study](topics/child-study.md) | 儿童研究 | 656 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 112 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 252 |
@@ -1978,3 +1978,9 @@
 | [sk-1943](cards/sk-1943-moral-idea-is-political-idea-civic-life.md) | quote | collective-education | xuan-ji-zh-vol3 | 把道德观念当作政治观念，把少年引进公民生活 |
 | [sk-1944](cards/sk-1944-feelings-cannot-be-commanded-need-environment.md) | quote | teacher-growth | xuan-ji-zh-vol3 | 情感不能命令，只能靠环境引发 |
 | [sk-1945](cards/sk-1945-teacher-knows-world-with-mind-and-heart.md) | quote | teacher-growth | xuan-ji-zh-vol3 | 教师是细致而敏感地用理智和心灵认识世界的人 |
+| [sk-1946](cards/sk-1946-good-feelings-breed-desire-to-learn.md) | quote | learning-difficulties | gei-jiao-shi-de-jian-yi-zh | 学习愿望长在良好的情绪里 |
+| [sk-1947](cards/sk-1947-teacher-coldness-dulls-the-mark.md) | quote | assessment-grading | gei-jiao-shi-de-jian-yi-zh | 教师对知识的冷淡，比分数本身更能熄灭学习愿望 |
+| [sk-1948](cards/sk-1948-easy-questions-brand-children-incapable.md) | quote | learning-difficulties | gei-jiao-shi-de-jian-yi-zh | 总把容易的问题给差生，会让他认定自己学不好 |
+| [sk-1949](cards/sk-1949-enthusiasm-comes-from-organizing-work.md) | quote | teacher-growth | gei-jiao-shi-de-jian-yi-zh | 热情不是动员出来的，是组织出来的 |
+| [sk-1950](cards/sk-1950-desire-to-learn-grows-in-collective.md) | quote | collective-education | gei-jiao-shi-de-jian-yi-zh | 学习愿望是一种道义满足，只能在集体里长成 |
+| [sk-1951](cards/sk-1951-classroom-mood-teacher-coldness.md) | quote | teacher-growth | gei-jiao-shi-de-jian-yi-zh | 课的情调：教师的冷淡先传给教材，再传给学生 |

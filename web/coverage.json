@@ -1,5 +1,5 @@
 {
-  "total_cards": 1940,
+  "total_cards": 1946,
   "source_count": 12,
   "topic_count": 12,
   "zuoren_cards": 541,
@@ -44,7 +44,7 @@
     {
       "slug": "gei-jiao-shi-de-jian-yi-zh",
       "title": "给教师的建议",
-      "cards": 90,
+      "cards": 96,
       "page_refs": 23
     },
     {
@@ -81,7 +81,7 @@
   "types": [
     {
       "type": "quote",
-      "cards": 813
+      "cards": 819
     },
     {
       "type": "case",
@@ -114,7 +114,7 @@
     {
       "slug": "teacher-growth",
       "title": "教师成长",
-      "cards": 428
+      "cards": 430
     },
     {
       "slug": "family-school",
@@ -124,7 +124,7 @@
     {
       "slug": "collective-education",
       "title": "集体教育",
-      "cards": 364
+      "cards": 365
     },
     {
       "slug": "labor-education",
@@ -144,7 +144,7 @@
     {
       "slug": "learning-difficulties",
       "title": "学习困难学生",
-      "cards": 175
+      "cards": 177
     },
     {
       "slug": "reading-and-books",
@@ -159,7 +159,7 @@
     {
       "slug": "assessment-grading",
       "title": "评价与分数",
-      "cards": 65
+      "cards": 66
     }
   ]
 }

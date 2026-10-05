@@ -11,11 +11,11 @@
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 301 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 361 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 426 |
-| [love-education](topics/love-education.md) | 爱的教育 | 693 |
+| [love-education](topics/love-education.md) | 爱的教育 | 694 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 65 |
-| [child-study](topics/child-study.md) | 儿童研究 | 654 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 111 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 250 |
+| [child-study](topics/child-study.md) | 儿童研究 | 656 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 112 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 252 |
 
 ## 来源 Sources
 
@@ -1960,3 +1960,9 @@
 | [sk-1925](cards/sk-1925-driving-machines-requires-designers-thinking.md) | quote | thinking-and-nature | xuan-ji-zh-vol4 | 驾驶机器要求机械师具备设计者的思维，这种思维要在学生时期就发展 |
 | [sk-1926](cards/sk-1926-even-simple-machines-need-creative-use.md) | quote | labor-education | xuan-ji-zh-vol4 | 甚至像中耕机那样不复杂的机械，也必须采取创造性的方式使用 |
 | [sk-1927](cards/sk-1927-pupils-meeting-producers-is-best-link.md) | quote | teacher-growth | xuan-ji-zh-vol4 | 学生与生产工作者的交往，是学校与生产联系的最好组织形式 |
+| [sk-1928](cards/sk-1928-youth-judgment-shifts-to-hypothesis.md) | quote | child-study | gei-jiao-shi-de-jian-yi-zh | 青年期的判断，从「绝对」转向「假说」 |
+| [sk-1929](cards/sk-1929-youth-reading-argues-in-margins.md) | quote | reading-and-books | gei-jiao-shi-de-jian-yi-zh | 青年的独立阅读变了：在页边跟作者争论 |
+| [sk-1930](cards/sk-1930-youth-analyzes-social-relations-and-inner-world.md) | quote | child-study | gei-jiao-shi-de-jian-yi-zh | 青年最深入地分析社会关系与内心世界 |
+| [sk-1931](cards/sk-1931-youth-digs-materials-from-memory.md) | quote | thinking-and-nature | gei-jiao-shi-de-jian-yi-zh | 青年能从记忆里挖材料，把已知与新知接上 |
+| [sk-1932](cards/sk-1932-middle-school-duty-for-later-mental-growth.md) | quote | thinking-and-nature | gei-jiao-shi-de-jian-yi-zh | 中学的重大职责：为日后的精神发展打底 |
+| [sk-1933](cards/sk-1933-youth-sees-unprincipled-as-immoral.md) | quote | love-education | gei-jiao-shi-de-jian-yi-zh | 青年把「不会思考」看作道德上的毛病 |

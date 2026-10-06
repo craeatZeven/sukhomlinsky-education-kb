@@ -1,5 +1,5 @@
 {
-  "total_cards": 2016,
+  "total_cards": 2022,
   "source_count": 12,
   "topic_count": 12,
   "zuoren_cards": 541,
@@ -44,7 +44,7 @@
     {
       "slug": "gei-jiao-shi-de-jian-yi-zh",
       "title": "给教师的建议",
-      "cards": 114,
+      "cards": 120,
       "page_refs": 23
     },
     {
@@ -81,7 +81,7 @@
   "types": [
     {
       "type": "quote",
-      "cards": 889
+      "cards": 895
     },
     {
       "type": "case",
@@ -124,7 +124,7 @@
     {
       "slug": "family-school",
       "title": "家校合作",
-      "cards": 371
+      "cards": 372
     },
     {
       "slug": "labor-education",
@@ -139,17 +139,17 @@
     {
       "slug": "thinking-and-nature",
       "title": "思维课与大自然",
-      "cards": 266
+      "cards": 267
     },
     {
       "slug": "learning-difficulties",
       "title": "学习困难学生",
-      "cards": 180
+      "cards": 181
     },
     {
       "slug": "reading-and-books",
       "title": "阅读与书籍",
-      "cards": 115
+      "cards": 118
     },
     {
       "slug": "health-first",
@@ -159,7 +159,7 @@
     {
       "slug": "assessment-grading",
       "title": "评价与分数",
-      "cards": 69
+      "cards": 70
     }
   ]
 }

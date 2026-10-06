@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 180 |
-| [family-school](topics/family-school.md) | 家校合作 | 371 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 181 |
+| [family-school](topics/family-school.md) | 家校合作 | 372 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 317 |
 | [health-first](topics/health-first.md) | 健康第一 | 88 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 303 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 380 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 439 |
 | [love-education](topics/love-education.md) | 爱的教育 | 707 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 69 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 70 |
 | [child-study](topics/child-study.md) | 儿童研究 | 663 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 115 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 266 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 118 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 267 |
 
 ## 来源 Sources
 
@@ -2054,3 +2054,9 @@
 | [sk-2019](cards/sk-2019-wendu-zhuyi-yanmo-dagang.md) | quote | teacher-growth | xuan-ji-zh-vol4 | 按季度分配德育内容、要教师写大量计划，会把大纲淹没在文牍里 |
 | [sk-2020](cards/sk-2020-ren-bu-shi-luosiding-zhuangpei-cheng-de.md) | quote | child-study | xuan-ji-zh-vol4 | 人不是螺丝钉装配成的：教育大纲要保证全部品质和谐地确立 |
 | [sk-2021](cards/sk-2021-jiaoyu-dagang-shi-huohua.md) | quote | child-study | xuan-ji-zh-vol4 | 教育大纲是火花，教育人的最主要力量应该是人本身 |
+| [sk-2022](cards/sk-2022-hao-shu-mu-lu-shi-jiaoyu-dagang.md) | quote | reading-and-books | gei-jiao-shi-de-jian-yi-zh | 《好书目录》是对学生进行智育、德育、情感教育、审美教育和公民教育的大纲 |
+| [sk-2023](cards/sk-2023-zhen-zheng-de-yuedu.md) | quote | reading-and-books | gei-jiao-shi-de-jian-yi-zh | 学校教育的缺点之一，是没有占据学生全部理智和心灵的真正的阅读 |
+| [sk-2024](cards/sk-2024-xin-ai-xueke-shang-de-chengji-shi-jingshen-zhizhu.md) | quote | assessment-grading | gei-jiao-shi-de-jian-yi-zh | 在心爱的学科上取得成绩，是青少年不丧失对自己力量的信心的精神支柱 |
+| [sk-2025](cards/sk-2025-zixue-de-tiaojian-shi-geren-cangshu.md) | quote | reading-and-books / family-school | gei-jiao-shi-de-jian-yi-zh | 自学有一个必备条件：个人要积累一些藏书 |
+| [sk-2026](cards/sk-2026-jingli-xingqu-pinfang-zaocheng-jingshen-kongxu.md) | quote | thinking-and-nature | gei-jiao-shi-de-jian-yi-zh | 智力兴趣贫乏造成毕业后的精神空虚，不激发自学则任何防治措施都无用 |
+| [sk-2027](cards/sk-2027-bu-rang-xuesheng-juede-ziji-buxing.md) | quote | learning-difficulties | gei-jiao-shi-de-jian-yi-zh | 不要让任何一个学生感到自己在智力发展上是不行的 |

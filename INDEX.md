@@ -9,11 +9,11 @@
 | [labor-education](topics/labor-education.md) | 劳动教育 | 317 |
 | [health-first](topics/health-first.md) | 健康第一 | 88 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 303 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 377 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 435 |
-| [love-education](topics/love-education.md) | 爱的教育 | 704 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 380 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 436 |
+| [love-education](topics/love-education.md) | 爱的教育 | 705 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 69 |
-| [child-study](topics/child-study.md) | 儿童研究 | 659 |
+| [child-study](topics/child-study.md) | 儿童研究 | 660 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 115 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 262 |
 
@@ -2036,3 +2036,9 @@
 | [sk-2001](cards/sk-2001-social-essence-lives-in-interaction.md) | quote | collective-education | xuan-ji-zh-vol1 | 人的社会本质存在于交往和相互关系之中 |
 | [sk-2002](cards/sk-2002-normal-socialization-rests-on-feeling-life.md) | quote | love-education | xuan-ji-zh-vol1 | 正常的社会化以丰富的情感生活为基础 |
 | [sk-2003](cards/sk-2003-ethical-talks-as-primer-of-collectivist-feeling.md) | quote | collective-education | xuan-ji-zh-vol1 | 伦理谈话是培养集体主义者感情的启蒙课 |
+| [sk-2004](cards/sk-2004-true-collective-takes-in-inner-perplexity.md) | quote | collective-education | xuan-ji-zh-vol1 | 真正的集体的标志是学生愿意把沉思和不安带进来 |
+| [sk-2005](cards/sk-2005-adolescent-questions-give-intercourse-its-value.md) | quote | child-study | xuan-ji-zh-vol1 | 少年追问人生意义，集体交往才有无可替代的思想价值 |
+| [sk-2006](cards/sk-2006-moral-feeling-does-not-become-action-at-once.md) | quote | collective-education | xuan-ji-zh-vol1 | 道德教育不能指望情感立刻变成行动 |
+| [sk-2007](cards/sk-2007-teacher-must-be-a-living-person-in-heart-talks.md) | quote | teacher-growth | xuan-ji-zh-vol1 | 心灵交往的时刻，教师首先要表现得自然 |
+| [sk-2008](cards/sk-2008-frank-talk-about-life-is-peak-of-collective-life.md) | quote | love-education | xuan-ji-zh-vol1 | 学生肯谈人生与未来，是集体精神生活的最高峰 |
+| [sk-2009](cards/sk-2009-direct-contact-with-heroism-breeds-aspiration.md) | quote | collective-education | xuan-ji-zh-vol1 | 直接接触英雄行为，才会树立对高尚行为的向往 |

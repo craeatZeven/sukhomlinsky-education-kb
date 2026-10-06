@@ -10,10 +10,10 @@
 | [health-first](topics/health-first.md) | 健康第一 | 88 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 303 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 380 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 438 |
-| [love-education](topics/love-education.md) | 爱的教育 | 705 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 439 |
+| [love-education](topics/love-education.md) | 爱的教育 | 707 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 69 |
-| [child-study](topics/child-study.md) | 儿童研究 | 660 |
+| [child-study](topics/child-study.md) | 儿童研究 | 663 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 115 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 266 |
 
@@ -2048,3 +2048,9 @@
 | [sk-2013](cards/sk-2013-renshi-mudi-zhishou-jidiao-sixiangxing.md) | quote | teacher-growth | xuan-ji-zh-vol4 | 把“学会、记熟、弄懂”摆到首位，思想性就退居次要地位 |
 | [sk-2014](cards/sk-2014-tingjiang-shuji-huida-gongshi.md) | quote | teacher-growth | xuan-ji-zh-vol4 | 课堂若按“听讲—熟记—回答”运行，思想只是一掠而过 |
 | [sk-2015](cards/sk-2015-sijiyinbei-modian-sixiang-neirong.md) | quote | thinking-and-nature | xuan-ji-zh-vol4 | 死记硬背不只危及智力，还会抹掉教材的思想内容 |
+| [sk-2016](cards/sk-2016-deyu-dagang-shi-lantu.md) | quote | love-education | xuan-ji-zh-vol4 | 道德教育大纲好比蓝图：要明确规定在每个人身上确立什么 |
+| [sk-2017](cards/sk-2017-dagang-gei-jiaoshi-zonggainian.md) | quote | child-study | xuan-ji-zh-vol4 | 教育大纲要为教师提供意识、信念、情感和意志统一的总概念 |
+| [sk-2018](cards/sk-2018-fanbo-dagang-duoyu-de-lunju.md) | quote | love-education | xuan-ji-zh-vol4 | “大纲多余”的论据站不住：学科有大纲，德育更该同样认真 |
+| [sk-2019](cards/sk-2019-wendu-zhuyi-yanmo-dagang.md) | quote | teacher-growth | xuan-ji-zh-vol4 | 按季度分配德育内容、要教师写大量计划，会把大纲淹没在文牍里 |
+| [sk-2020](cards/sk-2020-ren-bu-shi-luosiding-zhuangpei-cheng-de.md) | quote | child-study | xuan-ji-zh-vol4 | 人不是螺丝钉装配成的：教育大纲要保证全部品质和谐地确立 |
+| [sk-2021](cards/sk-2021-jiaoyu-dagang-shi-huohua.md) | quote | child-study | xuan-ji-zh-vol4 | 教育大纲是火花，教育人的最主要力量应该是人本身 |

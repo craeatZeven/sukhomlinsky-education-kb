@@ -6,16 +6,16 @@
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 178 |
 | [family-school](topics/family-school.md) | 家校合作 | 370 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 311 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 314 |
 | [health-first](topics/health-first.md) | 健康第一 | 87 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 302 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 370 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 372 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 432 |
 | [love-education](topics/love-education.md) | 爱的教育 | 701 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 66 |
 | [child-study](topics/child-study.md) | 儿童研究 | 657 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 113 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 253 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 258 |
 
 ## 来源 Sources
 
@@ -1996,3 +1996,13 @@
 | [sk-1961](cards/sk-1961-parents-shape-youths-beliefs-about-love.md) | quote | family-school | xuan-ji-zh-vol1 | 少年对爱情与友谊的道德信念，源头在父母之间的关系 |
 | [sk-1962](cards/sk-1962-puberty-shapes-spiritual-life.md) | quote | child-study | xuan-ji-zh-vol1 | 性成熟的萌发，是影响少年精神生活的一个因素 |
 | [sk-1963](cards/sk-1963-purity-of-youth-relations-decides-spiritual-life.md) | quote | collective-education | xuan-ji-zh-vol1 | 少年集体中男女关系是否纯洁高尚，决定精神生活是否充实 |
+| [sk-1964](cards/sk-1964-active-thinking-bound-to-language-development.md) | quote | thinking-and-nature | xuan-ji-zh-vol1 | 青年的积极思维与语言发展分不开 |
+| [sk-1965](cards/sk-1965-personal-speech-and-writing-style-forms.md) | quote | thinking-and-nature | xuan-ji-zh-vol1 | 青年期形成个人的口语和书面语风格 |
+| [sk-1966](cards/sk-1966-enriching-knowledge-becomes-youths-demand.md) | quote | thinking-and-nature | xuan-ji-zh-vol1 | 高年级学生把丰富知识当作自己的要求 |
+| [sk-1967](cards/sk-1967-teacher-as-guide-of-independent-work.md) | quote | thinking-and-nature | xuan-ji-zh-vol1 | 知识应让学生独立掌握，教师做独立劳动的引导者 |
+| [sk-1968](cards/sk-1968-spiritual-growth-highness-of-climbing.md) | quote | labor-education | xuan-ji-zh-vol4 | 劳动里的困难不是障碍，是精神向上爬的那道坡 |
+| [sk-1969](cards/sk-1969-hardship-is-touchstone-of-belief.md) | quote | thinking-and-nature | xuan-ji-zh-vol4 | 困难、障碍、苦恼，是对信念的试金石 |
+| [sk-1970](cards/sk-1970-labor-makes-truth-seen-in-results.md) | quote | labor-education | xuan-ji-zh-vol4 | 劳动是形成信念的手段，但只有当人在成果中看到自己尊崇的真理时才算 |
+| [sk-1971](cards/sk-1971-long-term-labor-tasks-test-conviction.md) | quote | labor-education | xuan-ji-zh-vol4 | 为信念而设的劳动任务要用数年，因为信念巩固与否要过时间的考验 |
+| [sk-1972](cards/sk-1972-educating-others-is-self-education.md) | quote | collective-education | xuan-ji-zh-vol4 | 人在教育别人时，同时也在真正地教育自己 |
+| [sk-1973](cards/sk-1973-tie-hardship-to-a-great-shared-task.md) | quote | collective-education | xuan-ji-zh-vol4 | 要用困难锻炼意志，就得把困难拴在一件需要集体长期用力的大事上 |

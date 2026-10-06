@@ -34633,5 +34633,107 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2010": {
+  "primary": "A4",
+  "seealso": [],
+  "facets": [],
+  "claim": "道德落后于知识的根因是知识停留在零碎记忆；教师应确立宗旨，使知识在学生意识中转化，成为信念、情感、志趣、需要和兴趣。",
+  "evidence": "产生这种道德落后于知识的现象的原因，首先在于一部分学生掌握的知识很肤浅，他们意识中留下的只是一些零碎的知识。个别教师在教育、教学工作中未能确立这样的宗旨，这就是要使知识在学生的意识中按一定的方式发生转化，从而变成他们个人的修养(信念、情感、",
+  "title": "知识要变成个人的信念",
+  "old_topics": [
+   "thinking-and-nature"
+  ],
+  "type": "quote",
+  "tags": [
+   "A4"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2011": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "现代人的活动越来越依赖智力与精神因素，知识水平与道德水平因此相互依赖；思想修养落后，是因为忽略了这一层新要求。",
+  "evidence": "思想修养落后于知识水平的原因，还在于忽略了这样一个事实，即现代人在智力上的超前发展，不断对人的道德提出新的要求。这里必须注意知识水平与道德水平的一种重要的相互依赖关系：现代人的劳动、素养、生活乃至他的全部活动，正在越来越大的程度上依赖于智力",
+  "title": "智力超前，道德要求更高",
+  "old_topics": [
+   "thinking-and-nature"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2012": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "学生知道星球、海底与古代国家体制，却不知道自己在公共场所该怎么行动；学校的科学基础知识内容已不适应对人的品德修养提出的新要求。",
+  "evidence": "所有这一切都对人的品德修养、内心世界提出了全新的、极高的要求。现代人掌握的关于自然界和社会的知识越多，他所掌握的关于人、关于自己的知识也就应当越多，这条规律是从共产主义社会的人性素养的实质产生出来的。显然，我们今天所教的科学基础知识的内容已",
+  "title": "也要教关于人、关于自己的知识",
+  "old_topics": [
+   "thinking-and-nature"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2013": {
+  "primary": "A22",
+  "seealso": [],
+  "facets": [],
+  "claim": "教师若把学会、记熟、弄懂教材当成首要目标，它占去的精力越多，思想性越退居次要，知识转化为信念的效率越低。",
+  "evidence": "教师全力以赴追求的也是这一目标。这一目标(学会、记熟、弄懂教材)越是被置于首要位置，它占去学生的精力就越多，它的思想性就越是退居次要地位，知识转化为信念的效率就越低。学生很少进行思考，很少深入分析事实、现象和规律的实质，于是这种效率本身就降",
+  "title": "认识目的置首会挤掉思想性",
+  "old_topics": [
+   "teacher-growth"
+  ],
+  "type": "quote",
+  "tags": [
+   "A22"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2014": {
+  "primary": "A22",
+  "seealso": [],
+  "facets": [],
+  "claim": "按“听讲—熟记—回答”公式进行的脑力劳动，会让思想在意识里一掠而过；作者举的那位妇女正是靠出自兴趣的读书才摆脱宗教世界观。",
+  "evidence": "遗憾的是，在某些教师的课堂上，脑力劳动是按“听讲—熟记—回答”这样一个公式进行的。按照这种公式，思想在学生的意识里只是一掠而过。我曾跟这样一位青年妇女谈过话，她中学毕业后变成一个虔诚的教徒，进了修道院，但是以后又因为阅读自然科学书籍而渐渐摆",
+  "title": "听讲—熟记—回答的公式之害",
+  "old_topics": [
+   "teacher-growth"
+  ],
+  "type": "quote",
+  "tags": [
+   "A22"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2015": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "死记硬背对智力发展和道德发展都有害，会抹煞教材的思想内容；教师应让学生在第一次感知教材时就深入思想内容，同时触及他的个性、情感和良知。",
+  "evidence": "死记硬背不仅危及智力发展，而且对道德发展也是极其有害的。死记硬背会抹煞教材的思想内容。真正的教育者为了防止死记硬背的危险，他会竭力使学生在第一次感知教材时，就深入认识各种事物、现象及其相互联系中所包含的思想内容。一个教师要成为教育者，就应当",
+  "title": "死记硬背抹掉思想内容",
+  "old_topics": [
+   "thinking-and-nature"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

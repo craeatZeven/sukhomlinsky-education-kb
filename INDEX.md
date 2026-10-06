@@ -10,12 +10,12 @@
 | [health-first](topics/health-first.md) | 健康第一 | 88 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 303 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 380 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 436 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 438 |
 | [love-education](topics/love-education.md) | 爱的教育 | 705 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 69 |
 | [child-study](topics/child-study.md) | 儿童研究 | 660 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 115 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 262 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 266 |
 
 ## 来源 Sources
 
@@ -2042,3 +2042,9 @@
 | [sk-2007](cards/sk-2007-teacher-must-be-a-living-person-in-heart-talks.md) | quote | teacher-growth | xuan-ji-zh-vol1 | 心灵交往的时刻，教师首先要表现得自然 |
 | [sk-2008](cards/sk-2008-frank-talk-about-life-is-peak-of-collective-life.md) | quote | love-education | xuan-ji-zh-vol1 | 学生肯谈人生与未来，是集体精神生活的最高峰 |
 | [sk-2009](cards/sk-2009-direct-contact-with-heroism-breeds-aspiration.md) | quote | collective-education | xuan-ji-zh-vol1 | 直接接触英雄行为，才会树立对高尚行为的向往 |
+| [sk-2010](cards/sk-2010-zhishi-yao-bian-cheng-xinnian.md) | quote | thinking-and-nature | xuan-ji-zh-vol4 | 知识不转化为个人的信念与志趣，道德就会落后于知识水平 |
+| [sk-2011](cards/sk-2011-zhili-chaoqian-fazhan-daode-yaoqiu.md) | quote | thinking-and-nature | xuan-ji-zh-vol4 | 人的智力越超前发展，对道德的新的要求就越高 |
+| [sk-2012](cards/sk-2012-guanyu-ren-guanyu-ziji-de-zhishi.md) | quote | thinking-and-nature | xuan-ji-zh-vol4 | 关于自然与社会的知识越多，关于人、关于自己的知识也应当越多 |
+| [sk-2013](cards/sk-2013-renshi-mudi-zhishou-jidiao-sixiangxing.md) | quote | teacher-growth | xuan-ji-zh-vol4 | 把“学会、记熟、弄懂”摆到首位，思想性就退居次要地位 |
+| [sk-2014](cards/sk-2014-tingjiang-shuji-huida-gongshi.md) | quote | teacher-growth | xuan-ji-zh-vol4 | 课堂若按“听讲—熟记—回答”运行，思想只是一掠而过 |
+| [sk-2015](cards/sk-2015-sijiyinbei-modian-sixiang-neirong.md) | quote | thinking-and-nature | xuan-ji-zh-vol4 | 死记硬背不只危及智力，还会抹掉教材的思想内容 |

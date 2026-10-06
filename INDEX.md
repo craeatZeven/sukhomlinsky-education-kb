@@ -5,13 +5,13 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 180 |
-| [family-school](topics/family-school.md) | 家校合作 | 370 |
+| [family-school](topics/family-school.md) | 家校合作 | 371 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 317 |
 | [health-first](topics/health-first.md) | 健康第一 | 88 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 303 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 374 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 377 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 435 |
-| [love-education](topics/love-education.md) | 爱的教育 | 702 |
+| [love-education](topics/love-education.md) | 爱的教育 | 704 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 69 |
 | [child-study](topics/child-study.md) | 儿童研究 | 659 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 115 |
@@ -2030,3 +2030,9 @@
 | [sk-1995](cards/sk-1995-huzhu-fang-li-ji-zhuyi.md) | quote | collective-education | xuan-ji-zh-vol4 | 把同学的不幸看成整个集体的不幸，是防止利己主义最重要的条件 |
 | [sk-1996](cards/sk-1996-laodong-chuantong-rong-ru-xingfu.md) | quote | labor-education | xuan-ji-zh-vol4 | 劳动传统让劳动与幸福感融为一体，成为一种道德财富 |
 | [sk-1997](cards/sk-1997-xinliang-mianbao-jie-laodong-yu-mei.md) | quote | aesthetic-nature-education | xuan-ji-zh-vol4 | 新粮面包节：让孩子用自己种出的粮食款待母亲 |
+| [sk-1998](cards/sk-1998-socialization-as-precondition-of-collective-force.md) | quote | collective-education | xuan-ji-zh-vol1 | 社会化是集体教育力量形成的前提 |
+| [sk-1999](cards/sk-1999-early-desire-gratification-and-selfishness.md) | quote | family-school | xuan-ji-zh-vol1 | 早期欲望的满足方式决定孩子会不会成为自私者 |
+| [sk-2000](cards/sk-2000-teaching-child-to-feel-others-pain.md) | quote | love-education | xuan-ji-zh-vol1 | 教会孩子体会他人痛苦是集体主义教育的逻辑 |
+| [sk-2001](cards/sk-2001-social-essence-lives-in-interaction.md) | quote | collective-education | xuan-ji-zh-vol1 | 人的社会本质存在于交往和相互关系之中 |
+| [sk-2002](cards/sk-2002-normal-socialization-rests-on-feeling-life.md) | quote | love-education | xuan-ji-zh-vol1 | 正常的社会化以丰富的情感生活为基础 |
+| [sk-2003](cards/sk-2003-ethical-talks-as-primer-of-collectivist-feeling.md) | quote | collective-education | xuan-ji-zh-vol1 | 伦理谈话是培养集体主义者感情的启蒙课 |

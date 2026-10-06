@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 178 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 179 |
 | [family-school](topics/family-school.md) | 家校合作 | 370 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 314 |
-| [health-first](topics/health-first.md) | 健康第一 | 87 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 315 |
+| [health-first](topics/health-first.md) | 健康第一 | 88 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 302 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 372 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 432 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 373 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 433 |
 | [love-education](topics/love-education.md) | 爱的教育 | 701 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 66 |
-| [child-study](topics/child-study.md) | 儿童研究 | 657 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 113 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 258 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 68 |
+| [child-study](topics/child-study.md) | 儿童研究 | 658 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 114 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 261 |
 
 ## 来源 Sources
 
@@ -2006,3 +2006,15 @@
 | [sk-1971](cards/sk-1971-long-term-labor-tasks-test-conviction.md) | quote | labor-education | xuan-ji-zh-vol4 | 为信念而设的劳动任务要用数年，因为信念巩固与否要过时间的考验 |
 | [sk-1972](cards/sk-1972-educating-others-is-self-education.md) | quote | collective-education | xuan-ji-zh-vol4 | 人在教育别人时，同时也在真正地教育自己 |
 | [sk-1973](cards/sk-1973-tie-hardship-to-a-great-shared-task.md) | quote | collective-education | xuan-ji-zh-vol4 | 要用困难锻炼意志，就得把困难拴在一件需要集体长期用力的大事上 |
+| [sk-1974](cards/sk-1974-jingli-bushi-wa-bu-dao-di-de-shenjing.md) | quote | health-first | ba-xin-xian-gei-hai-zi-zh | 不能用孩子的注意力去换取耗尽：脑力与精力不是挖不到底的深井 |
+| [sk-1975](cards/sk-1975-bu-gai-zhi-shang-chuncui-de-du-xie-suan-ke.md) | quote | reading-and-books | ba-xin-xian-gei-hai-zi-zh | 一年级不该只上“纯粹的”阅读、书写和算术课 |
+| [sk-1976](cards/sk-1976-wei-zhili-ciji-er-xue-bu-wei-haochengji.md) | quote | assessment-grading | ba-xin-xian-gei-hai-zi-zh | 让学生为感受智力刺激而学，而不是为追求好成绩 |
+| [sk-1977](cards/sk-1977-guancha-daziran-ying-paijin-kebiao.md) | quote | thinking-and-nature | ba-xin-xian-gei-hai-zi-zh | 把观察大自然排进课表：每周几节课去接近思想和母语的源头 |
+| [sk-1978](cards/sk-1978-laodong-bushi-zuizhong-mudi.md) | quote | labor-education | ba-xin-xian-gei-hai-zi-zh | 劳动不是最终目的，而是实现各种教育目的的手段 |
+| [sk-1979](cards/sk-1979-qingxu-wending-jiti-shenghuo-dise.md) | quote | collective-education | ba-xin-xian-gei-hai-zi-zh | 情绪稳定是集体生活的底色：不稳定，就什么事也做不成 |
+| [sk-1980](cards/sk-1980-ci-chengwei-ertong-chuangzuo-de-gongju.md) | quote | thinking-and-nature | gei-jiao-shi-de-jian-yi-zh | 让词成为儿童创作的工具，知识才不会变成僵死的重物 |
+| [sk-1981](cards/sk-1981-ertong-bushi-chongshu-bieren-de-hua.md) | quote | thinking-and-nature | gei-jiao-shi-de-jian-yi-zh | 儿童不是重述别人的话：词在他的意识里发生了转换 |
+| [sk-1982](cards/sk-1982-duici-de-momo-shi-jiaoxue-quexian.md) | quote | teacher-growth | gei-jiao-shi-de-jian-yi-zh | 儿童对教师的话无动于衷，是教学中的一大缺陷 |
+| [sk-1983](cards/sk-1983-tiaoxuan-yiyou-zhishi-jieda-yiwen.md) | quote | learning-difficulties | gei-jiao-shi-de-jian-yi-zh | 获得知识就是挑出已有储备去解答疑问；对最消极的学生先让他独立动笔 |
+| [sk-1984](cards/sk-1984-jianwen-fankui-dingwei-kunnan.md) | quote | child-study | gei-jiao-shi-de-jian-yi-zh | 用一两句短答取得“反馈信息”，定位个别学生卡在哪里 |
+| [sk-1985](cards/sk-1985-bie-congtou-zai-jiang-yibian.md) | quote | assessment-grading | gei-jiao-shi-de-jian-yi-zh | 学生没弄懂时回“监督点”找“可疑点”，而不是从头再讲一遍 |

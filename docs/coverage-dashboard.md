@@ -5,7 +5,7 @@
 
 ## 总览
 
-- 卡片总数：**1968**
+- 卡片总数：**1980**
 - 来源数：**12**
 - 主题数：**12**
 - 《做人的故事》：**541 张卡 / 540 个目录标题**
@@ -20,9 +20,9 @@
 | 苏霍姆林斯基选集（五卷本）第3卷（`xuan-ji-zh-vol3`） | 222 | 51/222 |
 | 苏霍姆林斯基选集（五卷本）第4卷（`xuan-ji-zh-vol4`） | 210 | 41/210 |
 | 苏霍姆林斯基选集（五卷本）第1卷（`xuan-ji-zh-vol1`） | 175 | 36/175 |
-| 给教师的建议（`gei-jiao-shi-de-jian-yi-zh`） | 102 | 23/102 |
+| 给教师的建议（`gei-jiao-shi-de-jian-yi-zh`） | 108 | 23/108 |
 | On Education（`on-education`） | 41 | 0/41 |
-| 把心献给孩子（`ba-xin-xian-gei-hai-zi-zh`） | 35 | 0/35 |
+| 把心献给孩子（`ba-xin-xian-gei-hai-zi-zh`） | 41 | 0/41 |
 | To Children I Give My Heart（`to-children-i-give-my-heart`） | 22 | 0/22 |
 | Each One Must Shine: The Educational Legacy of V. A. Sukhomlinsky（`each-one-must-shine`） | 16 | 0/16 |
 | The Singing Feather (会唱歌的羽毛)（`singing-feather`） | 12 | 0/12 |
@@ -31,7 +31,7 @@
 
 | 类型 | 数量 |
 |---|---:|
-| `quote` | 841 |
+| `quote` | 853 |
 | `case` | 673 |
 | `principle` | 194 |
 | `method` | 164 |
@@ -42,17 +42,17 @@
 | 主题 | 卡片数 |
 |---|---:|
 | 爱的教育（`love-education`） | 701 |
-| 儿童研究（`child-study`） | 657 |
-| 教师成长（`teacher-growth`） | 432 |
-| 集体教育（`collective-education`） | 372 |
+| 儿童研究（`child-study`） | 658 |
+| 教师成长（`teacher-growth`） | 433 |
+| 集体教育（`collective-education`） | 373 |
 | 家校合作（`family-school`） | 370 |
-| 劳动教育（`labor-education`） | 314 |
+| 劳动教育（`labor-education`） | 315 |
 | 美育与自然（`aesthetic-nature-education`） | 302 |
-| 思维课与大自然（`thinking-and-nature`） | 258 |
-| 学习困难学生（`learning-difficulties`） | 178 |
-| 阅读与书籍（`reading-and-books`） | 113 |
-| 健康第一（`health-first`） | 87 |
-| 评价与分数（`assessment-grading`） | 66 |
+| 思维课与大自然（`thinking-and-nature`） | 261 |
+| 学习困难学生（`learning-difficulties`） | 179 |
+| 阅读与书籍（`reading-and-books`） | 114 |
+| 健康第一（`health-first`） | 88 |
+| 评价与分数（`assessment-grading`） | 68 |
 
 ## 当前已知缺口
 

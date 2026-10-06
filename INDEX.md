@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 179 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 180 |
 | [family-school](topics/family-school.md) | 家校合作 | 370 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 315 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 317 |
 | [health-first](topics/health-first.md) | 健康第一 | 88 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 302 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 373 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 433 |
-| [love-education](topics/love-education.md) | 爱的教育 | 701 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 68 |
-| [child-study](topics/child-study.md) | 儿童研究 | 658 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 114 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 261 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 303 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 374 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 435 |
+| [love-education](topics/love-education.md) | 爱的教育 | 702 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 69 |
+| [child-study](topics/child-study.md) | 儿童研究 | 659 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 115 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 262 |
 
 ## 来源 Sources
 
@@ -2018,3 +2018,15 @@
 | [sk-1983](cards/sk-1983-tiaoxuan-yiyou-zhishi-jieda-yiwen.md) | quote | learning-difficulties | gei-jiao-shi-de-jian-yi-zh | 获得知识就是挑出已有储备去解答疑问；对最消极的学生先让他独立动笔 |
 | [sk-1984](cards/sk-1984-jianwen-fankui-dingwei-kunnan.md) | quote | child-study | gei-jiao-shi-de-jian-yi-zh | 用一两句短答取得“反馈信息”，定位个别学生卡在哪里 |
 | [sk-1985](cards/sk-1985-bie-congtou-zai-jiang-yibian.md) | quote | assessment-grading | gei-jiao-shi-de-jian-yi-zh | 学生没弄懂时回“监督点”找“可疑点”，而不是从头再讲一遍 |
+| [sk-1986](cards/sk-1986-kaochati-cang-zai-zuoye-li.md) | quote | assessment-grading | gei-jiao-shi-de-jian-yi-zh | 把考查题藏在日常作业里：教学照常进行，个别学生已在被考查 |
+| [sk-1987](cards/sk-1987-zibian-yingyongti-zhuanji.md) | quote | learning-difficulties | gei-jiao-shi-de-jian-yi-zh | 让学生自己编应用题：最困难的儿童一旦动手编题，学习就有转机 |
+| [sk-1988](cards/sk-1988-shuxueke-meiyou-chuncui-yanjiang.md) | quote | teacher-growth | gei-jiao-shi-de-jian-yi-zh | 数学课几乎没有纯粹的演讲：学生边听边记边想，理解在独立作业里长出来 |
+| [sk-1989](cards/sk-1989-fenghua-zuoyeti-kanqing-xuesheng.md) | quote | child-study | gei-jiao-shi-de-jian-yi-zh | 同一课题备好几套难度不同的作业：在作业过程中看清每个学生的能力 |
+| [sk-1990](cards/sk-1990-xiaoxue-ketang-san-jiehe.md) | quote | thinking-and-nature | gei-jiao-shi-de-jian-yi-zh | 小学课堂要把教师的话、直观形象和儿童的实际活动三者结合起来 |
+| [sk-1991](cards/sk-1991-yanjiang-wei-duli-zuoye-zhiming-fangxiang.md) | quote | teacher-growth | gei-jiao-shi-de-jian-yi-zh | 演讲是为独立作业指明方向：不只讲内容，还要讲研究方法 |
+| [sk-1992](cards/sk-1992-xingfu-zai-laodong-li.md) | quote | labor-education | xuan-ji-zh-vol4 | 幸福之巅寓于创造性劳动之中，通向幸福最可靠的路就是劳动 |
+| [sk-1993](cards/sk-1993-xingfu-chengshi-yuanze-liangxin.md) | quote | love-education | xuan-ji-zh-vol4 | 幸福就在于诚实、正直和原则性：为真理斗争，按良心行事 |
+| [sk-1994](cards/sk-1994-biye-bushi-zhongdian.md) | quote | reading-and-books | xuan-ji-zh-vol4 | 毕业不是终点：让书籍成为毕生的朋友 |
+| [sk-1995](cards/sk-1995-huzhu-fang-li-ji-zhuyi.md) | quote | collective-education | xuan-ji-zh-vol4 | 把同学的不幸看成整个集体的不幸，是防止利己主义最重要的条件 |
+| [sk-1996](cards/sk-1996-laodong-chuantong-rong-ru-xingfu.md) | quote | labor-education | xuan-ji-zh-vol4 | 劳动传统让劳动与幸福感融为一体，成为一种道德财富 |
+| [sk-1997](cards/sk-1997-xinliang-mianbao-jie-laodong-yu-mei.md) | quote | aesthetic-nature-education | xuan-ji-zh-vol4 | 新粮面包节：让孩子用自己种出的粮食款待母亲 |

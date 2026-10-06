@@ -1,5 +1,5 @@
 {
-  "total_cards": 1980,
+  "total_cards": 1992,
   "source_count": 12,
   "topic_count": 12,
   "zuoren_cards": 541,
@@ -32,7 +32,7 @@
     {
       "slug": "xuan-ji-zh-vol4",
       "title": "苏霍姆林斯基选集（五卷本）第4卷",
-      "cards": 210,
+      "cards": 216,
       "page_refs": 41
     },
     {
@@ -44,7 +44,7 @@
     {
       "slug": "gei-jiao-shi-de-jian-yi-zh",
       "title": "给教师的建议",
-      "cards": 108,
+      "cards": 114,
       "page_refs": 23
     },
     {
@@ -81,7 +81,7 @@
   "types": [
     {
       "type": "quote",
-      "cards": 853
+      "cards": 865
     },
     {
       "type": "case",
@@ -104,22 +104,22 @@
     {
       "slug": "love-education",
       "title": "爱的教育",
-      "cards": 701
+      "cards": 702
     },
     {
       "slug": "child-study",
       "title": "儿童研究",
-      "cards": 658
+      "cards": 659
     },
     {
       "slug": "teacher-growth",
       "title": "教师成长",
-      "cards": 433
+      "cards": 435
     },
     {
       "slug": "collective-education",
       "title": "集体教育",
-      "cards": 373
+      "cards": 374
     },
     {
       "slug": "family-school",
@@ -129,27 +129,27 @@
     {
       "slug": "labor-education",
       "title": "劳动教育",
-      "cards": 315
+      "cards": 317
     },
     {
       "slug": "aesthetic-nature-education",
       "title": "美育与自然",
-      "cards": 302
+      "cards": 303
     },
     {
       "slug": "thinking-and-nature",
       "title": "思维课与大自然",
-      "cards": 261
+      "cards": 262
     },
     {
       "slug": "learning-difficulties",
       "title": "学习困难学生",
-      "cards": 179
+      "cards": 180
     },
     {
       "slug": "reading-and-books",
       "title": "阅读与书籍",
-      "cards": 114
+      "cards": 115
     },
     {
       "slug": "health-first",
@@ -159,7 +159,7 @@
     {
       "slug": "assessment-grading",
       "title": "评价与分数",
-      "cards": 68
+      "cards": 69
     }
   ]
 }

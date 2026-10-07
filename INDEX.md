@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 181 |
-| [family-school](topics/family-school.md) | 家校合作 | 372 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 182 |
+| [family-school](topics/family-school.md) | 家校合作 | 373 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 317 |
 | [health-first](topics/health-first.md) | 健康第一 | 88 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 303 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 382 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 440 |
-| [love-education](topics/love-education.md) | 爱的教育 | 712 |
+| [love-education](topics/love-education.md) | 爱的教育 | 713 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 70 |
-| [child-study](topics/child-study.md) | 儿童研究 | 665 |
+| [child-study](topics/child-study.md) | 儿童研究 | 667 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 118 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 267 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 268 |
 
 ## 来源 Sources
 
@@ -2070,3 +2070,9 @@
 | [sk-2035](cards/sk-2035-first-wish-is-self-dignity.md) | quote | love-education | xuan-ji-zh-vol5 | 童年要立起的第一个愿望：感到自己的尊严 |
 | [sk-2036](cards/sk-2036-truth-understood-through-a-person.md) | quote | child-study | xuan-ji-zh-vol5 | 抽象的道理，孩子只能从活人身上听懂 |
 | [sk-2037](cards/sk-2037-live-for-people-sayings.md) | quote | love-education | xuan-ji-zh-vol5 | 「为人们而生活，你就会觉得幸福」——一位母亲的临终嘱托 |
+| [sk-2038](cards/sk-2038-moral-feeling-grows-from-perception.md) | quote | love-education | xuan-ji-zh-vol1 | 道德情感的底子，是认识世界时的那些感受 |
+| [sk-2039](cards/sk-2039-optimism-about-intellectual-difficulty.md) | quote | learning-difficulties | xuan-ji-zh-vol1 | 对智力困难的乐观信念，要在集体里养出来 |
+| [sk-2040](cards/sk-2040-vivid-image-reaches-feeling-first.md) | quote | child-study | xuan-ji-zh-vol1 | 讲课时那幅鲜明的形象，先落进孩子的情感 |
+| [sk-2041](cards/sk-2041-children-enter-school-with-a-notion-of-being-educated.md) | quote | family-school | xuan-ji-zh-vol1 | 孩子入学时已经知道：有教养是一种品德 |
+| [sk-2042](cards/sk-2042-knowing-the-world-is-a-real-activity.md) | quote | thinking-and-nature | xuan-ji-zh-vol1 | 让认识周围世界成为孩子真正的活动 |
+| [sk-2043](cards/sk-2043-childrens-intellectual-feeling-rises-year-by-year.md) | quote | child-study | xuan-ji-zh-vol1 | 二十年观察：孩子的智力情感水平在逐年提高 |

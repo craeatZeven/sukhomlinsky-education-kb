@@ -34941,5 +34941,90 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2028": {
+  "primary": "A4",
+  "seealso": [],
+  "facets": [],
+  "claim": "道德准则只有成为个人非如此行动不可的主观需要、且个人参与其制定，才能真正统一意识与行为。",
+  "evidence": "实际生活是复杂的，多方面的，人在每一场合中的行为，都取决于他对周围生活现象实质的了解程度。共产主义原则性在于一个人不仅遵守现成的准则，而且还为遵守准则而斗争，并参与准则的制定。由此，准则就不会被个人视为上面的指令，而是非如此行动不可的主观需",
+  "title": "准则内化为主观需要",
+  "old_topics": [
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A4"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2029": {
+  "primary": "A9",
+  "seealso": [],
+  "facets": [],
+  "claim": "丰富的集体精神生活与崇高的集体追求，是道德原则性得以形成并变成全体成员切身需要的条件。",
+  "evidence": "丰富的集体精神生活，集体兴趣和追求的崇高思想意义及崇高目的性，正是上述原则性得以形成的条件，集体能培养出具有高度原则性的人。社会利益与个人利益的和谐结合(我们在上面各节中援引过这方面的例子)，促进着在集体的道德实践中确立起许多准则，按此准则",
+  "title": "原则性靠集体精神生活",
+  "old_topics": [
+   "collective-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A9"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2030": {
+  "primary": "A2",
+  "seealso": [],
+  "facets": [],
+  "claim": "不诚实、不讲原则会被集体成员按内部道德动机视为刺眼的缺点；只有在重大社会问题上必须说真话时，所思、所言、所感、所做才达到一致。",
+  "evidence": "同时，不诚实、不讲原则、不始终如一，就会被认为是道德缺点而特别刺眼，集体的成员，会根据自身的内部道德动机加以批判和克服。首先涉及具有重大社会意义的严肃问题而必须说真话和说实情时，所思、所言、所感、所做便达到一致。",
+  "title": "真实性落在言行一致",
+  "old_topics": [
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A2"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2031": {
+  "primary": "A9",
+  "seealso": [],
+  "facets": [],
+  "claim": "集体任务只有在每个成员把集体的组织性和纪律性视为个人切身的事时才能完成，违背准则的行为会被集体按自己的道德规范评判。",
+  "evidence": "只要有一个人表现出利己主义倾向，关心自己的个人利益重于同学们的利益，则其任务就完不成，每个行军者，都把集体的组织性和纪律性视为个人切身的事。因此，当发觉某学生在途中休息时力图减轻自己的劳动，把自己的义务推给别人时，同学们严厉地批评了他。在鉴",
+  "title": "纪律是切身的事",
+  "old_topics": [
+   "collective-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A9"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2032": {
+  "primary": "A19",
+  "seealso": [],
+  "facets": [],
+  "claim": "受教育者受理想人物道德面貌的鼓舞，会先从自身缺点中发现违背集体主义与公共事业的那一条；道德原则性是集体与个人丰富而活跃的精神生活所形成的品质。",
+  "evidence": "受教育者在其青少年时代受到理想人物的道德面貌的鼓舞，而理想人物的一个最明显的特征就是集体主义和忠于社会公共事业，所以受教育者从个人的缺点中首先发现的就是违背这一品质的那些缺点。这为我们学校的日常生活实践所证实。共产主义原则性，是集体和个人丰",
+  "title": "理想人物与自我评价",
+  "old_topics": [
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A19"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

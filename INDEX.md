@@ -9,9 +9,9 @@
 | [labor-education](topics/labor-education.md) | 劳动教育 | 317 |
 | [health-first](topics/health-first.md) | 健康第一 | 88 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 303 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 380 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 382 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 439 |
-| [love-education](topics/love-education.md) | 爱的教育 | 707 |
+| [love-education](topics/love-education.md) | 爱的教育 | 710 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 70 |
 | [child-study](topics/child-study.md) | 儿童研究 | 663 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 118 |
@@ -2060,3 +2060,8 @@
 | [sk-2025](cards/sk-2025-zixue-de-tiaojian-shi-geren-cangshu.md) | quote | reading-and-books / family-school | gei-jiao-shi-de-jian-yi-zh | 自学有一个必备条件：个人要积累一些藏书 |
 | [sk-2026](cards/sk-2026-jingli-xingqu-pinfang-zaocheng-jingshen-kongxu.md) | quote | thinking-and-nature | gei-jiao-shi-de-jian-yi-zh | 智力兴趣贫乏造成毕业后的精神空虚，不激发自学则任何防治措施都无用 |
 | [sk-2027](cards/sk-2027-bu-rang-xuesheng-juede-ziji-buxing.md) | quote | learning-difficulties | gei-jiao-shi-de-jian-yi-zh | 不要让任何一个学生感到自己在智力发展上是不行的 |
+| [sk-2028](cards/sk-2028-norms-as-inner-need.md) | quote | love-education | xuan-ji-zh-vol2 | 道德准则要成为「非如此行动不可的主观需要」，而不是上面的指令 |
+| [sk-2029](cards/sk-2029-collective-life-forms-principledness.md) | quote | collective-education | xuan-ji-zh-vol2 | 高度原则性的人，长在丰富的集体精神生活里 |
+| [sk-2030](cards/sk-2030-truthfulness-and-congruence.md) | quote | love-education | xuan-ji-zh-vol2 | 真实性不是抽象的：重大问题上说真话，所思所言所感所做才一致 |
+| [sk-2031](cards/sk-2031-collective-discipline-as-personal-concern.md) | quote | collective-education | xuan-ji-zh-vol2 | 集体的组织性与纪律性，要是每个人自己切身的事 |
+| [sk-2032](cards/sk-2032-ideal-figures-and-principledness.md) | quote | love-education | xuan-ji-zh-vol2 | 理想人物的鼓舞，让少年先从自己的缺点里认出违背集体主义的那一条 |

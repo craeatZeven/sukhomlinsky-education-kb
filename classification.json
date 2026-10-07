@@ -35026,5 +35026,90 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2033": {
+  "primary": "A22",
+  "seealso": [],
+  "facets": [],
+  "claim": "道理只有体现在某个人的作为与坚定信念里才有教育力；否则道理和思想都是僵死的。",
+  "evidence": "对于儿童而言、对于少年以及小伙子们和姑娘们而言，如果道理不体现在某个人的作为里而显得其高尚，如果它不是某个人坚信无疑的坚定信念，如果它只是某个人说说而已而不加以捍卫的思想，那么，这道理就是僵死的，这思想也是僵死的。",
+  "title": "道理要活在人身上",
+  "old_topics": [
+   "teacher-growth"
+  ],
+  "type": "quote",
+  "tags": [
+   "A22"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2034": {
+  "primary": "A5",
+  "seealso": [],
+  "facets": [],
+  "claim": "一个人把自己视为最宝贵财富的能力、荣誉感与自尊感，取决于童年在他人身上发现过哪些美德。",
+  "evidence": "我越来越确信，一个人把自己当做最巨大的财富来看待的能力，一个人的荣誉感和自尊感，一个人的理想追求，所有这一切都取决于一个小小年纪的公民童年时代在他人身上发现哪些美德，是什么使他感到好奇和惊讶。",
+  "title": "自尊源自童年所见",
+  "old_topics": [
+   "child-study"
+  ],
+  "type": "quote",
+  "tags": [
+   "A5"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2035": {
+  "primary": "A4",
+  "seealso": [],
+  "facets": [],
+  "claim": "从童年起要确立的第一个良好愿望，是感到自己尊严、想做得更好更完美的愿望。",
+  "evidence": "人有权提出愿望，这是一种不可根绝的精神需要和生活乐趣。合乎理智的愿望，合乎道德的愿望，其本身就是精神财富。我孜孜以求的是，从童年起就在人的心灵里确立起良好愿望中的第一个愿望：感到自己的尊严的愿望，做得更好更完美的愿望。",
+  "title": "第一个愿望是尊严",
+  "old_topics": [
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A4"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2036": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "儿童听不懂只被说出的道理；只有当话语出自亲历者、体现为具体的人时，它才被理解。",
+  "evidence": "他从前也听过关于友谊、同志情谊、忠于思想的话语，但不能理解它们的意义。而现在，这些话语倾吐出来时，有如一个人正在激动跳跃着的一颗心，因为这些道理，这些话语活脱脱地体现在一个人的身上。",
+  "title": "道理要由活人承载",
+  "old_topics": [
+   "child-study"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2037": {
+  "primary": "A19",
+  "seealso": [],
+  "facets": [],
+  "claim": "为人们而生活、善于爱他人并珍惜他人的幸福，是人获得幸福的路径（人物语言，非作者论断）。",
+  "evidence": "奥克萨纳婶婶对托利亚说。“为人们而生活，你就会觉得幸福。要善于爱他人，善于珍惜他人的幸福。记住：不管你在什么地方，不管你干什么事情，人们就在你身边，他们都有自己的愿望和需要，都有自己的欢乐和心灵创伤……",
+  "title": "为人们而生活",
+  "old_topics": [
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A19"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

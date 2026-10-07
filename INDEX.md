@@ -10,10 +10,10 @@
 | [health-first](topics/health-first.md) | 健康第一 | 88 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 303 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 382 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 439 |
-| [love-education](topics/love-education.md) | 爱的教育 | 710 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 440 |
+| [love-education](topics/love-education.md) | 爱的教育 | 712 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 70 |
-| [child-study](topics/child-study.md) | 儿童研究 | 663 |
+| [child-study](topics/child-study.md) | 儿童研究 | 665 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 118 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 267 |
 
@@ -2065,3 +2065,8 @@
 | [sk-2030](cards/sk-2030-truthfulness-and-congruence.md) | quote | love-education | xuan-ji-zh-vol2 | 真实性不是抽象的：重大问题上说真话，所思所言所感所做才一致 |
 | [sk-2031](cards/sk-2031-collective-discipline-as-personal-concern.md) | quote | collective-education | xuan-ji-zh-vol2 | 集体的组织性与纪律性，要是每个人自己切身的事 |
 | [sk-2032](cards/sk-2032-ideal-figures-and-principledness.md) | quote | love-education | xuan-ji-zh-vol2 | 理想人物的鼓舞，让少年先从自己的缺点里认出违背集体主义的那一条 |
+| [sk-2033](cards/sk-2033-reason-alive-in-a-person.md) | quote | teacher-growth | xuan-ji-zh-vol5 | 道理活在一个人身上，才不是僵死的 |
+| [sk-2034](cards/sk-2034-self-worth-seen-in-childhood.md) | quote | child-study | xuan-ji-zh-vol5 | 自我价值感的源头，是童年在他人身上看见了什么 |
+| [sk-2035](cards/sk-2035-first-wish-is-self-dignity.md) | quote | love-education | xuan-ji-zh-vol5 | 童年要立起的第一个愿望：感到自己的尊严 |
+| [sk-2036](cards/sk-2036-truth-understood-through-a-person.md) | quote | child-study | xuan-ji-zh-vol5 | 抽象的道理，孩子只能从活人身上听懂 |
+| [sk-2037](cards/sk-2037-live-for-people-sayings.md) | quote | love-education | xuan-ji-zh-vol5 | 「为人们而生活，你就会觉得幸福」——一位母亲的临终嘱托 |

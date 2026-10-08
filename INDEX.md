@@ -4,16 +4,16 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 182 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 183 |
 | [family-school](topics/family-school.md) | 家校合作 | 373 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 321 |
 | [health-first](topics/health-first.md) | 健康第一 | 88 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 303 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 384 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 443 |
-| [love-education](topics/love-education.md) | 爱的教育 | 714 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 71 |
-| [child-study](topics/child-study.md) | 儿童研究 | 668 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 388 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 447 |
+| [love-education](topics/love-education.md) | 爱的教育 | 715 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 72 |
+| [child-study](topics/child-study.md) | 儿童研究 | 669 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 118 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 268 |
 
@@ -2088,3 +2088,15 @@
 | [sk-2053](cards/sk-2053-education-needs-scientific-foresight.md) | quote | teacher-growth | xuan-ji-zh-vol3 | 缺乏科学远见，教育学就成了巫医术 |
 | [sk-2054](cards/sk-2054-romanticism-feeds-feeling-culture.md) | quote | child-study | xuan-ji-zh-vol3 | 没有浪漫主义精神，就不会有感情素养 |
 | [sk-2055](cards/sk-2055-without-love-of-work-life-is-empty.md) | quote | labor-education | xuan-ji-zh-vol3 | 少年时代不在劳动中找到位置，长大就可能一事无成 |
+| [sk-2056](cards/sk-2056-personal-receptivity-to-collective-influence.md) | quote | collective-education | xuan-ji-zh-vol1 | 个人接受集体影响的能力，来自学生时刻感受到教师在为他担忧 |
+| [sk-2057](cards/sk-2057-aspiration-unites-the-collective.md) | quote | collective-education | xuan-ji-zh-vol1 | 影响学生集体，就是用志向和愿望去鼓舞它 |
+| [sk-2058](cards/sk-2058-knowledge-must-become-conviction.md) | quote | teacher-growth | xuan-ji-zh-vol1 | 知识要成为信念，条件是学生愿意以你为榜样 |
+| [sk-2059](cards/sk-2059-teacher-must-live-in-books.md) | quote | teacher-growth | xuan-ji-zh-vol1 | 教师如不经常置身于书的世界，他的使命是不可想象的 |
+| [sk-2060](cards/sk-2060-speech-is-the-education-tool.md) | quote | teacher-growth | xuan-ji-zh-vol1 | 说「言语教育」是教育无力的原因，这话不正确 |
+| [sk-2061](cards/sk-2061-how-to-speak-of-a-pupils-fault.md) | quote | collective-education | xuan-ji-zh-vol1 | 向班集体讲某个学生的缺点，要讲究分寸与艺术 |
+| [sk-2062](cards/sk-2062-teacher-must-never-organize-ridicule.md) | quote | love-education | xuan-ji-zh-vol1 | 教师决不能组织嘲笑，否则他会自食其果 |
+| [sk-2063](cards/sk-2063-collective-is-an-orchestra-of-gifts.md) | quote | collective-education | xuan-ji-zh-vol1 | 集体是一支乐队，每个人都该奏出自己的先天禀赋 |
+| [sk-2064](cards/sk-2064-praise-good-pupils-openly.md) | quote | assessment-grading | xuan-ji-zh-vol1 | 当面推崇好的学生，是对坏行为最好的警告 |
+| [sk-2065](cards/sk-2065-the-power-to-command-must-be-used-cautiously.md) | quote | teacher-growth | xuan-ji-zh-vol1 | 发号施令是最灵巧的工具，用得要十分谨慎 |
+| [sk-2066](cards/sk-2066-create-an-environment-for-self-education.md) | quote | child-study | xuan-ji-zh-vol1 | 想让学生表现自己，就得在学校里创造自我教育的环境 |
+| [sk-2067](cards/sk-2067-treat-a-childs-limits-like-his-pain.md) | quote | learning-difficulties | xuan-ji-zh-vol1 | 要像对待儿童的痛苦一样，对待他能力上的局限 |

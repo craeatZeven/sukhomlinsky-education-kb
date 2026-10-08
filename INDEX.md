@@ -8,13 +8,13 @@
 | [family-school](topics/family-school.md) | 家校合作 | 376 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 323 |
 | [health-first](topics/health-first.md) | 健康第一 | 89 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 304 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 305 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 393 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 448 |
-| [love-education](topics/love-education.md) | 爱的教育 | 724 |
+| [love-education](topics/love-education.md) | 爱的教育 | 725 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 75 |
-| [child-study](topics/child-study.md) | 儿童研究 | 671 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 119 |
+| [child-study](topics/child-study.md) | 儿童研究 | 674 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 120 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 270 |
 
 ## 来源 Sources
@@ -2124,3 +2124,9 @@
 | [sk-2089](cards/sk-2089-ziwo-jiaoyu-shi-zhenzhi.md) | quote | child-study | xuan-ji-zh-vol4 | 自我教育是教育的真谛和核心：学生是教师的第一个助手 |
 | [sk-2090](cards/sk-2090-tongku-genyuan-zai-jiating.md) | quote | family-school | xuan-ji-zh-vol4 | 许多屈辱和痛苦的根源在家庭：学校要办家长学校 |
 | [sk-2091](cards/sk-2091-zhili-chihuan-ertong-de-kaoyan.md) | quote | learning-difficulties | xuan-ji-zh-vol4 | 智力发展迟缓的儿童，是对普通学校人道主义精神的真正考验 |
+| [sk-2092](cards/sk-2092-duli-xing-shi-neizai-jingshen-duli.md) | quote | child-study | xuan-ji-zh-vol5 | 独立性不是不要照管和监督：真正的自我确认是内在的精神独立性 |
+| [sk-2093](cards/sk-2093-jingshen-huodong-ba-daode-caifu-bian-cheng-geren-caichan.md) | quote | child-study | xuan-ji-zh-vol5 | 精神活动是把社会道德财富变成个人财产，而不是脱离日常劳动的自我反省 |
+| [sk-2094](cards/sk-2094-jianguang-duoshi-que-henshao-renshi-ziji.md) | quote | child-study | xuan-ji-zh-vol5 | 少年像向山顶攀登的旅行者：见多识广，却很少看到和认识自己 |
+| [sk-2095](cards/sk-2095-mei-wuxu-renhe-quanshi.md) | quote | aesthetic-nature-education | xuan-ji-zh-vol5 | 道德美引起的赞誉会激发少年观照自身的愿望：美无需任何诠释 |
+| [sk-2096](cards/sk-2096-lengmo-shi-zui-da-de-xie-e.md) | quote | love-education | xuan-ji-zh-vol5 | 少年期是个性形成的时期：不输送善良就会确立冷漠，而冷漠是最大的邪恶 |
+| [sk-2097](cards/sk-2097-shuji-bushi-kongfan-de-jiaoyu-fangfa.md) | quote | reading-and-books | xuan-ji-zh-vol5 | 把优秀书籍和教师的语言说成空泛的教育方法，是扣错了帽子 |

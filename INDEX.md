@@ -6,14 +6,14 @@
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 182 |
 | [family-school](topics/family-school.md) | 家校合作 | 373 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 320 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 321 |
 | [health-first](topics/health-first.md) | 健康第一 | 88 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 303 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 383 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 441 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 384 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 443 |
 | [love-education](topics/love-education.md) | 爱的教育 | 714 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 70 |
-| [child-study](topics/child-study.md) | 儿童研究 | 667 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 71 |
+| [child-study](topics/child-study.md) | 儿童研究 | 668 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 118 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 268 |
 
@@ -2082,3 +2082,9 @@
 | [sk-2047](cards/sk-2047-labor-education-many-fields.md) | quote | labor-education | xuan-ji-zh-vol2 | 劳动教育里，每个学生都该有多领域的兴趣 |
 | [sk-2048](cards/sk-2048-production-labor-is-a-duty.md) | quote | labor-education | xuan-ji-zh-vol2 | 参加生产劳动是光荣的义务 |
 | [sk-2049](cards/sk-2049-conviction-in-a-turning-period.md) | quote | collective-education | xuan-ji-zh-vol2 | 转折时期个人信念的深浅，决定思想的改造力 |
+| [sk-2050](cards/sk-2050-self-education-is-the-basis.md) | quote | teacher-growth | xuan-ji-zh-vol3 | 自我教育是教育的基础，教育的艺术在于给少年自省的机会 |
+| [sk-2051](cards/sk-2051-comparison-breeding-careerism.md) | quote | assessment-grading | xuan-ji-zh-vol3 | 用比较来教育孩子，只会养出个人名利主义 |
+| [sk-2052](cards/sk-2052-collective-strength-via-inner-comparison.md) | quote | collective-education | xuan-ji-zh-vol3 | 只有当成员互相提出高要求时，集体才成为教育力量 |
+| [sk-2053](cards/sk-2053-education-needs-scientific-foresight.md) | quote | teacher-growth | xuan-ji-zh-vol3 | 缺乏科学远见，教育学就成了巫医术 |
+| [sk-2054](cards/sk-2054-romanticism-feeds-feeling-culture.md) | quote | child-study | xuan-ji-zh-vol3 | 没有浪漫主义精神，就不会有感情素养 |
+| [sk-2055](cards/sk-2055-without-love-of-work-life-is-empty.md) | quote | labor-education | xuan-ji-zh-vol3 | 少年时代不在劳动中找到位置，长大就可能一事无成 |

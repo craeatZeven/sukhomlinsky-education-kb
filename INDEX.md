@@ -4,15 +4,15 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 183 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 184 |
 | [family-school](topics/family-school.md) | 家校合作 | 373 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 321 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 322 |
 | [health-first](topics/health-first.md) | 健康第一 | 88 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 304 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 389 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 447 |
-| [love-education](topics/love-education.md) | 爱的教育 | 715 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 72 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 448 |
+| [love-education](topics/love-education.md) | 爱的教育 | 717 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 75 |
 | [child-study](topics/child-study.md) | 儿童研究 | 670 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 119 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 270 |
@@ -2106,3 +2106,9 @@
 | [sk-2071](cards/sk-2071-zhili-peiyang-yao-luo-zai-zhiguan-xingxiang-shang.md) | quote | thinking-and-nature | ba-xin-xian-gei-hai-zi-zh | 智力培养要落在直观形象上，否则脑细胞很快疲倦 |
 | [sk-2072](cards/sk-2072-haizi-yanzhong-de-xiyue-shi-jiaoyu-qianti.md) | quote | child-study | ba-xin-xian-gei-hai-zi-zh | 孩子眼中有喜悦，才谈得上教育影响 |
 | [sk-2073](cards/sk-2073-gushi-yao-xianming-duanxiao-jinghan.md) | quote | thinking-and-nature | ba-xin-xian-gei-hai-zi-zh | 故事要鲜明短小，一步一步打开世界的窗 |
+| [sk-2074](cards/sk-2074-xuesheng-neixin-shijie-chengji.md) | quote | assessment-grading | xuan-ji-zh-vol3 | 学习中的成功与失败是学生的内心世界 |
+| [sk-2075](cards/sk-2075-zizunxin-zihao-zhangwo-zhishi.md) | quote | assessment-grading / love-education | xuan-ji-zh-vol3 | 使每个孩子在掌握知识中体验自尊心与自豪感 |
+| [sk-2076](cards/sk-2076-bu-manyu-jifen-zhongzuo.md) | quote | assessment-grading / learning-difficulties | xuan-ji-zh-vol3 | 未取得成绩就不打分，让他把作业重新做一遍 |
+| [sk-2077](cards/sk-2077-gei-haizi-xiang-yixiang-de-jihui.md) | quote | love-education | xuan-ji-zh-vol3 | 任何时候都不能急于断定这个孩子知不知道 |
+| [sk-2078](cards/sk-2078-jiaoyuxue-suyang-lijie-jingshen-shijie.md) | quote | teacher-growth | xuan-ji-zh-vol3 | 教育学素养最主要的表现是理解每个孩子的精神世界 |
+| [sk-2079](cards/sk-2079-laodong-zuoyong-yu-zhili-de-tiaojian.md) | quote | labor-education | xuan-ji-zh-vol5 | 劳动作用于智力不是直接的，精神状态才是条件 |

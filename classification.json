@@ -35723,5 +35723,111 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2074": {
+  "primary": "A16",
+  "seealso": [],
+  "facets": [],
+  "claim": "学生的学习成败构成其精神生活与内心世界的一部分，教师忽视这一层会带来可悲的结局。",
+  "evidence": "学生的脑力劳动，学习中的成功和失败，这是他的精神生活、他的内心世界，忽视这一点会导致可悲的结局。孩子不仅仅在认识和掌握材料，而且还会对自己的劳动有所感受，对自己的成功和失败发表个人的看法。",
+  "title": "成功与失败是内心世界",
+  "old_topics": [
+   "assessment-grading"
+  ],
+  "type": "quote",
+  "tags": [
+   "A16"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2075": {
+  "primary": "A16",
+  "seealso": [],
+  "facets": [],
+  "claim": "最重要的教育任务之一，是使每个孩子在掌握知识中体验自尊心与自豪感，并被确认为会为自己成绩自豪的创造者。",
+  "evidence": "最重要的教育任务之-就是使每个孩子在掌握知识的过程中体验到人的自尊心和自豪感。教师不仅应问学生展示世界，而且还应确认孩子是周围世界中一个会为自己的成绩感到自豪的积极的创造者。教学是在集体中进行的，但孩子是独立地在认识的道路上迈出自己的每-·",
+  "title": "体验自尊心与自豪感",
+  "old_topics": [
+   "assessment-grading",
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A16",
+   "A5"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2076": {
+  "primary": "A16",
+  "seealso": [],
+  "facets": [],
+  "claim": "只在学生脑力劳动取得良好成绩时打分；尚未取得成绩时不给分，而让他把作业重新做一遍。",
+  "evidence": "一个孩子已经学会了教师止想教给他的东西，另一个还不会，但这并不意味着后者不愿意学习。我只在孩子脑力劳动取得良好成绩的情况下打分。如果学生还没有取得他在脑力劳动过程中力求达到的成绩，我就什么分都不给他打。他应当专心致志地想一想，把自己的作业重",
+  "title": "不打分，重做作业",
+  "old_topics": [
+   "assessment-grading",
+   "learning-difficulties"
+  ],
+  "type": "quote",
+  "tags": [
+   "A16",
+   "A18"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2077": {
+  "primary": "A5",
+  "seealso": [],
+  "facets": [],
+  "claim": "不能急于断定学生知不知道；多数情况下他只是还没来得及想一想和集中注意力，教师应先给他这个机会。",
+  "evidence": "我们这些小学班的老师曾专门集合在一起，商量如何让孩子有机会想一想。我们得出结论：任何时候都不能急于作出结论一—这个孩子知道或者不知道。经常有这样的情况，教师对孩子说：“你不知道坐下！”孩子刚坐下，忽然脑子“清醒”了，原来他都知道……",
+  "title": "要让孩子想一想",
+  "old_topics": [
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A5"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2078": {
+  "primary": "A10",
+  "seealso": [],
+  "facets": [],
+  "claim": "教育学素养最主要的表现是理解每个孩子的精神世界，给他必要的关心并付出精力，使他感到大人没有忘记他、能分担他的痛苦。",
+  "evidence": "怒，有的表现为怨恨，有的表现为故意装成（假装）无忧尤虑的样子，有的表现为漠不关心、极端的抑郁，有的衣现为对处分、对老师和对学校感到害怕，有的表现为装腔作势、扭捏作态，还有的表现为冷酷无情，有时带有病态的表现（这极罕见，但不能忽略）。预防学校",
+  "title": "教育学素养的表现",
+  "old_topics": [
+   "teacher-growth"
+  ],
+  "type": "quote",
+  "tags": [
+   "A10"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2079": {
+  "primary": "A11",
+  "seealso": [],
+  "facets": [],
+  "claim": "劳动与智力的关系不是直截了当的：动手水平不够时影响偶然且有限，起决定作用的是热情饱满、乐于克服困难、获得满足感这些精神状态。",
+  "evidence": "在-个人的精神生活中，劳动与智力的关系并不是那样直截了当的。但是我们经常听到或者经常读到与我们完全相反的意见。比如，他们认为，学生学习物理感到很困难，但是，一旦他们干起了设计和制作机器模型的工作，困难就迎刃而解了。实际上，如果学生们设计和制",
+  "title": "劳动作用于智力的条件",
+  "old_topics": [
+   "labor-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A11"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

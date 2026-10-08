@@ -65,6 +65,41 @@ def try_push(tries=3):
     return (n == 0), n, err
 
 
+def quote_overlap(specpath):
+    """新规格各条引文 与 已有卡片全部 Excerpt 的 12 字窗重叠数（0 = 干净）。
+    用 marker 定位 unit、按 quote_from/quote_to 切片（与产卡工具同一套算法）。"""
+    import sqlite3
+    try:
+        items = json.load(io.open(specpath, encoding="utf-8"))
+    except Exception:
+        return -1
+    old = []
+    cd = os.path.join(W, "cards")
+    for fn in os.listdir(cd):
+        if fn.endswith(".md"):
+            for ln in io.open(os.path.join(cd, fn), encoding="utf-8", errors="replace"):
+                if ln.startswith(">"):
+                    old.append(ln)
+    oldtext = re.sub(r"\s+", "", "".join(old))
+    oldset = set(oldtext[i:i + 12] for i in range(max(0, len(oldtext) - 11)))
+    conn = sqlite3.connect(os.path.join(W, "local_working_copy", "fulltext", "corpus.db"))
+    conn.row_factory = sqlite3.Row
+    bad = 0
+    for it in items:
+        hits = list(conn.execute("SELECT text FROM units WHERE book=? AND text LIKE ?",
+                                 (it.get("book"), "%" + str(it.get("marker")) + "%")))
+        if len(hits) != 1:
+            return -1
+        t = re.sub(r"\s+", "", hits[0]["text"] or "")
+        i = t.find(it.get("quote_from", ""))
+        j = t.find(it.get("quote_to", ""), i) if i >= 0 else -1
+        q = t[i:j + len(it.get("quote_to", ""))] if (i >= 0 and j >= 0) else ""
+        sh = set(q[k:k + 12] for k in range(max(0, len(q) - 11)))
+        if sh & oldset:
+            bad += 1
+    return bad
+
+
 def main():
     # 0) 先补推：上轮可能因网络失败留下未推送提交（实测 2026-10-03 TLS 断链）
     ok, n, err = try_push()
@@ -100,8 +135,14 @@ def main():
                 "# 作废（检查点自动判定）\n\ndry-run exit=%d｜字数越界 %s\n\n%s\n" % (code, bad, out.strip()[-800:]))
             void.append(fn)
             continue
+        # 章级【只警告】。2026-10-08 起不再拦截：§十四 实测章级缺口已耗尽
+        # （134 个值得成卡的章里 132 个都有卡），长尾全在已产卡的章里 —— 章级拦截会把唯一的价值来源挡掉。
         if key in CARDED:
-            print("     -> 该章已产卡（%s / %s），整批不落" % (key[0][:14], key[1][:24]))
+            print("     （提示：该章已有卡；按 §十四 不拦截，改看引文级重叠）")
+        # 引文级查重（**真正的门**）：新引文与已有卡片 Excerpt 的 12 字窗不得重叠
+        ov = quote_overlap(p)
+        if ov:
+            print("     -> 引文级查重未过：与已有 Excerpt 重叠 %d 个 12 字窗，本批不落" % ov)
             dup += 1
             continue
         ready.append((fn, p, items))

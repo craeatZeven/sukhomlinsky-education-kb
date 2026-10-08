@@ -1,5 +1,5 @@
 {
-  "total_cards": 2062,
+  "total_cards": 2068,
   "source_count": 12,
   "topic_count": 12,
   "zuoren_cards": 541,
@@ -48,14 +48,14 @@
       "page_refs": 23
     },
     {
-      "slug": "on-education",
-      "title": "On Education",
-      "cards": 41,
+      "slug": "ba-xin-xian-gei-hai-zi-zh",
+      "title": "把心献给孩子",
+      "cards": 47,
       "page_refs": 0
     },
     {
-      "slug": "ba-xin-xian-gei-hai-zi-zh",
-      "title": "把心献给孩子",
+      "slug": "on-education",
+      "title": "On Education",
       "cards": 41,
       "page_refs": 0
     },
@@ -81,7 +81,7 @@
   "types": [
     {
       "type": "quote",
-      "cards": 935
+      "cards": 941
     },
     {
       "type": "case",
@@ -109,7 +109,7 @@
     {
       "slug": "child-study",
       "title": "儿童研究",
-      "cards": 669
+      "cards": 670
     },
     {
       "slug": "teacher-growth",
@@ -119,7 +119,7 @@
     {
       "slug": "collective-education",
       "title": "集体教育",
-      "cards": 388
+      "cards": 389
     },
     {
       "slug": "family-school",
@@ -134,12 +134,12 @@
     {
       "slug": "aesthetic-nature-education",
       "title": "美育与自然",
-      "cards": 303
+      "cards": 304
     },
     {
       "slug": "thinking-and-nature",
       "title": "思维课与大自然",
-      "cards": 268
+      "cards": 270
     },
     {
       "slug": "learning-difficulties",
@@ -149,7 +149,7 @@
     {
       "slug": "reading-and-books",
       "title": "阅读与书籍",
-      "cards": 118
+      "cards": 119
     },
     {
       "slug": "health-first",

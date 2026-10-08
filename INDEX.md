@@ -8,14 +8,14 @@
 | [family-school](topics/family-school.md) | 家校合作 | 373 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 321 |
 | [health-first](topics/health-first.md) | 健康第一 | 88 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 303 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 388 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 304 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 389 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 447 |
 | [love-education](topics/love-education.md) | 爱的教育 | 715 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 72 |
-| [child-study](topics/child-study.md) | 儿童研究 | 669 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 118 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 268 |
+| [child-study](topics/child-study.md) | 儿童研究 | 670 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 119 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 270 |
 
 ## 来源 Sources
 
@@ -2100,3 +2100,9 @@
 | [sk-2065](cards/sk-2065-the-power-to-command-must-be-used-cautiously.md) | quote | teacher-growth | xuan-ji-zh-vol1 | 发号施令是最灵巧的工具，用得要十分谨慎 |
 | [sk-2066](cards/sk-2066-create-an-environment-for-self-education.md) | quote | child-study | xuan-ji-zh-vol1 | 想让学生表现自己，就得在学校里创造自我教育的环境 |
 | [sk-2067](cards/sk-2067-treat-a-childs-limits-like-his-pain.md) | quote | learning-difficulties | xuan-ji-zh-vol1 | 要像对待儿童的痛苦一样，对待他能力上的局限 |
+| [sk-2068](cards/sk-2068-liu-dian-yan-you-wei-jin-de-difang.md) | quote | reading-and-books | ba-xin-xian-gei-hai-zi-zh | 给孩子留一点言犹未尽，他才想回到书里去 |
+| [sk-2069](cards/sk-2069-jiang-zuguo-zhi-mei-yao-shen-zhong-zhun-bei.md) | quote | aesthetic-nature-education | ba-xin-xian-gei-hai-zi-zh | 第一次给孩子讲祖国的美，要谨慎准备并播种美的种子 |
+| [sk-2070](cards/sk-2070-zai-xingqu-zui-nong-shi-jieshu-huodong.md) | quote | collective-education | ba-xin-xian-gei-hai-zi-zh | 在孩子兴趣最浓时结束活动，让他把快乐带进集体 |
+| [sk-2071](cards/sk-2071-zhili-peiyang-yao-luo-zai-zhiguan-xingxiang-shang.md) | quote | thinking-and-nature | ba-xin-xian-gei-hai-zi-zh | 智力培养要落在直观形象上，否则脑细胞很快疲倦 |
+| [sk-2072](cards/sk-2072-haizi-yanzhong-de-xiyue-shi-jiaoyu-qianti.md) | quote | child-study | ba-xin-xian-gei-hai-zi-zh | 孩子眼中有喜悦，才谈得上教育影响 |
+| [sk-2073](cards/sk-2073-gushi-yao-xianming-duanxiao-jinghan.md) | quote | thinking-and-nature | ba-xin-xian-gei-hai-zi-zh | 故事要鲜明短小，一步一步打开世界的窗 |

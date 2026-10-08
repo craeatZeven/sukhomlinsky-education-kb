@@ -35936,5 +35936,109 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2086": {
+  "primary": "A19",
+  "seealso": [],
+  "facets": [],
+  "claim": "儿童在集体中的相互关系是学校生活最细腻的领域；教育者首先要关心的是使儿童的心灵对别人内心发生的事抱着敏感的关心态度，这要靠情感教育。",
+  "evidence": "往往有这样的情况：只要说一句得体的话，就能使久病卧床的人感到犹如大病痊愈。儿童在集体中的相互关系，乃是学校生活中最细腻的领域之一。为了使一个儿童不致伤害另一个儿童的心灵，就应当对儿童进行情感教育。保护人的欢乐，如同聚集阳光一样，是件很不容易",
+  "title": "保护人的欢乐如聚集阳光",
+  "old_topics": [
+   "love-education",
+   "collective-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A19"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2087": {
+  "primary": "A7",
+  "seealso": [],
+  "facets": [],
+  "claim": "学校里的嘈杂和教师的大声训斥会强烈刺激神经敏感的孩子；恐惧感使他听不见、听不懂，甚至把一节课的一部分时间从意识里震掉。",
+  "evidence": "有些儿童的神经特别敏感，学校里的嘈杂环境奔跑、喧哗、叫喊，都会使他受到刺激。特别是教师的大声训斥，哪怕它不是对着某个胆小的孩子，而是对班上别的孩子而发的，这个孩子简直也会吓得发呆。恐惧感甚至会使儿童听不见别人喊他的名字，听不懂教师在讲些什么",
+  "title": "恐惧震得意识麻木",
+  "old_topics": [
+   "health-first",
+   "learning-difficulties"
+  ],
+  "type": "quote",
+  "tags": [
+   "A7"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2088": {
+  "primary": "A5",
+  "seealso": [],
+  "facets": [],
+  "claim": "儿童遭遇亲人离世这样的痛苦时，教师的漠不关心会让他感到受侮辱；此时一味要求他写得更好、不许出错，只会让他既不能思考也不会做题。",
+  "evidence": "沙夏不能聚精会神了，他既不能思考算术习题，也不能思考语法练习。当女教师走近沙夏时，他的手和脚都在发抖。儿童的痛苦需要同情和安慰。对待儿童的痛苦采取漠不关心的态度，会使学生感到受侮辱。女教师忘掉了沙夏的痛苦，只是一味地要求他写得好些，不许出错",
+  "title": "痛苦需要同情",
+  "old_topics": [
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A5"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2089": {
+  "primary": "A4",
+  "seealso": [],
+  "facets": [],
+  "claim": "儿童要成为好人的志向只有靠他自己的意志力量才能表现出来；真正教育的逻辑在于学生本人是教师的第一个助手，自我教育才是教育的真谛和核心。",
+  "evidence": "儿童要成为一个好人的志向，正是通过他自己的意志力量表现出来的。真正教育的逻辑在于：实质上，在教育工作中，正是学生本人充当着教师的第一个助手。自我教育(从这个词的直接含义来说)乃是教育的真谛和核心。",
+  "title": "自我教育是真谛",
+  "old_topics": [
+   "child-study"
+  ],
+  "type": "quote",
+  "tags": [
+   "A4"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2090": {
+  "primary": "A8",
+  "seealso": [],
+  "facets": [],
+  "claim": "儿童感受的许多屈辱和痛苦根源在家庭生活；学校不能只解释根源，而应积极影响环境，用家长学校讲清「严厉」「强制」措施的害处，使服从不建立在恐惧之上。",
+  "evidence": "儿童感受的许多屈辱和痛苦，其根源在于家庭生活，在于他家里的日常生活不顺利。学校不能消极地旁观，不应认为自己的作用只是正确地说明事情的根源。学校是一个社会性的教育机构，负有积极地影响环境、创造良好的教育气氛的使命。我校全体教师确信，通过宣传教",
+  "title": "痛苦根源在家庭",
+  "old_topics": [
+   "family-school"
+  ],
+  "type": "quote",
+  "tags": [
+   "A8"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2091": {
+  "primary": "A6",
+  "seealso": [],
+  "facets": [],
+  "claim": "智力发展迟缓的儿童不是低能儿童，只是学龄前期所受的教育有过失误；对他们做不做特殊的、经过深思熟虑的工作，是普通学校人道主义精神的真正考验。",
+  "evidence": "有一类儿童，在对他们的教育中，教师的真正人道精神公正、敏感、高度的道德修养和情感修养，起着决定性的作用。这里指的是那些智力发展迟缓的儿童，他们不是低能儿童，而是些正常的儿童，只是他们学龄前期所受的教育有过失误。对这些儿童进行教育，乃是对普通",
+  "title": "人道主义的真正考验",
+  "old_topics": [
+   "learning-difficulties"
+  ],
+  "type": "quote",
+  "tags": [
+   "A6"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

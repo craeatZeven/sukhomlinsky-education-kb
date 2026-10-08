@@ -4,16 +4,16 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 184 |
-| [family-school](topics/family-school.md) | 家校合作 | 375 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 186 |
+| [family-school](topics/family-school.md) | 家校合作 | 376 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 323 |
-| [health-first](topics/health-first.md) | 健康第一 | 88 |
+| [health-first](topics/health-first.md) | 健康第一 | 89 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 304 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 392 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 393 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 448 |
-| [love-education](topics/love-education.md) | 爱的教育 | 722 |
+| [love-education](topics/love-education.md) | 爱的教育 | 724 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 75 |
-| [child-study](topics/child-study.md) | 儿童研究 | 670 |
+| [child-study](topics/child-study.md) | 儿童研究 | 671 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 119 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 270 |
 
@@ -2118,3 +2118,9 @@
 | [sk-2083](cards/sk-2083-jiti-bu-ying-taolun-aiqing.md) | quote | love-education / collective-education | xuan-ji-zh-vol1 | 集体不应开展以爱情为题的讨论 |
 | [sk-2084](cards/sk-2084-zhiyou-ren-cai-you-aiqing.md) | quote | love-education | xuan-ji-zh-vol1 | 只有人才有爱情，能按人那样去爱别人才算真正的人 |
 | [sk-2085](cards/sk-2085-jiti-huodong-bu-hua-nannv.md) | quote | collective-education / labor-education | xuan-ji-zh-vol1 | 集体活动不应专门划分男子活动和女子活动 |
+| [sk-2086](cards/sk-2086-baohu-ren-de-huanle.md) | quote | love-education / collective-education | xuan-ji-zh-vol4 | 保护人的欢乐如同聚集阳光：情感教育是学校生活最细腻的领域 |
+| [sk-2087](cards/sk-2087-kongju-zhen-de-yishi-mamu.md) | quote | health-first / learning-difficulties | xuan-ji-zh-vol4 | 神经敏感的儿童经不起嘈杂和训斥：恐惧会把意识震得麻木 |
+| [sk-2088](cards/sk-2088-ertong-tongku-xuyao-tongqing.md) | quote | love-education | xuan-ji-zh-vol4 | 儿童的痛苦需要同情和安慰：漠不关心的要求会使学生感到受侮辱 |
+| [sk-2089](cards/sk-2089-ziwo-jiaoyu-shi-zhenzhi.md) | quote | child-study | xuan-ji-zh-vol4 | 自我教育是教育的真谛和核心：学生是教师的第一个助手 |
+| [sk-2090](cards/sk-2090-tongku-genyuan-zai-jiating.md) | quote | family-school | xuan-ji-zh-vol4 | 许多屈辱和痛苦的根源在家庭：学校要办家长学校 |
+| [sk-2091](cards/sk-2091-zhili-chihuan-ertong-de-kaoyan.md) | quote | learning-difficulties | xuan-ji-zh-vol4 | 智力发展迟缓的儿童，是对普通学校人道主义精神的真正考验 |

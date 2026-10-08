@@ -1,5 +1,5 @@
 {
-  "total_cards": 2080,
+  "total_cards": 2086,
   "source_count": 12,
   "topic_count": 12,
   "zuoren_cards": 541,
@@ -24,16 +24,16 @@
       "page_refs": 109
     },
     {
+      "slug": "xuan-ji-zh-vol4",
+      "title": "苏霍姆林斯基选集（五卷本）第4卷",
+      "cards": 234,
+      "page_refs": 41
+    },
+    {
       "slug": "xuan-ji-zh-vol3",
       "title": "苏霍姆林斯基选集（五卷本）第3卷",
       "cards": 233,
       "page_refs": 51
-    },
-    {
-      "slug": "xuan-ji-zh-vol4",
-      "title": "苏霍姆林斯基选集（五卷本）第4卷",
-      "cards": 228,
-      "page_refs": 41
     },
     {
       "slug": "xuan-ji-zh-vol1",
@@ -81,7 +81,7 @@
   "types": [
     {
       "type": "quote",
-      "cards": 953
+      "cards": 959
     },
     {
       "type": "case",
@@ -104,12 +104,12 @@
     {
       "slug": "love-education",
       "title": "爱的教育",
-      "cards": 722
+      "cards": 724
     },
     {
       "slug": "child-study",
       "title": "儿童研究",
-      "cards": 670
+      "cards": 671
     },
     {
       "slug": "teacher-growth",
@@ -119,12 +119,12 @@
     {
       "slug": "collective-education",
       "title": "集体教育",
-      "cards": 392
+      "cards": 393
     },
     {
       "slug": "family-school",
       "title": "家校合作",
-      "cards": 375
+      "cards": 376
     },
     {
       "slug": "labor-education",
@@ -144,7 +144,7 @@
     {
       "slug": "learning-difficulties",
       "title": "学习困难学生",
-      "cards": 184
+      "cards": 186
     },
     {
       "slug": "reading-and-books",
@@ -154,7 +154,7 @@
     {
       "slug": "health-first",
       "title": "健康第一",
-      "cards": 88
+      "cards": 89
     },
     {
       "slug": "assessment-grading",

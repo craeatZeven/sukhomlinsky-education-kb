@@ -6,12 +6,12 @@
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 182 |
 | [family-school](topics/family-school.md) | 家校合作 | 373 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 317 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 320 |
 | [health-first](topics/health-first.md) | 健康第一 | 88 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 303 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 382 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 440 |
-| [love-education](topics/love-education.md) | 爱的教育 | 713 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 383 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 441 |
+| [love-education](topics/love-education.md) | 爱的教育 | 714 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 70 |
 | [child-study](topics/child-study.md) | 儿童研究 | 667 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 118 |
@@ -2076,3 +2076,9 @@
 | [sk-2041](cards/sk-2041-children-enter-school-with-a-notion-of-being-educated.md) | quote | family-school | xuan-ji-zh-vol1 | 孩子入学时已经知道：有教养是一种品德 |
 | [sk-2042](cards/sk-2042-knowing-the-world-is-a-real-activity.md) | quote | thinking-and-nature | xuan-ji-zh-vol1 | 让认识周围世界成为孩子真正的活动 |
 | [sk-2043](cards/sk-2043-childrens-intellectual-feeling-rises-year-by-year.md) | quote | child-study | xuan-ji-zh-vol1 | 二十年观察：孩子的智力情感水平在逐年提高 |
+| [sk-2044](cards/sk-2044-belief-born-in-activity.md) | quote | teacher-growth | xuan-ji-zh-vol2 | 信念是在落实思想的积极活动里形成的 |
+| [sk-2045](cards/sk-2045-thought-and-feeling-united.md) | quote | love-education | xuan-ji-zh-vol2 | 思想与情感的统一，是最重要的教育准则之一 |
+| [sk-2046](cards/sk-2046-wholehearted-labor-belief.md) | quote | labor-education | xuan-ji-zh-vol2 | 深信竭尽全力去劳动，这种信念决定劳动态度 |
+| [sk-2047](cards/sk-2047-labor-education-many-fields.md) | quote | labor-education | xuan-ji-zh-vol2 | 劳动教育里，每个学生都该有多领域的兴趣 |
+| [sk-2048](cards/sk-2048-production-labor-is-a-duty.md) | quote | labor-education | xuan-ji-zh-vol2 | 参加生产劳动是光荣的义务 |
+| [sk-2049](cards/sk-2049-conviction-in-a-turning-period.md) | quote | collective-education | xuan-ji-zh-vol2 | 转折时期个人信念的深浅，决定思想的改造力 |

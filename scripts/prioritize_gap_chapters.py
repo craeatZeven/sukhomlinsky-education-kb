@@ -63,10 +63,21 @@ good.sort(key=lambda r: -r[0]*r[1])
 # 问题：优先级表包含已产过卡的章（如 vol1《(4)集体和个人的精神生活》缺口 108 但其实已有卡），
 # 规格段只能每次自己再筛，结果就是连续多批落到同一本书上（实测连续 3 批《给教师的建议》）。
 # 做法：从 card-locators.jsonl 取「已产卡的 (book, section)」，直接从清单里去掉，让 Top 列表 = 真正还没做的。
+# 2026-10-08 修正（子代理实测指出）：locators 里的 book 多为 slug（如 xuan-ji-zh-vol2），
+# 而清单行的 book 是 ALIAS 解析后的全名（如 选集(五卷本)第2卷）——直接比**永不相等**，
+# 于是「剔除已产卡章」完全失效（旧卡所在章一个都剔不掉）。比较前必须归一化。
+def _norm_book(b):
+    b = str(b)
+    for _slug, _full in ALIAS.items():
+        if b == _slug or b == _full:
+            return _full
+    return b
+
+
 CARDED = set()
 for _r in loc:
     if _r.get("section"):
-        CARDED.add((str(_r.get("book")), str(_r.get("section"))))
+        CARDED.add((_norm_book(_r.get("book")), str(_r.get("section"))))
 _done = [r for r in good if (r[2], r[3]) in CARDED]
 good = [r for r in good if (r[2], r[3]) not in CARDED]
 print("=== 已产卡过滤：剔除 %d 个已产过卡的章，剩 %d 个真·待补章" % (len(_done), len(good)))

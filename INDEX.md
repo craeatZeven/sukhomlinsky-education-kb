@@ -5,13 +5,13 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 184 |
-| [family-school](topics/family-school.md) | 家校合作 | 373 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 322 |
+| [family-school](topics/family-school.md) | 家校合作 | 375 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 323 |
 | [health-first](topics/health-first.md) | 健康第一 | 88 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 304 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 389 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 392 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 448 |
-| [love-education](topics/love-education.md) | 爱的教育 | 717 |
+| [love-education](topics/love-education.md) | 爱的教育 | 722 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 75 |
 | [child-study](topics/child-study.md) | 儿童研究 | 670 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 119 |
@@ -2112,3 +2112,9 @@
 | [sk-2077](cards/sk-2077-gei-haizi-xiang-yixiang-de-jihui.md) | quote | love-education | xuan-ji-zh-vol3 | 任何时候都不能急于断定这个孩子知不知道 |
 | [sk-2078](cards/sk-2078-jiaoyuxue-suyang-lijie-jingshen-shijie.md) | quote | teacher-growth | xuan-ji-zh-vol3 | 教育学素养最主要的表现是理解每个孩子的精神世界 |
 | [sk-2079](cards/sk-2079-laodong-zuoyong-yu-zhili-de-tiaojian.md) | quote | labor-education | xuan-ji-zh-vol5 | 劳动作用于智力不是直接的，精神状态才是条件 |
+| [sk-2080](cards/sk-2080-jiti-zhili-shenghuo-xianshi-gexing.md) | quote | collective-education / love-education | xuan-ji-zh-vol1 | 集体的智力生活越丰富，男女生越能显出个性而不是「异性动物」 |
+| [sk-2081](cards/sk-2081-aiqing-bushi-beneng-muji.md) | quote | love-education / family-school | xuan-ji-zh-vol1 | 爱情不是本能：只会下蛋孵小鸡的不叫爱情 |
+| [sk-2082](cards/sk-2082-xuesheng-zhongren-zaojiu-ren.md) | quote | family-school / love-education | xuan-ji-zh-vol1 | 学生一生主要的任务是造就人：都要成为丈夫妻子、父亲母亲 |
+| [sk-2083](cards/sk-2083-jiti-bu-ying-taolun-aiqing.md) | quote | love-education / collective-education | xuan-ji-zh-vol1 | 集体不应开展以爱情为题的讨论 |
+| [sk-2084](cards/sk-2084-zhiyou-ren-cai-you-aiqing.md) | quote | love-education | xuan-ji-zh-vol1 | 只有人才有爱情，能按人那样去爱别人才算真正的人 |
+| [sk-2085](cards/sk-2085-jiti-huodong-bu-hua-nannv.md) | quote | collective-education / labor-education | xuan-ji-zh-vol1 | 集体活动不应专门划分男子活动和女子活动 |

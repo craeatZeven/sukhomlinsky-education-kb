@@ -5,7 +5,7 @@
 
 ## 总览
 
-- 卡片总数：**2074**
+- 卡片总数：**2080**
 - 来源数：**12**
 - 主题数：**12**
 - 《做人的故事》：**541 张卡 / 540 个目录标题**
@@ -19,7 +19,7 @@
 | 苏霍姆林斯基选集（五卷本）第5卷（`xuan-ji-zh-vol5`） | 263 | 109/263 |
 | 苏霍姆林斯基选集（五卷本）第3卷（`xuan-ji-zh-vol3`） | 233 | 51/233 |
 | 苏霍姆林斯基选集（五卷本）第4卷（`xuan-ji-zh-vol4`） | 228 | 41/228 |
-| 苏霍姆林斯基选集（五卷本）第1卷（`xuan-ji-zh-vol1`） | 205 | 36/205 |
+| 苏霍姆林斯基选集（五卷本）第1卷（`xuan-ji-zh-vol1`） | 211 | 36/211 |
 | 给教师的建议（`gei-jiao-shi-de-jian-yi-zh`） | 120 | 23/120 |
 | 把心献给孩子（`ba-xin-xian-gei-hai-zi-zh`） | 47 | 0/47 |
 | On Education（`on-education`） | 41 | 0/41 |
@@ -31,7 +31,7 @@
 
 | 类型 | 数量 |
 |---|---:|
-| `quote` | 947 |
+| `quote` | 953 |
 | `case` | 673 |
 | `principle` | 194 |
 | `method` | 164 |
@@ -41,12 +41,12 @@
 
 | 主题 | 卡片数 |
 |---|---:|
-| 爱的教育（`love-education`） | 717 |
+| 爱的教育（`love-education`） | 722 |
 | 儿童研究（`child-study`） | 670 |
 | 教师成长（`teacher-growth`） | 448 |
-| 集体教育（`collective-education`） | 389 |
-| 家校合作（`family-school`） | 373 |
-| 劳动教育（`labor-education`） | 322 |
+| 集体教育（`collective-education`） | 392 |
+| 家校合作（`family-school`） | 375 |
+| 劳动教育（`labor-education`） | 323 |
 | 美育与自然（`aesthetic-nature-education`） | 304 |
 | 思维课与大自然（`thinking-and-nature`） | 270 |
 | 学习困难学生（`learning-difficulties`） | 184 |

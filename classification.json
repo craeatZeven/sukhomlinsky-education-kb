@@ -36654,5 +36654,107 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2128": {
+  "primary": "A16",
+  "seealso": [],
+  "facets": [],
+  "claim": "选教师的关键不在履历，而在任命前通过毫无拘束的谈话弄清他的生活中心和献身教育的动机；最高评价属于既热爱孩子又对科学有创造性志趣的人。",
+  "evidence": "在国民教育局办理新教师的任命手续之前，我总是力求尽可能多地了解他是怎样一个人，做到对他的兴趣、眼界和精神生活心中有数。进行这种了解的最好办法就是进行毫无拘束的友好谈话。我们谈双方都很关心的话题，陈述自己的观点和信念。这样，总是可以清楚地了解",
+  "title": "任命之前先摸清他的生活中心",
+  "old_topics": [
+   "teacher-growth"
+  ],
+  "type": "quote",
+  "tags": [
+   "A16"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2129": {
+  "primary": "A16",
+  "seealso": [],
+  "facets": [],
+  "claim": "集体的智力财富由每个教师的智力财富汇集而成；教师的知识若随教龄停滞，学生的求知乐趣就会被磨掉，防止知识僵化是事关集体的重大问题。",
+  "evidence": "集体的智力财富是由各个人的智力财富汇集而成的。学校及学校所从事的一切活动赖以确立的基础，就是每个教师的多样化的知识、丰富的智力生活、宽阔的限界和在学识上的不断提高。教师在他大学毕业3\\~5年以后所拥有的知识，应当比他工作头--年时多3倍、5",
+  "title": "集体的智力财富来自每个教师",
+  "old_topics": [
+   "teacher-growth"
+  ],
+  "type": "quote",
+  "tags": [
+   "A16"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2130": {
+  "primary": "A16",
+  "seealso": [],
+  "facets": [],
+  "claim": "未来教师的发现往往始于一个迹象：在没有受过师范教育的人身上已经显露出教师才干的素质；识才要看行为迹象，而不是先看资格。",
+  "evidence": "未来教师的发现往往始于这样一种迹象：在一个没有受过师范教育的人身上显露出了教师才干的素质。我们区有-一个工厂，来了--位复员军人亚历山大·亚历山德罗维奇·菲利波大，是一位电工，普通中学文化程度。引起我很大兴趣的是，这个青年工人家里有一间完备",
+  "title": "教师才干先于师范训练显露",
+  "old_topics": [
+   "teacher-growth"
+  ],
+  "type": "quote",
+  "tags": [
+   "A16"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2131": {
+  "primary": "A09",
+  "seealso": [],
+  "facets": [],
+  "claim": "一位生物教师的教育原则是：从大自然的美感发展为劳动的美感，让孩子在童年就创造一点什么、用点什么美化大地，在自己身后留下一点美好痕迹。",
+  "evidence": "我校有许多少年自然考察家小组、少年博物学家小组、少年育种家小组，所有这些小组，所有着迷于小组中某项活动的孩子们，都是奥莉加·约瑟福夫娜“亲手栽培”的。这位老帅总是力求做到，使他们每一个人能在童年就创造出一点什么，用点什么美化一下大地，在自己",
+  "title": "从自然美感发展为劳动美感",
+  "old_topics": [
+   "labor-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A09"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2132": {
+  "primary": "A16",
+  "seealso": [],
+  "facets": [],
+  "claim": "教师是否适合任教、是否留任，应由校务会议集体决定，并须一致通过、当事人本人也认同结论方为有效；决定之后还要为其安排适宜的其他工作。",
+  "evidence": "关于某人是否符合教师称号及他在我校的去留问题，我们都是严格按集体方式决定的，即由校务会议作出决定，并且必定遵守一条原则：只有决定一致通过，也就是说，要决定其前途的那个同志本人也得出他不适合做教师工作的结论的情况下，才算有效",
+  "title": "去留由集体一致通过决定",
+  "old_topics": [
+   "collective-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A16"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2133": {
+  "primary": "A16",
+  "seealso": [],
+  "facets": [],
+  "claim": "教师集体的性别比例具有教育意义，不宜清一色女教师；男生不仅需要慈祥的诱导和指教，还需要父亲般的、坚强的男人的帮助。",
+  "evidence": "集体中男女教师的比例也有很大意义。集体不宜搞成清一一色的女教师。我们在这方面竭力做到平衡，并认为这是对男性青少年进行正确教育的重要条件，他们不仅需要慈祥的诱导和指教，而且需要父亲般的坚强的男人的帮助。",
+  "title": "教师集体不宜清一色女教师",
+  "old_topics": [
+   "collective-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A16"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

@@ -6,11 +6,11 @@
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 186 |
 | [family-school](topics/family-school.md) | 家校合作 | 378 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 324 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 325 |
 | [health-first](topics/health-first.md) | 健康第一 | 95 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 307 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 397 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 452 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 399 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 455 |
 | [love-education](topics/love-education.md) | 爱的教育 | 731 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 76 |
 | [child-study](topics/child-study.md) | 儿童研究 | 678 |
@@ -2160,3 +2160,9 @@
 | [sk-2125](cards/sk-2125-early-sleep-protects-nervous-system-and-body.md) | quote | health-first | xuan-ji-zh-vol4 | 早睡早起，睡眠是保护神经中枢和整个机体的条件 |
 | [sk-2126](cards/sk-2126-parent-school-sets-regime-two-years-ahead.md) | quote | family-school | xuan-ji-zh-vol4 | 上学前两年，就该在家长学校给父母定好作息 |
 | [sk-2127](cards/sk-2127-textbooks-after-class-dull-the-mind-go-outdoors.md) | quote | health-first | xuan-ji-zh-vol4 | 课后继续守着课本会使智力迟钝，该把孩子带到户外 |
+| [sk-2128](cards/sk-2128-teacher-hire-know-his-life-center.md) | quote | teacher-growth | xuan-ji-zh-vol4 | 任命之前先谈话：不了解这个人的生活中心，就不能判断他能不能当教师 |
+| [sk-2129](cards/sk-2129-teacher-knowledge-grows-or-students-go-dull.md) | quote | teacher-growth | xuan-ji-zh-vol4 | 集体的智力财富由各人的智力财富汇集而成，教师知识不增长学生就愚钝 |
+| [sk-2130](cards/sk-2130-discover-teachers-before-pedagogical-training.md) | quote | teacher-growth | xuan-ji-zh-vol4 | 未来教师的发现，往往始于尚未受过师范教育的人身上露出的才干 |
+| [sk-2131](cards/sk-2131-beauty-of-nature-to-beauty-of-labor.md) | quote | labor-education | xuan-ji-zh-vol4 | 从大自然的美感发展为劳动的美感：一位生物教师的教育原则 |
+| [sk-2132](cards/sk-2132-collective-decides-a-teacher-who-does-not-fit.md) | quote | collective-education | xuan-ji-zh-vol4 | 教师是否适合当教师，由集体按一致通过的原则决定 |
+| [sk-2133](cards/sk-2133-keep-male-teachers-in-the-staff.md) | quote | collective-education | xuan-ji-zh-vol4 | 教师集体不宜清一色女教师：性别构成本身是教育条件 |

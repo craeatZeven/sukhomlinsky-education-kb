@@ -9,11 +9,11 @@
 | [labor-education](topics/labor-education.md) | 劳动教育 | 324 |
 | [health-first](topics/health-first.md) | 健康第一 | 89 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 305 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 394 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 449 |
-| [love-education](topics/love-education.md) | 爱的教育 | 727 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 75 |
-| [child-study](topics/child-study.md) | 儿童研究 | 675 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 395 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 450 |
+| [love-education](topics/love-education.md) | 爱的教育 | 729 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 76 |
+| [child-study](topics/child-study.md) | 儿童研究 | 677 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 121 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 270 |
 
@@ -2136,3 +2136,9 @@
 | [sk-2101](cards/sk-2101-jiti-yandu-tong-yi-ben-shu.md) | quote | reading-and-books | xuan-ji-zh-vol2 | 集体研读同一本书是形成精神一致性的途径 |
 | [sk-2102](cards/sk-2102-bu-yao-ba-shuncong-dang-you-dian.md) | quote | love-education / child-study | xuan-ji-zh-vol2 | 宁可要不安分的、执拗的孩子：不要把沉默顺从当成优点 |
 | [sk-2103](cards/sk-2103-qianzhanxing-shi-jiaoyu-tezheng.md) | quote | teacher-growth | xuan-ji-zh-vol2 | 前瞻性应是教育的重要特征：学校落后于生活是最严重的缺点 |
+| [sk-2104](cards/sk-2104-trust-is-the-basis-of-the-right-to-mentor.md) | quote | love-education | xuan-ji-zh-vol1 | 教育信条：把支配儿童的权力建立在儿童对我的信任和敞开的心灵上 |
+| [sk-2105](cards/sk-2105-collective-education-is-not-the-only-means.md) | quote | collective-education | xuan-ji-zh-vol1 | 集体教育不是唯一万能的手段：教师对每个学生心灵的直接影响同样必须 |
+| [sk-2106](cards/sk-2106-protect-the-childs-conscience-from-shame.md) | quote | love-education | xuan-ji-zh-vol1 | 能否让良心责备在学生心底保持纯洁，取决于教师如何使用合理的权力 |
+| [sk-2107](cards/sk-2107-teacher-must-know-why-the-child-acted.md) | quote | child-study | xuan-ji-zh-vol1 | 教师没有权力不知道儿童作出这样或那样行为的原因 |
+| [sk-2108](cards/sk-2108-reasonable-power-presupposes-child-self-affirmation.md) | quote | child-study | xuan-ji-zh-vol1 | 合理权力须以认识儿童的自我认识、自我肯定和自我教育为前提 |
+| [sk-2109](cards/sk-2109-using-learning-as-punishment-breeds-cruelty.md) | quote | assessment-grading / teacher-growth | xuan-ji-zh-vol1 | 滥用权力和把学习当惩罚，会把学生的心地变得粗暴冷酷 |

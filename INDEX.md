@@ -5,16 +5,16 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 186 |
-| [family-school](topics/family-school.md) | 家校合作 | 376 |
+| [family-school](topics/family-school.md) | 家校合作 | 377 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 324 |
-| [health-first](topics/health-first.md) | 健康第一 | 89 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 305 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 395 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 450 |
-| [love-education](topics/love-education.md) | 爱的教育 | 729 |
+| [health-first](topics/health-first.md) | 健康第一 | 90 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 307 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 397 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 452 |
+| [love-education](topics/love-education.md) | 爱的教育 | 731 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 76 |
-| [child-study](topics/child-study.md) | 儿童研究 | 677 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 121 |
+| [child-study](topics/child-study.md) | 儿童研究 | 678 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 122 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 270 |
 
 ## 来源 Sources
@@ -2142,3 +2142,15 @@
 | [sk-2107](cards/sk-2107-teacher-must-know-why-the-child-acted.md) | quote | child-study | xuan-ji-zh-vol1 | 教师没有权力不知道儿童作出这样或那样行为的原因 |
 | [sk-2108](cards/sk-2108-reasonable-power-presupposes-child-self-affirmation.md) | quote | child-study | xuan-ji-zh-vol1 | 合理权力须以认识儿童的自我认识、自我肯定和自我教育为前提 |
 | [sk-2109](cards/sk-2109-using-learning-as-punishment-breeds-cruelty.md) | quote | assessment-grading / teacher-growth | xuan-ji-zh-vol1 | 滥用权力和把学习当惩罚，会把学生的心地变得粗暴冷酷 |
+| [sk-2110](cards/sk-2110-principal-must-first-be-organizer-educator-teacher.md) | quote | teacher-growth | xuan-ji-zh-vol4 | 好校长首先是好组织者、好教育者和好教师 |
+| [sk-2111](cards/sk-2111-children-like-teachers-who-cannot-do-without-them.md) | quote | love-education | xuan-ji-zh-vol4 | 孩子喜欢的是那种离开孩子就不行的教师 |
+| [sk-2112](cards/sk-2112-teacher-becomes-educator-only-in-the-collective.md) | quote | collective-education | xuan-ji-zh-vol4 | 教师只有在学生精神生活的集体里当组织者，才成为教育者 |
+| [sk-2113](cards/sk-2113-each-child-is-a-world-but-not-an-object-of-study.md) | quote | child-study | xuan-ji-zh-vol4 | 每个孩子都是一个独特的世界，但绝不能把他当研究对象 |
+| [sk-2114](cards/sk-2114-falling-behind-begins-in-the-body.md) | quote | health-first | xuan-ji-zh-vol4 | 孩子学习落后，往往是因为身体不适而他自己并不知道 |
+| [sk-2115](cards/sk-2115-language-cannot-be-taught-apart-from-nature.md) | quote | aesthetic-nature-education | xuan-ji-zh-vol4 | 不到自然中去看、去说，就无法讲授语言 |
+| [sk-2116](cards/sk-2116-love-means-protecting-child-from-evil.md) | quote | love-education | xuan-ji-zh-vol5 | 爱儿童，就意味着保护他免遭邪恶的侵害 |
+| [sk-2117](cards/sk-2117-teacher-who-sees-nothing-pleasant-is-only-provoked.md) | quote | teacher-growth | xuan-ji-zh-vol5 | 在学生身上看不到任何愉悦的东西，他的一切就只会激怒你 |
+| [sk-2118](cards/sk-2118-beating-kills-the-capacity-for-empathy.md) | quote | family-school | xuan-ji-zh-vol5 | 殴打孩子的父亲，扼杀掉的是儿童心灵里最可宝贵的东西 |
+| [sk-2119](cards/sk-2119-books-open-the-childs-eyes-to-good-and-evil.md) | quote | reading-and-books | xuan-ji-zh-vol5 | 用书籍打开学生鉴别善恶的眼睛和心扉 |
+| [sk-2120](cards/sk-2120-beauty-therapy-nature-music-painting.md) | quote | aesthetic-nature-education | xuan-ji-zh-vol5 | 美疗：用自然美、音乐美、绘画美唤醒麻木的心灵 |
+| [sk-2121](cards/sk-2121-conflict-of-wishes-teaches-restraint.md) | quote | collective-education | xuan-ji-zh-vol5 | 他不是生活在无人岛上，而是生活在人群中 |

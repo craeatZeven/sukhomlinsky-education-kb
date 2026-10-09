@@ -5,15 +5,15 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 186 |
-| [family-school](topics/family-school.md) | 家校合作 | 378 |
+| [family-school](topics/family-school.md) | 家校合作 | 380 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 327 |
 | [health-first](topics/health-first.md) | 健康第一 | 95 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 307 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 399 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 456 |
-| [love-education](topics/love-education.md) | 爱的教育 | 732 |
+| [love-education](topics/love-education.md) | 爱的教育 | 733 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 76 |
-| [child-study](topics/child-study.md) | 儿童研究 | 679 |
+| [child-study](topics/child-study.md) | 儿童研究 | 682 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 123 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 270 |
 
@@ -2172,3 +2172,9 @@
 | [sk-2137](cards/sk-2137-self-education-first-is-the-joy-of-labor.md) | quote | labor-education | xuan-ji-zh-vol1 | 谈自我教育，首先就是谈劳动的欢乐 |
 | [sk-2138](cards/sk-2138-ordinary-labor-leads-to-the-highest-step-of-dignity.md) | quote | labor-education | xuan-ji-zh-vol1 | 普通而平凡的劳动可以登上人类尊严的最高阶梯 |
 | [sk-2139](cards/sk-2139-self-education-is-the-central-problem-of-school-life.md) | quote | child-study | xuan-ji-zh-vol1 | 自我教育是中小学生活的中心问题之一 |
+| [sk-2140](cards/sk-2140-guancha-zai-xiao-wai.md) | quote | child-study | xuan-ji-zh-vol5 | 只在学校里观察孩子，看不到他的思想感情是怎样形成的 |
+| [sk-2141](cards/sk-2141-qiliang-ganqing-yiwei-sixiang.md) | quote | love-education | xuan-ji-zh-vol5 | 哪里有凄凉的感情，哪里就有被压抑的灵魂和被束缚的思想 |
+| [sk-2142](cards/sk-2142-gudu-dui-buxing-mingan.md) | quote | family-school | xuan-ji-zh-vol5 | 我们本可以让这位母亲走进阳光里，却谁也没有这样做 |
+| [sk-2143](cards/sk-2143-lengmo-shi-fuchu-daili.md) | quote | child-study | xuan-ji-zh-vol5 | 孩子的冷漠不是没有感情，而是他付出了巨大内在力量维持的样子 |
+| [sk-2144](cards/sk-2144-zhishi-bu-huanqi-zunyan.md) | quote | child-study | xuan-ji-zh-vol5 | 允许孩子认识一切知识，却不许这些知识唤起他为人的尊严 |
+| [sk-2145](cards/sk-2145-yiben-shu-rang-muqin-zhenjing.md) | quote | family-school | xuan-ji-zh-vol5 | 一本小书让这位母亲第一次拿起「尘世的」书 |

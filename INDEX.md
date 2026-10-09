@@ -5,9 +5,9 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 186 |
-| [family-school](topics/family-school.md) | 家校合作 | 377 |
+| [family-school](topics/family-school.md) | 家校合作 | 378 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 324 |
-| [health-first](topics/health-first.md) | 健康第一 | 90 |
+| [health-first](topics/health-first.md) | 健康第一 | 95 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 307 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 397 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 452 |
@@ -2154,3 +2154,9 @@
 | [sk-2119](cards/sk-2119-books-open-the-childs-eyes-to-good-and-evil.md) | quote | reading-and-books | xuan-ji-zh-vol5 | 用书籍打开学生鉴别善恶的眼睛和心扉 |
 | [sk-2120](cards/sk-2120-beauty-therapy-nature-music-painting.md) | quote | aesthetic-nature-education | xuan-ji-zh-vol5 | 美疗：用自然美、音乐美、绘画美唤醒麻木的心灵 |
 | [sk-2121](cards/sk-2121-conflict-of-wishes-teaches-restraint.md) | quote | collective-education | xuan-ji-zh-vol5 | 他不是生活在无人岛上，而是生活在人群中 |
+| [sk-2122](cards/sk-2122-regime-is-alternation-of-work-rest-activity-sleep.md) | quote | health-first | xuan-ji-zh-vol4 | 作息制度的核心是劳动和休息、活动和睡眠的恰当交替 |
+| [sk-2123](cards/sk-2123-homework-before-bed-turns-child-into-laggard.md) | quote | health-first | xuan-ji-zh-vol4 | 就寝前一连几小时做功课，孩子就会变成落后生 |
+| [sk-2124](cards/sk-2124-sleep-hours-by-age-keep-40-percent-before-midnight.md) | quote | health-first | xuan-ji-zh-vol4 | 睡眠时间要按年龄分配，四成以上放在前半夜 |
+| [sk-2125](cards/sk-2125-early-sleep-protects-nervous-system-and-body.md) | quote | health-first | xuan-ji-zh-vol4 | 早睡早起，睡眠是保护神经中枢和整个机体的条件 |
+| [sk-2126](cards/sk-2126-parent-school-sets-regime-two-years-ahead.md) | quote | family-school | xuan-ji-zh-vol4 | 上学前两年，就该在家长学校给父母定好作息 |
+| [sk-2127](cards/sk-2127-textbooks-after-class-dull-the-mind-go-outdoors.md) | quote | health-first | xuan-ji-zh-vol4 | 课后继续守着课本会使智力迟钝，该把孩子带到户外 |

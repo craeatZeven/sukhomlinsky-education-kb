@@ -1,5 +1,5 @@
 {
-  "total_cards": 2116,
+  "total_cards": 2122,
   "source_count": 12,
   "topic_count": 12,
   "zuoren_cards": 541,
@@ -26,7 +26,7 @@
     {
       "slug": "xuan-ji-zh-vol4",
       "title": "苏霍姆林斯基选集（五卷本）第4卷",
-      "cards": 240,
+      "cards": 246,
       "page_refs": 41
     },
     {
@@ -81,7 +81,7 @@
   "types": [
     {
       "type": "quote",
-      "cards": 989
+      "cards": 995
     },
     {
       "type": "case",
@@ -124,7 +124,7 @@
     {
       "slug": "family-school",
       "title": "家校合作",
-      "cards": 377
+      "cards": 378
     },
     {
       "slug": "labor-education",
@@ -154,7 +154,7 @@
     {
       "slug": "health-first",
       "title": "健康第一",
-      "cards": 90
+      "cards": 95
     },
     {
       "slug": "assessment-grading",

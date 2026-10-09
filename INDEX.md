@@ -6,12 +6,12 @@
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 186 |
 | [family-school](topics/family-school.md) | 家校合作 | 380 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 327 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 328 |
 | [health-first](topics/health-first.md) | 健康第一 | 95 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 307 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 399 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 401 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 456 |
-| [love-education](topics/love-education.md) | 爱的教育 | 733 |
+| [love-education](topics/love-education.md) | 爱的教育 | 737 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 76 |
 | [child-study](topics/child-study.md) | 儿童研究 | 682 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 123 |
@@ -2178,3 +2178,10 @@
 | [sk-2143](cards/sk-2143-lengmo-shi-fuchu-daili.md) | quote | child-study | xuan-ji-zh-vol5 | 孩子的冷漠不是没有感情，而是他付出了巨大内在力量维持的样子 |
 | [sk-2144](cards/sk-2144-zhishi-bu-huanqi-zunyan.md) | quote | child-study | xuan-ji-zh-vol5 | 允许孩子认识一切知识，却不许这些知识唤起他为人的尊严 |
 | [sk-2145](cards/sk-2145-yiben-shu-rang-muqin-zhenjing.md) | quote | family-school | xuan-ji-zh-vol5 | 一本小书让这位母亲第一次拿起「尘世的」书 |
+| [sk-2146](cards/sk-2146-moral-ideal-synthesized-from-heroes.md) | quote | love-education | xuan-ji-zh-vol1 | 青年把景慕的英雄人物的特点合成一个概括的道德形象 |
+| [sk-2147](cards/sk-2147-moral-ideal-is-one-whole-of-qualities.md) | quote | love-education | xuan-ji-zh-vol1 | 道德理想是一个整体，而不是一份可以逐项打勾的品质清单 |
+| [sk-2148](cards/sk-2148-idea-becomes-courage-when-its-meaning-is-clear.md) | quote | love-education | xuan-ji-zh-vol1 | 用崇高思想阐明劳动的意义，学生就有力量克服困难 |
+| [sk-2149](cards/sk-2149-overcoming-difficulty-measures-distance-to-ideal.md) | quote | collective-education | xuan-ji-zh-vol1 | 克服的困难愈大，学生感到离典范人物的距离愈近 |
+| [sk-2150](cards/sk-2150-indifference-to-work-is-a-moral-defect.md) | quote | labor-education | xuan-ji-zh-vol1 | 对事业没有兴趣，青年把这看作一种道德缺欠 |
+| [sk-2151](cards/sk-2151-modesty-grows-from-self-respect.md) | quote | love-education | xuan-ji-zh-vol1 | 愈是自重的人，愈是竭力不惹人注目 |
+| [sk-2152](cards/sk-2152-criticism-needs-teacher-as-equal.md) | quote | collective-education | xuan-ji-zh-vol1 | 只有教师像同学那样对待学生，青年才敢讲同学的缺点 |

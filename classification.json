@@ -36960,5 +36960,124 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2146": {
+  "primary": "A4",
+  "seealso": [],
+  "facets": [],
+  "claim": "青年期的道德理想是自己把多个榜样的鲜明特点综合成的概括形象，不是照着某一个完人复制。",
+  "evidence": "那么学生在青年初期，则是在自己的想像中把所理想的人物的特点综合成一个概括的形象。他们不赋予这一形象以具体特点：在这一形象中，占首要地位的是纯道德品质和精神素质，是关于如何做一个真正的人的美好理想。学生从每一个他所景慕的英雄人物中取出最鲜明的",
+  "title": "道德理想是自己合成的",
+  "old_topics": [
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A4"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2147": {
+  "primary": "A5",
+  "seealso": [],
+  "facets": [],
+  "claim": "道德理想的各项品质不是彼此独立的条目，而是同一个信念所产生的不同侧面（爱国主义与热爱自由即一体两面）。",
+  "evidence": "对祖国的无限热爱、自由、集体主义、社会主义人道主义、热爱劳动、勇敢和谦虚，是忠于信仰、坚强精神、明确的目的所产生的道德品质，是道德理想所具有的品质。青年人认为，爱国主义和热爱自由，是同一高尚道德品质的两个方面。",
+  "title": "道德理想是一个整体",
+  "old_topics": [
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A5"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2148": {
+  "primary": "A19",
+  "seealso": [],
+  "facets": [],
+  "claim": "勇气来源于学生体会到自己思想的坚定与离道德理想的接近；用崇高思想阐明劳动意义，学生才有克服困难的力量。",
+  "evidence": "意识和体会到自己思想的坚定性以及同具有高尚品质的道德理想距离的缩短，是勇敢精神的最重要的源泉之一，这种勇敢精神有助于克服最令人难以置信的困难、艰苦和障碍。青年人本来不能在一昼夜走100公里路，不能在一个月的课余时间内研究出一台复杂的机器，不",
+  "title": "讲清意义才有力量",
+  "old_topics": [
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A19"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2149": {
+  "primary": "A19",
+  "seealso": [],
+  "facets": [],
+  "claim": "学生以克服困难的多少来衡量自己与道德典范的距离，真实的难度是理想教育的尺度。",
+  "evidence": "这一点，少先队员在完成交给他们的重大任务过程中，表现得很明显。他们常常单独或集体完成一件要求精神颇为集中和有高度责任心的工作（例如，农村学校所做的提高土壤的肥力、培养粮食作物和经济作物种子、土壤侵蚀的防治工作等）。所克服的困难愈大，学生感到",
+  "title": "困难量出了与理想的距离",
+  "old_topics": [
+   "collective-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A19"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2150": {
+  "primary": "A11",
+  "seealso": [],
+  "facets": [],
+  "claim": "青年把对事业没有兴趣视为道德缺欠，而热爱劳动的前提是有技能、真正热爱自己的事业。",
+  "evidence": "热爱劳动也被苏联青年视为崇高的道德品质。热爱劳动的人之所以对青年人有吸引力，首先是因为他有技能、热爱自己的事业。每一个学生都向往创造性的工作。很多青年人认为，一个人对事业没有兴趣，这是一种道德缺欠，这使他们很不安。",
+  "title": "不爱事业是道德缺欠",
+  "old_topics": [
+   "labor-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A11"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2151": {
+  "primary": "A19",
+  "seealso": [],
+  "facets": [],
+  "claim": "谦虚来自深厚而自觉的自尊，表现为做好事不留名、不愿把个人成绩从集体成绩中割出来。",
+  "evidence": "道德理想一个不可缺少的品质是谦虚。青年人认为，对于一个真正的人来说，英雄主义、自我牺牲精神是理应具有的品质。一个人对自己的尊严认识和体会得愈深，愈是自重，他就愈是竭力不惹人注目。虚荣、骄傲、自吹自擂被看做是一种道德缺欠。青年人认为，做好事不",
+  "title": "自重的人不惹人注目",
+  "old_topics": [
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A19"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2152": {
+  "primary": "A19",
+  "seealso": [],
+  "facets": [],
+  "claim": "青年当着教师的面不便批评同学；只有教师以同学的方式参与学生活动，集体批评才会真实而尖锐地发生。",
+  "evidence": "当着教师的面，青年人常常不好意思讲同学的缺点，这是不足为怪的。只有当教师像同学那样对待学生的活动时，这种难为情才会消失。学生对无原则、信念不坚定、献媚、丧失尊严、个人主义、与集体做对、懒惰、怯懦、说大话、不谦虚、纠缠不休等缺点批评得尤为尖锐",
+  "title": "教师先做同学",
+  "old_topics": [
+   "collective-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A19"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

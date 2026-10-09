@@ -6,15 +6,15 @@
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 186 |
 | [family-school](topics/family-school.md) | 家校合作 | 376 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 323 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 324 |
 | [health-first](topics/health-first.md) | 健康第一 | 89 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 305 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 393 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 448 |
-| [love-education](topics/love-education.md) | 爱的教育 | 725 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 394 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 449 |
+| [love-education](topics/love-education.md) | 爱的教育 | 727 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 75 |
-| [child-study](topics/child-study.md) | 儿童研究 | 674 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 120 |
+| [child-study](topics/child-study.md) | 儿童研究 | 675 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 121 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 270 |
 
 ## 来源 Sources
@@ -2130,3 +2130,9 @@
 | [sk-2095](cards/sk-2095-mei-wuxu-renhe-quanshi.md) | quote | aesthetic-nature-education | xuan-ji-zh-vol5 | 道德美引起的赞誉会激发少年观照自身的愿望：美无需任何诠释 |
 | [sk-2096](cards/sk-2096-lengmo-shi-zui-da-de-xie-e.md) | quote | love-education | xuan-ji-zh-vol5 | 少年期是个性形成的时期：不输送善良就会确立冷漠，而冷漠是最大的邪恶 |
 | [sk-2097](cards/sk-2097-shuji-bushi-kongfan-de-jiaoyu-fangfa.md) | quote | reading-and-books | xuan-ji-zh-vol5 | 把优秀书籍和教师的语言说成空泛的教育方法，是扣错了帽子 |
+| [sk-2098](cards/sk-2098-kongtan-bu-cheng-xinnian.md) | quote | love-education | xuan-ji-zh-vol2 | 用空谈代替实践只会养出怨天尤人者：只有亲自为原则努力，原则才成为信念 |
+| [sk-2099](cards/sk-2099-laodong-bu-yu-baochou-gua-gou.md) | quote | labor-education | xuan-ji-zh-vol2 | 教育的理想是尽其全力劳动、不与报酬挂钩 |
+| [sk-2100](cards/sk-2100-kongxu-jiti-yang-chu-liji-zhuyizhe.md) | quote | collective-education | xuan-ji-zh-vol2 | 利己主义不一定来自坏榜样：贫乏空虚的集体精神生活同样会养出利己主义者 |
+| [sk-2101](cards/sk-2101-jiti-yandu-tong-yi-ben-shu.md) | quote | reading-and-books | xuan-ji-zh-vol2 | 集体研读同一本书是形成精神一致性的途径 |
+| [sk-2102](cards/sk-2102-bu-yao-ba-shuncong-dang-you-dian.md) | quote | love-education / child-study | xuan-ji-zh-vol2 | 宁可要不安分的、执拗的孩子：不要把沉默顺从当成优点 |
+| [sk-2103](cards/sk-2103-qianzhanxing-shi-jiaoyu-tezheng.md) | quote | teacher-growth | xuan-ji-zh-vol2 | 前瞻性应是教育的重要特征：学校落后于生活是最严重的缺点 |

@@ -143,6 +143,12 @@ def main():
         ov = quote_overlap(p)
         if ov:
             print("     -> 引文级查重未过：与已有 Excerpt 重叠 %d 个 12 字窗，本批不落" % ov)
+            # 归档到 _void（2026-10-10 补）：否则同一批每轮都会被重审一次
+            os.makedirs(os.path.join(S, "_void"), exist_ok=True)
+            with io.open(os.path.join(S, "_void", fn + ".VOID.md"), "w", encoding="utf-8", newline=chr(10)) as fh:
+                fh.write("# 引文级查重未过（自动）" + chr(10) + chr(10) +
+                         "与已有卡片 Excerpt 重叠 %d 个 12 字窗 -> 判定为重复引文，本批不落。" % ov + chr(10))
+            move_to("_void", p)
             dup += 1
             continue
         ready.append((fn, p, items))

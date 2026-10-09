@@ -105,6 +105,15 @@ def main():
             r = hits[0]
         # 必备字段体检：缺任何一个都说明这条规格是残件，早报早改（不要跑到一半 KeyError）
         _need = ("id", "title", "primary", "topics", "tags", "book", "source", "section", "marker", "relay", "scene")
+        # 主归属规范化（2026-10-10 加）：规格可能写成零填充 A09，而分类/分片全用 A9，
+        # 不规范化会让 check_classification_shards.py 报「分类 A9 vs 分片 None」。
+        # 实测：91 张 A9 卡里只有规格段新写的 1 张是 A09，提交前被门拦下。
+        def _norm_pri(x):
+            m2 = re.match(r"^A0*(\d{1,2})$", str(x).strip().upper())
+            return ("A" + m2.group(1)) if m2 else x
+        d["primary"] = _norm_pri(d.get("primary", ""))
+        if isinstance(d.get("tax_tags"), list):
+            d["tax_tags"] = [_norm_pri(x) for x in d["tax_tags"]]
         _miss = [k for k in _need if k not in d]
         if _miss:
             raise SystemExit("%s：规格缺字段 %s —— 残件，改完再跑。" % (d.get("id", "?"), ", ".join(_miss)))

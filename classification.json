@@ -36756,5 +36756,107 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2134": {
+  "primary": "A10",
+  "seealso": [],
+  "facets": [],
+  "claim": "教师个性影响集体的艺术在于轻叩学生心扉、以自己的见解使知识发光，使学生感到教师的话是针对他讲的。",
+  "evidence": "教师的个性之所以对学生集体产生影响，其艺术在于，当教师谈到某件事情时，仿佛在轻叩学生的心扉，激发他们考虑自己，并为自己焦急，最后把他们领进生气勃勃的教育源泉—志向。比如，一个教师在叙述冯维辛的剧本《纨袴子弟》时，学生们似乎看到了与今天青年的",
+  "title": "轻叩学生的心扉",
+  "old_topics": [
+   "teacher-growth"
+  ],
+  "type": "quote",
+  "tags": [
+   "A10"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2135": {
+  "primary": "A10",
+  "seealso": [],
+  "facets": [],
+  "claim": "教师的书本知识必须经过自身智慧与情感的消化，成为贯穿意识的思想，才能带进学生的精神世界。",
+  "evidence": "书本知识经过你的思考会发出光彩。你在智慧上和情感上的收获，即便是点滴的收获也都应当融入你的学生的精神世界，而这种思想就像一条红线，始终贯穿在你的意识之中。你就是怀着这种愿望来到学生身边的。你同他们见面，并不是为了向他们讲述你所读的书籍的内容",
+  "title": "教师读书要读出自己的思想",
+  "old_topics": [
+   "reading-and-books"
+  ],
+  "type": "quote",
+  "tags": [
+   "A10"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2136": {
+  "primary": "A5",
+  "seealso": [],
+  "facets": [],
+  "claim": "教育者的爱不是初上岗时的情感，而是把最好的东西献给集体、使学生达到同一思想水平的持续创造。",
+  "evidence": "（不是献给某个人，而是献给集体）的愿望，是努力使学生从思想上和政治上也达到和我们同一水平的愿望、教师对学生的爱已不是他在走上教育工作岗位时所怀的那种感情。这是一种孜孜不倦的、艰苦而有趣的创造性的工作，通过这种工作，整个集体思想上和道德上的致",
+  "title": "教育者的爱是艰苦的创造",
+  "old_topics": [
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A5"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2137": {
+  "primary": "A4",
+  "seealso": [],
+  "facets": [],
+  "claim": "学生能否认真对待自己，取决于劳动在其精神生活中的地位：自我教育首先从劳动的欢乐开始。",
+  "evidence": "受教育者能否慎重地、实事求是地、严格地对待自己，能否善于约束自己，能否愧对良心的责备，这都取决于劳动在他的精神生活中占着何种地位。只有劳动、只有加强体力劳动和智力劳动、只有在劳动中克服种种困难、只有完成劳动任务后的欢乐才使受教育者看清自已。",
+  "title": "自我教育首先谈劳动的欢乐",
+  "old_topics": [
+   "labor-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A4"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2138": {
+  "primary": "A11",
+  "seealso": [],
+  "facets": [],
+  "claim": "志向应与对劳动和自尊的培养相联：普通平凡的劳动也能通向人的最高尊严，集体风气须尊重普通劳动。",
+  "evidence": "志向的培养是同确立人的自尊感和尊重劳动的感情密切联系的。要使青年人不只是下决心下哪一行，同时还应下决心成为怎样的人。我认为在青少年的心灵中确立以下的信念是十分重要的：个人通过极其普通而平凡的劳动可以登上人类尊严的最高阶梯。集体生活应当充满着",
+  "title": "普通劳动通向人的尊严",
+  "old_topics": [
+   "labor-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A11"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2139": {
+  "primary": "A4",
+  "seealso": [],
+  "facets": [],
+  "claim": "自我教育是中小学生活的中心问题：学生要有一套自我教育与自我教养的制度，教学生自己教育自己是教师最复杂的工作。",
+  "evidence": "受教育者如果不建立一套自我教育和自我教养的制度，要确立正确人生观是不可想像的。自我教育是中小学生活中的中心问题之一。教学生自己教育自己，这是教育者对受教育者所要做的最复杂的一项工作。平常所说的培养自已的信念，实际上就是培养不违背自已良心的那",
+  "title": "自我教育是学校生活的中心问题",
+  "old_topics": [
+   "child-study"
+  ],
+  "type": "quote",
+  "tags": [
+   "A4"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

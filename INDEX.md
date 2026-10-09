@@ -6,15 +6,15 @@
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 186 |
 | [family-school](topics/family-school.md) | 家校合作 | 378 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 325 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 327 |
 | [health-first](topics/health-first.md) | 健康第一 | 95 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 307 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 399 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 455 |
-| [love-education](topics/love-education.md) | 爱的教育 | 731 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 456 |
+| [love-education](topics/love-education.md) | 爱的教育 | 732 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 76 |
-| [child-study](topics/child-study.md) | 儿童研究 | 678 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 122 |
+| [child-study](topics/child-study.md) | 儿童研究 | 679 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 123 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 270 |
 
 ## 来源 Sources
@@ -2166,3 +2166,9 @@
 | [sk-2131](cards/sk-2131-beauty-of-nature-to-beauty-of-labor.md) | quote | labor-education | xuan-ji-zh-vol4 | 从大自然的美感发展为劳动的美感：一位生物教师的教育原则 |
 | [sk-2132](cards/sk-2132-collective-decides-a-teacher-who-does-not-fit.md) | quote | collective-education | xuan-ji-zh-vol4 | 教师是否适合当教师，由集体按一致通过的原则决定 |
 | [sk-2133](cards/sk-2133-keep-male-teachers-in-the-staff.md) | quote | collective-education | xuan-ji-zh-vol4 | 教师集体不宜清一色女教师：性别构成本身是教育条件 |
+| [sk-2134](cards/sk-2134-the-art-of-teacher-personality-is-to-knock-at-hearts.md) | quote | teacher-growth | xuan-ji-zh-vol1 | 教师的个性影响集体，艺术在于轻叩学生的心扉 |
+| [sk-2135](cards/sk-2135-book-knowledge-takes-on-light-after-your-thinking.md) | quote | reading-and-books | xuan-ji-zh-vol1 | 书本知识要经过教师自己的思考，再带进学生的精神世界 |
+| [sk-2136](cards/sk-2136-love-of-the-teacher-is-different-from-first-sentiment.md) | quote | love-education | xuan-ji-zh-vol1 | 教师对学生的爱不是初上岗时的那种感情，而是艰苦的创造 |
+| [sk-2137](cards/sk-2137-self-education-first-is-the-joy-of-labor.md) | quote | labor-education | xuan-ji-zh-vol1 | 谈自我教育，首先就是谈劳动的欢乐 |
+| [sk-2138](cards/sk-2138-ordinary-labor-leads-to-the-highest-step-of-dignity.md) | quote | labor-education | xuan-ji-zh-vol1 | 普通而平凡的劳动可以登上人类尊严的最高阶梯 |
+| [sk-2139](cards/sk-2139-self-education-is-the-central-problem-of-school-life.md) | quote | child-study | xuan-ji-zh-vol1 | 自我教育是中小学生活的中心问题之一 |

@@ -1,5 +1,5 @@
 {
-  "total_cards": 2165,
+  "total_cards": 2171,
   "source_count": 12,
   "topic_count": 12,
   "zuoren_cards": 541,
@@ -14,7 +14,7 @@
     {
       "slug": "xuan-ji-zh-vol2",
       "title": "苏霍姆林斯基选集（五卷本）第2卷",
-      "cards": 352,
+      "cards": 358,
       "page_refs": 45
     },
     {
@@ -81,7 +81,7 @@
   "types": [
     {
       "type": "quote",
-      "cards": 1038
+      "cards": 1044
     },
     {
       "type": "case",
@@ -104,12 +104,12 @@
     {
       "slug": "love-education",
       "title": "爱的教育",
-      "cards": 740
+      "cards": 742
     },
     {
       "slug": "child-study",
       "title": "儿童研究",
-      "cards": 685
+      "cards": 686
     },
     {
       "slug": "teacher-growth",
@@ -119,12 +119,12 @@
     {
       "slug": "collective-education",
       "title": "集体教育",
-      "cards": 403
+      "cards": 405
     },
     {
       "slug": "family-school",
       "title": "家校合作",
-      "cards": 380
+      "cards": 381
     },
     {
       "slug": "labor-education",

@@ -5,15 +5,15 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 187 |
-| [family-school](topics/family-school.md) | 家校合作 | 380 |
+| [family-school](topics/family-school.md) | 家校合作 | 381 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 330 |
 | [health-first](topics/health-first.md) | 健康第一 | 95 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 307 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 403 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 405 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 457 |
-| [love-education](topics/love-education.md) | 爱的教育 | 740 |
+| [love-education](topics/love-education.md) | 爱的教育 | 742 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 76 |
-| [child-study](topics/child-study.md) | 儿童研究 | 685 |
+| [child-study](topics/child-study.md) | 儿童研究 | 686 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 128 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 271 |
 
@@ -2203,3 +2203,9 @@
 | [sk-2168](cards/sk-2168-setting-of-expressive-reading.md) | quote | reading-and-books | gei-jiao-shi-de-jian-yi-zh | 作品感知如何，要看听众的人数和朗读的时间 |
 | [sk-2169](cards/sk-2169-books-for-slow-learners.md) | quote | learning-difficulties | gei-jiao-shi-de-jian-yi-zh | 书籍对少年并不是真理的仓库，而是内心体验的源泉 |
 | [sk-2170](cards/sk-2170-reading-as-the-foundation-of-self-education.md) | quote | reading-and-books | gei-jiao-shi-de-jian-yi-zh | 只有在学生年代爱上书籍，毕业后的自我教育才有可能 |
+| [sk-2171](cards/sk-2171-jiazhang-jiao-buyao-ganshe-bieren-de-shi.md) | quote | family-school | xuan-ji-zh-vol2 | 家长教的「不要干预别人的事情」，实质上培养的是另一套心理品质 |
+| [sk-2172](cards/sk-2172-liangmian-tezheng-de-xuesheng.md) | quote | collective-education | xuan-ji-zh-vol2 | 既标准地完成学校一切要求，又对公共利益冷淡得惊人 |
+| [sk-2173](cards/sk-2173-qujueyu-jiti-de-jingshen-shenghuo.md) | quote | collective-education | xuan-ji-zh-vol2 | 孩子形成什么信念，取决于他受教育的那个集体的精神生活 |
+| [sk-2174](cards/sk-2174-buneng-ba-danxiao-dang-youdian.md) | quote | child-study | xuan-ji-zh-vol2 | 缺乏经验的教师，会把孩子的胆小畏怯当成正面特征 |
+| [sk-2175](cards/sk-2175-guanxin-tongbao-de-jiankang.md) | quote | love-education | xuan-ji-zh-vol2 | 新的道德标准：不只尊重同胞的人格，还要积极关心他的健康 |
+| [sk-2176](cards/sk-2176-bu-shi-gejue-shi-yingxiang-huanjing.md) | quote | love-education | xuan-ji-zh-vol2 | 学校的任务不是把孩子隔绝于现实生活，而是教他影响环境 |

@@ -37589,5 +37589,107 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2183": {
+  "primary": "A9",
+  "seealso": [],
+  "facets": [],
+  "claim": "集体教育的实质是培养人对人的精神需要；只会接受现成知识的人不可能对别人的精神世界发生浓厚兴趣。",
+  "evidence": "培养集体就是培养人对人的精神需要。马克思在自己的著作中多次强调指出，在共产主义社会里，对别人的需要将成为个性得到和谐全面发展的主要前提之一。只有在每个受教育者从小就能成为一个思想家和劳动者的情况下，这种需要才得以产生。只会接受现成知识的人，",
+  "title": "集体即对人的精神需要",
+  "old_topics": [
+   "collective-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A9"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2184": {
+  "primary": "A13",
+  "seealso": [],
+  "facets": [],
+  "claim": "历史丛书能造就公民与志同道合的集体主义者；学校应关心每个青少年拥有自己的历史书籍，首先是关于列宁和乌里扬诺夫一家的书。",
+  "evidence": "历史是一种强大的、永存的力量，它能造就公民，培养出志同道合的集体主义者。学校教育工作的一个重要组成部分，就是关心如何使每个青少年都拥有自己的历史丛书，即拥有关于我们祖国的光荣历史和她的忠实儿女的生活方面的书籍。这些书籍已永远成为当代人和后代",
+  "title": "历史丛书与公民",
+  "old_topics": [
+   "reading-and-books"
+  ],
+  "type": "quote",
+  "tags": [
+   "A13"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2185": {
+  "primary": "A11",
+  "seealso": [],
+  "facets": [],
+  "claim": "让学生乐于劳动与手脑并用的智力创造是学校工作中最困难的事；智力劳动之乐使儿童对自身智力发展敏感，并结成牢固的精神统一体。",
+  "evidence": "在学校工作中最困难、最费神的事就是：如何使儿童和少年乐于劳动、乐于智力上的创造，这种创造要求手脑并用。每个儿童的劳动犹如千丝万缕，使他们联系起来，构成一个牢固的精神统一体。智力劳动能产生思想上的欢乐，这种欢乐使每个人对自己的智力发展更为敏感",
+  "title": "乐于劳动与手脑并用",
+  "old_topics": [
+   "labor-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A11"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2186": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "培养列宁式的学习态度即培养劳动精神与坚持不懈的思想；学习越艰苦，战胜学习困难的人就越光荣，这一认识应深化为信念。",
+  "evidence": "培养学生具有列宁那样的学习态度，这就是要培养学生具有真正的劳动精神、追根究底和坚持不懈的思想。学习越艰苦，战胜学习困难的人就越光荣——这就是我们经常给学生灌输的、全力支持的、不断加以深化而使之成为信念的思想。",
+  "title": "艰苦学习与光荣",
+  "old_topics": [
+   "learning-difficulties"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2187": {
+  "primary": "A22",
+  "seealso": [],
+  "facets": [],
+  "claim": "培养集体的使命在于让学生为知识与真理而心动；真正的教师执行遗训时不是单纯传授知识，而是在号召年轻公民跟随自己前进。",
+  "evidence": "教育工作者培养集体的崇高使命是：使我们的教育对象每当考虑到知识和真理时，他的公民之心就为之而频频跳动。真正的教师和教育工作者在执行列宁的遗训时，不是单纯地传授自己的知识，而是在号召年轻的公民跟随自己前进。",
+  "title": "教师是号召者",
+  "old_topics": [
+   "teacher-growth"
+  ],
+  "type": "quote",
+  "tags": [
+   "A22"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2188": {
+  "primary": "A12",
+  "seealso": [],
+  "facets": [],
+  "claim": "把儿童带进大自然，是为了在他们的意识里唤起终身不熄的思维火花；由集体共同寻找思想源泉、体验发现真理的惊讶，并启发概括性的哲理思维。",
+  "evidence": "在小学工作的4年间，我曾多次把孩子们带进大自然，就是专门为了在他们的意识中唤起一种思想，它可以成为终身不熄的思维篝火中的火花。这里特别起作用的是，我们整个集体一起去寻找思想源泉，整个集体一起体验发现真理时的惊讶感。我指给孩子们看自然界中生命",
+  "title": "集体寻找思想源泉",
+  "old_topics": [
+   "thinking-and-nature"
+  ],
+  "type": "quote",
+  "tags": [
+   "A12"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

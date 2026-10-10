@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 187 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 188 |
 | [family-school](topics/family-school.md) | 家校合作 | 382 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 331 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 332 |
 | [health-first](topics/health-first.md) | 健康第一 | 95 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 308 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 406 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 458 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 407 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 459 |
 | [love-education](topics/love-education.md) | 爱的教育 | 742 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 76 |
 | [child-study](topics/child-study.md) | 儿童研究 | 686 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 128 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 272 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 129 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 273 |
 
 ## 来源 Sources
 
@@ -2215,3 +2215,9 @@
 | [sk-2180](cards/sk-2180-pingfan-laodong-de-mei-xuyao-jiti-qingxu.md) | quote | collective-education | xuan-ji-zh-vol3 | 让平凡的农业劳动带来快乐，离不开游戏与劳动中激发出的集体情绪 |
 | [sk-2181](cards/sk-2181-muqinjie-de-laodong-daode-mei.md) | quote | family-school | xuan-ji-zh-vol3 | 母亲节：让孩子体验能给母亲带来快乐的那种劳动的道德美 |
 | [sk-2182](cards/sk-2182-jiaoyu-kexue-luohou-yu-xianghu-zhiyue.md) | quote | teacher-growth | xuan-ji-zh-vol3 | 教育的效果取决于千百种影响的相互制约，而这正是教育科学落后的地方 |
+| [sk-2183](cards/sk-2183-collective-spiritual-need.md) | quote | collective-education | xuan-ji-zh-vol1 | 培养集体就是培养人对人的精神需要 |
+| [sk-2184](cards/sk-2184-history-book-series.md) | quote | reading-and-books | xuan-ji-zh-vol1 | 每个青少年都应当拥有自己的历史丛书 |
+| [sk-2185](cards/sk-2185-joy-in-labour-and-hands-mind.md) | quote | labor-education | xuan-ji-zh-vol1 | 最费神的事是让儿童乐于劳动、乐于手脑并用的创造 |
+| [sk-2186](cards/sk-2186-hard-learning-is-honourable.md) | quote | learning-difficulties | xuan-ji-zh-vol1 | 学习越艰苦，战胜学习困难的人就越光荣 |
+| [sk-2187](cards/sk-2187-teacher-as-caller.md) | quote | teacher-growth | xuan-ji-zh-vol1 | 真正的教师不是单纯传授知识，而是在号召年轻公民跟随自己前进 |
+| [sk-2188](cards/sk-2188-collective-search-for-thought.md) | quote | thinking-and-nature | xuan-ji-zh-vol1 | 整个集体一起寻找思想源泉，让孩子感受思维之美 |

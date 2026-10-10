@@ -91,9 +91,19 @@ def quote_overlap(specpath):
         if len(hits) != 1:
             return -1
         t = re.sub(r"\s+", "", hits[0]["text"] or "")
-        i = t.find(it.get("quote_from", ""))
-        j = t.find(it.get("quote_to", ""), i) if i >= 0 else -1
-        q = t[i:j + len(it.get("quote_to", ""))] if (i >= 0 and j >= 0) else ""
+        # 2026-10-10 修：规格里 quote_from/quote_to 可能是 **null**（不是缺失），
+        # 直接 .find(None) 会 TypeError。这里对齐产卡工具的判空逻辑：
+        # 无 quote_from -> 整 unit 就是引文；有 quote_from 但找不到 quote_to -> 视为不可判（-1）。
+        qf = str(it.get("quote_from") or "")
+        qt = str(it.get("quote_to") or "")
+        if qf:
+            i = t.find(qf)
+            j = t.find(qt, i) if qt else -1
+            if i < 0 or j < 0:
+                return -1
+            q = t[i:j + len(qt)]
+        else:
+            q = t
         sh = set(q[k:k + 12] for k in range(max(0, len(q) - 11)))
         if sh & oldset:
             bad += 1

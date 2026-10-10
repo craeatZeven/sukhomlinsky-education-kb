@@ -5,17 +5,17 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 187 |
-| [family-school](topics/family-school.md) | 家校合作 | 381 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 330 |
+| [family-school](topics/family-school.md) | 家校合作 | 382 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 331 |
 | [health-first](topics/health-first.md) | 健康第一 | 95 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 307 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 405 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 457 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 308 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 406 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 458 |
 | [love-education](topics/love-education.md) | 爱的教育 | 742 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 76 |
 | [child-study](topics/child-study.md) | 儿童研究 | 686 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 128 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 271 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 272 |
 
 ## 来源 Sources
 
@@ -2209,3 +2209,9 @@
 | [sk-2174](cards/sk-2174-buneng-ba-danxiao-dang-youdian.md) | quote | child-study | xuan-ji-zh-vol2 | 缺乏经验的教师，会把孩子的胆小畏怯当成正面特征 |
 | [sk-2175](cards/sk-2175-guanxin-tongbao-de-jiankang.md) | quote | love-education | xuan-ji-zh-vol2 | 新的道德标准：不只尊重同胞的人格，还要积极关心他的健康 |
 | [sk-2176](cards/sk-2176-bu-shi-gejue-shi-yingxiang-huanjing.md) | quote | love-education | xuan-ji-zh-vol2 | 学校的任务不是把孩子隔绝于现实生活，而是教他影响环境 |
+| [sk-2177](cards/sk-2177-lanhan-bu-shi-tiansheng-de.md) | quote | labor-education | xuan-ji-zh-vol3 | 「懒汉」不是天生的：劳动的美振奋起来的集体精神，是爱好劳动的源泉 |
+| [sk-2178](cards/sk-2178-mei-benshen-meiyou-moli.md) | quote | aesthetic-nature-education | xuan-ji-zh-vol3 | 美本身没有魔力，只有当创造美的劳动因崇高动机而人道化时才培养人 |
+| [sk-2179](cards/sk-2179-shou-yue-qiao-yue-congming.md) | quote | thinking-and-nature | xuan-ji-zh-vol3 | 孩子的手越巧就越聪明：智能与技巧互为因果 |
+| [sk-2180](cards/sk-2180-pingfan-laodong-de-mei-xuyao-jiti-qingxu.md) | quote | collective-education | xuan-ji-zh-vol3 | 让平凡的农业劳动带来快乐，离不开游戏与劳动中激发出的集体情绪 |
+| [sk-2181](cards/sk-2181-muqinjie-de-laodong-daode-mei.md) | quote | family-school | xuan-ji-zh-vol3 | 母亲节：让孩子体验能给母亲带来快乐的那种劳动的道德美 |
+| [sk-2182](cards/sk-2182-jiaoyu-kexue-luohou-yu-xianghu-zhiyue.md) | quote | teacher-growth | xuan-ji-zh-vol3 | 教育的效果取决于千百种影响的相互制约，而这正是教育科学落后的地方 |

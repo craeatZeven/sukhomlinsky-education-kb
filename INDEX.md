@@ -6,14 +6,14 @@
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 186 |
 | [family-school](topics/family-school.md) | 家校合作 | 380 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 329 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 330 |
 | [health-first](topics/health-first.md) | 健康第一 | 95 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 307 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 402 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 403 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 457 |
-| [love-education](topics/love-education.md) | 爱的教育 | 738 |
+| [love-education](topics/love-education.md) | 爱的教育 | 740 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 76 |
-| [child-study](topics/child-study.md) | 儿童研究 | 683 |
+| [child-study](topics/child-study.md) | 儿童研究 | 685 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 123 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 271 |
 
@@ -2191,3 +2191,9 @@
 | [sk-2156](cards/sk-2156-personal-spiritual-activity-is-not-fantasy.md) | quote | collective-education | xuan-ji-zh-vol3 | 个人精神活动不是空想，而是盘算自己的志趣和要做的事 |
 | [sk-2157](cards/sk-2157-authority-earned-when-pupils-forget-you-are-teacher.md) | quote | teacher-growth | xuan-ji-zh-vol3 | 在争论中让学生忘记你是教师，威信才真正树立 |
 | [sk-2158](cards/sk-2158-judge-work-by-its-civic-foundation.md) | quote | labor-education | xuan-ji-zh-vol3 | 评价一项工作的教育意义，先看它的公民基础 |
+| [sk-2159](cards/sk-2159-collective-discussion-must-not-be-a-grilling.md) | quote | collective-education | xuan-ji-zh-vol3 | 把学生叫来当众「讨论」，会让集体教育变成对人掏心 |
+| [sk-2160](cards/sk-2160-self-affirmation-is-born-in-spiritual-struggle.md) | quote | child-study | xuan-ji-zh-vol3 | 真正的自我肯定只在精神斗争中产生 |
+| [sk-2161](cards/sk-2161-cherished-things-are-the-ones-won-hard.md) | quote | labor-education | xuan-ji-zh-vol3 | 只有来之不易的东西，才成为一个人珍贵心爱之物 |
+| [sk-2162](cards/sk-2162-ideals-need-thinking-not-repeating.md) | quote | love-education | xuan-ji-zh-vol3 | 关于理想的话不必多讲，要少年自己去想 |
+| [sk-2163](cards/sk-2163-cruelty-was-never-a-human-natural-trait.md) | quote | love-education | xuan-ji-zh-vol3 | 残暴行为从来就不是人类天性固有的特征 |
+| [sk-2164](cards/sk-2164-romantic-fervour-clashes-with-intellect.md) | quote | child-study | xuan-ji-zh-vol3 | 少年的浪漫热情，会和智力活动起冲突 |

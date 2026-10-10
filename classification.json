@@ -37079,5 +37079,107 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2153": {
+  "primary": "A6",
+  "seealso": [],
+  "facets": [],
+  "claim": "备课与讲解必须以知道面前每一个具体学生的心灵为前提，否则就是在给抽象的人上课。",
+  "evidence": "假如我不知道，在课堂上我面对的是谁，不知道柯利亚和季娜、托利亚和瓦里娅在想些什么，那我就好像是在给抽象的人上课。在思考我在课堂上阐明的某些观念时，我考虑到的首先是我的每一个学生的心灵。应该用生动的话语来阐明这些观念，并且以活生生的心灵和思想",
+  "title": "不给抽象的人上课",
+  "old_topics": [
+   "child-study"
+  ],
+  "type": "quote",
+  "tags": [
+   "A6"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2154": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "思想只有用辩证的思维从大量事实中形成、并在争论局面中被学生自己选择，才会变成信念。",
+  "evidence": "只有用辩证的思维方法从大量的事实和现象中形成思想，这种思想才会变成信念。我常常努力使班级处于争论的状态。这是反映教育技巧的一个非常复杂而又细致的方面。只有当少年们由于对事实进行了周密的思考和分析，仿佛摆脱了事实、发现了问题的时候，才能形成争",
+  "title": "思想要争过才成信念",
+  "old_topics": [
+   "thinking-and-nature"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2155": {
+  "primary": "A5",
+  "seealso": [],
+  "facets": [],
+  "claim": "教师话语里带责备意味的暗示会让少年的精神活动中止、自尊受损，理想教育随之失效。",
+  "evidence": "我真像怕火一样地害怕少年们会在我讲话的字里行间找到这样一些带有责备味道的话：真正的人是这样做的，而你们完全不是这样……甚至有这种暗示也会产生不良的后果，会因此而使精神活动中止，而没有精神活动就不可能培养起理想，少年的内心就会对自己的力量缺乏",
+  "title": "不用责备的暗示刺伤少年",
+  "old_topics": [
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A5"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2156": {
+  "primary": "A4",
+  "seealso": [],
+  "facets": [],
+  "claim": "个人精神活动指一个人盘算自己的志趣、关切与不安、已做与待做之事，它以集体中有思想丰富的生活、劳动和道德关系为前提。",
+  "evidence": "必须再提醒大家一下，不要误解我这里说的“个人的精神活动”这个现象。这并不是什么脱离现实生活的幻想，也不是什么漫无边际的想入非非。这首先是这样一些考虑：一个人的志趣应当放在什么地方，他要关心些什么，他所感到不安的又是什么。这是对自己工作的思考",
+  "title": "个人精神活动是什么",
+  "old_topics": [
+   "collective-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A4"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2157": {
+  "primary": "A22",
+  "seealso": [],
+  "facets": [],
+  "claim": "教师以平等身份参加争论、凭知识与见识取胜时，威信才在学生忘记教师身份的场合真正树立。",
+  "evidence": "少年们用各种方法来解释这个问题，他们急切地希望证明自己说的意见有道理，他们坚持自己的观点。在争论中，有正确的思想，也有错误的思想；错误的意见在热烈的争论中被驳倒，真理就成为少年们自己的宝贵真理了。我们教师也和学生一样地参加到争论中去。在这种",
+  "title": "威信不靠身份靠见识",
+  "old_topics": [
+   "teacher-growth"
+  ],
+  "type": "quote",
+  "tags": [
+   "A22"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2158": {
+  "primary": "A2",
+  "seealso": [],
+  "facets": [],
+  "claim": "判断一项劳动或活动的教育意义，首要看它的公民基础，即能否把少年对祖国的愿望落进具体的劳动。",
+  "evidence": "在评价某种工作的教育意义时，我们的教师集体首先考虑到的是，这项工作的公民基础是什么。我们认为，道德教育的作用在于它能使一个人在整个少年时期以及青年初期想看到自己祖国的强大、美好和幸福这一愿望，完全体现在劳动中，这种劳动能明显地体现出公民的倾",
+  "title": "先看公民基础",
+  "old_topics": [
+   "labor-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A2"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

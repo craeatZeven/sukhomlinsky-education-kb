@@ -6,16 +6,16 @@
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 186 |
 | [family-school](topics/family-school.md) | 家校合作 | 380 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 328 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 329 |
 | [health-first](topics/health-first.md) | 健康第一 | 95 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 307 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 401 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 456 |
-| [love-education](topics/love-education.md) | 爱的教育 | 737 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 402 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 457 |
+| [love-education](topics/love-education.md) | 爱的教育 | 738 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 76 |
-| [child-study](topics/child-study.md) | 儿童研究 | 682 |
+| [child-study](topics/child-study.md) | 儿童研究 | 683 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 123 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 270 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 271 |
 
 ## 来源 Sources
 
@@ -2185,3 +2185,9 @@
 | [sk-2150](cards/sk-2150-indifference-to-work-is-a-moral-defect.md) | quote | labor-education | xuan-ji-zh-vol1 | 对事业没有兴趣，青年把这看作一种道德缺欠 |
 | [sk-2151](cards/sk-2151-modesty-grows-from-self-respect.md) | quote | love-education | xuan-ji-zh-vol1 | 愈是自重的人，愈是竭力不惹人注目 |
 | [sk-2152](cards/sk-2152-criticism-needs-teacher-as-equal.md) | quote | collective-education | xuan-ji-zh-vol1 | 只有教师像同学那样对待学生，青年才敢讲同学的缺点 |
+| [sk-2153](cards/sk-2153-prepare-lesson-for-each-named-child.md) | quote | child-study | xuan-ji-zh-vol3 | 备课前先弄清我在对谁讲话，否则就是给抽象的人上课 |
+| [sk-2154](cards/sk-2154-belief-grows-only-through-debate-over-facts.md) | quote | thinking-and-nature | xuan-ji-zh-vol3 | 只有从事实中辩证地形成的思想才会变成信念 |
+| [sk-2155](cards/sk-2155-no-blaming-hints-in-teacher-talk.md) | quote | love-education | xuan-ji-zh-vol3 | 别在话里让少年听出你把他判成了不像样的人 |
+| [sk-2156](cards/sk-2156-personal-spiritual-activity-is-not-fantasy.md) | quote | collective-education | xuan-ji-zh-vol3 | 个人精神活动不是空想，而是盘算自己的志趣和要做的事 |
+| [sk-2157](cards/sk-2157-authority-earned-when-pupils-forget-you-are-teacher.md) | quote | teacher-growth | xuan-ji-zh-vol3 | 在争论中让学生忘记你是教师，威信才真正树立 |
+| [sk-2158](cards/sk-2158-judge-work-by-its-civic-foundation.md) | quote | labor-education | xuan-ji-zh-vol3 | 评价一项工作的教育意义，先看它的公民基础 |

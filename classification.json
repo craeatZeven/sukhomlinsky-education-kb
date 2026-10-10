@@ -37283,5 +37283,107 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2165": {
+  "primary": "A13",
+  "seealso": [],
+  "facets": [],
+  "claim": "阅读若不触及理智与心灵、不激起对自己的深思，就不能取代书籍的作用，人便受精神空虚的威胁。",
+  "evidence": "真正的阅读能够吸引学生的理智和心灵，激起他对世界和对自己的深思，迫使他认识自己和思考自己的未来。没有这样的阅读，一个人就会受到精神空虚的威胁。无论什么都不能取代书籍的作用。为什么有的少年在学完功课以后就在家里待不住了呢？为什么他不肯跟人的最",
+  "title": "真正的阅读",
+  "old_topics": [
+   "reading-and-books"
+  ],
+  "type": "quote",
+  "tags": [
+   "A13"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2166": {
+  "primary": "A13",
+  "seealso": [],
+  "facets": [],
+  "claim": "摆在名人传记书橱前的几十种书里写的是宁可牺牲生命也不背弃真理的人，这类传记就是少年自我教育的百科全书。",
+  "evidence": "我是多么希望，让所有的少年都走到那个摆着名人传记的书橱跟前去啊！我在那里放了几十种关于英勇无畏、精神坚强的人们的书，这都是一些宁可牺牲生命而不肯背弃真理和自己的信念的人物。英雄人物的传记是少年进行自我教育的百科全书。",
+  "title": "传记是自我教育的百科全书",
+  "old_topics": [
+   "reading-and-books"
+  ],
+  "type": "quote",
+  "tags": [
+   "A13"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2167": {
+  "primary": "A13",
+  "seealso": [],
+  "facets": [],
+  "claim": "不一定要识记、不必专门解剖的东西才最有力地被用来跟自己对照；少年期尤其如此，故人文学科需要更广阔的智力背景。",
+  "evidence": "这里有一条微妙的心理学规律：只有那种不一定要识记，不需要进行专门的“解剖”的东西，才能最有力地用来跟自己对照，并且在个人的精精生活中反映出来。这条规律对于少年期更有代表性，因为少年的思想经常是把周围世界跟自己本身隔离开的。正因为如此，历史和",
+  "title": "不一定要识记的东西才最有力",
+  "old_topics": [
+   "reading-and-books"
+  ],
+  "type": "quote",
+  "tags": [
+   "A13"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2168": {
+  "primary": "A13",
+  "seealso": [],
+  "facets": [],
+  "claim": "表情朗读的效果取决于听众人数与朗读时间：听众不超过一个班、有共同精神兴趣，环境之美会加强词的审美感受。",
+  "evidence": "少年们喜欢听表情朗读。对作品的感知如何，要看听众的人数和朗读的时间。听众最好不要超过一个班，他们也应当有共同的精神兴趣。设在被白雪覆盖的果园中间的明亮舒适的房间，傍晚的暮霭，繁花盛开的草木，树叶的轻微的沙沙声，晚霞—这一切都加强了审美的感受",
+  "title": "朗读的听众与时间",
+  "old_topics": [
+   "reading-and-books"
+  ],
+  "type": "quote",
+  "tags": [
+   "A13"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2169": {
+  "primary": "A13",
+  "seealso": [],
+  "facets": [],
+  "claim": "对学习困难的学生，书籍之所以能添出新的认识力量，是因为它被当作内心体验的源泉而非真理的仓库。",
+  "evidence": "我们还特别关心，使书籍也成为那些头脑迟钝的学生的精神需要。彼特里克所走的通往知识的道路就是很艰难的。在六、七年级，学习那些复杂的概括和规律性时，他就碰到了困难，而只有书籍才帮助他克服了那些困难。为此，我们挑选了一些有关数学、物理、化学的读物",
+  "title": "书籍是内心体验的源泉",
+  "old_topics": [
+   "learning-difficulties"
+  ],
+  "type": "quote",
+  "tags": [
+   "A13"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2170": {
+  "primary": "A4",
+  "seealso": [],
+  "facets": [],
+  "claim": "毕业后的教育主要是自我教育，只有当学生年代就爱上书籍、学会从书籍认识世界和自己，它才有可能。",
+  "evidence": "我坚定地认为，青少年中间发生的那些日益使社会感到不安的不良现象—酗酒、流氓行为、毫无意义地浪费时间等，产生这些东西的最重要的原因，就在于学生在上学时代里，他们的智力兴趣就很狭窄和空虚，而在毕业之后，这种精神生活的空虚、狭窄和局限性就更加严重",
+  "title": "爱上书籍，自我教育才有可能",
+  "old_topics": [
+   "reading-and-books"
+  ],
+  "type": "quote",
+  "tags": [
+   "A4"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

@@ -4,7 +4,7 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 186 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 187 |
 | [family-school](topics/family-school.md) | 家校合作 | 380 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 330 |
 | [health-first](topics/health-first.md) | 健康第一 | 95 |
@@ -14,7 +14,7 @@
 | [love-education](topics/love-education.md) | 爱的教育 | 740 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 76 |
 | [child-study](topics/child-study.md) | 儿童研究 | 685 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 123 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 128 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 271 |
 
 ## 来源 Sources
@@ -2197,3 +2197,9 @@
 | [sk-2162](cards/sk-2162-ideals-need-thinking-not-repeating.md) | quote | love-education | xuan-ji-zh-vol3 | 关于理想的话不必多讲，要少年自己去想 |
 | [sk-2163](cards/sk-2163-cruelty-was-never-a-human-natural-trait.md) | quote | love-education | xuan-ji-zh-vol3 | 残暴行为从来就不是人类天性固有的特征 |
 | [sk-2164](cards/sk-2164-romantic-fervour-clashes-with-intellect.md) | quote | child-study | xuan-ji-zh-vol3 | 少年的浪漫热情，会和智力活动起冲突 |
+| [sk-2165](cards/sk-2165-true-reading-and-self-knowledge.md) | quote | reading-and-books | gei-jiao-shi-de-jian-yi-zh | 真正的阅读迫使学生认识自己和思考自己的未来 |
+| [sk-2166](cards/sk-2166-biographies-encyclopedia-of-self-education.md) | quote | reading-and-books | gei-jiao-shi-de-jian-yi-zh | 英雄人物的传记是少年进行自我教育的百科全书 |
+| [sk-2167](cards/sk-2167-reading-without-memorizing-purpose.md) | quote | reading-and-books | gei-jiao-shi-de-jian-yi-zh | 只有不一定要识记的东西，才能最有力地用来跟自己对照 |
+| [sk-2168](cards/sk-2168-setting-of-expressive-reading.md) | quote | reading-and-books | gei-jiao-shi-de-jian-yi-zh | 作品感知如何，要看听众的人数和朗读的时间 |
+| [sk-2169](cards/sk-2169-books-for-slow-learners.md) | quote | learning-difficulties | gei-jiao-shi-de-jian-yi-zh | 书籍对少年并不是真理的仓库，而是内心体验的源泉 |
+| [sk-2170](cards/sk-2170-reading-as-the-foundation-of-self-education.md) | quote | reading-and-books | gei-jiao-shi-de-jian-yi-zh | 只有在学生年代爱上书籍，毕业后的自我教育才有可能 |

@@ -5,7 +5,7 @@
 
 ## 总览
 
-- 卡片总数：**2159**
+- 卡片总数：**2165**
 - 来源数：**12**
 - 主题数：**12**
 - 《做人的故事》：**541 张卡 / 540 个目录标题**
@@ -20,7 +20,7 @@
 | 苏霍姆林斯基选集（五卷本）第4卷（`xuan-ji-zh-vol4`） | 252 | 41/252 |
 | 苏霍姆林斯基选集（五卷本）第3卷（`xuan-ji-zh-vol3`） | 245 | 51/245 |
 | 苏霍姆林斯基选集（五卷本）第1卷（`xuan-ji-zh-vol1`） | 230 | 36/230 |
-| 给教师的建议（`gei-jiao-shi-de-jian-yi-zh`） | 120 | 23/120 |
+| 给教师的建议（`gei-jiao-shi-de-jian-yi-zh`） | 126 | 23/126 |
 | 把心献给孩子（`ba-xin-xian-gei-hai-zi-zh`） | 47 | 0/47 |
 | On Education（`on-education`） | 41 | 0/41 |
 | To Children I Give My Heart（`to-children-i-give-my-heart`） | 22 | 0/22 |
@@ -31,7 +31,7 @@
 
 | 类型 | 数量 |
 |---|---:|
-| `quote` | 1032 |
+| `quote` | 1038 |
 | `case` | 673 |
 | `principle` | 194 |
 | `method` | 164 |
@@ -49,8 +49,8 @@
 | 劳动教育（`labor-education`） | 330 |
 | 美育与自然（`aesthetic-nature-education`） | 307 |
 | 思维课与大自然（`thinking-and-nature`） | 271 |
-| 学习困难学生（`learning-difficulties`） | 186 |
-| 阅读与书籍（`reading-and-books`） | 123 |
+| 学习困难学生（`learning-difficulties`） | 187 |
+| 阅读与书籍（`reading-and-books`） | 128 |
 | 健康第一（`health-first`） | 95 |
 | 评价与分数（`assessment-grading`） | 76 |
 

@@ -1,5 +1,5 @@
 {
-  "total_cards": 2159,
+  "total_cards": 2165,
   "source_count": 12,
   "topic_count": 12,
   "zuoren_cards": 541,
@@ -44,7 +44,7 @@
     {
       "slug": "gei-jiao-shi-de-jian-yi-zh",
       "title": "给教师的建议",
-      "cards": 120,
+      "cards": 126,
       "page_refs": 23
     },
     {
@@ -81,7 +81,7 @@
   "types": [
     {
       "type": "quote",
-      "cards": 1032
+      "cards": 1038
     },
     {
       "type": "case",
@@ -144,12 +144,12 @@
     {
       "slug": "learning-difficulties",
       "title": "学习困难学生",
-      "cards": 186
+      "cards": 187
     },
     {
       "slug": "reading-and-books",
       "title": "阅读与书籍",
-      "cards": 123
+      "cards": 128
     },
     {
       "slug": "health-first",

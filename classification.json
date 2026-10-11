@@ -37869,5 +37869,107 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2199": {
+  "primary": "A9",
+  "seealso": [],
+  "facets": [],
+  "claim": "集体对个人品德的评价若只表现为指责、惩罚和要求作出空洞允诺，就失去教育力量——那种允诺谁也不认为郑重。",
+  "evidence": "令人十分痛心的是，在学校教育实践中，对由集体为个人品德作出评价的问题普遍存在着一种极其简单的看法：说什么，集体应该对不道德行为作出反应，要对这种行为进行指责，并采取某些“措施”。而这些措施或表现为惩罚，或表现为由罪犯作出“再也不干了”的内容",
+  "title": "批评不等于惩罚",
+  "old_topics": [
+   "collective-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A9"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2200": {
+  "primary": "A11",
+  "seealso": [],
+  "facets": [],
+  "claim": "劳动只有在儿童为高尚的动机和理想所鼓舞、且教师在儿童心灵中播下高尚种子时，才成为道德教育的手段。",
+  "evidence": "如上所说，劳动、创造物质财富、爱护公共财物等活动对培养集体会起很大的作用。只有当儿童为高尚的动机和理想所鼓舞时，劳动才能成为道德教育的手段。如果心灵空虚，劳动就不能使心灵充满高尚的感情。劳动确实能使心灵高尚起来，但是，只有当教师在儿童的心灵",
+  "title": "劳动不自动育人",
+  "old_topics": [
+   "labor-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A11"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2201": {
+  "primary": "A5",
+  "seealso": [],
+  "facets": [],
+  "claim": "教育者应遵循的规则是：根除一件坏事不应再产生新的坏事；首先要防止坏事发生，而不是对已有的事作出反应。",
+  "evidence": "在教育中应该遵循的规则是：根除一件坏事不应再产生新的坏事。这里首先需要提及的不是对已有的坏事作出反应，而是要防止坏事发生。教育者的本领最终不是为了寻找一种方法，去影响那个从练习本上撕下记有“2”分的纸片来做飞机的厚颜无耻的学生，而是要使学校",
+  "title": "不制造新创伤",
+  "old_topics": [
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A5"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2202": {
+  "primary": "A16",
+  "seealso": [],
+  "facets": [],
+  "claim": "不能让集体表扬轻易取得的成绩；意外的、不应得的好评越多，学生对自己提出的要求标准就越低。",
+  "evidence": "不能让集体表扬轻易取得的成绩。一般说来，教师应该注意到，成绩是认真工作的结果。非常重要的是，要使学生集体中，特别是天赋很高的学生集体中的每个成员，无不认为自己所取得的成绩是顽强劳动的结果。在集体中，如果意外的、不应得的好评越多，那么学生对自",
+  "title": "表扬会通胀",
+  "old_topics": [
+   "assessment-grading"
+  ],
+  "type": "quote",
+  "tags": [
+   "A16"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2203": {
+  "primary": "A4",
+  "seealso": [],
+  "facets": [],
+  "claim": "个人能力不是命中注定的；教育者的技能在于使儿童的能力不断发展，并使学生的自我要求标准随能力提高。",
+  "evidence": "个人的能力不是什么命中注定的，不是一下子就形成的，不只是由“天赋”所决定的。教育者的技能正是在于要使儿童和少年的能力不断得到发展，使他们对更好更有效地掌握知识的需求不断得到扩大。换句话说，学生对自己的要求标准，应该随着能力的发展而同时得到提",
+  "title": "标准要跟着能力涨",
+  "old_topics": [
+   "child-study"
+  ],
+  "type": "quote",
+  "tags": [
+   "A4"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2204": {
+  "primary": "A22",
+  "seealso": [],
+  "facets": [],
+  "claim": "掌握学生的自我要求标准并使之不断提高是一种教育技能，它把教学同培养集体结合起来，使集体智力生活成为促使学生自我教育的力量。",
+  "evidence": "善于掌握学生的自我要求标准并使之不断得到提高，这是一种教育技能，它使教学同培养集体两者结合起来，使集体的智力生活成为一种可以制约学生对自己的态度，促使他们进行自我教育的巨大力量。为了在这方面真正有所创造，教育者应该遵循一系列的重要原则。",
+  "title": "会读自我要求",
+  "old_topics": [
+   "teacher-growth"
+  ],
+  "type": "quote",
+  "tags": [
+   "A22"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

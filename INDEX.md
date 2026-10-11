@@ -6,14 +6,14 @@
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 188 |
 | [family-school](topics/family-school.md) | 家校合作 | 383 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 332 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 333 |
 | [health-first](topics/health-first.md) | 健康第一 | 97 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 309 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 409 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 462 |
-| [love-education](topics/love-education.md) | 爱的教育 | 745 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 77 |
-| [child-study](topics/child-study.md) | 儿童研究 | 689 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 410 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 463 |
+| [love-education](topics/love-education.md) | 爱的教育 | 746 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 78 |
+| [child-study](topics/child-study.md) | 儿童研究 | 690 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 130 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 274 |
 
@@ -2231,3 +2231,9 @@
 | [sk-2196](cards/sk-2196-pigaizuoye-zhidu-yu-jiaoshi-jingli.md) | quote | assessment-grading / health-first | xuan-ji-zh-vol4 | 批改作业的制度要把教师的精力算进去 |
 | [sk-2197](cards/sk-2197-ganzhi-de-geren-tedian-jueding-siwei.md) | quote | thinking-and-nature / child-study | xuan-ji-zh-vol4 | 思维的个人特点首先取决于感知的个人特点 |
 | [sk-2198](cards/sk-2198-cong-yanjiu-ertong-ruhe-ganzhi-zuo-qi.md) | quote | child-study | xuan-ji-zh-vol4 | 新校长开始研究，就从儿童怎样感知做起 |
+| [sk-2199](cards/sk-2199-collective-evaluation-not-blame.md) | quote | collective-education | xuan-ji-zh-vol1 | 集体评价个人品德，不应简化为指责、惩罚和空洞的允诺 |
+| [sk-2200](cards/sk-2200-labor-needs-high-motive.md) | quote | labor-education | xuan-ji-zh-vol1 | 劳动要成为道德教育的手段，先得在儿童心里播下高尚的种子 |
+| [sk-2201](cards/sk-2201-no-new-harm-rule.md) | quote | love-education | xuan-ji-zh-vol1 | 根除一件坏事，不应再产生新的坏事 |
+| [sk-2202](cards/sk-2202-no-cheap-praise.md) | quote | assessment-grading | xuan-ji-zh-vol1 | 不能让集体表扬轻易取得的成绩 |
+| [sk-2203](cards/sk-2203-ability-not-fated.md) | quote | child-study | xuan-ji-zh-vol1 | 能力不是命定的，自我要求的标准要随能力一起提高 |
+| [sk-2204](cards/sk-2204-self-demand-as-skill.md) | quote | teacher-growth | xuan-ji-zh-vol1 | 掌握学生的自我要求标准，是一种教育技能 |

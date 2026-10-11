@@ -7,15 +7,15 @@
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 188 |
 | [family-school](topics/family-school.md) | 家校合作 | 383 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 332 |
-| [health-first](topics/health-first.md) | 健康第一 | 96 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 308 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 408 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 460 |
+| [health-first](topics/health-first.md) | 健康第一 | 97 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 309 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 409 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 462 |
 | [love-education](topics/love-education.md) | 爱的教育 | 745 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 76 |
-| [child-study](topics/child-study.md) | 儿童研究 | 687 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 129 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 273 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 77 |
+| [child-study](topics/child-study.md) | 儿童研究 | 689 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 130 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 274 |
 
 ## 来源 Sources
 
@@ -2225,3 +2225,9 @@
 | [sk-2190](cards/sk-2190-jiao-chong-huai-le-de-er-tong.md) | quote | family-school / collective-education | xuan-ji-zh-vol5 | 被娇宠惯了的儿童带来“我怎么想就怎么做”的家庭原则 |
 | [sk-2191](cards/sk-2191-fang-zhi-jing-shen-gu-du-de-bao-hu-cuo-shi.md) | quote | love-education / health-first | xuan-ji-zh-vol5 | 防止精神孤独最好的保护措施是唤起对他人的爱心 |
 | [sk-2192](cards/sk-2192-le-guan-zhu-yi-shi-tong-nian-de-cai-hong.md) | quote | love-education / child-study | xuan-ji-zh-vol5 | 热爱儿童就是热爱童年：没有乐观主义就没有童年 |
+| [sk-2193](cards/sk-2193-jiaoshi-de-gexing-suzao-zhe-xuesheng.md) | quote | teacher-growth | xuan-ji-zh-vol4 | 教师的个性在怎样塑造着学生的个性 |
+| [sk-2194](cards/sk-2194-tuanjie-you-ai-bu-kao-xing-zheng-ming-ling.md) | quote | collective-education / teacher-growth | xuan-ji-zh-vol4 | 集体的统一力量来自每个人拿得出手的东西 |
+| [sk-2195](cards/sk-2195-banzhuren-yong-wenyi-zuopin-tanhua.md) | quote | reading-and-books / aesthetic-nature-education | xuan-ji-zh-vol4 | 班主任应善于用文艺作品的谈话吸引学生 |
+| [sk-2196](cards/sk-2196-pigaizuoye-zhidu-yu-jiaoshi-jingli.md) | quote | assessment-grading / health-first | xuan-ji-zh-vol4 | 批改作业的制度要把教师的精力算进去 |
+| [sk-2197](cards/sk-2197-ganzhi-de-geren-tedian-jueding-siwei.md) | quote | thinking-and-nature / child-study | xuan-ji-zh-vol4 | 思维的个人特点首先取决于感知的个人特点 |
+| [sk-2198](cards/sk-2198-cong-yanjiu-ertong-ruhe-ganzhi-zuo-qi.md) | quote | child-study | xuan-ji-zh-vol4 | 新校长开始研究，就从儿童怎样感知做起 |

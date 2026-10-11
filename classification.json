@@ -37763,5 +37763,111 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2193": {
+  "primary": "A10",
+  "seealso": [],
+  "facets": [],
+  "claim": "精神丰富、道德高尚的教师能尊重和陶冶学生的个性；没有个性特色的教师只能造成精神的贫乏",
+  "evidence": "即使你还没有任何经验，更不善于概括教育现象，即使你昨天刚来到学校当校长，你也应当今天立刻开始对这个永不过时的问题进行观察：教师的个性在如何塑造着学生的个性。你的研究可以从这样一条基本真理出发：一个精神丰富、道德高尚、智力突出的教师，是能够尊",
+  "title": "没有个性特色的教师只能造成精神的贫乏",
+  "old_topics": [
+   "teacher-growth"
+  ],
+  "type": "quote",
+  "tags": [
+   "A10"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2194": {
+  "primary": "A9",
+  "seealso": [],
+  "facets": [],
+  "claim": "教师集体的同心协力来自道义鼓舞与丰富的智力生活，行政命令无法传递经验与技巧",
+  "evidence": "教育书刊中关于教师集体的团结友爱已经谈得很多。那么教育上的这种同心协力从何而来呢?用什么力量才能使集体成为一种统一的起教育作用的因素呢?这种力量在于我们的劳动受着道义的鼓舞，在于有丰富的智力生活，在于有多种的智力兴趣。任何行政命令和指示都不",
+  "title": "行政命令不能把经验和技巧传给另一个教师",
+  "old_topics": [
+   "collective-education",
+   "teacher-growth"
+  ],
+  "type": "quote",
+  "tags": [
+   "A9"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2195": {
+  "primary": "A13",
+  "seealso": [],
+  "facets": [],
+  "claim": "班主任无论教什么学科，都应善于通过论述文艺作品的机智有趣的谈话吸引学生",
+  "evidence": "对文艺作品的爱好，正是教师和学生在其中相互接触的一个精神领域。我们认为，一个班主任，无论他教的是什么学科，都应当善于通过论述文艺作品的机智的、有趣的谈话，用艺术作品中反映的当代青年的理想来吸引自己的学生。",
+  "title": "任何学科的班主任都能以作品谈话接近学生",
+  "old_topics": [
+   "reading-and-books",
+   "aesthetic-nature-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A13"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2196": {
+  "primary": "A20",
+  "seealso": [],
+  "facets": [],
+  "claim": "把批改作业的制度设计成互查与抽查，可以少耗费教师精力，同时知道学生会不会",
+  "evidence": "批改练习本是耗费教师精力的一个重要因素。我们制定了一套批改作业的制度。低年级学生的许多作业，采取由学生自己检查、互相检查的办法。教师并不批改全部作业本，而是进行抽查，各个年级都照这个办法做。我们不让高年级的学生写篇幅太长的作文，这没有必要。",
+  "title": "不全批全改，靠互查与抽查知道学生会不会",
+  "old_topics": [
+   "assessment-grading",
+   "health-first"
+  ],
+  "type": "quote",
+  "tags": [
+   "A20"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2197": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "思维的个人特点在很大程度上取决于感知的个人特点，教学生思考就要考虑学生的个人特点",
+  "evidence": "这是每个善于思考的教师都能做到的一种真正创造性的研究。例如，就拿有关感知与思维之间的依存性的初步结论来说吧，对事实的分析表明：思维的个人特点在很大程度上取决于对周围世界的感知的个人特点，而正是后者往往被人们忽略。教学生思考，首先就要求考虑学",
+  "title": "教学生思考，先要求考虑学生的个人特点",
+  "old_topics": [
+   "thinking-and-nature",
+   "child-study"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2198": {
+  "primary": "A6",
+  "seealso": [],
+  "facets": [],
+  "claim": "引导教师做研究，最好从研究儿童怎样感知自然现象、周围世界这样一个具体问题做起",
+  "evidence": "你刚开始担任校长工作时，可能会认为，你的学校里没有经验丰富的、得力的教师，很难激发起教师的首创精神。如果你想培养出这样得力的教师，那么我建议你跟他们一起从研究儿童是怎样感知自然现象、怎样感知周围世界这样一个问题做起。你的面前会展现一幅有趣的",
+  "title": "带教师一起研究儿童怎样感知周围世界",
+  "old_topics": [
+   "child-study"
+  ],
+  "type": "quote",
+  "tags": [
+   "A6"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

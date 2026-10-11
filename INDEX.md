@@ -6,16 +6,16 @@
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 189 |
 | [family-school](topics/family-school.md) | 家校合作 | 385 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 335 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 336 |
 | [health-first](topics/health-first.md) | 健康第一 | 98 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 311 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 414 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 467 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 469 |
 | [love-education](topics/love-education.md) | 爱的教育 | 756 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 80 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 81 |
 | [child-study](topics/child-study.md) | 儿童研究 | 697 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 130 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 274 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 276 |
 
 ## 来源 Sources
 
@@ -2272,3 +2272,9 @@
 | [sk-2237](cards/sk-2237-sympathy-friendship-collectivism-must-enter-school-life.md) | quote | teacher-growth | xuan-ji-zh-vol4 | 同情、友爱、集体主义，每个教师都应当把这些带进学校的精神生活 |
 | [sk-2238](cards/sk-2238-do-not-probe-childrens-past-bluntly.md) | quote | love-education | xuan-ji-zh-vol4 | 弄清孩子的情况是必须的，但要做得让他察觉不到我们的探询 |
 | [sk-2239](cards/sk-2239-principal-should-study-every-childs-home-environment.md) | quote | family-school | xuan-ji-zh-vol4 | 校长要像医生研究体质那样，分析研究儿童入学前的生活环境 |
+| [sk-2240](cards/sk-2240-thinking-grows-and-rereading-reveals-new-aspects.md) | quote | thinking-and-nature | xuan-ji-zh-vol2 | 学生在学习新材料时思考得越多，对读到、听到、观察到的东西也会思考得越多 |
+| [sk-2241](cards/sk-2241-every-lesson-must-leave-time-for-thinking.md) | quote | teacher-growth | xuan-ji-zh-vol2 | 每节课讲解之后，教师都专门留出时间让学生思考，这不是阅读也不是背记 |
+| [sk-2242](cards/sk-2242-thinking-must-stay-linked-to-phenomena.md) | quote | thinking-and-nature | xuan-ji-zh-vol2 | 思维能力和思维活动的成果，首先是在观察周围世界事物和现象的基础上获得的 |
+| [sk-2243](cards/sk-2243-do-not-give-a-two-when-the-child-cannot-yet.md) | quote | assessment-grading | xuan-ji-zh-vol2 | 如果一个学生未能完成作业只是因为还无力胜任，那就不要给他打2分 |
+| [sk-2244](cards/sk-2244-knowledge-not-applied-becomes-dead-ornament.md) | quote | labor-education | xuan-ji-zh-vol2 | 不用于实践的知识，会变为僵死无用的装饰品 |
+| [sk-2245](cards/sk-2245-knowledge-gained-independently-becomes-conviction.md) | quote | teacher-growth | xuan-ji-zh-vol2 | 学生在独立完成作业中获得的知识，会被他当作个人的深刻信念来珍视 |

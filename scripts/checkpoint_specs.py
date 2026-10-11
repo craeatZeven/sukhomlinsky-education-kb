@@ -65,8 +65,8 @@ def try_push(tries=3):
     return (n == 0), n, err
 
 
-def quote_overlap(specpath):
-    """新规格各条引文 与 已有卡片全部 Excerpt 的 12 字窗重叠数（0 = 干净）。
+def quote_bad_items(specpath):
+    """返回与已有卡片 Excerpt 有 12 字窗重叠的条目 id 列表（空 = 干净）。
     用 marker 定位 unit、按 quote_from/quote_to 切片（与产卡工具同一套算法）。"""
     import sqlite3
     try:
@@ -84,7 +84,7 @@ def quote_overlap(specpath):
     oldset = set(oldtext[i:i + 12] for i in range(max(0, len(oldtext) - 11)))
     conn = sqlite3.connect(os.path.join(W, "local_working_copy", "fulltext", "corpus.db"))
     conn.row_factory = sqlite3.Row
-    bad = 0
+    bad = []
     for it in items:
         hits = list(conn.execute("SELECT text FROM units WHERE book=? AND text LIKE ?",
                                  (it.get("book"), "%" + str(it.get("marker")) + "%")))
@@ -106,7 +106,7 @@ def quote_overlap(specpath):
             q = t
         sh = set(q[k:k + 12] for k in range(max(0, len(q) - 11)))
         if sh & oldset:
-            bad += 1
+            bad.append(str(it.get("id")))
     return bad
 
 
@@ -150,17 +150,23 @@ def main():
         if key in CARDED:
             print("     （提示：该章已有卡；按 §十四 不拦截，改看引文级重叠）")
         # 引文级查重（**真正的门**）：新引文与已有卡片 Excerpt 的 12 字窗不得重叠
-        ov = quote_overlap(p)
-        if ov:
-            print("     -> 引文级查重未过：与已有 Excerpt 重叠 %d 个 12 字窗，本批不落" % ov)
-            # 归档到 _void（2026-10-10 补）：否则同一批每轮都会被重审一次
-            os.makedirs(os.path.join(S, "_void"), exist_ok=True)
-            with io.open(os.path.join(S, "_void", fn + ".VOID.md"), "w", encoding="utf-8", newline=chr(10)) as fh:
-                fh.write("# 引文级查重未过（自动）" + chr(10) + chr(10) +
-                         "与已有卡片 Excerpt 重叠 %d 个 12 字窗 -> 判定为重复引文，本批不落。" % ov + chr(10))
-            move_to("_void", p)
-            dup += 1
-            continue
+        bad_ids = quote_bad_items(p)
+        if bad_ids:
+            # 逐条剔（2026-10-11）：长尾期整批退会白丢好卡；剔掉重叠条目，>=3 条仍落
+            keep = [x for x in items if str(x.get("id")) not in bad_ids]
+            print("     -> 引文级重叠 %d 条（%s）；逐条剔除后剩 %d 条" % (len(bad_ids), ",".join(bad_ids), len(keep)))
+            if len(keep) < 3:
+                print("        剩余不足 3 条，本批不落")
+                # 只有"整批退"才归档到 _void（2026-10-10 补）：否则同一批每轮都会被重审一次
+                os.makedirs(os.path.join(S, "_void"), exist_ok=True)
+                with io.open(os.path.join(S, "_void", fn + ".VOID.md"), "w", encoding="utf-8", newline=chr(10)) as fh:
+                    fh.write("# 引文级查重未过（自动）" + chr(10) + chr(10) +
+                             "重叠条目 %d 条（%s）；逐条剔除后不足 3 条 -> 本批不落。" % (len(bad_ids), ",".join(bad_ids)) + chr(10))
+                move_to("_void", p)
+                dup += 1
+                continue
+            io.open(p, "w", encoding="utf-8", newline=chr(10)).write(json.dumps(keep, ensure_ascii=False, indent=1))
+            items = keep
         ready.append((fn, p, items))
     if not LAND:
         print("\n审计结论：可落 %d｜作废 %d｜章节重复 %d（未加 --land，不改仓库）" % (len(ready), len(void), dup))

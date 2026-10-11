@@ -4,16 +4,16 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 188 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 189 |
 | [family-school](topics/family-school.md) | 家校合作 | 384 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 333 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 335 |
 | [health-first](topics/health-first.md) | 健康第一 | 98 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 311 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 413 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 464 |
-| [love-education](topics/love-education.md) | 爱的教育 | 751 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 79 |
-| [child-study](topics/child-study.md) | 儿童研究 | 693 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 414 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 465 |
+| [love-education](topics/love-education.md) | 爱的教育 | 754 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 80 |
+| [child-study](topics/child-study.md) | 儿童研究 | 696 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 130 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 274 |
 
@@ -2254,3 +2254,15 @@
 | [sk-2219](cards/sk-2219-without-the-joy-of-creating-beauty-only-punishment-remains.md) | quote | aesthetic-nature-education | xuan-ji-zh-vol3 | 孩子若没有体验过创造美的劳动，就只剩下呵叱、强制和惩罚 |
 | [sk-2220](cards/sk-2220-the-ideal-is-that-no-child-should-know-corporal-punishment.md) | quote | love-education | xuan-ji-zh-vol3 | 我的理想是让每个孩子都不知道什么是体罚 |
 | [sk-2221](cards/sk-2221-built-relationships-teach-children-to-value-people.md) | quote | collective-education | xuan-ji-zh-vol3 | 教育里那些「构筑起来的」关系，目的是让孩子像对待宝贝一样尊重人 |
+| [sk-2222](cards/sk-2222-education-is-climbing-into-the-childs-world.md) | quote | child-study | xuan-ji-zh-vol1 | 真正的教育是攀登儿童世界，而不是居高临下的宽容 |
+| [sk-2223](cards/sk-2223-blame-children-with-great-care.md) | quote | assessment-grading | xuan-ji-zh-vol1 | 儿童会犯错误但不会蓄意做坏事，指责他们要特别慎重 |
+| [sk-2224](cards/sk-2224-collective-belief-not-on-surface-appearances.md) | quote | collective-education | xuan-ji-zh-vol1 | 不能把集体的信念建立在孩子们尚未理解的事物的表面现象上 |
+| [sk-2225](cards/sk-2225-hidden-coldness-is-a-bomb.md) | quote | love-education | xuan-ji-zh-vol1 | 深藏心底的冷酷是每分钟都可能爆炸的炸弹 |
+| [sk-2226](cards/sk-2226-teachers-power-is-the-childs-response-to-his-words.md) | quote | love-education | xuan-ji-zh-vol1 | 教师对儿童心灵的真正权力，就是儿童对他的话语的反应能力 |
+| [sk-2227](cards/sk-2227-teacher-as-defender-and-protector.md) | quote | love-education | xuan-ji-zh-vol1 | 当学生受到指控和审判时，教师只能是他的辩护人和保护人 |
+| [sk-2228](cards/sk-2228-what-educates-in-labor-is-the-mental-state.md) | quote | labor-education | xuan-ji-zh-vol5 | 劳动的教育作用不在劳动本身，而在劳动中人的精神状态 |
+| [sk-2229](cards/sk-2229-not-ordinary-but-refined-labor.md) | quote | labor-education | xuan-ji-zh-vol5 | 不是一般的劳动，而是精巧的劳动，应当成为每个人的生活实践 |
+| [sk-2230](cards/sk-2230-five-hundred-pupils-five-hundred-talents.md) | quote | child-study | xuan-ji-zh-vol5 | 等待我们塑造心灵的500名受教育者，就是500名独特的天才人物 |
+| [sk-2231](cards/sk-2231-teachers-personal-power-rests-on-being-a-master-worker.md) | quote | teacher-growth | xuan-ji-zh-vol5 | 教师的人格力量，首先在于学生看到他是出色的劳动能手 |
+| [sk-2232](cards/sk-2232-book-cramming-is-not-the-only-road-to-intelligence.md) | quote | learning-difficulties | xuan-ji-zh-vol5 | 把死啃书本当作发展智力的唯一途径，孩子的智力反而会畸形地片面发展 |
+| [sk-2233](cards/sk-2233-every-child-reaches-his-own-peak.md) | quote | child-study | xuan-ji-zh-vol5 | 要认识每个学生的个性特点，让他在每个发展阶段都达到自己的顶峰 |

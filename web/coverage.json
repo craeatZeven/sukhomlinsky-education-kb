@@ -1,5 +1,5 @@
 {
-  "total_cards": 2183,
+  "total_cards": 2187,
   "source_count": 12,
   "topic_count": 12,
   "zuoren_cards": 541,
@@ -20,7 +20,7 @@
     {
       "slug": "xuan-ji-zh-vol5",
       "title": "苏霍姆林斯基选集（五卷本）第5卷",
-      "cards": 281,
+      "cards": 285,
       "page_refs": 109
     },
     {
@@ -81,7 +81,7 @@
   "types": [
     {
       "type": "quote",
-      "cards": 1056
+      "cards": 1060
     },
     {
       "type": "case",
@@ -104,27 +104,27 @@
     {
       "slug": "love-education",
       "title": "爱的教育",
-      "cards": 742
+      "cards": 745
     },
     {
       "slug": "child-study",
       "title": "儿童研究",
-      "cards": 686
+      "cards": 687
     },
     {
       "slug": "teacher-growth",
       "title": "教师成长",
-      "cards": 459
+      "cards": 460
     },
     {
       "slug": "collective-education",
       "title": "集体教育",
-      "cards": 407
+      "cards": 408
     },
     {
       "slug": "family-school",
       "title": "家校合作",
-      "cards": 382
+      "cards": 383
     },
     {
       "slug": "labor-education",
@@ -154,7 +154,7 @@
     {
       "slug": "health-first",
       "title": "健康第一",
-      "cards": 95
+      "cards": 96
     },
     {
       "slug": "assessment-grading",

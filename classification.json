@@ -37691,5 +37691,77 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2189": {
+  "primary": "A3",
+  "seealso": [],
+  "facets": [],
+  "claim": "对儿童和童年的睿智的人道之爱以思想与精神充实为养料，精神空虚只会贻害于人",
+  "evidence": "对儿童和童年的睿智的人道之爱，是充盈着深沉的思考和丰富的思想的高尚感情。精神的空虚永远也激发不出真正的爱，也不会给这种爱提供生存的养料。冷若冰霜的淡漠、师生关系中疏而远之的怪现象，你们观察到的例子大概也不止一个。学生不能说出他们是否爱教师：",
+  "title": "精神空虚激发不出真正的爱",
+  "old_topics": [
+   "love-education",
+   "teacher-growth"
+  ],
+  "type": "quote",
+  "tags": [
+   "A3"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2190": {
+  "primary": "A8",
+  "seealso": [],
+  "facets": [],
+  "claim": "被娇宠的儿童从家庭带来“‘我怎么想就怎么做’正是原则”，故集体要求在他是侮辱，需靠愿望冲突原则教育",
+  "evidence": "在家庭里被娇宠惯了的儿童，十分任性，毫无约束，想干什么就干什么，对他们也需要施以特殊的保护性教育。有那么一部分儿童，父母没有使他们养成个人利益服从他人利益的习惯。这些儿童从家庭里带来了一条野蛮和荒谬的原则：“我怎么想就怎么做，我喜欢干就可以",
+  "title": "娇宠儿童的原则是野蛮人和无赖汉的原则",
+  "old_topics": [
+   "family-school",
+   "collective-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A8"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2191": {
+  "primary": "A5",
+  "seealso": [],
+  "facets": [],
+  "claim": "为使保护性教育不成为学生的痛苦，应唤起他对具体之人的爱心与同情心，这是防止精神孤独最好的措施",
+  "evidence": "为了不使这种教育变成学生的痛苦，应善于接触他那颗病态的、受到损害的心。唤起对他人的爱心和同情心，唤起对教师或年长同学、对某位感到同样孤独的老爷爷或老奶奶、对失去孩子的母亲等的爱心和同情心，乃是防止精神孤独的最好的保护指施。",
+  "title": "唤起对他人的爱心和同情心，是防止精神孤独最好的措施",
+  "old_topics": [
+   "love-education",
+   "health-first"
+  ],
+  "type": "quote",
+  "tags": [
+   "A5"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2192": {
+  "primary": "A21",
+  "seealso": [],
+  "facets": [],
+  "claim": "儿童天性乐观，乐观主义是童年的构成条件；热爱儿童意味着热爱童年，不可折损这种明快情绪",
+  "evidence": "就天性而言，儿童是乐观主义者。他们的特性是在感知世界时都怀着明朗、愉快和欢悦的情绪。热爱儿童—意味着热爱童年。而乐观主义对于童年说来，恰似闪耀着七色光彩的彩虹：没有乐观主义，也就没有童年。",
+  "title": "乐观主义对童年恰似七色光彩的彩虹",
+  "old_topics": [
+   "love-education",
+   "child-study"
+  ],
+  "type": "quote",
+  "tags": [
+   "A21"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

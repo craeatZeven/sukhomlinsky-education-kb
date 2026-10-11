@@ -5,15 +5,15 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 188 |
-| [family-school](topics/family-school.md) | 家校合作 | 382 |
+| [family-school](topics/family-school.md) | 家校合作 | 383 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 332 |
-| [health-first](topics/health-first.md) | 健康第一 | 95 |
+| [health-first](topics/health-first.md) | 健康第一 | 96 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 308 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 407 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 459 |
-| [love-education](topics/love-education.md) | 爱的教育 | 742 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 408 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 460 |
+| [love-education](topics/love-education.md) | 爱的教育 | 745 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 76 |
-| [child-study](topics/child-study.md) | 儿童研究 | 686 |
+| [child-study](topics/child-study.md) | 儿童研究 | 687 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 129 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 273 |
 
@@ -2221,3 +2221,7 @@
 | [sk-2186](cards/sk-2186-hard-learning-is-honourable.md) | quote | learning-difficulties | xuan-ji-zh-vol1 | 学习越艰苦，战胜学习困难的人就越光荣 |
 | [sk-2187](cards/sk-2187-teacher-as-caller.md) | quote | teacher-growth | xuan-ji-zh-vol1 | 真正的教师不是单纯传授知识，而是在号召年轻公民跟随自己前进 |
 | [sk-2188](cards/sk-2188-collective-search-for-thought.md) | quote | thinking-and-nature | xuan-ji-zh-vol1 | 整个集体一起寻找思想源泉，让孩子感受思维之美 |
+| [sk-2189](cards/sk-2189-ruizhi-de-ren-dao-zhi-ai.md) | quote | love-education / teacher-growth | xuan-ji-zh-vol5 | 睿智的人道之爱以思想和精神充实为养料 |
+| [sk-2190](cards/sk-2190-jiao-chong-huai-le-de-er-tong.md) | quote | family-school / collective-education | xuan-ji-zh-vol5 | 被娇宠惯了的儿童带来“我怎么想就怎么做”的家庭原则 |
+| [sk-2191](cards/sk-2191-fang-zhi-jing-shen-gu-du-de-bao-hu-cuo-shi.md) | quote | love-education / health-first | xuan-ji-zh-vol5 | 防止精神孤独最好的保护措施是唤起对他人的爱心 |
+| [sk-2192](cards/sk-2192-le-guan-zhu-yi-shi-tong-nian-de-cai-hong.md) | quote | love-education / child-study | xuan-ji-zh-vol5 | 热爱儿童就是热爱童年：没有乐观主义就没有童年 |

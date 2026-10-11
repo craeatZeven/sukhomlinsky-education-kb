@@ -1,5 +1,5 @@
 {
-  "total_cards": 2205,
+  "total_cards": 2216,
   "source_count": 12,
   "topic_count": 12,
   "zuoren_cards": 541,
@@ -14,7 +14,7 @@
     {
       "slug": "xuan-ji-zh-vol2",
       "title": "苏霍姆林斯基选集（五卷本）第2卷",
-      "cards": 358,
+      "cards": 363,
       "page_refs": 45
     },
     {
@@ -32,7 +32,7 @@
     {
       "slug": "xuan-ji-zh-vol3",
       "title": "苏霍姆林斯基选集（五卷本）第3卷",
-      "cards": 251,
+      "cards": 257,
       "page_refs": 51
     },
     {
@@ -81,7 +81,7 @@
   "types": [
     {
       "type": "quote",
-      "cards": 1078
+      "cards": 1089
     },
     {
       "type": "case",
@@ -104,27 +104,27 @@
     {
       "slug": "love-education",
       "title": "爱的教育",
-      "cards": 748
+      "cards": 751
     },
     {
       "slug": "child-study",
       "title": "儿童研究",
-      "cards": 691
+      "cards": 693
     },
     {
       "slug": "teacher-growth",
       "title": "教师成长",
-      "cards": 463
+      "cards": 464
     },
     {
       "slug": "collective-education",
       "title": "集体教育",
-      "cards": 412
+      "cards": 413
     },
     {
       "slug": "family-school",
       "title": "家校合作",
-      "cards": 383
+      "cards": 384
     },
     {
       "slug": "labor-education",
@@ -134,7 +134,7 @@
     {
       "slug": "aesthetic-nature-education",
       "title": "美育与自然",
-      "cards": 309
+      "cards": 311
     },
     {
       "slug": "thinking-and-nature",
@@ -159,7 +159,7 @@
     {
       "slug": "assessment-grading",
       "title": "评价与分数",
-      "cards": 78
+      "cards": 79
     }
   ]
 }

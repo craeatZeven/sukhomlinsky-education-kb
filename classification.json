@@ -38073,5 +38073,192 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2211": {
+  "primary": "A22",
+  "seealso": [],
+  "facets": [],
+  "claim": "教师的话语是教师本人的信念与孩子渴望成为好人之间的沟通；只有把两端连接起来才可能进行真正的教育，而创造人的接受教育性正是道德教育的一条红线。",
+  "evidence": "我认为教师的话语，是深信自己的观点、见解、世界观正确与美的人，与渴望成为好人的心灵之间最必要、最细微的沟通。请注意，这里的沟通是指信念与渴望成为好人、力求今天比昨天更好两者之间的沟通。只有把这两者连接起来，才可能进行真正的教育。由此可见，只",
+  "title": "创造接受教育性是道德教育的红线",
+  "old_topics": [
+   "teacher-growth"
+  ],
+  "type": "quote",
+  "tags": [
+   "A22"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2212": {
+  "primary": "A19",
+  "seealso": [],
+  "facets": [],
+  "claim": "孩子为他人幸福贡献自己精神力量的道德尝试，能让他像从旁人的眼睛那样看到自己；童年有过这种体验的人，独处时也会是正直的人。",
+  "evidence": "为人们的幸福贡献自己精神力量的道德尝试会给予幼龄儿童以非常重要的能力，仿佛使他从旁的方面，以他人的眼光能看到自己，感到自己心灵、自己行为的坦诚。凡是在童年能以自己的道德尝试感受过那种生活上最崇高的幸福的人—哪怕只是把自己心灵中的一点一滴奉献",
+  "title": "道德尝试让儿童以他人眼光看自己",
+  "old_topics": [
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A19"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2213": {
+  "primary": "A21",
+  "seealso": [],
+  "facets": [],
+  "claim": "小学教育时期是人接受教育的界线、最重要的时期；正是在这个时期，应当培养为他人幸福的那种慷慨胸怀——它是贪求他人给予的反面。",
+  "evidence": "我坚信小学教育时期，则是最重要的一个时期，这个时期正是人需要受教育的一个界线，包括对人需要形成期的那个界线。正是在这个时期，应当去培养为他人幸福的那种慷慨胸怀，而这种慷慨胸怀，恰似那种贪婪地对人的需要的反面。",
+  "title": "小学教育时期是最重要的时期",
+  "old_topics": [
+   "child-study"
+  ],
+  "type": "quote",
+  "tags": [
+   "A21"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2214": {
+  "primary": "A5",
+  "seealso": [],
+  "facets": [],
+  "claim": "深切信赖他人是使人成为有教养的人的一个条件：要让孩子把道德原则、规则看作不可违背的真理，感到自己的手掌握在他无限信赖的、道德上是楷模的那个人手中。",
+  "evidence": "第三，深深地信赖他人，也能使人成为有教养的人。对孩子来说，首先要使道德原则、规则，标准成为无可争议的、不可违背的真理，形象地说，他应当感到自己的手掌握在无限信赖的那个人手中，那个在道德上是楷模的人令孩子珍视，敬重，而且受其崇高精神所鼓舞。",
+  "title": "深度信赖使人成为有教养的人",
+  "old_topics": [
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A5"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2215": {
+  "primary": "A14",
+  "seealso": [],
+  "facets": [],
+  "claim": "美育的理想是让孩子实实在在看到美、把美化作自己精神生活的一部分，并时时感到语言与形象的美；这是每颗心都期望亲身而精细地领略的事。",
+  "evidence": "我的理想就在于使每个孩子能实实在在看到美，让他们对着美惊叹不已，把美的东西化作自己精神生活中的一部分，经常感到语言和形象的美。在教育的这个领域里，每颗心都在期望能亲身而且非常精细地领略到这点。",
+  "title": "让每个孩子实实在在看到美",
+  "old_topics": [
+   "aesthetic-nature-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A14"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2216": {
+  "primary": "A21",
+  "seealso": [],
+  "facets": [],
+  "claim": "少年期的道德缺陷根子在童年期：童年期是打基础的时期，雕琢靠父母、教师和社会。",
+  "evidence": "随着我对少年期令人担忧的种种表现的日益关切，我越来越清楚地感到，童年期的教育不能草率从事，不能怕麻烦。童年期是个人打基础的时期。大自然不会去雕琢人的任何一个特点，它只会打下一个烙印；应该去做雕琢工作的是我们—父母、教师、社会。",
+  "title": "童年期是个人打基础的时期",
+  "old_topics": [
+   "child-study"
+  ],
+  "type": "quote",
+  "tags": [
+   "A21"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2217": {
+  "primary": "A16",
+  "seealso": [],
+  "facets": [],
+  "claim": "教师把不良行为或成绩不好告诉父亲、父亲就打孩子——这条链条是教育者自己的耻辱。",
+  "evidence": "教育中的皮带和拳头……这是我们教育工作者的耻辱其所以是耻辱，是由于儿童往往怕到学校里去，怕到这个意味着人道、善良和真理的神圣场所去，因为他们知道：教师会把他们的不良行为或者学习成绩不好告诉父亲，而父亲就要打他们。这不是抽象的图解，而是痛苦的",
+  "title": "皮带和拳头是教育者的耻辱",
+  "old_topics": [
+   "assessment-grading"
+  ],
+  "type": "quote",
+  "tags": [
+   "A16"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2218": {
+  "primary": "A8",
+  "seealso": [],
+  "facets": [],
+  "claim": "把家长叫来告状等于借家长的手体罚学生：教师伤害了人的尊严，成了从犯。",
+  "evidence": "教师，请您记住，如果我知道我的格里茨科或者彼得的父亲是一个上帝只赋予他生孩子本领的人，而我却把这位有能耐的家长叫到学校里来对他说：“您的格里茨科是个懒汉，他不想学习”，这样就会出现最简单的现象——我用他父亲的手来打格里茨科。我伤害了人的尊严",
+  "title": "用家长的手打学生，我成了从犯",
+  "old_topics": [
+   "family-school"
+  ],
+  "type": "quote",
+  "tags": [
+   "A8"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2219": {
+  "primary": "A14",
+  "seealso": [],
+  "facets": [],
+  "claim": "儿童若不为创造美的劳动所激动，就只能接受呵叱、强制、惩罚这套原始的教育方式。",
+  "evidence": "生活向我们证明：如果一个儿童对充满了为人们创造出美这一崇高思想的劳动不理解，那么他的内心就不能用细腻、体贴和容易感受的态度去对待那种细致而又“温柔的”教育方法，他变得迟钝，只能领悟原始的“教育方式”：大声呵叱、强制、惩罚。由此而形成了少年们",
+  "title": "没有创造美的体验，只剩惩罚式教育",
+  "old_topics": [
+   "aesthetic-nature-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A14"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2220": {
+  "primary": "A5",
+  "seealso": [],
+  "facets": [],
+  "claim": "在相互信任的家庭里长大的孩子对教育者的话格外敏感；让他们根本不知道体罚为何物，是教育者的理想。",
+  "evidence": "我认识一些儿童，他们甚至不能想像，一个人可以打另外一个人。在他们成长的家庭里，相互之间的关系都是细致入微的精神心理关系，大人和孩子之间充满了相互信任的气氛。这些儿童都具有对教育者的话非常敏感的特点。我要使每个儿童都不知道，什么是体罚的“教育",
+  "title": "让每个孩子都不知道什么是体罚",
+  "old_topics": [
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A5"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2221": {
+  "primary": "A9",
+  "seealso": [],
+  "facets": [],
+  "claim": "教育要有意「构筑」人与人之间的关系，让孩子从小学会像对待最珍贵的宝贝那样尊重人。",
+  "evidence": "儿童是决不可能成为犯罪分子的，决不会有意识地去犯罪(对病态的情况需要进行专门研究)，但我尽力做更多的工作，务必使我的每一个学生在成为少年之后，也决不允许自己去犯罪。在教育工作中有很多专门建立的、人为确定的、“构筑起来的”人与人之间的关系，其",
+  "title": "构筑起来的关系教孩子尊重人",
+  "old_topics": [
+   "collective-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A9"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

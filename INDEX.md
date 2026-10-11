@@ -5,15 +5,15 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 188 |
-| [family-school](topics/family-school.md) | 家校合作 | 383 |
+| [family-school](topics/family-school.md) | 家校合作 | 384 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 333 |
 | [health-first](topics/health-first.md) | 健康第一 | 98 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 309 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 412 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 463 |
-| [love-education](topics/love-education.md) | 爱的教育 | 748 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 78 |
-| [child-study](topics/child-study.md) | 儿童研究 | 691 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 311 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 413 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 464 |
+| [love-education](topics/love-education.md) | 爱的教育 | 751 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 79 |
+| [child-study](topics/child-study.md) | 儿童研究 | 693 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 130 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 274 |
 
@@ -2243,3 +2243,14 @@
 | [sk-2208](cards/sk-2208-when-to-talk-about-love.md) | quote | love-education | xuan-ji-zh-vol1 | 谈爱情要等学生自己来问，前提是他信任你 |
 | [sk-2209](cards/sk-2209-love-like-carving-marble.md) | quote | love-education | xuan-ji-zh-vol1 | 想成为真正的女子，如同在采石场里雕琢大理石 |
 | [sk-2210](cards/sk-2210-conditions-for-boys-without-girls-inferiority.md) | quote | child-study | xuan-ji-zh-vol1 | 为男孩的成长创造条件，但不能让女孩觉得自己不如男孩 |
+| [sk-2211](cards/sk-2211-educability-is-the-red-line-of-moral-education.md) | quote | teacher-growth | xuan-ji-zh-vol2 | 创造人的接受教育性，乃是道德教育的一条红线 |
+| [sk-2212](cards/sk-2212-moral-giving-lets-a-child-see-himself-through-others.md) | quote | love-education | xuan-ji-zh-vol2 | 为他人幸福贡献精神力量的道德尝试，让儿童以他人的眼光看到自己 |
+| [sk-2213](cards/sk-2213-primary-school-period-is-the-boundary-of-educability.md) | quote | child-study | xuan-ji-zh-vol2 | 我坚信小学教育时期是最重要的一个时期，是人为受教育划出的界线 |
+| [sk-2214](cards/sk-2214-deep-trust-makes-a-person-educated.md) | quote | love-education | xuan-ji-zh-vol2 | 深深地信赖他人，也能使人成为有教养的人 |
+| [sk-2215](cards/sk-2215-let-every-child-truly-see-beauty.md) | quote | aesthetic-nature-education | xuan-ji-zh-vol2 | 我的理想就在于使每个孩子能实实在在看到美，对着美惊叹不已 |
+| [sk-2216](cards/sk-2216-childhood-is-the-foundation-of-the-whole-person.md) | quote | child-study | xuan-ji-zh-vol3 | 童年期是个人打基础的时期：雕琢的工作在父母、教师和社会手里 |
+| [sk-2217](cards/sk-2217-telling-the-father-about-bad-marks-puts-a-whip-in-his-hands.md) | quote | assessment-grading | xuan-ji-zh-vol3 | 教育中的皮带和拳头，是我们教育工作者的耻辱 |
+| [sk-2218](cards/sk-2218-using-the-fathers-hand-means-i-became-an-accomplice.md) | quote | family-school | xuan-ji-zh-vol3 | 把家长叫来告状，就是用他父亲的手打他——我成了从犯 |
+| [sk-2219](cards/sk-2219-without-the-joy-of-creating-beauty-only-punishment-remains.md) | quote | aesthetic-nature-education | xuan-ji-zh-vol3 | 孩子若没有体验过创造美的劳动，就只剩下呵叱、强制和惩罚 |
+| [sk-2220](cards/sk-2220-the-ideal-is-that-no-child-should-know-corporal-punishment.md) | quote | love-education | xuan-ji-zh-vol3 | 我的理想是让每个孩子都不知道什么是体罚 |
+| [sk-2221](cards/sk-2221-built-relationships-teach-children-to-value-people.md) | quote | collective-education | xuan-ji-zh-vol3 | 教育里那些「构筑起来的」关系，目的是让孩子像对待宝贝一样尊重人 |

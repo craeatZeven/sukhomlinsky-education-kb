@@ -7,13 +7,13 @@
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 188 |
 | [family-school](topics/family-school.md) | 家校合作 | 383 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 333 |
-| [health-first](topics/health-first.md) | 健康第一 | 97 |
+| [health-first](topics/health-first.md) | 健康第一 | 98 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 309 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 410 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 412 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 463 |
-| [love-education](topics/love-education.md) | 爱的教育 | 746 |
+| [love-education](topics/love-education.md) | 爱的教育 | 748 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 78 |
-| [child-study](topics/child-study.md) | 儿童研究 | 690 |
+| [child-study](topics/child-study.md) | 儿童研究 | 691 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 130 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 274 |
 
@@ -2237,3 +2237,9 @@
 | [sk-2202](cards/sk-2202-no-cheap-praise.md) | quote | assessment-grading | xuan-ji-zh-vol1 | 不能让集体表扬轻易取得的成绩 |
 | [sk-2203](cards/sk-2203-ability-not-fated.md) | quote | child-study | xuan-ji-zh-vol1 | 能力不是命定的，自我要求的标准要随能力一起提高 |
 | [sk-2204](cards/sk-2204-self-demand-as-skill.md) | quote | teacher-growth | xuan-ji-zh-vol1 | 掌握学生的自我要求标准，是一种教育技能 |
+| [sk-2205](cards/sk-2205-boys-moral-influence-through-girls.md) | quote | collective-education | xuan-ji-zh-vol1 | 集体对男生的道德影响，要经过女生的荣誉感和尊严感 |
+| [sk-2206](cards/sk-2206-unspoken-competition-in-collective.md) | quote | collective-education | xuan-ji-zh-vol1 | 男女学生间的学习竞赛一说破就失效，这就是集体影响的艺术 |
+| [sk-2207](cards/sk-2207-strong-body-soil-of-character.md) | quote | health-first | xuan-ji-zh-vol1 | 健壮的体格是高尚品格赖以播种的土壤 |
+| [sk-2208](cards/sk-2208-when-to-talk-about-love.md) | quote | love-education | xuan-ji-zh-vol1 | 谈爱情要等学生自己来问，前提是他信任你 |
+| [sk-2209](cards/sk-2209-love-like-carving-marble.md) | quote | love-education | xuan-ji-zh-vol1 | 想成为真正的女子，如同在采石场里雕琢大理石 |
+| [sk-2210](cards/sk-2210-conditions-for-boys-without-girls-inferiority.md) | quote | child-study | xuan-ji-zh-vol1 | 为男孩的成长创造条件，但不能让女孩觉得自己不如男孩 |

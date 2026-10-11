@@ -5,15 +5,15 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 189 |
-| [family-school](topics/family-school.md) | 家校合作 | 384 |
+| [family-school](topics/family-school.md) | 家校合作 | 385 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 335 |
 | [health-first](topics/health-first.md) | 健康第一 | 98 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 311 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 414 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 465 |
-| [love-education](topics/love-education.md) | 爱的教育 | 754 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 467 |
+| [love-education](topics/love-education.md) | 爱的教育 | 756 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 80 |
-| [child-study](topics/child-study.md) | 儿童研究 | 696 |
+| [child-study](topics/child-study.md) | 儿童研究 | 697 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 130 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 274 |
 
@@ -2266,3 +2266,9 @@
 | [sk-2231](cards/sk-2231-teachers-personal-power-rests-on-being-a-master-worker.md) | quote | teacher-growth | xuan-ji-zh-vol5 | 教师的人格力量，首先在于学生看到他是出色的劳动能手 |
 | [sk-2232](cards/sk-2232-book-cramming-is-not-the-only-road-to-intelligence.md) | quote | learning-difficulties | xuan-ji-zh-vol5 | 把死啃书本当作发展智力的唯一途径，孩子的智力反而会畸形地片面发展 |
 | [sk-2233](cards/sk-2233-every-child-reaches-his-own-peak.md) | quote | child-study | xuan-ji-zh-vol5 | 要认识每个学生的个性特点，让他在每个发展阶段都达到自己的顶峰 |
+| [sk-2234](cards/sk-2234-ability-to-love-children-is-cultivated-in-life.md) | quote | teacher-growth | xuan-ji-zh-vol4 | 学会爱孩子不可能在任何学府或书本中学到，它是在人际交往中锻炼出来的 |
+| [sk-2235](cards/sk-2235-study-what-each-child-cares-about.md) | quote | child-study | xuan-ji-zh-vol4 | 研究每个孩子把主要精力倾注在什么上面，是教师工作的起点 |
+| [sk-2236](cards/sk-2236-real-friendship-between-teacher-and-children.md) | quote | love-education | xuan-ji-zh-vol4 | 没有教师和孩子间的真正友爱，没有高尚道德作基础，就不能想像让所有孩子都来上学 |
+| [sk-2237](cards/sk-2237-sympathy-friendship-collectivism-must-enter-school-life.md) | quote | teacher-growth | xuan-ji-zh-vol4 | 同情、友爱、集体主义，每个教师都应当把这些带进学校的精神生活 |
+| [sk-2238](cards/sk-2238-do-not-probe-childrens-past-bluntly.md) | quote | love-education | xuan-ji-zh-vol4 | 弄清孩子的情况是必须的，但要做得让他察觉不到我们的探询 |
+| [sk-2239](cards/sk-2239-principal-should-study-every-childs-home-environment.md) | quote | family-school | xuan-ji-zh-vol4 | 校长要像医生研究体质那样，分析研究儿童入学前的生活环境 |

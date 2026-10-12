@@ -6,12 +6,12 @@
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 189 |
 | [family-school](topics/family-school.md) | 家校合作 | 386 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 339 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 341 |
 | [health-first](topics/health-first.md) | 健康第一 | 98 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 312 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 414 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 469 |
-| [love-education](topics/love-education.md) | 爱的教育 | 756 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 471 |
+| [love-education](topics/love-education.md) | 爱的教育 | 758 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 81 |
 | [child-study](topics/child-study.md) | 儿童研究 | 700 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 130 |
@@ -2290,3 +2290,9 @@
 | [sk-2255](cards/sk-2255-inner-speech-lets-the-adolescent-focus.md) | quote | thinking-and-nature | xuan-ji-zh-vol1 | 少年靠内部言语把思想集中到一件事上 |
 | [sk-2256](cards/sk-2256-speech-is-the-channel-of-spiritual-growth.md) | quote | thinking-and-nature | xuan-ji-zh-vol1 | 精神发展的各条渠道都要经过言语 |
 | [sk-2257](cards/sk-2257-teaching-speech-steers-thinking-into-the-right-track.md) | quote | thinking-and-nature | xuan-ji-zh-vol1 | 培养少年掌握言语，就是把他的思维引上正确轨道 |
+| [sk-2258](cards/sk-2258-teacher-ability-turns-creativity-into-education.md) | quote | teacher-growth | xuan-ji-zh-vol5 | 教师能力的本质，是把创造性的思维和劳动变为育人的手段 |
+| [sk-2259](cards/sk-2259-good-teacher-first-believes-in-human-strength.md) | quote | love-education | xuan-ji-zh-vol5 | 好教师的主要条件，是相信人的力量、善于发现人的积极因素 |
+| [sk-2260](cards/sk-2260-develop-everyones-creative-gift-through-labor.md) | quote | labor-education | xuan-ji-zh-vol5 | 开发每个人的创造天赋，让他从创造性劳动中感受到生活的乐趣 |
+| [sk-2261](cards/sk-2261-labor-itself-is-joy-teacher-must-foster-love-of-work.md) | quote | labor-education | xuan-ji-zh-vol5 | 劳动本身就能带来乐趣，教师要把学生培养成热爱劳动的人 |
+| [sk-2262](cards/sk-2262-knowledge-must-awaken-the-dignity-of-the-child.md) | quote | love-education | xuan-ji-zh-vol5 | 知识不是能直接放进头脑里的东西，要先唤醒学生做人的尊严 |
+| [sk-2263](cards/sk-2263-when-every-child-wants-to-create-all-teachers-become-educators.md) | quote | teacher-growth | xuan-ji-zh-vol5 | 到了每个孩子都渴求创造的那天，所有教师都要成为教育家 |

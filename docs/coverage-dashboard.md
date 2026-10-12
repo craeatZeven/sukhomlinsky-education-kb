@@ -5,7 +5,7 @@
 
 ## 总览
 
-- 卡片总数：**2276**
+- 卡片总数：**2288**
 - 来源数：**12**
 - 主题数：**12**
 - 《做人的故事》：**541 张卡 / 540 个目录标题**
@@ -18,9 +18,9 @@
 | 苏霍姆林斯基选集（五卷本）第2卷（`xuan-ji-zh-vol2`） | 375 | 45/375 |
 | 苏霍姆林斯基选集（五卷本）第5卷（`xuan-ji-zh-vol5`） | 297 | 109/297 |
 | 苏霍姆林斯基选集（五卷本）第4卷（`xuan-ji-zh-vol4`） | 270 | 41/270 |
+| 苏霍姆林斯基选集（五卷本）第1卷（`xuan-ji-zh-vol1`） | 266 | 36/266 |
 | 苏霍姆林斯基选集（五卷本）第3卷（`xuan-ji-zh-vol3`） | 263 | 51/263 |
-| 苏霍姆林斯基选集（五卷本）第1卷（`xuan-ji-zh-vol1`） | 260 | 36/260 |
-| 给教师的建议（`gei-jiao-shi-de-jian-yi-zh`） | 132 | 23/132 |
+| 给教师的建议（`gei-jiao-shi-de-jian-yi-zh`） | 138 | 23/138 |
 | 把心献给孩子（`ba-xin-xian-gei-hai-zi-zh`） | 47 | 0/47 |
 | On Education（`on-education`） | 41 | 0/41 |
 | To Children I Give My Heart（`to-children-i-give-my-heart`） | 22 | 0/22 |
@@ -31,7 +31,7 @@
 
 | 类型 | 数量 |
 |---|---:|
-| `quote` | 1149 |
+| `quote` | 1161 |
 | `case` | 673 |
 | `principle` | 194 |
 | `method` | 164 |
@@ -43,13 +43,13 @@
 |---|---:|
 | 爱的教育（`love-education`） | 761 |
 | 儿童研究（`child-study`） | 701 |
-| 教师成长（`teacher-growth`） | 474 |
-| 集体教育（`collective-education`） | 417 |
+| 教师成长（`teacher-growth`） | 475 |
+| 集体教育（`collective-education`） | 421 |
 | 家校合作（`family-school`） | 386 |
-| 劳动教育（`labor-education`） | 344 |
+| 劳动教育（`labor-education`） | 349 |
 | 美育与自然（`aesthetic-nature-education`） | 313 |
-| 思维课与大自然（`thinking-and-nature`） | 282 |
-| 学习困难学生（`learning-difficulties`） | 190 |
+| 思维课与大自然（`thinking-and-nature`） | 288 |
+| 学习困难学生（`learning-difficulties`） | 191 |
 | 阅读与书籍（`reading-and-books`） | 130 |
 | 健康第一（`health-first`） | 98 |
 | 评价与分数（`assessment-grading`） | 82 |

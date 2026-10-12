@@ -39280,5 +39280,214 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2282": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "劳动是否令人厌烦取决于其中有没有研究的意图；这种意图不会自然生成，必须由教师有意灌输、把学生的求知欲点燃起来。",
+  "evidence": "课外小组的活动带有研究的性质。当我的学生进入少年期的时候，学校里有几个少年育种家和土壤研究小组。男女学生挑选种子，收集和保存肥料，把它们掺进土壤，并且把地段重新掘松。如果没有进行研究的意图鼓舞着他们，那末这些劳动一定显得单调乏味和令人厌烦。",
+  "title": "研究的意图要点燃出来",
+  "old_topics": [
+   "thinking-and-nature",
+   "labor-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2283": {
+  "primary": "A11",
+  "seealso": [],
+  "facets": [],
+  "claim": "体力劳动本身不是目的，只是实现意图的手段；双手在执行中检验设想，反过来逼着思维更积极地工作，并带来人格尊严的感受。",
+  "evidence": "紧张的体力劳动从来就不是最终目标，而只是实现既定意图的手段。思考是主要的。但双手也不是消极的执行者。手能使头脑变聪明。跟少年设计者们一起劳动，看见他们的双手好象在检验着各种设想和猜测，这一切帮助我们这些当教师的人懂得了这种教学的奥妙以及它的",
+  "title": "手能使头脑变聪明",
+  "old_topics": [
+   "labor-education",
+   "thinking-and-nature"
+  ],
+  "type": "quote",
+  "tags": [
+   "A11"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2284": {
+  "primary": "A11",
+  "seealso": [],
+  "facets": [],
+  "claim": "学习与劳动的结合在于边干活边思考：双手的精确动作实现同样精确的设想，使少年成为研究者，去发现真理而不是消费现成知识。",
+  "evidence": "我认为，学习和劳动的结合，就在于干活时思考和思考时干活。每一个少年都要在好几年的时间内受到这种创造性劳动的训练。我曾经苦苦思索过这个问题：这种训练怎样在智力发展上反映出来呢？生活做出了富有教益的回答：通过思维和体力劳动的结合，双手的精确动作",
+  "title": "干活时思考，思考时干活",
+  "old_topics": [
+   "labor-education",
+   "thinking-and-nature"
+  ],
+  "type": "quote",
+  "tags": [
+   "A11"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2285": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "经过创造性劳动训练的学生会自觉避开背不理解的东西：遇到新公式先要弄清它概括了什么，像用手和手指触摸机器零件那样先确认实感。",
+  "evidence": "凡是经过这种创造性劳动训练的学生，都能自觉地避免去背诵不理解的东西。譬如尼娜和彼特里克，在代数、几何、物理课上写下一条新的公式时，他们很自然地有一种对它先想一想的需要，深入思考一下这条公式所概括的是哪些东西。这对他们来说是必要的，正象有必要",
+  "title": "创造性劳动训练抵制死记硬背",
+  "old_topics": [
+   "thinking-and-nature"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2286": {
+  "primary": "A11",
+  "seealso": [],
+  "facets": [],
+  "claim": "长周期的劳动里，越接近完成，学生的劲头越足，对已经做出来的越珍惜，对有关质量的意见也越能虚心接受。",
+  "evidence": "在整整的一年时间里，尤尔柯、托里亚、尼娜、舒尔柯、谢尔盖、济娜、费佳、沃洛佳把心思扑在这台机械上。他们按照劳动教师绘制的图纸，切割呀，锯呀，车呀，磨呀，忙个不停。工作越接近于完成，他们的劲头就越足，对已经做到的就越珍惜，对有关工作质量的意见",
+  "title": "接近完成时劲头最足",
+  "old_topics": [
+   "labor-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A11"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2287": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "思维迟钝的学生会陷入智力上的内在疲劳，精神力量眼看耗尽；用带研究性、发现真理性质的劳动唤起思想，是阻止这种消耗的办法，而它对学习能力强的学生同样必要。",
+  "evidence": "我的学生中有一些人思维比较迟钝，他们要花很大的力气去理解数学、物理、化学、历史上的概括性的原理和规律性。有时候，你会觉得，他们的内部的精神力量和动力眼看就要消耗殆尽了，无能为力的情况眼看就要来临了，他们的头脑即将停止对知识的思考。假若不是用",
+  "title": "内耗的苗头要用劳动接住",
+  "old_topics": [
+   "learning-difficulties",
+   "thinking-and-nature"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2288": {
+  "primary": "A19",
+  "seealso": [],
+  "facets": [],
+  "claim": "集体中「知识必须靠自己努力获得、抄袭可耻」这类信念，不是靠教师宣布，而是由教师日常的劳动与献身精神感染出来的。",
+  "evidence": "正是体现在这位优秀教师日常工作中的上述原则吸引并鼓舞着学生。当学生们深夜看见阿丽先科屋里亮着灯时，他们便怀着爱戴、敬仰和激动的心情跨进她的门槛。他们来到了一个令人迷恋的思想、劳动和忠于崇高理想的境界。老师和一些同学一连几小时坐在桌旁演算一些",
+  "title": "信念从教师的样子长出来",
+  "old_topics": [
+   "collective-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A19"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2289": {
+  "primary": "A9",
+  "seealso": [],
+  "facets": [],
+  "claim": "集体劳动能否给学生道德锻炼，取决于它是否与对大家、社会、祖国尽义务的意识相连；连着义务感的劳动才带来真正的满足，劳动加义务感才是集体的教育基础。",
+  "evidence": "集体的义务劳动和由义务感所产生的各种关系为集体的教育工作打下了基础。多年来，在我们的教育集体中形成了一条非常重要的信念：年轻人在劳动中能否得到道德上的锻炼，在于他们在对大家、社会、祖国尽自已义务的同时，能否感受到--种莫大的幸福和充分的满足",
+  "title": "劳动里的道德锻炼靠义务感",
+  "old_topics": [
+   "labor-education",
+   "collective-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A9"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2290": {
+  "primary": "A19",
+  "seealso": [],
+  "facets": [],
+  "claim": "集体工作里最难也最重要的是用一套正确的人生观体系武装学生；没有对邪恶与虚伪毫不妥协的激情，这个体系建立不起来，善与美便无法占据青少年的心灵。",
+  "evidence": "我认为集体工作中最重要也是最困难的，是用正确的人生观的体系武装受教育者。为了建立集体的思想和公民精神基础，我向青少年心灵中灌输的一切都渗透着这样的精神：最幸福的生活是充满着崇高、美好的共产主义思想的生活。如果没有强烈的激情，如果不对邪恶、虚",
+  "title": "武装人生的是一套体系",
+  "old_topics": [
+   "collective-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A19"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2291": {
+  "primary": "A2",
+  "seealso": [],
+  "facets": [],
+  "claim": "义务感必须对父母、同志、集体、社会和祖国同时成立，并像一条红线贯穿人的一生；不懂义务、没有义务感，既谈不上人的道德，也谈不上集体。",
+  "evidence": "在我努力给学生们阐明的正确人生观的体系中，尽义务的思想起着重大作用。我以许多鲜明的、令人信服的事实揭示这样一种思想：对父母和同志、对集体和社会、对人民和祖国的义务感要像一条红线一样贯穿人的一生。不懂得什么是义务和缺乏义务感，就谈不上人的道德",
+  "title": "义务感是人生的红线",
+  "old_topics": [
+   "collective-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A2"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2292": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "用知识教育学生不是把现成知识塞进头脑，而是要在青少年心里树立自觉的学习态度与自己的见解；教师的活动本身是一种思想生活、一种激起学生求知欲的才能。",
+  "evidence": "为了使集体受到教师的和谐一致的理想、信念、兴致、趣昧、好恶等崇高精神的鼓舞，需要些什么呢？首先需要教师具有高深的学问。用列宁的话说，要具有真正的学问。20我们教师必须深刻而又严肃地认识到我们是在用思想和知识教育人的这一真理。我们的活动是一种",
+  "title": "知识不是塞进去的成品",
+  "old_topics": [
+   "thinking-and-nature"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2293": {
+  "primary": "A10",
+  "seealso": [],
+  "facets": [],
+  "claim": "教师的威信是智慧与心灵的结晶，只有当教师的言行一致（理想、信念、好恶都和谐统一）时才能建立；这种威信的基础是教师作为学生榜样的活动。",
+  "evidence": "教师的威信是教师的智慧和心灵的结晶，是使集体树立尊重自己的理想、原则和信念的能力。只有和谐一致，即前面所讲的教师言行一致，才能使教师树立起成为巨大教育力量的威信。教师的活动（指成为学生榜样的活动）是建立自己威信的基础。",
+  "title": "威信是言行一致的结晶",
+  "old_topics": [
+   "teacher-growth"
+  ],
+  "type": "quote",
+  "tags": [
+   "A10"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

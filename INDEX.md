@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 190 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 191 |
 | [family-school](topics/family-school.md) | 家校合作 | 386 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 344 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 349 |
 | [health-first](topics/health-first.md) | 健康第一 | 98 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 313 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 417 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 474 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 421 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 475 |
 | [love-education](topics/love-education.md) | 爱的教育 | 761 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 82 |
 | [child-study](topics/child-study.md) | 儿童研究 | 701 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 130 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 282 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 288 |
 
 ## 来源 Sources
 
@@ -2314,3 +2314,15 @@
 | [sk-2279](cards/sk-2279-never-say-a-student-has-reached-his-limit.md) | quote | teacher-growth | gei-jiao-shi-de-jian-yi-zh | 教师永远不能说这个学生已经到达极限 |
 | [sk-2280](cards/sk-2280-fruitless-work-shames-a-child.md) | quote | learning-difficulties | gei-jiao-shi-de-jian-yi-zh | 白费的劳动使成年人羞愧难当，何况孩子 |
 | [sk-2281](cards/sk-2281-self-affirmation-is-the-mother-of-self-education.md) | quote | child-study | gei-jiao-shi-de-jian-yi-zh | 自我肯定是自我教育之母 |
+| [sk-2282](cards/sk-2282-research-intent-keeps-labor-from-dullness.md) | quote | thinking-and-nature / labor-education | gei-jiao-shi-de-jian-yi-zh | 没有研究的意图，劳动就单调乏味 |
+| [sk-2283](cards/sk-2283-hard-work-is-not-the-goal-but-hands-teach-the-mind.md) | quote | labor-education / thinking-and-nature | gei-jiao-shi-de-jian-yi-zh | 体力劳动不是目标，手却能使头脑变聪明 |
+| [sk-2284](cards/sk-2284-unity-of-study-and-labor-think-while-working.md) | quote | labor-education / thinking-and-nature | gei-jiao-shi-de-jian-yi-zh | 学习和劳动的结合，就是干活时思考和思考时干活 |
+| [sk-2285](cards/sk-2285-creative-labor-training-prevents-rote-learning.md) | quote | thinking-and-nature | gei-jiao-shi-de-jian-yi-zh | 经过创造性劳动训练的学生不会去背不理解的东西 |
+| [sk-2286](cards/sk-2286-near-completion-they-care-and-listen.md) | quote | labor-education | gei-jiao-shi-de-jian-yi-zh | 工作越接近完成，学生越珍惜它、越听得进意见 |
+| [sk-2287](cards/sk-2287-mental-fatigue-countered-by-research-labor.md) | quote | learning-difficulties / thinking-and-nature | gei-jiao-shi-de-jian-yi-zh | 智力上的内在疲劳袭来时，用带研究性的劳动把人拉回来 |
+| [sk-2288](cards/sk-2288-collective-belief-through-teachers-devotion.md) | quote | collective-education | xuan-ji-zh-vol1 | 信念不是宣布出来的，是教师日常的样子长出来的 |
+| [sk-2289](cards/sk-2289-moral-training-in-labor-comes-with-duty.md) | quote | labor-education / collective-education | xuan-ji-zh-vol1 | 劳动能锻炼道德，前提是它连着义务感 |
+| [sk-2290](cards/sk-2290-arm-with-a-system-of-views-not-slogans.md) | quote | collective-education | xuan-ji-zh-vol1 | 用正确的人生观体系武装学生，不是用漂亮话 |
+| [sk-2291](cards/sk-2291-duty-runs-through-ones-whole-life.md) | quote | collective-education | xuan-ji-zh-vol1 | 义务感要像一条红线，贯穿人的一生 |
+| [sk-2292](cards/sk-2292-real-learning-is-not-finished-goods.md) | quote | thinking-and-nature | xuan-ji-zh-vol1 | 用知识教育人，不等于把知识做成成品塞进去 |
+| [sk-2293](cards/sk-2293-teacher-authority-grows-from-consistency.md) | quote | teacher-growth | xuan-ji-zh-vol1 | 教师的威信，是言行一致结出来的果 |

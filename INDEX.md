@@ -13,9 +13,9 @@
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 469 |
 | [love-education](topics/love-education.md) | 爱的教育 | 756 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 81 |
-| [child-study](topics/child-study.md) | 儿童研究 | 698 |
+| [child-study](topics/child-study.md) | 儿童研究 | 700 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 130 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 276 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 280 |
 
 ## 来源 Sources
 
@@ -2284,3 +2284,9 @@
 | [sk-2249](cards/sk-2249-aesthetic-education-cannot-offset-other-faults.md) | quote | aesthetic-nature-education | xuan-ji-zh-vol3 | 美育安排得再好，也会被其他教育因素的弊病削弱 |
 | [sk-2250](cards/sk-2250-cherishing-public-goods-needs-childhood-experience.md) | quote | labor-education | xuan-ji-zh-vol3 | 要使孩子珍惜社会财富，先让他获得初步的创造性经验 |
 | [sk-2251](cards/sk-2251-pride-from-success-is-first-source-of-self-awareness.md) | quote | child-study | xuan-ji-zh-vol3 | 从心爱的事上取得成功的自豪感，是自我意识的最初源泉 |
+| [sk-2252](cards/sk-2252-adolescent-sees-what-needs-thinking.md) | quote | child-study | xuan-ji-zh-vol1 | 少年开始注意那些不显眼的、要靠思维去分析的特性 |
+| [sk-2253](cards/sk-2253-teen-misjudges-people-because-world-got-complex.md) | quote | child-study | xuan-ji-zh-vol1 | 少年对人的评价常出错，是因为世界刚刚变得不简单 |
+| [sk-2254](cards/sk-2254-adolescent-wants-the-whole-and-both-sides.md) | quote | thinking-and-nature | xuan-ji-zh-vol1 | 少年在钻研细节的同时更渴望掌握整体并正反两面看 |
+| [sk-2255](cards/sk-2255-inner-speech-lets-the-adolescent-focus.md) | quote | thinking-and-nature | xuan-ji-zh-vol1 | 少年靠内部言语把思想集中到一件事上 |
+| [sk-2256](cards/sk-2256-speech-is-the-channel-of-spiritual-growth.md) | quote | thinking-and-nature | xuan-ji-zh-vol1 | 精神发展的各条渠道都要经过言语 |
+| [sk-2257](cards/sk-2257-teaching-speech-steers-thinking-into-the-right-track.md) | quote | thinking-and-nature | xuan-ji-zh-vol1 | 培养少年掌握言语，就是把他的思维引上正确轨道 |

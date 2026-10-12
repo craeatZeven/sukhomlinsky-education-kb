@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 189 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 190 |
 | [family-school](topics/family-school.md) | 家校合作 | 386 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 344 |
 | [health-first](topics/health-first.md) | 健康第一 | 98 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 313 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 417 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 473 |
-| [love-education](topics/love-education.md) | 爱的教育 | 760 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 81 |
-| [child-study](topics/child-study.md) | 儿童研究 | 700 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 474 |
+| [love-education](topics/love-education.md) | 爱的教育 | 761 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 82 |
+| [child-study](topics/child-study.md) | 儿童研究 | 701 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 130 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 281 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 282 |
 
 ## 来源 Sources
 
@@ -2308,3 +2308,9 @@
 | [sk-2273](cards/sk-2273-hushi-renwenxueke-de-sixiang-jiaoyu.md) | quote | teacher-growth | xuan-ji-zh-vol2 | 更不可饶恕的是忽视人文学科教学中的思想教育机会 |
 | [sk-2274](cards/sk-2274-zhishi-de-jiaoyu-liliang-zai-shijieguan.md) | quote | collective-education | xuan-ji-zh-vol2 | 知识的教育力量首先在于其世界观方面 |
 | [sk-2275](cards/sk-2275-jiaoxue-yishu-zai-yu-chudong-xinxian.md) | quote | teacher-growth | xuan-ji-zh-vol2 | 教学宗旨能否实现，取决于教材中政治道德思想的揭示程度 |
+| [sk-2276](cards/sk-2276-confidence-is-the-strongest-learning-force.md) | quote | thinking-and-nature | gei-jiao-shi-de-jian-yi-zh | 促使儿童学习的最强大力量，是对自己的信心和自尊感 |
+| [sk-2277](cards/sk-2277-failing-grades-make-a-child-resign.md) | quote | assessment-grading | gei-jiao-shi-de-jian-yi-zh | 学生接连不断地吃两分，就会跟自己的命运妥协 |
+| [sk-2278](cards/sk-2278-every-child-comes-with-the-wish-to-learn.md) | quote | love-education | gei-jiao-shi-de-jian-yi-zh | 每一个儿童都是带着想好好学习的愿望来上学的 |
+| [sk-2279](cards/sk-2279-never-say-a-student-has-reached-his-limit.md) | quote | teacher-growth | gei-jiao-shi-de-jian-yi-zh | 教师永远不能说这个学生已经到达极限 |
+| [sk-2280](cards/sk-2280-fruitless-work-shames-a-child.md) | quote | learning-difficulties | gei-jiao-shi-de-jian-yi-zh | 白费的劳动使成年人羞愧难当，何况孩子 |
+| [sk-2281](cards/sk-2281-self-affirmation-is-the-mother-of-self-education.md) | quote | child-study | gei-jiao-shi-de-jian-yi-zh | 自我肯定是自我教育之母 |

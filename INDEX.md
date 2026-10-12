@@ -5,15 +5,15 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 189 |
-| [family-school](topics/family-school.md) | 家校合作 | 385 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 336 |
+| [family-school](topics/family-school.md) | 家校合作 | 386 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 339 |
 | [health-first](topics/health-first.md) | 健康第一 | 98 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 311 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 312 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 414 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 469 |
 | [love-education](topics/love-education.md) | 爱的教育 | 756 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 81 |
-| [child-study](topics/child-study.md) | 儿童研究 | 697 |
+| [child-study](topics/child-study.md) | 儿童研究 | 698 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 130 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 276 |
 
@@ -2278,3 +2278,9 @@
 | [sk-2243](cards/sk-2243-do-not-give-a-two-when-the-child-cannot-yet.md) | quote | assessment-grading | xuan-ji-zh-vol2 | 如果一个学生未能完成作业只是因为还无力胜任，那就不要给他打2分 |
 | [sk-2244](cards/sk-2244-knowledge-not-applied-becomes-dead-ornament.md) | quote | labor-education | xuan-ji-zh-vol2 | 不用于实践的知识，会变为僵死无用的装饰品 |
 | [sk-2245](cards/sk-2245-knowledge-gained-independently-becomes-conviction.md) | quote | teacher-growth | xuan-ji-zh-vol2 | 学生在独立完成作业中获得的知识，会被他当作个人的深刻信念来珍视 |
+| [sk-2246](cards/sk-2246-labor-leads-the-child-into-civic-pride.md) | quote | labor-education | xuan-ji-zh-vol3 | 劳动要把孩子领进社会生活，让他第一次体验公民的自豪感 |
+| [sk-2247](cards/sk-2247-only-those-who-know-sweat-know-labor-joy.md) | quote | labor-education | xuan-ji-zh-vol3 | 只有知道什么是汗水和疲劳的人，才能领略劳动的快乐 |
+| [sk-2248](cards/sk-2248-family-is-the-real-school-of-kindness.md) | quote | family-school | xuan-ji-zh-vol3 | 培养亲切、诚恳、富有同情心的真正的学校是家庭 |
+| [sk-2249](cards/sk-2249-aesthetic-education-cannot-offset-other-faults.md) | quote | aesthetic-nature-education | xuan-ji-zh-vol3 | 美育安排得再好，也会被其他教育因素的弊病削弱 |
+| [sk-2250](cards/sk-2250-cherishing-public-goods-needs-childhood-experience.md) | quote | labor-education | xuan-ji-zh-vol3 | 要使孩子珍惜社会财富，先让他获得初步的创造性经验 |
+| [sk-2251](cards/sk-2251-pride-from-success-is-first-source-of-self-awareness.md) | quote | child-study | xuan-ji-zh-vol3 | 从心爱的事上取得成功的自豪感，是自我意识的最初源泉 |

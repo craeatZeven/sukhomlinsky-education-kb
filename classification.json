@@ -39591,5 +39591,107 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2300": {
+  "primary": "A6",
+  "seealso": [],
+  "facets": [],
+  "claim": "讨人喜欢是儿童的本性，教师与家长时刻不能忘记这一点；这种愿望若被正确理解，是学生获得高尚情操的取之不尽的源泉。",
+  "evidence": "成为一个讨人喜欢的人的愿望是儿童的本性。无论是教师还是家长、共青团和少先队的负责人，时刻都不能忘记这一点。这种愿望（如果对它有了正确的理解）是学生（特别是在少年期和青年早期）获得高尚情操的取之不尽的源泉。",
+  "title": "讨人喜欢是儿童的本性",
+  "old_topics": [
+   "child-study"
+  ],
+  "type": "quote",
+  "tags": [
+   "A6"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2301": {
+  "primary": "A14",
+  "seealso": [],
+  "facets": [],
+  "claim": "对与道德准则相抵触的行为，教育者必须揭露其虚假的美，使学生认清这不过是蒙昧无知、缺乏意志力和精神空虚的表现，这是唯一正确的办法。",
+  "evidence": "在这种情况下，教育者究竟应该怎么办呢?应该揭露这种“美”，要使还没有生活经验和容易接受初次印象的学生相信，这是一种蒙昧无知和缺乏意志力的表现，是人所共知的精神空虚的表现，仅此而已。要使学生认识到这一点是不容易的，但是，非此不可，别无其他正确",
+  "title": "教育者应揭露虚假的美",
+  "old_topics": [
+   "aesthetic-nature-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A14"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2302": {
+  "primary": "A9",
+  "seealso": [],
+  "facets": [],
+  "claim": "个人怎样对待自己是集体中发扬自觉纪律的最重要准则之一；集体尊敬什么，成员对自己的要求标准就随之提高。",
+  "evidence": "个人如何对待自己是集体中发扬自觉遵守纪律的最重要的准则之一，因为自觉遵守纪律表现在如何对待自己的态度之中。在集体中，如果每个学生的行为首先表现为热爱劳动和迷恋创造，那么他们得到低分后，就会感到难为情和不安。凡是对知识面宽广、爱好劳动、博学多",
+  "title": "对自己怎样，就是纪律",
+  "old_topics": [
+   "collective-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A9"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2303": {
+  "primary": "A11",
+  "seealso": [],
+  "facets": [],
+  "claim": "教育者不能断言任何身心健全的人无所作为；教育的智慧与真正的人道在于发掘每个人创造性劳动的独特源泉，帮他看见并撑起自己的独特性。",
+  "evidence": "对一个生来身心都健康的人，我们决不能说他无所作为。共产主义教育的智慧和真正的人道在于，发掘每个人身上的创造性劳动的独特的源泉；帮助每个人观察自己，感知自己的这种独特性，帮助他们成为精神上坚强的、不可战胜的自我奋斗的战士。",
+  "title": "发掘每个人独特的劳动源泉",
+  "old_topics": [
+   "labor-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A11"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2304": {
+  "primary": "A4",
+  "seealso": [],
+  "facets": [],
+  "claim": "儿童的精神容不下过多爱好；当消遣占据精神世界，就会形成对自己要求很低的社会消费者准则，因此教师的使命是培养儿童正当的爱好。",
+  "evidence": "儿童的心灵容纳不下过多的爱好。如果一个儿童爱看电影，如果他一周不看3次电影，每天不坐在电视机前同父母一起观看那些情节离奇、艺术价值不高的电视就无法生活的话，那么在他的精神世界里就会产生对自己要求很低、每天只要有一点轻松的娱乐，便感到满足的社",
+  "title": "爱好过多会养出消费者心态",
+  "old_topics": [
+   "child-study"
+  ],
+  "type": "quote",
+  "tags": [
+   "A4"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2305": {
+  "primary": "A16",
+  "seealso": [],
+  "facets": [],
+  "claim": "对学习吃力的学生，应让他在与学习无直接联系的劳动中成为真正的能手；成绩的意义在于让他体验自豪感、感到自己是集体的一员，而不是为了分数。",
+  "evidence": "使学生成为与学习无直接联系的某种劳动方面的真正能手（当然，要以儿童力所能及的标准来衡量技能），也是非常重要的。这在提高自我要求标准方面之所以必需，是为了使学生不要为分数而努力学习，因为儿童或少年掌握知识越困难，每得到一次好的评分所花的代价越",
+  "title": "不要为分数而学",
+  "old_topics": [
+   "assessment-grading"
+  ],
+  "type": "quote",
+  "tags": [
+   "A16"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

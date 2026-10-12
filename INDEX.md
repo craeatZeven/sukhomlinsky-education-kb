@@ -6,14 +6,14 @@
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 192 |
 | [family-school](topics/family-school.md) | 家校合作 | 386 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 349 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 350 |
 | [health-first](topics/health-first.md) | 健康第一 | 98 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 313 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 422 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 314 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 423 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 476 |
 | [love-education](topics/love-education.md) | 爱的教育 | 762 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 83 |
-| [child-study](topics/child-study.md) | 儿童研究 | 702 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 84 |
+| [child-study](topics/child-study.md) | 儿童研究 | 704 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 130 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 288 |
 
@@ -2332,3 +2332,9 @@
 | [sk-2297](cards/sk-2297-harsh-education-hurts-teachers-too.md) | quote | teacher-growth | xuan-ji-zh-vol4 | 粗暴的教育，也会把教师自己弄病 |
 | [sk-2298](cards/sk-2298-comradeship-carries-moral-wealth.md) | quote | collective-education | xuan-ji-zh-vol4 | 同心协力的同志情谊，才传得下道德财富 |
 | [sk-2299](cards/sk-2299-do-not-rush-to-label-hard-children.md) | quote | learning-difficulties | xuan-ji-zh-vol4 | 别匆忙给难教儿童下结论 |
+| [sk-2300](cards/sk-2300-children-want-to-be-liked.md) | quote | child-study | xuan-ji-zh-vol1 | 讨人喜欢的愿望是儿童的本性 |
+| [sk-2301](cards/sk-2301-expose-the-false-beauty.md) | quote | aesthetic-nature-education | xuan-ji-zh-vol1 | 与道德准则相抵触的行为被浪漫化，是极端危险的 |
+| [sk-2302](cards/sk-2302-how-one-treats-oneself-is-discipline.md) | quote | collective-education | xuan-ji-zh-vol1 | 个人怎样对待自己，是集体纪律最重要的准则之一 |
+| [sk-2303](cards/sk-2303-find-each-ones-creative-source.md) | quote | labor-education | xuan-ji-zh-vol1 | 教育的智慧，在于发掘每个人创造性劳动的独特源泉 |
+| [sk-2304](cards/sk-2304-limit-pastimes-cultivate-tastes.md) | quote | child-study | xuan-ji-zh-vol1 | 儿童的心灵容纳不下过多的爱好 |
+| [sk-2305](cards/sk-2305-grades-are-not-the-goal.md) | quote | assessment-grading | xuan-ji-zh-vol1 | 成绩不是为了分数，而是为了体验人的自豪感 |

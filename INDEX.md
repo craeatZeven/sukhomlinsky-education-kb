@@ -6,10 +6,10 @@
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 189 |
 | [family-school](topics/family-school.md) | 家校合作 | 386 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 341 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 344 |
 | [health-first](topics/health-first.md) | 健康第一 | 98 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 312 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 414 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 313 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 416 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 471 |
 | [love-education](topics/love-education.md) | 爱的教育 | 758 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 81 |
@@ -2296,3 +2296,9 @@
 | [sk-2261](cards/sk-2261-labor-itself-is-joy-teacher-must-foster-love-of-work.md) | quote | labor-education | xuan-ji-zh-vol5 | 劳动本身就能带来乐趣，教师要把学生培养成热爱劳动的人 |
 | [sk-2262](cards/sk-2262-knowledge-must-awaken-the-dignity-of-the-child.md) | quote | love-education | xuan-ji-zh-vol5 | 知识不是能直接放进头脑里的东西，要先唤醒学生做人的尊严 |
 | [sk-2263](cards/sk-2263-when-every-child-wants-to-create-all-teachers-become-educators.md) | quote | teacher-growth | xuan-ji-zh-vol5 | 到了每个孩子都渴求创造的那天，所有教师都要成为教育家 |
+| [sk-2264](cards/sk-2264-any-labor-matters-child-must-feel-no-labor-no-joy.md) | quote | collective-education | xuan-ji-zh-vol4 | 任何一种劳动都有重大意义，要让孩子从幼年起就感到不劳动就享受不到生活的乐趣 |
+| [sk-2265](cards/sk-2265-long-labor-visible-results-form-conviction.md) | quote | labor-education | xuan-ji-zh-vol4 | 劳动的物质成果越显著，信念形成的可能性就越大 |
+| [sk-2266](cards/sk-2266-combine-mental-and-manual-labor-never-split-students.md) | quote | labor-education | xuan-ji-zh-vol4 | 劳动教育最重要的准则之一，就是脑力劳动和体力劳动的结合 |
+| [sk-2267](cards/sk-2267-labor-must-reach-beyond-school-into-social-life.md) | quote | collective-education | xuan-ji-zh-vol4 | 劳动要越出学校的小圈子，让学生感到自己是社会生活的参加者 |
+| [sk-2268](cards/sk-2268-everything-children-make-should-be-beautiful.md) | quote | aesthetic-nature-education | xuan-ji-zh-vol4 | 孩子所做的一切都应当是美的，用对美的追求把劳动变得更丰富 |
+| [sk-2269](cards/sk-2269-all-round-development-depends-on-depth-of-education-in-labor.md) | quote | labor-education | xuan-ji-zh-vol4 | 个性的全面发展，取决于各育在劳动中反映的深度 |

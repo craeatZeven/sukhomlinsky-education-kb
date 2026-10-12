@@ -39489,5 +39489,107 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2294": {
+  "primary": "A6",
+  "seealso": [],
+  "facets": [],
+  "claim": "儿童对不公正的事极其敏感，而成年人往往并不了解儿童的内心体验，因而容易在不经意间伤害其人格。",
+  "evidence": "儿童对于善恶、是非是十分敏感的。成年人能够认识到不公正的事是错误的，儿童却还无力理解生活的全部复杂性。遗憾的是，并不是所有的成年人都对儿童的内心体验有所了解。儿童的内心状态——这是当别人的行为或多或少地触及儿童的人格时，儿童所作出的带有深刻",
+  "title": "不公正最伤儿童的心",
+  "old_topics": [
+   "child-study"
+  ],
+  "type": "quote",
+  "tags": [
+   "A6"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2295": {
+  "primary": "A5",
+  "seealso": [],
+  "facets": [],
+  "claim": "教育上的公正不是用同一模式对待所有儿童，而是尊重与严格要求相结合，具体地关心每一个儿童。",
+  "evidence": "真正的人道精神首先意味着要公正，而所谓公正，就是尊重与严格要求相结合。在学校生活中，没有也不可能有什么抽象的公正。教育上的公正，意味着教师要有足够的精神力量去关心每一个儿童。用一个模式、毫无区别的态度去对待所有的儿童，那是漠不关心、不公正的",
+  "title": "公正就是尊重与严格要求相结合",
+  "old_topics": [
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A5"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2296": {
+  "primary": "A16",
+  "seealso": [],
+  "facets": [],
+  "claim": "教师对学生大声喊叫是简单粗暴的反应，会摧残儿童心灵中细腻的人的情感，因此训斥的音量本身就是需要守住的界限。",
+  "evidence": "大声喊叫足以说明人与人的关系中缺乏文明。教师的大声喊叫会把儿童弄得惊慌失措。这是对儿童的行为举止、学习态度所做出的最简单粗暴的反应。这种反应里包含着一种本能的因素。在大声喊叫中，会丧失真正的人所常有的情感。想必你也注意到了：教师在大声训斥儿",
+  "title": "训斥会毁掉细腻的情感",
+  "old_topics": [
+   "assessment-grading"
+  ],
+  "type": "quote",
+  "tags": [
+   "A16"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2297": {
+  "primary": "A10",
+  "seealso": [],
+  "facets": [],
+  "claim": "教育修养水平低下不仅打击孩子，也会伤害教师；提高教育修养因此也是保护教师心理状态的一项条件。",
+  "evidence": "学校里教育修养水平低下，这不仅会打击孩子，也会伤害教师。教师并非铁石心肠的人，他有灵魂、有精神、有自尊感和自爱心。如果教育过程是建立在伤害儿童心灵的简单粗暴的态度和感情之上的话，那么教师也有犯病的危险。这是个至关重要的问题。在关于提高教育修",
+  "title": "粗暴也伤害教师",
+  "old_topics": [
+   "teacher-growth"
+  ],
+  "type": "quote",
+  "tags": [
+   "A10"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2298": {
+  "primary": "A9",
+  "seealso": [],
+  "facets": [],
+  "claim": "只有在师生共同劳动中形成同志式情谊、共同感受同心协力的欢乐时，道德财富才能真正传给年轻一代。",
+  "evidence": "依靠教师所具有的高度情感修养和思想水平而在集体中创造的那种真挚的、开诚相见的氛围，能使学生形成这样的信念：他们跟自己的老师在共同的劳动中是志同道合的同志。只有当教育者和他的学生在合作中能感受同心协力的欢乐时，才能真正地把道德财富传给年轻一代",
+  "title": "道德财富传于同志式合作",
+  "old_topics": [
+   "collective-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A9"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2299": {
+  "primary": "A6",
+  "seealso": [],
+  "facets": [],
+  "claim": "在重新评价教育原理的过程中容易出现夸大的判断，教师尤其不能匆忙对难教儿童下结论，因为儿童的命运在某种程度上取决于教师。",
+  "evidence": "只要科学知识上出现了关于儿童、关于教育和教学过程的点滴的新东西，教师和学校领导人就会被迫重新观察自己的工作，用新的观点来重新研究那些已成为很普通的、司空见惯的现象。新的观点总是跟重新评价、重新思考以前已经形成的原理和信念联系在一起的。于是，",
+  "title": "不要匆忙下结论",
+  "old_topics": [
+   "learning-difficulties"
+  ],
+  "type": "quote",
+  "tags": [
+   "A6"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

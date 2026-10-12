@@ -4,16 +4,16 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 191 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 192 |
 | [family-school](topics/family-school.md) | 家校合作 | 386 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 349 |
 | [health-first](topics/health-first.md) | 健康第一 | 98 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 313 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 421 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 475 |
-| [love-education](topics/love-education.md) | 爱的教育 | 761 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 82 |
-| [child-study](topics/child-study.md) | 儿童研究 | 701 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 422 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 476 |
+| [love-education](topics/love-education.md) | 爱的教育 | 762 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 83 |
+| [child-study](topics/child-study.md) | 儿童研究 | 702 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 130 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 288 |
 
@@ -2326,3 +2326,9 @@
 | [sk-2291](cards/sk-2291-duty-runs-through-ones-whole-life.md) | quote | collective-education | xuan-ji-zh-vol1 | 义务感要像一条红线，贯穿人的一生 |
 | [sk-2292](cards/sk-2292-real-learning-is-not-finished-goods.md) | quote | thinking-and-nature | xuan-ji-zh-vol1 | 用知识教育人，不等于把知识做成成品塞进去 |
 | [sk-2293](cards/sk-2293-teacher-authority-grows-from-consistency.md) | quote | teacher-growth | xuan-ji-zh-vol1 | 教师的威信，是言行一致结出来的果 |
+| [sk-2294](cards/sk-2294-child-sensitive-to-injustice.md) | quote | child-study | xuan-ji-zh-vol4 | 儿童对不公正极敏感，成年人却常常不知道 |
+| [sk-2295](cards/sk-2295-justice-is-respect-plus-demand.md) | quote | love-education | xuan-ji-zh-vol4 | 公正不是一视同仁，是尊重与严格要求相结合 |
+| [sk-2296](cards/sk-2296-shouting-kills-fine-feelings.md) | quote | assessment-grading | xuan-ji-zh-vol4 | 大声训斥会把儿童分辨情感的耳朵关掉 |
+| [sk-2297](cards/sk-2297-harsh-education-hurts-teachers-too.md) | quote | teacher-growth | xuan-ji-zh-vol4 | 粗暴的教育，也会把教师自己弄病 |
+| [sk-2298](cards/sk-2298-comradeship-carries-moral-wealth.md) | quote | collective-education | xuan-ji-zh-vol4 | 同心协力的同志情谊，才传得下道德财富 |
+| [sk-2299](cards/sk-2299-do-not-rush-to-label-hard-children.md) | quote | learning-difficulties | xuan-ji-zh-vol4 | 别匆忙给难教儿童下结论 |

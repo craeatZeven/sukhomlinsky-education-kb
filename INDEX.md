@@ -9,13 +9,13 @@
 | [labor-education](topics/labor-education.md) | 劳动教育 | 344 |
 | [health-first](topics/health-first.md) | 健康第一 | 98 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 313 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 416 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 471 |
-| [love-education](topics/love-education.md) | 爱的教育 | 758 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 417 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 473 |
+| [love-education](topics/love-education.md) | 爱的教育 | 760 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 81 |
 | [child-study](topics/child-study.md) | 儿童研究 | 700 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 130 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 280 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 281 |
 
 ## 来源 Sources
 
@@ -2302,3 +2302,9 @@
 | [sk-2267](cards/sk-2267-labor-must-reach-beyond-school-into-social-life.md) | quote | collective-education | xuan-ji-zh-vol4 | 劳动要越出学校的小圈子，让学生感到自己是社会生活的参加者 |
 | [sk-2268](cards/sk-2268-everything-children-make-should-be-beautiful.md) | quote | aesthetic-nature-education | xuan-ji-zh-vol4 | 孩子所做的一切都应当是美的，用对美的追求把劳动变得更丰富 |
 | [sk-2269](cards/sk-2269-all-round-development-depends-on-depth-of-education-in-labor.md) | quote | labor-education | xuan-ji-zh-vol4 | 个性的全面发展，取决于各育在劳动中反映的深度 |
+| [sk-2270](cards/sk-2270-zhili-yu-pinde-liangzhong-pianmianxing.md) | quote | thinking-and-nature | xuan-ji-zh-vol2 | 智育与品德教育关系上的两种片面性 |
+| [sk-2271](cards/sk-2271-xinnian-jiangli-butong-yu-zhangwo-zhishi.md) | quote | love-education | xuan-ji-zh-vol2 | 道德信念的树立不同于掌握知识的过程 |
+| [sk-2272](cards/sk-2272-daode-jiaoyu-buneng-jin-zai-jiaoxue-zhong.md) | quote | love-education | xuan-ji-zh-vol2 | 道德教育不可能仅仅在教学过程中实现 |
+| [sk-2273](cards/sk-2273-hushi-renwenxueke-de-sixiang-jiaoyu.md) | quote | teacher-growth | xuan-ji-zh-vol2 | 更不可饶恕的是忽视人文学科教学中的思想教育机会 |
+| [sk-2274](cards/sk-2274-zhishi-de-jiaoyu-liliang-zai-shijieguan.md) | quote | collective-education | xuan-ji-zh-vol2 | 知识的教育力量首先在于其世界观方面 |
+| [sk-2275](cards/sk-2275-jiaoxue-yishu-zai-yu-chudong-xinxian.md) | quote | teacher-growth | xuan-ji-zh-vol2 | 教学宗旨能否实现，取决于教材中政治道德思想的揭示程度 |

@@ -39076,5 +39076,107 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2270": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "智育与品德教育的关系上有两种片面性：理论知识脱离实践，个人道德实践脱离社会道德实践。",
+  "evidence": "智力发展与品德教育的相互关系在当前具有重要意义、共产党给学校提出的任务是：克服教育教学工作中的片面性，这种片面性是指，第一，理论知识脱离实践，漠视成年人创造物质财富的劳动；第二，成长中的人的个人道德实践与社会道德实践相脱节。",
+  "title": "知识与道德实践不能两头脱节",
+  "old_topics": [
+   "thinking-and-nature"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2271": {
+  "primary": "A4",
+  "seealso": [],
+  "facets": [],
+  "claim": "道德教育在某种程度上不取决于知识程度；道德品质与道德信念的树立不同于掌握知识的过程。",
+  "evidence": "原因何在?我们认为：第一个原因是，对道德教育的特点，即道德教育在某种程度上不取决于知识程度这个特点认识不足，社会主义社会的学校向学生传授的知识能够培养辩证唯物主义世界观，所以知识在我们的教育系统中作用极大。然而，道德品质的培养，包括道德信念",
+  "title": "知道规范不等于形成信念",
+  "old_topics": [
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A4"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2272": {
+  "primary": "A19",
+  "seealso": [],
+  "facets": [],
+  "claim": "道德教育不可能仅在教学中实现；教育体系既包括教学，也包括参与社会生活和集体活动，两者应同步进行。",
+  "evidence": "由此可见，道德教育是不可能仅仅在教学过程中实现的。教育体系，是一个特殊的过程，它既包括教学和知识技能的掌握，也包括参与社会生活和集体活动.，道德教育过程的两个组成部分应同步进行，相辅相成，相得益彰。",
+  "title": "教学与集体活动须同步进行",
+  "old_topics": [
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A19"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2273": {
+  "primary": "A22",
+  "seealso": [],
+  "facets": [],
+  "claim": "忽视人文学科教学中的思想教育机会，表现为把知识当作中性的东西，面向抽象的人类智慧而不是眼前的具体人。",
+  "evidence": "更加不可饶恕的是忽视在人文学科教学中的思想教育机会。这种忽视最经常的表现是，知识对于学生的个性似乎成了一种中性的东西、教师在讲课时，面向的是抽象的人类智慧，而不是坐在他面前的具体人，他不考虑学生的生活经验，不去教他们思考重要问题，比如集体与",
+  "title": "面向抽象的人类智慧还是眼前的具体人",
+  "old_topics": [
+   "teacher-growth"
+  ],
+  "type": "quote",
+  "tags": [
+   "A22"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2274": {
+  "primary": "A2",
+  "seealso": [],
+  "facets": [],
+  "claim": "知识的教育力量首先在于其世界观方面：有了信念，人不只能解释世界，还能成为为世界观而奋斗的社会力量的代表。",
+  "evidence": "知识的教育力量首先在于其世界观方面，要树立辩证唯物主义世界观的思想，应引导学生坚信，共产主义是社会和道德进步的巅峰。有了这种信念，人们不仅可以解释世界，而且能够成为具有共产主义世界观并为之奋斗的社会力量的代表。",
+  "title": "让信念把人确立为社会力量",
+  "old_topics": [
+   "collective-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A2"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2275": {
+  "primary": "A22",
+  "seealso": [],
+  "facets": [],
+  "claim": "教学宗旨的实现取决于教材中政治道德思想的揭示深度，也取决于教师能否不动声色地触动学生的心弦。",
+  "evidence": "这一宗旨的实现，取决于蕴含在教学内容中的政治道德思想的揭示程度有多深，取决于学校的意识中，思想与日常生活中的事实之间，特别是个人活动与集体内部关系两者之间确立的关系是否明确。一个教师，特别是文学和历史教师的教学艺术水平高低，关键看他是否善于",
+  "title": "教学艺术在于触动学生的心弦",
+  "old_topics": [
+   "teacher-growth"
+  ],
+  "type": "quote",
+  "tags": [
+   "A22"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

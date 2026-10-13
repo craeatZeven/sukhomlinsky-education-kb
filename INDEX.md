@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 192 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 193 |
 | [family-school](topics/family-school.md) | 家校合作 | 387 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 353 |
 | [health-first](topics/health-first.md) | 健康第一 | 98 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 314 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 426 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 477 |
-| [love-education](topics/love-education.md) | 爱的教育 | 764 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 428 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 478 |
+| [love-education](topics/love-education.md) | 爱的教育 | 765 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 84 |
 | [child-study](topics/child-study.md) | 儿童研究 | 705 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 131 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 288 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 289 |
 
 ## 来源 Sources
 
@@ -2350,3 +2350,9 @@
 | [sk-2315](cards/sk-2315-awaken-his-interest-in-books.md) | quote | love-education | xuan-ji-zh-vol5 | 唤起对书籍的兴趣，是走进麻木孩子心灵的一条途径 |
 | [sk-2316](cards/sk-2316-teacher-is-the-living-fire-not-cold-reason.md) | quote | reading-and-books | xuan-ji-zh-vol5 | 教师播下的火种，是在他思想里长年燃烧着的 |
 | [sk-2317](cards/sk-2317-hate-the-evil-not-the-child.md) | quote | love-education | xuan-ji-zh-vol5 | 嫉恶如仇，但不要把仇恨转嫁给孩子 |
+| [sk-2318](cards/sk-2318-feeling-life-is-the-ground-of-belief.md) | quote | collective-education | xuan-ji-zh-vol1 | 没有爱憎分明的情感生活，就谈不上信念和思想 |
+| [sk-2319](cards/sk-2319-coercion-destroys-the-child.md) | quote | love-education | xuan-ji-zh-vol1 | 靠强制手段，只会更快地毁灭儿童的天性 |
+| [sk-2320](cards/sk-2320-suppressed-feelings-blunt-thinking.md) | quote | thinking-and-nature | xuan-ji-zh-vol1 | 情感被压抑的地方，智力和思维也会迟钝贫乏 |
+| [sk-2321](cards/sk-2321-obedience-requires-self-respect.md) | quote | collective-education | xuan-ji-zh-vol1 | 自觉服从要求一个人具有高度成熟的自尊感 |
+| [sk-2322](cards/sk-2322-plan-lessons-around-discovery.md) | quote | teacher-growth | xuan-ji-zh-vol1 | 备课要问：这一切在多大程度上成为学生的探索和发现 |
+| [sk-2323](cards/sk-2323-progress-at-every-stage.md) | quote | learning-difficulties | xuan-ji-zh-vol1 | 成绩再差，教学的每一阶段也必须让他有所提高 |

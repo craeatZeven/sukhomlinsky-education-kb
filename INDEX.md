@@ -5,16 +5,16 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 192 |
-| [family-school](topics/family-school.md) | 家校合作 | 386 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 350 |
+| [family-school](topics/family-school.md) | 家校合作 | 387 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 353 |
 | [health-first](topics/health-first.md) | 健康第一 | 98 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 314 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 423 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 476 |
-| [love-education](topics/love-education.md) | 爱的教育 | 762 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 426 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 477 |
+| [love-education](topics/love-education.md) | 爱的教育 | 764 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 84 |
-| [child-study](topics/child-study.md) | 儿童研究 | 704 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 130 |
+| [child-study](topics/child-study.md) | 儿童研究 | 705 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 131 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 288 |
 
 ## 来源 Sources
@@ -2338,3 +2338,15 @@
 | [sk-2303](cards/sk-2303-find-each-ones-creative-source.md) | quote | labor-education | xuan-ji-zh-vol1 | 教育的智慧，在于发掘每个人创造性劳动的独特源泉 |
 | [sk-2304](cards/sk-2304-limit-pastimes-cultivate-tastes.md) | quote | child-study | xuan-ji-zh-vol1 | 儿童的心灵容纳不下过多的爱好 |
 | [sk-2305](cards/sk-2305-grades-are-not-the-goal.md) | quote | assessment-grading | xuan-ji-zh-vol1 | 成绩不是为了分数，而是为了体验人的自豪感 |
+| [sk-2306](cards/sk-2306-no-labor-no-collective-discipline.md) | quote | collective-education | xuan-ji-zh-vol1 | 没有劳动的集体，学生体验不到纪律的必要性 |
+| [sk-2307](cards/sk-2307-labor-for-the-people-source-of-civic-honor.md) | quote | labor-education | xuan-ji-zh-vol1 | 为人民而劳动，是公民荣誉感的源泉 |
+| [sk-2308](cards/sk-2308-care-for-collective-labor-is-self-education.md) | quote | collective-education | xuan-ji-zh-vol1 | 关心集体劳动生活，就是关心学生的自我教育 |
+| [sk-2309](cards/sk-2309-childhood-labor-cannot-be-made-up-later.md) | quote | labor-education | xuan-ji-zh-vol1 | 错过童年的劳动生活，以后补不回来 |
+| [sk-2310](cards/sk-2310-financial-independence-and-mutual-help.md) | quote | collective-education | xuan-ji-zh-vol1 | 财务独立与互相帮助，才积累出真正的集体主义 |
+| [sk-2311](cards/sk-2311-treasure-what-elders-created.md) | quote | labor-education | xuan-ji-zh-vol1 | 珍惜前辈创造的物质财富，精神财富才能代代相传 |
+| [sk-2312](cards/sk-2312-each-child-has-his-own-window.md) | quote | child-study | xuan-ji-zh-vol5 | 每个儿童感知世界都透过自己的小窗口 |
+| [sk-2313](cards/sk-2313-cultivate-emotional-memory-of-teachers.md) | quote | teacher-growth | xuan-ji-zh-vol5 | 敏锐的情感与记住学生的能力，是教师可以培育出来的 |
+| [sk-2314](cards/sk-2314-children-who-have-no-one-to-open-their-heart-to.md) | quote | family-school | xuan-ji-zh-vol5 | 家里找不到能倾心相见的人，孩子对善便一无所知 |
+| [sk-2315](cards/sk-2315-awaken-his-interest-in-books.md) | quote | love-education | xuan-ji-zh-vol5 | 唤起对书籍的兴趣，是走进麻木孩子心灵的一条途径 |
+| [sk-2316](cards/sk-2316-teacher-is-the-living-fire-not-cold-reason.md) | quote | reading-and-books | xuan-ji-zh-vol5 | 教师播下的火种，是在他思想里长年燃烧着的 |
+| [sk-2317](cards/sk-2317-hate-the-evil-not-the-child.md) | quote | love-education | xuan-ji-zh-vol5 | 嫉恶如仇，但不要把仇恨转嫁给孩子 |

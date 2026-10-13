@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 193 |
-| [family-school](topics/family-school.md) | 家校合作 | 388 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 194 |
+| [family-school](topics/family-school.md) | 家校合作 | 389 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 354 |
 | [health-first](topics/health-first.md) | 健康第一 | 99 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 314 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 429 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 478 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 317 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 430 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 481 |
 | [love-education](topics/love-education.md) | 爱的教育 | 766 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 84 |
 | [child-study](topics/child-study.md) | 儿童研究 | 705 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 131 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 290 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 132 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 292 |
 
 ## 来源 Sources
 
@@ -2362,3 +2362,15 @@
 | [sk-2327](cards/sk-2327-military-games-toughen-boys.md) | quote | health-first | xuan-ji-zh-vol1 | 四年级起用军事游戏锻炼男孩的体力和意志 |
 | [sk-2328](cards/sk-2328-girls-must-not-be-confined-to-housework.md) | quote | family-school | xuan-ji-zh-vol1 | 做母亲是光荣的使命，但不能让女子只会做母亲 |
 | [sk-2329](cards/sk-2329-girls-creative-intellectual-life.md) | quote | thinking-and-nature | xuan-ji-zh-vol1 | 培养女生的精神力量，要靠创造性的智力活动 |
+| [sk-2330](cards/sk-2330-ethics-is-the-teachers-tool.md) | quote | teacher-growth | xuan-ji-zh-vol2 | 伦理学是教师手里最精细的教育工具 |
+| [sk-2331](cards/sk-2331-every-student-needs-a-vivid-person.md) | quote | family-school | xuan-ji-zh-vol2 | 每个学生身边都应当有一个鲜明的人 |
+| [sk-2332](cards/sk-2332-beauty-in-action-not-in-argument.md) | quote | aesthetic-nature-education | xuan-ji-zh-vol2 | 道德理想被激情鼓舞时，道德才变成道德实践 |
+| [sk-2333](cards/sk-2333-authority-of-moral-speech.md) | quote | teacher-growth | xuan-ji-zh-vol2 | 道德训诫的话，只有教师有道德权去讲才被接受 |
+| [sk-2334](cards/sk-2334-spiritual-life-in-beauty.md) | quote | aesthetic-nature-education | xuan-ji-zh-vol2 | 在美的世界里的精神生活能使人成为有教养的人 |
+| [sk-2335](cards/sk-2335-awe-becomes-faith-in-people.md) | quote | collective-education | xuan-ji-zh-vol2 | 在美的体验中结成的志同道合，使对人的信赖更高尚 |
+| [sk-2336](cards/sk-2336-early-grades-build-automatic-writing.md) | quote | learning-difficulties | xuan-ji-zh-vol4 | 低年级要把书写练到自动化 |
+| [sk-2337](cards/sk-2337-basis-of-literary-knowledge.md) | quote | reading-and-books | xuan-ji-zh-vol4 | 文学知识的基础是对作品的情感态度 |
+| [sk-2338](cards/sk-2338-teachers-knowledge-far-beyond-syllabus.md) | quote | teacher-growth | xuan-ji-zh-vol4 | 教师的知识应当比大纲多得多 |
+| [sk-2339](cards/sk-2339-research-element-in-class-work.md) | quote | thinking-and-nature | xuan-ji-zh-vol4 | 智力的独立性来自课堂智力劳动中的研究因素 |
+| [sk-2340](cards/sk-2340-thinking-in-observation.md) | quote | thinking-and-nature | xuan-ji-zh-vol4 | 在观察中思考，学生才会抽象思维 |
+| [sk-2341](cards/sk-2341-language-beauty-makes-writing-a-need.md) | quote | aesthetic-nature-education | xuan-ji-zh-vol4 | 语言的美感让写作成为精神需要 |

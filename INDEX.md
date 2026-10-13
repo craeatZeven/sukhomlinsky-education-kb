@@ -11,9 +11,9 @@
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 317 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 430 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 482 |
-| [love-education](topics/love-education.md) | 爱的教育 | 767 |
+| [love-education](topics/love-education.md) | 爱的教育 | 771 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 84 |
-| [child-study](topics/child-study.md) | 儿童研究 | 707 |
+| [child-study](topics/child-study.md) | 儿童研究 | 709 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 132 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 292 |
 
@@ -2380,3 +2380,9 @@
 | [sk-2345](cards/sk-2345-pampered-happiness-breeds-egoism.md) | quote | family-school | xuan-ji-zh-vol5 | 被满足喂大的幸福养不出人道 |
 | [sk-2346](cards/sk-2346-others-fate-must-become-ones-own.md) | quote | love-education | xuan-ji-zh-vol5 | 让别人的遭遇成为孩子自己的事情 |
 | [sk-2347](cards/sk-2347-research-object-children-from-different-families.md) | quote | child-study | xuan-ji-zh-vol5 | 研究的对象是来自极不相同家庭的儿童 |
+| [sk-2348](cards/sk-2348-not-harming-is-not-the-pinnacle-of-morality.md) | quote | love-education | xuan-ji-zh-vol5 | 不加害于他人，还不是道德品质高尚的顶峰 |
+| [sk-2349](cards/sk-2349-religions-crime-is-preaching-powerlessness.md) | quote | love-education | xuan-ji-zh-vol5 | 宗教的罪恶，是教人相信自己无能为力 |
+| [sk-2350](cards/sk-2350-fatalism-turns-a-person-into-a-puppet.md) | quote | love-education | xuan-ji-zh-vol5 | 听天由命的宣传，会把人变成看客 |
+| [sk-2351](cards/sk-2351-strong-feelings-make-education-both-easy-and-hard.md) | quote | child-study | xuan-ji-zh-vol5 | 感情强烈的孩子，教育既容易又复杂 |
+| [sk-2352](cards/sk-2352-heal-a-childs-wound-without-mentioning-it.md) | quote | child-study | xuan-ji-zh-vol5 | 医治孩子心灵的创伤，先做到不提不问 |
+| [sk-2353](cards/sk-2353-personal-happiness-is-the-most-precious-gem.md) | quote | love-education | xuan-ji-zh-vol5 | 个人的幸福，是最可贵最可亲的宝石 |

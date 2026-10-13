@@ -5,15 +5,15 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 194 |
-| [family-school](topics/family-school.md) | 家校合作 | 389 |
+| [family-school](topics/family-school.md) | 家校合作 | 391 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 354 |
 | [health-first](topics/health-first.md) | 健康第一 | 99 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 317 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 430 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 481 |
-| [love-education](topics/love-education.md) | 爱的教育 | 766 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 482 |
+| [love-education](topics/love-education.md) | 爱的教育 | 767 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 84 |
-| [child-study](topics/child-study.md) | 儿童研究 | 705 |
+| [child-study](topics/child-study.md) | 儿童研究 | 707 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 132 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 292 |
 
@@ -2374,3 +2374,9 @@
 | [sk-2339](cards/sk-2339-research-element-in-class-work.md) | quote | thinking-and-nature | xuan-ji-zh-vol4 | 智力的独立性来自课堂智力劳动中的研究因素 |
 | [sk-2340](cards/sk-2340-thinking-in-observation.md) | quote | thinking-and-nature | xuan-ji-zh-vol4 | 在观察中思考，学生才会抽象思维 |
 | [sk-2341](cards/sk-2341-language-beauty-makes-writing-a-need.md) | quote | aesthetic-nature-education | xuan-ji-zh-vol4 | 语言的美感让写作成为精神需要 |
+| [sk-2342](cards/sk-2342-teachers-word-is-irreplaceable.md) | quote | teacher-growth | xuan-ji-zh-vol5 | 教师的语言是无可取代的教育手段 |
+| [sk-2343](cards/sk-2343-childrens-plain-labor-is-family-education.md) | quote | family-school | xuan-ji-zh-vol5 | 儿童平常的劳动是家庭教育最需要的事 |
+| [sk-2344](cards/sk-2344-education-and-self-education-unite.md) | quote | child-study | xuan-ji-zh-vol5 | 真正的教育始于教育与自我教育的统一 |
+| [sk-2345](cards/sk-2345-pampered-happiness-breeds-egoism.md) | quote | family-school | xuan-ji-zh-vol5 | 被满足喂大的幸福养不出人道 |
+| [sk-2346](cards/sk-2346-others-fate-must-become-ones-own.md) | quote | love-education | xuan-ji-zh-vol5 | 让别人的遭遇成为孩子自己的事情 |
+| [sk-2347](cards/sk-2347-research-object-children-from-different-families.md) | quote | child-study | xuan-ji-zh-vol5 | 研究的对象是来自极不相同家庭的儿童 |

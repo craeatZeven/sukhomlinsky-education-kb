@@ -1,5 +1,5 @@
 {
-  "total_cards": 2318,
+  "total_cards": 2324,
   "source_count": 12,
   "topic_count": 12,
   "zuoren_cards": 541,
@@ -26,7 +26,7 @@
     {
       "slug": "xuan-ji-zh-vol1",
       "title": "苏霍姆林斯基选集（五卷本）第1卷",
-      "cards": 284,
+      "cards": 290,
       "page_refs": 36
     },
     {
@@ -81,7 +81,7 @@
   "types": [
     {
       "type": "quote",
-      "cards": 1191
+      "cards": 1197
     },
     {
       "type": "case",
@@ -104,7 +104,7 @@
     {
       "slug": "love-education",
       "title": "爱的教育",
-      "cards": 765
+      "cards": 766
     },
     {
       "slug": "child-study",
@@ -119,17 +119,17 @@
     {
       "slug": "collective-education",
       "title": "集体教育",
-      "cards": 428
+      "cards": 429
     },
     {
       "slug": "family-school",
       "title": "家校合作",
-      "cards": 387
+      "cards": 388
     },
     {
       "slug": "labor-education",
       "title": "劳动教育",
-      "cards": 353
+      "cards": 354
     },
     {
       "slug": "aesthetic-nature-education",
@@ -139,7 +139,7 @@
     {
       "slug": "thinking-and-nature",
       "title": "思维课与大自然",
-      "cards": 289
+      "cards": 290
     },
     {
       "slug": "learning-difficulties",
@@ -154,7 +154,7 @@
     {
       "slug": "health-first",
       "title": "健康第一",
-      "cards": 98
+      "cards": 99
     },
     {
       "slug": "assessment-grading",

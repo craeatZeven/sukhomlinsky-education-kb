@@ -5,17 +5,17 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 193 |
-| [family-school](topics/family-school.md) | 家校合作 | 387 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 353 |
-| [health-first](topics/health-first.md) | 健康第一 | 98 |
+| [family-school](topics/family-school.md) | 家校合作 | 388 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 354 |
+| [health-first](topics/health-first.md) | 健康第一 | 99 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 314 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 428 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 429 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 478 |
-| [love-education](topics/love-education.md) | 爱的教育 | 765 |
+| [love-education](topics/love-education.md) | 爱的教育 | 766 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 84 |
 | [child-study](topics/child-study.md) | 儿童研究 | 705 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 131 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 289 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 290 |
 
 ## 来源 Sources
 
@@ -2356,3 +2356,9 @@
 | [sk-2321](cards/sk-2321-obedience-requires-self-respect.md) | quote | collective-education | xuan-ji-zh-vol1 | 自觉服从要求一个人具有高度成熟的自尊感 |
 | [sk-2322](cards/sk-2322-plan-lessons-around-discovery.md) | quote | teacher-growth | xuan-ji-zh-vol1 | 备课要问：这一切在多大程度上成为学生的探索和发现 |
 | [sk-2323](cards/sk-2323-progress-at-every-stage.md) | quote | learning-difficulties | xuan-ji-zh-vol1 | 成绩再差，教学的每一阶段也必须让他有所提高 |
+| [sk-2324](cards/sk-2324-seniors-as-educators-of-juniors.md) | quote | collective-education | xuan-ji-zh-vol1 | 让姑娘和小伙子一起当低年级学生的教育者 |
+| [sk-2325](cards/sk-2325-girls-opinion-shapes-boys-manhood.md) | quote | love-education | xuan-ji-zh-vol1 | 男青年越在意姑娘的评价，爱情越纯洁高尚 |
+| [sk-2326](cards/sk-2326-boys-carry-the-heavy-load.md) | quote | labor-education | xuan-ji-zh-vol1 | 要教育男孩拣重担：出力的活先由男孩承担 |
+| [sk-2327](cards/sk-2327-military-games-toughen-boys.md) | quote | health-first | xuan-ji-zh-vol1 | 四年级起用军事游戏锻炼男孩的体力和意志 |
+| [sk-2328](cards/sk-2328-girls-must-not-be-confined-to-housework.md) | quote | family-school | xuan-ji-zh-vol1 | 做母亲是光荣的使命，但不能让女子只会做母亲 |
+| [sk-2329](cards/sk-2329-girls-creative-intellectual-life.md) | quote | thinking-and-nature | xuan-ji-zh-vol1 | 培养女生的精神力量，要靠创造性的智力活动 |

@@ -8,14 +8,14 @@
 | [family-school](topics/family-school.md) | 家校合作 | 392 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 357 |
 | [health-first](topics/health-first.md) | 健康第一 | 99 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 317 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 319 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 434 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 486 |
 | [love-education](topics/love-education.md) | 爱的教育 | 774 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 85 |
-| [child-study](topics/child-study.md) | 儿童研究 | 711 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 133 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 294 |
+| [child-study](topics/child-study.md) | 儿童研究 | 712 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 135 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 295 |
 
 ## 来源 Sources
 
@@ -2410,3 +2410,9 @@
 | [sk-2375](cards/sk-2375-curiosity-is-acquired-from-people-not-nature.md) | quote | thinking-and-nature | xuan-ji-zh-vol4 | 求知欲和好奇心不是大自然赋予的，而是从人那里获得的 |
 | [sk-2376](cards/sk-2376-teach-mothers-and-grandmothers-to-tell-folk-tales.md) | quote | reading-and-books | xuan-ji-zh-vol4 | 要教母亲和祖母给孩子讲民间故事 |
 | [sk-2377](cards/sk-2377-no-child-should-lack-a-human-environment.md) | quote | family-school | xuan-ji-zh-vol4 | 不应该有任何一个孩子在童年时缺乏人的环境 |
+| [sk-2378](cards/sk-2378-reading-opens-before-language.md) | quote | aesthetic-nature-education | xuan-ji-zh-vol3 | 没有语言和智育，儿童就会对大自然的美无动于衷 |
+| [sk-2379](cards/sk-2379-choose-books-by-development-level.md) | quote | reading-and-books | xuan-ji-zh-vol3 | 进入孩子精神世界的东西必须符合他的发展水平 |
+| [sk-2380](cards/sk-2380-child-returns-to-source-of-thought.md) | quote | thinking-and-nature | xuan-ji-zh-vol3 | 要让孩子多次到思维的起源地去感受语言的美 |
+| [sk-2381](cards/sk-2381-library-sections-and-good-books.md) | quote | reading-and-books | xuan-ji-zh-vol3 | 儿童图书室的第一部分应当是故事 |
+| [sk-2382](cards/sk-2382-myths-develop-imagination.md) | quote | aesthetic-nature-education | xuan-ji-zh-vol3 | 古代神话能激发想像、发展智力 |
+| [sk-2383](cards/sk-2383-no-love-of-books-empty-soul.md) | quote | child-study | xuan-ji-zh-vol3 | 童年没有养成对书籍的喜爱，少年时心灵就会空虚 |

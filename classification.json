@@ -40917,5 +40917,107 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2378": {
+  "primary": "A13",
+  "seealso": [],
+  "facets": [],
+  "claim": "语言与智育是儿童感受自然美与生活变化的前提；缺了这层准备，美育就落不到心里。",
+  "evidence": "如果没有语言，没有智育，没有对教养的最主要目的即教会孩子思考，察觉事物、现象间的相互作用，对自然界、对直观形象和观念加以概括和抽象的追求，那儿童就会对大自然的美、色彩和音响的变幻和生活中无穷尽的变化无动于衷",
+  "title": "语言的贫乏会使儿童对美无动于衷",
+  "old_topics": [
+   "aesthetic-nature-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A13"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2379": {
+  "primary": "A13",
+  "seealso": [],
+  "facets": [],
+  "claim": "读物选择的标准是与发展水平及进一步发展要求相符；阅读课本常缺这类艺术珍品。",
+  "evidence": "只有符合学生的发展水平—智力、感情和审美水平同时符合其进一步发展要求的东西，才能进入他的精神世界。对读物的正确选择是教育工作者特别重要的任务。令人惋惜的是阅读课本中缺少好多适合儿童理解力的艺术珍品。学年开始三个月之后，我们就开始读没有收入阅",
+  "title": "读物要合学生的发展水平",
+  "old_topics": [
+   "reading-and-books"
+  ],
+  "type": "quote",
+  "tags": [
+   "A13"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2380": {
+  "primary": "A13",
+  "seealso": [],
+  "facets": [],
+  "claim": "语言的美要在思维起源地亲历过才会活起来；形象一旦在脑中成形，词句就会带出整幅声响。",
+  "evidence": "特别重要的是孩子曾多次来到过思维的起源地，感受过语言的美。比如学生读到“小牛走进了阴暗的森林，遇到了一只大灰狼”这一句子时，随着“阴暗的森林”这个词、在孩子脑海中立即出现了难以忘怀的景象：笼罩着森林的暮霭，夜间神秘莫测的簌簌声。暴风雨来临前",
+  "title": "多次回到思维的起源地",
+  "old_topics": [
+   "thinking-and-nature"
+  ],
+  "type": "quote",
+  "tags": [
+   "A13"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2381": {
+  "primary": "A13",
+  "seealso": [],
+  "facets": [],
+  "claim": "故事是对德、智、美育最有价值的一类书；选它的标准是艺术形象能承载孩子可理解的人道主义思想。",
+  "evidence": "第一部分是故事。依我看，这是对孩子的德育、智育和美育最有价值的一部分（每种书我们都买15本，以便上朗读课时，每张课桌都能发到1本）。这一部分书可供小学四个学年使用。这一部分所选的故事都是通过鲜明的艺术形象体现能为孩子理解的深刻的人道主义思想",
+  "title": "图书室第一部分是故事",
+  "old_topics": [
+   "reading-and-books"
+  ],
+  "type": "quote",
+  "tags": [
+   "A13"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2382": {
+  "primary": "A13",
+  "seealso": [],
+  "facets": [],
+  "claim": "古希腊神话在孩子能接受的形式下，兼有智育与美育作用：揭开文化的一页、激发想像、培养对远古的兴趣。",
+  "evidence": "班图书室的第四部分是古希腊的神话。这里收集了一些花尽心血才找到的书籍，它们以孩子能够接受的形式叙述希腊神话。古代神话在儿童的智育和美育方面能起重要作用。它们不仅为孩子揭开人类文化辉煌的一页，而且激发想像，发展智力，培养对远古时代的兴趣。",
+  "title": "神话激发想像发展智力",
+  "old_topics": [
+   "aesthetic-nature-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A13"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2383": {
+  "primary": "A13",
+  "seealso": [],
+  "facets": [],
+  "claim": "少年期好品质「消失」的前提是它根本没形成；童年没养成对书籍的喜爱，少年心灵必然空虚。",
+  "evidence": "一切好的品质在少年时期“消失”必然有一个前提，即好的品质根本没有形成，教育工作者认为美德是儿童天生就有的。如果孩子从儿童时代起就没有养成对书籍的喜爱，如果阅读没有成为他一生的精神需要，那么到了少年时期，他的心灵就会空",
+  "title": "不读书的少年心灵空虚",
+  "old_topics": [
+   "child-study"
+  ],
+  "type": "quote",
+  "tags": [
+   "A13"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

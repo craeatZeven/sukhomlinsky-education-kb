@@ -41512,5 +41512,107 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2413": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "把旧知识当作领会新教材的钥匙来使用，学生脑力劳动最积极，新旧知识都更巩固。",
+  "evidence": "我们把注意力放到了一个有趣的规律上：越是利用过去学过的教材来领会新教材，学生的脑力劳动就越积极，新教材就领会得越深，而过去学过的知识也会变得越巩固。当学生把过去获得的知识作为领会新教材的钥匙来使用时，他的脑力劳动就最积极。此外，我越是深人思",
+  "title": "旧知识是钥匙",
+  "old_topics": [
+   "thinking-and-nature"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2414": {
+  "primary": "A10",
+  "seealso": [],
+  "facets": [],
+  "claim": "个别工作的成效取决于教师能否借助校长的意见和建议独立分析自己的成绩、缺点与失误，校长与教师应成为教育过程的共同研究者。",
+  "evidence": "个别工作的成效主要取决于教师怎样借助于校长的意见和建议去掌握独立分析自己的成绩、缺点、失误的方法。在我校，意见和建议的性质乃至语气全都符合这个目的，这些意见和建议都产生于跟教师道对教学过程的共同分析。每堂课上都会揭示出某种新问题，思想也会深",
+  "title": "校长与教师共同研究",
+  "old_topics": [
+   "teacher-growth"
+  ],
+  "type": "quote",
+  "tags": [
+   "A10"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2415": {
+  "primary": "A20",
+  "seealso": [],
+  "facets": [],
+  "claim": "复习不是目的本身，而是发展和加深知识的手段；选择复习材料首先要明确各部分与各概念、规律、定理、公式之间的逻辑联系。",
+  "evidence": "只有清楚地了解了周围世界种种事物和现象相互联系中的心理学规律、教育学规律和逻辑规律，才能理解复习是怎样在学习新教材过程中进行的。教育学和心理学书籍的研读，帮助了这位年轻教师去理解他在富有经验的教师的课堂上所看到的一切。他明白了，复习不是目的",
+  "title": "复习是手段",
+  "old_topics": [
+   "assessment-grading"
+  ],
+  "type": "quote",
+  "tags": [
+   "A20"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2416": {
+  "primary": "A22",
+  "seealso": [],
+  "facets": [],
+  "claim": "直观性不能停留在看，必须把学生将要领会的概念纳入他们获取知识的积极劳动过程，让每个学生观察时就在心里解释现象。",
+  "evidence": "我们便仔细思考，怎样才能把直观性用在积极的获取知识上。我们得出结论认为，必须把学生将要在课堂上领会的那些概念(空间、作用力、磁力线、磁场等等)都纳入他们获取知识的积极劳动过程中来。让每个学生在独立观察时就在心里解释他看到的现象。例如，当他在",
+  "title": "直观性服务于获取知识",
+  "old_topics": [
+   "teacher-growth"
+  ],
+  "type": "quote",
+  "tags": [
+   "A22"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2417": {
+  "primary": "A10",
+  "seealso": [],
+  "facets": [],
+  "claim": "教师深入分析自己的工作，才会产生认识经验理论意义的兴趣，去考察事实、研读教育学和教学法书籍，走向实践与科研成分结合的高级阶段。",
+  "evidence": "如果一个教师肯于用心深入地分析自己的工作，他就不能不产生认识自己经验的理论意义的兴趣并对学生的知识状况与自己的教育素养之间的因果联系作出解释的意图。教师对自己的工作进行分析，必然会促使他把注意力集中在教学过程中他认为是在那种场合能起最重要作",
+  "title": "分析自己的工作",
+  "old_topics": [
+   "teacher-growth"
+  ],
+  "type": "quote",
+  "tags": [
+   "A10"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2418": {
+  "primary": "A10",
+  "seealso": [],
+  "facets": [],
+  "claim": "借鉴好经验需要先具备一般文化素养、相应的眼界、教育学和教学法知识以及理解儿童精神生活的能力，为教师创造这些条件比让他看到现成经验更难。",
+  "evidence": "如果你在做年轻教师的工作，那就要在开始时向他展示一些教学技巧，哪怕是一点一滴也好。但正如砧木里的汁液没有开始畅流之前，嫁接在上面的幼芽就不会复苏一样，想借鉴好经验的人在尚不具备借鉴这种经验所必备的条件，即不具备一般文化素养、相应的眼界、教育",
+  "title": "借鉴经验的条件",
+  "old_topics": [
+   "teacher-growth"
+  ],
+  "type": "quote",
+  "tags": [
+   "A10"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

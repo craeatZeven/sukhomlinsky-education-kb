@@ -10,12 +10,12 @@
 | [health-first](topics/health-first.md) | 健康第一 | 100 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 320 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 436 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 487 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 491 |
 | [love-education](topics/love-education.md) | 爱的教育 | 778 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 86 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 87 |
 | [child-study](topics/child-study.md) | 儿童研究 | 714 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 137 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 301 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 302 |
 
 ## 来源 Sources
 
@@ -2445,3 +2445,9 @@
 | [sk-2410](cards/sk-2410-demands-must-match-labor-contribution.md) | quote | labor-education | gei-jiao-shi-de-jian-yi-zh | 与劳动贡献不相称的要求要限制，否则养出的是好吃懒做的人 |
 | [sk-2411](cards/sk-2411-labor-is-duty-and-joy.md) | quote | labor-education | gei-jiao-shi-de-jian-yi-zh | 劳动既是神圣的义务又是欢乐，要让子女的全部生活建立在劳动上 |
 | [sk-2412](cards/sk-2412-two-health-days-every-year.md) | quote | health-first | gei-jiao-shi-de-jian-yi-zh | 每年两个健康日：让孩子身体健壮地开始学习，不致生病 |
+| [sk-2413](cards/sk-2413-lao-zhishi-yaoshi.md) | quote | thinking-and-nature | xuan-ji-zh-vol4 | 用过去的知识当钥匙，脑力劳动才最积极 |
+| [sk-2414](cards/sk-2414-gongtong-yanjiuzhe.md) | quote | teacher-growth | xuan-ji-zh-vol4 | 个别工作的成效，取决于教师学会独立分析自己 |
+| [sk-2415](cards/sk-2415-fuxi-shi-shouduan.md) | quote | assessment-grading | xuan-ji-zh-vol4 | 复习不是目的本身，而是发展和加深知识的手段 |
+| [sk-2416](cards/sk-2416-zhiguanxing-jiji-quzhi.md) | quote | teacher-growth | xuan-ji-zh-vol4 | 直观性必须纳入学生积极获取知识的过程 |
+| [sk-2417](cards/sk-2417-fenxi-ziji-gongzuo.md) | quote | teacher-growth | xuan-ji-zh-vol4 | 教师分析自己的工作，才走到实践与科研结合的高级阶段 |
+| [sk-2418](cards/sk-2418-jieyan-tiaojian.md) | quote | teacher-growth | xuan-ji-zh-vol4 | 借鉴好经验如同嫁接，先要具备汁液畅流的条件 |

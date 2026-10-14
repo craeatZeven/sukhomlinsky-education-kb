@@ -1,5 +1,5 @@
 {
-  "total_cards": 2389,
+  "total_cards": 2395,
   "source_count": 12,
   "topic_count": 12,
   "zuoren_cards": 541,
@@ -44,7 +44,7 @@
     {
       "slug": "gei-jiao-shi-de-jian-yi-zh",
       "title": "给教师的建议",
-      "cards": 138,
+      "cards": 144,
       "page_refs": 23
     },
     {
@@ -81,7 +81,7 @@
   "types": [
     {
       "type": "quote",
-      "cards": 1262
+      "cards": 1268
     },
     {
       "type": "case",
@@ -104,12 +104,12 @@
     {
       "slug": "love-education",
       "title": "爱的教育",
-      "cards": 777
+      "cards": 778
     },
     {
       "slug": "child-study",
       "title": "儿童研究",
-      "cards": 713
+      "cards": 714
     },
     {
       "slug": "teacher-growth",
@@ -129,7 +129,7 @@
     {
       "slug": "labor-education",
       "title": "劳动教育",
-      "cards": 358
+      "cards": 359
     },
     {
       "slug": "aesthetic-nature-education",
@@ -139,12 +139,12 @@
     {
       "slug": "thinking-and-nature",
       "title": "思维课与大自然",
-      "cards": 298
+      "cards": 299
     },
     {
       "slug": "learning-difficulties",
       "title": "学习困难学生",
-      "cards": 198
+      "cards": 199
     },
     {
       "slug": "reading-and-books",
@@ -159,7 +159,7 @@
     {
       "slug": "assessment-grading",
       "title": "评价与分数",
-      "cards": 85
+      "cards": 86
     }
   ]
 }

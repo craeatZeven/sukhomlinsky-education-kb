@@ -41206,5 +41206,107 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2395": {
+  "primary": "A1",
+  "seealso": [],
+  "facets": [],
+  "claim": "在三百个学生身上会发现三百种各不相同的天赋源泉；只要承认每个人有不可泯灭的表现意向，就应为他找到同样多的劳动领域。",
+  "evidence": "如果说在三百个学生身上发现了三百种各不相同的天赋的源泉，那末在如此多样的人力财富的情况下，就可以在我们的周围生活中找到同样多的各种各样的劳动，使无比丰富的劳动爱好在这块土地上繁花盛开，—只要我们能够感觉到每一个人都有这种表现自己的不可泯灭的",
+  "title": "三百种天赋需三百种劳动",
+  "old_topics": [
+   "child-study"
+  ],
+  "type": "quote",
+  "tags": [
+   "A1"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2396": {
+  "primary": "A4",
+  "seealso": [],
+  "facets": [],
+  "claim": "教育的核心是形成「可受教育的能力」——一个人对自己的成就和挫折非常关心，想成为好人，并在集体的眼里把自己树立起来。",
+  "evidence": "而我认为，教育就是形成“可受教育的能力”——使一个人对自己的成就和挫折非常关心。这一点，在我看来，乃是教育的核心，是教育的最宝贵之点：使一个人想成为好人，想竭尽自己整个心灵的全部力量，在集体的眼里把自己树立起来，显示出自己是一个优秀的、完全",
+  "title": "教育的核心是可受教育性",
+  "old_topics": [
+   "learning-difficulties"
+  ],
+  "type": "quote",
+  "tags": [
+   "A4"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2397": {
+  "primary": "A16",
+  "seealso": [],
+  "facets": [],
+  "claim": "如果教师和学校舆论只按分数给一个人下好的或坏的结论，他就不会努力去当一个好人——分数只是精神生活的一个局部，而多数人恰在此受挫。",
+  "evidence": "如果教师和学校舆论唯一地根据分数来给一个人做出好的或坏的结论，那他就不会努力去当一个好人。因为上课、掌握知识、分数—这只是人的精神生活的一个局部，只是许多领域中的一个领域。而偏偏在这个领域中，许多人会遇到巨大的困难和挫折。",
+  "title": "按分数下结论的代价",
+  "old_topics": [
+   "assessment-grading"
+  ],
+  "type": "quote",
+  "tags": [
+   "A16"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2398": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "只有当学校里思想占统治地位、有一个「思想的王国」时，学校才成其为学校；充斥死抠书本气氛的学校谈不上和谐的教育。",
+  "evidence": "当学校里由于劳动、由于人在劳动中表现自己而使思想占统治地位的时候，教育者才能达到真正的和谐的教育。只有学校里有一个“思想的王国”的时候，学校才能成其为学校。而如果在学校里充斥着一种思想贫乏、死抠书本的气氛(我想把它叫做思想幼稚病)，如果知识",
+  "title": "学校里要有思想的王国",
+  "old_topics": [
+   "thinking-and-nature"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2399": {
+  "primary": "A3",
+  "seealso": [],
+  "facets": [],
+  "claim": "儿童的幸福和充实的精神生活是任何教学大纲、教科书和教学方法都没有规定的；没有儿童的劳动的幸福，就没有教育。",
+  "evidence": "我们，尊敬的教育者们，时刻都不要忘记：有一样东西是任何教学大纲和教科书、任何教学方法和教学方式都没有做出规定的，这就是儿童的幸福和充实的精神生活。而我这里所指的，并不是天生幸福，譬如说是心爱的父母遗传给他的某种天赋，而是指劳动的幸福，—我们",
+  "title": "大纲没有规定儿童的幸福",
+  "old_topics": [
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A3"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2400": {
+  "primary": "A19",
+  "seealso": [],
+  "facets": [],
+  "claim": "只有使人表现自己、为自己的尊严和荣誉而自豪的劳动，才是道德的开端；想成为好人的愿望是从自豪感、自尊心和劳动的尊严感开始的。",
+  "evidence": "劳动，使人在劳动中表现自己，理解生活的意义，认识自己的力量和才能，为自己的人的尊严而自豪，珍惜自己的荣誉，—只有这样的劳动才是道德的开端。道德的自我教育—即激发起学生要当一个好人的愿望，实质上是从自豪感、自尊心、劳动的尊严感开始的，而缺少了",
+  "title": "劳动是道德的开端",
+  "old_topics": [
+   "labor-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A19"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

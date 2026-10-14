@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 198 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 199 |
 | [family-school](topics/family-school.md) | 家校合作 | 392 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 358 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 359 |
 | [health-first](topics/health-first.md) | 健康第一 | 99 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 320 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 435 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 486 |
-| [love-education](topics/love-education.md) | 爱的教育 | 777 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 85 |
-| [child-study](topics/child-study.md) | 儿童研究 | 713 |
+| [love-education](topics/love-education.md) | 爱的教育 | 778 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 86 |
+| [child-study](topics/child-study.md) | 儿童研究 | 714 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 135 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 298 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 299 |
 
 ## 来源 Sources
 
@@ -2427,3 +2427,9 @@
 | [sk-2392](cards/sk-2392-love-of-labor-begins-with-wanting-to-know.md) | quote | labor-education | xuan-ji-zh-vol3 | 儿童愿意劳动的出发点，首先是愿意了解 |
 | [sk-2393](cards/sk-2393-travel-to-see-the-worlds-beauty.md) | quote | aesthetic-nature-education | xuan-ji-zh-vol3 | 环球旅行的目标，是让孩子看见世界的美与善恶之争 |
 | [sk-2394](cards/sk-2394-lead-the-child-into-the-vast-human-world.md) | quote | love-education | xuan-ji-zh-vol3 | 要把孩子领进一个充满人类遭遇、操劳和忧虑的巨大世界 |
+| [sk-2395](cards/sk-2395-three-hundred-talents-need-three-hundred-labor.md) | quote | child-study | gei-jiao-shi-de-jian-yi-zh | 三百个学生有三百种天赋的源泉，就该有同样多的劳动让他们施展 |
+| [sk-2396](cards/sk-2396-education-is-forming-educability.md) | quote | learning-difficulties | gei-jiao-shi-de-jian-yi-zh | 教育的核心，是使人成为「可受教育的人」 |
+| [sk-2397](cards/sk-2397-grading-decides-whether-he-tries.md) | quote | assessment-grading | gei-jiao-shi-de-jian-yi-zh | 按分数给一个人下结论，他就不会努力去当一个好人 |
+| [sk-2398](cards/sk-2398-kingdom-of-thought-in-school.md) | quote | thinking-and-nature | gei-jiao-shi-de-jian-yi-zh | 学校里要有「思想的王国」，否则知识只是堆在栈里的货物 |
+| [sk-2399](cards/sk-2399-no-labor-happiness-no-education.md) | quote | love-education | gei-jiao-shi-de-jian-yi-zh | 儿童的幸福与充实的精神生活，是任何大纲都没有规定的东西 |
+| [sk-2400](cards/sk-2400-labor-is-beginning-of-morality.md) | quote | labor-education | gei-jiao-shi-de-jian-yi-zh | 只有让人在劳动中表现自己的劳动，才是道德的开端 |

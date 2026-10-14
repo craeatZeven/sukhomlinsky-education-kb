@@ -5,16 +5,16 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 200 |
-| [family-school](topics/family-school.md) | 家校合作 | 392 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 359 |
-| [health-first](topics/health-first.md) | 健康第一 | 99 |
+| [family-school](topics/family-school.md) | 家校合作 | 394 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 361 |
+| [health-first](topics/health-first.md) | 健康第一 | 100 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 320 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 436 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 487 |
 | [love-education](topics/love-education.md) | 爱的教育 | 778 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 86 |
 | [child-study](topics/child-study.md) | 儿童研究 | 714 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 136 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 137 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 301 |
 
 ## 来源 Sources
@@ -2439,3 +2439,9 @@
 | [sk-2404](cards/sk-2404-teacher-is-the-first-spark-of-creation.md) | quote | teacher-growth | xuan-ji-zh-vol5 | 学生的创造之火，先要由教师手里的第一颗火花点着 |
 | [sk-2405](cards/sk-2405-reading-is-a-power-of-education.md) | quote | reading-and-books | xuan-ji-zh-vol5 | 没有童年手不释卷的体验，就谈不上完满的教育 |
 | [sk-2406](cards/sk-2406-thought-fire-passes-in-the-collective.md) | quote | collective-education | xuan-ji-zh-vol5 | 一个人的思想激动了别人，集体就有了共同的火种 |
+| [sk-2407](cards/sk-2407-parents-are-the-first-educators.md) | quote | family-school | gei-jiao-shi-de-jian-yi-zh | 父母亲属是儿童最早的教育者，学龄前就埋下人的根子 |
+| [sk-2408](cards/sk-2408-tact-in-work-with-parents.md) | quote | family-school | gei-jiao-shi-de-jian-yi-zh | 对家长的工作要求高度的机智，不能把家庭生活抖底翻出来 |
+| [sk-2409](cards/sk-2409-books-are-the-mark-of-parent-culture.md) | quote | reading-and-books | gei-jiao-shi-de-jian-yi-zh | 家长的教育修养，先看他生活里给书籍留了什么位置 |
+| [sk-2410](cards/sk-2410-demands-must-match-labor-contribution.md) | quote | labor-education | gei-jiao-shi-de-jian-yi-zh | 与劳动贡献不相称的要求要限制，否则养出的是好吃懒做的人 |
+| [sk-2411](cards/sk-2411-labor-is-duty-and-joy.md) | quote | labor-education | gei-jiao-shi-de-jian-yi-zh | 劳动既是神圣的义务又是欢乐，要让子女的全部生活建立在劳动上 |
+| [sk-2412](cards/sk-2412-two-health-days-every-year.md) | quote | health-first | gei-jiao-shi-de-jian-yi-zh | 每年两个健康日：让孩子身体健壮地开始学习，不致生病 |

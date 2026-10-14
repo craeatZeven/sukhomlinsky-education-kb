@@ -1,5 +1,5 @@
 {
-  "total_cards": 2366,
+  "total_cards": 2372,
   "source_count": 12,
   "topic_count": 12,
   "zuoren_cards": 541,
@@ -32,7 +32,7 @@
     {
       "slug": "xuan-ji-zh-vol4",
       "title": "苏霍姆林斯基选集（五卷本）第4卷",
-      "cards": 282,
+      "cards": 288,
       "page_refs": 41
     },
     {
@@ -81,7 +81,7 @@
   "types": [
     {
       "type": "quote",
-      "cards": 1239
+      "cards": 1245
     },
     {
       "type": "case",
@@ -109,7 +109,7 @@
     {
       "slug": "child-study",
       "title": "儿童研究",
-      "cards": 710
+      "cards": 711
     },
     {
       "slug": "teacher-growth",
@@ -124,7 +124,7 @@
     {
       "slug": "family-school",
       "title": "家校合作",
-      "cards": 391
+      "cards": 392
     },
     {
       "slug": "labor-education",
@@ -139,17 +139,17 @@
     {
       "slug": "thinking-and-nature",
       "title": "思维课与大自然",
-      "cards": 293
+      "cards": 294
     },
     {
       "slug": "learning-difficulties",
       "title": "学习困难学生",
-      "cards": 195
+      "cards": 197
     },
     {
       "slug": "reading-and-books",
       "title": "阅读与书籍",
-      "cards": 132
+      "cards": 133
     },
     {
       "slug": "health-first",

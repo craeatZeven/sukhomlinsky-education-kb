@@ -4,8 +4,8 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 195 |
-| [family-school](topics/family-school.md) | 家校合作 | 391 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 197 |
+| [family-school](topics/family-school.md) | 家校合作 | 392 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 357 |
 | [health-first](topics/health-first.md) | 健康第一 | 99 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 317 |
@@ -13,9 +13,9 @@
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 486 |
 | [love-education](topics/love-education.md) | 爱的教育 | 774 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 85 |
-| [child-study](topics/child-study.md) | 儿童研究 | 710 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 132 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 293 |
+| [child-study](topics/child-study.md) | 儿童研究 | 711 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 133 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 294 |
 
 ## 来源 Sources
 
@@ -2404,3 +2404,9 @@
 | [sk-2369](cards/sk-2369-a-clear-line-between-memorising-and-understanding.md) | quote | assessment-grading | xuan-ji-zh-vol1 | 在必须牢记的东西和只需理解的东西之间划一条清楚的界限 |
 | [sk-2370](cards/sk-2370-skills-must-keep-pace-with-knowledge.md) | quote | learning-difficulties | xuan-ji-zh-vol1 | 技能落后于知识，学习就会变成一件苦事 |
 | [sk-2371](cards/sk-2371-every-teacher-should-be-a-centre-of-intellectual-life.md) | quote | teacher-growth | xuan-ji-zh-vol1 | 每个教师都应成为学生智力生活的中心人物 |
+| [sk-2372](cards/sk-2372-teachers-must-investigate-why-a-child-became-difficult.md) | quote | child-study | xuan-ji-zh-vol4 | 教师的神圣职责是查明孩子变成难教儿童的原因 |
+| [sk-2373](cards/sk-2373-intellectual-education-started-late-makes-a-child-hard-to-teach.md) | quote | learning-difficulties | xuan-ji-zh-vol4 | 智能教育开始得越晚，孩子就会变得越难教 |
+| [sk-2374](cards/sk-2374-difficult-children-are-not-feeble-minded.md) | quote | learning-difficulties | xuan-ji-zh-vol4 | 不能把难教儿童看成低能儿 |
+| [sk-2375](cards/sk-2375-curiosity-is-acquired-from-people-not-nature.md) | quote | thinking-and-nature | xuan-ji-zh-vol4 | 求知欲和好奇心不是大自然赋予的，而是从人那里获得的 |
+| [sk-2376](cards/sk-2376-teach-mothers-and-grandmothers-to-tell-folk-tales.md) | quote | reading-and-books | xuan-ji-zh-vol4 | 要教母亲和祖母给孩子讲民间故事 |
+| [sk-2377](cards/sk-2377-no-child-should-lack-a-human-environment.md) | quote | family-school | xuan-ji-zh-vol4 | 不应该有任何一个孩子在童年时缺乏人的环境 |

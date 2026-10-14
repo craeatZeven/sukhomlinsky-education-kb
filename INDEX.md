@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 199 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 200 |
 | [family-school](topics/family-school.md) | 家校合作 | 392 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 359 |
 | [health-first](topics/health-first.md) | 健康第一 | 99 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 320 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 435 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 486 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 436 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 487 |
 | [love-education](topics/love-education.md) | 爱的教育 | 778 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 86 |
 | [child-study](topics/child-study.md) | 儿童研究 | 714 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 135 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 299 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 136 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 301 |
 
 ## 来源 Sources
 
@@ -2433,3 +2433,9 @@
 | [sk-2398](cards/sk-2398-kingdom-of-thought-in-school.md) | quote | thinking-and-nature | gei-jiao-shi-de-jian-yi-zh | 学校里要有「思想的王国」，否则知识只是堆在栈里的货物 |
 | [sk-2399](cards/sk-2399-no-labor-happiness-no-education.md) | quote | love-education | gei-jiao-shi-de-jian-yi-zh | 儿童的幸福与充实的精神生活，是任何大纲都没有规定的东西 |
 | [sk-2400](cards/sk-2400-labor-is-beginning-of-morality.md) | quote | labor-education | gei-jiao-shi-de-jian-yi-zh | 只有让人在劳动中表现自己的劳动，才是道德的开端 |
+| [sk-2401](cards/sk-2401-self-esteem-is-the-root-of-unified-teaching.md) | quote | thinking-and-nature | xuan-ji-zh-vol5 | 智力劳动激起的自尊感，是教书与育人统一的根 |
+| [sk-2402](cards/sk-2402-learning-desire-is-the-river-of-unified-teaching.md) | quote | thinking-and-nature | xuan-ji-zh-vol5 | 学习愿望是教书育人长河的水，漠不关心才是最凶的敌人 |
+| [sk-2403](cards/sk-2403-let-the-weakest-see-the-fruit-of-his-labor.md) | quote | learning-difficulties | xuan-ji-zh-vol5 | 让最差的学生看见自己的劳动果实，是最难也最要紧的事 |
+| [sk-2404](cards/sk-2404-teacher-is-the-first-spark-of-creation.md) | quote | teacher-growth | xuan-ji-zh-vol5 | 学生的创造之火，先要由教师手里的第一颗火花点着 |
+| [sk-2405](cards/sk-2405-reading-is-a-power-of-education.md) | quote | reading-and-books | xuan-ji-zh-vol5 | 没有童年手不释卷的体验，就谈不上完满的教育 |
+| [sk-2406](cards/sk-2406-thought-fire-passes-in-the-collective.md) | quote | collective-education | xuan-ji-zh-vol5 | 一个人的思想激动了别人，集体就有了共同的火种 |

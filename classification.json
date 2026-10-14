@@ -41308,5 +41308,107 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2401": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "学生的求知意愿要靠「不知睡眠和不知疲劳的须根」供养；只有当勤奋与自尊联系在一起、学生为自己的劳动成果而自豪时，才会在内心里产生成为有思想的人的愿望。",
+  "evidence": "求知的意愿，同样要靠千百条不知睡眠和不知疲劳的须根提供养分。学生期望着的那种欢乐无比、魅力无穷，却又并非轻而易举的劳动，便是这样的须根。只有当勤奋与自尊不可分割地联系在一起时，智力劳动才成其为这样的劳动。学生应当感觉到自己是劳动者，并为凭借",
+  "title": "自尊感是教书育人的根",
+  "old_topics": [
+   "thinking-and-nature"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2402": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "汇成「教书和育人统一」这条长河的涓涓之水就是学生的学习愿望；热情冷却以后代之而起的对学习的漠不关心，是学习最可怕和最可恶的敌人。",
+  "evidence": "多年来跟学生相处，不止一次地使我确信，汇成“教书和育人统”这条长河的涓涓之水，便是学生的学习愿望。但如何疏导这涓涓之水和怎样去做，才能使它不致淤塞呢?比方说，儿童刚进学校，满怀求知热情，但这热情很快就冷却了，代之而起的是学习的最可怕和最可恶",
+  "title": "学习愿望是长河之水",
+  "old_topics": [
+   "thinking-and-nature"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2403": {
+  "primary": "A6",
+  "seealso": [],
+  "facets": [],
+  "claim": "在创造性教学活动中让学习最差的学生看到自己的劳动果实、感到一个有思想的劳动者的自豪，是最困难最复杂的问题；把这样的学生引到胜利的顶点常常需要一两周甚至更长时间。",
+  "evidence": "有经验的教师在创造性的教学活动中，让学习最差的学生看到自己的劳动果实，感到一个有思想的劳动者的自豪，恰恰是最困难、最复杂的问题。像我们引导尤拉那样把一个同学引导到胜利的顶点，得需要一两个星期，甚至更长。那也没什么，因为我们的工作要求更多的耐",
+  "title": "让最弱的学生看见劳动果实",
+  "old_topics": [
+   "learning-difficulties"
+  ],
+  "type": "quote",
+  "tags": [
+   "A6"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2404": {
+  "primary": "A22",
+  "seealso": [],
+  "facets": [],
+  "claim": "当学生难以达到「用思想吸引别人」的创作水平时，教师的首创精神应当是第一颗火花——据作者本人的经验，教师先自己动笔，才可能把这种创造活动的欲望激发起来。",
+  "evidence": "也许有人会问：若是为了让一个人的思想吸引别人，让这种思想的美激起对创造活动的欲望，但学生很难达到这样的创作水平，那该怎么办呢?据我本人的经验，我确信在这种情况下教师的首创精神应当是第一颗火花。",
+  "title": "教师是第一颗火花",
+  "old_topics": [
+   "teacher-growth"
+  ],
+  "type": "quote",
+  "tags": [
+   "A22"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2405": {
+  "primary": "A13",
+  "seealso": [],
+  "facets": [],
+  "claim": "如果一个人在童年未能亲身体验到手不释卷的欢乐，就根本谈不上完满的教育；阅读之所以成为教育力量，是因为学生为道德的美所吸引时开始思考自己、用道德尺度衡量自己。",
+  "evidence": "假若一个人在童年未能通过亲身体验到手不释卷的扣人心弦的欢乐，那就根本谈不上完满的教育。阅读之所以成为强有力的教育力量、是因为学生为道德的美深深吸引并力求仿效时开始思考自已，评价自已的行为举动，而用一定的道德尺度衡量自己。使阅读和思索书中真谛",
+  "title": "阅读是教育力量",
+  "old_topics": [
+   "reading-and-books"
+  ],
+  "type": "quote",
+  "tags": [
+   "A13"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2406": {
+  "primary": "A9",
+  "seealso": [],
+  "facets": [],
+  "claim": "创造活动对建立健全的儿童集体具有特殊意义，首先是语言创造活动：使一个人激动的东西也会使他人激动起来，学生的作品在同伴中引起共鸣，集体由此获得共同的精神生活。",
+  "evidence": "创造活动对建立健全的儿童集体具有特殊的意义。这首先是语言创造活动。低年级教师都要在早晨系统组织儿童创作表演会，让学生朗诵自己的故事、诗歌。这基本上是学生对亲眼所见并使之着迷、惊异、激动的东西进行艺术叙述。要知道，这就是思想的星星之火，这就是",
+  "title": "思想之火在集体里传递",
+  "old_topics": [
+   "collective-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A9"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

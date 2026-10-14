@@ -6,12 +6,12 @@
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 194 |
 | [family-school](topics/family-school.md) | 家校合作 | 391 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 354 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 356 |
 | [health-first](topics/health-first.md) | 健康第一 | 99 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 317 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 430 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 482 |
-| [love-education](topics/love-education.md) | 爱的教育 | 771 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 431 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 483 |
+| [love-education](topics/love-education.md) | 爱的教育 | 773 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 84 |
 | [child-study](topics/child-study.md) | 儿童研究 | 709 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 132 |
@@ -2386,3 +2386,9 @@
 | [sk-2351](cards/sk-2351-strong-feelings-make-education-both-easy-and-hard.md) | quote | child-study | xuan-ji-zh-vol5 | 感情强烈的孩子，教育既容易又复杂 |
 | [sk-2352](cards/sk-2352-heal-a-childs-wound-without-mentioning-it.md) | quote | child-study | xuan-ji-zh-vol5 | 医治孩子心灵的创伤，先做到不提不问 |
 | [sk-2353](cards/sk-2353-personal-happiness-is-the-most-precious-gem.md) | quote | love-education | xuan-ji-zh-vol5 | 个人的幸福，是最可贵最可亲的宝石 |
+| [sk-2354](cards/sk-2354-empty-time-is-not-solved-by-banning-things.md) | quote | love-education | xuan-ji-zh-vol5 | 禁酒令替代不了对人的教育 |
+| [sk-2355](cards/sk-2355-school-knowledge-goes-stale.md) | quote | teacher-growth | xuan-ji-zh-vol5 | 只靠学校里学到的知识，毕业五六年就会见绌 |
+| [sk-2356](cards/sk-2356-even-a-five-year-old-can-be-an-adults-helper.md) | quote | labor-education | xuan-ji-zh-vol5 | 五岁的孩子也能感到自己是大人的帮手 |
+| [sk-2357](cards/sk-2357-only-labour-makes-a-teenager-a-real-person.md) | quote | love-education | xuan-ji-zh-vol5 | 能为大家谋幸福、胸怀远大目标的儿童，才能成长为真正的人 |
+| [sk-2358](cards/sk-2358-labor-education-aims-at-ennobling-the-heart.md) | quote | labor-education | xuan-ji-zh-vol5 | 儿童参加劳动，最重要的宗旨是使其心灵高尚化 |
+| [sk-2359](cards/sk-2359-a-childs-pride-in-building-is-the-ground-of-civic-feeling.md) | quote | collective-education | xuan-ji-zh-vol5 | 为社会造福的这份自豪感，是公民情感的起点 |

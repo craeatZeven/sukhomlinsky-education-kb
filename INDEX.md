@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 194 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 195 |
 | [family-school](topics/family-school.md) | 家校合作 | 391 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 356 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 357 |
 | [health-first](topics/health-first.md) | 健康第一 | 99 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 317 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 431 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 483 |
-| [love-education](topics/love-education.md) | 爱的教育 | 773 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 84 |
-| [child-study](topics/child-study.md) | 儿童研究 | 709 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 434 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 486 |
+| [love-education](topics/love-education.md) | 爱的教育 | 774 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 85 |
+| [child-study](topics/child-study.md) | 儿童研究 | 710 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 132 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 292 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 293 |
 
 ## 来源 Sources
 
@@ -2392,3 +2392,15 @@
 | [sk-2357](cards/sk-2357-only-labour-makes-a-teenager-a-real-person.md) | quote | love-education | xuan-ji-zh-vol5 | 能为大家谋幸福、胸怀远大目标的儿童，才能成长为真正的人 |
 | [sk-2358](cards/sk-2358-labor-education-aims-at-ennobling-the-heart.md) | quote | labor-education | xuan-ji-zh-vol5 | 儿童参加劳动，最重要的宗旨是使其心灵高尚化 |
 | [sk-2359](cards/sk-2359-a-childs-pride-in-building-is-the-ground-of-civic-feeling.md) | quote | collective-education | xuan-ji-zh-vol5 | 为社会造福的这份自豪感，是公民情感的起点 |
+| [sk-2360](cards/sk-2360-power-over-a-child-is-a-sharp-instrument.md) | quote | teacher-growth | xuan-ji-zh-vol1 | 支配孩子的权力是最必要又最危险的教育器具 |
+| [sk-2361](cards/sk-2361-self-control-decides-educational-wisdom.md) | quote | teacher-growth | xuan-ji-zh-vol1 | 教育智慧的高低，取决于教师能否控制自己的感情 |
+| [sk-2362](cards/sk-2362-avoiding-conflicts-is-part-of-educational-wisdom.md) | quote | collective-education | xuan-ji-zh-vol1 | 善于避免师生冲突，是教师教育智慧的组成部分 |
+| [sk-2363](cards/sk-2363-collective-condemnation-breeds-hypocrites.md) | quote | collective-education | xuan-ji-zh-vol1 | 组织集体谴责儿童的错误，培养出的是信口开河的伪君子 |
+| [sk-2364](cards/sk-2364-knowing-why-makes-education-a-practical-science.md) | quote | child-study | xuan-ji-zh-vol1 | 弄清了孩子为什么这样做，教育才成为实践科学 |
+| [sk-2365](cards/sk-2365-feelings-are-the-powder-of-education.md) | quote | love-education | xuan-ji-zh-vol1 | 儿童的感情，是等待教师权力这颗火星来引爆的火药 |
+| [sk-2366](cards/sk-2366-creative-thinking-grows-from-the-students-own-view.md) | quote | thinking-and-nature | xuan-ji-zh-vol1 | 学生有了自己的独立观点，才会形成创造性的思维 |
+| [sk-2367](cards/sk-2367-every-student-needs-one-favourite-subject.md) | quote | collective-education | xuan-ji-zh-vol1 | 每个学生都应有一门自己喜爱的学科 |
+| [sk-2368](cards/sk-2368-wisdom-shows-itself-in-the-fruits-of-labour.md) | quote | labor-education | xuan-ji-zh-vol1 | 智慧在劳动成果中表现出来，劳动使人变得更加聪明 |
+| [sk-2369](cards/sk-2369-a-clear-line-between-memorising-and-understanding.md) | quote | assessment-grading | xuan-ji-zh-vol1 | 在必须牢记的东西和只需理解的东西之间划一条清楚的界限 |
+| [sk-2370](cards/sk-2370-skills-must-keep-pace-with-knowledge.md) | quote | learning-difficulties | xuan-ji-zh-vol1 | 技能落后于知识，学习就会变成一件苦事 |
+| [sk-2371](cards/sk-2371-every-teacher-should-be-a-centre-of-intellectual-life.md) | quote | teacher-growth | xuan-ji-zh-vol1 | 每个教师都应成为学生智力生活的中心人物 |

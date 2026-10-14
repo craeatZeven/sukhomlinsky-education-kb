@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 197 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 198 |
 | [family-school](topics/family-school.md) | 家校合作 | 392 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 357 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 358 |
 | [health-first](topics/health-first.md) | 健康第一 | 99 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 319 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 434 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 320 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 435 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 486 |
-| [love-education](topics/love-education.md) | 爱的教育 | 774 |
+| [love-education](topics/love-education.md) | 爱的教育 | 777 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 85 |
-| [child-study](topics/child-study.md) | 儿童研究 | 712 |
+| [child-study](topics/child-study.md) | 儿童研究 | 713 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 135 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 295 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 298 |
 
 ## 来源 Sources
 
@@ -2416,3 +2416,14 @@
 | [sk-2381](cards/sk-2381-library-sections-and-good-books.md) | quote | reading-and-books | xuan-ji-zh-vol3 | 儿童图书室的第一部分应当是故事 |
 | [sk-2382](cards/sk-2382-myths-develop-imagination.md) | quote | aesthetic-nature-education | xuan-ji-zh-vol3 | 古代神话能激发想像、发展智力 |
 | [sk-2383](cards/sk-2383-no-love-of-books-empty-soul.md) | quote | child-study | xuan-ji-zh-vol3 | 童年没有养成对书籍的喜爱，少年时心灵就会空虚 |
+| [sk-2384](cards/sk-2384-kindness-not-cruelty.md) | quote | love-education | xuan-ji-zh-vol2 | 道德教育要培养善良的人，但不等于从小就教孩子残忍 |
+| [sk-2385](cards/sk-2385-cruel-people-are-always-cowards.md) | quote | love-education | xuan-ji-zh-vol2 | 残酷的人永远是胆小鬼，善良热诚的人才是勇士 |
+| [sk-2386](cards/sk-2386-sow-contempt-for-betrayal-early.md) | quote | child-study | xuan-ji-zh-vol2 | 蔑视背叛的种子应该在孩子敏锐的年龄时期撒下去 |
+| [sk-2387](cards/sk-2387-indifference-is-the-greatest-shame.md) | quote | collective-education | xuan-ji-zh-vol2 | 对待他人冷漠是最大的耻辱，精神上参与要付代价 |
+| [sk-2388](cards/sk-2388-knowledge-must-ignite-passion.md) | quote | thinking-and-nature | xuan-ji-zh-vol2 | 知识一旦不再激发热情，就失去教育作用了 |
+| [sk-2389](cards/sk-2389-abstract-truths-need-direct-contact-with-nature.md) | quote | thinking-and-nature | xuan-ji-zh-vol3 | 课内抽象概括愈多，愈要回到知识的直接来源大自然 |
+| [sk-2390](cards/sk-2390-clear-thought-comes-from-contact-with-the-world.md) | quote | thinking-and-nature | xuan-ji-zh-vol3 | 思想清晰来自直接同周围世界相接触的过程 |
+| [sk-2391](cards/sk-2391-slow-thinkers-cannot-move-from-concrete-to-abstract.md) | quote | learning-difficulties | xuan-ji-zh-vol3 | 思想迟钝的根子，是不会从具体事物走向抽象概念 |
+| [sk-2392](cards/sk-2392-love-of-labor-begins-with-wanting-to-know.md) | quote | labor-education | xuan-ji-zh-vol3 | 儿童愿意劳动的出发点，首先是愿意了解 |
+| [sk-2393](cards/sk-2393-travel-to-see-the-worlds-beauty.md) | quote | aesthetic-nature-education | xuan-ji-zh-vol3 | 环球旅行的目标，是让孩子看见世界的美与善恶之争 |
+| [sk-2394](cards/sk-2394-lead-the-child-into-the-vast-human-world.md) | quote | love-education | xuan-ji-zh-vol3 | 要把孩子领进一个充满人类遭遇、操劳和忧虑的巨大世界 |

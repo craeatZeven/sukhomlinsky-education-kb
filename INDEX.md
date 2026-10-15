@@ -7,12 +7,12 @@
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 200 |
 | [family-school](topics/family-school.md) | 家校合作 | 394 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 367 |
-| [health-first](topics/health-first.md) | 健康第一 | 100 |
+| [health-first](topics/health-first.md) | 健康第一 | 106 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 322 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 443 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 494 |
 | [love-education](topics/love-education.md) | 爱的教育 | 788 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 89 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 94 |
 | [child-study](topics/child-study.md) | 儿童研究 | 718 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 138 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 303 |
@@ -2487,3 +2487,14 @@
 | [sk-2452](cards/sk-2452-laodong-chengguo-de-kuaile.md) | quote | labor-education | xuan-ji-zh-vol4 | 早期体验为社会劳动带来的快乐，是形成道德信念极重要的条件 |
 | [sk-2453](cards/sk-2453-rang-ganshou-deda-fanxiang.md) | quote | love-education | xuan-ji-zh-vol4 | 孩子来诉说委屈，要的是感受在另一个人的心灵里得到反响 |
 | [sk-2454](cards/sk-2454-daode-chengshuqi.md) | quote | collective-education | xuan-ji-zh-vol4 | 信念变成独立的精神力量，才称得上道德成熟期 |
+| [sk-2455](cards/sk-2455-zhishi-de-zhuanhua.md) | quote | assessment-grading | gei-jiao-shi-de-jian-yi-zh | 知识的转化应当作为复习的基础 |
+| [sk-2456](cards/sk-2456-pigaishijian-de-qianti.md) | quote | assessment-grading | gei-jiao-shi-de-jian-yi-zh | 批改练习本的时间可以减少三分之二，但有前提 |
+| [sk-2457](cards/sk-2457-jiancha-zuoye-langfei-shijian.md) | quote | assessment-grading | gei-jiao-shi-de-jian-yi-zh | 检查家庭作业占掉三分之一课时，惰性会带到整节课 |
+| [sk-2458](cards/sk-2458-tiwen-bu-chongfu-xiaobiaoti.md) | quote | assessment-grading | gei-jiao-shi-de-jian-yi-zh | 提问若只是重复教科书小标题，就把学生推上死记的路 |
+| [sk-2459](cards/sk-2459-quanti-xuesheng-duli-zuoye.md) | quote | assessment-grading | xuan-ji-zh-vol4 | 评价课的主要标准：全体学生独立把作业做完 |
+| [sk-2460](cards/sk-2460-cong-jiankang-ruashou.md) | quote | health-first | xuan-ji-zh-vol4 | 研究孩子，要从研究他的健康状况入手 |
+| [sk-2461](cards/sk-2461-qingnian-de-shengli-yinsi.md) | quote | health-first | xuan-ji-zh-vol4 | 青年的生理问题，是最容易伤到精神尊严的敏感处 |
+| [sk-2462](cards/sk-2462-tizhi-fenzu-yu-tiruo-zhe.md) | quote | health-first | xuan-ji-zh-vol4 | 体育课按体质分组，重点关照体弱的孩子 |
+| [sk-2463](cards/sk-2463-kongyu-shijian-de-jingshen-qingqu.md) | quote | health-first | xuan-ji-zh-vol4 | 空余时间的精神情趣越丰富，课堂上的脑力劳动就越吸引孩子 |
+| [sk-2464](cards/sk-2464-xiyan-de-weihai.md) | quote | health-first | xuan-ji-zh-vol3 | 吸烟使少年本已兴奋的神经超出极限 |
+| [sk-2465](cards/sk-2465-gaoreliang-yinshi-yu-chengshu.md) | quote | health-first | xuan-ji-zh-vol3 | 高热量饮食加上体力劳动不足，会加快性成熟 |

@@ -6,14 +6,14 @@
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 200 |
 | [family-school](topics/family-school.md) | 家校合作 | 394 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 365 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 367 |
 | [health-first](topics/health-first.md) | 健康第一 | 100 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 322 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 438 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 443 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 494 |
-| [love-education](topics/love-education.md) | 爱的教育 | 784 |
+| [love-education](topics/love-education.md) | 爱的教育 | 788 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 89 |
-| [child-study](topics/child-study.md) | 儿童研究 | 717 |
+| [child-study](topics/child-study.md) | 儿童研究 | 718 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 138 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 303 |
 
@@ -2475,3 +2475,15 @@
 | [sk-2440](cards/sk-2440-xiuchigan-liangyao.md) | quote | teacher-growth | xuan-ji-zh-vol5 | 没有刻意想出的教育方法，羞耻感才是治粗鲁的良药 |
 | [sk-2441](cards/sk-2441-chunjie-ai-wu.md) | quote | love-education | xuan-ji-zh-vol5 | 教育者的道德纯洁，首先是对人的挚爱和对恶的本能憎恨 |
 | [sk-2442](cards/sk-2442-duizhegan-de-yuanyin.md) | quote | child-study | xuan-ji-zh-vol5 | 孩子处处跟大人对着干，是他心里的理想形象被践踏了 |
+| [sk-2443](cards/sk-2443-sixiang-shizhi-zai-yizhixing.md) | quote | collective-education | xuan-ji-zh-vol2 | 共产主义思想的实质，是目的性、说做统一与思行一致 |
+| [sk-2444](cards/sk-2444-nengshou-de-quexin.md) | quote | labor-education | xuan-ji-zh-vol2 | 相信自己在创造性劳动中能成为能手，才是毅力的源头 |
+| [sk-2445](cards/sk-2445-xinnian-kao-xingdong.md) | quote | collective-education | xuan-ji-zh-vol2 | 思想再崇高，不投身实现它的活动也长不成信念 |
+| [sk-2446](cards/sk-2446-changyuan-mubiao-yu-xinnian.md) | quote | love-education | xuan-ji-zh-vol2 | 自觉地给自己提出长远目标时，思想才变为信念 |
+| [sk-2447](cards/sk-2447-shehui-de-shi-cheng-geren-mudi.md) | quote | collective-education | xuan-ji-zh-vol2 | 把社会的事情变成每个人自己的事，个性才会高度积极化 |
+| [sk-2448](cards/sk-2448-qingshaonian-yizhi-duanlian.md) | quote | child-study | xuan-ji-zh-vol2 | 青少年期要在行动中看到自己的思想，动机越高尚意志越受锻炼 |
+| [sk-2449](cards/sk-2449-xinnian-genji-zai-tongnian.md) | quote | love-education | xuan-ji-zh-vol4 | 道德信念是顶峰，而它的根基要在童年和少年早期奠定 |
+| [sk-2450](cards/sk-2450-bianjie-xingwei-yuanzi-tongnian.md) | quote | love-education | xuan-ji-zh-vol4 | 千百次可耻的变节行为，根源是童年养成的不得罪人与漠不关心 |
+| [sk-2451](cards/sk-2451-wei-ren-gaoshang-weiji-kechi.md) | quote | collective-education | xuan-ji-zh-vol4 | 为社会做好事是道德高尚，只考虑自己则是可耻的 |
+| [sk-2452](cards/sk-2452-laodong-chengguo-de-kuaile.md) | quote | labor-education | xuan-ji-zh-vol4 | 早期体验为社会劳动带来的快乐，是形成道德信念极重要的条件 |
+| [sk-2453](cards/sk-2453-rang-ganshou-deda-fanxiang.md) | quote | love-education | xuan-ji-zh-vol4 | 孩子来诉说委屈，要的是感受在另一个人的心灵里得到反响 |
+| [sk-2454](cards/sk-2454-daode-chengshuqi.md) | quote | collective-education | xuan-ji-zh-vol4 | 信念变成独立的精神力量，才称得上道德成熟期 |

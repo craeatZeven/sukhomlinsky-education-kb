@@ -42719,5 +42719,112 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2484": {
+  "primary": "A9",
+  "seealso": [],
+  "facets": [],
+  "claim": "没有思想王国（围绕真问题的思想往来）的地方，学校即使组织齐全也不能成为集体",
+  "evidence": "我们仔细观察过许多学校的集体的精神生活，可是就没有发现上述诸方面的和谐一致。不管这有多么奇怪和反常，可是，我们在许多学校里就是没有找到最主要的东西—思想王国，而在一所学校里，如果没有思想王国，它也就不能成为一个集体。",
+  "title": "思想王国",
+  "old_topics": [
+   "collective-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A9"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2485": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "消极灌输知识、不要求学生形成自己的观点，会使学生彼此隔离并削弱集体的精神生活",
+  "evidence": "因为教育者只是消极地把知识塞进他们的头脑，没有要求他们树立为形成个人世界观所必须努力的明确目标。这样的教学使每个学生仿佛关在自己的小天地里，堵住了他们通向别人精神世界的道路，而且也使集体丧失了为渴望知识而产生的丰富情感。",
+  "title": "消极灌输的后果",
+  "old_topics": [
+   "collective-education",
+   "thinking-and-nature"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2486": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "独立思考意味着敏感地认识世界与自己，其途径是自然、劳动、创造、美德与书本，而不是学历",
+  "evidence": "做一个能独立思考的人——这就意味着要细心而敏感地去认识、了解、感知世界和置身于周围世界的本人……这就要同自然界打交道，参加劳动，进行创造，培养人的美德，掌握人类丰富的精神文明，首先是掌握书本。",
+  "title": "独立思考的定义",
+  "old_topics": [
+   "thinking-and-nature",
+   "reading-and-books"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2487": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "学生不会表达和加工思想，就无法产生自己的见解，集体因而没有思想王国",
+  "evidence": "而是要让学生谈他对所思考的事物的感受。某些学校目前之所以没有思想王国，是因为多数学生不善于表达自己的思想，即不善于把进人他们脑海的大量信息在他们个人的精神世界里进行处理，不能产生和确立自己的见解。",
+  "title": "表达与确立见解",
+  "old_topics": [
+   "collective-education",
+   "thinking-and-nature"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2488": {
+  "primary": "A9",
+  "seealso": [],
+  "facets": [],
+  "claim": "学生把知识献给同学、为讲清楚而重新学习，是集体智力生活与个人学习动力的共同来源",
+  "evidence": "对低年级学生来说，同高年级学生的友好关系是新的智力财富的源泉。高年级学生感到把自己的知识传授给低年级学生是一种欢乐，献出自己的精神财富，是为了使别人变得更好些，这种思想正是鼓励高年级学生顽强学习、尊重书本和科学的一种动力。",
+  "title": "献出精神财富的快乐",
+  "old_topics": [
+   "collective-education",
+   "thinking-and-nature"
+  ],
+  "type": "quote",
+  "tags": [
+   "A9"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2489": {
+  "primary": "A2",
+  "seealso": [],
+  "facets": [],
+  "claim": "教育者的使命是让学生对平凡人与英雄的业绩产生惊讶和崇敬，并把为祖国斗争牺牲理解为幸福",
+  "evidence": "我认为教育者的崇高使命在于教导青年看到我们的时代、我们的社会里的英雄业绩，对普通和平凡的事产生兴趣和惊讶，对社会主义制度下出现的奇迹新人感到惊叹和崇敬，教导他们懂得为祖国的荣誉和富强而斗争甚至牺牲是一种幸福。",
+  "title": "牺牲是一种幸福",
+  "old_topics": [
+   "love-education",
+   "collective-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A2"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

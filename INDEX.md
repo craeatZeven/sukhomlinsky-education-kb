@@ -9,13 +9,13 @@
 | [labor-education](topics/labor-education.md) | 劳动教育 | 368 |
 | [health-first](topics/health-first.md) | 健康第一 | 106 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 323 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 446 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 451 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 495 |
-| [love-education](topics/love-education.md) | 爱的教育 | 791 |
+| [love-education](topics/love-education.md) | 爱的教育 | 792 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 95 |
 | [child-study](topics/child-study.md) | 儿童研究 | 719 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 139 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 309 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 140 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 313 |
 
 ## 来源 Sources
 
@@ -2516,3 +2516,9 @@
 | [sk-2481](cards/sk-2481-concept-of-happiness-defines-the-person.md) | quote | love-education | xuan-ji-zh-vol5 | 人有什么样的幸福观，他就是什么样的人 |
 | [sk-2482](cards/sk-2482-punishment-is-not-a-saving-force.md) | quote | assessment-grading | xuan-ji-zh-vol5 | 不相信惩罚是挽救力量：手术刀只在有脓肿时才开 |
 | [sk-2483](cards/sk-2483-most-sensitive-side-of-education-language-expression.md) | quote | thinking-and-nature | xuan-ji-zh-vol5 | 教育最敏感的一面：让学生用语言表达自己的思想与内在精神力量 |
+| [sk-2484](cards/sk-2484-kingdom-of-thought-makes-a-collective.md) | quote | collective-education | xuan-ji-zh-vol1 | 没有「思想王国」，学校就不能成为集体 |
+| [sk-2485](cards/sk-2485-mechanical-knowledge-closes-student-in.md) | quote | collective-education / thinking-and-nature | xuan-ji-zh-vol1 | 只把知识塞进头脑，等于把学生关进小天地 |
+| [sk-2486](cards/sk-2486-what-an-independent-thinker-means.md) | quote | thinking-and-nature / reading-and-books | xuan-ji-zh-vol1 | 做独立思考的人：从自然界、劳动、书本里取得思想源泉 |
+| [sk-2487](cards/sk-2487-students-must-form-their-own-views.md) | quote | collective-education / thinking-and-nature | xuan-ji-zh-vol1 | 多数学生不善于表达思想，集体就没有思想王国 |
+| [sk-2488](cards/sk-2488-sharing-knowledge-is-the-joy-of-collective-life.md) | quote | collective-education / thinking-and-nature | xuan-ji-zh-vol1 | 把知识献给同学，是集体智力生活的动力 |
+| [sk-2489](cards/sk-2489-sacrifice-for-homeland-is-happiness.md) | quote | love-education / collective-education | xuan-ji-zh-vol1 | 教育者的崇高使命：让学生懂得为祖国的荣誉斗争是一种幸福 |

@@ -9,11 +9,11 @@
 | [labor-education](topics/labor-education.md) | 劳动教育 | 368 |
 | [health-first](topics/health-first.md) | 健康第一 | 106 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 322 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 443 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 494 |
-| [love-education](topics/love-education.md) | 爱的教育 | 788 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 446 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 495 |
+| [love-education](topics/love-education.md) | 爱的教育 | 789 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 94 |
-| [child-study](topics/child-study.md) | 儿童研究 | 718 |
+| [child-study](topics/child-study.md) | 儿童研究 | 719 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 138 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 308 |
 
@@ -2504,3 +2504,9 @@
 | [sk-2469](cards/sk-2469-labor-educates-only-when-it-carries-civic-meaning.md) | quote | labor-education | xuan-ji-zh-vol5 | 劳动只有在带有公民观念时才是教育力量，零散的干活等于零 |
 | [sk-2470](cards/sk-2470-cosmos-lessons-and-the-course-on-astronomy.md) | quote | thinking-and-nature | xuan-ji-zh-vol3 | 从五年级起办宇宙讲座，毕业班开天文学基础原理课 |
 | [sk-2471](cards/sk-2471-struggle-for-scientific-truth-is-the-essence-of-teenage-education.md) | quote | thinking-and-nature | xuan-ji-zh-vol3 | 为科学真理的胜利而斗争，构成少年时代教育的实质 |
+| [sk-2472](cards/sk-2472-shaonian-jiti-yu-geren-zhuanzhe.md) | quote | child-study | xuan-ji-zh-vol1 | 少年期集体与个人的关系发生质变：从关心活动转向关心本人的想法 |
+| [sk-2473](cards/sk-2473-shaonian-fangan-jiti-xingshihua.md) | quote | collective-education | xuan-ji-zh-vol1 | 少年反感为凑在一起而办的活动，一个优秀集体已不够 |
+| [sk-2474](cards/sk-2474-kewai-xiaozu-dagang-zhwai-cailiao.md) | quote | collective-education | xuan-ji-zh-vol1 | 课外小组对少年期有特殊作用：它积累的是大纲之外的材料 |
+| [sk-2475](cards/sk-2475-jiti-jingshen-shenghuo-fazhan-gexing.md) | quote | collective-education | xuan-ji-zh-vol1 | 集体的精神生活应当建立在发展每个少年个性的基础上 |
+| [sk-2476](cards/sk-2476-jiaoyu-shaonian-yindao-er-fei-jinzhi.md) | quote | teacher-growth | xuan-ji-zh-vol1 | 教育少年的基本原则是让他显露精神力量，而不是禁止和命令 |
+| [sk-2477](cards/sk-2477-jiti-yu-geren-yinsi-jiexian.md) | quote | love-education | xuan-ji-zh-vol1 | 集体要关注个人事务，又要找到隐私范围的界限 |

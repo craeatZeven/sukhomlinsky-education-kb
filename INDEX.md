@@ -6,14 +6,14 @@
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 200 |
 | [family-school](topics/family-school.md) | 家校合作 | 394 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 362 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 365 |
 | [health-first](topics/health-first.md) | 健康第一 | 100 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 322 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 438 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 491 |
-| [love-education](topics/love-education.md) | 爱的教育 | 782 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 492 |
+| [love-education](topics/love-education.md) | 爱的教育 | 783 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 88 |
-| [child-study](topics/child-study.md) | 儿童研究 | 714 |
+| [child-study](topics/child-study.md) | 儿童研究 | 715 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 138 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 303 |
 
@@ -2463,3 +2463,9 @@
 | [sk-2428](cards/sk-2428-shared-fate-drives-knowledge-of-homeland.md) | quote | thinking-and-nature | xuan-ji-zh-vol1 | 对祖国的休戚相关之感，能让学生如饥似渴地求知 |
 | [sk-2429](cards/sk-2429-civic-consciousness-requires-understanding-real-life.md) | quote | collective-education | xuan-ji-zh-vol1 | 真正的公民意识，要以深刻理解当代现实生活为前提 |
 | [sk-2430](cards/sk-2430-every-youth-needs-own-history-books.md) | quote | reading-and-books | xuan-ji-zh-vol1 | 每个青少年都应该有自己的历史书籍 |
+| [sk-2431](cards/sk-2431-teacher-cannot-be-at-peace-about-each-graduate-fate.md) | quote | teacher-growth | xuan-ji-zh-vol5 | 教师送走学生时的不安：他们是否都按自己的志向找到了位置 |
+| [sk-2432](cards/sk-2432-vocation-is-the-main-basis-of-personal-happiness.md) | quote | love-education | xuan-ji-zh-vol5 | 志向是个人幸福最主要的基础，也是个人快乐与社会责任的结合点 |
+| [sk-2433](cards/sk-2433-labor-is-not-merely-a-means-of-earning.md) | quote | labor-education | xuan-ji-zh-vol5 | 劳动对当代青年不只是谋生手段，而是创造与兄弟般关系的源泉 |
+| [sk-2434](cards/sk-2434-no-labor-no-vocation-love-comes-first.md) | quote | labor-education | xuan-ji-zh-vol5 | 没有劳动就找不到志向：热爱先于寻找 |
+| [sk-2435](cards/sk-2435-childishness-prolongs-adolescence.md) | quote | child-study | xuan-ji-zh-vol5 | 十七八岁还只是学生，是被「孩子化」拖长的成长 |
+| [sk-2436](cards/sk-2436-labor-assigned-as-a-task-not-a-path-to-vocation.md) | quote | labor-education | xuan-ji-zh-vol5 | 学校安排了劳动，却没有把它当成培养志向的手段 |

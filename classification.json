@@ -42617,5 +42617,107 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2478": {
+  "primary": "A13",
+  "seealso": [],
+  "facets": [],
+  "claim": "书籍的教育力量值得当信条来相信：学校第一件事就应该有书籍，而书籍在儿童与青少年的教育尤其自我教育中还没有占据应有的地位。",
+  "evidence": "无限相信书籍的教育力量，是我教育信念的一个信条。一所学校，第件事就应该有书籍。教育—首先是语言、书籍和活生生的人与人之间的关系。遗憾的是，书籍在儿童和青少年的教育，尤其是自我教育中，还没有占据应有的地位。在某些学校里，没有选购一些较优秀的自",
+  "title": "无限相信书籍的教育力量",
+  "old_topics": [
+   "reading-and-books"
+  ],
+  "type": "quote",
+  "tags": [
+   "A13"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2479": {
+  "primary": "A14",
+  "seealso": [],
+  "facets": [],
+  "claim": "教育的首要任务是让儿童和青少年感知并理解人类最崇高的美，并使这种感知和理解扎根于心灵深处。",
+  "evidence": "我认为，在儿童的生活里，特别是在少年和青年的生活里，感知和理解人类(为着社会、人民、祖国的幸福而从事劳动和斗争的)最崇高的美，并使这种感知和理解扎根于心灵深处，乃是教育的首要任务。",
+  "title": "感知人类最崇高的美是教育的首要任务",
+  "old_topics": [
+   "aesthetic-nature-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A14"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2480": {
+  "primary": "A2",
+  "seealso": [],
+  "facets": [],
+  "claim": "热爱祖国的感情从童年早期扎根；青少年能够指认自己的劳动成果时，爱国主义思想才会成为他最重要的精神财富。",
+  "evidence": "热爱祖国的感情，这种倾注着全副心思和整个心灵的全部力量的情感，从童年早期就深深地扎下了根子。如果一个青少年在回顾自己暂时还微不足道的历程时，已有道德权利说：这是我亲手为人们创造的，这一公顷土地曾是荒芜的，由于我的劳动变成了沃土；这条河原本是",
+  "title": "爱国情感从亲手创造中扎根",
+  "old_topics": [
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A2"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2481": {
+  "primary": "A3",
+  "seealso": [],
+  "facets": [],
+  "claim": "人有什么样的幸福观，他就是什么样的人；教育的实质在于让共产主义的幸福理想在每个人的心灵里确立起来。",
+  "evidence": "我的教育信念的本质是深信：人有什么样的幸福观，他就是什么样的人。教师是人类灵魂的塑造者、耕耘者和播种者，如果作为教师不能播种人道的真正幸福的种子，即共产主义幸福的种子，而让别的什么“至尊至圣”的东西得以确立，那么，“损公肥私图安乐”的幸福，",
+  "title": "幸福观决定人是什么样的人",
+  "old_topics": [
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A3"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2482": {
+  "primary": "A16",
+  "seealso": [],
+  "facets": [],
+  "claim": "惩罚和禁令本身不是挽救力量：手术刀只在有脓肿时才需要，禁令式的措施是幼稚的儿戏，反而会强化被禁的欲望。",
+  "evidence": "我不相信惩罚和“卡紧卡死”是一种挽救力量。不错，手术刀是需要的，但只是在有脓肿的情况下才开刀。我也不相信用“从某时某刻起到某时某刻止禁止卖酒”的条令可以保护青少年免遭酒害。我觉得这些措施是幼稚的儿戏。反而在那些渴望喝酒的人那里，产生出对酒的",
+  "title": "惩罚不是挽救力量",
+  "old_topics": [
+   "assessment-grading"
+  ],
+  "type": "quote",
+  "tags": [
+   "A16"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2483": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "教育最敏感的一个方面，是让每个人在学习的岁月里就能用语言表达自己的思想、创作才能和内在精神力量。",
+  "evidence": "我认为，教育最敏感的一个方面，就是要使每个人在学校的学习岁月里，就能够用语言表达自己的思想、创作才能和内在精神力量。这是人的精神生活一个十分广泛和复杂的问题，为了把它充分阐述清楚，可以写上一大本书。",
+  "title": "用语言表达自己的精神力量",
+  "old_topics": [
+   "thinking-and-nature"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

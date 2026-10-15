@@ -8,14 +8,14 @@
 | [family-school](topics/family-school.md) | 家校合作 | 394 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 368 |
 | [health-first](topics/health-first.md) | 健康第一 | 106 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 322 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 323 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 446 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 495 |
-| [love-education](topics/love-education.md) | 爱的教育 | 789 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 94 |
+| [love-education](topics/love-education.md) | 爱的教育 | 791 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 95 |
 | [child-study](topics/child-study.md) | 儿童研究 | 719 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 138 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 308 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 139 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 309 |
 
 ## 来源 Sources
 
@@ -2510,3 +2510,9 @@
 | [sk-2475](cards/sk-2475-jiti-jingshen-shenghuo-fazhan-gexing.md) | quote | collective-education | xuan-ji-zh-vol1 | 集体的精神生活应当建立在发展每个少年个性的基础上 |
 | [sk-2476](cards/sk-2476-jiaoyu-shaonian-yindao-er-fei-jinzhi.md) | quote | teacher-growth | xuan-ji-zh-vol1 | 教育少年的基本原则是让他显露精神力量，而不是禁止和命令 |
 | [sk-2477](cards/sk-2477-jiti-yu-geren-yinsi-jiexian.md) | quote | love-education | xuan-ji-zh-vol1 | 集体要关注个人事务，又要找到隐私范围的界限 |
+| [sk-2478](cards/sk-2478-believe-in-power-of-books-school-first-needs-books.md) | quote | reading-and-books | xuan-ji-zh-vol5 | 无限相信书籍的教育力量：学校的头一件事就应该有书籍 |
+| [sk-2479](cards/sk-2479-perceiving-the-highest-beauty-is-education-first-task.md) | quote | aesthetic-nature-education | xuan-ji-zh-vol5 | 教育的首要任务：让儿童感知人类最崇高的美，并让它扎根于心灵深处 |
+| [sk-2480](cards/sk-2480-patriotism-rooted-in-childhood-through-own-hands.md) | quote | love-education | xuan-ji-zh-vol5 | 热爱祖国的感情从童年早期扎根：靠「这是我亲手创造的」来支撑 |
+| [sk-2481](cards/sk-2481-concept-of-happiness-defines-the-person.md) | quote | love-education | xuan-ji-zh-vol5 | 人有什么样的幸福观，他就是什么样的人 |
+| [sk-2482](cards/sk-2482-punishment-is-not-a-saving-force.md) | quote | assessment-grading | xuan-ji-zh-vol5 | 不相信惩罚是挽救力量：手术刀只在有脓肿时才开 |
+| [sk-2483](cards/sk-2483-most-sensitive-side-of-education-language-expression.md) | quote | thinking-and-nature | xuan-ji-zh-vol5 | 教育最敏感的一面：让学生用语言表达自己的思想与内在精神力量 |

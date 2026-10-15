@@ -10,10 +10,10 @@
 | [health-first](topics/health-first.md) | 健康第一 | 100 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 322 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 438 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 492 |
-| [love-education](topics/love-education.md) | 爱的教育 | 783 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 88 |
-| [child-study](topics/child-study.md) | 儿童研究 | 715 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 494 |
+| [love-education](topics/love-education.md) | 爱的教育 | 784 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 89 |
+| [child-study](topics/child-study.md) | 儿童研究 | 717 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 138 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 303 |
 
@@ -2469,3 +2469,9 @@
 | [sk-2434](cards/sk-2434-no-labor-no-vocation-love-comes-first.md) | quote | labor-education | xuan-ji-zh-vol5 | 没有劳动就找不到志向：热爱先于寻找 |
 | [sk-2435](cards/sk-2435-childishness-prolongs-adolescence.md) | quote | child-study | xuan-ji-zh-vol5 | 十七八岁还只是学生，是被「孩子化」拖长的成长 |
 | [sk-2436](cards/sk-2436-labor-assigned-as-a-task-not-a-path-to-vocation.md) | quote | labor-education | xuan-ji-zh-vol5 | 学校安排了劳动，却没有把它当成培养志向的手段 |
+| [sk-2437](cards/sk-2437-haizi-yanli-meiyou-zhongli.md) | quote | child-study | xuan-ji-zh-vol5 | 在孩子的精神世界里，一切非善即恶，没有中立的东西 |
+| [sk-2438](cards/sk-2438-zunjing-li-meiyou-wenxin.md) | quote | assessment-grading | xuan-ji-zh-vol5 | 尊敬里没有温馨：把不及格当逮人的手段，学生就只剩提防 |
+| [sk-2439](cards/sk-2439-weixin-de-genyuan.md) | quote | teacher-growth | xuan-ji-zh-vol5 | 教师威信的根源，首先是他作为人的道德纯洁与完美 |
+| [sk-2440](cards/sk-2440-xiuchigan-liangyao.md) | quote | teacher-growth | xuan-ji-zh-vol5 | 没有刻意想出的教育方法，羞耻感才是治粗鲁的良药 |
+| [sk-2441](cards/sk-2441-chunjie-ai-wu.md) | quote | love-education | xuan-ji-zh-vol5 | 教育者的道德纯洁，首先是对人的挚爱和对恶的本能憎恨 |
+| [sk-2442](cards/sk-2442-duizhegan-de-yuanyin.md) | quote | child-study | xuan-ji-zh-vol5 | 孩子处处跟大人对着干，是他心里的理想形象被践踏了 |

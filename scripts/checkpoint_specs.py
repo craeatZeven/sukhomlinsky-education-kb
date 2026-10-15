@@ -72,7 +72,7 @@ def quote_bad_items(specpath):
     try:
         items = json.load(io.open(specpath, encoding="utf-8"))
     except Exception:
-        return -1
+        return None
     old = []
     cd = os.path.join(W, "cards")
     for fn in os.listdir(cd):
@@ -89,7 +89,7 @@ def quote_bad_items(specpath):
         hits = list(conn.execute("SELECT text FROM units WHERE book=? AND text LIKE ?",
                                  (it.get("book"), "%" + str(it.get("marker")) + "%")))
         if len(hits) != 1:
-            return -1
+            return None
         t = re.sub(r"\s+", "", hits[0]["text"] or "")
         # 2026-10-10 修：规格里 quote_from/quote_to 可能是 **null**（不是缺失），
         # 直接 .find(None) 会 TypeError。这里对齐产卡工具的判空逻辑：
@@ -100,7 +100,7 @@ def quote_bad_items(specpath):
             i = t.find(qf)
             j = t.find(qt, i) if qt else -1
             if i < 0 or j < 0:
-                return -1
+                return None
             q = t[i:j + len(qt)]
         else:
             q = t
@@ -151,6 +151,11 @@ def main():
             print("     （提示：该章已有卡；按 §十四 不拦截，改看引文级重叠）")
         # 引文级查重（**真正的门**）：新引文与已有卡片 Excerpt 的 12 字窗不得重叠
         bad_ids = quote_bad_items(p)
+        if bad_ids is None:
+            # 无法判定（marker 命中异常/规格读不了）-> 保守不落（2026-10-16 修：原 return -1 被当容器用会 TypeError）
+            print("     -> 引文级查重无法判定（marker 或规格异常），本批不落")
+            dup += 1
+            continue
         if bad_ids:
             # 逐条剔（2026-10-11）：长尾期整批退会白丢好卡；剔掉重叠条目，>=3 条仍落
             keep = [x for x in items if str(x.get("id")) not in bad_ids]

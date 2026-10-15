@@ -6,16 +6,16 @@
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 200 |
 | [family-school](topics/family-school.md) | 家校合作 | 394 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 361 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 362 |
 | [health-first](topics/health-first.md) | 健康第一 | 100 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 320 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 436 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 322 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 438 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 491 |
-| [love-education](topics/love-education.md) | 爱的教育 | 778 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 87 |
+| [love-education](topics/love-education.md) | 爱的教育 | 782 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 88 |
 | [child-study](topics/child-study.md) | 儿童研究 | 714 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 137 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 302 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 138 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 303 |
 
 ## 来源 Sources
 
@@ -2451,3 +2451,15 @@
 | [sk-2416](cards/sk-2416-zhiguanxing-jiji-quzhi.md) | quote | teacher-growth | xuan-ji-zh-vol4 | 直观性必须纳入学生积极获取知识的过程 |
 | [sk-2417](cards/sk-2417-fenxi-ziji-gongzuo.md) | quote | teacher-growth | xuan-ji-zh-vol4 | 教师分析自己的工作，才走到实践与科研结合的高级阶段 |
 | [sk-2418](cards/sk-2418-jieyan-tiaojian.md) | quote | teacher-growth | xuan-ji-zh-vol4 | 借鉴好经验如同嫁接，先要具备汁液畅流的条件 |
+| [sk-2419](cards/sk-2419-far-sighted-educator-looks-to-the-future.md) | quote | aesthetic-nature-education | xuan-ji-zh-vol1 | 有远见的教育者在培养学生爱国情感时，总是着眼于未来 |
+| [sk-2420](cards/sk-2420-honoring-elders-at-home-nourishes-patriotism.md) | quote | love-education | xuan-ji-zh-vol1 | 在家中尊敬长辈的氛围，滋养爱国主义的源泉 |
+| [sk-2421](cards/sk-2421-corner-of-comrades-glory-and-duty.md) | quote | collective-education | xuan-ji-zh-vol1 | 教室里的战功角，让责任感贯穿学生所学 |
+| [sk-2422](cards/sk-2422-duty-toward-heroes-as-spiritual-force.md) | quote | love-education | xuan-ji-zh-vol1 | 缅怀英雄的义务感，是少年公民的精神力量 |
+| [sk-2423](cards/sk-2423-heroic-deeds-shake-and-turn-the-young-inward.md) | quote | love-education | xuan-ji-zh-vol1 | 英勇行为震动孩子的心，使他们反观自己 |
+| [sk-2424](cards/sk-2424-long-labor-from-childhood-builds-civic-maturity.md) | quote | labor-education | xuan-ji-zh-vol1 | 从七八岁起长期做一件不轻松的劳动，才能长出公民的成熟 |
+| [sk-2425](cards/sk-2425-patriotism-permeates-all-growth.md) | quote | love-education | xuan-ji-zh-vol1 | 爱国主义教育渗透在孩子所认识、所学和所做的一切之中 |
+| [sk-2426](cards/sk-2426-words-are-no-measure-of-patriotism.md) | quote | assessment-grading | xuan-ji-zh-vol1 | 言词不是衡量爱国主义教育程度的真正标准 |
+| [sk-2427](cards/sk-2427-sources-of-love-for-homeland.md) | quote | aesthetic-nature-education | xuan-ji-zh-vol1 | 热爱祖国的源泉：从家乡景物到人民的命运 |
+| [sk-2428](cards/sk-2428-shared-fate-drives-knowledge-of-homeland.md) | quote | thinking-and-nature | xuan-ji-zh-vol1 | 对祖国的休戚相关之感，能让学生如饥似渴地求知 |
+| [sk-2429](cards/sk-2429-civic-consciousness-requires-understanding-real-life.md) | quote | collective-education | xuan-ji-zh-vol1 | 真正的公民意识，要以深刻理解当代现实生活为前提 |
+| [sk-2430](cards/sk-2430-every-youth-needs-own-history-books.md) | quote | reading-and-books | xuan-ji-zh-vol1 | 每个青少年都应该有自己的历史书籍 |

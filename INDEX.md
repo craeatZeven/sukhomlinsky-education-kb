@@ -6,7 +6,7 @@
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 200 |
 | [family-school](topics/family-school.md) | 家校合作 | 394 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 367 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 368 |
 | [health-first](topics/health-first.md) | 健康第一 | 106 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 322 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 443 |
@@ -15,7 +15,7 @@
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 94 |
 | [child-study](topics/child-study.md) | 儿童研究 | 718 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 138 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 303 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 308 |
 
 ## 来源 Sources
 
@@ -2498,3 +2498,9 @@
 | [sk-2463](cards/sk-2463-kongyu-shijian-de-jingshen-qingqu.md) | quote | health-first | xuan-ji-zh-vol4 | 空余时间的精神情趣越丰富，课堂上的脑力劳动就越吸引孩子 |
 | [sk-2464](cards/sk-2464-xiyan-de-weihai.md) | quote | health-first | xuan-ji-zh-vol3 | 吸烟使少年本已兴奋的神经超出极限 |
 | [sk-2465](cards/sk-2465-gaoreliang-yinshi-yu-chengshu.md) | quote | health-first | xuan-ji-zh-vol3 | 高热量饮食加上体力劳动不足，会加快性成熟 |
+| [sk-2466](cards/sk-2466-worldview-is-the-start-of-the-educators-work.md) | quote | thinking-and-nature | xuan-ji-zh-vol3 | 世界观是个人对真理与规则的态度，教师的工作从培养它开始 |
+| [sk-2467](cards/sk-2467-weave-the-three-elements-into-one-picture-of-the-world.md) | quote | thinking-and-nature | xuan-ji-zh-vol3 | 把自然、社会和人的教育结为一体，才在少年意识里构成周围世界的图画 |
+| [sk-2468](cards/sk-2468-research-work-is-where-personal-conviction-is-formed.md) | quote | thinking-and-nature | xuan-ji-zh-vol3 | 对个人信念最精细的琢磨，从研究工作中坚持并证实原理开始 |
+| [sk-2469](cards/sk-2469-labor-educates-only-when-it-carries-civic-meaning.md) | quote | labor-education | xuan-ji-zh-vol5 | 劳动只有在带有公民观念时才是教育力量，零散的干活等于零 |
+| [sk-2470](cards/sk-2470-cosmos-lessons-and-the-course-on-astronomy.md) | quote | thinking-and-nature | xuan-ji-zh-vol3 | 从五年级起办宇宙讲座，毕业班开天文学基础原理课 |
+| [sk-2471](cards/sk-2471-struggle-for-scientific-truth-is-the-essence-of-teenage-education.md) | quote | thinking-and-nature | xuan-ji-zh-vol3 | 为科学真理的胜利而斗争，构成少年时代教育的实质 |

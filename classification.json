@@ -42826,5 +42826,109 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2490": {
+  "primary": "A13",
+  "seealso": [],
+  "facets": [],
+  "claim": "书是思维乐趣最重要的源泉；使少年酷爱那些以艺术形象体现道德规范的书籍，是教育最重要的任务之一。",
+  "evidence": "学生对这些问题的思考是一种复杂的精神活动。从教师讲课起这一活动就开始，并在思考书本内容的过程中继续下去。书是思维乐趣的最重要的源泉之一。要使每个少年酷爱那些以艺术形象体现道德规范的书籍这是教育工作的最重要的任务之一。",
+  "title": "书是思维乐趣的源泉",
+  "old_topics": [
+   "reading-and-books"
+  ],
+  "type": "quote",
+  "tags": [
+   "A13"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2491": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "教育目的是让儿童的行为受「想成为聪明人」的愿望支配，使学习、阅读、充实知识成为其主要爱好。",
+  "evidence": "我们的教育目的是要使儿童和少年的行为，受到想成为一个聪明人的愿望所支配；使他们醉心于科学、学习，热爱学校；使学习、阅读、充实知识成为他们的主要爱好和主要兴趣。要使学生表现出自己的求知欲和兴趣、智慧和知识，这是同在教育过程中使学生培养和了解自",
+  "title": "让阅读成为主要爱好",
+  "old_topics": [
+   "thinking-and-nature"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2492": {
+  "primary": "A13",
+  "seealso": [],
+  "facets": [],
+  "claim": "让爱书成为传统要靠习俗：互赠题词的书、父亲赠书、班级向鳏寡孤独者赠书。",
+  "evidence": "我们为了使儿童集体养成一种爱书籍、爱文化的传统习惯，经常举办图书节，即朋友们互赠亲笔题词的书。在图书节这天，父亲要给孩子赠书。我们建议赠送那些内容上能反映家庭教育规范这类书籍。班级集体在这一天要向老人、残废者、特别是向鳏寡孤独的人赠送儿童丛",
+  "title": "图书节与赠书",
+  "old_topics": [
+   "reading-and-books",
+   "family-school"
+  ],
+  "type": "quote",
+  "tags": [
+   "A13"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2493": {
+  "primary": "A16",
+  "seealso": [],
+  "facets": [],
+  "claim": "常得3分的学生听天由命、意志薄弱；这类学生越多，集体的教育力量越弱，个别影响越难施行。",
+  "evidence": "所谓常得“3”分的学生，是一些信奉“听天由命”、学习马虎的学生，是一些意志薄弱，而且常常是毫无意志的人。在集体中，这样的学生越多，集体的教育力量也就越弱，教师也就越难找到对某些学生施加个别影响的方法。",
+  "title": "3分学生与集体教育力量",
+  "old_topics": [
+   "assessment-grading",
+   "learning-difficulties"
+  ],
+  "type": "quote",
+  "tags": [
+   "A16"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2494": {
+  "primary": "A13",
+  "seealso": [],
+  "facets": [],
+  "claim": "对科学、知识，特别是对书本的正确态度，是激励学生顽强勤奋学习的决定性促进因素；小学头两三年首先要使孩子爱书籍。",
+  "evidence": "对科学、知识、教育，特别是对书本的正确态度，是激励学生去顽强地、勤奋地学习的决定性的促进因素。我担任一年级的教学工作，我认为一年级小学生的教育、精神成长和发展的前景，首先是要使他们每个人在学习的头两三年就爱书籍；",
+  "title": "对书本的态度",
+  "old_topics": [
+   "reading-and-books"
+  ],
+  "type": "quote",
+  "tags": [
+   "A13"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2495": {
+  "primary": "A9",
+  "seealso": [],
+  "facets": [],
+  "claim": "让高年级学生担任低年级小型集体的教育者，小组包括学科、技术、农业与课余艺术创作等门类。",
+  "evidence": "在教育工作的实践中，我们力求使每个高年级学生成为由低年级学生组成的小型集体的教育者。所谓小型集体就是一些小组，如各学科小组、技术小组、农业小组、课余艺术创作小组等，这些小组受共青团员和少先队队长领导。我们学校有3个儿童木偶戏集体。领导他们的",
+  "title": "高年级学生当教育者",
+  "old_topics": [
+   "collective-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A9"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

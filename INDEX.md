@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 200 |
-| [family-school](topics/family-school.md) | 家校合作 | 394 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 201 |
+| [family-school](topics/family-school.md) | 家校合作 | 395 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 368 |
 | [health-first](topics/health-first.md) | 健康第一 | 106 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 323 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 451 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 452 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 495 |
 | [love-education](topics/love-education.md) | 爱的教育 | 792 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 95 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 96 |
 | [child-study](topics/child-study.md) | 儿童研究 | 719 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 140 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 313 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 143 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 314 |
 
 ## 来源 Sources
 
@@ -2522,3 +2522,9 @@
 | [sk-2487](cards/sk-2487-students-must-form-their-own-views.md) | quote | collective-education / thinking-and-nature | xuan-ji-zh-vol1 | 多数学生不善于表达思想，集体就没有思想王国 |
 | [sk-2488](cards/sk-2488-sharing-knowledge-is-the-joy-of-collective-life.md) | quote | collective-education / thinking-and-nature | xuan-ji-zh-vol1 | 把知识献给同学，是集体智力生活的动力 |
 | [sk-2489](cards/sk-2489-sacrifice-for-homeland-is-happiness.md) | quote | love-education / collective-education | xuan-ji-zh-vol1 | 教育者的崇高使命：让学生懂得为祖国的荣誉斗争是一种幸福 |
+| [sk-2490](cards/sk-2490-book-is-source-of-thinking-joy.md) | quote | reading-and-books | xuan-ji-zh-vol1 | 书是思维乐趣最重要的源泉：要让少年酷爱以艺术形象体现道德规范的书 |
+| [sk-2491](cards/sk-2491-reading-as-main-hobby-not-assignment.md) | quote | thinking-and-nature | xuan-ji-zh-vol1 | 让学习、阅读、充实知识成为儿童的主要爱好，而不是外部要求 |
+| [sk-2492](cards/sk-2492-book-festival-and-gift-books.md) | quote | reading-and-books / family-school | xuan-ji-zh-vol1 | 图书节：用一个节日把爱书变成班级与家庭的传统 |
+| [sk-2493](cards/sk-2493-three-grade-students-weak-will-weaken-collective.md) | quote | assessment-grading / learning-difficulties | xuan-ji-zh-vol1 | 常得3分的学生意志薄弱，他们越多，集体的教育力量越弱 |
+| [sk-2494](cards/sk-2494-attitude-to-books-drives-hard-study.md) | quote | reading-and-books | xuan-ji-zh-vol1 | 对书本的态度，是学生勤奋学习最重要的促进因素 |
+| [sk-2495](cards/sk-2495-senior-students-as-educators-of-small-groups.md) | quote | collective-education | xuan-ji-zh-vol1 | 让高年级学生去做低年级小型集体的教育者 |

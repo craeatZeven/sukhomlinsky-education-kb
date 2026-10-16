@@ -89,7 +89,10 @@ def quote_bad_items(specpath):
         hits = list(conn.execute("SELECT text FROM units WHERE book=? AND text LIKE ?",
                                  (it.get("book"), "%" + str(it.get("marker")) + "%")))
         if len(hits) != 1:
-            return None
+            # 2026-10-16：marker 命中 != 1 说明这条锚不可靠（可能引文是编的）-> 只剔这一条，
+            # 不要整批作废（实测一批 6 条里只有 1 条 marker 坏，整批退会白扔 5 张好卡）
+            bad.append(str(it.get("id")))
+            continue
         t = re.sub(r"\s+", "", hits[0]["text"] or "")
         # 2026-10-10 修：规格里 quote_from/quote_to 可能是 **null**（不是缺失），
         # 直接 .find(None) 会 TypeError。这里对齐产卡工具的判空逻辑：

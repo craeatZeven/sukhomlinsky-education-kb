@@ -5,15 +5,15 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 210 |
-| [family-school](topics/family-school.md) | 家校合作 | 398 |
+| [family-school](topics/family-school.md) | 家校合作 | 399 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 383 |
 | [health-first](topics/health-first.md) | 健康第一 | 107 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 324 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 462 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 505 |
-| [love-education](topics/love-education.md) | 爱的教育 | 798 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 106 |
-| [child-study](topics/child-study.md) | 儿童研究 | 727 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 463 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 506 |
+| [love-education](topics/love-education.md) | 爱的教育 | 799 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 107 |
+| [child-study](topics/child-study.md) | 儿童研究 | 728 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 146 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 324 |
 
@@ -2592,3 +2592,9 @@
 | [sk-2557](cards/sk-2557-moral-ideal-needs-teacher-culture.md) | quote | teacher-growth | xuan-ji-zh-vol3 | 教学生确立道德理想，要求教师有巨大的精神力量与高度的文化修养 |
 | [sk-2558](cards/sk-2558-student-as-researcher-not-buyer.md) | quote | thinking-and-nature | xuan-ji-zh-vol3 | 真正的教育家让学生觉得自己是有求知精神的研究者，而不是听话的知识购买者 |
 | [sk-2559](cards/sk-2559-spiritual-wealth-exchange-collective.md) | quote | collective-education | xuan-ji-zh-vol3 | 把精神财富互相交流，才是集体关系；只靠课堂撑不起集体主义 |
+| [sk-2560](cards/sk-2560-fear-and-threat-corrupts.md) | quote | assessment-grading | xuan-ji-zh-vol4 | 用恐惧和威慑养成的服从，会使人变得卑鄙、伪善和残酷 |
+| [sk-2561](cards/sk-2561-humaneness-is-not-softness.md) | quote | love-education | xuan-ji-zh-vol4 | 人道精神不是温情主义：对儿童娇生惯养，会逼得教师回头搞急转弯 |
+| [sk-2562](cards/sk-2562-notice-childs-hidden-trouble.md) | quote | child-study | xuan-ji-zh-vol4 | 有情感修养的教师，能从眼睛里看出儿童不顺心，并且不马上盘问 |
+| [sk-2563](cards/sk-2563-shouting-root-is-teacher-culture.md) | quote | teacher-growth | xuan-ji-zh-vol4 | 要根治大声训斥，行政措施没有用，得从教师的情感与思想修养入手 |
+| [sk-2564](cards/sk-2564-family-life-course-wish-civilization.md) | quote | family-school | xuan-ji-zh-vol4 | 开设《家庭关系修养》课，第一课该讲「人的愿望的文明」 |
+| [sk-2565](cards/sk-2565-small-collective-family-atmosphere.md) | quote | collective-education | xuan-ji-zh-vol4 | 集体的规模越小、精神交流越多，神经过敏的情况就越少 |

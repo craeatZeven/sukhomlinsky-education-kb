@@ -1,5 +1,5 @@
 {
-  "total_cards": 2496,
+  "total_cards": 2502,
   "source_count": 12,
   "topic_count": 12,
   "zuoren_cards": 541,
@@ -14,7 +14,7 @@
     {
       "slug": "xuan-ji-zh-vol2",
       "title": "苏霍姆林斯基选集（五卷本）第2卷",
-      "cards": 392,
+      "cards": 398,
       "page_refs": 45
     },
     {
@@ -81,7 +81,7 @@
   "types": [
     {
       "type": "quote",
-      "cards": 1369
+      "cards": 1375
     },
     {
       "type": "case",
@@ -109,12 +109,12 @@
     {
       "slug": "child-study",
       "title": "儿童研究",
-      "cards": 719
+      "cards": 720
     },
     {
       "slug": "teacher-growth",
       "title": "教师成长",
-      "cards": 498
+      "cards": 499
     },
     {
       "slug": "collective-education",
@@ -159,7 +159,7 @@
     {
       "slug": "assessment-grading",
       "title": "评价与分数",
-      "cards": 96
+      "cards": 102
     }
   ]
 }

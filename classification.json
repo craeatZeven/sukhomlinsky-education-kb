@@ -43036,5 +43036,109 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2502": {
+  "primary": "A16",
+  "seealso": [],
+  "facets": [],
+  "claim": "惩罚的正当性在于促使一个人检点自己、反思自己，而不在于使人不愉快",
+  "evidence": "惩罚是一种激烈的责备，它不可能叫人愉快。即使是学校里最无恶意的惩罚，也必然要限制你的愿望，你的自由，否则是不行的，限制愿望和自由是一种手段，对你的生活和你的未来负责的年长的人们靠着这种手段迫使你去想：我做了不利于他人的事了吗？怎样生活才能使",
+  "title": "惩罚为的是反思自己",
+  "old_topics": [
+   "assessment-grading"
+  ],
+  "type": "quote",
+  "tags": [
+   "A16"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2503": {
+  "primary": "A16",
+  "seealso": [],
+  "facets": [],
+  "claim": "对批评和责备也应当感谢，因为那是别人在教你怎样像人一样生活",
+  "evidence": "要学会感激人。听到夸奖之后要感谢人家，同时又要为你朝着人的完美方向前进而高兴。听到指责之后，也要感谢人家，因为他们在教你像人那样去生活。他们的话也许很严厉，这是对你的关怀，良药苦口嘛。",
+  "title": "良药苦口要感谢",
+  "old_topics": [
+   "assessment-grading"
+  ],
+  "type": "quote",
+  "tags": [
+   "A16"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2504": {
+  "primary": "A22",
+  "seealso": [],
+  "facets": [],
+  "claim": "说尖锐而中肯的话是教育艺术；教师带着情绪开口，会使学生委屈、不信任并对立",
+  "evidence": "同样，说那些尖锐但又中肯的话也不容易。善于做到这一点，就是把教育的技巧和教育艺术融合在一起了。遗憾的是，许多教育者并不善于说那些能使孩子们正确领会的尖锐而又中肯的话。一个最大的简直难以忍受的不幸，就在于教师在与同学谈话时常常先带有情绪。这样",
+  "title": "说重话的手艺",
+  "old_topics": [
+   "assessment-grading",
+   "teacher-growth"
+  ],
+  "type": "quote",
+  "tags": [
+   "A22"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2505": {
+  "primary": "A16",
+  "seealso": [],
+  "facets": [],
+  "claim": "教师表达批评的方式要多到几百种，目的是让学生肯把心里话敞开",
+  "evidence": "所以，我们当教师的应当采用几种、几百种不同的方式，以便适当表达自己对学生坏毛病的批评和责备的态度，而且应当做到使学生在您面前能敞开心扉，而不是默不作声、大发脾气，也不是把您们那尖锐而中肯的话语看做是因怀有成见而发泄怒气的现象。",
+  "title": "批评要有几百种说法",
+  "old_topics": [
+   "assessment-grading"
+  ],
+  "type": "quote",
+  "tags": [
+   "A16"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2506": {
+  "primary": "A16",
+  "seealso": [],
+  "facets": [],
+  "claim": "值得毫不留情的是利己主义和对他人精神世界的冷漠，而不是淘气与恶作剧",
+  "evidence": "对于教师而言，很重要的一点，就是善于看到需要责备、毫不留情的东西。教育过程一个很大的缺点，就在于许多教师花费很多精力去同孩子的淘气、恶作剧作斗争。值得去责备的却是那种播下利己主义种子的行为以及以冷漠的态度对待他人精神世界的行为",
+  "title": "该责备什么",
+  "old_topics": [
+   "assessment-grading"
+  ],
+  "type": "quote",
+  "tags": [
+   "A16"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2507": {
+  "primary": "A16",
+  "seealso": [],
+  "facets": [],
+  "claim": "用写保证代替弥补过失会在道德上把孩子引入歧途，等于在培养恶棍",
+  "evidence": "如果深入了解学校为了克服恶习，消除不道德行为所做的一切，那么可以得出这样的结论：不强调弥补过失会在道德上把孩子引入歧途，会使他相信，只要下个“保证”，“口头应允一下”，就可以瞬间摆脱过错；轻描淡写地催促儿童、半大孩子：“答应吧，保证改正错误",
+  "title": "保证书不能代替改过",
+  "old_topics": [
+   "assessment-grading",
+   "child-study"
+  ],
+  "type": "quote",
+  "tags": [
+   "A16"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

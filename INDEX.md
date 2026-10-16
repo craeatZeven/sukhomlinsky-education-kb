@@ -10,10 +10,10 @@
 | [health-first](topics/health-first.md) | 健康第一 | 107 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 324 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 453 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 498 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 499 |
 | [love-education](topics/love-education.md) | 爱的教育 | 792 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 96 |
-| [child-study](topics/child-study.md) | 儿童研究 | 719 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 102 |
+| [child-study](topics/child-study.md) | 儿童研究 | 720 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 144 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 315 |
 
@@ -2534,3 +2534,9 @@
 | [sk-2499](cards/sk-2499-overcoming-difficulty-is-labor-education.md) | quote | labor-education | xuan-ji-zh-vol4 | 不把现成做好的东西交给学生：克服困难才是劳动教育的康庄大道 |
 | [sk-2500](cards/sk-2500-gymnastics-a-lifelong-habit.md) | quote | health-first | xuan-ji-zh-vol4 | 为每个学生单独定锻炼量，让体操成为毕生的爱好 |
 | [sk-2501](cards/sk-2501-nurturing-a-plant-makes-a-kind-person.md) | quote | labor-education / aesthetic-nature-education | xuan-ji-zh-vol4 | 亲手养大一棵植物的人，会成为善良的人 |
+| [sk-2502](cards/sk-2502-punishment-makes-a-person-reflect.md) | quote | assessment-grading | xuan-ji-zh-vol2 | 惩罚是激烈的责备，为的是让一个人检点自己、反思自己 |
+| [sk-2503](cards/sk-2503-thank-those-who-reproach-you.md) | quote | assessment-grading | xuan-ji-zh-vol2 | 听到指责也要感谢人家，因为那是教你像人一样生活 |
+| [sk-2504](cards/sk-2504-sharp-words-are-an-art.md) | quote | assessment-grading / teacher-growth | xuan-ji-zh-vol2 | 说尖锐而中肯的话是教育艺术：带着情绪开口就适得其反 |
+| [sk-2505](cards/sk-2505-hundreds-of-ways-to-reproach.md) | quote | assessment-grading | xuan-ji-zh-vol2 | 表达批评要用几百种不同方式，让学生肯把心里话敞开 |
+| [sk-2506](cards/sk-2506-reproach-selfishness-not-mischief.md) | quote | assessment-grading | xuan-ji-zh-vol2 | 该毫不留情的是利己主义和冷漠，不是淘气与恶作剧 |
+| [sk-2507](cards/sk-2507-no-promises-must-make-up-for-wrongdoing.md) | quote | assessment-grading / child-study | xuan-ji-zh-vol2 | 让学生写「保证」代替弥补过失，等于在培养恶棍 |

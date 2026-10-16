@@ -43837,5 +43837,111 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2548": {
+  "primary": "A10",
+  "seealso": [],
+  "facets": [],
+  "claim": "教师集体保存下来的精神财富（信念、观点、传统、习惯、个人特长，以及师生之间和学生之间的关系方式）决定学校的面貌；能把这些财富保存下来，学校才会成为一种巨大的教育力量。",
+  "evidence": "教师集体决定着学校的面貌。在教师的信念、观点、传统、习惯和个人特长中，在师生之间的血肉关系中以及在学生之间的关系中均蕴藏着许多永久性的精神财富。如果教师集体能把这些精神财富保存下来，那么，学校就会成为一种巨大的教育力量。",
+  "title": "精神财富决定学校面貌",
+  "old_topics": [
+   "teacher-growth",
+   "collective-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A10"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2549": {
+  "primary": "A9",
+  "seealso": [],
+  "facets": [],
+  "claim": "学生集体精神生活中的「幼根」（它自己的教育力量）来自教师集体从道德、精神、智力、创造性和劳动等方面对每个学生的关怀。",
+  "evidence": "由于教师集体坚信教育是人类的文明、智慧、意志力的顶峰，所以学生集体精神生活中纤细的幼根才得以生长，这些幼根不仅供学生集体获得教育力量，而且还能使它对个人施加影响。我们所说的这些幼根就是教师集体从道德、精神、智力、创造性和劳动等方面关怀每个学",
+  "title": "关怀是集体的幼根",
+  "old_topics": [
+   "collective-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A9"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2550": {
+  "primary": "A6",
+  "seealso": [],
+  "facets": [],
+  "claim": "集体对教育的信念是一种实际力量，产生于经常进行集体思考和集体分析的地方；整个教师集体一起研究个别儿童的发展材料并为他们设计成长蓝图，是使教师集体成为学生集体的教育者的最重要的办法之一。",
+  "evidence": "我再次强调集体对教育的信念就像对科学和劳动的信念一样，是一种实际力量，这种力量产生于经常进行集体思考和集体分析的地方。有时我们整个教师集体聚集在一起，专门研究某些个别儿童的情况，如对他们在智力、体力、道德和美感等方面发展情况所作的观察材料进",
+  "title": "集体分析个别儿童",
+  "old_topics": [
+   "child-study",
+   "teacher-growth"
+  ],
+  "type": "quote",
+  "tags": [
+   "A6"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2551": {
+  "primary": "A10",
+  "seealso": [],
+  "facets": [],
+  "claim": "「为着儿童的思想」由校长的心理学报告、集体讨论作出的教育心理学鉴定、对学生精神生活具体方面的分析构成；教师一旦不阅读教育著作、不好好思考所读的内容，这种思想就可能会消失。",
+  "evidence": "总之，为着儿童的思想是一个广泛的概念，它既包含校长在我们教师心理学讲习班所作的报告，又包含根据长期观察作出并经集体讨论的教育心理学的鉴定，还包含对我们学生精神生活的某些方面的分析，如品行、举止、学生集体中的各种关系、才能和理想的形成等。假如",
+  "title": "思想靠读书维持",
+  "old_topics": [
+   "reading-and-books",
+   "teacher-growth"
+  ],
+  "type": "quote",
+  "tags": [
+   "A10"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2552": {
+  "primary": "A11",
+  "seealso": [],
+  "facets": [],
+  "claim": "教育者享有家长式严格要求的权利，前提是「劳动」和「困难」在学生的生活中紧密交融、成为成长的内在规律；一个人不亲身感受什么是困难，就可能发展成冷酷无情、没有良心的人，劳动之所以使人高尚，正因其中存在着困难。",
+  "evidence": "我们教育者之所以享有家长式的严格要求的权利，只是因为“劳动”和“困难”这两个概念在我们的学生的生活中是紧密交融的，并成了一个人在成长过程中的内在规律。一个人不亲身感受什么是困难，他就可能发展成为一个冷酷无情、没有良心的人。如果说劳动能使人高",
+  "title": "困难使劳动育人",
+  "old_topics": [
+   "labor-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A11"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2553": {
+  "primary": "A9",
+  "seealso": [],
+  "facets": [],
+  "claim": "让学生在学生时代就追求高尚道德、想成为真正的公民、负责的劳动者、忠实的朋友、温柔的儿子，是很不容易的事；只有当集体的精神生活建立在为人们、为社会而劳动的基础上时，青少年心里才会产生这种愿望和追求。",
+  "evidence": "教育者都知道，要使个人在学生时代就追求高尚的道德、渴望成为集体心目中的真正的公民、认真负责的劳动者、忠实诚恳的朋友、善良温柔的儿子，是多么的不易。只有当集体的精神生活建立在为人们、为社会而劳动的基础上的时候，在青少年的心灵中才会产生这种愿望",
+  "title": "道德追求靠劳动集体",
+  "old_topics": [
+   "collective-education",
+   "labor-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A9"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

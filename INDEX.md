@@ -6,15 +6,15 @@
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 210 |
 | [family-school](topics/family-school.md) | 家校合作 | 398 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 381 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 383 |
 | [health-first](topics/health-first.md) | 健康第一 | 107 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 324 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 458 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 501 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 461 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 504 |
 | [love-education](topics/love-education.md) | 爱的教育 | 797 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 105 |
-| [child-study](topics/child-study.md) | 儿童研究 | 725 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 145 |
+| [child-study](topics/child-study.md) | 儿童研究 | 726 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 146 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 323 |
 
 ## 来源 Sources
@@ -2580,3 +2580,9 @@
 | [sk-2545](cards/sk-2545-from-concrete-to-general.md) | quote | thinking-and-nature | xuan-ji-zh-vol3 | 具体与概括的关系看得越清，真理才成为他自己的收获 |
 | [sk-2546](cards/sk-2546-unproven-things-interest-teens.md) | quote | thinking-and-nature | xuan-ji-zh-vol3 | 少年最感兴趣的，是还没有被完全证实的东西 |
 | [sk-2547](cards/sk-2547-knowledge-as-a-tool-for-knowledge.md) | quote | thinking-and-nature | xuan-ji-zh-vol3 | 要让一部分知识，成为掌握另一部分知识的手段 |
+| [sk-2548](cards/sk-2548-spiritual-wealth-decides-school-face.md) | quote | teacher-growth / collective-education | xuan-ji-zh-vol1 | 教师集体保存下来的精神财富，才是学校的教育力量 |
+| [sk-2549](cards/sk-2549-care-for-each-child-roots-collective.md) | quote | collective-education | xuan-ji-zh-vol1 | 学生集体的教育力量，长在教师集体对每个学生的关怀里 |
+| [sk-2550](cards/sk-2550-collective-analysis-of-each-child.md) | quote | child-study / teacher-growth | xuan-ji-zh-vol1 | 把个别儿童摊在整间教师会上集体分析，是教师集体成为教育者的办法 |
+| [sk-2551](cards/sk-2551-thought-for-children-needs-reading.md) | quote | reading-and-books / teacher-growth | xuan-ji-zh-vol1 | 不读教育著作、不思考所读，为着儿童的思想就会消失 |
+| [sk-2552](cards/sk-2552-difficulty-makes-labor-ennobling.md) | quote | labor-education | xuan-ji-zh-vol1 | 劳动之所以使人高尚，只因其中存在着困难 |
+| [sk-2553](cards/sk-2553-moral-aspiration-needs-labor-based-collective-life.md) | quote | collective-education / labor-education | xuan-ji-zh-vol1 | 集体的精神生活建在为社会而劳动的基础上，青少年才有道德追求 |

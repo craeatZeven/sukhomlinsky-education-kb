@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 202 |
-| [family-school](topics/family-school.md) | 家校合作 | 397 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 373 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 208 |
+| [family-school](topics/family-school.md) | 家校合作 | 398 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 374 |
 | [health-first](topics/health-first.md) | 健康第一 | 107 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 324 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 456 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 499 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 457 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 500 |
 | [love-education](topics/love-education.md) | 爱的教育 | 796 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 102 |
-| [child-study](topics/child-study.md) | 儿童研究 | 723 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 144 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 316 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 104 |
+| [child-study](topics/child-study.md) | 儿童研究 | 724 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 145 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 318 |
 
 ## 来源 Sources
 
@@ -2551,3 +2551,14 @@
 | [sk-2516](cards/sk-2516-future-mothers-dignity-grows-from-citizenship.md) | quote | collective-education / love-education | xuan-ji-zh-vol3 | 未来女人与母亲的尊严，只有在公民立场上才能形成 |
 | [sk-2517](cards/sk-2517-school-should-revere-motherhood.md) | quote | family-school | xuan-ji-zh-vol3 | 学校里应提倡崇敬母亲，这能使自然的性欲高尚起来 |
 | [sk-2518](cards/sk-2518-private-talks-weaken-not-inflame-interest.md) | quote | love-education / child-study | xuan-ji-zh-vol3 | 与男孩、女孩分别单独谈：目的是减弱兴趣并使之高尚 |
+| [sk-2519](cards/sk-2519-difficult-children-exist-not-invented.md) | quote | learning-difficulties / thinking-and-nature | xuan-ji-zh-vol4 | 难教的学生不是无能的教师臆想出来的 |
+| [sk-2520](cards/sk-2520-lagging-child-is-a-human-tragedy.md) | quote | assessment-grading / learning-difficulties | xuan-ji-zh-vol4 | 每一个落后的孩子，都是一个严重的人间悲剧 |
+| [sk-2521](cards/sk-2521-learning-difficulty-rooted-in-early-experience.md) | quote | learning-difficulties / child-study | xuan-ji-zh-vol4 | 孩子的学习困难，根子在早期经验而不是先天脑力 |
+| [sk-2522](cards/sk-2522-grade-rate-not-simplified-into-pass-rate.md) | quote | assessment-grading / learning-difficulties | xuan-ji-zh-vol4 | 不能把及格率当成评定难教儿童知识的唯一标准 |
+| [sk-2523](cards/sk-2523-intelligence-awakened-by-communication-not-just-care.md) | quote | learning-difficulties / family-school | xuan-ji-zh-vol4 | 扑灭儿童求知火花的，常是缺少智慧的爱 |
+| [sk-2524](cards/sk-2524-reading-beyond-textbooks.md) | quote | reading-and-books | xuan-ji-zh-vol5 | 出于思索需要的阅读，应当比教材指定必读的多出一两倍 |
+| [sk-2525](cards/sk-2525-labor-is-the-only-road-to-social-life.md) | quote | labor-education | xuan-ji-zh-vol5 | 没有劳动的生活是不可思议的：引年轻人上社会生活的大道，只可能经由劳动的崎岖小径 |
+| [sk-2526](cards/sk-2526-teaching-creates-values-not-stock.md) | quote | thinking-and-nature | xuan-ji-zh-vol5 | 教学不应压缩成「为将来储备知识」，而应在人身上创造道德价值和精神价值 |
+| [sk-2527](cards/sk-2527-learning-requires-daily-effort.md) | quote | learning-difficulties | xuan-ji-zh-vol5 | 每天、每堂课，学生都应当通过自己的努力去获取 |
+| [sk-2528](cards/sk-2528-labor-life-binds-the-collective.md) | quote | collective-education | xuan-ji-zh-vol5 | 只有劳动生活的观念把集体联合起来，成员才能上升到「社会一分子」的认识高度 |
+| [sk-2529](cards/sk-2529-teacher-makes-difficulty-attractive.md) | quote | teacher-growth | xuan-ji-zh-vol5 | 教师只有使学生相信困难事物的魅力，才能把他提高到道德发展的高度 |

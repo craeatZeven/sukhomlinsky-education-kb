@@ -43333,5 +43333,202 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2519": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "难教的学生是客观存在的；把它说成教师无能的借口，只是用引号把问题遮起来，儿童的发展受阻照旧没人研究。",
+  "evidence": "难教的儿童是些什么样的孩子呢？直到不久之前，这样一种说法还是相当流行的：没有不好的学生，只有不好的教师。既然这样，那就应当没有难教的学生了。而所谓难教的学生，是无能的教师臆想出来而为自己的教育无能找借口。因此，为了保险起见，难教这个词经常被",
+  "title": "难教儿童不是臆想",
+  "old_topics": [
+   "learning-difficulties",
+   "thinking-and-nature"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15",
+   "A18"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2520": {
+  "primary": "A16",
+  "seealso": [],
+  "facets": [],
+  "claim": "家长要在孩子身上再现并超越自己，这种普遍期望压在落后的孩子身上，使一个成绩不好的孩子在家庭里成为一场严重的悲剧。",
+  "evidence": "请深思一下这些话吧！我们社会成员的智力和道德，现在已经发展到很高的水平，所以家长们都抱着这样一种想法：他们要在孩子身上再现他们自己，并且希望再现得比他们自己更好一些，更美一些。每一个落后的、成绩不好的孩子，都是一个严重的人间悲剧。",
+  "title": "落后孩子是人间悲剧",
+  "old_topics": [
+   "assessment-grading",
+   "learning-difficulties"
+  ],
+  "type": "quote",
+  "tags": [
+   "A16",
+   "A18"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2521": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "人的品质由后天的社会关系形成；儿童读题忘头、无法把事物联系起来，应先从经验与教育找原因，而不是归咎天性。",
+  "evidence": "人的品质是在人出生以后，靠人与人的关系即社会关系而形成的。每个教师、每个家长都必须记住这个非常重要的真理。为什么彼佳在读应用题的条件时，读到末尾就忘了开头?为什么他在自己的意识中不能把几样东两，如苹果、篮子和树木联系到一起?莫非大自然亏待了",
+  "title": "困难根在早期经验",
+  "old_topics": [
+   "learning-difficulties",
+   "child-study"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15",
+   "A18"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2522": {
+  "primary": "A16",
+  "seealso": [],
+  "facets": [],
+  "claim": "关于及格率的争论是徒劳的，除非先确认掌握知识特别困难的儿童必须留在普通学校，并另定考查他们的标准。",
+  "evidence": "如果我们不停止解释那些本来就无需解释的事，如果我们不明确而肯定地说，那些掌握大纲规定的知识比一般学生困难得多的儿童，必须留在普通学校里学习下去，那么关于单纯追求及格率的辩论，就永远是徒劳的、无意义的。",
+  "title": "及格率不是唯一标准",
+  "old_topics": [
+   "assessment-grading",
+   "learning-difficulties"
+  ],
+  "type": "quote",
+  "tags": [
+   "A16",
+   "A18"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2523": {
+  "primary": "A6",
+  "seealso": [],
+  "facets": [],
+  "claim": "彼佳的父母并不冷漠，家庭关怀缺少的正是人的智慧、人与人的交往和求知欲，于是孩子智力发展的最佳期被错过。",
+  "evidence": "这就是彼佳的情况，是使彼佳成为一个难教的儿童的原因。孩子周围的人们，是善良的，对他是关怀备至的。但是这种关怀缺少了主要的东西——人的智慧，人和人之间的交往，人的探索精神、求知欲。彼佳的父母万没有料到，正是他们自己扑灭了彼佳对周围世界的兴趣的",
+  "title": "缺少智慧的关怀",
+  "old_topics": [
+   "learning-difficulties",
+   "family-school"
+  ],
+  "type": "quote",
+  "tags": [
+   "A6",
+   "A18"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2524": {
+  "primary": "A13",
+  "seealso": [],
+  "facets": [],
+  "claim": "青少年出于思索需要的阅读，应当比教材指定必读的多出一两倍；只埋头教科书会把书读死，使头脑迟钝，使学习变成繁重的劳役。",
+  "evidence": "我们的教育集体关心的是，让每个学生都能阅读跟功课没有直接联系的读物(当然，这种阅读是被课堂的兴趣和问题激发出来的)。多年的经验使我得出这样的结论：青少年出于思索的需要阅读的东西，应当比教材指定必读的东西多出一两倍。这种出于思索的需要和没有记",
+  "title": "阅读比必读教材多一两倍",
+  "old_topics": [
+   "reading-and-books"
+  ],
+  "type": "quote",
+  "tags": [
+   "A13"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2525": {
+  "primary": "A11",
+  "seealso": [],
+  "facets": [],
+  "claim": "没有劳动的生活是不可思议的，这是共产主义教育第一个不容违背的准则；把年轻人引上社会生活的大道，只可能经由劳动的崎岖小径。",
+  "evidence": "我们称之为智力生活的那种集体中的相互关系，首先也要有劳动。我们认为，共产主义教育第一个不容违背的准则，是让一个人在童年时代就懂得一个真理：没有劳动的生活是不可思议的。把一个小小年纪的人引上社会生活的大道，只可能经由劳动的崎岖小径。",
+  "title": "劳动的崎岖小径是唯一入口",
+  "old_topics": [
+   "labor-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A11"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2526": {
+  "primary": "A1",
+  "seealso": [],
+  "facets": [],
+  "claim": "学校的教学不应压缩到为将来储备知识的框框里，而应在一个人身上创造社会最需要的道德价值和精神价值，并与年轻公民积极的思想生活结合起来。",
+  "evidence": "但学校的教学不应因此而压缩到“为储备”(为将来)积累知识的框框里。教学，应当是在一个人的身上创造我们社会最需要的道德价值和精神价值。假如我们想的是一心使学校的教学培养出真正具有教养的人，那么，这种教学就应当与今日年轻公民积极的思想生活结合起",
+  "title": "教学创造价值而非储备知识",
+  "old_topics": [
+   "thinking-and-nature"
+  ],
+  "type": "quote",
+  "tags": [
+   "A1"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2527": {
+  "primary": "A23",
+  "seealso": [],
+  "facets": [],
+  "claim": "每天、每堂课学生都应当通过自己的努力去获取知识：这既是教学论的一条定则，也是教育的一条重要规律；求知欲之所以不消退，是因为学生把学习体验为劳动并因此自豪。",
+  "evidence": "每天，每堂课，学生都应当通过自己的努力去获取。这不仅是教学论的一个定则，而且是教育的一条重要规律。在优秀教师手下，学生的求知欲之所以永不消退，是由于他们在学习时想到他们是在劳动而体验到自豪感。",
+  "title": "每堂课靠自己努力获取",
+  "old_topics": [
+   "learning-difficulties"
+  ],
+  "type": "quote",
+  "tags": [
+   "A23"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2528": {
+  "primary": "A9",
+  "seealso": [],
+  "facets": [],
+  "claim": "集体成员把自己当作社会一分子的认识高度，只能经由劳动生活达到；义务感与责任感的概念，除了通过劳动别无他径，集体劳动是人与人之间义务和责任的纽带。",
+  "evidence": "只有在劳动生活的观念把一个集体联合起来的地方，集体成员才能上升到把自己当作社会一分子的认识高度。要其确立义务感与责任感的概念，除了通过劳动也别无他径。在这种劳动里包容着给人们带来幸福和欢乐的物质成果这一中心思想，也包含着劳其心智和乏其肌肤的",
+  "title": "劳动生活把集体联合起来",
+  "old_topics": [
+   "collective-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A9"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2529": {
+  "primary": "A22",
+  "seealso": [],
+  "facets": [],
+  "claim": "教师只有使学生相信困难事物的魅力，才能把他提高到道德发展的高度，使他能控制自己的意志；而这要求教师本人是学生的同道者，他的智力生活和兴趣是学生的指路明灯。",
+  "evidence": "在实践中如何解决这些复杂的教育任务呢?怎样才能使学生在少年早期就向往困难而藐视避难就易、迂回包抄的路径呢?真正的智力劳动要求坚忍不拔和百折不回的道德品质。为使思维成为具有魅力的劳动，为了感觉到这种劳动的美，就应当善于运用自己的思想和感情。然",
+  "title": "使学生相信困难事物的魅力",
+  "old_topics": [
+   "teacher-growth"
+  ],
+  "type": "quote",
+  "tags": [
+   "A22"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

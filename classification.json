@@ -43734,5 +43734,108 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2542": {
+  "primary": "A22",
+  "seealso": [],
+  "facets": [],
+  "claim": "教师为了让少年容易理解而把课讲得过分明白，实际上替代了学生自己的思考，反而加重了他的脑力劳动，压抑求知欲，使智力变得迟钝。",
+  "evidence": "产生这种不幸的原因在于，少年的智力倾向于思考和研究，力求摆脱别人的思想，而正是在这个时候，教师在教学上动了很多脑筋，目的是使自己的课讲得更明白易懂，就像习惯要求的，让少年容易理解。结果却适得其反：按照教师意图应该减轻学生智能劳动的地方，实际",
+  "title": "讲得太明白反害思维",
+  "old_topics": [
+   "teacher-growth",
+   "thinking-and-nature"
+  ],
+  "type": "quote",
+  "tags": [
+   "A22"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2543": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "少年期的记忆衰退并非脑子不行，而是该多思考的时候不肯动脑；对接受能力差、思维不灵敏的学生，要引导他们自己把道理弄懂，直到恍然大悟——这种醒悟本身就是智能发展的一个阶段。",
+  "evidence": "记忆力的衰退恰恰会发生在少年时期，出现这种现象的原因是，当个人需要尽可能多思考的时候却不想去动脑筋。要引导那些接受能力差的和思想不灵敏的学生去自己弄懂道理，直至恍然大悟。这种醒悟不但对领会具体材料来说是必要的，它也是智能发展的特定阶段。一个",
+  "title": "记忆衰退源于不动脑",
+  "old_topics": [
+   "learning-difficulties"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2544": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "如果少年时代缺乏应有的思维素养、抽象概念没有成为思想的基础，反馈联系的通路就遭到破坏，解剖生理发展的规律性过程受损，结果是思维极端简单和紊乱。",
+  "evidence": "根据许多事实我提出下面的结论：如果少年时代缺乏应有的思维素养，如果抽象概念没有成为思想的基础，如果反馈联系不是从抽象概念即从信息系统中心通向形成概念基础的事物，解剖生理发展的规律性过程就遭到了破坏，由信息中心同周围神经之间的联系微弱，导致思",
+  "title": "思维素养受损的后果",
+  "old_topics": [
+   "thinking-and-nature"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2545": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "学生对具体事物与概括之间的关系理解得越清楚，他的主观感受就越深，真理才成为他精神上的收获；因此安排课程时务必让少年从具体、明显的事物上升到理论的规律性、依存关系、规则和法则。",
+  "evidence": "在指导智能劳动中我们还考虑到少年思维过程的这样一个特点：学生对具体事物和概括之间的关系理解越清楚，他主观上的感受就越深，研究真理，发现真理。真理也就成了他精神上的收获。正因为如此，我们在安排课的时候，务必使少年从具体的，明显的事物中来认识上",
+  "title": "从具体上升到概括",
+  "old_topics": [
+   "thinking-and-nature"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2546": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "少年最感兴趣的是尚未全部证实的东西；教师给出事实、要求他们自己分析概括，当他们在这段过渡中感到思想的跳动，那就是思维最活跃、感情最充沛的阶段。",
+  "evidence": "对于少年来说最感兴趣的是对他们讲述尚未全部证实的东西：我们讲一些事实，要求少年对这些事实进行分析、概括。如果少年在把事实进行概括的过渡中感觉到脉搏和思想的跳动，那么这种过渡也就是思维最活跃，感情最充沛的阶段。",
+  "title": "尚未证实的东西最吸引少年",
+  "old_topics": [
+   "thinking-and-nature"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2547": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "组织少年的智能活动，要让思维过程、掌握知识的过程同知识的应用紧紧结合，使一部分知识成为掌握另一部分知识的手段——兴趣、注意力的培养和知识的巩固，最终都取决于这一点。",
+  "evidence": "我们努力这样来组织少年的智能活动：要使思维过程，掌握知识的过程同知识的应用紧紧地结合在一起，要使一部分知识成为去掌握另一部分知识的手段—兴趣、注意力的培养和知识的巩固最终也与这种方法有关。",
+  "title": "知识要成为手段",
+  "old_topics": [
+   "thinking-and-nature"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

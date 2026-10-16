@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 209 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 210 |
 | [family-school](topics/family-school.md) | 家校合作 | 398 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 381 |
 | [health-first](topics/health-first.md) | 健康第一 | 107 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 324 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 458 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 500 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 501 |
 | [love-education](topics/love-education.md) | 爱的教育 | 797 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 105 |
 | [child-study](topics/child-study.md) | 儿童研究 | 725 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 145 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 318 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 323 |
 
 ## 来源 Sources
 
@@ -2574,3 +2574,9 @@
 | [sk-2539](cards/sk-2539-narrow-scope-vs-narrow-mindedness.md) | quote | labor-education | xuan-ji-zh-vol5 | 确定工作范围要深入到科学基础，才不会走进职业的狭隘 |
 | [sk-2540](cards/sk-2540-individual-traits-reveal-the-common.md) | quote | child-study | xuan-ji-zh-vol5 | 要了解这些人的共性，先看每个人身上的特点 |
 | [sk-2541](cards/sk-2541-culture-begins-in-the-culture-of-labor.md) | quote | labor-education | xuan-ji-zh-vol5 | 文化修养是从劳动中的文化内容开始的 |
+| [sk-2542](cards/sk-2542-explain-away-the-thinking.md) | quote | teacher-growth / thinking-and-nature | xuan-ji-zh-vol3 | 把课讲到学生不必动脑，就是在压抑他的求知欲 |
+| [sk-2543](cards/sk-2543-memory-fades-when-thinking-stops.md) | quote | learning-difficulties | xuan-ji-zh-vol3 | 记忆衰退的病因，是该动脑的时候没有动脑 |
+| [sk-2544](cards/sk-2544-thinking-literacy-damages-brain.md) | quote | thinking-and-nature | xuan-ji-zh-vol3 | 少年时代缺了思维素养，受损的是思维本身的通路 |
+| [sk-2545](cards/sk-2545-from-concrete-to-general.md) | quote | thinking-and-nature | xuan-ji-zh-vol3 | 具体与概括的关系看得越清，真理才成为他自己的收获 |
+| [sk-2546](cards/sk-2546-unproven-things-interest-teens.md) | quote | thinking-and-nature | xuan-ji-zh-vol3 | 少年最感兴趣的，是还没有被完全证实的东西 |
+| [sk-2547](cards/sk-2547-knowledge-as-a-tool-for-knowledge.md) | quote | thinking-and-nature | xuan-ji-zh-vol3 | 要让一部分知识，成为掌握另一部分知识的手段 |

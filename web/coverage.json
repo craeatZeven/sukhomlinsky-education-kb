@@ -1,5 +1,5 @@
 {
-  "total_cards": 2536,
+  "total_cards": 2542,
   "source_count": 12,
   "topic_count": 12,
   "zuoren_cards": 541,
@@ -38,7 +38,7 @@
     {
       "slug": "xuan-ji-zh-vol3",
       "title": "苏霍姆林斯基选集（五卷本）第3卷",
-      "cards": 288,
+      "cards": 294,
       "page_refs": 51
     },
     {
@@ -81,7 +81,7 @@
   "types": [
     {
       "type": "quote",
-      "cards": 1409
+      "cards": 1415
     },
     {
       "type": "case",
@@ -114,7 +114,7 @@
     {
       "slug": "teacher-growth",
       "title": "教师成长",
-      "cards": 500
+      "cards": 501
     },
     {
       "slug": "collective-education",
@@ -139,12 +139,12 @@
     {
       "slug": "thinking-and-nature",
       "title": "思维课与大自然",
-      "cards": 318
+      "cards": 323
     },
     {
       "slug": "learning-difficulties",
       "title": "学习困难学生",
-      "cards": 209
+      "cards": 210
     },
     {
       "slug": "reading-and-books",

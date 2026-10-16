@@ -152,8 +152,15 @@ def main():
         # 引文级查重（**真正的门**）：新引文与已有卡片 Excerpt 的 12 字窗不得重叠
         bad_ids = quote_bad_items(p)
         if bad_ids is None:
-            # 无法判定（marker 命中异常/规格读不了）-> 保守不落（2026-10-16 修：原 return -1 被当容器用会 TypeError）
-            print("     -> 引文级查重无法判定（marker 或规格异常），本批不落")
+            # 无法判定（marker 命中异常/规格读不了）-> 保守不落
+            # 2026-10-16 补：也要归档到 _void，否则同一批每轮重审（实测已重审 2 轮）
+            print("     -> 引文级查重无法判定（marker 或规格异常），本批不落并归档")
+            os.makedirs(os.path.join(S, "_void"), exist_ok=True)
+            with io.open(os.path.join(S, "_void", fn + ".VOID.md"), "w", encoding="utf-8", newline=chr(10)) as fh:
+                fh.write("# 引文级查重无法判定（自动）" + chr(10) + chr(10) +
+                         "marker 命中数 != 1，或规格读不了 -> 无法机械判定是否与已有引文重叠；保守不落。" + chr(10) +
+                         "人工检查该规格的 marker/quote 字段后，可移回主目录重试。" + chr(10))
+            move_to("_void", p)
             dup += 1
             continue
         if bad_ids:

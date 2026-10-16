@@ -43530,5 +43530,107 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2530": {
+  "primary": "A9",
+  "seealso": [],
+  "facets": [],
+  "claim": "集体能否成为人的精神和个性的活水，取决于教育者是否时刻关心每条溪流不干枯、不腐败；「可教育性」应当成为教育学的基本概念。",
+  "evidence": "我坚定地相信，只有当教育者时刻关心使这条大河流域没有一支溪流干枯、腐败和发臭，那时候集体才能成为人的精神、人的个性的一汪活水。集体成为教育者的能力，是要加以明智地培养出来的。俄语里有一个不大常用的词—“可教育性”，我认为，这个词应当成为教育",
+  "title": "集体是一汪活水",
+  "old_topics": [
+   "collective-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A9"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2531": {
+  "primary": "A3",
+  "seealso": [],
+  "facets": [],
+  "claim": "教育的理想在于使所有儿童成为幸福的人，让他们的心灵因劳动的幸福而快乐；当学习领域出现难以克服的障碍时，就要让他在精神生活的其他领域里得到表现。",
+  "evidence": "我认为教育的理想就在于使所有的儿童都成为幸福的人，使他们的心灵由于劳动的幸福而充满快乐。然而，如果在学习的领域里有着无法克服的(初看起来觉得是这样的)困难和障碍，那该怎么办呢？在这种情况下，就需要人在精神生活的其他领域里得到表现。",
+  "title": "让所有孩子成为幸福的人",
+  "old_topics": [
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A3"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2532": {
+  "primary": "A16",
+  "seealso": [],
+  "facets": [],
+  "claim": "如果儿童只能在掌握知识和分数上表现自己，失败与痛苦就在等他；在儿童的心还没穿上冷漠的铠甲之前，每一个不及格的分数于他都是一场莫大的灾难。",
+  "evidence": "如果人的精神生活(而且是什么样的人啊，幼小的，非常娇嫩的，在兴趣、愿望和需要上都还极其脆弱的人)仅仅被局限在这个领域里，也就是说，他只能在掌握知识上、分数上表现自己，那末就会有失败和困难在等待他，使他的生活变成一种痛苦。是的，事情确实如此。",
+  "title": "不及格的分数是灾难",
+  "old_topics": [
+   "assessment-grading"
+  ],
+  "type": "quote",
+  "tags": [
+   "A16"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2533": {
+  "primary": "A11",
+  "seealso": [],
+  "facets": [],
+  "claim": "真正要培养的不是完成劳动定额，而是人在劳动中的精神生活——让学生热烈地爱上一种劳动，在劳动中自己尊敬自己，并因珍爱自己的劳动而珍爱自己。",
+  "evidence": "我这里要说的是人在劳动中的精神生活，是劳动与精神世界的统一。要使学生热烈地爱上一种劳动，使他的心由于激动和自豪而快乐地战慄，使他在劳动中自己尊敬自己，使他由于珍爱自身的劳动而珍爱自己。",
+  "title": "劳动与精神世界的统一",
+  "old_topics": [
+   "labor-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A11"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2534": {
+  "primary": "A6",
+  "seealso": [],
+  "facets": [],
+  "claim": "儿童在掌握知识上越困难、障碍越多，就越要设法让他在别的劳动创造领域里突出自己；这不是用别的成功来补偿，而是让他不至于对一切都漠不关心，并从中获得克服困难的力量。",
+  "evidence": "儿童在掌握知识上越感困难，在他通往良好学习的道路上遇到的障碍越多，那末尽量设法让他在别的劳动创造的领域里突出自己这一点就越重要。年轻的人需要这一点，但这并不是说，既然他在人类活动的一个领域里遭遇了不幸的命运，那就让他在其他领域中取得成功而补",
+  "title": "难学的孩子需要突出的领域",
+  "old_topics": [
+   "learning-difficulties"
+  ],
+  "type": "quote",
+  "tags": [
+   "A6"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2535": {
+  "primary": "A4",
+  "seealso": [],
+  "facets": [],
+  "claim": "人在劳动中的表现，是获得和理解道德信念的途径；没有使出全部体力和精神力量、没有流过汗和克服困难，就不可能取得信念——童年少年时期手上的老茧是打开和谐教育之门的金钥匙。",
+  "evidence": "人在劳动中的表现，正是去获得和理解这些无价的宝藏——道德信念—的途径。如果人没有使出全部的体力和精神力量，手上没有老茧，没有流过汗水，没有疲劳和克服困难，他是不可能取得和理解信念的。我深信，在童年和少年时期，手上就磨出厚厚的老茧，这是人的心",
+  "title": "老茧是打开信念的钥匙",
+  "old_topics": [
+   "labor-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A4"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

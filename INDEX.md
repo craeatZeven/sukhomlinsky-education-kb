@@ -4,15 +4,15 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 208 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 209 |
 | [family-school](topics/family-school.md) | 家校合作 | 398 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 374 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 376 |
 | [health-first](topics/health-first.md) | 健康第一 | 107 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 324 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 457 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 458 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 500 |
-| [love-education](topics/love-education.md) | 爱的教育 | 796 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 104 |
+| [love-education](topics/love-education.md) | 爱的教育 | 797 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 105 |
 | [child-study](topics/child-study.md) | 儿童研究 | 724 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 145 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 318 |
@@ -2562,3 +2562,9 @@
 | [sk-2527](cards/sk-2527-learning-requires-daily-effort.md) | quote | learning-difficulties | xuan-ji-zh-vol5 | 每天、每堂课，学生都应当通过自己的努力去获取 |
 | [sk-2528](cards/sk-2528-labor-life-binds-the-collective.md) | quote | collective-education | xuan-ji-zh-vol5 | 只有劳动生活的观念把集体联合起来，成员才能上升到「社会一分子」的认识高度 |
 | [sk-2529](cards/sk-2529-teacher-makes-difficulty-attractive.md) | quote | teacher-growth | xuan-ji-zh-vol5 | 教师只有使学生相信困难事物的魅力，才能把他提高到道德发展的高度 |
+| [sk-2530](cards/sk-2530-collective-is-living-water-fed-by-streams.md) | quote | collective-education | gei-jiao-shi-de-jian-yi-zh | 集体要成为一汪活水，靠的是每条溪流不干枯、不发臭 |
+| [sk-2531](cards/sk-2531-education-ideal-is-happy-children.md) | quote | love-education | gei-jiao-shi-de-jian-yi-zh | 教育的理想，是让所有孩子成为幸福的人 |
+| [sk-2532](cards/sk-2532-failing-mark-is-a-catastrophe-under-single-field.md) | quote | assessment-grading | gei-jiao-shi-de-jian-yi-zh | 当分数成了唯一领域，每个不及格都是孩子的灾难 |
+| [sk-2533](cards/sk-2533-labor-and-spiritual-life-must-unite.md) | quote | labor-education | gei-jiao-shi-de-jian-yi-zh | 劳动教育的要点，是劳动与精神世界的统一 |
+| [sk-2534](cards/sk-2534-struggling-child-needs-a-field-to-shine.md) | quote | learning-difficulties | gei-jiao-shi-de-jian-yi-zh | 学习越困难的孩子，越要有一个领域让他突出自己 |
+| [sk-2535](cards/sk-2535-calluses-are-the-key-to-conviction.md) | quote | labor-education | gei-jiao-shi-de-jian-yi-zh | 道德信念只能靠体力和精神力量的付出换来 |

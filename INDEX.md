@@ -6,16 +6,16 @@
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 201 |
 | [family-school](topics/family-school.md) | 家校合作 | 395 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 368 |
-| [health-first](topics/health-first.md) | 健康第一 | 106 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 323 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 452 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 495 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 370 |
+| [health-first](topics/health-first.md) | 健康第一 | 107 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 324 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 453 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 498 |
 | [love-education](topics/love-education.md) | 爱的教育 | 792 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 96 |
 | [child-study](topics/child-study.md) | 儿童研究 | 719 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 143 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 314 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 144 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 315 |
 
 ## 来源 Sources
 
@@ -2528,3 +2528,9 @@
 | [sk-2493](cards/sk-2493-three-grade-students-weak-will-weaken-collective.md) | quote | assessment-grading / learning-difficulties | xuan-ji-zh-vol1 | 常得3分的学生意志薄弱，他们越多，集体的教育力量越弱 |
 | [sk-2494](cards/sk-2494-attitude-to-books-drives-hard-study.md) | quote | reading-and-books | xuan-ji-zh-vol1 | 对书本的态度，是学生勤奋学习最重要的促进因素 |
 | [sk-2495](cards/sk-2495-senior-students-as-educators-of-small-groups.md) | quote | collective-education | xuan-ji-zh-vol1 | 让高年级学生去做低年级小型集体的教育者 |
+| [sk-2496](cards/sk-2496-good-teacher-grows-in-collective-labor.md) | quote | teacher-growth / collective-education | xuan-ji-zh-vol4 | 好教师不是天生的，是集体创造性劳动环境的产物 |
+| [sk-2497](cards/sk-2497-spark-that-ignites-intellectual-life.md) | quote | thinking-and-nature / teacher-growth | xuan-ji-zh-vol4 | 点燃学生心灵之火的火花 |
+| [sk-2498](cards/sk-2498-student-questions-drive-teacher-reading.md) | quote | teacher-growth / reading-and-books | xuan-ji-zh-vol4 | 学生的问题越多，越逼着教师去读书 |
+| [sk-2499](cards/sk-2499-overcoming-difficulty-is-labor-education.md) | quote | labor-education | xuan-ji-zh-vol4 | 不把现成做好的东西交给学生：克服困难才是劳动教育的康庄大道 |
+| [sk-2500](cards/sk-2500-gymnastics-a-lifelong-habit.md) | quote | health-first | xuan-ji-zh-vol4 | 为每个学生单独定锻炼量，让体操成为毕生的爱好 |
+| [sk-2501](cards/sk-2501-nurturing-a-plant-makes-a-kind-person.md) | quote | labor-education / aesthetic-nature-education | xuan-ji-zh-vol4 | 亲手养大一棵植物的人，会成为善良的人 |

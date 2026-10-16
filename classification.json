@@ -42930,5 +42930,111 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2496": {
+  "primary": "A10",
+  "seealso": [],
+  "facets": [],
+  "claim": "好教师并非带着成熟素养进入学校，其成长首先有赖于全体师生的创造性劳动环境",
+  "evidence": "好教师并不总能带着已经成熟的素养到学校来。往往只得选择那种只是具备上述全面素养的发展条件的人。然后着手对他进行耐心细致的工作。而他之所以成为一个好教师，则首先有赖于全体师生的创造性劳动环境。",
+  "title": "好教师的土壤",
+  "old_topics": [
+   "teacher-growth",
+   "collective-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A10"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2497": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "教师把自然奥秘的前景揭示给学生、激起其惊异之感的能力，是点燃智力生活火花的前提",
+  "evidence": "教师善于把洞察自然奥秘的引人入胜的前景揭示给学生的那种能力，善于激起学生对科学、对知识的惊异之感的那种能力，也就是点燃学生心灵之火的一颗火花，没有这颗火花，就不可能设想有真正的智力生活。",
+  "title": "心灵之火的火花",
+  "old_topics": [
+   "thinking-and-nature",
+   "teacher-growth"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2498": {
+  "primary": "A10",
+  "seealso": [],
+  "facets": [],
+  "claim": "教师知识越丰富、越会打开学生视野，学生问题随之变多变难，反过来迫使教师继续读书",
+  "evidence": "教师的知识越丰富，他越能经常而又巧妙地开阔学生的科学视野，学生就会表现出越强烈的探索志趣和求知愿望，他们的问题和质疑之处就越多，提问题就提得越有头脑、越有趣、难度也越大。这些问题反过来又促使我们教师去思索，去读书。",
+  "title": "问题倒逼读书",
+  "old_topics": [
+   "teacher-growth",
+   "reading-and-books"
+  ],
+  "type": "quote",
+  "tags": [
+   "A10"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2499": {
+  "primary": "A11",
+  "seealso": [],
+  "facets": [],
+  "claim": "不要把现成做好的东西交给学生，克服困难才是劳动教育的康庄大道",
+  "evidence": "伊万·瓦西里耶维奇指导的课外小组，名副其实地是用废铜烂铁来装修机器部件和整台机器的。他的经验再一次肯定，不应当把什么都以别人做好的现成形式拿给学生，克服困难才是劳动教育的康庄大道。",
+  "title": "劳动教育靠克服困难",
+  "old_topics": [
+   "labor-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A11"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2500": {
+  "primary": "A7",
+  "seealso": [],
+  "facets": [],
+  "claim": "体育应会同医生为每个学生制定个人锻炼制度，并让体操等运动成为毕生的爱好",
+  "evidence": "体育教师会同医生一起分别为每个学生制定个人锻炼制度和运动量，并关注对这些规定的遵守和执行情况。我们大家完全同意这位教师这样一个观点：每个人应当毕生都保持对体操的爱好，体操是最有益的运动项目之一。",
+  "title": "毕生的体操爱好",
+  "old_topics": [
+   "health-first"
+  ],
+  "type": "quote",
+  "tags": [
+   "A7"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2501": {
+  "primary": "A11",
+  "seealso": [],
+  "facets": [],
+  "claim": "童年亲手培育并照料过植物的人，会长成善良、真诚、热忱、富于同情心的人",
+  "evidence": "如果儿童亲手培育过、并且用自己呼出的微热温暖过娇嫩的小植物，如果他曾时刻把这棵植物的命运挂在心上、并为它坐立不安、感受过痛苦，如果他为了使那棵居弱纤细的、毫无抵抗能力的幼苗成长为粗壮挺拔的大树而操过心，那他就会成为善良、真诚、热忱和富于同情",
+  "title": "养植物的孩子",
+  "old_topics": [
+   "labor-education",
+   "aesthetic-nature-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A11"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

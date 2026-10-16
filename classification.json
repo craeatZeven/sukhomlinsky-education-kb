@@ -43229,5 +43229,109 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2513": {
+  "primary": "A21",
+  "seealso": [],
+  "facets": [],
+  "claim": "男女成熟期的时间差是自然规律，教育的力量在于顾及它而不是抹平它",
+  "evidence": "女孩子的性成熟期要比男孩子早得多。女孩子成长为女人要比男孩子成长为男人早2年，有时甚至早3年。这并不是一种可以用强大的教育力量所能“延缓”或“拉平”的自然界的“变幻”。教育只有在考虑到自然界最细微的“变幻”时，才是强有力的。而如果自然界的规",
+  "title": "成熟期差不可拉平",
+  "old_topics": [
+   "child-study"
+  ],
+  "type": "quote",
+  "tags": [
+   "A21"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2514": {
+  "primary": "A19",
+  "seealso": [],
+  "facets": [],
+  "claim": "性本能的高尚化取决于童年期男女关系中热诚关怀与亲切的积累",
+  "evidence": "性的本能，传宗接代的本能是一种非常强烈的自然现象。这种本能需要通过一些细腻的关系使之变得高尚，所以在出现这种本能之前，早就应该开始这项工作。如果在童年时代的男孩子与女孩子之间的相互关系中热诚的关怀愈多，感情愈亲切，那么性本能就会变得更加高尚",
+  "title": "本能靠细腻关系变高尚",
+  "old_topics": [
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A19"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2515": {
+  "primary": "A9",
+  "seealso": [],
+  "facets": [],
+  "claim": "性成熟能否对女孩心理产生良好影响，取决于集体在童年期是否充满关心与责任感",
+  "evidence": "在女孩子的智力发育过程中，在她们的精神和心理以及道德和美感的关系中，那些“危险”的和令人不安的现象要比男孩子少得多。在进行正确的教育工作的情况下，性成熟期对她们的心理能产生一种良好的影响——能大大加速与加深她们智慧的增长并促使她们对未来进行",
+  "title": "成熟的影响取决于集体",
+  "old_topics": [
+   "collective-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A9"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2516": {
+  "primary": "A2",
+  "seealso": [],
+  "facets": [],
+  "claim": "女孩子思想上的锻炼在于为社会的利益与人的尊严进行积极顽强的斗争，而不是做抽象的好事",
+  "evidence": "应当这样来组织集体的活动，要使男孩子与女孩子所从事的一些积极的活动充满激情，并能激起女孩子对其周围的事物以及她们自己所从事的工作作出鲜明的感情评价。一个未来的女人、母亲、妻子的尊严只有当她以一个公民的身份对集体的利益以及大家所关心和忧虑不安",
+  "title": "母亲尊严来自公民立场",
+  "old_topics": [
+   "collective-education",
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A2"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2517": {
+  "primary": "A8",
+  "seealso": [],
+  "facets": [],
+  "claim": "崇敬母亲是把自然的性欲高尚化、消除心灵中粗野本能的学校精神",
+  "evidence": "在学校里应提倡崇敬母亲，这是对待妇女(人类生活和美的源泉)的一种崇高而又纯洁的精神。这可以使人的自然的性欲变得高尚起来，消除掉人类心灵中的那种兽性的、粗野的本能。凡是受过教育，知道应当尊重，崇敬母亲的人是永远不会用淫荡的眼光来瞧女孩子和姑娘",
+  "title": "学校应崇敬母亲",
+  "old_topics": [
+   "family-school"
+  ],
+  "type": "quote",
+  "tags": [
+   "A8"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2518": {
+  "primary": "A22",
+  "seealso": [],
+  "facets": [],
+  "claim": "性成熟的谈话必须分性别单独进行，目的是减弱好奇心而不是激起它",
+  "evidence": "少年不能理解的一切与性成熟有关的现象，都必须与男孩和女孩单独地进行谈话。这种极为隐秘的谈话(与男孩谈话由男人进行，与女孩—则由女人进行)应该不致引起孩子们对性成熟更多的兴趣，而恰恰相反，是要减弱这种兴趣，并使其变得高尚起来。",
+  "title": "单独谈话要减弱兴趣",
+  "old_topics": [
+   "love-education",
+   "child-study"
+  ],
+  "type": "quote",
+  "tags": [
+   "A22"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

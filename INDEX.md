@@ -5,15 +5,15 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 202 |
-| [family-school](topics/family-school.md) | 家校合作 | 396 |
+| [family-school](topics/family-school.md) | 家校合作 | 397 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 373 |
 | [health-first](topics/health-first.md) | 健康第一 | 107 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 324 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 454 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 456 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 499 |
-| [love-education](topics/love-education.md) | 爱的教育 | 793 |
+| [love-education](topics/love-education.md) | 爱的教育 | 796 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 102 |
-| [child-study](topics/child-study.md) | 儿童研究 | 721 |
+| [child-study](topics/child-study.md) | 儿童研究 | 723 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 144 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 316 |
 
@@ -2545,3 +2545,9 @@
 | [sk-2510](cards/sk-2510-workshops-for-every-childs-ability.md) | quote | collective-education / learning-difficulties | xuan-ji-zh-vol2 | 课外小组与工作室：让每个学生都有机会发挥自己的能力 |
 | [sk-2511](cards/sk-2511-conviction-grows-from-love-of-work.md) | quote | thinking-and-nature / labor-education | xuan-ji-zh-vol2 | 信念的形成首先要把爱劳动的教育与精神生活的意向协调一致 |
 | [sk-2512](cards/sk-2512-cherish-happiness-bought-by-sacrifice.md) | quote | love-education / family-school | xuan-ji-zh-vol2 | 让新一代知道今天的幸福是别人流血牺牲得来的，才会珍惜它 |
+| [sk-2513](cards/sk-2513-education-cannot-flatten-natures-timing.md) | quote | child-study | xuan-ji-zh-vol3 | 教育无法用力量把女孩与男孩的成熟期差拉平 |
+| [sk-2514](cards/sk-2514-sexual-instinct-needs-refined-relationships.md) | quote | love-education | xuan-ji-zh-vol3 | 性本能要靠细腻的关系变得高尚，这项工作要早开始 |
+| [sk-2515](cards/sk-2515-girls-maturation-effect-depends-on-collective-care.md) | quote | collective-education | xuan-ji-zh-vol3 | 性成熟对女孩心理的影响，取决于集体里的关心与责任感 |
+| [sk-2516](cards/sk-2516-future-mothers-dignity-grows-from-citizenship.md) | quote | collective-education / love-education | xuan-ji-zh-vol3 | 未来女人与母亲的尊严，只有在公民立场上才能形成 |
+| [sk-2517](cards/sk-2517-school-should-revere-motherhood.md) | quote | family-school | xuan-ji-zh-vol3 | 学校里应提倡崇敬母亲，这能使自然的性欲高尚起来 |
+| [sk-2518](cards/sk-2518-private-talks-weaken-not-inflame-interest.md) | quote | love-education / child-study | xuan-ji-zh-vol3 | 与男孩、女孩分别单独谈：目的是减弱兴趣并使之高尚 |

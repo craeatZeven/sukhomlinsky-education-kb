@@ -43943,5 +43943,107 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2554": {
+  "primary": "A16",
+  "seealso": [],
+  "facets": [],
+  "claim": "用「像好人、不要像坏蛋」的对比来教美德，会把很小的孩子引入歧途；孩子应当为自己的长处自豪，而不是为奖励或胜过别人而自豪。",
+  "evidence": "这种建立在比较基础上的美德教育，比如说教育孩子要做像瓦尼亚那样的好人，而不要做像彼契卡那样的坏蛋，这样的教育会把年岁还很小的孩子就给引人了歧途，它对少年来说是一种精神毒药。要让小孩子为自己的长处感到自豪，而且并不因为自己有这些长处而期待任何",
+  "title": "对比式美德教育是毒药",
+  "old_topics": [
+   "assessment-grading"
+  ],
+  "type": "quote",
+  "tags": [
+   "A16"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2555": {
+  "primary": "A5",
+  "seealso": [],
+  "facets": [],
+  "claim": "少年期的自尊心与对利己主义的鄙视同时存在，这要求教师在教育中掌握严格的分寸、尊重个性，把功夫下在发展健康的进取心上。",
+  "evidence": "少年鄙视利己主义、个人主义，同时具有敏感的自尊心，这种少年时代的矛盾要求教师掌握严格的分寸和尊重学生的个性。对少年的教育工作应当着重于发展健康的进取心，即自重与严于律己。多情善感、禀性聪颖以及对语言与美的敏感这是影响人的心灵的最细腻的手段。",
+  "title": "少年自尊心要求分寸",
+  "old_topics": [
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A5"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2556": {
+  "primary": "A6",
+  "seealso": [],
+  "facets": [],
+  "claim": "比批评更危险的是不了解：不知道少年的精神寄托和精神需要，不知道脑力劳动、书籍、艺术在他生活里的位置，那么无论教师为他操多少心，他仍然会感到孤独。",
+  "evidence": "然而，不幸的是少年有时候会感到孤独，虽然他处于人群之中。处于人群之中而感到孤独，那是很危险的。因为不管是谁——教师还是家长——都不知道少年的精神寄托是什么?特别不能允许的是不了解少年有哪些精神需要，不了解脑力劳动、书籍和艺术在他的生活中占有",
+  "title": "人群中的孤独",
+  "old_topics": [
+   "child-study"
+  ],
+  "type": "quote",
+  "tags": [
+   "A6"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2557": {
+  "primary": "A10",
+  "seealso": [],
+  "facets": [],
+  "claim": "在思维与心灵内部确立道德理想，是一件不易察觉、非常复杂的事；它要求教师具备巨大的精神力量与高度的文化修养，并且教得得法、关心体贴。",
+  "evidence": "为了认识和确立道德准则的理想而在思维与心灵的内部所进行的活动是一种初看起来不易察觉的、非常复杂的教育过程。它要求教师具备巨大的精神力量与高度的文化修养。应该教导学生，照马雅可夫斯基的说法，“照谁的榜样来生活”，但是要教得得法和关心体贴。在这",
+  "title": "确立理想靠教师修养",
+  "old_topics": [
+   "teacher-growth"
+  ],
+  "type": "quote",
+  "tags": [
+   "A10"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2558": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "引导学生智力上的自我肯定，是真正的教育家不会忘记的事；其做法是把学校知识与科学结合起来，使学生觉得自己不是听话的知识购买者，而是有求知精神的研究者。",
+  "evidence": "在思想和智力活动范围内肯定自己——就意味着把日常的、单调的学习劳动不仅看做是一种义务，而且也看做是一种精神需要。这完全取决于教师。真正的教育家永远不会忘记自己正在对少年智力的自我肯定做引导工作。他善于把学校知识与科学相结合、努力使学生觉得自",
+  "title": "做研究者而非购买者",
+  "old_topics": [
+   "thinking-and-nature"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2559": {
+  "primary": "A9",
+  "seealso": [],
+  "facets": [],
+  "claim": "防止孤僻和精神隔绝，才能避免利己与自高自大；学校生活要充满集体主义，就不能只局限于课堂教学，丰富多彩的课外智力活动是交流精神财富的重要条件。",
+  "evidence": "防止孤僻和个人精神世界的隔绝乃是一种避免利己主义和自高自大的方法之一。要达到这样一个教育目的并不像原先想像的那么轻而易举。教学过程的内在规律本身就包含产生孤僻与隔绝的危险性，因为在学校里总是不断强调(别无他法)：“要用自己的努力去获得成功，",
+  "title": "精神财富的交流",
+  "old_topics": [
+   "collective-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A9"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

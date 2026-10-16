@@ -9,13 +9,13 @@
 | [labor-education](topics/labor-education.md) | 劳动教育 | 383 |
 | [health-first](topics/health-first.md) | 健康第一 | 107 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 324 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 461 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 504 |
-| [love-education](topics/love-education.md) | 爱的教育 | 797 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 105 |
-| [child-study](topics/child-study.md) | 儿童研究 | 726 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 462 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 505 |
+| [love-education](topics/love-education.md) | 爱的教育 | 798 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 106 |
+| [child-study](topics/child-study.md) | 儿童研究 | 727 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 146 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 323 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 324 |
 
 ## 来源 Sources
 
@@ -2586,3 +2586,9 @@
 | [sk-2551](cards/sk-2551-thought-for-children-needs-reading.md) | quote | reading-and-books / teacher-growth | xuan-ji-zh-vol1 | 不读教育著作、不思考所读，为着儿童的思想就会消失 |
 | [sk-2552](cards/sk-2552-difficulty-makes-labor-ennobling.md) | quote | labor-education | xuan-ji-zh-vol1 | 劳动之所以使人高尚，只因其中存在着困难 |
 | [sk-2553](cards/sk-2553-moral-aspiration-needs-labor-based-collective-life.md) | quote | collective-education / labor-education | xuan-ji-zh-vol1 | 集体的精神生活建在为社会而劳动的基础上，青少年才有道德追求 |
+| [sk-2554](cards/sk-2554-comparison-moral-education-poison.md) | quote | assessment-grading | xuan-ji-zh-vol3 | 把美德教育建立在做好人、别做坏蛋的对比上，是给孩子下精神毒药 |
+| [sk-2555](cards/sk-2555-adolescent-self-esteem-needs-measure.md) | quote | love-education | xuan-ji-zh-vol3 | 少年既鄙视利己主义又自尊心敏感，要求教师掌握分寸、尊重个性 |
+| [sk-2556](cards/sk-2556-lonely-in-the-crowd-unknown-needs.md) | quote | child-study | xuan-ji-zh-vol3 | 不了解少年的精神需要，他身在人群之中仍然孤独 |
+| [sk-2557](cards/sk-2557-moral-ideal-needs-teacher-culture.md) | quote | teacher-growth | xuan-ji-zh-vol3 | 教学生确立道德理想，要求教师有巨大的精神力量与高度的文化修养 |
+| [sk-2558](cards/sk-2558-student-as-researcher-not-buyer.md) | quote | thinking-and-nature | xuan-ji-zh-vol3 | 真正的教育家让学生觉得自己是有求知精神的研究者，而不是听话的知识购买者 |
+| [sk-2559](cards/sk-2559-spiritual-wealth-exchange-collective.md) | quote | collective-education | xuan-ji-zh-vol3 | 把精神财富互相交流，才是集体关系；只靠课堂撑不起集体主义 |

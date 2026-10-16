@@ -1,5 +1,5 @@
 {
-  "total_cards": 2502,
+  "total_cards": 2507,
   "source_count": 12,
   "topic_count": 12,
   "zuoren_cards": 541,
@@ -14,7 +14,7 @@
     {
       "slug": "xuan-ji-zh-vol2",
       "title": "苏霍姆林斯基选集（五卷本）第2卷",
-      "cards": 398,
+      "cards": 403,
       "page_refs": 45
     },
     {
@@ -81,7 +81,7 @@
   "types": [
     {
       "type": "quote",
-      "cards": 1375
+      "cards": 1380
     },
     {
       "type": "case",
@@ -104,12 +104,12 @@
     {
       "slug": "love-education",
       "title": "爱的教育",
-      "cards": 792
+      "cards": 793
     },
     {
       "slug": "child-study",
       "title": "儿童研究",
-      "cards": 720
+      "cards": 721
     },
     {
       "slug": "teacher-growth",
@@ -119,17 +119,17 @@
     {
       "slug": "collective-education",
       "title": "集体教育",
-      "cards": 453
+      "cards": 454
     },
     {
       "slug": "family-school",
       "title": "家校合作",
-      "cards": 395
+      "cards": 396
     },
     {
       "slug": "labor-education",
       "title": "劳动教育",
-      "cards": 370
+      "cards": 373
     },
     {
       "slug": "aesthetic-nature-education",
@@ -139,12 +139,12 @@
     {
       "slug": "thinking-and-nature",
       "title": "思维课与大自然",
-      "cards": 315
+      "cards": 316
     },
     {
       "slug": "learning-difficulties",
       "title": "学习困难学生",
-      "cards": 201
+      "cards": 202
     },
     {
       "slug": "reading-and-books",

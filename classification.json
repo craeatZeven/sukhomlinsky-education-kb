@@ -43140,5 +43140,94 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2508": {
+  "primary": "A11",
+  "seealso": [],
+  "facets": [],
+  "claim": "学校应使学生不以劳动付出与报酬相权衡，而以精神与创造需求相权衡，把「能给予的一切全给予社会」确立为信念",
+  "evidence": "我们学校的受教育者，不应把自己在劳动中的付出与报酬相权衡，而是首先与自己精神上的劳动需求，创造需求相权衡。，把我能够给予的一切全都给予社会，这种主观愿望就是真正的共产主义信念，苏维埃学校应当用它拥有的全部手段来确立这种信念。",
+  "title": "不与报酬相权衡",
+  "old_topics": [
+   "labor-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A11"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2509": {
+  "primary": "A11",
+  "seealso": [],
+  "facets": [],
+  "claim": "劳动教育要在每个孩子身上看见独特的活力，珍爱每一种天资与才干，使他成为自己业务上的诗人",
+  "evidence": "在培养具有灵巧的双手、精明的智慧和高尚的心灵的人时，我们会在每个孩子身上看到其独特的活力，依靠这种活力，以及借助于劳动这位伟大的教育者，孩子就能成为技艺能手，成为自己业务上的诗人。-个孩子能表现出在植物栽培方面具有创造性劳动的天资；另一个孩",
+  "title": "业务上的诗人",
+  "old_topics": [
+   "labor-education",
+   "child-study"
+  ],
+  "type": "quote",
+  "tags": [
+   "A11"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2510": {
+  "primary": "A9",
+  "seealso": [],
+  "facets": [],
+  "claim": "为每个学生提供适合其能力的器械与工作室，是使其才能得到发挥的实物条件，也是集体互助的内容",
+  "evidence": "为保证这些学生有机会充分发挥自己的才能，我校设立了各种各样的课外小组和工作室，里面集中配置了许多机械和劳动工具，它们都是适于学生使用的，或专门为他们制作的(例如有高年级学生和教师为低年级同学制造的车床)",
+  "title": "课外小组与工作室",
+  "old_topics": [
+   "collective-education",
+   "learning-difficulties"
+  ],
+  "type": "quote",
+  "tags": [
+   "A9"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2511": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "社会进步取决于先进思想掌握每个普通人意识的深度，而这一深度要靠爱劳动教育、劳动技能与精神生活意向三者协调一致来达到",
+  "evidence": "在社会发展的转折时期，先进思想的改造作用将不断提高。在这个时期，社会的进步必然要求千百万人积极参加创造活动。在此期间，社会的进一步发展决定于这一点：先进的思想在何种深度上掌握着每一个“幼小的人”，即社会普通成员的意识。",
+  "title": "三条线协调一致",
+  "old_topics": [
+   "thinking-and-nature",
+   "labor-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2512": {
+  "primary": "A5",
+  "seealso": [],
+  "facets": [],
+  "claim": "只有让学生认识和感觉到今天的幸福生活是许多人流血牺牲的成果，他们才会高度评价并珍惜这种幸福",
+  "evidence": "成长中的一代，对待社会和长辈提供的物质和精神财富的态度，在许多方面都取决于在多大程度上贯彻了上述教育准则。如果学生认识和感觉到，他们今天的幸福生活是许多人为之流了许多血、作了无数的牺牲的奋斗成果，他们就会高度评价生活的幸福，并珍惜它。",
+  "title": "珍惜生活的幸福",
+  "old_topics": [
+   "love-education",
+   "family-school"
+  ],
+  "type": "quote",
+  "tags": [
+   "A5"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

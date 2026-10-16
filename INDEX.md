@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 201 |
-| [family-school](topics/family-school.md) | 家校合作 | 395 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 370 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 202 |
+| [family-school](topics/family-school.md) | 家校合作 | 396 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 373 |
 | [health-first](topics/health-first.md) | 健康第一 | 107 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 324 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 453 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 454 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 499 |
-| [love-education](topics/love-education.md) | 爱的教育 | 792 |
+| [love-education](topics/love-education.md) | 爱的教育 | 793 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 102 |
-| [child-study](topics/child-study.md) | 儿童研究 | 720 |
+| [child-study](topics/child-study.md) | 儿童研究 | 721 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 144 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 315 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 316 |
 
 ## 来源 Sources
 
@@ -2540,3 +2540,8 @@
 | [sk-2505](cards/sk-2505-hundreds-of-ways-to-reproach.md) | quote | assessment-grading | xuan-ji-zh-vol2 | 表达批评要用几百种不同方式，让学生肯把心里话敞开 |
 | [sk-2506](cards/sk-2506-reproach-selfishness-not-mischief.md) | quote | assessment-grading | xuan-ji-zh-vol2 | 该毫不留情的是利己主义和冷漠，不是淘气与恶作剧 |
 | [sk-2507](cards/sk-2507-no-promises-must-make-up-for-wrongdoing.md) | quote | assessment-grading / child-study | xuan-ji-zh-vol2 | 让学生写「保证」代替弥补过失，等于在培养恶棍 |
+| [sk-2508](cards/sk-2508-labor-as-natural-need-not-wage.md) | quote | labor-education | xuan-ji-zh-vol2 | 受教育者不与报酬相权衡：把我能够给予的一切全都给予社会 |
+| [sk-2509](cards/sk-2509-every-talent-must-be-cherished.md) | quote | labor-education / child-study | xuan-ji-zh-vol2 | 用劳动让每个孩子成为自己业务上的诗人 |
+| [sk-2510](cards/sk-2510-workshops-for-every-childs-ability.md) | quote | collective-education / learning-difficulties | xuan-ji-zh-vol2 | 课外小组与工作室：让每个学生都有机会发挥自己的能力 |
+| [sk-2511](cards/sk-2511-conviction-grows-from-love-of-work.md) | quote | thinking-and-nature / labor-education | xuan-ji-zh-vol2 | 信念的形成首先要把爱劳动的教育与精神生活的意向协调一致 |
+| [sk-2512](cards/sk-2512-cherish-happiness-bought-by-sacrifice.md) | quote | love-education / family-school | xuan-ji-zh-vol2 | 让新一代知道今天的幸福是别人流血牺牲得来的，才会珍惜它 |

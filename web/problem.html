@@ -262,8 +262,13 @@ document.addEventListener("DOMContentLoaded", async ()=>{
   apply();
   document.getElementById("q").addEventListener("input", apply);
   document.getElementById("clearBtn").addEventListener("click", ()=>{ document.getElementById("q").value=""; apply(); });
-  try { CARDS = await KB.loadIndex(); } catch(e) { /* 索引失败时仅展示问题清单 */ }
+  /* 2026-10-17 性能：首屏只取第一片(150 张/39KB gzip)，其余分片后台追加；
+     每追加一片重跑 apply()——只对一部分行筛选会给出骗人的结果。 */
+  try { CARDS = await KB.loadIndexFast(); } catch(e) { /* 索引失败时仅展示问题清单 */ }
   apply();
+  try { KB.loadIndexProgressive(function(all){
+    if (all.length > CARDS.length) { CARDS = all; apply(); }
+  }); } catch(e){ console.warn("渐进加载失败", e); }
 });
 </script>
 <script src="scene.js?v=20260920v39"></script>

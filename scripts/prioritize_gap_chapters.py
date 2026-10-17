@@ -198,3 +198,53 @@ print()
 print("=== 剔除示例（前 12）")
 for gap, dens, book, sec, tot, h, why in bad[:12]:
     print("   缺口 %4d｜%-28s｜%s" % (gap, sec[:28], why))
+
+# ---- 2026-10-17：自动收口条件 ----
+# 目的：让规格段**自己到点停**，不必靠人盯。任一条件满足即在输出末尾打印「不建议再产卡」。
+#   ① 12 主题全部 >= 150（主题入口基本不空）
+#   ② 连续 5 批产出 <= 1 张（长尾枯竭）
+_tcnt = {}
+_cdir = os.path.join(ROOT, "cards")
+if os.path.isdir(_cdir):
+    for _fn in os.listdir(_cdir):
+        if not (_fn.startswith("sk-") and _fn.endswith(".md")): continue
+        try:
+            _tt = io.open(os.path.join(_cdir, _fn), encoding="utf-8", errors="replace").read()
+        except Exception:
+            continue
+        _mm = re.search(r"^topics:\s*$([\s\S]{0,400}?)(?=^[a-z_]+:|\Z)", _tt, re.M)
+        for _x in (re.findall(r"^\s*-\s*(\S+)", _mm.group(1), re.M) if _mm else []):
+            _tcnt[_x] = _tcnt.get(_x, 0) + 1
+_thin2 = dict((k, v) for k, v in _tcnt.items() if v < 150)
+_stop = []
+if _tcnt and not _thin2:
+    _stop.append("12 主题全部 >=150")
+_ys = []
+for _sub in ("_landed",):
+    _dd = os.path.join(SPEC_DIR, _sub)
+    if os.path.isdir(_dd):
+        for _fn in os.listdir(_dd):
+            if _fn.endswith(".json"):
+                _pp = os.path.join(_dd, _fn)
+                _ys.append((os.path.getmtime(_pp), _pp))
+_ys.sort(reverse=True)
+_yc = []
+for _mt, _pp in _ys[:5]:
+    try:
+        _it = json.load(io.open(_pp, encoding="utf-8"))
+        _yc.append(len(_it) if isinstance(_it, list) else 0)
+    except Exception:
+        _yc.append(0)
+if len(_yc) >= 5 and all(c <= 1 for c in _yc):
+    _stop.append("最近 5 批产出均 <=1 张（长尾枯竭）")
+print("=== 收口检查（2026-10-17 加）")
+if _thin2:
+    print("   薄主题（<150）：%s" % " ｜ ".join("%s %d" % (k, v) for k, v in sorted(_thin2.items(), key=lambda x: x[1])))
+else:
+    print("   12 主题已全部 >=150")
+if _stop:
+    print()
+    print("   ★★ 已达收口条件：%s" % "；".join(_stop))
+    print("   → 本轮【不建议再产卡】。请转做收尾：人核引文 / 封库 / 使用侧。")
+else:
+    print("   未达收口条件 → 继续产出（优先补上面的薄主题）")

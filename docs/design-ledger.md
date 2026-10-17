@@ -63,3 +63,17 @@
 **不批量盲改是对的** —— 两张看起来一样的页面，loadIndex 的语义可以完全不同。
 
 **剩余风险（D4）**：search.html 仍全量取 search/all.json（1.5 MB gzip），是当前最大单页负担，应改按来源分片（search/<source>.json 已存在）。
+
+### 2026-10-17 · D4 处置完成：检索语料改为按需加载
+
+改之前：`search.html` 首屏 `Promise.all([loadIndex, loadSearch("all")])` —— 索引 587 KB + 语料 1.5 MB = **约 2.1 MB gzip** 才开始出结果。
+
+改之后：
+- 只取索引第一片（39 KB gzip）先出结果；其余索引分片后台追加；
+- **全文语料 1.5 MB 改为按需**（`ensureCorpus()`）：只有「靠索引命中 < 5 条」时才下载并重搜一次。
+
+为什么能这样：`KB.searchText(card, corpusEntry)` 的语料参数**允许为 null**（自动回退到标题 + 80 字摘要）——
+所以「先用索引给结果、不够再下语料」是安全的语义，不是打折。
+
+**剩余可选优化**：把 `search/all.json` 再按来源切（`search/<source>.json` 已存在），让深度检索也只取相关来源。
+

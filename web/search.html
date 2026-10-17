@@ -221,9 +221,10 @@ async function api(path, timeoutMs){
 /* ---------- 静态回退 ---------- */
 async function loadStatic(){
   if(SDATA) return SDATA;
-  /* 2026-10-17 性能：索引先取第一片；检索语料仍需全量（D4：应改按来源分片，见 design-ledger） */
-  const [index, corpus] = await Promise.all([KB.loadIndexFast(), KB.loadSearch("all")]);
-  SDATA = { index, corpusById: new Map(corpus.map(e => [e.id, e])) };
+  /* 2026-10-17 D4：只取索引第一片（约 39KB gzip）就能出结果；
+     全文语料 search/all.json（约 1.5MB gzip）改为按需——见下方 ensureCorpus()。 */
+  const index = await KB.loadIndexFast();
+  SDATA = { index, corpusById: null };
   /* 其余分片后台追加进 SDATA.index（静默：检索是按需触发的，用户下次搜就是全量的） */
   try { KB.loadIndexProgressive(function(all){
     if (all.length > SDATA.index.length) SDATA.index = all;
@@ -231,8 +232,16 @@ async function loadStatic(){
   return SDATA;
 }
 
+/* 全文语料按需加载（2026-10-17 D4）：索引回退命中过少时才下这 1.5MB */
+async function ensureCorpus(){
+  if(SDATA && SDATA.corpusById) return SDATA.corpusById;
+  const corpus = await KB.loadSearch("all");
+  SDATA.corpusById = new Map(corpus.map(e => [e.id, e]));
+  return SDATA.corpusById;
+}
+
 function snippetFor(c, terms){
-  const text = (SDATA.corpusById.get(c.id) || {}).text || "";
+  const text = ((SDATA.corpusById && SDATA.corpusById.get(c.id)) || {}).text || "";
   const lower = text.toLowerCase();
   let pos = -1;
   for(const t of terms){
@@ -250,7 +259,7 @@ function staticSearch(){
     if(state.type && c.type !== state.type) return false;
     if(state.topic && !(c.topics||[]).includes(state.topic)) return false;
     if(!terms.length) return true;
-    const text = KB.searchText(c, SDATA.corpusById.get(c.id));
+    const text = KB.searchText(c, SDATA.corpusById ? SDATA.corpusById.get(c.id) : null);
     return terms.every(t => text.includes(t));
   });
   const start = (state.page - 1) * state.size;
@@ -403,6 +412,10 @@ async function run(){
       MODE = "static";
       try{
         await loadStatic(); try { fillFacets(); } catch(e2) {} r = staticSearch();
+        /* D4：只靠索引命中过少时，再下全文语料重搜一次（1.5MB 只在需要时下载） */
+        if((r.total || 0) < 5){
+          try{ await ensureCorpus(); r = staticSearch(); }catch(e4){ console.warn("语料加载失败，用索引结果", e4); }
+        }
         $("apiState").textContent = `后端请求失败（${e.message}），已切换到本地静态检索 · 共 ${SDATA.index.length} 张卡`;
       }catch(e2){
         $("results").innerHTML = `<p class="empty" style="display:block">检索失败：${e2.message}</p>`;

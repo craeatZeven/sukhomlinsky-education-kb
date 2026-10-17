@@ -244,7 +244,10 @@ document.addEventListener("DOMContentLoaded", async ()=>{
 
   $("stats").innerHTML = `<div class="stat"><b>…</b><span>正在加载卡片索引</span></div>`;
   try{
-    CARDS = await KB.loadIndex();
+    /* 2026-10-17 性能：先取第一片(150 张/约 39KB gzip)让首屏立刻出，其余分片后台追加；
+       每次追加都重跑 applyFilter()，保证筛选与计数始终基于「当前已载入的全部行」——
+       否则只对一部分行筛选会给出骗人的结果（见 kb.js loadIndexPage 上方 2026-09-27 的警告）。 */
+    CARDS = await KB.loadIndexFast();
   }catch(e){
     $("stats").innerHTML = `<div class="stat"><b>0</b><span>数据加载失败：${KB.esc(e.message)}</span></div>`;
     $("empty").style.display = "block";
@@ -257,6 +260,10 @@ document.addEventListener("DOMContentLoaded", async ()=>{
   /* URL 里带了来源/标签筛选时，自动展开筛选面板，避免"结果为空却看不到原因" */
   if(activeSource !== "all" || activeTags.size) $("filters").open = true;
   await applyFilter(); syncUrl();
+  /* 后台把其余 17 片追加进来（首片已在上面渲染过），每追加一次重跑筛选 */
+  try{ KB.loadIndexProgressive(function(all, done){
+    if (all.length > CARDS.length) { CARDS = all; applyFilter(); }
+  }); }catch(e){ console.warn("渐进加载失败", e); }
 
   $("topicChips").addEventListener("click", e=>{
     const btn=e.target.closest(".chip"); if(!btn||!btn.dataset.topic) return;

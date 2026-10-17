@@ -230,6 +230,42 @@
       });
     },
 
+
+    /* 渐进加载全库索引（2026-10-17 加，A+B 性能修复）
+     * 问题：index.json 已随卡数涨到 2,590 张 / 587 KB gzip，而 5 个页面仍全量加载。
+     * 做法：先取第 1 片（150 张 / 39 KB gzip）让首屏立刻出来，再逐片追加。
+     * **语义要求**：每次追加都会回调 onChunk(allCards, done)，调用方**必须**用它重跑渲染/筛选。
+     * 否则"只对一部分行做筛选"会给出骗人的结果 —— 见 loadIndexPage 上方 2026-09-27 的警告。 */
+    loadIndexProgressive: function (onChunk, opts) {
+      opts = opts || {};
+      var all = [];
+      return getJSON("index-p/01.json").then(function (first) {
+        var pages = (first && first.pages) || 1;
+        all = ((first && first.cards) || []).slice();
+        try { onChunk(all.slice(), pages <= 1); } catch (e) { console.warn("onChunk 首片异常", e); }
+        var chain = Promise.resolve();
+        for (var n = 2; n <= pages; n++) {
+          chain = chain.then((function (nn) {
+            return function () {
+              return getJSON("index-p/" + (nn < 10 ? "0" + nn : String(nn)) + ".json")
+                .then(function (d) {
+                  var cs = (d && d.cards) || [];
+                  for (var i = 0; i < cs.length; i++) all.push(cs[i]);
+                  try { onChunk(all.slice(), nn === pages); } catch (e) { console.warn("onChunk 追加异常", e); }
+                })
+                .catch(function () { /* 单片失败不阻断其余分片 */ });
+            };
+          })(n));
+        }
+        return chain.then(function () { return all; });
+      });
+    },
+
+    /* 只要第一片（150 张）：给"首屏要快、其余可稍后"的页面用 */
+    loadIndexFast: function () {
+      return getJSON("index-p/01.json").then(function (d) { return (d && d.cards) || []; });
+    },
+
     loadIndexFor: function (slug) {
       return KB.ready().then(function () {
         return getJSON("index/" + encodeURIComponent(slug) + ".json")

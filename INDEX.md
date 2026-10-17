@@ -6,14 +6,14 @@
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 211 |
 | [family-school](topics/family-school.md) | 家校合作 | 399 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 388 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 390 |
 | [health-first](topics/health-first.md) | 健康第一 | 107 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 326 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 464 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 468 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 508 |
-| [love-education](topics/love-education.md) | 爱的教育 | 800 |
+| [love-education](topics/love-education.md) | 爱的教育 | 801 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 107 |
-| [child-study](topics/child-study.md) | 儿童研究 | 731 |
+| [child-study](topics/child-study.md) | 儿童研究 | 732 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 146 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 328 |
 
@@ -2616,3 +2616,9 @@
 | [sk-2581](cards/sk-2581-teach-skill-levels-and-self-evaluation.md) | quote | child-study | xuan-ji-zh-vol5 | 孩子要先相信技能分等级，才会去追最高那一级 |
 | [sk-2582](cards/sk-2582-desire-for-perfect-work-and-beauty.md) | quote | labor-education / aesthetic-nature-education | xuan-ji-zh-vol5 | 劳动教育要让孩子在意做得完美，并把劳动与美的创造连在一起 |
 | [sk-2583](cards/sk-2583-machine-is-complex-manual-tool.md) | quote | thinking-and-nature | xuan-ji-zh-vol5 | 不把机器看作放大的手工工具，学生就学不会整体地看技术 |
+| [sk-2584](cards/sk-2584-joy-of-labor-is-the-base-of-collective-life.md) | quote | labor-education | xuan-ji-zh-vol1 | 劳动的欢乐是学生集体劳动生活的基础 |
+| [sk-2585](cards/sk-2585-self-discovery-through-overcoming.md) | quote | child-study | xuan-ji-zh-vol1 | 不攀登顶峰，儿童就发现不了自己的力量 |
+| [sk-2586](cards/sk-2586-pioneer-and-komsomol-rest-on-labor-life.md) | quote | collective-education | xuan-ji-zh-vol1 | 少先队和共青团的思想基础，是孩子们的劳动生活 |
+| [sk-2587](cards/sk-2587-hard-simple-labor-builds-the-collective.md) | quote | labor-education / collective-education | xuan-ji-zh-vol1 | 正因为它既费力又简单，才为培养集体所必需 |
+| [sk-2588](cards/sk-2588-belief-grows-through-labor-not-talk.md) | quote | collective-education | xuan-ji-zh-vol1 | 信念不是在会上讲出来的，是在劳动和评定中立起来的 |
+| [sk-2589](cards/sk-2589-labor-joy-ties-personal-world-to-society.md) | quote | collective-education / love-education | xuan-ji-zh-vol1 | 不让成员参加劳动，思想教育就是不得力的 |

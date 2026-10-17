@@ -44454,5 +44454,109 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2584": {
+  "primary": "A11",
+  "seealso": [],
+  "facets": [],
+  "claim": "劳动的欢乐是学生集体劳动生活的基础：集体感受到劳动的欢乐才会产生对劳动的需要，而这种需要与需要人、需要与人交往的情感密切相关，产生于儿童发现创造活动并把个人力量汇入集体力量的乐趣之中。",
+  "evidence": "劳动的欢乐是学生集体劳动生活的基础。只有当集体感受到劳动的欢乐时，才会产生对劳动的需要。需要劳动这种情感同需要人和需要与人交往的情感是密切相关的。只有在当儿童发现创造和活动这两个妙境的同时，还发现把自己的力量同别人的力量结合起来是一种愉快和",
+  "title": "劳动欢乐是基础",
+  "old_topics": [
+   "labor-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A11"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2585": {
+  "primary": "A4",
+  "seealso": [],
+  "facets": [],
+  "claim": "儿童只有经历「力所不及」的攀登、完成看来做不到的事，才会产生自豪感并以别人的眼光观察自己；这种自我发现正是集体劳动生活的开始。",
+  "evidence": "不攀登顶峰，劳动的欢乐是不可能想像的，人对人的企望也是不可想像的，对自己取之不尽的精神力量也不会感到惊讶。儿童在做完看来是力所不及的事情以后，他首先会感到自豪，似乎在发现自己并以别人的眼光观察自己。其实，这也就是集体劳动生活的开始。",
+  "title": "在攀登中发现自我",
+  "old_topics": [
+   "child-study"
+  ],
+  "type": "quote",
+  "tags": [
+   "A4"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2586": {
+  "primary": "A9",
+  "seealso": [],
+  "facets": [],
+  "claim": "少先队和共青团的思想基础是儿童和青少年的劳动生活：争取入队要亲手为社会创造财富，这种活动既美化环境又创造公益价值，组织由此获得教育力量。",
+  "evidence": "多年的实践经验使我确信，儿童和青少年的共产主义组织—少先队和共青团的思想基础就是他们的劳动生活。我们的儿童在争取加入少先队的时候，总要用自己的双手辟建一个花园或培植一个防风林、橡树林或苗圃。这种活动既美化了环境，又为社会创造了财富。",
+  "title": "组织的思想基础",
+  "old_topics": [
+   "collective-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A9"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2587": {
+  "primary": "A11",
+  "seealso": [],
+  "facets": [],
+  "claim": "反驳「共产主义社会劳动只是管理机器」的观点：正因简单费力的体力劳动既费力又简单，它才是培养集体所必需的——在共同的笨重劳动中统一意志、集中体力与精力，是产生胜利喜悦感的前提。",
+  "evidence": "有人持有这样的观点，认为在共产主义社会里，劳动只是管理机器和器械而已，像上述那种劳动未必需要，因为它过于简单，而又颇费力气。可是，我们认为，正因为这种劳动既费力又简单，所以才为培养集体所必需。在繁重而又常常令人不愉快的劳动中，把集体的意志统",
+  "title": "简单劳动育集体",
+  "old_topics": [
+   "labor-education",
+   "collective-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A11"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2588": {
+  "primary": "A4",
+  "seealso": [],
+  "facets": [],
+  "claim": "集体的劳动生活同时是思想生活：思想要变成信念才成为集体和个人精神生活的一部分，而信念只有通过参加劳动、参加活动、并实际评定别人与自己才能树立起来。",
+  "evidence": "集体的劳动生活，同时又是思想生活。如果思想能变成信念，那么这种思想才能成为集体和个人精神生活的一个方面。但是如果不参加劳动，不参加活动，不评定别人，也不评定自己，那么信念是树立不起来的。",
+  "title": "信念在劳动中树立",
+  "old_topics": [
+   "collective-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A4"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2589": {
+  "primary": "A2",
+  "seealso": [],
+  "facets": [],
+  "claim": "少先队和共青团的思想教育若不让成员在童年和少年时代参加劳动、体验为人们造福的欢乐，就不得力；因为这种欢乐像一根线，把个人的志向、兴趣、理想同社会利益和社会需要连在一起。",
+  "evidence": "我认为少先队和共青团组织，如果不让它们的成员在童年和少年时代参加劳动和体验为人们造福的欢乐感，那么它们的思想教育工作是不得力的。因为为人民造福的欢乐感犹如一根线，把一个人的精神世界即他的志向、兴趣和理想同社会利益和社会需要联系在一起。",
+  "title": "思想教育靠造福欢乐",
+  "old_topics": [
+   "collective-education",
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A2"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

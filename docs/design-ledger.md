@@ -48,3 +48,18 @@
 - `index.json` gzip 再破 300 KB（已破）· `cards-all.js` gzip >1.2 MB（已破）· `search/all.json` gzip >800 KB（已破）
 - 卡数每翻一倍（1,300 → 2,600 → 5,200）⇒ 重跑一次本文件的实测基线表
 - 任一页面首屏可交互 >1 秒（用 headless Chrome 抓 `Network.loadingFinished` + `Performance`，方法见 `web-performance-sharding.md` §3.1）
+
+### 2026-10-17 · B 收敛：改 2 页、判 2 页不改（附理由）
+
+| 页面 | loadIndex 用在哪 | 处置 | 理由 |
+|---|---|---|---|
+| explore.html | 首屏筛选列表 | 改（首片 + 每片重跑 applyFilter）| 筛选基于增长中的数组，语义正确 |
+| problem.html | 首屏问题清单 | 改（首片 + 每片重跑 apply）| 同上 |
+| search.html | 首屏检索索引 | 改（首片；其余静默追加进 SDATA.index）| 检索按需触发，下次搜即全量，无需重跑 |
+| clusters.html | ensureIndex 算关系矩阵 | **不改** | 片段索引会算错关系矩阵；且已是懒加载 |
+| sources.html | exportAll 导出全部卡片 | **不改** | 导出必须完整数据，渐进会导出残缺（且是用户点按钮才触发）|
+
+结论：7 个加载 index.json 的页面里，真正该渐进的是 3 个；其余需要完整数据或已懒加载。
+**不批量盲改是对的** —— 两张看起来一样的页面，loadIndex 的语义可以完全不同。
+
+**剩余风险（D4）**：search.html 仍全量取 search/all.json（1.5 MB gzip），是当前最大单页负担，应改按来源分片（search/<source>.json 已存在）。

@@ -5,13 +5,13 @@
 ## 主题 Topics
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 211 |
-| [family-school](topics/family-school.md) | 家校合作 | 399 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 390 |
+| [family-school](topics/family-school.md) | 家校合作 | 401 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 391 |
 | [health-first](topics/health-first.md) | 健康第一 | 107 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 326 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 468 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 469 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 508 |
-| [love-education](topics/love-education.md) | 爱的教育 | 801 |
+| [love-education](topics/love-education.md) | 爱的教育 | 803 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 107 |
 | [child-study](topics/child-study.md) | 儿童研究 | 732 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 146 |
@@ -2622,3 +2622,9 @@
 | [sk-2587](cards/sk-2587-hard-simple-labor-builds-the-collective.md) | quote | labor-education / collective-education | xuan-ji-zh-vol1 | 正因为它既费力又简单，才为培养集体所必需 |
 | [sk-2588](cards/sk-2588-belief-grows-through-labor-not-talk.md) | quote | collective-education | xuan-ji-zh-vol1 | 信念不是在会上讲出来的，是在劳动和评定中立起来的 |
 | [sk-2589](cards/sk-2589-labor-joy-ties-personal-world-to-society.md) | quote | collective-education / love-education | xuan-ji-zh-vol1 | 不让成员参加劳动，思想教育就是不得力的 |
+| [sk-2590](cards/sk-2590-responsibility-begins-with-first-love.md) | quote | family-school | xuan-ji-zh-vol1 | 对另一个人的责任，从爱慕之初就该有 |
+| [sk-2591](cards/sk-2591-thought-commands-feeling.md) | quote | love-education | xuan-ji-zh-vol1 | 道德修养，就是让思想命令情感 |
+| [sk-2592](cards/sk-2592-raising-children-is-civic-duty.md) | quote | family-school | xuan-ji-zh-vol1 | 教育孩子是对祖国的义务，母亲是国家的公仆 |
+| [sk-2593](cards/sk-2593-getting-along-is-child-of-wisdom-and-sincerity.md) | quote | collective-education | xuan-ji-zh-vol1 | 合得来，是明智和诚恳的产儿 |
+| [sk-2594](cards/sk-2594-betraying-loves-duty-is-the-greatest-evil.md) | quote | love-education | xuan-ji-zh-vol1 | 背弃爱的职责，决不会成为可信赖的人 |
+| [sk-2595](cards/sk-2595-true-love-is-first-of-all-labor.md) | quote | labor-education | xuan-ji-zh-vol1 | 真正的爱情首先是劳动 |

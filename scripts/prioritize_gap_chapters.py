@@ -104,6 +104,55 @@ def _recent_books(n=4):
             if isinstance(it, list) and it: out.append(str(it[0].get("book")))
         except Exception: pass
     return out
+# ---- 2026-10-17：主题均衡排序（薄主题优先）----
+# 起因：原排序是「缺口 × 论断密度」，结果全落在已经很厚的主题上；
+# 实测 love-education 803 张 ↔ health-first 107 张，差距 7.5 倍。
+# 做法：按「该章已有卡的主题」给章加权，主题越薄权重越高（开方，避免过度倾斜）。
+def _topic_balance():
+    import collections as _c
+    tp_counts = _c.Counter()
+    chap_tp = _c.defaultdict(_c.Counter)
+    topics_of = {}
+    cards_dir = os.path.join(ROOT, "cards")
+    if os.path.isdir(cards_dir):
+        for fn in os.listdir(cards_dir):
+            if not (fn.startswith("sk-") and fn.endswith(".md")): continue
+            m0 = re.match(r"(sk-\d+)", fn)
+            if not m0: continue
+            try:
+                t = io.open(os.path.join(cards_dir, fn), encoding="utf-8", errors="replace").read()
+            except Exception: continue
+            m = re.search(r"^topics:\s*$([\s\S]{0,400}?)(?=^[a-z_]+:|\Z)", t, re.M)
+            tps = re.findall(r"^\s*-\s*(\S+)", m.group(1), re.M) if m else []
+            topics_of[m0.group(1)] = tps
+            for x in tps: tp_counts[x] += 1
+    locp = os.path.join(ROOT, "local_working_copy", "fulltext", "card-locators.jsonl")
+    if os.path.exists(locp):
+        for l in io.open(locp, encoding="utf-8"):
+            if not l.strip(): continue
+            try: rr = json.loads(l)
+            except Exception: continue
+            for x in topics_of.get(str(rr.get("card")), []):
+                chap_tp[(str(rr.get("book")), str(rr.get("section")))][x] += 1
+    if not tp_counts: return {}, chap_tp
+    mx = max(tp_counts.values())
+    return {t: (mx / max(c, 1)) ** 0.5 for t, c in tp_counts.items()}, chap_tp
+
+
+_tw, _ctp = _topic_balance()
+if _tw:
+    def _bw(row):
+        base = float(row[0]) * float(row[1])
+        ct = _ctp.get((row[2], row[3]))
+        if not ct: return base
+        best = max(ct.items(), key=lambda x: x[1])[0]
+        return base * _tw.get(best, 1.0)
+    good.sort(key=lambda r: -_bw(r))
+    _thin = sorted(_tw, key=lambda k: _tw[k])[:3]
+    print("=== 主题均衡排序已启用（薄主题加权 %s…）" % " / ".join(_thin))
+    print()
+
+
 _rb = _recent_books()
 _b, _streak = None, 0
 for _x in _rb:

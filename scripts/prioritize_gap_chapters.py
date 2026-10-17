@@ -173,6 +173,24 @@ else:
 print()
 print("可补章（值得成卡）：%d｜不值得：%d｜合计 %d" % (len(good), len(bad), len(rows)))
 print()
+
+# ---- 2026-10-17：输出「薄主题 -> 建议章」----
+# 实测：已产卡过滤后剩余可补章只有 2 个（且不可用），Top 列表基本为空，
+# 规格段于是自己乱选章（结果反复落在很厚的主题上）。所以必须把建议直接打出来。
+if _tw and _ctp:
+    print("=== ★ 本轮建议：按主题均衡补短板（薄主题 → 该主题料最集中的章）")
+    _thin_topics = sorted(_tw, key=lambda k: -_tw[k])[:3]
+    for _t in _thin_topics:
+        _cands = [(k[0], k[1]) for k in _ctp if _t in _ctp[k]]
+        _cands.sort(key=lambda ks: -_ctp[ks][_t])
+        _hit = []
+        for (_b2, _s2) in _cands:
+            _hit.append("%s《%s》(此主题已有 %d 卡)" % (_b2[:16], _s2[:26], _ctp[(_b2, _s2)][_t]))
+            if len(_hit) >= 2: break
+        print("  主题 %-26s → %s" % (_t, " ｜ ".join(_hit) if _hit else "(该主题暂无已定位的章)"))
+    print("  提示：从上面这些章里选「还没取尽的段落」，每主题至多 6 张。")
+    print()
+
 print("=== 优先级 Top 24（缺口 × 论断密度）")
 for gap, dens, book, sec, tot, h, _ in good[:24]:
     print("   缺口 %4d｜密度 %3.0f%%｜%-20s 《%s》" % (gap, dens*100, book[:20], sec[:34]))

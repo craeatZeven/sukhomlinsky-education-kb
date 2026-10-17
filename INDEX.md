@@ -4,18 +4,18 @@
 
 ## 主题 Topics
 
-| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 210 |
+| [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 211 |
 | [family-school](topics/family-school.md) | 家校合作 | 399 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 383 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 384 |
 | [health-first](topics/health-first.md) | 健康第一 | 107 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 324 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 325 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 463 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 506 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 507 |
 | [love-education](topics/love-education.md) | 爱的教育 | 799 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 107 |
-| [child-study](topics/child-study.md) | 儿童研究 | 728 |
+| [child-study](topics/child-study.md) | 儿童研究 | 729 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 146 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 324 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 325 |
 
 ## 来源 Sources
 
@@ -2598,3 +2598,9 @@
 | [sk-2563](cards/sk-2563-shouting-root-is-teacher-culture.md) | quote | teacher-growth | xuan-ji-zh-vol4 | 要根治大声训斥，行政措施没有用，得从教师的情感与思想修养入手 |
 | [sk-2564](cards/sk-2564-family-life-course-wish-civilization.md) | quote | family-school | xuan-ji-zh-vol4 | 开设《家庭关系修养》课，第一课该讲「人的愿望的文明」 |
 | [sk-2565](cards/sk-2565-small-collective-family-atmosphere.md) | quote | collective-education | xuan-ji-zh-vol4 | 集体的规模越小、精神交流越多，神经过敏的情况就越少 |
+| [sk-2566](cards/sk-2566-find-the-activity-that-reveals-him.md) | quote | learning-difficulties | xuan-ji-zh-vol2 | 一件事上不成，不等于他没有出路：教师的任务是替他找到那件事 |
+| [sk-2567](cards/sk-2567-teen-dissatisfaction-is-a-drive.md) | quote | child-study | xuan-ji-zh-vol2 | 少年看不上自己的成果不是懈怠，是把他推向更高标准的动力 |
+| [sk-2568](cards/sk-2568-hard-part-is-civilized-worker.md) | quote | labor-education | xuan-ji-zh-vol2 | 教一个人开拖拉机不难，难的是让他成为高度文明的人 |
+| [sk-2569](cards/sk-2569-culture-of-labor-demands-spiritual-life.md) | quote | aesthetic-nature-education | xuan-ji-zh-vol2 | 劳动越文明，人越要精神上的提高：兴趣与创造不能被生产任务挤掉 |
+| [sk-2570](cards/sk-2570-educator-own-conviction-first.md) | quote | teacher-growth | xuan-ji-zh-vol2 | 培养有信念的人，前提是培养他的人自己先有信念 |
+| [sk-2571](cards/sk-2571-knowledge-makes-ordinary-labor-extraordinary.md) | quote | thinking-and-nature | xuan-ji-zh-vol2 | 平凡劳动之所以不再平凡，是因为劳动者用知识充实了它 |

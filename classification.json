@@ -44147,5 +44147,107 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2566": {
+  "primary": "A6",
+  "seealso": [],
+  "facets": [],
+  "claim": "教师应细心观察每个学生的精神发展，为其找到能充分揭示其个性的活动，个别对待。",
+  "evidence": "我们细心地观察每个学生的精神发展，并力争使他们做好在特定阶段能够做成的事情。这里的可能性是无穷无尽的。例如，如果学生在一件事情上不得于，则他可能转向另一件事情。最终他能找到一种能充分揭示他的个性的活动。",
+  "title": "替学生找到能揭示他个性的活动",
+  "old_topics": [
+   "learning-difficulties"
+  ],
+  "type": "quote",
+  "tags": [
+   "A6"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2567": {
+  "primary": "A21",
+  "seealso": [],
+  "facets": [],
+  "claim": "少年期对自身劳动成果的批判态度与不满足感是发展动力，教育者应使其在年龄允许的紧张程度内取得成果。",
+  "evidence": "在孩子们的少年期，特别是青年期，常出现一种对其劳动成果持批判性的态度，一种不满足于这种成果的精神状况。如果个人有为达到某种目标而奋斗的道德经历、则这种不满足感就不会使他离开要做的事情，相反，会迫使他集中全部精神力量去做得更好。在其肌体和精神",
+  "title": "少年期对成果的批判态度是发展动力",
+  "old_topics": [
+   "child-study"
+  ],
+  "type": "quote",
+  "tags": [
+   "A21"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2568": {
+  "primary": "A11",
+  "seealso": [],
+  "facets": [],
+  "claim": "劳动教育的难点不是技能训练，而是使体力劳动充满脑力劳动的特征；不能把脑体结合误解为都去创造物质价值。",
+  "evidence": "培养能满意地完成自己任务的拖拉机手或饲养员并不难。任务的全部难点在于：使这些拖拉机手和饲养员成为高度文明的人，使他们的体力劳动充满脑力劳动的良好特征。创造性的脑力劳动比起体力劳动来，困难，复杂得多、在精神充实度上也丰富得多。",
+  "title": "劳动教育的难点在文明程度而非技能",
+  "old_topics": [
+   "labor-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A11"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2569": {
+  "primary": "A14",
+  "seealso": [],
+  "facets": [],
+  "claim": "体力劳动越文明，劳动者越追求精神提高与多方面兴趣，并需要在自己创造精神价值的过程中获得快乐。",
+  "evidence": "体力劳动越是充满技术因素，生产劳动的文明程度越高，从事劳动的人们就越是竭力追求精神上的提高：他们深信，一个人除需要在创造物质价值，提高劳动生产率的领域中的那种创造性之外，还同样需要以满足精神需求为目的的创造性。更为重要的是，要使劳动的人全神",
+  "title": "体力劳动越文明越要求精神生活",
+  "old_topics": [
+   "aesthetic-nature-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A14"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2570": {
+  "primary": "A10",
+  "seealso": [],
+  "facets": [],
+  "claim": "培养有信念的人的前提，是教育者自身的信念与实际工作同样真诚；教育者须懂得人的培养从一开始就应与社会公益相联系。",
+  "evidence": "要培养得力的，英勇的共产主义建设者，最重要的前提就在于，要使培养他们的人自身的信念和实际工作也是真正革命的、共产主义的、瞄准未来的。要使教育者懂得最主要的一点就是：人的培养，从其自觉生活的起步开始就应当与实现社会公益的思想紧密联系起来。",
+  "title": "教育者自身的信念是培养前提",
+  "old_topics": [
+   "teacher-growth"
+  ],
+  "type": "quote",
+  "tags": [
+   "A10"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2571": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "脑力劳动与体力劳动之间矛盾的逐渐消除，靠平凡劳动者用知识充实自己的劳动、把创造因素纳入其中。",
+  "evidence": "毕业于我校的青年工人和集体农庄庄员的谈话证实了如下一点：脑力劳动与体力劳动之间的矛盾之所以逐渐消除，正是由于从事所谓平凡劳动的人竭力使自己的劳动变得不平凡，用知识充实它，把创造因素纳入其中。",
+  "title": "用知识充实平凡劳动",
+  "old_topics": [
+   "thinking-and-nature"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

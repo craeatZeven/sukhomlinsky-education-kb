@@ -44351,5 +44351,108 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2578": {
+  "primary": "A11",
+  "seealso": [],
+  "facets": [],
+  "claim": "对旧劳动教育的批评本身要经得起分析：从过去的缺点中也可能总结出错误指导学校工作的结论，因此借鉴历史经验的第一步是判定批评的公正与合理程度。",
+  "evidence": "现在，我们在深入研究劳动教育体系的时候，批判性地认识和借鉴苏联学校以往的经验是非常重要的。30年代的时候，我们的学校里有一些教学工厂开设劳动课。对当时的劳动教育，很多人都看到了它的一个主要弱点，就是学生们只获得了一些手工性劳动的技能技巧，却",
+  "title": "批评旧经验要辨正误",
+  "old_topics": [
+   "labor-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A11"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2579": {
+  "primary": "A11",
+  "seealso": [],
+  "facets": [],
+  "claim": "机器技术特别是自动化的发展，使手工性劳动没有消失而是提高到更复杂的新阶段；掌握多种手工技能的人更容易转换劳动形式，这类技能在技术密集型生产中需求增长。",
+  "evidence": "随着机器技术，特别是它的最高形式——自动化的发展，手工性劳动并没有消失，而是提高到了一个新的、更复杂的阶段。值得特别注意的一点是，那些掌握了多种手工性劳动技能的人，更易于从一种劳动形式转向另一种劳动形式。比如，装修钳工、电钳工、机器整修工、",
+  "title": "手工劳动随技术升级",
+  "old_topics": [
+   "labor-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A11"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2580": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "分析能力必须建立在紧密联系实际的基础上；是否具有技术方面的思考能力，取决于人在劳动中是否把体力与脑力紧密地结合在一起。",
+  "evidence": "如果一个学生的分析能力不是在紧密联系实际的基础上发展起来的，他就会不顾实际需要，模仿地去进行某种实践活动，而这里需要的恰恰是认真思考和认真设想。尤其在进行机器的修理和复原的过程中，解决那些设计性的问题时，进行智力方面的实验具有更为重大的意义",
+  "title": "分析能力要扎根实际",
+  "old_topics": [
+   "thinking-and-nature"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2581": {
+  "primary": "A4",
+  "seealso": [],
+  "facets": [],
+  "claim": "培养孩子批判地评价自己劳动的能力，前提是让他确信劳动技能有不同等级和层次、最高层次值得追求，并把动脑能力与动手能力结合起来。",
+  "evidence": "通过自己和周围人的经验，孩子们从小就应该确信，每项工作的劳动技能都有不同的等级和层次。掌握最高层次的技能应该对他们具有诱惑力。这样的目的是可以达到的，而要达到这种目的，就应该把动脑能力和动手能力结合起来，而且要批判地评价自己所做的一切。",
+  "title": "让技能等级成为追求",
+  "old_topics": [
+   "child-study"
+  ],
+  "type": "quote",
+  "tags": [
+   "A4"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2582": {
+  "primary": "A11",
+  "seealso": [],
+  "facets": [],
+  "claim": "劳动教育要在少年早期就培养对工作质量的在意；衡量其价值的标尺是提出与年龄和力量相适应的劳动技能要求，并让劳动与美的创造来源相结合。",
+  "evidence": "学生们在什么时候产生追求完美劳动的欲望，这在教育过程中也具有很重要的意义。孩子们在少年早期就对自己的工作完成得好坏毫不在意是不能容许的。工业生产要求生产力水平不断提高，与此相适应，衡量生产劳动的教育价值的一个重要标准，就是让各个年龄段的学生",
+  "title": "追求完美劳动",
+  "old_topics": [
+   "labor-education",
+   "aesthetic-nature-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A11"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2583": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "智力的发展取决于学生对手工性劳动与机器工作之间关系的理解程度：只有把机器看作复杂化、自动化了的手工劳动工具，才能整体地对待它，这是综合技术眼界的重要先决条件。",
+  "evidence": "智力的发展在很大程度上还取决于学生对手工性劳动与机器的工作之间的关系理解到何种程度。只有当一个人把机器看成是一种完全复杂化、自动化了的手工性劳动的工具，他才能把它当做一个整体来对待。这是能在综合技术方面见多识广的重要先决条件。学生们应该学会",
+  "title": "机器是手工工具的高级形态",
+  "old_topics": [
+   "thinking-and-nature"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

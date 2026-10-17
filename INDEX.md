@@ -6,16 +6,16 @@
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 211 |
 | [family-school](topics/family-school.md) | 家校合作 | 399 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 385 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 388 |
 | [health-first](topics/health-first.md) | 健康第一 | 107 |
-| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 325 |
+| [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 326 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 464 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 508 |
 | [love-education](topics/love-education.md) | 爱的教育 | 800 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 107 |
-| [child-study](topics/child-study.md) | 儿童研究 | 730 |
+| [child-study](topics/child-study.md) | 儿童研究 | 731 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 146 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 326 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 328 |
 
 ## 来源 Sources
 
@@ -2610,3 +2610,9 @@
 | [sk-2575](cards/sk-2575-help-each-student-know-what-fits-him.md) | quote | child-study | xuan-ji-zh-vol1 | 让学生知道自己适合干什么，是教师必须当作使命的事 |
 | [sk-2576](cards/sk-2576-prevent-not-extinguish-immoral-wishes.md) | quote | love-education | xuan-ji-zh-vol1 | 对不合道德的愿望，不要在起火后才扑救，而要培养驾驭愿望的能力 |
 | [sk-2577](cards/sk-2577-self-education-begins-with-love-of-labor.md) | quote | labor-education | xuan-ji-zh-vol1 | 自我教育从热爱劳动开始：让学生把劳动看作自我完善的途径 |
+| [sk-2578](cards/sk-2578-criticize-old-labor-education-with-evidence.md) | quote | labor-education | xuan-ji-zh-vol5 | 从旧劳动教育的缺点里，也可能总结出错误的结论 |
+| [sk-2579](cards/sk-2579-manual-labor-upgraded-not-eliminated.md) | quote | labor-education | xuan-ji-zh-vol5 | 自动化没有让手工劳动消失，只把双手提到更复杂的阶段 |
+| [sk-2580](cards/sk-2580-analysis-must-grow-from-practice.md) | quote | thinking-and-nature | xuan-ji-zh-vol5 | 分析能力离开实际就只剩模仿：技术思考来自体力与脑力的结合 |
+| [sk-2581](cards/sk-2581-teach-skill-levels-and-self-evaluation.md) | quote | child-study | xuan-ji-zh-vol5 | 孩子要先相信技能分等级，才会去追最高那一级 |
+| [sk-2582](cards/sk-2582-desire-for-perfect-work-and-beauty.md) | quote | labor-education / aesthetic-nature-education | xuan-ji-zh-vol5 | 劳动教育要让孩子在意做得完美，并把劳动与美的创造连在一起 |
+| [sk-2583](cards/sk-2583-machine-is-complex-manual-tool.md) | quote | thinking-and-nature | xuan-ji-zh-vol5 | 不把机器看作放大的手工工具，学生就学不会整体地看技术 |

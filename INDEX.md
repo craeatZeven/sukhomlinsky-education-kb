@@ -6,16 +6,16 @@
 
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 211 |
 | [family-school](topics/family-school.md) | 家校合作 | 399 |
-| [labor-education](topics/labor-education.md) | 劳动教育 | 384 |
+| [labor-education](topics/labor-education.md) | 劳动教育 | 385 |
 | [health-first](topics/health-first.md) | 健康第一 | 107 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 325 |
-| [collective-education](topics/collective-education.md) | 集体教育 | 463 |
-| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 507 |
-| [love-education](topics/love-education.md) | 爱的教育 | 799 |
+| [collective-education](topics/collective-education.md) | 集体教育 | 464 |
+| [teacher-growth](topics/teacher-growth.md) | 教师成长 | 508 |
+| [love-education](topics/love-education.md) | 爱的教育 | 800 |
 | [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 107 |
-| [child-study](topics/child-study.md) | 儿童研究 | 729 |
+| [child-study](topics/child-study.md) | 儿童研究 | 730 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 146 |
-| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 325 |
+| [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 326 |
 
 ## 来源 Sources
 
@@ -2604,3 +2604,9 @@
 | [sk-2569](cards/sk-2569-culture-of-labor-demands-spiritual-life.md) | quote | aesthetic-nature-education | xuan-ji-zh-vol2 | 劳动越文明，人越要精神上的提高：兴趣与创造不能被生产任务挤掉 |
 | [sk-2570](cards/sk-2570-educator-own-conviction-first.md) | quote | teacher-growth | xuan-ji-zh-vol2 | 培养有信念的人，前提是培养他的人自己先有信念 |
 | [sk-2571](cards/sk-2571-knowledge-makes-ordinary-labor-extraordinary.md) | quote | thinking-and-nature | xuan-ji-zh-vol2 | 平凡劳动之所以不再平凡，是因为劳动者用知识充实了它 |
+| [sk-2572](cards/sk-2572-cultivate-collective-attitude-to-teacher.md) | quote | collective-education | xuan-ji-zh-vol1 | 教师要培养的不只是学生的好感，而是整个集体对他的态度 |
+| [sk-2573](cards/sk-2573-teacher-must-embody-the-truth.md) | quote | teacher-growth | xuan-ji-zh-vol1 | 想成为影响集体的力量，教师先要成为他讲授的真理的体现者 |
+| [sk-2574](cards/sk-2574-knowledge-not-finished-goods.md) | quote | thinking-and-nature | xuan-ji-zh-vol1 | 知识不是塞进头脑的成品：真正的教育者带着自己的思想接触学生 |
+| [sk-2575](cards/sk-2575-help-each-student-know-what-fits-him.md) | quote | child-study | xuan-ji-zh-vol1 | 让学生知道自己适合干什么，是教师必须当作使命的事 |
+| [sk-2576](cards/sk-2576-prevent-not-extinguish-immoral-wishes.md) | quote | love-education | xuan-ji-zh-vol1 | 对不合道德的愿望，不要在起火后才扑救，而要培养驾驭愿望的能力 |
+| [sk-2577](cards/sk-2577-self-education-begins-with-love-of-labor.md) | quote | labor-education | xuan-ji-zh-vol1 | 自我教育从热爱劳动开始：让学生把劳动看作自我完善的途径 |

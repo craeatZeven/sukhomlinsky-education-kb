@@ -44249,5 +44249,107 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2572": {
+  "primary": "A9",
+  "seealso": [],
+  "facets": [],
+  "claim": "教师对集体的教育影响以集体对教育者抱有所需态度为前提；教育者不仅要考虑学生对自己的态度，还应培养整个集体对自己的态度。",
+  "evidence": "我们经常碰到这样的概念：什么是个人影响大家，即影响精神上的统一体（也就是由个人组成的富有创造性的、劳动和智力方面的友好团体）？如果受教育者对教育者的态度不十分主动，那么这种影响是不可能产生的。我作为教育者不仅需要考虑受教育者对我抱什么态度（",
+  "title": "培养集体对教师的态度",
+  "old_topics": [
+   "collective-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A9"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2573": {
+  "primary": "A10",
+  "seealso": [],
+  "facets": [],
+  "claim": "教师要成为影响集体的力量，就应成为他讲授的真理的体现者；学生从幼年起模仿教师，教师的每句话、每个思想都会成为学生的思想和信念。",
+  "evidence": "如果你想成为影响集体的巨大力量，按照塔·舍甫琴科的说法，你就应向你的学生传播真理和科学。这实际上就意味着，你应当成为人民的良心和凝结在你的日常生活和言语之中的共产主义理想的体现者。请记住，自从在幼小心灵中刚产生要模仿你并成为像你那样的人的最",
+  "title": "教师要做真理的体现者",
+  "old_topics": [
+   "teacher-growth"
+  ],
+  "type": "quote",
+  "tags": [
+   "A10"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2574": {
+  "primary": "A15",
+  "seealso": [],
+  "facets": [],
+  "claim": "用知识教育学生不是把成品知识塞进学生头脑，而是使学生形成自觉的学习态度、对知识的原则立场和自己的见解，使知识成为信念；真正的教育者带着自己的思想接触学生。",
+  "evidence": "用知识教育学生，并不意味着把知识变成为成品，然后将它们塞进学生的头脑。学校的教育使命在于使青少年在心灵里树立起自觉的学习态度，确定对知识的坚定原则立场和自己的见解。我们教给学生的知识应当成为他们的信念。真正的教育者是带着自己的思想接触学生的",
+  "title": "知识要成为学生的信念",
+  "old_topics": [
+   "thinking-and-nature"
+  ],
+  "type": "quote",
+  "tags": [
+   "A15"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2575": {
+  "primary": "A6",
+  "seealso": [],
+  "facets": [],
+  "claim": "使学生确立选择专业的志向是思想教育的重要方面；教师应把让每个学生充分显示才能、知道自己适合干什么当作使命，先熟悉每个学生的特长、条件和能力。",
+  "evidence": "使学生产生爱好某种职业的思想，亦即确立选择专业的思想，是思想教育的一个重要方面。教师应当把下述任务当着自己的使命，即使每个学生最终能够充分显示自己的才能，使他们早在中小学时代就知道自己适合干什么，并下定决心选择某个职业。为此，教师首先要熟悉",
+  "title": "帮学生认识自己的特长",
+  "old_topics": [
+   "child-study"
+  ],
+  "type": "quote",
+  "tags": [
+   "A6"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2576": {
+  "primary": "A19",
+  "seealso": [],
+  "facets": [],
+  "claim": "教师不应在学生出现不合道德的愿望后才根除它，而应培养驾驭愿望的能力，使学生以对父母、社会的道德义务作为愿望的出发点。",
+  "evidence": "常常有这样的情形：当教师为学生不合道德的愿望感到不安时，便着手根除这种愿望，并为此寻找某种专门的办法。这是在扑灭火灾，而不是在预防火灾。旨在使学生善于考虑自己的所有教导和训诫中，驾驭自己愿望的教导占着特殊的地位。对愿意接受这种教导的学生，我",
+  "title": "驾驭愿望要预防不要扑救",
+  "old_topics": [
+   "love-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A19"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2577": {
+  "primary": "A11",
+  "seealso": [],
+  "facets": [],
+  "claim": "自我教育要以热爱劳动为起点：教育者应使年轻人把劳动看作自我完善的途径；当学生把掌握知识、读书和求知欲看成自己行为的道德问题时，自我教育就开始了。",
+  "evidence": "教育和自我教育的一致性，要求十分重视每个学生的劳动制度、重视他们的兴趣和爱好。要教导少年和青年男女进行自我教育，首先就得启发，启发他们热中于劳动。有经验的班主任不仅关心自我教育，而且还竭力使年轻人把劳动看做是实现道德上自我完善的途径。学习上",
+  "title": "自我教育从热爱劳动开始",
+  "old_topics": [
+   "labor-education"
+  ],
+  "type": "quote",
+  "tags": [
+   "A11"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

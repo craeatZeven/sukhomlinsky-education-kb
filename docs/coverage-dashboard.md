@@ -5,7 +5,7 @@
 
 ## 总览
 
-- 卡片总数：**2590**
+- 卡片总数：**2599**
 - 来源数：**12**
 - 主题数：**12**
 - 《做人的故事》：**541 张卡 / 540 个目录标题**
@@ -15,12 +15,12 @@
 | 来源 | 卡片数 | 含印刷页码 ref |
 |---|---:|---:|
 | 做人的故事（`zuo-ren-de-gu-shi-zh`） | 541 | 541/541 |
-| 苏霍姆林斯基选集（五卷本）第2卷（`xuan-ji-zh-vol2`） | 409 | 45/409 |
+| 苏霍姆林斯基选集（五卷本）第2卷（`xuan-ji-zh-vol2`） | 412 | 45/412 |
 | 苏霍姆林斯基选集（五卷本）第5卷（`xuan-ji-zh-vol5`） | 364 | 109/364 |
 | 苏霍姆林斯基选集（五卷本）第1卷（`xuan-ji-zh-vol1`） | 356 | 36/356 |
-| 苏霍姆林斯基选集（五卷本）第4卷（`xuan-ji-zh-vol4`） | 322 | 41/322 |
+| 苏霍姆林斯基选集（五卷本）第4卷（`xuan-ji-zh-vol4`） | 326 | 41/326 |
 | 苏霍姆林斯基选集（五卷本）第3卷（`xuan-ji-zh-vol3`） | 300 | 51/300 |
-| 给教师的建议（`gei-jiao-shi-de-jian-yi-zh`） | 160 | 23/160 |
+| 给教师的建议（`gei-jiao-shi-de-jian-yi-zh`） | 162 | 23/162 |
 | 把心献给孩子（`ba-xin-xian-gei-hai-zi-zh`） | 47 | 0/47 |
 | On Education（`on-education`） | 41 | 0/41 |
 | To Children I Give My Heart（`to-children-i-give-my-heart`） | 22 | 0/22 |
@@ -31,7 +31,7 @@
 
 | 类型 | 数量 |
 |---|---:|
-| `quote` | 1463 |
+| `quote` | 1472 |
 | `case` | 673 |
 | `principle` | 194 |
 | `method` | 164 |
@@ -50,9 +50,9 @@
 | 思维课与大自然（`thinking-and-nature`） | 328 |
 | 美育与自然（`aesthetic-nature-education`） | 326 |
 | 学习困难学生（`learning-difficulties`） | 211 |
-| 阅读与书籍（`reading-and-books`） | 146 |
-| 健康第一（`health-first`） | 107 |
-| 评价与分数（`assessment-grading`） | 107 |
+| 阅读与书籍（`reading-and-books`） | 148 |
+| 健康第一（`health-first`） | 111 |
+| 评价与分数（`assessment-grading`） | 110 |
 
 ## 当前已知缺口
 

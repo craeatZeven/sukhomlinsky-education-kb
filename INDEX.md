@@ -7,14 +7,14 @@
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 211 |
 | [family-school](topics/family-school.md) | 家校合作 | 401 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 391 |
-| [health-first](topics/health-first.md) | 健康第一 | 107 |
+| [health-first](topics/health-first.md) | 健康第一 | 111 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 326 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 469 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 508 |
 | [love-education](topics/love-education.md) | 爱的教育 | 803 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 107 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 110 |
 | [child-study](topics/child-study.md) | 儿童研究 | 732 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 146 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 148 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 328 |
 
 ## 来源 Sources
@@ -2628,3 +2628,12 @@
 | [sk-2593](cards/sk-2593-getting-along-is-child-of-wisdom-and-sincerity.md) | quote | collective-education | xuan-ji-zh-vol1 | 合得来，是明智和诚恳的产儿 |
 | [sk-2594](cards/sk-2594-betraying-loves-duty-is-the-greatest-evil.md) | quote | love-education | xuan-ji-zh-vol1 | 背弃爱的职责，决不会成为可信赖的人 |
 | [sk-2595](cards/sk-2595-true-love-is-first-of-all-labor.md) | quote | labor-education | xuan-ji-zh-vol1 | 真正的爱情首先是劳动 |
+| [sk-2596](cards/sk-2596-fresh-air-organs-fatigue.md) | quote | health-first | xuan-ji-zh-vol4 | 新鲜空气里的体脑劳动越多，越不容易疲劳 |
+| [sk-2597](cards/sk-2597-mental-work-cutoff-after-waking.md) | quote | health-first | xuan-ji-zh-vol4 | 起床十二三小时后再做紧张脑力劳动，会伤健康与智力 |
+| [sk-2598](cards/sk-2598-homework-before-school-afternoon-free.md) | quote | health-first | xuan-ji-zh-vol4 | 课前做完家庭作业、午后不用脑，才谈得上增强体质 |
+| [sk-2599](cards/sk-2599-eyesight-medical-supervision.md) | quote | health-first | xuan-ji-zh-vol4 | 护眼要落成制度：单班制、自然光、视力医务监督 |
+| [sk-2600](cards/sk-2600-goodness-is-not-always-pleasant.md) | quote | assessment-grading | xuan-ji-zh-vol2 | 善并不总是愉快的：教孩子听懂尖锐而中肯的话 |
+| [sk-2601](cards/sk-2601-reparation-not-promises.md) | quote | assessment-grading | xuan-ji-zh-vol2 | 教育的目的是弥补过失，不是收一张保证书 |
+| [sk-2602](cards/sk-2602-self-reproach-needs-an-ideal.md) | quote | assessment-grading | xuan-ji-zh-vol2 | 要让一个人自责，先得给他一个理想 |
+| [sk-2603](cards/sk-2603-read-heroes-measure-yourself.md) | quote | reading-and-books | gei-jiao-shi-de-jian-yi-zh | 读英雄人物的书，要一边读一边对照自己 |
+| [sk-2604](cards/sk-2604-exhilaration-lifts-knowledge.md) | quote | reading-and-books | gei-jiao-shi-de-jian-yi-zh | 读书带来的精神振奋，能把大块的知识举起来 |

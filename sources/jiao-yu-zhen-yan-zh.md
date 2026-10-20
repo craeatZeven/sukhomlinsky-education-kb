@@ -5,6 +5,7 @@ author: "苏霍姆林斯基"
 lang: zh
 translator: "朱永新 编"
 publisher: "教育科学出版社"
+place: "北京"
 year: 2016
 url: ""
 access_date: "2026-09-06"

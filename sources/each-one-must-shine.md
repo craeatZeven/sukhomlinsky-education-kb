@@ -5,6 +5,8 @@ author: "Alan Cockerill"
 lang: en
 translator: ""
 publisher: "Peter Lang (2009, 2nd ed.)"
+place: "New York"
+place_basis: "出版社社址：Peter Lang 在 New York"
 year: 2009
 url: "https://archive.org/details/EachOneMustShine-EducationalLegacyOfV.A.Sukhomlinsky"
 access_date: "2026-09-06"

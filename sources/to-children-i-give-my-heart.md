@@ -5,6 +5,8 @@ author: "Vasily Sukhomlinsky"
 lang: en
 translator: "Holly Smith"
 publisher: "Progress Publishers"
+place: "Moscow"
+place_basis: "出版社社址：Progress Publishers 在 Moscow"
 year: 
 url: "https://archive.org/details/ToChildrenIGiveMyHeart-English-VasilySukhomlinsky"
 access_date: "2026-09-06"

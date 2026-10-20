@@ -5,6 +5,8 @@ author: "苏霍姆林斯基"
 lang: zh
 translator: "诸惠芳、肖甦、高文 译"
 publisher: "人民教育出版社"
+place: "北京"
+place_basis: "出版社社址：人民教育出版社 在 北京"
 year: "2015"
 url: ""
 access_date: "2026-09-08"

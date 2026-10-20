@@ -5,7 +5,9 @@ author: "苏霍姆林斯基"
 lang: zh
 translator: "杜殿坤 编译"
 publisher: "教育科学出版社"
-year: 
+place: "北京"
+place_basis: "国防科技大学图书馆 OPAC：北京:教育科学出版社,1981"
+year: 1981
 url: ""
 access_date: "2026-09-06"
 rights_status: in-copyright-short-quotes-only

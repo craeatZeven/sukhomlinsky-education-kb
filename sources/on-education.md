@@ -5,6 +5,8 @@ author: "Vasili Sukhomlinsky"
 lang: en
 translator: "Katharine Judelson"
 publisher: "Progress Publishers"
+place: "Moscow"
+place_basis: "出版社社址：Progress Publishers 在 Moscow"
 year: 1977
 url: "https://archive.org/details/vasili-sukhomlinsky-on-education-progress-1977"
 access_date: "2026-09-06"

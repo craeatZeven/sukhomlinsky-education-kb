@@ -5,6 +5,8 @@ author: "苏霍姆林斯基"
 lang: zh
 translator: "未知（中文电子版）"
 publisher: "未知（电子版，对应教育科学出版社常见中译本）"
+place: "北京"
+place_basis: "出版社社址：教育科学出版社 在 北京"
 year: 
 url: ""
 access_date: "2026-09-06"

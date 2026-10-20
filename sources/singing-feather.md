@@ -5,6 +5,8 @@ author: "苏霍姆林斯基"
 lang: en
 translator: "James Riordan"
 publisher: "Raduga Publishers"
+place: "Moscow"
+place_basis: "出版社社址：Raduga Publishers 在 Moscow"
 year: 
 url: "https://archive.org/details/TheSingingFeather"
 access_date: "2026-09-07"

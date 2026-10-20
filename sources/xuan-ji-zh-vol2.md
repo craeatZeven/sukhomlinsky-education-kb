@@ -5,7 +5,9 @@ author: "苏霍姆林斯基"
 lang: zh
 translator: "（多人翻译）"
 publisher: "教育科学出版社（据首页 OCR）"
-year: 
+place: "北京"
+place_basis: "同上（五卷本同一套）"
+year: 2001
 url: ""
 access_date: "2026-09-06"
 rights_status: in-copyright-short-quotes-only

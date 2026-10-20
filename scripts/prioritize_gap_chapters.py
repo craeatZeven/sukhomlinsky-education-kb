@@ -181,11 +181,20 @@ if _tw and _ctp:
     print("=== ★ 本轮建议：按主题均衡补短板（薄主题 → 该主题料最集中的章）")
     _thin_topics = sorted(_tw, key=lambda k: -_tw[k])[:3]
     for _t in _thin_topics:
-        _cands = [(k[0], k[1]) for k in _ctp if _t in _ctp[k]]
-        _cands.sort(key=lambda ks: -_ctp[ks][_t])
+        # 2026-10-20 修正：只按该主题卡数排序会把「主题只占少数」的章也推出来
+        # （实测：vol3《我们怎样学习读和写》被推给 health-first，但该章是识字教学，
+        #  105 unit 里 0 条健康证据，连续两批都被子代理判定为 0 张）。
+        # 修法：要求该主题至少占该章卡片的 1/3，且该章至少 2 张该主题的卡。
+        _cands = []
+        for _k in _ctp:
+            _n_t = _ctp[_k].get(_t, 0)
+            _n_all = sum(_ctp[_k].values())
+            if _n_t >= 2 and _n_all > 0 and (_n_t / float(_n_all)) >= 0.34:
+                _cands.append((_k[0], _k[1], _n_t, _n_all))
+        _cands.sort(key=lambda x: (-x[2], x[3]))
         _hit = []
-        for (_b2, _s2) in _cands:
-            _hit.append("%s《%s》(此主题已有 %d 卡)" % (_b2[:16], _s2[:26], _ctp[(_b2, _s2)][_t]))
+        for (_b2, _s2, _n2, _a2) in _cands:
+            _hit.append("%s《%s》(此主题 %d/%d 卡)" % (_b2[:16], _s2[:26], _n2, _a2))
             if len(_hit) >= 2: break
         print("  主题 %-26s → %s" % (_t, " ｜ ".join(_hit) if _hit else "(该主题暂无已定位的章)"))
     print("  提示：从上面这些章里选「还没取尽的段落」，每主题至多 6 张。")

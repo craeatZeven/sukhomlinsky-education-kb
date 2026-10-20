@@ -43,6 +43,7 @@ ITEMS = [
     ('coverage.html', '覆盖',     'chart',  '卡片量、来源分布与覆盖缺口'),
     ('guide.html',    '指南',     'compass','5 分钟上手：三种用法、引用与导出'),
     ('latest.html',   '更新',     'clock',  '按编号倒序看最新补入的卡片'),
+ ('cite.html',     '引用',     'book',   '把一张卡变成可直接粘贴的引用（三种格式）'),
 ]
 
 # 图标：内联 SVG，20px，描边走 currentColor（不引外部图标库，零依赖）。
@@ -82,6 +83,7 @@ ACTIVE: dict[str, str | None] = {
     'coverage.html': 'coverage.html',
     'guide.html': 'guide.html',
     'latest.html': 'latest.html',
+    'cite.html': 'cite.html',
     'sitemap.html': 'guide.html',
     'card.html': None,
 }

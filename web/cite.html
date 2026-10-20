@@ -4,13 +4,13 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>如何引用 · 苏霍姆林斯基教育知识库</title>
-<meta name="description" content="选一张卡，直接得到三种可粘贴的引用写法：中文脚注体、GB/T 7714 近似、Markdown 引用块。缺的字段用 [待补] 占位，不猜。" />
+<meta name="description" content="把任意一张卡片变成可直接使用的引用：中文脚注体、GB/T 7714 近似、Markdown 引用块，一键复制；缺字段标待补，不编造书目信息。" />
 <link rel="canonical" href="https://craeatzeven.github.io/sukhomlinsky-education-kb/web/cite.html" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="苏霍姆林斯基教育知识库" />
 <meta property="og:locale" content="zh_CN" />
 <meta property="og:title" content="如何引用 · 苏霍姆林斯基教育知识库" />
-<meta property="og:description" content="选一张卡，直接得到三种可粘贴的引用写法：中文脚注体、GB/T 7714 近似、Markdown 引用块。" />
+<meta property="og:description" content="把任意一张卡片变成可直接使用的引用：中文脚注体、GB/T 7714 近似、Markdown 引用块，一键复制；缺字段标待补，不编造书目信息。" />
 <meta property="og:url" content="https://craeatzeven.github.io/sukhomlinsky-education-kb/web/cite.html" />
 <meta property="og:image" content="https://craeatzeven.github.io/sukhomlinsky-education-kb/web/og.jpg" />
 <meta name="twitter:card" content="summary_large_image" />
@@ -86,6 +86,12 @@
   .cite-out { font-size: 12.5px; }
 }
 </style>
+  <meta name="robots" content="index,follow,max-image-preview:large" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:title" content="如何引用 · 苏霍姆林斯基教育知识库" />
+  <meta name="twitter:description" content="把任意一张卡片变成可直接使用的引用：中文脚注体、GB/T 7714 近似、Markdown 引用块，一键复制；缺字段标待补，不编造书目信息。" />
+  <meta name="twitter:image" content="https://craeatzeven.github.io/sukhomlinsky-education-kb/web/og.jpg" />
 </head>
 <body data-theme="paper">
 <a class="skip" href="#main">跳到主要内容</a>
@@ -100,7 +106,7 @@
       <a class="nav-item" href="coverage.html" title="卡片量、来源分布与覆盖缺口"><span class="ni-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V11M10 20V5M16 20v-6"/><path d="M2 20h20"/></svg></span><span class="ni-label">覆盖</span></a>
       <a class="nav-item" href="guide.html" title="5 分钟上手：三种用法、引用与导出"><span class="ni-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.6"/><path d="M15.4 8.6l-2.1 4.7-4.7 2.1 2.1-4.7z"/></svg></span><span class="ni-label">指南</span></a>
       <a class="nav-item" href="latest.html" title="按编号倒序看最新补入的卡片"><span class="ni-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.6"/><path d="M12 7v5.3l3.6 2.1"/></svg></span><span class="ni-label">更新</span></a>
-      <a class="nav-item active" href="cite.html" aria-current="page" title="引用一张卡：中文脚注 / GB/T 7714 / Markdown"><span class="ni-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M7 4h7l4 4v12H7z"/><path d="M14 4v4h4"/><path d="M10 12h5M10 15.5h5"/></svg></span><span class="ni-label">引用</span></a>
+      <a class="nav-item active" href="cite.html" aria-current="page" title="把一张卡变成可直接粘贴的引用（三种格式）"><span class="ni-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 6.5C10.6 5 8.6 4.2 6 4.2H4v13.6h2c2.6 0 4.6.8 6 2.3"/><path d="M12 6.5c1.4-1.5 3.4-2.3 6-2.3h2v13.6h-2c-2.6 0-4.6.8-6 2.3"/><path d="M12 6.5v13.6"/></svg></span><span class="ni-label">引用</span></a>
     </div>
   </div>
 </nav>
@@ -136,7 +142,7 @@
 
     <div class="cite-card">
       <div class="cite-badges" id="selBadges"></div>
-      <h3 id="selHead"></h3>
+      <h3 id="selHead">（尚未选卡）</h3>
       <div class="cite-excerpts" id="selExcerpts"></div>
       <dl class="keyfacts" id="selFacts"></dl>
       <p class="cite-src" id="selRef"></p>

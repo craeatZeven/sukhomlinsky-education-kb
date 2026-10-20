@@ -12,7 +12,7 @@
 | [collective-education](topics/collective-education.md) | 集体教育 | 469 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 508 |
 | [love-education](topics/love-education.md) | 爱的教育 | 803 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 140 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 150 |
 | [child-study](topics/child-study.md) | 儿童研究 | 732 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 151 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 328 |
@@ -2710,3 +2710,13 @@
 | [sk-2675](cards/sk-2675-score-gap-suspicion.md) | quote | assessment-grading | xuan-ji-zh-vol4 | 五至七年级不及格人数比低年级多六倍 |
 | [sk-2676](cards/sk-2676-critical-view-of-own-results.md) | quote | assessment-grading | xuan-ji-zh-vol3 | 学会批判地对待自己取得的成绩 |
 | [sk-2677](cards/sk-2677-heroes-names-under-marks.md) | quote | assessment-grading | xuan-ji-zh-vol5 | 把英雄的名字抄进班级日志，再在下面写分数 |
+| [sk-2678](cards/sk-2678-grade-over-a-period-not-one-lesson.md) | quote | assessment-grading | gei-jiao-shi-de-jian-yi-zh | 评分不凭一节课的问答，而要看一段时期的多种劳动 |
+| [sk-2679](cards/sk-2679-let-the-child-write-his-own-mark.md) | quote | assessment-grading | gei-jiao-shi-de-jian-yi-zh | 让学生自己把分数写进记分册，他会感到自豪和尊严 |
+| [sk-2680](cards/sk-2680-do-not-pity-two-scorers-either-despise-good-marks.md) | quote | assessment-grading | gei-jiao-shi-de-jian-yi-zh | 不赞扬考两分的学生，也不轻视良好的学业成绩 |
+| [sk-2681](cards/sk-2681-criticism-as-moral-and-legal-evaluation.md) | quote | assessment-grading | xuan-ji-zh-vol2 | 批评和责备有两种表示：道德上的评价与法律上的评价 |
+| [sk-2682](cards/sk-2682-failing-mark-in-the-record-book-or-a-talk.md) | quote | assessment-grading | xuan-ji-zh-vol3 | 把不及格分数写进联系册，不如和他谈一谈 |
+| [sk-2683](cards/sk-2683-adolescents-remember-every-evaluation.md) | quote | assessment-grading | xuan-ji-zh-vol1 | 少年会长期记住教师和同学对自己的评定 |
+| [sk-2684](cards/sk-2684-punishment-brutalizes-the-heart.md) | quote | assessment-grading | xuan-ji-zh-vol5 | 惩罚会使人的心灵变得粗野、凶狠、残暴 |
+| [sk-2685](cards/sk-2685-conduct-mark-decided-by-teachers-and-students.md) | quote | assessment-grading | xuan-ji-zh-vol2 | 操行分数该不该降，由师生同权会议决定 |
+| [sk-2686](cards/sk-2686-marks-reward-diligence-not-a-whip.md) | quote | assessment-grading | ba-xin-xian-gei-hai-zi-zh | 分数应当是奖励勤奋的，而不是惩罚懒惰的皮鞭与蜜饼 |
+| [sk-2687](cards/sk-2687-checking-must-not-become-an-end.md) | quote | assessment-grading | xuan-ji-zh-vol4 | 检查和评定知识不能变成目的：提问只为打个分数 |

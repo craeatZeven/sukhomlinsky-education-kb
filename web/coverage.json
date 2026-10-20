@@ -1,5 +1,5 @@
 {
-  "total_cards": 2672,
+  "total_cards": 2682,
   "source_count": 12,
   "topic_count": 12,
   "zuoren_cards": 541,
@@ -14,43 +14,43 @@
     {
       "slug": "xuan-ji-zh-vol2",
       "title": "苏霍姆林斯基选集（五卷本）第2卷",
-      "cards": 414,
+      "cards": 416,
       "page_refs": 45
     },
     {
       "slug": "xuan-ji-zh-vol5",
       "title": "苏霍姆林斯基选集（五卷本）第5卷",
-      "cards": 371,
+      "cards": 372,
       "page_refs": 109
     },
     {
       "slug": "xuan-ji-zh-vol1",
       "title": "苏霍姆林斯基选集（五卷本）第1卷",
-      "cards": 360,
+      "cards": 361,
       "page_refs": 36
     },
     {
       "slug": "xuan-ji-zh-vol4",
       "title": "苏霍姆林斯基选集（五卷本）第4卷",
-      "cards": 348,
+      "cards": 349,
       "page_refs": 41
     },
     {
       "slug": "xuan-ji-zh-vol3",
       "title": "苏霍姆林斯基选集（五卷本）第3卷",
-      "cards": 325,
+      "cards": 326,
       "page_refs": 51
     },
     {
       "slug": "gei-jiao-shi-de-jian-yi-zh",
       "title": "给教师的建议",
-      "cards": 175,
+      "cards": 178,
       "page_refs": 23
     },
     {
       "slug": "ba-xin-xian-gei-hai-zi-zh",
       "title": "把心献给孩子",
-      "cards": 47,
+      "cards": 48,
       "page_refs": 0
     },
     {
@@ -81,7 +81,7 @@
   "types": [
     {
       "type": "quote",
-      "cards": 1545
+      "cards": 1555
     },
     {
       "type": "case",
@@ -159,7 +159,7 @@
     {
       "slug": "assessment-grading",
       "title": "评价与分数",
-      "cards": 140
+      "cards": 150
     }
   ]
 }

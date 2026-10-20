@@ -5,7 +5,7 @@
 
 ## 总览
 
-- 卡片总数：**2672**
+- 卡片总数：**2682**
 - 来源数：**12**
 - 主题数：**12**
 - 《做人的故事》：**541 张卡 / 540 个目录标题**
@@ -15,13 +15,13 @@
 | 来源 | 卡片数 | 含印刷页码 ref |
 |---|---:|---:|
 | 做人的故事（`zuo-ren-de-gu-shi-zh`） | 541 | 541/541 |
-| 苏霍姆林斯基选集（五卷本）第2卷（`xuan-ji-zh-vol2`） | 414 | 45/414 |
-| 苏霍姆林斯基选集（五卷本）第5卷（`xuan-ji-zh-vol5`） | 371 | 109/371 |
-| 苏霍姆林斯基选集（五卷本）第1卷（`xuan-ji-zh-vol1`） | 360 | 36/360 |
-| 苏霍姆林斯基选集（五卷本）第4卷（`xuan-ji-zh-vol4`） | 348 | 41/348 |
-| 苏霍姆林斯基选集（五卷本）第3卷（`xuan-ji-zh-vol3`） | 325 | 51/325 |
-| 给教师的建议（`gei-jiao-shi-de-jian-yi-zh`） | 175 | 23/175 |
-| 把心献给孩子（`ba-xin-xian-gei-hai-zi-zh`） | 47 | 0/47 |
+| 苏霍姆林斯基选集（五卷本）第2卷（`xuan-ji-zh-vol2`） | 416 | 45/416 |
+| 苏霍姆林斯基选集（五卷本）第5卷（`xuan-ji-zh-vol5`） | 372 | 109/372 |
+| 苏霍姆林斯基选集（五卷本）第1卷（`xuan-ji-zh-vol1`） | 361 | 36/361 |
+| 苏霍姆林斯基选集（五卷本）第4卷（`xuan-ji-zh-vol4`） | 349 | 41/349 |
+| 苏霍姆林斯基选集（五卷本）第3卷（`xuan-ji-zh-vol3`） | 326 | 51/326 |
+| 给教师的建议（`gei-jiao-shi-de-jian-yi-zh`） | 178 | 23/178 |
+| 把心献给孩子（`ba-xin-xian-gei-hai-zi-zh`） | 48 | 0/48 |
 | On Education（`on-education`） | 41 | 0/41 |
 | To Children I Give My Heart（`to-children-i-give-my-heart`） | 22 | 0/22 |
 | Each One Must Shine: The Educational Legacy of V. A. Sukhomlinsky（`each-one-must-shine`） | 16 | 0/16 |
@@ -31,7 +31,7 @@
 
 | 类型 | 数量 |
 |---|---:|
-| `quote` | 1545 |
+| `quote` | 1555 |
 | `case` | 673 |
 | `principle` | 194 |
 | `method` | 164 |
@@ -52,7 +52,7 @@
 | 学习困难学生（`learning-difficulties`） | 211 |
 | 健康第一（`health-first`） | 151 |
 | 阅读与书籍（`reading-and-books`） | 151 |
-| 评价与分数（`assessment-grading`） | 140 |
+| 评价与分数（`assessment-grading`） | 150 |
 
 ## 当前已知缺口
 

@@ -46054,5 +46054,175 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2678": {
+  "primary": "A16",
+  "seealso": [],
+  "facets": [],
+  "claim": "评分应当是对一段时期、多种劳动的综合评定，而不是对一节课上零星回答的即时反应。",
+  "evidence": "在我的漫长的教育生涯中，我教过中学教学计划里几乎所有的学科(制图除外)，可是我从来没有凭学生在一节课上的回答(甚至所提的问题达二、三个甚至更多)就给学生打分数。①我给的评分总要包括学生在某一时期内的劳动，并且包含着对好几种劳动的评定—包括学",
+  "title": "评分要看一段时期",
+  "old_topics": [
+   "assessment-grading"
+  ],
+  "type": "quote",
+  "tags": [
+   "A16"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2679": {
+  "primary": "A16",
+  "seealso": [],
+  "facets": [],
+  "claim": "师生一起解除苦恼后，让学生自己把分数写进记分册，会给他自豪感和尊严感，他也绝不会欺骗教师。",
+  "evidence": "跟儿童在一起思考的这种时刻，也给我带来了很大的欢乐。我向你们担保，年轻的朋友：正是在这种时刻，儿童的信任才充分展示出来。如果我跟他一起解除了他的苦恼，他就绝不会欺骗我。我叫他自己把分数写进记分册，这给他一种自豪感和尊严感。",
+  "title": "让学生自己写分数",
+  "old_topics": [
+   "assessment-grading"
+  ],
+  "type": "quote",
+  "tags": [
+   "A16"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2680": {
+  "primary": "A16",
+  "seealso": [],
+  "facets": [],
+  "claim": "对两分学生不唱赞歌，对良好学业成绩也不轻视——成绩是巨大劳动的结果，值得尊重和爱惜。",
+  "evidence": "我的想法并不是要赞扬考两分的学生或者对他们表示怜悯，并不是轻视良好的学业成绩。良好的学业成绩是巨大劳动的结果，而对劳动是必须加以尊重和爱惜的。我也绝不为象米哈伊尔那样的人的命运而感到庆幸。",
+  "title": "不赞扬两分也不轻视好成绩",
+  "old_topics": [
+   "assessment-grading"
+  ],
+  "type": "quote",
+  "tags": [
+   "A16"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2681": {
+  "primary": "A16",
+  "seealso": [],
+  "facets": [],
+  "claim": "批评与责备通过道德评价和法律评价两种方式起作用，人从小就要对二者有敏锐的感受。",
+  "evidence": "在人的社会里，批评和责备可以有两种方式表示：道德上的和法律上的评价，一个人从小就应当对上述两点有敏锐的感受。如果你不学会自觉地遵循召唤你去做好事的道德准则的话，那你就有可能受到法律的制裁：在我们的社会里，有聪慧的、告诫的话语——善良的、严厉",
+  "title": "批评的两种评价方式",
+  "old_topics": [
+   "assessment-grading"
+  ],
+  "type": "quote",
+  "tags": [
+   "A16"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2682": {
+  "primary": "A16",
+  "seealso": [],
+  "facets": [],
+  "claim": "用联系册上的不及格分数向家长告状，会把少年逼到隐瞒和撒谎；个别谈话与个别作业才能保住他的自信心和自尊感。",
+  "evidence": "在学校工作30年中，我得以分析100例几乎完全相同的过错：青年对家长隐瞒了教师打的不及格分数。然而每次都有着不同的原因，不同的道德和感情动机，而主要的是：假如教师不是在学校—家庭联系册上打上不及格分数(这是专门给家长看的)，而是和这个少年谈",
+  "title": "联系册上的不及格不如谈话",
+  "old_topics": [
+   "assessment-grading"
+  ],
+  "type": "quote",
+  "tags": [
+   "A16"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2683": {
+  "primary": "A21",
+  "seealso": [],
+  "facets": [],
+  "claim": "少年对教师和同学的评价高度敏感，会把评定长期记在心里反复检验，并由此生出相应的情感。",
+  "evidence": "内部言语的发展对少年在集体中的相互关系也具有深刻的影响：少年对别人给自己的行为、品行所作的评价是很敏感的。少年是不会忘记教师或同学对自己所作的评定的。他好像不仅有意识地把这些评定很长一段时期记在心里，而且利用自己的内部言语分析、认识和检验，",
+  "title": "少年记得每一次评定",
+  "old_topics": [
+   "assessment-grading"
+  ],
+  "type": "quote",
+  "tags": [
+   "A21"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2684": {
+  "primary": "A16",
+  "seealso": [],
+  "facets": [],
+  "claim": "惩罚尤其是不公正的惩罚会使心灵粗野凶狠，并让人在少年时代失去对收容所、法庭、劳教所的畏惧。",
+  "evidence": "惩罚，特别是其正当性大可怀疑的惩罚(在绝大多数家庭冲突中，情况往往正是这样)，会使人的心灵变得粗野、凶狠、残暴。一个在儿童时代遭受过惩罚的人，少年时代就不会害怕什么儿童收容所、法庭、劳教所。",
+  "title": "惩罚使心灵粗野",
+  "old_topics": [
+   "assessment-grading"
+  ],
+  "type": "quote",
+  "tags": [
+   "A16"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2685": {
+  "primary": "A16",
+  "seealso": [],
+  "facets": [],
+  "claim": "降低学生操行分数要由师生同权会议决定，意见不一致才交校务会议；重罚不能由教师一人裁量。",
+  "evidence": "这个对学生非常重要的问题，要在教师（班主任）和学生有同样表决权的会议上作出决定。学校里还有一条规则：如果班集体在评定操行分数的问题上意见不一致，就把问题交给校务会议作最后决定。但我们学校还从来未发生过必须把问题提到校务会议解决的情况。操行分",
+  "title": "操行分数由师生同权会议定",
+  "old_topics": [
+   "assessment-grading"
+  ],
+  "type": "quote",
+  "tags": [
+   "A16"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2686": {
+  "primary": "A16",
+  "seealso": [],
+  "facets": [],
+  "claim": "分数应奖励勤奋而非惩罚懒惰；把低分当皮鞭、高分当蜜饼，最终会让孩子连分数一起憎恨。",
+  "evidence": "我认为，在小学阶段进行评分，其最主要的要求就是要在学校采用乐观主义和快乐准则。分数应当是对勤奋的奖励，而不是对懒惰和应付的惩罚。如果老师把1分和2分看作鞭策懒马的皮鞭，而把4分和5分看作蜜饼，那么，皮鞭也好，蜜饼也罢，不久之后都会让孩子们憎",
+  "title": "分数是奖励不是皮鞭",
+  "old_topics": [
+   "assessment-grading"
+  ],
+  "type": "quote",
+  "tags": [
+   "A16"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2687": {
+  "primary": "A20",
+  "seealso": [],
+  "facets": [],
+  "claim": "检查和评定知识一旦变成目的、提问只为打分数，课堂就失去了教学；要看其余学生在同一时间做什么。",
+  "evidence": "校长不应该容忍这种状况：检查和评定知识变成了一种目的，教师提问学生只是为了给他打个分数：在听课和分析课的时候，请注意观察：当教师喊到的学生在黑板前或在座位上回答问题时，班上其余的学生在做些什么。",
+  "title": "检查不能只为打分",
+  "old_topics": [
+   "assessment-grading"
+  ],
+  "type": "quote",
+  "tags": [
+   "A20"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

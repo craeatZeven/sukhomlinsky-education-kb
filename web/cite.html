@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>如何引用 · 苏霍姆林斯基教育知识库</title>
+<meta name="description" content="选一张卡，直接得到三种可粘贴的引用写法：中文脚注体、GB/T 7714 近似、Markdown 引用块。缺的字段用 [待补] 占位，不猜。" />
+<link rel="canonical" href="https://craeatzeven.github.io/sukhomlinsky-education-kb/web/cite.html" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="苏霍姆林斯基教育知识库" />
+<meta property="og:locale" content="zh_CN" />
+<meta property="og:title" content="如何引用 · 苏霍姆林斯基教育知识库" />
+<meta property="og:description" content="选一张卡，直接得到三种可粘贴的引用写法：中文脚注体、GB/T 7714 近似、Markdown 引用块。" />
+<meta property="og:url" content="https://craeatzeven.github.io/sukhomlinsky-education-kb/web/cite.html" />
+<meta property="og:image" content="https://craeatzeven.github.io/sukhomlinsky-education-kb/web/og.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<link rel="icon" href="icon.svg" type="image/svg+xml" />
+<link rel="stylesheet" href="style.css?v=20260920v39" />
+<style>
+/* 本页自有样式：只用既有 token，不改 style.css。
+   加 .cite- 前缀，避免和全站类名撞车。 */
+.cite-pick { max-width: 760px; margin: 0; }
+.cite-label { display: block; font-size: 12px; letter-spacing: .14em; color: var(--soft); font-weight: 700; margin-bottom: 10px; }
+.cite-row { display: flex; gap: 10px; align-items: stretch; flex-wrap: wrap; }
+.cite-input {
+  flex: 1 1 320px; min-width: 0; font: inherit; font-size: 16px; padding: 12px 14px;
+  border-radius: var(--radius); border: 1px solid var(--line); background: var(--card); color: var(--ink);
+}
+.cite-input::placeholder { color: color-mix(in srgb, var(--soft) 78%, transparent); }
+.cite-input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.cite-hint { color: var(--soft); font-size: 13.5px; line-height: 1.8; margin: 10px 0 0; }
+.cite-hint b { color: var(--ink); font-weight: 500; }
+.cite-results {
+  list-style: none; margin: 14px 0 0; padding: 0; max-height: 340px; overflow: auto;
+  border: 1px solid var(--line); border-radius: var(--radius); background: var(--card);
+}
+.cite-results:empty { display: none; }
+.cite-results li + li { border-top: 1px solid var(--line); }
+.cite-res {
+  display: grid; grid-template-columns: max-content minmax(0, 1fr) max-content;
+  gap: 2px 12px; width: 100%; text-align: left; background: none; border: 0;
+  padding: 11px 15px; font: inherit; color: inherit; cursor: pointer;
+}
+.cite-res:hover { background: color-mix(in srgb, var(--accent) 8%, transparent); }
+.cite-res:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+.cite-res-id { font-family: var(--mono); font-size: 12px; color: var(--accent-ink); padding-top: 2px; }
+.cite-res-title { font-size: 15px; line-height: 1.55; }
+.cite-res-src { font-size: 12px; color: var(--soft); align-self: center; white-space: nowrap; }
+.cite-try { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-top: 14px; font-size: 13px; color: var(--soft); }
+.cite-try .chip { font-size: 13px; padding: 4px 12px; }
+
+.cite-card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 22px 24px; box-shadow: var(--shadow); }
+.cite-card h3 { margin: 10px 0 4px; font-size: 22px; line-height: 1.45; }
+.cite-card .cite-badges { display: flex; gap: 6px; flex-wrap: wrap; }
+.cite-excerpts { margin-top: 14px; }
+.cite-excerpts .excerpt { margin: 0 0 12px; }
+.cite-note { color: var(--soft); font-size: 13px; line-height: 1.8; margin: 10px 0 0; }
+
+.cite-fmt {
+  margin-top: 18px; border: 1px solid var(--line); border-radius: var(--radius);
+  background: var(--card); padding: 16px 18px 18px;
+}
+.cite-fmt-head { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.cite-fmt-head h3 { margin: 0; font-size: 18px; }
+.cite-fmt-head .chip { margin-left: auto; }
+.cite-out {
+  margin: 12px 0 0; padding: 14px 16px; border: 0; border-left: 3px solid var(--quote-line);
+  border-radius: var(--radius-archive); background: color-mix(in srgb, var(--ink) 5%, var(--bg));
+  font-family: var(--mono); font-size: 13.5px; line-height: 1.95; color: var(--ink);
+  white-space: pre-wrap; overflow-wrap: anywhere;
+}
+.cite-fmt-note { margin: 10px 0 0; font-size: 12.5px; line-height: 1.8; color: var(--soft); }
+.cite-gap { margin: 20px 0 0; }
+.cite-gap ul { margin: 6px 0 0; padding-left: 20px; font-size: 13.5px; line-height: 1.9; }
+.cite-gap li b { color: var(--ink); font-weight: 500; }
+.cite-src { font-family: var(--mono); font-size: 12px; line-height: 1.9; color: var(--soft); margin: 10px 0 0; overflow-wrap: anywhere; }
+.cite-about { margin-top: 44px; }
+.cite-about .keyfacts { margin-top: 10px; }
+.cite-about h3 { font-size: 16px; margin: 22px 0 6px; }
+.cite-about p, .cite-about li { font-size: 14px; line-height: 1.85; color: var(--soft); }
+.cite-about ul { padding-left: 20px; }
+.cite-about b { color: var(--ink); font-weight: 500; }
+@media (max-width: 620px) {
+  .cite-res { grid-template-columns: max-content minmax(0, 1fr); }
+  .cite-res-src { grid-column: 2; }
+  .cite-out { font-size: 12.5px; }
+}
+</style>
+</head>
+<body data-theme="paper">
+<a class="skip" href="#main">跳到主要内容</a>
+<nav class="topnav" aria-label="主导航">
+  <div class="inner">
+    <a class="brand" href="index.html">苏霍姆林斯基教育知识库</a>
+    <div class="nav-groups">
+      <a class="nav-item" href="taxonomy.html" title="这个库怎么分类 · 换一种切法"><span class="ni-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6.5l6-2 6 2 6-2v13l-6 2-6-2-6 2z"/><path d="M9 4.5v13M15 6.5v13"/></svg></span><span class="ni-label">分类总图</span></a>
+      <a class="nav-item" href="search.html" title="按词找；先给成篇材料，再给卡片"><span class="ni-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="6.5"/><path d="M15.8 15.8L21 21"/></svg></span><span class="ni-label">全库检索</span></a>
+      <a class="nav-item" href="reads.html" title="12 篇长文 + 分析 / 对比 / 问答"><span class="ni-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 6.5C10.6 5 8.6 4.2 6 4.2H4v13.6h2c2.6 0 4.6.8 6 2.3"/><path d="M12 6.5c1.4-1.5 3.4-2.3 6-2.3h2v13.6h-2c-2.6 0-4.6.8-6 2.3"/><path d="M12 6.5v13.6"/></svg></span><span class="ni-label">读本</span></a>
+      <a class="nav-item" href="sources.html" title="13 个来源、OCR 状态与作品清单"><span class="ni-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5.5h4v15H4zM10 5.5h4v15h-4z"/><path d="M16.4 6.6l3.4 1-3.6 13.6-3.4-1z"/></svg></span><span class="ni-label">书源</span></a>
+      <a class="nav-item" href="coverage.html" title="卡片量、来源分布与覆盖缺口"><span class="ni-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V11M10 20V5M16 20v-6"/><path d="M2 20h20"/></svg></span><span class="ni-label">覆盖</span></a>
+      <a class="nav-item" href="guide.html" title="5 分钟上手：三种用法、引用与导出"><span class="ni-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.6"/><path d="M15.4 8.6l-2.1 4.7-4.7 2.1 2.1-4.7z"/></svg></span><span class="ni-label">指南</span></a>
+      <a class="nav-item" href="latest.html" title="按编号倒序看最新补入的卡片"><span class="ni-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.6"/><path d="M12 7v5.3l3.6 2.1"/></svg></span><span class="ni-label">更新</span></a>
+      <a class="nav-item active" href="cite.html" aria-current="page" title="引用一张卡：中文脚注 / GB/T 7714 / Markdown"><span class="ni-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M7 4h7l4 4v12H7z"/><path d="M14 4v4h4"/><path d="M10 12h5M10 15.5h5"/></svg></span><span class="ni-label">引用</span></a>
+    </div>
+  </div>
+</nav>
+
+<header class="page-head">
+  <div class="wrap">
+    <div class="eyebrow">Cite</div>
+    <h1>如何引用一张卡</h1>
+    <p>选一张卡，页面给出三种可以直接粘贴的写法：中文脚注体、GB/T 7714 近似、Markdown 引用块。
+       书目里缺的字段一律写 <b>[待补]</b> 占位——这里不猜、不补。</p>
+  </div>
+</header>
+
+<main class="wrap" id="main">
+  <section class="cite-pick" aria-labelledby="pickLabel">
+    <label class="cite-label" id="pickLabel" for="q">第一步 · 找一张卡</label>
+    <div class="cite-row">
+      <input class="cite-input" id="q" type="search" autocomplete="off" spellcheck="false"
+             placeholder="粘贴编号 sk-0067，或输入标题关键词：思维课 / 后进生 / 说谎" />
+      <button class="chip" id="randBtn" type="button" title="从 2682 张卡里随机取一张">随机一张</button>
+    </div>
+    <p class="cite-hint" id="hint" role="status" aria-live="polite">索引载入后即可在本地匹配（编号、标题、中文转述都能搜）。</p>
+    <ul class="cite-results" id="results" aria-label="匹配到的卡片"></ul>
+    <div class="cite-try" id="tryBox">
+      <span>先看两张：</span>
+      <button class="chip chip--quiet" type="button" data-sample="sk-0067">sk-0067 到自然界去上思维课</button>
+      <button class="chip chip--quiet" type="button" data-sample="sk-0001">sk-0001 后进生是花园里最娇嫩的花</button>
+    </div>
+  </section>
+
+  <section id="cardPanel" hidden aria-labelledby="selTitle">
+    <h2 class="section-title" id="selTitle">第二步 · 这张卡的三种写法</h2>
+
+    <div class="cite-card">
+      <div class="cite-badges" id="selBadges"></div>
+      <h3 id="selHead"></h3>
+      <div class="cite-excerpts" id="selExcerpts"></div>
+      <dl class="keyfacts" id="selFacts"></dl>
+      <p class="cite-src" id="selRef"></p>
+    </div>
+
+    <div class="pending-note cite-gap" id="gapNote">
+      <b>这一张的字段说明</b>
+      <ul id="gapList"></ul>
+    </div>
+
+    <article class="cite-fmt">
+      <div class="cite-fmt-head">
+        <h3>中文脚注体</h3>
+        <button class="chip chip--primary" type="button" data-copy="zh">复制</button>
+      </div>
+      <pre class="cite-out" id="outZh"></pre>
+      <p class="cite-fmt-note" id="noteZh"></p>
+    </article>
+
+    <article class="cite-fmt">
+      <div class="cite-fmt-head">
+        <h3>GB/T 7714 近似</h3>
+        <button class="chip" type="button" data-copy="gbt">复制</button>
+      </div>
+      <pre class="cite-out" id="outGbt"></pre>
+      <p class="cite-fmt-note" id="noteGbt"></p>
+    </article>
+
+    <article class="cite-fmt">
+      <div class="cite-fmt-head">
+        <h3>Markdown 引用块</h3>
+        <button class="chip" type="button" data-copy="md">复制</button>
+      </div>
+      <pre class="cite-out" id="outMd"></pre>
+      <p class="cite-fmt-note" id="noteMd"></p>
+    </article>
+  </section>
+
+  <section class="cite-about">
+    <h2 class="section-title">这一页的数据从哪来</h2>
+    <p class="section-sub">每个字段都有出处；取不到就不写。下面写清每一条的来源，方便你复核或替换。</p>
+
+    <dl class="keyfacts">
+      <dt>原文引文</dt><dd>web/data/cards/&lt;id&gt;.json 的 excerpt / excerpts（与卡片详情页同源）</dd>
+      <dt>书名</dt><dd>web/data/meta.json 的 sources[].title</dd>
+      <dt>页码 / 章节</dt><dd>同一份单卡 JSON 的 loc.page / loc.section（由 scripts/build_shards.py 从全文层生成）</dd>
+      <dt>出版社 / 年 / 译者 / 责任者</dt><dd>sources/&lt;slug&gt;.md 的 front-matter（本页内置一份静态副本）</dd>
+      <dt>卡号链接</dt><dd>card.html?id=&lt;id&gt;，按当前域名生成绝对地址</dd>
+    </dl>
+
+    <h3>页码的口径（必读）</h3>
+    <p>库里记的 <b>page 是「扫描件第 N 页」（从 1 数起）</b>，不是纸本页脚印的那个页码——两者每卷偏移不同，本库不声称二者相等。
+       所以三种写法里的页码，可以理解为「能回到扫描件的那一页」；要投给正式出版物，请照纸本把页码换掉。
+       少数卡片没有 page，但 ref 字段里写了印刷页码（形如 <code>p. 22</code>），这种会标注「取自 ref」。两样都没有就写「页码待补」。</p>
+
+    <h3>本页没有的字段（需要人工补）</h3>
+    <ul>
+      <li><b>出版地</b>：13 个书源里没有任何一本记了出版地，GB/T 7714 这一格一律是 <code>[出版地待补]</code>。这是本页最大的缺口。</li>
+      <li><b>出版年</b>：只有 5 个书源有年份；《给教师的建议》与《选集》五卷本都空着，脚注与 GB/T 里写 <code>[出版年待补]</code>。</li>
+      <li><b>版次 / 印次</b>：《选集》五卷本未登记版次，GB/T 的版本项因此省略。</li>
+      <li><b>具体篇目页码</b>：<code>loc.section</code> 有的是小节名、有的是篇名，粒度不统一；脚注里照抄，不另行改写成「第 X 篇」。</li>
+    </ul>
+
+    <h3>两条使用边界</h3>
+    <ul>
+      <li><b>原文是逐字摘录，不是转述</b>：卡片标 <code>excerpt_status: paraphrase</code> 的 11 张没有逐字原文，本页不会把它伪装成引文，Markdown 块里会写明「编者概括」。</li>
+      <li><b>版权</b>：中译本多仍在版权期内，本库只收短引文；引用时请控制在评论、教学所需的必要范围内，并注明出处。</li>
+    </ul>
+
+    <p class="cite-src">本页书目静态副本对应 sources/*.md 的 2026-10-20 状态；若那边改了书名/出版社/年份，请同步改本页的 BIB 常量。</p>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p class="foot-links"><a href="reads.html">读本</a> · <a href="sitemap.html">网站地图</a> · <a href="cases.html">案例 Review</a> · <a href="coverage.html">覆盖报告</a> · <a href="guide.html">使用指南</a> · <a href="latest.html">最近更新</a></p>
+    <p><a href="index.html">← 返回首页</a> · 数据源 <a href="../INDEX.md">INDEX.md</a></p>
+  </div>
+</footer>
+
+<script src="config.js?v=20260920v39"></script>
+<script src="kb.js?v=20260920v39"></script>
+<script src="theme.js?v=20260920v39"></script>
+<script src="scene.js?v=20260920v39"></script>
+<script>
+/* 引用页（2026-10-20）
+ * 只读前端：数据全走 kb.js 已有的三条通道
+ *   KB.ready()    → meta.json（书名）
+ *   KB.loadIndex()→ index.json（搜卡，2.5 MB，首次输入才载入）
+ *   KB.loadCard() → cards/<id>.json（原文、loc 定位）
+ * 书目字段（责任者/译者/出版社/年）在库内只存在于 sources/*.md 的 front-matter，
+ * web/data 里没有结构化副本，所以这里内置一份静态 BIB（严格照 front-matter 抄，
+ * 只把「（据首页 OCR）」这类出处备注挪到 pubNote，不塞进出版社名）。
+ * 出版地库内完全没有 → 一律空串 → 渲染成 [出版地待补]，绝不猜。
+ */
+(function () {
+  "use strict";
+
+  var BIB = {
+    "on-education": {
+      author: "Vasili Sukhomlinsky", authorZh: "苏霍姆林斯基", title: "On Education", lang: "en",
+      translator: "Katharine Judelson", publisher: "Progress Publishers", year: "1977",
+      place: "", pubNote: ""
+    },
+    "to-children-i-give-my-heart": {
+      author: "Vasily Sukhomlinsky", authorZh: "苏霍姆林斯基", title: "To Children I Give My Heart", lang: "en",
+      translator: "Holly Smith", publisher: "Progress Publishers", year: "",
+      place: "", pubNote: ""
+    },
+    "each-one-must-shine": {
+      author: "Alan Cockerill", title: "Each One Must Shine: The Educational Legacy of V. A. Sukhomlinsky", lang: "en",
+      translator: "", publisher: "Peter Lang", year: "2009",
+      place: "", pubNote: "2nd ed."
+    },
+    "singing-feather": {
+      author: "苏霍姆林斯基", authorZh: "苏霍姆林斯基", title: "The Singing Feather（会唱歌的羽毛）", lang: "en",
+      translator: "James Riordan", publisher: "Raduga Publishers", year: "",
+      place: "", pubNote: ""
+    },
+    "gei-jiao-shi-de-jian-yi-zh": {
+      author: "苏霍姆林斯基", title: "给教师的建议", lang: "zh",
+      translator: "杜殿坤 编译", publisher: "教育科学出版社", year: "",
+      place: "", pubNote: ""
+    },
+    "zuo-ren-de-gu-shi-zh": {
+      author: "苏霍姆林斯基", title: "做人的故事", lang: "zh",
+      translator: "诸惠芳、肖甦、高文 译", publisher: "人民教育出版社", year: "2015",
+      place: "", pubNote: ""
+    },
+    "jiao-yu-zhen-yan-zh": {
+      author: "苏霍姆林斯基", title: "苏霍姆林斯基教育箴言", lang: "zh",
+      translator: "朱永新 编", publisher: "教育科学出版社", year: "2016",
+      place: "", pubNote: ""
+    },
+    "ba-xin-xian-gei-hai-zi-zh": {
+      author: "苏霍姆林斯基", title: "把心献给孩子", lang: "zh",
+      translator: "", publisher: "", year: "",
+      place: "", pubNote: "",
+      rawPublisher: "未知（电子版，对应教育科学出版社常见中译本）"
+    },
+    "xuan-ji-zh-vol1": {
+      author: "苏霍姆林斯基", title: "苏霍姆林斯基选集（五卷本）第1卷", lang: "zh",
+      translator: "", transNote: "库内记「（多人翻译）」，无具体姓名",
+      publisher: "教育科学出版社", year: "",
+      place: "", pubNote: "据首页 OCR"
+    },
+    "xuan-ji-zh-vol2": {
+      author: "苏霍姆林斯基", title: "苏霍姆林斯基选集（五卷本）第2卷", lang: "zh",
+      translator: "", transNote: "库内记「（多人翻译）」，无具体姓名",
+      publisher: "教育科学出版社", year: "",
+      place: "", pubNote: "据首页 OCR"
+    },
+    "xuan-ji-zh-vol3": {
+      author: "苏霍姆林斯基", title: "苏霍姆林斯基选集（五卷本）第3卷", lang: "zh",
+      translator: "", transNote: "库内记「（多人翻译）」，无具体姓名",
+      publisher: "教育科学出版社", year: "",
+      place: "", pubNote: "据首页 OCR"
+    },
+    "xuan-ji-zh-vol4": {
+      author: "苏霍姆林斯基", title: "苏霍姆林斯基选集（五卷本）第4卷", lang: "zh",
+      translator: "", transNote: "库内记「（多人翻译）」，无具体姓名",
+      publisher: "教育科学出版社", year: "",
+      place: "", pubNote: "据首页 OCR"
+    },
+    "xuan-ji-zh-vol5": {
+      author: "苏霍姆林斯基", title: "苏霍姆林斯基选集（五卷本）第5卷", lang: "zh",
+      translator: "", transNote: "库内记「（多人翻译）」，无具体姓名",
+      publisher: "教育科学出版社", year: "",
+      place: "", pubNote: "据首页 OCR"
+    }
+  };
+
+  var MISSING = "[待补]";
+  var state = { cards: null, loading: null, indexRequested: false, card: null, formats: {} };
+
+  function $(id) { return document.getElementById(id); }
+  function esc(s) { return KB.esc(s); }
+
+  /* ---------- 字段取值（取不到就返回空，绝不填空字符串以外的猜值） ---------- */
+
+  function bibOf(slug) { return BIB[slug] || null; }
+
+  function sourceTitle(slug) {
+    var live = (KB && KB.sourceTitle) ? KB.sourceTitle(slug) : "";
+    if (live && live !== slug) return live;
+    var b = bibOf(slug);
+    return (b && b.title) || slug || "（书名待补）";
+  }
+
+  function authorOf(card) {
+    var b = bibOf(card.source);
+    return (b && b.author) ? b.author : MISSING;
+  }
+
+  /* 中文脚注里用中文名（同一个人，音译不同而已）；没登记 authorZh 的照录原文名，
+     例如《Each One Must Shine》的责任者是 Alan Cockerill，不替他编中文名。 */
+  function authorZhOf(card) {
+    var b = bibOf(card.source);
+    if (!b) return MISSING;
+    return b.authorZh || b.author || MISSING;
+  }
+
+  function sectionOf(card) {
+    var loc = card.loc || {};
+    return String(loc.section || "").replace(/[\s。．.；;，,]+$/, "");
+  }
+
+  /* 页码口径：
+   *   1) loc.page = 扫描件第 N 页（1 基），优先；
+   *   2) 没有 loc.page 时，从 ref 里取印刷页码（p. 22 / pp. 82–83 / 第 34 页）；
+   *   3) 都没有 → null（渲染成「页码待补」）。
+   * 两种口径在页面上分别标注，不混为一谈。 */
+  function pageOf(card) {
+    var loc = card.loc || {};
+    if (loc.page !== null && loc.page !== undefined && loc.page !== "") {
+      return { n: String(loc.page), basis: "scan" };
+    }
+    var ref = String(card.ref || "");
+    var m = ref.match(/(?:^|[^A-Za-z])pp?\.\s*(\d+)/);
+    if (!m) m = ref.match(/第\s*(\d+)\s*页/);
+    if (m) return { n: m[1], basis: "ref" };
+    return null;
+  }
+
+  function pagePhrase(card) {
+    var p = pageOf(card);
+    return p ? ("第 " + p.n + " 页") : "页码待补";
+  }
+
+  function excerptsOf(card) {
+    var list = (card.excerpts && card.excerpts.length) ? card.excerpts : (card.excerpt ? [card.excerpt] : []);
+    return list.filter(function (q) { return String(q || "").trim(); });
+  }
+
+  function isParaphrase(card) {
+    return card.excerpt_status === "paraphrase" || excerptsOf(card).length === 0;
+  }
+
+  /* 32 张卡的 excerpt 末尾挂着编者的校勘标注，形如
+   *   …这是很危险的。…（[OCR待校]：引文中“炫耀自己”疑为“炫耀自己”）
+   * 那是**编辑写的话，不是苏霍姆林斯基写的**。卡片页照原样显示（读者需要知道这段 OCR 存疑），
+   * 但引用块里必须剔除，否则粘进论文就是把人家的校勘注当原文。
+   * 剔除后会在格式说明里如实告知，并指向卡片页的校勘记录。 */
+  function stripOcrNotes(s) {
+    return String(s)
+      .replace(/（\s*\[OCR待校\][^）]*）/g, "")
+      .replace(/\[OCR待校\][^）]*/g, "")
+      .replace(/[\s　]+$/, "");
+  }
+
+  function ocrNoteCount(card) {
+    return excerptsOf(card).filter(function (q) { return /OCR待校/.test(q); }).length;
+  }
+
+  function cardUrl(id) {
+    try { return new URL("card.html?id=" + encodeURIComponent(id), location.href).href; }
+    catch (e) { return "card.html?id=" + encodeURIComponent(id); }
+  }
+
+  /* ---------- 三种格式 ---------- */
+
+  function fmtZh(card) {
+    var s = authorZhOf(card) + "：《" + sourceTitle(card.source) + "》";
+    var sec = sectionOf(card);
+    if (sec) s += "，" + sec;
+    return s + "，" + pagePhrase(card) + "。";
+  }
+
+  /* GB/T 7714-2015 顺序：主要责任者. 题名[M]. 其他责任者. 出版地: 出版者, 出版年: 引文页码.
+     缺项用 [待补] 占位；译者只在有具体姓名时进「其他责任者」，「（多人翻译）」这类不编造姓名。 */
+  function gbtOther(b) {
+    var t = String(b.translator || "").trim();
+    if (!t || t.indexOf("多人翻译") >= 0) return "";
+    t = t.replace(/[、，]/g, ", ").replace(/\s+/g, " ").trim();
+    if (!/(编译|译|编)$/.test(t)) t += (b.lang === "en" ? ", 译" : "");
+    else t = t.replace(/\s*(编译|译|编)$/, ", $1");
+    return t;
+  }
+
+  function fmtGbt(card) {
+    var b = bibOf(card.source) || {};
+    var parts = [];
+    parts.push((b.author || MISSING) + ".");
+    parts.push(sourceTitle(card.source) + "[M].");
+    var other = gbtOther(b);
+    if (other) parts.push(other + ".");
+    var head = parts.join(" ");
+    var place = b.place || "[出版地待补]";
+    var pub = b.publisher || "[出版社待补]";
+    var year = b.year || "[出版年待补]";
+    var pg = pageOf(card);
+    var page = pg ? pg.n : "[页码待补]";
+    return head + " " + place + ": " + pub + ", " + year + ": " + page + ".";
+  }
+
+  function fmtMd(card) {
+    var exps = excerptsOf(card);
+    var body;
+    if (isParaphrase(card)) {
+      var summary = String(card.editor_summary || card.cn || "").trim() || "（本卡暂无可用文本）";
+      body = "> " + summary.split(/\n+/).map(function (l) { return l.trim(); }).join("\n> ");
+      body = "> （本卡无逐字原文，下为编者概括，不是苏霍姆林斯基原话）\n>\n" + body;
+    } else {
+      body = exps.map(function (q) {
+        return stripOcrNotes(q).trim().split(/\n+/).map(function (l) { return "> " + l.trim(); }).join("\n");
+      }).join("\n>\n");
+    }
+    var sec = sectionOf(card);
+    var line = "—— " + authorZhOf(card) + "《" + sourceTitle(card.source) + "》" +
+      (sec ? "，" + sec : "") + "，" + pagePhrase(card) + "。";
+    return body + "\n\n" + line + "\n库内卡号：[" + card.id + "](" + cardUrl(card.id) + ")";
+  }
+
+  /* ---------- 搜卡 ---------- */
+
+  function ensureIndex() {
+    if (state.cards) return Promise.resolve(state.cards);
+    if (state.loading) return state.loading;
+    setHint("正在载入全库索引（2682 张卡，约 2.5 MB）…");
+    state.loading = KB.loadIndex().then(function (cards) {
+      state.cards = cards || [];
+      state.loading = null;
+      setHint("索引就绪：" + state.cards.length + " 张卡。输入编号、标题或转述里的词都能搜。");
+      return state.cards;
+    }).catch(function (err) {
+      state.loading = null;
+      setHint("索引载入失败：" + err.message + "（本地请用 http 打开，例如 python -m http.server）");
+      throw err;
+    });
+    return state.loading;
+  }
+
+  function setHint(html) { $("hint").innerHTML = html; }
+
+  function norm(s) { return String(s == null ? "" : s).toLowerCase(); }
+
+  function matchCards(cards, q) {
+    var terms = norm(q).split(/\s+/).filter(Boolean);
+    if (!terms.length) return [];
+    var out = [];
+    for (var i = 0; i < cards.length; i++) {
+      var c = cards[i];
+      var hay = norm(c.id) + " " + norm(c.title) + " " + norm(c.cn) + " " +
+                norm(c.primary_name) + " " + norm(c.ref);
+      var ok = true;
+      for (var t = 0; t < terms.length; t++) {
+        if (hay.indexOf(terms[t]) < 0) { ok = false; break; }
+      }
+      if (!ok) continue;
+      var score = 0;
+      if (norm(c.id) === terms[0]) score += 100;
+      else if (norm(c.id).indexOf(terms[0]) === 0) score += 40;
+      if (norm(c.title).indexOf(terms[0]) >= 0) score += 20;
+      out.push({ card: c, score: score });
+    }
+    out.sort(function (a, b) { return b.score - a.score || a.card.n - b.card.n; });
+    return out;
+  }
+
+  function renderResults(list, total) {
+    var box = $("results");
+    if (!list.length) { box.innerHTML = ""; return; }
+    var max = 15;
+    var html = list.slice(0, max).map(function (item) {
+      var c = item.card;
+      return '<li><button class="cite-res" type="button" data-id="' + esc(c.id) + '">' +
+        '<span class="cite-res-id">' + esc(c.id) + '</span>' +
+        '<span class="cite-res-title">' + esc(c.title) + '</span>' +
+        '<span class="cite-res-src">' + esc(sourceTitle(c.source)) + '</span>' +
+        '</button></li>';
+    }).join("");
+    if (list.length > max) {
+      html += '<li><p class="cite-hint" style="margin:12px 15px">还有 ' + (list.length - max) +
+        ' 条未列出（共 ' + total + ' 条），再输一个词缩小范围。</p></li>';
+    }
+    box.innerHTML = html;
+  }
+
+  function onQuery() {
+    var q = $("q").value.trim();
+    if (!q) {
+      $("results").innerHTML = "";
+      setHint("索引载入后即可在本地匹配（编号、标题、中文转述都能搜）。");
+      return;
+    }
+    if (/^sk-\d{4}$/i.test(q)) {
+      openCard(q.toLowerCase());
+      return;
+    }
+    ensureIndex().then(function (cards) {
+      var list = matchCards(cards, q);
+      renderResults(list, list.length);
+      setHint(list.length
+        ? "匹配到 <b>" + list.length + "</b> 张；点一行打开，或按回车选第一条。"
+        : "没匹配到。试试更短的关键词，或直接粘贴编号（形如 sk-0067）。");
+    }).catch(function () {});
+  }
+
+  /* ---------- 选卡与渲染 ---------- */
+
+  function openCard(id) {
+    id = String(id || "").trim().toLowerCase();
+    if (!id) return;
+    $("q").value = id;
+    $("results").innerHTML = "";
+    setHint("正在取 " + esc(id) + " 的原文与定位…");
+    KB.loadCard(id).then(function (card) {
+      renderCard(card);
+      try {
+        var u = new URL(location.href);
+        u.searchParams.set("id", id);
+        u.hash = "";
+        history.replaceState(null, "", u.href);
+      } catch (e) { /* 无 history 也不影响使用 */ }
+    }).catch(function (err) {
+      $("cardPanel").hidden = true;
+      setHint(err.notFound
+        ? "没有这张卡：" + esc(id) + "。编号形如 sk-0067，可在全库检索里先找到再回来。"
+        : "卡片数据加载失败：" + esc(err.message));
+    });
+  }
+
+  function renderCard(card) {
+    state.card = card;
+    var b = bibOf(card.source) || {};
+    var sec = sectionOf(card);
+    var pg = pageOf(card);
+    var para = isParaphrase(card);
+
+    $("selBadges").innerHTML =
+      '<span class="badge badge--entry">' + esc(card.id) + '</span>' +
+      '<span class="badge">' + esc(KB.typeLabel(card.type)) + '</span>' +
+      '<span class="badge">' + esc(sourceTitle(card.source)) + '</span>' +
+      (para ? '<span class="badge badge-warn">无逐字原文</span>' : '');
+
+    $("selHead").textContent = card.title;
+
+    var exps = excerptsOf(card);
+    $("selExcerpts").innerHTML = para
+      ? '<div class="editor-summary">' +
+          '<div class="editor-summary-head">编者概括<span>原文待补</span></div>' +
+          '<p>' + esc(card.editor_summary || card.cn || "（暂无文本）") + '</p>' +
+          '<p class="editor-summary-note">这一段是编者对原文内容的概括，<b>不是苏霍姆林斯基的原话</b>，不能当引文用。</p>' +
+        '</div>'
+      : exps.map(function (q) { return '<div class="excerpt">' + esc(q) + '</div>'; }).join("");
+
+    var facts = [];
+    facts.push(['出处', esc(sourceTitle(card.source)) + (b.publisher ? ' · ' + esc(b.publisher) : '') + (b.year ? ' · ' + esc(b.year) : '')]);
+    facts.push(['库内定位', pg
+      ? (pg.basis === 'scan' ? '扫描件第 ' + esc(pg.n) + ' 页' : '印刷页码 p. ' + esc(pg.n) + '（取自 ref）') + (sec ? ' · 小节《' + esc(sec) + '》' : '')
+      : '无页码' + (sec ? ' · 小节《' + esc(sec) + '》' : '')]);
+    facts.push(['原文状态', para ? '无逐字原文（编者概括）' : '逐字摘录 · ' + esc(card.excerpt_status || '')]);
+    $("selFacts").innerHTML = facts.map(function (f) {
+      return '<dt>' + f[0] + '</dt><dd>' + f[1] + '</dd>';
+    }).join("");
+
+    $("selRef").textContent = "库内 ref 原串：" + (KB.refText(card.ref) || "—");
+
+    state.formats = { zh: fmtZh(card), gbt: fmtGbt(card), md: fmtMd(card) };
+    $("outZh").textContent = state.formats.zh;
+    $("outGbt").textContent = state.formats.gbt;
+    $("outMd").textContent = state.formats.md;
+
+    $("noteZh").innerHTML = pageNote(card, pg) +
+      (sec ? "" : " 这张卡没有小节定位，脚注里省略了「卷/章节」那一格（不是漏写）。");
+    $("noteGbt").innerHTML = pageNote(card, pg) +
+      (b.place ? "" : " 出版地库内没有记录，已写 <code>[出版地待补]</code>。") +
+      (b.year ? "" : " 出版年库内没有记录，已写 <code>[出版年待补]</code>。") +
+      (gbtOther(b) ? "" : " 译者无具体姓名，GB/T 的「其他责任者」一项省略。");
+    var ocrN = ocrNoteCount(card);
+    $("noteMd").innerHTML = "整块可以直接粘进 Markdown 文档；卡号链接是绝对地址，粘到别处也能点回本站。" +
+      (para ? " 本卡没有逐字原文，块首已注明「编者概括」。" : "") +
+      (ocrN ? " 本卡有 " + ocrN + " 段引文末尾带 [OCR待校] 编者标注，已从引文块剔除（那是校勘注、不是原文）；校勘记录见卡片页。" : "");
+
+    renderGaps(card, b, pg, sec);
+    $("cardPanel").hidden = false;
+    /* theme.js 的渐入把每个 section 先挂 reveal-pending（opacity:0），等
+       IntersectionObserver 或滚动才揭。面板从 hidden 切过来时，若用户没滚动、
+       观察器也没回调，整块会停在不可见——这里直接补上 visible，
+       渐入少一次无所谓，内容看不见不行。 */
+    $("cardPanel").classList.add("visible");
+    setHint("已选中 <b>" + esc(card.id) + "</b>。三种写法见下方，各自可一键复制。");
+    try { $("selTitle").scrollIntoView({ block: "start", behavior: "smooth" }); } catch (e) {}
+  }
+
+  function pageNote(card, pg) {
+    if (!pg) return "页码：这张卡没有页码定位，格式里写「页码待补」。";
+    if (pg.basis === "scan") return "页码口径：库内记的「扫描件第 " + esc(pg.n) + " 页」，不是纸本页脚页码，发表前请照纸本核对。";
+    return "页码取自该卡 ref 字段里的印刷页码（p. " + esc(pg.n) + "），已与 ref 核对，未另行推算。";
+  }
+
+  /* 「缺什么」明写出来：这是使用侧最需要知道的一件事。
+     一条都不缺时也要说清楚「齐了」，否则读者无法判断是没检查还是真没有。 */
+  function renderGaps(card, b, pg, sec) {
+    var lines = [];
+    if (pg) {
+      lines.push("<b>页码</b>：" + (pg.basis === "scan"
+        ? "扫描件第 " + esc(pg.n) + " 页（1 基）；纸本页脚页码待人工核对"
+        : "取自 ref 的印刷页码 p. " + esc(pg.n)));
+    } else {
+      lines.push("<b>页码</b>：<span style=\"color:var(--accent-ink)\">缺</span> — 格式里写「页码待补」，需照纸本补。");
+    }
+    lines.push(sec
+      ? "<b>章节</b>：" + esc(sec)
+      : "<b>章节</b>：<span style=\"color:var(--accent-ink)\">缺</span> — 脚注与 GB/T 里都省略了这一格。");
+    lines.push(b.publisher
+      ? "<b>出版社</b>：" + esc(b.publisher) + (b.pubNote ? "（" + esc(b.pubNote) + "）" : "")
+      : "<b>出版社</b>：<span style=\"color:var(--accent-ink)\">缺</span> — 库内记「" + esc(b.rawPublisher || "未登记") + "」；格式里写 [出版社待补]。");
+    lines.push(b.year
+      ? "<b>出版年</b>：" + esc(b.year)
+      : "<b>出版年</b>：<span style=\"color:var(--accent-ink)\">缺</span> — 格式里写 [出版年待补]，需查版权页。");
+    lines.push("<b>出版地</b>：<span style=\"color:var(--accent-ink)\">缺</span> — 13 个书源都没记出版地，格式里写 [出版地待补]。");
+    if (b.translator) lines.push("<b>译者 / 编者</b>：" + esc(b.translator));
+    else if (b.transNote) lines.push("<b>译者 / 编者</b>：缺 — " + esc(b.transNote));
+    $("gapList").innerHTML = lines.map(function (s) { return "<li>" + s + "</li>"; }).join("");
+  }
+
+  /* ---------- 复制 ---------- */
+
+  function copyText(text) {
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      return navigator.clipboard.writeText(text);
+    }
+    return new Promise(function (resolve, reject) {
+      var ta = document.createElement("textarea");
+      ta.value = text;
+      ta.setAttribute("readonly", "");
+      ta.style.position = "fixed";
+      ta.style.left = "-9999px";
+      document.body.appendChild(ta);
+      ta.select();
+      var ok = false;
+      try { ok = document.execCommand("copy"); } catch (e) { ok = false; }
+      document.body.removeChild(ta);
+      ok ? resolve() : reject(new Error("execCommand copy 失败"));
+    });
+  }
+
+  document.addEventListener("click", function (ev) {
+    var btn = ev.target.closest ? ev.target.closest("[data-copy]") : null;
+    if (!btn) return;
+    var key = btn.getAttribute("data-copy");
+    var text = state.formats[key];
+    if (!text) return;
+    var label = btn.textContent;
+    copyText(text).then(function () {
+      btn.textContent = "已复制 ✓";
+      setTimeout(function () { btn.textContent = label; }, 1600);
+    }).catch(function () {
+      btn.textContent = "复制失败，请手动选中";
+      setTimeout(function () { btn.textContent = label; }, 2400);
+    });
+  });
+
+  /* ---------- 事件绑定 ---------- */
+
+  var timer = null;
+  $("q").addEventListener("input", function () {
+    clearTimeout(timer);
+    timer = setTimeout(onQuery, 140);
+  });
+  $("q").addEventListener("focus", function () { ensureIndex().catch(function () {}); });
+  $("q").addEventListener("keydown", function (ev) {
+    if (ev.key !== "Enter") return;
+    var q = $("q").value.trim();
+    if (/^sk-\d{4}$/i.test(q)) { ev.preventDefault(); openCard(q); return; }
+    var first = $("results").querySelector("[data-id]");
+    if (first) { ev.preventDefault(); openCard(first.getAttribute("data-id")); }
+  });
+
+  $("results").addEventListener("click", function (ev) {
+    var btn = ev.target.closest ? ev.target.closest("[data-id]") : null;
+    if (btn) openCard(btn.getAttribute("data-id"));
+  });
+
+  Array.prototype.forEach.call(document.querySelectorAll("[data-sample]"), function (el) {
+    el.addEventListener("click", function () { openCard(el.getAttribute("data-sample")); });
+  });
+
+  $("randBtn").addEventListener("click", function () {
+    var btn = this;
+    btn.disabled = true;
+    KB.loadIds().then(function (ids) {
+      var id = ids[Math.floor(Math.random() * ids.length)];
+      openCard(id);
+    }).catch(function (err) {
+      setHint("取随机卡失败：" + esc(err.message));
+    }).then(function () { btn.disabled = false; });
+  });
+
+  /* 深链：cite.html?id=sk-0067 或 #sk-0067 直接打开 */
+  (function boot() {
+    var id = "";
+    try { id = new URLSearchParams(location.search).get("id") || ""; } catch (e) { id = ""; }
+    if (!id) id = (location.hash || "").replace(/^#/, "");
+    if (/^sk-\d{4}$/i.test(id)) { openCard(id); return; }
+    ensureIndex().catch(function () {});
+  })();
+})();
+</script>
+</body>
+</html>

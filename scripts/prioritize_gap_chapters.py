@@ -189,7 +189,7 @@ if _tw and _ctp:
         for _k in _ctp:
             _n_t = _ctp[_k].get(_t, 0)
             _n_all = sum(_ctp[_k].values())
-            if _n_t >= 2 and _n_all > 0 and (_n_t / float(_n_all)) >= 0.34:
+            if _n_t >= 2 and _n_all > 0 and (_n_t / float(_n_all)) >= 0.5:
                 _cands.append((_k[0], _k[1], _n_t, _n_all))
         _cands.sort(key=lambda x: (-x[2], x[3]))
         _hit = []

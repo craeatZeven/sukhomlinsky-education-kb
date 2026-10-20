@@ -8,6 +8,7 @@ publisher: "未知（电子版，对应教育科学出版社常见中译本）"
 place: "北京"
 place_basis: "出版社社址：教育科学出版社 在 北京"
 year: 
+year_basis: "已查 Open Library / 上海图书馆 OPAC（限流）：未取得出版年，保持空值不猜"
 url: ""
 access_date: "2026-09-06"
 rights_status: in-copyright-short-quotes-only

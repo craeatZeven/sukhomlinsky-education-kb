@@ -8,6 +8,7 @@ publisher: "Raduga Publishers"
 place: "Moscow"
 place_basis: "出版社社址：Raduga Publishers 在 Moscow"
 year: 
+year_basis: "已查 Open Library / Google Books / 印度 Azim Premji 大学 OPAC（403）/ 威斯康星大学目录（JS 页）：均未取得出版年，保持空值不猜"
 url: "https://archive.org/details/TheSingingFeather"
 access_date: "2026-09-07"
 rights_status: in-copyright-short-quotes-only

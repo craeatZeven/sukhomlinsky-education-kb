@@ -7,7 +7,7 @@ translator: "Holly Smith"
 publisher: "Progress Publishers"
 place: "Moscow"
 place_basis: "出版社社址：Progress Publishers 在 Moscow"
-year: 
+year: 1981
 url: "https://archive.org/details/ToChildrenIGiveMyHeart-English-VasilySukhomlinsky"
 access_date: "2026-09-06"
 rights_status: translation-license-unknown

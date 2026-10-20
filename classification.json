@@ -44813,5 +44813,158 @@
   ],
   "evidence_unverified": false,
   "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2605": {
+  "primary": "A16",
+  "seealso": [],
+  "facets": [],
+  "claim": "不能允许用分数娇纵学生：随口回答就给5分、一问多人全给分，会养成轻率的学习态度；分数应当是智力上作出努力的结果。",
+  "evidence": "然而也不能允许用分数来娇纵学生，遗憾的是，这正好经常在学校中发生。只要孩子说出了一个词，马上就给他打一个5分。往往还有这样的情况：用同一个问题提问好几个学生，而每个学生都得了分数。其结果是形成了孩子对学习的轻率态度。孩子始终应当意识到分数是",
+  "title": "滥用5分",
+  "old_topics": [
+   "assessment-grading"
+  ],
+  "type": "quote",
+  "tags": [
+   "A16"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2606": {
+  "primary": "A16",
+  "seealso": [],
+  "facets": [],
+  "claim": "「实行更严厉的惩罚以根除犯罪」是不正确的：童年、少年和青年早期没有惩罚的必要，才不会产生犯罪现象。",
+  "evidence": "还经常听得到这样的议论：为了一劳永逸地根除犯罪现象，应当实行更强硬、更严厉的惩罚。这是不正确的！假如在童年、少年和青年早期没有惩罚，更确切地说，假如没有惩罚的必要性，那也就不会有犯罪现象。",
+  "title": "重罚不除犯罪",
+  "old_topics": [
+   "assessment-grading"
+  ],
+  "type": "quote",
+  "tags": [
+   "A16"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2607": {
+  "primary": "A16",
+  "seealso": [],
+  "facets": [],
+  "claim": "教师若以让家长知道2分相威胁并采取激烈措施，学生会怀恨教师与学校、视学习如牛负重，并变得粗野冷酷。",
+  "evidence": "如果学生感到，教师巴不得要让家长知道他的2分并对他采取激烈措施，那他定会对教师和学校怀恨在心，学习对他来说就如牛负重。而由此而来的便往往是迁移到待人态度上的粗野和冷酷。许多创伤到头来是会留下疤痕的，而冷酷心肠则恰是这些疤痕的产物，儿童在饱受",
+  "title": "2分羞辱的后果",
+  "old_topics": [
+   "assessment-grading"
+  ],
+  "type": "quote",
+  "tags": [
+   "A16"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2608": {
+  "primary": "A7",
+  "seealso": [],
+  "facets": [],
+  "claim": "童年营养决定身体各部分的和谐匀称与骨组织发育；缺乏矿物质和维生素会使骨骼发育不谐调并留下终生影响。",
+  "evidence": "童年时代的营养如何，决定着身体各部分的和谐和匀称，决定着骨组织特别是胸腔的正常发育。多年的观察表明，食物里缺乏矿物质和维生素会使骨骼的某些部分发育不谐调，对人的体格留下终生的影响。为了预防这种情况，我注意让学生的伙食有足够含量的维生素，食物",
+  "title": "营养与体格",
+  "old_topics": [
+   "health-first"
+  ],
+  "type": "quote",
+  "tags": [
+   "A7"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2609": {
+  "primary": "A7",
+  "seealso": [],
+  "facets": [],
+  "claim": "健康状况取决于家庭作业的布置方式、完成时间与情绪色彩；带着厌烦做作业会压抑精神力量并扰乱内部器官，甚至导致胃肠道疾病。",
+  "evidence": "在儿童的和谐发展中，一切都是相互联系的。健康状况也取决于教师给儿童布置了哪些家庭作业，以及他们是怎样和在什么时候来完成这些作业的。在家里的独立脑力劳动的情感色彩也起着很大的作用。如果儿童是带着很不愿意的情绪去拿起书本的，那末这就不仅压抑了他",
+  "title": "作业情绪与消化",
+  "old_topics": [
+   "health-first"
+  ],
+  "type": "quote",
+  "tags": [
+   "A7"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2610": {
+  "primary": "A7",
+  "seealso": [],
+  "facets": [],
+  "claim": "许多感冒并非传染病，而是敏感机体对周围环境急剧变化的反应；最敏感的是双脚，脚一着凉就容易患非传染性感冒。",
+  "evidence": "治疗感冒是没有什么特效药的。医学科学已经证明：有许多种感冒并不是传染病，而只是敏感的机体对于周围环境急剧变化的反应。多年的经验证明，特别敏感的是双脚。如果一个人的脚害怕有一点点着凉，他就容易患非传染性的感冒。",
+  "title": "感冒与双脚",
+  "old_topics": [
+   "health-first"
+  ],
+  "type": "quote",
+  "tags": [
+   "A7"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2611": {
+  "primary": "A13",
+  "seealso": [],
+  "facets": [],
+  "claim": "要教育学生不仅读书、而且对某些书反复读，使反复阅读成为精神需求；其前提是文学课让学生感受到语言的美。",
+  "evidence": "要教育学生不仅要读书，而且对某些书要反复地读。反复地读一本好书，就像反复地欣赏喜爱的音乐作品一样，应当成为学生的精神需求。那么，怎样才能使学生做到这一点呢？当然，主要还是教师要教好文学课。要让学生从小就能体会到语言的优美、馨香和细微色彩，要",
+  "title": "好书要反复读",
+  "old_topics": [
+   "reading-and-books"
+  ],
+  "type": "quote",
+  "tags": [
+   "A13"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2612": {
+  "primary": "A13",
+  "seealso": [],
+  "facets": [],
+  "claim": "想让青年渴求知识，就要关心图书馆与学生个人藏书；毕业时书架只有教科书，说明教育不成功。",
+  "evidence": "你想让青年如饥似渴地追求知识，你就要关心精神文明的最重要的基地—图书馆。我指的不仅是学校图书馆，还包括学生的个人藏书。你的学生快要毕业了，他个人有多少藏书？如果他的书架上只有教科书，而且准备把它们转送给小同学，那就说明你对他的教育不是成功的",
+  "title": "个人藏书是镜子",
+  "old_topics": [
+   "reading-and-books"
+  ],
+  "type": "quote",
+  "tags": [
+   "A13"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
+ },
+ "sk-2613": {
+  "primary": "A13",
+  "seealso": [],
+  "facets": [],
+  "claim": "教师应关心中高年级学生个人藏书中有丰富的科学书籍；只有独立阅读满足多方面智力兴趣，才能在少年期深入钻研某个领域。",
+  "evidence": "我们的教师还特别关心让每一个中年级和高年级学生的个人藏书里有丰富的科学书籍。一个人在少年和青年早期的年代里，就应当开始深入钻研人类知识的某一个领域。只有通过独立阅读来满足学生多方面的智力兴趣，才能在此基础上进行深入的钻研。要让一个人在少年期",
+  "title": "藏书里的科学书",
+  "old_topics": [
+   "reading-and-books"
+  ],
+  "type": "quote",
+  "tags": [
+   "A13"
+  ],
+  "evidence_unverified": false,
+  "provenance": "内容增长（new_cards_from_spec）"
  }
 }

@@ -7,14 +7,14 @@
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 211 |
 | [family-school](topics/family-school.md) | 家校合作 | 401 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 391 |
-| [health-first](topics/health-first.md) | 健康第一 | 111 |
+| [health-first](topics/health-first.md) | 健康第一 | 114 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 326 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 469 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 508 |
 | [love-education](topics/love-education.md) | 爱的教育 | 803 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 110 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 113 |
 | [child-study](topics/child-study.md) | 儿童研究 | 732 |
-| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 148 |
+| [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 151 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 328 |
 
 ## 来源 Sources
@@ -2637,3 +2637,12 @@
 | [sk-2602](cards/sk-2602-self-reproach-needs-an-ideal.md) | quote | assessment-grading | xuan-ji-zh-vol2 | 要让一个人自责，先得给他一个理想 |
 | [sk-2603](cards/sk-2603-read-heroes-measure-yourself.md) | quote | reading-and-books | gei-jiao-shi-de-jian-yi-zh | 读英雄人物的书，要一边读一边对照自己 |
 | [sk-2604](cards/sk-2604-exhilaration-lifts-knowledge.md) | quote | reading-and-books | gei-jiao-shi-de-jian-yi-zh | 读书带来的精神振奋，能把大块的知识举起来 |
+| [sk-2605](cards/sk-2605-inflating-fives-breeds-carelessness.md) | quote | assessment-grading | xuan-ji-zh-vol3 | 用5分讨好学生，会养成对学习的轻率态度 |
+| [sk-2606](cards/sk-2606-harsher-punishment-does-not-remove-crime.md) | quote | assessment-grading | xuan-ji-zh-vol5 | 加重惩罚根除不了犯罪，犯罪源于童年期「需要惩罚」 |
+| [sk-2607](cards/sk-2607-two-points-as-threat-breeds-hate.md) | quote | assessment-grading | xuan-ji-zh-vol5 | 拿2分去惊动家长，会把学校变成学生怀恨的地方 |
+| [sk-2608](cards/sk-2608-childhood-nutrition-builds-body.md) | quote | health-first | gei-jiao-shi-de-jian-yi-zh | 童年营养决定体格，缺维生素矿物质会留终生影响 |
+| [sk-2609](cards/sk-2609-homework-emotion-affects-digestion.md) | quote | health-first | gei-jiao-shi-de-jian-yi-zh | 带着厌烦去做家庭作业，会伤到消化机能 |
+| [sk-2610](cards/sk-2610-colds-are-reactions-not-infection.md) | quote | health-first | gei-jiao-shi-de-jian-yi-zh | 感冒多不是传染病，而是身体对骤变的反应，敏感点在双脚 |
+| [sk-2611](cards/sk-2611-reread-good-books-as-need.md) | quote | reading-and-books | xuan-ji-zh-vol4 | 好书要反复读，让它像喜爱的乐曲一样成为精神需求 |
+| [sk-2612](cards/sk-2612-personal-library-is-a-mirror.md) | quote | reading-and-books | xuan-ji-zh-vol4 | 毕业时书架只有教科书，说明教育并不成功 |
+| [sk-2613](cards/sk-2613-science-books-in-personal-library.md) | quote | reading-and-books | gei-jiao-shi-de-jian-yi-zh | 个人藏书里要有科学书：少年期就该钻研一个领域 |

@@ -1,5 +1,5 @@
 {
-  "total_cards": 2599,
+  "total_cards": 2608,
   "source_count": 12,
   "topic_count": 12,
   "zuoren_cards": 541,
@@ -20,7 +20,7 @@
     {
       "slug": "xuan-ji-zh-vol5",
       "title": "苏霍姆林斯基选集（五卷本）第5卷",
-      "cards": 364,
+      "cards": 366,
       "page_refs": 109
     },
     {
@@ -32,19 +32,19 @@
     {
       "slug": "xuan-ji-zh-vol4",
       "title": "苏霍姆林斯基选集（五卷本）第4卷",
-      "cards": 326,
+      "cards": 328,
       "page_refs": 41
     },
     {
       "slug": "xuan-ji-zh-vol3",
       "title": "苏霍姆林斯基选集（五卷本）第3卷",
-      "cards": 300,
+      "cards": 301,
       "page_refs": 51
     },
     {
       "slug": "gei-jiao-shi-de-jian-yi-zh",
       "title": "给教师的建议",
-      "cards": 162,
+      "cards": 166,
       "page_refs": 23
     },
     {
@@ -81,7 +81,7 @@
   "types": [
     {
       "type": "quote",
-      "cards": 1472
+      "cards": 1481
     },
     {
       "type": "case",
@@ -149,17 +149,17 @@
     {
       "slug": "reading-and-books",
       "title": "阅读与书籍",
-      "cards": 148
+      "cards": 151
     },
     {
       "slug": "health-first",
       "title": "健康第一",
-      "cards": 111
+      "cards": 114
     },
     {
       "slug": "assessment-grading",
       "title": "评价与分数",
-      "cards": 110
+      "cards": 113
     }
   ]
 }

@@ -81,7 +81,7 @@ def quote_bad_items(specpath):
                 if ln.startswith(">"):
                     old.append(ln)
     oldtext = re.sub(r"\s+", "", "".join(old))
-    oldset = set(oldtext[i:i + 12] for i in range(max(0, len(oldtext) - 11)))
+    oldset = set(oldtext[i:i + 10] for i in range(max(0, len(oldtext) - 9)))
     conn = sqlite3.connect(os.path.join(W, "local_working_copy", "fulltext", "corpus.db"))
     conn.row_factory = sqlite3.Row
     bad = []
@@ -107,7 +107,7 @@ def quote_bad_items(specpath):
             q = t[i:j + len(qt)]
         else:
             q = t
-        sh = set(q[k:k + 12] for k in range(max(0, len(q) - 11)))
+        sh = set(q[k:k + 12] for k in range(max(0, len(q) - 9)))
         if sh & oldset:
             bad.append(str(it.get("id")))
     return bad

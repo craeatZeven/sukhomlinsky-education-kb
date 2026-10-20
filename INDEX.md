@@ -7,12 +7,12 @@
 | [learning-difficulties](topics/learning-difficulties.md) | 学习困难学生（后进生） | 211 |
 | [family-school](topics/family-school.md) | 家校合作 | 401 |
 | [labor-education](topics/labor-education.md) | 劳动教育 | 391 |
-| [health-first](topics/health-first.md) | 健康第一 | 114 |
+| [health-first](topics/health-first.md) | 健康第一 | 151 |
 | [aesthetic-nature-education](topics/aesthetic-nature-education.md) | 美育与自然 | 326 |
 | [collective-education](topics/collective-education.md) | 集体教育 | 469 |
 | [teacher-growth](topics/teacher-growth.md) | 教师成长 | 508 |
 | [love-education](topics/love-education.md) | 爱的教育 | 803 |
-| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 113 |
+| [assessment-grading](topics/assessment-grading.md) | 评价与分数 | 140 |
 | [child-study](topics/child-study.md) | 儿童研究 | 732 |
 | [reading-and-books](topics/reading-and-books.md) | 阅读与书籍 | 151 |
 | [thinking-and-nature](topics/thinking-and-nature.md) | 思维课与大自然 | 328 |
@@ -2646,3 +2646,67 @@
 | [sk-2611](cards/sk-2611-reread-good-books-as-need.md) | quote | reading-and-books | xuan-ji-zh-vol4 | 好书要反复读，让它像喜爱的乐曲一样成为精神需求 |
 | [sk-2612](cards/sk-2612-personal-library-is-a-mirror.md) | quote | reading-and-books | xuan-ji-zh-vol4 | 毕业时书架只有教科书，说明教育并不成功 |
 | [sk-2613](cards/sk-2613-science-books-in-personal-library.md) | quote | reading-and-books | gei-jiao-shi-de-jian-yi-zh | 个人藏书里要有科学书：少年期就该钻研一个领域 |
+| [sk-2614](cards/sk-2614-illness-prevention-before-cure.md) | quote | health-first | xuan-ji-zh-vol4 | 防病先于治病：作息、饮食与露天睡眠 |
+| [sk-2615](cards/sk-2615-eyesight-rest-not-reading.md) | quote | health-first | xuan-ji-zh-vol3 | 三年级就戴眼镜：问题多半不在读书多 |
+| [sk-2616](cards/sk-2616-labour-as-gymnastics.md) | quote | health-first | xuan-ji-zh-vol1 | 劳动动作可与体操比美 |
+| [sk-2617](cards/sk-2617-winter-outdoor-labour.md) | quote | health-first | xuan-ji-zh-vol4 | 冬季户外劳动是锻炼身体的极好手段 |
+| [sk-2618](cards/sk-2618-air-food-spirit-three-sources.md) | quote | health-first | xuan-ji-zh-vol3 | 空气、营养与精神生活是健康的三个源泉 |
+| [sk-2619](cards/sk-2619-study-child-from-health.md) | quote | health-first | xuan-ji-zh-vol4 | 研究儿童从研究健康状况入手 |
+| [sk-2620](cards/sk-2620-special-regime-and-desks.md) | quote | health-first | xuan-ji-zh-vol4 | 特殊作息制度与课桌椅的高度 |
+| [sk-2621](cards/sk-2621-harden-feet-first.md) | quote | health-first | xuan-ji-zh-vol3 | 增强体质从锻炼脚开始 |
+| [sk-2622](cards/sk-2622-no-drugs-just-air.md) | quote | health-first | xuan-ji-zh-vol4 | 不用药物，让孩子壮起来 |
+| [sk-2623](cards/sk-2623-twenty-six-colds-tracked.md) | quote | health-first | xuan-ji-zh-vol4 | 26个常感冒孩子的跟踪 |
+| [sk-2624](cards/sk-2624-no-meetings-after-class.md) | quote | health-first | xuan-ji-zh-vol3 | 紧张的脑力劳动之后不宜开会 |
+| [sk-2625](cards/sk-2625-simple-plain-food.md) | quote | health-first | xuan-ji-zh-vol3 | 给儿童简单普通的食物 |
+| [sk-2626](cards/sk-2626-no-oxygen-deficit.md) | quote | health-first | xuan-ji-zh-vol3 | 缺氧是关心儿童健康的最重要前提之一 |
+| [sk-2627](cards/sk-2627-retention-is-medical.md) | quote | health-first | xuan-ji-zh-vol4 | 留级生背后的病理原因 |
+| [sk-2628](cards/sk-2628-health-data-18-months-early.md) | quote | health-first | gei-jiao-shi-de-jian-yi-zh | 开学一年半前就掌握学生的健康资料 |
+| [sk-2629](cards/sk-2629-winter-is-also-a-season.md) | quote | health-first | xuan-ji-zh-vol3 | 冬季也是锻炼的季节 |
+| [sk-2630](cards/sk-2630-morning-exercise-habit.md) | quote | health-first | gei-jiao-shi-de-jian-yi-zh | 早操习惯要在童年早期固定下来 |
+| [sk-2631](cards/sk-2631-three-rules-of-daily-regime.md) | quote | health-first | xuan-ji-zh-vol1 | 作息制度的三条基本要求 |
+| [sk-2632](cards/sk-2632-rest-as-a-skill.md) | quote | health-first | xuan-ji-zh-vol3 | 善于休息同善于工作一样重要 |
+| [sk-2633](cards/sk-2633-beauty-not-speed.md) | quote | health-first | xuan-ji-zh-vol4 | 比赛比动作的美，不比速度 |
+| [sk-2634](cards/sk-2634-posture-beauty-drives-exercise.md) | quote | health-first | xuan-ji-zh-vol4 | 体态美的自我培养是早操的动力 |
+| [sk-2635](cards/sk-2635-hardest-work-first.md) | quote | health-first | xuan-ji-zh-vol4 | 一天从最难的工作开始 |
+| [sk-2636](cards/sk-2636-same-waking-time.md) | quote | health-first | xuan-ji-zh-vol4 | 同一时间起床的孩子精神更饱满 |
+| [sk-2637](cards/sk-2637-health-measures-yield-grades.md) | quote | health-first | xuan-ji-zh-vol4 | 饮食与户外时间换来的学业结果 |
+| [sk-2638](cards/sk-2638-regime-as-moral-education.md) | quote | health-first | xuan-ji-zh-vol4 | 遵守作息制度的德育意义 |
+| [sk-2639](cards/sk-2639-august-in-nature.md) | quote | health-first | xuan-ji-zh-vol3 | 在大自然里过完八月 |
+| [sk-2640](cards/sk-2640-minerals-and-posture.md) | quote | health-first | xuan-ji-zh-vol3 | 缺矿物质会让体态终生受影响 |
+| [sk-2641](cards/sk-2641-never-caught-cold.md) | quote | health-first | xuan-ji-zh-vol3 | 从未感冒的班级是怎么养成的 |
+| [sk-2642](cards/sk-2642-no-minute-wasted-harmful.md) | quote | health-first | xuan-ji-zh-vol3 | “课堂一分钟也不能丢”对有些孩子完全无法承受 |
+| [sk-2643](cards/sk-2643-nap-and-breathing.md) | quote | health-first | xuan-ji-zh-vol3 | 午饭后躺半小时，并教呼吸 |
+| [sk-2644](cards/sk-2644-optimism-prevents-illness.md) | quote | health-first | xuan-ji-zh-vol3 | 乐观情绪是预防疾病的最好方法 |
+| [sk-2645](cards/sk-2645-two-kinds-of-rest.md) | quote | health-first | xuan-ji-zh-vol1 | 休息分为两种，只有一种是真休息 |
+| [sk-2646](cards/sk-2646-green-classroom.md) | quote | health-first | xuan-ji-zh-vol1 | 绿色教室与校园小气候 |
+| [sk-2647](cards/sk-2647-why-teenagers-tire.md) | quote | health-first | xuan-ji-zh-vol3 | 少年为什么容易疲劳和头晕 |
+| [sk-2648](cards/sk-2648-individual-approach-by-health.md) | quote | health-first | gei-jiao-shi-de-jian-yi-zh | 按健康状况个别对待 |
+| [sk-2649](cards/sk-2649-walnut-trees-outside-window.md) | quote | health-first | xuan-ji-zh-vol3 | 窗外的核桃树 |
+| [sk-2650](cards/sk-2650-idleness-is-not-rest.md) | quote | health-first | xuan-ji-zh-vol2 | 把游手好闲叫作“儿童的夏季休息”是荒唐的 |
+| [sk-2651](cards/sk-2651-blank-mark-worse-than-two.md) | quote | assessment-grading | xuan-ji-zh-vol3 | 没有成绩比2分更像灾祸 |
+| [sk-2652](cards/sk-2652-praise-as-energy-source.md) | quote | assessment-grading | xuan-ji-zh-vol4 | 表扬是难教儿童内在精力的源泉 |
+| [sk-2653](cards/sk-2653-three-is-satisfactory.md) | quote | assessment-grading | gei-jiao-shi-de-jian-yi-zh | “三分”是对完全令人满意的知识的鉴定 |
+| [sk-2654](cards/sk-2654-memory-volume-is-wrong-standard.md) | quote | assessment-grading | xuan-ji-zh-vol5 | 以记忆量评价脑力劳动是读死书的祸根 |
+| [sk-2655](cards/sk-2655-no-right-standard-is-disaster.md) | quote | assessment-grading | gei-jiao-shi-de-jian-yi-zh | 没找到评定脑力劳动的正确标准，是真正的灾难 |
+| [sk-2656](cards/sk-2656-reading-scores-as-data.md) | quote | assessment-grading | xuan-ji-zh-vol4 | 校长用朗读评分的数据说话 |
+| [sk-2657](cards/sk-2657-abolish-three-is-self-harm.md) | quote | assessment-grading | xuan-ji-zh-vol3 | “消灭3分”的口号是在挖自己的墙脚 |
+| [sk-2658](cards/sk-2658-two-classes-by-marks.md) | quote | assessment-grading | xuan-ji-zh-vol3 | 凭成绩把孩子分成两类 |
+| [sk-2659](cards/sk-2659-threaten-with-two.md) | quote | assessment-grading | xuan-ji-zh-vol3 | 用“给你打2分”来威胁 |
+| [sk-2660](cards/sk-2660-no-mark-for-silence.md) | quote | assessment-grading | xuan-ji-zh-vol4 | 操行评定不给“沉默的5分” |
+| [sk-2661](cards/sk-2661-praise-targets-wrong-thing.md) | quote | assessment-grading | xuan-ji-zh-vol2 | 夸奖的对象常常不是劳动 |
+| [sk-2662](cards/sk-2662-school-neurosis-from-injustice.md) | quote | assessment-grading | xuan-ji-zh-vol3 | 学校神经官能症是不公正的产物 |
+| [sk-2663](cards/sk-2663-evaluating-ability-with-tact.md) | quote | assessment-grading | xuan-ji-zh-vol3 | 评价才能需要非常注意分寸 |
+| [sk-2664](cards/sk-2664-assess-after-achievement.md) | quote | assessment-grading | gei-jiao-shi-de-jian-yi-zh | 等取得成绩时再评定 |
+| [sk-2665](cards/sk-2665-indifference-to-two-marks.md) | quote | assessment-grading | xuan-ji-zh-vol4 | 班上有人总得2分而大家习以为常 |
+| [sk-2666](cards/sk-2666-knowledge-dropped-after-exam.md) | quote | assessment-grading | xuan-ji-zh-vol5 | 积累知识是为了在考试以后摆脱知识 |
+| [sk-2667](cards/sk-2667-emotional-side-of-assessment.md) | quote | assessment-grading | xuan-ji-zh-vol4 | 对学习成绩的情感评价 |
+| [sk-2668](cards/sk-2668-never-show-loss-of-faith.md) | quote | assessment-grading | gei-jiao-shi-de-jian-yi-zh | 不要让学习困难的孩子看出你已对他失去信心 |
+| [sk-2669](cards/sk-2669-gloom-numbs-the-brain.md) | quote | assessment-grading | gei-jiao-shi-de-jian-yi-zh | 苦闷的心情会使大脑麻木 |
+| [sk-2670](cards/sk-2670-a-failing-mark-is-grief.md) | quote | assessment-grading | xuan-ji-zh-vol3 | 一个不及格的分数是重大的忧患 |
+| [sk-2671](cards/sk-2671-dont-rush-strict-assessment.md) | quote | assessment-grading | xuan-ji-zh-vol4 | 不要急于按评分标准严格评定 |
+| [sk-2672](cards/sk-2672-no-collective-stake-in-marks.md) | quote | assessment-grading | xuan-ji-zh-vol5 | 班里没有“利害攸关”的集体气氛 |
+| [sk-2673](cards/sk-2673-former-failures-find-joy.md) | quote | assessment-grading | xuan-ji-zh-vol5 | 从前不及格的学生开始体验到欢乐 |
+| [sk-2674](cards/sk-2674-differentiation-is-fluid.md) | quote | assessment-grading | gei-jiao-shi-de-jian-yi-zh | 一个班分化成三部分人并不可怕 |
+| [sk-2675](cards/sk-2675-score-gap-suspicion.md) | quote | assessment-grading | xuan-ji-zh-vol4 | 五至七年级不及格人数比低年级多六倍 |
+| [sk-2676](cards/sk-2676-critical-view-of-own-results.md) | quote | assessment-grading | xuan-ji-zh-vol3 | 学会批判地对待自己取得的成绩 |
+| [sk-2677](cards/sk-2677-heroes-names-under-marks.md) | quote | assessment-grading | xuan-ji-zh-vol5 | 把英雄的名字抄进班级日志，再在下面写分数 |

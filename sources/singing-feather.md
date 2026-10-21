@@ -8,7 +8,8 @@ publisher: "Raduga Publishers"
 place: "Moscow"
 place_basis: "出版社社址：Raduga Publishers 在 Moscow"
 year: 
-year_basis: "已查 Open Library / Google Books / 印度 Azim Premji 大学 OPAC（403）/ 威斯康星大学目录（JS 页）：均未取得出版年，保持空值不猜"
+year_basis: "出版年未取得。查证记录（2026-10-21）：① Open Library 无此书记录 ② Google Books 0 命中 ③ 印度 Azim Premji 大学 KOHA 书目(114674) 返回 Cloudflare 403，真浏览器(Playwright+Edge)亦被 'Sorry, you have been blocked' 拦下 ④ 威斯康星大学目录页为纯 JS 渲染，静态抓取无可读字段 ⑤ archive.org 该扫描件元数据只有 title/creator/language，无 date/publisher ⑥ 该书在库内语料仅 15 个 unit，其中一处为俄文版权说明（Поющее перо 译自俄文），不含出版年。→ 保持空值，等纸本版权页。"
+year_basis: "出版年未取得。查证记录（2026-10-21）：① Open Library 无此书记录 ② Google Books 0 命中 ③ 印度 Azim Premji 大学 KOHA 书目(114674) 返回 Cloudflare 403，真浏览器(Playwright+Edge)亦被 'Sorry, you have been blocked' 拦下 ④ 威斯康星大学目录页为纯 JS 渲染，静态抓取无可读字段 ⑤ archive.org 该扫描件元数据只有 title/creator/language，无 date/publisher ⑥ 该书在库内语料仅 15 个 unit，其中一处为俄文版权说明（Поющее перо 译自俄文），不含出版年。→ 保持空值，等纸本版权页。"
 url: "https://archive.org/details/TheSingingFeather"
 access_date: "2026-09-07"
 rights_status: in-copyright-short-quotes-only

@@ -8,7 +8,8 @@ publisher: "未知（电子版，对应教育科学出版社常见中译本）"
 place: "北京"
 place_basis: "出版社社址：教育科学出版社 在 北京"
 year: 
-year_basis: "已查 Open Library / 上海图书馆 OPAC（限流）：未取得出版年，保持空值不猜"
+year_basis: "出版年未取得。查证记录（2026-10-21）：① Open Library 无此书中译记录 ② 上海图书馆 vufind 返回'验证过于频繁' ③ 佛山市图书馆 ILASOPAC 记录(recno=3306579) 直连 ERR_CONNECTION_CLOSED，真浏览器同样连不上 ④ 库内语料该书 530 个 unit 全部 page=None 且起于正文第一章，扫描件未含版权页/扉页。→ 保持空值，等纸本版权页（或电子本前几页截图）。"
+year_basis: "出版年未取得。查证记录（2026-10-21）：① Open Library 无此书中译记录 ② 上海图书馆 vufind 返回'验证过于频繁' ③ 佛山市图书馆 ILASOPAC 记录(recno=3306579) 直连 ERR_CONNECTION_CLOSED，真浏览器同样连不上 ④ 库内语料该书 530 个 unit 全部 page=None 且起于正文第一章，扫描件未含版权页/扉页。→ 保持空值，等纸本版权页（或电子本前几页截图）。"
 url: ""
 access_date: "2026-09-06"
 rights_status: in-copyright-short-quotes-only

@@ -25,6 +25,64 @@
 <link rel="icon" href="icon.svg" type="image/svg+xml" />
 <link rel="stylesheet" href="style.css?v=20260920v39">
 <link rel="stylesheet" href="kit-subset.css?v=20260918a">
+<style id="kb-search-v2">
+/* 检索页改版（2026-11-21，web-standard 事例 runs/20261121-kb-search-example）
+   需求卡 C1–C6 / A1–A5 / S1–S5；参考 B（Marginalia 密集文字列表），配色与玻璃沿用全站变量。 */
+.cv-petal { display: none !important; }            /* 装饰减量：停掉无限飘落的花瓣；藤蔓与玻璃保留 */
+.kb-top { padding: 26px 0 4px; }
+.kb-top h1 { font-size: 26px; margin: 0 0 12px; letter-spacing: .02em; }
+.kb-layout { display: grid; grid-template-columns: minmax(0, 220px) minmax(0, 1fr); gap: 28px; align-items: start; margin-top: 6px; }
+.kb-aside { position: sticky; top: calc(var(--nav-h, 64px) + 12px); display: flex; flex-direction: column; gap: 18px; min-width: 0; }
+.kb-aside h2 { font-size: 12px; letter-spacing: .14em; color: var(--soft); margin: 0 0 6px; font-weight: 700; }
+.kb-topics { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.kb-topic { width: 100%; min-height: 40px; display: flex; align-items: center; justify-content: space-between; gap: 8px;
+  padding: 6px 10px; border: 0; border-radius: 2px; background: transparent; color: var(--ink);
+  font: inherit; font-size: 14px; text-align: left; cursor: pointer; transition: background-color .16s ease, color .16s ease; }
+.kb-topic:hover { background: var(--accent-soft); }
+.kb-topic[aria-pressed="true"] { background: var(--accent); color: var(--on-accent); }
+.kb-topic:focus-visible, .kb-copy:focus-visible, .kb-rel a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.kb-topic .n { font-family: var(--mono); font-size: 12px; opacity: .75; }
+.kb-field { display: flex; flex-direction: column; gap: 4px; font-size: 13px; color: var(--soft); min-width: 0; }
+.kb-field select { min-height: 40px; max-width: 100%; }
+.kb-main { min-width: 0; }
+.kb-scope { font-family: var(--mono); font-size: 12px; color: var(--soft); margin: 4px 0 0; }
+.kb-scope b { color: var(--ink); font-weight: 600; }
+.kb-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 14px; padding: 14px 0; border-bottom: 1px solid var(--line); }
+.kb-row__main { grid-column: 1; margin: 0; font-size: 16px; line-height: 1.75; color: var(--ink); overflow-wrap: anywhere; }
+.kb-row__main a { color: inherit; text-decoration: none; }
+.kb-row__main a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.kb-row__sub { grid-column: 1; margin: 0; font-size: 13px; color: var(--soft); overflow-wrap: anywhere; }
+.kb-syn-tag { display: inline-block; padding: 0 6px; margin-right: 4px; border-radius: 2px; font-size: 11.5px; line-height: 1.5; background: var(--accent-soft); color: var(--ink); vertical-align: baseline; }
+.kb-row__frag { grid-column: 1; margin: 2px 0 0; font-size: 13px; color: var(--soft); border-left: 2px solid var(--line); padding-left: 8px; overflow-wrap: anywhere; }
+.kb-copy { grid-column: 2; grid-row: 1; align-self: start; min-height: 40px; min-width: 56px; padding: 6px 10px;
+  border: 1px solid var(--line); border-radius: 2px; background: transparent; color: var(--soft); font: inherit; font-size: 13px; cursor: pointer;
+  transition: color .16s ease, border-color .16s ease; }
+.kb-copy:hover { color: var(--ink); border-color: var(--accent); }
+mark.kb-hit { color: inherit; background: linear-gradient(transparent 58%, var(--accent-soft) 58%) no-repeat 0 0 / 0% 100%;
+  animation: kb-hit .42s cubic-bezier(.2, .7, .2, 1) forwards; animation-delay: calc(var(--i, 0) * 30ms + 140ms); }
+@keyframes kb-hit { to { background-size: 100% 100%; } }
+.kb-rel { margin: 10px 0 0; padding: 12px 0; border-top: 1px dashed var(--line); }
+.kb-rel p { margin: 0 0 8px; color: var(--soft); font-size: 14px; }
+.kb-rel .kb-rel__topics { display: flex; flex-wrap: wrap; gap: 6px; }
+#ftBlock .section-sub, #ftBlock .meta { overflow-wrap: anywhere; }   /* 提示里的 ?ft=http://… 是不可断长串：320px × 文字 200% 实测撑出 47px */
+.kb-docs { margin: 18px 0 0; border-top: 1px solid var(--line); padding-top: 10px; }
+.kb-docs summary { cursor: pointer; color: var(--soft); font-size: 14px; min-height: 40px; display: flex; align-items: center; }
+::view-transition-old(kb-scope), ::view-transition-new(kb-scope) { animation-duration: .34s; animation-timing-function: cubic-bezier(.2, .7, .2, 1); }
+@media (prefers-reduced-motion: reduce) {
+  mark.kb-hit { animation: none; background-size: 100% 100%; }
+  .kb-topic, .kb-copy { transition: none; }
+}
+@media (max-width: 860px) {
+  .kb-search.wrap { padding-left: 16px; padding-right: 16px; }   /* 站点样式在小屏把 .wrap 内边距设成 0，实测 390 宽时标题左边距 0 */
+  .kb-layout { grid-template-columns: minmax(0, 1fr); gap: 12px; }
+  .kb-aside { position: static; gap: 10px; }
+  .kb-topics { flex-direction: row; overflow-x: auto; gap: 6px; padding-bottom: 4px; }
+  .kb-topic { width: auto; white-space: nowrap; border: 1px solid var(--line); }
+  .kb-filters { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 8px; }
+  .kb-row { grid-template-columns: minmax(0, 1fr); }
+  .kb-copy { grid-column: 1; grid-row: auto; justify-self: start; }
+}
+</style>
 </head>
 <body>
 <a class="skip" href="#main">跳到主要内容</a>
@@ -44,55 +102,60 @@
   </div>
 </nav>
 
-<!-- 2026-09-20：标题从 <main id="main"> 里挪出来，换成全站统一的 .page-head。
-     原来它写的是 <div class="kb-head"> 直接放在 main 里（注释里还记着「34px 封面头 → 26px 一行，档案层不是封面页」）——
-     结果它是**全站唯一标题不在玻璃头里的页面**，一眼就看得出是另一套。
-     首屏有控件（搜索框）→ 按 2026-09-18 定的判据走**工具头**（左对齐、压缩留白），
-     与 explore / problem / stories 三个同样有控件的页保持一致。 -->
-<header class="page-head">
-  <div class="wrap">
-    <div class="eyebrow">Search</div>
-    <h1>全库搜索</h1>
-    <p>在 2682 张卡片里按题名、中文转述、原文摘录与出处检索</p>
-  </div>
-</header>
-
 <main class="wrap kb-search" id="main">
 
-  <!-- 搜索条（sticky）：主操作只有「检索」一个实心按钮；工具收进 ⋯ -->
-  <div class="kb-bar c-scope" id="searchbar">
-    <div class="kb-bar__row1">
-      <div class="c-search">
-        <svg class="c-search__icon" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="7" cy="7" r="5" stroke="currentColor" stroke-width="1.5"/><path d="M11 11l3.5 3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-        <input class="c-search__input" id="q" type="search" aria-label="全库搜索" placeholder="搜索：劳动 / 情感教育 / 后进生（多词用空格）">
-        <button class="c-search__clear" type="button" id="qClear" aria-label="清空">&#10005;</button>
+  <!-- 精简刊头（用户：去掉大标题卡）：一行标题 + 搜索框 -->
+  <div class="kb-top">
+    <h1>全库检索</h1>
+    <div class="kb-bar c-scope" id="searchbar">
+      <div class="kb-bar__row1">
+        <div class="c-search">
+          <svg class="c-search__icon" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="7" cy="7" r="5" stroke="currentColor" stroke-width="1.5"/><path d="M11 11l3.5 3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          <input class="c-search__input" id="q" type="search" aria-label="全库检索" placeholder="搜索：后进生 / 劳动教育 / 同情心（多词用空格）">
+          <button class="c-search__clear" type="button" id="qClear" aria-label="清空">&#10005;</button>
+        </div>
+        <button class="c-btn kb-bar__go" id="searchBtn" type="button"><span class="c-btn__label">检索</span></button>
+        <button class="c-btn c-btn--ghost" id="toolsBtn" type="button" aria-expanded="false" aria-controls="tools" aria-label="更多工具">&#8943;</button>
       </div>
-      <button class="c-btn kb-bar__go" id="searchBtn" type="button"><span class="c-btn__label">检索</span></button>
-      <button class="c-btn c-btn--ghost" id="toolsBtn" type="button" aria-expanded="false" aria-controls="tools" aria-label="更多工具">&#8943;</button>
+      <div class="kb-bar__tools" id="tools" hidden>
+        <button class="c-btn c-btn--ghost" id="randomBtn" type="button"><span class="c-btn__label">随机一卡</span></button>
+        <button class="c-btn c-btn--ghost" id="exportJson" type="button"><span class="c-btn__label">导出本页 JSON</span></button>
+        <button class="c-btn c-btn--ghost" id="exportCsv" type="button"><span class="c-btn__label">导出本页 CSV</span></button>
+      </div>
     </div>
-    <div class="kb-bar__facets">
-      <select aria-label="筛选：来源" id="fSource" class="kb-sel"></select>
-      <select aria-label="筛选：主题" id="fTopic" class="kb-sel"></select>
-      <select aria-label="筛选：类型" id="fType" class="kb-sel"></select>
-      <select aria-label="筛选：每页条数" id="fSize" class="kb-sel">
-        <option value="10">每页 10</option>
-        <option value="20" selected>每页 20</option>
-        <option value="50">每页 50</option>
-      </select>
-    </div>
-    <div class="kb-bar__tools" id="tools" hidden>
-      <button class="c-btn c-btn--ghost" id="randomBtn" type="button"><span class="c-btn__label">随机一卡</span></button>
-      <button class="c-btn c-btn--ghost" id="exportJson" type="button"><span class="c-btn__label">导出本页 JSON</span></button>
-      <button class="c-btn c-btn--ghost" id="exportCsv" type="button"><span class="c-btn__label">导出本页 CSV</span></button>
-    </div>
+    <p class="kb-count" id="countline" role="status" aria-live="polite">正在载入全部卡片索引…</p>
   </div>
 
-  <!-- 计数行：一行等宽小字（档案层 A6「计数不要做成统计卡」） -->
-  <p class="kb-count" id="countline" role="status" aria-live="polite"></p>
+  <div class="kb-layout">
+    <!-- 左栏：主题地图（闲逛的人从整体点到局部）+ 来源 / 类型筛选（补上可见标签） -->
+    <aside class="kb-aside" aria-label="主题与筛选">
+      <nav aria-label="主题地图">
+        <h2>主题地图</h2>
+        <ul class="kb-topics" id="topicMap"></ul>
+      </nav>
+      <div class="kb-filters">
+        <label class="kb-field">来源<select id="fSource" class="kb-sel"></select></label>
+        <label class="kb-field">类型<select id="fType" class="kb-sel"></select></label>
+        <label class="kb-field">每页<select id="fSize" class="kb-sel">
+          <option value="10">10 条</option>
+          <option value="20" selected>20 条</option>
+          <option value="50">50 条</option>
+        </select></label>
+      </div>
+    </aside>
 
-  <div id="docsBlock"></div>
-  <div class="rows c-scope" id="results"></div>
-  <div class="kb-pager c-scope" id="pager"></div>
+    <section class="kb-main" aria-label="检索结果">
+      <p class="kb-scope" id="scopeHead" hidden></p>
+      <div class="rows c-scope" id="results">
+        <div class="kb-row" aria-hidden="true"><div class="c-skel c-skel--title"></div><div class="c-skel c-skel--line"></div></div>
+        <div class="kb-row" aria-hidden="true"><div class="c-skel c-skel--title"></div><div class="c-skel c-skel--line"></div></div>
+        <div class="kb-row" aria-hidden="true"><div class="c-skel c-skel--title"></div><div class="c-skel c-skel--line is-short"></div></div>
+      </div>
+      <div id="relatedBlock"></div>
+      <div class="kb-pager c-scope" id="pager"></div>
+      <div id="docsBlock"></div>
+    </section>
+  </div>
 
   <!-- 全文检索（C 方案，2026-09-20）：书全文（616 万字）只在本机，接口只回**命中片段**。
        连不上本机 API 时整块降级为一句说明，上面的卡片检索不受影响。 -->
@@ -100,7 +163,7 @@
     <h2 class="section-title">全文检索：书全文</h2>
     <p class="section-sub" id="ftState">正在检测本机全文接口…</p>
     <form class="searchbox" id="ftForm" hidden>
-      <input id="ftQ" type="search" aria-label="全文检索"
+      <input id="ftQ" name="ftq" type="search" aria-label="全文检索"
              placeholder="在 616 万字书全文里找一句，如：集体舆论 / 自己对自己下命令" />
       <button class="searchbox-go" type="submit" aria-label="全文检索" title="全文检索">
         <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M15.4 15.4L21 21" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
@@ -142,6 +205,13 @@
   var out = document.getElementById("ftResults");
   var note = document.getElementById("ftNote");
   if (!BASE) { state.textContent = "未配置全文接口地址（config.js 的 fulltextBase）。"; return; }
+  /* 改版（2026-11-21）：全文层只在作者本机。公开站上去探测 127.0.0.1 对每个访客都是一条
+     ERR_CONNECTION_REFUSED 控制台报错（也让「无 console 报错」闸门判失败）。只在显式 ?ft= 或接口不是本机地址时探测。 */
+  if (!qs.get("ft") && /^https?:\/\/(127\.0\.0\.1|localhost)/.test(BASE)) {
+    state.textContent = "书全文（616 万字）只在本机（版权原因不进公开仓库）。在本机起服务（uvicorn api.main:app --port 8787）后，" +
+      "用 search.html?ft=http://127.0.0.1:8787 打开本页即可在这里检索。";
+    return;
+  }
   function api(path) {
     var ctl = new AbortController();
     var timer = setTimeout(function () { ctl.abort(); }, 6000);
@@ -184,27 +254,23 @@
 <script src="kb.js?v=20260920v39"></script>
 <script src="theme.js?v=20260920v39"></script>
 <script>
-/* 双模式检索：
- *   1) 后端可用（config.js 的 apiBase 指向 FastAPI / Cloudflare Worker）→ 服务端 FTS5 检索 + 分页 + 聚合
- *   2) 后端不可用（例如 *.workers.dev 在当前网络被屏蔽）→ 自动回退到静态分片（data/index.json + data/search/all.json）
- * 两种模式界面一致，用户无感；静态分片只在回退时按需加载，不拖慢首屏。 */
+/* 双模式检索（改版 2026-11-21）：
+ *   后端可用 → 服务端 FTS5（不变）；后端不可用（国内 *.workers.dev 常被屏蔽）→ 本地静态检索。
+ * 静态检索三处修改（量过的问题，见 web-standard runs/20261121-kb-search-example/search-baseline/）：
+ *   ① 等全部索引分片到齐再搜 —— 原来只拿第一片就搜，链接直达 60% 显示「0 条」（S5）
+ *   ② 按相关度排序 —— 原来完全不排序，标题就是查询词的卡排到第 31 位（A1）
+ *   ③ 精确命中为 0 时给「相近结果」与相关主题 —— 按双字切分找，原来换个说法就一片空（S2） */
 const CFG = window.KB_CONFIG || {};
 const API = (CFG.apiBase || "").replace(/\/$/, "");
 const $ = id => document.getElementById(id);
-let MODE = "api";          // api | static
-let SDATA = null;          // 静态回退数据 {index, corpusById}
+const reduced = () => window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+let MODE = "api";
+let SDATA = null;
 let META = { sources: [], topics: [] };
-let state = { q: "", source: "", topic: "", type: "", page: 1, size: 20, total: 0, pages: 0, items: [] };
+let state = { q: "", source: "", topic: "", type: "", page: 1, size: 20, total: 0, pages: 0, items: [], related: [] };
 
-function labelType(t){ return KB.typeLabel(t); }
-/* 搜索页副行只显示中文：kb.js 的 TYPE_LABELS 是「principle 原则」这种英文键+中文，
-   在中文阅读面上读起来像机器输出。**只在这里剥前缀**，不动全站共用的 TYPE_LABELS。 */
-function zhType(t){ return String(labelType(t) || '').replace(/^[a-z][a-z-]*\s+/, ''); }
-function topicTitle(slug){ const t = META.topics.find(x => x.slug === slug); return t ? t.title : slug; }
-function sourceTitle(slug){ const s = META.sources.find(x => x.slug === slug); return s ? s.title : slug; }
+function zhType(t){ return String(KB.typeLabel(t) || '').replace(/^[a-z][a-z-]*\s+/, ''); }
 
-/* 后端探测/请求带超时：*.workers.dev 在国内常被屏蔽，TCP 连接会长时间挂起，
- * 不能让用户干等——4 秒不通就回退静态分片。 */
 async function api(path, timeoutMs){
   const ctl = new AbortController();
   const timer = setTimeout(() => ctl.abort(), timeoutMs || 4000);
@@ -214,187 +280,419 @@ async function api(path, timeoutMs){
     return await r.json();
   }catch(e){
     throw new Error(e.name === "AbortError" ? "后端无响应（超时）" : e.message);
-  }finally{
-    clearTimeout(timer);
-  }
+  }finally{ clearTimeout(timer); }
 }
 
-/* ---------- 静态回退 ---------- */
+/* ① 等全量索引：loadIndexProgressive 的返回值就是全部分片拼好的列表。期间页面显示骨架屏。 */
+let _fieldCache = null;
+let _fieldCacheHasCorpus = false;
+const _dfCache = new Map();
+
 async function loadStatic(){
   if(SDATA) return SDATA;
-  /* 2026-10-17 D4：只取索引第一片（约 39KB gzip）就能出结果；
-     全文语料 search/all.json（约 1.5MB gzip）改为按需——见下方 ensureCorpus()。 */
-  const index = await KB.loadIndexFast();
+  const index = await KB.loadIndexProgressive(function(){});
   SDATA = { index, corpusById: null };
-  /* 其余分片后台追加进 SDATA.index（静默：检索是按需触发的，用户下次搜就是全量的） */
-  try { KB.loadIndexProgressive(function(all){
-    if (all.length > SDATA.index.length) SDATA.index = all;
-  }); } catch(e){ console.warn("渐进加载失败", e); }
+  _fieldCache = null; _fieldCacheHasCorpus = false; _dfCache.clear();
   return SDATA;
 }
-
-/* 全文语料按需加载（2026-10-17 D4）：索引回退命中过少时才下这 1.5MB */
 async function ensureCorpus(){
   if(SDATA && SDATA.corpusById) return SDATA.corpusById;
   const corpus = await KB.loadSearch("all");
   SDATA.corpusById = new Map(corpus.map(e => [e.id, e]));
+  _fieldCache = null; _fieldCacheHasCorpus = true; _dfCache.clear();
   return SDATA.corpusById;
 }
 
-function snippetFor(c, terms){
-  const text = ((SDATA.corpusById && SDATA.corpusById.get(c.id)) || {}).text || "";
-  const lower = text.toLowerCase();
-  let pos = -1;
-  for(const t of terms){
-    const i = lower.indexOf(t);
-    if(i >= 0 && (pos < 0 || i < pos)) pos = i;
+/* ② 通用教育概念与日常中文同义词簇（纯静态 T0，基于知识库 23 条目与常见教学口语；不依赖后端） */
+const STOP_WORDS = new Set(["如何","怎么","怎样","为什么","为何","什么是","啥是","怎么看","怎样才能","能不能","要不要","可以吗"]);
+const SYN_GROUPS = [
+  ["妈妈","母亲","慈母","娘"],["爸爸","父亲"],["父母","家长","双亲","家庭","家里"],
+  ["爷爷","祖父","老人","长辈"],["奶奶","祖母"],
+  ["孩子","儿童","小孩","幼儿","幼童","童年"],["学生","学童","中学生","小学生","少年"],
+  ["青少年","少年","青年","青春期"],["老师","教师","教育者","班主任","校长","师德"],
+  ["同伴","同学","伙伴","朋友","友谊","友情"],
+  ["后进生","差生","学困生","学习困难","困难学生","智力发展迟缓","落后生","跟不上","学业困难"],
+  ["因材施教","个别对待","个体差异","抽象的学生","因人而异","分档","差异"],
+  ["读书","阅读","看书","朗读","默读"],["课外阅读","第二套大纲","非必修","课外书","读物","讲读会","泛读"],
+  ["书籍","藏书","书架","图书馆","图书","好书","书本"],["识字","认字","写字","读写","字词","词汇","语言","母语"],
+  ["写作","作文","造句","日记","表达","讲故事","童话","随笔"],["笔记","摘抄","抄写","记录"],
+  ["思考","思维","动脑","思索","理解","智力","头脑","智慧","领悟"],["死记","死记硬背","背书","背诵","记忆","机械记忆"],
+  ["好奇","兴趣","求知欲","热爱","热情","愿望","渴望"],["观察","发现","留意","感受","体验","细心"],
+  ["讲课","授课","上课","教学","课堂","听课","讲授"],["备课","教案","课程","教材","课本","教科书","大纲"],
+  ["提问","发问","问题","疑问","质疑","答问","回答"],["启发","引导","点拨","诱导","激发","唤醒","启迪"],
+  ["灌输","填鸭","说教","训导","强迫","硬塞","强制"],["注意力","专心","集中","分心","走神","专注"],
+  ["预习","复习","巩固","温习","练习","训练"],
+  ["分数","成绩","评分","考试","考查","评价","测验","两分","五分","不及格","打分"],
+  ["作业","功课","家庭作业","课业","负担","过重"],["数学","算术","几何","应用题","计算","解题","推理","逻辑"],
+  ["历史","历史课","祖国","爱国","过去","公民","民族"],["实验","动手实验","制作","模型","科学"],
+  ["自尊","尊严","面子","人格","尊重","羞耻","耻辱"],["嘲笑","讽刺","挖苦","讥笑","羞辱","取笑"],
+  ["批评","斥责","训斥","指责","责备","惩罚","处罚","体罚","打骂","处分"],
+  ["表扬","鼓励","赞扬","夸奖","激励","肯定","信任","信赖"],["耐心","宽容","等待","体谅","原谅","温和","和蔼","温柔"],
+  ["严厉","严格","苛刻","凶狠","粗暴","发火","生气","愤怒"],["偏心","歧视","不公","公正","公平"],
+  ["情绪","情感","感情","心情","内心","心灵","心境"],["控制","克制","支配","命令","管住","调节","约束","自制"],
+  ["痛苦","苦难","不幸","忧患","悲伤","难过","伤心","心痛"],
+  ["分担","同情","共情","关怀","体贴","忧患与共","同甘共苦","怜悯","同情心","爱心"],
+  ["善良","善意","良心","人道","人道主义","仁慈","高尚"],["道德","品德","德育","良心","情操","修养"],
+  ["冷漠","冷酷","无情","麻木","残忍"],["孤独","孤僻","孤单","不合群","寂寞"],
+  ["内向","害羞","胆小","腼腆","羞怯","沉默"],["顽皮","调皮","淘气","捣乱","不听话","叛逆","任性"],
+  ["骄傲","傲慢","自满","虚荣","炫耀"],["嫉妒","妒忌","眼红","攀比"],
+  ["懒惰","偷懒","懈怠","散漫","拖拉"],["勇敢","勇气","无畏","胆量","坚强","坚毅"],
+  ["自私","利己","贪婪","贪心","吝啬"],["慷慨","大方","无私","奉献","助人","帮助","互助","分享"],
+  ["诚实","真诚","说谎","撒谎","欺骗","虚伪","谎言"],["感恩","感激","孝顺","报答"],
+  ["责任","责任感","担当","义务","负责"],
+  ["自信","信心","乐观","信念","相信自己","自卑","怯懦"],
+  ["自我认识","自我教育","反思","自省","认识自己","看清自己","镜子"],
+  ["远大目标","理想","志向","抱负","追求","崇高","目标","梦想"],
+  ["习惯","养成","纪律","规矩","自觉","意志","毅力","坚持"],["表率","榜样","示范","以身作则","言传身教","家风"],
+  ["集体","班级","群体","大家","团队"],["独立","自主","自立","自理","依赖","包办"],
+  ["溺爱","宠爱","娇惯","纵容"],["吵架","争吵","不和","离婚","冲突","矛盾"],
+  ["沟通","谈心","交谈","对话","倾听","交流"],["错误","犯错","改错","缺点","过错","失误"],
+  ["劳动","干活","体力劳动","手工","做工","劳作","动手","种植","园艺"],["创造","创新","发明","想象","幻想","创作"],
+  ["大自然","自然界","自然","野外","田野","森林","草甸","树林","果园","花园","乡村","土地"],
+  ["美育","审美","艺术","音乐","绘画","画画","诗","诗歌","诗人","美感","美好"],
+  ["健康","体质","身体","体育","锻炼","运动","作息","睡眠","午休","午后","疲劳","疲倦"],
+  ["生病","病人","患病","病倒","疾病","病床","卧病","病了"],["看望","探访","探望","拜访","慰问","来看"],
+  ["游戏","玩耍","玩具"],["幼稚","天真","年幼","幼小","童真","稚嫩"],
+  ["白头发","白发","灰白","苍老","斑白"],["宗教","教派","迷信","教会","信条"],
+  ["毕业","离校","升学","长大","成年"],["空余时间","课余","自由时间","闲暇","休息","假期"],
+  ["早恋","爱情","恋爱","异性"],["幸福","快乐","欢乐","喜悦","愉快","精神生活"],
+  ["动物","小鸟","小狗","小猫","蜜蜂","蝴蝶","植物","花","树","玫瑰","种子"],["贫困","穷苦","贫穷","富裕","物质","享乐"]
+];
+const SYN_MAP = new Map();
+SYN_GROUPS.forEach(g => g.forEach(w => {
+  if(!SYN_MAP.has(w)) SYN_MAP.set(w, new Set());
+  g.forEach(o => { if(o !== w) SYN_MAP.get(w).add(o); });
+}));
+function getSyns(t){ return SYN_MAP.has(t) ? Array.from(SYN_MAP.get(t)) : []; }
+function isCJK(s){ return /^[一-鿿]+$/.test(s); }
+function proximityMatch(text, a, b, maxDist){
+  if(!text || !a || !b) return false;
+  let i = text.indexOf(a);
+  while(i !== -1){
+    const s = Math.max(0, i - maxDist), e = Math.min(text.length, i + a.length + maxDist);
+    if(text.slice(s, e).includes(b)) return true;
+    i = text.indexOf(a, i + 1);
   }
-  if(pos < 0) return (c.cn || c.preview || "").slice(0, 160);
-  return text.slice(Math.max(0, pos - 40), Math.max(0, pos - 40) + 160);
+  return false;
+}
+function splitCompound(t){
+  if(!isCJK(t)) return [];
+  if(t.length === 4) return [[t.slice(0, 2), t.slice(2, 4)]];
+  if(t.length === 3) return [[t[0], t.slice(1)], [t.slice(0, 2), t[2]]];
+  if(t.length >= 5){
+    const parts = [];
+    for(let i = 0; i < t.length - 1; i += 2) parts.push(t.slice(i, i + 2));
+    if(t.length % 2 === 1) parts.push(t.slice(-2));
+    return [parts];
+  }
+  return [];
 }
 
+/* 字段缓存 + 动态 IDF（纯前端运行时统计，约 15ms 建完，之后单次查询 <10ms） */
+function fieldsOf(c){
+  const corpus = SDATA.corpusById ? SDATA.corpusById.get(c.id) : null;
+  const title = (c.title || "").toLowerCase();
+  const cn = (c.cn || "").toLowerCase();
+  const tags = [c.primary, c.primary_name, KB.typeLabel(c.type)].concat(c.seealso || [], c.seealso_names || [], c.tax_tag_names || [], c.tags || [], (c.topics || []).map(KB.topicTitle)).filter(Boolean).join(" ").toLowerCase();
+  const src = (c.id + " " + KB.refText(c.ref) + " " + c.source + " " + KB.sourceTitle(c.source)).toLowerCase();
+  const corpusText = corpus ? ((corpus.text || "") + (corpus.usage ? "\n" + corpus.usage : "")) : "";
+  const rest = ((c.preview || "") + " " + corpusText).toLowerCase();
+  const all = KB.searchText(c, corpus) + " " + (c.tax_tag_names || []).join(" ").toLowerCase();
+  return { title, cn, tags, src, rest, corpusText, all };
+}
+function ensureFieldCache(){
+  const hasCorpus = Boolean(SDATA && SDATA.corpusById);
+  if(!_fieldCache || _fieldCacheHasCorpus !== hasCorpus || _fieldCache.length !== SDATA.index.length){
+    _fieldCache = SDATA.index.map(fieldsOf);
+    _fieldCacheHasCorpus = hasCorpus;
+    _dfCache.clear();
+  }
+  return _fieldCache;
+}
+function idfOf(tok){
+  if(_dfCache.has(tok)) return _dfCache.get(tok);
+  const fc = ensureFieldCache(), n = fc.length;
+  let df = 0;
+  for(let i = 0; i < n; i++) if(fc[i].all.includes(tok)) df++;
+  const v = Math.log((n + 1) / (df + 1)) + 1;
+  _dfCache.set(tok, v);
+  return v;
+}
+function fieldWeight(f, tok){
+  if(f.title.includes(tok)) return 3.6;
+  if(f.cn.includes(tok)) return 2.2;
+  if(f.tags.includes(tok)) return 2.0;
+  if(f.src.includes(tok)) return 1.3;
+  if(f.rest.includes(tok)) return 1.2;
+  return 0;
+}
+function scoreCard(f, terms){
+  let s = 0;
+  for(const t of terms){
+    if(f.title.includes(t)) s += 10;
+    else if(f.cn.includes(t)) s += 4;
+    else if(f.tags.includes(t)) s += 3;
+    else if(f.src.includes(t)) s += 2;
+    else if(f.rest.includes(t)) s += 1;
+  }
+  if(terms.length && terms.every(t => f.title.includes(t))) s += 6;
+  const whole = terms.join("");
+  if(whole.length > 1 && f.title.includes(whole)) s += 4;
+  return s;
+}
+function coverage(f, terms){
+  if(!terms.length || !terms.every(t => f.title.includes(t))) return 0;
+  return terms.join("").length / Math.max(1, f.title.length);
+}
+function termFreq(f, terms){
+  let n = 0;
+  for(const t of terms){ if(t) n += Math.min(3, f.cn.split(t).length - 1); }
+  return n;
+}
+function evalClause(f, t){
+  const fw = fieldWeight(f, t);
+  if(fw > 0) return { kind: "exact", score: fw * idfOf(t), matched: [t] };
+  let best = null;
+  const consider = (kind, score, matched) => { if(!best || score > best.score) best = { kind, score, matched }; };
+  for(const syn of getSyns(t)){
+    const sw = fieldWeight(f, syn);
+    if(sw > 0) consider("syn", sw * idfOf(syn) * 0.72, [syn]);
+  }
+  for(const parts of splitCompound(t)){
+    let ok = true, sumScore = 0; const ms = [];
+    for(const p of parts){
+      let pw = fieldWeight(f, p), m = p, mult = 1.0;
+      if(!pw && p.length >= 2){
+        for(const syn of getSyns(p)){
+          const sw = fieldWeight(f, syn);
+          if(sw > pw){ pw = sw; m = syn; mult = 0.72; }
+        }
+      }
+      if(!pw){ ok = false; break; }
+      sumScore += pw * idfOf(m) * mult; ms.push(m);
+    }
+    if(ok){
+      const has1 = parts.some(p => p.length === 1);
+      if(!has1 || proximityMatch(f.all, ms[0], ms[1], 8)) consider("compound", (sumScore / parts.length) * 0.90, ms);
+    }
+  }
+  if(isCJK(t) && t.length === 2){
+    const a = t[0], b = t[1];
+    if(proximityMatch(f.title, a, b, 6)) consider("prox", 3.6 * Math.max(idfOf(a), idfOf(b)) * 0.85, [a, b]);
+    else if(proximityMatch(f.cn, a, b, 6)) consider("prox", 2.2 * Math.max(idfOf(a), idfOf(b)) * 0.85, [a, b]);
+    else if(proximityMatch(f.rest, a, b, 6)) consider("prox", 1.2 * Math.max(idfOf(a), idfOf(b)) * 0.85, [a, b]);
+  }
+  return best;
+}
+function passFilters(c){
+  if(state.source && c.source !== state.source) return false;
+  if(state.type && c.type !== state.type) return false;
+  if(state.topic && !(c.topics || []).includes(state.topic)) return false;
+  return true;
+}
+function parseQueryTerms(q){
+  const raw = (q || "").toLowerCase().split(/\s+/).filter(Boolean);
+  const kept = raw.filter(t => !STOP_WORDS.has(t));
+  return kept.length ? kept : raw;
+}
 function staticSearch(){
-  const terms = state.q.toLowerCase().split(/\s+/).filter(Boolean);
-  const list = SDATA.index.filter(c=>{
-    if(state.source && c.source !== state.source) return false;
-    if(state.type && c.type !== state.type) return false;
-    if(state.topic && !(c.topics||[]).includes(state.topic)) return false;
-    if(!terms.length) return true;
-    const text = KB.searchText(c, SDATA.corpusById ? SDATA.corpusById.get(c.id) : null);
-    return terms.every(t => text.includes(t));
-  });
+  const terms = parseQueryTerms(state.q);
+  const fc = ensureFieldCache();
+  if(!terms.length){
+    const list = SDATA.index.map((c, i) => ({c, i})).filter(({c}) => passFilters(c));
+    const start = (state.page - 1) * state.size;
+    return { total: list.length, exactTotal: list.length, items: list.slice(start, start + state.size).map(x => ({ ...x.c, _frag: "", _tier: 2, _hits: [] })), mode: "static-client" };
+  }
+  const exactList = [], conceptList = [], partialList = [];
+  for(let i = 0; i < SDATA.index.length; i++){
+    const c = SDATA.index[i];
+    if(!passFilters(c)) continue;
+    const f = fc[i];
+    if(terms.every(t => f.all.includes(t))){
+      exactList.push({
+        c, i, f, tier: 2, hits: terms,
+        s: scoreCard(f, terms), cov: coverage(f, terms), tf: termFreq(f, terms),
+        idf: terms.reduce((acc, t) => acc + fieldWeight(f, t) * idfOf(t), 0)
+      });
+    }else{
+      let matchedCount = 0, score = 0; const ms = [];
+      for(const t of terms){
+        const r = evalClause(f, t);
+        if(r){ matchedCount++; score += r.score; ms.push(...r.matched); }
+      }
+      if(matchedCount === terms.length){
+        let bonus = 0;
+        if(ms.length >= 2){
+          if(proximityMatch(f.title + " " + f.cn, ms[0], ms[1], 40)) bonus += 3.0;
+          else if(proximityMatch(f.rest, ms[0], ms[1], 60)) bonus += 1.5;
+        }
+        conceptList.push({ c, i, f, tier: 1, score: score + bonus, hits: Array.from(new Set(terms.concat(ms))) });
+      }else if(terms.length >= 3 && matchedCount >= terms.length - 1){
+        let bonus = 0;
+        if(ms.length >= 2 && proximityMatch(f.title + " " + f.cn, ms[0], ms[1], 40)) bonus += 2.5;
+        partialList.push({ c, i, f, tier: 1, score: (score + bonus) * 0.7, hits: Array.from(new Set(terms.concat(ms))) });
+      }
+    }
+  }
+  exactList.sort((a, b) => (b.s - a.s) || (b.cov - a.cov) || (b.tf - a.tf) || (b.idf - a.idf) || (a.i - b.i));
+  conceptList.sort((a, b) => (b.score - a.score) || (a.i - b.i));
+  partialList.sort((a, b) => (b.score - a.score) || (a.i - b.i));
+  let combined = exactList.length >= 20 ? exactList : exactList.concat(conceptList);
+  if(combined.length < 10 && partialList.length) combined = combined.concat(partialList.slice(0, 20 - combined.length));
   const start = (state.page - 1) * state.size;
-  const items = list.slice(start, start + state.size).map(c=>({
-    ...c, snippet: snippetFor(c, terms),
+  const items = combined.slice(start, start + state.size).map(x => ({
+    ...x.c, _frag: fragFor(x.c, x.f, x.hits), _tier: x.tier, _hits: x.hits
   }));
-  return { total: list.length, items, mode: "static-client" };
+  return { total: combined.length, exactTotal: exactList.length, items, mode: "static-client" };
+}
+/* 命中词不在概括里、只在全文里时，补一行「原文片段」，说明为什么是这条 */
+function fragFor(c, f, terms){
+  if(!terms.length || !f) return "";
+  const cn = (c.cn || "").toLowerCase(), title = (c.title || "").toLowerCase();
+  if(terms.some(t => t.length > 1 && (cn.includes(t) || title.includes(t)))) return "";
+  const text = f.corpusText; const low = text.toLowerCase();
+  let pos = -1;
+  for(const t of terms){ if(!t) continue; const k = low.indexOf(t); if(k >= 0 && (pos < 0 || k < pos)) pos = k; }
+  return pos < 0 ? "" : text.slice(Math.max(0, pos - 30), Math.max(0, pos - 30) + 110);
+}
+/* ③ 最终兜底相近结果：若精确与概念扩展都为 0，则按双字切分 + IDF 找最相关条目 */
+function grams(t){
+  if(/[一-鿿]/.test(t) && t.length >= 3){ const g = []; for(let i = 0; i < t.length - 1; i++) g.push(t.slice(i, i + 2)); return g; }
+  return [t];
+}
+function relatedSearch(){
+  const terms = parseQueryTerms(state.q);
+  const gs = Array.from(new Set(terms.flatMap(grams)));
+  if(!gs.length) return [];
+  const need = Math.max(1, Math.ceil(gs.length / 2));
+  const fc = ensureFieldCache();
+  const out = [];
+  SDATA.index.forEach((c, i) => {
+    if(!passFilters(c)) return;
+    const f = fc[i]; const hay = f.title + " " + f.cn + " " + f.tags + " " + f.rest;
+    const hit = gs.filter(g => hay.includes(g));
+    if(hit.length >= need){
+      const w = hit.reduce((acc, g) => acc + fieldWeight(f, g) * idfOf(g), 0);
+      out.push({c, i, n: hit.length, s: w});
+    }
+  });
+  out.sort((a, b) => (b.n - a.n) || (b.s - a.s) || (a.i - b.i));
+  return out.slice(0, 10).map(x => x.c);
 }
 
-/* 结果条目分三级（2026-09-18 改版）：
-     主行 = 摘录（要读的）· 副行 = 中文名 / 类型 / 书（要认的）· 尾行 = 编号（要溯源的）
-   改版前 6 个信息同一行同一样式，扫不动；英文内部值（quote / on-education /
-   learning-difficulties）已去掉，换成中文标签。 */
-/* E2 计数滚动：让人看见「筛掉了多少」。
-   reduced-motion 下直接给终值——不是「动画快一点」，是根本不动。 */
-let lastTotal = 0;
-function countUp(el, from, to, ms){
-  if(!el) return;
-  const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  if(reduced || from === to){ el.textContent = to; return; }
-  const t0 = performance.now();
-  (function step(t){
-    const k = Math.min(1, (t - t0) / ms);
-    el.textContent = Math.round(from + (to - from) * (1 - Math.pow(1 - k, 3)));
-    if(k < 1) requestAnimationFrame(step);
-  })(t0);
+/* 概括里带 Markdown 加粗（**…**）：先渲染成 <strong>，再只在文字段落里加命中高亮 ——
+   直接对整段 HTML 做替换，英文词（如 on）会命中 <strong> 标签名本身，把 HTML 弄坏。 */
+function hl(text, terms){
+  const html = KB.esc(text || "").replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>").replace(/\*\*/g, "");
+  const ts = terms.filter(t => t && (t.length > 1 || !isCJK(t))).map(t => KB.esc(t)).filter(Boolean).sort((a, b) => b.length - a.length);
+  if(!ts.length) return html;
+  const re = new RegExp("(" + ts.map(t => t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|") + ")", "gi");
+  return html.split(/(<[^>]+>)/).map(seg => seg.startsWith("<") ? seg : seg.replace(re, '<mark class="kb-hit">$1</mark>')).join("");
 }
-function cardHtml(c, i){
-  const quote = c.snippet || c.preview || c.cn || c.title;
+const plain = s => String(s || "").replace(/\*\*/g, "");
+function cardHtml(c, i, terms){
+  const href = `card.html?id=${encodeURIComponent(c.id)}#${KB.esc(c.id)}`;
+  const main = c.cn || c.preview || c.title;
   const meta = KB.cardMetaText(c);
-  return `<a class="row kb-row" style="--i:${i < 8 ? i : 8}" href="card.html?id=${encodeURIComponent(c.id)}#${KB.esc(c.id)}">
-    <p class="row-quote kb-row__main">${KB.esc(quote)}</p>
-    <p class="kb-row__sub">
-      <span class="row-title">${KB.esc(c.title)}</span>
+  const hlTerms = (c._hits && c._hits.length) ? c._hits : terms;
+  const synBadge = c._tier === 1 ? '<span class="kb-syn-tag" title="按同义词或相近概念匹配">相近</span>' : "";
+  return `<article class="kb-row" data-id="${KB.esc(c.id)}" style="--i:${i < 8 ? i : 8}">
+    <p class="kb-row__main"><a href="${href}">${hl(main, hlTerms)}</a></p>
+    <p class="kb-row__sub">${synBadge}<span class="row-title">${hl(c.title, hlTerms)}</span>
       <span class="kb-dot" aria-hidden="true">·</span><span>${KB.esc(zhType(c.type))}</span>
       <span class="kb-dot" aria-hidden="true">·</span>${KB.sourcePop(c.source)}
-      ${meta?`<span class="kb-dot" aria-hidden="true">·</span><span class="row-entry">${KB.esc(meta)}</span>`:""}
-    </p>
-    <p class="kb-row__tail"><span class="kb-id">${KB.esc(c.id)}</span></p>
-  </a>`;
+      ${meta ? `<span class="kb-dot" aria-hidden="true">·</span><span class="row-entry">${KB.esc(meta)}</span>` : ""}
+      <span class="kb-dot" aria-hidden="true">·</span><span class="kb-id">${KB.esc(c.id)}</span></p>
+    ${c._frag ? `<p class="kb-row__frag">原文片段：${hl(c._frag, hlTerms)}…</p>` : ""}
+    <button class="kb-copy" type="button" data-copy="${KB.esc(c.id)}" aria-label="复制「${KB.esc(c.title)}」的概括与出处">复制</button>
+  </article>`;
+}
+function citeText(c){
+  return `${plain(c.cn || c.title)}——《${KB.sourceTitle(c.source)}》${KB.refText(c.ref) ? "，" + KB.refText(c.ref) : ""}（苏霍姆林斯基教育知识库 ${c.id}）`;
 }
 
-/* 成篇材料（专题长文 / 概念页 / 入口页 / 归档问答）——**排在卡片前面**。
-   排序：标题命中 > 正文命中；同类里按正文命中次数（次数多说明这一篇真的在讲它）。
-   只在有关键词时显示：空搜索时把 59 条成篇材料全列出来没有意义。 */
 const KIND_LABEL = {topic:"专题长文", wiki:"旁挂层"};
 let DOCS = null;
 function docKindLabel(d){
-  return ({concept:"分析", "moc-entry":"条目入口", "moc-facet":"分面入口",
-           "moc-angle":"角度入口", "moc-facet-exception":"入口（例外）",
-           query:"归档问答"})[d.type] || KIND_LABEL[d.kind] || "成篇材料";
+  return ({concept:"分析", "moc-entry":"条目入口", "moc-facet":"分面入口", "moc-angle":"角度入口",
+           "moc-facet-exception":"入口（例外）", query:"归档问答"})[d.type] || KIND_LABEL[d.kind] || "成篇材料";
 }
+/* 成篇材料：折叠成一行放在结果下方（原来压在结果上方抢首屏） */
 function renderDocs(terms){
   const box = $("docsBlock");
   if(!box) return;
   if(!terms.length || !DOCS || !DOCS.length){ box.innerHTML = ""; return; }
-  const scored = DOCS.map(d=>{
-    const title = (d.title||"").toLowerCase(), text = (d.text||"").toLowerCase();
-    const inTitle = terms.every(t=>title.includes(t));
-    const hits = terms.reduce((n,t)=>n + (text.split(t).length - 1), 0);
-    const ok = terms.every(t=>title.includes(t) || text.includes(t));
-    return {d, ok, inTitle, hits};
-  }).filter(x=>x.ok).sort((a,b)=>(b.inTitle-a.inTitle) || (b.hits-a.hits));
+  const scored = DOCS.map(d => {
+    const title = (d.title || "").toLowerCase(), text = (d.text || "").toLowerCase();
+    return {d, ok: terms.every(t => title.includes(t) || text.includes(t)),
+            inTitle: terms.every(t => title.includes(t)), hits: terms.reduce((n, t) => n + (text.split(t).length - 1), 0)};
+  }).filter(x => x.ok).sort((a, b) => (b.inTitle - a.inTitle) || (b.hits - a.hits));
   if(!scored.length){ box.innerHTML = ""; return; }
-  const top = scored.slice(0, 3);   /* 2026-09-18：5 → 3。5 条成篇材料把卡片结果推到首屏之外 */
-  box.innerHTML = `
-    <div class="docs-block">
-      <h2 class="docs-head">先看这几篇 <span class="docs-note">已经写好的成篇材料（下面才是零散卡片）</span></h2>
-      ${top.map(({d})=>`
-        <a class="doc-row" href="${KB.esc(d.link)}">
-          <span class="doc-kind">${KB.esc(docKindLabel(d))}</span>
-          <span class="doc-title">${KB.esc(d.title)}</span>
-          <span class="doc-snip">${KB.linkify(KB.docSnippet(d, terms))}…</span>
-          <span class="doc-refs">${(d.refs||[]).length} 处卡引用</span>
-        </a>`).join("")}
-      ${scored.length > top.length ? `<p class="docs-more">另有 ${scored.length - top.length} 篇也提到这个词（换更专门的词能收敛）。</p>` : ""}
-    </div>`;
+  box.innerHTML = `<details class="kb-docs"><summary>另有 ${scored.length} 篇成篇材料提到这个词（专题长文 / 条目入口 / 问答）</summary>
+    ${scored.slice(0, 5).map(({d}) => `
+      <a class="doc-row" href="${KB.esc(d.link)}">
+        <span class="doc-kind">${KB.esc(docKindLabel(d))}</span>
+        <span class="doc-title">${KB.esc(d.title)}</span>
+        <span class="doc-snip">${KB.linkify(KB.docSnippet(d, terms))}…</span>
+      </a>`).join("")}</details>`;
 }
 
+function topicTitle(slug){ const t = META.topics.find(x => x.slug === slug); return t ? t.title : slug; }
 function fillFacets(){
-  const fS = $("fSource"), fT = $("fTopic"), fType = $("fType");
+  const fS = $("fSource"), fType = $("fType");
   fS.innerHTML = '<option value="">全部来源</option>';
-  fT.innerHTML = '<option value="">全部主题</option>';
   fType.innerHTML = '<option value="">全部类型</option>';
-  META.sources.forEach(s=>{ fS.insertAdjacentHTML("beforeend", `<option value="${s.slug}">${s.slug} · ${s.cards}</option>`); });
-  META.topics.forEach(t=>{ fT.insertAdjacentHTML("beforeend", `<option value="${t.slug}">${t.slug} · ${t.cards}</option>`); });
-  Object.keys(KB.TYPE_LABELS).forEach(t=>{ fType.insertAdjacentHTML("beforeend", `<option value="${t}">${labelType(t)}</option>`); });
+  META.sources.forEach(s => fS.insertAdjacentHTML("beforeend", `<option value="${KB.esc(s.slug)}">${KB.esc(s.title || s.slug)} · ${s.cards}</option>`));
+  Object.keys(KB.TYPE_LABELS).forEach(t => fType.insertAdjacentHTML("beforeend", `<option value="${t}">${KB.esc(zhType(t))}</option>`));
+  $("topicMap").innerHTML = META.topics.slice().sort((a, b) => b.cards - a.cards).map(t =>
+    `<li><button class="kb-topic" type="button" data-topic="${KB.esc(t.slug)}" aria-pressed="false">
+       <span>${KB.esc(t.title || t.slug)}</span><span class="n">${t.cards}</span></button></li>`).join("");
+}
+function syncTopics(){
+  document.querySelectorAll(".kb-topic").forEach(b => b.setAttribute("aria-pressed", b.dataset.topic === state.topic ? "true" : "false"));
 }
 
 async function initData(){
-  // file:// 下 origin 是 null，而后端（Cloudflare Worker）的 CORS 只放行
-  // https://craeatzeven.github.io —— **永远不可能连上**。
-  // 照样去试的代价：白等 4 秒超时 + 控制台留下一串 CORS 报错，
-  // 让"无 console 报错"这条验收闸门误判。**知道走不通就别去撞。**
-  /* 2026-09-18：**知道走不通就别去撞** 这条原来只覆盖 file://，
-     本地起 http.server 预览时照样去探测，被 CORS 拒 → console 两条报错，
-     让「无 console 报错」这条硬闸门在本地永远 FAIL（实测踩到）。
-     本地预览不是部署形态，同样不该去撞。 */
-  const offline = (location.protocol === "file:")
-    || /^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname);
+  const offline = (location.protocol === "file:") || /^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname);
   try{
-    if(offline) throw new Error("file:// 下不探测后端（origin 为 null，CORS 必然拒绝）");
+    if(offline) throw new Error("本地预览不探测后端");
     const m = await api("/api/meta");
-    META.sources = (m.sources||[]).map(s=>({slug:s.slug, title:s.slug, cards:s.cards}));
-    META.topics = (m.topics||[]).map(t=>({slug:t.slug, title:t.slug, cards:t.cards}));
+    META.sources = (m.sources || []).map(s => ({slug: s.slug, title: s.slug, cards: s.cards}));
+    META.topics = (m.topics || []).map(t => ({slug: t.slug, title: KB.topicTitle ? KB.topicTitle(t.slug) : t.slug, cards: t.cards}));
     MODE = "api";
-    $("apiState").textContent = `后端已连接 · 共 ${m.total_cards} 张卡 · 来源 ${m.sources.length} · 主题 ${m.topics.length}（API：${API || "同源"}）`;
+    $("apiState").textContent = `后端已连接 · 共 ${m.total_cards} 张卡（API：${API || "同源"}）`;
   }catch(e){
     MODE = "static";
     await loadStatic();
-    const meta = KB.meta;
-    META.sources = meta.sources.map(s=>({slug:s.slug, title:s.title, cards:s.cards||0}));
-    META.topics = meta.topics.map(t=>({slug:t.slug, title:t.title, cards:t.cards||0}));
-    $("apiState").textContent = `后端不可用（${e.message}），已切换到本地静态检索 · 共 ${meta.counts.cards} 张卡`;
+    /* 原版这里直接读 KB.meta，而 meta.json 还没加载 → 抛错被吞，来源 / 主题 / 类型下拉框全空（现版截图可见）。 */
+    const meta = await KB.ready();
+    META.sources = meta.sources.map(s => ({slug: s.slug, title: s.title, cards: s.cards || 0}));
+    META.topics = meta.topics.map(t => ({slug: t.slug, title: t.title, cards: t.cards || 0}));
+    $("apiState").textContent = `后端不可用（${e.message}），本地静态检索 · 共 ${SDATA.index.length} 张卡`;
+    setTimeout(() => { ensureCorpus().catch(() => {}); }, 300);
   }
   try { fillFacets(); } catch(e) { $("apiState").textContent += "（筛选器初始化失败：" + e.message + "）"; }
 }
 
+/* 动效①：结果重排时滑到新位置（FLIP）—— 表达「结果按相关度重新排了」 */
+function snapshot(box){
+  const m = new Map();
+  box.querySelectorAll(".kb-row[data-id]").forEach(el => m.set(el.dataset.id, el.getBoundingClientRect().top));
+  return m;
+}
+function flip(box, before){
+  if(reduced() || !before.size) return;
+  box.querySelectorAll(".kb-row[data-id]").forEach(el => {
+    const old = before.get(el.dataset.id);
+    if(old === undefined){ el.animate([{opacity: 0, transform: "translateY(6px)"}, {opacity: 1, transform: "none"}], {duration: 220, easing: "ease-out"}); return; }
+    const dy = old - el.getBoundingClientRect().top;
+    if(Math.abs(dy) > 1) el.animate([{transform: `translateY(${dy}px)`}, {transform: "none"}], {duration: 280, easing: "cubic-bezier(.2,.7,.2,1)"});
+  });
+}
+
 async function run(){
-  /* E1：结果更新不是硬切 —— 先让旧结果淡出 150ms，再换骨架 */
-  const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   const box = $("results");
-  if(!reduced && box.querySelector(".kb-row")){
-    box.style.opacity = "0";
-    await new Promise(r => setTimeout(r, 150));
-  }
-  /* 加载态用骨架屏（组件库 §13）：尺寸与真结果一致，否则加载完会跳版 */
-  box.innerHTML = Array.from({length: 5}).map(() => `
-    <div class="kb-row" style="border-bottom:1px solid var(--line);padding:14px 0">
-      <div class="c-skel c-skel--title"></div>
-      <div class="c-skel c-skel--line"></div>
-      <div class="c-skel c-skel--line is-short"></div>
-    </div>`).join("");
-  box.style.opacity = "1";
+  const before = snapshot(box);
   let r;
   try{
     if(MODE === "api"){
@@ -407,140 +705,176 @@ async function run(){
       r = await api("/api/search?" + p.toString());
     }else{
       r = staticSearch();
+      if(state.q && !SDATA.corpusById && (r.exactTotal || 0) < 10){ try{ await ensureCorpus(); r = staticSearch(); }catch(e4){ console.warn("语料加载失败，用索引结果", e4); } }
     }
   }catch(e){
     if(MODE === "api"){
       MODE = "static";
       try{
-        await loadStatic(); try { fillFacets(); } catch(e2) {} r = staticSearch();
-        /* D4：只靠索引命中过少时，再下全文语料重搜一次（1.5MB 只在需要时下载） */
-        if((r.total || 0) < 5){
-          try{ await ensureCorpus(); r = staticSearch(); }catch(e4){ console.warn("语料加载失败，用索引结果", e4); }
-        }
-        $("apiState").textContent = `后端请求失败（${e.message}），已切换到本地静态检索 · 共 ${SDATA.index.length} 张卡`;
+        await loadStatic(); r = staticSearch();
+        if(state.q && !SDATA.corpusById && (r.exactTotal || 0) < 10){ try{ await ensureCorpus(); r = staticSearch(); }catch(e4){} }
       }catch(e2){
-        $("results").innerHTML = `<p class="empty" style="display:block">检索失败：${e2.message}</p>`;
+        box.innerHTML = `<div class="c-state" style="display:block"><p class="c-state__title">检索失败：${KB.esc(e2.message)}</p>
+          <div class="c-state__actions"><button class="c-btn c-btn--ghost" type="button" id="retryBtn"><span class="c-btn__label">再试一次</span></button></div></div>`;
         return;
       }
     }else{
-      $("results").innerHTML = `<p class="empty" style="display:block">检索失败：${e.message}</p>`;
+      box.innerHTML = `<div class="c-state" style="display:block"><p class="c-state__title">检索失败：${KB.esc(e.message)}</p>
+        <div class="c-state__actions"><button class="c-btn c-btn--ghost" type="button" id="retryBtn"><span class="c-btn__label">再试一次</span></button></div></div>`;
       return;
     }
   }
+  const terms = parseQueryTerms(state.q);
   state.items = r.items || [];
   state.total = r.total || 0;
+  state.exactTotal = r.exactTotal != null ? r.exactTotal : state.total;
   state.pages = Math.max(1, Math.ceil(state.total / state.size));
-  /* 计数写成一行等宽小字（档案层 A6）——改版前是三个统计卡，
-     最显眼的位置放的是「检索模式 = filter」这种给开发者看的值；现已挪进技术说明。 */
-  $("countline").innerHTML = `<b id="totalNum">${lastTotal}</b> 条命中 · 第 ${state.page} / ${state.pages} 页`
-    + (state.q ? ` · 关键词「${KB.esc(state.q)}」` : "")
-    + ((state.source || state.topic || state.type) ? " · 已加筛选" : "");
-  $("apiState").textContent = (MODE === "api" ? "后端已连接" : "本地静态检索")
-    // 兜底默认值不再写死卡片数（2026-09-27）：数据没载入时宁可不显示总数，
-    // 也不要显示一个会过期的数字（此前是 1386，实际已 1675+）。
-    + ` · 检索模式 ${r.mode || MODE} · 命中 ${state.total}` + (SDATA ? ` / 共 ${SDATA.index.length} 张卡` : "");
-  countUp($("totalNum"), lastTotal, state.total, 320);
-  lastTotal = state.total;
-  box.classList.add("kb-in");
-  setTimeout(()=>box.classList.remove("kb-in"), 400);
-  box.innerHTML = state.items.length ? state.items.map((c, i) => cardHtml(c, i)).join("")
-    : `<div class="c-state" style="display:block">
-         <span class="c-state__icon" aria-hidden="true">&#9744;</span>
-         <p class="c-state__title">这个组合下没有内容</p>
-         <p class="c-state__desc">不是页面坏了。把筛选去掉，或者换一个词再试。</p>
-         <div class="c-state__actions"><button class="c-btn c-btn--ghost" type="button" id="resetBtn"><span class="c-btn__label">清空筛选</span></button></div>
-       </div>`;
-  try{
-    if(DOCS === null) DOCS = await KB.loadDocs();
-    renderDocs(state.q.toLowerCase().split(/\s+/).filter(Boolean));
-  }catch(e){ /* 成篇材料取不到就不显示这一块，不影响卡片检索 */ }
-  $("pager").innerHTML = `
-    <button class="c-pager__item" id="prevBtn" type="button" aria-label="上一页" ${state.page<=1?"disabled":""}>&#8592;</button>
+  state.related = (state.total === 0 && terms.length && MODE === "static") ? relatedSearch() : [];
+
+  const scope = [];
+  if(state.topic) scope.push(`主题：<b>${KB.esc(topicTitle(state.topic))}</b>`);
+  if(state.source) scope.push("来源已筛选");
+  if(state.type) scope.push("类型已筛选");
+  $("scopeHead").hidden = !scope.length;
+  $("scopeHead").innerHTML = scope.join(" · ");
+  const splitTxt = (state.q && state.exactTotal < state.total)
+    ? `（精确 ${state.exactTotal} + 相近 ${state.total - state.exactTotal}）` : "";
+  $("countline").innerHTML = `<b>${state.total}</b> 条${splitTxt}` + (terms.length ? " · 按相关度" : "")
+    + (state.q ? ` · 关键词「${KB.esc(state.q)}」` : "") + ` · 第 ${state.page} / ${state.pages} 页`;
+  $("apiState").textContent = (MODE === "api" ? "后端已连接" : "本地静态检索") + ` · 命中 ${state.total}` + (SDATA ? ` / 共 ${SDATA.index.length} 张卡` : "");
+
+  box.innerHTML = state.items.length ? state.items.map((c, i) => cardHtml(c, i, terms)).join("")
+    : (state.q ? "" : `<div class="c-state" style="display:block"><p class="c-state__title">这个组合下没有内容</p>
+        <p class="c-state__desc">不是页面坏了。把筛选去掉再试。</p>
+        <div class="c-state__actions"><button class="c-btn c-btn--ghost" type="button" id="resetBtn"><span class="c-btn__label">清空筛选</span></button></div></div>`);
+  flip(box, before);
+  renderRelated(terms);
+  try{ if(DOCS === null) DOCS = await KB.loadDocs(); renderDocs(terms); }catch(e){}
+  $("pager").innerHTML = state.total > state.size ? `
+    <button class="c-pager__item" id="prevBtn" type="button" aria-label="上一页" ${state.page <= 1 ? "disabled" : ""}>&#8592;</button>
     <span class="kb-count" style="margin:0">第 ${state.page} / ${state.pages} 页</span>
-    <button class="c-pager__item" id="nextBtn" type="button" aria-label="下一页" ${state.page>=state.pages?"disabled":""}>&#8594;</button>`;
+    <button class="c-pager__item" id="nextBtn" type="button" aria-label="下一页" ${state.page >= state.pages ? "disabled" : ""}>&#8594;</button>` : "";
   const prev = $("prevBtn"), next = $("nextBtn");
-  if(prev) prev.addEventListener("click", ()=>{ state.page = Math.max(1, state.page-1); run(); });
-  if(next) next.addEventListener("click", ()=>{ state.page = Math.min(state.pages, state.page+1); run(); });
+  if(prev) prev.addEventListener("click", () => { state.page = Math.max(1, state.page - 1); run(); });
+  if(next) next.addEventListener("click", () => { state.page = Math.min(state.pages, state.page + 1); run(); });
+  syncUrl();
+}
+
+/* S2 搜不到：相近结果 + 相关主题入口 */
+function renderRelated(terms){
+  const box = $("relatedBlock");
+  if(!state.q || state.total > 0){ box.innerHTML = ""; return; }
+  const rel = state.related;
+  let topics = Array.from(new Set(rel.flatMap(c => c.topics || []))).slice(0, 4);
+  if(!topics.length) topics = META.topics.slice().sort((a, b) => b.cards - a.cards).slice(0, 4).map(t => t.slug);
+  box.innerHTML = `<div class="kb-rel">
+    <p>没有找到完全包含「${KB.esc(state.q)}」的卡片。${rel.length ? "下面是意思相近的：" : "换个说法试试，或从主题进入："}</p>
+    ${rel.length ? `<div class="rows">${rel.map((c, i) => cardHtml({...c, _frag: ""}, i, [])).join("")}</div>` : ""}
+    ${topics.length ? `<p style="margin-top:10px">${rel.length ? "相关主题" : "从主题进入"}：</p><div class="kb-rel__topics">${topics.map(t =>
+      `<button class="kb-topic" type="button" data-topic="${KB.esc(t)}" aria-pressed="false" style="width:auto;border:1px solid var(--line)">${KB.esc(topicTitle(t))}</button>`).join("")}</div>` : ""}
+  </div>`;
+}
+
+/* 动效③：点主题从整体放大进入局部（View Transition：被点的主题变形为结果上方的范围标题） */
+async function enterTopic(btn, slug){
+  const go = async () => { state.topic = (state.topic === slug ? "" : slug); state.page = 1; syncTopics(); await run(); };
+  if(!document.startViewTransition || reduced()){ await go(); return; }
+  btn.style.viewTransitionName = "kb-scope";
+  const vt = document.startViewTransition(async () => {
+    btn.style.viewTransitionName = "";
+    await go();
+    if(state.topic) $("scopeHead").style.viewTransitionName = "kb-scope";
+  });
+  try{ await vt.finished; }finally{ $("scopeHead").style.viewTransitionName = ""; }
+}
+
+/* 旧链接兼容（B3）：?q= &source= &topic= &type= &size= 照旧可用；检索后把当前条件写回地址栏，可分享 */
+function syncUrl(){
+  try{
+    const u = new URLSearchParams();
+    if(state.q) u.set("q", state.q);
+    if(state.source) u.set("source", state.source);
+    if(state.topic) u.set("topic", state.topic);
+    if(state.type) u.set("type", state.type);
+    if(state.size !== 20) u.set("size", state.size);
+    history.replaceState(null, "", location.pathname + (u.toString() ? "?" + u.toString() : "") + location.hash);
+  }catch(e){}
 }
 
 function downloadBlob(filename, text, type){
-  const blob = new Blob([text], {type});
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement("a");
-  a.href = url; a.download = filename; document.body.appendChild(a); a.click();
+  const blob = new Blob([text], {type}); const url = URL.createObjectURL(blob);
+  const a = document.createElement("a"); a.href = url; a.download = filename; document.body.appendChild(a); a.click();
   a.remove(); URL.revokeObjectURL(url);
 }
-function csvEscape(v){ const s = String(v==null?"":v).replace(/"/g,'""'); return /[",\n]/.test(s) ? `"${s}"` : s; }
+function csvEscape(v){ const s = String(v == null ? "" : v).replace(/"/g, '""'); return /[",\n]/.test(s) ? `"${s}"` : s; }
+async function copyText(text){
+  try{ await navigator.clipboard.writeText(text); return true; }
+  catch(e){
+    const t = document.createElement("textarea"); t.value = text; t.setAttribute("readonly", ""); t.style.position = "fixed"; t.style.opacity = "0";
+    document.body.appendChild(t); t.select(); let ok = false; try{ ok = document.execCommand("copy"); }catch(e2){} t.remove(); return ok;
+  }
+}
 
-document.addEventListener("DOMContentLoaded", async ()=>{
+document.addEventListener("DOMContentLoaded", async () => {
   try{ await initData(); }catch(e){ $("apiState").textContent = "初始化失败：" + e.message; }
-  $("searchBtn").addEventListener("click", ()=>{
-    state.q = $("q").value.trim(); state.source = $("fSource").value;
-    state.topic = $("fTopic").value; state.type = $("fType").value;
-    state.size = parseInt($("fSize").value, 10) || 20; state.page = 1; run();
-  });
-  /* 中文输入法：组合期那次 Enter 是「选字」，不是「提交」（2026-09-26 加）。
-     依据 recipes/cjk-input-and-search.md §1 —— 只信 isComposing 不够：
-     W3C issue #360 记录 Safari 的 compositionstart 在 keydown 之前、Firefox 起始 keydown 的 key 是 "Process"。
-     也不能改到 keyup：那时 isComposing 已回到 false，两次回车都会提交。 */
+  const readControls = () => { state.q = $("q").value.trim(); state.source = $("fSource").value; state.type = $("fType").value;
+    state.size = parseInt($("fSize").value, 10) || 20; state.page = 1; };
+  $("searchBtn").addEventListener("click", () => { readControls(); run(); });
   let imeActive = false;
-  $("q").addEventListener("compositionstart", ()=>{ imeActive = true;  });
-  $("q").addEventListener("compositionend",   ()=>{ imeActive = false; });
-  $("q").addEventListener("keydown", e=>{
+  $("q").addEventListener("compositionstart", () => { imeActive = true; });
+  $("q").addEventListener("compositionend", () => { imeActive = false; });
+  $("q").addEventListener("keydown", e => {
     if(e.key !== "Enter") return;
     if(e.isComposing || e.keyCode === 229 || e.key === "Process" || imeActive) return;
     $("searchBtn").click();
   });
-  ["fSource","fTopic","fType","fSize"].forEach(id=>$(id).addEventListener("change", ()=>$("searchBtn").click()));
-  /* URL 参数（?q=劳动&source=…）→ 填进筛选器并检索。
-     两个理由：① 检索结果**可以分享**了（此前只能让人自己再敲一遍）；
-     ② 自动化判据能用 `search.html?q=劳动` 直接验"先给成篇材料"这条，不必去模拟输入框。 */
+  ["fSource", "fType", "fSize"].forEach(id => $(id).addEventListener("change", () => $("searchBtn").click()));
+  document.addEventListener("click", async (e) => {
+    const t = e.target.closest ? e.target : null; if(!t) return;
+    const topicBtn = t.closest(".kb-topic");
+    if(topicBtn){ readControls(); await enterTopic(topicBtn, topicBtn.dataset.topic); return; }
+    const copyBtn = t.closest(".kb-copy");
+    if(copyBtn){
+      const c = state.items.concat(state.related).find(x => x.id === copyBtn.dataset.copy);
+      if(c){ const ok = await copyText(citeText(c)); copyBtn.textContent = ok ? "已复制" : "复制失败";
+        setTimeout(() => { copyBtn.textContent = "复制"; }, 1600); }
+      return;
+    }
+    if(t.closest("#resetBtn")){
+      $("q").value = ""; ["fSource", "fType"].forEach(id => { $(id).value = ""; }); state.topic = ""; syncTopics(); $("searchBtn").click(); return;
+    }
+    if(t.closest("#retryBtn")){ run(); }
+  });
   try{
     const u = new URLSearchParams(location.search);
     if(u.get("q")) $("q").value = u.get("q");
     if(u.get("source")) $("fSource").value = u.get("source");
-    if(u.get("topic")) $("fTopic").value = u.get("topic");
     if(u.get("type")) $("fType").value = u.get("type");
     if(u.get("size")) $("fSize").value = u.get("size");
-    if(u.get("q") || u.get("source") || u.get("topic") || u.get("type")){
-      $("searchBtn").click();
-      return;                                   // 参数已触发检索，不必再跑一次
-    }
+    readControls();
+    if(u.get("topic")){ state.topic = u.get("topic"); syncTopics(); }
   }catch(e){}
-  /* 2026-09-18 改版接线：工具收进 ⋯ / 清空按钮 / data-filled（组件库那套由 kit.js 管，这里只抄了 CSS） */
   const toolsBtn = $("toolsBtn"), toolsBox = $("tools");
-  if (toolsBtn && toolsBox) toolsBtn.addEventListener("click", ()=>{
+  if(toolsBtn && toolsBox) toolsBtn.addEventListener("click", () => {
     const open = toolsBtn.getAttribute("aria-expanded") === "true";
-    toolsBtn.setAttribute("aria-expanded", open ? "false" : "true");
-    toolsBox.hidden = open;
+    toolsBtn.setAttribute("aria-expanded", open ? "false" : "true"); toolsBox.hidden = open;
   });
   const qBox = $("q"), qWrap = qBox.closest(".c-search");
-  const syncFilled = ()=>{ if (qWrap) qWrap.setAttribute("data-filled", qBox.value ? "true" : "false"); };
+  const syncFilled = () => { if(qWrap) qWrap.setAttribute("data-filled", qBox.value ? "true" : "false"); };
   qBox.addEventListener("input", syncFilled); syncFilled();
   const qc = $("qClear");
-  if (qc) qc.addEventListener("click", ()=>{ qBox.value = ""; syncFilled(); qBox.focus(); });
-  /* 空态里的「清空筛选」是动态插入的，用委托 */
-  document.addEventListener("click", (e)=>{
-    if (e.target.closest && e.target.closest("#resetBtn")){
-      qBox.value = ""; syncFilled();
-      ["fSource","fTopic","fType"].forEach(id=>{ const el = $(id); if (el) el.value = ""; });
-      $("searchBtn").click();
-    }
-  });
-  $("randomBtn").addEventListener("click", async ()=>{
+  if(qc) qc.addEventListener("click", () => { qBox.value = ""; syncFilled(); qBox.focus(); });
+  $("randomBtn").addEventListener("click", async () => {
     try{
-      if(MODE === "api"){ const c = await api("/api/random"); location.href = "card.html?id=" + encodeURIComponent(c.id) + "#" + c.id; }
-      else { const c = await KB.loadRandomCard(); location.href = "card.html?id=" + encodeURIComponent(c.id) + "#" + c.id; }
+      const c = MODE === "api" ? await api("/api/random") : await KB.loadRandomCard();
+      location.href = "card.html?id=" + encodeURIComponent(c.id) + "#" + c.id;
     }catch(e){ alert("取随机卡失败：" + e.message); }
   });
-  $("exportJson").addEventListener("click", ()=>downloadBlob("kb-search-page.json", JSON.stringify(state.items, null, 2), "application/json"));
-  $("exportCsv").addEventListener("click", ()=>{
-    const cols = ["id","type","title","source","topics","ref"];
-    const rows = [cols.join(",")].concat(state.items.map(c=>cols.map(k=>{
-      if(k === "topics") return csvEscape((c.topics||[]).join("|"));
-      return csvEscape(c[k]);
-    }).join(",")));
-    downloadBlob("kb-search-page.csv", "\ufeff" + rows.join("\n"), "text/csv;charset=utf-8");
+  $("exportJson").addEventListener("click", () => downloadBlob("kb-search-page.json", JSON.stringify(state.items, null, 2), "application/json"));
+  $("exportCsv").addEventListener("click", () => {
+    const cols = ["id", "type", "title", "source", "topics", "ref"];
+    const rows = [cols.join(",")].concat(state.items.map(c => cols.map(k => k === "topics" ? csvEscape((c.topics || []).join("|")) : csvEscape(c[k])).join(",")));
+    downloadBlob("kb-search-page.csv", "﻿" + rows.join("\n"), "text/csv;charset=utf-8");
   });
   run();
 });

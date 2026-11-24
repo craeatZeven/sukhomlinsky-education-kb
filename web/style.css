@@ -1710,7 +1710,7 @@ body{
   border-bottom:1px solid var(--nav-line);
   box-shadow:0 1px 0 rgba(0,0,0,.16), 0 12px 30px rgba(30,24,16,.10);
 }
-.topnav .inner{ height:62px; }
+.topnav .inner{ min-height:62px; height:auto; }
 .topnav .brand{ color:var(--nav-ink); letter-spacing:.07em; }
 .topnav .nav-group-btn{ color:var(--nav-ink-2); letter-spacing:.1em; }
 .topnav .nav-group-btn:hover,
